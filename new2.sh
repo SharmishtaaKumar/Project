@@ -10,4 +10,4 @@ cd Project_in_molecular_science
  ls general_scripts
  mkdir bin
  ls bin
-chmod 755 new2
+
