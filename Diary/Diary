@@ -1,6 +1,0 @@
-DIARY
-19th February
-I created my account on github and made new repositories containg the project info. I also made a bash script to be run to arrange my data.
-
-20th February
-I extracted my dataset from the site and made it into a dictionary containing the ids, sequence and topology. I am looking into how to convert the dataset into input vector format for modelling the svm.

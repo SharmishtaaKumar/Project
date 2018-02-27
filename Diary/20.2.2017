@@ -1,0 +1,2 @@
+After creating the parsed dataset I started working individually on the sequences and the topologies respectively. Since my dataset consisted of three topologies of the transmembrane helices, which are the three in number in my dataset(I,M,O) respectively, I created a dictionary assigning values to each of the topology.
+For the value of I:1,M:2 and O:3 which I assigned linearly, since the labels can take any numerical values related linearly.
