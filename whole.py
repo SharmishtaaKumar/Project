@@ -1,15 +1,15 @@
 import numpy as np
+from sklearn import svm
 def dataset(filename):
     filehandle = open(filename,'r')
     text = filehandle.readlines()
     identity=[]
     sequences=[]
     topologies=[]
-    Y=[]
+    y=[]
     dictionary={}
     A='0'
-    newlist=[]
-    listnew=[]
+    
     for line in text:
         if line[0]=='>':
             identity.append(line.rstrip())
@@ -26,41 +26,65 @@ def dataset(filename):
     for letter in tops:
     	for i in list(dicttop.keys()):
     		if letter==i:
-    			Y.append(dicttop.get(i))
-    print (Y)
+    			y.append(dicttop.get(i))
+    print (y)
+    
+    
     for line in text:
         if line[0]=='M':
         	sequences.append(line.rstrip())
-        	#print (sequences)
-        	seq = list(sequences[0])
-        	seqs=[A]+seq+[A]
-        	#print(seqs)
-        	a_a=['A','C','D','E','F','G','H','I','K','L','M','N','P','Q','R','S','T','V','W','Y']
-        	#print (a_a)
-        	binary= np.zeros(shape=(20,20), dtype=int)
-        	np.fill_diagonal(binary, 1)
-        	#print (binary)
-        	newbinary=binary.tolist()
-        	dictionary= zip(a_a,newbinary)
-        	dictseq = dict(dictionary)
-        	c={'0': [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
-        	dictseq.update(c)
-        	#print (c)
-        	#print (dictseq)
+        	for seq in sequences:
+        	    #print (sequences)
+        	    seqs=[A]+list(seq)+[A]
+        	    #print(seqs)
+        	
+    dictseq={}    
+    a_a=['A','C','D','E','F','G','H','I','K','L','M','N','P','Q','R','S','T','V','W','Y']
+    #print (a_a)
+    binary= np.zeros(shape=(20,20), dtype=int)
+    np.fill_diagonal(binary, 1)
+    #print (binary)
+    newbinary=binary.tolist()
+    dictionary= zip(a_a,newbinary)
+    dictseq = dict(dictionary)
+    c={'0': [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
+    dictseq.update(c)
+    #print (c)
+    #print (dictseq)
+    
+    
     i=iter(seqs)
     numofwin = int(len(seqs)-3/1)+1
+    hey=[]
     for i in range(0,numofwin):
     		newseq=(seqs[i:i+3])
-    		arr= ''.join(newseq)
-    		#print (newseq)
-    		for j in arr:
-    			newlist.extend(dictseq.get(j))
-    			#print(newlist)
-    		listnew=newlist
-    		#print(listnew)
-    		newarray=np.array(listnew)
-    		print(newarray)
-    		newlist.clear()
+    		#print(newseq)
+    		arr=''.join(newseq)
+    		#print(arr)
+    		hey.append(arr)
+    #print(hey)
+    listnew=[]
+    seqlist=[]	
+    for j in hey:
+        newlist=[]
+        for k in j:
+            for key,value in dictseq.items():
+                #print(value)
+                if k==key:
+                    newlist.extend(value)
+                    #print(newlist)
+        seqlist.append(newlist)
+        #print(seqlist)
+    listnew=seqlist
+    X=np.array(listnew)
+    print(X)	    
+            
+    		
+   #####################################################################################################################
+    
+    		
+    		
+    		
 if __name__=="__main__":
     (dataset('test1'))
             

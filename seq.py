@@ -35,10 +35,11 @@ def parser(file_name):
     		#print (newseq)
     		for j in arr:
     			newlist.extend(dictseq.get(j))
-    			print(newlist)
-    		listnew.append(newlist)
-    		print(listnew)
+    			#print(newlist)
+    		listnew=newlist
+    		#print(listnew)
+    		newarray=np.array(listnew)
+    		print(newarray)
     		newlist.clear()
-    	
 if __name__=="__main__":
     (parser('test1'))
