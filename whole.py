@@ -13,7 +13,7 @@ def dataset(filename):
     for line in text:
         if line[0]=='>':
             identity.append(line.rstrip())
-            print(identity)
+            #print(identity)
     for line in text:
         if line[0]!= '>': 
             if line[0]!= 'M':
@@ -79,11 +79,9 @@ def dataset(filename):
     X=np.array(listnew)
     print(X)	    
             
-    		
-   #####################################################################################################################
     
-    		
-    		
+    clf = svm.SVC()
+    clf.fit(X, y)  	
     		
 if __name__=="__main__":
     (dataset('test1'))
