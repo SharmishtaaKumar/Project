@@ -9,12 +9,13 @@ def dataset(filename):
     y=[]
     dictionary={}
     A='0'
-#####identity
+##########identity
     for line in text:
         if line[0]=='>':
             identity.append(line.rstrip())
-            #print(identity)
-######topology
+    #print(identity)
+    
+##########topology
     for line in text:
         if line[0]!= '>': 
             if line[0]!= 'M':
@@ -31,8 +32,8 @@ def dataset(filename):
         #print(list_A)
         y.extend(list_A)
     #print(y)
-    
-######aminoacids sequences
+ 
+##########aminoacids
     for line in text:
         if line[0]=='M':
         	sequences.append(line.rstrip())
@@ -79,16 +80,27 @@ def dataset(filename):
         seqlist.append(newlist)
         #print(seqlist)
     listnew=seqlist
-    #print(listnew)
+    #print (listnew)
     X=np.array(listnew)
-    #print(X)
-    	    
-#####SVM
+    #print(X)	    
+    return X, y
+    ####SVM####            
+    
+    #clf = svm.SVC()
+    #clf.fit(X, o)
+    #print(clf.predict(X))
+def try_stuff (part1,part2) :   
+    trainX, trainY=dataset(part1)
+    testX,testY=dataset(part2)
+    #print(trainX.shape, trainY.shape, testX.shape)
     clf = svm.SVC()
-    print(clf.fit(X, y))
-    print(clf.predict(X))           
+    clf.fit(trainX, trainY)
+    print(clf.predict(testX))
     
     
-
+    
+    
+    
 if __name__=="__main__":
-    (dataset('test1'))
+    try_stuff('test.txt', 'test1.txt')
+    #print(dataset('test1'))
