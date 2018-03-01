@@ -1,0 +1,1 @@
+I got the particular inputs needed for the SVM to run and hence obtained both the values in form required, which is as a numpy array for the sequences and as numerical values for the sequences. I created an SVM using the same and classified the given labels with the features.

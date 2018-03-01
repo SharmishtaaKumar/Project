@@ -1,0 +1,2 @@
+I worked mostly on the preparing for the presentation today, since it we were supposed to present it to our peers. I read the paper and prepared the slides for the same.
+ I also couldn't get my input working for multiple sequences and hence i tried to rectify the code and where i went wrong. In both the topology as well as the sequences i made changes to the code such that it can read more than one sequence and return the result. For the SVM i tried to now take two files to train and test the predictor. 
