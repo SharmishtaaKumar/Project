@@ -6,30 +6,35 @@ def dataset(filename):
     identity=[]
     sequences=[]
     topologies=[]
-    y=[]
+    o=[]
     dictionary={}
     A='0'
-    
+##########identity
     for line in text:
         if line[0]=='>':
             identity.append(line.rstrip())
-            #print(identity)
+    #print(identity)
+    
+##########topology
     for line in text:
         if line[0]!= '>': 
             if line[0]!= 'M':
             	topologies.append(line.rstrip())
-            	#print (topologies)
-            	tops=list(topologies[0])
-            	#print(tops)
-            	dicttop = {'I':1, 'M':2, 'O':3}
-            	#print(list(dicttop.keys()))
-    for letter in tops:
-    	for i in list(dicttop.keys()):
-    		if letter==i:
-    			y.append(dicttop.get(i))
-    print (y)
-    
-    
+    #print (topologies)    	
+    dicttop = {'I': 1, 'M': 2, 'O': 3}
+    #print(list(dicttop.items()))
+    new = [] 
+    y=[]        
+    for topo in topologies:
+        list_A = []
+        for z in topo:
+            list_A.append(dicttop[z])
+        #print(list_A)
+    o.extend(list_A)
+    y=np.array(o)
+    #print(y)
+ 
+##########aminoacids
     for line in text:
         if line[0]=='M':
         	sequences.append(line.rstrip())
@@ -76,13 +81,28 @@ def dataset(filename):
         seqlist.append(newlist)
         #print(seqlist)
     listnew=seqlist
+    #print (listnew)
     X=np.array(listnew)
-    print(X)	    
-            
+    #print(X)	    
+    return X, y
+####SVM####            
     
+    #clf = svm.SVC()
+    #clf.fit(X, y)
+    #print(clf.predict(X))
+def try_stuff (part1,part2) :   
+    trainX, trainY=dataset(part1)
+    print(trainX.shape,trainY.shape)
+    testX,testY=dataset(part2)
+    print(testX.shape)
     clf = svm.SVC()
-    clf.fit(X, y)  	
-    		
+    clf.fit(trainX, trainY)
+    print(clf.predict(testX))
+    
+    
+    
+    
+    
 if __name__=="__main__":
-    (dataset('test1'))
+    try_stuff('test', 'test1')
             
