@@ -30,8 +30,9 @@ def dataset(filename):
         for z in topo:
             list_A.append(dicttop[z])
         #print(list_A)
-        y.extend(list_A)
-    #print(y)
+    y.extend(list_A)
+    O=np.array(y)
+    #print(len(O))
  
 ##########aminoacids
     for line in text:
@@ -82,17 +83,17 @@ def dataset(filename):
     listnew=seqlist
     #print (listnew)
     X=np.array(listnew)
-    #print(X)	    
-    return X, y
+    #print(len(X))	    
+    return X, O
     ####SVM####            
     
     #clf = svm.SVC()
     #clf.fit(X, o)
     #print(clf.predict(X))
-def try_stuff (part1,part2) :   
+def run_svm (part1,part2) :   
     trainX, trainY=dataset(part1)
     testX,testY=dataset(part2)
-    #print(trainX.shape, trainY.shape, testX.shape)
+    print(trainX.shape, trainY.shape, testX.shape)
     clf = svm.SVC()
     clf.fit(trainX, trainY)
     print(clf.predict(testX))
@@ -102,5 +103,7 @@ def try_stuff (part1,part2) :
     
     
 if __name__=="__main__":
-    try_stuff('test.txt', 'test1.txt')
-    #print(dataset('test1'))
+    run_svm('test.txt', 'test1.txt')
+    #print(dataset('test.txt'))
+        
+        
