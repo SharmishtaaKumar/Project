@@ -98,14 +98,16 @@ def run_svm (part1,part2) :
     clf = svm.SVC(kernel='linear', C=1)
     clf.fit(trainX, trainY)
     predicted=clf.predict(testX)
-    print(predicted)
-    topology_dict= {'I': 2, 'M': 4, 'O': 6}
+   #print(predicted)
+    topology_dict= {2:'I',4:'M',6:'O'}
     predicted_list=predicted.tolist()
-    print(predicted_list)
+   #print(predicted_list)
     list_tops=[]
     for number in predicted_list:
+       #print(number)
         list_tops.extend(topology_dict[number])
-    print(list_tops)
+    new_tops=''.join(list_tops)
+    print(new_tops)
     
 
     

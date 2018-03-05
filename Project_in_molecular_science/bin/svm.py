@@ -91,23 +91,7 @@ def dataset(filename):
 #########SVM###########            
     
     
-def run_svm (part1,part2) :   
-    trainX, trainY=dataset(part1)
-    testX,testY=dataset(part2)
-    #print(trainX.shape, trainY.shape, testX.shape)
-    clf = svm.SVC(kernel='linear', C=1)
-    clf.fit(trainX, trainY)
-    
-    predicted=clf.predict(testX)
-    #print(predicted)
-    topology_dict={'I': 2, 'M': 4, 'O': 6}
-    predicted_new=predicted.tolist()
-    #print(predicted_new)
-    predicted_tops=[]
-    for number in predicted_new:
-        #print(number)
-        predicted_tops.extend(topology_dict[number])
-    print(predicted_tops)
+
  
         
     
@@ -116,5 +100,5 @@ def run_svm (part1,part2) :
     
     
 if __name__=="__main__":
-    run_svm('test', 'test1')
-    #print(dataset('test.txt'))
+    #run_svm('test', 'test1')
+    print(dataset('test.txt'))
