@@ -1,5 +1,6 @@
 import numpy as np
 from sklearn import svm
+from sklearn.model_selection import cross_val_score
 def dataset(filename):
     filehandle = open(filename,'r')
     text = filehandle.readlines()
@@ -9,18 +10,19 @@ def dataset(filename):
     y=[]
     dictionary={}
     A='0'
-#####identity
+##########identity#########
     for line in text:
         if line[0]=='>':
             identity.append(line.rstrip())
-            #print(identity)
-######topology
+    #print(identity)
+    
+##########topology##########
     for line in text:
         if line[0]!= '>': 
             if line[0]!= 'M':
             	topologies.append(line.rstrip())
     #print (topologies)    	
-    dicttop = {'I': 1, 'M': 2, 'O': 3}
+    dicttop = {'I': 2, 'M': 4, 'O': 6}
     #print(list(dicttop.items()))
     new = [] 
     y=[]        
@@ -29,10 +31,11 @@ def dataset(filename):
         for z in topo:
             list_A.append(dicttop[z])
         #print(list_A)
-        y.extend(list_A)
-    #print(y)
-    
-######aminoacids sequences
+    y.extend(list_A)
+    O=np.array(y)
+    #print(len(O))
+ 
+##########aminoacids#######
     for line in text:
         if line[0]=='M':
         	sequences.append(line.rstrip())
@@ -79,16 +82,34 @@ def dataset(filename):
         seqlist.append(newlist)
         #print(seqlist)
     listnew=seqlist
-    #print(listnew)
+    #print (listnew)
     X=np.array(listnew)
-    #print(X)
-    	    
-#####SVM
-    clf = svm.SVC()
-    print(clf.fit(X, y))
-    print(clf.predict(X))           
+    #print(len(X))	    
+    return X, O
     
     
-
+#########SVM###########            
+    
+    
+def run_svm (part1,part2) :   
+    trainX, trainY=dataset(part1)
+    testX,testY=dataset(part2)
+    #print(trainX.shape, trainY.shape, testX.shape)
+    clf = svm.SVC(kernel='linear', C=1)
+    clf.fit(trainX, trainY)
+    
+    predicted=clf.predict(testX)
+    #print(predicted)
+    topology_dict={'I': 2, 'M': 4, 'O': 6}
+    predicted_new=predicted.tolist()
+    #print(predicted_new)
+    predicted_tops=[]
+    for number in predicted_new:
+        #print(number)
+        predicted_tops.extend(topology_dict[number])
+    print(predicted_tops)
+ 
+    
 if __name__=="__main__":
-    (dataset('test1'))
+    run_svm('test', 'test1')
+    #print(dataset('test.txt'))
