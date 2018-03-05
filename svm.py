@@ -10,13 +10,21 @@ def dataset(filename):
     y=[]
     dictionary={}
     A='0'
+<<<<<<< HEAD
 ##########identity#########
+=======
+##########identity
+>>>>>>> 60b3c0b94a493c3bcd4aa7e7a446919bb9186587
     for line in text:
         if line[0]=='>':
             identity.append(line.rstrip())
     #print(identity)
     
+<<<<<<< HEAD
 ##########topology##########
+=======
+##########topology
+>>>>>>> 60b3c0b94a493c3bcd4aa7e7a446919bb9186587
     for line in text:
         if line[0]!= '>': 
             if line[0]!= 'M':
@@ -35,7 +43,11 @@ def dataset(filename):
     O=np.array(y)
     #print(len(O))
  
+<<<<<<< HEAD
 ##########aminoacids#######
+=======
+##########aminoacids
+>>>>>>> 60b3c0b94a493c3bcd4aa7e7a446919bb9186587
     for line in text:
         if line[0]=='M':
         	sequences.append(line.rstrip())
@@ -86,6 +98,7 @@ def dataset(filename):
     X=np.array(listnew)
     #print(len(X))	    
     return X, O
+<<<<<<< HEAD
     
     
 #########SVM###########            
@@ -97,6 +110,23 @@ def run_svm (part1,part2) :
     #print(trainX.shape, trainY.shape, testX.shape)
     clf = svm.SVC(kernel='linear', C=1)
     clf.fit(trainX, trainY)
+=======
+    ####SVM####            
+    
+    #clf = svm.SVC()
+    #clf.fit(X, o)
+    #print(clf.predict(X))
+def run_svm (part1,part2) :   
+    trainX, trainY=dataset(part1)
+    testX,testY=dataset(part2)
+    print(trainX.shape, trainY.shape, testX.shape)
+    clf = svm.SVC()
+    clf.fit(trainX, trainY)
+    print(clf.predict(testX))
+    
+    
+    
+>>>>>>> 60b3c0b94a493c3bcd4aa7e7a446919bb9186587
     
     predicted=clf.predict(testX)
     #print(predicted)
@@ -111,5 +141,12 @@ def run_svm (part1,part2) :
  
     
 if __name__=="__main__":
+<<<<<<< HEAD
     run_svm('test', 'test1')
     #print(dataset('test.txt'))
+=======
+    run_svm('test.txt', 'test1.txt')
+    #print(dataset('test.txt'))
+        
+        
+>>>>>>> 60b3c0b94a493c3bcd4aa7e7a446919bb9186587
