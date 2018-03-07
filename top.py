@@ -15,7 +15,7 @@ def parser(file_name):
         list_A = []
         for z in topo:
             list_A.append(dicttop[z])
-        print(list_A)
+        #print(list_A)
         y.extend(list_A)
     print(y)
     print(len(y))	

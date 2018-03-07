@@ -1,20 +1,27 @@
 
 import numpy as np
-def parser(file_name):
+def parser(file_name,winlen):
     filehandle = open(file_name,'r')
     text = filehandle.readlines()
     sequences=[]
+    topologies=[]
     y=[]
     dictionary={}
     A='0'
-    
     for line in text:
         if line[0]=='M':
         	sequences.append(line.rstrip())
         	for seq in sequences:
         	    #print (sequences)
-        	    seqs=[A]+list(seq)+[A]
-        	    print(seqs)
+        	    seqs=''.join(sequences)
+        	    #print(seqs)
+        	    pad=int(winlen)//2
+        	    newseq=list(seqs)
+        	    #print(newseq)
+        	    sequence=(pad*[A])+(newseq)+(pad*[A])
+        	    print(sequence)
+        	    print(len(sequence))
+    #print(len(newseq))
         	
     dictseq={}    
     a_a=['A','C','D','E','F','G','H','I','K','L','M','N','P','Q','R','S','T','V','W','Y']
@@ -31,11 +38,12 @@ def parser(file_name):
     #print (dictseq)
     
     
-    i=iter(seqs)
-    numofwin = int(len(seqs)-3/1)+1
+    i=iter(sequence)
+    numofwin = int(len(sequence)-int(winlen)/1)+1
+    print(numofwin)
     hey=[]
     for i in range(0,numofwin):
-    		newseq=(seqs[i:i+3])
+    		newseq=(sequence[i:i+int(winlen)])
     		#print(newseq)
     		arr=''.join(newseq)
     		#print(arr)
@@ -44,7 +52,7 @@ def parser(file_name):
     listnew=[]
     seqlist=[]	
     for j in hey:
-        print(j)
+        #print(j)
         newlist=[]
         for k in j:
             for key,value in dictseq.items():
@@ -53,9 +61,10 @@ def parser(file_name):
                     newlist.extend(value)
                     #print(newlist)
         seqlist.append(newlist)
-        #print(seqlist)
+   # print(seqlist)
     listnew=seqlist
+    #print(len(listnew))
     X=np.array(listnew)
-    #print(X)
+    print(len(X))
 if __name__=="__main__":
-    (parser('test1'))
+    (parser('test','5'))

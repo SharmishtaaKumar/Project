@@ -45,8 +45,14 @@ def dataset(filename,winlen):
         	for seq in sequences:
         	    #print (sequences)
         	    seqs=''.join(sequences)
-        	    sequence=[A]+list(seqs)+[A]
-        	print(sequence)
+        	    #print(seqs)
+        	    pad=int(winlen)//2
+        	    newseq=list(seqs)
+        	    #print(newseq)
+        	    sequence=(pad*[A])+(newseq)+(pad*[A])
+        	    #print(sequence)
+        	    #print(len(sequence))
+    #print(len(newseq))
         	
     dictseq={}    
     a_a=['A','C','D','E','F','G','H','I','K','L','M','N','P','Q','R','S','T','V','W','Y']
@@ -119,7 +125,7 @@ def run_svm (part1,part2,winlen) :
 
     
 if __name__=="__main__":
-    run_svm('trainmodel', 'test1','3')
+    run_svm('test', 'test1','3')
     #print(dataset('test.txt'))
   
         
