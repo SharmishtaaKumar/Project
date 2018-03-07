@@ -1,7 +1,8 @@
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import cross_val_score
-def dataset(filename):
+from sklearn.externals import joblib
+def dataset(filename,winlen):
     filehandle = open(filename,'r')
     text = filehandle.readlines()
     identity=[]
@@ -31,9 +32,11 @@ def dataset(filename):
         for z in topo:
             list_A.append(dicttop[z])
         #print(list_A)
-    y.extend(list_A)
-    O=np.array(y)
-    #print(len(O))
+        y.extend(list_A)   
+    #print(y)
+    #print(len(y))
+    P=np.array(y)
+    #print(P)
  
 ##########aminoacids#######
     for line in text:
@@ -41,8 +44,9 @@ def dataset(filename):
         	sequences.append(line.rstrip())
         	for seq in sequences:
         	    #print (sequences)
-        	    seqs=[A]+list(seq)+[A]
-        	    #print(seqs)
+        	    seqs=''.join(sequences)
+        	    sequence=[A]+list(seqs)+[A]
+        	print(sequence)
         	
     dictseq={}    
     a_a=['A','C','D','E','F','G','H','I','K','L','M','N','P','Q','R','S','T','V','W','Y']
@@ -59,11 +63,11 @@ def dataset(filename):
     #print (dictseq)
     
     
-    i=iter(seqs)
-    numofwin = int(len(seqs)-3/1)+1
+    i=iter(sequence)
+    numofwin = int(len(sequence)-int(winlen)/1)+1
     hey=[]
     for i in range(0,numofwin):
-    		newseq=(seqs[i:i+3])
+    		newseq=(sequence[i:i+int(winlen)])
     		#print(newseq)
     		arr=''.join(newseq)
     		#print(arr)
@@ -72,6 +76,7 @@ def dataset(filename):
     listnew=[]
     seqlist=[]	
     for j in hey:
+        #print(j)
         newlist=[]
         for k in j:
             for key,value in dictseq.items():
@@ -80,28 +85,30 @@ def dataset(filename):
                     newlist.extend(value)
                     #print(newlist)
         seqlist.append(newlist)
-        #print(seqlist)
+    #print(seqlist)
     listnew=seqlist
-    #print (listnew)
+    #print(len(listnew))
     X=np.array(listnew)
-    #print(len(X))	    
-    return X, O
+    #print(len(X))
+    return X, P
     
     
 #########SVM###########            
     
     
-def run_svm (part1,part2) :   
-    trainX, trainY=dataset(part1)
-    testX,testY=dataset(part2)
-    #print(trainX.shape, trainY.shape, testX.shape)
+def run_svm (part1,part2,winlen) :   
+    trainX, trainY=dataset(part1,winlen)
+    testX,testY=dataset(part2,winlen)
+    print(trainX.shape, trainY.shape, testX.shape)
     clf = svm.SVC(kernel='linear', C=1)
     clf.fit(trainX, trainY)
     predicted=clf.predict(testX)
-   #print(predicted)
+    #print(predicted)
+    score=cross_val_score(clf, trainX, trainY, cv=10)
+    print(np.average(score))
     topology_dict= {2:'I',4:'M',6:'O'}
     predicted_list=predicted.tolist()
-   #print(predicted_list)
+    #print(predicted_list)
     list_tops=[]
     for number in predicted_list:
        #print(number)
@@ -112,7 +119,7 @@ def run_svm (part1,part2) :
 
     
 if __name__=="__main__":
-    run_svm('test', 'test1')
+    run_svm('trainmodel', 'test1','3')
     #print(dataset('test.txt'))
   
         
