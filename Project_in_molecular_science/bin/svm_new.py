@@ -102,7 +102,7 @@ def dataset(filename,winlen):
 #########SVM###########            
     
     
-def run_svm (part1,winlen) :
+def run_svm (part1,part2,winlen) :
        
     trainX, trainY=dataset(part1,winlen)
     #testX,testY=dataset(part2,winlen)

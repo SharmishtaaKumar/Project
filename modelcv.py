@@ -1,13 +1,44 @@
-
 import numpy as np
-def parser(file_name,winlen):
-    filehandle = open(file_name,'r')
+from sklearn import svm
+from sklearn.model_selection import cross_val_score
+from sklearn.externals import joblib
+def dataset(filename,winlen):
+    filehandle = open(filename,'r')
     text = filehandle.readlines()
+    identity=[]
     sequences=[]
     topologies=[]
     y=[]
     dictionary={}
     A='0'
+##########identity#########
+    for line in text:
+        if line[0]=='>':
+            identity.append(line.rstrip())
+    #print(identity)
+    
+##########topology##########
+    for line in text:
+        if line[0]!= '>': 
+            if line[0]!= 'M':
+            	topologies.append(line.rstrip())
+    #print (topologies)    	
+    dicttop = {'I': 2, 'M': 4, 'O': 6}
+    #print(list(dicttop.items()))
+    new = [] 
+    y=[]        
+    for topo in topologies:
+        list_A = []
+        for z in topo:
+            list_A.append(dicttop[z])
+        #print(list_A)
+        y.extend(list_A)   
+    #print(y)
+    #print(len(y))
+    P=np.array(y)
+    #print(P)
+ 
+##########aminoacids#######
     for line in text:
         if line[0]=='M':
         	sequences.append(line.rstrip())
@@ -19,8 +50,8 @@ def parser(file_name,winlen):
         	    newseq=list(seqs)
         	    #print(newseq)
         	    sequence=(pad*[A])+(newseq)+(pad*[A])
-        	    print(sequence)
-        	    print(len(sequence))
+        	    #print(sequence)
+        	    #print(len(sequence))
     #print(len(newseq))
         	
     dictseq={}    
@@ -40,7 +71,6 @@ def parser(file_name,winlen):
     
     i=iter(sequence)
     numofwin = int(len(sequence)-int(winlen)/1)+1
-    print(numofwin)
     hey=[]
     for i in range(0,numofwin):
     		newseq=(sequence[i:i+int(winlen)])
@@ -61,10 +91,29 @@ def parser(file_name,winlen):
                     newlist.extend(value)
                     #print(newlist)
         seqlist.append(newlist)
-   # print(seqlist)
+    #print(seqlist)
     listnew=seqlist
     #print(len(listnew))
     X=np.array(listnew)
-    print(len(X))
+    #print(len(X))
+    return X, P
+    
+    
+#########SVM###########            
+    
+    
+def run_svm (part1,winlen) :
+       
+    trainX, trainY=dataset(part1,winlen)
+   
+    clf = svm.SVC(kernel='linear', C=1)
+    clf.fit(trainX, trainY)
+    predicted=clf.predict(testX)
+    inputfile='firstmodel.sav'
+    joblib.dump(clf_model,inputfile)
 if __name__=="__main__":
-    (parser('test','5'))
+    run_svm('test','31')
+    #print(dataset('test.txt'))
+  
+        
+        
