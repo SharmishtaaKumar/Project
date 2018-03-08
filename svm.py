@@ -102,30 +102,31 @@ def dataset(filename,winlen):
 #########SVM###########            
     
     
-def run_svm (part1,part2,winlen) :   
+def run_svm (part1,winlen) :
+       
     trainX, trainY=dataset(part1,winlen)
-    testX,testY=dataset(part2,winlen)
-    print(trainX.shape, trainY.shape, testX.shape)
+    #testX,testY=dataset(part2,winlen)
+    #print(trainX.shape, trainY.shape, testX.shape)
     clf = svm.SVC(kernel='linear', C=1)
     clf.fit(trainX, trainY)
-    predicted=clf.predict(testX)
+    #predicted=clf.predict(testX)
     #print(predicted)
-    score=cross_val_score(clf, trainX, trainY, cv=10)
+    score=cross_val_score(clf, trainX, trainY, cv=3,verbose=True, n_jobs=-1)
     print(np.average(score))
-    topology_dict= {2:'I',4:'M',6:'O'}
-    predicted_list=predicted.tolist()
+    #topology_dict= {2:'I',4:'M',6:'O'}
+    #predicted_list=predicted.tolist()
     #print(predicted_list)
-    list_tops=[]
-    for number in predicted_list:
+    #list_tops=[]
+    #for number in predicted_list:
        #print(number)
-        list_tops.extend(topology_dict[number])
-    new_tops=''.join(list_tops)
-    print(new_tops)
+        #list_tops.extend(topology_dict[number])
+    #new_tops=''.join(list_tops)
+    #print(new_tops)
     
 
     
 if __name__=="__main__":
-    run_svm('test', 'test1','3')
+    run_svm('test1','3')
     #print(dataset('test.txt'))
   
         
