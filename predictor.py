@@ -33,7 +33,7 @@ for h in range(len(text)):
 		print(text[h])
 		print(text[h+1])
 		newout=newout+len(text[h+1])
+		print(newout)
 		l=''.join(list_tops[backto:newout])
 		print(l)
-		newout=backto
-    
+		backto=newout
