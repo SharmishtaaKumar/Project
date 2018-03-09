@@ -2,9 +2,9 @@ import modelcv
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import cross_val_score
-from sklearn.externals import joblib
+
 def cv(filename):
-    for winlen in range (33,36,2):
+    for winlen in range (3,32,2):
       
         trainX,trainY=modelcv.dataset('test',winlen)
         clf = svm.SVC(kernel='linear', C=1)
