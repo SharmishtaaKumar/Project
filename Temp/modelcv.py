@@ -110,7 +110,7 @@ def run_svm (part1,winlen) :
     clf.fit(trainX, trainY)
     #predicted=clf.predict(testX)
     inputfile='firstmodel.sav'
-    joblib.dump(clf_model,inputfile)
+    joblib.dump(clf,inputfile)
 if __name__=="__main__":
     run_svm('test','31')
     #print(dataset('test.txt'))

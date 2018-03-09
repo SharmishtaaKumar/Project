@@ -4,9 +4,9 @@ from sklearn import svm
 from sklearn.model_selection import cross_val_score
 from sklearn.externals import joblib
 
-winlen=3
-trainX,trainY=newsvm.dataset('test.txt')
-testX=newsvm.predictor('new.txt')
+
+trainX,trainY=newsvm.dataset('test')
+testX=newsvm.predictor('test1')
     
 clf = svm.SVC(kernel='linear', C=1)
 clf.fit(trainX, trainY)
@@ -26,7 +26,7 @@ print(list_tops)
 newout=0
 backto=0
 newlist=[]
-filehandle=open('new.txt','r')
+filehandle=open('test1.txt','r')
 text=filehandle.read().splitlines()
 for h in range(len(text)):
 	if text[h].startswith('>'):
