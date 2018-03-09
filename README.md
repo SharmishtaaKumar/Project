@@ -1,1 +1,3 @@
-Haven't organised the repository yet. Will do first thing on Monday. Right now the SVM code is saved as the file svm.py, the dataset files being test and test1 respectively.
+Organised my files. For the predictor, go to Project_in_Molecular_Science, codes and run pedictor.py
+The datasets for the testing(fasta file) is "test1".
+Modelcv.py is my firstmodel.sav, which is run for 60 protein in my dataset, input is given as "test" in the dataset.Cross validation was run for ranges of window sizes from (3,32), have uploaded the figure for the same.
