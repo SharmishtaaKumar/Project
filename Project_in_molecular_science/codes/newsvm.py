@@ -5,7 +5,7 @@ from sklearn.externals import joblib
 winlen=31
 test="../datasets/test"
 test1= "../datasets/test1"
-def dataset(filename):
+def dataset(filename,winlen):
   
     
     filehandle = open(filename,'r')
@@ -102,5 +102,5 @@ def dataset(filename):
     #print(len(X))
     return X, P
 if __name__=="__main__":
-  print(dataset('test'))
+  print(dataset(test,'31'))
    

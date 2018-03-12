@@ -7,7 +7,7 @@ from sklearn.externals import joblib
 tempfile = "../datasets/test1"
 
 savedmodel= joblib.load('firstmodel.sav')
-testX=newsvm.predictor(tempfile)
+testX=predictionparser.predictor(tempfile)
     
 
 predicted=savedmodel.predict(testX)

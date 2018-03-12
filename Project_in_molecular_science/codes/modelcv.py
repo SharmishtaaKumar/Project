@@ -113,8 +113,8 @@ def run_svm (part1,winlen) :
     inputfile='firstmodel.sav'
     joblib.dump(clf_model,inputfile)
 if __name__=="__main__":
-    run_svm('test','31')
-    
+    run_svm(test,'31')
+    #print(dataset('test','31')
   
         
         
