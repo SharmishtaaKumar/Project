@@ -2,14 +2,17 @@ import numpy as np
 from sklearn import svm
 from sklearn.model_selection import cross_val_score
 from sklearn.externals import joblib
-test="../datasets/test"
-def dataset(filename,winlen):
-    filehandle = open(filename,'r')
-    text = filehandle.readlines()
+winlen=31
+test1= "../datasets/test1"
+#######parser for prediction####
+def predictor(newfile):
+  
+    
+    filehandle = open(newfile,'r')
+    text = filehandle.read().splitlines()
     identity=[]
     sequences=[]
-    topologies=[]
-    y=[]
+    
     dictionary={}
     A='0'
 ##########identity#########
@@ -17,28 +20,6 @@ def dataset(filename,winlen):
         if line[0]=='>':
             identity.append(line.rstrip())
     #print(identity)
-    
-##########topology##########
-    for line in text:
-        if line[0]!= '>': 
-            if line[0]!= 'M':
-            	topologies.append(line.rstrip())
-    #print (topologies)    	
-    dicttop = {'I': 2, 'M': 4, 'O': 6}
-    #print(list(dicttop.items()))
-    new = [] 
-    y=[]        
-    for topo in topologies:
-        list_A = []
-        for z in topo:
-            list_A.append(dicttop[z])
-        #print(list_A)
-        y.extend(list_A)   
-    #print(y)
-    #print(len(y))
-    P=np.array(y)
-    #print(P)
- 
 ##########aminoacids#######
     for line in text:
         if line[0]=='M':
@@ -97,24 +78,8 @@ def dataset(filename,winlen):
     #print(len(listnew))
     X=np.array(listnew)
     #print(len(X))
-    return X, P
+    return X
     
     
-#########SVM###########            
-    
-    
-def run_svm (part1,winlen) :
-       
-    trainX, trainY=dataset(part1,winlen)
-   
-    clf = svm.SVC(kernel='linear', C=1)
-    clf.fit(trainX, trainY)
-    
-    inputfile='firstmodel.sav'
-    joblib.dump(clf_model,inputfile)
 if __name__=="__main__":
-    run_svm('test','31')
-    
-  
-        
-        
+    print(predictor('test1'))

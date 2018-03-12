@@ -1,4 +1,5 @@
 import newsvm
+import predictionparser
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import cross_val_score
@@ -19,9 +20,11 @@ list_tops=[]
 for number in predicted_list:
     #print(number)
 	list_tops.extend(topology_dict[number])
-new_tops=list_tops
 #print(list_tops)   
 
+
+
+##########separating the output###########
 newout=0
 backto=0
 newlist=[]
@@ -37,6 +40,7 @@ with open("predicted.txt",'w') as pr:
 		    newout=newout+len(text[h+1])
 		    #print(newout)
 		    l=''.join(list_tops[backto:newout])
+		    #print(l)
 		    pr.write(l)
 		    pr.write("\n")
 		    backto=newout
