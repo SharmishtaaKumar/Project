@@ -1,5 +1,5 @@
 
-import dtparser
+import predictionparser
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import cross_val_score
@@ -7,7 +7,7 @@ from sklearn.externals import joblib
 tempfile = "../datasets/test1"
 
 savedmodel= joblib.load('dtmodel.sav')
-testX=dtparser.predictor(tempfile)
+testX=predictionparser.predictor(tempfile,33)
     
 
 predicted=savedmodel.predict(testX)

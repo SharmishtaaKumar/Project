@@ -4,7 +4,7 @@ from sklearn import svm
 from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestClassifier as rfc
 from sklearn.externals import joblib
-test = "../datasets/RFCtest"
+test = "../datasets/test"
 
 def randomforest(filename):
     trainX,trainY=modelcv.dataset(test,29)
@@ -13,7 +13,7 @@ def randomforest(filename):
     score=cross_val_score(clf, trainX, trainY, cv=3,verbose=True,n_jobs=-1)
     print(np.average(score))
     inputfile='rfcmodel.sav'
-    joblib.dump(clf,inputfile)
+    joblib.dump(clf,inputfile,compress=9)
         	
 if __name__=="__main__":
     #print(dataset(test,'29'))

@@ -4,7 +4,7 @@ from sklearn import svm
 from sklearn.model_selection import cross_val_score
 test = "../datasets/test"
 def cv(filename):
-    for winlen in range (3,32,2):
+    for winlen in range (31,36,2):
         for cv_new in (3,5,10):
       
             trainX,trainY=modelcv.dataset(test,winlen)

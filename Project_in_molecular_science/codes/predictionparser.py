@@ -2,10 +2,10 @@ import numpy as np
 from sklearn import svm
 from sklearn.model_selection import cross_val_score
 from sklearn.externals import joblib
-winlen=31
+
 test1= "../datasets/test1"
 #######parser for prediction####
-def predictor(newfile):
+def predictor(newfile,winlen):
   
     
     filehandle = open(newfile,'r')
@@ -82,4 +82,4 @@ def predictor(newfile):
     
     
 if __name__=="__main__":
-    print(predictor('test1'))
+    print(predictor('test1','31'))
