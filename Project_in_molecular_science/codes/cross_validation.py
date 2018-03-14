@@ -11,6 +11,6 @@ def cv(filename):
             clf = svm.SVC(kernel='linear', C=1)
             clf.fit(trainX, trainY)
             score=cross_val_score(clf, trainX, trainY, cv=cv_new,verbose=True,n_jobs=-1)
-            print(np.average(score))
+            print(np.average(score),winlen,cv_new)
 if __name__=="__main__":
     cv('test')

@@ -13,8 +13,8 @@ from sklearn.metrics import make_scorer
 from sklearn.metrics import f1_score
 from sklearn.externals import joblib
 test = "../datasets/test"
-def cv(filename):
-    trainX,trainY=newsvm.dataset(test,31)
+def cv(filename, winlen):
+    trainX,trainY=newsvm.dataset(test,winlen)
     C_values=[1,5,10]
     g_values=[0.001,0.01]
         
@@ -22,13 +22,13 @@ def cv(filename):
     clf = GridSearchCV(SVC(), param, n_jobs=1, cv=3, verbose=True, error_score=np.NaN, return_train_score=False)
     #clf = svm.SVC(kernel='linear', C=1)
     clf.fit(trainX, trainY)
-    newscores=pd.DataFrame(clf.cv_results)
+    newscores=pd.DataFrame(clf.cv_results_)
     #print(newscores)
-    filename = '../Datasets/' + str(windowsize) + '_improved' + '.csv'
+    filename = '../Datasets/' + str(winlen) + '_improved' + '.csv'
     df.to_csv(filename, sep='\t', encoding='UTF-8')
 
         
         #score=cross_val_score(clf, trainX, trainY, cv=10,verbose=True,n_jobs=-1)
         #print(np.average(score))
 if __name__=="__main__":
-    cv('test')
+    cv('test','31')
