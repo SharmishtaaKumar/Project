@@ -38,9 +38,9 @@ for newarray in listofarrays:
                     window.extend(newlist)  
                 pssm_new.append(window) 
 
-            elif i > (len(seq)-wins-1):
+            elif i > (seq-wins-1):
                 #print(i)
-                numofwin = wins - (len(seq)- 1 - i)
+                numofwin = wins-(len(seq)- 1 - i)
                 window = []
                 for newlist in seq[i-wins:]:
                     window.extend(newlist)  
