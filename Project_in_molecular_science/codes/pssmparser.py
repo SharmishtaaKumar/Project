@@ -2,9 +2,12 @@ import dictionary
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import train_test_split
 from sklearn.externals import joblib
+from sklearn.metrics import matthews_corrcoef
 from pathlib import Path
-tempfile="../datasets/test"
+from sklearn.metrics import confusion_matrix
+tempfile="../datasets/mydataset.txt"
 
 dictionary = dictionary.dataset(tempfile)
 def pssm_test(filename,winlen):
@@ -87,11 +90,12 @@ def pssm_test(filename,winlen):
     
 def pssm_svm(filename,winlen) :
        
-    trainX, trainY=pssm_test(filename,winlen)
-   
-    clf = svm.SVC(kernel='linear', C=1, gamma=0.001)
-    clf.fit(trainX, trainY)
+    templist,labels = pssm_test(filename,winlen)
+    trainX,testX, trainY,testY=train_test_split(templist,labels,test_size=0.3)
+    clf = svm.SVC(kernel='linear', C=1, gamma=0.001).fit(trainX, trainY)
+    predY=clf.predict(testX)
     
+    print(matthews_corrcoef(testY,predY))
     inputfile='pssmmodel.sav'
     joblib.dump(clf,inputfile)
 if __name__=="__main__":

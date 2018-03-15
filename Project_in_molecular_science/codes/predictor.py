@@ -1,27 +1,28 @@
 import newsvm
-import predictionparser
+import modelcv
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import cross_val_score
+from sklearn.metrics import matthews_corrcoef
 from sklearn.externals import joblib
-tempfile = "../datasets/test1"
+tempfile = "../datasets/trainmodel"
 
 savedmodel= joblib.load('firstmodel.sav')
-testX=predictionparser.predictor(tempfile,31)
-    
+testX,testY=modelcv.dataset(tempfile,31)
+predictedY=savedmodel.predict(testX)
+print(matthews_corrcoef(testY, predictedY))
 
-predicted=savedmodel.predict(testX)
-#print(predicted)
+
+
 
 topology_dict= {2:'I',4:'M',6:'O'}
-predicted_list=predicted.tolist()
+predicted_list=predictedY.tolist()
 #print(predicted_list)
 list_tops=[]
 for number in predicted_list:
     #print(number)
 	list_tops.extend(topology_dict[number])
 #print(list_tops)   
-
 
 
 ##########separating the output###########
