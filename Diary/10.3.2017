@@ -1,4 +1,4 @@
-its saturday but i still has to do alot of stuff to catch up. SInce now i had an SVM working for multiple sequences, i tried to create decision tree and random forest classifier for the same. Hence i tried out different parameters for the same.
+its saturday but i still has to do alot of stuff to catch up. Since now i had an SVM working for multiple sequences, i tried to create decision tree and random forest classifier for the same. Hence i tried out different parameters for the same.
 
 FOR DECISION TREE
 I used the parameters of window length varying from 25,36 since my optimum for the SVC was 31 and hence i took ranges before and after that window length. And for the min_sample_split for the same i varied from 2,3,4,5,6,7 and tested for the same values. The results are the saved in the results folder for the same.

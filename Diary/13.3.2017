@@ -1,0 +1,6 @@
+STress levels are high now since i am still to do the PSSM profile and the rest of work. Hence i haven't been able to find the time to update my Diary. I have been trying to figure out how to do the parser for some time now. i downloaded the uniprot and extracted and Marco did formatdb for the same file so that i could use it.
+I still had to create the parser for the PSSM since for me it is completely different than the actual parser which i have been using. Hence i parsed my dataset for my whole dataset. Now i created a unique new fasta file for each of the protein which took only the header and amino acid sequence and saved it. I used the id to name the file as id.fasta file.
+Then i ran PSIBLAST for all the proteins which are there in each of fasta file, where Marco helped me again. I saved the files after the PSIBLAST with the same name.pssm in the foler PSSM inside fasta_data.
+Now i had my pssm profiles for all the proteins in my dataset. It was time to make the parser for the same.
+
+ 

@@ -1,0 +1,12 @@
+So i asked Helen excatly how i am supposed to create the PSSM parser. She told me to use the dictionary and extract the id name and the topology from there. Hence i got the list of id's as the kesy and the topology a sa list. I tried to extract the PSSM profiles for the sequences into an array using the keys in specific. BUT IT SHOWED AN ERROR WHERE THE FILE FOR THAT SPECIFIC KEY DIDN'T EXIST!!!! So i checked my files which were PSIBLAST-ed and realised my dataset has 313 proteins but the PSIBLAST-ed was only had 307 proteins!!!
+WHERE ARE THE OTHERS!!!!!??????????????
+SOOOOO
+i asked David and he said some of the protein sequence must have been really smalll and hence i couldn't obtain a PSSM profile for them respectively.
+DOOMED!!
+hence i had now to somwhow crate a parser only for these 307 PROTEINS!!!
+well then Daryl helped me out with figuring it out. He said i had to create a path for the particular file. If the particular key is actually A file then do:-
+               1) create the array PSSM array for which i had to define the sliding windows
+               2)append the topology only for those particular sequences
+               
+Hence after getting the PSSM aaray i created the sliding widows for the same. SOmehow i managed created the sliding windows with help form almost everyone, since the windows had to be added in the form of arrays and for all the arrays in the PSSM array.
+AHHH
