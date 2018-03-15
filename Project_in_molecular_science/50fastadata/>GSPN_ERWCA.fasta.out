@@ -1,0 +1,491 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= GSPN_ERWCA
+
+Length=248
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P31710|GSPN_PECCC Type II secretion system protein N OS=Pect...  505     0.0  
+  sp|P15753|GSPN_KLEPN Type II secretion system protein N OS=Kleb...  133     6e-36
+  sp|P41852|GSPN_AERHY Type II secretion system protein N OS=Aero...  123     5e-32
+  sp|P45784|GSPN_VIBCH Type II secretion system protein N OS=Vibr...  87.0    5e-19
+
+
+> sp|P31710|GSPN_PECCC Type II secretion system protein N OS=Pectobacterium 
+carotovorum subsp. carotovorum OX=555 GN=outN PE=1 
+SV=1
+Length=248
+
+ Score = 505 bits (1301),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 248/248 (100%), Positives = 248/248 (100%), Gaps = 0/248 (0%)
+
+Query  1    MKLKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRT  60
+            MKLKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRT
+Sbjct  1    MKLKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRT  60
+
+Query  61   LTLDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMR  120
+            LTLDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMR
+Sbjct  61   LTLDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMR  120
+
+Query  121  FIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATLRCQQG  180
+            FIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATLRCQQG
+Sbjct  121  FIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATLRCQQG  180
+
+Query  181  ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART  240
+            ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART
+Sbjct  181  ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART  240
+
+Query  241  LNFQGRLL  248
+            LNFQGRLL
+Sbjct  241  LNFQGRLL  248
+
+
+> sp|P15753|GSPN_KLEPN Type II secretion system protein N OS=Klebsiella 
+pneumoniae OX=573 GN=pulN PE=3 SV=1
+Length=252
+
+ Score = 133 bits (335),  Expect = 6e-36, Method: Compositional matrix adjust.
+ Identities = 85/248 (34%), Positives = 127/248 (51%), Gaps = 3/248 (1%)
+
+Query  3    LKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRTLT  62
+            +K+ +  G+ L   Y  +L   APARLL A+ L     +A+ +GTLWQG   + SWR + 
+Sbjct  1    MKNRLTIGLLLAAIYLFWLLLSAPARLL-ALTLSDDARLAQTSGTLWQGEAHQASWRGVE  59
+
+Query  63   LDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMRFI  122
+            L  + W   FS ++P   I F +P G+ G+  + G       + +L +PA  +   +   
+Sbjct  60   LAYLRWEFGFSTWLPGWHIRFNDPSGLRGQAWLHGLNEFVVREGRLVIPARLISQRLALG  119
+
+Query  123  VPIGAEGNVQLNLQEATVDRSGCQSLDAN-VTWPGARVKTPLGGLVLATPQATLRCQ-QG  180
+            +P+ A G + L L EA+ + +GC+ + A+ V W  A + +P G L LA     L C   G
+Sbjct  120  MPLEARGQLALTLPEASFNANGCRRIAASAVQWQDAALSSPAGLLELAQVNGKLSCTPAG  179
+
+Query  181  ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART  240
+            AL   L Q S  L L+G+G +TP G Y F G L      PA +  L+A  G+ +EQG   
+Sbjct  180  ALAVALTQDSHQLSLTGQGVLTPDGRYTFNGTLQPRQAAPALLTLLVAQNGRKDEQGRIP  239
+
+Query  241  LNFQGRLL  248
+              +QG  L
+Sbjct  240  WRWQGEWL  247
+
+
+> sp|P41852|GSPN_AERHY Type II secretion system protein N OS=Aeromonas 
+hydrophila OX=644 GN=exeN PE=3 SV=1
+Length=252
+
+ Score = 123 bits (308),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 81/253 (32%), Positives = 125/253 (49%), Gaps = 9/253 (4%)
+
+Query  3    LKSGIVTGVALVLAYGLFLASYAPARLLT-AVPLPAGMVVAE-AAGTLWQGSLQRFSWRT  60
+            +K  ++     ++AY  FL    PA L+   +PLP  +V  E  +GTLW G + R  + +
+Sbjct  1    MKQKVLIAALFLVAYLGFLLVKLPATLVVRHLPLPPNLVQLEGVSGTLWSGQVARLQYAS  60
+
+Query  61   LTLDDVHWNI---TFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQF-YQWQLSVPAGYLF  116
+             +L  + W +   +   F P + + F +  G+ G+G++ GW  A F     L+VPA ++ 
+Sbjct  61   ESLTQLRWELNGWSLLRFAPEVSLRFGDRSGLNGQGVV-GWNGAAFGRDITLNVPAPWVL  119
+
+Query  117  SH--MRFIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQAT  174
+                MR   P+   G +QL + +       C +L  N+ W GA   TP G L L  P+  
+Sbjct  120  DRVPMRLPFPLTVAGQLQLKVDQFAQGNPWCDNLYGNLHWYGADADTPAGKLPLGDPELK  179
+
+Query  175  LRCQQGALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKAN  234
+            L C    L A L+Q S  +Q+ GK  + P  +Y F G L  G +LP  MK+ L   G+ +
+Sbjct  180  LTCIDSRLVAELKQGSEAVQVLGKLELQPNRQYLFQGTLKPGPELPDQMKQGLPFLGQPD  239
+
+Query  235  EQGARTLNFQGRL  247
+             QG   L +QGR+
+Sbjct  240  GQGRFPLRYQGRI  252
+
+
+> sp|P45784|GSPN_VIBCH Type II secretion system protein N OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=epsN PE=3 SV=2
+Length=252
+
+ Score = 87.0 bits (214),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 59/248 (24%), Positives = 119/248 (48%), Gaps = 15/248 (6%)
+
+Query  15   LAYGLFLAS--------YAPARL-LTAVPLPAGMVVAEAAGTLWQGSLQRFSWRTLTLDD  65
+            + YGL  ++        + PA++ L+ +PLP G+ +    GTLWQG   +  W+ ++L D
+Sbjct  5    VGYGLLFSTVLMTSVVVHLPAQVALSPLPLPEGLELTGIEGTLWQGQAAQVRWQGMSLGD  64
+
+Query  66   VHWNITFSDFMPA---LDIAFK--NPEGIAGRGII-RGWQRAQFYQWQLSVPAGYLFSHM  119
+            ++W++  S  +      DI F   +   + G+G++  G        + LS+PA    + +
+Sbjct  65   LNWDLHLSALLLGQLEADIRFGRGSSTQLRGKGVVGVGLSGPYADDFLLSLPAAQAITWL  124
+
+Query  120  RFIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATLRCQQ  179
+               VP+ A+G +++ +++       CQ  + ++ W  A++++P+G L L T  +   CQ+
+Sbjct  125  PLPVPLMAQGQLEMAVKQYRFGEPYCQQAEGSLAWSAAQLESPIGALQLGTVVSDFTCQE  184
+
+Query  180  GALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGAR  239
+              +     Q ++ +      S+ P   Y+         + P ++K+ L+   + + QG  
+Sbjct  185  SVVTLKGGQKTAQVSSEFNLSLQPDNRYQAQAWFKPEAEFPESLKEQLSWLPQPDGQGRY  244
+
+Query  240  TLNFQGRL  247
+              N QG+L
+Sbjct  245  PFNQQGQL  252
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18037111407
+Results from round 2
+
+
+Query= GSPN_ERWCA
+
+Length=248
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P31710|GSPN_PECCC Type II secretion system protein N OS=Pect...  332     2e-113
+  sp|P15753|GSPN_KLEPN Type II secretion system protein N OS=Kleb...  299     2e-100
+  sp|P41852|GSPN_AERHY Type II secretion system protein N OS=Aero...  298     5e-100
+  sp|P45784|GSPN_VIBCH Type II secretion system protein N OS=Vibr...  276     2e-91 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P45783|GSPN_AERSA Type II secretion system protein N (Fragme...  67.4    1e-13
+
+
+> sp|P31710|GSPN_PECCC Type II secretion system protein N OS=Pectobacterium 
+carotovorum subsp. carotovorum OX=555 GN=outN PE=1 
+SV=1
+Length=248
+
+ Score = 332 bits (852),  Expect = 2e-113, Method: Composition-based stats.
+ Identities = 248/248 (100%), Positives = 248/248 (100%), Gaps = 0/248 (0%)
+
+Query  1    MKLKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRT  60
+            MKLKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRT
+Sbjct  1    MKLKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRT  60
+
+Query  61   LTLDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMR  120
+            LTLDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMR
+Sbjct  61   LTLDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMR  120
+
+Query  121  FIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATLRCQQG  180
+            FIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATLRCQQG
+Sbjct  121  FIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATLRCQQG  180
+
+Query  181  ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART  240
+            ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART
+Sbjct  181  ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART  240
+
+Query  241  LNFQGRLL  248
+            LNFQGRLL
+Sbjct  241  LNFQGRLL  248
+
+
+> sp|P15753|GSPN_KLEPN Type II secretion system protein N OS=Klebsiella 
+pneumoniae OX=573 GN=pulN PE=3 SV=1
+Length=252
+
+ Score = 299 bits (766),  Expect = 2e-100, Method: Composition-based stats.
+ Identities = 85/248 (34%), Positives = 127/248 (51%), Gaps = 3/248 (1%)
+
+Query  3    LKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRTLT  62
+            +K+ +  G+ L   Y  +L   APARLL A+ L     +A+ +GTLWQG   + SWR + 
+Sbjct  1    MKNRLTIGLLLAAIYLFWLLLSAPARLL-ALTLSDDARLAQTSGTLWQGEAHQASWRGVE  59
+
+Query  63   LDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMRFI  122
+            L  + W   FS ++P   I F +P G+ G+  + G       + +L +PA  +   +   
+Sbjct  60   LAYLRWEFGFSTWLPGWHIRFNDPSGLRGQAWLHGLNEFVVREGRLVIPARLISQRLALG  119
+
+Query  123  VPIGAEGNVQLNLQEATVDRSGCQSLDAN-VTWPGARVKTPLGGLVLATPQATLRCQ-QG  180
+            +P+ A G + L L EA+ + +GC+ + A+ V W  A + +P G L LA     L C   G
+Sbjct  120  MPLEARGQLALTLPEASFNANGCRRIAASAVQWQDAALSSPAGLLELAQVNGKLSCTPAG  179
+
+Query  181  ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART  240
+            AL   L Q S  L L+G+G +TP G Y F G L      PA +  L+A  G+ +EQG   
+Sbjct  180  ALAVALTQDSHQLSLTGQGVLTPDGRYTFNGTLQPRQAAPALLTLLVAQNGRKDEQGRIP  239
+
+Query  241  LNFQGRLL  248
+              +QG  L
+Sbjct  240  WRWQGEWL  247
+
+
+> sp|P41852|GSPN_AERHY Type II secretion system protein N OS=Aeromonas 
+hydrophila OX=644 GN=exeN PE=3 SV=1
+Length=252
+
+ Score = 298 bits (764),  Expect = 5e-100, Method: Composition-based stats.
+ Identities = 81/253 (32%), Positives = 125/253 (49%), Gaps = 9/253 (4%)
+
+Query  3    LKSGIVTGVALVLAYGLFLASYAPARLLT-AVPLPAGMVVAE-AAGTLWQGSLQRFSWRT  60
+            +K  ++     ++AY  FL    PA L+   +PLP  +V  E  +GTLW G + R  + +
+Sbjct  1    MKQKVLIAALFLVAYLGFLLVKLPATLVVRHLPLPPNLVQLEGVSGTLWSGQVARLQYAS  60
+
+Query  61   LTLDDVHWNI---TFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQF-YQWQLSVPAGYLF  116
+             +L  + W +   +   F P + + F +  G+ G+G++ GW  A F     L+VPA ++ 
+Sbjct  61   ESLTQLRWELNGWSLLRFAPEVSLRFGDRSGLNGQGVV-GWNGAAFGRDITLNVPAPWVL  119
+
+Query  117  SH--MRFIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQAT  174
+                MR   P+   G +QL + +       C +L  N+ W GA   TP G L L  P+  
+Sbjct  120  DRVPMRLPFPLTVAGQLQLKVDQFAQGNPWCDNLYGNLHWYGADADTPAGKLPLGDPELK  179
+
+Query  175  LRCQQGALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKAN  234
+            L C    L A L+Q S  +Q+ GK  + P  +Y F G L  G +LP  MK+ L   G+ +
+Sbjct  180  LTCIDSRLVAELKQGSEAVQVLGKLELQPNRQYLFQGTLKPGPELPDQMKQGLPFLGQPD  239
+
+Query  235  EQGARTLNFQGRL  247
+             QG   L +QGR+
+Sbjct  240  GQGRFPLRYQGRI  252
+
+
+> sp|P45784|GSPN_VIBCH Type II secretion system protein N OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=epsN PE=3 SV=2
+Length=252
+
+ Score = 276 bits (707),  Expect = 2e-91, Method: Composition-based stats.
+ Identities = 58/252 (23%), Positives = 119/252 (47%), Gaps = 7/252 (3%)
+
+Query  3    LKSGIVTGVALVLAYGLFLASYAPARL-LTAVPLPAGMVVAEAAGTLWQGSLQRFSWRTL  61
+            +K  +  G+         +  + PA++ L+ +PLP G+ +    GTLWQG   +  W+ +
+Sbjct  1    MKRAVGYGLLFSTVLMTSVVVHLPAQVALSPLPLPEGLELTGIEGTLWQGQAAQVRWQGM  60
+
+Query  62   TLDDVHWNITFSDFMPA---LDIAFK--NPEGIAGRGII-RGWQRAQFYQWQLSVPAGYL  115
+            +L D++W++  S  +      DI F   +   + G+G++  G        + LS+PA   
+Sbjct  61   SLGDLNWDLHLSALLLGQLEADIRFGRGSSTQLRGKGVVGVGLSGPYADDFLLSLPAAQA  120
+
+Query  116  FSHMRFIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATL  175
+             + +   VP+ A+G +++ +++       CQ  + ++ W  A++++P+G L L T  +  
+Sbjct  121  ITWLPLPVPLMAQGQLEMAVKQYRFGEPYCQQAEGSLAWSAAQLESPIGALQLGTVVSDF  180
+
+Query  176  RCQQGALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANE  235
+             CQ+  +     Q ++ +      S+ P   Y+         + P ++K+ L+   + + 
+Sbjct  181  TCQESVVTLKGGQKTAQVSSEFNLSLQPDNRYQAQAWFKPEAEFPESLKEQLSWLPQPDG  240
+
+Query  236  QGARTLNFQGRL  247
+            QG    N QG+L
+Sbjct  241  QGRYPFNQQGQL  252
+
+
+> sp|P45783|GSPN_AERSA Type II secretion system protein N (Fragment) 
+OS=Aeromonas salmonicida OX=645 GN=exeN PE=3 SV=1
+Length=47
+
+ Score = 67.4 bits (163),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 25/47 (53%), Gaps = 0/47 (0%)
+
+Query  201  VTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGARTLNFQGRL  247
+            +    +Y F G L  G +LP  MK+ L   G+ + QG   L +QGR+
+Sbjct  1    LQANRQYLFQGSLKPGPELPEEMKQGLPFLGQPDGQGRFPLRYQGRI  47
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.130    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0397    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18037111407
+Results from round 3
+
+
+Query= GSPN_ERWCA
+
+Length=248
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P31710|GSPN_PECCC Type II secretion system protein N OS=Pect...  332     4e-113
+  sp|P41852|GSPN_AERHY Type II secretion system protein N OS=Aero...  302     1e-101
+  sp|P15753|GSPN_KLEPN Type II secretion system protein N OS=Kleb...  300     1e-100
+  sp|P45784|GSPN_VIBCH Type II secretion system protein N OS=Vibr...  292     2e-97 
+  sp|P45783|GSPN_AERSA Type II secretion system protein N (Fragme...  72.5    2e-15 
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P31710|GSPN_PECCC Type II secretion system protein N OS=Pectobacterium 
+carotovorum subsp. carotovorum OX=555 GN=outN PE=1 
+SV=1
+Length=248
+
+ Score = 332 bits (850),  Expect = 4e-113, Method: Composition-based stats.
+ Identities = 248/248 (100%), Positives = 248/248 (100%), Gaps = 0/248 (0%)
+
+Query  1    MKLKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRT  60
+            MKLKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRT
+Sbjct  1    MKLKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRT  60
+
+Query  61   LTLDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMR  120
+            LTLDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMR
+Sbjct  61   LTLDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMR  120
+
+Query  121  FIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATLRCQQG  180
+            FIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATLRCQQG
+Sbjct  121  FIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATLRCQQG  180
+
+Query  181  ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART  240
+            ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART
+Sbjct  181  ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART  240
+
+Query  241  LNFQGRLL  248
+            LNFQGRLL
+Sbjct  241  LNFQGRLL  248
+
+
+> sp|P41852|GSPN_AERHY Type II secretion system protein N OS=Aeromonas 
+hydrophila OX=644 GN=exeN PE=3 SV=1
+Length=252
+
+ Score = 302 bits (774),  Expect = 1e-101, Method: Composition-based stats.
+ Identities = 81/253 (32%), Positives = 125/253 (49%), Gaps = 9/253 (4%)
+
+Query  3    LKSGIVTGVALVLAYGLFLASYAPARLLT-AVPLPAGMVVAE-AAGTLWQGSLQRFSWRT  60
+            +K  ++     ++AY  FL    PA L+   +PLP  +V  E  +GTLW G + R  + +
+Sbjct  1    MKQKVLIAALFLVAYLGFLLVKLPATLVVRHLPLPPNLVQLEGVSGTLWSGQVARLQYAS  60
+
+Query  61   LTLDDVHWNI---TFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQF-YQWQLSVPAGYLF  116
+             +L  + W +   +   F P + + F +  G+ G+G++ GW  A F     L+VPA ++ 
+Sbjct  61   ESLTQLRWELNGWSLLRFAPEVSLRFGDRSGLNGQGVV-GWNGAAFGRDITLNVPAPWVL  119
+
+Query  117  SH--MRFIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQAT  174
+                MR   P+   G +QL + +       C +L  N+ W GA   TP G L L  P+  
+Sbjct  120  DRVPMRLPFPLTVAGQLQLKVDQFAQGNPWCDNLYGNLHWYGADADTPAGKLPLGDPELK  179
+
+Query  175  LRCQQGALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKAN  234
+            L C    L A L+Q S  +Q+ GK  + P  +Y F G L  G +LP  MK+ L   G+ +
+Sbjct  180  LTCIDSRLVAELKQGSEAVQVLGKLELQPNRQYLFQGTLKPGPELPDQMKQGLPFLGQPD  239
+
+Query  235  EQGARTLNFQGRL  247
+             QG   L +QGR+
+Sbjct  240  GQGRFPLRYQGRI  252
+
+
+> sp|P15753|GSPN_KLEPN Type II secretion system protein N OS=Klebsiella 
+pneumoniae OX=573 GN=pulN PE=3 SV=1
+Length=252
+
+ Score = 300 bits (768),  Expect = 1e-100, Method: Composition-based stats.
+ Identities = 85/248 (34%), Positives = 127/248 (51%), Gaps = 3/248 (1%)
+
+Query  3    LKSGIVTGVALVLAYGLFLASYAPARLLTAVPLPAGMVVAEAAGTLWQGSLQRFSWRTLT  62
+            +K+ +  G+ L   Y  +L   APARLL A+ L     +A+ +GTLWQG   + SWR + 
+Sbjct  1    MKNRLTIGLLLAAIYLFWLLLSAPARLL-ALTLSDDARLAQTSGTLWQGEAHQASWRGVE  59
+
+Query  63   LDDVHWNITFSDFMPALDIAFKNPEGIAGRGIIRGWQRAQFYQWQLSVPAGYLFSHMRFI  122
+            L  + W   FS ++P   I F +P G+ G+  + G       + +L +PA  +   +   
+Sbjct  60   LAYLRWEFGFSTWLPGWHIRFNDPSGLRGQAWLHGLNEFVVREGRLVIPARLISQRLALG  119
+
+Query  123  VPIGAEGNVQLNLQEATVDRSGCQSLDAN-VTWPGARVKTPLGGLVLATPQATLRCQ-QG  180
+            +P+ A G + L L EA+ + +GC+ + A+ V W  A + +P G L LA     L C   G
+Sbjct  120  MPLEARGQLALTLPEASFNANGCRRIAASAVQWQDAALSSPAGLLELAQVNGKLSCTPAG  179
+
+Query  181  ALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGART  240
+            AL   L Q S  L L+G+G +TP G Y F G L      PA +  L+A  G+ +EQG   
+Sbjct  180  ALAVALTQDSHQLSLTGQGVLTPDGRYTFNGTLQPRQAAPALLTLLVAQNGRKDEQGRIP  239
+
+Query  241  LNFQGRLL  248
+              +QG  L
+Sbjct  240  WRWQGEWL  247
+
+
+> sp|P45784|GSPN_VIBCH Type II secretion system protein N OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=epsN PE=3 SV=2
+Length=252
+
+ Score = 292 bits (747),  Expect = 2e-97, Method: Composition-based stats.
+ Identities = 58/252 (23%), Positives = 119/252 (47%), Gaps = 7/252 (3%)
+
+Query  3    LKSGIVTGVALVLAYGLFLASYAPARL-LTAVPLPAGMVVAEAAGTLWQGSLQRFSWRTL  61
+            +K  +  G+         +  + PA++ L+ +PLP G+ +    GTLWQG   +  W+ +
+Sbjct  1    MKRAVGYGLLFSTVLMTSVVVHLPAQVALSPLPLPEGLELTGIEGTLWQGQAAQVRWQGM  60
+
+Query  62   TLDDVHWNITFSDFMPA---LDIAFK--NPEGIAGRGII-RGWQRAQFYQWQLSVPAGYL  115
+            +L D++W++  S  +      DI F   +   + G+G++  G        + LS+PA   
+Sbjct  61   SLGDLNWDLHLSALLLGQLEADIRFGRGSSTQLRGKGVVGVGLSGPYADDFLLSLPAAQA  120
+
+Query  116  FSHMRFIVPIGAEGNVQLNLQEATVDRSGCQSLDANVTWPGARVKTPLGGLVLATPQATL  175
+             + +   VP+ A+G +++ +++       CQ  + ++ W  A++++P+G L L T  +  
+Sbjct  121  ITWLPLPVPLMAQGQLEMAVKQYRFGEPYCQQAEGSLAWSAAQLESPIGALQLGTVVSDF  180
+
+Query  176  RCQQGALEANLRQTSSHLQLSGKGSVTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANE  235
+             CQ+  +     Q ++ +      S+ P   Y+         + P ++K+ L+   + + 
+Sbjct  181  TCQESVVTLKGGQKTAQVSSEFNLSLQPDNRYQAQAWFKPEAEFPESLKEQLSWLPQPDG  240
+
+Query  236  QGARTLNFQGRL  247
+            QG    N QG+L
+Sbjct  241  QGRYPFNQQGQL  252
+
+
+> sp|P45783|GSPN_AERSA Type II secretion system protein N (Fragment) 
+OS=Aeromonas salmonicida OX=645 GN=exeN PE=3 SV=1
+Length=47
+
+ Score = 72.5 bits (176),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 25/47 (53%), Gaps = 0/47 (0%)
+
+Query  201  VTPKGEYRFTGQLSSGNDLPATMKKLLATTGKANEQGARTLNFQGRL  247
+            +    +Y F G L  G +LP  MK+ L   G+ + QG   L +QGR+
+Sbjct  1    LQANRQYLFQGSLKPGPELPEEMKQGLPFLGQPDGQGRFPLRYQGRI  47
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.129    0.340    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0383    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18037111407
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

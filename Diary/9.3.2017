@@ -1,0 +1,2 @@
+since my code wasn't working for multiple sequences i tried to parse my data such that it can take and give the output of the SVM one by one. But since that didnt work i realised i could parse my output since everything is in a for loop and it IS  being taken in sequence by sequence. Hence i tried to parse my data, Lucie helped me out and said i could splice the code according to the length of the aminoacid sequence which i had ran through the SVM one by one. AND it worked!!!
+

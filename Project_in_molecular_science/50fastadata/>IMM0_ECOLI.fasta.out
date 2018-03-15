@@ -1,0 +1,206 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= IMM0_ECOLI
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P33637|IMM0_ECOLX Colicin-E1 immunity protein OS=Escherichia...  222     4e-74
+  sp|P02985|IMM1_ECOLX Colicin-E1 immunity protein OS=Escherichia...  212     2e-70
+  sp|P22558|IMM1_SHISO Colicin-E1* immunity protein OS=Shigella s...  146     2e-44
+  sp|P08702|IMMJ_ECOLX Colicin-Ib immunity protein OS=Escherichia...  36.6    0.008
+
+
+> sp|P33637|IMM0_ECOLX Colicin-E1 immunity protein OS=Escherichia 
+coli OX=562 GN=imm PE=4 SV=1
+Length=113
+
+ Score = 222 bits (565),  Expect = 4e-74, Method: Compositional matrix adjust.
+ Identities = 113/113 (100%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEEYYFLVTDKMLYAIVISTILCPYSKYAIEHI  60
+            MSLRYYIKNILFGLYCTLIYIYLITKNSEEYYFLVTDKMLYAIVISTILCPYSKYAIEHI
+Sbjct  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEEYYFLVTDKMLYAIVISTILCPYSKYAIEHI  60
+
+Query  61   AFNFIKKHFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
+            AFNFIKKHFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN
+Sbjct  61   AFNFIKKHFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
+
+
+> sp|P02985|IMM1_ECOLX Colicin-E1 immunity protein OS=Escherichia 
+coli OX=562 GN=imm PE=4 SV=2
+Length=113
+
+ Score = 212 bits (540),  Expect = 2e-70, Method: Compositional matrix adjust.
+ Identities = 109/113 (96%), Positives = 111/113 (98%), Gaps = 0/113 (0%)
+
+Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEEYYFLVTDKMLYAIVISTILCPYSKYAIEHI  60
+            MSLRYYIKNILFGLYCTLIYIYLITKNSE YYFLV+DKMLYAIVISTILCPYSKYAIE+I
+Sbjct  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEGYYFLVSDKMLYAIVISTILCPYSKYAIEYI  60
+
+Query  61   AFNFIKKHFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
+            AFNFIKK FFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN
+Sbjct  61   AFNFIKKDFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
+
+
+> sp|P22558|IMM1_SHISO Colicin-E1* immunity protein OS=Shigella 
+sonnei OX=624 GN=imm PE=4 SV=1
+Length=113
+
+ Score = 146 bits (368),  Expect = 2e-44, Method: Compositional matrix adjust.
+ Identities = 86/107 (80%), Positives = 93/107 (87%), Gaps = 1/107 (1%)
+
+Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEEYYFLVTDKMLYAIVISTILCPYSKYAIEHI  60
+            MSLRYYIKNILFGLYC LIYIYLITKN+E YYFL +DKMLYAIVISTILCPYSKYAIEHI
+Sbjct  1    MSLRYYIKNILFGLYCALIYIYLITKNNEGYYFLASDKMLYAIVISTILCPYSKYAIEHI  60
+
+Query  61   AFNFIKKHFFERRKNLNNAPVAKLNLFM-LYNLLCLVLAIPFGLLGL  106
+             F FIKK FF +RKNLN  P  K+  ++ +YNLLCLVLAIPFGLLGL
+Sbjct  61   FFKFIKKDFFRKRKNLNKCPRGKIKPYLCVYNLLCLVLAIPFGLLGL  107
+
+
+> sp|P08702|IMMJ_ECOLX Colicin-Ib immunity protein OS=Escherichia 
+coli OX=562 PE=4 SV=1
+Length=115
+
+ Score = 36.6 bits (83),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 29/103 (28%), Positives = 52/103 (50%), Gaps = 12/103 (12%)
+
+Query  1   MSLRYYIKNILFGLYCTLIYIYLITKNSEEYYFLVTDKMLYAIV---ISTILCPYSKYAI  57
+           +S++Y +K+ L  +   L   YL  K+++E       +M YA +   IS I  P+S   I
+Sbjct  5   ISVKYLLKS-LIPILIILTVFYLGWKDNQE-----NARMFYAFIGCIISAITFPFSMRII  58
+
+Query  58  EHIAFNFIKKHFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIP  100
+           + +   F  K F++  K+    PV   +L  ++ L C V+++P
+Sbjct  59  QKMVIRFTGKEFWQ--KDFFTNPVGG-SLTAIFELFCFVISVP  98
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.148    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4945581728
+Results from round 2
+
+
+Query= IMM0_ECOLI
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P33637|IMM0_ECOLX Colicin-E1 immunity protein OS=Escherichia...  151     3e-46
+  sp|P02985|IMM1_ECOLX Colicin-E1 immunity protein OS=Escherichia...  150     6e-46
+  sp|P22558|IMM1_SHISO Colicin-E1* immunity protein OS=Shigella s...  121     1e-34
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P33637|IMM0_ECOLX Colicin-E1 immunity protein OS=Escherichia 
+coli OX=562 GN=imm PE=4 SV=1
+Length=113
+
+ Score = 151 bits (381),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 113/113 (100%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEEYYFLVTDKMLYAIVISTILCPYSKYAIEHI  60
+            MSLRYYIKNILFGLYCTLIYIYLITKNSEEYYFLVTDKMLYAIVISTILCPYSKYAIEHI
+Sbjct  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEEYYFLVTDKMLYAIVISTILCPYSKYAIEHI  60
+
+Query  61   AFNFIKKHFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
+            AFNFIKKHFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN
+Sbjct  61   AFNFIKKHFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
+
+
+> sp|P02985|IMM1_ECOLX Colicin-E1 immunity protein OS=Escherichia 
+coli OX=562 GN=imm PE=4 SV=2
+Length=113
+
+ Score = 150 bits (379),  Expect = 6e-46, Method: Composition-based stats.
+ Identities = 109/113 (96%), Positives = 111/113 (98%), Gaps = 0/113 (0%)
+
+Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEEYYFLVTDKMLYAIVISTILCPYSKYAIEHI  60
+            MSLRYYIKNILFGLYCTLIYIYLITKNSE YYFLV+DKMLYAIVISTILCPYSKYAIE+I
+Sbjct  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEGYYFLVSDKMLYAIVISTILCPYSKYAIEYI  60
+
+Query  61   AFNFIKKHFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
+            AFNFIKK FFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN
+Sbjct  61   AFNFIKKDFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
+
+
+> sp|P22558|IMM1_SHISO Colicin-E1* immunity protein OS=Shigella 
+sonnei OX=624 GN=imm PE=4 SV=1
+Length=113
+
+ Score = 121 bits (304),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 86/107 (80%), Positives = 93/107 (87%), Gaps = 1/107 (1%)
+
+Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEEYYFLVTDKMLYAIVISTILCPYSKYAIEHI  60
+            MSLRYYIKNILFGLYC LIYIYLITKN+E YYFL +DKMLYAIVISTILCPYSKYAIEHI
+Sbjct  1    MSLRYYIKNILFGLYCALIYIYLITKNNEGYYFLASDKMLYAIVISTILCPYSKYAIEHI  60
+
+Query  61   AFNFIKKHFFERRKNLNNAPVAKLNLFM-LYNLLCLVLAIPFGLLGL  106
+             F FIKK FF +RKNLN  P  K+  ++ +YNLLCLVLAIPFGLLGL
+Sbjct  61   FFKFIKKDFFRKRKNLNKCPRGKIKPYLCVYNLLCLVLAIPFGLLGL  107
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.157    0.490    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0481    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4945581728
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

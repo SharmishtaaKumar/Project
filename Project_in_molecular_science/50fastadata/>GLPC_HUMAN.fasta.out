@@ -1,0 +1,3684 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= GLPC_HUMAN
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P04921|GLPC_HUMAN Glycophorin-C OS=Homo sapiens OX=9606 GN=G...  263     9e-90
+  sp|Q6XFR6|GLPC_RAT Glycophorin-C OS=Rattus norvegicus OX=10116 ...  117     7e-33
+  sp|Q78HU7|GLPC_MOUSE Glycophorin-C OS=Mus musculus OX=10090 GN=...  115     2e-32
+  sp|Q9CPW0|CNTP2_MOUSE Contactin-associated protein-like 2 OS=Mu...  67.8    2e-12
+  sp|Q9UHC6|CNTP2_HUMAN Contactin-associated protein-like 2 OS=Ho...  67.8    2e-12
+  sp|Q5RD64|CNTP2_PONAB Contactin-associated protein-like 2 OS=Po...  67.8    2e-12
+  sp|Q7ZXX1|CADM3_XENLA Cell adhesion molecule 3 OS=Xenopus laevi...  64.3    2e-11
+  sp|Q8BLQ9|CADM2_MOUSE Cell adhesion molecule 2 OS=Mus musculus ...  62.8    6e-11
+  sp|Q0V8T4|CTP5C_RAT Contactin-associated protein like 5-3 OS=Ra...  61.2    4e-10
+  sp|Q8N3J6|CADM2_HUMAN Cell adhesion molecule 2 OS=Homo sapiens ...  58.5    2e-09
+  sp|Q1WIM2|CADM2_RAT Cell adhesion molecule 2 OS=Rattus norvegic...  58.5    2e-09
+  sp|Q0V8T0|CNTP5_CANLF Contactin-associated protein-like 5 OS=Ca...  58.5    3e-09
+  sp|Q0V8T5|CTP5B_RAT Contactin-associated protein like 5-2 OS=Ra...  58.5    3e-09
+  sp|Q0V8T7|CTP5C_MOUSE Contactin-associated protein like 5-3 OS=...  55.8    2e-08
+  sp|Q8WYK1|CNTP5_HUMAN Contactin-associated protein-like 5 OS=Ho...  55.8    2e-08
+  sp|Q0V8T3|CTP5D_RAT Contactin-associated protein like 5-4 OS=Ra...  55.1    3e-08
+  sp|Q0V8T9|CTP5A_MOUSE Contactin-associated protein like 5-1 OS=...  54.7    6e-08
+  sp|Q28F36|SMAGP_XENTR Small cell adhesion glycoprotein homolog ...  50.1    9e-08
+  sp|Q0V8T8|CTP5B_MOUSE Contactin-associated protein like 5-2 OS=...  53.5    1e-07
+  sp|Q0V8S9|CNTP5_CHICK Contactin-associated protein-like 5 OS=Ga...  53.5    1e-07
+  sp|Q0V8T6|CTP5A_RAT Contactin-associated protein like 5-1 OS=Ra...  53.1    1e-07
+  sp|Q6DJ83|CADM2_XENTR Cell adhesion molecule 2 OS=Xenopus tropi...  52.0    3e-07
+  sp|Q9C0A0|CNTP4_HUMAN Contactin-associated protein-like 4 OS=Ho...  52.4    3e-07
+  sp|Q8N126|CADM3_HUMAN Cell adhesion molecule 3 OS=Homo sapiens ...  51.6    3e-07
+  sp|Q99P47|CNTP4_MOUSE Contactin-associated protein-like 4 OS=Mu...  51.6    4e-07
+  sp|Q1WIM3|CADM3_RAT Cell adhesion molecule 3 OS=Rattus norvegic...  50.4    6e-07
+  sp|Q99N28|CADM3_MOUSE Cell adhesion molecule 3 OS=Mus musculus ...  50.4    6e-07
+  sp|Q0VAQ4|SMAGP_HUMAN Small cell adhesion glycoprotein OS=Homo ...  41.2    1e-04
+  sp|A1XQY0|NR3AB_DANRE Neurexin-3a-beta OS=Danio rerio OX=7955 G...  42.7    3e-04
+  sp|A1XQX0|NR1AA_DANRE Neurexin-1a OS=Danio rerio OX=7955 GN=nrx...  42.4    4e-04
+  sp|A1XQX1|NR1AB_DANRE Neurexin-1a-beta OS=Danio rerio OX=7955 G...  42.0    5e-04
+  sp|P58401|NRX2B_HUMAN Neurexin-2-beta OS=Homo sapiens OX=9606 G...  41.6    7e-04
+  sp|Q8R5M8|CADM1_MOUSE Cell adhesion molecule 1 OS=Mus musculus ...  41.6    7e-04
+  sp|Q9BY67|CADM1_HUMAN Cell adhesion molecule 1 OS=Homo sapiens ...  41.6    7e-04
+  sp|Q6AYP5|CADM1_RAT Cell adhesion molecule 1 OS=Rattus norvegic...  41.2    8e-04
+  sp|Q63372|NRX1A_RAT Neurexin-1 OS=Rattus norvegicus OX=10116 GN...  41.2    0.001
+  sp|Q9CS84|NRX1A_MOUSE Neurexin-1 OS=Mus musculus OX=10090 GN=Nr...  41.2    0.001
+  sp|Q9P2S2|NRX2A_HUMAN Neurexin-2 OS=Homo sapiens OX=9606 GN=NRX...  41.2    0.001
+  sp|A1XQX3|NR1BB_DANRE Neurexin-1b-beta OS=Danio rerio OX=7955 G...  40.4    0.002
+  sp|Q63373|NRX1B_RAT Neurexin-1-beta OS=Rattus norvegicus OX=101...  40.0    0.002
+  sp|Q28146|NRX1A_BOVIN Neurexin-1 OS=Bos taurus OX=9913 GN=NRXN1...  40.0    0.002
+  sp|P0DI97|NRX1B_MOUSE Neurexin-1-beta OS=Mus musculus OX=10090 ...  40.0    0.002
+  sp|Q9ULB1|NRX1A_HUMAN Neurexin-1 OS=Homo sapiens OX=9606 GN=NRX...  40.0    0.002
+  sp|Q28142|NRX1B_BOVIN Neurexin-1-beta OS=Bos taurus OX=9913 GN=...  40.0    0.002
+  sp|P58400|NRX1B_HUMAN Neurexin-1-beta OS=Homo sapiens OX=9606 G...  40.0    0.002
+  sp|D0PRN2|NRX1B_CHICK Neurexin-1-beta OS=Gallus gallus OX=9031 ...  40.0    0.002
+  sp|A1XQX8|NR3AA_DANRE Neurexin-3a OS=Danio rerio OX=7955 GN=nrx...  40.0    0.002
+  sp|A1XQX2|NR1BA_DANRE Neurexin-1b OS=Danio rerio OX=7955 GN=nrx...  40.0    0.003
+  sp|Q8C985|NRX3B_MOUSE Neurexin-3-beta OS=Mus musculus OX=10090 ...  39.7    0.003
+  sp|Q66KX2|CADM4_XENLA Cell adhesion molecule 4 OS=Xenopus laevi...  38.9    0.004
+  sp|Q7TPF1|SMAGP_RAT Small cell adhesion glycoprotein OS=Rattus ...  37.4    0.005
+  sp|Q9DDD0|NRX1A_CHICK Neurexin-1 (Fragment) OS=Gallus gallus OX...  39.3    0.005
+  sp|Q28143|NRX3B_BOVIN Neurexin-3-beta OS=Bos taurus OX=9913 GN=...  38.9    0.005
+  sp|Q63376|NRX2B_RAT Neurexin-2-beta OS=Rattus norvegicus OX=101...  38.9    0.005
+  sp|D0PRN4|NRX3B_CHICK Neurexin-3-beta OS=Gallus gallus OX=9031 ...  38.5    0.008
+  sp|Q63374|NRX2A_RAT Neurexin-2 OS=Rattus norvegicus OX=10116 GN...  38.5    0.009
+
+
+> sp|P04921|GLPC_HUMAN Glycophorin-C OS=Homo sapiens OX=9606 GN=GYPC 
+PE=1 SV=1
+Length=128
+
+ Score = 263 bits (671),  Expect = 9e-90, Method: Compositional matrix adjust.
+ Identities = 128/128 (100%), Positives = 128/128 (100%), Gaps = 0/128 (0%)
+
+Query  1    MWSTRSPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIV  60
+            MWSTRSPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIV
+Sbjct  1    MWSTRSPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIV  60
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD  120
+            VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD
+Sbjct  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD  120
+
+Query  121  SSRKEYFI  128
+            SSRKEYFI
+Sbjct  121  SSRKEYFI  128
+
+
+> sp|Q6XFR6|GLPC_RAT Glycophorin-C OS=Rattus norvegicus OX=10116 
+GN=Gypc PE=1 SV=1
+Length=95
+
+ Score = 117 bits (292),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 65/93 (70%), Positives = 75/93 (81%), Gaps = 11/93 (12%)
+
+Query  36   EPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNE  95
+            EP+PGMS             +M+I +IA VI AVA+VLV LLF+MLRY+YRHKGTY+TNE
+Sbjct  14   EPNPGMSY-----------AVMEIAIIAAVITAVALVLVCLLFLMLRYLYRHKGTYYTNE  62
+
+Query  96   AKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            AKGTEFAESADAALQ DPALQDAGD+S+KEYFI
+Sbjct  63   AKGTEFAESADAALQSDPALQDAGDTSKKEYFI  95
+
+
+> sp|Q78HU7|GLPC_MOUSE Glycophorin-C OS=Mus musculus OX=10090 GN=Gypc 
+PE=1 SV=2
+Length=95
+
+ Score = 115 bits (289),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 61/73 (84%), Positives = 68/73 (93%), Gaps = 0/73 (0%)
+
+Query  56   IMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPAL  115
+            IM+I +IA VI AVA+VLV LLF+MLRY+YRHKGTYHTNEAKGTEFAESADAALQ DPAL
+Sbjct  23   IMEIAIIAAVITAVALVLVCLLFLMLRYLYRHKGTYHTNEAKGTEFAESADAALQSDPAL  82
+
+Query  116  QDAGDSSRKEYFI  128
+            QDAGD+S+KEYFI
+Sbjct  83   QDAGDTSKKEYFI  95
+
+
+> sp|Q9CPW0|CNTP2_MOUSE Contactin-associated protein-like 2 OS=Mus 
+musculus OX=10090 GN=Cntnap2 PE=1 SV=2
+Length=1332
+
+ Score = 67.8 bits (164),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 49/122 (40%), Positives = 64/122 (52%), Gaps = 4/122 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIA  67
+             N  A PL+L P   M+SA+   H   +          P            +  +I GVIA
+Sbjct  1214  NCGASPLTLSP---MSSATDPWHLDHLDSASADFPYNPGQGQAIRNGVNRNSAIIGGVIA  1270
+
+Query  68    AVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAA-LQGDPALQDAGDSSRKEY  126
+              V   ++  L  ++RYM+RHKGTYHTNEAKG E AESADAA +  DP   +  D S+KE+
+Sbjct  1271  VVIFTILCTLVFLIRYMFRHKGTYHTNEAKGAESAESADAAIMNNDPNFTETIDESKKEW  1330
+
+Query  127   FI  128
+              I
+Sbjct  1331  LI  1332
+
+
+> sp|Q9UHC6|CNTP2_HUMAN Contactin-associated protein-like 2 OS=Homo 
+sapiens OX=9606 GN=CNTNAP2 PE=1 SV=1
+Length=1331
+
+ Score = 67.8 bits (164),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 49/122 (40%), Positives = 64/122 (52%), Gaps = 4/122 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIA  67
+             N  A PL+L P   M+SA+   H   +          P            +  +I GVIA
+Sbjct  1213  NCGASPLTLSP---MSSATDPWHLDHLDSASADFPYNPGQGQAIRNGVNRNSAIIGGVIA  1269
+
+Query  68    AVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAA-LQGDPALQDAGDSSRKEY  126
+              V   ++  L  ++RYM+RHKGTYHTNEAKG E AESADAA +  DP   +  D S+KE+
+Sbjct  1270  VVIFTILCTLVFLIRYMFRHKGTYHTNEAKGAESAESADAAIMNNDPNFTETIDESKKEW  1329
+
+Query  127   FI  128
+              I
+Sbjct  1330  LI  1331
+
+
+> sp|Q5RD64|CNTP2_PONAB Contactin-associated protein-like 2 OS=Pongo 
+abelii OX=9601 GN=CNTNAP2 PE=2 SV=1
+Length=1331
+
+ Score = 67.8 bits (164),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 49/122 (40%), Positives = 64/122 (52%), Gaps = 4/122 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIA  67
+             N  A PL+L P   M+SA+   H   +          P            +  +I GVIA
+Sbjct  1213  NCGASPLTLSP---MSSATDPWHLDHLDSASADFPYNPGQGQAIRNGVNRNSAIIGGVIA  1269
+
+Query  68    AVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAA-LQGDPALQDAGDSSRKEY  126
+              V   ++  L  ++RYM+RHKGTYHTNEAKG E AESADAA +  DP   +  D S+KE+
+Sbjct  1270  VVIFTILCTLVFLIRYMFRHKGTYHTNEAKGAESAESADAAIMNNDPNFTETIDESKKEW  1329
+
+Query  127   FI  128
+              I
+Sbjct  1330  LI  1331
+
+
+> sp|Q7ZXX1|CADM3_XENLA Cell adhesion molecule 3 OS=Xenopus laevis 
+OX=8355 GN=cadm3 PE=2 SV=1
+Length=394
+
+ Score = 64.3 bits (155),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 38/77 (49%), Positives = 49/77 (64%), Gaps = 2/77 (3%)
+
+Query  52   STPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQG  111
+            ST +I D  VI GV+A +A +L  LL V+ RY+ RHKGTY T+EAKG++ A  AD A+  
+Sbjct  320  STSSI-DHAVIGGVVAVIAFLLFCLLIVLGRYLIRHKGTYLTHEAKGSDDAPDADTAIIN  378
+
+Query  112  DPALQDAGDSSRKEYFI  128
+                Q  G   +KEYFI
+Sbjct  379  AEGGQ-GGSDDKKEYFI  394
+
+
+> sp|Q8BLQ9|CADM2_MOUSE Cell adhesion molecule 2 OS=Mus musculus 
+OX=10090 GN=Cadm2 PE=1 SV=2
+Length=435
+
+ Score = 62.8 bits (151),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 32/71 (45%), Positives = 42/71 (59%), Gaps = 1/71 (1%)
+
+Query  58   DIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQD  117
+            D  +I G++A V  V +  +F++ RY+ RHKGTY TNEAKG E A  AD A+      Q 
+Sbjct  366  DHALIGGIVAVVVFVTLCSIFLLGRYLARHKGTYLTNEAKGAEDAPDADTAIINAEGSQ-  424
+
+Query  118  AGDSSRKEYFI  128
+                 +KEYFI
+Sbjct  425  VNAEEKKEYFI  435
+
+
+> sp|Q0V8T4|CTP5C_RAT Contactin-associated protein like 5-3 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5c PE=2 SV=1
+Length=1307
+
+ Score = 61.2 bits (147),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 32/107 (30%), Positives = 55/107 (51%), Gaps = 2/107 (2%)
+
+Query  22    MASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVML  81
+             M  +     TT  +  DP   G  D     +   + D  VI GVIA V  +   ++ +M 
+Sbjct  1203  MVDSDVNAVTTVYSSSDP--FGKTDDHDPLTNAVLSDSAVIGGVIAVVTFITFCVIGIMT  1260
+
+Query  82    RYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             R++Y+HK ++ T++ K  E++E+ D++ + D  LQ      ++EYFI
+Sbjct  1261  RFLYQHKQSHCTSQKKEKEYSENLDSSFRHDIDLQSTTSKCKREYFI  1307
+
+
+> sp|Q8N3J6|CADM2_HUMAN Cell adhesion molecule 2 OS=Homo sapiens 
+OX=9606 GN=CADM2 PE=2 SV=1
+Length=435
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 32/71 (45%), Positives = 42/71 (59%), Gaps = 1/71 (1%)
+
+Query  58   DIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQD  117
+            D  +I G++A V  V +  +F++ RY+ RHKGTY TNEAKG E A  AD A+      Q 
+Sbjct  366  DHALIGGIVAVVVFVTLCSIFLLGRYLARHKGTYLTNEAKGAEDAPDADTAIINAEGSQ-  424
+
+Query  118  AGDSSRKEYFI  128
+                 +KEYFI
+Sbjct  425  VNAEEKKEYFI  435
+
+
+> sp|Q1WIM2|CADM2_RAT Cell adhesion molecule 2 OS=Rattus norvegicus 
+OX=10116 GN=Cadm2 PE=1 SV=2
+Length=435
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 32/71 (45%), Positives = 42/71 (59%), Gaps = 1/71 (1%)
+
+Query  58   DIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQD  117
+            D  +I G++A V  V +  +F++ RY+ RHKGTY TNEAKG E A  AD A+      Q 
+Sbjct  366  DHALIGGIVAVVVFVTLCSIFLLGRYLARHKGTYLTNEAKGAEDAPDADTAIINAEGSQ-  424
+
+Query  118  AGDSSRKEYFI  128
+                 +KEYFI
+Sbjct  425  VNAEEKKEYFI  435
+
+
+> sp|Q0V8T0|CNTP5_CANLF Contactin-associated protein-like 5 OS=Canis 
+lupus familiaris OX=9615 GN=CNTNAP5 PE=2 SV=1
+Length=1305
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 35/102 (34%), Positives = 59/102 (58%), Gaps = 6/102 (6%)
+
+Query  27    TTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYR  86
+             TT+H+++    DP   G  D R   +     D  VI GVIA V  ++ S++ +M R++Y+
+Sbjct  1210  TTVHSSS----DP--FGKTDEREPLTNAVRSDSAVIGGVIAVVIFIIFSIIGIMTRFLYQ  1263
+
+Query  87    HKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             HK ++ TN+ K  E+ E+ D++ + D  LQ+     ++EYFI
+Sbjct  1264  HKQSHRTNQMKEKEYPENLDSSFRNDIDLQNTVSECKREYFI  1305
+
+
+> sp|Q0V8T5|CTP5B_RAT Contactin-associated protein like 5-2 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5b PE=2 SV=1
+Length=1292
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 31/98 (32%), Positives = 50/98 (51%), Gaps = 2/98 (2%)
+
+Query  31    TTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGT  90
+             TT  +  DP   G  D     +     D   I GVIA V  +   ++ +M  ++Y+HK +
+Sbjct  1197  TTVYSSSDP--FGNTDEHEPLTNAIQSDSAFIGGVIAIVTFIAFGVIGIMTHFLYQHKQS  1254
+
+Query  91    YHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             +HTN  K  E+ E+ D++ + D  LQ+     ++EYFI
+Sbjct  1255  HHTNPMKEKEYPENLDSSFRNDIDLQNTVSDCKREYFI  1292
+
+
+> sp|Q0V8T7|CTP5C_MOUSE Contactin-associated protein like 5-3 OS=Mus 
+musculus OX=10090 GN=Cntnap5c PE=2 SV=1
+Length=1305
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 32/106 (30%), Positives = 59/106 (56%), Gaps = 6/106 (6%)
+
+Query  23    ASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLR  82
+             A+A TT++++T    DP   G  D R   +     D+ VI G+IA V  +  S++ +M  
+Sbjct  1206  ANAVTTVYSST----DP--FGERDEREPLTNAVPSDLAVIGGIIAVVTFISFSVIGIMTH  1259
+
+Query  83    YMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             + Y+HK +++ ++ K  E+ E+ D++ + D  LQ+     ++E FI
+Sbjct  1260  FFYQHKRSHYASQMKEKEYPENVDSSSRNDIDLQNTTRECKQEDFI  1305
+
+
+> sp|Q8WYK1|CNTP5_HUMAN Contactin-associated protein-like 5 OS=Homo 
+sapiens OX=9606 GN=CNTNAP5 PE=2 SV=1
+Length=1306
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 33/105 (31%), Positives = 60/105 (57%), Gaps = 6/105 (6%)
+
+Query  24    SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+             +A TT+H+++    DP   G  D R   +     D  VI GVIA V  ++  ++ +M R+
+Sbjct  1208  NAVTTVHSSS----DP--FGKTDEREPLTNAVRSDSAVIGGVIAVVIFIIFCIIGIMTRF  1261
+
+Query  84    MYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             +Y+HK ++ T++ K  E+ E+ D++ + +  LQ+     ++EYFI
+Sbjct  1262  LYQHKQSHRTSQMKEKEYPENLDSSFRNEIDLQNTVSECKREYFI  1306
+
+
+> sp|Q0V8T3|CTP5D_RAT Contactin-associated protein like 5-4 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5d PE=2 SV=1
+Length=1305
+
+ Score = 55.1 bits (131),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 32/105 (30%), Positives = 55/105 (52%), Gaps = 6/105 (6%)
+
+Query  24    SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+             +A TT+H++     DP   G  D R   +     D  VI G+IA V  V   ++ +M+ +
+Sbjct  1207  NAVTTVHSSL----DP--IGKRDEREPLTDTVQSDSAVIGGIIALVTFVTFCVIGIMIHF  1260
+
+Query  84    MYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             +Y HK ++ TN+ K  E++E+   + +    LQ+     ++EYFI
+Sbjct  1261  LYLHKQSHCTNQTKEKEYSENLSNSFRNAIDLQNTASECKREYFI  1305
+
+
+> sp|Q0V8T9|CTP5A_MOUSE Contactin-associated protein like 5-1 OS=Mus 
+musculus OX=10090 GN=Cntnap5a PE=1 SV=1
+Length=1304
+
+ Score = 54.7 bits (130),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 25/71 (35%), Positives = 43/71 (61%), Gaps = 1/71 (1%)
+
+Query  58    DIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQD  117
+             D  VI GVIA V  +   ++ +M R++Y+HK ++ TN+ K  E+ E+ D + + +  LQ+
+Sbjct  1235  DSAVIGGVIAVVTFITFCVIGIMTRFLYQHKQSHRTNQMK-KEYPENLDNSFRNEIDLQN  1293
+
+Query  118   AGDSSRKEYFI  128
+                  ++EYFI
+Sbjct  1294  TATECKREYFI  1304
+
+
+> sp|Q28F36|SMAGP_XENTR Small cell adhesion glycoprotein homolog 
+OS=Xenopus tropicalis OX=8364 GN=smagp PE=3 SV=1
+Length=90
+
+ Score = 50.1 bits (118),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 27/68 (40%), Positives = 41/68 (60%), Gaps = 6/68 (9%)
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD  120
+            V+ GVIAAV I L++++ ++  Y+Y+HKG+Y TNE    E  E++      D AL     
+Sbjct  29   VVGGVIAAVFITLITVVVLITVYLYKHKGSYRTNE--NLEDVEASKTLQMEDSALT----  82
+
+Query  121  SSRKEYFI  128
+              +KEYF+
+Sbjct  83   PEKKEYFM  90
+
+
+> sp|Q0V8T8|CTP5B_MOUSE Contactin-associated protein like 5-2 OS=Mus 
+musculus OX=10090 GN=Cntnap5b PE=2 SV=1
+Length=1292
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 28/88 (32%), Positives = 49/88 (56%), Gaps = 4/88 (5%)
+
+Query  45    PDGRMETSTP---TIM-DIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTE  100
+             P G+ +   P   TI  D   I GVIA V  +   +L +M+ ++Y+ K ++ TN+ K  E
+Sbjct  1205  PFGKTDEHEPLTNTIQSDSAFIGGVIAIVTFITFCVLGIMVHFLYQQKQSHRTNQMKEKE  1264
+
+Query  101   FAESADAALQGDPALQDAGDSSRKEYFI  128
+             + ++ D++ + D  LQ+     ++EYFI
+Sbjct  1265  YPDNLDSSFRNDIDLQNTAIECKREYFI  1292
+
+
+> sp|Q0V8S9|CNTP5_CHICK Contactin-associated protein-like 5 OS=Gallus 
+gallus OX=9031 GN=CNTNAP5 PE=2 SV=1
+Length=1305
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 36/122 (30%), Positives = 65/122 (53%), Gaps = 8/122 (7%)
+
+Query  13    PLSLEPDPGMASASTTMHT-----TTI-AEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+             P++++     +S S+ M T     TTI +  DP   G  D R   +     D  VI GVI
+Sbjct  1186  PVTVKGSLTESSCSSLMETDVNTATTIYSSSDP--FGKTDEREPLTNAVRSDSAVIGGVI  1243
+
+Query  67    AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEY  126
+             A V  ++  ++ +M R++Y+HK  + +++ K  E+ E+ +++ + D  LQ+     ++EY
+Sbjct  1244  AVVIFIIFCIIAIMSRFLYQHKQAHRSSQTKEKEYPENLESSFKADIDLQNTVSECKREY  1303
+
+Query  127   FI  128
+             FI
+Sbjct  1304  FI  1305
+
+
+> sp|Q0V8T6|CTP5A_RAT Contactin-associated protein like 5-1 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5a PE=2 SV=1
+Length=1305
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 31/105 (30%), Positives = 55/105 (52%), Gaps = 6/105 (6%)
+
+Query  24    SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+             +A TT+H++   EP     G  D +   +     D  VI G+IA V  V   ++ +M+ +
+Sbjct  1207  NAVTTVHSSL--EP----IGKRDEQEPLTNTVQSDSAVIGGIIAVVTFVTFCVIGIMICF  1260
+
+Query  84    MYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             +Y+HK ++ TN+ K  E+ E+   + +    LQ+     ++EYFI
+Sbjct  1261  LYQHKQSHRTNQTKEKEYPETLSNSFRNVIDLQNTASECKREYFI  1305
+
+
+> sp|Q6DJ83|CADM2_XENTR Cell adhesion molecule 2 OS=Xenopus tropicalis 
+OX=8364 GN=cadm2 PE=2 SV=1
+Length=433
+
+ Score = 52.0 bits (123),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 33/75 (44%), Positives = 42/75 (56%), Gaps = 1/75 (1%)
+
+Query  54   PTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDP  113
+            P   D  +I GV+A V  V +  + ++ RY+ RHKGTY TNEAKG E A  AD A+    
+Sbjct  360  PVATDHALIGGVVAVVVFVTLCSIILIGRYLARHKGTYLTNEAKGAEDAPDADTAIINAE  419
+
+Query  114  ALQDAGDSSRKEYFI  128
+              Q      +KEYFI
+Sbjct  420  GSQ-VNAEEKKEYFI  433
+
+
+> sp|Q9C0A0|CNTP4_HUMAN Contactin-associated protein-like 4 OS=Homo 
+sapiens OX=9606 GN=CNTNAP4 PE=1 SV=3
+Length=1308
+
+ Score = 52.4 bits (124),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 36/122 (30%), Positives = 61/122 (50%), Gaps = 14/122 (11%)
+
+Query  18    PDPGMASASTTMHTTTIAEPDPGM------------SGWPDGRMETSTPTIMDIVVIAGV  65
+             PDP   +   T  ++ +A+P                SG  D R   +     D  VI G+
+Sbjct  1188  PDPVTVTGHVT-ESSCMAQPGTDATSRERTHSFADHSGTIDDREPLANAIKSDSAVIGGL  1246
+
+Query  66    IAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKE  125
+             IA V  +L+ +  + +R +Y+ K  Y  +EAK +E  +SA+A L+ +  +Q+A + ++KE
+Sbjct  1247  IAVVIFILLCITAIAVR-IYQQKRLYKRSEAKRSENVDSAEAVLKSELNIQNAVNENQKE  1305
+
+Query  126   YF  127
+             YF
+Sbjct  1306  YF  1307
+
+
+> sp|Q8N126|CADM3_HUMAN Cell adhesion molecule 3 OS=Homo sapiens 
+OX=9606 GN=CADM3 PE=1 SV=1
+Length=398
+
+ Score = 51.6 bits (122),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 29/68 (43%), Positives = 43/68 (63%), Gaps = 1/68 (1%)
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD  120
+            +I G++A +  +L+ +L  +  Y+ RHKGTY T+EAKG++ A  AD A+      Q  GD
+Sbjct  332  IIGGIVAFIVFLLLIMLIFLGHYLIRHKGTYLTHEAKGSDDAPDADTAIINAEGGQSGGD  391
+
+Query  121  SSRKEYFI  128
+              +KEYFI
+Sbjct  392  -DKKEYFI  398
+
+
+> sp|Q99P47|CNTP4_MOUSE Contactin-associated protein-like 4 OS=Mus 
+musculus OX=10090 GN=Cntnap4 PE=1 SV=2
+Length=1310
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 35/108 (32%), Positives = 57/108 (53%), Gaps = 5/108 (5%)
+
+Query  20    PGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFV  79
+             P    A++   T + A+     SG  D R   +     D  VI G+IA V  +L+ +  +
+Sbjct  1207  PSGTDATSRERTHSFAD----HSGTMDDREPLTHAIKSDSAVIGGLIAVVIFILLCVSAI  1262
+
+Query  80    MLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYF  127
+              +R +Y+ K  Y  NEAK +E  +SA+A L+ +  +Q+A   ++KEYF
+Sbjct  1263  AVR-IYQQKRLYKRNEAKRSENVDSAEAVLKSELHIQNAVGENQKEYF  1309
+
+
+> sp|Q1WIM3|CADM3_RAT Cell adhesion molecule 3 OS=Rattus norvegicus 
+OX=10116 GN=Cadm3 PE=1 SV=1
+Length=396
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 43/68 (63%), Gaps = 1/68 (1%)
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD  120
+            +I G++A +  +L+ LL  +  Y+ RHKGTY T+EAKG++ A  AD A+      Q  GD
+Sbjct  330  IIGGIVAFIVFLLLILLIFLGHYLIRHKGTYLTHEAKGSDDAPDADTAIINAEGGQSGGD  389
+
+Query  121  SSRKEYFI  128
+              +KEYFI
+Sbjct  390  -DKKEYFI  396
+
+
+> sp|Q99N28|CADM3_MOUSE Cell adhesion molecule 3 OS=Mus musculus 
+OX=10090 GN=Cadm3 PE=1 SV=1
+Length=396
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 43/68 (63%), Gaps = 1/68 (1%)
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD  120
+            +I G++A +  +L+ LL  +  Y+ RHKGTY T+EAKG++ A  AD A+      Q  GD
+Sbjct  330  IIGGIVAFIVFLLLILLIFLGHYLIRHKGTYLTHEAKGSDDAPDADTAIINAEGGQSGGD  389
+
+Query  121  SSRKEYFI  128
+              +KEYFI
+Sbjct  390  -DKKEYFI  396
+
+
+> sp|Q0VAQ4|SMAGP_HUMAN Small cell adhesion glycoprotein OS=Homo 
+sapiens OX=9606 GN=SMAGP PE=1 SV=1
+Length=97
+
+ Score = 41.2 bits (95),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 25/68 (37%), Positives = 40/68 (59%), Gaps = 6/68 (9%)
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD  120
+            +IA VI  V + L+S++ ++  Y+Y++KG+Y T E   TE   SA   ++ D     A  
+Sbjct  36   LIAVVITVVFLTLLSVVILIFFYLYKNKGSYVTYEP--TEGEPSAIVQMESD----LAKG  89
+
+Query  121  SSRKEYFI  128
+            S ++EYFI
+Sbjct  90   SEKEEYFI  97
+
+
+> sp|A1XQY0|NR3AB_DANRE Neurexin-3a-beta OS=Danio rerio OX=7955 
+GN=nrxn3a PE=2 SV=1
+Length=672
+
+ Score = 42.7 bits (99),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 20/74 (27%), Positives = 41/74 (55%), Gaps = 6/74 (8%)
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDA  118
+            ++ G++AA A+ ++ LL+ M +Y  R +G+Y  +E +   T  A+S  A ++       +
+Sbjct  599  MVVGIVAAAALCILILLYAMYKYRNRDEGSYQVDETRNYITNSAQSNGAVMKDKQQSTKS  658
+
+Query  119  GDSSR----KEYFI  128
+            G+  +    KEY++
+Sbjct  659  GNKKQKNKDKEYYV  672
+
+
+> sp|A1XQX0|NR1AA_DANRE Neurexin-1a OS=Danio rerio OX=7955 GN=nrxn1a 
+PE=2 SV=1
+Length=1491
+
+ Score = 42.4 bits (98),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 38/63 (60%), Gaps = 6/63 (10%)
+
+Query  37    PDPGMSGWPDGRM--ETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTN  94
+             P P   G+P   +  E+S+ T M    + G++AA A+ ++ LL+ M +Y  R +G+YH +
+Sbjct  1395  PLPEAKGYPSPEVIRESSSTTGM----VVGIVAAAALCILILLYAMYKYRNRDEGSYHVD  1450
+
+Query  95    EAK  97
+             E++
+Sbjct  1451  ESR  1453
+
+
+> sp|A1XQX1|NR1AB_DANRE Neurexin-1a-beta OS=Danio rerio OX=7955 
+GN=nrxn1a PE=2 SV=1
+Length=449
+
+ Score = 42.0 bits (97),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 21/63 (33%), Positives = 38/63 (60%), Gaps = 6/63 (10%)
+
+Query  37   PDPGMSGWPDGRM--ETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTN  94
+            P P   G+P   +  E+S+ T M    + G++AA A+ ++ LL+ M +Y  R +G+YH +
+Sbjct  353  PLPEAKGYPSPEVIRESSSTTGM----VVGIVAAAALCILILLYAMYKYRNRDEGSYHVD  408
+
+Query  95   EAK  97
+            E++
+Sbjct  409  ESR  411
+
+
+> sp|P58401|NRX2B_HUMAN Neurexin-2-beta OS=Homo sapiens OX=9606 
+GN=NRXN2 PE=1 SV=1
+Length=666
+
+ Score = 41.6 bits (96),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 31/115 (27%), Positives = 56/115 (49%), Gaps = 8/115 (7%)
+
+Query  21   GMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVM  80
+            G+ SA    H  T     PG  G P G +E    +     ++ G++AA A+ ++ LL+ M
+Sbjct  553  GVTSAPGFPHLPTANPTGPGERG-PPGAVEVIRESSSTTGMVVGIVAAAALCILILLYAM  611
+
+Query  81   LRYMYRHKGTYHTNEAKG--TEFAESADAALQGD-PAL----QDAGDSSRKEYFI  128
+             +Y  R +G+Y  ++++   +  A+S  A ++   PA       A  +  KEY++
+Sbjct  612  YKYRNRDEGSYQVDQSRNYISNSAQSNGAVVKEKAPAAPKTPSKAKKNKDKEYYV  666
+
+
+> sp|Q8R5M8|CADM1_MOUSE Cell adhesion molecule 1 OS=Mus musculus 
+OX=10090 GN=Cadm1 PE=1 SV=2
+Length=456
+
+ Score = 41.6 bits (96),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 25/56 (45%), Positives = 35/56 (63%), Gaps = 1/56 (2%)
+
+Query  73   LVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            ++ LL ++ RY  RHKGTY T+EAKG + A  AD A+      Q+  +  +KEYFI
+Sbjct  402  MLCLLIILGRYFARHKGTYFTHEAKGADDAADADTAIINAEGGQNNSE-EKKEYFI  456
+
+
+> sp|Q9BY67|CADM1_HUMAN Cell adhesion molecule 1 OS=Homo sapiens 
+OX=9606 GN=CADM1 PE=1 SV=2
+Length=442
+
+ Score = 41.6 bits (96),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 25/56 (45%), Positives = 35/56 (63%), Gaps = 1/56 (2%)
+
+Query  73   LVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            ++ LL ++ RY  RHKGTY T+EAKG + A  AD A+      Q+  +  +KEYFI
+Sbjct  388  MLCLLIILGRYFARHKGTYFTHEAKGADDAADADTAIINAEGGQNNSE-EKKEYFI  442
+
+
+> sp|Q6AYP5|CADM1_RAT Cell adhesion molecule 1 OS=Rattus norvegicus 
+OX=10116 GN=Cadm1 PE=1 SV=1
+Length=476
+
+ Score = 41.2 bits (95),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 25/56 (45%), Positives = 35/56 (63%), Gaps = 1/56 (2%)
+
+Query  73   LVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            ++ LL ++ RY  RHKGTY T+EAKG + A  AD A+      Q+  +  +KEYFI
+Sbjct  422  MLCLLIILGRYFARHKGTYFTHEAKGADDAADADTAIINAEGGQNNSE-EKKEYFI  476
+
+
+> sp|Q63372|NRX1A_RAT Neurexin-1 OS=Rattus norvegicus OX=10116 
+GN=Nrxn1 PE=1 SV=3
+Length=1530
+
+ Score = 41.2 bits (95),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 25/81 (31%), Positives = 45/81 (56%), Gaps = 9/81 (11%)
+
+Query  19    DPGMASASTTMHTTTIA--EPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSL  76
+             DP   S+    + T +   EP PG +   +   E+S+ T M    + G++AA A+ ++ L
+Sbjct  1419  DPCEPSSGGLANPTRVGGREPYPGSA---EVIRESSSTTGM----VVGIVAAAALCILIL  1471
+
+Query  77    LFVMLRYMYRHKGTYHTNEAK  97
+             L+ M +Y  R +G+YH +E++
+Sbjct  1472  LYAMYKYRNRDEGSYHVDESR  1492
+
+
+> sp|Q9CS84|NRX1A_MOUSE Neurexin-1 OS=Mus musculus OX=10090 GN=Nrxn1 
+PE=1 SV=3
+Length=1514
+
+ Score = 41.2 bits (95),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 25/81 (31%), Positives = 45/81 (56%), Gaps = 9/81 (11%)
+
+Query  19    DPGMASASTTMHTTTIA--EPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSL  76
+             DP   S+    + T +   EP PG +   +   E+S+ T M    + G++AA A+ ++ L
+Sbjct  1403  DPCEPSSGGLANPTRVGGREPYPGSA---EVIRESSSTTGM----VVGIVAAAALCILIL  1455
+
+Query  77    LFVMLRYMYRHKGTYHTNEAK  97
+             L+ M +Y  R +G+YH +E++
+Sbjct  1456  LYAMYKYRNRDEGSYHVDESR  1476
+
+
+> sp|Q9P2S2|NRX2A_HUMAN Neurexin-2 OS=Homo sapiens OX=9606 GN=NRXN2 
+PE=2 SV=1
+Length=1712
+
+ Score = 41.2 bits (95),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 31/115 (27%), Positives = 56/115 (49%), Gaps = 8/115 (7%)
+
+Query  21    GMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVM  80
+             G+ SA    H  T     PG  G P G +E    +     ++ G++AA A+ ++ LL+ M
+Sbjct  1599  GVTSAPGFPHLPTANPTGPGERG-PPGAVEVIRESSSTTGMVVGIVAAAALCILILLYAM  1657
+
+Query  81    LRYMYRHKGTYHTNEAKG--TEFAESADAALQGD-PAL----QDAGDSSRKEYFI  128
+              +Y  R +G+Y  ++++   +  A+S  A ++   PA       A  +  KEY++
+Sbjct  1658  YKYRNRDEGSYQVDQSRNYISNSAQSNGAVVKEKAPAAPKTPSKAKKNKDKEYYV  1712
+
+
+> sp|A1XQX3|NR1BB_DANRE Neurexin-1b-beta OS=Danio rerio OX=7955 
+GN=nrxn1b PE=2 SV=1
+Length=448
+
+ Score = 40.4 bits (93),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 27/102 (26%), Positives = 49/102 (48%), Gaps = 2/102 (2%)
+
+Query  19   DPGMASASTTMHTTTIAEP-DPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLL  77
+            DP   S+ T       A P  P +S +P G  E    +     ++ G++A  A+ ++ LL
+Sbjct  335  DPCEPSSGTLCCFVPPAGPTGPAISSFP-GPAEVFRESNGTTGMVVGIVAGAALCILILL  393
+
+Query  78   FVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAG  119
+            + M +Y  R +G+YH +E++      +  A  + + A  D+G
+Sbjct  394  YAMYKYRNRDEGSYHVDESRNYICNSNGAALKEKNTADDDSG  435
+
+
+> sp|Q63373|NRX1B_RAT Neurexin-1-beta OS=Rattus norvegicus OX=10116 
+GN=Nrxn1 PE=1 SV=1
+Length=468
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 25/81 (31%), Positives = 45/81 (56%), Gaps = 9/81 (11%)
+
+Query  19   DPGMASASTTMHTTTIA--EPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSL  76
+            DP   S+    + T +   EP PG +   +   E+S+ T M    + G++AA A+ ++ L
+Sbjct  357  DPCEPSSGGLANPTRVGGREPYPGSA---EVIRESSSTTGM----VVGIVAAAALCILIL  409
+
+Query  77   LFVMLRYMYRHKGTYHTNEAK  97
+            L+ M +Y  R +G+YH +E++
+Sbjct  410  LYAMYKYRNRDEGSYHVDESR  430
+
+
+> sp|Q28146|NRX1A_BOVIN Neurexin-1 OS=Bos taurus OX=9913 GN=NRXN1 
+PE=1 SV=1
+Length=1530
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/62 (34%), Positives = 38/62 (61%), Gaps = 7/62 (11%)
+
+Query  36    EPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNE  95
+             EP PG +   +   E+S+ T M    + G++AA A+ ++ LL+ M +Y  R +G+YH +E
+Sbjct  1438  EPYPGSA---EVIRESSSTTGM----VVGIVAAAALCILILLYAMYKYRNRDEGSYHVDE  1490
+
+Query  96    AK  97
+             ++
+Sbjct  1491  SR  1492
+
+
+> sp|P0DI97|NRX1B_MOUSE Neurexin-1-beta OS=Mus musculus OX=10090 
+GN=Nrxn1 PE=1 SV=1
+Length=468
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 25/81 (31%), Positives = 45/81 (56%), Gaps = 9/81 (11%)
+
+Query  19   DPGMASASTTMHTTTIA--EPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSL  76
+            DP   S+    + T +   EP PG +   +   E+S+ T M    + G++AA A+ ++ L
+Sbjct  357  DPCEPSSGGLANPTRVGGREPYPGSA---EVIRESSSTTGM----VVGIVAAAALCILIL  409
+
+Query  77   LFVMLRYMYRHKGTYHTNEAK  97
+            L+ M +Y  R +G+YH +E++
+Sbjct  410  LYAMYKYRNRDEGSYHVDESR  430
+
+
+> sp|Q9ULB1|NRX1A_HUMAN Neurexin-1 OS=Homo sapiens OX=9606 GN=NRXN1 
+PE=2 SV=1
+Length=1477
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/62 (34%), Positives = 38/62 (61%), Gaps = 7/62 (11%)
+
+Query  36    EPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNE  95
+             EP PG +   +   E+S+ T M    + G++AA A+ ++ LL+ M +Y  R +G+YH +E
+Sbjct  1385  EPYPGSA---EVIRESSSTTGM----VVGIVAAAALCILILLYAMYKYRNRDEGSYHVDE  1437
+
+Query  96    AK  97
+             ++
+Sbjct  1438  SR  1439
+
+
+> sp|Q28142|NRX1B_BOVIN Neurexin-1-beta OS=Bos taurus OX=9913 GN=NRXN1 
+PE=1 SV=2
+Length=467
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 21/62 (34%), Positives = 38/62 (61%), Gaps = 7/62 (11%)
+
+Query  36   EPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNE  95
+            EP PG +   +   E+S+ T M    + G++AA A+ ++ LL+ M +Y  R +G+YH +E
+Sbjct  375  EPYPGSA---EVIRESSSTTGM----VVGIVAAAALCILILLYAMYKYRNRDEGSYHVDE  427
+
+Query  96   AK  97
+            ++
+Sbjct  428  SR  429
+
+
+> sp|P58400|NRX1B_HUMAN Neurexin-1-beta OS=Homo sapiens OX=9606 
+GN=NRXN1 PE=1 SV=3
+Length=472
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 21/62 (34%), Positives = 38/62 (61%), Gaps = 7/62 (11%)
+
+Query  36   EPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNE  95
+            EP PG +   +   E+S+ T M    + G++AA A+ ++ LL+ M +Y  R +G+YH +E
+Sbjct  380  EPYPGSA---EVIRESSSTTGM----VVGIVAAAALCILILLYAMYKYRNRDEGSYHVDE  432
+
+Query  96   AK  97
+            ++
+Sbjct  433  SR  434
+
+
+> sp|D0PRN2|NRX1B_CHICK Neurexin-1-beta OS=Gallus gallus OX=9031 
+GN=NRXN1 PE=1 SV=1
+Length=466
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 20/63 (32%), Positives = 39/63 (62%), Gaps = 6/63 (10%)
+
+Query  50   ETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADA  107
+            E+S+ T M    + G++AA A+ ++ LL+ M +Y  R +G+YH +E++   +  A+S  A
+Sbjct  385  ESSSTTGM----VVGIVAAAALCILILLYAMYKYRNRDEGSYHVDESRNYISNSAQSNGA  440
+
+Query  108  ALQ  110
+             ++
+Sbjct  441  VIK  443
+
+
+> sp|A1XQX8|NR3AA_DANRE Neurexin-3a OS=Danio rerio OX=7955 GN=nrxn3a 
+PE=2 SV=1
+Length=1697
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 27/100 (27%), Positives = 51/100 (51%), Gaps = 13/100 (13%)
+
+Query  38    DPGMSGWPDGR---METSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTN  94
+             +PG+   P       E+S+ T M    + G++AA A+ ++ LL+ M +Y  R +G+Y  +
+Sbjct  1602  EPGIRRVPGASEVVRESSSTTGM----VVGIVAAAALCILILLYAMYKYRNRDEGSYQVD  1657
+
+Query  95    EAKG--TEFAESADAALQGDPALQDAGDSSR----KEYFI  128
+             E +   T  A+S  A ++       +G+  +    KEY++
+Sbjct  1658  ETRNYITNSAQSNGAVMKDKQQSTKSGNKKQKNKDKEYYV  1697
+
+
+> sp|A1XQX2|NR1BA_DANRE Neurexin-1b OS=Danio rerio OX=7955 GN=nrxn1b 
+PE=2 SV=1
+Length=1470
+
+ Score = 40.0 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 49/102 (48%), Gaps = 2/102 (2%)
+
+Query  19    DPGMASASTTMHTTTIAEPD-PGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLL  77
+             DP   S+ T       A P  P +S +P G  E    +     ++ G++A  A+ ++ LL
+Sbjct  1357  DPCEPSSGTLCCFVPPAGPTGPAISSFP-GPAEVFRESNGTTGMVVGIVAGAALCILILL  1415
+
+Query  78    FVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAG  119
+             + M +Y  R +G+YH +E++      +  A  + + A  D+G
+Sbjct  1416  YAMYKYRNRDEGSYHVDESRNYICNSNGAALKEKNTADDDSG  1457
+
+
+> sp|Q8C985|NRX3B_MOUSE Neurexin-3-beta OS=Mus musculus OX=10090 
+GN=Nrxn3 PE=1 SV=2
+Length=567
+
+ Score = 39.7 bits (91),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 19/74 (26%), Positives = 40/74 (54%), Gaps = 6/74 (8%)
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDA  118
+            ++ G++AA A+ ++ LL+ M +Y  R +G+Y  +E +   +  A+S    ++   A   +
+Sbjct  494  MVVGIVAAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQSNGTLMKEKQASSKS  553
+
+Query  119  GDSSR----KEYFI  128
+            G   +    KEY++
+Sbjct  554  GHKKQKNKDKEYYV  567
+
+
+> sp|Q66KX2|CADM4_XENLA Cell adhesion molecule 4 OS=Xenopus laevis 
+OX=8355 GN=cadm4 PE=2 SV=1
+Length=390
+
+ Score = 38.9 bits (89),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 24/68 (35%), Positives = 37/68 (54%), Gaps = 7/68 (10%)
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG-TEFAESADAALQGDPALQDAG  119
+            VI G++A +  +++ +L VM+    R KG+Y T+EA G  E  E+ +A L G        
+Sbjct  327  VIGGILALLVFLVICILIVMVWCSVRQKGSYLTHEASGLDEHGEAREAFLNG------GE  380
+
+Query  120  DSSRKEYF  127
+            +  RKE F
+Sbjct  381  NHKRKEEF  388
+
+
+> sp|Q7TPF1|SMAGP_RAT Small cell adhesion glycoprotein OS=Rattus 
+norvegicus OX=10116 GN=Smagp PE=1 SV=1
+Length=97
+
+ Score = 37.4 bits (85),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 24/74 (32%), Positives = 41/74 (55%), Gaps = 18/74 (24%)
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPA--LQDA  118
+            +IA VI  V + L+S++ ++  Y+Y++KG+Y T E              +G+P+  LQ  
+Sbjct  36   LIAVVITVVFLTLLSVVTLIFFYLYKNKGSYVTYEPA------------EGEPSAILQME  83
+
+Query  119  GDSS----RKEYFI  128
+             DS+    ++EYFI
+Sbjct  84   TDSAKGKEKEEYFI  97
+
+
+> sp|Q9DDD0|NRX1A_CHICK Neurexin-1 (Fragment) OS=Gallus gallus 
+OX=9031 GN=NRXN1 PE=2 SV=1
+Length=1363
+
+ Score = 39.3 bits (90),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 32/48 (67%), Gaps = 4/48 (8%)
+
+Query  50    ETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAK  97
+             E+S+ T M    + G++AA A+ ++ LL+ M +Y  R +G+YH +E++
+Sbjct  1282  ESSSTTGM----VVGIVAAAALCILILLYAMYKYRNRDEGSYHVDESR  1325
+
+
+> sp|Q28143|NRX3B_BOVIN Neurexin-3-beta OS=Bos taurus OX=9913 GN=NRXN3 
+PE=1 SV=2
+Length=456
+
+ Score = 38.9 bits (89),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 51/106 (48%), Gaps = 13/106 (12%)
+
+Query  32   TTIAEPDPGMSGWPDGR---METSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHK  88
+            +T    +PG+   P       E+S+ T M    + G++AA A+ ++ LL+ M +Y  R +
+Sbjct  355  STANPTEPGVRRVPGASEVIRESSSTTGM----VVGIVAAAALCILILLYAMYKYRNRDE  410
+
+Query  89   GTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR----KEYFI  128
+            G+Y  +E +   +  A+S    L+  P     G   +    KEY++
+Sbjct  411  GSYQVDETRNYISNSAQSNGTLLKEKPPSSKGGHKKQKNKDKEYYV  456
+
+
+> sp|Q63376|NRX2B_RAT Neurexin-2-beta OS=Rattus norvegicus OX=10116 
+GN=Nrxn2 PE=1 SV=1
+Length=662
+
+ Score = 38.9 bits (89),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 26/100 (26%), Positives = 47/100 (47%), Gaps = 14/100 (14%)
+
+Query  39   PGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAK-  97
+            PG  G P G +E    +     ++ G++AA A+ ++ LL+ M +Y  R +G+Y  ++++ 
+Sbjct  567  PGERG-PPGAVEVIRESSSTTGMVVGIVAAAALCILILLYAMYKYRNRDEGSYQVDQSRN  625
+
+Query  98   ---------GTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+                     G    E A AA +       A  +  KEY++
+Sbjct  626  YISNSAQSNGAVVKEKAPAAPK---TPSKAKKNKDKEYYV  662
+
+
+> sp|D0PRN4|NRX3B_CHICK Neurexin-3-beta OS=Gallus gallus OX=9031 
+GN=NRXN3 PE=1 SV=2
+Length=668
+
+ Score = 38.5 bits (88),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 19/78 (24%), Positives = 38/78 (49%), Gaps = 14/78 (18%)
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAK----------GTEFAESADAALQ  110
+            ++ G++AA A+ ++ LL+ M +Y  R +G+Y  +E +          GT   E   ++  
+Sbjct  595  MVVGIVAAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQSNGTLMKEKQQSSKS  654
+
+Query  111  GDPALQDAGDSSRKEYFI  128
+            G    ++      KEY++
+Sbjct  655  GHKKQKNKD----KEYYV  668
+
+
+> sp|Q63374|NRX2A_RAT Neurexin-2 OS=Rattus norvegicus OX=10116 
+GN=Nrxn2 PE=1 SV=3
+Length=1715
+
+ Score = 38.5 bits (88),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 26/97 (27%), Positives = 50/97 (52%), Gaps = 8/97 (8%)
+
+Query  39    PGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG  98
+             PG  G P G +E    +     ++ G++AA A+ ++ LL+ M +Y  R +G+Y  ++++ 
+Sbjct  1620  PGERG-PPGAVEVIRESSSTTGMVVGIVAAAALCILILLYAMYKYRNRDEGSYQVDQSRN  1678
+
+Query  99    --TEFAESADAALQGD-PAL----QDAGDSSRKEYFI  128
+               +  A+S  A ++   PA       A  +  KEY++
+Sbjct  1679  YISNSAQSNGAVVKEKAPAAPKTPSKAKKNKDKEYYV  1715
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.128    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5008563936
+Results from round 2
+
+
+Query= GLPC_HUMAN
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P04921|GLPC_HUMAN Glycophorin-C OS=Homo sapiens OX=9606 GN=G...  179     6e-57
+  sp|Q0V8T5|CTP5B_RAT Contactin-associated protein like 5-2 OS=Ra...  147     8e-40
+  sp|Q0V8T8|CTP5B_MOUSE Contactin-associated protein like 5-2 OS=...  145     6e-39
+  sp|Q0V8T4|CTP5C_RAT Contactin-associated protein like 5-3 OS=Ra...  141     1e-37
+  sp|Q0V8T9|CTP5A_MOUSE Contactin-associated protein like 5-1 OS=...  141     1e-37
+  sp|Q0V8T3|CTP5D_RAT Contactin-associated protein like 5-4 OS=Ra...  140     3e-37
+  sp|Q0V8T6|CTP5A_RAT Contactin-associated protein like 5-1 OS=Ra...  139     4e-37
+  sp|Q0V8T7|CTP5C_MOUSE Contactin-associated protein like 5-3 OS=...  135     2e-35
+  sp|Q0V8T0|CNTP5_CANLF Contactin-associated protein-like 5 OS=Ca...  134     2e-35
+  sp|Q8WYK1|CNTP5_HUMAN Contactin-associated protein-like 5 OS=Ho...  131     2e-34
+  sp|Q9UHC6|CNTP2_HUMAN Contactin-associated protein-like 2 OS=Ho...  129     1e-33
+  sp|Q9CPW0|CNTP2_MOUSE Contactin-associated protein-like 2 OS=Mu...  129     1e-33
+  sp|Q5RD64|CNTP2_PONAB Contactin-associated protein-like 2 OS=Po...  129     1e-33
+  sp|Q0V8S9|CNTP5_CHICK Contactin-associated protein-like 5 OS=Ga...  129     2e-33
+  sp|Q99P47|CNTP4_MOUSE Contactin-associated protein-like 4 OS=Mu...  116     5e-29
+  sp|Q9C0A0|CNTP4_HUMAN Contactin-associated protein-like 4 OS=Ho...  114     1e-28
+  sp|Q7ZXX1|CADM3_XENLA Cell adhesion molecule 3 OS=Xenopus laevi...  101     4e-25
+  sp|Q8BLQ9|CADM2_MOUSE Cell adhesion molecule 2 OS=Mus musculus ...  100     2e-24
+  sp|Q1WIM2|CADM2_RAT Cell adhesion molecule 2 OS=Rattus norvegic...  99.6    4e-24
+  sp|Q8N3J6|CADM2_HUMAN Cell adhesion molecule 2 OS=Homo sapiens ...  99.6    5e-24
+  sp|Q78HU7|GLPC_MOUSE Glycophorin-C OS=Mus musculus OX=10090 GN=...  93.4    9e-24
+  sp|Q6XFR6|GLPC_RAT Glycophorin-C OS=Rattus norvegicus OX=10116 ...  90.7    9e-23
+  sp|A1XQX3|NR1BB_DANRE Neurexin-1b-beta OS=Danio rerio OX=7955 G...  94.2    4e-22
+  sp|Q9P2S2|NRX2A_HUMAN Neurexin-2 OS=Homo sapiens OX=9606 GN=NRX...  91.9    2e-20
+  sp|Q6DJ83|CADM2_XENTR Cell adhesion molecule 2 OS=Xenopus tropi...  86.5    3e-19
+  sp|P58401|NRX2B_HUMAN Neurexin-2-beta OS=Homo sapiens OX=9606 G...  86.1    8e-19
+  sp|Q63373|NRX1B_RAT Neurexin-1-beta OS=Rattus norvegicus OX=101...  84.2    2e-18
+  sp|Q63372|NRX1A_RAT Neurexin-1 OS=Rattus norvegicus OX=10116 GN...  85.7    2e-18
+  sp|Q9CS84|NRX1A_MOUSE Neurexin-1 OS=Mus musculus OX=10090 GN=Nr...  85.7    2e-18
+  sp|A1XQX0|NR1AA_DANRE Neurexin-1a OS=Danio rerio OX=7955 GN=nrx...  80.3    1e-16
+  sp|A1XQX1|NR1AB_DANRE Neurexin-1a-beta OS=Danio rerio OX=7955 G...  77.6    4e-16
+  sp|Q8N126|CADM3_HUMAN Cell adhesion molecule 3 OS=Homo sapiens ...  76.1    1e-15
+  sp|Q28F36|SMAGP_XENTR Small cell adhesion glycoprotein homolog ...  71.8    1e-15
+  sp|A1XQY0|NR3AB_DANRE Neurexin-3a-beta OS=Danio rerio OX=7955 G...  76.5    2e-15
+  sp|Q1WIM3|CADM3_RAT Cell adhesion molecule 3 OS=Rattus norvegic...  73.8    7e-15
+  sp|Q99N28|CADM3_MOUSE Cell adhesion molecule 3 OS=Mus musculus ...  73.8    7e-15
+  sp|Q6AYP5|CADM1_RAT Cell adhesion molecule 1 OS=Rattus norvegic...  68.4    8e-13
+  sp|Q0VAQ4|SMAGP_HUMAN Small cell adhesion glycoprotein OS=Homo ...  63.7    1e-12
+  sp|Q9BY67|CADM1_HUMAN Cell adhesion molecule 1 OS=Homo sapiens ...  67.2    2e-12
+  sp|Q8R5M8|CADM1_MOUSE Cell adhesion molecule 1 OS=Mus musculus ...  67.2    2e-12
+
+Sequences not found previously or not previously below threshold:
+
+  sp|A1XQX2|NR1BA_DANRE Neurexin-1b OS=Danio rerio OX=7955 GN=nrx...  94.6    2e-21
+  sp|Q63374|NRX2A_RAT Neurexin-2 OS=Rattus norvegicus OX=10116 GN...  87.6    5e-19
+  sp|P0DI97|NRX1B_MOUSE Neurexin-1-beta OS=Mus musculus OX=10090 ...  84.2    2e-18
+  sp|Q28142|NRX1B_BOVIN Neurexin-1-beta OS=Bos taurus OX=9913 GN=...  84.2    3e-18
+  sp|Q28146|NRX1A_BOVIN Neurexin-1 OS=Bos taurus OX=9913 GN=NRXN1...  85.3    3e-18
+  sp|Q07310|NRX3A_RAT Neurexin-3 OS=Rattus norvegicus OX=10116 GN...  82.2    3e-17
+  sp|Q63376|NRX2B_RAT Neurexin-2-beta OS=Rattus norvegicus OX=101...  81.5    4e-17
+  sp|A1XQX8|NR3AA_DANRE Neurexin-3a OS=Danio rerio OX=7955 GN=nrx...  81.8    4e-17
+  sp|Q9ULB1|NRX1A_HUMAN Neurexin-1 OS=Homo sapiens OX=9606 GN=NRX...  81.8    4e-17
+  sp|P58400|NRX1B_HUMAN Neurexin-1-beta OS=Homo sapiens OX=9606 G...  80.7    4e-17
+  sp|Q6P9K9|NRX3A_MOUSE Neurexin-3 OS=Mus musculus OX=10090 GN=Nr...  81.8    5e-17
+  sp|Q28143|NRX3B_BOVIN Neurexin-3-beta OS=Bos taurus OX=9913 GN=...  80.3    5e-17
+  sp|Q9Y4C0|NRX3A_HUMAN Neurexin-3 OS=Homo sapiens OX=9606 GN=NRX...  81.1    7e-17
+  sp|D0PRN3|NRX3A_CHICK Neurexin-3 OS=Gallus gallus OX=9031 PE=1 ...  81.1    8e-17
+  sp|Q8C985|NRX3B_MOUSE Neurexin-3-beta OS=Mus musculus OX=10090 ...  79.9    1e-16
+  sp|D0PRN2|NRX1B_CHICK Neurexin-1-beta OS=Gallus gallus OX=9031 ...  77.6    4e-16
+  sp|Q9DDD0|NRX1A_CHICK Neurexin-1 (Fragment) OS=Gallus gallus OX...  78.8    4e-16
+  sp|Q9HDB5|NRX3B_HUMAN Neurexin-3-beta OS=Homo sapiens OX=9606 G...  78.0    6e-16
+  sp|A1XQY1|NR3BA_DANRE Neurexin-3b OS=Danio rerio OX=7955 GN=nrx...  78.4    7e-16
+  sp|D0PRN4|NRX3B_CHICK Neurexin-3-beta OS=Gallus gallus OX=9031 ...  76.8    1e-15
+  sp|A1XQY3|NR3BB_DANRE Neurexin-3b-beta OS=Danio rerio OX=7955 G...  73.8    2e-14
+  sp|A4IFL2|SMAGP_BOVIN Small cell adhesion glycoprotein OS=Bos t...  61.4    1e-11
+  sp|Q9BZ76|CNTP3_HUMAN Contactin-associated protein-like 3 OS=Ho...  63.0    9e-11
+  sp|Q7TPF1|SMAGP_RAT Small cell adhesion glycoprotein OS=Rattus ...  58.7    9e-11
+  sp|Q96NU0|CNT3B_HUMAN Contactin-associated protein-like 3B OS=H...  61.4    3e-10
+  sp|Q99KC7|SMAGP_MOUSE Small cell adhesion glycoprotein OS=Mus m...  56.4    6e-10
+  sp|Q1WIM1|CADM4_RAT Cell adhesion molecule 4 OS=Rattus norvegic...  54.9    3e-08
+  sp|Q8NFZ8|CADM4_HUMAN Cell adhesion molecule 4 OS=Homo sapiens ...  54.9    3e-08
+  sp|Q66KX2|CADM4_XENLA Cell adhesion molecule 4 OS=Xenopus laevi...  54.1    5e-08
+  sp|Q8R464|CADM4_MOUSE Cell adhesion molecule 4 OS=Mus musculus ...  53.7    6e-08
+
+
+> sp|P04921|GLPC_HUMAN Glycophorin-C OS=Homo sapiens OX=9606 GN=GYPC 
+PE=1 SV=1
+Length=128
+
+ Score = 179 bits (454),  Expect = 6e-57, Method: Composition-based stats.
+ Identities = 128/128 (100%), Positives = 128/128 (100%), Gaps = 0/128 (0%)
+
+Query  1    MWSTRSPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIV  60
+            MWSTRSPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIV
+Sbjct  1    MWSTRSPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIV  60
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD  120
+            VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD
+Sbjct  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD  120
+
+Query  121  SSRKEYFI  128
+            SSRKEYFI
+Sbjct  121  SSRKEYFI  128
+
+
+> sp|Q0V8T5|CTP5B_RAT Contactin-associated protein like 5-2 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5b PE=2 SV=1
+Length=1292
+
+ Score = 147 bits (370),  Expect = 8e-40, Method: Composition-based stats.
+ Identities = 33/127 (26%), Positives = 62/127 (49%), Gaps = 8/127 (6%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMH------TTTIAEPDPGMSGWPDGRMETSTPTIMDIVV  61
+             +++  P++++     +S  + +       TT  +  DP   G  D     +     D   
+Sbjct  1168  HASIAPVTVQGTLTESSCGSMVESYANGVTTVYSSSDP--FGNTDEHEPLTNAIQSDSAF  1225
+
+Query  62    IAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDS  121
+             I GVIA V  +   ++ +M  ++Y+HK ++HTN  K  E+ E+ D++ + D  LQ+    
+Sbjct  1226  IGGVIAIVTFIAFGVIGIMTHFLYQHKQSHHTNPMKEKEYPENLDSSFRNDIDLQNTVSD  1285
+
+Query  122   SRKEYFI  128
+              ++EYFI
+Sbjct  1286  CKREYFI  1292
+
+
+> sp|Q0V8T8|CTP5B_MOUSE Contactin-associated protein like 5-2 OS=Mus 
+musculus OX=10090 GN=Cntnap5b PE=2 SV=1
+Length=1292
+
+ Score = 145 bits (364),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 31/127 (24%), Positives = 61/127 (48%), Gaps = 8/127 (6%)
+
+Query  8     NSTAWPLSLEPDPGMASAST------TMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVV  61
+             +++  P++++     +S  +      T  TT  +   P   G  D     +     D   
+Sbjct  1168  HASISPVTVQGTLTESSCDSMIDSDVTGVTTVYSPSVP--FGKTDEHEPLTNTIQSDSAF  1225
+
+Query  62    IAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDS  121
+             I GVIA V  +   +L +M+ ++Y+ K ++ TN+ K  E+ ++ D++ + D  LQ+    
+Sbjct  1226  IGGVIAIVTFITFCVLGIMVHFLYQQKQSHRTNQMKEKEYPDNLDSSFRNDIDLQNTAIE  1285
+
+Query  122   SRKEYFI  128
+              ++EYFI
+Sbjct  1286  CKREYFI  1292
+
+
+> sp|Q0V8T4|CTP5C_RAT Contactin-associated protein like 5-3 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5c PE=2 SV=1
+Length=1307
+
+ Score = 141 bits (355),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 33/127 (26%), Positives = 62/127 (49%), Gaps = 8/127 (6%)
+
+Query  8     NSTAWPLSLEPDP------GMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVV  61
+             +++  P +++          M  +     TT  +  DP   G  D     +   + D  V
+Sbjct  1183  HASIAPATVQGSLREFSCGSMVDSDVNAVTTVYSSSDP--FGKTDDHDPLTNAVLSDSAV  1240
+
+Query  62    IAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDS  121
+             I GVIA V  +   ++ +M R++Y+HK ++ T++ K  E++E+ D++ + D  LQ     
+Sbjct  1241  IGGVIAVVTFITFCVIGIMTRFLYQHKQSHCTSQKKEKEYSENLDSSFRHDIDLQSTTSK  1300
+
+Query  122   SRKEYFI  128
+              ++EYFI
+Sbjct  1301  CKREYFI  1307
+
+
+> sp|Q0V8T9|CTP5A_MOUSE Contactin-associated protein like 5-1 OS=Mus 
+musculus OX=10090 GN=Cntnap5a PE=1 SV=1
+Length=1304
+
+ Score = 141 bits (354),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 30/125 (24%), Positives = 59/125 (47%), Gaps = 5/125 (4%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMHTTTIA----EPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             +++  P++++     +S  + + +   A           G  D           D  VI 
+Sbjct  1181  HASIAPVTVQKTLTESSCGSMVDSDVNAVTTVHSLSDSFGKTDDHEPLQNAVRSDSAVIG  1240
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             GVIA V  +   ++ +M R++Y+HK ++ TN+ K  E+ E+ D + + +  LQ+     +
+Sbjct  1241  GVIAVVTFITFCVIGIMTRFLYQHKQSHRTNQMK-KEYPENLDNSFRNEIDLQNTATECK  1299
+
+Query  124   KEYFI  128
+             +EYFI
+Sbjct  1300  REYFI  1304
+
+
+> sp|Q0V8T3|CTP5D_RAT Contactin-associated protein like 5-4 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5d PE=2 SV=1
+Length=1305
+
+ Score = 140 bits (351),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 30/125 (24%), Positives = 58/125 (46%), Gaps = 4/125 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTT----MHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             +S   P++++     +   +T    ++  T         G  D R   +     D  VI 
+Sbjct  1181  HSGIAPVTVQGTLTESGCDSTLDSDVNAVTTVHSSLDPIGKRDEREPLTDTVQSDSAVIG  1240
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             G+IA V  V   ++ +M+ ++Y HK ++ TN+ K  E++E+   + +    LQ+     +
+Sbjct  1241  GIIALVTFVTFCVIGIMIHFLYLHKQSHCTNQTKEKEYSENLSNSFRNAIDLQNTASECK  1300
+
+Query  124   KEYFI  128
+             +EYFI
+Sbjct  1301  REYFI  1305
+
+
+> sp|Q0V8T6|CTP5A_RAT Contactin-associated protein like 5-1 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5a PE=2 SV=1
+Length=1305
+
+ Score = 139 bits (350),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 28/125 (22%), Positives = 57/125 (46%), Gaps = 4/125 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTT----MHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             ++   P+++      +   +T    ++  T         G  D +   +     D  VI 
+Sbjct  1181  HAGVAPVTVHGTLTESGCDSTLDSDVNAVTTVHSSLEPIGKRDEQEPLTNTVQSDSAVIG  1240
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             G+IA V  V   ++ +M+ ++Y+HK ++ TN+ K  E+ E+   + +    LQ+     +
+Sbjct  1241  GIIAVVTFVTFCVIGIMICFLYQHKQSHRTNQTKEKEYPETLSNSFRNVIDLQNTASECK  1300
+
+Query  124   KEYFI  128
+             +EYFI
+Sbjct  1301  REYFI  1305
+
+
+> sp|Q0V8T7|CTP5C_MOUSE Contactin-associated protein like 5-3 OS=Mus 
+musculus OX=10090 GN=Cntnap5c PE=2 SV=1
+Length=1305
+
+ Score = 135 bits (338),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 33/123 (27%), Positives = 59/123 (48%), Gaps = 2/123 (2%)
+
+Query  6     SPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGV  65
+             SP +    L+      M  +     TT  +  DP   G  D R   +     D+ VI G+
+Sbjct  1185  SPVTVQRTLTESSCVSMVDSDANAVTTVYSSTDP--FGERDEREPLTNAVPSDLAVIGGI  1242
+
+Query  66    IAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKE  125
+             IA V  +  S++ +M  + Y+HK +++ ++ K  E+ E+ D++ + D  LQ+     ++E
+Sbjct  1243  IAVVTFISFSVIGIMTHFFYQHKRSHYASQMKEKEYPENVDSSSRNDIDLQNTTRECKQE  1302
+
+Query  126   YFI  128
+              FI
+Sbjct  1303  DFI  1305
+
+
+> sp|Q0V8T0|CNTP5_CANLF Contactin-associated protein-like 5 OS=Canis 
+lupus familiaris OX=9615 GN=CNTNAP5 PE=2 SV=1
+Length=1305
+
+ Score = 134 bits (337),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 35/125 (28%), Positives = 65/125 (52%), Gaps = 4/125 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTM----HTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             ++T  P++++     +S  + +    +T T         G  D R   +     D  VI 
+Sbjct  1181  HATIAPVTVQGTLMESSCGSMVDVDVNTVTTVHSSSDPFGKTDEREPLTNAVRSDSAVIG  1240
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             GVIA V  ++ S++ +M R++Y+HK ++ TN+ K  E+ E+ D++ + D  LQ+     +
+Sbjct  1241  GVIAVVIFIIFSIIGIMTRFLYQHKQSHRTNQMKEKEYPENLDSSFRNDIDLQNTVSECK  1300
+
+Query  124   KEYFI  128
+             +EYFI
+Sbjct  1301  REYFI  1305
+
+
+> sp|Q8WYK1|CNTP5_HUMAN Contactin-associated protein-like 5 OS=Homo 
+sapiens OX=9606 GN=CNTNAP5 PE=2 SV=1
+Length=1306
+
+ Score = 131 bits (330),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 34/127 (27%), Positives = 63/127 (50%), Gaps = 8/127 (6%)
+
+Query  8     NSTAWPLSLEPDPGMASAS------TTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVV  61
+             ++T  P+++      +S            TT  +  DP   G  D R   +     D  V
+Sbjct  1182  HATVAPVTVHGTLTESSCGFMVDSDVNAVTTVHSSSDP--FGKTDEREPLTNAVRSDSAV  1239
+
+Query  62    IAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDS  121
+             I GVIA V  ++  ++ +M R++Y+HK ++ T++ K  E+ E+ D++ + +  LQ+    
+Sbjct  1240  IGGVIAVVIFIIFCIIGIMTRFLYQHKQSHRTSQMKEKEYPENLDSSFRNEIDLQNTVSE  1299
+
+Query  122   SRKEYFI  128
+              ++EYFI
+Sbjct  1300  CKREYFI  1306
+
+
+> sp|Q9UHC6|CNTP2_HUMAN Contactin-associated protein-like 2 OS=Homo 
+sapiens OX=9606 GN=CNTNAP2 PE=1 SV=1
+Length=1331
+
+ Score = 129 bits (324),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 42/122 (34%), Positives = 58/122 (48%), Gaps = 4/122 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIA  67
+             N  A PL+L P   M+SA+   H   +          P            +  +I GVIA
+Sbjct  1213  NCGASPLTLSP---MSSATDPWHLDHLDSASADFPYNPGQGQAIRNGVNRNSAIIGGVIA  1269
+
+Query  68    AVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG-TEFAESADAALQGDPALQDAGDSSRKEY  126
+              V   ++  L  ++RYM+RHKGTYHTNEAKG      +  A +  DP   +  D S+KE+
+Sbjct  1270  VVIFTILCTLVFLIRYMFRHKGTYHTNEAKGAESAESADAAIMNNDPNFTETIDESKKEW  1329
+
+Query  127   FI  128
+              I
+Sbjct  1330  LI  1331
+
+
+> sp|Q9CPW0|CNTP2_MOUSE Contactin-associated protein-like 2 OS=Mus 
+musculus OX=10090 GN=Cntnap2 PE=1 SV=2
+Length=1332
+
+ Score = 129 bits (324),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 42/122 (34%), Positives = 58/122 (48%), Gaps = 4/122 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIA  67
+             N  A PL+L P   M+SA+   H   +          P            +  +I GVIA
+Sbjct  1214  NCGASPLTLSP---MSSATDPWHLDHLDSASADFPYNPGQGQAIRNGVNRNSAIIGGVIA  1270
+
+Query  68    AVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG-TEFAESADAALQGDPALQDAGDSSRKEY  126
+              V   ++  L  ++RYM+RHKGTYHTNEAKG      +  A +  DP   +  D S+KE+
+Sbjct  1271  VVIFTILCTLVFLIRYMFRHKGTYHTNEAKGAESAESADAAIMNNDPNFTETIDESKKEW  1330
+
+Query  127   FI  128
+              I
+Sbjct  1331  LI  1332
+
+
+> sp|Q5RD64|CNTP2_PONAB Contactin-associated protein-like 2 OS=Pongo 
+abelii OX=9601 GN=CNTNAP2 PE=2 SV=1
+Length=1331
+
+ Score = 129 bits (324),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 42/122 (34%), Positives = 58/122 (48%), Gaps = 4/122 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIA  67
+             N  A PL+L P   M+SA+   H   +          P            +  +I GVIA
+Sbjct  1213  NCGASPLTLSP---MSSATDPWHLDHLDSASADFPYNPGQGQAIRNGVNRNSAIIGGVIA  1269
+
+Query  68    AVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG-TEFAESADAALQGDPALQDAGDSSRKEY  126
+              V   ++  L  ++RYM+RHKGTYHTNEAKG      +  A +  DP   +  D S+KE+
+Sbjct  1270  VVIFTILCTLVFLIRYMFRHKGTYHTNEAKGAESAESADAAIMNNDPNFTETIDESKKEW  1329
+
+Query  127   FI  128
+              I
+Sbjct  1330  LI  1331
+
+
+> sp|Q0V8S9|CNTP5_CHICK Contactin-associated protein-like 5 OS=Gallus 
+gallus OX=9031 GN=CNTNAP5 PE=2 SV=1
+Length=1305
+
+ Score = 129 bits (323),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 34/122 (28%), Positives = 63/122 (52%), Gaps = 8/122 (7%)
+
+Query  13    PLSLEPDPGMASASTTMHT------TTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+             P++++     +S S+ M T      T  +  DP   G  D R   +     D  VI GVI
+Sbjct  1186  PVTVKGSLTESSCSSLMETDVNTATTIYSSSDP--FGKTDEREPLTNAVRSDSAVIGGVI  1243
+
+Query  67    AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEY  126
+             A V  ++  ++ +M R++Y+HK  + +++ K  E+ E+ +++ + D  LQ+     ++EY
+Sbjct  1244  AVVIFIIFCIIAIMSRFLYQHKQAHRSSQTKEKEYPENLESSFKADIDLQNTVSECKREY  1303
+
+Query  127   FI  128
+             FI
+Sbjct  1304  FI  1305
+
+
+> sp|Q99P47|CNTP4_MOUSE Contactin-associated protein-like 4 OS=Mus 
+musculus OX=10090 GN=Cntnap4 PE=1 SV=2
+Length=1310
+
+ Score = 116 bits (290),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 34/119 (29%), Positives = 57/119 (48%), Gaps = 5/119 (4%)
+
+Query  13    PLSLEPDPGMASASTTMHTTTIAE----PDPGMSGWPDGRMETSTPTIMDIVVIAGVIAA  68
+             P+++      +S      T   +          SG  D R   +     D  VI G+IA 
+Sbjct  1192  PVTVTGHVTESSCVAPSGTDATSRERTHSFADHSGTMDDREPLTHAIKSDSAVIGGLIAV  1251
+
+Query  69    VAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYF  127
+             V  +L+ +  + +R +Y+ K  Y  NEAK +E  +SA+A L+ +  +Q+A   ++KEYF
+Sbjct  1252  VIFILLCVSAIAVR-IYQQKRLYKRNEAKRSENVDSAEAVLKSELHIQNAVGENQKEYF  1309
+
+
+> sp|Q9C0A0|CNTP4_HUMAN Contactin-associated protein-like 4 OS=Homo 
+sapiens OX=9606 GN=CNTNAP4 PE=1 SV=3
+Length=1308
+
+ Score = 114 bits (286),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 36/122 (30%), Positives = 61/122 (50%), Gaps = 14/122 (11%)
+
+Query  18    PDPGMASASTTMHTTTIAEPD------------PGMSGWPDGRMETSTPTIMDIVVIAGV  65
+             PDP   +   T  ++ +A+P                SG  D R   +     D  VI G+
+Sbjct  1188  PDPVTVTGHVT-ESSCMAQPGTDATSRERTHSFADHSGTIDDREPLANAIKSDSAVIGGL  1246
+
+Query  66    IAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKE  125
+             IA V  +L+ +  + +R +Y+ K  Y  +EAK +E  +SA+A L+ +  +Q+A + ++KE
+Sbjct  1247  IAVVIFILLCITAIAVR-IYQQKRLYKRSEAKRSENVDSAEAVLKSELNIQNAVNENQKE  1305
+
+Query  126   YF  127
+             YF
+Sbjct  1306  YF  1307
+
+
+> sp|Q7ZXX1|CADM3_XENLA Cell adhesion molecule 3 OS=Xenopus laevis 
+OX=8355 GN=cadm3 PE=2 SV=1
+Length=394
+
+ Score = 101 bits (252),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 35/83 (42%), Positives = 49/83 (59%), Gaps = 1/83 (1%)
+
+Query  46   DGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESA  105
+            +      + + +D  VI GV+A +A +L  LL V+ RY+ RHKGTY T+EAKG++ A  A
+Sbjct  313  NDPSPIPSTSSIDHAVIGGVVAVIAFLLFCLLIVLGRYLIRHKGTYLTHEAKGSDDAPDA  372
+
+Query  106  DAALQGDPALQDAGDSSRKEYFI  128
+            D A+      Q  G   +KEYFI
+Sbjct  373  DTAIINAEGGQ-GGSDDKKEYFI  394
+
+
+> sp|Q8BLQ9|CADM2_MOUSE Cell adhesion molecule 2 OS=Mus musculus 
+OX=10090 GN=Cadm2 PE=1 SV=2
+Length=435
+
+ Score = 100 bits (249),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 43/122 (35%), Positives = 59/122 (48%), Gaps = 3/122 (2%)
+
+Query  7    PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+            PN T  P ++ P    A  +T++  TT        S   D     +     D  +I G++
+Sbjct  317  PN-TLLPTTIIPSLTTAPVTTSVTITTSPSTSASSSSRRDPNS-LAGQNGPDHALIGGIV  374
+
+Query  67   AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEY  126
+            A V  V +  +F++ RY+ RHKGTY TNEAKG E A  AD A+      Q      +KEY
+Sbjct  375  AVVVFVTLCSIFLLGRYLARHKGTYLTNEAKGAEDAPDADTAIINAEGSQ-VNAEEKKEY  433
+
+Query  127  FI  128
+            FI
+Sbjct  434  FI  435
+
+
+> sp|Q1WIM2|CADM2_RAT Cell adhesion molecule 2 OS=Rattus norvegicus 
+OX=10116 GN=Cadm2 PE=1 SV=2
+Length=435
+
+ Score = 99.6 bits (246),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 44/122 (36%), Positives = 59/122 (48%), Gaps = 3/122 (2%)
+
+Query  7    PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+            PN T  P ++ P    A  +TT+  TT        S   D     +     D  +I G++
+Sbjct  317  PN-TLLPTTIIPSLTTAPVTTTVAITTSPSTSASSSSRRDPNS-LAGQNGPDHALIGGIV  374
+
+Query  67   AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEY  126
+            A V  V +  +F++ RY+ RHKGTY TNEAKG E A  AD A+      Q      +KEY
+Sbjct  375  AVVVFVTLCSIFLLGRYLARHKGTYLTNEAKGAEDAPDADTAIINAEGSQ-VNAEEKKEY  433
+
+Query  127  FI  128
+            FI
+Sbjct  434  FI  435
+
+
+> sp|Q8N3J6|CADM2_HUMAN Cell adhesion molecule 2 OS=Homo sapiens 
+OX=9606 GN=CADM2 PE=2 SV=1
+Length=435
+
+ Score = 99.6 bits (246),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 44/122 (36%), Positives = 60/122 (49%), Gaps = 3/122 (2%)
+
+Query  7    PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+            PN T  P ++ P    A+ +TT+  TT        S   D     +     D  +I G++
+Sbjct  317  PN-TLLPTTIIPSLTTATVTTTVAITTSPTTSATTSSIRD-PNALAGQNGPDHALIGGIV  374
+
+Query  67   AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEY  126
+            A V  V +  +F++ RY+ RHKGTY TNEAKG E A  AD A+      Q      +KEY
+Sbjct  375  AVVVFVTLCSIFLLGRYLARHKGTYLTNEAKGAEDAPDADTAIINAEGSQ-VNAEEKKEY  433
+
+Query  127  FI  128
+            FI
+Sbjct  434  FI  435
+
+
+> sp|Q78HU7|GLPC_MOUSE Glycophorin-C OS=Mus musculus OX=10090 GN=Gypc 
+PE=1 SV=2
+Length=95
+
+ Score = 93.4 bits (230),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 56/58 (97%), Gaps = 0/58 (0%)
+
+Query  71   IVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            +VLV LLF+MLRY+YRHKGTYHTNEAKGTEFAESADAALQ DPALQDAGD+S+KEYFI
+Sbjct  38   LVLVCLLFLMLRYLYRHKGTYHTNEAKGTEFAESADAALQSDPALQDAGDTSKKEYFI  95
+
+
+> sp|Q6XFR6|GLPC_RAT Glycophorin-C OS=Rattus norvegicus OX=10116 
+GN=Gypc PE=1 SV=1
+Length=95
+
+ Score = 90.7 bits (223),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 57/105 (54%), Positives = 66/105 (63%), Gaps = 11/105 (10%)
+
+Query  24   SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+            S+          EP+PGMS         +                  +VLV LLF+MLRY
+Sbjct  2    SSPVRTPPPERLEPNPGMSYAVMEIAIIAAVITAVA-----------LVLVCLLFLMLRY  50
+
+Query  84   MYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            +YRHKGTY+TNEAKGTEFAESADAALQ DPALQDAGD+S+KEYFI
+Sbjct  51   LYRHKGTYYTNEAKGTEFAESADAALQSDPALQDAGDTSKKEYFI  95
+
+
+> sp|A1XQX3|NR1BB_DANRE Neurexin-1b-beta OS=Danio rerio OX=7955 
+GN=nrxn1b PE=2 SV=1
+Length=448
+
+ Score = 94.2 bits (232),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 30/115 (26%), Positives = 55/115 (48%), Gaps = 6/115 (5%)
+
+Query  19   DPGMASASTTMHTTTIAEP-DPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLL  77
+            DP   S+ T       A P  P +S +P G  E    +     ++ G++A  A+ ++ LL
+Sbjct  335  DPCEPSSGTLCCFVPPAGPTGPAISSFP-GPAEVFRESNGTTGMVVGIVAGAALCILILL  393
+
+Query  78   FVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAG----DSSRKEYFI  128
+            + M +Y  R +G+YH +E++      +  A  + + A  D+G     +  KEY++
+Sbjct  394  YAMYKYRNRDEGSYHVDESRNYICNSNGAALKEKNTADDDSGSKSKKNKNKEYYV  448
+
+
+> sp|A1XQX2|NR1BA_DANRE Neurexin-1b OS=Danio rerio OX=7955 GN=nrxn1b 
+PE=2 SV=1
+Length=1470
+
+ Score = 94.6 bits (233),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 30/115 (26%), Positives = 55/115 (48%), Gaps = 6/115 (5%)
+
+Query  19    DPGMASASTTMHTTTIAEP-DPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLL  77
+             DP   S+ T       A P  P +S +P G  E    +     ++ G++A  A+ ++ LL
+Sbjct  1357  DPCEPSSGTLCCFVPPAGPTGPAISSFP-GPAEVFRESNGTTGMVVGIVAGAALCILILL  1415
+
+Query  78    FVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAG----DSSRKEYFI  128
+             + M +Y  R +G+YH +E++      +  A  + + A  D+G     +  KEY++
+Sbjct  1416  YAMYKYRNRDEGSYHVDESRNYICNSNGAALKEKNTADDDSGSKSKKNKNKEYYV  1470
+
+
+> sp|Q9P2S2|NRX2A_HUMAN Neurexin-2 OS=Homo sapiens OX=9606 GN=NRXN2 
+PE=2 SV=1
+Length=1712
+
+ Score = 91.9 bits (226),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 29/115 (25%), Positives = 54/115 (47%), Gaps = 8/115 (7%)
+
+Query  21    GMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVM  80
+             G+ SA    H  T     PG  G P G +E    +     ++ G++AA A+ ++ LL+ M
+Sbjct  1599  GVTSAPGFPHLPTANPTGPGERG-PPGAVEVIRESSSTTGMVVGIVAAAALCILILLYAM  1657
+
+Query  81    LRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPAL-----QDAGDSSRKEYFI  128
+              +Y  R +G+Y  ++++   +  A+S  A ++            A  +  KEY++
+Sbjct  1658  YKYRNRDEGSYQVDQSRNYISNSAQSNGAVVKEKAPAAPKTPSKAKKNKDKEYYV  1712
+
+
+> sp|Q6DJ83|CADM2_XENTR Cell adhesion molecule 2 OS=Xenopus tropicalis 
+OX=8364 GN=cadm2 PE=2 SV=1
+Length=433
+
+ Score = 86.5 bits (212),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 39/116 (34%), Positives = 56/116 (48%), Gaps = 4/116 (3%)
+
+Query  13   PLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIV  72
+            P ++ P    A+  T +  +T       ++  P+       P   D  +I GV+A V  V
+Sbjct  322  PTTIIPLFTSATVKTNVAMSTRTTKSAFITKDPN---ALPGPVATDHALIGGVVAVVVFV  378
+
+Query  73   LVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             +  + ++ RY+ RHKGTY TNEAKG E A  AD A+      Q      +KEYFI
+Sbjct  379  TLCSIILIGRYLARHKGTYLTNEAKGAEDAPDADTAIINAEGSQ-VNAEEKKEYFI  433
+
+
+> sp|Q63374|NRX2A_RAT Neurexin-2 OS=Rattus norvegicus OX=10116 
+GN=Nrxn2 PE=1 SV=3
+Length=1715
+
+ Score = 87.6 bits (215),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 27/115 (23%), Positives = 52/115 (45%), Gaps = 8/115 (7%)
+
+Query  21    GMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVM  80
+             G+ S        T     PG  G P G +E    +     ++ G++AA A+ ++ LL+ M
+Sbjct  1602  GVTSVPGFPRLPTANPTGPGERG-PPGAVEVIRESSSTTGMVVGIVAAAALCILILLYAM  1660
+
+Query  81    LRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPAL-----QDAGDSSRKEYFI  128
+              +Y  R +G+Y  ++++   +  A+S  A ++            A  +  KEY++
+Sbjct  1661  YKYRNRDEGSYQVDQSRNYISNSAQSNGAVVKEKAPAAPKTPSKAKKNKDKEYYV  1715
+
+
+> sp|P58401|NRX2B_HUMAN Neurexin-2-beta OS=Homo sapiens OX=9606 
+GN=NRXN2 PE=1 SV=1
+Length=666
+
+ Score = 86.1 bits (211),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 32/130 (25%), Positives = 58/130 (45%), Gaps = 8/130 (6%)
+
+Query  6    SPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGV  65
+            +P S          PG+ SA    H  T     PG  G P G +E    +     ++ G+
+Sbjct  538  APTSFEPRRPPPLRPGVTSAPGFPHLPTANPTGPGERG-PPGAVEVIRESSSTTGMVVGI  596
+
+Query  66   IAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPAL-----QDA  118
+            +AA A+ ++ LL+ M +Y  R +G+Y  ++++   +  A+S  A ++            A
+Sbjct  597  VAAAALCILILLYAMYKYRNRDEGSYQVDQSRNYISNSAQSNGAVVKEKAPAAPKTPSKA  656
+
+Query  119  GDSSRKEYFI  128
+              +  KEY++
+Sbjct  657  KKNKDKEYYV  666
+
+
+> sp|Q63373|NRX1B_RAT Neurexin-1-beta OS=Rattus norvegicus OX=10116 
+GN=Nrxn1 PE=1 SV=1
+Length=468
+
+ Score = 84.2 bits (206),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 53/117 (45%), Gaps = 12/117 (10%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    + T +   +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  357  DPCEPSSGGLANPTRVGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  411
+
+Query  79   VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDP-----ALQDAGDSSRKEYFI  128
+             M +Y  R +G+YH +E++   +  A+S  A ++        +      +  KEY++
+Sbjct  412  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  468
+
+
+> sp|P0DI97|NRX1B_MOUSE Neurexin-1-beta OS=Mus musculus OX=10090 
+GN=Nrxn1 PE=1 SV=1
+Length=468
+
+ Score = 84.2 bits (206),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 53/117 (45%), Gaps = 12/117 (10%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    + T +   +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  357  DPCEPSSGGLANPTRVGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  411
+
+Query  79   VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDP-----ALQDAGDSSRKEYFI  128
+             M +Y  R +G+YH +E++   +  A+S  A ++        +      +  KEY++
+Sbjct  412  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  468
+
+
+> sp|Q63372|NRX1A_RAT Neurexin-1 OS=Rattus norvegicus OX=10116 
+GN=Nrxn1 PE=1 SV=3
+Length=1530
+
+ Score = 85.7 bits (210),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 53/117 (45%), Gaps = 12/117 (10%)
+
+Query  19    DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+             DP   S+    + T +   +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  1419  DPCEPSSGGLANPTRVGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  1473
+
+Query  79    VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDP-----ALQDAGDSSRKEYFI  128
+              M +Y  R +G+YH +E++   +  A+S  A ++        +      +  KEY++
+Sbjct  1474  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  1530
+
+
+> sp|Q9CS84|NRX1A_MOUSE Neurexin-1 OS=Mus musculus OX=10090 GN=Nrxn1 
+PE=1 SV=3
+Length=1514
+
+ Score = 85.7 bits (210),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 53/117 (45%), Gaps = 12/117 (10%)
+
+Query  19    DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+             DP   S+    + T +   +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  1403  DPCEPSSGGLANPTRVGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  1457
+
+Query  79    VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDP-----ALQDAGDSSRKEYFI  128
+              M +Y  R +G+YH +E++   +  A+S  A ++        +      +  KEY++
+Sbjct  1458  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  1514
+
+
+> sp|Q28142|NRX1B_BOVIN Neurexin-1-beta OS=Bos taurus OX=9913 GN=NRXN1 
+PE=1 SV=2
+Length=467
+
+ Score = 84.2 bits (206),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 52/117 (44%), Gaps = 12/117 (10%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    + T     +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  356  DPCEPSSGGLANPTRAGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  410
+
+Query  79   VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDP-----ALQDAGDSSRKEYFI  128
+             M +Y  R +G+YH +E++   +  A+S  A ++        +      +  KEY++
+Sbjct  411  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  467
+
+
+> sp|Q28146|NRX1A_BOVIN Neurexin-1 OS=Bos taurus OX=9913 GN=NRXN1 
+PE=1 SV=1
+Length=1530
+
+ Score = 85.3 bits (209),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 52/117 (44%), Gaps = 12/117 (10%)
+
+Query  19    DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+             DP   S+    + T     +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  1419  DPCEPSSGGLANPTRAGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  1473
+
+Query  79    VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDP-----ALQDAGDSSRKEYFI  128
+              M +Y  R +G+YH +E++   +  A+S  A ++        +      +  KEY++
+Sbjct  1474  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  1530
+
+
+> sp|Q07310|NRX3A_RAT Neurexin-3 OS=Rattus norvegicus OX=10116 
+GN=Nrxn3 PE=1 SV=1
+Length=1578
+
+ Score = 82.2 bits (201),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 51/111 (46%), Gaps = 7/111 (6%)
+
+Query  24    SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+             +     +  T    +PG+   P G  E    +     ++ G++AA A+ ++ LL+ M +Y
+Sbjct  1469  TCPMFRNVPTANPTEPGIRRVP-GASEVIRESNSTTGMVVGIVAAAALCILILLYAMYKY  1527
+
+Query  84    MYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR----KEYFI  128
+               R +G+Y  +E +   +  A+S    ++   A   +G   +    KEY++
+Sbjct  1528  RNRDEGSYQVDETRNYISNSAQSNGTLMKEKQASSKSGHKKQKNKDKEYYV  1578
+
+
+> sp|Q63376|NRX2B_RAT Neurexin-2-beta OS=Rattus norvegicus OX=10116 
+GN=Nrxn2 PE=1 SV=1
+Length=662
+
+ Score = 81.5 bits (199),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 27/115 (23%), Positives = 52/115 (45%), Gaps = 8/115 (7%)
+
+Query  21   GMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVM  80
+            G+ S        T     PG  G P G +E    +     ++ G++AA A+ ++ LL+ M
+Sbjct  549  GVTSVPGFPRLPTANPTGPGERG-PPGAVEVIRESSSTTGMVVGIVAAAALCILILLYAM  607
+
+Query  81   LRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPAL-----QDAGDSSRKEYFI  128
+             +Y  R +G+Y  ++++   +  A+S  A ++            A  +  KEY++
+Sbjct  608  YKYRNRDEGSYQVDQSRNYISNSAQSNGAVVKEKAPAAPKTPSKAKKNKDKEYYV  662
+
+
+> sp|A1XQX8|NR3AA_DANRE Neurexin-3a OS=Danio rerio OX=7955 GN=nrxn3a 
+PE=2 SV=1
+Length=1697
+
+ Score = 81.8 bits (200),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 53/111 (48%), Gaps = 7/111 (6%)
+
+Query  24    SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+             ++    +  T    +PG+   P G  E    +     ++ G++AA A+ ++ LL+ M +Y
+Sbjct  1588  TSPMFRNVPTAIPTEPGIRRVP-GASEVVRESSSTTGMVVGIVAAAALCILILLYAMYKY  1646
+
+Query  84    MYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR----KEYFI  128
+               R +G+Y  +E +   T  A+S  A ++       +G+  +    KEY++
+Sbjct  1647  RNRDEGSYQVDETRNYITNSAQSNGAVMKDKQQSTKSGNKKQKNKDKEYYV  1697
+
+
+> sp|Q9ULB1|NRX1A_HUMAN Neurexin-1 OS=Homo sapiens OX=9606 GN=NRXN1 
+PE=2 SV=1
+Length=1477
+
+ Score = 81.8 bits (200),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 52/117 (44%), Gaps = 12/117 (10%)
+
+Query  19    DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+             DP   S+    + T     +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  1366  DPCEPSSGGLANPTRAGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  1420
+
+Query  79    VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDP-----ALQDAGDSSRKEYFI  128
+              M +Y  R +G+YH +E++   +  A+S  A ++        +      +  KEY++
+Sbjct  1421  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSSNKNKKNKDKEYYV  1477
+
+
+> sp|P58400|NRX1B_HUMAN Neurexin-1-beta OS=Homo sapiens OX=9606 
+GN=NRXN1 PE=1 SV=3
+Length=472
+
+ Score = 80.7 bits (197),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 23/97 (24%), Positives = 45/97 (46%), Gaps = 7/97 (7%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    + T     +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  361  DPCEPSSGGLANPTRAGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  415
+
+Query  79   VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDP  113
+             M +Y  R +G+YH +E++   +  A+S  A ++   
+Sbjct  416  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQ  452
+
+
+> sp|Q6P9K9|NRX3A_MOUSE Neurexin-3 OS=Mus musculus OX=10090 GN=Nrxn3 
+PE=1 SV=2
+Length=1571
+
+ Score = 81.8 bits (200),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 52/111 (47%), Gaps = 7/111 (6%)
+
+Query  24    SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+             ++    +  T    +PG+   P G  E    +     ++ G++AA A+ ++ LL+ M +Y
+Sbjct  1462  TSPMFRNVPTANPTEPGIRRVP-GASEVIRESSSTTGMVVGIVAAAALCILILLYAMYKY  1520
+
+Query  84    MYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR----KEYFI  128
+               R +G+Y  +E +   +  A+S    ++   A   +G   +    KEY++
+Sbjct  1521  RNRDEGSYQVDETRNYISNSAQSNGTLMKEKQASSKSGHKKQKNKDKEYYV  1571
+
+
+> sp|Q28143|NRX3B_BOVIN Neurexin-3-beta OS=Bos taurus OX=9913 GN=NRXN3 
+PE=1 SV=2
+Length=456
+
+ Score = 80.3 bits (196),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 26/106 (25%), Positives = 49/106 (46%), Gaps = 7/106 (7%)
+
+Query  29   MHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHK  88
+               +T    +PG+   P G  E    +     ++ G++AA A+ ++ LL+ M +Y  R +
+Sbjct  352  CEPSTANPTEPGVRRVP-GASEVIRESSSTTGMVVGIVAAAALCILILLYAMYKYRNRDE  410
+
+Query  89   GTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR----KEYFI  128
+            G+Y  +E +   +  A+S    L+  P     G   +    KEY++
+Sbjct  411  GSYQVDETRNYISNSAQSNGTLLKEKPPSSKGGHKKQKNKDKEYYV  456
+
+
+> sp|Q9Y4C0|NRX3A_HUMAN Neurexin-3 OS=Homo sapiens OX=9606 GN=NRXN3 
+PE=1 SV=4
+Length=1643
+
+ Score = 81.1 bits (198),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 51/111 (46%), Gaps = 7/111 (6%)
+
+Query  24    SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+             ++    +  T    +PG+   P G  E    +     ++ G++AA A+ ++ LL+ M +Y
+Sbjct  1534  TSPMFRNVPTANPTEPGIRRVP-GASEVIRESSSTTGMVVGIVAAAALCILILLYAMYKY  1592
+
+Query  84    MYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSRK----EYFI  128
+               R +G+Y  +E +   +  A+S    ++       +G   +K    EY++
+Sbjct  1593  RNRDEGSYQVDETRNYISNSAQSNGTLMKEKQQSSKSGHKKQKNKDREYYV  1643
+
+
+> sp|D0PRN3|NRX3A_CHICK Neurexin-3 OS=Gallus gallus OX=9031 PE=1 
+SV=1
+Length=1693
+
+ Score = 81.1 bits (198),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 51/111 (46%), Gaps = 7/111 (6%)
+
+Query  24    SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+             ++    +  T    +PG+   P G  E    +     ++ G++AA A+ ++ LL+ M +Y
+Sbjct  1584  TSPMFRNVPTANPTEPGIRRVP-GASEVVRESSSTTGMVVGIVAAAALCILILLYAMYKY  1642
+
+Query  84    MYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR----KEYFI  128
+               R +G+Y  +E +   +  A+S    ++       +G   +    KEY++
+Sbjct  1643  RNRDEGSYQVDETRNYISNSAQSNGTLMKEKQQSSKSGHKKQKNKDKEYYV  1693
+
+
+> sp|Q8C985|NRX3B_MOUSE Neurexin-3-beta OS=Mus musculus OX=10090 
+GN=Nrxn3 PE=1 SV=2
+Length=567
+
+ Score = 79.9 bits (195),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 52/111 (47%), Gaps = 7/111 (6%)
+
+Query  24   SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+            ++    +  T    +PG+   P G  E    +     ++ G++AA A+ ++ LL+ M +Y
+Sbjct  458  TSPMFRNVPTANPTEPGIRRVP-GASEVIRESSSTTGMVVGIVAAAALCILILLYAMYKY  516
+
+Query  84   MYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR----KEYFI  128
+              R +G+Y  +E +   +  A+S    ++   A   +G   +    KEY++
+Sbjct  517  RNRDEGSYQVDETRNYISNSAQSNGTLMKEKQASSKSGHKKQKNKDKEYYV  567
+
+
+> sp|A1XQX0|NR1AA_DANRE Neurexin-1a OS=Danio rerio OX=7955 GN=nrxn1a 
+PE=2 SV=1
+Length=1491
+
+ Score = 80.3 bits (196),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 50/117 (43%), Gaps = 14/117 (12%)
+
+Query  19    DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+             DP   S+    H      P P   G+P    E    +     ++ G++AA A+ ++ LL+
+Sbjct  1382  DPCDPSSGGLAHP-----PLPEAKGYPSP--EVIRESSSTTGMVVGIVAAAALCILILLY  1434
+
+Query  79    VMLRYMYRHKGTYHTNEAKGTEFA----ESADAALQGDPAL---QDAGDSSRKEYFI  128
+              M +Y  R +G+YH +E++          +  A  +    +   +    +  KEY++
+Sbjct  1435  AMYKYRNRDEGSYHVDESRNYISNSATQPNGAAVKEKPIGVPKNKKDKKNKDKEYYV  1491
+
+
+> sp|D0PRN2|NRX1B_CHICK Neurexin-1-beta OS=Gallus gallus OX=9031 
+GN=NRXN1 PE=1 SV=1
+Length=466
+
+ Score = 77.6 bits (189),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 22/97 (23%), Positives = 43/97 (44%), Gaps = 7/97 (7%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    + T              G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  355  DPCEPSSGGLANPTRAGGGR-----EYPGSSEVIRESSSTTGMVVGIVAAAALCILILLY  409
+
+Query  79   VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDP  113
+             M +Y  R +G+YH +E++   +  A+S  A ++   
+Sbjct  410  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVIKEKQ  446
+
+
+> sp|A1XQX1|NR1AB_DANRE Neurexin-1a-beta OS=Danio rerio OX=7955 
+GN=nrxn1a PE=2 SV=1
+Length=449
+
+ Score = 77.6 bits (189),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 50/117 (43%), Gaps = 14/117 (12%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    H      P P   G+P    E    +     ++ G++AA A+ ++ LL+
+Sbjct  340  DPCDPSSGGLAHP-----PLPEAKGYPSP--EVIRESSSTTGMVVGIVAAAALCILILLY  392
+
+Query  79   VMLRYMYRHKGTYHTNEAKGTEFA----ESADAALQGDPAL---QDAGDSSRKEYFI  128
+             M +Y  R +G+YH +E++          +  A  +    +   +    +  KEY++
+Sbjct  393  AMYKYRNRDEGSYHVDESRNYISNSATQPNGAAVKEKPIGVPKNKKDKKNKDKEYYV  449
+
+
+> sp|Q9DDD0|NRX1A_CHICK Neurexin-1 (Fragment) OS=Gallus gallus 
+OX=9031 GN=NRXN1 PE=2 SV=1
+Length=1363
+
+ Score = 78.8 bits (192),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 27/119 (23%), Positives = 52/119 (44%), Gaps = 16/119 (13%)
+
+Query  19    DPGMASASTTMHTTTIAE--PDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSL  76
+             DP   S+    + T        PG S       E    +     ++ G++AA A+ ++ L
+Sbjct  1252  DPCEPSSGGLANPTRAGGGREYPGSS-------EVIRESSSTTGMVVGIVAAAALCILIL  1304
+
+Query  77    LFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDP-----ALQDAGDSSRKEYFI  128
+             L+ M +Y  R +G+YH +E++   +  A+S  A ++        +      +  KEY++
+Sbjct  1305  LYAMYKYRNRDEGSYHVDESRNYISNSAQSNGAVIKEKQPNSAKSSNKNKKNKDKEYYV  1363
+
+
+> sp|Q9HDB5|NRX3B_HUMAN Neurexin-3-beta OS=Homo sapiens OX=9606 
+GN=NRXN3 PE=1 SV=4
+Length=637
+
+ Score = 78.0 bits (190),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 51/111 (46%), Gaps = 7/111 (6%)
+
+Query  24   SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+            ++    +  T    +PG+   P G  E    +     ++ G++AA A+ ++ LL+ M +Y
+Sbjct  528  TSPMFRNVPTANPTEPGIRRVP-GASEVIRESSSTTGMVVGIVAAAALCILILLYAMYKY  586
+
+Query  84   MYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSRK----EYFI  128
+              R +G+Y  +E +   +  A+S    ++       +G   +K    EY++
+Sbjct  587  RNRDEGSYQVDETRNYISNSAQSNGTLMKEKQQSSKSGHKKQKNKDREYYV  637
+
+
+> sp|A1XQY1|NR3BA_DANRE Neurexin-3b OS=Danio rerio OX=7955 GN=nrxn3b 
+PE=2 SV=1
+Length=1686
+
+ Score = 78.4 bits (191),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 22/119 (18%), Positives = 49/119 (41%), Gaps = 7/119 (6%)
+
+Query  17    EPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSL  76
+             +P     +        +     PG+   P G  E    +     ++ G+++A A+ ++ L
+Sbjct  1568  KPKGPYITQPMLRTIPSALPTVPGIRRVPPGASEVIRESSSTTGMVVGIVSAAALCILIL  1627
+
+Query  77    LFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR-----KEYFI  128
+             L+ M +Y  R +G+Y  +E +   +  A++    ++          + R     KEY++
+Sbjct  1628  LYAMYKYRNRDEGSYQVDETRNYISNSAQNNGTVVKDKQPSTKGASNKRPKDKDKEYYV  1686
+
+
+> sp|D0PRN4|NRX3B_CHICK Neurexin-3-beta OS=Gallus gallus OX=9031 
+GN=NRXN3 PE=1 SV=2
+Length=668
+
+ Score = 76.8 bits (187),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 51/111 (46%), Gaps = 7/111 (6%)
+
+Query  24   SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+            ++    +  T    +PG+   P G  E    +     ++ G++AA A+ ++ LL+ M +Y
+Sbjct  559  TSPMFRNVPTANPTEPGIRRVP-GASEVVRESSSTTGMVVGIVAAAALCILILLYAMYKY  617
+
+Query  84   MYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR----KEYFI  128
+              R +G+Y  +E +   +  A+S    ++       +G   +    KEY++
+Sbjct  618  RNRDEGSYQVDETRNYISNSAQSNGTLMKEKQQSSKSGHKKQKNKDKEYYV  668
+
+
+> sp|Q8N126|CADM3_HUMAN Cell adhesion molecule 3 OS=Homo sapiens 
+OX=9606 GN=CADM3 PE=1 SV=1
+Length=398
+
+ Score = 76.1 bits (185),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 32/113 (28%), Positives = 52/113 (46%), Gaps = 3/113 (3%)
+
+Query  18   PDPGMASASTTMHTTTIAEPDPGMSG--WPDGRMETSTPTIMDIVVIAGVIAAVAIVLVS  75
+            P    + + T   T T              +      + +     +I G++A +  +L+ 
+Sbjct  287  PFLNKSDSGTYGCTATSNMGSYKAYYTLNVNDPSPVPSSSSTYHAIIGGIVAFIVFLLLI  346
+
+Query  76   LLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            +L  +  Y+ RHKGTY T+EAKG++ A  AD A+      Q +G   +KEYFI
+Sbjct  347  MLIFLGHYLIRHKGTYLTHEAKGSDDAPDADTAIINAEGGQ-SGGDDKKEYFI  398
+
+
+> sp|Q28F36|SMAGP_XENTR Small cell adhesion glycoprotein homolog 
+OS=Xenopus tropicalis OX=8364 GN=smagp PE=3 SV=1
+Length=90
+
+ Score = 71.8 bits (174),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 27/71 (38%), Positives = 42/71 (59%), Gaps = 6/71 (8%)
+
+Query  58   DIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQD  117
+            +  V+ GVIAAV I L++++ ++  Y+Y+HKG+Y TNE    E  E++      D AL  
+Sbjct  26   EKAVVGGVIAAVFITLITVVVLITVYLYKHKGSYRTNE--NLEDVEASKTLQMEDSALT-  82
+
+Query  118  AGDSSRKEYFI  128
+                 +KEYF+
+Sbjct  83   ---PEKKEYFM  90
+
+
+> sp|A1XQY0|NR3AB_DANRE Neurexin-3a-beta OS=Danio rerio OX=7955 
+GN=nrxn3a PE=2 SV=1
+Length=672
+
+ Score = 76.5 bits (186),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 53/111 (48%), Gaps = 7/111 (6%)
+
+Query  24   SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+            ++    +  T    +PG+   P G  E    +     ++ G++AA A+ ++ LL+ M +Y
+Sbjct  563  TSPMFRNVPTAIPTEPGIRRVP-GASEVVRESSSTTGMVVGIVAAAALCILILLYAMYKY  621
+
+Query  84   MYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR----KEYFI  128
+              R +G+Y  +E +   T  A+S  A ++       +G+  +    KEY++
+Sbjct  622  RNRDEGSYQVDETRNYITNSAQSNGAVMKDKQQSTKSGNKKQKNKDKEYYV  672
+
+
+> sp|Q1WIM3|CADM3_RAT Cell adhesion molecule 3 OS=Rattus norvegicus 
+OX=10116 GN=Cadm3 PE=1 SV=1
+Length=396
+
+ Score = 73.8 bits (179),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 33/113 (29%), Positives = 54/113 (48%), Gaps = 3/113 (3%)
+
+Query  18   PDPGMASASTTMHTTT--IAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVS  75
+            P    + + T   T T  +       +   +      + +     +I G++A +  +L+ 
+Sbjct  285  PFLNKSDSGTYGCTATSNMGSYTAYFTLNVNDPSPVPSSSSTYHAIIGGIVAFIVFLLLI  344
+
+Query  76   LLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            LL  +  Y+ RHKGTY T+EAKG++ A  AD A+      Q +G   +KEYFI
+Sbjct  345  LLIFLGHYLIRHKGTYLTHEAKGSDDAPDADTAIINAEGGQ-SGGDDKKEYFI  396
+
+
+> sp|Q99N28|CADM3_MOUSE Cell adhesion molecule 3 OS=Mus musculus 
+OX=10090 GN=Cadm3 PE=1 SV=1
+Length=396
+
+ Score = 73.8 bits (179),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 33/113 (29%), Positives = 54/113 (48%), Gaps = 3/113 (3%)
+
+Query  18   PDPGMASASTTMHTTT--IAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVS  75
+            P    + + T   T T  +       +   +      + +     +I G++A +  +L+ 
+Sbjct  285  PFLNKSDSGTYGCTATSNMGSYTAYFTLNVNDPSPVPSSSSTYHAIIGGIVAFIVFLLLI  344
+
+Query  76   LLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            LL  +  Y+ RHKGTY T+EAKG++ A  AD A+      Q +G   +KEYFI
+Sbjct  345  LLIFLGHYLIRHKGTYLTHEAKGSDDAPDADTAIINAEGGQ-SGGDDKKEYFI  396
+
+
+> sp|A1XQY3|NR3BB_DANRE Neurexin-3b-beta OS=Danio rerio OX=7955 
+GN=nrxn3b PE=2 SV=1
+Length=675
+
+ Score = 73.8 bits (179),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 22/119 (18%), Positives = 49/119 (41%), Gaps = 7/119 (6%)
+
+Query  17   EPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSL  76
+            +P     +        +     PG+   P G  E    +     ++ G+++A A+ ++ L
+Sbjct  557  KPKGPYITQPMLRTIPSALPTVPGIRRVPPGASEVIRESSSTTGMVVGIVSAAALCILIL  616
+
+Query  77   LFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR-----KEYFI  128
+            L+ M +Y  R +G+Y  +E +   +  A++    ++          + R     KEY++
+Sbjct  617  LYAMYKYRNRDEGSYQVDETRNYISNSAQNNGTVVKDKQPSTKGASNKRPKDKDKEYYV  675
+
+
+> sp|Q6AYP5|CADM1_RAT Cell adhesion molecule 1 OS=Rattus norvegicus 
+OX=10116 GN=Cadm1 PE=1 SV=1
+Length=476
+
+ Score = 68.4 bits (165),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 30/90 (33%), Positives = 42/90 (47%), Gaps = 9/90 (10%)
+
+Query  47   GRMETSTPTIMDIVVIAGV--------IAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG  98
+               + S     +   I  V        +A V   ++ LL ++ RY  RHKGTY T+EAKG
+Sbjct  388  DSEDLSDSRAGEEGAIGAVDHAVIGGVVAVVVFAMLCLLIILGRYFARHKGTYFTHEAKG  447
+
+Query  99   TEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             + A  AD A+      Q+     +KEYFI
+Sbjct  448  ADDAADADTAIINAEGGQN-NSEEKKEYFI  476
+
+
+> sp|Q0VAQ4|SMAGP_HUMAN Small cell adhesion glycoprotein OS=Homo 
+sapiens OX=9606 GN=SMAGP PE=1 SV=1
+Length=97
+
+ Score = 63.7 bits (153),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 26/82 (32%), Positives = 41/82 (50%), Gaps = 6/82 (7%)
+
+Query  47   GRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESAD  106
+                 S        +IA VI  V + L+S++ ++  Y+Y++KG+Y T E   TE   SA 
+Sbjct  22   PTEALSPEDGASTALIAVVITVVFLTLLSVVILIFFYLYKNKGSYVTYEP--TEGEPSAI  79
+
+Query  107  AALQGDPALQDAGDSSRKEYFI  128
+              ++ D     A  S ++EYFI
+Sbjct  80   VQMESDL----AKGSEKEEYFI  97
+
+
+> sp|Q9BY67|CADM1_HUMAN Cell adhesion molecule 1 OS=Homo sapiens 
+OX=9606 GN=CADM1 PE=1 SV=2
+Length=442
+
+ Score = 67.2 bits (162),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 34/58 (59%), Gaps = 1/58 (2%)
+
+Query  71   IVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+              ++ LL ++ RY  RHKGTY T+EAKG + A  AD A+      Q+     +KEYFI
+Sbjct  386  FAMLCLLIILGRYFARHKGTYFTHEAKGADDAADADTAIINAEGGQN-NSEEKKEYFI  442
+
+
+> sp|Q8R5M8|CADM1_MOUSE Cell adhesion molecule 1 OS=Mus musculus 
+OX=10090 GN=Cadm1 PE=1 SV=2
+Length=456
+
+ Score = 67.2 bits (162),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 34/58 (59%), Gaps = 1/58 (2%)
+
+Query  71   IVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+              ++ LL ++ RY  RHKGTY T+EAKG + A  AD A+      Q+     +KEYFI
+Sbjct  400  FAMLCLLIILGRYFARHKGTYFTHEAKGADDAADADTAIINAEGGQN-NSEEKKEYFI  456
+
+
+> sp|A4IFL2|SMAGP_BOVIN Small cell adhesion glycoprotein OS=Bos 
+taurus OX=9913 GN=SMAGP PE=3 SV=1
+Length=97
+
+ Score = 61.4 bits (147),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 22/80 (28%), Positives = 38/80 (48%), Gaps = 6/80 (8%)
+
+Query  49   METSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAA  108
+               S        +IA VI  V + L+S++ ++  Y+Y++KG+Y T E    +    A   
+Sbjct  24   EALSPEAEASTALIAVVITVVFLTLLSVVILIFFYLYKNKGSYVTYEP--ADGEPGAVVL  81
+
+Query  109  LQGDPALQDAGDSSRKEYFI  128
+            ++ D     A    ++EYFI
+Sbjct  82   MEND----SAKGREKEEYFI  97
+
+
+> sp|Q9BZ76|CNTP3_HUMAN Contactin-associated protein-like 3 OS=Homo 
+sapiens OX=9606 GN=CNTNAP3 PE=2 SV=3
+Length=1288
+
+ Score = 63.0 bits (151),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 19/66 (29%), Positives = 30/66 (45%), Gaps = 1/66 (2%)
+
+Query  38    DPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAK  97
+               G SG  D           D  VI GVIA V  +L+ +  + +R +Y+ +     NE+K
+Sbjct  1223  GAGRSGPADEGEPLVNADRRDSAVIGGVIAVVIFILLCITAIAIR-IYQQRKLRKENESK  1281
+
+Query  98    GTEFAE  103
+              ++  E
+Sbjct  1282  VSKKEE  1287
+
+
+> sp|Q7TPF1|SMAGP_RAT Small cell adhesion glycoprotein OS=Rattus 
+norvegicus OX=10116 GN=Smagp PE=1 SV=1
+Length=97
+
+ Score = 58.7 bits (140),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 28/109 (26%), Positives = 44/109 (40%), Gaps = 16/109 (15%)
+
+Query  20   PGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFV  79
+            P   S    M T     P+                      +IA VI  V + L+S++ +
+Sbjct  5    PATPSPEELMTTPVFQAPETMSP----------QAEEASTALIAVVITVVFLTLLSVVTL  54
+
+Query  80   MLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            +  Y+Y++KG+Y T E    E   SA   ++ D     A    ++EYFI
+Sbjct  55   IFFYLYKNKGSYVTYEP--AEGEPSAILQMETD----SAKGKEKEEYFI  97
+
+
+> sp|Q96NU0|CNT3B_HUMAN Contactin-associated protein-like 3B OS=Homo 
+sapiens OX=9606 GN=CNTNAP3B PE=2 SV=2
+Length=1288
+
+ Score = 61.4 bits (147),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 18/66 (27%), Positives = 30/66 (45%), Gaps = 1/66 (2%)
+
+Query  38    DPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAK  97
+               G SG  D           D  V+ GVIA V  +L+ +  + +R +Y+ +     NE+K
+Sbjct  1223  GAGRSGPVDEGEPLVNADRRDSAVMGGVIAVVIFILLCITAIAIR-IYQQRKLRKENESK  1281
+
+Query  98    GTEFAE  103
+              ++  E
+Sbjct  1282  VSKKEE  1287
+
+
+> sp|Q99KC7|SMAGP_MOUSE Small cell adhesion glycoprotein OS=Mus 
+musculus OX=10090 GN=Smagp PE=1 SV=2
+Length=97
+
+ Score = 56.4 bits (134),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 27/109 (25%), Positives = 44/109 (40%), Gaps = 16/109 (15%)
+
+Query  20   PGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFV  79
+            P   S    M T     P+                      +IA VI  V + L+S++ +
+Sbjct  5    PATPSPEELMTTPVFQAPETLSP----------QAEEASTALIAVVITVVFLTLLSVVTL  54
+
+Query  80   MLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            +  ++Y++KG+Y T E    E   SA   ++ D     A    ++EYFI
+Sbjct  55   IFFHLYKNKGSYVTYEP--AEGEPSAILQMETD----SAKGREKEEYFI  97
+
+
+> sp|Q1WIM1|CADM4_RAT Cell adhesion molecule 4 OS=Rattus norvegicus 
+OX=10116 GN=Cadm4 PE=1 SV=1
+Length=388
+
+ Score = 54.9 bits (130),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 20/83 (24%), Positives = 37/83 (45%), Gaps = 4/83 (5%)
+
+Query  46   DGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESA  105
+            D        T +   ++ G++A +  +++ +L  M+    R KG+Y T+EA G +    A
+Sbjct  310  DPGAVVEAQTSVPYAIVGGILALLVFLIICVLVGMVWCSVRQKGSYLTHEASGLDEQGEA  369
+
+Query  106  DAALQGDPALQDAGDSSRKEYFI  128
+              A          G   ++E+FI
+Sbjct  370  REAFLNGSD----GHKRKEEFFI  388
+
+
+> sp|Q8NFZ8|CADM4_HUMAN Cell adhesion molecule 4 OS=Homo sapiens 
+OX=9606 GN=CADM4 PE=1 SV=1
+Length=388
+
+ Score = 54.9 bits (130),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 20/83 (24%), Positives = 37/83 (45%), Gaps = 4/83 (5%)
+
+Query  46   DGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESA  105
+            D        T +   ++ G++A +  +++ +L  M+    R KG+Y T+EA G +    A
+Sbjct  310  DPGAVVEAQTSVPYAIVGGILALLVFLIICVLVGMVWCSVRQKGSYLTHEASGLDEQGEA  369
+
+Query  106  DAALQGDPALQDAGDSSRKEYFI  128
+              A          G   ++E+FI
+Sbjct  370  REAFLNGSD----GHKRKEEFFI  388
+
+
+> sp|Q66KX2|CADM4_XENLA Cell adhesion molecule 4 OS=Xenopus laevis 
+OX=8355 GN=cadm4 PE=2 SV=1
+Length=390
+
+ Score = 54.1 bits (128),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 22/83 (27%), Positives = 39/83 (47%), Gaps = 4/83 (5%)
+
+Query  46   DGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESA  105
+            D        T +   VI G++A +  +++ +L VM+    R KG+Y T+EA G +    A
+Sbjct  312  DPGAIIEAQTQVPYAVIGGILALLVFLVICILIVMVWCSVRQKGSYLTHEASGLDEHGEA  371
+
+Query  106  DAALQGDPALQDAGDSSRKEYFI  128
+              A       ++     ++E+FI
+Sbjct  372  REAFLN--GGEN--HKRKEEFFI  390
+
+
+> sp|Q8R464|CADM4_MOUSE Cell adhesion molecule 4 OS=Mus musculus 
+OX=10090 GN=Cadm4 PE=1 SV=1
+Length=388
+
+ Score = 53.7 bits (127),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 20/83 (24%), Positives = 37/83 (45%), Gaps = 4/83 (5%)
+
+Query  46   DGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESA  105
+            D        T +   ++ G++A +  +++ +L  M+    R KG+Y T+EA G +    A
+Sbjct  310  DPGAVVEAQTSVPYAIVGGILALLVFLIICVLVGMVWCSVRQKGSYLTHEASGLDEQGEA  369
+
+Query  106  DAALQGDPALQDAGDSSRKEYFI  128
+              A          G   ++E+FI
+Sbjct  370  REAFLNGGD----GHKRKEEFFI  388
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.117    0.287    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0358    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5008563936
+Results from round 3
+
+
+Query= GLPC_HUMAN
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P04921|GLPC_HUMAN Glycophorin-C OS=Homo sapiens OX=9606 GN=G...  156     8e-48
+  sp|Q0V8T5|CTP5B_RAT Contactin-associated protein like 5-2 OS=Ra...  158     1e-43
+  sp|Q0V8T8|CTP5B_MOUSE Contactin-associated protein like 5-2 OS=...  156     3e-43
+  sp|Q0V8T9|CTP5A_MOUSE Contactin-associated protein like 5-1 OS=...  156     4e-43
+  sp|Q0V8T3|CTP5D_RAT Contactin-associated protein like 5-4 OS=Ra...  153     5e-42
+  sp|Q0V8T6|CTP5A_RAT Contactin-associated protein like 5-1 OS=Ra...  153     8e-42
+  sp|Q0V8T0|CNTP5_CANLF Contactin-associated protein-like 5 OS=Ca...  150     9e-41
+  sp|Q0V8T4|CTP5C_RAT Contactin-associated protein like 5-3 OS=Ra...  150     9e-41
+  sp|Q8WYK1|CNTP5_HUMAN Contactin-associated protein-like 5 OS=Ho...  145     4e-39
+  sp|Q0V8T7|CTP5C_MOUSE Contactin-associated protein like 5-3 OS=...  142     5e-38
+  sp|Q0V8S9|CNTP5_CHICK Contactin-associated protein-like 5 OS=Ga...  137     3e-36
+  sp|Q99P47|CNTP4_MOUSE Contactin-associated protein-like 4 OS=Mu...  126     1e-32
+  sp|Q9C0A0|CNTP4_HUMAN Contactin-associated protein-like 4 OS=Ho...  125     4e-32
+  sp|Q9UHC6|CNTP2_HUMAN Contactin-associated protein-like 2 OS=Ho...  121     6e-31
+  sp|Q9CPW0|CNTP2_MOUSE Contactin-associated protein-like 2 OS=Mu...  121     7e-31
+  sp|Q5RD64|CNTP2_PONAB Contactin-associated protein-like 2 OS=Po...  121     7e-31
+  sp|Q8BLQ9|CADM2_MOUSE Cell adhesion molecule 2 OS=Mus musculus ...  116     5e-30
+  sp|Q1WIM2|CADM2_RAT Cell adhesion molecule 2 OS=Rattus norvegic...  113     4e-29
+  sp|Q8N3J6|CADM2_HUMAN Cell adhesion molecule 2 OS=Homo sapiens ...  112     8e-29
+  sp|Q7ZXX1|CADM3_XENLA Cell adhesion molecule 3 OS=Xenopus laevi...  111     1e-28
+  sp|Q9P2S2|NRX2A_HUMAN Neurexin-2 OS=Homo sapiens OX=9606 GN=NRX...  105     3e-25
+  sp|Q6DJ83|CADM2_XENTR Cell adhesion molecule 2 OS=Xenopus tropi...  101     8e-25
+  sp|Q07310|NRX3A_RAT Neurexin-3 OS=Rattus norvegicus OX=10116 GN...  103     1e-24
+  sp|Q6XFR6|GLPC_RAT Glycophorin-C OS=Rattus norvegicus OX=10116 ...  95.3    2e-24
+  sp|Q6P9K9|NRX3A_MOUSE Neurexin-3 OS=Mus musculus OX=10090 GN=Nr...  103     2e-24
+  sp|Q8C985|NRX3B_MOUSE Neurexin-3-beta OS=Mus musculus OX=10090 ...  101     4e-24
+  sp|Q9Y4C0|NRX3A_HUMAN Neurexin-3 OS=Homo sapiens OX=9606 GN=NRX...  102     4e-24
+  sp|D0PRN3|NRX3A_CHICK Neurexin-3 OS=Gallus gallus OX=9031 PE=1 ...  102     4e-24
+  sp|Q63374|NRX2A_RAT Neurexin-2 OS=Rattus norvegicus OX=10116 GN...  101     8e-24
+  sp|A1XQY1|NR3BA_DANRE Neurexin-3b OS=Danio rerio OX=7955 GN=nrx...  100     2e-23
+  sp|Q28142|NRX1B_BOVIN Neurexin-1-beta OS=Bos taurus OX=9913 GN=...  98.0    2e-23
+  sp|A1XQX8|NR3AA_DANRE Neurexin-3a OS=Danio rerio OX=7955 GN=nrx...   99     3e-23
+  sp|P58401|NRX2B_HUMAN Neurexin-2-beta OS=Homo sapiens OX=9606 G...  98.8    3e-23
+  sp|P0DI97|NRX1B_MOUSE Neurexin-1-beta OS=Mus musculus OX=10090 ...  97.3    4e-23
+  sp|Q63373|NRX1B_RAT Neurexin-1-beta OS=Rattus norvegicus OX=101...  97.3    4e-23
+  sp|Q9HDB5|NRX3B_HUMAN Neurexin-3-beta OS=Homo sapiens OX=9606 G...  98.4    4e-23
+  sp|Q28143|NRX3B_BOVIN Neurexin-3-beta OS=Bos taurus OX=9913 GN=...  96.9    5e-23
+  sp|Q78HU7|GLPC_MOUSE Glycophorin-C OS=Mus musculus OX=10090 GN=...  91.1    7e-23
+  sp|Q28146|NRX1A_BOVIN Neurexin-1 OS=Bos taurus OX=9913 GN=NRXN1...  98.4    9e-23
+  sp|D0PRN4|NRX3B_CHICK Neurexin-3-beta OS=Gallus gallus OX=9031 ...  97.3    1e-22
+  sp|Q63372|NRX1A_RAT Neurexin-1 OS=Rattus norvegicus OX=10116 GN...  98.0    1e-22
+  sp|Q9CS84|NRX1A_MOUSE Neurexin-1 OS=Mus musculus OX=10090 GN=Nr...  98.0    1e-22
+  sp|P58400|NRX1B_HUMAN Neurexin-1-beta OS=Homo sapiens OX=9606 G...  93.8    8e-22
+  sp|Q63376|NRX2B_RAT Neurexin-2-beta OS=Rattus norvegicus OX=101...  94.2    1e-21
+  sp|Q9ULB1|NRX1A_HUMAN Neurexin-1 OS=Homo sapiens OX=9606 GN=NRX...  95.0    2e-21
+  sp|Q8N126|CADM3_HUMAN Cell adhesion molecule 3 OS=Homo sapiens ...  92.3    2e-21
+  sp|A1XQY3|NR3BB_DANRE Neurexin-3b-beta OS=Danio rerio OX=7955 G...  93.4    3e-21
+  sp|Q8NFZ8|CADM4_HUMAN Cell adhesion molecule 4 OS=Homo sapiens ...  91.1    4e-21
+  sp|A1XQX3|NR1BB_DANRE Neurexin-1b-beta OS=Danio rerio OX=7955 G...  91.9    4e-21
+  sp|Q1WIM1|CADM4_RAT Cell adhesion molecule 4 OS=Rattus norvegic...  90.7    4e-21
+  sp|A1XQY0|NR3AB_DANRE Neurexin-3a-beta OS=Danio rerio OX=7955 G...  92.6    4e-21
+  sp|D0PRN2|NRX1B_CHICK Neurexin-1-beta OS=Gallus gallus OX=9031 ...  91.5    6e-21
+  sp|Q1WIM3|CADM3_RAT Cell adhesion molecule 3 OS=Rattus norvegic...  89.9    9e-21
+  sp|Q8R464|CADM4_MOUSE Cell adhesion molecule 4 OS=Mus musculus ...  89.9    9e-21
+  sp|Q99N28|CADM3_MOUSE Cell adhesion molecule 3 OS=Mus musculus ...  89.9    1e-20
+  sp|Q66KX2|CADM4_XENLA Cell adhesion molecule 4 OS=Xenopus laevi...  89.6    1e-20
+  sp|A1XQX2|NR1BA_DANRE Neurexin-1b OS=Danio rerio OX=7955 GN=nrx...  91.9    2e-20
+  sp|Q9DDD0|NRX1A_CHICK Neurexin-1 (Fragment) OS=Gallus gallus OX...  91.9    2e-20
+  sp|A1XQX0|NR1AA_DANRE Neurexin-1a OS=Danio rerio OX=7955 GN=nrx...  84.6    5e-18
+  sp|A1XQX1|NR1AB_DANRE Neurexin-1a-beta OS=Danio rerio OX=7955 G...  81.9    1e-17
+  sp|Q6AYP5|CADM1_RAT Cell adhesion molecule 1 OS=Rattus norvegic...  76.1    2e-15
+  sp|Q9BZ76|CNTP3_HUMAN Contactin-associated protein-like 3 OS=Ho...  77.2    2e-15
+  sp|Q7TPF1|SMAGP_RAT Small cell adhesion glycoprotein OS=Rattus ...  71.5    2e-15
+  sp|Q0VAQ4|SMAGP_HUMAN Small cell adhesion glycoprotein OS=Homo ...  70.7    4e-15
+  sp|A4IFL2|SMAGP_BOVIN Small cell adhesion glycoprotein OS=Bos t...  70.3    5e-15
+  sp|Q96NU0|CNT3B_HUMAN Contactin-associated protein-like 3B OS=H...  75.7    5e-15
+  sp|Q28F36|SMAGP_XENTR Small cell adhesion glycoprotein homolog ...  68.4    3e-14
+  sp|Q99KC7|SMAGP_MOUSE Small cell adhesion glycoprotein OS=Mus m...  68.4    3e-14
+  sp|Q9BY67|CADM1_HUMAN Cell adhesion molecule 1 OS=Homo sapiens ...  72.2    3e-14
+  sp|Q8R5M8|CADM1_MOUSE Cell adhesion molecule 1 OS=Mus musculus ...  72.2    4e-14
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q8HYX8|MCP_CALJA Membrane cofactor protein OS=Callithrix jac...  44.5    6e-05
+  sp|P78357|CNTP1_HUMAN Contactin-associated protein 1 OS=Homo sa...  38.3    0.010
+  sp|O54991|CNTP1_MOUSE Contactin-associated protein 1 OS=Mus mus...  38.3    0.010
+
+
+> sp|P04921|GLPC_HUMAN Glycophorin-C OS=Homo sapiens OX=9606 GN=GYPC 
+PE=1 SV=1
+Length=128
+
+ Score = 156 bits (393),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 128/128 (100%), Positives = 128/128 (100%), Gaps = 0/128 (0%)
+
+Query  1    MWSTRSPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIV  60
+            MWSTRSPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIV
+Sbjct  1    MWSTRSPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIV  60
+
+Query  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD  120
+            VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD
+Sbjct  61   VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGD  120
+
+Query  121  SSRKEYFI  128
+            SSRKEYFI
+Sbjct  121  SSRKEYFI  128
+
+
+> sp|Q0V8T5|CTP5B_RAT Contactin-associated protein like 5-2 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5b PE=2 SV=1
+Length=1292
+
+ Score = 158 bits (399),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 33/127 (26%), Positives = 62/127 (49%), Gaps = 8/127 (6%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMH------TTTIAEPDPGMSGWPDGRMETSTPTIMDIVV  61
+             +++  P++++     +S  + +       TT  +  DP   G  D     +     D   
+Sbjct  1168  HASIAPVTVQGTLTESSCGSMVESYANGVTTVYSSSDP--FGNTDEHEPLTNAIQSDSAF  1225
+
+Query  62    IAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDS  121
+             I GVIA V  +   ++ +M  ++Y+HK ++HTN  K  E+ E+ D++ + D  LQ+    
+Sbjct  1226  IGGVIAIVTFIAFGVIGIMTHFLYQHKQSHHTNPMKEKEYPENLDSSFRNDIDLQNTVSD  1285
+
+Query  122   SRKEYFI  128
+              ++EYFI
+Sbjct  1286  CKREYFI  1292
+
+
+> sp|Q0V8T8|CTP5B_MOUSE Contactin-associated protein like 5-2 OS=Mus 
+musculus OX=10090 GN=Cntnap5b PE=2 SV=1
+Length=1292
+
+ Score = 156 bits (395),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 31/127 (24%), Positives = 61/127 (48%), Gaps = 8/127 (6%)
+
+Query  8     NSTAWPLSLEPDPGMASAST------TMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVV  61
+             +++  P++++     +S  +      T  TT  +   P   G  D     +     D   
+Sbjct  1168  HASISPVTVQGTLTESSCDSMIDSDVTGVTTVYSPSVP--FGKTDEHEPLTNTIQSDSAF  1225
+
+Query  62    IAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDS  121
+             I GVIA V  +   +L +M+ ++Y+ K ++ TN+ K  E+ ++ D++ + D  LQ+    
+Sbjct  1226  IGGVIAIVTFITFCVLGIMVHFLYQQKQSHRTNQMKEKEYPDNLDSSFRNDIDLQNTAIE  1285
+
+Query  122   SRKEYFI  128
+              ++EYFI
+Sbjct  1286  CKREYFI  1292
+
+
+> sp|Q0V8T9|CTP5A_MOUSE Contactin-associated protein like 5-1 OS=Mus 
+musculus OX=10090 GN=Cntnap5a PE=1 SV=1
+Length=1304
+
+ Score = 156 bits (394),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 30/125 (24%), Positives = 59/125 (47%), Gaps = 5/125 (4%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTM----HTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             +++  P++++     +S  + +    +  T         G  D           D  VI 
+Sbjct  1181  HASIAPVTVQKTLTESSCGSMVDSDVNAVTTVHSLSDSFGKTDDHEPLQNAVRSDSAVIG  1240
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             GVIA V  +   ++ +M R++Y+HK ++ TN+ K  E+ E+ D + + +  LQ+     +
+Sbjct  1241  GVIAVVTFITFCVIGIMTRFLYQHKQSHRTNQMK-KEYPENLDNSFRNEIDLQNTATECK  1299
+
+Query  124   KEYFI  128
+             +EYFI
+Sbjct  1300  REYFI  1304
+
+
+> sp|Q0V8T3|CTP5D_RAT Contactin-associated protein like 5-4 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5d PE=2 SV=1
+Length=1305
+
+ Score = 153 bits (387),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 30/125 (24%), Positives = 58/125 (46%), Gaps = 4/125 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTT----MHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             +S   P++++     +   +T    ++  T         G  D R   +     D  VI 
+Sbjct  1181  HSGIAPVTVQGTLTESGCDSTLDSDVNAVTTVHSSLDPIGKRDEREPLTDTVQSDSAVIG  1240
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             G+IA V  V   ++ +M+ ++Y HK ++ TN+ K  E++E+   + +    LQ+     +
+Sbjct  1241  GIIALVTFVTFCVIGIMIHFLYLHKQSHCTNQTKEKEYSENLSNSFRNAIDLQNTASECK  1300
+
+Query  124   KEYFI  128
+             +EYFI
+Sbjct  1301  REYFI  1305
+
+
+> sp|Q0V8T6|CTP5A_RAT Contactin-associated protein like 5-1 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5a PE=2 SV=1
+Length=1305
+
+ Score = 153 bits (385),  Expect = 8e-42, Method: Composition-based stats.
+ Identities = 28/125 (22%), Positives = 57/125 (46%), Gaps = 4/125 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTT----MHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             ++   P+++      +   +T    ++  T         G  D +   +     D  VI 
+Sbjct  1181  HAGVAPVTVHGTLTESGCDSTLDSDVNAVTTVHSSLEPIGKRDEQEPLTNTVQSDSAVIG  1240
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             G+IA V  V   ++ +M+ ++Y+HK ++ TN+ K  E+ E+   + +    LQ+     +
+Sbjct  1241  GIIAVVTFVTFCVIGIMICFLYQHKQSHRTNQTKEKEYPETLSNSFRNVIDLQNTASECK  1300
+
+Query  124   KEYFI  128
+             +EYFI
+Sbjct  1301  REYFI  1305
+
+
+> sp|Q0V8T0|CNTP5_CANLF Contactin-associated protein-like 5 OS=Canis 
+lupus familiaris OX=9615 GN=CNTNAP5 PE=2 SV=1
+Length=1305
+
+ Score = 150 bits (377),  Expect = 9e-41, Method: Composition-based stats.
+ Identities = 35/125 (28%), Positives = 65/125 (52%), Gaps = 4/125 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTM----HTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             ++T  P++++     +S  + +    +T T         G  D R   +     D  VI 
+Sbjct  1181  HATIAPVTVQGTLMESSCGSMVDVDVNTVTTVHSSSDPFGKTDEREPLTNAVRSDSAVIG  1240
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             GVIA V  ++ S++ +M R++Y+HK ++ TN+ K  E+ E+ D++ + D  LQ+     +
+Sbjct  1241  GVIAVVIFIIFSIIGIMTRFLYQHKQSHRTNQMKEKEYPENLDSSFRNDIDLQNTVSECK  1300
+
+Query  124   KEYFI  128
+             +EYFI
+Sbjct  1301  REYFI  1305
+
+
+> sp|Q0V8T4|CTP5C_RAT Contactin-associated protein like 5-3 OS=Rattus 
+norvegicus OX=10116 GN=Cntnap5c PE=2 SV=1
+Length=1307
+
+ Score = 150 bits (377),  Expect = 9e-41, Method: Composition-based stats.
+ Identities = 30/125 (24%), Positives = 60/125 (48%), Gaps = 4/125 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTM----HTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             +++  P +++      S  + +    +  T         G  D     +   + D  VI 
+Sbjct  1183  HASIAPATVQGSLREFSCGSMVDSDVNAVTTVYSSSDPFGKTDDHDPLTNAVLSDSAVIG  1242
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             GVIA V  +   ++ +M R++Y+HK ++ T++ K  E++E+ D++ + D  LQ      +
+Sbjct  1243  GVIAVVTFITFCVIGIMTRFLYQHKQSHCTSQKKEKEYSENLDSSFRHDIDLQSTTSKCK  1302
+
+Query  124   KEYFI  128
+             +EYFI
+Sbjct  1303  REYFI  1307
+
+
+> sp|Q8WYK1|CNTP5_HUMAN Contactin-associated protein-like 5 OS=Homo 
+sapiens OX=9606 GN=CNTNAP5 PE=2 SV=1
+Length=1306
+
+ Score = 145 bits (365),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 31/125 (25%), Positives = 62/125 (50%), Gaps = 4/125 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASAS----TTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             ++T  P+++      +S      + ++  T         G  D R   +     D  VI 
+Sbjct  1182  HATVAPVTVHGTLTESSCGFMVDSDVNAVTTVHSSSDPFGKTDEREPLTNAVRSDSAVIG  1241
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             GVIA V  ++  ++ +M R++Y+HK ++ T++ K  E+ E+ D++ + +  LQ+     +
+Sbjct  1242  GVIAVVIFIIFCIIGIMTRFLYQHKQSHRTSQMKEKEYPENLDSSFRNEIDLQNTVSECK  1301
+
+Query  124   KEYFI  128
+             +EYFI
+Sbjct  1302  REYFI  1306
+
+
+> sp|Q0V8T7|CTP5C_MOUSE Contactin-associated protein like 5-3 OS=Mus 
+musculus OX=10090 GN=Cntnap5c PE=2 SV=1
+Length=1305
+
+ Score = 142 bits (357),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 28/125 (22%), Positives = 61/125 (49%), Gaps = 4/125 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTM----HTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             +++  P++++     +S  + +    +  T         G  D R   +     D+ VI 
+Sbjct  1181  HASISPVTVQRTLTESSCVSMVDSDANAVTTVYSSTDPFGERDEREPLTNAVPSDLAVIG  1240
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             G+IA V  +  S++ +M  + Y+HK +++ ++ K  E+ E+ D++ + D  LQ+     +
+Sbjct  1241  GIIAVVTFISFSVIGIMTHFFYQHKRSHYASQMKEKEYPENVDSSSRNDIDLQNTTRECK  1300
+
+Query  124   KEYFI  128
+             +E FI
+Sbjct  1301  QEDFI  1305
+
+
+> sp|Q0V8S9|CNTP5_CHICK Contactin-associated protein-like 5 OS=Gallus 
+gallus OX=9031 GN=CNTNAP5 PE=2 SV=1
+Length=1305
+
+ Score = 137 bits (344),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 32/125 (26%), Positives = 63/125 (50%), Gaps = 4/125 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTM----HTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIA  63
+             + +  P++++     +S S+ M    +T T         G  D R   +     D  VI 
+Sbjct  1181  HPSIAPVTVKGSLTESSCSSLMETDVNTATTIYSSSDPFGKTDEREPLTNAVRSDSAVIG  1240
+
+Query  64    GVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSR  123
+             GVIA V  ++  ++ +M R++Y+HK  + +++ K  E+ E+ +++ + D  LQ+     +
+Sbjct  1241  GVIAVVIFIIFCIIAIMSRFLYQHKQAHRSSQTKEKEYPENLESSFKADIDLQNTVSECK  1300
+
+Query  124   KEYFI  128
+             +EYFI
+Sbjct  1301  REYFI  1305
+
+
+> sp|Q99P47|CNTP4_MOUSE Contactin-associated protein-like 4 OS=Mus 
+musculus OX=10090 GN=Cntnap4 PE=1 SV=2
+Length=1310
+
+ Score = 126 bits (317),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 34/120 (28%), Positives = 57/120 (48%), Gaps = 5/120 (4%)
+
+Query  12    WPLSLEPDPGMASASTTMHTTTIA----EPDPGMSGWPDGRMETSTPTIMDIVVIAGVIA  67
+              P+++      +S      T   +          SG  D R   +     D  VI G+IA
+Sbjct  1191  APVTVTGHVTESSCVAPSGTDATSRERTHSFADHSGTMDDREPLTHAIKSDSAVIGGLIA  1250
+
+Query  68    AVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYF  127
+              V  +L+ +  + +R +Y+ K  Y  NEAK +E  +SA+A L+ +  +Q+A   ++KEYF
+Sbjct  1251  VVIFILLCVSAIAVR-IYQQKRLYKRNEAKRSENVDSAEAVLKSELHIQNAVGENQKEYF  1309
+
+
+> sp|Q9C0A0|CNTP4_HUMAN Contactin-associated protein-like 4 OS=Homo 
+sapiens OX=9606 GN=CNTNAP4 PE=1 SV=3
+Length=1308
+
+ Score = 125 bits (313),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 33/119 (28%), Positives = 58/119 (49%), Gaps = 5/119 (4%)
+
+Query  13    PLSLEPDPGMASA----STTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAA  68
+             P+++      +S      T   +          SG  D R   +     D  VI G+IA 
+Sbjct  1190  PVTVTGHVTESSCMAQPGTDATSRERTHSFADHSGTIDDREPLANAIKSDSAVIGGLIAV  1249
+
+Query  69    VAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYF  127
+             V  +L+ +  + +R +Y+ K  Y  +EAK +E  +SA+A L+ +  +Q+A + ++KEYF
+Sbjct  1250  VIFILLCITAIAVR-IYQQKRLYKRSEAKRSENVDSAEAVLKSELNIQNAVNENQKEYF  1307
+
+
+> sp|Q9UHC6|CNTP2_HUMAN Contactin-associated protein-like 2 OS=Homo 
+sapiens OX=9606 GN=CNTNAP2 PE=1 SV=1
+Length=1331
+
+ Score = 121 bits (304),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 42/122 (34%), Positives = 58/122 (48%), Gaps = 4/122 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIA  67
+             N  A PL+L P   M+SA+   H   +          P            +  +I GVIA
+Sbjct  1213  NCGASPLTLSP---MSSATDPWHLDHLDSASADFPYNPGQGQAIRNGVNRNSAIIGGVIA  1269
+
+Query  68    AVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG-TEFAESADAALQGDPALQDAGDSSRKEY  126
+              V   ++  L  ++RYM+RHKGTYHTNEAKG      +  A +  DP   +  D S+KE+
+Sbjct  1270  VVIFTILCTLVFLIRYMFRHKGTYHTNEAKGAESAESADAAIMNNDPNFTETIDESKKEW  1329
+
+Query  127   FI  128
+              I
+Sbjct  1330  LI  1331
+
+
+> sp|Q9CPW0|CNTP2_MOUSE Contactin-associated protein-like 2 OS=Mus 
+musculus OX=10090 GN=Cntnap2 PE=1 SV=2
+Length=1332
+
+ Score = 121 bits (304),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 42/122 (34%), Positives = 58/122 (48%), Gaps = 4/122 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIA  67
+             N  A PL+L P   M+SA+   H   +          P            +  +I GVIA
+Sbjct  1214  NCGASPLTLSP---MSSATDPWHLDHLDSASADFPYNPGQGQAIRNGVNRNSAIIGGVIA  1270
+
+Query  68    AVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG-TEFAESADAALQGDPALQDAGDSSRKEY  126
+              V   ++  L  ++RYM+RHKGTYHTNEAKG      +  A +  DP   +  D S+KE+
+Sbjct  1271  VVIFTILCTLVFLIRYMFRHKGTYHTNEAKGAESAESADAAIMNNDPNFTETIDESKKEW  1330
+
+Query  127   FI  128
+              I
+Sbjct  1331  LI  1332
+
+
+> sp|Q5RD64|CNTP2_PONAB Contactin-associated protein-like 2 OS=Pongo 
+abelii OX=9601 GN=CNTNAP2 PE=2 SV=1
+Length=1331
+
+ Score = 121 bits (304),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 42/122 (34%), Positives = 58/122 (48%), Gaps = 4/122 (3%)
+
+Query  8     NSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIA  67
+             N  A PL+L P   M+SA+   H   +          P            +  +I GVIA
+Sbjct  1213  NCGASPLTLSP---MSSATDPWHLDHLDSASADFPYNPGQGQAIRNGVNRNSAIIGGVIA  1269
+
+Query  68    AVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG-TEFAESADAALQGDPALQDAGDSSRKEY  126
+              V   ++  L  ++RYM+RHKGTYHTNEAKG      +  A +  DP   +  D S+KE+
+Sbjct  1270  VVIFTILCTLVFLIRYMFRHKGTYHTNEAKGAESAESADAAIMNNDPNFTETIDESKKEW  1329
+
+Query  127   FI  128
+              I
+Sbjct  1330  LI  1331
+
+
+> sp|Q8BLQ9|CADM2_MOUSE Cell adhesion molecule 2 OS=Mus musculus 
+OX=10090 GN=Cadm2 PE=1 SV=2
+Length=435
+
+ Score = 116 bits (289),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 43/122 (35%), Positives = 59/122 (48%), Gaps = 3/122 (2%)
+
+Query  7    PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+            PN T  P ++ P    A  +T++  TT        S   D     +     D  +I G++
+Sbjct  317  PN-TLLPTTIIPSLTTAPVTTSVTITTSPSTSASSSSRRDPNS-LAGQNGPDHALIGGIV  374
+
+Query  67   AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEY  126
+            A V  V +  +F++ RY+ RHKGTY TNEAKG E A  AD A+      Q      +KEY
+Sbjct  375  AVVVFVTLCSIFLLGRYLARHKGTYLTNEAKGAEDAPDADTAIINAEGSQ-VNAEEKKEY  433
+
+Query  127  FI  128
+            FI
+Sbjct  434  FI  435
+
+
+> sp|Q1WIM2|CADM2_RAT Cell adhesion molecule 2 OS=Rattus norvegicus 
+OX=10116 GN=Cadm2 PE=1 SV=2
+Length=435
+
+ Score = 113 bits (282),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 44/122 (36%), Positives = 59/122 (48%), Gaps = 3/122 (2%)
+
+Query  7    PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+            PN T  P ++ P    A  +TT+  TT        S   D     +     D  +I G++
+Sbjct  317  PN-TLLPTTIIPSLTTAPVTTTVAITTSPSTSASSSSRRDPNS-LAGQNGPDHALIGGIV  374
+
+Query  67   AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEY  126
+            A V  V +  +F++ RY+ RHKGTY TNEAKG E A  AD A+      Q      +KEY
+Sbjct  375  AVVVFVTLCSIFLLGRYLARHKGTYLTNEAKGAEDAPDADTAIINAEGSQ-VNAEEKKEY  433
+
+Query  127  FI  128
+            FI
+Sbjct  434  FI  435
+
+
+> sp|Q8N3J6|CADM2_HUMAN Cell adhesion molecule 2 OS=Homo sapiens 
+OX=9606 GN=CADM2 PE=2 SV=1
+Length=435
+
+ Score = 112 bits (280),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 44/122 (36%), Positives = 60/122 (49%), Gaps = 3/122 (2%)
+
+Query  7    PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+            PN T  P ++ P    A+ +TT+  TT        S   D     +     D  +I G++
+Sbjct  317  PN-TLLPTTIIPSLTTATVTTTVAITTSPTTSATTSSIRDPNA-LAGQNGPDHALIGGIV  374
+
+Query  67   AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEY  126
+            A V  V +  +F++ RY+ RHKGTY TNEAKG E A  AD A+      Q      +KEY
+Sbjct  375  AVVVFVTLCSIFLLGRYLARHKGTYLTNEAKGAEDAPDADTAIINAEGSQ-VNAEEKKEY  433
+
+Query  127  FI  128
+            FI
+Sbjct  434  FI  435
+
+
+> sp|Q7ZXX1|CADM3_XENLA Cell adhesion molecule 3 OS=Xenopus laevis 
+OX=8355 GN=cadm3 PE=2 SV=1
+Length=394
+
+ Score = 111 bits (278),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 37/111 (33%), Positives = 54/111 (49%), Gaps = 3/111 (3%)
+
+Query  20   PGMASASTTMH--TTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLL  77
+                 + T     + T+           +      + + +D  VI GV+A +A +L  LL
+Sbjct  285  LNKTDSGTYTCKASNTLGTFITHYKLDVNDPSPIPSTSSIDHAVIGGVVAVIAFLLFCLL  344
+
+Query  78   FVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             V+ RY+ RHKGTY T+EAKG++ A  AD A+      Q  G   +KEYFI
+Sbjct  345  IVLGRYLIRHKGTYLTHEAKGSDDAPDADTAIINAEGGQ-GGSDDKKEYFI  394
+
+
+> sp|Q9P2S2|NRX2A_HUMAN Neurexin-2 OS=Homo sapiens OX=9606 GN=NRXN2 
+PE=2 SV=1
+Length=1712
+
+ Score = 105 bits (261),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 32/130 (25%), Positives = 58/130 (45%), Gaps = 8/130 (6%)
+
+Query  6     SPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGV  65
+             +P S          PG+ SA    H  T     PG  G P G +E    +     ++ G+
+Sbjct  1584  APTSFEPRRPPPLRPGVTSAPGFPHLPTANPTGPGERG-PPGAVEVIRESSSTTGMVVGI  1642
+
+Query  66    IAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPAL-----QDA  118
+             +AA A+ ++ LL+ M +Y  R +G+Y  ++++   +  A+S  A ++            A
+Sbjct  1643  VAAAALCILILLYAMYKYRNRDEGSYQVDQSRNYISNSAQSNGAVVKEKAPAAPKTPSKA  1702
+
+Query  119   GDSSRKEYFI  128
+               +  KEY++
+Sbjct  1703  KKNKDKEYYV  1712
+
+
+> sp|Q6DJ83|CADM2_XENTR Cell adhesion molecule 2 OS=Xenopus tropicalis 
+OX=8364 GN=cadm2 PE=2 SV=1
+Length=433
+
+ Score = 101 bits (251),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 39/116 (34%), Positives = 56/116 (48%), Gaps = 4/116 (3%)
+
+Query  13   PLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIV  72
+            P ++ P    A+  T +  +T       ++  P+       P   D  +I GV+A V  V
+Sbjct  322  PTTIIPLFTSATVKTNVAMSTRTTKSAFITKDPN---ALPGPVATDHALIGGVVAVVVFV  378
+
+Query  73   LVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             +  + ++ RY+ RHKGTY TNEAKG E A  AD A+      Q      +KEYFI
+Sbjct  379  TLCSIILIGRYLARHKGTYLTNEAKGAEDAPDADTAIINAEGSQ-VNAEEKKEYFI  433
+
+
+> sp|Q07310|NRX3A_RAT Neurexin-3 OS=Rattus norvegicus OX=10116 
+GN=Nrxn3 PE=1 SV=1
+Length=1578
+
+ Score = 103 bits (257),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 27/128 (21%), Positives = 56/128 (44%), Gaps = 8/128 (6%)
+
+Query  7     PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+             P +     +    P + +     +  T    +PG+   P G  E    +     ++ G++
+Sbjct  1453  PTAYELDSTKLKSP-LITCPMFRNVPTANPTEPGIRRVP-GASEVIRESNSTTGMVVGIV  1510
+
+Query  67    AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR-  123
+             AA A+ ++ LL+ M +Y  R +G+Y  +E +   +  A+S    ++   A   +G   + 
+Sbjct  1511  AAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQSNGTLMKEKQASSKSGHKKQK  1570
+
+Query  124   ---KEYFI  128
+                KEY++
+Sbjct  1571  NKDKEYYV  1578
+
+
+> sp|Q6XFR6|GLPC_RAT Glycophorin-C OS=Rattus norvegicus OX=10116 
+GN=Gypc PE=1 SV=1
+Length=95
+
+ Score = 95.3 bits (235),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 57/105 (54%), Positives = 66/105 (63%), Gaps = 11/105 (10%)
+
+Query  24   SASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRY  83
+            S+          EP+PGMS         +                  +VLV LLF+MLRY
+Sbjct  2    SSPVRTPPPERLEPNPGMSYAVMEIAIIAAVITAVA-----------LVLVCLLFLMLRY  50
+
+Query  84   MYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            +YRHKGTY+TNEAKGTEFAESADAALQ DPALQDAGD+S+KEYFI
+Sbjct  51   LYRHKGTYYTNEAKGTEFAESADAALQSDPALQDAGDTSKKEYFI  95
+
+
+> sp|Q6P9K9|NRX3A_MOUSE Neurexin-3 OS=Mus musculus OX=10090 GN=Nrxn3 
+PE=1 SV=2
+Length=1571
+
+ Score = 103 bits (255),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 27/128 (21%), Positives = 57/128 (45%), Gaps = 8/128 (6%)
+
+Query  7     PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+             P +     +    P + ++    +  T    +PG+   P G  E    +     ++ G++
+Sbjct  1446  PTAYELDSTKLKSP-LITSPMFRNVPTANPTEPGIRRVP-GASEVIRESSSTTGMVVGIV  1503
+
+Query  67    AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR-  123
+             AA A+ ++ LL+ M +Y  R +G+Y  +E +   +  A+S    ++   A   +G   + 
+Sbjct  1504  AAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQSNGTLMKEKQASSKSGHKKQK  1563
+
+Query  124   ---KEYFI  128
+                KEY++
+Sbjct  1564  NKDKEYYV  1571
+
+
+> sp|Q8C985|NRX3B_MOUSE Neurexin-3-beta OS=Mus musculus OX=10090 
+GN=Nrxn3 PE=1 SV=2
+Length=567
+
+ Score = 101 bits (250),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 27/128 (21%), Positives = 57/128 (45%), Gaps = 8/128 (6%)
+
+Query  7    PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+            P +     +    P + ++    +  T    +PG+   P G  E    +     ++ G++
+Sbjct  442  PTAYELDSTKLKSP-LITSPMFRNVPTANPTEPGIRRVP-GASEVIRESSSTTGMVVGIV  499
+
+Query  67   AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR-  123
+            AA A+ ++ LL+ M +Y  R +G+Y  +E +   +  A+S    ++   A   +G   + 
+Sbjct  500  AAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQSNGTLMKEKQASSKSGHKKQK  559
+
+Query  124  ---KEYFI  128
+               KEY++
+Sbjct  560  NKDKEYYV  567
+
+
+> sp|Q9Y4C0|NRX3A_HUMAN Neurexin-3 OS=Homo sapiens OX=9606 GN=NRXN3 
+PE=1 SV=4
+Length=1643
+
+ Score = 102 bits (253),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 26/128 (20%), Positives = 56/128 (44%), Gaps = 8/128 (6%)
+
+Query  7     PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+             P +     +    P + ++    +  T    +PG+   P G  E    +     ++ G++
+Sbjct  1518  PTAYELDSTKLKSP-LITSPMFRNVPTANPTEPGIRRVP-GASEVIRESSSTTGMVVGIV  1575
+
+Query  67    AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSRK  124
+             AA A+ ++ LL+ M +Y  R +G+Y  +E +   +  A+S    ++       +G   +K
+Sbjct  1576  AAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQSNGTLMKEKQQSSKSGHKKQK  1635
+
+Query  125   ----EYFI  128
+                 EY++
+Sbjct  1636  NKDREYYV  1643
+
+
+> sp|D0PRN3|NRX3A_CHICK Neurexin-3 OS=Gallus gallus OX=9031 PE=1 
+SV=1
+Length=1693
+
+ Score = 102 bits (253),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 26/128 (20%), Positives = 56/128 (44%), Gaps = 8/128 (6%)
+
+Query  7     PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+             P +     +    P + ++    +  T    +PG+   P G  E    +     ++ G++
+Sbjct  1568  PTAYELDSTKLKSP-LITSPMFRNVPTANPTEPGIRRVP-GASEVVRESSSTTGMVVGIV  1625
+
+Query  67    AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR-  123
+             AA A+ ++ LL+ M +Y  R +G+Y  +E +   +  A+S    ++       +G   + 
+Sbjct  1626  AAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQSNGTLMKEKQQSSKSGHKKQK  1685
+
+Query  124   ---KEYFI  128
+                KEY++
+Sbjct  1686  NKDKEYYV  1693
+
+
+> sp|Q63374|NRX2A_RAT Neurexin-2 OS=Rattus norvegicus OX=10116 
+GN=Nrxn2 PE=1 SV=3
+Length=1715
+
+ Score = 101 bits (251),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 29/129 (22%), Positives = 55/129 (43%), Gaps = 8/129 (6%)
+
+Query  7     PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+             P +          PG+ S        T     PG  G P G +E    +     ++ G++
+Sbjct  1588  PTAFEPRRPPPLRPGVTSVPGFPRLPTANPTGPGERG-PPGAVEVIRESSSTTGMVVGIV  1646
+
+Query  67    AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPAL-----QDAG  119
+             AA A+ ++ LL+ M +Y  R +G+Y  ++++   +  A+S  A ++            A 
+Sbjct  1647  AAAALCILILLYAMYKYRNRDEGSYQVDQSRNYISNSAQSNGAVVKEKAPAAPKTPSKAK  1706
+
+Query  120   DSSRKEYFI  128
+              +  KEY++
+Sbjct  1707  KNKDKEYYV  1715
+
+
+> sp|A1XQY1|NR3BA_DANRE Neurexin-3b OS=Danio rerio OX=7955 GN=nrxn3b 
+PE=2 SV=1
+Length=1686
+
+ Score = 100 bits (249),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 25/136 (18%), Positives = 53/136 (39%), Gaps = 14/136 (10%)
+
+Query  7     PNSTAWPLSL-------EPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDI  59
+             P+    PL         +P     +        +     PG+   P G  E    +    
+Sbjct  1551  PDIVLLPLPTSFDMDGTKPKGPYITQPMLRTIPSALPTVPGIRRVPPGASEVIRESSSTT  1610
+
+Query  60    VVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQD  117
+              ++ G+++A A+ ++ LL+ M +Y  R +G+Y  +E +   +  A++    ++       
+Sbjct  1611  GMVVGIVSAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQNNGTVVKDKQPSTK  1670
+
+Query  118   AGDSSR-----KEYFI  128
+                + R     KEY++
+Sbjct  1671  GASNKRPKDKDKEYYV  1686
+
+
+> sp|Q28142|NRX1B_BOVIN Neurexin-1-beta OS=Bos taurus OX=9913 GN=NRXN1 
+PE=1 SV=2
+Length=467
+
+ Score = 98.0 bits (242),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 51/117 (44%), Gaps = 12/117 (10%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    + T     +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  356  DPCEPSSGGLANPTRAGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  410
+
+Query  79   VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPA-----LQDAGDSSRKEYFI  128
+             M +Y  R +G+YH +E++   +  A+S  A ++               +  KEY++
+Sbjct  411  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  467
+
+
+> sp|A1XQX8|NR3AA_DANRE Neurexin-3a OS=Danio rerio OX=7955 GN=nrxn3a 
+PE=2 SV=1
+Length=1697
+
+ Score =  99 bits (247),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 29/128 (23%), Positives = 58/128 (45%), Gaps = 8/128 (6%)
+
+Query  7     PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+             P S     +    P + ++    +  T    +PG+   P G  E    +     ++ G++
+Sbjct  1572  PTSYEVDNTKMKSP-LITSPMFRNVPTAIPTEPGIRRVP-GASEVVRESSSTTGMVVGIV  1629
+
+Query  67    AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR-  123
+             AA A+ ++ LL+ M +Y  R +G+Y  +E +   T  A+S  A ++       +G+  + 
+Sbjct  1630  AAAALCILILLYAMYKYRNRDEGSYQVDETRNYITNSAQSNGAVMKDKQQSTKSGNKKQK  1689
+
+Query  124   ---KEYFI  128
+                KEY++
+Sbjct  1690  NKDKEYYV  1697
+
+
+> sp|P58401|NRX2B_HUMAN Neurexin-2-beta OS=Homo sapiens OX=9606 
+GN=NRXN2 PE=1 SV=1
+Length=666
+
+ Score = 98.8 bits (244),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 32/130 (25%), Positives = 58/130 (45%), Gaps = 8/130 (6%)
+
+Query  6    SPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGV  65
+            +P S          PG+ SA    H  T     PG  G P G +E    +     ++ G+
+Sbjct  538  APTSFEPRRPPPLRPGVTSAPGFPHLPTANPTGPGERG-PPGAVEVIRESSSTTGMVVGI  596
+
+Query  66   IAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPAL-----QDA  118
+            +AA A+ ++ LL+ M +Y  R +G+Y  ++++   +  A+S  A ++            A
+Sbjct  597  VAAAALCILILLYAMYKYRNRDEGSYQVDQSRNYISNSAQSNGAVVKEKAPAAPKTPSKA  656
+
+Query  119  GDSSRKEYFI  128
+              +  KEY++
+Sbjct  657  KKNKDKEYYV  666
+
+
+> sp|P0DI97|NRX1B_MOUSE Neurexin-1-beta OS=Mus musculus OX=10090 
+GN=Nrxn1 PE=1 SV=1
+Length=468
+
+ Score = 97.3 bits (240),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 52/117 (44%), Gaps = 12/117 (10%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    + T +   +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  357  DPCEPSSGGLANPTRVGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  411
+
+Query  79   VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPA-----LQDAGDSSRKEYFI  128
+             M +Y  R +G+YH +E++   +  A+S  A ++               +  KEY++
+Sbjct  412  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  468
+
+
+> sp|Q63373|NRX1B_RAT Neurexin-1-beta OS=Rattus norvegicus OX=10116 
+GN=Nrxn1 PE=1 SV=1
+Length=468
+
+ Score = 97.3 bits (240),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 52/117 (44%), Gaps = 12/117 (10%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    + T +   +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  357  DPCEPSSGGLANPTRVGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  411
+
+Query  79   VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPA-----LQDAGDSSRKEYFI  128
+             M +Y  R +G+YH +E++   +  A+S  A ++               +  KEY++
+Sbjct  412  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  468
+
+
+> sp|Q9HDB5|NRX3B_HUMAN Neurexin-3-beta OS=Homo sapiens OX=9606 
+GN=NRXN3 PE=1 SV=4
+Length=637
+
+ Score = 98.4 bits (243),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 26/128 (20%), Positives = 56/128 (44%), Gaps = 8/128 (6%)
+
+Query  7    PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+            P +     +    P + ++    +  T    +PG+   P G  E    +     ++ G++
+Sbjct  512  PTAYELDSTKLKSP-LITSPMFRNVPTANPTEPGIRRVP-GASEVIRESSSTTGMVVGIV  569
+
+Query  67   AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSRK  124
+            AA A+ ++ LL+ M +Y  R +G+Y  +E +   +  A+S    ++       +G   +K
+Sbjct  570  AAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQSNGTLMKEKQQSSKSGHKKQK  629
+
+Query  125  ----EYFI  128
+                EY++
+Sbjct  630  NKDREYYV  637
+
+
+> sp|Q28143|NRX3B_BOVIN Neurexin-3-beta OS=Bos taurus OX=9913 GN=NRXN3 
+PE=1 SV=2
+Length=456
+
+ Score = 96.9 bits (239),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 28/132 (21%), Positives = 55/132 (42%), Gaps = 12/132 (9%)
+
+Query  8    NSTAWPLS---LEPDPGMASASTT--MHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVI  62
+             ++  P S   +      +          +T    +PG+   P G  E    +     ++
+Sbjct  326  TASIQPTSDDLVSSAECSSDDEDFVECEPSTANPTEPGVRRVP-GASEVIRESSSTTGMV  384
+
+Query  63   AGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGD  120
+             G++AA A+ ++ LL+ M +Y  R +G+Y  +E +   +  A+S    L+  P     G 
+Sbjct  385  VGIVAAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQSNGTLLKEKPPSSKGGH  444
+
+Query  121  SSR----KEYFI  128
+              +    KEY++
+Sbjct  445  KKQKNKDKEYYV  456
+
+
+> sp|Q78HU7|GLPC_MOUSE Glycophorin-C OS=Mus musculus OX=10090 GN=Gypc 
+PE=1 SV=2
+Length=95
+
+ Score = 91.1 bits (224),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 56/58 (97%), Gaps = 0/58 (0%)
+
+Query  71   IVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            +VLV LLF+MLRY+YRHKGTYHTNEAKGTEFAESADAALQ DPALQDAGD+S+KEYFI
+Sbjct  38   LVLVCLLFLMLRYLYRHKGTYHTNEAKGTEFAESADAALQSDPALQDAGDTSKKEYFI  95
+
+
+> sp|Q28146|NRX1A_BOVIN Neurexin-1 OS=Bos taurus OX=9913 GN=NRXN1 
+PE=1 SV=1
+Length=1530
+
+ Score = 98.4 bits (243),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 51/117 (44%), Gaps = 12/117 (10%)
+
+Query  19    DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+             DP   S+    + T     +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  1419  DPCEPSSGGLANPTRAGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  1473
+
+Query  79    VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPA-----LQDAGDSSRKEYFI  128
+              M +Y  R +G+YH +E++   +  A+S  A ++               +  KEY++
+Sbjct  1474  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  1530
+
+
+> sp|D0PRN4|NRX3B_CHICK Neurexin-3-beta OS=Gallus gallus OX=9031 
+GN=NRXN3 PE=1 SV=2
+Length=668
+
+ Score = 97.3 bits (240),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 26/128 (20%), Positives = 56/128 (44%), Gaps = 8/128 (6%)
+
+Query  7    PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+            P +     +    P + ++    +  T    +PG+   P G  E    +     ++ G++
+Sbjct  543  PTAYELDSTKLKSP-LITSPMFRNVPTANPTEPGIRRVP-GASEVVRESSSTTGMVVGIV  600
+
+Query  67   AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR-  123
+            AA A+ ++ LL+ M +Y  R +G+Y  +E +   +  A+S    ++       +G   + 
+Sbjct  601  AAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQSNGTLMKEKQQSSKSGHKKQK  660
+
+Query  124  ---KEYFI  128
+               KEY++
+Sbjct  661  NKDKEYYV  668
+
+
+> sp|Q63372|NRX1A_RAT Neurexin-1 OS=Rattus norvegicus OX=10116 
+GN=Nrxn1 PE=1 SV=3
+Length=1530
+
+ Score = 98.0 bits (242),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 52/117 (44%), Gaps = 12/117 (10%)
+
+Query  19    DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+             DP   S+    + T +   +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  1419  DPCEPSSGGLANPTRVGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  1473
+
+Query  79    VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPA-----LQDAGDSSRKEYFI  128
+              M +Y  R +G+YH +E++   +  A+S  A ++               +  KEY++
+Sbjct  1474  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  1530
+
+
+> sp|Q9CS84|NRX1A_MOUSE Neurexin-1 OS=Mus musculus OX=10090 GN=Nrxn1 
+PE=1 SV=3
+Length=1514
+
+ Score = 98.0 bits (242),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 52/117 (44%), Gaps = 12/117 (10%)
+
+Query  19    DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+             DP   S+    + T +   +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  1403  DPCEPSSGGLANPTRVGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  1457
+
+Query  79    VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPA-----LQDAGDSSRKEYFI  128
+              M +Y  R +G+YH +E++   +  A+S  A ++               +  KEY++
+Sbjct  1458  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSANKNKKNKDKEYYV  1514
+
+
+> sp|P58400|NRX1B_HUMAN Neurexin-1-beta OS=Homo sapiens OX=9606 
+GN=NRXN1 PE=1 SV=3
+Length=472
+
+ Score = 93.8 bits (231),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 51/117 (44%), Gaps = 12/117 (10%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    + T     +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  361  DPCEPSSGGLANPTRAGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  415
+
+Query  79   VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPA-----LQDAGDSSRKEYFI  128
+             M +Y  R +G+YH +E++   +  A+S  A ++               +  KEY++
+Sbjct  416  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSSNKNKKNKDKEYYV  472
+
+
+> sp|Q63376|NRX2B_RAT Neurexin-2-beta OS=Rattus norvegicus OX=10116 
+GN=Nrxn2 PE=1 SV=1
+Length=662
+
+ Score = 94.2 bits (232),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 29/129 (22%), Positives = 55/129 (43%), Gaps = 8/129 (6%)
+
+Query  7    PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+            P +          PG+ S        T     PG  G P G +E    +     ++ G++
+Sbjct  535  PTAFEPRRPPPLRPGVTSVPGFPRLPTANPTGPGERG-PPGAVEVIRESSSTTGMVVGIV  593
+
+Query  67   AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPAL-----QDAG  119
+            AA A+ ++ LL+ M +Y  R +G+Y  ++++   +  A+S  A ++            A 
+Sbjct  594  AAAALCILILLYAMYKYRNRDEGSYQVDQSRNYISNSAQSNGAVVKEKAPAAPKTPSKAK  653
+
+Query  120  DSSRKEYFI  128
+             +  KEY++
+Sbjct  654  KNKDKEYYV  662
+
+
+> sp|Q9ULB1|NRX1A_HUMAN Neurexin-1 OS=Homo sapiens OX=9606 GN=NRXN1 
+PE=2 SV=1
+Length=1477
+
+ Score = 95.0 bits (234),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 51/117 (44%), Gaps = 12/117 (10%)
+
+Query  19    DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+             DP   S+    + T     +P       G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  1366  DPCEPSSGGLANPTRAGGREPY-----PGSAEVIRESSSTTGMVVGIVAAAALCILILLY  1420
+
+Query  79    VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPA-----LQDAGDSSRKEYFI  128
+              M +Y  R +G+YH +E++   +  A+S  A ++               +  KEY++
+Sbjct  1421  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVVKEKQPSSAKSSNKNKKNKDKEYYV  1477
+
+
+> sp|Q8N126|CADM3_HUMAN Cell adhesion molecule 3 OS=Homo sapiens 
+OX=9606 GN=CADM3 PE=1 SV=1
+Length=398
+
+ Score = 92.3 bits (227),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 32/113 (28%), Positives = 52/113 (46%), Gaps = 3/113 (3%)
+
+Query  18   PDPGMASASTTMHTTTIAEPDPGMSG--WPDGRMETSTPTIMDIVVIAGVIAAVAIVLVS  75
+            P    + + T   T T              +      + +     +I G++A +  +L+ 
+Sbjct  287  PFLNKSDSGTYGCTATSNMGSYKAYYTLNVNDPSPVPSSSSTYHAIIGGIVAFIVFLLLI  346
+
+Query  76   LLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            +L  +  Y+ RHKGTY T+EAKG++ A  AD A+      Q +G   +KEYFI
+Sbjct  347  MLIFLGHYLIRHKGTYLTHEAKGSDDAPDADTAIINAEGGQ-SGGDDKKEYFI  398
+
+
+> sp|A1XQY3|NR3BB_DANRE Neurexin-3b-beta OS=Danio rerio OX=7955 
+GN=nrxn3b PE=2 SV=1
+Length=675
+
+ Score = 93.4 bits (230),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 25/136 (18%), Positives = 53/136 (39%), Gaps = 14/136 (10%)
+
+Query  7    PNSTAWPLSL-------EPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDI  59
+            P+    PL         +P     +        +     PG+   P G  E    +    
+Sbjct  540  PDIVLLPLPTSFDMDGTKPKGPYITQPMLRTIPSALPTVPGIRRVPPGASEVIRESSSTT  599
+
+Query  60   VVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQD  117
+             ++ G+++A A+ ++ LL+ M +Y  R +G+Y  +E +   +  A++    ++       
+Sbjct  600  GMVVGIVSAAALCILILLYAMYKYRNRDEGSYQVDETRNYISNSAQNNGTVVKDKQPSTK  659
+
+Query  118  AGDSSR-----KEYFI  128
+               + R     KEY++
+Sbjct  660  GASNKRPKDKDKEYYV  675
+
+
+> sp|Q8NFZ8|CADM4_HUMAN Cell adhesion molecule 4 OS=Homo sapiens 
+OX=9606 GN=CADM4 PE=1 SV=1
+Length=388
+
+ Score = 91.1 bits (224),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 23/114 (20%), Positives = 41/114 (36%), Gaps = 7/114 (6%)
+
+Query  18   PDPGMASASTTMHTTTIAEPDPGMSGW---PDGRMETSTPTIMDIVVIAGVIAAVAIVLV  74
+            P    A   T     +               D        T +   ++ G++A +  +++
+Sbjct  279  PGLVSADNGTYTCEASNKHGHARALYVLVVYDPGAVVEAQTSVPYAIVGGILALLVFLII  338
+
+Query  75   SLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             +L  M+    R KG+Y T+EA G +    A  A          G   ++E+FI
+Sbjct  339  CVLVGMVWCSVRQKGSYLTHEASGLDEQGEAREAFLNGSD----GHKRKEEFFI  388
+
+
+> sp|A1XQX3|NR1BB_DANRE Neurexin-1b-beta OS=Danio rerio OX=7955 
+GN=nrxn1b PE=2 SV=1
+Length=448
+
+ Score = 91.9 bits (226),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 28/115 (24%), Positives = 53/115 (46%), Gaps = 6/115 (5%)
+
+Query  19   DPGMASASTTMH-TTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLL  77
+            DP   S+ T            P +S +P G  E    +     ++ G++A  A+ ++ LL
+Sbjct  335  DPCEPSSGTLCCFVPPAGPTGPAISSFP-GPAEVFRESNGTTGMVVGIVAGAALCILILL  393
+
+Query  78   FVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAG----DSSRKEYFI  128
+            + M +Y  R +G+YH +E++      +  A  + + A  D+G     +  KEY++
+Sbjct  394  YAMYKYRNRDEGSYHVDESRNYICNSNGAALKEKNTADDDSGSKSKKNKNKEYYV  448
+
+
+> sp|Q1WIM1|CADM4_RAT Cell adhesion molecule 4 OS=Rattus norvegicus 
+OX=10116 GN=Cadm4 PE=1 SV=1
+Length=388
+
+ Score = 90.7 bits (223),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 23/114 (20%), Positives = 40/114 (35%), Gaps = 7/114 (6%)
+
+Query  18   PDPGMASASTTMHTTTIAEPDPGMSGW---PDGRMETSTPTIMDIVVIAGVIAAVAIVLV  74
+            P    A   T                     D        T +   ++ G++A +  +++
+Sbjct  279  PGLVSADNGTYTCEAANKHGHARALYVLVVYDPGAVVEAQTSVPYAIVGGILALLVFLII  338
+
+Query  75   SLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             +L  M+    R KG+Y T+EA G +    A  A          G   ++E+FI
+Sbjct  339  CVLVGMVWCSVRQKGSYLTHEASGLDEQGEAREAFLNGSD----GHKRKEEFFI  388
+
+
+> sp|A1XQY0|NR3AB_DANRE Neurexin-3a-beta OS=Danio rerio OX=7955 
+GN=nrxn3a PE=2 SV=1
+Length=672
+
+ Score = 92.6 bits (228),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 29/128 (23%), Positives = 58/128 (45%), Gaps = 8/128 (6%)
+
+Query  7    PNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVI  66
+            P S     +    P + ++    +  T    +PG+   P G  E    +     ++ G++
+Sbjct  547  PTSYEVDNTKMKSP-LITSPMFRNVPTAIPTEPGIRRVP-GASEVVRESSSTTGMVVGIV  604
+
+Query  67   AAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPALQDAGDSSR-  123
+            AA A+ ++ LL+ M +Y  R +G+Y  +E +   T  A+S  A ++       +G+  + 
+Sbjct  605  AAAALCILILLYAMYKYRNRDEGSYQVDETRNYITNSAQSNGAVMKDKQQSTKSGNKKQK  664
+
+Query  124  ---KEYFI  128
+               KEY++
+Sbjct  665  NKDKEYYV  672
+
+
+> sp|D0PRN2|NRX1B_CHICK Neurexin-1-beta OS=Gallus gallus OX=9031 
+GN=NRXN1 PE=1 SV=1
+Length=466
+
+ Score = 91.5 bits (225),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 25/117 (21%), Positives = 49/117 (42%), Gaps = 12/117 (10%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    + T              G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  355  DPCEPSSGGLANPTRAGGG-----REYPGSSEVIRESSSTTGMVVGIVAAAALCILILLY  409
+
+Query  79   VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPA-----LQDAGDSSRKEYFI  128
+             M +Y  R +G+YH +E++   +  A+S  A ++               +  KEY++
+Sbjct  410  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVIKEKQPNSAKSSNKNKKNKDKEYYV  466
+
+
+> sp|Q1WIM3|CADM3_RAT Cell adhesion molecule 3 OS=Rattus norvegicus 
+OX=10116 GN=Cadm3 PE=1 SV=1
+Length=396
+
+ Score = 89.9 bits (221),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 33/113 (29%), Positives = 54/113 (48%), Gaps = 3/113 (3%)
+
+Query  18   PDPGMASASTTMHTTT--IAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVS  75
+            P    + + T   T T  +       +   +      + +     +I G++A +  +L+ 
+Sbjct  285  PFLNKSDSGTYGCTATSNMGSYTAYFTLNVNDPSPVPSSSSTYHAIIGGIVAFIVFLLLI  344
+
+Query  76   LLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            LL  +  Y+ RHKGTY T+EAKG++ A  AD A+      Q +G   +KEYFI
+Sbjct  345  LLIFLGHYLIRHKGTYLTHEAKGSDDAPDADTAIINAEGGQ-SGGDDKKEYFI  396
+
+
+> sp|Q8R464|CADM4_MOUSE Cell adhesion molecule 4 OS=Mus musculus 
+OX=10090 GN=Cadm4 PE=1 SV=1
+Length=388
+
+ Score = 89.9 bits (221),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 23/114 (20%), Positives = 40/114 (35%), Gaps = 7/114 (6%)
+
+Query  18   PDPGMASASTTMHTTTIAEPDPGMSGW---PDGRMETSTPTIMDIVVIAGVIAAVAIVLV  74
+            P    A   T                     D        T +   ++ G++A +  +++
+Sbjct  279  PGLVSADNGTYTCEAANKHGHARALYVLVVYDPGAVVEAQTSVPYAIVGGILALLVFLII  338
+
+Query  75   SLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             +L  M+    R KG+Y T+EA G +    A  A          G   ++E+FI
+Sbjct  339  CVLVGMVWCSVRQKGSYLTHEASGLDEQGEAREAFLNGGD----GHKRKEEFFI  388
+
+
+> sp|Q99N28|CADM3_MOUSE Cell adhesion molecule 3 OS=Mus musculus 
+OX=10090 GN=Cadm3 PE=1 SV=1
+Length=396
+
+ Score = 89.9 bits (221),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 33/113 (29%), Positives = 54/113 (48%), Gaps = 3/113 (3%)
+
+Query  18   PDPGMASASTTMHTTT--IAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVS  75
+            P    + + T   T T  +       +   +      + +     +I G++A +  +L+ 
+Sbjct  285  PFLNKSDSGTYGCTATSNMGSYTAYFTLNVNDPSPVPSSSSTYHAIIGGIVAFIVFLLLI  344
+
+Query  76   LLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            LL  +  Y+ RHKGTY T+EAKG++ A  AD A+      Q +G   +KEYFI
+Sbjct  345  LLIFLGHYLIRHKGTYLTHEAKGSDDAPDADTAIINAEGGQ-SGGDDKKEYFI  396
+
+
+> sp|Q66KX2|CADM4_XENLA Cell adhesion molecule 4 OS=Xenopus laevis 
+OX=8355 GN=cadm4 PE=2 SV=1
+Length=390
+
+ Score = 89.6 bits (220),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 25/114 (22%), Positives = 43/114 (38%), Gaps = 7/114 (6%)
+
+Query  18   PDPGMASASTTMHTTTIAE---PDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLV  74
+            P   +    T     +       D  +    D        T +   VI G++A +  +++
+Sbjct  281  PSLNLQDNGTYSCQVSNKHGRSSDQYVLVVYDPGAIIEAQTQVPYAVIGGILALLVFLVI  340
+
+Query  75   SLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+             +L VM+    R KG+Y T+EA G +    A  A              ++E+FI
+Sbjct  341  CILIVMVWCSVRQKGSYLTHEASGLDEHGEAREAFLNG----GENHKRKEEFFI  390
+
+
+> sp|A1XQX2|NR1BA_DANRE Neurexin-1b OS=Danio rerio OX=7955 GN=nrxn1b 
+PE=2 SV=1
+Length=1470
+
+ Score = 91.9 bits (226),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 28/115 (24%), Positives = 53/115 (46%), Gaps = 6/115 (5%)
+
+Query  19    DPGMASASTTMH-TTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLL  77
+             DP   S+ T            P +S +P G  E    +     ++ G++A  A+ ++ LL
+Sbjct  1357  DPCEPSSGTLCCFVPPAGPTGPAISSFP-GPAEVFRESNGTTGMVVGIVAGAALCILILL  1415
+
+Query  78    FVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAG----DSSRKEYFI  128
+             + M +Y  R +G+YH +E++      +  A  + + A  D+G     +  KEY++
+Sbjct  1416  YAMYKYRNRDEGSYHVDESRNYICNSNGAALKEKNTADDDSGSKSKKNKNKEYYV  1470
+
+
+> sp|Q9DDD0|NRX1A_CHICK Neurexin-1 (Fragment) OS=Gallus gallus 
+OX=9031 GN=NRXN1 PE=2 SV=1
+Length=1363
+
+ Score = 91.9 bits (226),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 25/117 (21%), Positives = 49/117 (42%), Gaps = 12/117 (10%)
+
+Query  19    DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+             DP   S+    + T              G  E    +     ++ G++AA A+ ++ LL+
+Sbjct  1252  DPCEPSSGGLANPTRAGGG-----REYPGSSEVIRESSSTTGMVVGIVAAAALCILILLY  1306
+
+Query  79    VMLRYMYRHKGTYHTNEAKG--TEFAESADAALQGDPA-----LQDAGDSSRKEYFI  128
+              M +Y  R +G+YH +E++   +  A+S  A ++               +  KEY++
+Sbjct  1307  AMYKYRNRDEGSYHVDESRNYISNSAQSNGAVIKEKQPNSAKSSNKNKKNKDKEYYV  1363
+
+
+> sp|A1XQX0|NR1AA_DANRE Neurexin-1a OS=Danio rerio OX=7955 GN=nrxn1a 
+PE=2 SV=1
+Length=1491
+
+ Score = 84.6 bits (207),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 51/117 (44%), Gaps = 14/117 (12%)
+
+Query  19    DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+             DP   S+    H      P P   G+P    E    +     ++ G++AA A+ ++ LL+
+Sbjct  1382  DPCDPSSGGLAHP-----PLPEAKGYPSP--EVIRESSSTTGMVVGIVAAAALCILILLY  1434
+
+Query  79    VMLRYMYRHKGTYHTNEAK----GTEFAESADAALQGDPAL---QDAGDSSRKEYFI  128
+              M +Y  R +G+YH +E++     +    +  A  +    +   +    +  KEY++
+Sbjct  1435  AMYKYRNRDEGSYHVDESRNYISNSATQPNGAAVKEKPIGVPKNKKDKKNKDKEYYV  1491
+
+
+> sp|A1XQX1|NR1AB_DANRE Neurexin-1a-beta OS=Danio rerio OX=7955 
+GN=nrxn1a PE=2 SV=1
+Length=449
+
+ Score = 81.9 bits (200),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 26/117 (22%), Positives = 51/117 (44%), Gaps = 14/117 (12%)
+
+Query  19   DPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLF  78
+            DP   S+    H      P P   G+P    E    +     ++ G++AA A+ ++ LL+
+Sbjct  340  DPCDPSSGGLAHP-----PLPEAKGYPSP--EVIRESSSTTGMVVGIVAAAALCILILLY  392
+
+Query  79   VMLRYMYRHKGTYHTNEAK----GTEFAESADAALQGDPAL---QDAGDSSRKEYFI  128
+             M +Y  R +G+YH +E++     +    +  A  +    +   +    +  KEY++
+Sbjct  393  AMYKYRNRDEGSYHVDESRNYISNSATQPNGAAVKEKPIGVPKNKKDKKNKDKEYYV  449
+
+
+> sp|Q6AYP5|CADM1_RAT Cell adhesion molecule 1 OS=Rattus norvegicus 
+OX=10116 GN=Cadm1 PE=1 SV=1
+Length=476
+
+ Score = 76.1 bits (185),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 31/107 (29%), Positives = 43/107 (40%), Gaps = 9/107 (8%)
+
+Query  30   HTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGV--------IAAVAIVLVSLLFVML  81
+                        S       + S     +   I  V        +A V   ++ LL ++ 
+Sbjct  371  EPAVHGLTQLPNSAEELDSEDLSDSRAGEEGAIGAVDHAVIGGVVAVVVFAMLCLLIILG  430
+
+Query  82   RYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            RY  RHKGTY T+EAKG + A  AD A+      Q+     +KEYFI
+Sbjct  431  RYFARHKGTYFTHEAKGADDAADADTAIINAEGGQN-NSEEKKEYFI  476
+
+
+> sp|Q9BZ76|CNTP3_HUMAN Contactin-associated protein-like 3 OS=Homo 
+sapiens OX=9606 GN=CNTNAP3 PE=2 SV=3
+Length=1288
+
+ Score = 77.2 bits (188),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 22/103 (21%), Positives = 37/103 (36%), Gaps = 9/103 (9%)
+
+Query  9     STAWPLSLEPDPG-MASASTT-------MHTTTIAEPDPGMSGWPDGRMETSTPTIMDIV  60
+             S    +++      MA  +                    G SG  D           D  
+Sbjct  1186  SGPSRVTVRGHVAPMARCAAGAASGSPARELAPRLAGGAGRSGPADEGEPLVNADRRDSA  1245
+
+Query  61    VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAE  103
+             VI GVIA V  +L+ +  + +R +Y+ +     NE+K ++  E
+Sbjct  1246  VIGGVIAVVIFILLCITAIAIR-IYQQRKLRKENESKVSKKEE  1287
+
+
+> sp|Q7TPF1|SMAGP_RAT Small cell adhesion glycoprotein OS=Rattus 
+norvegicus OX=10116 GN=Smagp PE=1 SV=1
+Length=97
+
+ Score = 71.5 bits (173),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 28/109 (26%), Positives = 44/109 (40%), Gaps = 16/109 (15%)
+
+Query  20   PGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFV  79
+            P   S    M T     P+                      +IA VI  V + L+S++ +
+Sbjct  5    PATPSPEELMTTPVFQAPETMSP----------QAEEASTALIAVVITVVFLTLLSVVTL  54
+
+Query  80   MLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            +  Y+Y++KG+Y T E    E   SA   ++ D     A    ++EYFI
+Sbjct  55   IFFYLYKNKGSYVTYEP--AEGEPSAILQMETD----SAKGKEKEEYFI  97
+
+
+> sp|Q0VAQ4|SMAGP_HUMAN Small cell adhesion glycoprotein OS=Homo 
+sapiens OX=9606 GN=SMAGP PE=1 SV=1
+Length=97
+
+ Score = 70.7 bits (171),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 28/98 (29%), Positives = 45/98 (46%), Gaps = 6/98 (6%)
+
+Query  31   TTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGT  90
+            TT     +   +         S        +IA VI  V + L+S++ ++  Y+Y++KG+
+Sbjct  6    TTPSPREELMTTPILQPTEALSPEDGASTALIAVVITVVFLTLLSVVILIFFYLYKNKGS  65
+
+Query  91   YHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            Y T E   TE   SA   ++ D     A  S ++EYFI
+Sbjct  66   YVTYEP--TEGEPSAIVQMESDL----AKGSEKEEYFI  97
+
+
+> sp|A4IFL2|SMAGP_BOVIN Small cell adhesion glycoprotein OS=Bos 
+taurus OX=9913 GN=SMAGP PE=3 SV=1
+Length=97
+
+ Score = 70.3 bits (170),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 25/102 (25%), Positives = 44/102 (43%), Gaps = 6/102 (6%)
+
+Query  27   TTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFVMLRYMYR  86
+            T+  TT     +   +         S        +IA VI  V + L+S++ ++  Y+Y+
+Sbjct  2    TSFPTTPPPAEELMATTILQATEALSPEAEASTALIAVVITVVFLTLLSVVILIFFYLYK  61
+
+Query  87   HKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            +KG+Y T E    +    A   ++ D     A    ++EYFI
+Sbjct  62   NKGSYVTYEP--ADGEPGAVVLMEND----SAKGREKEEYFI  97
+
+
+> sp|Q96NU0|CNT3B_HUMAN Contactin-associated protein-like 3B OS=Homo 
+sapiens OX=9606 GN=CNTNAP3B PE=2 SV=2
+Length=1288
+
+ Score = 75.7 bits (184),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 21/103 (20%), Positives = 37/103 (36%), Gaps = 9/103 (9%)
+
+Query  9     STAWPLSLEPDPG-MASASTT-------MHTTTIAEPDPGMSGWPDGRMETSTPTIMDIV  60
+             S    +++      MA  +                    G SG  D           D  
+Sbjct  1186  SGPSRVTVRGHVAPMARCAAGAASGSPARELAPRLAGGAGRSGPVDEGEPLVNADRRDSA  1245
+
+Query  61    VIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAE  103
+             V+ GVIA V  +L+ +  + +R +Y+ +     NE+K ++  E
+Sbjct  1246  VMGGVIAVVIFILLCITAIAIR-IYQQRKLRKENESKVSKKEE  1287
+
+
+> sp|Q28F36|SMAGP_XENTR Small cell adhesion glycoprotein homolog 
+OS=Xenopus tropicalis OX=8364 GN=smagp PE=3 SV=1
+Length=90
+
+ Score = 68.4 bits (165),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 27/71 (38%), Positives = 42/71 (59%), Gaps = 6/71 (8%)
+
+Query  58   DIVVIAGVIAAVAIVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQD  117
+            +  V+ GVIAAV I L++++ ++  Y+Y+HKG+Y TNE    E  E++      D AL  
+Sbjct  26   EKAVVGGVIAAVFITLITVVVLITVYLYKHKGSYRTNE--NLEDVEASKTLQMEDSALT-  82
+
+Query  118  AGDSSRKEYFI  128
+                 +KEYF+
+Sbjct  83   ---PEKKEYFM  90
+
+
+> sp|Q99KC7|SMAGP_MOUSE Small cell adhesion glycoprotein OS=Mus 
+musculus OX=10090 GN=Smagp PE=1 SV=2
+Length=97
+
+ Score = 68.4 bits (165),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 27/109 (25%), Positives = 44/109 (40%), Gaps = 16/109 (15%)
+
+Query  20   PGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVSLLFV  79
+            P   S    M T     P+                      +IA VI  V + L+S++ +
+Sbjct  5    PATPSPEELMTTPVFQAPETLSP----------QAEEASTALIAVVITVVFLTLLSVVTL  54
+
+Query  80   MLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+            +  ++Y++KG+Y T E    E   SA   ++ D     A    ++EYFI
+Sbjct  55   IFFHLYKNKGSYVTYEP--AEGEPSAILQMETD----SAKGREKEEYFI  97
+
+
+> sp|Q9BY67|CADM1_HUMAN Cell adhesion molecule 1 OS=Homo sapiens 
+OX=9606 GN=CADM1 PE=1 SV=2
+Length=442
+
+ Score = 72.2 bits (175),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 34/58 (59%), Gaps = 1/58 (2%)
+
+Query  71   IVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+              ++ LL ++ RY  RHKGTY T+EAKG + A  AD A+      Q+     +KEYFI
+Sbjct  386  FAMLCLLIILGRYFARHKGTYFTHEAKGADDAADADTAIINAEGGQN-NSEEKKEYFI  442
+
+
+> sp|Q8R5M8|CADM1_MOUSE Cell adhesion molecule 1 OS=Mus musculus 
+OX=10090 GN=Cadm1 PE=1 SV=2
+Length=456
+
+ Score = 72.2 bits (175),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 34/58 (59%), Gaps = 1/58 (2%)
+
+Query  71   IVLVSLLFVMLRYMYRHKGTYHTNEAKGTEFAESADAALQGDPALQDAGDSSRKEYFI  128
+              ++ LL ++ RY  RHKGTY T+EAKG + A  AD A+      Q+     +KEYFI
+Sbjct  400  FAMLCLLIILGRYFARHKGTYFTHEAKGADDAADADTAIINAEGGQN-NSEEKKEYFI  456
+
+
+> sp|Q8HYX8|MCP_CALJA Membrane cofactor protein OS=Callithrix jacchus 
+OX=9483 GN=CD46 PE=1 SV=2
+Length=392
+
+ Score = 44.5 bits (103),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 24/96 (25%), Positives = 41/96 (43%), Gaps = 5/96 (5%)
+
+Query  3    STRSPNSTAWPLSLEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVI  62
+            ST+ P  +   +S  P     ++S +    T   P     G+P+           D   I
+Sbjct  291  STKPPTLSHS-VSTSPTTVSPTSSVSGPRPTYKPPVSRYPGYPNPDEGMLNSL--DEWAI  347
+
+Query  63   AGVIAAVAIVLVSLLFVMLRYMYR--HKGTYHTNEA  96
+            A ++ A+ + +  + F + RY+ R   KGTY T+E 
+Sbjct  348  ALIVIAILVGVAIISFGLHRYLQRRKKKGTYLTDET  383
+
+
+> sp|P78357|CNTP1_HUMAN Contactin-associated protein 1 OS=Homo 
+sapiens OX=9606 GN=CNTNAP1 PE=1 SV=1
+Length=1384
+
+ Score = 38.3 bits (87),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 18/102 (18%), Positives = 39/102 (38%), Gaps = 2/102 (2%)
+
+Query  16    LEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVS  75
+             ++ +   ++        +   P+      P              +++  ++A + + LV 
+Sbjct  1241  VQGELSESNCGAMPRLVSEVPPELDPWYLPPDF-PYYHDEGWVAILLGFLVAFLLLGLVG  1299
+
+Query  76    LLFVMLRYMYRHKGTYHTNEAKGT-EFAESADAALQGDPALQ  116
+             +L +     +R+KG+YHTNE K   E+   +   L      Q
+Sbjct  1300  MLVLFYLQNHRYKGSYHTNEPKAAHEYHPGSKPPLPTSGPAQ  1341
+
+
+> sp|O54991|CNTP1_MOUSE Contactin-associated protein 1 OS=Mus musculus 
+OX=10090 GN=Cntnap1 PE=1 SV=2
+Length=1385
+
+ Score = 38.3 bits (87),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 16/87 (18%), Positives = 36/87 (41%), Gaps = 1/87 (1%)
+
+Query  16    LEPDPGMASASTTMHTTTIAEPDPGMSGWPDGRMETSTPTIMDIVVIAGVIAAVAIVLVS  75
+             ++ +   ++        +   P+      P              +++  ++A + + LV 
+Sbjct  1242  VQGELSESNCGAMPRLVSEVPPELDPWYLPPDF-PYYHDDGWIAILLGFLVAFLLLGLVG  1300
+
+Query  76    LLFVMLRYMYRHKGTYHTNEAKGTEFA  102
+             +L +     +R+KG+YHTNE K T  +
+Sbjct  1301  MLVLFYLQNHRYKGSYHTNEPKATHDS  1327
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.116    0.271    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0356    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5008563936
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,5 +1,5 @@
-tempfile="../datasets/mydataset.txt"
-fasta_data="../fasta_data/"
+tempfile="50proteinstobepredicted"
+fasta_data="../50fastadata/"
 def fasta(filename):
     filehandle = open(filename,'r')
     text = filehandle.readlines()

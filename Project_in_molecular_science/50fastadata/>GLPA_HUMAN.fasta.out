@@ -1,0 +1,805 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= GLPA_HUMAN
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P02724|GLPA_HUMAN Glycophorin-A OS=Homo sapiens OX=9606 GN=G...  296     3e-102
+  sp|Q28913|GLPA_PANTR Glycophorin-A OS=Pan troglodytes OX=9598 G...  239     7e-80 
+  sp|Q28914|GLPB_PANTR Glycophorin-B OS=Pan troglodytes OX=9598 G...  160     4e-49 
+  sp|P14221|GLPA_MACFU Glycophorin-A OS=Macaca fuscata fuscata OX...  155     5e-47 
+  sp|P06028|GLPB_HUMAN Glycophorin-B OS=Homo sapiens OX=9606 GN=G...  93.6    1e-23 
+  sp|P02726|GLPA_HORSE Glycophorin-A OS=Equus caballus OX=9796 PE...  73.9    7e-16 
+  sp|P15421|GLPE_HUMAN Glycophorin-E OS=Homo sapiens OX=9606 GN=G...  71.6    2e-15 
+  sp|P14220|GLPA_MOUSE Glycophorin-A OS=Mus musculus OX=10090 GN=...  62.4    2e-11 
+  sp|Q28915|GLPE_PANTR Glycophorin-E OS=Pan troglodytes OX=9598 G...  59.3    8e-11 
+  sp|P02725|GLPA_PIG Glycophorin-A OS=Sus scrofa OX=9823 GN=GYPA ...  58.2    3e-10 
+  sp|P02727|GLPA_CANLF Glycophorin-A OS=Canis lupus familiaris OX...  54.7    5e-09 
+
+
+> sp|P02724|GLPA_HUMAN Glycophorin-A OS=Homo sapiens OX=9606 GN=GYPA 
+PE=1 SV=2
+Length=150
+
+ Score = 296 bits (758),  Expect = 3e-102, Method: Compositional matrix adjust.
+ Identities = 149/150 (99%), Positives = 149/150 (99%), Gaps = 0/150 (0%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH
+Sbjct  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK
+Sbjct  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+
+
+> sp|Q28913|GLPA_PANTR Glycophorin-A OS=Pan troglodytes OX=9598 
+GN=GYPA PE=2 SV=1
+Length=149
+
+ Score = 239 bits (610),  Expect = 7e-80, Method: Compositional matrix adjust.
+ Identities = 135/150 (90%), Positives = 137/150 (91%), Gaps = 1/150 (1%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSAIVSISASSTT VAMHTSTSS VTKSYISS+T+D HK DTY ATPRAH
+Sbjct  1    MYGKIIFVLLLSAIVSISASSTTEVAMHTSTSS-VTKSYISSETSDKHKWDTYPATPRAH  59
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEI V TVYPPEEE GE VQL H FSEPEITLIIFGVMAGVIGTILLI Y IRRLIKK
+Sbjct  60   EVSEIYVTTVYPPEEENGEGVQLVHRFSEPEITLIIFGVMAGVIGTILLIYYSIRRLIKK  119
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  120  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  149
+
+
+> sp|Q28914|GLPB_PANTR Glycophorin-B OS=Pan troglodytes OX=9598 
+GN=GYPB PE=2 SV=1
+Length=123
+
+ Score = 160 bits (404),  Expect = 4e-49, Method: Compositional matrix adjust.
+ Identities = 99/122 (81%), Positives = 100/122 (82%), Gaps = 3/122 (2%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTT VAMHTSTSSSVTKSYISSQTND HK DTY AT  AH
+Sbjct  1    MYGKIIFVLLLSEIVSISASSTTEVAMHTSTSSSVTKSYISSQTNDKHKGDTYPATLGAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPE---ITLIIFGVMAGVIGTILLISYGIRRL  117
+            EVSEISV TVYPPEE+ GE VQ  H FS P    I LII  VMAGVIGTILLISYGIR L
+Sbjct  61   EVSEISVTTVYPPEEDNGEWVQPVHPFSRPAPVVIILIILCVMAGVIGTILLISYGIRLL  120
+
+Query  118  IK  119
+            IK
+Sbjct  121  IK  122
+
+
+> sp|P14221|GLPA_MACFU Glycophorin-A OS=Macaca fuscata fuscata 
+OX=9543 GN=GYPA PE=1 SV=1
+Length=144
+
+ Score = 155 bits (392),  Expect = 5e-47, Method: Compositional matrix adjust.
+ Identities = 86/132 (65%), Positives = 100/132 (76%), Gaps = 3/132 (2%)
+
+Query  20   SSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVS-EISVRTVYPPEEETG  78
+            SSTT  A HTS+SS   + Y+SSQ+ND H  D++     AHEV+ E S RT YPPEE+  
+Sbjct  1    SSTTVPATHTSSSSLGPEQYVSSQSNDKHTSDSHPTPTSAHEVTTEFSGRTHYPPEED--  58
+
+Query  79   ERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLS  138
+            +RVQL H FSE  I LIIFGVMAGVIGTIL ISYG RRLIKKS SDV+PLP PD +VPLS
+Sbjct  59   DRVQLVHEFSELVIALIIFGVMAGVIGTILFISYGSRRLIKKSESDVQPLPPPDAEVPLS  118
+
+Query  139  SVEIENPETSDQ  150
+            SVEIE+PE +D+
+Sbjct  119  SVEIEDPEETDE  130
+
+
+> sp|P06028|GLPB_HUMAN Glycophorin-B OS=Homo sapiens OX=9606 GN=GYPB 
+PE=1 SV=3
+Length=91
+
+ Score = 93.6 bits (231),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 73/122 (60%), Positives = 75/122 (61%), Gaps = 35/122 (29%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISA STT VAMHTSTSSSVTKSYISSQTN               
+Sbjct  1    MYGKIIFVLLLSEIVSISALSTTEVAMHTSTSSSVTKSYISSQTNG--------------  46
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPE---ITLIIFGVMAGVIGTILLISYGIRRL  117
+                           ETG   QL H F+ P    I LII  VMAG+IGTILLISY IRRL
+Sbjct  47   ---------------ETG---QLVHRFTVPAPVVIILIILCVMAGIIGTILLISYSIRRL  88
+
+Query  118  IK  119
+            IK
+Sbjct  89   IK  90
+
+
+> sp|P02726|GLPA_HORSE Glycophorin-A OS=Equus caballus OX=9796 
+PE=1 SV=1
+Length=120
+
+ Score = 73.9 bits (180),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 41/77 (53%), Positives = 53/77 (69%), Gaps = 8/77 (10%)
+
+Query  76   ETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKP----LPSP  131
+            E G+ +QLAH FS+P IT+II GVMAG+IG ILL++Y  RRL K+ P+DV P    +PS 
+Sbjct  35   EQGDGLQLAHDFSQPVITVIILGVMAGIIGIILLLAYVSRRLRKRPPADVPPPASTVPSA  94
+
+Query  132  DTDVPLSSVEIENPETS  148
+            D   P+S    E+ ETS
+Sbjct  95   DAPPPVS----EDDETS  107
+
+
+> sp|P15421|GLPE_HUMAN Glycophorin-E OS=Homo sapiens OX=9606 GN=GYPE 
+PE=2 SV=2
+Length=78
+
+ Score = 71.6 bits (174),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 58/115 (50%), Positives = 63/115 (55%), Gaps = 37/115 (32%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTTGVAMHTSTSSSVTKSYISSQTN     + +A      
+Sbjct  1    MYGKIIFVLLLSGIVSISASSTTGVAMHTSTSSSVTKSYISSQTNGITLINWWAMAR---  57
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIR  115
+                                              +IF VM  V+G I+LISY IR
+Sbjct  58   ----------------------------------VIFEVMLVVVGMIILISYCIR  78
+
+
+> sp|P14220|GLPA_MOUSE Glycophorin-A OS=Mus musculus OX=10090 GN=Gypa 
+PE=1 SV=2
+Length=168
+
+ Score = 62.4 bits (150),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 35/68 (51%), Positives = 44/68 (65%), Gaps = 1/68 (1%)
+
+Query  83   LAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLSSVE-  141
+            + H F    + LII GVMAG+IGTILLISY I R+ KKS  D++     D  VPLSS+E 
+Sbjct  100  IQHDFPALVMILIILGVMAGIIGTILLISYCISRMTKKSSVDIQSPEGGDNSVPLSSIEQ  159
+
+Query  142  IENPETSD  149
+              N E+S+
+Sbjct  160  TPNEESSN  167
+
+
+> sp|Q28915|GLPE_PANTR Glycophorin-E OS=Pan troglodytes OX=9598 
+GN=GYPE PE=3 SV=1
+Length=78
+
+ Score = 59.3 bits (142),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 65/119 (55%), Positives = 66/119 (55%), Gaps = 42/119 (35%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQ N               
+Sbjct  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQIN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIK  119
+                                       +  E  LII   MAGVIG ILLI Y IRRLIK
+Sbjct  46   ---------------------------ALVEKILIILCPMAGVIGMILLIYYSIRRLIK  77
+
+
+> sp|P02725|GLPA_PIG Glycophorin-A OS=Sus scrofa OX=9823 GN=GYPA 
+PE=1 SV=1
+Length=133
+
+ Score = 58.2 bits (139),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 39/87 (45%), Positives = 46/87 (53%), Gaps = 15/87 (17%)
+
+Query  74   EEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPD-  132
+            ++ETG        FS  EIT IIF VMAG++  I LI+Y IRR+IKK     KP  SPD 
+Sbjct  45   QKETGVPESYHQDFSHAEITGIIFAVMAGLLLIIFLIAYLIRRMIKKPLPVPKPQDSPDI  104
+
+Query  133  --------------TDVPLSSVEIENP  145
+                           D PL+SVEIE P
+Sbjct  105  GTENTADPSELQDTEDPPLTSVEIETP  131
+
+
+> sp|P02727|GLPA_CANLF Glycophorin-A OS=Canis lupus familiaris 
+OX=9615 GN=GYPA PE=1 SV=3
+Length=129
+
+ Score = 54.7 bits (130),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 50/139 (36%), Positives = 65/139 (47%), Gaps = 25/139 (18%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKS-YISSQT---NDTHKRDTYAAT  56
+            MY KI+ VLLLS    IS    T +  H  +S   T++ +IS++    N    R   + T
+Sbjct  1    MYEKIVIVLLLSG--YISTQDVTEIIPHEISSKLPTQAGFISTEDPSFNTPSTRQDPSGT  58
+
+Query  57   PRAHEVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRR  116
+               H            P+     R QL H FSEP I  II+ VM G+I TIL I++ I +
+Sbjct  59   MYQHL-----------PDGGQKARQQLVHIFSEPVIIGIIYAVMLGIIITILSIAFCIGQ  107
+
+Query  117  LIKK--------SPSDVKP  127
+            L KK        SP DV P
+Sbjct  108  LTKKSSLPAQVASPEDVDP  126
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.128    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6023095097
+Results from round 2
+
+
+Query= GLPA_HUMAN
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P02724|GLPA_HUMAN Glycophorin-A OS=Homo sapiens OX=9606 GN=G...  195     2e-62
+  sp|Q28913|GLPA_PANTR Glycophorin-A OS=Pan troglodytes OX=9598 G...  185     1e-58
+  sp|Q28914|GLPB_PANTR Glycophorin-B OS=Pan troglodytes OX=9598 G...  144     6e-43
+  sp|P14221|GLPA_MACFU Glycophorin-A OS=Macaca fuscata fuscata OX...  143     2e-42
+  sp|P02727|GLPA_CANLF Glycophorin-A OS=Canis lupus familiaris OX...  105     8e-28
+  sp|P06028|GLPB_HUMAN Glycophorin-B OS=Homo sapiens OX=9606 GN=G...  92.7    3e-23
+  sp|P15421|GLPE_HUMAN Glycophorin-E OS=Homo sapiens OX=9606 GN=G...  89.7    3e-22
+  sp|Q28915|GLPE_PANTR Glycophorin-E OS=Pan troglodytes OX=9598 G...  74.3    3e-16
+  sp|P02725|GLPA_PIG Glycophorin-A OS=Sus scrofa OX=9823 GN=GYPA ...  75.4    3e-16
+  sp|P02726|GLPA_HORSE Glycophorin-A OS=Equus caballus OX=9796 PE...  74.3    5e-16
+  sp|P14220|GLPA_MOUSE Glycophorin-A OS=Mus musculus OX=10090 GN=...  73.1    3e-15
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q4H3K6|FGFR_CIOIN Fibroblast growth factor receptor OS=Ciona...  44.6    1e-04
+
+
+> sp|P02724|GLPA_HUMAN Glycophorin-A OS=Homo sapiens OX=9606 GN=GYPA 
+PE=1 SV=2
+Length=150
+
+ Score = 195 bits (495),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 149/150 (99%), Positives = 149/150 (99%), Gaps = 0/150 (0%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH
+Sbjct  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK
+Sbjct  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+
+
+> sp|Q28913|GLPA_PANTR Glycophorin-A OS=Pan troglodytes OX=9598 
+GN=GYPA PE=2 SV=1
+Length=149
+
+ Score = 185 bits (469),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 135/150 (90%), Positives = 137/150 (91%), Gaps = 1/150 (1%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSAIVSISASSTT VAMHTSTSS VTKSYISS+T+D HK DTY ATPRAH
+Sbjct  1    MYGKIIFVLLLSAIVSISASSTTEVAMHTSTSS-VTKSYISSETSDKHKWDTYPATPRAH  59
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEI V TVYPPEEE GE VQL H FSEPEITLIIFGVMAGVIGTILLI Y IRRLIKK
+Sbjct  60   EVSEIYVTTVYPPEEENGEGVQLVHRFSEPEITLIIFGVMAGVIGTILLIYYSIRRLIKK  119
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  120  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  149
+
+
+> sp|Q28914|GLPB_PANTR Glycophorin-B OS=Pan troglodytes OX=9598 
+GN=GYPB PE=2 SV=1
+Length=123
+
+ Score = 144 bits (362),  Expect = 6e-43, Method: Composition-based stats.
+ Identities = 99/122 (81%), Positives = 100/122 (82%), Gaps = 3/122 (2%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTT VAMHTSTSSSVTKSYISSQTND HK DTY AT  AH
+Sbjct  1    MYGKIIFVLLLSEIVSISASSTTEVAMHTSTSSSVTKSYISSQTNDKHKGDTYPATLGAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEP---EITLIIFGVMAGVIGTILLISYGIRRL  117
+            EVSEISV TVYPPEE+ GE VQ  H FS P    I LII  VMAGVIGTILLISYGIR L
+Sbjct  61   EVSEISVTTVYPPEEDNGEWVQPVHPFSRPAPVVIILIILCVMAGVIGTILLISYGIRLL  120
+
+Query  118  IK  119
+            IK
+Sbjct  121  IK  122
+
+
+> sp|P14221|GLPA_MACFU Glycophorin-A OS=Macaca fuscata fuscata 
+OX=9543 GN=GYPA PE=1 SV=1
+Length=144
+
+ Score = 143 bits (361),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 86/132 (65%), Positives = 100/132 (76%), Gaps = 3/132 (2%)
+
+Query  20   SSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVS-EISVRTVYPPEEETG  78
+            SSTT  A HTS+SS   + Y+SSQ+ND H  D++     AHEV+ E S RT YPPEE+  
+Sbjct  1    SSTTVPATHTSSSSLGPEQYVSSQSNDKHTSDSHPTPTSAHEVTTEFSGRTHYPPEED--  58
+
+Query  79   ERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLS  138
+            +RVQL H FSE  I LIIFGVMAGVIGTIL ISYG RRLIKKS SDV+PLP PD +VPLS
+Sbjct  59   DRVQLVHEFSELVIALIIFGVMAGVIGTILFISYGSRRLIKKSESDVQPLPPPDAEVPLS  118
+
+Query  139  SVEIENPETSDQ  150
+            SVEIE+PE +D+
+Sbjct  119  SVEIEDPEETDE  130
+
+
+> sp|P02727|GLPA_CANLF Glycophorin-A OS=Canis lupus familiaris 
+OX=9615 GN=GYPA PE=1 SV=3
+Length=129
+
+ Score = 105 bits (262),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 48/141 (34%), Positives = 65/141 (46%), Gaps = 17/141 (12%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKS-YISSQT---NDTHKRDTYAAT  56
+            MY KI+ VLLLS    IS    T +  H  +S   T++ +IS++    N    R   + T
+Sbjct  1    MYEKIVIVLLLSG--YISTQDVTEIIPHEISSKLPTQAGFISTEDPSFNTPSTRQDPSGT  58
+
+Query  57   PRAHEVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRR  116
+               H            P+     R QL H FSEP I  II+ VM G+I TIL I++ I +
+Sbjct  59   MYQHL-----------PDGGQKARQQLVHIFSEPVIIGIIYAVMLGIIITILSIAFCIGQ  107
+
+Query  117  LIKKSPSDVKPLPSPDTDVPL  137
+            L KKS    +     D D  +
+Sbjct  108  LTKKSSLPAQVASPEDVDPEV  128
+
+
+> sp|P06028|GLPB_HUMAN Glycophorin-B OS=Homo sapiens OX=9606 GN=GYPB 
+PE=1 SV=3
+Length=91
+
+ Score = 92.7 bits (228),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 72/122 (59%), Positives = 74/122 (61%), Gaps = 35/122 (29%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISA STT VAMHTSTSSSVTKSYISSQTN               
+Sbjct  1    MYGKIIFVLLLSEIVSISALSTTEVAMHTSTSSSVTKSYISSQTN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEP---EITLIIFGVMAGVIGTILLISYGIRRL  117
+                             GE  QL H F+ P    I LII  VMAG+IGTILLISY IRRL
+Sbjct  46   -----------------GETGQLVHRFTVPAPVVIILIILCVMAGIIGTILLISYSIRRL  88
+
+Query  118  IK  119
+            IK
+Sbjct  89   IK  90
+
+
+> sp|P15421|GLPE_HUMAN Glycophorin-E OS=Homo sapiens OX=9606 GN=GYPE 
+PE=2 SV=2
+Length=78
+
+ Score = 89.7 bits (220),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 58/115 (50%), Positives = 63/115 (55%), Gaps = 37/115 (32%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTTGVAMHTSTSSSVTKSYISSQTN     + +A      
+Sbjct  1    MYGKIIFVLLLSGIVSISASSTTGVAMHTSTSSSVTKSYISSQTNGITLINWWAMAR---  57
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIR  115
+                                              +IF VM  V+G I+LISY IR
+Sbjct  58   ----------------------------------VIFEVMLVVVGMIILISYCIR  78
+
+
+> sp|Q28915|GLPE_PANTR Glycophorin-E OS=Pan troglodytes OX=9598 
+GN=GYPE PE=3 SV=1
+Length=78
+
+ Score = 74.3 bits (180),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 65/119 (55%), Positives = 66/119 (55%), Gaps = 42/119 (35%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQ N               
+Sbjct  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQIN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIK  119
+                                       +  E  LII   MAGVIG ILLI Y IRRLIK
+Sbjct  46   ---------------------------ALVEKILIILCPMAGVIGMILLIYYSIRRLIK  77
+
+
+> sp|P02725|GLPA_PIG Glycophorin-A OS=Sus scrofa OX=9823 GN=GYPA 
+PE=1 SV=1
+Length=133
+
+ Score = 75.4 bits (183),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 39/89 (44%), Positives = 47/89 (53%), Gaps = 15/89 (17%)
+
+Query  74   EEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPD-  132
+            ++ETG        FS  EIT IIF VMAG++  I LI+Y IRR+IKK     KP  SPD 
+Sbjct  45   QKETGVPESYHQDFSHAEITGIIFAVMAGLLLIIFLIAYLIRRMIKKPLPVPKPQDSPDI  104
+
+Query  133  --------------TDVPLSSVEIENPET  147
+                           D PL+SVEIE P +
+Sbjct  105  GTENTADPSELQDTEDPPLTSVEIETPAS  133
+
+
+> sp|P02726|GLPA_HORSE Glycophorin-A OS=Equus caballus OX=9796 
+PE=1 SV=1
+Length=120
+
+ Score = 74.3 bits (180),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 41/78 (53%), Positives = 52/78 (67%), Gaps = 8/78 (10%)
+
+Query  75   EETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPL----PS  130
+             E G+ +QLAH FS+P IT+II GVMAG+IG ILL++Y  RRL K+ P+DV P     PS
+Sbjct  34   REQGDGLQLAHDFSQPVITVIILGVMAGIIGIILLLAYVSRRLRKRPPADVPPPASTVPS  93
+
+Query  131  PDTDVPLSSVEIENPETS  148
+             D   P+S    E+ ETS
+Sbjct  94   ADAPPPVS----EDDETS  107
+
+
+> sp|P14220|GLPA_MOUSE Glycophorin-A OS=Mus musculus OX=10090 GN=Gypa 
+PE=1 SV=2
+Length=168
+
+ Score = 73.1 bits (177),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 43/124 (35%), Positives = 61/124 (49%), Gaps = 9/124 (7%)
+
+Query  35   VTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPPEEET--------GERVQLAHH  86
+            +T   ++S   + ++     +TP  H  +  +  T      E         G    + H 
+Sbjct  44   ITTPVVASTVGNPNQHSATMSTPAIHVSTYHTAPTEVSAAFEEQPVSPHIGGMPSPIQHD  103
+
+Query  87   FSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLSSVE-IENP  145
+            F    + LII GVMAG+IGTILLISY I R+ KKS  D++     D  VPLSS+E   N 
+Sbjct  104  FPALVMILIILGVMAGIIGTILLISYCISRMTKKSSVDIQSPEGGDNSVPLSSIEQTPNE  163
+
+Query  146  ETSD  149
+            E+S+
+Sbjct  164  ESSN  167
+
+
+> sp|Q4H3K6|FGFR_CIOIN Fibroblast growth factor receptor OS=Ciona 
+intestinalis OX=7719 GN=FGFR PE=2 SV=1
+Length=747
+
+ Score = 44.6 bits (103),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 31/75 (41%), Gaps = 2/75 (3%)
+
+Query  69   TVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPL  128
+            TV P  +E     +     +   I   IFGV+  +I    ++     R   K P  + P+
+Sbjct  267  TVLPVVDENDVWTEEIPQDTHYLIY--IFGVVCFIILLAFIVYMCNSRYQNKDPPRLIPI  324
+
+Query  129  PSPDTDVPLSSVEIE  143
+             +PD   P+S +E  
+Sbjct  325  ENPDNIPPMSKMEEP  339
+
+
+
+Lambda      K        H        a         alpha
+   0.299    0.108    0.256    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0330    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6023095097
+Results from round 3
+
+
+Query= GLPA_HUMAN
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P02724|GLPA_HUMAN Glycophorin-A OS=Homo sapiens OX=9606 GN=G...  180     9e-57
+  sp|Q28913|GLPA_PANTR Glycophorin-A OS=Pan troglodytes OX=9598 G...  172     2e-53
+  sp|Q28914|GLPB_PANTR Glycophorin-B OS=Pan troglodytes OX=9598 G...  134     5e-39
+  sp|P14221|GLPA_MACFU Glycophorin-A OS=Macaca fuscata fuscata OX...  131     1e-37
+  sp|P02727|GLPA_CANLF Glycophorin-A OS=Canis lupus familiaris OX...  105     2e-27
+  sp|Q4H3K6|FGFR_CIOIN Fibroblast growth factor receptor OS=Ciona...  100     1e-23
+  sp|P14220|GLPA_MOUSE Glycophorin-A OS=Mus musculus OX=10090 GN=...  91.6    5e-22
+  sp|P06028|GLPB_HUMAN Glycophorin-B OS=Homo sapiens OX=9606 GN=G...  87.3    4e-21
+  sp|P15421|GLPE_HUMAN Glycophorin-E OS=Homo sapiens OX=9606 GN=G...  83.5    7e-20
+  sp|P02725|GLPA_PIG Glycophorin-A OS=Sus scrofa OX=9823 GN=GYPA ...  74.3    8e-16
+  sp|Q28915|GLPE_PANTR Glycophorin-E OS=Pan troglodytes OX=9598 G...  68.9    2e-14
+  sp|P02726|GLPA_HORSE Glycophorin-A OS=Equus caballus OX=9796 PE...  68.1    1e-13
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q95YM9|FGFR_HALRO Fibroblast growth factor receptor OS=Haloc...  48.4    5e-06
+
+
+> sp|P02724|GLPA_HUMAN Glycophorin-A OS=Homo sapiens OX=9606 GN=GYPA 
+PE=1 SV=2
+Length=150
+
+ Score = 180 bits (457),  Expect = 9e-57, Method: Composition-based stats.
+ Identities = 149/150 (99%), Positives = 149/150 (99%), Gaps = 0/150 (0%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH
+Sbjct  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK
+Sbjct  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+
+
+> sp|Q28913|GLPA_PANTR Glycophorin-A OS=Pan troglodytes OX=9598 
+GN=GYPA PE=2 SV=1
+Length=149
+
+ Score = 172 bits (434),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 135/150 (90%), Positives = 137/150 (91%), Gaps = 1/150 (1%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSAIVSISASSTT VAMHTSTSS VTKSYISS+T+D HK DTY ATPRAH
+Sbjct  1    MYGKIIFVLLLSAIVSISASSTTEVAMHTSTSS-VTKSYISSETSDKHKWDTYPATPRAH  59
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEI V TVYPPEEE GE VQL H FSEPEITLIIFGVMAGVIGTILLI Y IRRLIKK
+Sbjct  60   EVSEIYVTTVYPPEEENGEGVQLVHRFSEPEITLIIFGVMAGVIGTILLIYYSIRRLIKK  119
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  120  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  149
+
+
+> sp|Q28914|GLPB_PANTR Glycophorin-B OS=Pan troglodytes OX=9598 
+GN=GYPB PE=2 SV=1
+Length=123
+
+ Score = 134 bits (336),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 99/122 (81%), Positives = 100/122 (82%), Gaps = 3/122 (2%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTT VAMHTSTSSSVTKSYISSQTND HK DTY AT  AH
+Sbjct  1    MYGKIIFVLLLSEIVSISASSTTEVAMHTSTSSSVTKSYISSQTNDKHKGDTYPATLGAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEP---EITLIIFGVMAGVIGTILLISYGIRRL  117
+            EVSEISV TVYPPEE+ GE VQ  H FS P    I LII  VMAGVIGTILLISYGIR L
+Sbjct  61   EVSEISVTTVYPPEEDNGEWVQPVHPFSRPAPVVIILIILCVMAGVIGTILLISYGIRLL  120
+
+Query  118  IK  119
+            IK
+Sbjct  121  IK  122
+
+
+> sp|P14221|GLPA_MACFU Glycophorin-A OS=Macaca fuscata fuscata 
+OX=9543 GN=GYPA PE=1 SV=1
+Length=144
+
+ Score = 131 bits (329),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 85/132 (64%), Positives = 98/132 (74%), Gaps = 3/132 (2%)
+
+Query  20   SSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVS-EISVRTVYPPEEETG  78
+            SSTT  A HTS+SS   + Y+SSQ+ND H  D++     AHEV+ E S RT YPP  E  
+Sbjct  1    SSTTVPATHTSSSSLGPEQYVSSQSNDKHTSDSHPTPTSAHEVTTEFSGRTHYPP--EED  58
+
+Query  79   ERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLS  138
+            +RVQL H FSE  I LIIFGVMAGVIGTIL ISYG RRLIKKS SDV+PLP PD +VPLS
+Sbjct  59   DRVQLVHEFSELVIALIIFGVMAGVIGTILFISYGSRRLIKKSESDVQPLPPPDAEVPLS  118
+
+Query  139  SVEIENPETSDQ  150
+            SVEIE+PE +D+
+Sbjct  119  SVEIEDPEETDE  130
+
+
+> sp|P02727|GLPA_CANLF Glycophorin-A OS=Canis lupus familiaris 
+OX=9615 GN=GYPA PE=1 SV=3
+Length=129
+
+ Score = 105 bits (260),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 48/141 (34%), Positives = 65/141 (46%), Gaps = 17/141 (12%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKS-YISSQT---NDTHKRDTYAAT  56
+            MY KI+ VLLLS    IS    T +  H  +S   T++ +IS++    N    R   + T
+Sbjct  1    MYEKIVIVLLLSG--YISTQDVTEIIPHEISSKLPTQAGFISTEDPSFNTPSTRQDPSGT  58
+
+Query  57   PRAHEVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRR  116
+               H            P+     R QL H FSEP I  II+ VM G+I TIL I++ I +
+Sbjct  59   MYQHL-----------PDGGQKARQQLVHIFSEPVIIGIIYAVMLGIIITILSIAFCIGQ  107
+
+Query  117  LIKKSPSDVKPLPSPDTDVPL  137
+            L KKS    +     D D  +
+Sbjct  108  LTKKSSLPAQVASPEDVDPEV  128
+
+
+> sp|Q4H3K6|FGFR_CIOIN Fibroblast growth factor receptor OS=Ciona 
+intestinalis OX=7719 GN=FGFR PE=2 SV=1
+Length=747
+
+ Score = 100 bits (249),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 31/75 (41%), Gaps = 2/75 (3%)
+
+Query  69   TVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPL  128
+            TV P  +E     +     +   I   IFGV+  +I    ++     R   K P  + P+
+Sbjct  267  TVLPVVDENDVWTEEIPQDTHYLIY--IFGVVCFIILLAFIVYMCNSRYQNKDPPRLIPI  324
+
+Query  129  PSPDTDVPLSSVEIE  143
+             +PD   P+S +E  
+Sbjct  325  ENPDNIPPMSKMEEP  339
+
+
+> sp|P14220|GLPA_MOUSE Glycophorin-A OS=Mus musculus OX=10090 GN=Gypa 
+PE=1 SV=2
+Length=168
+
+ Score = 91.6 bits (225),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 43/124 (35%), Positives = 61/124 (49%), Gaps = 9/124 (7%)
+
+Query  35   VTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPPEEET--------GERVQLAHH  86
+            +T   ++S   + ++     +TP  H  +  +  T      E         G    + H 
+Sbjct  44   ITTPVVASTVGNPNQHSATMSTPAIHVSTYHTAPTEVSAAFEEQPVSPHIGGMPSPIQHD  103
+
+Query  87   FSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLSSVE-IENP  145
+            F    + LII GVMAG+IGTILLISY I R+ KKS  D++     D  VPLSS+E   N 
+Sbjct  104  FPALVMILIILGVMAGIIGTILLISYCISRMTKKSSVDIQSPEGGDNSVPLSSIEQTPNE  163
+
+Query  146  ETSD  149
+            E+S+
+Sbjct  164  ESSN  167
+
+
+> sp|P06028|GLPB_HUMAN Glycophorin-B OS=Homo sapiens OX=9606 GN=GYPB 
+PE=1 SV=3
+Length=91
+
+ Score = 87.3 bits (214),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 72/122 (59%), Positives = 74/122 (61%), Gaps = 35/122 (29%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISA STT VAMHTSTSSSVTKSYISSQTN               
+Sbjct  1    MYGKIIFVLLLSEIVSISALSTTEVAMHTSTSSSVTKSYISSQTN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEP---EITLIIFGVMAGVIGTILLISYGIRRL  117
+                             GE  QL H F+ P    I LII  VMAG+IGTILLISY IRRL
+Sbjct  46   -----------------GETGQLVHRFTVPAPVVIILIILCVMAGIIGTILLISYSIRRL  88
+
+Query  118  IK  119
+            IK
+Sbjct  89   IK  90
+
+
+> sp|P15421|GLPE_HUMAN Glycophorin-E OS=Homo sapiens OX=9606 GN=GYPE 
+PE=2 SV=2
+Length=78
+
+ Score = 83.5 bits (204),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 58/115 (50%), Positives = 63/115 (55%), Gaps = 37/115 (32%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTTGVAMHTSTSSSVTKSYISSQTN     + +A      
+Sbjct  1    MYGKIIFVLLLSGIVSISASSTTGVAMHTSTSSSVTKSYISSQTNGITLINWWAMAR---  57
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIR  115
+                                              +IF VM  V+G I+LISY IR
+Sbjct  58   ----------------------------------VIFEVMLVVVGMIILISYCIR  78
+
+
+> sp|P02725|GLPA_PIG Glycophorin-A OS=Sus scrofa OX=9823 GN=GYPA 
+PE=1 SV=1
+Length=133
+
+ Score = 74.3 bits (180),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 47/133 (35%), Positives = 62/133 (47%), Gaps = 16/133 (12%)
+
+Query  31   TSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVR-TVYPPEEETGERVQLAHHFSE  89
+            T + VT    S+   +       A  P A     ++++ T    ++ETG        FS 
+Sbjct  1    TETPVTGEQGSATPGNVSNATVTAGKPSATSPGVMTIKNTTAVVQKETGVPESYHQDFSH  60
+
+Query  90   PEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPD---------------TD  134
+             EIT IIF VMAG++  I LI+Y IRR+IKK     KP  SPD                D
+Sbjct  61   AEITGIIFAVMAGLLLIIFLIAYLIRRMIKKPLPVPKPQDSPDIGTENTADPSELQDTED  120
+
+Query  135  VPLSSVEIENPET  147
+             PL+SVEIE P +
+Sbjct  121  PPLTSVEIETPAS  133
+
+
+> sp|Q28915|GLPE_PANTR Glycophorin-E OS=Pan troglodytes OX=9598 
+GN=GYPE PE=3 SV=1
+Length=78
+
+ Score = 68.9 bits (166),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 65/119 (55%), Positives = 66/119 (55%), Gaps = 42/119 (35%)
+
+Query  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQ N               
+Sbjct  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQIN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIK  119
+                                       +  E  LII   MAGVIG ILLI Y IRRLIK
+Sbjct  46   ---------------------------ALVEKILIILCPMAGVIGMILLIYYSIRRLIK  77
+
+
+> sp|P02726|GLPA_HORSE Glycophorin-A OS=Equus caballus OX=9796 
+PE=1 SV=1
+Length=120
+
+ Score = 68.1 bits (164),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 41/78 (53%), Positives = 52/78 (67%), Gaps = 8/78 (10%)
+
+Query  75   EETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPL----PS  130
+             E G+ +QLAH FS+P IT+II GVMAG+IG ILL++Y  RRL K+ P+DV P     PS
+Sbjct  34   REQGDGLQLAHDFSQPVITVIILGVMAGIIGIILLLAYVSRRLRKRPPADVPPPASTVPS  93
+
+Query  131  PDTDVPLSSVEIENPETS  148
+             D   P+S    E+ ETS
+Sbjct  94   ADAPPPVS----EDDETS  107
+
+
+> sp|Q95YM9|FGFR_HALRO Fibroblast growth factor receptor OS=Halocynthia 
+roretzi OX=7729 GN=FGFR PE=2 SV=1
+Length=763
+
+ Score = 48.4 bits (113),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 22/93 (24%), Positives = 37/93 (40%), Gaps = 17/93 (18%)
+
+Query  59   AHEVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTIL-------LIS  111
+            +H+ + +SV  V PP  +T  +         P  T II  VM GV+  +        L  
+Sbjct  263  SHQSAWLSVLPVPPPTTDTITKG-------IPNETNIIIYVMCGVLVILFGLAVVLVLYY  315
+
+Query  112  YGIRRLIKKSPSDVKPLPSPDTDVPLSSVEIEN  144
+            +       K P  +  + +PD   P++ +E   
+Sbjct  316  HC---YNGKDPPMLVRIENPDNIPPMTKIEHPT  345
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.108    0.254    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0340    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6023095097
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

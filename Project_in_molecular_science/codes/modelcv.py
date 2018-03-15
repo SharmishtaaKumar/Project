@@ -107,7 +107,7 @@ def run_svm (part1,winlen) :
        
     trainX, trainY=dataset(part1,winlen)
    
-    clf = svm.SVC(kernel='linear', C=1,gamma=0.001)
+    clf = svm.SVC(kernel='linear', C=1, gamma=0.001)
     clf.fit(trainX, trainY)
     
     inputfile='firstmodel.sav'

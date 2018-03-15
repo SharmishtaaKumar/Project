@@ -2,7 +2,7 @@ import pssmparser
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import cross_val_score
-test = "../datasets/test"
+test = "../datasets/mydataset.txt"
 def cv(filename):
     for winlen in range(25,36,2):
         for C_range in (1,5,10):
@@ -40,6 +40,6 @@ def randomforest(filename):
     return np.average(score)
     
 if __name__=="__main__":
-    cv('test')
-    decisiontree('test')
-    randomforest('test')
+    cv('mydataset.txt')
+    decisiontree('mydataset.txt')
+    randomforest('mydataset.txt')
