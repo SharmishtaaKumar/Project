@@ -11,14 +11,14 @@ def dataset(filename):
             dictionary[ids]= {}
         elif line[0]=='M':
             sequences=line.rstrip()
-            dictionary[ids]['seq']= sequences
+            dictionary[ids][0]= sequences
             #print(sequences)
         else:
             topologies=line.rstrip()
-            dictionary[ids]['topology'] = topologies
+            dictionary[ids][1] = topologies
             #print(topologies)
-    print(dictionary)                     
+    return dictionary               
 if __name__=="__main__":
-    (dataset('test'))
+    (dataset(test))
     
 

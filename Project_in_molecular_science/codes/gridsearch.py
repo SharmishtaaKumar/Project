@@ -22,7 +22,7 @@ def cv(filename, winlen):
     clf = GridSearchCV(SVC(), param, n_jobs=1, cv=3, verbose=True, error_score=np.NaN, return_train_score=False)
     #clf = svm.SVC(kernel='linear', C=1)
     clf.fit(trainX, trainY)
-    newscores=pd.DataFrame(clf.cv_results_)
+    df=pd.DataFrame(clf.cv_results_)
     #print(newscores)
     filename = '../Datasets/' + str(winlen) + '_improved' + '.csv'
     df.to_csv(filename, sep='\t', encoding='UTF-8')

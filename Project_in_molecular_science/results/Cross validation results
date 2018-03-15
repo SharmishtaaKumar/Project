@@ -1,0 +1,21 @@
+cross_validation scores for window lengths 31,33,35 and the for cv 3,5,10
+maximum score is for window length=31 and cv=10
+Used them to train the model respectively.
+[Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:  8.7min finished
+0.676317575898 31 3
+[Parallel(n_jobs=-1)]: Done   5 out of   5 | elapsed: 23.9min finished
+0.685125754082 31 5
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 67.6min finished
+0.688062660217 31 10
+[Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:  6.9min finished
+0.676317391461 33 3
+[Parallel(n_jobs=-1)]: Done   5 out of   5 | elapsed: 24.6min finished
+0.685733336288 33 5
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 70.8min finished
+0.686243820251 33 10
+[Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:  7.4min finished
+0.674697394687 35 3
+[Parallel(n_jobs=-1)]: Done   5 out of   5 | elapsed: 26.7min finished
+0.687454342758 35 5
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 76.3min finished
+0.6858891078 35 10
