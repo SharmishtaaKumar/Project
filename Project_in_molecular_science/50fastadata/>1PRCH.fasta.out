@@ -1,0 +1,321 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 1PRCH
+
+Length=258
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P06008|RCEH_BLAVI Reaction center protein H chain OS=Blastoc...  517     0.0  
+  sp|P0C0Y7|RCEH_RHOSH Reaction center protein H chain OS=Rhodoba...  175     8e-52
+  sp|Q3J170|RCEH_RHOS4 Reaction center protein H chain OS=Rhodoba...  175     8e-52
+  sp|P19056|RCEH_RHOCA Reaction center protein H chain OS=Rhodoba...  159     1e-45
+
+
+> sp|P06008|RCEH_BLAVI Reaction center protein H chain OS=Blastochloris 
+viridis OX=1079 GN=puhA PE=1 SV=1
+Length=258
+
+ Score = 517 bits (1331),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 258/258 (100%), Positives = 258/258 (100%), Gaps = 0/258 (0%)
+
+Query  1    MYHGALAQHLDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQVY  60
+            MYHGALAQHLDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQVY
+Sbjct  1    MYHGALAQHLDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQVY  60
+
+Query  61   ELPYPKTFVLPHGGTVTVPRRRPETRELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAER  120
+            ELPYPKTFVLPHGGTVTVPRRRPETRELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAER
+Sbjct  61   ELPYPKTFVLPHGGTVTVPRRRPETRELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAER  120
+
+Query  121  AEVVDATVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYF  180
+            AEVVDATVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYF
+Sbjct  121  AEVVDATVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYF  180
+
+Query  181  RYLELSVAGSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSA  240
+            RYLELSVAGSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSA
+Sbjct  181  RYLELSVAGSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSA  240
+
+Query  241  YYAGGLLYATPERAESLL  258
+            YYAGGLLYATPERAESLL
+Sbjct  241  YYAGGLLYATPERAESLL  258
+
+
+> sp|P0C0Y7|RCEH_RHOSH Reaction center protein H chain OS=Rhodobacter 
+sphaeroides OX=1063 GN=puhA PE=1 SV=1
+Length=260
+
+ Score = 175 bits (444),  Expect = 8e-52, Method: Compositional matrix adjust.
+ Identities = 102/248 (41%), Positives = 148/248 (60%), Gaps = 11/248 (4%)
+
+Query  9    HLDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQ-VYELPYPKT  67
+            + D+A L  Y+ W+ +  ++  YL+ E+ REGYPL    G     P   Q  + LP PKT
+Sbjct  9    NFDLASLAIYSFWIFLAGLIY-YLQTENMREGYPLENEDG----TPAANQGPFPLPKPKT  63
+
+Query  68   FVLPHG-GTVTVPRRRPETRELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAERAEVVDA  126
+            F+LPHG GT+TVP    E R + LA+T   EG P  PTG+P+ D VGPAS+  R ++ + 
+Sbjct  64   FILPHGRGTLTVPGPESEDRPIALARTAVSEGFPHAPTGDPMKDGVGPASWVARRDLPEL  123
+
+Query  127  TVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYFRYLELS  186
+               G  KI P++ A  F ++ G  +P GLPV   D   AG V D+WVD  E   R+LE+ 
+Sbjct  124  DGHGHNKIKPMKAAAGFHVSAGK-NPIGLPVRGCDLEIAGKVVDIWVDIPEQMARFLEVE  182
+
+Query  187  VA-GSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSAYYAGG  245
+            +  GS R  L+P+    V+ +++ V ++ S+ FA +P ++S  ++TL EEDK+  Y AGG
+Sbjct  183  LKDGSTR--LLPMQMVKVQSNRVHVNALSSDLFAGIPTIKSPTEVTLLEEDKICGYVAGG  240
+
+Query  246  LLYATPER  253
+            L+YA P+R
+Sbjct  241  LMYAAPKR  248
+
+
+> sp|Q3J170|RCEH_RHOS4 Reaction center protein H chain OS=Rhodobacter 
+sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / 
+DSM 158) OX=272943 GN=puhA PE=1 SV=1
+Length=260
+
+ Score = 175 bits (444),  Expect = 8e-52, Method: Compositional matrix adjust.
+ Identities = 102/248 (41%), Positives = 148/248 (60%), Gaps = 11/248 (4%)
+
+Query  9    HLDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQ-VYELPYPKT  67
+            + D+A L  Y+ W+ +  ++  YL+ E+ REGYPL    G     P   Q  + LP PKT
+Sbjct  9    NFDLASLAIYSFWIFLAGLIY-YLQTENMREGYPLENEDG----TPAANQGPFPLPKPKT  63
+
+Query  68   FVLPHG-GTVTVPRRRPETRELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAERAEVVDA  126
+            F+LPHG GT+TVP    E R + LA+T   EG P  PTG+P+ D VGPAS+  R ++ + 
+Sbjct  64   FILPHGRGTLTVPGPESEDRPIALARTAVSEGFPHAPTGDPMKDGVGPASWVARRDLPEL  123
+
+Query  127  TVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYFRYLELS  186
+               G  KI P++ A  F ++ G  +P GLPV   D   AG V D+WVD  E   R+LE+ 
+Sbjct  124  DGHGHNKIKPMKAAAGFHVSAGK-NPIGLPVRGCDLEIAGKVVDIWVDIPEQMARFLEVE  182
+
+Query  187  VA-GSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSAYYAGG  245
+            +  GS R  L+P+    V+ +++ V ++ S+ FA +P ++S  ++TL EEDK+  Y AGG
+Sbjct  183  LKDGSTR--LLPMQMVKVQSNRVHVNALSSDLFAGIPTIKSPTEVTLLEEDKICGYVAGG  240
+
+Query  246  LLYATPER  253
+            L+YA P+R
+Sbjct  241  LMYAAPKR  248
+
+
+> sp|P19056|RCEH_RHOCA Reaction center protein H chain OS=Rhodobacter 
+capsulatus OX=1061 GN=puhA PE=3 SV=1
+Length=254
+
+ Score = 159 bits (402),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 95/244 (39%), Positives = 138/244 (57%), Gaps = 11/244 (5%)
+
+Query  10   LDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQVYELPYPKTFV  69
+             D+A L  ++ W  +   ++ YL+ E+ REGYPL    G  KL+P  G  + +P PKTF 
+Sbjct  10   FDLASLAIWSFWAFL-AYLIYYLQTENMREGYPLENDDG--KLSPNQGP-FPVPSPKTFD  65
+
+Query  70   LPHGGTVTVPRRRPET----RELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAERAEVVD  125
+            L  G  + VP    E      +L L +T   EG P +PTGNP++D VGPAS+  R +  +
+Sbjct  66   LADGRKIVVPSVENEEAHRRTDLALERTSVNEGYPFRPTGNPMLDGVGPASWVPRRDEPE  125
+
+Query  126  ATVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYFRYLEL  185
+                G  KI P+R  T+  ++ G  DPRG+PV A D    G + D+WVD  E   RYLE+
+Sbjct  126  VDAHGHNKIQPMR-KTEMKVSAGR-DPRGMPVQAGDTEVVGKIVDMWVDIPEQLVRYLEV  183
+
+Query  186  SVAGSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSAYYAGG  245
+             +  S +  L+P+    +  D++ V +I S+ F  +P ++S D +T  EEDK+SAY AGG
+Sbjct  184  EL-NSGKKKLLPMTMLKIWSDRVRVNAITSDLFDTIPDIKSPDVVTKLEEDKISAYVAGG  242
+
+Query  246  LLYA  249
+             +YA
+Sbjct  243  YMYA  246
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19393285197
+Results from round 2
+
+
+Query= 1PRCH
+
+Length=258
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P06008|RCEH_BLAVI Reaction center protein H chain OS=Blastoc...  419     2e-147
+  sp|P0C0Y7|RCEH_RHOSH Reaction center protein H chain OS=Rhodoba...  377     1e-130
+  sp|Q3J170|RCEH_RHOS4 Reaction center protein H chain OS=Rhodoba...  377     1e-130
+  sp|P19056|RCEH_RHOCA Reaction center protein H chain OS=Rhodoba...  365     6e-126
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P06008|RCEH_BLAVI Reaction center protein H chain OS=Blastochloris 
+viridis OX=1079 GN=puhA PE=1 SV=1
+Length=258
+
+ Score = 419 bits (1078),  Expect = 2e-147, Method: Composition-based stats.
+ Identities = 258/258 (100%), Positives = 258/258 (100%), Gaps = 0/258 (0%)
+
+Query  1    MYHGALAQHLDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQVY  60
+            MYHGALAQHLDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQVY
+Sbjct  1    MYHGALAQHLDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQVY  60
+
+Query  61   ELPYPKTFVLPHGGTVTVPRRRPETRELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAER  120
+            ELPYPKTFVLPHGGTVTVPRRRPETRELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAER
+Sbjct  61   ELPYPKTFVLPHGGTVTVPRRRPETRELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAER  120
+
+Query  121  AEVVDATVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYF  180
+            AEVVDATVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYF
+Sbjct  121  AEVVDATVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYF  180
+
+Query  181  RYLELSVAGSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSA  240
+            RYLELSVAGSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSA
+Sbjct  181  RYLELSVAGSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSA  240
+
+Query  241  YYAGGLLYATPERAESLL  258
+            YYAGGLLYATPERAESLL
+Sbjct  241  YYAGGLLYATPERAESLL  258
+
+
+> sp|P0C0Y7|RCEH_RHOSH Reaction center protein H chain OS=Rhodobacter 
+sphaeroides OX=1063 GN=puhA PE=1 SV=1
+Length=260
+
+ Score = 377 bits (967),  Expect = 1e-130, Method: Composition-based stats.
+ Identities = 100/247 (40%), Positives = 146/247 (59%), Gaps = 9/247 (4%)
+
+Query  9    HLDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQ-VYELPYPKT  67
+            + D+A L  Y+ W+ +  ++  YL+ E+ REGYPL    G     P   Q  + LP PKT
+Sbjct  9    NFDLASLAIYSFWIFLAGLI-YYLQTENMREGYPLENEDG----TPAANQGPFPLPKPKT  63
+
+Query  68   FVLPHG-GTVTVPRRRPETRELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAERAEVVDA  126
+            F+LPHG GT+TVP    E R + LA+T   EG P  PTG+P+ D VGPAS+  R ++ + 
+Sbjct  64   FILPHGRGTLTVPGPESEDRPIALARTAVSEGFPHAPTGDPMKDGVGPASWVARRDLPEL  123
+
+Query  127  TVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYFRYLELS  186
+               G  KI P++ A  F ++ G  +P GLPV   D   AG V D+WVD  E   R+LE+ 
+Sbjct  124  DGHGHNKIKPMKAAAGFHVSAGK-NPIGLPVRGCDLEIAGKVVDIWVDIPEQMARFLEVE  182
+
+Query  187  VAGSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSAYYAGGL  246
+            +     T L+P+    V+ +++ V ++ S+ FA +P ++S  ++TL EEDK+  Y AGGL
+Sbjct  183  LKD-GSTRLLPMQMVKVQSNRVHVNALSSDLFAGIPTIKSPTEVTLLEEDKICGYVAGGL  241
+
+Query  247  LYATPER  253
+            +YA P+R
+Sbjct  242  MYAAPKR  248
+
+
+> sp|Q3J170|RCEH_RHOS4 Reaction center protein H chain OS=Rhodobacter 
+sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / 
+DSM 158) OX=272943 GN=puhA PE=1 SV=1
+Length=260
+
+ Score = 377 bits (967),  Expect = 1e-130, Method: Composition-based stats.
+ Identities = 100/247 (40%), Positives = 146/247 (59%), Gaps = 9/247 (4%)
+
+Query  9    HLDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQ-VYELPYPKT  67
+            + D+A L  Y+ W+ +  ++  YL+ E+ REGYPL    G     P   Q  + LP PKT
+Sbjct  9    NFDLASLAIYSFWIFLAGLI-YYLQTENMREGYPLENEDG----TPAANQGPFPLPKPKT  63
+
+Query  68   FVLPHG-GTVTVPRRRPETRELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAERAEVVDA  126
+            F+LPHG GT+TVP    E R + LA+T   EG P  PTG+P+ D VGPAS+  R ++ + 
+Sbjct  64   FILPHGRGTLTVPGPESEDRPIALARTAVSEGFPHAPTGDPMKDGVGPASWVARRDLPEL  123
+
+Query  127  TVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYFRYLELS  186
+               G  KI P++ A  F ++ G  +P GLPV   D   AG V D+WVD  E   R+LE+ 
+Sbjct  124  DGHGHNKIKPMKAAAGFHVSAGK-NPIGLPVRGCDLEIAGKVVDIWVDIPEQMARFLEVE  182
+
+Query  187  VAGSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSAYYAGGL  246
+            +     T L+P+    V+ +++ V ++ S+ FA +P ++S  ++TL EEDK+  Y AGGL
+Sbjct  183  LKD-GSTRLLPMQMVKVQSNRVHVNALSSDLFAGIPTIKSPTEVTLLEEDKICGYVAGGL  241
+
+Query  247  LYATPER  253
+            +YA P+R
+Sbjct  242  MYAAPKR  248
+
+
+> sp|P19056|RCEH_RHOCA Reaction center protein H chain OS=Rhodobacter 
+capsulatus OX=1061 GN=puhA PE=3 SV=1
+Length=254
+
+ Score = 365 bits (936),  Expect = 6e-126, Method: Composition-based stats.
+ Identities = 95/245 (39%), Positives = 138/245 (56%), Gaps = 11/245 (4%)
+
+Query  9    HLDIAQLVWYAQWLVIWTVVLLYLRREDRREGYPLVEPLGLVKLAPEDGQVYELPYPKTF  68
+              D+A L  ++ W  +   ++ YL+ E+ REGYPL    G  KL+P  G  + +P PKTF
+Sbjct  9    DFDLASLAIWSFWAFL-AYLIYYLQTENMREGYPLENDDG--KLSPNQGP-FPVPSPKTF  64
+
+Query  69   VLPHGGTVTVPRRRPET----RELKLAQTDGFEGAPLQPTGNPLVDAVGPASYAERAEVV  124
+             L  G  + VP    E      +L L +T   EG P +PTGNP++D VGPAS+  R +  
+Sbjct  65   DLADGRKIVVPSVENEEAHRRTDLALERTSVNEGYPFRPTGNPMLDGVGPASWVPRRDEP  124
+
+Query  125  DATVDGKAKIVPLRVATDFSIAEGDVDPRGLPVVAADGVEAGTVTDLWVDRSEHYFRYLE  184
+            +    G  KI P+R  T+  ++ G  DPRG+PV A D    G + D+WVD  E   RYLE
+Sbjct  125  EVDAHGHNKIQPMR-KTEMKVSAGR-DPRGMPVQAGDTEVVGKIVDMWVDIPEQLVRYLE  182
+
+Query  185  LSVAGSARTALIPLGFCDVKKDKIVVTSILSEQFANVPRLQSRDQITLREEDKVSAYYAG  244
+            + +  S +  L+P+    +  D++ V +I S+ F  +P ++S D +T  EEDK+SAY AG
+Sbjct  183  VEL-NSGKKKLLPMTMLKIWSDRVRVNAITSDLFDTIPDIKSPDVVTKLEEDKISAYVAG  241
+
+Query  245  GLLYA  249
+            G +YA
+Sbjct  242  GYMYA  246
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.131    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0390    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19393285197
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

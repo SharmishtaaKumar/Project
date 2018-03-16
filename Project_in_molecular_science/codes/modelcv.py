@@ -99,22 +99,6 @@ def dataset(filename,winlen):
     #print(len(X))
     return X, P
     
-    
-#########SVM###########            
-    
-    
-def run_svm (part1,winlen) :
-       
-    trainX, trainY=dataset(part1,winlen)
-   
-    clf = svm.SVC(kernel='linear', C=1, gamma=0.01)
-    clf.fit(trainX, trainY)
-    
-    inputfile='firstmodel.sav'
-    joblib.dump(clf,inputfile)
-if __name__=="__main__":
-    run_svm(test,'31')
-    #print(dataset('test','31')
   
         
         

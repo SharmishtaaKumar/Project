@@ -1,0 +1,1445 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= CYOD_ECOLI
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P0ABJ8|CYOD_SHIFL Cytochrome bo(3) ubiquinol oxidase subunit...  215     9e-72
+  sp|P0ABJ6|CYOD_ECOLI Cytochrome bo(3) ubiquinol oxidase subunit...  215     9e-72
+  sp|P0ABJ7|CYOD_ECO57 Cytochrome bo(3) ubiquinol oxidase subunit...  215     9e-72
+  sp|Q9WWR4|CYOD_PSEPU Cytochrome bo(3) ubiquinol oxidase subunit...  102     3e-27
+  sp|Q9I424|CYOD_PSEAE Cytochrome bo(3) ubiquinol oxidase subunit...  87.4    1e-21
+  sp|Q8K996|CYOD_BUCAP Cytochrome bo(3) ubiquinol oxidase subunit...  67.4    5e-14
+  sp|P57541|CYOD_BUCAI Cytochrome bo(3) ubiquinol oxidase subunit...  55.8    8e-10
+  sp|E0TW64|QOX4_BACPZ Quinol oxidase subunit 4 OS=Bacillus subti...  45.8    3e-06
+  sp|P34959|QOX4_BACSU Quinol oxidase subunit 4 OS=Bacillus subti...  44.3    1e-05
+  sp|Q89AA6|CYOD_BUCBP Cytochrome bo(3) ubiquinol oxidase subunit...  42.7    3e-05
+  sp|Q49WI1|QOX4_STAS1 Probable quinol oxidase subunit 4 OS=Staph...  41.6    7e-05
+  sp|Q7A184|QOX4_STAAW Probable quinol oxidase subunit 4 OS=Staph...  40.0    3e-04
+  sp|Q6GAF5|QOX4_STAAS Probable quinol oxidase subunit 4 OS=Staph...  40.0    3e-04
+  sp|Q7A6A1|QOX4_STAAN Probable quinol oxidase subunit 4 OS=Staph...  40.0    3e-04
+  sp|Q99V39|QOX4_STAAM Probable quinol oxidase subunit 4 OS=Staph...  40.0    3e-04
+  sp|Q5HH26|QOX4_STAAC Probable quinol oxidase subunit 4 OS=Staph...  40.0    3e-04
+  sp|Q2YX17|QOX4_STAAB Probable quinol oxidase subunit 4 OS=Staph...  40.0    3e-04
+  sp|Q2FZK2|QOX4_STAA8 Probable quinol oxidase subunit 4 OS=Staph...  40.0    3e-04
+  sp|Q2FI20|QOX4_STAA3 Probable quinol oxidase subunit 4 OS=Staph...  40.0    3e-04
+  sp|Q6GI26|QOX4_STAAR Probable quinol oxidase subunit 4 OS=Staph...  39.3    5e-04
+  sp|Q4L562|QOX4_STAHJ Probable quinol oxidase subunit 4 OS=Staph...  38.9    6e-04
+  sp|Q04452|COX4_BACPE Cytochrome c oxidase subunit 4B OS=Bacillu...  38.5    0.001
+  sp|Q8CPP9|QOX4_STAES Probable quinol oxidase subunit 4 OS=Staph...  37.7    0.002
+  sp|Q5HQB2|QOX4_STAEQ Probable quinol oxidase subunit 4 OS=Staph...  37.7    0.002
+
+
+> sp|P0ABJ8|CYOD_SHIFL Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Shigella flexneri OX=623 GN=cyoD PE=3 SV=1
+Length=109
+
+ Score = 215 bits (548),  Expect = 9e-72, Method: Compositional matrix adjust.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+            MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV
+Sbjct  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+
+Query  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+            HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH
+Sbjct  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+
+
+> sp|P0ABJ6|CYOD_ECOLI Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Escherichia coli (strain K12) OX=83333 GN=cyoD PE=1 
+SV=1
+Length=109
+
+ Score = 215 bits (548),  Expect = 9e-72, Method: Compositional matrix adjust.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+            MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV
+Sbjct  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+
+Query  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+            HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH
+Sbjct  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+
+
+> sp|P0ABJ7|CYOD_ECO57 Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Escherichia coli O157:H7 OX=83334 GN=cyoD PE=3 SV=1
+Length=109
+
+ Score = 215 bits (548),  Expect = 9e-72, Method: Compositional matrix adjust.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+            MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV
+Sbjct  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+
+Query  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+            HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH
+Sbjct  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+
+
+> sp|Q9WWR4|CYOD_PSEPU Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Pseudomonas putida OX=303 GN=cyoD PE=3 SV=1
+Length=110
+
+ Score = 102 bits (253),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 53/106 (50%), Positives = 78/106 (74%), Gaps = 1/106 (1%)
+
+Query  2    SHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVH  61
+            +H T H G +HGSVK+YM GFILSIILT IPF + M+ +    + +  I+AMAV+QV+VH
+Sbjct  4    AHDTHHEG-NHGSVKSYMIGFILSIILTAIPFGLAMSPSLPKNLTVLIIVAMAVIQVVVH  62
+
+Query  62   LVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+            LV FLHM+   ++  N+  F+FT L+IA+LV  S+WIM+++++ M+
+Sbjct  63   LVYFLHMDRSKEQRNNVWTFLFTTLVIALLVGLSLWIMFSIHFEML  108
+
+
+> sp|Q9I424|CYOD_PSEAE Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 
+/ CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) 
+OX=208964 GN=cyoD PE=3 SV=1
+Length=111
+
+ Score = 87.4 bits (215),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 51/106 (48%), Positives = 77/106 (73%), Gaps = 0/106 (0%)
+
+Query  2    SHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVH  61
+            S + D+ GA HGS+ +Y  GF+LS+ILT IPF+MVM G  S    + T++ + +VQV+VH
+Sbjct  3    SAAHDNHGAGHGSLGSYAIGFVLSVILTAIPFYMVMDGGFSRHATILTMVVLGLVQVVVH  62
+
+Query  62   LVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+            L+CFLHMN  S+  WN+ AF+FTV++I ++V  S+WI+++ +  MM
+Sbjct  63   LICFLHMNMSSEGRWNVMAFIFTVIVILLVVGLSLWIIFSADMLMM  108
+
+
+> sp|Q8K996|CYOD_BUCAP Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Buchnera aphidicola subsp. Schizaphis graminum (strain 
+Sg) OX=198804 GN=cyoD PE=3 SV=2
+Length=108
+
+ Score = 67.4 bits (163),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 34/93 (37%), Positives = 62/93 (67%), Gaps = 0/93 (0%)
+
+Query  16   KTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEG  75
+            K+Y+ GF+ S+ LT+IPF+  +    S  +    IL  A+ Q+++H + FLH++      
+Sbjct  16   KSYIVGFLFSLFLTIIPFFCTLNHLFSRKINFFVILLCALSQIIIHFIYFLHLDFSKKNS  75
+
+Query  76   WNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMM  108
+            WN+ + +F ++I+ I+V GSIWIM+NLN+++++
+Sbjct  76   WNIISLLFILIIVFIIVFGSIWIMYNLNHHVIL  108
+
+
+> sp|P57541|CYOD_BUCAI Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Buchnera aphidicola subsp. Acyrthosiphon pisum (strain 
+APS) OX=107806 GN=cyoD PE=3 SV=1
+Length=105
+
+ Score = 55.8 bits (133),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 37/96 (39%), Positives = 60/96 (63%), Gaps = 0/96 (0%)
+
+Query  12   HGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTK  71
+            +  +K+Y+ GF+ S +LT +PF + +       V     L  A+ Q+++H V FLH++  
+Sbjct  10   NKEMKSYLLGFLFSSLLTTLPFLLAIEKFFCSEVNYIIFLLCAISQIIIHFVYFLHLSFD  69
+
+Query  72   SDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+             +E WN+   +F ++II I+V GSIWIM+NLN+N M
+Sbjct  70   PEERWNLITLLFVIIIIFIVVFGSIWIMFNLNHNTM  105
+
+
+> sp|E0TW64|QOX4_BACPZ Quinol oxidase subunit 4 OS=Bacillus subtilis 
+subsp. spizizenii (strain ATCC 23059 / NRRL B-14472 / 
+W23) OX=655816 GN=qoxD PE=1 SV=1
+Length=124
+
+ Score = 45.8 bits (107),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 25/83 (30%), Positives = 43/83 (52%), Gaps = 0/83 (0%)
+
+Query  17  TYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGW  76
+            ++ GF LSI+LT++  W+ +    S +  L  I   A +Q  + L+ F+HM    + G 
+Sbjct  14  KHIVGFALSIVLTLLALWVAVYTDLSSSAKLWIIFGFAFIQAALQLLMFMHMTESENGGI  73
+
+Query  77  NMTAFVFTVLIIAILVVGSIWIM  99
+            +   +F      ++V+GSIWI 
+Sbjct  74  QVGNTLFGFFGAIVIVLGSIWIF  96
+
+
+> sp|P34959|QOX4_BACSU Quinol oxidase subunit 4 OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=qoxD PE=3 SV=3
+Length=124
+
+ Score = 44.3 bits (103),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 25/83 (30%), Positives = 43/83 (52%), Gaps = 0/83 (0%)
+
+Query  17  TYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGW  76
+            ++ GFILSI+LT++  W+ +    S +  L  I   A +Q  + L+ F+HM    +   
+Sbjct  14  KHIVGFILSIVLTLLALWVAVYTDLSSSAKLWIIFGFAFIQAALQLLMFMHMTESENGTI  73
+
+Query  77  NMTAFVFTVLIIAILVVGSIWIM  99
+            +   +F      ++V+GSIWI 
+Sbjct  74  QVGNTLFGFFGAIVIVLGSIWIF  96
+
+
+> sp|Q89AA6|CYOD_BUCBP Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Buchnera aphidicola subsp. Baizongia pistaciae (strain 
+Bp) OX=224915 GN=cyoD PE=3 SV=1
+Length=100
+
+ Score = 42.7 bits (99),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 19/75 (25%), Positives = 44/75 (59%), Gaps = 0/75 (0%)
+
+Query  32   PFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGWNMTAFVFTVLIIAIL  91
+            P + ++    S   +   I+     Q+L H+  FL+++   ++ W + + +F++++  I+
+Sbjct  23   PIFAIIYRIFSRNYLYAFIIVCLFFQILAHIKFFLNLDFSLEQRWKLISVIFSLVVGLII  82
+
+Query  92   VVGSIWIMWNLNYNM  106
+            ++GSIW++ NLN N+
+Sbjct  83   LLGSIWVIKNLNNNL  97
+
+
+> sp|Q49WI1|QOX4_STAS1 Probable quinol oxidase subunit 4 OS=Staphylococcus 
+saprophyticus subsp. saprophyticus (strain ATCC 
+15305 / DSM 20229) OX=342451 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 41.6 bits (96),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 22/79 (28%), Positives = 41/79 (52%), Gaps = 0/79 (0%)
+
+Query  21  GFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGWNMTA  80
+           GFI SI+LT++  ++ +  + +    +  I   A +Q  V L+ F+H+    D       
+Sbjct  10  GFIASIVLTILAVFVTLYTSMALNAKITIIFGFAFIQAAVQLLMFMHLTESKDGNLQTFK  69
+
+Query  81  FVFTVLIIAILVVGSIWIM  99
+            +F ++I  I V+G+ W+M
+Sbjct  70  VLFAIIITLITVIGTYWVM  88
+
+
+> sp|Q7A184|QOX4_STAAW Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain MW2) OX=196620 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 40.0 bits (92),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 40/81 (49%), Gaps = 0/81 (0%)
+
+Query  21   GFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGWNMTA  80
+            GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D       
+Sbjct  10   GFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKDGRLQTFK  69
+
+Query  81   FVFTVLIIAILVVGSIWIMWN  101
+             +F ++I    VVG+ W+M  
+Sbjct  70   VIFALVITLCFVVGTYWVMQG  90
+
+
+> sp|Q6GAF5|QOX4_STAAS Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain MSSA476) OX=282459 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 40.0 bits (92),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 40/81 (49%), Gaps = 0/81 (0%)
+
+Query  21   GFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGWNMTA  80
+            GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D       
+Sbjct  10   GFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKDGRLQTFK  69
+
+Query  81   FVFTVLIIAILVVGSIWIMWN  101
+             +F ++I    VVG+ W+M  
+Sbjct  70   VIFALVITLCFVVGTYWVMQG  90
+
+
+> sp|Q7A6A1|QOX4_STAAN Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain N315) OX=158879 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 40.0 bits (92),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 40/81 (49%), Gaps = 0/81 (0%)
+
+Query  21   GFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGWNMTA  80
+            GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D       
+Sbjct  10   GFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKDGRLQTFK  69
+
+Query  81   FVFTVLIIAILVVGSIWIMWN  101
+             +F ++I    VVG+ W+M  
+Sbjct  70   VIFALVITLCFVVGTYWVMQG  90
+
+
+> sp|Q99V39|QOX4_STAAM Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain Mu50 / ATCC 700699) OX=158878 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 40.0 bits (92),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 40/81 (49%), Gaps = 0/81 (0%)
+
+Query  21   GFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGWNMTA  80
+            GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D       
+Sbjct  10   GFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKDGRLQTFK  69
+
+Query  81   FVFTVLIIAILVVGSIWIMWN  101
+             +F ++I    VVG+ W+M  
+Sbjct  70   VIFALVITLCFVVGTYWVMQG  90
+
+
+> sp|Q5HH26|QOX4_STAAC Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain COL) OX=93062 GN=qoxD PE=3 SV=2
+Length=96
+
+ Score = 40.0 bits (92),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 40/81 (49%), Gaps = 0/81 (0%)
+
+Query  21   GFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGWNMTA  80
+            GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D       
+Sbjct  10   GFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKDGRLQTFK  69
+
+Query  81   FVFTVLIIAILVVGSIWIMWN  101
+             +F ++I    VVG+ W+M  
+Sbjct  70   VIFALVITLCFVVGTYWVMQG  90
+
+
+> sp|Q2YX17|QOX4_STAAB Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain bovine RF122 / ET3-1) OX=273036 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 40.0 bits (92),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 40/81 (49%), Gaps = 0/81 (0%)
+
+Query  21   GFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGWNMTA  80
+            GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D       
+Sbjct  10   GFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKDGRLQTFK  69
+
+Query  81   FVFTVLIIAILVVGSIWIMWN  101
+             +F ++I    VVG+ W+M  
+Sbjct  70   VIFALVITLCFVVGTYWVMQG  90
+
+
+> sp|Q2FZK2|QOX4_STAA8 Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain NCTC 8325) OX=93061 GN=qoxD PE=3 
+SV=2
+Length=96
+
+ Score = 40.0 bits (92),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 40/81 (49%), Gaps = 0/81 (0%)
+
+Query  21   GFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGWNMTA  80
+            GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D       
+Sbjct  10   GFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKDGRLQTFK  69
+
+Query  81   FVFTVLIIAILVVGSIWIMWN  101
+             +F ++I    VVG+ W+M  
+Sbjct  70   VIFALVITLCFVVGTYWVMQG  90
+
+
+> sp|Q2FI20|QOX4_STAA3 Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain USA300) OX=367830 GN=qoxD PE=3 SV=2
+Length=96
+
+ Score = 40.0 bits (92),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 40/81 (49%), Gaps = 0/81 (0%)
+
+Query  21   GFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGWNMTA  80
+            GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D       
+Sbjct  10   GFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKDGRLQTFK  69
+
+Query  81   FVFTVLIIAILVVGSIWIMWN  101
+             +F ++I    VVG+ W+M  
+Sbjct  70   VIFALVITLCFVVGTYWVMQG  90
+
+
+> sp|Q6GI26|QOX4_STAAR Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain MRSA252) OX=282458 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 39.3 bits (90),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 40/81 (49%), Gaps = 0/81 (0%)
+
+Query  21   GFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGWNMTA  80
+            GFI SI+LT++  ++ +  + +    L  I   A +Q  + L+ F+H+    D       
+Sbjct  10   GFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFIQAGLQLLMFMHLTEGKDGRLQTFK  69
+
+Query  81   FVFTVLIIAILVVGSIWIMWN  101
+             +F ++I    VVG+ W+M  
+Sbjct  70   VIFALVITLCFVVGTYWVMQG  90
+
+
+> sp|Q4L562|QOX4_STAHJ Probable quinol oxidase subunit 4 OS=Staphylococcus 
+haemolyticus (strain JCSC1435) OX=279808 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 38.9 bits (89),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 25/83 (30%), Positives = 42/83 (51%), Gaps = 8/83 (10%)
+
+Query  21  GFILSIILTVIPFWMV----MTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGW  76
+           GFI SI+LT++  ++     MT  A   +I G     A +Q  V L+ F+H+    D   
+Sbjct  10  GFIASIVLTLLAVFVTLYTNMTFHAKTTIIFG----FAFIQAAVQLLMFMHLTEGKDGQV  65
+
+Query  77  NMTAFVFTVLIIAILVVGSIWIM  99
+                +F ++I  + V+G+ W+M
+Sbjct  66  QSFKVIFAIIITLVTVIGTYWVM  88
+
+
+> sp|Q04452|COX4_BACPE Cytochrome c oxidase subunit 4B OS=Bacillus 
+pseudofirmus (strain OF4) OX=398511 GN=ctaF PE=3 SV=2
+Length=114
+
+ Score = 38.5 bits (88),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 51/110 (46%), Gaps = 9/110 (8%)
+
+Query  1    MSHSTDHSGASH-------GSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAM  53
+            +S S D S  +          ++  +  F L I LT++ F  V T     +  +  I  +
+Sbjct  5    LSQSFDKSAMTEEERRHIKKEIRKQIVVFALMIFLTLMSFMAVATDVIPRSFAIPFIFIL  64
+
+Query  54   AVVQVLVHLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+            AV+Q  + L  F+HM  K D GW   AF+ + + I +  + ++ ++  +N
+Sbjct  65   AVIQFALQLFFFMHMKDK-DHGWA-NAFMISGIFITVPTIAALMLLLGVN  112
+
+
+> sp|Q8CPP9|QOX4_STAES Probable quinol oxidase subunit 4 OS=Staphylococcus 
+epidermidis (strain ATCC 12228) OX=176280 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 37.7 bits (86),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 42/83 (51%), Gaps = 8/83 (10%)
+
+Query  21  GFILSIILTVIPFWMV----MTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGW  76
+           GFI SI+LT++  ++     MT  A   +I G     A +Q  + L+ F+H+    D   
+Sbjct  10  GFIASIVLTLLAVFVTLYTNMTFHAKVTIIFG----FAFIQAALQLLMFMHLTEGKDGRL  65
+
+Query  77  NMTAFVFTVLIIAILVVGSIWIM  99
+                +F ++I  + V+G+ W+M
+Sbjct  66  QSFKVIFAIIITLVTVIGTYWVM  88
+
+
+> sp|Q5HQB2|QOX4_STAEQ Probable quinol oxidase subunit 4 OS=Staphylococcus 
+epidermidis (strain ATCC 35984 / RP62A) OX=176279 
+GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 37.7 bits (86),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 42/83 (51%), Gaps = 8/83 (10%)
+
+Query  21  GFILSIILTVIPFWMV----MTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGW  76
+           GFI SI+LT++  ++     MT  A   +I G     A +Q  + L+ F+H+    D   
+Sbjct  10  GFIASIVLTLLAVFVTLYTNMTFHAKVTIIFG----FAFIQAALQLLMFMHLTEGKDGRL  65
+
+Query  77  NMTAFVFTVLIIAILVVGSIWIM  99
+                +F ++I  + V+G+ W+M
+Sbjct  66  QSFKVIFAIIITLVTVIGTYWVM  88
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.136    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5016855328
+Results from round 2
+
+
+Query= CYOD_ECOLI
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0ABJ8|CYOD_SHIFL Cytochrome bo(3) ubiquinol oxidase subunit...  95.4    1e-24
+  sp|P0ABJ6|CYOD_ECOLI Cytochrome bo(3) ubiquinol oxidase subunit...  95.4    1e-24
+  sp|P0ABJ7|CYOD_ECO57 Cytochrome bo(3) ubiquinol oxidase subunit...  95.4    1e-24
+  sp|Q9WWR4|CYOD_PSEPU Cytochrome bo(3) ubiquinol oxidase subunit...  84.6    2e-20
+  sp|E0TW64|QOX4_BACPZ Quinol oxidase subunit 4 OS=Bacillus subti...  79.6    2e-18
+  sp|P34959|QOX4_BACSU Quinol oxidase subunit 4 OS=Bacillus subti...  78.1    8e-18
+  sp|Q9I424|CYOD_PSEAE Cytochrome bo(3) ubiquinol oxidase subunit...  77.3    1e-17
+  sp|Q8K996|CYOD_BUCAP Cytochrome bo(3) ubiquinol oxidase subunit...  73.4    3e-16
+  sp|Q7A184|QOX4_STAAW Probable quinol oxidase subunit 4 OS=Staph...  67.3    5e-14
+  sp|Q6GAF5|QOX4_STAAS Probable quinol oxidase subunit 4 OS=Staph...  67.3    5e-14
+  sp|Q7A6A1|QOX4_STAAN Probable quinol oxidase subunit 4 OS=Staph...  67.3    5e-14
+  sp|Q99V39|QOX4_STAAM Probable quinol oxidase subunit 4 OS=Staph...  67.3    5e-14
+  sp|Q5HH26|QOX4_STAAC Probable quinol oxidase subunit 4 OS=Staph...  67.3    5e-14
+  sp|Q2YX17|QOX4_STAAB Probable quinol oxidase subunit 4 OS=Staph...  67.3    5e-14
+  sp|Q2FZK2|QOX4_STAA8 Probable quinol oxidase subunit 4 OS=Staph...  67.3    5e-14
+  sp|Q2FI20|QOX4_STAA3 Probable quinol oxidase subunit 4 OS=Staph...  67.3    5e-14
+  sp|Q6GI26|QOX4_STAAR Probable quinol oxidase subunit 4 OS=Staph...  66.9    6e-14
+  sp|Q8CPP9|QOX4_STAES Probable quinol oxidase subunit 4 OS=Staph...  65.0    3e-13
+  sp|Q5HQB2|QOX4_STAEQ Probable quinol oxidase subunit 4 OS=Staph...  65.0    3e-13
+  sp|Q04452|COX4_BACPE Cytochrome c oxidase subunit 4B OS=Bacillu...  65.0    5e-13
+  sp|Q4L562|QOX4_STAHJ Probable quinol oxidase subunit 4 OS=Staph...  64.6    5e-13
+  sp|Q49WI1|QOX4_STAS1 Probable quinol oxidase subunit 4 OS=Staph...  63.8    8e-13
+  sp|P57541|CYOD_BUCAI Cytochrome bo(3) ubiquinol oxidase subunit...  63.8    1e-12
+  sp|Q89AA6|CYOD_BUCBP Cytochrome bo(3) ubiquinol oxidase subunit...  58.4    9e-11
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q03440|COX4_BACP3 Cytochrome c oxidase subunit 4B OS=Bacillu...  42.6    4e-05
+  sp|P24013|COX4_BACSU Cytochrome c oxidase subunit 4B OS=Bacillu...  41.1    1e-04
+
+
+> sp|P0ABJ8|CYOD_SHIFL Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Shigella flexneri OX=623 GN=cyoD PE=3 SV=1
+Length=109
+
+ Score = 95.4 bits (236),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+            MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV
+Sbjct  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+
+Query  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+            HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH
+Sbjct  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+
+
+> sp|P0ABJ6|CYOD_ECOLI Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Escherichia coli (strain K12) OX=83333 GN=cyoD PE=1 
+SV=1
+Length=109
+
+ Score = 95.4 bits (236),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+            MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV
+Sbjct  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+
+Query  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+            HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH
+Sbjct  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+
+
+> sp|P0ABJ7|CYOD_ECO57 Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Escherichia coli O157:H7 OX=83334 GN=cyoD PE=3 SV=1
+Length=109
+
+ Score = 95.4 bits (236),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+            MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV
+Sbjct  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+
+Query  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+            HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH
+Sbjct  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+
+
+> sp|Q9WWR4|CYOD_PSEPU Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Pseudomonas putida OX=303 GN=cyoD PE=3 SV=1
+Length=110
+
+ Score = 84.6 bits (208),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 53/106 (50%), Positives = 78/106 (74%), Gaps = 1/106 (1%)
+
+Query  2    SHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVH  61
+            +H T H G +HGSVK+YM GFILSIILT IPF + M+ +    + +  I+AMAV+QV+VH
+Sbjct  4    AHDTHHEG-NHGSVKSYMIGFILSIILTAIPFGLAMSPSLPKNLTVLIIVAMAVIQVVVH  62
+
+Query  62   LVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+            LV FLHM+   ++  N+  F+FT L+IA+LV  S+WIM+++++ M+
+Sbjct  63   LVYFLHMDRSKEQRNNVWTFLFTTLVIALLVGLSLWIMFSIHFEML  108
+
+
+> sp|E0TW64|QOX4_BACPZ Quinol oxidase subunit 4 OS=Bacillus subtilis 
+subsp. spizizenii (strain ATCC 23059 / NRRL B-14472 / 
+W23) OX=655816 GN=qoxD PE=1 SV=1
+Length=124
+
+ Score = 79.6 bits (195),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 25/89 (28%), Positives = 45/89 (51%), Gaps = 0/89 (0%)
+
+Query  17   TYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGW  76
+             ++ GF LSI+LT++  W+ +    S +  L  I   A +Q  + L+ F+HM    + G 
+Sbjct  14   KHIVGFALSIVLTLLALWVAVYTDLSSSAKLWIIFGFAFIQAALQLLMFMHMTESENGGI  73
+
+Query  77   NMTAFVFTVLIIAILVVGSIWIMWNLNYN  105
+             +   +F      ++V+GSIWI     ++
+Sbjct  74   QVGNTLFGFFGAIVIVLGSIWIFAAHYHH  102
+
+
+> sp|P34959|QOX4_BACSU Quinol oxidase subunit 4 OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=qoxD PE=3 SV=3
+Length=124
+
+ Score = 78.1 bits (191),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 25/89 (28%), Positives = 45/89 (51%), Gaps = 0/89 (0%)
+
+Query  17   TYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGW  76
+             ++ GFILSI+LT++  W+ +    S +  L  I   A +Q  + L+ F+HM    +   
+Sbjct  14   KHIVGFILSIVLTLLALWVAVYTDLSSSAKLWIIFGFAFIQAALQLLMFMHMTESENGTI  73
+
+Query  77   NMTAFVFTVLIIAILVVGSIWIMWNLNYN  105
+             +   +F      ++V+GSIWI     ++
+Sbjct  74   QVGNTLFGFFGAIVIVLGSIWIFAAHYHH  102
+
+
+> sp|Q9I424|CYOD_PSEAE Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 
+/ CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) 
+OX=208964 GN=cyoD PE=3 SV=1
+Length=111
+
+ Score = 77.3 bits (189),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 51/106 (48%), Positives = 77/106 (73%), Gaps = 0/106 (0%)
+
+Query  2    SHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVH  61
+            S + D+ GA HGS+ +Y  GF+LS+ILT IPF+MVM G  S    + T++ + +VQV+VH
+Sbjct  3    SAAHDNHGAGHGSLGSYAIGFVLSVILTAIPFYMVMDGGFSRHATILTMVVLGLVQVVVH  62
+
+Query  62   LVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+            L+CFLHMN  S+  WN+ AF+FTV++I ++V  S+WI+++ +  MM
+Sbjct  63   LICFLHMNMSSEGRWNVMAFIFTVIVILLVVGLSLWIIFSADMLMM  108
+
+
+> sp|Q8K996|CYOD_BUCAP Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Buchnera aphidicola subsp. Schizaphis graminum (strain 
+Sg) OX=198804 GN=cyoD PE=3 SV=2
+Length=108
+
+ Score = 73.4 bits (179),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 34/97 (35%), Positives = 62/97 (64%), Gaps = 0/97 (0%)
+
+Query  12   HGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTK  71
+                K+Y+ GF+ S+ LT+IPF+  +    S  +    IL  A+ Q+++H + FLH++  
+Sbjct  12   DKEKKSYIVGFLFSLFLTIIPFFCTLNHLFSRKINFFVILLCALSQIIIHFIYFLHLDFS  71
+
+Query  72   SDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMM  108
+                WN+ + +F ++I+ I+V GSIWIM+NLN+++++
+Sbjct  72   KKNSWNIISLLFILIIVFIIVFGSIWIMYNLNHHVIL  108
+
+
+> sp|Q7A184|QOX4_STAAW Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain MW2) OX=196620 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 67.3 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 23/90 (26%), Positives = 44/90 (49%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I    VVG+ W+M   +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGH  92
+
+
+> sp|Q6GAF5|QOX4_STAAS Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain MSSA476) OX=282459 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 67.3 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 23/90 (26%), Positives = 44/90 (49%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I    VVG+ W+M   +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGH  92
+
+
+> sp|Q7A6A1|QOX4_STAAN Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain N315) OX=158879 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 67.3 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 23/90 (26%), Positives = 44/90 (49%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I    VVG+ W+M   +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGH  92
+
+
+> sp|Q99V39|QOX4_STAAM Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain Mu50 / ATCC 700699) OX=158878 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 67.3 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 23/90 (26%), Positives = 44/90 (49%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I    VVG+ W+M   +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGH  92
+
+
+> sp|Q5HH26|QOX4_STAAC Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain COL) OX=93062 GN=qoxD PE=3 SV=2
+Length=96
+
+ Score = 67.3 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 23/90 (26%), Positives = 44/90 (49%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I    VVG+ W+M   +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGH  92
+
+
+> sp|Q2YX17|QOX4_STAAB Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain bovine RF122 / ET3-1) OX=273036 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 67.3 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 23/90 (26%), Positives = 44/90 (49%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I    VVG+ W+M   +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGH  92
+
+
+> sp|Q2FZK2|QOX4_STAA8 Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain NCTC 8325) OX=93061 GN=qoxD PE=3 
+SV=2
+Length=96
+
+ Score = 67.3 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 23/90 (26%), Positives = 44/90 (49%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I    VVG+ W+M   +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGH  92
+
+
+> sp|Q2FI20|QOX4_STAA3 Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain USA300) OX=367830 GN=qoxD PE=3 SV=2
+Length=96
+
+ Score = 67.3 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 23/90 (26%), Positives = 44/90 (49%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I    VVG+ W+M   +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGH  92
+
+
+> sp|Q6GI26|QOX4_STAAR Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain MRSA252) OX=282458 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 66.9 bits (162),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 22/90 (24%), Positives = 44/90 (49%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A +Q  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFIQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I    VVG+ W+M   +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGH  92
+
+
+> sp|Q8CPP9|QOX4_STAES Probable quinol oxidase subunit 4 OS=Staphylococcus 
+epidermidis (strain ATCC 12228) OX=176280 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 65.0 bits (157),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 20/90 (22%), Positives = 44/90 (49%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +    +    +  I   A +Q  + L+ F+H+    D
+Sbjct  3    TIVKHTVGFIASIVLTLLAVFVTLYTNMTFHAKVTIIFGFAFIQAALQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I  + V+G+ W+M   +
+Sbjct  63   GRLQSFKVIFAIIITLVTVIGTYWVMQGGH  92
+
+
+> sp|Q5HQB2|QOX4_STAEQ Probable quinol oxidase subunit 4 OS=Staphylococcus 
+epidermidis (strain ATCC 35984 / RP62A) OX=176279 
+GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 65.0 bits (157),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 20/90 (22%), Positives = 44/90 (49%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +    +    +  I   A +Q  + L+ F+H+    D
+Sbjct  3    TIVKHTVGFIASIVLTLLAVFVTLYTNMTFHAKVTIIFGFAFIQAALQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I  + V+G+ W+M   +
+Sbjct  63   GRLQSFKVIFAIIITLVTVIGTYWVMQGGH  92
+
+
+> sp|Q04452|COX4_BACPE Cytochrome c oxidase subunit 4B OS=Bacillus 
+pseudofirmus (strain OF4) OX=398511 GN=ctaF PE=3 SV=2
+Length=114
+
+ Score = 65.0 bits (157),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 50/110 (45%), Gaps = 9/110 (8%)
+
+Query  1    MSHSTDHSGASH-------GSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAM  53
+            +S S D S  +          ++  +  F L I LT++ F  V T     +  +  I  +
+Sbjct  5    LSQSFDKSAMTEEERRHIKKEIRKQIVVFALMIFLTLMSFMAVATDVIPRSFAIPFIFIL  64
+
+Query  54   AVVQVLVHLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+            AV+Q  + L  F+HM    D GW   AF+ + + I +  + ++ ++  +N
+Sbjct  65   AVIQFALQLFFFMHMKD-KDHGWA-NAFMISGIFITVPTIAALMLLLGVN  112
+
+
+> sp|Q4L562|QOX4_STAHJ Probable quinol oxidase subunit 4 OS=Staphylococcus 
+haemolyticus (strain JCSC1435) OX=279808 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 64.6 bits (156),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 21/94 (22%), Positives = 45/94 (48%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +    +       I   A +Q  V L+ F+H+    D
+Sbjct  3    TIVKHTVGFIASIVLTLLAVFVTLYTNMTFHAKTTIIFGFAFIQAAVQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I  + V+G+ W+M   + + +
+Sbjct  63   GQVQSFKVIFAIIITLVTVIGTYWVMQGGHSHHL  96
+
+
+> sp|Q49WI1|QOX4_STAS1 Probable quinol oxidase subunit 4 OS=Staphylococcus 
+saprophyticus subsp. saprophyticus (strain ATCC 
+15305 / DSM 20229) OX=342451 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 63.8 bits (154),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 22/90 (24%), Positives = 45/90 (50%), Gaps = 0/90 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    +  I   A +Q  V L+ F+H+    D
+Sbjct  3    TIVKHTVGFIASIVLTILAVFVTLYTSMALNAKITIIFGFAFIQAAVQLLMFMHLTESKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+                    +F ++I  I V+G+ W+M   +
+Sbjct  63   GNLQTFKVLFAIIITLITVIGTYWVMQGGH  92
+
+
+> sp|P57541|CYOD_BUCAI Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Buchnera aphidicola subsp. Acyrthosiphon pisum (strain 
+APS) OX=107806 GN=cyoD PE=3 SV=1
+Length=105
+
+ Score = 63.8 bits (154),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 37/96 (39%), Positives = 60/96 (63%), Gaps = 0/96 (0%)
+
+Query  12   HGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTK  71
+            +  +K+Y+ GF+ S +LT +PF + +       V     L  A+ Q+++H V FLH++  
+Sbjct  10   NKEMKSYLLGFLFSSLLTTLPFLLAIEKFFCSEVNYIIFLLCAISQIIIHFVYFLHLSFD  69
+
+Query  72   SDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+             +E WN+   +F ++II I+V GSIWIM+NLN+N M
+Sbjct  70   PEERWNLITLLFVIIIIFIVVFGSIWIMFNLNHNTM  105
+
+
+> sp|Q89AA6|CYOD_BUCBP Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Buchnera aphidicola subsp. Baizongia pistaciae (strain 
+Bp) OX=224915 GN=cyoD PE=3 SV=1
+Length=100
+
+ Score = 58.4 bits (140),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 24/90 (27%), Positives = 53/90 (59%), Gaps = 0/90 (0%)
+
+Query  17   TYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGW  76
+             Y+   IL  IL+++P + ++    S   +   I+     Q+L H+  FL+++   ++ W
+Sbjct  8    KYLFILILLSILSIMPIFAIIYRIFSRNYLYAFIIVCLFFQILAHIKFFLNLDFSLEQRW  67
+
+Query  77   NMTAFVFTVLIIAILVVGSIWIMWNLNYNM  106
+             + + +F++++  I+++GSIW++ NLN N+
+Sbjct  68   KLISVIFSLVVGLIILLGSIWVIKNLNNNL  97
+
+
+> sp|Q03440|COX4_BACP3 Cytochrome c oxidase subunit 4B OS=Bacillus 
+sp. (strain PS3) OX=2334 GN=caaD PE=1 SV=2
+Length=110
+
+ Score = 42.6 bits (99),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 32/61 (52%), Gaps = 0/61 (0%)
+
+Query  11  SHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNT  70
+           +   ++  M  F+L I+LT+I F  V     S   ++  IL +A VQV   L  F+HM+ 
+Sbjct  21  NAEEMRHQMIAFVLMILLTLIAFAAVGYEEFSHWFVVPFILLLAAVQVAFQLYYFMHMSH  80
+
+Query  71  K  71
+           K
+Sbjct  81  K  81
+
+
+> sp|P24013|COX4_BACSU Cytochrome c oxidase subunit 4B OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ctaF PE=3 SV=1
+Length=110
+
+ Score = 41.1 bits (95),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 25/88 (28%), Positives = 40/88 (45%), Gaps = 1/88 (1%)
+
+Query  13   GSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKS  72
+              +K  +  F L I LT++ F  V T        +  I+ +A +QV+  L  F+HMN K 
+Sbjct  23   REMKYQVLSFGLMIGLTIVAFLTVATDGVGSWFTIPFIILLAAIQVIFQLYYFMHMNQKG  82
+
+Query  73   DEGWNMTAFVFTVLIIAILVVGSIWIMW  100
+             E   +      V +  I V+  + I+W
+Sbjct  83   HEAPALF-LYSGVFVAFITVLAFVTIIW  109
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.146    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0447    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5016855328
+Results from round 3
+
+
+Query= CYOD_ECOLI
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0ABJ8|CYOD_SHIFL Cytochrome bo(3) ubiquinol oxidase subunit...  89.6    2e-22
+  sp|P0ABJ6|CYOD_ECOLI Cytochrome bo(3) ubiquinol oxidase subunit...  89.6    2e-22
+  sp|P0ABJ7|CYOD_ECO57 Cytochrome bo(3) ubiquinol oxidase subunit...  89.6    2e-22
+  sp|Q9WWR4|CYOD_PSEPU Cytochrome bo(3) ubiquinol oxidase subunit...  78.8    3e-18
+  sp|E0TW64|QOX4_BACPZ Quinol oxidase subunit 4 OS=Bacillus subti...  76.9    2e-17
+  sp|P34959|QOX4_BACSU Quinol oxidase subunit 4 OS=Bacillus subti...  75.3    7e-17
+  sp|Q9I424|CYOD_PSEAE Cytochrome bo(3) ubiquinol oxidase subunit...  73.0    5e-16
+  sp|Q8K996|CYOD_BUCAP Cytochrome bo(3) ubiquinol oxidase subunit...  70.7    3e-15
+  sp|Q7A184|QOX4_STAAW Probable quinol oxidase subunit 4 OS=Staph...  67.6    4e-14
+  sp|Q6GAF5|QOX4_STAAS Probable quinol oxidase subunit 4 OS=Staph...  67.6    4e-14
+  sp|Q7A6A1|QOX4_STAAN Probable quinol oxidase subunit 4 OS=Staph...  67.6    4e-14
+  sp|Q99V39|QOX4_STAAM Probable quinol oxidase subunit 4 OS=Staph...  67.6    4e-14
+  sp|Q5HH26|QOX4_STAAC Probable quinol oxidase subunit 4 OS=Staph...  67.6    4e-14
+  sp|Q2YX17|QOX4_STAAB Probable quinol oxidase subunit 4 OS=Staph...  67.6    4e-14
+  sp|Q2FZK2|QOX4_STAA8 Probable quinol oxidase subunit 4 OS=Staph...  67.6    4e-14
+  sp|Q2FI20|QOX4_STAA3 Probable quinol oxidase subunit 4 OS=Staph...  67.6    4e-14
+  sp|Q8CPP9|QOX4_STAES Probable quinol oxidase subunit 4 OS=Staph...  67.3    5e-14
+  sp|Q5HQB2|QOX4_STAEQ Probable quinol oxidase subunit 4 OS=Staph...  67.3    5e-14
+  sp|Q6GI26|QOX4_STAAR Probable quinol oxidase subunit 4 OS=Staph...  67.3    5e-14
+  sp|Q4L562|QOX4_STAHJ Probable quinol oxidase subunit 4 OS=Staph...  66.9    6e-14
+  sp|Q49WI1|QOX4_STAS1 Probable quinol oxidase subunit 4 OS=Staph...  65.3    2e-13
+  sp|P24013|COX4_BACSU Cytochrome c oxidase subunit 4B OS=Bacillu...  63.8    1e-12
+  sp|P57541|CYOD_BUCAI Cytochrome bo(3) ubiquinol oxidase subunit...  62.6    3e-12
+  sp|Q04452|COX4_BACPE Cytochrome c oxidase subunit 4B OS=Bacillu...  61.1    1e-11
+  sp|Q03440|COX4_BACP3 Cytochrome c oxidase subunit 4B OS=Bacillu...  60.3    2e-11
+  sp|Q89AA6|CYOD_BUCBP Cytochrome bo(3) ubiquinol oxidase subunit...  58.8    6e-11
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P0ABJ8|CYOD_SHIFL Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Shigella flexneri OX=623 GN=cyoD PE=3 SV=1
+Length=109
+
+ Score = 89.6 bits (221),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+            MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV
+Sbjct  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+
+Query  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+            HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH
+Sbjct  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+
+
+> sp|P0ABJ6|CYOD_ECOLI Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Escherichia coli (strain K12) OX=83333 GN=cyoD PE=1 
+SV=1
+Length=109
+
+ Score = 89.6 bits (221),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+            MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV
+Sbjct  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+
+Query  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+            HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH
+Sbjct  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+
+
+> sp|P0ABJ7|CYOD_ECO57 Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Escherichia coli O157:H7 OX=83334 GN=cyoD PE=3 SV=1
+Length=109
+
+ Score = 89.6 bits (221),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+            MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV
+Sbjct  1    MSHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLV  60
+
+Query  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+            HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH
+Sbjct  61   HLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMMH  109
+
+
+> sp|Q9WWR4|CYOD_PSEPU Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Pseudomonas putida OX=303 GN=cyoD PE=3 SV=1
+Length=110
+
+ Score = 78.8 bits (193),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 53/106 (50%), Positives = 78/106 (74%), Gaps = 1/106 (1%)
+
+Query  2    SHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVH  61
+            +H T H G +HGSVK+YM GFILSIILT IPF + M+ +    + +  I+AMAV+QV+VH
+Sbjct  4    AHDTHHEG-NHGSVKSYMIGFILSIILTAIPFGLAMSPSLPKNLTVLIIVAMAVIQVVVH  62
+
+Query  62   LVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+            LV FLHM+   ++  N+  F+FT L+IA+LV  S+WIM+++++ M+
+Sbjct  63   LVYFLHMDRSKEQRNNVWTFLFTTLVIALLVGLSLWIMFSIHFEML  108
+
+
+> sp|E0TW64|QOX4_BACPZ Quinol oxidase subunit 4 OS=Bacillus subtilis 
+subsp. spizizenii (strain ATCC 23059 / NRRL B-14472 / 
+W23) OX=655816 GN=qoxD PE=1 SV=1
+Length=124
+
+ Score = 76.9 bits (188),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 25/89 (28%), Positives = 45/89 (51%), Gaps = 0/89 (0%)
+
+Query  17   TYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGW  76
+             ++ GF LSI+LT++  W+ +    S +  L  I   A +Q  + L+ F+HM    + G 
+Sbjct  14   KHIVGFALSIVLTLLALWVAVYTDLSSSAKLWIIFGFAFIQAALQLLMFMHMTESENGGI  73
+
+Query  77   NMTAFVFTVLIIAILVVGSIWIMWNLNYN  105
+             +   +F      ++V+GSIWI     ++
+Sbjct  74   QVGNTLFGFFGAIVIVLGSIWIFAAHYHH  102
+
+
+> sp|P34959|QOX4_BACSU Quinol oxidase subunit 4 OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=qoxD PE=3 SV=3
+Length=124
+
+ Score = 75.3 bits (184),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 25/89 (28%), Positives = 45/89 (51%), Gaps = 0/89 (0%)
+
+Query  17   TYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGW  76
+             ++ GFILSI+LT++  W+ +    S +  L  I   A +Q  + L+ F+HM    +   
+Sbjct  14   KHIVGFILSIVLTLLALWVAVYTDLSSSAKLWIIFGFAFIQAALQLLMFMHMTESENGTI  73
+
+Query  77   NMTAFVFTVLIIAILVVGSIWIMWNLNYN  105
+             +   +F      ++V+GSIWI     ++
+Sbjct  74   QVGNTLFGFFGAIVIVLGSIWIFAAHYHH  102
+
+
+> sp|Q9I424|CYOD_PSEAE Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 
+/ CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) 
+OX=208964 GN=cyoD PE=3 SV=1
+Length=111
+
+ Score = 73.0 bits (178),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 51/106 (48%), Positives = 77/106 (73%), Gaps = 0/106 (0%)
+
+Query  2    SHSTDHSGASHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVH  61
+            S + D+ GA HGS+ +Y  GF+LS+ILT IPF+MVM G  S    + T++ + +VQV+VH
+Sbjct  3    SAAHDNHGAGHGSLGSYAIGFVLSVILTAIPFYMVMDGGFSRHATILTMVVLGLVQVVVH  62
+
+Query  62   LVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+            L+CFLHMN  S+  WN+ AF+FTV++I ++V  S+WI+++ +  MM
+Sbjct  63   LICFLHMNMSSEGRWNVMAFIFTVIVILLVVGLSLWIIFSADMLMM  108
+
+
+> sp|Q8K996|CYOD_BUCAP Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Buchnera aphidicola subsp. Schizaphis graminum (strain 
+Sg) OX=198804 GN=cyoD PE=3 SV=2
+Length=108
+
+ Score = 70.7 bits (172),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 34/97 (35%), Positives = 62/97 (64%), Gaps = 0/97 (0%)
+
+Query  12   HGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTK  71
+                K+Y+ GF+ S+ LT+IPF+  +    S  +    IL  A+ Q+++H + FLH++  
+Sbjct  12   DKEKKSYIVGFLFSLFLTIIPFFCTLNHLFSRKINFFVILLCALSQIIIHFIYFLHLDFS  71
+
+Query  72   SDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMMM  108
+                WN+ + +F ++I+ I+V GSIWIM+NLN+++++
+Sbjct  72   KKNSWNIISLLFILIIVFIIVFGSIWIMYNLNHHVIL  108
+
+
+> sp|Q7A184|QOX4_STAAW Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain MW2) OX=196620 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 67.6 bits (164),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I    VVG+ W+M   + + +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGHSSHL  96
+
+
+> sp|Q6GAF5|QOX4_STAAS Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain MSSA476) OX=282459 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 67.6 bits (164),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I    VVG+ W+M   + + +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGHSSHL  96
+
+
+> sp|Q7A6A1|QOX4_STAAN Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain N315) OX=158879 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 67.6 bits (164),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I    VVG+ W+M   + + +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGHSSHL  96
+
+
+> sp|Q99V39|QOX4_STAAM Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain Mu50 / ATCC 700699) OX=158878 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 67.6 bits (164),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I    VVG+ W+M   + + +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGHSSHL  96
+
+
+> sp|Q5HH26|QOX4_STAAC Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain COL) OX=93062 GN=qoxD PE=3 SV=2
+Length=96
+
+ Score = 67.6 bits (164),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I    VVG+ W+M   + + +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGHSSHL  96
+
+
+> sp|Q2YX17|QOX4_STAAB Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain bovine RF122 / ET3-1) OX=273036 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 67.6 bits (164),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I    VVG+ W+M   + + +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGHSSHL  96
+
+
+> sp|Q2FZK2|QOX4_STAA8 Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain NCTC 8325) OX=93061 GN=qoxD PE=3 
+SV=2
+Length=96
+
+ Score = 67.6 bits (164),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I    VVG+ W+M   + + +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGHSSHL  96
+
+
+> sp|Q2FI20|QOX4_STAA3 Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain USA300) OX=367830 GN=qoxD PE=3 SV=2
+Length=96
+
+ Score = 67.6 bits (164),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A VQ  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFVQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I    VVG+ W+M   + + +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGHSSHL  96
+
+
+> sp|Q8CPP9|QOX4_STAES Probable quinol oxidase subunit 4 OS=Staphylococcus 
+epidermidis (strain ATCC 12228) OX=176280 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 67.3 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 20/94 (21%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +    +    +  I   A +Q  + L+ F+H+    D
+Sbjct  3    TIVKHTVGFIASIVLTLLAVFVTLYTNMTFHAKVTIIFGFAFIQAALQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I  + V+G+ W+M   + + +
+Sbjct  63   GRLQSFKVIFAIIITLVTVIGTYWVMQGGHSSHL  96
+
+
+> sp|Q5HQB2|QOX4_STAEQ Probable quinol oxidase subunit 4 OS=Staphylococcus 
+epidermidis (strain ATCC 35984 / RP62A) OX=176279 
+GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 67.3 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 20/94 (21%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +    +    +  I   A +Q  + L+ F+H+    D
+Sbjct  3    TIVKHTVGFIASIVLTLLAVFVTLYTNMTFHAKVTIIFGFAFIQAALQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I  + V+G+ W+M   + + +
+Sbjct  63   GRLQSFKVIFAIIITLVTVIGTYWVMQGGHSSHL  96
+
+
+> sp|Q6GI26|QOX4_STAAR Probable quinol oxidase subunit 4 OS=Staphylococcus 
+aureus (strain MRSA252) OX=282458 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 67.3 bits (163),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 22/94 (23%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    L  I   A +Q  + L+ F+H+    D
+Sbjct  3    TIMKHTVGFIASIVLTLLAVYVTLYTSLTFHAKLTIIFGFAFIQAGLQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I    VVG+ W+M   + + +
+Sbjct  63   GRLQTFKVIFALVITLCFVVGTYWVMQGGHSSHL  96
+
+
+> sp|Q4L562|QOX4_STAHJ Probable quinol oxidase subunit 4 OS=Staphylococcus 
+haemolyticus (strain JCSC1435) OX=279808 GN=qoxD 
+PE=3 SV=1
+Length=96
+
+ Score = 66.9 bits (162),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 21/94 (22%), Positives = 45/94 (48%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +    +       I   A +Q  V L+ F+H+    D
+Sbjct  3    TIVKHTVGFIASIVLTLLAVFVTLYTNMTFHAKTTIIFGFAFIQAAVQLLMFMHLTEGKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I  + V+G+ W+M   + + +
+Sbjct  63   GQVQSFKVIFAIIITLVTVIGTYWVMQGGHSHHL  96
+
+
+> sp|Q49WI1|QOX4_STAS1 Probable quinol oxidase subunit 4 OS=Staphylococcus 
+saprophyticus subsp. saprophyticus (strain ATCC 
+15305 / DSM 20229) OX=342451 GN=qoxD PE=3 SV=1
+Length=96
+
+ Score = 65.3 bits (158),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 22/94 (23%), Positives = 47/94 (50%), Gaps = 0/94 (0%)
+
+Query  14   SVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSD  73
+            ++  +  GFI SI+LT++  ++ +  + +    +  I   A +Q  V L+ F+H+    D
+Sbjct  3    TIVKHTVGFIASIVLTILAVFVTLYTSMALNAKITIIFGFAFIQAAVQLLMFMHLTESKD  62
+
+Query  74   EGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+                    +F ++I  I V+G+ W+M   + + +
+Sbjct  63   GNLQTFKVLFAIIITLITVIGTYWVMQGGHSSHL  96
+
+
+> sp|P24013|COX4_BACSU Cytochrome c oxidase subunit 4B OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ctaF PE=3 SV=1
+Length=110
+
+ Score = 63.8 bits (154),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 25/89 (28%), Positives = 40/89 (45%), Gaps = 1/89 (1%)
+
+Query  12   HGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTK  71
+               +K  +  F L I LT++ F  V T        +  I+ +A +QV+  L  F+HMN K
+Sbjct  22   AREMKYQVLSFGLMIGLTIVAFLTVATDGVGSWFTIPFIILLAAIQVIFQLYYFMHMNQK  81
+
+Query  72   SDEGWNMTAFVFTVLIIAILVVGSIWIMW  100
+              E   +      V +  I V+  + I+W
+Sbjct  82   GHEAPALF-LYSGVFVAFITVLAFVTIIW  109
+
+
+> sp|P57541|CYOD_BUCAI Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Buchnera aphidicola subsp. Acyrthosiphon pisum (strain 
+APS) OX=107806 GN=cyoD PE=3 SV=1
+Length=105
+
+ Score = 62.6 bits (151),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 37/96 (39%), Positives = 60/96 (63%), Gaps = 0/96 (0%)
+
+Query  12   HGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTK  71
+            +  +K+Y+ GF+ S +LT +PF + +       V     L  A+ Q+++H V FLH++  
+Sbjct  10   NKEMKSYLLGFLFSSLLTTLPFLLAIEKFFCSEVNYIIFLLCAISQIIIHFVYFLHLSFD  69
+
+Query  72   SDEGWNMTAFVFTVLIIAILVVGSIWIMWNLNYNMM  107
+             +E WN+   +F ++II I+V GSIWIM+NLN+N M
+Sbjct  70   PEERWNLITLLFVIIIIFIVVFGSIWIMFNLNHNTM  105
+
+
+> sp|Q04452|COX4_BACPE Cytochrome c oxidase subunit 4B OS=Bacillus 
+pseudofirmus (strain OF4) OX=398511 GN=ctaF PE=3 SV=2
+Length=114
+
+ Score = 61.1 bits (147),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 50/110 (45%), Gaps = 9/110 (8%)
+
+Query  1    MSHSTDHSGASH-------GSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAM  53
+            +S S D S  +          ++  +  F L I LT++ F  V T     +  +  I  +
+Sbjct  5    LSQSFDKSAMTEEERRHIKKEIRKQIVVFALMIFLTLMSFMAVATDVIPRSFAIPFIFIL  64
+
+Query  54   AVVQVLVHLVCFLHMNTKSDEGWNMTAFVFTVLIIAILVVGSIWIMWNLN  103
+            AV+Q  + L  F+HM    D GW   AF+ + + I +  + ++ ++  +N
+Sbjct  65   AVIQFALQLFFFMHMK-DKDHGWA-NAFMISGIFITVPTIAALMLLLGVN  112
+
+
+> sp|Q03440|COX4_BACP3 Cytochrome c oxidase subunit 4B OS=Bacillus 
+sp. (strain PS3) OX=2334 GN=caaD PE=1 SV=2
+Length=110
+
+ Score = 60.3 bits (145),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/90 (30%), Positives = 43/90 (48%), Gaps = 1/90 (1%)
+
+Query  11   SHGSVKTYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNT  70
+            +   ++  M  F+L I+LT+I F  V     S   ++  IL +A VQV   L  F+HM+ 
+Sbjct  21   NAEEMRHQMIAFVLMILLTLIAFAAVGYEEFSHWFVVPFILLLAAVQVAFQLYYFMHMSH  80
+
+Query  71   KSDEGWNMTAFVFTVLIIAILVVGSIWIMW  100
+            K  E   M      V ++ +LV     ++W
+Sbjct  81   KGHEFPAMF-IYGGVAVMLLLVWAFTTVVW  109
+
+
+> sp|Q89AA6|CYOD_BUCBP Cytochrome bo(3) ubiquinol oxidase subunit 
+4 OS=Buchnera aphidicola subsp. Baizongia pistaciae (strain 
+Bp) OX=224915 GN=cyoD PE=3 SV=1
+Length=100
+
+ Score = 58.8 bits (141),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 24/90 (27%), Positives = 53/90 (59%), Gaps = 0/90 (0%)
+
+Query  17   TYMTGFILSIILTVIPFWMVMTGAASPAVILGTILAMAVVQVLVHLVCFLHMNTKSDEGW  76
+             Y+   IL  IL+++P + ++    S   +   I+     Q+L H+  FL+++   ++ W
+Sbjct  8    KYLFILILLSILSIMPIFAIIYRIFSRNYLYAFIIVCLFFQILAHIKFFLNLDFSLEQRW  67
+
+Query  77   NMTAFVFTVLIIAILVVGSIWIMWNLNYNM  106
+             + + +F++++  I+++GSIW++ NLN N+
+Sbjct  68   KLISVIFSLVVGLIILLGSIWVIKNLNNNL  97
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.148    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0440    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5016855328
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

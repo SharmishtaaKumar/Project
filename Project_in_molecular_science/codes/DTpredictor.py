@@ -52,8 +52,6 @@ for number in predicted_list:
 	list_tops.extend(topology_dict[number])
 #print(list_tops)   
 
-
-##########separating the output###########
 newout=0
 backto=0
 newlist=[]

@@ -1,4 +1,4 @@
-tempfile="50proteinstobepredicted"
+tempfile="../datasets/50unknownproteins"
 fasta_data="../50fastadata/"
 def fasta(filename):
     filehandle = open(filename,'r')

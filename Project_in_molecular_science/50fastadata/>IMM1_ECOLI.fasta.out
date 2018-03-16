@@ -31,20 +31,20 @@ Results from round 1
 
 Query= IMM1_ECOLI
 
-Length=113
+Length=226
                                                                       Score     E
 Sequences producing significant alignments:                          (Bits)  Value
 
-  sp|P02985|IMM1_ECOLX Colicin-E1 immunity protein OS=Escherichia...  216     6e-72
-  sp|P33637|IMM0_ECOLX Colicin-E1 immunity protein OS=Escherichia...  209     4e-69
-  sp|P22558|IMM1_SHISO Colicin-E1* immunity protein OS=Shigella s...  144     2e-43
+  sp|P02985|IMM1_ECOLX Colicin-E1 immunity protein OS=Escherichia...  235     1e-77
+  sp|P33637|IMM0_ECOLX Colicin-E1 immunity protein OS=Escherichia...  226     4e-74
+  sp|P22558|IMM1_SHISO Colicin-E1* immunity protein OS=Shigella s...  153     2e-45
 
 
 > sp|P02985|IMM1_ECOLX Colicin-E1 immunity protein OS=Escherichia 
 coli OX=562 GN=imm PE=4 SV=2
 Length=113
 
- Score = 216 bits (551),  Expect = 6e-72, Method: Compositional matrix adjust.
+ Score = 235 bits (600),  Expect = 1e-77, Method: Compositional matrix adjust.
  Identities = 112/113 (99%), Positives = 112/113 (99%), Gaps = 0/113 (0%)
 
 Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEGYYFLVSDKMLYAIVISTILCPYSKYAIEYI  60
@@ -60,7 +60,7 @@ Sbjct  61   AFNFIKKDFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
 coli OX=562 GN=imm PE=4 SV=1
 Length=113
 
- Score = 209 bits (532),  Expect = 4e-69, Method: Compositional matrix adjust.
+ Score = 226 bits (577),  Expect = 4e-74, Method: Compositional matrix adjust.
  Identities = 108/113 (96%), Positives = 110/113 (97%), Gaps = 0/113 (0%)
 
 Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEGYYFLVSDKMLYAIVISTILCPYSKYAIEYI  60
@@ -76,7 +76,7 @@ Sbjct  61   AFNFIKKHFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
 sonnei OX=624 GN=imm PE=4 SV=1
 Length=113
 
- Score = 144 bits (363),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Score = 153 bits (386),  Expect = 2e-45, Method: Compositional matrix adjust.
  Identities = 87/107 (81%), Positives = 94/107 (88%), Gaps = 1/107 (1%)
 
 Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEGYYFLVSDKMLYAIVISTILCPYSKYAIEYI  60
@@ -90,26 +90,26 @@ Sbjct  61   FFKFIKKDFFRKRKNLNKCPRGKIKPYLCVYNLLCLVLAIPFGLLGL  107
 
 
 Lambda      K        H        a         alpha
-   0.333    0.149    0.443    0.792     4.96 
+   0.352    0.152    0.428    0.792     4.96 
 
 Gapped
 Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
-Effective search space used: 4945581728
+Effective search space used: 15251510848
 Results from round 2
 
 
 Query= IMM1_ECOLI
 
-Length=113
+Length=226
                                                                       Score     E
 Sequences producing significant alignments:                          (Bits)  Value
 Sequences used in model and found again:
 
-  sp|P02985|IMM1_ECOLX Colicin-E1 immunity protein OS=Escherichia...  150     4e-46
-  sp|P33637|IMM0_ECOLX Colicin-E1 immunity protein OS=Escherichia...  147     6e-45
-  sp|P22558|IMM1_SHISO Colicin-E1* immunity protein OS=Shigella s...  121     2e-34
+  sp|P02985|IMM1_ECOLX Colicin-E1 immunity protein OS=Escherichia...  136     1e-38
+  sp|P33637|IMM0_ECOLX Colicin-E1 immunity protein OS=Escherichia...  131     4e-37
+  sp|P22558|IMM1_SHISO Colicin-E1* immunity protein OS=Shigella s...  113     5e-30
 
 Sequences not found previously or not previously below threshold:
 
@@ -119,7 +119,7 @@ Sequences not found previously or not previously below threshold:
 coli OX=562 GN=imm PE=4 SV=2
 Length=113
 
- Score = 150 bits (380),  Expect = 4e-46, Method: Composition-based stats.
+ Score = 136 bits (342),  Expect = 1e-38, Method: Composition-based stats.
  Identities = 112/113 (99%), Positives = 112/113 (99%), Gaps = 0/113 (0%)
 
 Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEGYYFLVSDKMLYAIVISTILCPYSKYAIEYI  60
@@ -135,7 +135,7 @@ Sbjct  61   AFNFIKKDFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
 coli OX=562 GN=imm PE=4 SV=1
 Length=113
 
- Score = 147 bits (372),  Expect = 6e-45, Method: Composition-based stats.
+ Score = 131 bits (331),  Expect = 4e-37, Method: Composition-based stats.
  Identities = 108/113 (96%), Positives = 110/113 (97%), Gaps = 0/113 (0%)
 
 Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEGYYFLVSDKMLYAIVISTILCPYSKYAIEYI  60
@@ -151,7 +151,7 @@ Sbjct  61   AFNFIKKHFFERRKNLNNAPVAKLNLFMLYNLLCLVLAIPFGLLGLFISIKNN  113
 sonnei OX=624 GN=imm PE=4 SV=1
 Length=113
 
- Score = 121 bits (303),  Expect = 2e-34, Method: Composition-based stats.
+ Score = 113 bits (283),  Expect = 5e-30, Method: Composition-based stats.
  Identities = 87/107 (81%), Positives = 94/107 (88%), Gaps = 1/107 (1%)
 
 Query  1    MSLRYYIKNILFGLYCTLIYIYLITKNSEGYYFLVSDKMLYAIVISTILCPYSKYAIEYI  60
@@ -165,13 +165,13 @@ Sbjct  61   FFKFIKKDFFRKRKNLNKCPRGKIKPYLCVYNLLCLVLAIPFGLLGL  107
 
 
 Lambda      K        H        a         alpha
-   0.332    0.157    0.490    0.792     4.96 
+   0.350    0.156    0.455    0.792     4.96 
 
 Gapped
 Lambda      K        H        a         alpha    sigma
-   0.267   0.0482    0.140     1.90     42.6     43.6 
+   0.267   0.0488    0.140     1.90     42.6     43.6 
 
-Effective search space used: 4945581728
+Effective search space used: 15251510848
 
 Search has CONVERGED!
 

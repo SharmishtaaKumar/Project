@@ -7,11 +7,11 @@ from sklearn.externals import joblib
 from sklearn.metrics import matthews_corrcoef
 from pathlib import Path
 from sklearn.metrics import confusion_matrix
-tempfile="../datasets/mydataset.txt"
+tempfile="../datasets/test"
 
-dictionary = dictionary.dataset(tempfile)
+#dictionary = dictionary.dataset(tempfile)
 def pssm_test(filename,winlen):
-    #dictionary = dictionary.dataset(tempfile)
+    dictionary_pssm = dictionary.dataset(tempfile)
     #print(dictionary.keys())
     listofkeys=[]
     listofarrays=[]
@@ -22,7 +22,7 @@ def pssm_test(filename,winlen):
     #    listofkeys.append(newnames)
     #print(listofkeys)
 
-    for name in dictionary.keys():
+    for name in dictionary_pssm.keys():
         #print(name)
         myfile=Path('../PSSM/fasta_data/' + (str(name) + '.fasta.pssm'))
         if myfile.is_file():
@@ -30,7 +30,7 @@ def pssm_test(filename,winlen):
             #print(name)
             pssm_array=(np.genfromtxt('../PSSM/fasta_data/' + (str(name) + '.fasta.pssm'), skip_header = 3, skip_footer = 5,  usecols = range(22,42), autostrip = True))/100
             listofarrays.append(pssm_array)
-            listoftop.append(dictionary[name][1])
+            listoftop.append(dictionary_pssm[name][1])
             #print(name)
     #print(listoftop)    
     #print(listofarrays)
@@ -88,19 +88,8 @@ def pssm_test(filename,winlen):
     #print(len(labels))
     return templist, labels
     
-def pssm_svm(filename,winlen) :
-       
-    templist,labels = pssm_test(filename,winlen)
-    trainX,testX, trainY,testY=train_test_split(templist,labels,test_size=0.3)
-    clf = svm.SVC(kernel='linear', C=1, gamma=0.001).fit(trainX, trainY)
-    predY=clf.predict(testX)
-    
-    print(matthews_corrcoef(testY,predY))
-    inputfile='pssmmodel.sav'
-    joblib.dump(clf,inputfile)
 if __name__=="__main__":
-    pssm_svm(tempfile,'31')
-    #print(pssm_test('test','31')                 
+    pssm_test('test','31')        
                 
                 
                 
