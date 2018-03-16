@@ -10,7 +10,7 @@ def run_svm (filename) :
     trainX,trainY=modelcv.dataset(test,31)
     clf = svm.SVC(kernel='linear',C=1, gamma=0.01)
     clf.fit(trainX, trainY)
-    inputfile='firstmodel_SVC.sav'
+    inputfile='../models/firstmodel_SVC.sav'
     joblib.dump(clf,inputfile)
 def decisiontree(filename):
     trainX,trainY=modelcv.dataset(test,33)
@@ -18,7 +18,7 @@ def decisiontree(filename):
     clf.fit(trainX, trainY)
     #score=cross_val_score(clf, trainX, trainY, cv=3,verbose=True,n_jobs=-1)
     #print(np.average(score))
-    inputfile='DTmodel.sav'
+    inputfile='../models/DTmodel.sav'
     joblib.dump(clf,inputfile)
 def randomforest(filename):
     trainX,trainY=modelcv.dataset(test,29)
@@ -26,7 +26,7 @@ def randomforest(filename):
     clf.fit(trainX, trainY)
     #score=cross_val_score(clf, trainX, trainY, cv=3,verbose=True,n_jobs=-1)
     #print(np.average(score))
-    inputfile='RFCmodel.sav'
+    inputfile='../models/RFCmodel.sav'
     joblib.dump(clf,inputfile,compress=9)
           
 if __name__=="__main__":

@@ -24,11 +24,11 @@ def pssm_test(filename,winlen):
 
     for name in dictionary_pssm.keys():
         #print(name)
-        myfile=Path('../PSSM/fasta_data/' + (str(name) + '.fasta.pssm'))
+        myfile=Path('../fasta_data/' + (str(name) + '.fasta.pssm'))
         if myfile.is_file():
         
             #print(name)
-            pssm_array=(np.genfromtxt('../PSSM/fasta_data/' + (str(name) + '.fasta.pssm'), skip_header = 3, skip_footer = 5,  usecols = range(22,42), autostrip = True))/100
+            pssm_array=(np.genfromtxt('../fasta_data/' + (str(name) + '.fasta.pssm'), skip_header = 3, skip_footer = 5,  usecols = range(22,42), autostrip = True))/100
             listofarrays.append(pssm_array)
             listoftop.append(dictionary_pssm[name][1])
             #print(name)

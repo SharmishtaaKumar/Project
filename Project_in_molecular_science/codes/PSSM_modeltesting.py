@@ -5,7 +5,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn import tree
 from sklearn.ensemble import RandomForestClassifier as rfc
 
-test = "../datasets/mydataset.txt"
+test = "../datasets/test"
 def cv(filename):
     for winlen in range(25,36,2):
         for C_range in (1,5,10):
@@ -43,6 +43,6 @@ def randomforest(filename):
     return np.average(score)
     
 if __name__=="__main__":
-    cv('mydataset.txt')
-    decisiontree('mydataset.txt')
-    randomforest('mydataset.txt')
+    cv('test')
+    decisiontree('test')
+    randomforest('test')

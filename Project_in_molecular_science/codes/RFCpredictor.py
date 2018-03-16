@@ -9,10 +9,10 @@ from sklearn import preprocessing
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
-tempfile = "../datasets/trainmodel"
+tempfile = "../datasets/50unknownproteins"
 
 ####VALIDATING RESULTS###########
-savedmodel= joblib.load('RFCmodel.sav')
+savedmodel= joblib.load('../models/RFCmodel.sav')
 testX,testY=modelcv.dataset(tempfile,29)
 predictedY=savedmodel.predict(testX)
 print(matthews_corrcoef(testY, predictedY))
@@ -21,25 +21,6 @@ confusionmat = confusion_matrix(testY, predictedY)
 confusion_norm=preprocessing.normalize(confusionmat)
 states = ['I:Insideofthemembrane', 'M:Transmembraneregion', 'O:Outsideofthemembrane']
 print(classification_report(testY, predictedY, target_names=states))
-figure = plt.figure(figsize = (8,8))
-#print(figure)
-newplot = figure.add_subplot(1,1,1)
-#print(newplot)
-predtopo= newplot.imshow(np.array(confusion_norm), cmap=plt.get_cmap('Blues'), interpolation='nearest')
-horizontal,vertical=confusion_norm.shape
-for i in range(horizontal):
-	for j in range(vertical):
-		newplot.annotate(confusion_norm[i][j], xy=(j,i),
-					horizontalalignment='center',
-                    verticalalignment='center')
-
-states = ['I:Insideofthemembrane', 'M:Transmembraneregion', 'O:Outsideofthemembrane']
-plt.xticks(range(horizontal), states[:horizontal])
-plt.yticks(range(vertical), states[:vertical])
-plt.title('Confusion Matrix')
-plt.xlabel('Predicted Topologies')
-plt.ylabel('True Topologies')
-plt.show()
 
 
 ########TO GET NECESSARY OUTPUT##########
@@ -57,7 +38,7 @@ backto=0
 newlist=[]
 filehandle=open(tempfile,'r')
 text=filehandle.read().splitlines()
-with open("RFCpredicted.txt",'w') as pr:
+with open("../Predicted texts/RFCpredicted.txt",'w') as pr:
     for h in range(len(text)):
 	    if text[h].startswith('>'):
 		    pr.write(text[h])

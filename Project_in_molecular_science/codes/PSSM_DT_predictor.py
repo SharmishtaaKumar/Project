@@ -1,4 +1,4 @@
-import modelcv
+import pssmparser
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import cross_val_score
@@ -9,13 +9,13 @@ from sklearn import preprocessing
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
-tempfile = "../datasets/50unknownproteins"
+tempfile="../datasets/50unknownproteins"
 
 ####VALIDATING RESULTS###########
-savedmodel= joblib.load('../models/firstmodel_SVC.sav')
-testX,testY=modelcv.dataset(tempfile,31)
+savedmodel= joblib.load('../models/PSSM_DT_model.sav')
+testX,testY=pssmparser.pssm_test(tempfile,29)
 predictedY=savedmodel.predict(testX)
-print(matthews_corrcoef(testY, predictedY))
+print(matthews_corrcoef(testY, predictedY))   
 print(accuracy_score(testY, predictedY))
 confusionmat = confusion_matrix(testY, predictedY)
 confusion_norm=preprocessing.normalize(confusionmat)
@@ -38,7 +38,7 @@ backto=0
 newlist=[]
 filehandle=open(tempfile,'r')
 text=filehandle.read().splitlines()
-with open("../Predicted texts/predicted.txt",'w') as pr:
+with open("../Predicted texts/PSSM_DT_predicted.txt",'w') as pr:
     for h in range(len(text)):
 	    if text[h].startswith('>'):
 		    pr.write(text[h])
