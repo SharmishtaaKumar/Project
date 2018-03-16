@@ -1,0 +1,110 @@
+Cross validation for PSSM SVC model for window length from 25-35,C value 1,5,10 and gamma 0.01,0.001
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  9.7min remaining:  6.5min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 13.3min finished
+0.338917246542 1 0.001 25
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.1min remaining:  4.1min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  8.7min finished
+0.338917246542 1 0.01 25
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.3min remaining:  4.2min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  8.8min finished
+0.344676389306 5 0.001 25
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.2min remaining:  4.1min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  8.7min finished
+0.344676389306 5 0.01 25
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.2min remaining:  4.1min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  8.7min finished
+0.345474430983 10 0.001 25
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  5.7min remaining:  3.8min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  8.0min finished
+0.345474430983 10 0.01 25
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.0min remaining:  4.0min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  8.5min finished
+0.351490220499 1 0.001 27
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.1min remaining:  4.0min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  8.6min finished
+0.351490220499 1 0.01 27
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.2min remaining:  4.1min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  8.6min finished
+0.348343358913 5 0.001 27
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.5min remaining:  4.3min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  9.2min finished
+0.348343358913 5 0.01 27
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.7min remaining:  4.5min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  9.5min finished
+0.347917174999 10 0.001 27
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  9.5min remaining:  6.3min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 16.1min finished
+0.347917174999 10 0.01 27
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed: 11.7min remaining:  7.8min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 18.6min finished
+0.352393992403 1 0.001 29
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed: 11.6min remaining:  7.7min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 17.7min finished
+0.352393992403 1 0.01 29
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed: 11.8min remaining:  7.8min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 18.7min finished
+0.348930934528 5 0.001 29
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  7.3min remaining:  4.9min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 10.2min finished
+0.348930934528 5 0.01 29
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  7.2min remaining:  4.8min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 10.2min finished
+0.34866460868 10 0.001 29
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  7.1min remaining:  4.7min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 10.0min finished
+0.34866460868 10 0.01 29
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  7.7min remaining:  5.1min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 10.5min finished
+0.36092592813 1 0.001 31
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  7.0min remaining:  4.6min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  9.8min finished
+0.36092592813 1 0.01 31
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.9min remaining:  4.6min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  9.8min finished
+0.341100791889 5 0.001 31
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  7.0min remaining:  4.6min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  9.8min finished
+0.341100791889 5 0.01 31
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.9min remaining:  4.6min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  9.8min finished
+0.340887799283 10 0.001 31
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  6.9min remaining:  4.6min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  9.8min finished
+0.340887799283 10 0.01 31
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  7.3min remaining:  4.9min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 10.4min finished
+0.340262727565 1 0.001 33
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  7.2min remaining:  4.8min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 10.2min finished
+0.340262727565 1 0.01 33
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  7.3min remaining:  4.9min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 10.4min finished
+0.313144437265 5 0.001 33
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  7.4min remaining:  4.9min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 10.4min finished
+0.313144437265 5 0.01 33
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  7.3min remaining:  4.9min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 10.4min finished
+0.313144408927 10 0.001 33
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed: 13.3min remaining:  8.8min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 21.2min finished
+0.313144408927 10 0.01 33
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed: 14.1min remaining:  9.4min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 22.5min finished
+0.328486433375 1 0.001 35
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed: 14.0min remaining:  9.3min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 22.5min finished
+0.328486433375 1 0.01 35
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed: 13.8min remaining:  9.2min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 20.5min finished
+0.313623812426 5 0.001 35
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed: 13.9min remaining:  9.3min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 22.3min finished
+0.313623812426 5 0.01 35
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed: 13.8min remaining:  9.2min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 20.3min finished
+0.313410536103 10 0.001 35
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:  8.6min remaining:  5.8min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 12.1min finished
+0.313410536103 10 0.01 35
+
