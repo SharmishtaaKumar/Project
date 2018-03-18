@@ -1,0 +1,3993 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= O31539|4pgsA
+
+Length=214
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O31539|YETJ_BACSU Uncharacterized protein YetJ OS=Bacillus s...  421     2e-149
+  sp|Q9PIQ8|Y236_CAMJE Uncharacterized protein Cj0236c OS=Campylo...  83.6    4e-18 
+  sp|Q9ZKT1|Y920_HELPJ Uncharacterized protein jhp_0854 OS=Helico...  80.1    6e-17 
+  sp|O74888|BXI1_SCHPO Bax inhibitor 1 OS=Schizosaccharomyces pom...  76.3    2e-15 
+  sp|O25578|Y920_HELPY Uncharacterized protein HP_0920 OS=Helicob...  75.1    3e-15 
+  sp|P0DA11|Y260_STRPQ Uncharacterized membrane protein SPs1599 O...  71.2    7e-14 
+  sp|P0DA10|Y260_STRP3 Uncharacterized membrane protein SpyM3_026...  71.2    7e-14 
+  sp|Q8P2D4|Y408_STRP8 Uncharacterized membrane protein spyM18_04...  70.1    2e-13 
+  sp|Q5XDQ1|Y327_STRP6 Uncharacterized membrane protein M6_Spy032...  70.1    2e-13 
+  sp|Q9A1B9|Y358_STRP1 Uncharacterized membrane protein SPy_0358/...  70.1    2e-13 
+  sp|Q9KSA1|Y1358_VIBCH Uncharacterized membrane protein VC_1358 ...  69.7    2e-13 
+  sp|Q9SA63|LFG4_ARATH Protein LIFEGUARD 4 OS=Arabidopsis thalian...  61.6    2e-10 
+  sp|Q9A2A3|Y3663_CAUCR Uncharacterized protein CC_3663 OS=Caulob...  60.5    5e-10 
+  sp|F4JIE8|LFG1_ARATH Protein LIFEGUARD 1 OS=Arabidopsis thalian...  60.1    6e-10 
+  sp|Q9RVX8|Y893_DEIRA Uncharacterized protein DR_0893 OS=Deinoco...  58.9    2e-09 
+  sp|Q9ZQX7|LFG3_ARATH Protein LIFEGUARD 3 OS=Arabidopsis thalian...  58.9    2e-09 
+  sp|Q9M1V9|LFG2_ARATH Protein LIFEGUARD 2 OS=Arabidopsis thalian...  55.8    3e-08 
+  sp|P0AAC4|YBHL_ECOLI Inner membrane protein YbhL OS=Escherichia...  55.5    3e-08 
+  sp|P0AAC5|YBHL_ECOL6 Inner membrane protein YbhL OS=Escherichia...  55.5    3e-08 
+  sp|Q94A20|LFG5_ARATH BI1-like protein OS=Arabidopsis thaliana O...  55.5    5e-08 
+  sp|Q9ZE15|Y147_RICPR Uncharacterized protein RP147 OS=Rickettsi...  54.7    7e-08 
+  sp|Q9CNM5|Y402_PASMU Uncharacterized protein PM0402 OS=Pasteure...  52.8    3e-07 
+  sp|Q9DA39|LFG4_MOUSE Protein lifeguard 4 OS=Mus musculus OX=100...  52.8    3e-07 
+  sp|Q49P94|GAAP_VACCL Golgi anti-apoptotic protein OS=Vaccinia v...  51.2    1e-06 
+  sp|Q03268|Y2604_PSEAE Uncharacterized protein PA2604 OS=Pseudom...  49.7    3e-06 
+  sp|O51489|Y539_BORBU Uncharacterized protein BB_0539 OS=Borreli...  49.3    5e-06 
+  sp|Q11080|TMBI4_CAEEL Transmembrane BAX inhibitor motif-contain...  48.5    1e-05 
+  sp|P0AAC6|YCCA_ECOLI Modulator of FtsH protease YccA OS=Escheri...  48.1    1e-05 
+  sp|P0AAC7|YCCA_ECOL6 Inner membrane protein YccA OS=Escherichia...  48.1    1e-05 
+  sp|Q9CEU8|YRJE_LACLA Uncharacterized protein YrjE OS=Lactococcu...  47.4    2e-05 
+  sp|Q9HC24|LFG4_HUMAN Protein lifeguard 4 OS=Homo sapiens OX=960...  47.0    3e-05 
+  sp|O84826|Y819_CHLTR Uncharacterized protein CT_819 OS=Chlamydi...  47.0    4e-05 
+  sp|Q9PLA1|Y206_CHLMU Uncharacterized protein TC_0206 OS=Chlamyd...  46.2    7e-05 
+
+
+> sp|O31539|YETJ_BACSU Uncharacterized protein YetJ OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yetJ PE=1 SV=1
+Length=214
+
+ Score = 421 bits (1083),  Expect = 2e-149, Method: Compositional matrix adjust.
+ Identities = 214/214 (100%), Positives = 214/214 (100%), Gaps = 0/214 (0%)
+
+Query  1    MQATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMR  60
+            MQATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMR
+Sbjct  1    MQATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMR  60
+
+Query  61   RRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKK  120
+            RRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKK
+Sbjct  61   RRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKK  120
+
+Query  121  DLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHI  180
+            DLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHI
+Sbjct  121  DLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHI  180
+
+Query  181  TEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+            TEDLIPVMALSLYLDFINLFINLLRFFGILSSDD
+Sbjct  181  TEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+
+
+> sp|Q9PIQ8|Y236_CAMJE Uncharacterized protein Cj0236c OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 
+/ NCTC 11168) OX=192222 GN=Cj0236c PE=3 SV=1
+Length=231
+
+ Score = 83.6 bits (205),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 65/213 (31%), Positives = 110/213 (52%), Gaps = 16/213 (8%)
+
+Query  4    TVHESKQSI-MQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSI-------LEVAMIIL  55
+                S+ SI +++   +F  +LL ATVG ++G F   +  +   +       +E+ ++  
+Sbjct  16   NTRSSELSIFIKQTYQLFAASLLAATVGAYVGIFALASFFIQSQVTFWILFAVEIGLLFA  75
+
+Query  56   AFWMRRRKAVGYAFVYTFAFVSGITLFPI-VSHYASIAGAYVVLEAFGSTFVIFAVLGTI  114
+              W +R   +    ++ F F SG+TL P+ +S  A  AG  ++ +AF  T V FA L   
+Sbjct  76   LQWKKREAPLNLVLLFGFTFCSGLTLTPLLISVLALPAGGIIIAQAFALTTVAFAGLSVF  135
+
+Query  115  GAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDL-N  173
+                KKD + +   L + ++ +    + N+F   +S   +A S +  I+FS YILYD  N
+Sbjct  136  AMNTKKDFTVMGKALFIVLIVIVAASLLNLFFQ-SSIVNLAISAVAAILFSFYILYDTQN  194
+
+Query  174  QIKHRHITEDLIPVM-ALSLYLDFINLFINLLR  205
+             I+  + T    P+  A++LYLDF+NLF++LL 
+Sbjct  195  IIRGNYET----PIEGAVALYLDFVNLFVSLLN  223
+
+
+> sp|Q9ZKT1|Y920_HELPJ Uncharacterized protein jhp_0854 OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=jhp_0854 
+PE=3 SV=1
+Length=230
+
+ Score = 80.1 bits (196),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 66/219 (30%), Positives = 115/219 (53%), Gaps = 11/219 (5%)
+
+Query  2    QATVHESKQ-SIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWM-  59
+             + +HES+  S ++     F  +LL+ATVG  +G     A++    +  +A I+  F + 
+Sbjct  16   DSVLHESELVSFVKTTYKFFAGSLLLATVGALLGLMNFQAVVQYKWVFFIAEIVAFFGLM  75
+
+Query  60   --RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAK  117
+              + +  +    ++ F  +SG+TL P++    + AG   V +A G T ++F ++     K
+Sbjct  76   FSKSKPGLNLFMLFAFTSLSGVTLVPLLGMVIAKAGLGAVWQALGMTTIVFGLMSVYALK  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIF--SPLNSAAMMAYSVIGTIVFSLYILYDLNQI  175
+             K DL+ +   L +A++ + V  + N+F  SP+    +   S    I+FSLYI YD   I
+Sbjct  136  TKNDLANMGKMLFIALIVVVVCSLINLFLGSPMFQVVIAGAS---AILFSLYIAYDTQNI  192
+
+Query  176  KHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+              + + +  I   A+SLYLDF+N+FI++L+  GI S  D
+Sbjct  193  V-KGMYDSPIDA-AVSLYLDFLNVFISILQIIGIFSDRD  229
+
+
+> sp|O74888|BXI1_SCHPO Bax inhibitor 1 OS=Schizosaccharomyces pombe 
+(strain 972 / ATCC 24843) OX=284812 GN=bxi1 PE=3 SV=1
+Length=266
+
+ Score = 76.3 bits (186),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 53/149 (36%), Positives = 83/149 (56%), Gaps = 5/149 (3%)
+
+Query  66   GYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFL  125
+             Y F++ F  + G+TL   ++ ++    A ++LEA   T  +F  L     + K D S L
+Sbjct  121  NYIFLFLFTALEGLTLGTAITFFS----ARIILEAVFITLGVFVALTAFTFQSKWDFSRL  176
+
+Query  126  WSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLI  185
+              FL V++ +L +  +   F P      MA++  GT+VF  YIL+D   I HR+  E+ I
+Sbjct  177  GGFLYVSLWSLILTPLIFFFVPSTPFIDMAFAGFGTLVFCGYILFDTYNILHRYSPEEFI  236
+
+Query  186  PVMALSLYLDFINLFINLLRFFGILSSDD  214
+             + +L LYLDFINLFI +L+  G+L ++D
+Sbjct  237  -MSSLMLYLDFINLFIRILQILGMLQNND  264
+
+
+> sp|O25578|Y920_HELPY Uncharacterized protein HP_0920 OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=HP_0920 
+PE=3 SV=1
+Length=230
+
+ Score = 75.1 bits (183),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 62/202 (31%), Positives = 102/202 (50%), Gaps = 14/202 (7%)
+
+Query  20   FVFTLLIATVGLFIG----QFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAF  75
+            F  +LL+AT+G  +G    Q V V       I E+A      + + +  +    ++ F  
+Sbjct  35   FAGSLLLATIGALLGLMNFQAV-VQYKWVFFIAEIAAFFGLMFSKSKPGLNLFMLFAFTS  93
+
+Query  76   VSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLA  135
+            +SG+TL P++    + AG   + +A G T ++F ++     K K DL+ +   L +A++ 
+Sbjct  94   LSGVTLVPLLGMVIAKAGLGAIWQALGMTTIVFGLMSVYALKTKNDLANMGKMLFIALIV  153
+
+Query  136  LAVVGIFNIF--SPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPV-MALSL  192
+            + V  + N+F  SP+    +   S    I+FSLYI YD   I          P+  A+SL
+Sbjct  154  VVVCSLINLFLGSPMFQVVIAGAS---AILFSLYIAYDTQNIVKGMYDS---PIDAAVSL  207
+
+Query  193  YLDFINLFINLLRFFGILSSDD  214
+            YLDF+N+FI++L+  GI S  D
+Sbjct  208  YLDFLNVFISILQIIGIFSDRD  229
+
+
+> sp|P0DA11|Y260_STRPQ Uncharacterized membrane protein SPs1599 
+OS=Streptococcus pyogenes serotype M3 (strain SSI-1) OX=193567 
+GN=SPs1599 PE=3 SV=1
+Length=229
+
+ Score = 71.2 bits (173),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 54/144 (38%), Positives = 78/144 (54%), Gaps = 15/144 (10%)
+
+Query  73   FAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVA  132
+            +A ++G TL  I+  YA       V +AF S+  +F  +  IG K K+D+S L   +  A
+Sbjct  90   YAALNGFTLSFIIVAYAQT----TVFQAFLSSAAVFFAMSIIGVKTKRDMSGLRKAMFAA  145
+
+Query  133  VLALAVVGIFNIFSPLNSAAMMAY--SVIGTIVFSLYILYDLNQIK------HRHITEDL  184
+            ++ + V  + N+F     + MM+Y  SVI  ++FS  I  D   IK      +  + +  
+Sbjct  146  LIGVVVASLINLFI---GSGMMSYVISVISVLIFSGLIASDNQMIKRVYQATNGQVGDGW  202
+
+Query  185  IPVMALSLYLDFINLFINLLRFFG  208
+               MALSLYLDFINLFI+LLR FG
+Sbjct  203  AVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|P0DA10|Y260_STRP3 Uncharacterized membrane protein SpyM3_0260 
+OS=Streptococcus pyogenes serotype M3 (strain ATCC BAA-595 
+/ MGAS315) OX=198466 GN=SpyM3_0260 PE=3 SV=1
+Length=229
+
+ Score = 71.2 bits (173),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 54/144 (38%), Positives = 78/144 (54%), Gaps = 15/144 (10%)
+
+Query  73   FAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVA  132
+            +A ++G TL  I+  YA       V +AF S+  +F  +  IG K K+D+S L   +  A
+Sbjct  90   YAALNGFTLSFIIVAYAQT----TVFQAFLSSAAVFFAMSIIGVKTKRDMSGLRKAMFAA  145
+
+Query  133  VLALAVVGIFNIFSPLNSAAMMAY--SVIGTIVFSLYILYDLNQIK------HRHITEDL  184
+            ++ + V  + N+F     + MM+Y  SVI  ++FS  I  D   IK      +  + +  
+Sbjct  146  LIGVVVASLINLFI---GSGMMSYVISVISVLIFSGLIASDNQMIKRVYQATNGQVGDGW  202
+
+Query  185  IPVMALSLYLDFINLFINLLRFFG  208
+               MALSLYLDFINLFI+LLR FG
+Sbjct  203  AVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|Q8P2D4|Y408_STRP8 Uncharacterized membrane protein spyM18_0408 
+OS=Streptococcus pyogenes serotype M18 (strain MGAS8232) 
+OX=186103 GN=spyM18_0408 PE=3 SV=1
+Length=229
+
+ Score = 70.1 bits (170),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 53/144 (37%), Positives = 78/144 (54%), Gaps = 15/144 (10%)
+
+Query  73   FAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVA  132
+            ++ ++G TL  I+  YA       V +AF S+  +F  +  IG K K+D+S L   +  A
+Sbjct  90   YSALNGFTLSFIIVAYAQT----TVFQAFLSSAAVFFAMSIIGVKTKRDMSGLRKAMFAA  145
+
+Query  133  VLALAVVGIFNIFSPLNSAAMMAY--SVIGTIVFSLYILYDLNQIK------HRHITEDL  184
+            ++ + V  + N+F     + MM+Y  SVI  ++FS  I  D   IK      +  + +  
+Sbjct  146  LIGVVVASLINLFI---GSGMMSYVISVISVLIFSGLIASDNQMIKRVYQATNGQVGDGW  202
+
+Query  185  IPVMALSLYLDFINLFINLLRFFG  208
+               MALSLYLDFINLFI+LLR FG
+Sbjct  203  AVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|Q5XDQ1|Y327_STRP6 Uncharacterized membrane protein M6_Spy0327 
+OS=Streptococcus pyogenes serotype M6 (strain ATCC BAA-946 
+/ MGAS10394) OX=286636 GN=M6_Spy0327 PE=3 SV=1
+Length=229
+
+ Score = 70.1 bits (170),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 53/144 (37%), Positives = 78/144 (54%), Gaps = 15/144 (10%)
+
+Query  73   FAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVA  132
+            ++ ++G TL  I+  YA       V +AF S+  +F  +  IG K K+D+S L   +  A
+Sbjct  90   YSALNGFTLSFIIVAYAQT----TVFQAFLSSAAVFFAMSIIGVKTKRDMSGLRKAMFAA  145
+
+Query  133  VLALAVVGIFNIFSPLNSAAMMAY--SVIGTIVFSLYILYDLNQIK------HRHITEDL  184
+            ++ + V  + N+F     + MM+Y  SVI  ++FS  I  D   IK      +  + +  
+Sbjct  146  LIGVVVASLINLFI---GSGMMSYVISVISVLIFSGLIASDNQMIKRVYQATNGQVGDGW  202
+
+Query  185  IPVMALSLYLDFINLFINLLRFFG  208
+               MALSLYLDFINLFI+LLR FG
+Sbjct  203  AVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|Q9A1B9|Y358_STRP1 Uncharacterized membrane protein SPy_0358/M5005_Spy0301 
+OS=Streptococcus pyogenes serotype M1 OX=301447 
+GN=SPy_0358 PE=3 SV=1
+Length=229
+
+ Score = 70.1 bits (170),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 53/144 (37%), Positives = 78/144 (54%), Gaps = 15/144 (10%)
+
+Query  73   FAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVA  132
+            ++ ++G TL  I+  YA       V +AF S+  +F  +  IG K K+D+S L   +  A
+Sbjct  90   YSALNGFTLSFIIVAYAQT----TVFQAFLSSAAVFFAMSIIGVKTKRDMSGLRKAMFAA  145
+
+Query  133  VLALAVVGIFNIFSPLNSAAMMAY--SVIGTIVFSLYILYDLNQIK------HRHITEDL  184
+            ++ + V  + N+F     + MM+Y  SVI  ++FS  I  D   IK      +  + +  
+Sbjct  146  LIGVVVASLINLFI---GSGMMSYVISVISVLIFSGLIASDNQMIKRVYQATNGQVGDGW  202
+
+Query  185  IPVMALSLYLDFINLFINLLRFFG  208
+               MALSLYLDFINLFI+LLR FG
+Sbjct  203  AVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|Q9KSA1|Y1358_VIBCH Uncharacterized membrane protein VC_1358 
+OS=Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor 
+Inaba N16961) OX=243277 GN=VC_1358 PE=3 SV=1
+Length=223
+
+ Score = 69.7 bits (169),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 58/179 (32%), Positives = 98/179 (55%), Gaps = 10/179 (6%)
+
+Query  39   VALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVS--GITLFPIVSHYASIA-GAY  95
+            VAL++ L+    A+ IL F M +        V+TF F    G  L P+++ YA++  G  
+Sbjct  52   VALVMQLA----AIGILFFVMPKAINSSSGLVWTFVFTGLMGGALGPMLNFYAAMPNGPI  107
+
+Query  96   VVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMA  155
+            V+ +A G T ++F  L       KKD SF+ +FL   ++ + V  + NIF   ++ A +A
+Sbjct  108  VIAQALGLTGMVFLGLSAYTITSKKDFSFMRNFLFAGLIIVIVAALINIFVG-STVAHLA  166
+
+Query  156  YSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+             S +  +VFS +IL+D ++I     T  +     +S+YL+ +NLF +LL   GI++++D
+Sbjct  167  ISSVSALVFSGFILFDTSRIVRGEETNYI--SATISMYLNILNLFTSLLSILGIMNNND  223
+
+
+> sp|Q9SA63|LFG4_ARATH Protein LIFEGUARD 4 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG4 PE=2 SV=1
+Length=247
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 37/93 (40%), Positives = 53/93 (57%), Gaps = 1/93 (1%)
+
+Query  115  GAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQ  174
+             AK   D +FL  FL  A++ L V  +  IF PL   ++M Y  +  I+F  YI+YD + 
+Sbjct  152  AAKKGYDFNFLGPFLFGALIVLMVFALIQIFFPLGRISVMIYGCLAAIIFCGYIVYDTDN  211
+
+Query  175  IKHRHITEDLIPVMALSLYLDFINLFINLLRFF  207
+            +  R+  ++ I   A+SLYLD INLF+ LL  F
+Sbjct  212  LIKRYSYDEYI-WAAVSLYLDIINLFLALLTIF  243
+
+
+> sp|Q9A2A3|Y3663_CAUCR Uncharacterized protein CC_3663 OS=Caulobacter 
+crescentus (strain ATCC 19089 / CB15) OX=190650 GN=CC_3663 
+PE=3 SV=2
+Length=250
+
+ Score = 60.5 bits (145),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 60/171 (35%), Positives = 86/171 (50%), Gaps = 20/171 (12%)
+
+Query  50   VAMIILAFWMRRRK-AVGYAFVYTFAFVSGITLFPIVSHYA--SIAGAYVVLEAFGSTFV  106
+            V M+I  F MR  K     A  +T   + G +L  ++  Y   S+A  + V      T  
+Sbjct  84   VLMLIAGFAMRNPKPETAGALYWTIVSLIGASLGSVMLRYTGESVAATFFV------TAT  137
+
+Query  107  IFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMM-AYSVIGTIVFS  165
+             F  L   G   KKDL+   SFL++ V+ L V  I +IF  L S A++ A +V+G ++FS
+Sbjct  138  AFGGLSLFGYTTKKDLTGFGSFLMMGVIGLIVASIVSIF--LKSPALLFAINVLGVLIFS  195
+
+Query  166  LYILYDLNQIK--HRHITEDLIPVM------ALSLYLDFINLFINLLRFFG  208
+              I YD  ++K  +  +  D   +       ALSLY++FINLF  LL FFG
+Sbjct  196  GLIAYDTQRLKMTYYEMGGDRASMAVATNFGALSLYINFINLFQFLLSFFG  246
+
+
+> sp|F4JIE8|LFG1_ARATH Protein LIFEGUARD 1 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG1 PE=2 SV=1
+Length=235
+
+ Score = 60.1 bits (144),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 48/132 (36%), Positives = 70/132 (53%), Gaps = 17/132 (13%)
+
+Query  89   ASIAGAYVVLEA--------FGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVG  140
+             S++   +VLEA        FG T   F  +     K   D SFL  FL  A+L + V  
+Sbjct  113  CSLSQGRIVLEAAILTAVMVFGLTIYTFWAV-----KRGHDFSFLGPFLFGALLIILVFT  167
+
+Query  141  IFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLF  200
+            +  IF PL   + M +S I +IVF  YI++D NQ+  +   ++ I   A+ LYLD +NLF
+Sbjct  168  LLQIFHPLGKLSSMIFSGIASIVFCGYIIFDTNQLIKKLNYDEYI-TAAIRLYLDVMNLF  226
+
+Query  201  INLLRFFGILSS  212
+            ++LL   GI+S+
+Sbjct  227  LSLL---GIISN  235
+
+
+> sp|Q9RVX8|Y893_DEIRA Uncharacterized protein DR_0893 OS=Deinococcus 
+radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 
+/ LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422) OX=243230 
+GN=DR_0893 PE=3 SV=1
+Length=231
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 55/175 (31%), Positives = 90/175 (51%), Gaps = 14/175 (8%)
+
+Query  40   ALMLPLSILEVAMIIL--AFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVV  97
+            +L LPL + ++A++ +   F  R   AV  A    +A ++G+T   ++  Y+  A    V
+Sbjct  56   SLRLPLMLAQLALVFVLSMFAQRLSAAVAGALFVGYAALTGLTFSALLFAYSPAA----V  111
+
+Query  98   LEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYS  157
+            + AF  +   F ++   G  +KKDLS +  F L AVL L V  + N+F   +SA  +  S
+Sbjct  112  ITAFAVSAGTFGLMSVAGFVIKKDLSAMGRFFLFAVLGLVVAMLVNLFVG-SSALSLGIS  170
+
+Query  158  VIGTIVFSLYILYDLNQIKHRHIT-------EDLIPVMALSLYLDFINLFINLLR  205
+            +IG  +F+    YD   +++  ++       E      AL+LYLDFIN+F+ LL 
+Sbjct  171  MIGVFLFAGLTAYDTQMLRNLALSGISGEQAERASINGALALYLDFINIFLFLLN  225
+
+
+> sp|Q9ZQX7|LFG3_ARATH Protein LIFEGUARD 3 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG3 PE=2 SV=1
+Length=248
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 59/188 (31%), Positives = 89/188 (47%), Gaps = 22/188 (12%)
+
+Query  24   LLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGY----AFVYTFAFVSGI  79
+            L  AT GL +  ++ V ++ PL +L        ++  ++  V Y     F    AFV G+
+Sbjct  68   LFFATTGLGLALYI-VIIITPLIVL-----CPLYYYHQKHPVNYLLLGIFTLALAFVVGL  121
+
+Query  80   TLFPIVSHYASIAGAYVVLEA--FGSTFVIFAVLGTIGAKMKK-DLSFLWSFLLVAVLAL  136
+            T         +     V+LE+    S  V+   L T  A  K  D +FL  FL  A+  L
+Sbjct  122  T--------CAFTNGKVILESVILTSVVVLSLTLYTFWAARKGYDFNFLGPFLFGALTVL  173
+
+Query  137  AVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDF  196
+                +  I  PL   ++M Y  + +I+F  YI+YD + +  RH  ++ I   A+SLYLD 
+Sbjct  174  IFFALIQILFPLGRVSVMIYGCLVSIIFCGYIVYDTDNLIKRHTYDEYI-WAAVSLYLDI  232
+
+Query  197  INLFINLL  204
+            INLF+ LL
+Sbjct  233  INLFLYLL  240
+
+
+> sp|Q9M1V9|LFG2_ARATH Protein LIFEGUARD 2 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG2 PE=2 SV=1
+Length=239
+
+ Score = 55.8 bits (133),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 51/168 (30%), Positives = 75/168 (45%), Gaps = 27/168 (16%)
+
+Query  38   PVALMLPLSILEVAMIILAFWMRRRKAVGY----AFVYTFAFVSGITLFPIVSHYASIAG  93
+            P+ +M PL           ++  ++  V Y     F    AF  G+T         +   
+Sbjct  78   PLIVMCPL-----------YYYHQKHPVNYLLLGIFTVALAFAVGLT--------CAFTS  118
+
+Query  94   AYVVLEA--FGSTFVIFAVLGTI-GAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNS  150
+              V+LE+    +  VI   L T   AK   D +FL  FL  AV+ L V     I  PL  
+Sbjct  119  GKVILESVILTAVVVISLTLYTFWAAKRGHDFNFLGPFLFGAVIVLMVFSFIQILFPLGK  178
+
+Query  151  AAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFIN  198
+             ++M Y  + +I+F  YI+YD + +  RH  ++ I   A+SLYLD IN
+Sbjct  179  ISVMIYGCLASIIFCGYIVYDTDNLIKRHSYDEYI-WAAVSLYLDVIN  225
+
+
+> sp|P0AAC4|YBHL_ECOLI Inner membrane protein YbhL OS=Escherichia 
+coli (strain K12) OX=83333 GN=ybhL PE=1 SV=1
+Length=234
+
+ Score = 55.5 bits (132),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 52/148 (35%), Positives = 78/148 (53%), Gaps = 20/148 (14%)
+
+Query  73   FAFVSGITLFPI--VSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLL  130
+            ++ ++G+TL  I  V   ASIA  +VV      T  +F  +   G   K+DLS   + L 
+Sbjct  92   YSALTGLTLSSIFIVYTAASIASTFVV------TAGMFGAMSLYGYTTKRDLSGFGNMLF  145
+
+Query  131  VAVLALAVVGIFNIFSPLNSAAMM-AYSVIGTIVFSLYILYDLNQIKH------RHITED  183
+            +A++ + +  + N +  L S A+M A + IG IVF     YD  ++K+         T +
+Sbjct  146  MALIGIVLASLVNFW--LKSEALMWAVTYIGVIVFVGLTAYDTQKLKNMGEQIDTRDTSN  203
+
+Query  184  LIP---VMALSLYLDFINLFINLLRFFG  208
+            L     + AL+LYLDFINLF+ LLR FG
+Sbjct  204  LRKYSILGALTLYLDFINLFLMLLRIFG  231
+
+
+> sp|P0AAC5|YBHL_ECOL6 Inner membrane protein YbhL OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=ybhL PE=3 SV=1
+Length=234
+
+ Score = 55.5 bits (132),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 52/148 (35%), Positives = 78/148 (53%), Gaps = 20/148 (14%)
+
+Query  73   FAFVSGITLFPI--VSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLL  130
+            ++ ++G+TL  I  V   ASIA  +VV      T  +F  +   G   K+DLS   + L 
+Sbjct  92   YSALTGLTLSSIFIVYTAASIASTFVV------TAGMFGAMSLYGYTTKRDLSGFGNMLF  145
+
+Query  131  VAVLALAVVGIFNIFSPLNSAAMM-AYSVIGTIVFSLYILYDLNQIKH------RHITED  183
+            +A++ + +  + N +  L S A+M A + IG IVF     YD  ++K+         T +
+Sbjct  146  MALIGIVLASLVNFW--LKSEALMWAVTYIGVIVFVGLTAYDTQKLKNMGEQIDTRDTSN  203
+
+Query  184  LIP---VMALSLYLDFINLFINLLRFFG  208
+            L     + AL+LYLDFINLF+ LLR FG
+Sbjct  204  LRKYSILGALTLYLDFINLFLMLLRIFG  231
+
+
+> sp|Q94A20|LFG5_ARATH BI1-like protein OS=Arabidopsis thaliana 
+OX=3702 GN=LFG5 PE=2 SV=1
+Length=256
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 31/90 (34%), Positives = 50/90 (56%), Gaps = 1/90 (1%)
+
+Query  116  AKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQI  175
+            AK  KD SFL   L  +++ L V     +F PL   ++  Y     +VF  YI+YD + +
+Sbjct  161  AKKGKDFSFLGPILFTSLIILVVTSFIQMFFPLGPTSVAVYGGFSALVFCGYIVYDTDNL  220
+
+Query  176  KHRHITEDLIPVMALSLYLDFINLFINLLR  205
+              R   ++ I + +++LYLD +NLF+ +LR
+Sbjct  221  IKRFTYDEYI-LASVALYLDILNLFLTILR  249
+
+
+> sp|Q9ZE15|Y147_RICPR Uncharacterized protein RP147 OS=Rickettsia 
+prowazekii (strain Madrid E) OX=272947 GN=RP147 PE=3 SV=1
+Length=236
+
+ Score = 54.7 bits (130),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 35/109 (32%), Positives = 59/109 (54%), Gaps = 8/109 (7%)
+
+Query  107  IFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSL  166
+            +F  +   G    +DL+ + SF  + ++ L +  + N+F   +S+   A S+IG +VF  
+Sbjct  125  VFGAMSLYGYSTSRDLTSMGSFFAMGLIGLIIASLVNLFLK-SSSLSFATSLIGIVVFMG  183
+
+Query  167  YILYDLNQIK-------HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+             I +D  +IK       +  + + L  + A +LYLDFINLF+ L+RF G
+Sbjct  184  LIAWDTQKIKSMYYIAGNDEVGQKLSIMAAFTLYLDFINLFLYLMRFLG  232
+
+
+> sp|Q9CNM5|Y402_PASMU Uncharacterized protein PM0402 OS=Pasteurella 
+multocida (strain Pm70) OX=272843 GN=PM0402 PE=3 SV=1
+Length=220
+
+ Score = 52.8 bits (125),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 57/166 (34%), Positives = 80/166 (48%), Gaps = 13/166 (8%)
+
+Query  55   LAFWMRRRKAVGYAFVYTFAFVS--GITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLG  112
+            L F   +    G   + TFAF    G TL PI++ Y S     +V+ A   T  +F    
+Sbjct  62   LLFLTYKLSNSGLGILSTFAFTGFLGYTLGPILNVYVSHGAGDIVVLALAGTAAVFFACS  121
+
+Query  113  TIGAKMKKDLSFLWS--FLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGT-IVFS-LYI  168
+                  KKD+SFL    F L  VL L +V  F   SP     M+  ++ G  +VFS L I
+Sbjct  122  AYVLTTKKDMSFLSGTIFALFIVLLLGMVASFFFQSP-----MLYIAISGLFVVFSTLGI  176
+
+Query  169  LYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+            LY+ + I H   T  +   +  S+++   NLFI+LL  F ILS++D
+Sbjct  177  LYETSNIIHGGETNYIRATV--SIFVSLYNLFISLLNIFSILSNED  220
+
+
+> sp|Q9DA39|LFG4_MOUSE Protein lifeguard 4 OS=Mus musculus OX=10090 
+GN=Tmbim4 PE=2 SV=1
+Length=238
+
+ Score = 52.8 bits (125),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 35/112 (31%), Positives = 63/112 (56%), Gaps = 2/112 (2%)
+
+Query  95   YVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMM  154
+            Y+VL+AF  T  +F  L     + K+D +   + L   +  L + G   +F    +  ++
+Sbjct  122  YLVLQAFIMTTAVFLGLTAYTLQSKRDFTKFGAGLFAGLWILCLAGFLKLFFYSETMELV  181
+
+Query  155  AYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRF  206
+              S +G ++F  +I+YD + + HR   E+ + + A+SLY+D INLF++LL+F
+Sbjct  182  LAS-LGALLFCGFIIYDTHSLMHRLSPEEYV-IAAISLYMDIINLFLHLLKF  231
+
+
+> sp|Q49P94|GAAP_VACCL Golgi anti-apoptotic protein OS=Vaccinia 
+virus (strain Lister) OX=10252 GN=L6 PE=1 SV=1
+Length=237
+
+ Score = 51.2 bits (121),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 68/139 (49%), Gaps = 6/139 (4%)
+
+Query  60   RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMK  119
+            R +  +    +  F     +TL  +V+ Y      +VV++AF  T   F  L T   + K
+Sbjct  90   RHKHPLNLYLLCGFTLSESLTLASVVTFY----DVHVVMQAFMLTTAAFLALTTYTLQSK  145
+
+Query  120  KDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRH  179
+            +D S L + L  A+  L + G+  IF   N    +  S  G +VF  +I+YD + + H+ 
+Sbjct  146  RDFSKLGAGLFAALWILILSGLLGIFVQ-NETVKLVLSAFGALVFCGFIIYDTHSLIHKL  204
+
+Query  180  ITEDLIPVMALSLYLDFIN  198
+              E+ + + +++LYLD IN
+Sbjct  205  SPEEYV-LASINLYLDIIN  222
+
+
+> sp|Q03268|Y2604_PSEAE Uncharacterized protein PA2604 OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=PA2604 
+PE=3 SV=1
+Length=222
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 51/158 (32%), Positives = 76/158 (48%), Gaps = 8/158 (5%)
+
+Query  61   RRKAVGYAFVYTFAFVS--GITLFPIVSHYASIA-GAYVVLEAFGSTFVIFAVLGTIGAK  117
+            + +   +  V TFA     G TL PI++ Y  +  G  V+  AF  T ++F  L      
+Sbjct  69   KLRNSAWGLVSTFALTGFMGYTLGPILNMYLGLPNGGSVITSAFAMTALVFFGLSAYVLT  128
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFS-LYILYDLNQIK  176
+             +KD+SFL  F+      L    + ++F  + S   +A S  G ++FS   ILY  + I 
+Sbjct  129  TRKDMSFLSGFITAGFFVLLGAVLVSLFFQI-SGLQLAISA-GFVLFSSAMILYQTSAII  186
+
+Query  177  HRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+            H    E    +  +SLY+   NLFI+LL+ FGI   DD
+Sbjct  187  HGG--ERNYIMATISLYVSIYNLFISLLQIFGIAGGDD  222
+
+
+> sp|O51489|Y539_BORBU Uncharacterized protein BB_0539 OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / DSM 
+4680) OX=224326 GN=BB_0539 PE=3 SV=1
+Length=232
+
+ Score = 49.3 bits (116),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 45/152 (30%), Positives = 72/152 (47%), Gaps = 19/152 (13%)
+
+Query  73   FAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVA  132
+            ++ ++G+TL  I   Y    G+ V    FG T   F  +   G     DL+ + S+L++ 
+Sbjct  89   YSALTGVTLSSIFMIYTQ--GSIVF--TFGITAGTFLGMSVYGYTTTTDLTKMGSYLIMG  144
+
+Query  133  VLALAVVGIFNIF---SPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH--------RHIT  181
+            +  + +  + N+F   S LN       S++G ++F+    YD+  I            I 
+Sbjct  145  LWGIIIASLVNMFFRSSGLN----FLISILGVVIFTGLTAYDVQNISKMDKMLQDDTEIK  200
+
+Query  182  EDLIPVMALSLYLDFINLFINLLRFFGILSSD  213
+              +  V +L LYLDFINLF+ LLRF G   +D
+Sbjct  201  NRMAVVASLKLYLDFINLFLYLLRFLGQRRND  232
+
+
+> sp|Q11080|TMBI4_CAEEL Transmembrane BAX inhibitor motif-containing 
+protein 4 OS=Caenorhabditis elegans OX=6239 GN=tmbi-4 
+PE=3 SV=2
+Length=276
+
+ Score = 48.5 bits (114),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 48/159 (30%), Positives = 78/159 (49%), Gaps = 10/159 (6%)
+
+Query  49   EVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIF  108
+             +A+II      R   + Y  +  F  V  +T+  +V+ +     A VVLEA   T ++ 
+Sbjct  119  SIALIIALHVYAREVPLNYVLLAAFTAVQAVTMGCVVTLFE----AKVVLEAAVITGLVV  174
+
+Query  109  AVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIF--SPLNSAAMMAYSVIGTIVFSL  166
+            A L     + K+D S  ++ +   +  L   GIF +F  SP   A     +V G  +F +
+Sbjct  175  ASLFAYTLQNKRDFSVGYASMGSLLCVLLWAGIFQMFFMSP---AVNFVINVFGAGLFCV  231
+
+Query  167  YILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLR  205
+             ++ DL+ I +R   ED I    +SLY+D +NLFI +L+
+Sbjct  232  LLVIDLDMIMYRFSPEDYI-CACVSLYMDILNLFIRILQ  269
+
+
+> sp|P0AAC6|YCCA_ECOLI Modulator of FtsH protease YccA OS=Escherichia 
+coli (strain K12) OX=83333 GN=yccA PE=1 SV=1
+Length=219
+
+ Score = 48.1 bits (113),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 52/178 (29%), Positives = 81/178 (46%), Gaps = 8/178 (4%)
+
+Query  41   LMLP---LSILEVAMIILAFWMRRRKAVGYAFVYTFAFVS--GITLFPIVSHYASIAGAY  95
+            LMLP   L +  V M  L F   +        +  FAF    G  L PI++ Y S     
+Sbjct  45   LMLPSPGLILTLVGMYGLMFLTYKTANKPTGIISAFAFTGFLGYILGPILNTYLSAGMGD  104
+
+Query  96   VVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMA  155
+            V+  A G T ++F          +KD+SFL   L+  ++ + +  + NIF  L  A  +A
+Sbjct  105  VIAMALGGTALVFFCCSAYVLTTRKDMSFLGGMLMAGIVVVLIGMVANIFLQL-PALHLA  163
+
+Query  156  YSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSD  213
+             S +  ++ S  IL++ + I H   T  +     +SLY+   N+F++LL   G  S D
+Sbjct  164  ISAVFILISSGAILFETSNIIHGGETNYIRAT--VSLYVSLYNIFVSLLSILGFASRD  219
+
+
+> sp|P0AAC7|YCCA_ECOL6 Inner membrane protein YccA OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=yccA PE=3 SV=1
+Length=219
+
+ Score = 48.1 bits (113),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 52/178 (29%), Positives = 81/178 (46%), Gaps = 8/178 (4%)
+
+Query  41   LMLP---LSILEVAMIILAFWMRRRKAVGYAFVYTFAFVS--GITLFPIVSHYASIAGAY  95
+            LMLP   L +  V M  L F   +        +  FAF    G  L PI++ Y S     
+Sbjct  45   LMLPSPGLILTLVGMYGLMFLTYKTANKPTGIISAFAFTGFLGYILGPILNTYLSAGMGD  104
+
+Query  96   VVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMA  155
+            V+  A G T ++F          +KD+SFL   L+  ++ + +  + NIF  L  A  +A
+Sbjct  105  VIAMALGGTALVFFCCSAYVLTTRKDMSFLGGMLMAGIVVVLIGMVANIFLQL-PALHLA  163
+
+Query  156  YSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSD  213
+             S +  ++ S  IL++ + I H   T  +     +SLY+   N+F++LL   G  S D
+Sbjct  164  ISAVFILISSGAILFETSNIIHGGETNYIRAT--VSLYVSLYNIFVSLLSILGFASRD  219
+
+
+> sp|Q9CEU8|YRJE_LACLA Uncharacterized protein YrjE OS=Lactococcus 
+lactis subsp. lactis (strain IL1403) OX=272623 GN=yrjE PE=3 
+SV=2
+Length=234
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 38/120 (32%), Positives = 61/120 (51%), Gaps = 7/120 (6%)
+
+Query  100  AFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVI  159
+            AF +   +F  L   G   K++LS +     VAV  L +    N F   ++   +  S++
+Sbjct  114  AFVTAAAMFFGLSVYGRFTKRNLSAMGKAFGVAVWGLIIAMFLNFFFA-STGLTILISLV  172
+
+Query  160  GTIVFSLYILYDLNQI------KHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSD  213
+            G ++F+  I +D  +I       +  +++     MALSLYLDFIN+F+ LLR FGI   +
+Sbjct  173  GVVIFAGLIAWDNQKITQVYNANNGQVSDGWAISMALSLYLDFINMFLFLLRLFGIAGGN  232
+
+
+> sp|Q9HC24|LFG4_HUMAN Protein lifeguard 4 OS=Homo sapiens OX=9606 
+GN=TMBIM4 PE=1 SV=3
+Length=238
+
+ Score = 47.0 bits (110),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 47/168 (28%), Positives = 84/168 (50%), Gaps = 8/168 (5%)
+
+Query  40   ALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLE  99
+            AL+L  ++  + +I      R +  +    ++ F  +  +T+  +V+ Y      Y++L+
+Sbjct  71   ALILLFALGSLGLIFALILNRHKYPLNLYLLFGFTLLEALTVAVVVTFY----DVYIILQ  126
+
+Query  100  AFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAM-MAYSV  158
+            AF  T  +F  L     + KKD S   + L   +  L + G    F    S  M +  + 
+Sbjct  127  AFILTTTVFFGLTVYTLQSKKDFSKFGAGLFALLWILCLSGFLKFF--FYSEIMELVLAA  184
+
+Query  159  IGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRF  206
+             G ++F  +I+YD + + H+   E+ + + A+SLYLD INLF++LLRF
+Sbjct  185  AGALLFCGFIIYDTHSLMHKLSPEEYV-LAAISLYLDIINLFLHLLRF  231
+
+
+> sp|O84826|Y819_CHLTR Uncharacterized protein CT_819 OS=Chlamydia 
+trachomatis (strain D/UW-3/Cx) OX=272561 GN=CT_819 PE=3 
+SV=1
+Length=238
+
+ Score = 47.0 bits (110),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 45/147 (31%), Positives = 73/147 (50%), Gaps = 18/147 (12%)
+
+Query  80   TLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVV  139
+            TL P+   YA+  G  VV  AFGS  +IF +    GA  K DL+ +   L++A++ L V+
+Sbjct  96   TLVPV---YAAQFGGGVVWAAFGSAGIIFGLSAAYGAFTKNDLTQIHRILMLALVGLVVI  152
+
+Query  140  G----IFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--------HRHITEDLIPV  187
+                 I ++F+P+    ++    +G I+F    + D   I+        H  ++  L  +
+Sbjct  153  SLAFLIVSLFTPMPLLYLLI-CYLGLIIFVGLTVVDAQSIRRVARSVGDHGDLSYKLSLI  211
+
+Query  188  MALSLYLDFINLFINLLRFFGILSSDD  214
+            MAL +Y + I +F  LL+ F   SSD 
+Sbjct  212  MALQMYCNVIMIFWYLLQIFA--SSDK  236
+
+
+> sp|Q9PLA1|Y206_CHLMU Uncharacterized protein TC_0206 OS=Chlamydia 
+muridarum (strain MoPn / Nigg) OX=243161 GN=TC_0206 PE=3 
+SV=1
+Length=238
+
+ Score = 46.2 bits (108),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 43/147 (29%), Positives = 73/147 (50%), Gaps = 18/147 (12%)
+
+Query  80   TLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVV  139
+            T+ P+   YA+  G  +V  AFGS  VIF +    GA  K DL+ +   L++A++ L V+
+Sbjct  96   TMVPV---YAAQFGGGIVWAAFGSAAVIFGLSAAYGAFTKSDLTQIHRILMLALIGLMVI  152
+
+Query  140  G----IFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--------HRHITEDLIPV  187
+                 + ++F+P+    ++    +G I+F    + D   I+        H  ++  L  +
+Sbjct  153  SLGFLVVSLFTPMPLMYLLI-CYLGLIIFVGLTVVDAQSIRRVARSVGDHGDLSYKLSLI  211
+
+Query  188  MALSLYLDFINLFINLLRFFGILSSDD  214
+            MAL +Y + I +F  LL+ F   SSD 
+Sbjct  212  MALQMYCNVIMIFWYLLQIFA--SSDK  236
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.145    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 13809833929
+Results from round 2
+
+
+Query= O31539|4pgsA
+
+Length=214
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O31539|YETJ_BACSU Uncharacterized protein YetJ OS=Bacillus s...  160     7e-47
+  sp|Q9ZKT1|Y920_HELPJ Uncharacterized protein jhp_0854 OS=Helico...  137     4e-38
+  sp|O25578|Y920_HELPY Uncharacterized protein HP_0920 OS=Helicob...  134     7e-37
+  sp|Q9PIQ8|Y236_CAMJE Uncharacterized protein Cj0236c OS=Campylo...  121     6e-32
+  sp|O74888|BXI1_SCHPO Bax inhibitor 1 OS=Schizosaccharomyces pom...  119     5e-31
+  sp|Q9SA63|LFG4_ARATH Protein LIFEGUARD 4 OS=Arabidopsis thalian...  111     6e-28
+  sp|Q11080|TMBI4_CAEEL Transmembrane BAX inhibitor motif-contain...  111     7e-28
+  sp|Q9DA39|LFG4_MOUSE Protein lifeguard 4 OS=Mus musculus OX=100...  110     1e-27
+  sp|Q9ZQX7|LFG3_ARATH Protein LIFEGUARD 3 OS=Arabidopsis thalian...  109     3e-27
+  sp|Q94A20|LFG5_ARATH BI1-like protein OS=Arabidopsis thaliana O...  109     3e-27
+  sp|Q9HC24|LFG4_HUMAN Protein lifeguard 4 OS=Homo sapiens OX=960...  106     2e-26
+  sp|Q9KSA1|Y1358_VIBCH Uncharacterized membrane protein VC_1358 ...  105     4e-26
+  sp|Q49P94|GAAP_VACCL Golgi anti-apoptotic protein OS=Vaccinia v...  103     2e-25
+  sp|Q9M1V9|LFG2_ARATH Protein LIFEGUARD 2 OS=Arabidopsis thalian...  101     2e-24
+  sp|P0AAC6|YCCA_ECOLI Modulator of FtsH protease YccA OS=Escheri...  100     2e-24
+  sp|P0AAC7|YCCA_ECOL6 Inner membrane protein YccA OS=Escherichia...  100     2e-24
+  sp|Q03268|Y2604_PSEAE Uncharacterized protein PA2604 OS=Pseudom...  97.0    7e-23
+  sp|O84826|Y819_CHLTR Uncharacterized protein CT_819 OS=Chlamydi...  93.5    2e-21
+  sp|Q9CNM5|Y402_PASMU Uncharacterized protein PM0402 OS=Pasteure...  92.7    2e-21
+  sp|F4JIE8|LFG1_ARATH Protein LIFEGUARD 1 OS=Arabidopsis thalian...  92.7    3e-21
+  sp|Q9A2A3|Y3663_CAUCR Uncharacterized protein CC_3663 OS=Caulob...  91.6    7e-21
+  sp|Q9PLA1|Y206_CHLMU Uncharacterized protein TC_0206 OS=Chlamyd...  90.8    1e-20
+  sp|P0DA11|Y260_STRPQ Uncharacterized membrane protein SPs1599 O...  88.9    5e-20
+  sp|P0DA10|Y260_STRP3 Uncharacterized membrane protein SpyM3_026...  88.9    5e-20
+  sp|Q9A1B9|Y358_STRP1 Uncharacterized membrane protein SPy_0358/...  88.9    6e-20
+  sp|Q8P2D4|Y408_STRP8 Uncharacterized membrane protein spyM18_04...  88.5    7e-20
+  sp|Q5XDQ1|Y327_STRP6 Uncharacterized membrane protein M6_Spy032...  88.5    7e-20
+  sp|O51489|Y539_BORBU Uncharacterized protein BB_0539 OS=Borreli...  88.5    8e-20
+  sp|P0AAC4|YBHL_ECOLI Inner membrane protein YbhL OS=Escherichia...  88.1    1e-19
+  sp|P0AAC5|YBHL_ECOL6 Inner membrane protein YbhL OS=Escherichia...  88.1    1e-19
+  sp|Q9RVX8|Y893_DEIRA Uncharacterized protein DR_0893 OS=Deinoco...  84.3    2e-18
+  sp|Q9ZE15|Y147_RICPR Uncharacterized protein RP147 OS=Rickettsi...  80.8    4e-17
+  sp|Q9CEU8|YRJE_LACLA Uncharacterized protein YrjE OS=Lactococcu...  79.3    1e-16
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q7Z429|LFG1_HUMAN Protein lifeguard 1 OS=Homo sapiens OX=960...  79.7    3e-16
+  sp|P44477|Y044_HAEIN Uncharacterized protein HI_0044 OS=Haemoph...  78.1    3e-16
+  sp|Q32L53|LFG1_BOVIN Protein lifeguard 1 OS=Bos taurus OX=9913 ...  70.4    5e-13
+  sp|Q6P6R0|LFG1_RAT Protein lifeguard 1 OS=Rattus norvegicus OX=...  69.2    1e-12
+  sp|Q9ESF4|LFG1_MOUSE Protein lifeguard 1 OS=Mus musculus OX=100...  69.2    1e-12
+  sp|Q969X1|LFG3_HUMAN Protein lifeguard 3 OS=Homo sapiens OX=960...  68.1    2e-12
+  sp|Q8BJZ3|LFG3_MOUSE Protein lifeguard 3 OS=Mus musculus OX=100...  64.2    4e-11
+  sp|O88407|LFG2_RAT Protein lifeguard 2 OS=Rattus norvegicus OX=...  64.2    5e-11
+  sp|Q0V882|BI1_BOVIN Bax inhibitor 1 OS=Bos taurus OX=9913 GN=TM...  63.1    5e-11
+  sp|Q9BWQ8|LFG2_HUMAN Protein lifeguard 2 OS=Homo sapiens OX=960...  63.5    1e-10
+  sp|Q9D2C7|BI1_MOUSE Bax inhibitor 1 OS=Mus musculus OX=10090 GN...  62.3    1e-10
+  sp|Q66RM2|BI1_PIG Bax inhibitor 1 OS=Sus scrofa OX=9823 GN=TMBI...  61.9    1e-10
+  sp|Q8K097|LFG2_MOUSE Protein lifeguard 2 OS=Mus musculus OX=100...  62.7    1e-10
+  sp|Q1LZ71|LFG2_BOVIN Protein lifeguard 2 OS=Bos taurus OX=9913 ...  62.7    2e-10
+  sp|P55062|BI1_RAT Bax inhibitor 1 OS=Rattus norvegicus OX=10116...  61.5    2e-10
+  sp|Q5R4I4|LFG2_PONAB Protein lifeguard 2 OS=Pongo abelii OX=960...  61.5    4e-10
+  sp|P48558|BXI1_YEAST Bax inhibitor 1 OS=Saccharomyces cerevisia...  60.4    1e-09
+  sp|Q5R7R1|BI1_PONAB Bax inhibitor 1 OS=Pongo abelii OX=9601 GN=...  59.6    1e-09
+  sp|P55061|BI1_HUMAN Bax inhibitor 1 OS=Homo sapiens OX=9606 GN=...  58.8    2e-09
+  sp|Q9IA79|BI1_PAROL Probable Bax inhibitor 1 OS=Paralichthys ol...  56.2    2e-08
+  sp|Q9VSH3|BI1_DROME Bax inhibitor 1 OS=Drosophila melanogaster ...  55.8    3e-08
+  sp|P63701|Y420_NEIMA Uncharacterized protein NMA0420 OS=Neisser...  54.2    8e-08
+  sp|P63702|Y2020_NEIMB Uncharacterized protein NMB2020 OS=Neisse...  54.2    8e-08
+  sp|Q9LD45|BI1_ARATH Bax inhibitor 1 OS=Arabidopsis thaliana OX=...  49.2    5e-06
+  sp|Q9H3K2|GHITM_HUMAN Growth hormone-inducible transmembrane pr...  48.4    1e-05
+  sp|Q5XIA8|GHITM_RAT Growth hormone-inducible transmembrane prot...  45.8    1e-04
+  sp|Q91VC9|GHITM_MOUSE Growth hormone-inducible transmembrane pr...  45.4    1e-04
+  sp|Q54K40|BI1_DICDI Bax inhibitor 1 homolog OS=Dictyostelium di...  44.2    3e-04
+  sp|Q9MBD8|BI1_ORYSJ Bax inhibitor 1 OS=Oryza sativa subsp. japo...  43.4    5e-04
+  sp|P09723|US21_HCMVA Uncharacterized protein HWLF2 OS=Human cyt...  43.4    6e-04
+  sp|F5HHT6|US21_HCMVM Membrane protein US21 OS=Human cytomegalov...  43.4    6e-04
+
+
+> sp|O31539|YETJ_BACSU Uncharacterized protein YetJ OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yetJ PE=1 SV=1
+Length=214
+
+ Score = 160 bits (404),  Expect = 7e-47, Method: Composition-based stats.
+ Identities = 214/214 (100%), Positives = 214/214 (100%), Gaps = 0/214 (0%)
+
+Query  1    MQATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMR  60
+            MQATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMR
+Sbjct  1    MQATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMR  60
+
+Query  61   RRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKK  120
+            RRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKK
+Sbjct  61   RRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKK  120
+
+Query  121  DLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHI  180
+            DLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHI
+Sbjct  121  DLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHI  180
+
+Query  181  TEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+            TEDLIPVMALSLYLDFINLFINLLRFFGILSSDD
+Sbjct  181  TEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+
+
+> sp|Q9ZKT1|Y920_HELPJ Uncharacterized protein jhp_0854 OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=jhp_0854 
+PE=3 SV=1
+Length=230
+
+ Score = 137 bits (346),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 63/217 (29%), Positives = 110/217 (51%), Gaps = 7/217 (3%)
+
+Query  2    QATVHESKQ-SIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAF---  57
+             + +HES+  S ++     F  +LL+ATVG  +G     A++    +  +A I+  F   
+Sbjct  16   DSVLHESELVSFVKTTYKFFAGSLLLATVGALLGLMNFQAVVQYKWVFFIAEIVAFFGLM  75
+
+Query  58   WMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAK  117
+            + + +  +    ++ F  +SG+TL P++    + AG   V +A G T ++F ++     K
+Sbjct  76   FSKSKPGLNLFMLFAFTSLSGVTLVPLLGMVIAKAGLGAVWQALGMTTIVFGLMSVYALK  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             K DL+ +   L +A++ + V  + N+F   +    +  +    I+FSLYI YD   I  
+Sbjct  136  TKNDLANMGKMLFIALIVVVVCSLINLFLG-SPMFQVVIAGASAILFSLYIAYDTQNIVK  194
+
+Query  178  RHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+                 D     A+SLYLDF+N+FI++L+  GI S  D
+Sbjct  195  GM--YDSPIDAAVSLYLDFLNVFISILQIIGIFSDRD  229
+
+
+> sp|O25578|Y920_HELPY Uncharacterized protein HP_0920 OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=HP_0920 
+PE=3 SV=1
+Length=230
+
+ Score = 134 bits (337),  Expect = 7e-37, Method: Composition-based stats.
+ Identities = 60/217 (28%), Positives = 107/217 (49%), Gaps = 7/217 (3%)
+
+Query  2    QATVHESKQ-SIMQRILTVFVFTLLIATVGLFIGQFVPVALM---LPLSILEVAMIILAF  57
+             + + ES+  S ++     F  +LL+AT+G  +G     A++       I E+A      
+Sbjct  16   DSLLRESELVSFVKTTYKFFAGSLLLATIGALLGLMNFQAVVQYKWVFFIAEIAAFFGLM  75
+
+Query  58   WMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAK  117
+            + + +  +    ++ F  +SG+TL P++    + AG   + +A G T ++F ++     K
+Sbjct  76   FSKSKPGLNLFMLFAFTSLSGVTLVPLLGMVIAKAGLGAIWQALGMTTIVFGLMSVYALK  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             K DL+ +   L +A++ + V  + N+F   +    +  +    I+FSLYI YD   I  
+Sbjct  136  TKNDLANMGKMLFIALIVVVVCSLINLFLG-SPMFQVVIAGASAILFSLYIAYDTQNIVK  194
+
+Query  178  RHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+                 D     A+SLYLDF+N+FI++L+  GI S  D
+Sbjct  195  GM--YDSPIDAAVSLYLDFLNVFISILQIIGIFSDRD  229
+
+
+> sp|Q9PIQ8|Y236_CAMJE Uncharacterized protein Cj0236c OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 
+/ NCTC 11168) OX=192222 GN=Cj0236c PE=3 SV=1
+Length=231
+
+ Score = 121 bits (303),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 63/219 (29%), Positives = 106/219 (48%), Gaps = 12/219 (5%)
+
+Query  4    TVHESKQS-IMQRILTVFVFTLLIATVGLFIGQFVPVALMLP-------LSILEVAMIIL  55
+                S+ S  +++   +F  +LL ATVG ++G F   +  +        L  +E+ ++  
+Sbjct  16   NTRSSELSIFIKQTYQLFAASLLAATVGAYVGIFALASFFIQSQVTFWILFAVEIGLLFA  75
+
+Query  56   AFWMRRRKAVGYAFVYTFAFVSGITLFPIV-SHYASIAGAYVVLEAFGSTFVIFAVLGTI  114
+              W +R   +    ++ F F SG+TL P++ S  A  AG  ++ +AF  T V FA L   
+Sbjct  76   LQWKKREAPLNLVLLFGFTFCSGLTLTPLLISVLALPAGGIIIAQAFALTTVAFAGLSVF  135
+
+Query  115  GAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQ  174
+                KKD + +   L + ++ +    + N+F   +S   +A S +  I+FS YILYD   
+Sbjct  136  AMNTKKDFTVMGKALFIVLIVIVAASLLNLFFQ-SSIVNLAISAVAAILFSFYILYDTQN  194
+
+Query  175  IKHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSD  213
+            I       +     A++LYLDF+NLF++LL      +S 
+Sbjct  195  IIRG--NYETPIEGAVALYLDFVNLFVSLLNILRSFNSR  231
+
+
+> sp|O74888|BXI1_SCHPO Bax inhibitor 1 OS=Schizosaccharomyces pombe 
+(strain 972 / ATCC 24843) OX=284812 GN=bxi1 PE=3 SV=1
+Length=266
+
+ Score = 119 bits (299),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 60/197 (30%), Positives = 97/197 (49%), Gaps = 6/197 (3%)
+
+Query  18   TVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVS  77
+            ++F     +     F  Q  P  L+L   I  V ++             Y F++ F  + 
+Sbjct  74   SLFGGIFYLHPAFSFWVQMHPWFLILNFFISLV-VLFGLIMKPYSYPRNYIFLFLFTALE  132
+
+Query  78   GITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALA  137
+            G+TL   ++ +++     ++LEA   T  +F  L     + K D S L  FL V++ +L 
+Sbjct  133  GLTLGTAITFFSA----RIILEAVFITLGVFVALTAFTFQSKWDFSRLGGFLYVSLWSLI  188
+
+Query  138  VVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFI  197
+            +  +   F P      MA++  GT+VF  YIL+D   I HR+  E+ I + +L LYLDFI
+Sbjct  189  LTPLIFFFVPSTPFIDMAFAGFGTLVFCGYILFDTYNILHRYSPEEFI-MSSLMLYLDFI  247
+
+Query  198  NLFINLLRFFGILSSDD  214
+            NLFI +L+  G+L ++D
+Sbjct  248  NLFIRILQILGMLQNND  264
+
+
+> sp|Q9SA63|LFG4_ARATH Protein LIFEGUARD 4 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG4 PE=2 SV=1
+Length=247
+
+ Score = 111 bits (277),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 52/188 (28%), Positives = 84/188 (45%), Gaps = 14/188 (7%)
+
+Query  23   TLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLF  82
+             +  AT    +  ++       L I  + ++   ++  ++  V Y  +  F     + L 
+Sbjct  67   AVFFATTSAGLALWI------VLIITPLIVMCPLYYYHQKHPVNYLLLGIFT----VALA  116
+
+Query  83   PIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGA---KMKKDLSFLWSFLLVAVLALAVV  139
+              V    +     V+LEA   T V+   L        K   D +FL  FL  A++ L V 
+Sbjct  117  FAVGLTCAFTSGKVILEAAILTTVVVLSLTVYTFWAAKKGYDFNFLGPFLFGALIVLMVF  176
+
+Query  140  GIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINL  199
+             +  IF PL   ++M Y  +  I+F  YI+YD + +  R+  ++ I   A+SLYLD INL
+Sbjct  177  ALIQIFFPLGRISVMIYGCLAAIIFCGYIVYDTDNLIKRYSYDEYI-WAAVSLYLDIINL  235
+
+Query  200  FINLLRFF  207
+            F+ LL  F
+Sbjct  236  FLALLTIF  243
+
+
+> sp|Q11080|TMBI4_CAEEL Transmembrane BAX inhibitor motif-containing 
+protein 4 OS=Caenorhabditis elegans OX=6239 GN=tmbi-4 
+PE=3 SV=2
+Length=276
+
+ Score = 111 bits (278),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 46/171 (27%), Positives = 83/171 (49%), Gaps = 6/171 (4%)
+
+Query  41   LMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEA  100
+            ++ P  +  +A+II      R   + Y  +  F  V  +T+  +V+ + +     VVLEA
+Sbjct  111  IVFPNLLGSIALIIALHVYAREVPLNYVLLAAFTAVQAVTMGCVVTLFEA----KVVLEA  166
+
+Query  101  FGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIG  160
+               T ++ A L     + K+D S  ++ +   +  L   GIF +F  ++ A     +V G
+Sbjct  167  AVITGLVVASLFAYTLQNKRDFSVGYASMGSLLCVLLWAGIFQMFF-MSPAVNFVINVFG  225
+
+Query  161  TIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFFGILS  211
+              +F + ++ DL+ I +R   ED I    +SLY+D +NLFI +L+     +
+Sbjct  226  AGLFCVLLVIDLDMIMYRFSPEDYI-CACVSLYMDILNLFIRILQIVAEAN  275
+
+
+> sp|Q9DA39|LFG4_MOUSE Protein lifeguard 4 OS=Mus musculus OX=10090 
+GN=Tmbim4 PE=2 SV=1
+Length=238
+
+ Score = 110 bits (274),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 44/208 (21%), Positives = 97/208 (47%), Gaps = 15/208 (7%)
+
+Query  9    KQSIMQRILTVFVFTLLIATVGLFIGQFVPV---------ALMLPLSILEVAMIILAFWM  59
+            + + ++++ ++    +L+ TV   +  +            AL++  ++  + +I      
+Sbjct  31   RMAFLRKVYSILSLQVLLTTVTSALFLYFQALRTFVHESPALIVVFALGSLGLIFALTLH  90
+
+Query  60   RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMK  119
+            R    +    ++ F     + +  +V+ Y      Y+VL+AF  T  +F  L     + K
+Sbjct  91   RHTHPLNLYLLFAFTLSESLAVAAVVTFY----DVYLVLQAFIMTTAVFLGLTAYTLQSK  146
+
+Query  120  KDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRH  179
+            +D +   + L   +  L + G   +F    +   +  + +G ++F  +I+YD + + HR 
+Sbjct  147  RDFTKFGAGLFAGLWILCLAGFLKLFFYSETME-LVLASLGALLFCGFIIYDTHSLMHRL  205
+
+Query  180  ITEDLIPVMALSLYLDFINLFINLLRFF  207
+              E+ + + A+SLY+D INLF++LL+F 
+Sbjct  206  SPEEYV-IAAISLYMDIINLFLHLLKFL  232
+
+
+> sp|Q9ZQX7|LFG3_ARATH Protein LIFEGUARD 3 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG3 PE=2 SV=1
+Length=248
+
+ Score = 109 bits (272),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 52/188 (28%), Positives = 86/188 (46%), Gaps = 14/188 (7%)
+
+Query  23   TLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLF  82
+             L  AT GL +  ++ V ++ PL +     +   ++  ++  V Y  +  F     + L 
+Sbjct  67   ALFFATTGLGLALYI-VIIITPLIV-----LCPLYYYHQKHPVNYLLLGIFT----LALA  116
+
+Query  83   PIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGA---KMKKDLSFLWSFLLVAVLALAVV  139
+             +V    +     V+LE+   T V+   L        +   D +FL  FL  A+  L   
+Sbjct  117  FVVGLTCAFTNGKVILESVILTSVVVLSLTLYTFWAARKGYDFNFLGPFLFGALTVLIFF  176
+
+Query  140  GIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINL  199
+             +  I  PL   ++M Y  + +I+F  YI+YD + +  RH  ++ I   A+SLYLD INL
+Sbjct  177  ALIQILFPLGRVSVMIYGCLVSIIFCGYIVYDTDNLIKRHTYDEYI-WAAVSLYLDIINL  235
+
+Query  200  FINLLRFF  207
+            F+ LL   
+Sbjct  236  FLYLLTVL  243
+
+
+> sp|Q94A20|LFG5_ARATH BI1-like protein OS=Arabidopsis thaliana 
+OX=3702 GN=LFG5 PE=2 SV=1
+Length=256
+
+ Score = 109 bits (272),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 47/208 (23%), Positives = 88/208 (42%), Gaps = 17/208 (8%)
+
+Query  12   IMQRILTVFVFTLLIATVGLFIGQFVPVA---------LMLPLSILEVAMIILAFWMRRR  62
+             ++++  +    LL+ T+   +    P           ++L L I+   +I       ++
+Sbjct  49   FIRKVYGILSAQLLLTTLISAVVVLNPPVNDLLTGSPGILLFLCIVPFILIWPLHIYHQK  108
+
+Query  63   KAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGA---KMK  119
+              V    +  F     ++L   V    ++    +VL+A   T  +   L        K  
+Sbjct  109  HPVNLILLALFT----VSLSFTVGVSCAMTEGRIVLQALILTLSVVGSLTAYTFWAAKKG  164
+
+Query  120  KDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRH  179
+            KD SFL   L  +++ L V     +F PL   ++  Y     +VF  YI+YD + +  R 
+Sbjct  165  KDFSFLGPILFTSLIILVVTSFIQMFFPLGPTSVAVYGGFSALVFCGYIVYDTDNLIKRF  224
+
+Query  180  ITEDLIPVMALSLYLDFINLFINLLRFF  207
+              ++ I + +++LYLD +NLF+ +LR  
+Sbjct  225  TYDEYI-LASVALYLDILNLFLTILRIL  251
+
+
+> sp|Q9HC24|LFG4_HUMAN Protein lifeguard 4 OS=Homo sapiens OX=9606 
+GN=TMBIM4 PE=1 SV=3
+Length=238
+
+ Score = 106 bits (265),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 48/208 (23%), Positives = 98/208 (47%), Gaps = 15/208 (7%)
+
+Query  9    KQSIMQRILTVFVFTLLIATVGLFIGQFVPV---------ALMLPLSILEVAMIILAFWM  59
+            + + ++++ ++    +L+ TV   +  +            AL+L  ++  + +I      
+Sbjct  31   RMAFLRKVYSILSLQVLLTTVTSTVFLYFESVRTFVHESPALILLFALGSLGLIFALILN  90
+
+Query  60   RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMK  119
+            R +  +    ++ F  +  +T+  +V+ Y      Y++L+AF  T  +F  L     + K
+Sbjct  91   RHKYPLNLYLLFGFTLLEALTVAVVVTFY----DVYIILQAFILTTTVFFGLTVYTLQSK  146
+
+Query  120  KDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRH  179
+            KD S   + L   +  L + G    F   +    +  +  G ++F  +I+YD + + H+ 
+Sbjct  147  KDFSKFGAGLFALLWILCLSGFLKFFFY-SEIMELVLAAAGALLFCGFIIYDTHSLMHKL  205
+
+Query  180  ITEDLIPVMALSLYLDFINLFINLLRFF  207
+              E+ + + A+SLYLD INLF++LLRF 
+Sbjct  206  SPEEYV-LAAISLYLDIINLFLHLLRFL  232
+
+
+> sp|Q9KSA1|Y1358_VIBCH Uncharacterized membrane protein VC_1358 
+OS=Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor 
+Inaba N16961) OX=243277 GN=VC_1358 PE=3 SV=1
+Length=223
+
+ Score = 105 bits (263),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 56/206 (27%), Positives = 106/206 (51%), Gaps = 6/206 (3%)
+
+Query  12   IMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVY  71
+            +++    +   TL+ + +       + ++ ++ L +   A+ IL F M +        V+
+Sbjct  21   VLKNTYFLLSMTLVTSAIAAMATMAIGISPIVALVMQLAAIGILFFVMPKAINSSSGLVW  80
+
+Query  72   TFAFVS--GITLFPIVSHYASIAGA-YVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSF  128
+            TF F    G  L P+++ YA++     V+ +A G T ++F  L       KKD SF+ +F
+Sbjct  81   TFVFTGLMGGALGPMLNFYAAMPNGPIVIAQALGLTGMVFLGLSAYTITSKKDFSFMRNF  140
+
+Query  129  LLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVM  188
+            L   ++ + V  + NIF   ++ A +A S +  +VFS +IL+D ++I     T  +    
+Sbjct  141  LFAGLIIVIVAALINIFVG-STVAHLAISSVSALVFSGFILFDTSRIVRGEETNYIS--A  197
+
+Query  189  ALSLYLDFINLFINLLRFFGILSSDD  214
+             +S+YL+ +NLF +LL   GI++++D
+Sbjct  198  TISMYLNILNLFTSLLSILGIMNNND  223
+
+
+> sp|Q49P94|GAAP_VACCL Golgi anti-apoptotic protein OS=Vaccinia 
+virus (strain Lister) OX=10252 GN=L6 PE=1 SV=1
+Length=237
+
+ Score = 103 bits (258),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 43/159 (27%), Positives = 74/159 (47%), Gaps = 6/159 (4%)
+
+Query  40   ALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLE  99
+             L+L      + +I      R +  +    +  F     +TL  +V+ Y      +VV++
+Sbjct  70   VLILASMFGSIGLIFALTLHRHKHPLNLYLLCGFTLSESLTLASVVTFY----DVHVVMQ  125
+
+Query  100  AFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVI  159
+            AF  T   F  L T   + K+D S L + L  A+  L + G+  IF   N    +  S  
+Sbjct  126  AFMLTTAAFLALTTYTLQSKRDFSKLGAGLFAALWILILSGLLGIFVQ-NETVKLVLSAF  184
+
+Query  160  GTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFIN  198
+            G +VF  +I+YD + + H+   E+ + + +++LYLD IN
+Sbjct  185  GALVFCGFIIYDTHSLIHKLSPEEYV-LASINLYLDIIN  222
+
+
+> sp|Q9M1V9|LFG2_ARATH Protein LIFEGUARD 2 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG2 PE=2 SV=1
+Length=239
+
+ Score = 101 bits (252),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 46/192 (24%), Positives = 81/192 (42%), Gaps = 14/192 (7%)
+
+Query  10   QSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAF  69
+             ++   ++ V   ++   T       ++       L +  + ++   ++  ++  V Y  
+Sbjct  45   IAVAATVVKVHSISVFFTTTTAGFALYIL------LILTPLIVMCPLYYYHQKHPVNYLL  98
+
+Query  70   VYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGA---KMKKDLSFLW  126
+            +  F     + L   V    +     V+LE+   T V+   L        K   D +FL 
+Sbjct  99   LGIFT----VALAFAVGLTCAFTSGKVILESVILTAVVVISLTLYTFWAAKRGHDFNFLG  154
+
+Query  127  SFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIP  186
+             FL  AV+ L V     I  PL   ++M Y  + +I+F  YI+YD + +  RH  ++ I 
+Sbjct  155  PFLFGAVIVLMVFSFIQILFPLGKISVMIYGCLASIIFCGYIVYDTDNLIKRHSYDEYI-  213
+
+Query  187  VMALSLYLDFIN  198
+              A+SLYLD IN
+Sbjct  214  WAAVSLYLDVIN  225
+
+
+> sp|P0AAC6|YCCA_ECOLI Modulator of FtsH protease YccA OS=Escherichia 
+coli (strain K12) OX=83333 GN=yccA PE=1 SV=1
+Length=219
+
+ Score = 100 bits (250),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 48/171 (28%), Positives = 77/171 (45%), Gaps = 5/171 (3%)
+
+Query  45   LSILEVAMIILAFWMRRRKAVGYAFVYTFAFVS--GITLFPIVSHYASIAGAYVVLEAFG  102
+            L +  V M  L F   +        +  FAF    G  L PI++ Y S     V+  A G
+Sbjct  52   LILTLVGMYGLMFLTYKTANKPTGIISAFAFTGFLGYILGPILNTYLSAGMGDVIAMALG  111
+
+Query  103  STFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTI  162
+             T ++F          +KD+SFL   L+  ++ + +  + NIF  L  A  +A S +  +
+Sbjct  112  GTALVFFCCSAYVLTTRKDMSFLGGMLMAGIVVVLIGMVANIFLQL-PALHLAISAVFIL  170
+
+Query  163  VFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSD  213
+            + S  IL++ + I H   T  +     +SLY+   N+F++LL   G  S D
+Sbjct  171  ISSGAILFETSNIIHGGETNYIR--ATVSLYVSLYNIFVSLLSILGFASRD  219
+
+
+> sp|P0AAC7|YCCA_ECOL6 Inner membrane protein YccA OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=yccA PE=3 SV=1
+Length=219
+
+ Score = 100 bits (250),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 48/171 (28%), Positives = 77/171 (45%), Gaps = 5/171 (3%)
+
+Query  45   LSILEVAMIILAFWMRRRKAVGYAFVYTFAFVS--GITLFPIVSHYASIAGAYVVLEAFG  102
+            L +  V M  L F   +        +  FAF    G  L PI++ Y S     V+  A G
+Sbjct  52   LILTLVGMYGLMFLTYKTANKPTGIISAFAFTGFLGYILGPILNTYLSAGMGDVIAMALG  111
+
+Query  103  STFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTI  162
+             T ++F          +KD+SFL   L+  ++ + +  + NIF  L  A  +A S +  +
+Sbjct  112  GTALVFFCCSAYVLTTRKDMSFLGGMLMAGIVVVLIGMVANIFLQL-PALHLAISAVFIL  170
+
+Query  163  VFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSD  213
+            + S  IL++ + I H   T  +     +SLY+   N+F++LL   G  S D
+Sbjct  171  ISSGAILFETSNIIHGGETNYIR--ATVSLYVSLYNIFVSLLSILGFASRD  219
+
+
+> sp|Q03268|Y2604_PSEAE Uncharacterized protein PA2604 OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=PA2604 
+PE=3 SV=1
+Length=222
+
+ Score = 97.0 bits (240),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 54/206 (26%), Positives = 90/206 (44%), Gaps = 7/206 (3%)
+
+Query  12   IMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVY  71
+            +++    +   TL  + +  ++ Q + +       +L +    L F   + +   +  V 
+Sbjct  21   VLRNTYGLLALTLAFSGLVAYVSQQMRLPYPNVFVVL-IGFYGLFFLTVKLRNSAWGLVS  79
+
+Query  72   TFAFVS--GITLFPIVSHYASIA-GAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSF  128
+            TFA     G TL PI++ Y  +  G  V+  AF  T ++F  L       +KD+SFL  F
+Sbjct  80   TFALTGFMGYTLGPILNMYLGLPNGGSVITSAFAMTALVFFGLSAYVLTTRKDMSFLSGF  139
+
+Query  129  LLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVM  188
+            +      L    + ++F  + S   +A S    +  S  ILY  + I H         + 
+Sbjct  140  ITAGFFVLLGAVLVSLFFQI-SGLQLAISAGFVLFSSAMILYQTSAIIHGGERNY--IMA  196
+
+Query  189  ALSLYLDFINLFINLLRFFGILSSDD  214
+             +SLY+   NLFI+LL+ FGI   DD
+Sbjct  197  TISLYVSIYNLFISLLQIFGIAGGDD  222
+
+
+> sp|O84826|Y819_CHLTR Uncharacterized protein CT_819 OS=Chlamydia 
+trachomatis (strain D/UW-3/Cx) OX=272561 GN=CT_819 PE=3 
+SV=1
+Length=238
+
+ Score = 93.5 bits (231),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 48/198 (24%), Positives = 89/198 (45%), Gaps = 14/198 (7%)
+
+Query  23   TLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLF  82
+            +L +   G +   F P+  +   + L V+  I A   +            ++ + G+   
+Sbjct  37   SLGLYATGAYRALF-PMWWIWCFATLGVSFYIQAQIQKLSVPAVMGLFLAYSILEGMFFG  95
+
+Query  83   PIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGI-  141
+             +V  YA+  G  VV  AFGS  +IF +    GA  K DL+ +   L++A++ L V+ + 
+Sbjct  96   TLVPVYAAQFGGGVVWAAFGSAGIIFGLSAAYGAFTKNDLTQIHRILMLALVGLVVISLA  155
+
+Query  142  ---FNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--------HRHITEDLIPVMAL  190
+                ++F+P+    ++    +G I+F    + D   I+        H  ++  L  +MAL
+Sbjct  156  FLIVSLFTPMPLLYLL-ICYLGLIIFVGLTVVDAQSIRRVARSVGDHGDLSYKLSLIMAL  214
+
+Query  191  SLYLDFINLFINLLRFFG  208
+             +Y + I +F  LL+ F 
+Sbjct  215  QMYCNVIMIFWYLLQIFA  232
+
+
+> sp|Q9CNM5|Y402_PASMU Uncharacterized protein PM0402 OS=Pasteurella 
+multocida (strain Pm70) OX=272843 GN=PM0402 PE=3 SV=1
+Length=220
+
+ Score = 92.7 bits (229),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 52/205 (25%), Positives = 90/205 (44%), Gaps = 6/205 (3%)
+
+Query  12   IMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVY  71
+            +++    +   TL  + V  +I   + +     L ++      L F   +    G   + 
+Sbjct  20   VLRNTYFLLGLTLAFSAVVAYISMSLNLP-RPGLILMLAGFYGLLFLTYKLSNSGLGILS  78
+
+Query  72   TFAFVS--GITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFL  129
+            TFAF    G TL PI++ Y S     +V+ A   T  +F          KKD+SFL   +
+Sbjct  79   TFAFTGFLGYTLGPILNVYVSHGAGDIVVLALAGTAAVFFACSAYVLTTKKDMSFLSGTI  138
+
+Query  130  LVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMA  189
+                + L +  + + F   +    +A S +  +  +L ILY+ + I H   T  +     
+Sbjct  139  FALFIVLLLGMVASFFFQ-SPMLYIAISGLFVVFSTLGILYETSNIIHGGETNYIR--AT  195
+
+Query  190  LSLYLDFINLFINLLRFFGILSSDD  214
+            +S+++   NLFI+LL  F ILS++D
+Sbjct  196  VSIFVSLYNLFISLLNIFSILSNED  220
+
+
+> sp|F4JIE8|LFG1_ARATH Protein LIFEGUARD 1 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG1 PE=2 SV=1
+Length=235
+
+ Score = 92.7 bits (229),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 47/173 (27%), Positives = 80/173 (46%), Gaps = 8/173 (5%)
+
+Query  39   VALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVL  98
+            +A+   + +L + ++       ++  +    +  F      ++        S++   +VL
+Sbjct  67   LAVFFVILLLPLLLLWPLLAFEKKHPINCIVLSIFTLSISFSVG----ICCSLSQGRIVL  122
+
+Query  99   EAFGSTFVIFAVLGTIGA---KMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMA  155
+            EA   T V+   L        K   D SFL  FL  A+L + V  +  IF PL   + M 
+Sbjct  123  EAAILTAVMVFGLTIYTFWAVKRGHDFSFLGPFLFGALLIILVFTLLQIFHPLGKLSSMI  182
+
+Query  156  YSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+            +S I +IVF  YI++D NQ+  +   ++ I   A+ LYLD +NLF++LL    
+Sbjct  183  FSGIASIVFCGYIIFDTNQLIKKLNYDEYI-TAAIRLYLDVMNLFLSLLGIIS  234
+
+
+> sp|Q9A2A3|Y3663_CAUCR Uncharacterized protein CC_3663 OS=Caulobacter 
+crescentus (strain ATCC 19089 / CB15) OX=190650 GN=CC_3663 
+PE=3 SV=2
+Length=250
+
+ Score = 91.6 bits (226),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 56/193 (29%), Positives = 88/193 (46%), Gaps = 13/193 (7%)
+
+Query  24   LLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFP  83
+            LL    G  +    P+ +++  + L + +I        +     A  +T   + G +L  
+Sbjct  59   LLFVVQGGRLAGVTPLYMVVAFAPLVLMLIAGFAMRNPKPETAGALYWTIVSLIGASLGS  118
+
+Query  84   IVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFN  143
+            ++  Y        V   F  T   F  L   G   KKDL+   SFL++ V+ L V  I +
+Sbjct  119  VMLRYT----GESVAATFFVTATAFGGLSLFGYTTKKDLTGFGSFLMMGVIGLIVASIVS  174
+
+Query  144  IFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--HRHITEDLIPVM------ALSLYLD  195
+            IF   + A + A +V+G ++FS  I YD  ++K  +  +  D   +       ALSLY++
+Sbjct  175  IFLK-SPALLFAINVLGVLIFSGLIAYDTQRLKMTYYEMGGDRASMAVATNFGALSLYIN  233
+
+Query  196  FINLFINLLRFFG  208
+            FINLF  LL FFG
+Sbjct  234  FINLFQFLLSFFG  246
+
+
+> sp|Q9PLA1|Y206_CHLMU Uncharacterized protein TC_0206 OS=Chlamydia 
+muridarum (strain MoPn / Nigg) OX=243161 GN=TC_0206 PE=3 
+SV=1
+Length=238
+
+ Score = 90.8 bits (224),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 44/179 (25%), Positives = 81/179 (45%), Gaps = 13/179 (7%)
+
+Query  42   MLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAF  101
+            +   + L V+  I A   +            ++ + G+    +V  YA+  G  +V  AF
+Sbjct  55   VWCFATLGVSFYIQAQIQKLSVPAVMGLFLAYSVLEGMFFGTMVPVYAAQFGGGIVWAAF  114
+
+Query  102  GSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGI----FNIFSPLNSAAMMAYS  157
+            GS  VIF +    GA  K DL+ +   L++A++ L V+ +     ++F+P+    ++   
+Sbjct  115  GSAAVIFGLSAAYGAFTKSDLTQIHRILMLALIGLMVISLGFLVVSLFTPMPLMYLL-IC  173
+
+Query  158  VIGTIVFSLYILYDLNQIK--------HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+             +G I+F    + D   I+        H  ++  L  +MAL +Y + I +F  LL+ F 
+Sbjct  174  YLGLIIFVGLTVVDAQSIRRVARSVGDHGDLSYKLSLIMALQMYCNVIMIFWYLLQIFA  232
+
+
+> sp|P0DA11|Y260_STRPQ Uncharacterized membrane protein SPs1599 
+OS=Streptococcus pyogenes serotype M3 (strain SSI-1) OX=193567 
+GN=SPs1599 PE=3 SV=1
+Length=229
+
+ Score = 88.9 bits (219),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 54/177 (31%), Positives = 82/177 (46%), Gaps = 11/177 (6%)
+
+Query  38   PVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVV  97
+            P+       I  + + + +   R+           +A ++G TL  I+  YA       V
+Sbjct  55   PMIYYGAAIIELILVFVASGAARKNTPAALPIFLIYAALNGFTLSFIIVAYAQTT----V  110
+
+Query  98   LEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYS  157
+             +AF S+  +F  +  IG K K+D+S L   +  A++ + V  + N+F           S
+Sbjct  111  FQAFLSSAAVFFAMSIIGVKTKRDMSGLRKAMFAALIGVVVASLINLFIGSG-MMSYVIS  169
+
+Query  158  VIGTIVFSLYILYDLNQIK------HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+            VI  ++FS  I  D   IK      +  + +     MALSLYLDFINLFI+LLR FG
+Sbjct  170  VISVLIFSGLIASDNQMIKRVYQATNGQVGDGWAVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|P0DA10|Y260_STRP3 Uncharacterized membrane protein SpyM3_0260 
+OS=Streptococcus pyogenes serotype M3 (strain ATCC BAA-595 
+/ MGAS315) OX=198466 GN=SpyM3_0260 PE=3 SV=1
+Length=229
+
+ Score = 88.9 bits (219),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 54/177 (31%), Positives = 82/177 (46%), Gaps = 11/177 (6%)
+
+Query  38   PVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVV  97
+            P+       I  + + + +   R+           +A ++G TL  I+  YA       V
+Sbjct  55   PMIYYGAAIIELILVFVASGAARKNTPAALPIFLIYAALNGFTLSFIIVAYAQTT----V  110
+
+Query  98   LEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYS  157
+             +AF S+  +F  +  IG K K+D+S L   +  A++ + V  + N+F           S
+Sbjct  111  FQAFLSSAAVFFAMSIIGVKTKRDMSGLRKAMFAALIGVVVASLINLFIGSG-MMSYVIS  169
+
+Query  158  VIGTIVFSLYILYDLNQIK------HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+            VI  ++FS  I  D   IK      +  + +     MALSLYLDFINLFI+LLR FG
+Sbjct  170  VISVLIFSGLIASDNQMIKRVYQATNGQVGDGWAVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|Q9A1B9|Y358_STRP1 Uncharacterized membrane protein SPy_0358/M5005_Spy0301 
+OS=Streptococcus pyogenes serotype M1 OX=301447 
+GN=SPy_0358 PE=3 SV=1
+Length=229
+
+ Score = 88.9 bits (219),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 53/177 (30%), Positives = 82/177 (46%), Gaps = 11/177 (6%)
+
+Query  38   PVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVV  97
+            P+       I  + + + +   R+           ++ ++G TL  I+  YA       V
+Sbjct  55   PMIYYGAAIIELILVFVASSAARKNTPAALPIFLIYSALNGFTLSFIIVAYAQTT----V  110
+
+Query  98   LEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYS  157
+             +AF S+  +F  +  IG K K+D+S L   +  A++ + V  + N+F           S
+Sbjct  111  FQAFLSSAAVFFAMSIIGVKTKRDMSGLRKAMFAALIGVVVASLINLFIGSG-MMSYVIS  169
+
+Query  158  VIGTIVFSLYILYDLNQIK------HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+            VI  ++FS  I  D   IK      +  + +     MALSLYLDFINLFI+LLR FG
+Sbjct  170  VISVLIFSGLIASDNQMIKRVYQATNGQVGDGWAVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|Q8P2D4|Y408_STRP8 Uncharacterized membrane protein spyM18_0408 
+OS=Streptococcus pyogenes serotype M18 (strain MGAS8232) 
+OX=186103 GN=spyM18_0408 PE=3 SV=1
+Length=229
+
+ Score = 88.5 bits (218),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 53/177 (30%), Positives = 82/177 (46%), Gaps = 11/177 (6%)
+
+Query  38   PVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVV  97
+            P+       I  + + + +   R+           ++ ++G TL  I+  YA       V
+Sbjct  55   PMIYYGAAIIELILVFVASGAARKNTPAALPIFLIYSALNGFTLSFIIVAYAQTT----V  110
+
+Query  98   LEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYS  157
+             +AF S+  +F  +  IG K K+D+S L   +  A++ + V  + N+F           S
+Sbjct  111  FQAFLSSAAVFFAMSIIGVKTKRDMSGLRKAMFAALIGVVVASLINLFIGSG-MMSYVIS  169
+
+Query  158  VIGTIVFSLYILYDLNQIK------HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+            VI  ++FS  I  D   IK      +  + +     MALSLYLDFINLFI+LLR FG
+Sbjct  170  VISVLIFSGLIASDNQMIKRVYQATNGQVGDGWAVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|Q5XDQ1|Y327_STRP6 Uncharacterized membrane protein M6_Spy0327 
+OS=Streptococcus pyogenes serotype M6 (strain ATCC BAA-946 
+/ MGAS10394) OX=286636 GN=M6_Spy0327 PE=3 SV=1
+Length=229
+
+ Score = 88.5 bits (218),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 53/177 (30%), Positives = 82/177 (46%), Gaps = 11/177 (6%)
+
+Query  38   PVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVV  97
+            P+       I  + + + +   R+           ++ ++G TL  I+  YA       V
+Sbjct  55   PMIYYGAAIIELILVFVASGAARKNTPAALPIFLIYSALNGFTLSFIIVAYAQTT----V  110
+
+Query  98   LEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYS  157
+             +AF S+  +F  +  IG K K+D+S L   +  A++ + V  + N+F           S
+Sbjct  111  FQAFLSSAAVFFAMSIIGVKTKRDMSGLRKAMFAALIGVVVASLINLFIGSG-MMSYVIS  169
+
+Query  158  VIGTIVFSLYILYDLNQIK------HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+            VI  ++FS  I  D   IK      +  + +     MALSLYLDFINLFI+LLR FG
+Sbjct  170  VISVLIFSGLIASDNQMIKRVYQATNGQVGDGWAVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|O51489|Y539_BORBU Uncharacterized protein BB_0539 OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / DSM 
+4680) OX=224326 GN=BB_0539 PE=3 SV=1
+Length=232
+
+ Score = 88.5 bits (218),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 46/194 (24%), Positives = 80/194 (41%), Gaps = 13/194 (7%)
+
+Query  28   TVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSH  87
+            T+   I       + + L    +   I     +       A    ++ ++G+TL  I   
+Sbjct  44   TIKAIIFSNSMSFMAMILIQFGLVYAISGALNKISSNTATALFLLYSALTGVTLSSIFMI  103
+
+Query  88   YASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSP  147
+            Y        ++  FG T   F  +   G     DL+ + S+L++ +  + +  + N+F  
+Sbjct  104  YTQ----GSIVFTFGITAGTFLGMSVYGYTTTTDLTKMGSYLIMGLWGIIIASLVNMFF-  158
+
+Query  148  LNSAAMMAYSVIGTIVFSLYILYDLNQIKH--------RHITEDLIPVMALSLYLDFINL  199
+             +S      S++G ++F+    YD+  I            I   +  V +L LYLDFINL
+Sbjct  159  RSSGLNFLISILGVVIFTGLTAYDVQNISKMDKMLQDDTEIKNRMAVVASLKLYLDFINL  218
+
+Query  200  FINLLRFFGILSSD  213
+            F+ LLRF G   +D
+Sbjct  219  FLYLLRFLGQRRND  232
+
+
+> sp|P0AAC4|YBHL_ECOLI Inner membrane protein YbhL OS=Escherichia 
+coli (strain K12) OX=83333 GN=ybhL PE=1 SV=1
+Length=234
+
+ Score = 88.1 bits (217),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 53/204 (26%), Positives = 91/204 (45%), Gaps = 16/204 (8%)
+
+Query  16   ILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILA--FWMRRRKAVGYAFVYTF  73
+            +LT FV      +  +    F     ++ L I ++A++I+      +    V       +
+Sbjct  33   LLTAFVAWYAANSAAVMELLFTNRVFLIGLIIAQLALVIVLSAMIQKLSAGVTTMLFMLY  92
+
+Query  74   AFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAV  133
+            + ++G+TL  I   Y + +    +   F  T  +F  +   G   K+DLS   + L +A+
+Sbjct  93   SALTGLTLSSIFIVYTAAS----IASTFVVTAGMFGAMSLYGYTTKRDLSGFGNMLFMAL  148
+
+Query  134  LALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHIT---------EDL  184
+            + + +  + N +   + A M A + IG IVF     YD  ++K+                
+Sbjct  149  IGIVLASLVNFWLK-SEALMWAVTYIGVIVFVGLTAYDTQKLKNMGEQIDTRDTSNLRKY  207
+
+Query  185  IPVMALSLYLDFINLFINLLRFFG  208
+              + AL+LYLDFINLF+ LLR FG
+Sbjct  208  SILGALTLYLDFINLFLMLLRIFG  231
+
+
+> sp|P0AAC5|YBHL_ECOL6 Inner membrane protein YbhL OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=ybhL PE=3 SV=1
+Length=234
+
+ Score = 88.1 bits (217),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 53/204 (26%), Positives = 91/204 (45%), Gaps = 16/204 (8%)
+
+Query  16   ILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILA--FWMRRRKAVGYAFVYTF  73
+            +LT FV      +  +    F     ++ L I ++A++I+      +    V       +
+Sbjct  33   LLTAFVAWYAANSAAVMELLFTNRVFLIGLIIAQLALVIVLSAMIQKLSAGVTTMLFMLY  92
+
+Query  74   AFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAV  133
+            + ++G+TL  I   Y + +    +   F  T  +F  +   G   K+DLS   + L +A+
+Sbjct  93   SALTGLTLSSIFIVYTAAS----IASTFVVTAGMFGAMSLYGYTTKRDLSGFGNMLFMAL  148
+
+Query  134  LALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHIT---------EDL  184
+            + + +  + N +   + A M A + IG IVF     YD  ++K+                
+Sbjct  149  IGIVLASLVNFWLK-SEALMWAVTYIGVIVFVGLTAYDTQKLKNMGEQIDTRDTSNLRKY  207
+
+Query  185  IPVMALSLYLDFINLFINLLRFFG  208
+              + AL+LYLDFINLF+ LLR FG
+Sbjct  208  SILGALTLYLDFINLFLMLLRIFG  231
+
+
+> sp|Q9RVX8|Y893_DEIRA Uncharacterized protein DR_0893 OS=Deinococcus 
+radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 
+/ LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422) OX=243230 
+GN=DR_0893 PE=3 SV=1
+Length=231
+
+ Score = 84.3 bits (207),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 58/211 (27%), Positives = 96/211 (45%), Gaps = 20/211 (9%)
+
+Query  11   SIMQRILTVFVFTLLIATVGLFIGQ------FVPVALMLPLSILEVAMIIL--AFWMRRR  62
+            + M R  +     L +     ++            +L LPL + ++A++ +   F  R  
+Sbjct  21   TFMARTYSWMAAGLALTAGVAYLTAQNEGLAMQVASLRLPLMLAQLALVFVLSMFAQRLS  80
+
+Query  63   KAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDL  122
+             AV  A    +A ++G+T   ++  Y+  A    V+ AF  +   F ++   G  +KKDL
+Sbjct  81   AAVAGALFVGYAALTGLTFSALLFAYSPAA----VITAFAVSAGTFGLMSVAGFVIKKDL  136
+
+Query  123  SFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH-----  177
+            S +  F L AVL L V  + N+F   +SA  +  S+IG  +F+    YD   +++     
+Sbjct  137  SAMGRFFLFAVLGLVVAMLVNLFVG-SSALSLGISMIGVFLFAGLTAYDTQMLRNLALSG  195
+
+Query  178  --RHITEDLIPVMALSLYLDFINLFINLLRF  206
+                  E      AL+LYLDFIN+F+ LL  
+Sbjct  196  ISGEQAERASINGALALYLDFINIFLFLLNI  226
+
+
+> sp|Q9ZE15|Y147_RICPR Uncharacterized protein RP147 OS=Rickettsia 
+prowazekii (strain Madrid E) OX=272947 GN=RP147 PE=3 SV=1
+Length=236
+
+ Score = 80.8 bits (198),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 43/178 (24%), Positives = 82/178 (46%), Gaps = 12/178 (7%)
+
+Query  42   MLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAF  101
+            ++  + L +A+     + R          + +A ++G++L  +   Y   +    +   F
+Sbjct  64   IIMFAPLGIALYFFMGFGRMNLQTAQILFWVYAGLTGMSLSYLALIYTGTS----IARTF  119
+
+Query  102  GSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGT  161
+                 +F  +   G    +DL+ + SF  + ++ L +  + N+F   +S+   A S+IG 
+Sbjct  120  FICSSVFGAMSLYGYSTSRDLTSMGSFFAMGLIGLIIASLVNLFLK-SSSLSFATSLIGI  178
+
+Query  162  IVFSLYILYDLNQIK-------HRHITEDLIPVMALSLYLDFINLFINLLRFFGILSS  212
+            +VF   I +D  +IK       +  + + L  + A +LYLDFINLF+ L+RF G    
+Sbjct  179  VVFMGLIAWDTQKIKSMYYIAGNDEVGQKLSIMAAFTLYLDFINLFLYLMRFLGNRRD  236
+
+
+> sp|Q9CEU8|YRJE_LACLA Uncharacterized protein YrjE OS=Lactococcus 
+lactis subsp. lactis (strain IL1403) OX=272623 GN=yrjE PE=3 
+SV=2
+Length=234
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 45/180 (25%), Positives = 80/180 (44%), Gaps = 12/180 (7%)
+
+Query  41   LMLPLSILEVAMIILAFWMR-RRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLE  99
+              L L I+ + M++    +  +   +       +A   G  +   +  Y +      +  
+Sbjct  58   FFLVLWIIPLVMVVSLQGLAMKNSKMALPIFIGYAAFMGFLISFTLLMYTATD----ITL  113
+
+Query  100  AFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVI  159
+            AF +   +F  L   G   K++LS +     VAV  L +    N F   ++   +  S++
+Sbjct  114  AFVTAAAMFFGLSVYGRFTKRNLSAMGKAFGVAVWGLIIAMFLNFFFA-STGLTILISLV  172
+
+Query  160  GTIVFSLYILYDLNQI------KHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSD  213
+            G ++F+  I +D  +I       +  +++     MALSLYLDFIN+F+ LLR FGI   +
+Sbjct  173  GVVIFAGLIAWDNQKITQVYNANNGQVSDGWAISMALSLYLDFINMFLFLLRLFGIAGGN  232
+
+
+> sp|Q7Z429|LFG1_HUMAN Protein lifeguard 1 OS=Homo sapiens OX=9606 
+GN=GRINA PE=2 SV=1
+Length=371
+
+ Score = 79.7 bits (195),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 34/154 (22%), Positives = 63/154 (41%), Gaps = 10/154 (6%)
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+             RR+       +         +L  +V   AS      V+ A G T  +   +     + 
+Sbjct  220  FRRKHPWNLVALSVLTA----SLSYMVGMIASFYNTEAVIMAVGITTAVCFTVVIFSMQT  275
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHR  178
+            + D +     LLV+++ L +  I  IF   N    + Y+ +G ++F+ ++  D   +   
+Sbjct  276  RYDFTSCMGVLLVSMVVLFIFAILCIFI-RNRILEIVYASLGALLFTCFLAVDTQLLLGN  334
+
+Query  179  ----HITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                   E+ +   AL+LY D IN+F+ +L   G
+Sbjct  335  KQLSLSPEEYVF-AALNLYTDIINIFLYILTIIG  367
+
+
+> sp|P44477|Y044_HAEIN Uncharacterized protein HI_0044 OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=HI_0044 PE=3 SV=1
+Length=220
+
+ Score = 78.1 bits (191),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 41/193 (21%), Positives = 81/193 (42%), Gaps = 6/193 (3%)
+
+Query  8    SKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGY  67
+            S   +++    +   T+  + V  FI   + +     + +L V    L F   +      
+Sbjct  16   STHKVLRNTYFLLGLTMAFSAVVAFISMSLNLPYP-NIIVLLVGFYGLLFLTNKLADRPA  74
+
+Query  68   AFVYTFAFVS--GITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFL  125
+              +  FAF    G T+ PI++ Y +     +++ AF  T ++F          KKD+SFL
+Sbjct  75   GILAAFAFTGFMGYTIGPILNMYVARGMEDLIMLAFAGTAIVFFACSAYVLTTKKDMSFL  134
+
+Query  126  WSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLI  185
+             S +    + L +  + + F  +  A  +A S +  +  ++ ILY+ + I H   T  + 
+Sbjct  135  SSAMFALFIVLLLGMVASFFFQI-PALSVAISALFVVFSTMTILYETSNIIHGGETNYIR  193
+
+Query  186  PVMALSLYLDFIN  198
+                +++Y+   N
+Sbjct  194  --ATVNIYVSIYN  204
+
+
+> sp|Q32L53|LFG1_BOVIN Protein lifeguard 1 OS=Bos taurus OX=9913 
+GN=GRINA PE=2 SV=1
+Length=366
+
+ Score = 70.4 bits (171),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 34/154 (22%), Positives = 64/154 (42%), Gaps = 10/154 (6%)
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+             RR+       +        ++L  +V   AS      V+ A G T  +   +     + 
+Sbjct  215  FRRKHPWNLVALSILT----VSLSYMVGMIASFYNTEAVIMAVGITTTVCFTVVIFSMQT  270
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHR  178
+            + D +     LLV+V+ L +  I  IF   +    + Y+ +G ++F+ ++  D   +   
+Sbjct  271  RYDFTSCVGVLLVSVVVLILFAILCIFI-RSRVLEIVYASLGALLFTCFLAVDTQLLLGN  329
+
+Query  179  ----HITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                   E+ +   AL+LY D IN+F+ +L   G
+Sbjct  330  KQLSLSPEEYVF-AALNLYTDIINIFLYILTIIG  362
+
+
+> sp|Q6P6R0|LFG1_RAT Protein lifeguard 1 OS=Rattus norvegicus OX=10116 
+GN=Grina PE=2 SV=1
+Length=348
+
+ Score = 69.2 bits (168),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 36/154 (23%), Positives = 64/154 (42%), Gaps = 10/154 (6%)
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+             RR+       +        I+L  +V   AS      V+ A G T  +   +     + 
+Sbjct  197  FRRKHPWNLVALSILT----ISLSYMVGMIASFYNTEAVIMAVGITTAVCFTVVIFSMQT  252
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHR  178
+            + D +     LLV+V+ L +  I  IF   N    + Y+ +G ++F+ ++  D   +   
+Sbjct  253  RYDFTSCMGVLLVSVVVLFIFAILCIFI-RNRILEIVYASLGALLFTCFLAVDTQLLLGN  311
+
+Query  179  ----HITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                   E+ +   AL+LY D IN+F+ +L   G
+Sbjct  312  KQLSLSPEEYVF-AALNLYTDIINIFLYILTIIG  344
+
+
+> sp|Q9ESF4|LFG1_MOUSE Protein lifeguard 1 OS=Mus musculus OX=10090 
+GN=Grina PE=2 SV=1
+Length=345
+
+ Score = 69.2 bits (168),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 35/154 (23%), Positives = 64/154 (42%), Gaps = 10/154 (6%)
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+             RR+       +        ++L  +V   AS      V+ A G T  +   +     + 
+Sbjct  194  FRRKHPWNLVALSILT----VSLSYMVGMIASFYNTEAVIMAVGITTAVCFTVVIFSMQT  249
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHR  178
+            + D +     LLV+V+ L +  I  IF   N    + Y+ +G ++F+ ++  D   +   
+Sbjct  250  RYDFTSCMGVLLVSVVVLFIFAILCIFI-RNRILEIVYASLGALLFTCFLAVDTQLLLGN  308
+
+Query  179  ----HITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                   E+ +   AL+LY D IN+F+ +L   G
+Sbjct  309  KQLSLSPEEYVF-AALNLYTDIINIFLYILTIIG  341
+
+
+> sp|Q969X1|LFG3_HUMAN Protein lifeguard 3 OS=Homo sapiens OX=9606 
+GN=TMBIM1 PE=1 SV=2
+Length=311
+
+ Score = 68.1 bits (165),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 49/224 (22%), Positives = 82/224 (37%), Gaps = 28/224 (13%)
+
+Query  6    HESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWM------  59
+             + + + ++++ ++    LLI      I  F  V  +       VA+  +++ +      
+Sbjct  92   RKVRHTFIRKVYSIISVQLLITV--AIIAIFTFVEPVSAFVRRNVAVYYVSYAVFVVTYL  149
+
+Query  60   --------RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVL  111
+                    RRR       +  F F  G     I S Y        V+ A   T V+   +
+Sbjct  150  ILACCQGPRRRFPWNIILLTLFTFAMGFMTGTISSMY----QTKAVIIAMIITAVVSISV  205
+
+Query  112  GTIGAKMKKDLSFLWSFLLVAVLALAVVGIFN---IFSPLNSAAMMAYSVIGTIVFSLYI  168
+                 + K D +       V  + L V GI     ++        M Y+ +G I F+L++
+Sbjct  206  TIFCFQTKVDFTSCTGLFCVLGIVLLVTGIVTSIVLYFQYVYWLHMLYAALGAICFTLFL  265
+
+Query  169  LYDLN----QIKHRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+             YD        KH    ED I   AL +Y D I +F  +L+  G
+Sbjct  266  AYDTQLVLGNRKHTISPEDYI-TGALQIYTDIIYIFTFVLQLMG  308
+
+
+> sp|Q8BJZ3|LFG3_MOUSE Protein lifeguard 3 OS=Mus musculus OX=10090 
+GN=Tmbim1 PE=1 SV=1
+Length=309
+
+ Score = 64.2 bits (155),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 50/224 (22%), Positives = 81/224 (36%), Gaps = 28/224 (13%)
+
+Query  6    HESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWM------  59
+             + + S +Q++  +    LLI      I  F  V  +       VA+  +++ +      
+Sbjct  90   RKVRHSFIQKVYCIISVQLLITV--AIIAIFTFVEPVGKYVRNNVAVYYVSYAVFLVTYL  147
+
+Query  60   --------RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVL  111
+                    RRR       +  F    G     I S Y + A    V+ A   T V+   +
+Sbjct  148  TLACCQGPRRRFPWDIILLTIFTLALGFVTGTISSMYENKA----VIIAMIITAVVSISV  203
+
+Query  112  GTIGAKMKKDLSFLWSFLLVAVLALAVVGIFN---IFSPLNSAAMMAYSVIGTIVFSLYI  168
+                 + K D +       V  + L V GI     +         M Y+ +G I F+L++
+Sbjct  204  TIFCFQTKVDFTSCTGLFCVLGIVLMVTGIVTSIVLIFKYIYWLHMVYAALGAICFTLFL  263
+
+Query  169  LYDLN----QIKHRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+             YD        KH    ED I   AL +Y D + +F  +L+  G
+Sbjct  264  AYDTQLVLGNRKHTISPEDYI-TGALQIYTDIVYIFTFVLQLVG  306
+
+
+> sp|O88407|LFG2_RAT Protein lifeguard 2 OS=Rattus norvegicus OX=10116 
+GN=Faim2 PE=2 SV=1
+Length=316
+
+ Score = 64.2 bits (155),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 34/156 (22%), Positives = 61/156 (39%), Gaps = 12/156 (8%)
+
+Query  60   RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMK  119
+            RR        +  F     +++  +    +S      VL   G T ++   +     + K
+Sbjct  162  RRHFPWNLILLTIFT----LSMAYLTGMLSSYYNTTSVLLCLGITALVCLSVTIFSFQTK  217
+
+Query  120  KDLSFLWSFLLVAVLALAVVGI---FNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK  176
+             D +     L V ++ L   G+     +           Y+V+G  VF+L++ +D   + 
+Sbjct  218  FDFTSCHGVLFVLLMTLFFSGLLLAILLPFQYVPWLHAVYAVLGAGVFTLFLAFDTQLLM  277
+
+Query  177  ----HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                H    E+ I   AL++YLD I +F   L+ FG
+Sbjct  278  GNRRHSLSPEEYIF-GALNIYLDIIYIFTFFLQLFG  312
+
+
+> sp|Q0V882|BI1_BOVIN Bax inhibitor 1 OS=Bos taurus OX=9913 GN=TMBIM6 
+PE=2 SV=1
+Length=236
+
+ Score = 63.1 bits (152),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 37/213 (17%), Positives = 79/213 (37%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G +I      +   L  ++  + ++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYIHVVTHFIQAGLLSALGSLGLMIWLMATPH  76
+
+Query  62   RKAVG---YAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +          ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALDL-CIAINPSILPTAFMGTAMIFTCFTLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK-  176
+             ++   FL   L+ A+  + +  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSAMSLMLLSSLGNLFFGSVWLFQANL-YMGLVVMCGFVLFDTQLIIE  194
+
+Query  177  HRHITEDLIPVMALSLYLDFINLFINLLRFFGI  209
+                 +       + L+LDF+ LF  L+    +
+Sbjct  195  KAENGDKDYIWHCVDLFLDFVTLFRKLMMILAM  227
+
+
+> sp|Q9BWQ8|LFG2_HUMAN Protein lifeguard 2 OS=Homo sapiens OX=9606 
+GN=FAIM2 PE=1 SV=1
+Length=316
+
+ Score = 63.5 bits (153),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 33/156 (21%), Positives = 59/156 (38%), Gaps = 12/156 (8%)
+
+Query  60   RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMK  119
+            RR        +  F     +++  +    +S      VL   G T ++   +     + K
+Sbjct  162  RRHFPWNLILLTVFT----LSMAYLTGMLSSYYNTTSVLLCLGITALVCLSVTVFSFQTK  217
+
+Query  120  KDLSFLWSFLLVAVLALAVVGI---FNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK  176
+             D +     L V ++ L   G+     +           Y+ +G  VF+L++  D   + 
+Sbjct  218  FDFTSCQGVLFVLLMTLFFSGLILAILLPFQYVPWLHAVYAALGAGVFTLFLALDTQLLM  277
+
+Query  177  ----HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                H    E+ I   AL++YLD I +F   L+ FG
+Sbjct  278  GNRRHSLSPEEYIF-GALNIYLDIIYIFTFFLQLFG  312
+
+
+> sp|Q9D2C7|BI1_MOUSE Bax inhibitor 1 OS=Mus musculus OX=10090 
+GN=Tmbim6 PE=1 SV=1
+Length=237
+
+ Score = 62.3 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 37/213 (17%), Positives = 80/213 (38%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G ++      +   L  ++  +A++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYVHVVTHFIQAGLLSALGSLALMIWLMATPH  76
+
+Query  62   RKAVG---YAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +          ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALEL-CIAVNPSILPTAFMGTAMIFTCFSLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             ++   FL   L+ A+  + +  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSAMSLMLLSSLGNLFFGSIWLFQANL-YLGLLVMCGFVLFDTQLIIE  194
+
+Query  178  RHI-TEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            +    +       + L+LDF+ LF  L+     
+Sbjct  195  KAEHGDKDYIWHCVDLFLDFVTLFRKLMLILAF  227
+
+
+> sp|Q66RM2|BI1_PIG Bax inhibitor 1 OS=Sus scrofa OX=9823 GN=TMBIM6 
+PE=2 SV=1
+Length=237
+
+ Score = 61.9 bits (149),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 35/213 (16%), Positives = 78/213 (37%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G ++      +   L  ++  + ++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYVHVVTRFIQAGLLSALGSLGLMIWLMATPH  76
+
+Query  62   RKAVG---YAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +          ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALDL-CIAINPSILPTAFMGTAMIFTCFTLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK-  176
+             ++   FL   L+ A+  + +  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSAMSLMVLSSLGNLFFGSIWLFQANL-YVGLVVMCGFVLFDTQLIIE  194
+
+Query  177  HRHITEDLIPVMALSLYLDFINLFINLLRFFGI  209
+                 +       + L+ DF+ LF  L+    +
+Sbjct  195  KAENGDKDYIWHCVDLFSDFVTLFRKLMMILAM  227
+
+
+> sp|Q8K097|LFG2_MOUSE Protein lifeguard 2 OS=Mus musculus OX=10090 
+GN=Faim2 PE=2 SV=1
+Length=317
+
+ Score = 62.7 bits (151),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 33/156 (21%), Positives = 60/156 (38%), Gaps = 12/156 (8%)
+
+Query  60   RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMK  119
+            RR        +  F     +++  +    +S      VL     T ++   +     + K
+Sbjct  163  RRHFPWNLILLTIFT----LSMAYLTGMLSSYYNTTSVLLCLVITALVCLSVTIFSFQTK  218
+
+Query  120  KDLSFLWSFLLVAVLALAVVGI---FNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK  176
+             D +     L V ++ L   G+     +           Y+V+G  VF+L++ +D   + 
+Sbjct  219  FDFTSCQGVLFVLLMTLFFSGLLLAVLLPFQYVPWLHAVYAVLGAGVFTLFLAFDTQLLM  278
+
+Query  177  ----HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                H    E+ I   AL++YLD I +F   L+ FG
+Sbjct  279  GNRRHSLSPEEYIF-GALNIYLDIIYIFTFFLQLFG  313
+
+
+> sp|Q1LZ71|LFG2_BOVIN Protein lifeguard 2 OS=Bos taurus OX=9913 
+GN=FAIM2 PE=2 SV=1
+Length=316
+
+ Score = 62.7 bits (151),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 33/156 (21%), Positives = 60/156 (38%), Gaps = 12/156 (8%)
+
+Query  60   RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMK  119
+            RR        +  F     +++  +    +S      VL     T ++   +     + K
+Sbjct  162  RRHFPWNLILLTIFT----LSMAYLTGMLSSYYNTTSVLLCLSITALVCLSVTVFSFQTK  217
+
+Query  120  KDLSFLWSFLLVAVLALAVVGI---FNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK  176
+             D +     L V ++ L   G+     +           Y+V+G  VF+L++ +D   + 
+Sbjct  218  FDFTSCQGVLFVLLMTLFFSGLILAILLPFQYVPWLHAVYAVLGAGVFTLFLAFDTQLLM  277
+
+Query  177  ----HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                H    E+ I   AL++YLD I +F   L+ FG
+Sbjct  278  GSRRHSLSPEEYIF-GALNIYLDIIYIFTFFLQLFG  312
+
+
+> sp|P55062|BI1_RAT Bax inhibitor 1 OS=Rattus norvegicus OX=10116 
+GN=Tmbim6 PE=2 SV=2
+Length=237
+
+ Score = 61.5 bits (148),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 38/213 (18%), Positives = 80/213 (38%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G ++      +   L  ++  +A++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYVHVVTRFIQAGLLSALGALALMICLMATPH  76
+
+Query  62   RKAVG---YAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +          ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALEL-CIAINPSILPTAFMGTAMIFTCFSLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             ++   FL   L+ A+  + V  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSAMSLMFVSSLGNLFFGSIWLFQANL-YMGLLVMCGFVLFDTQLIIE  194
+
+Query  178  RHI-TEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            +    +       + L+LDF+ LF  L+     
+Sbjct  195  KAEHGDKDYIWHCIDLFLDFVTLFRKLMLILAF  227
+
+
+> sp|Q5R4I4|LFG2_PONAB Protein lifeguard 2 OS=Pongo abelii OX=9601 
+GN=FAIM2 PE=2 SV=1
+Length=316
+
+ Score = 61.5 bits (148),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 33/156 (21%), Positives = 58/156 (37%), Gaps = 12/156 (8%)
+
+Query  60   RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMK  119
+            RR        +  F     +++  +    +S      VL   G T ++   +     + K
+Sbjct  162  RRHFPWNLILLTVFT----LSMAYLTGMLSSYYNTTSVLLCLGITALVCLSVTVFSFQTK  217
+
+Query  120  KDLSFLWSFLLVAVLALAVVGI---FNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK  176
+             D +     L V  + L   G+     +           Y+ +G  VF+L++  D   + 
+Sbjct  218  FDFTSCQGVLFVLPMTLFFSGLILAILLPFQYVPWLHAVYAALGAGVFTLFLALDTQLLM  277
+
+Query  177  ----HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                H    E+ I   AL++YLD I +F   L+ FG
+Sbjct  278  GNRRHSLSPEEYIF-GALNIYLDIIYIFTFFLQLFG  312
+
+
+> sp|P48558|BXI1_YEAST Bax inhibitor 1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=BXI1 PE=1 SV=1
+Length=297
+
+ Score = 60.4 bits (145),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 29/156 (19%), Positives = 60/156 (38%), Gaps = 13/156 (8%)
+
+Query  67   YAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMK-----KD  121
+               +  F       L  +   Y        VL A   T ++   +       +       
+Sbjct  147  LTLLSIFTLSEAYCLSLVTLAY----DKDTVLSALLITTIVVVGVSLTALSERFENVLNS  202
+
+Query  122  LSFLWSFLLVAVLALAVVGIFNIFSPLN---SAAMMAYSVIGTIVFSLYILYDLNQIKHR  178
+             + ++ +L   +  +  +G+  +    N   S   + Y  +G I+F+ Y+  D   I  +
+Sbjct  203  ATSIYYWLNWGLWIMIGMGLTALLFGWNTHSSKFNLLYGWLGAILFTAYLFIDTQLIFRK  262
+
+Query  179  HITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+               ++ +   A+ LYLD +NLF+++LR     + D+
+Sbjct  263  VYPDEEVRC-AMMLYLDIVNLFLSILRILANSNDDN  297
+
+
+> sp|Q5R7R1|BI1_PONAB Bax inhibitor 1 OS=Pongo abelii OX=9601 GN=TMBIM6 
+PE=2 SV=2
+Length=237
+
+ Score = 59.6 bits (143),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 38/213 (18%), Positives = 81/213 (38%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G ++      +   L  ++  + ++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYVHVVTHFIQAGLLSALGSLILMIWLMATPH  76
+
+Query  62   RKAVG---YAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +  +       ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALE-FCITVNPSILPTAFMGTAMIFTCFTLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             ++   FL   L+ A+  L +  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSALSLLLLSSLGNVFFGSIWLFQANL-YVGLVVMCGFVLFDTQLIIE  194
+
+Query  178  RHI-TEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            +    +       + L+LDFI LF  L+    +
+Sbjct  195  KAEHGDQDYIWHCIDLFLDFITLFRKLMMILAM  227
+
+
+> sp|P55061|BI1_HUMAN Bax inhibitor 1 OS=Homo sapiens OX=9606 GN=TMBIM6 
+PE=1 SV=2
+Length=237
+
+ Score = 58.8 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 37/213 (17%), Positives = 81/213 (38%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G ++      +   L  ++  + ++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYVHMVTHFIQAGLLSALGSLILMIWLMATPH  76
+
+Query  62   RKAVG---YAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +  +       ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALE-FCIAVNPSILPTAFMGTAMIFTCFTLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             ++   FL   L+ A+  L +  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSALSLLLLSSLGNVFFGSIWLFQANL-YVGLVVMCGFVLFDTQLIIE  194
+
+Query  178  RHI-TEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            +    +       + L+LDFI +F  L+    +
+Sbjct  195  KAEHGDQDYIWHCIDLFLDFITVFRKLMMILAM  227
+
+
+> sp|Q9IA79|BI1_PAROL Probable Bax inhibitor 1 OS=Paralichthys 
+olivaceus OX=8255 GN=tmbim6 PE=2 SV=1
+Length=237
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 38/213 (18%), Positives = 82/213 (38%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++ + +     + +A  G ++          +   +  + M+        
+Sbjct  17   SQISHSTQVHLKNVYSSLAVCMFVAAAGSYVHVVTRLFQGGMLSVLGSLGMMFWLAMTPH  76
+
+Query  62   RKAVG---YAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+                     A +  FAF++G+ L P +    +I    +++ AF  T VIF          
+Sbjct  77   NSETEKKRLAILAGFAFLTGVGLCPTLDFVIAI-NPSIIVTAFLGTSVIFVCFTLSALYA  135
+
+Query  119  K-KDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK-  176
+            K +   FL   L+  +  L ++ + N+F   +     A+  +G ++   ++L D   I  
+Sbjct  136  KRRSYLFLGGTLMSGLSILFLMSMMNMFFG-SVMLFKAHMYLGLLIMCGFVLXDTQLIIE  194
+
+Query  177  HRHITEDLIPVMALSLYLDFINLFINLLRFFGI  209
+                 +      ++ L+LDFI +F  L+    +
+Sbjct  195  KAENGDKDYVWHSVDLFLDFITIFRKLMVILAL  227
+
+
+> sp|Q9VSH3|BI1_DROME Bax inhibitor 1 OS=Drosophila melanogaster 
+OX=7227 GN=BI-1 PE=2 SV=1
+Length=245
+
+ Score = 55.8 bits (133),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 39/200 (20%), Positives = 81/200 (41%), Gaps = 7/200 (4%)
+
+Query  13   MQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMR---RRKAVGYAF  69
+            + ++  V   T     +G  +     + L +  ++  + +++   + +   +        
+Sbjct  31   LSKVYMVLGSTAAATAMGAMLQMRDFLDLGVLAAVATLVLVLGLHFYKDDGKNYYTRLGM  90
+
+Query  70   VYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AKMKKDLSFLWSF  128
+            +Y F F SG TL P++ +  SI    ++L A   TFV F  L        +    +L   
+Sbjct  91   LYAFGFCSGQTLGPLLGYICSI-NPAIILSALTGTFVTFISLSLSALLAEQGKYLYLGGM  149
+
+Query  129  LLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHR-HITEDLIPV  187
+            L+  +  +A++ +FN+         +    +G  V + +I+YD   I  +       +  
+Sbjct  150  LVSVINTMALLSLFNMVFKSY-FVQVTQLYVGVFVMAAFIVYDTQNIVEKCRNGNRDVVQ  208
+
+Query  188  MALSLYLDFINLFINLLRFF  207
+             AL L+ D +++F  LL   
+Sbjct  209  HALDLFFDVLSMFRRLLIIL  228
+
+
+> sp|P63701|Y420_NEIMA Uncharacterized protein NMA0420 OS=Neisseria 
+meningitidis serogroup A / serotype 4A (strain Z2491) OX=122587 
+GN=NMA0420 PE=4 SV=1
+Length=227
+
+ Score = 54.2 bits (129),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 38/163 (23%), Positives = 71/163 (44%), Gaps = 4/163 (2%)
+
+Query  53   IILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIA-GAYVVLEAFGSTFVIFAVL  111
+            +I      R    G   +  F F  G+ + P++ +   IA GA +V  A   T  +F  +
+Sbjct  68   MIHFIEKNRYSNTGVTLLMVFTFGMGVLIGPVLQYALHIADGAKIVGIAAAMTAAVFLTM  127
+
+Query  112  GTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYD  171
+              +  + + D++ L  FL V  + L V  + N+F  +  A  +  S    +  SL I++ 
+Sbjct  128  SALARRTRLDMNALGRFLTVGAVILMVAVVANLFLGI-PALALTISAGFVLFSSLMIMWQ  186
+
+Query  172  LNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+            +  +        +    AL+L++   N+F +LL     L+ +D
+Sbjct  187  VRTVIDGGEDSHIS--AALTLFISLYNIFSSLLNILLSLNGED  227
+
+
+> sp|P63702|Y2020_NEIMB Uncharacterized protein NMB2020 OS=Neisseria 
+meningitidis serogroup B (strain MC58) OX=122586 GN=NMB2020 
+PE=4 SV=1
+Length=227
+
+ Score = 54.2 bits (129),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 38/163 (23%), Positives = 71/163 (44%), Gaps = 4/163 (2%)
+
+Query  53   IILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIA-GAYVVLEAFGSTFVIFAVL  111
+            +I      R    G   +  F F  G+ + P++ +   IA GA +V  A   T  +F  +
+Sbjct  68   MIHFIEKNRYSNTGVTLLMVFTFGMGVLIGPVLQYALHIADGAKIVGIAAAMTAAVFLTM  127
+
+Query  112  GTIGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYD  171
+              +  + + D++ L  FL V  + L V  + N+F  +  A  +  S    +  SL I++ 
+Sbjct  128  SALARRTRLDMNALGRFLTVGAVILMVAVVANLFLGI-PALALTISAGFVLFSSLMIMWQ  186
+
+Query  172  LNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+            +  +        +    AL+L++   N+F +LL     L+ +D
+Sbjct  187  VRTVIDGGEDSHIS--AALTLFISLYNIFSSLLNILLSLNGED  227
+
+
+> sp|Q9LD45|BI1_ARATH Bax inhibitor 1 OS=Arabidopsis thaliana OX=3702 
+GN=BI-1 PE=1 SV=1
+Length=247
+
+ Score = 49.2 bits (116),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 30/200 (15%), Positives = 77/200 (39%), Gaps = 3/200 (2%)
+
+Query  10   QSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAF  69
+            Q+ ++R+       L+ +  G ++     +  +L        MI L            + 
+Sbjct  33   QNHLKRVYLTLCCALVASAFGAYLHVLWNIGGILTTIGCIGTMIWLLSCPPYEHQKRLSL  92
+
+Query  70   VYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AKMKKDLSFLWSF  128
+            ++  A + G ++ P++     +    +++ AF  T + F           +++  +L   
+Sbjct  93   LFVSAVLEGASVGPLIKVAIDV-DPSILITAFVGTAIAFVCFSAAAMLARRREYLYLGGL  151
+
+Query  129  LLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK-HRHITEDLIPV  187
+            L   +  L  +   +     +++        G ++F  Y++ D  +I    H+ +     
+Sbjct  152  LSSGLSMLMWLQFASSIFGGSASIFKFELYFGLLIFVGYMVVDTQEIIEKAHLGDMDYVK  211
+
+Query  188  MALSLYLDFINLFINLLRFF  207
+             +L+L+ DF+ +F+ +L   
+Sbjct  212  HSLTLFTDFVAVFVRILIIM  231
+
+
+> sp|Q9H3K2|GHITM_HUMAN Growth hormone-inducible transmembrane 
+protein OS=Homo sapiens OX=9606 GN=GHITM PE=1 SV=2
+Length=345
+
+ Score = 48.4 bits (114),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 22/151 (15%), Positives = 59/151 (39%), Gaps = 11/151 (7%)
+
+Query  75   FVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVL  134
+             +    +  +V+    + G  ++  A+ +  ++  +         +    + + L V + 
+Sbjct  194  LLHSGVMGAVVAPLTILGGPLLIRAAWYTAGIVGGLSTVAMCAPSEKFLNMGAPLGVGLG  253
+
+Query  135  ALAVVGIFNIFSPLNSAAMMAYSVI----GTIVFSLYILYDLNQIKHRHITEDLI-----  185
+             + V  + ++F P  + A      +    G ++FS+++LYD  ++  R     +      
+Sbjct  254  LVFVSSLGSMFLPPTTVAGATLYSVAMYGGLVLFSMFLLYDTQKVIKRAEVSPMYGVQKY  313
+
+Query  186  --PVMALSLYLDFINLFINLLRFFGILSSDD  214
+                  LS+Y+D +N+F+ +        +  
+Sbjct  314  DPINSMLSIYMDTLNIFMRVATMLATGGNRK  344
+
+
+> sp|Q5XIA8|GHITM_RAT Growth hormone-inducible transmembrane protein 
+OS=Rattus norvegicus OX=10116 GN=Ghitm PE=2 SV=1
+Length=346
+
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 26/134 (19%), Positives = 54/134 (40%), Gaps = 12/134 (9%)
+
+Query  93   GAYVVLEAFGSTFVIFAVLGTIGA-KMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSA  151
+            G  ++L A   T  I   L T+      +    + + L V +  +    + ++F P  S 
+Sbjct  212  GGPLLLRAAWYTAGIVGGLSTVAMCAPSEKFLNMGAPLGVGLGLVFASSLGSMFLPPTSV  271
+
+Query  152  AMMAYSVI----GTIVFSLYILYDLNQIKHR-------HITEDLIPVMALSLYLDFINLF  200
+            A      +    G ++FS+++LYD  ++  R          +       L++Y+D +N+F
+Sbjct  272  AGATLYSVAMYGGLVLFSMFLLYDTQKVVKRAEITPAYGAQKYDPINSMLTIYMDTLNIF  331
+
+Query  201  INLLRFFGILSSDD  214
+            + +       S+  
+Sbjct  332  MRVATMLATGSNRK  345
+
+
+> sp|Q91VC9|GHITM_MOUSE Growth hormone-inducible transmembrane 
+protein OS=Mus musculus OX=10090 GN=Ghitm PE=1 SV=1
+Length=346
+
+ Score = 45.4 bits (106),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 26/134 (19%), Positives = 54/134 (40%), Gaps = 12/134 (9%)
+
+Query  93   GAYVVLEAFGSTFVIFAVLGTIGAKMKKD-LSFLWSFLLVAVLALAVVGIFNIFSPLNSA  151
+            G  ++L A   T  I   L T+      +    + + L V +  +    + ++F P  S 
+Sbjct  212  GGPLLLRAAWYTAGIVGGLSTVAMCAPSEKFLNMGAPLGVGLGLVFASSLGSMFLPPTSV  271
+
+Query  152  AMMAYSVI----GTIVFSLYILYDLNQIKHR-------HITEDLIPVMALSLYLDFINLF  200
+            A      +    G ++FS+++LYD  ++  R          +       L++Y+D +N+F
+Sbjct  272  AGATLYSVAMYGGLVLFSMFLLYDTQKVIKRAEITPMYGAQKYDPINSMLTIYMDTLNIF  331
+
+Query  201  INLLRFFGILSSDD  214
+            + +       S+  
+Sbjct  332  MRVATMLATGSNRK  345
+
+
+> sp|Q54K40|BI1_DICDI Bax inhibitor 1 homolog OS=Dictyostelium 
+discoideum OX=44689 GN=DDB_G0287617 PE=3 SV=1
+Length=254
+
+ Score = 44.2 bits (103),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 43/213 (20%), Positives = 84/213 (39%), Gaps = 9/213 (4%)
+
+Query  4    TVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRK  63
+             + +S +  + ++       +L ATVG+    F+     L   +L +   IL     R +
+Sbjct  31   NLSQSTKQTLTKVYCALAIGILTATVGVLFSMFIYRPGFLMTLLLVIGSAILFATTPRTQ  90
+
+Query  64   A-----VGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGA-K  117
+                    +       FV+G++   ++  Y  I  + +VL AF +T  IF          
+Sbjct  91   DYKTQVKRFTLFNLVTFVTGMSSSGLIELYMDI-NSSIVLNAFMATCGIFISFTLFSLLT  149
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             K+   F+ S L    + + V+ +  +F   +      + +       L+I++D   + H
+Sbjct  150  NKRLYIFIGSSLASLSIGIFVLALTRLFGGYSEPLDQLFILAILASSVLFIIFDTQIMVH  209
+
+Query  178  RHI--TEDLIPVMALSLYLDFINLFINLLRFFG  208
+            R     E  +   A  L+ DF++LF  +L+   
+Sbjct  210  RIENLGEKDVLFHAFILFYDFVDLFRVILKILA  242
+
+
+> sp|Q9MBD8|BI1_ORYSJ Bax inhibitor 1 OS=Oryza sativa subsp. japonica 
+OX=39947 GN=BI1 PE=2 SV=1
+Length=249
+
+ Score = 43.4 bits (101),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 35/200 (18%), Positives = 79/200 (40%), Gaps = 3/200 (2%)
+
+Query  10   QSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAF  69
+            QS ++ +       L  + VG ++   + +  ML +     ++  L       +   +  
+Sbjct  34   QSHLKLVYLTLCVALAASAVGAYLHVALNIGGMLTMLGCVGSIAWLFSVPVFEERKRFGI  93
+
+Query  70   VYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKK-DLSFLWSF  128
+            +   A + G ++ P++   A    + +++ AF  T + F          K+ +  +L   
+Sbjct  94   LLAAALLEGASVGPLIKL-AVDFDSSILVTAFVGTAIAFGCFTCAAIVAKRREYLYLGGL  152
+
+Query  129  LLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHR-HITEDLIPV  187
+            L   +  L  +         ++ + M     G ++F  Y++YD  +I  R H  +     
+Sbjct  153  LSSGLSILLWLQFAASIFGHSTGSFMFEVYFGLLIFLGYMVYDTQEIIERAHHGDMDYIK  212
+
+Query  188  MALSLYLDFINLFINLLRFF  207
+             AL+L+ DF+ + + +L   
+Sbjct  213  HALTLFTDFVAVLVRILVIM  232
+
+
+> sp|P09723|US21_HCMVA Uncharacterized protein HWLF2 OS=Human cytomegalovirus 
+(strain AD169) OX=10360 GN=US21 PE=3 SV=1
+Length=239
+
+ Score = 43.4 bits (101),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 40/174 (23%), Positives = 73/174 (42%), Gaps = 8/174 (5%)
+
+Query  35   QFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGA  94
+             F  V L L   ++ +  + L  W           + T+  ++ + +     H++  +  
+Sbjct  47   LFSSVRLTLSCLMISIVCLGLLRWAEPNFPKNVWILLTYTLLTSVAVTASGFHFSHRS--  104
+
+Query  95   YVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVA-VLALAVVGIFNIFSPLNSAAM  153
+              V+ A  +T  +F  L        +D+    S L  A  L L +  +F++F    S  +
+Sbjct  105  --VIYAMVATVTLFCFLTLATYLFARDVELQRSLLTGASTLILLLFAVFSLFPEAVSEIL  162
+
+Query  154  MAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFF  207
+            +  + +  IV S  ++ D   I H    E  IP  AL LY+D + LF+++L F 
+Sbjct  163  VMIAGLAVIVTS--VVCDTQDILHDIEYESYIP-GALCLYMDLMYLFVSVLYFM  213
+
+
+> sp|F5HHT6|US21_HCMVM Membrane protein US21 OS=Human cytomegalovirus 
+(strain Merlin) OX=295027 GN=US21 PE=3 SV=1
+Length=243
+
+ Score = 43.4 bits (101),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 40/174 (23%), Positives = 73/174 (42%), Gaps = 8/174 (5%)
+
+Query  35   QFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGA  94
+             F  V L L   ++ +  + L  W           + T+  ++ + +     H++  +  
+Sbjct  47   LFSSVRLTLSCLMISIVCLGLLRWAEPNFPKNVWILLTYTLLTSVAVTASGFHFSHRS--  104
+
+Query  95   YVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVA-VLALAVVGIFNIFSPLNSAAM  153
+              V+ A  +T  +F  L        +D+    S L  A  L L +  +F++F    S  +
+Sbjct  105  --VIYAMVATVTLFCFLTLATYLFARDVELQRSLLTGASTLILLLFAVFSLFPEAVSEIL  162
+
+Query  154  MAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFF  207
+            +  + +  IV S  ++ D   I H    E  IP  AL LY+D + LF+++L F 
+Sbjct  163  VMIAGLAVIVTS--VVCDTQDILHDIEYESYIP-GALCLYMDLMYLFVSVLYFM  213
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.141    0.350    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0426    0.140     1.90     42.6     43.6 
+
+Effective search space used: 13809833929
+Results from round 3
+
+
+Query= O31539|4pgsA
+
+Length=214
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q0V882|BI1_BOVIN Bax inhibitor 1 OS=Bos taurus OX=9913 GN=TM...  133     2e-36
+  sp|Q66RM2|BI1_PIG Bax inhibitor 1 OS=Sus scrofa OX=9823 GN=TMBI...  132     5e-36
+  sp|O74888|BXI1_SCHPO Bax inhibitor 1 OS=Schizosaccharomyces pom...  132     9e-36
+  sp|Q9D2C7|BI1_MOUSE Bax inhibitor 1 OS=Mus musculus OX=10090 GN...  131     1e-35
+  sp|Q9ZKT1|Y920_HELPJ Uncharacterized protein jhp_0854 OS=Helico...  130     2e-35
+  sp|P55062|BI1_RAT Bax inhibitor 1 OS=Rattus norvegicus OX=10116...  129     8e-35
+  sp|Q5R7R1|BI1_PONAB Bax inhibitor 1 OS=Pongo abelii OX=9601 GN=...  129     9e-35
+  sp|P55061|BI1_HUMAN Bax inhibitor 1 OS=Homo sapiens OX=9606 GN=...  128     1e-34
+  sp|Q7Z429|LFG1_HUMAN Protein lifeguard 1 OS=Homo sapiens OX=960...  131     1e-34
+  sp|O25578|Y920_HELPY Uncharacterized protein HP_0920 OS=Helicob...  128     1e-34
+  sp|Q969X1|LFG3_HUMAN Protein lifeguard 3 OS=Homo sapiens OX=960...  129     3e-34
+  sp|O31539|YETJ_BACSU Uncharacterized protein YetJ OS=Bacillus s...  126     3e-34
+  sp|Q94A20|LFG5_ARATH BI1-like protein OS=Arabidopsis thaliana O...  126     8e-34
+  sp|Q8BJZ3|LFG3_MOUSE Protein lifeguard 3 OS=Mus musculus OX=100...  127     2e-33
+  sp|Q9DA39|LFG4_MOUSE Protein lifeguard 4 OS=Mus musculus OX=100...  123     2e-32
+  sp|Q9SA63|LFG4_ARATH Protein LIFEGUARD 4 OS=Arabidopsis thalian...  121     9e-32
+  sp|Q9IA79|BI1_PAROL Probable Bax inhibitor 1 OS=Paralichthys ol...  120     1e-31
+  sp|Q32L53|LFG1_BOVIN Protein lifeguard 1 OS=Bos taurus OX=9913 ...  121     5e-31
+  sp|Q9LD45|BI1_ARATH Bax inhibitor 1 OS=Arabidopsis thaliana OX=...  118     2e-30
+  sp|Q6P6R0|LFG1_RAT Protein lifeguard 1 OS=Rattus norvegicus OX=...  119     3e-30
+  sp|Q9HC24|LFG4_HUMAN Protein lifeguard 4 OS=Homo sapiens OX=960...  116     4e-30
+  sp|Q9PIQ8|Y236_CAMJE Uncharacterized protein Cj0236c OS=Campylo...  116     4e-30
+  sp|Q9ESF4|LFG1_MOUSE Protein lifeguard 1 OS=Mus musculus OX=100...  118     5e-30
+  sp|Q11080|TMBI4_CAEEL Transmembrane BAX inhibitor motif-contain...  116     7e-30
+  sp|O88407|LFG2_RAT Protein lifeguard 2 OS=Rattus norvegicus OX=...  115     5e-29
+  sp|Q49P94|GAAP_VACCL Golgi anti-apoptotic protein OS=Vaccinia v...  113     9e-29
+  sp|Q8K097|LFG2_MOUSE Protein lifeguard 2 OS=Mus musculus OX=100...  113     1e-28
+  sp|Q9BWQ8|LFG2_HUMAN Protein lifeguard 2 OS=Homo sapiens OX=960...  113     2e-28
+  sp|Q9ZQX7|LFG3_ARATH Protein LIFEGUARD 3 OS=Arabidopsis thalian...  111     3e-28
+  sp|Q5R4I4|LFG2_PONAB Protein lifeguard 2 OS=Pongo abelii OX=960...  112     6e-28
+  sp|Q1LZ71|LFG2_BOVIN Protein lifeguard 2 OS=Bos taurus OX=9913 ...  112     6e-28
+  sp|Q9VSH3|BI1_DROME Bax inhibitor 1 OS=Drosophila melanogaster ...  110     7e-28
+  sp|Q9M1V9|LFG2_ARATH Protein LIFEGUARD 2 OS=Arabidopsis thalian...  110     8e-28
+  sp|Q9KSA1|Y1358_VIBCH Uncharacterized membrane protein VC_1358 ...  107     1e-26
+  sp|P0AAC6|YCCA_ECOLI Modulator of FtsH protease YccA OS=Escheri...  106     2e-26
+  sp|P0AAC7|YCCA_ECOL6 Inner membrane protein YccA OS=Escherichia...  106     2e-26
+  sp|Q03268|Y2604_PSEAE Uncharacterized protein PA2604 OS=Pseudom...  105     3e-26
+  sp|Q9CNM5|Y402_PASMU Uncharacterized protein PM0402 OS=Pasteure...  105     7e-26
+  sp|F4JIE8|LFG1_ARATH Protein LIFEGUARD 1 OS=Arabidopsis thalian...  104     1e-25
+  sp|Q9MBD8|BI1_ORYSJ Bax inhibitor 1 OS=Oryza sativa subsp. japo...  104     2e-25
+  sp|O84826|Y819_CHLTR Uncharacterized protein CT_819 OS=Chlamydi...  103     3e-25
+  sp|P48558|BXI1_YEAST Bax inhibitor 1 OS=Saccharomyces cerevisia...  103     5e-25
+  sp|Q9PLA1|Y206_CHLMU Uncharacterized protein TC_0206 OS=Chlamyd...  101     2e-24
+  sp|Q54K40|BI1_DICDI Bax inhibitor 1 homolog OS=Dictyostelium di...  98.9    2e-23
+  sp|P44477|Y044_HAEIN Uncharacterized protein HI_0044 OS=Haemoph...  97.7    3e-23
+  sp|Q9A2A3|Y3663_CAUCR Uncharacterized protein CC_3663 OS=Caulob...  96.9    1e-22
+  sp|O51489|Y539_BORBU Uncharacterized protein BB_0539 OS=Borreli...  96.6    1e-22
+  sp|P0AAC4|YBHL_ECOLI Inner membrane protein YbhL OS=Escherichia...  95.4    3e-22
+  sp|P0AAC5|YBHL_ECOL6 Inner membrane protein YbhL OS=Escherichia...  95.4    3e-22
+  sp|P0DA11|Y260_STRPQ Uncharacterized membrane protein SPs1599 O...  94.6    5e-22
+  sp|P0DA10|Y260_STRP3 Uncharacterized membrane protein SpyM3_026...  94.6    5e-22
+  sp|Q8P2D4|Y408_STRP8 Uncharacterized membrane protein spyM18_04...  94.2    6e-22
+  sp|Q5XDQ1|Y327_STRP6 Uncharacterized membrane protein M6_Spy032...  94.2    6e-22
+  sp|Q9H3K2|GHITM_HUMAN Growth hormone-inducible transmembrane pr...  95.4    7e-22
+  sp|Q9A1B9|Y358_STRP1 Uncharacterized membrane protein SPy_0358/...  94.2    7e-22
+  sp|Q9ZE15|Y147_RICPR Uncharacterized protein RP147 OS=Rickettsi...  93.9    1e-21
+  sp|Q91VC9|GHITM_MOUSE Growth hormone-inducible transmembrane pr...  90.4    4e-20
+  sp|Q5XIA8|GHITM_RAT Growth hormone-inducible transmembrane prot...  88.5    2e-19
+  sp|Q9RVX8|Y893_DEIRA Uncharacterized protein DR_0893 OS=Deinoco...  87.7    2e-19
+  sp|Q9CEU8|YRJE_LACLA Uncharacterized protein YrjE OS=Lactococcu...  83.5    5e-18
+  sp|P09723|US21_HCMVA Uncharacterized protein HWLF2 OS=Human cyt...  76.9    7e-16
+  sp|P63701|Y420_NEIMA Uncharacterized protein NMA0420 OS=Neisser...  76.9    7e-16
+  sp|P63702|Y2020_NEIMB Uncharacterized protein NMB2020 OS=Neisse...  76.9    7e-16
+  sp|F5HHT6|US21_HCMVM Membrane protein US21 OS=Human cytomegalov...  76.9    7e-16
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P09724|US20_HCMVA Transmembrane protein HWLF3 OS=Human cytom...  47.3    4e-05
+  sp|Q03307|US20_HCMVT Transmembrane protein HWLF3 OS=Human cytom...  47.3    4e-05
+
+
+> sp|Q0V882|BI1_BOVIN Bax inhibitor 1 OS=Bos taurus OX=9913 GN=TMBIM6 
+PE=2 SV=1
+Length=236
+
+ Score = 133 bits (334),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 37/213 (17%), Positives = 80/213 (38%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G +I      +   L  ++  + ++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYIHVVTHFIQAGLLSALGSLGLMIWLMATPH  76
+
+Query  62   RKAV---GYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +          ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALDL-CIAINPSILPTAFMGTAMIFTCFTLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             ++   FL   L+ A+  + +  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSAMSLMLLSSLGNLFFGSVWLFQANL-YMGLVVMCGFVLFDTQLIIE  194
+
+Query  178  RHI-TEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            +    +       + L+LDF+ LF  L+    +
+Sbjct  195  KAENGDKDYIWHCVDLFLDFVTLFRKLMMILAM  227
+
+
+> sp|Q66RM2|BI1_PIG Bax inhibitor 1 OS=Sus scrofa OX=9823 GN=TMBIM6 
+PE=2 SV=1
+Length=237
+
+ Score = 132 bits (332),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 35/213 (16%), Positives = 79/213 (37%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G ++      +   L  ++  + ++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYVHVVTRFIQAGLLSALGSLGLMIWLMATPH  76
+
+Query  62   RKAV---GYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +          ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALDL-CIAINPSILPTAFMGTAMIFTCFTLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             ++   FL   L+ A+  + +  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSAMSLMVLSSLGNLFFGSIWLFQANL-YVGLVVMCGFVLFDTQLIIE  194
+
+Query  178  RHI-TEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            +    +       + L+ DF+ LF  L+    +
+Sbjct  195  KAENGDKDYIWHCVDLFSDFVTLFRKLMMILAM  227
+
+
+> sp|O74888|BXI1_SCHPO Bax inhibitor 1 OS=Schizosaccharomyces pombe 
+(strain 972 / ATCC 24843) OX=284812 GN=bxi1 PE=3 SV=1
+Length=266
+
+ Score = 132 bits (332),  Expect = 9e-36, Method: Composition-based stats.
+ Identities = 54/215 (25%), Positives = 101/215 (47%), Gaps = 14/215 (7%)
+
+Query  9    KQSIMQRILTVFVFTLLIATVGLFIGQFVPV---------ALMLPLSILEVAMIILAFWM  59
+            + + ++++  +    L + ++   I    P            ++    + + ++      
+Sbjct  55   RMAFLRKVYAILTAQLFVTSLFGGIFYLHPAFSFWVQMHPWFLILNFFISLVVLFGLIMK  114
+
+Query  60   RRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMK  119
+                   Y F++ F  + G+TL   ++ +++     ++LEA   T  +F  L     + K
+Sbjct  115  PYSYPRNYIFLFLFTALEGLTLGTAITFFSA----RIILEAVFITLGVFVALTAFTFQSK  170
+
+Query  120  KDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRH  179
+             D S L  FL V++ +L +  +   F P      MA++  GT+VF  YIL+D   I HR+
+Sbjct  171  WDFSRLGGFLYVSLWSLILTPLIFFFVPSTPFIDMAFAGFGTLVFCGYILFDTYNILHRY  230
+
+Query  180  ITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+              E+   + +L LYLDFINLFI +L+  G+L ++D
+Sbjct  231  SPEEF-IMSSLMLYLDFINLFIRILQILGMLQNND  264
+
+
+> sp|Q9D2C7|BI1_MOUSE Bax inhibitor 1 OS=Mus musculus OX=10090 
+GN=Tmbim6 PE=1 SV=1
+Length=237
+
+ Score = 131 bits (329),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 37/213 (17%), Positives = 80/213 (38%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G ++      +   L  ++  +A++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYVHVVTHFIQAGLLSALGSLALMIWLMATPH  76
+
+Query  62   RKAV---GYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +          ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALEL-CIAVNPSILPTAFMGTAMIFTCFSLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             ++   FL   L+ A+  + +  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSAMSLMLLSSLGNLFFGSIWLFQANL-YLGLLVMCGFVLFDTQLIIE  194
+
+Query  178  RHI-TEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            +    +       + L+LDF+ LF  L+     
+Sbjct  195  KAEHGDKDYIWHCVDLFLDFVTLFRKLMLILAF  227
+
+
+> sp|Q9ZKT1|Y920_HELPJ Uncharacterized protein jhp_0854 OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=jhp_0854 
+PE=3 SV=1
+Length=230
+
+ Score = 130 bits (327),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 62/217 (29%), Positives = 107/217 (49%), Gaps = 7/217 (3%)
+
+Query  2    QATVHESKQ-SIMQRILTVFVFTLLIATVGLFIGQFVPVALM---LPLSILEVAMIILAF  57
+             + +HES+  S ++     F  +LL+ATVG  +G     A++       I E+       
+Sbjct  16   DSVLHESELVSFVKTTYKFFAGSLLLATVGALLGLMNFQAVVQYKWVFFIAEIVAFFGLM  75
+
+Query  58   WMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAK  117
+            + + +  +    ++ F  +SG+TL P++    + AG   V +A G T ++F ++     K
+Sbjct  76   FSKSKPGLNLFMLFAFTSLSGVTLVPLLGMVIAKAGLGAVWQALGMTTIVFGLMSVYALK  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             K DL+ +   L +A++ + V  + N+F   +    +  +    I+FSLYI YD   I  
+Sbjct  136  TKNDLANMGKMLFIALIVVVVCSLINLFLG-SPMFQVVIAGASAILFSLYIAYDTQNIVK  194
+
+Query  178  RHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+                 D     A+SLYLDF+N+FI++L+  GI S  D
+Sbjct  195  GM--YDSPIDAAVSLYLDFLNVFISILQIIGIFSDRD  229
+
+
+> sp|P55062|BI1_RAT Bax inhibitor 1 OS=Rattus norvegicus OX=10116 
+GN=Tmbim6 PE=2 SV=2
+Length=237
+
+ Score = 129 bits (324),  Expect = 8e-35, Method: Composition-based stats.
+ Identities = 38/213 (18%), Positives = 80/213 (38%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G ++      +   L  ++  +A++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYVHVVTRFIQAGLLSALGALALMICLMATPH  76
+
+Query  62   RKAV---GYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +          ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALEL-CIAINPSILPTAFMGTAMIFTCFSLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             ++   FL   L+ A+  + V  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSAMSLMFVSSLGNLFFGSIWLFQANL-YMGLLVMCGFVLFDTQLIIE  194
+
+Query  178  RHI-TEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            +    +       + L+LDF+ LF  L+     
+Sbjct  195  KAEHGDKDYIWHCIDLFLDFVTLFRKLMLILAF  227
+
+
+> sp|Q5R7R1|BI1_PONAB Bax inhibitor 1 OS=Pongo abelii OX=9601 GN=TMBIM6 
+PE=2 SV=2
+Length=237
+
+ Score = 129 bits (324),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 38/213 (18%), Positives = 81/213 (38%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G ++      +   L  ++  + ++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYVHVVTHFIQAGLLSALGSLILMIWLMATPH  76
+
+Query  62   RKAV---GYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +  +       ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALE-FCITVNPSILPTAFMGTAMIFTCFTLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             ++   FL   L+ A+  L +  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSALSLLLLSSLGNVFFGSIWLFQANL-YVGLVVMCGFVLFDTQLIIE  194
+
+Query  178  RHI-TEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            +    +       + L+LDFI LF  L+    +
+Sbjct  195  KAEHGDQDYIWHCIDLFLDFITLFRKLMMILAM  227
+
+
+> sp|P55061|BI1_HUMAN Bax inhibitor 1 OS=Homo sapiens OX=9606 GN=TMBIM6 
+PE=1 SV=2
+Length=237
+
+ Score = 128 bits (323),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 37/213 (17%), Positives = 81/213 (38%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV-PVALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++++   F   + +A  G ++      +   L  ++  + ++I       
+Sbjct  17   SHITPSTQQHLKKVYASFALCMFVAAAGAYVHMVTHFIQAGLLSALGSLILMIWLMATPH  76
+
+Query  62   RKAV---GYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                       +  FAF++G+ L P +  +       ++  AF  T +IF          
+Sbjct  77   SHETEQKRLGLLAGFAFLTGVGLGPALE-FCIAVNPSILPTAFMGTAMIFTCFTLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             ++   FL   L+ A+  L +  + N+F             +G +V   ++L+D   I  
+Sbjct  136  RRRSYLFLGGILMSALSLLLLSSLGNVFFGSIWLFQANL-YVGLVVMCGFVLFDTQLIIE  194
+
+Query  178  RHI-TEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            +    +       + L+LDFI +F  L+    +
+Sbjct  195  KAEHGDQDYIWHCIDLFLDFITVFRKLMMILAM  227
+
+
+> sp|Q7Z429|LFG1_HUMAN Protein lifeguard 1 OS=Homo sapiens OX=9606 
+GN=GRINA PE=2 SV=1
+Length=371
+
+ Score = 131 bits (330),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 41/218 (19%), Positives = 82/218 (38%), Gaps = 26/218 (12%)
+
+Query  9    KQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFW----------  58
+            +Q+ ++++  V    L  +     +  F  VA +       V    +++           
+Sbjct  158  RQAFIRKVFLVLTLQL--SVTLSTVSVFTFVAEVKGFVRENVWTYYVSYAVFFISLIVLS  215
+
+Query  59   ----MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTI  114
+                 RR+       +         +L  +V   AS      V+ A G T  +   +   
+Sbjct  216  CCGDFRRKHPWNLVALSVLTA----SLSYMVGMIASFYNTEAVIMAVGITTAVCFTVVIF  271
+
+Query  115  GAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQ  174
+              + + D +     LLV+++ L +  I  IF   N    + Y+ +G ++F+ ++  D   
+Sbjct  272  SMQTRYDFTSCMGVLLVSMVVLFIFAILCIFI-RNRILEIVYASLGALLFTCFLAVDTQL  330
+
+Query  175  IKHR----HITEDLIPVMALSLYLDFINLFINLLRFFG  208
+            +          E+ +   AL+LY D IN+F+ +L   G
+Sbjct  331  LLGNKQLSLSPEEYVF-AALNLYTDIINIFLYILTIIG  367
+
+
+> sp|O25578|Y920_HELPY Uncharacterized protein HP_0920 OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=HP_0920 
+PE=3 SV=1
+Length=230
+
+ Score = 128 bits (322),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 60/217 (28%), Positives = 107/217 (49%), Gaps = 7/217 (3%)
+
+Query  2    QATVHESKQ-SIMQRILTVFVFTLLIATVGLFIGQFVPVALM---LPLSILEVAMIILAF  57
+             + + ES+  S ++     F  +LL+AT+G  +G     A++       I E+A      
+Sbjct  16   DSLLRESELVSFVKTTYKFFAGSLLLATIGALLGLMNFQAVVQYKWVFFIAEIAAFFGLM  75
+
+Query  58   WMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAK  117
+            + + +  +    ++ F  +SG+TL P++    + AG   + +A G T ++F ++     K
+Sbjct  76   FSKSKPGLNLFMLFAFTSLSGVTLVPLLGMVIAKAGLGAIWQALGMTTIVFGLMSVYALK  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             K DL+ +   L +A++ + V  + N+F   +    +  +    I+FSLYI YD   I  
+Sbjct  136  TKNDLANMGKMLFIALIVVVVCSLINLFLG-SPMFQVVIAGASAILFSLYIAYDTQNIVK  194
+
+Query  178  RHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+                 D     A+SLYLDF+N+FI++L+  GI S  D
+Sbjct  195  GM--YDSPIDAAVSLYLDFLNVFISILQIIGIFSDRD  229
+
+
+> sp|Q969X1|LFG3_HUMAN Protein lifeguard 3 OS=Homo sapiens OX=9606 
+GN=TMBIM1 PE=1 SV=2
+Length=311
+
+ Score = 129 bits (324),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 48/227 (21%), Positives = 82/227 (36%), Gaps = 28/227 (12%)
+
+Query  6    HESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFW-------  58
+             + + + ++++ ++    LLI      I  F  V  +       VA+  +++        
+Sbjct  92   RKVRHTFIRKVYSIISVQLLITV--AIIAIFTFVEPVSAFVRRNVAVYYVSYAVFVVTYL  149
+
+Query  59   -------MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVL  111
+                    RRR       +  F F  G     I S Y        V+ A   T V+   +
+Sbjct  150  ILACCQGPRRRFPWNIILLTLFTFAMGFMTGTISSMY----QTKAVIIAMIITAVVSISV  205
+
+Query  112  GTIGAKMKKDLSFLWSFLLVAVLALAVVGIFN---IFSPLNSAAMMAYSVIGTIVFSLYI  168
+                 + K D +       V  + L V GI     ++        M Y+ +G I F+L++
+Sbjct  206  TIFCFQTKVDFTSCTGLFCVLGIVLLVTGIVTSIVLYFQYVYWLHMLYAALGAICFTLFL  265
+
+Query  169  LYDLNQI----KHRHITEDLIPVMALSLYLDFINLFINLLRFFGILS  211
+             YD   +    KH    ED     AL +Y D I +F  +L+  G  +
+Sbjct  266  AYDTQLVLGNRKHTISPEDY-ITGALQIYTDIIYIFTFVLQLMGDRN  311
+
+
+> sp|O31539|YETJ_BACSU Uncharacterized protein YetJ OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yetJ PE=1 SV=1
+Length=214
+
+ Score = 126 bits (318),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 214/214 (100%), Positives = 214/214 (100%), Gaps = 0/214 (0%)
+
+Query  1    MQATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMR  60
+            MQATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMR
+Sbjct  1    MQATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMR  60
+
+Query  61   RRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKK  120
+            RRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKK
+Sbjct  61   RRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKK  120
+
+Query  121  DLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHI  180
+            DLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHI
+Sbjct  121  DLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHI  180
+
+Query  181  TEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+            TEDLIPVMALSLYLDFINLFINLLRFFGILSSDD
+Sbjct  181  TEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+
+
+> sp|Q94A20|LFG5_ARATH BI1-like protein OS=Arabidopsis thaliana 
+OX=3702 GN=LFG5 PE=2 SV=1
+Length=256
+
+ Score = 126 bits (318),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 47/213 (22%), Positives = 88/213 (41%), Gaps = 17/213 (8%)
+
+Query  12   IMQRILTVFVFTLLIATVGLFIGQFVPV---------ALMLPLSILEVAMIILAFWMRRR  62
+             ++++  +    LL+ T+   +    P           ++L L I+   +I       ++
+Sbjct  49   FIRKVYGILSAQLLLTTLISAVVVLNPPVNDLLTGSPGILLFLCIVPFILIWPLHIYHQK  108
+
+Query  63   KAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGA---KMK  119
+              V    +  F     ++L   V    ++    +VL+A   T  +   L        K  
+Sbjct  109  HPVNLILLALFT----VSLSFTVGVSCAMTEGRIVLQALILTLSVVGSLTAYTFWAAKKG  164
+
+Query  120  KDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRH  179
+            KD SFL   L  +++ L V     +F PL   ++  Y     +VF  YI+YD + +  R 
+Sbjct  165  KDFSFLGPILFTSLIILVVTSFIQMFFPLGPTSVAVYGGFSALVFCGYIVYDTDNLIKRF  224
+
+Query  180  ITEDLIPVMALSLYLDFINLFINLLRFFGILSS  212
+              ++ I   +++LYLD +NLF+ +LR      +
+Sbjct  225  TYDEYIL-ASVALYLDILNLFLTILRILRQGDN  256
+
+
+> sp|Q8BJZ3|LFG3_MOUSE Protein lifeguard 3 OS=Mus musculus OX=10090 
+GN=Tmbim1 PE=1 SV=1
+Length=309
+
+ Score = 127 bits (319),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 48/226 (21%), Positives = 79/226 (35%), Gaps = 28/226 (12%)
+
+Query  6    HESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFW-------  58
+             + + S +Q++  +    LLI      I  F  V  +       VA+  +++        
+Sbjct  90   RKVRHSFIQKVYCIISVQLLITV--AIIAIFTFVEPVGKYVRNNVAVYYVSYAVFLVTYL  147
+
+Query  59   -------MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVL  111
+                    RRR       +  F    G     I S Y +      V+ A   T V+   +
+Sbjct  148  TLACCQGPRRRFPWDIILLTIFTLALGFVTGTISSMYEN----KAVIIAMIITAVVSISV  203
+
+Query  112  GTIGAKMKKDLSFLWSFLLVAVLALAVVGIFN---IFSPLNSAAMMAYSVIGTIVFSLYI  168
+                 + K D +       V  + L V GI     +         M Y+ +G I F+L++
+Sbjct  204  TIFCFQTKVDFTSCTGLFCVLGIVLMVTGIVTSIVLIFKYIYWLHMVYAALGAICFTLFL  263
+
+Query  169  LYDLNQI----KHRHITEDLIPVMALSLYLDFINLFINLLRFFGIL  210
+             YD   +    KH    ED     AL +Y D + +F  +L+  G  
+Sbjct  264  AYDTQLVLGNRKHTISPEDY-ITGALQIYTDIVYIFTFVLQLVGSR  308
+
+
+> sp|Q9DA39|LFG4_MOUSE Protein lifeguard 4 OS=Mus musculus OX=10090 
+GN=Tmbim4 PE=2 SV=1
+Length=238
+
+ Score = 123 bits (308),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 44/210 (21%), Positives = 96/210 (46%), Gaps = 15/210 (7%)
+
+Query  7    ESKQSIMQRILTVFVFTLLIATVGLFIGQFVPV---------ALMLPLSILEVAMIILAF  57
+              + + ++++ ++    +L+ TV   +  +            AL++  ++  + +I    
+Sbjct  29   HIRMAFLRKVYSILSLQVLLTTVTSALFLYFQALRTFVHESPALIVVFALGSLGLIFALT  88
+
+Query  58   WMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAK  117
+              R    +    ++ F     + +  +V+ Y      Y+VL+AF  T  +F  L     +
+Sbjct  89   LHRHTHPLNLYLLFAFTLSESLAVAAVVTFY----DVYLVLQAFIMTTAVFLGLTAYTLQ  144
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             K+D +   + L   +  L + G   +F   +    +  + +G ++F  +I+YD + + H
+Sbjct  145  SKRDFTKFGAGLFAGLWILCLAGFLKLFF-YSETMELVLASLGALLFCGFIIYDTHSLMH  203
+
+Query  178  RHITEDLIPVMALSLYLDFINLFINLLRFF  207
+            R   E+ +   A+SLY+D INLF++LL+F 
+Sbjct  204  RLSPEEYVI-AAISLYMDIINLFLHLLKFL  232
+
+
+> sp|Q9SA63|LFG4_ARATH Protein LIFEGUARD 4 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG4 PE=2 SV=1
+Length=247
+
+ Score = 121 bits (303),  Expect = 9e-32, Method: Composition-based stats.
+ Identities = 57/216 (26%), Positives = 94/216 (44%), Gaps = 20/216 (9%)
+
+Query  7    ESKQSIMQRILTVFVFTLLIATVGLFIGQFVP------------VALMLPLSILEVAMII  54
+            E +   ++++ ++  F LL          FV             +AL + L I  + ++ 
+Sbjct  33   ELRWGFIRKVYSIIAFQLLATIAVASTVVFVRPIAVFFATTSAGLALWIVLIITPLIVMC  92
+
+Query  55   LAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTI  114
+              ++  ++  V Y  +  F     + L   V    +     V+LEA   T V+   L   
+Sbjct  93   PLYYYHQKHPVNYLLLGIFT----VALAFAVGLTCAFTSGKVILEAAILTTVVVLSLTVY  148
+
+Query  115  GA---KMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYD  171
+                 K   D +FL  FL  A++ L V  +  IF PL   ++M Y  +  I+F  YI+YD
+Sbjct  149  TFWAAKKGYDFNFLGPFLFGALIVLMVFALIQIFFPLGRISVMIYGCLAAIIFCGYIVYD  208
+
+Query  172  LNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFF  207
+             + +  R+  ++     A+SLYLD INLF+ LL  F
+Sbjct  209  TDNLIKRYSYDEY-IWAAVSLYLDIINLFLALLTIF  243
+
+
+> sp|Q9IA79|BI1_PAROL Probable Bax inhibitor 1 OS=Paralichthys 
+olivaceus OX=8255 GN=tmbim6 PE=2 SV=1
+Length=237
+
+ Score = 120 bits (302),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 37/213 (17%), Positives = 84/213 (39%), Gaps = 8/213 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPV-ALMLPLSILEVAMIILAFWMRR  61
+            + +  S Q  ++ + +     + +A  G ++     +    +   +  + M+        
+Sbjct  17   SQISHSTQVHLKNVYSSLAVCMFVAAAGSYVHVVTRLFQGGMLSVLGSLGMMFWLAMTPH  76
+
+Query  62   RKAV---GYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AK  117
+                     A +  FAF++G+ L P +    +I    +++ AF  T VIF          
+Sbjct  77   NSETEKKRLAILAGFAFLTGVGLCPTLDFVIAI-NPSIIVTAFLGTSVIFVCFTLSALYA  135
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             ++   FL   L+  +  L ++ + N+F   +     A+  +G ++   ++L D   I  
+Sbjct  136  KRRSYLFLGGTLMSGLSILFLMSMMNMFFG-SVMLFKAHMYLGLLIMCGFVLXDTQLIIE  194
+
+Query  178  RHI-TEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            +    +      ++ L+LDFI +F  L+    +
+Sbjct  195  KAENGDKDYVWHSVDLFLDFITIFRKLMVILAL  227
+
+
+> sp|Q32L53|LFG1_BOVIN Protein lifeguard 1 OS=Bos taurus OX=9913 
+GN=GRINA PE=2 SV=1
+Length=366
+
+ Score = 121 bits (304),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 40/218 (18%), Positives = 82/218 (38%), Gaps = 26/218 (12%)
+
+Query  9    KQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFW----------  58
+            +Q+ ++++  V    L  +     +  F  V  +       V    +++           
+Sbjct  153  RQAFIRKVFLVLTLQL--SVTLSTVAVFTFVGEVKGFVRENVWTYYVSYAIFFVSLIVLS  210
+
+Query  59   ----MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTI  114
+                 RR+       +        ++L  +V   AS      V+ A G T  +   +   
+Sbjct  211  CCGDFRRKHPWNLVALSILT----VSLSYMVGMIASFYNTEAVIMAVGITTTVCFTVVIF  266
+
+Query  115  GAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQ  174
+              + + D +     LLV+V+ L +  I  IF   +    + Y+ +G ++F+ ++  D   
+Sbjct  267  SMQTRYDFTSCVGVLLVSVVVLILFAILCIFI-RSRVLEIVYASLGALLFTCFLAVDTQL  325
+
+Query  175  IKHR----HITEDLIPVMALSLYLDFINLFINLLRFFG  208
+            +          E+ +   AL+LY D IN+F+ +L   G
+Sbjct  326  LLGNKQLSLSPEEYVF-AALNLYTDIINIFLYILTIIG  362
+
+
+> sp|Q9LD45|BI1_ARATH Bax inhibitor 1 OS=Arabidopsis thaliana OX=3702 
+GN=BI-1 PE=1 SV=1
+Length=247
+
+ Score = 118 bits (295),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 33/212 (16%), Positives = 83/212 (39%), Gaps = 3/212 (1%)
+
+Query  4    TVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRK  63
+             +  + Q+ ++R+       L+ +  G ++     +  +L        MI L        
+Sbjct  27   QISPAVQNHLKRVYLTLCCALVASAFGAYLHVLWNIGGILTTIGCIGTMIWLLSCPPYEH  86
+
+Query  64   AVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AKMKKDL  122
+                + ++  A + G ++ P++   A      +++ AF  T + F           +++ 
+Sbjct  87   QKRLSLLFVSAVLEGASVGPLIKV-AIDVDPSILITAFVGTAIAFVCFSAAAMLARRREY  145
+
+Query  123  SFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHR-HIT  181
+             +L   L   +  L  +   +     +++        G ++F  Y++ D  +I  + H+ 
+Sbjct  146  LYLGGLLSSGLSMLMWLQFASSIFGGSASIFKFELYFGLLIFVGYMVVDTQEIIEKAHLG  205
+
+Query  182  EDLIPVMALSLYLDFINLFINLLRFFGILSSD  213
+            +      +L+L+ DF+ +F+ +L      S+D
+Sbjct  206  DMDYVKHSLTLFTDFVAVFVRILIIMLKNSAD  237
+
+
+> sp|Q6P6R0|LFG1_RAT Protein lifeguard 1 OS=Rattus norvegicus OX=10116 
+GN=Grina PE=2 SV=1
+Length=348
+
+ Score = 119 bits (298),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 42/218 (19%), Positives = 82/218 (38%), Gaps = 26/218 (12%)
+
+Query  9    KQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFW----------  58
+            +Q+ ++++  V    L  +     +  F  V  +       V    +++           
+Sbjct  135  RQAFIRKVFLVLTLQL--SVTLSTVAIFTFVGEVKGFVRANVWTYYVSYAIFFISLIVLS  192
+
+Query  59   ----MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTI  114
+                 RR+       +        I+L  +V   AS      V+ A G T  +   +   
+Sbjct  193  CCGDFRRKHPWNLVALSILT----ISLSYMVGMIASFYNTEAVIMAVGITTAVCFTVVIF  248
+
+Query  115  GAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQ  174
+              + + D +     LLV+V+ L +  I  IF   N    + Y+ +G ++F+ ++  D   
+Sbjct  249  SMQTRYDFTSCMGVLLVSVVVLFIFAILCIFI-RNRILEIVYASLGALLFTCFLAVDTQL  307
+
+Query  175  IKHR----HITEDLIPVMALSLYLDFINLFINLLRFFG  208
+            +          E+ +   AL+LY D IN+F+ +L   G
+Sbjct  308  LLGNKQLSLSPEEYVF-AALNLYTDIINIFLYILTIIG  344
+
+
+> sp|Q9HC24|LFG4_HUMAN Protein lifeguard 4 OS=Homo sapiens OX=9606 
+GN=TMBIM4 PE=1 SV=3
+Length=238
+
+ Score = 116 bits (291),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 48/214 (22%), Positives = 98/214 (46%), Gaps = 15/214 (7%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFV---------PVALMLPLSILEVAMI  53
+            +     + + ++++ ++    +L+ TV   +  +            AL+L  ++  + +I
+Sbjct  25   SATVHIRMAFLRKVYSILSLQVLLTTVTSTVFLYFESVRTFVHESPALILLFALGSLGLI  84
+
+Query  54   ILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGT  113
+                  R +  +    ++ F  +  +T+  +V+ Y      Y++L+AF  T  +F  L  
+Sbjct  85   FALILNRHKYPLNLYLLFGFTLLEALTVAVVVTFY----DVYIILQAFILTTTVFFGLTV  140
+
+Query  114  IGAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLN  173
+               + KKD S   + L   +  L + G    F   +    +  +  G ++F  +I+YD +
+Sbjct  141  YTLQSKKDFSKFGAGLFALLWILCLSGFLKFFF-YSEIMELVLAAAGALLFCGFIIYDTH  199
+
+Query  174  QIKHRHITEDLIPVMALSLYLDFINLFINLLRFF  207
+             + H+   E+ +   A+SLYLD INLF++LLRF 
+Sbjct  200  SLMHKLSPEEYVL-AAISLYLDIINLFLHLLRFL  232
+
+
+> sp|Q9PIQ8|Y236_CAMJE Uncharacterized protein Cj0236c OS=Campylobacter 
+jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 
+/ NCTC 11168) OX=192222 GN=Cj0236c PE=3 SV=1
+Length=231
+
+ Score = 116 bits (291),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 61/210 (29%), Positives = 102/210 (49%), Gaps = 11/210 (5%)
+
+Query  12   IMQRILTVFVFTLLIATVGLFIGQFVPVALM-------LPLSILEVAMIILAFWMRRRKA  64
+             +++   +F  +LL ATVG ++G F   +           L  +E+ ++    W +R   
+Sbjct  25   FIKQTYQLFAASLLAATVGAYVGIFALASFFIQSQVTFWILFAVEIGLLFALQWKKREAP  84
+
+Query  65   VGYAFVYTFAFVSGITLFPIV-SHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLS  123
+            +    ++ F F SG+TL P++ S  A  AG  ++ +AF  T V FA L       KKD +
+Sbjct  85   LNLVLLFGFTFCSGLTLTPLLISVLALPAGGIIIAQAFALTTVAFAGLSVFAMNTKKDFT  144
+
+Query  124  FLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITED  183
+             +   L + ++ +    + N+F   +S   +A S +  I+FS YILYD   I       +
+Sbjct  145  VMGKALFIVLIVIVAASLLNLFFQ-SSIVNLAISAVAAILFSFYILYDTQNIIRG--NYE  201
+
+Query  184  LIPVMALSLYLDFINLFINLLRFFGILSSD  213
+                 A++LYLDF+NLF++LL      +S 
+Sbjct  202  TPIEGAVALYLDFVNLFVSLLNILRSFNSR  231
+
+
+> sp|Q9ESF4|LFG1_MOUSE Protein lifeguard 1 OS=Mus musculus OX=10090 
+GN=Grina PE=2 SV=1
+Length=345
+
+ Score = 118 bits (296),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 41/218 (19%), Positives = 82/218 (38%), Gaps = 26/218 (12%)
+
+Query  9    KQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFW----------  58
+            +Q+ ++++  V    L  +     +  F  V  +       V    +++           
+Sbjct  132  RQAFIRKVFLVLTLQL--SVTLSTVAIFTFVGEVKGFVRENVWTYYVSYAIFFISLIVLS  189
+
+Query  59   ----MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTI  114
+                 RR+       +        ++L  +V   AS      V+ A G T  +   +   
+Sbjct  190  CCGDFRRKHPWNLVALSILT----VSLSYMVGMIASFYNTEAVIMAVGITTAVCFTVVIF  245
+
+Query  115  GAKMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQ  174
+              + + D +     LLV+V+ L +  I  IF   N    + Y+ +G ++F+ ++  D   
+Sbjct  246  SMQTRYDFTSCMGVLLVSVVVLFIFAILCIFI-RNRILEIVYASLGALLFTCFLAVDTQL  304
+
+Query  175  IKHR----HITEDLIPVMALSLYLDFINLFINLLRFFG  208
+            +          E+ +   AL+LY D IN+F+ +L   G
+Sbjct  305  LLGNKQLSLSPEEYVF-AALNLYTDIINIFLYILTIIG  341
+
+
+> sp|Q11080|TMBI4_CAEEL Transmembrane BAX inhibitor motif-containing 
+protein 4 OS=Caenorhabditis elegans OX=6239 GN=tmbi-4 
+PE=3 SV=2
+Length=276
+
+ Score = 116 bits (292),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 50/215 (23%), Positives = 95/215 (44%), Gaps = 15/215 (7%)
+
+Query  6    HESKQSIMQRILTVFVFTLLIATVGLFIGQFVP---------VALMLPLSILEVAMIILA  56
+               + + ++++L +  F LL           +P           ++ P  +  +A+II  
+Sbjct  67   RMIRIAFLRKVLGIVGFQLLFTIGICAAIYNIPNSNQLLQKHAWIVFPNLLGSIALIIAL  126
+
+Query  57   FWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGA  116
+                R   + Y  +  F  V  +T+  +V+ + +     VVLEA   T ++ A L     
+Sbjct  127  HVYAREVPLNYVLLAAFTAVQAVTMGCVVTLFEA----KVVLEAAVITGLVVASLFAYTL  182
+
+Query  117  KMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK  176
+            + K+D S  ++ +   +  L   GIF +F  ++ A     +V G  +F + ++ DL+ I 
+Sbjct  183  QNKRDFSVGYASMGSLLCVLLWAGIFQMFF-MSPAVNFVINVFGAGLFCVLLVIDLDMIM  241
+
+Query  177  HRHITEDLIPVMALSLYLDFINLFINLLRFFGILS  211
+            +R   ED      +SLY+D +NLFI +L+     +
+Sbjct  242  YRFSPEDY-ICACVSLYMDILNLFIRILQIVAEAN  275
+
+
+> sp|O88407|LFG2_RAT Protein lifeguard 2 OS=Rattus norvegicus OX=10116 
+GN=Faim2 PE=2 SV=1
+Length=316
+
+ Score = 115 bits (288),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 39/225 (17%), Positives = 79/225 (35%), Gaps = 28/225 (12%)
+
+Query  6    HESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFW-------  58
+             + +Q  ++++ T+ +  LL+      +  F    ++             ++        
+Sbjct  96   QKVRQLFIRKVYTILLVQLLVTL--AVVALFTFCDVVKDYVQANPGWYWASYAVFFATYL  153
+
+Query  59   -------MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVL  111
+                    RR        +  F      ++  +    +S      VL   G T ++   +
+Sbjct  154  TLACCSGPRRHFPWNLILLTIFTL----SMAYLTGMLSSYYNTTSVLLCLGITALVCLSV  209
+
+Query  112  GTIGAKMKKDLSFLWSFLLVAVLALAVVGI---FNIFSPLNSAAMMAYSVIGTIVFSLYI  168
+                 + K D +     L V ++ L   G+     +           Y+V+G  VF+L++
+Sbjct  210  TIFSFQTKFDFTSCHGVLFVLLMTLFFSGLLLAILLPFQYVPWLHAVYAVLGAGVFTLFL  269
+
+Query  169  LYDLNQIK----HRHITEDLIPVMALSLYLDFINLFINLLRFFGI  209
+             +D   +     H    E+ I   AL++YLD I +F   L+ FG 
+Sbjct  270  AFDTQLLMGNRRHSLSPEEYIF-GALNIYLDIIYIFTFFLQLFGT  313
+
+
+> sp|Q49P94|GAAP_VACCL Golgi anti-apoptotic protein OS=Vaccinia 
+virus (strain Lister) OX=10252 GN=L6 PE=1 SV=1
+Length=237
+
+ Score = 113 bits (282),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 45/201 (22%), Positives = 85/201 (42%), Gaps = 15/201 (7%)
+
+Query  7    ESKQSIMQRILTVFVFTLLIATVGLFIGQFV---------PVALMLPLSILEVAMIILAF  57
+              + + ++++  +     L+ T    +  +             L+L      + +I    
+Sbjct  28   HIRMAFLRKVYGILCLQFLLTTATTAVFLYFDCMRTFIQGSPVLILASMFGSIGLIFALT  87
+
+Query  58   WMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAK  117
+              R +  +    +  F     +TL  +V+ Y      +VV++AF  T   F  L T   +
+Sbjct  88   LHRHKHPLNLYLLCGFTLSESLTLASVVTFY----DVHVVMQAFMLTTAAFLALTTYTLQ  143
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             K+D S L + L  A+  L + G+  IF   N    +  S  G +VF  +I+YD + + H
+Sbjct  144  SKRDFSKLGAGLFAALWILILSGLLGIFVQ-NETVKLVLSAFGALVFCGFIIYDTHSLIH  202
+
+Query  178  RHITEDLIPVMALSLYLDFIN  198
+            +   E+ +   +++LYLD IN
+Sbjct  203  KLSPEEYVL-ASINLYLDIIN  222
+
+
+> sp|Q8K097|LFG2_MOUSE Protein lifeguard 2 OS=Mus musculus OX=10090 
+GN=Faim2 PE=2 SV=1
+Length=317
+
+ Score = 113 bits (284),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 37/225 (16%), Positives = 78/225 (35%), Gaps = 28/225 (12%)
+
+Query  6    HESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFW-------  58
+             + ++  ++++ T+ +  LL+      +  F    ++             ++        
+Sbjct  97   QKVRRLFIRKVYTILLVQLLVTL--AVVALFTFCDVVKDYVQANPGWYWASYAVFFATYL  154
+
+Query  59   -------MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVL  111
+                    RR        +  F      ++  +    +S      VL     T ++   +
+Sbjct  155  TLACCSGPRRHFPWNLILLTIFTL----SMAYLTGMLSSYYNTTSVLLCLVITALVCLSV  210
+
+Query  112  GTIGAKMKKDLSFLWSFLLVAVLALAVVGI---FNIFSPLNSAAMMAYSVIGTIVFSLYI  168
+                 + K D +     L V ++ L   G+     +           Y+V+G  VF+L++
+Sbjct  211  TIFSFQTKFDFTSCQGVLFVLLMTLFFSGLLLAVLLPFQYVPWLHAVYAVLGAGVFTLFL  270
+
+Query  169  LYDLNQIK----HRHITEDLIPVMALSLYLDFINLFINLLRFFGI  209
+             +D   +     H    E+ I   AL++YLD I +F   L+ FG 
+Sbjct  271  AFDTQLLMGNRRHSLSPEEYIF-GALNIYLDIIYIFTFFLQLFGT  314
+
+
+> sp|Q9BWQ8|LFG2_HUMAN Protein lifeguard 2 OS=Homo sapiens OX=9606 
+GN=FAIM2 PE=1 SV=1
+Length=316
+
+ Score = 113 bits (283),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 37/225 (16%), Positives = 76/225 (34%), Gaps = 28/225 (12%)
+
+Query  6    HESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFW-------  58
+             + ++  ++++ T+ +  LL+      +  F     +             ++        
+Sbjct  96   QKVRRVFVRKVYTILLIQLLVTL--AVVALFTFCDPVKDYVQANPGWYWASYAVFFATYL  153
+
+Query  59   -------MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVL  111
+                    RR        +  F      ++  +    +S      VL   G T ++   +
+Sbjct  154  TLACCSGPRRHFPWNLILLTVFTL----SMAYLTGMLSSYYNTTSVLLCLGITALVCLSV  209
+
+Query  112  GTIGAKMKKDLSFLWSFLLVAVLALAVVGI---FNIFSPLNSAAMMAYSVIGTIVFSLYI  168
+                 + K D +     L V ++ L   G+     +           Y+ +G  VF+L++
+Sbjct  210  TVFSFQTKFDFTSCQGVLFVLLMTLFFSGLILAILLPFQYVPWLHAVYAALGAGVFTLFL  269
+
+Query  169  LYDLNQIK----HRHITEDLIPVMALSLYLDFINLFINLLRFFGI  209
+              D   +     H    E+ I   AL++YLD I +F   L+ FG 
+Sbjct  270  ALDTQLLMGNRRHSLSPEEYIF-GALNIYLDIIYIFTFFLQLFGT  313
+
+
+> sp|Q9ZQX7|LFG3_ARATH Protein LIFEGUARD 3 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG3 PE=2 SV=1
+Length=248
+
+ Score = 111 bits (279),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 51/216 (24%), Positives = 90/216 (42%), Gaps = 20/216 (9%)
+
+Query  7    ESKQSIMQRILTVFVFTLLIATVGLFIGQFVP------------VALMLPLSILEVAMII  54
+            E +   ++++ ++  F LL           V             +AL + + I  + ++ 
+Sbjct  33   ELRWGFIRKVYSIIAFQLLATVAVAATVVTVRPIALFFATTGLGLALYIVIIITPLIVLC  92
+
+Query  55   LAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTI  114
+              ++  ++  V Y  +  F       L  +V    +     V+LE+   T V+   L   
+Sbjct  93   PLYYYHQKHPVNYLLLGIFTL----ALAFVVGLTCAFTNGKVILESVILTSVVVLSLTLY  148
+
+Query  115  GA---KMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYD  171
+                 +   D +FL  FL  A+  L    +  I  PL   ++M Y  + +I+F  YI+YD
+Sbjct  149  TFWAARKGYDFNFLGPFLFGALTVLIFFALIQILFPLGRVSVMIYGCLVSIIFCGYIVYD  208
+
+Query  172  LNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFF  207
+             + +  RH  ++     A+SLYLD INLF+ LL   
+Sbjct  209  TDNLIKRHTYDEY-IWAAVSLYLDIINLFLYLLTVL  243
+
+
+> sp|Q5R4I4|LFG2_PONAB Protein lifeguard 2 OS=Pongo abelii OX=9601 
+GN=FAIM2 PE=2 SV=1
+Length=316
+
+ Score = 112 bits (280),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 37/225 (16%), Positives = 75/225 (33%), Gaps = 28/225 (12%)
+
+Query  6    HESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFW-------  58
+             + ++  ++++ T+ +  LL+      +  F     +             ++        
+Sbjct  96   QKVRRVFVRKVYTILLIQLLVTL--AVVALFTFCDPVKDYVQANPGWYWASYAVFFATYL  153
+
+Query  59   -------MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVL  111
+                    RR        +  F      ++  +    +S      VL   G T ++   +
+Sbjct  154  TLACCSGPRRHFPWNLILLTVFTL----SMAYLTGMLSSYYNTTSVLLCLGITALVCLSV  209
+
+Query  112  GTIGAKMKKDLSFLWSFLLVAVLALAVVGI---FNIFSPLNSAAMMAYSVIGTIVFSLYI  168
+                 + K D +     L V  + L   G+     +           Y+ +G  VF+L++
+Sbjct  210  TVFSFQTKFDFTSCQGVLFVLPMTLFFSGLILAILLPFQYVPWLHAVYAALGAGVFTLFL  269
+
+Query  169  LYDLNQIK----HRHITEDLIPVMALSLYLDFINLFINLLRFFGI  209
+              D   +     H    E+ I   AL++YLD I +F   L+ FG 
+Sbjct  270  ALDTQLLMGNRRHSLSPEEYIF-GALNIYLDIIYIFTFFLQLFGT  313
+
+
+> sp|Q1LZ71|LFG2_BOVIN Protein lifeguard 2 OS=Bos taurus OX=9913 
+GN=FAIM2 PE=2 SV=1
+Length=316
+
+ Score = 112 bits (280),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 37/225 (16%), Positives = 77/225 (34%), Gaps = 28/225 (12%)
+
+Query  6    HESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFW-------  58
+             + ++  ++++ T+ +  LL+      +  F     +             ++        
+Sbjct  96   QKVRRVFIRKVYTILLIQLLVTLGV--VALFTFCDPVKDYVQANPGWYWASYAVFFATYL  153
+
+Query  59   -------MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVL  111
+                    RR        +  F      ++  +    +S      VL     T ++   +
+Sbjct  154  TLACCSGPRRHFPWNLILLTIFTL----SMAYLTGMLSSYYNTTSVLLCLSITALVCLSV  209
+
+Query  112  GTIGAKMKKDLSFLWSFLLVAVLALAVVGI---FNIFSPLNSAAMMAYSVIGTIVFSLYI  168
+                 + K D +     L V ++ L   G+     +           Y+V+G  VF+L++
+Sbjct  210  TVFSFQTKFDFTSCQGVLFVLLMTLFFSGLILAILLPFQYVPWLHAVYAVLGAGVFTLFL  269
+
+Query  169  LYDLNQIK----HRHITEDLIPVMALSLYLDFINLFINLLRFFGI  209
+             +D   +     H    E+ I   AL++YLD I +F   L+ FG 
+Sbjct  270  AFDTQLLMGSRRHSLSPEEYIF-GALNIYLDIIYIFTFFLQLFGT  313
+
+
+> sp|Q9VSH3|BI1_DROME Bax inhibitor 1 OS=Drosophila melanogaster 
+OX=7227 GN=BI-1 PE=2 SV=1
+Length=245
+
+ Score = 110 bits (276),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 39/208 (19%), Positives = 82/208 (39%), Gaps = 7/208 (3%)
+
+Query  12   IMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMR---RRKAVGYA  68
+             + ++  V   T     +G  +     + L +  ++  + +++   + +   +       
+Sbjct  30   HLSKVYMVLGSTAAATAMGAMLQMRDFLDLGVLAAVATLVLVLGLHFYKDDGKNYYTRLG  89
+
+Query  69   FVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIG-AKMKKDLSFLWS  127
+             +Y F F SG TL P++ +  SI    ++L A   TFV F  L        +    +L  
+Sbjct  90   MLYAFGFCSGQTLGPLLGYICSI-NPAIILSALTGTFVTFISLSLSALLAEQGKYLYLGG  148
+
+Query  128  FLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHR-HITEDLIP  186
+             L+  +  +A++ +FN+    +    +    +G  V + +I+YD   I  +       + 
+Sbjct  149  MLVSVINTMALLSLFNMVFK-SYFVQVTQLYVGVFVMAAFIVYDTQNIVEKCRNGNRDVV  207
+
+Query  187  VMALSLYLDFINLFINLLRFFGILSSDD  214
+              AL L+ D +++F  LL          
+Sbjct  208  QHALDLFFDVLSMFRRLLIILTQKEERK  235
+
+
+> sp|Q9M1V9|LFG2_ARATH Protein LIFEGUARD 2 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG2 PE=2 SV=1
+Length=239
+
+ Score = 110 bits (276),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 51/213 (24%), Positives = 88/213 (41%), Gaps = 20/213 (9%)
+
+Query  1    MQATVHESKQSIMQRILTVFVFTLLIATVGL------------FIGQFVPVALMLPLSIL  48
+            M +   E + S ++++ ++    LL+                 F       AL + L + 
+Sbjct  18   MMSESPELRWSFIRKVYSIISIQLLVTIAVAATVVKVHSISVFFTTTTAGFALYILLILT  77
+
+Query  49   EVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIF  108
+             + ++   ++  ++  V Y  +  F     + L   V    +     V+LE+   T V+ 
+Sbjct  78   PLIVMCPLYYYHQKHPVNYLLLGIFT----VALAFAVGLTCAFTSGKVILESVILTAVVV  133
+
+Query  109  AVLGTIGA---KMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFS  165
+              L        K   D +FL  FL  AV+ L V     I  PL   ++M Y  + +I+F 
+Sbjct  134  ISLTLYTFWAAKRGHDFNFLGPFLFGAVIVLMVFSFIQILFPLGKISVMIYGCLASIIFC  193
+
+Query  166  LYILYDLNQIKHRHITEDLIPVMALSLYLDFIN  198
+             YI+YD + +  RH  ++     A+SLYLD IN
+Sbjct  194  GYIVYDTDNLIKRHSYDEY-IWAAVSLYLDVIN  225
+
+
+> sp|Q9KSA1|Y1358_VIBCH Uncharacterized membrane protein VC_1358 
+OS=Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor 
+Inaba N16961) OX=243277 GN=VC_1358 PE=3 SV=1
+Length=223
+
+ Score = 107 bits (267),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 56/209 (27%), Positives = 107/209 (51%), Gaps = 6/209 (3%)
+
+Query  9    KQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYA  68
+               +++    +   TL+ + +       + ++ ++ L +   A+ IL F M +       
+Sbjct  18   TNKVLKNTYFLLSMTLVTSAIAAMATMAIGISPIVALVMQLAAIGILFFVMPKAINSSSG  77
+
+Query  69   FVYTFAF--VSGITLFPIVSHYASIAGAYVVL-EAFGSTFVIFAVLGTIGAKMKKDLSFL  125
+             V+TF F  + G  L P+++ YA++    +V+ +A G T ++F  L       KKD SF+
+Sbjct  78   LVWTFVFTGLMGGALGPMLNFYAAMPNGPIVIAQALGLTGMVFLGLSAYTITSKKDFSFM  137
+
+Query  126  WSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLI  185
+             +FL   ++ + V  + NIF   ++ A +A S +  +VFS +IL+D ++I     T    
+Sbjct  138  RNFLFAGLIIVIVAALINIFVG-STVAHLAISSVSALVFSGFILFDTSRIVRGEETN--Y  194
+
+Query  186  PVMALSLYLDFINLFINLLRFFGILSSDD  214
+                +S+YL+ +NLF +LL   GI++++D
+Sbjct  195  ISATISMYLNILNLFTSLLSILGIMNNND  223
+
+
+> sp|P0AAC6|YCCA_ECOLI Modulator of FtsH protease YccA OS=Escherichia 
+coli (strain K12) OX=83333 GN=yccA PE=1 SV=1
+Length=219
+
+ Score = 106 bits (265),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 51/208 (25%), Positives = 87/208 (42%), Gaps = 6/208 (3%)
+
+Query  8    SKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGY  67
+            S   +++    +   TL  + +       + +     L +  V M  L F   +      
+Sbjct  16   STHKVLRNTYFLLSLTLAFSAITATASTVLMLPSP-GLILTLVGMYGLMFLTYKTANKPT  74
+
+Query  68   AFVYTFAFVS--GITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFL  125
+              +  FAF    G  L PI++ Y S     V+  A G T ++F          +KD+SFL
+Sbjct  75   GIISAFAFTGFLGYILGPILNTYLSAGMGDVIAMALGGTALVFFCCSAYVLTTRKDMSFL  134
+
+Query  126  WSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLI  185
+               L+  ++ + +  + NIF  L  A  +A S +  ++ S  IL++ + I H   T    
+Sbjct  135  GGMLMAGIVVVLIGMVANIFLQL-PALHLAISAVFILISSGAILFETSNIIHGGETN--Y  191
+
+Query  186  PVMALSLYLDFINLFINLLRFFGILSSD  213
+                +SLY+   N+F++LL   G  S D
+Sbjct  192  IRATVSLYVSLYNIFVSLLSILGFASRD  219
+
+
+> sp|P0AAC7|YCCA_ECOL6 Inner membrane protein YccA OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=yccA PE=3 SV=1
+Length=219
+
+ Score = 106 bits (265),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 51/208 (25%), Positives = 87/208 (42%), Gaps = 6/208 (3%)
+
+Query  8    SKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGY  67
+            S   +++    +   TL  + +       + +     L +  V M  L F   +      
+Sbjct  16   STHKVLRNTYFLLSLTLAFSAITATASTVLMLPSP-GLILTLVGMYGLMFLTYKTANKPT  74
+
+Query  68   AFVYTFAFVS--GITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFL  125
+              +  FAF    G  L PI++ Y S     V+  A G T ++F          +KD+SFL
+Sbjct  75   GIISAFAFTGFLGYILGPILNTYLSAGMGDVIAMALGGTALVFFCCSAYVLTTRKDMSFL  134
+
+Query  126  WSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLI  185
+               L+  ++ + +  + NIF  L  A  +A S +  ++ S  IL++ + I H   T    
+Sbjct  135  GGMLMAGIVVVLIGMVANIFLQL-PALHLAISAVFILISSGAILFETSNIIHGGETN--Y  191
+
+Query  186  PVMALSLYLDFINLFINLLRFFGILSSD  213
+                +SLY+   N+F++LL   G  S D
+Sbjct  192  IRATVSLYVSLYNIFVSLLSILGFASRD  219
+
+
+> sp|Q03268|Y2604_PSEAE Uncharacterized protein PA2604 OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=PA2604 
+PE=3 SV=1
+Length=222
+
+ Score = 105 bits (263),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 52/206 (25%), Positives = 89/206 (43%), Gaps = 7/206 (3%)
+
+Query  12   IMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVY  71
+            +++    +   TL  + +  ++ Q + +       +L +    L F   + +   +  V 
+Sbjct  21   VLRNTYGLLALTLAFSGLVAYVSQQMRLPYPNVFVVL-IGFYGLFFLTVKLRNSAWGLVS  79
+
+Query  72   TFAFV--SGITLFPIVSHYASIAGAYVVLE-AFGSTFVIFAVLGTIGAKMKKDLSFLWSF  128
+            TFA     G TL PI++ Y  +     V+  AF  T ++F  L       +KD+SFL  F
+Sbjct  80   TFALTGFMGYTLGPILNMYLGLPNGGSVITSAFAMTALVFFGLSAYVLTTRKDMSFLSGF  139
+
+Query  129  LLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVM  188
+            +      L    + ++F  ++    +A S    +  S  ILY  + I H         + 
+Sbjct  140  ITAGFFVLLGAVLVSLFFQIS-GLQLAISAGFVLFSSAMILYQTSAIIHGGERN--YIMA  196
+
+Query  189  ALSLYLDFINLFINLLRFFGILSSDD  214
+             +SLY+   NLFI+LL+ FGI   DD
+Sbjct  197  TISLYVSIYNLFISLLQIFGIAGGDD  222
+
+
+> sp|Q9CNM5|Y402_PASMU Uncharacterized protein PM0402 OS=Pasteurella 
+multocida (strain Pm70) OX=272843 GN=PM0402 PE=3 SV=1
+Length=220
+
+ Score = 105 bits (261),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 52/208 (25%), Positives = 89/208 (43%), Gaps = 6/208 (3%)
+
+Query  9    KQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYA  68
+               +++    +   TL  + V  +I   + +     L ++      L F   +    G  
+Sbjct  17   THKVLRNTYFLLGLTLAFSAVVAYISMSLNLP-RPGLILMLAGFYGLLFLTYKLSNSGLG  75
+
+Query  69   FVYTFAFVS--GITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLW  126
+             + TFAF    G TL PI++ Y S     +V+ A   T  +F          KKD+SFL 
+Sbjct  76   ILSTFAFTGFLGYTLGPILNVYVSHGAGDIVVLALAGTAAVFFACSAYVLTTKKDMSFLS  135
+
+Query  127  SFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIP  186
+              +    + L +  + + F   +    +A S +  +  +L ILY+ + I H   T     
+Sbjct  136  GTIFALFIVLLLGMVASFFFQ-SPMLYIAISGLFVVFSTLGILYETSNIIHGGETN--YI  192
+
+Query  187  VMALSLYLDFINLFINLLRFFGILSSDD  214
+               +S+++   NLFI+LL  F ILS++D
+Sbjct  193  RATVSIFVSLYNLFISLLNIFSILSNED  220
+
+
+> sp|F4JIE8|LFG1_ARATH Protein LIFEGUARD 1 OS=Arabidopsis thaliana 
+OX=3702 GN=LFG1 PE=2 SV=1
+Length=235
+
+ Score = 104 bits (260),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 52/219 (24%), Positives = 95/219 (43%), Gaps = 20/219 (9%)
+
+Query  6    HESKQSIMQRILTVFVFTLLIATVGLFIGQFVP------------VALMLPLSILEVAMI  53
+             E + + ++++ ++    LL+      +  FV             +A+   + +L + ++
+Sbjct  22   SELRWAFIRKLYSILSLQLLVTVGVSAVVYFVRPIPEFITETHRGLAVFFVILLLPLLLL  81
+
+Query  54   ILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGT  113
+                   ++  +    +  F      ++   V    S++   +VLEA   T V+   L  
+Sbjct  82   WPLLAFEKKHPINCIVLSIFTL----SISFSVGICCSLSQGRIVLEAAILTAVMVFGLTI  137
+
+Query  114  IGA---KMKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILY  170
+                  K   D SFL  FL  A+L + V  +  IF PL   + M +S I +IVF  YI++
+Sbjct  138  YTFWAVKRGHDFSFLGPFLFGALLIILVFTLLQIFHPLGKLSSMIFSGIASIVFCGYIIF  197
+
+Query  171  DLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFFGI  209
+            D NQ+  +   ++     A+ LYLD +NLF++LL     
+Sbjct  198  DTNQLIKKLNYDEY-ITAAIRLYLDVMNLFLSLLGIISN  235
+
+
+> sp|Q9MBD8|BI1_ORYSJ Bax inhibitor 1 OS=Oryza sativa subsp. japonica 
+OX=39947 GN=BI1 PE=2 SV=1
+Length=249
+
+ Score = 104 bits (260),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 34/206 (17%), Positives = 81/206 (39%), Gaps = 3/206 (1%)
+
+Query  4    TVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRK  63
+             +  + QS ++ +       L  + VG ++   + +  ML +     ++  L       +
+Sbjct  28   QISPAVQSHLKLVYLTLCVALAASAVGAYLHVALNIGGMLTMLGCVGSIAWLFSVPVFEE  87
+
+Query  64   AVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGA-KMKKDL  122
+               +  +   A + G ++ P++   A    + +++ AF  T + F           +++ 
+Sbjct  88   RKRFGILLAAALLEGASVGPLIKL-AVDFDSSILVTAFVGTAIAFGCFTCAAIVAKRREY  146
+
+Query  123  SFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHR-HIT  181
+             +L   L   +  L  +         ++ + M     G ++F  Y++YD  +I  R H  
+Sbjct  147  LYLGGLLSSGLSILLWLQFAASIFGHSTGSFMFEVYFGLLIFLGYMVYDTQEIIERAHHG  206
+
+Query  182  EDLIPVMALSLYLDFINLFINLLRFF  207
+            +      AL+L+ DF+ + + +L   
+Sbjct  207  DMDYIKHALTLFTDFVAVLVRILVIM  232
+
+
+> sp|O84826|Y819_CHLTR Uncharacterized protein CT_819 OS=Chlamydia 
+trachomatis (strain D/UW-3/Cx) OX=272561 GN=CT_819 PE=3 
+SV=1
+Length=238
+
+ Score = 103 bits (257),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 46/202 (23%), Positives = 83/202 (41%), Gaps = 12/202 (6%)
+
+Query  23   TLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLF  82
+            +L +   G +   F P+  +   + L V+  I A   +            ++ + G+   
+Sbjct  37   SLGLYATGAYRALF-PMWWIWCFATLGVSFYIQAQIQKLSVPAVMGLFLAYSILEGMFFG  95
+
+Query  83   PIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIF  142
+             +V  YA+  G  VV  AFGS  +IF +    GA  K DL+ +   L++A++ L V+ + 
+Sbjct  96   TLVPVYAAQFGGGVVWAAFGSAGIIFGLSAAYGAFTKNDLTQIHRILMLALVGLVVISLA  155
+
+Query  143  NIF---SPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--------HRHITEDLIPVMALS  191
+             +            +    +G I+F    + D   I+        H  ++  L  +MAL 
+Sbjct  156  FLIVSLFTPMPLLYLLICYLGLIIFVGLTVVDAQSIRRVARSVGDHGDLSYKLSLIMALQ  215
+
+Query  192  LYLDFINLFINLLRFFGILSSD  213
+            +Y + I +F  LL+ F      
+Sbjct  216  MYCNVIMIFWYLLQIFASSDKR  237
+
+
+> sp|P48558|BXI1_YEAST Bax inhibitor 1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=BXI1 PE=1 SV=1
+Length=297
+
+ Score = 103 bits (258),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 36/256 (14%), Positives = 79/256 (31%), Gaps = 55/256 (21%)
+
+Query  9    KQSIMQRILTVFVFTLLIATVGLFIG---------QFVPVALMLPLSILEVAMIILAFWM  59
+            +Q  M ++ ++    LL +    +               +AL     ++ +   I     
+Sbjct  47   RQRFMHKVYSLLSCQLLASLSFCYWASVSTSLQNFIMSHIALFYICMVVSLVSCIWLAVS  106
+
+Query  60   RR---------------------------------RKAVGYAFVYTFAFVSGITLFPIVS  86
+             R                                         +  F       L  +  
+Sbjct  107  PRPEDYEASVPEPLLTGSSEEPAQEQRRLPWYVLSSYKQKLTLLSIFTLSEAYCLSLVTL  166
+
+Query  87   HYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMK-----KDLSFLWSFLLVAVLALAVVGI  141
+             Y        VL A   T ++   +       +        + ++ +L   +  +  +G+
+Sbjct  167  AY----DKDTVLSALLITTIVVVGVSLTALSERFENVLNSATSIYYWLNWGLWIMIGMGL  222
+
+Query  142  FNIFSPL---NSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFIN  198
+              +       +S   + Y  +G I+F+ Y+  D   I  +   ++ +   A+ LYLD +N
+Sbjct  223  TALLFGWNTHSSKFNLLYGWLGAILFTAYLFIDTQLIFRKVYPDEEVRC-AMMLYLDIVN  281
+
+Query  199  LFINLLRFFGILSSDD  214
+            LF+++LR     + D+
+Sbjct  282  LFLSILRILANSNDDN  297
+
+
+> sp|Q9PLA1|Y206_CHLMU Uncharacterized protein TC_0206 OS=Chlamydia 
+muridarum (strain MoPn / Nigg) OX=243161 GN=TC_0206 PE=3 
+SV=1
+Length=238
+
+ Score = 101 bits (252),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 45/202 (22%), Positives = 82/202 (41%), Gaps = 12/202 (6%)
+
+Query  23   TLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLF  82
+            +L +   G +   F  +  +   + L V+  I A   +            ++ + G+   
+Sbjct  37   SLGLYATGAYRTLFS-LWWVWCFATLGVSFYIQAQIQKLSVPAVMGLFLAYSVLEGMFFG  95
+
+Query  83   PIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIF  142
+             +V  YA+  G  +V  AFGS  VIF +    GA  K DL+ +   L++A++ L V+ + 
+Sbjct  96   TMVPVYAAQFGGGIVWAAFGSAAVIFGLSAAYGAFTKSDLTQIHRILMLALIGLMVISLG  155
+
+Query  143  NI---FSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--------HRHITEDLIPVMALS  191
+             +            +    +G I+F    + D   I+        H  ++  L  +MAL 
+Sbjct  156  FLVVSLFTPMPLMYLLICYLGLIIFVGLTVVDAQSIRRVARSVGDHGDLSYKLSLIMALQ  215
+
+Query  192  LYLDFINLFINLLRFFGILSSD  213
+            +Y + I +F  LL+ F      
+Sbjct  216  MYCNVIMIFWYLLQIFASSDKR  237
+
+
+> sp|Q54K40|BI1_DICDI Bax inhibitor 1 homolog OS=Dictyostelium 
+discoideum OX=44689 GN=DDB_G0287617 PE=3 SV=1
+Length=254
+
+ Score = 98.9 bits (245),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 43/214 (20%), Positives = 84/214 (39%), Gaps = 9/214 (4%)
+
+Query  3    ATVHESKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRR  62
+              + +S +  + ++       +L ATVG+    F+     L   +L +   IL     R 
+Sbjct  30   NNLSQSTKQTLTKVYCALAIGILTATVGVLFSMFIYRPGFLMTLLLVIGSAILFATTPRT  89
+
+Query  63   KA-----VGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAK  117
+            +        +       FV+G++   ++  Y  I  + +VL AF +T  IF         
+Sbjct  90   QDYKTQVKRFTLFNLVTFVTGMSSSGLIELYMDI-NSSIVLNAFMATCGIFISFTLFSLL  148
+
+Query  118  M-KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK  176
+              K+   F+ S L    + + V+ +  +F   +      + +       L+I++D   + 
+Sbjct  149  TNKRLYIFIGSSLASLSIGIFVLALTRLFGGYSEPLDQLFILAILASSVLFIIFDTQIMV  208
+
+Query  177  HRHI--TEDLIPVMALSLYLDFINLFINLLRFFG  208
+            HR     E  +   A  L+ DF++LF  +L+   
+Sbjct  209  HRIENLGEKDVLFHAFILFYDFVDLFRVILKILA  242
+
+
+> sp|P44477|Y044_HAEIN Uncharacterized protein HI_0044 OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=HI_0044 PE=3 SV=1
+Length=220
+
+ Score = 97.7 bits (242),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 41/193 (21%), Positives = 80/193 (41%), Gaps = 6/193 (3%)
+
+Query  8    SKQSIMQRILTVFVFTLLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGY  67
+            S   +++    +   T+  + V  FI   + +     + +L V    L F   +      
+Sbjct  16   STHKVLRNTYFLLGLTMAFSAVVAFISMSLNLPYP-NIIVLLVGFYGLLFLTNKLADRPA  74
+
+Query  68   AFVYTFAFV--SGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFL  125
+              +  FAF    G T+ PI++ Y +     +++ AF  T ++F          KKD+SFL
+Sbjct  75   GILAAFAFTGFMGYTIGPILNMYVARGMEDLIMLAFAGTAIVFFACSAYVLTTKKDMSFL  134
+
+Query  126  WSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITEDLI  185
+             S +    + L +  + + F  +  A  +A S +  +  ++ ILY+ + I H   T    
+Sbjct  135  SSAMFALFIVLLLGMVASFFFQI-PALSVAISALFVVFSTMTILYETSNIIHGGETN--Y  191
+
+Query  186  PVMALSLYLDFIN  198
+                +++Y+   N
+Sbjct  192  IRATVNIYVSIYN  204
+
+
+> sp|Q9A2A3|Y3663_CAUCR Uncharacterized protein CC_3663 OS=Caulobacter 
+crescentus (strain ATCC 19089 / CB15) OX=190650 GN=CC_3663 
+PE=3 SV=2
+Length=250
+
+ Score = 96.9 bits (240),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 56/193 (29%), Positives = 85/193 (44%), Gaps = 13/193 (7%)
+
+Query  24   LLIATVGLFIGQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFP  83
+            LL    G  +    P+ +++  + L + +I        +     A  +T   + G +L  
+Sbjct  59   LLFVVQGGRLAGVTPLYMVVAFAPLVLMLIAGFAMRNPKPETAGALYWTIVSLIGASLGS  118
+
+Query  84   IVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLALAVVGIFN  143
+            ++  Y        V   F  T   F  L   G   KKDL+   SFL++ V+ L V  I +
+Sbjct  119  VMLRYT----GESVAATFFVTATAFGGLSLFGYTTKKDLTGFGSFLMMGVIGLIVASIVS  174
+
+Query  144  IFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--------HRHITEDLIPVMALSLYLD  195
+            IF   + A + A +V+G ++FS  I YD  ++K         R          ALSLY++
+Sbjct  175  IFLK-SPALLFAINVLGVLIFSGLIAYDTQRLKMTYYEMGGDRASMAVATNFGALSLYIN  233
+
+Query  196  FINLFINLLRFFG  208
+            FINLF  LL FFG
+Sbjct  234  FINLFQFLLSFFG  246
+
+
+> sp|O51489|Y539_BORBU Uncharacterized protein BB_0539 OS=Borrelia 
+burgdorferi (strain ATCC 35210 / B31 / CIP 102532 / DSM 
+4680) OX=224326 GN=BB_0539 PE=3 SV=1
+Length=232
+
+ Score = 96.6 bits (239),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 50/224 (22%), Positives = 89/224 (40%), Gaps = 24/224 (11%)
+
+Query  9    KQSIMQRILTVFVFTLLIATVGLF-----------IGQFVPVALMLPLSILEVAMIILAF  57
+            K   + ++  +    LLI+ V  +           I       + + L    +   I   
+Sbjct  14   KNKFLAKVFGLMSIGLLISAVFAYATSENQTIKAIIFSNSMSFMAMILIQFGLVYAISGA  73
+
+Query  58   WMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAK  117
+              +       A    ++ ++G+TL  I   Y        ++  FG T   F  +   G  
+Sbjct  74   LNKISSNTATALFLLYSALTGVTLSSIFMIYTQ----GSIVFTFGITAGTFLGMSVYGYT  129
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+               DL+ + S+L++ +  + +  + N+F   +S      S++G ++F+    YD+  I  
+Sbjct  130  TTTDLTKMGSYLIMGLWGIIIASLVNMFF-RSSGLNFLISILGVVIFTGLTAYDVQNISK  188
+
+Query  178  --------RHITEDLIPVMALSLYLDFINLFINLLRFFGILSSD  213
+                      I   +  V +L LYLDFINLF+ LLRF G   +D
+Sbjct  189  MDKMLQDDTEIKNRMAVVASLKLYLDFINLFLYLLRFLGQRRND  232
+
+
+> sp|P0AAC4|YBHL_ECOLI Inner membrane protein YbhL OS=Escherichia 
+coli (strain K12) OX=83333 GN=ybhL PE=1 SV=1
+Length=234
+
+ Score = 95.4 bits (236),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 53/222 (24%), Positives = 93/222 (42%), Gaps = 25/222 (11%)
+
+Query  10   QSIMQRILTVFVFTLLIATVGLFIG---------QFVPVALMLPLSILEVAMIILA--FW  58
+            Q+ M ++       LL+     +            F     ++ L I ++A++I+     
+Sbjct  18   QTYMAQVYGWMTVGLLLTAFVAWYAANSAAVMELLFTNRVFLIGLIIAQLALVIVLSAMI  77
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+             +    V       ++ ++G+TL  I   Y + +    +   F  T  +F  +   G   
+Sbjct  78   QKLSAGVTTMLFMLYSALTGLTLSSIFIVYTAAS----IASTFVVTAGMFGAMSLYGYTT  133
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHR  178
+            K+DLS   + L +A++ + +  + N +   + A M A + IG IVF     YD  ++K+ 
+Sbjct  134  KRDLSGFGNMLFMALIGIVLASLVNFWLK-SEALMWAVTYIGVIVFVGLTAYDTQKLKNM  192
+
+Query  179  HIT---------EDLIPVMALSLYLDFINLFINLLRFFGILS  211
+                             + AL+LYLDFINLF+ LLR FG   
+Sbjct  193  GEQIDTRDTSNLRKYSILGALTLYLDFINLFLMLLRIFGNRR  234
+
+
+> sp|P0AAC5|YBHL_ECOL6 Inner membrane protein YbhL OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=ybhL PE=3 SV=1
+Length=234
+
+ Score = 95.4 bits (236),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 53/222 (24%), Positives = 93/222 (42%), Gaps = 25/222 (11%)
+
+Query  10   QSIMQRILTVFVFTLLIATVGLFIG---------QFVPVALMLPLSILEVAMIILA--FW  58
+            Q+ M ++       LL+     +            F     ++ L I ++A++I+     
+Sbjct  18   QTYMAQVYGWMTVGLLLTAFVAWYAANSAAVMELLFTNRVFLIGLIIAQLALVIVLSAMI  77
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+             +    V       ++ ++G+TL  I   Y + +    +   F  T  +F  +   G   
+Sbjct  78   QKLSAGVTTMLFMLYSALTGLTLSSIFIVYTAAS----IASTFVVTAGMFGAMSLYGYTT  133
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHR  178
+            K+DLS   + L +A++ + +  + N +   + A M A + IG IVF     YD  ++K+ 
+Sbjct  134  KRDLSGFGNMLFMALIGIVLASLVNFWLK-SEALMWAVTYIGVIVFVGLTAYDTQKLKNM  192
+
+Query  179  HIT---------EDLIPVMALSLYLDFINLFINLLRFFGILS  211
+                             + AL+LYLDFINLF+ LLR FG   
+Sbjct  193  GEQIDTRDTSNLRKYSILGALTLYLDFINLFLMLLRIFGNRR  234
+
+
+> sp|P0DA11|Y260_STRPQ Uncharacterized membrane protein SPs1599 
+OS=Streptococcus pyogenes serotype M3 (strain SSI-1) OX=193567 
+GN=SPs1599 PE=3 SV=1
+Length=229
+
+ Score = 94.6 bits (234),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 55/216 (25%), Positives = 92/216 (43%), Gaps = 23/216 (11%)
+
+Query  11   SIMQRILTVFVFTLLIATVGLFIGQF------------VPVALMLPLSILEVAMIILAFW  58
+                +I ++    + ++    ++  +             P+       I  + + + +  
+Sbjct  16   QFFAKIYSLVGMGVGLSAFVSYLMLYPFRENLISILVNQPMIYYGAAIIELILVFVASGA  75
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+             R+           +A ++G TL  I+  YA       V +AF S+  +F  +  IG K 
+Sbjct  76   ARKNTPAALPIFLIYAALNGFTLSFIIVAYAQTT----VFQAFLSSAAVFFAMSIIGVKT  131
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--  176
+            K+D+S L   +  A++ + V  + N+F           SVI  ++FS  I  D   IK  
+Sbjct  132  KRDMSGLRKAMFAALIGVVVASLINLFIGSG-MMSYVISVISVLIFSGLIASDNQMIKRV  190
+
+Query  177  ----HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                +  + +     MALSLYLDFINLFI+LLR FG
+Sbjct  191  YQATNGQVGDGWAVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|P0DA10|Y260_STRP3 Uncharacterized membrane protein SpyM3_0260 
+OS=Streptococcus pyogenes serotype M3 (strain ATCC BAA-595 
+/ MGAS315) OX=198466 GN=SpyM3_0260 PE=3 SV=1
+Length=229
+
+ Score = 94.6 bits (234),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 55/216 (25%), Positives = 92/216 (43%), Gaps = 23/216 (11%)
+
+Query  11   SIMQRILTVFVFTLLIATVGLFIGQF------------VPVALMLPLSILEVAMIILAFW  58
+                +I ++    + ++    ++  +             P+       I  + + + +  
+Sbjct  16   QFFAKIYSLVGMGVGLSAFVSYLMLYPFRENLISILVNQPMIYYGAAIIELILVFVASGA  75
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+             R+           +A ++G TL  I+  YA       V +AF S+  +F  +  IG K 
+Sbjct  76   ARKNTPAALPIFLIYAALNGFTLSFIIVAYAQTT----VFQAFLSSAAVFFAMSIIGVKT  131
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--  176
+            K+D+S L   +  A++ + V  + N+F           SVI  ++FS  I  D   IK  
+Sbjct  132  KRDMSGLRKAMFAALIGVVVASLINLFIGSG-MMSYVISVISVLIFSGLIASDNQMIKRV  190
+
+Query  177  ----HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                +  + +     MALSLYLDFINLFI+LLR FG
+Sbjct  191  YQATNGQVGDGWAVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|Q8P2D4|Y408_STRP8 Uncharacterized membrane protein spyM18_0408 
+OS=Streptococcus pyogenes serotype M18 (strain MGAS8232) 
+OX=186103 GN=spyM18_0408 PE=3 SV=1
+Length=229
+
+ Score = 94.2 bits (233),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 54/216 (25%), Positives = 92/216 (43%), Gaps = 23/216 (11%)
+
+Query  11   SIMQRILTVFVFTLLIATVGLFIGQF------------VPVALMLPLSILEVAMIILAFW  58
+                +I ++    + ++    ++  +             P+       I  + + + +  
+Sbjct  16   QFFAKIYSLVGMGVGLSAFVSYLMLYPFRENLISILVNQPMIYYGAAIIELILVFVASGA  75
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+             R+           ++ ++G TL  I+  YA       V +AF S+  +F  +  IG K 
+Sbjct  76   ARKNTPAALPIFLIYSALNGFTLSFIIVAYAQTT----VFQAFLSSAAVFFAMSIIGVKT  131
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--  176
+            K+D+S L   +  A++ + V  + N+F           SVI  ++FS  I  D   IK  
+Sbjct  132  KRDMSGLRKAMFAALIGVVVASLINLFIGSG-MMSYVISVISVLIFSGLIASDNQMIKRV  190
+
+Query  177  ----HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                +  + +     MALSLYLDFINLFI+LLR FG
+Sbjct  191  YQATNGQVGDGWAVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|Q5XDQ1|Y327_STRP6 Uncharacterized membrane protein M6_Spy0327 
+OS=Streptococcus pyogenes serotype M6 (strain ATCC BAA-946 
+/ MGAS10394) OX=286636 GN=M6_Spy0327 PE=3 SV=1
+Length=229
+
+ Score = 94.2 bits (233),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 54/216 (25%), Positives = 92/216 (43%), Gaps = 23/216 (11%)
+
+Query  11   SIMQRILTVFVFTLLIATVGLFIGQF------------VPVALMLPLSILEVAMIILAFW  58
+                +I ++    + ++    ++  +             P+       I  + + + +  
+Sbjct  16   QFFAKIYSLVGMGVGLSAFVSYLMLYPFRENLISILVNQPMIYYGAAIIELILVFVASGA  75
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+             R+           ++ ++G TL  I+  YA       V +AF S+  +F  +  IG K 
+Sbjct  76   ARKNTPAALPIFLIYSALNGFTLSFIIVAYAQTT----VFQAFLSSAAVFFAMSIIGVKT  131
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--  176
+            K+D+S L   +  A++ + V  + N+F           SVI  ++FS  I  D   IK  
+Sbjct  132  KRDMSGLRKAMFAALIGVVVASLINLFIGSG-MMSYVISVISVLIFSGLIASDNQMIKRV  190
+
+Query  177  ----HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                +  + +     MALSLYLDFINLFI+LLR FG
+Sbjct  191  YQATNGQVGDGWAVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|Q9H3K2|GHITM_HUMAN Growth hormone-inducible transmembrane 
+protein OS=Homo sapiens OX=9606 GN=GHITM PE=1 SV=2
+Length=345
+
+ Score = 95.4 bits (236),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 25/221 (11%), Positives = 74/221 (33%), Gaps = 19/221 (9%)
+
+Query  13   MQRILTVFVFTLLIATVGLF------IGQFVPVALMLPLSILEVAMIILAFWMRRRKAVG  66
+            +         ++ +  +         +     +        +  A ++ A  + R     
+Sbjct  124  IHSTYMYLAGSIGLTALSAIAISRTPVLMNFMMRGSWVTIGVTFAAMVGAGMLVRSIPYD  183
+
+Query  67   Y--AFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSF  124
+                  +    +    +  +V+    + G  ++  A+ +  ++  +         +    
+Sbjct  184  QSPGPKHLAWLLHSGVMGAVVAPLTILGGPLLIRAAWYTAGIVGGLSTVAMCAPSEKFLN  243
+
+Query  125  LWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVI----GTIVFSLYILYDLNQIKHRHI  180
+            + + L V +  + V  + ++F P  + A      +    G ++FS+++LYD  ++  R  
+Sbjct  244  MGAPLGVGLGLVFVSSLGSMFLPPTTVAGATLYSVAMYGGLVLFSMFLLYDTQKVIKRAE  303
+
+Query  181  -------TEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+                    +       LS+Y+D +N+F+ +        +  
+Sbjct  304  VSPMYGVQKYDPINSMLSIYMDTLNIFMRVATMLATGGNRK  344
+
+
+> sp|Q9A1B9|Y358_STRP1 Uncharacterized membrane protein SPy_0358/M5005_Spy0301 
+OS=Streptococcus pyogenes serotype M1 OX=301447 
+GN=SPy_0358 PE=3 SV=1
+Length=229
+
+ Score = 94.2 bits (233),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 54/216 (25%), Positives = 92/216 (43%), Gaps = 23/216 (11%)
+
+Query  11   SIMQRILTVFVFTLLIATVGLFIGQF------------VPVALMLPLSILEVAMIILAFW  58
+                +I ++    + ++    ++  +             P+       I  + + + +  
+Sbjct  16   QFFAKIYSLVGMGVGLSAFVSYLMLYPFRENLISILVNQPMIYYGAAIIELILVFVASSA  75
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+             R+           ++ ++G TL  I+  YA       V +AF S+  +F  +  IG K 
+Sbjct  76   ARKNTPAALPIFLIYSALNGFTLSFIIVAYAQTT----VFQAFLSSAAVFFAMSIIGVKT  131
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--  176
+            K+D+S L   +  A++ + V  + N+F           SVI  ++FS  I  D   IK  
+Sbjct  132  KRDMSGLRKAMFAALIGVVVASLINLFIGSG-MMSYVISVISVLIFSGLIASDNQMIKRV  190
+
+Query  177  ----HRHITEDLIPVMALSLYLDFINLFINLLRFFG  208
+                +  + +     MALSLYLDFINLFI+LLR FG
+Sbjct  191  YQATNGQVGDGWAVAMALSLYLDFINLFISLLRIFG  226
+
+
+> sp|Q9ZE15|Y147_RICPR Uncharacterized protein RP147 OS=Rickettsia 
+prowazekii (strain Madrid E) OX=272947 GN=RP147 PE=3 SV=1
+Length=236
+
+ Score = 93.9 bits (232),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 48/218 (22%), Positives = 88/218 (40%), Gaps = 22/218 (10%)
+
+Query  12   IMQRILTVFVFTLLIATVGLFIGQFVPVAL----------MLPLSILEVAMIILAFWMRR  61
+             M ++       LL+  V       V              ++  + L +A+     + R 
+Sbjct  24   YMLKVYNYMALALLLTGVAAITTISVEPIYHLMFQTGFGTIIMFAPLGIALYFFMGFGRM  83
+
+Query  62   RKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKD  121
+                     + +A ++G++L  +   Y        +   F     +F  +   G    +D
+Sbjct  84   NLQTAQILFWVYAGLTGMSLSYLALIYT----GTSIARTFFICSSVFGAMSLYGYSTSRD  139
+
+Query  122  LSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK-----  176
+            L+ + SF  + ++ L +  + N+F   +S    A S+IG +VF   I +D  +IK     
+Sbjct  140  LTSMGSFFAMGLIGLIIASLVNLFLKSSS-LSFATSLIGIVVFMGLIAWDTQKIKSMYYI  198
+
+Query  177  --HRHITEDLIPVMALSLYLDFINLFINLLRFFGILSS  212
+              +  + + L  + A +LYLDFINLF+ L+RF G    
+Sbjct  199  AGNDEVGQKLSIMAAFTLYLDFINLFLYLMRFLGNRRD  236
+
+
+> sp|Q91VC9|GHITM_MOUSE Growth hormone-inducible transmembrane 
+protein OS=Mus musculus OX=10090 GN=Ghitm PE=1 SV=1
+Length=346
+
+ Score = 90.4 bits (223),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 26/221 (12%), Positives = 72/221 (33%), Gaps = 19/221 (9%)
+
+Query  13   MQRILTVFVFTLLIATVGLFIGQFVP------VALMLPLSILEVAMIILAFWMRRR--KA  64
+            +         ++ +  +        P      +           A +I A  +       
+Sbjct  125  IHSTYMYLAGSIGLTALSALAVARTPALMNFMMTGSWVTIGATFAAMIGAGMLVHSISYE  184
+
+Query  65   VGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSF  124
+                  +    +    +  +V+    + G  ++  A+ +  ++  +         +    
+Sbjct  185  QSPGPKHLAWMLHSGVMGAVVAPLTILGGPLLLRAAWYTAGIVGGLSTVAMCAPSEKFLN  244
+
+Query  125  LWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVI----GTIVFSLYILYDLNQIKHRHI  180
+            + + L V +  +    + ++F P  S A      +    G ++FS+++LYD  ++  R  
+Sbjct  245  MGAPLGVGLGLVFASSLGSMFLPPTSVAGATLYSVAMYGGLVLFSMFLLYDTQKVIKRAE  304
+
+Query  181  -------TEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+                    +       L++Y+D +N+F+ +       S+  
+Sbjct  305  ITPMYGAQKYDPINSMLTIYMDTLNIFMRVATMLATGSNRK  345
+
+
+> sp|Q5XIA8|GHITM_RAT Growth hormone-inducible transmembrane protein 
+OS=Rattus norvegicus OX=10116 GN=Ghitm PE=2 SV=1
+Length=346
+
+ Score = 88.5 bits (218),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 22/150 (15%), Positives = 58/150 (39%), Gaps = 11/150 (7%)
+
+Query  76   VSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVAVLA  135
+            +    +  +V+    + G  ++  A+ +  ++  +         +    + + L V +  
+Sbjct  196  LHSGVMGAVVAPLTILGGPLLLRAAWYTAGIVGGLSTVAMCAPSEKFLNMGAPLGVGLGL  255
+
+Query  136  LAVVGIFNIFSPLNSAAMMAYS----VIGTIVFSLYILYDLNQIKHRHI-------TEDL  184
+            +    + ++F P  S A           G ++FS+++LYD  ++  R          +  
+Sbjct  256  VFASSLGSMFLPPTSVAGATLYSVAMYGGLVLFSMFLLYDTQKVVKRAEITPAYGAQKYD  315
+
+Query  185  IPVMALSLYLDFINLFINLLRFFGILSSDD  214
+                 L++Y+D +N+F+ +       S+  
+Sbjct  316  PINSMLTIYMDTLNIFMRVATMLATGSNRK  345
+
+
+> sp|Q9RVX8|Y893_DEIRA Uncharacterized protein DR_0893 OS=Deinococcus 
+radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 
+/ LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422) OX=243230 
+GN=DR_0893 PE=3 SV=1
+Length=231
+
+ Score = 87.7 bits (216),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 57/211 (27%), Positives = 93/211 (44%), Gaps = 20/211 (9%)
+
+Query  11   SIMQRILTVFVFTLLIATVGLFIG--------QFVPVALMLPLSILEVAMIILAFWMRRR  62
+            + M R  +     L +     ++         Q   + L L L+ L +  ++  F  R  
+Sbjct  21   TFMARTYSWMAAGLALTAGVAYLTAQNEGLAMQVASLRLPLMLAQLALVFVLSMFAQRLS  80
+
+Query  63   KAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDL  122
+             AV  A    +A ++G+T   ++  Y+       V+ AF  +   F ++   G  +KKDL
+Sbjct  81   AAVAGALFVGYAALTGLTFSALLFAYS----PAAVITAFAVSAGTFGLMSVAGFVIKKDL  136
+
+Query  123  SFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH-----  177
+            S +  F L AVL L V  + N+F   +SA  +  S+IG  +F+    YD   +++     
+Sbjct  137  SAMGRFFLFAVLGLVVAMLVNLFVG-SSALSLGISMIGVFLFAGLTAYDTQMLRNLALSG  195
+
+Query  178  --RHITEDLIPVMALSLYLDFINLFINLLRF  206
+                  E      AL+LYLDFIN+F+ LL  
+Sbjct  196  ISGEQAERASINGALALYLDFINIFLFLLNI  226
+
+
+> sp|Q9CEU8|YRJE_LACLA Uncharacterized protein YrjE OS=Lactococcus 
+lactis subsp. lactis (strain IL1403) OX=272623 GN=yrjE PE=3 
+SV=2
+Length=234
+
+ Score = 83.5 bits (205),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 48/221 (22%), Positives = 91/221 (41%), Gaps = 23/221 (10%)
+
+Query  11   SIMQRILTVFVFTLLIATVGLFIGQFVPVA-----------LMLPLSILEVAMIILAF-W  58
+            +   +I  +    +L++ +  +I     +              L L I+ + M++     
+Sbjct  17   AFFSKIYALMGAGVLVSALVSWIMITFFLDNMTAILQSGSLFFLVLWIIPLVMVVSLQGL  76
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKM  118
+              +   +       +A   G  +   +  Y +      +  AF +   +F  L   G   
+Sbjct  77   AMKNSKMALPIFIGYAAFMGFLISFTLLMYTATD----ITLAFVTAAAMFFGLSVYGRFT  132
+
+Query  119  KKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIK--  176
+            K++LS +     VAV  L +    N F   ++   +  S++G ++F+  I +D  +I   
+Sbjct  133  KRNLSAMGKAFGVAVWGLIIAMFLNFFF-ASTGLTILISLVGVVIFAGLIAWDNQKITQV  191
+
+Query  177  ----HRHITEDLIPVMALSLYLDFINLFINLLRFFGILSSD  213
+                +  +++     MALSLYLDFIN+F+ LLR FGI   +
+Sbjct  192  YNANNGQVSDGWAISMALSLYLDFINMFLFLLRLFGIAGGN  232
+
+
+> sp|P09723|US21_HCMVA Uncharacterized protein HWLF2 OS=Human cytomegalovirus 
+(strain AD169) OX=10360 GN=US21 PE=3 SV=1
+Length=239
+
+ Score = 76.9 bits (188),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 40/175 (23%), Positives = 73/175 (42%), Gaps = 8/175 (5%)
+
+Query  34   GQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAG  93
+              F  V L L   ++ +  + L  W           + T+  ++ + +     H++  + 
+Sbjct  46   QLFSSVRLTLSCLMISIVCLGLLRWAEPNFPKNVWILLTYTLLTSVAVTASGFHFSHRS-  104
+
+Query  94   AYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVA-VLALAVVGIFNIFSPLNSAA  152
+               V+ A  +T  +F  L        +D+    S L  A  L L +  +F++F    S  
+Sbjct  105  ---VIYAMVATVTLFCFLTLATYLFARDVELQRSLLTGASTLILLLFAVFSLFPEAVSEI  161
+
+Query  153  MMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFF  207
+            ++  + +  IV S  ++ D   I H    E  IP  AL LY+D + LF+++L F 
+Sbjct  162  LVMIAGLAVIVTS--VVCDTQDILHDIEYESYIP-GALCLYMDLMYLFVSVLYFM  213
+
+
+> sp|P63701|Y420_NEIMA Uncharacterized protein NMA0420 OS=Neisseria 
+meningitidis serogroup A / serotype 4A (strain Z2491) OX=122587 
+GN=NMA0420 PE=4 SV=1
+Length=227
+
+ Score = 76.9 bits (188),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 44/217 (20%), Positives = 85/217 (39%), Gaps = 13/217 (6%)
+
+Query  8    SKQSIMQRILTVFVFTL---------LIATVGLFIGQFVPVALMLPLSILEVAMIILAFW  58
+            SK +++Q+   +  F+                 F   F    +   + +     +I    
+Sbjct  14   SKNTVLQKTYRLLGFSFIPASAGAALAANAGFNFYAAFGSRWIGFAVVLAFFYGMIHFIE  73
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGA-YVVLEAFGSTFVIFAVLGTIGAK  117
+              R    G   +  F F  G+ + P++ +   IA    +V  A   T  +F  +  +  +
+Sbjct  74   KNRYSNTGVTLLMVFTFGMGVLIGPVLQYALHIADGAKIVGIAAAMTAAVFLTMSALARR  133
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             + D++ L  FL V  + L V  + N+F  +  A  +  S    +  SL I++ +  +  
+Sbjct  134  TRLDMNALGRFLTVGAVILMVAVVANLFLGI-PALALTISAGFVLFSSLMIMWQVRTVID  192
+
+Query  178  RHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+                ED     AL+L++   N+F +LL     L+ +D
+Sbjct  193  G--GEDSHISAALTLFISLYNIFSSLLNILLSLNGED  227
+
+
+> sp|P63702|Y2020_NEIMB Uncharacterized protein NMB2020 OS=Neisseria 
+meningitidis serogroup B (strain MC58) OX=122586 GN=NMB2020 
+PE=4 SV=1
+Length=227
+
+ Score = 76.9 bits (188),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 44/217 (20%), Positives = 85/217 (39%), Gaps = 13/217 (6%)
+
+Query  8    SKQSIMQRILTVFVFTL---------LIATVGLFIGQFVPVALMLPLSILEVAMIILAFW  58
+            SK +++Q+   +  F+                 F   F    +   + +     +I    
+Sbjct  14   SKNTVLQKTYRLLGFSFIPASAGAALAANAGFNFYAAFGSRWIGFAVVLAFFYGMIHFIE  73
+
+Query  59   MRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAGA-YVVLEAFGSTFVIFAVLGTIGAK  117
+              R    G   +  F F  G+ + P++ +   IA    +V  A   T  +F  +  +  +
+Sbjct  74   KNRYSNTGVTLLMVFTFGMGVLIGPVLQYALHIADGAKIVGIAAAMTAAVFLTMSALARR  133
+
+Query  118  MKKDLSFLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKH  177
+             + D++ L  FL V  + L V  + N+F  +  A  +  S    +  SL I++ +  +  
+Sbjct  134  TRLDMNALGRFLTVGAVILMVAVVANLFLGI-PALALTISAGFVLFSSLMIMWQVRTVID  192
+
+Query  178  RHITEDLIPVMALSLYLDFINLFINLLRFFGILSSDD  214
+                ED     AL+L++   N+F +LL     L+ +D
+Sbjct  193  G--GEDSHISAALTLFISLYNIFSSLLNILLSLNGED  227
+
+
+> sp|F5HHT6|US21_HCMVM Membrane protein US21 OS=Human cytomegalovirus 
+(strain Merlin) OX=295027 GN=US21 PE=3 SV=1
+Length=243
+
+ Score = 76.9 bits (188),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 40/175 (23%), Positives = 73/175 (42%), Gaps = 8/175 (5%)
+
+Query  34   GQFVPVALMLPLSILEVAMIILAFWMRRRKAVGYAFVYTFAFVSGITLFPIVSHYASIAG  93
+              F  V L L   ++ +  + L  W           + T+  ++ + +     H++  + 
+Sbjct  46   QLFSSVRLTLSCLMISIVCLGLLRWAEPNFPKNVWILLTYTLLTSVAVTASGFHFSHRS-  104
+
+Query  94   AYVVLEAFGSTFVIFAVLGTIGAKMKKDLSFLWSFLLVA-VLALAVVGIFNIFSPLNSAA  152
+               V+ A  +T  +F  L        +D+    S L  A  L L +  +F++F    S  
+Sbjct  105  ---VIYAMVATVTLFCFLTLATYLFARDVELQRSLLTGASTLILLLFAVFSLFPEAVSEI  161
+
+Query  153  MMAYSVIGTIVFSLYILYDLNQIKHRHITEDLIPVMALSLYLDFINLFINLLRFF  207
+            ++  + +  IV S  ++ D   I H    E  IP  AL LY+D + LF+++L F 
+Sbjct  162  LVMIAGLAVIVTS--VVCDTQDILHDIEYESYIP-GALCLYMDLMYLFVSVLYFM  213
+
+
+> sp|P09724|US20_HCMVA Transmembrane protein HWLF3 OS=Human cytomegalovirus 
+(strain AD169) OX=10360 GN=US20 PE=3 SV=4
+Length=342
+
+ Score = 47.3 bits (111),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 25/205 (12%), Positives = 64/205 (31%), Gaps = 16/205 (8%)
+
+Query  15   RILTVFVFTLLIA-TVGLFIGQFVPV--------ALMLPLSILEVAMIILAFWMRRRKAV  65
+            R+  +F+F L  +  +G       P                ++ +  + + + +      
+Sbjct  116  RVYAIFIFQLAFSFGLGSVFWLGFPQNRNFCVENYSFFLTVLVPIVCMFITYTLGNEHPS  175
+
+Query  66   GYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLS--  123
+                ++ +   + +T       +   + + V++ ++  T  +F     +     +D    
+Sbjct  176  NATVLFIYLLANSLTAA----IFQMCSESRVLVGSYVMTLALFISFTGLAFLGGRDRRRW  231
+
+Query  124  FLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITED  183
+               S + V +L   +       +      ++         F   + YD   +        
+Sbjct  232  KCISCVYVVMLLSFLTLALLSDADWLQKIVVTLCAFSISFFLGILAYDSLMVIFFCPPNQ  291
+
+Query  184  LIPVMALSLYLDFINLFINLLRFFG  208
+                 A+ LYLD + +F+ LL    
+Sbjct  292  -CIRHAVCLYLDSMAIFLTLLLMLS  315
+
+
+> sp|Q03307|US20_HCMVT Transmembrane protein HWLF3 OS=Human cytomegalovirus 
+(strain Towne) OX=10363 GN=US20 PE=2 SV=1
+Length=342
+
+ Score = 47.3 bits (111),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 25/205 (12%), Positives = 64/205 (31%), Gaps = 16/205 (8%)
+
+Query  15   RILTVFVFTLLIA-TVGLFIGQFVPV--------ALMLPLSILEVAMIILAFWMRRRKAV  65
+            R+  +F+F L  +  +G       P                ++ +  + + + +      
+Sbjct  116  RVYAIFIFQLAFSFGLGSVFWLGFPQNRNFCVENYSFFLTVLVPIVCMFITYTLGNEHPS  175
+
+Query  66   GYAFVYTFAFVSGITLFPIVSHYASIAGAYVVLEAFGSTFVIFAVLGTIGAKMKKDLS--  123
+                ++ +   + +T       +   + + V++ ++  T  +F     +     +D    
+Sbjct  176  NATVLFIYLLANSLTAA----IFQMCSESRVLVGSYVMTLALFISFTGLAFLGGRDRRRW  231
+
+Query  124  FLWSFLLVAVLALAVVGIFNIFSPLNSAAMMAYSVIGTIVFSLYILYDLNQIKHRHITED  183
+               S + V +L   +       +      ++         F   + YD   +        
+Sbjct  232  KCISCVYVVMLLSFLTLALLSDADWLQKIVVTLCAFSISFFLGILAYDSLMVIFFCPPNQ  291
+
+Query  184  LIPVMALSLYLDFINLFINLLRFFG  208
+                 A+ LYLD + +F+ LL    
+Sbjct  292  -CIRHAVCLYLDSMAIFLTLLLMLS  315
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.145    0.352    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0442    0.140     1.90     42.6     43.6 
+
+Effective search space used: 13809833929
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

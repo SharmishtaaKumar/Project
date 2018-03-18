@@ -1,0 +1,1760 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= O15431|2ls2A
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O15431|COPT1_HUMAN High affinity copper uptake protein 1 OS=...  391     2e-138
+  sp|Q5RAS6|COPT1_PONAB High affinity copper uptake protein 1 OS=...  389     1e-137
+  sp|Q8K211|COPT1_MOUSE High affinity copper uptake protein 1 OS=...  339     1e-117
+  sp|Q8WNR0|COPT1_PIG High affinity copper uptake protein 1 OS=Su...  333     2e-115
+  sp|Q9JK41|COPT1_RAT High affinity copper uptake protein 1 OS=Ra...  333     2e-115
+  sp|P38865|CTR2_YEAST Copper transport protein CTR2 OS=Saccharom...  63.2    2e-11 
+  sp|Q9CPU9|COPT2_MOUSE Probable low affinity copper uptake prote...  58.9    3e-10 
+  sp|Q8GWP3|COPT6_ARATH Copper transporter 6 OS=Arabidopsis thali...  57.4    1e-09 
+  sp|O15432|COPT2_HUMAN Probable low affinity copper uptake prote...  57.0    2e-09 
+  sp|Q9STG2|COPT2_ARATH Copper transporter 2 OS=Arabidopsis thali...  50.4    6e-07 
+  sp|Q9USV7|CTR6_SCHPO Copper transport protein ctr6 OS=Schizosac...  48.1    3e-06 
+  sp|Q39065|COPT1_ARATH Copper transporter 1 OS=Arabidopsis thali...  47.0    1e-05 
+  sp|Q9P7F9|CTR5_SCHPO Copper transport protein ctr5 OS=Schizosac...  45.8    4e-05 
+  sp|Q9FGU8|COPT3_ARATH Copper transporter 3 OS=Arabidopsis thali...  44.3    9e-05 
+  sp|Q06686|CTR3_YEAST Copper transport protein CTR3 OS=Saccharom...  43.5    4e-04 
+  sp|O94722|CTR4_SCHPO Copper transport protein ctr4 OS=Schizosac...  43.5    5e-04 
+  sp|Q7YXD4|P80_DICDI Protein P80 OS=Dictyostelium discoideum OX=...  42.4    0.001 
+  sp|Q93VM8|COPT5_ARATH Copper transporter 5 OS=Arabidopsis thali...  40.8    0.001 
+
+
+> sp|O15431|COPT1_HUMAN High affinity copper uptake protein 1 OS=Homo 
+sapiens OX=9606 GN=SLC31A1 PE=1 SV=1
+Length=190
+
+ Score = 391 bits (1005),  Expect = 2e-138, Method: Compositional matrix adjust.
+ Identities = 190/190 (100%), Positives = 190/190 (100%), Gaps = 0/190 (0%)
+
+Query  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+            MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG
+Sbjct  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+
+Query  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+            LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH
+Sbjct  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+
+Query  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+            KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA
+Sbjct  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+
+Query  181  VVVDITEHCH  190
+            VVVDITEHCH
+Sbjct  181  VVVDITEHCH  190
+
+
+> sp|Q5RAS6|COPT1_PONAB High affinity copper uptake protein 1 OS=Pongo 
+abelii OX=9601 GN=SLC31A1 PE=2 SV=1
+Length=190
+
+ Score = 389 bits (1000),  Expect = 1e-137, Method: Compositional matrix adjust.
+ Identities = 189/190 (99%), Positives = 189/190 (99%), Gaps = 0/190 (0%)
+
+Query  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+            MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHS GGGDSSMMMMPMTFYFGFKNVELLFSG
+Sbjct  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSRGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+
+Query  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+            LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH
+Sbjct  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+
+Query  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+            KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA
+Sbjct  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+
+Query  181  VVVDITEHCH  190
+            VVVDITEHCH
+Sbjct  181  VVVDITEHCH  190
+
+
+> sp|Q8K211|COPT1_MOUSE High affinity copper uptake protein 1 OS=Mus 
+musculus OX=10090 GN=Slc31a1 PE=2 SV=1
+Length=196
+
+ Score = 339 bits (869),  Expect = 1e-117, Method: Compositional matrix adjust.
+ Identities = 169/178 (95%), Positives = 169/178 (95%), Gaps = 2/178 (1%)
+
+Query  13   DSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGA  72
+            D N TM P HHHPTTSASHSHGGGDS MMMMPMTFYF FKNV LLFSGLVINT GEMAGA
+Sbjct  21   DDNITM-PPHHHPTTSASHSHGGGDS-MMMMPMTFYFDFKNVNLLFSGLVINTPGEMAGA  78
+
+Query  73   FVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPH  132
+            FVAVFLLAMFYEGLKIARE LLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPH
+Sbjct  79   FVAVFLLAMFYEGLKIAREGLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPH  138
+
+Query  133  LLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEHCH  190
+            LLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEHCH
+Sbjct  139  LLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEHCH  196
+
+
+> sp|Q8WNR0|COPT1_PIG High affinity copper uptake protein 1 OS=Sus 
+scrofa OX=9823 GN=SLC31A1 PE=2 SV=1
+Length=189
+
+ Score = 333 bits (854),  Expect = 2e-115, Method: Compositional matrix adjust.
+ Identities = 168/196 (86%), Positives = 174/196 (89%), Gaps = 13/196 (7%)
+
+Query  1    MDHSHHMGMSY------MDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNV  54
+            MDHS HMGMS       M+ ++TM PSHHHPT+S SH         MMMPMTFYFGFK V
+Sbjct  1    MDHSAHMGMSTHMGMSDMNHSTTMPPSHHHPTSSGSHES-------MMMPMTFYFGFKKV  53
+
+Query  55   ELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGT  114
+            E+LF+GLVINTAGEMAGAFVAVFLLAMFYEGLKIARE LLRKSQVSIRYNSMPVPGPNGT
+Sbjct  54   EVLFAGLVINTAGEMAGAFVAVFLLAMFYEGLKIAREGLLRKSQVSIRYNSMPVPGPNGT  113
+
+Query  115  ILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFL  174
+            ILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFL
+Sbjct  114  ILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFL  173
+
+Query  175  FSWKKAVVVDITEHCH  190
+            FSWKKAVVVDITEHCH
+Sbjct  174  FSWKKAVVVDITEHCH  189
+
+
+> sp|Q9JK41|COPT1_RAT High affinity copper uptake protein 1 OS=Rattus 
+norvegicus OX=10116 GN=Slc31a1 PE=2 SV=1
+Length=187
+
+ Score = 333 bits (853),  Expect = 2e-115, Method: Compositional matrix adjust.
+ Identities = 167/186 (90%), Positives = 170/186 (91%), Gaps = 7/186 (4%)
+
+Query  5    HHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVIN  64
+            HHMGM++ D N TM P H HPTTSASHSH       MMMPMTFYFGFKNV+LLFS LVIN
+Sbjct  9    HHMGMNHTDDNITM-PPHQHPTTSASHSHE------MMMPMTFYFGFKNVDLLFSSLVIN  61
+
+Query  65   TAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVG  124
+            T GEMAGAFVAVFLLAMFYEGLKIARE LLRKSQVSIRYNSMPVPGPNGTILMETHKTVG
+Sbjct  62   TPGEMAGAFVAVFLLAMFYEGLKIAREGLLRKSQVSIRYNSMPVPGPNGTILMETHKTVG  121
+
+Query  125  QQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVD  184
+            QQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVD
+Sbjct  122  QQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVD  181
+
+Query  185  ITEHCH  190
+            ITEHCH
+Sbjct  182  ITEHCH  187
+
+
+> sp|P38865|CTR2_YEAST Copper transport protein CTR2 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CTR2 
+PE=1 SV=1
+Length=189
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 55/181 (30%), Positives = 85/181 (47%), Gaps = 29/181 (16%)
+
+Query  18   MQPSHHHPTTSASHSH-----GGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGA  72
+            M   +H    +A H H     G GD +  M  M F + +KN  ++F    I T   +  +
+Sbjct  30   MDSMNHKMEGNAGHDHSDMHMGDGDDTCSM-NMLFSWSYKNTCVVFEWWHIKTLPGLILS  88
+
+Query  73   FVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPH  132
+             +A+F LA  YE LK      + K Q+S R   + +P  + T + +  K           
+Sbjct  89   CLAIFGLAYLYEYLKYC----VHKRQLSQR---VLLPNRSLTKINQADKVS---------  132
+
+Query  133  LLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEH---C  189
+               ++L+ +QV  S+ LML+FMTYNG+L +AV  GA  G   +SW  +   +I +    C
+Sbjct  133  --NSILYGLQVGFSFMLMLVFMTYNGWLMLAVVCGAIWGN--YSWCTSYSPEIDDSSLAC  188
+
+Query  190  H  190
+            H
+Sbjct  189  H  189
+
+
+> sp|Q9CPU9|COPT2_MOUSE Probable low affinity copper uptake protein 
+2 OS=Mus musculus OX=10090 GN=Slc31a2 PE=1 SV=1
+Length=143
+
+ Score = 58.9 bits (141),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 47/141 (33%), Positives = 73/141 (52%), Gaps = 15/141 (11%)
+
+Query  43   MPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIR  102
+            MPM F F  + V LLF    +++   MA + + V LLA+ YEG+K+ +  LL K+     
+Sbjct  1    MPMHFIFSDEAV-LLFDFWRVHSPTGMALSVLVVLLLAVLYEGIKVGKAKLLHKT-----  54
+
+Query  103  YNSMPVPGPNGTILMETHKTVGQQMLS---------FPHLLQTVLHIIQVVISYFLMLIF  153
+              S+P       IL     + G +  S           +  Q+++H+IQVVI YF+ML  
+Sbjct  55   LESLPATNSQQFILGPDQDSTGSRSTSDNRTRLRWFLCYFGQSLVHVIQVVIGYFVMLAV  114
+
+Query  154  MTYNGYLCIAVAAGAGTGYFL  174
+            M+YN ++ + V  G+  GY+L
+Sbjct  115  MSYNTWIFLGVVLGSAVGYYL  135
+
+
+> sp|Q8GWP3|COPT6_ARATH Copper transporter 6 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT6 PE=2 SV=1
+Length=145
+
+ Score = 57.4 bits (137),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 48/158 (30%), Positives = 75/158 (47%), Gaps = 36/158 (23%)
+
+Query  18   MQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVF  77
+            M PS   P++  +H+    +S+M+MM MTF++G KN E+LFSG    + G      + VF
+Sbjct  6    MPPSS--PSSMVNHT----NSNMIMMHMTFFWG-KNTEILFSGWPGTSLGMYVLCLIVVF  58
+
+Query  78   LLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTV  137
+            LLA+  E L  A  S+LR    + R                              L+QT 
+Sbjct  59   LLAVIVEWL--AHSSILRGRGSTSRAKG---------------------------LVQTA  89
+
+Query  138  LHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLF  175
+            ++ ++  ++Y +ML  M++NG + I   AG   G+ LF
+Sbjct  90   VYTLKTGLAYLVMLAVMSFNGGVFIVAIAGFAVGFMLF  127
+
+
+> sp|O15432|COPT2_HUMAN Probable low affinity copper uptake protein 
+2 OS=Homo sapiens OX=9606 GN=SLC31A2 PE=1 SV=1
+Length=143
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 47/143 (33%), Positives = 72/143 (50%), Gaps = 19/143 (13%)
+
+Query  43   MPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIR  102
+            M M F F    V LLF    +++   MA + + + LLA+ YEG+K+ +  LL +  V+  
+Sbjct  1    MAMHFIFSDTAV-LLFDFWSVHSPAGMALSVLVLLLLAVLYEGIKVGKAKLLNQVLVN--  57
+
+Query  103  YNSMPVPGPNGTILMETHKTVGQQMLSFP-----------HLLQTVLHIIQVVISYFLML  151
+               +P      TI      + G    SFP           H  Q+++H+IQVVI YF+ML
+Sbjct  58   ---LPTSISQQTIAETDGDSAGSD--SFPVGRTHHRWYLCHFGQSLIHVIQVVIGYFIML  112
+
+Query  152  IFMTYNGYLCIAVAAGAGTGYFL  174
+              M+YN ++ + V  G+  GY+L
+Sbjct  113  AVMSYNTWIFLGVVLGSAVGYYL  135
+
+
+> sp|Q9STG2|COPT2_ARATH Copper transporter 2 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT2 PE=2 SV=1
+Length=158
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 40/129 (31%), Positives = 61/129 (47%), Gaps = 30/129 (23%)
+
+Query  47   FYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSM  106
+            F++G KN E+LFSG    ++G  A   + +FLLA+  E L  A   +LR S         
+Sbjct  34   FFWG-KNTEVLFSGWPGTSSGMYALCLIVIFLLAVIAEWL--AHSPILRVSG--------  82
+
+Query  107  PVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAA  166
+                        T++  G        L QT ++ ++  +SY +ML  M++N  + I   A
+Sbjct  83   -----------STNRAAG--------LAQTAVYTLKTGLSYLVMLAVMSFNAGVFIVAIA  123
+
+Query  167  GAGTGYFLF  175
+            G G G+FLF
+Sbjct  124  GYGVGFFLF  132
+
+
+> sp|Q9USV7|CTR6_SCHPO Copper transport protein ctr6 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ctr6 
+PE=1 SV=1
+Length=148
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 41/140 (29%), Positives = 70/140 (50%), Gaps = 12/140 (9%)
+
+Query  35   GGDSSM--MMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARES  92
+            GG+S+M    M MTF   + N+ ++F    I    +   + +A+ +L   +E L+    +
+Sbjct  4    GGNSTMRHCSMKMTFNTDYDNLCIVFKSWHIGNLSQFLLSLLAIAILGYLFERLR--SFT  61
+
+Query  93   LLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLI  152
+             L++++    Y      G      + TH +  + + S        L+ +Q+V SYFLML+
+Sbjct  62   SLKETEFQRGYAGQQSEG------LLTHHS--KSLKSGRPFRLCALYAVQLVFSYFLMLV  113
+
+Query  153  FMTYNGYLCIAVAAGAGTGY  172
+             MTYN Y+ +A+A GA  GY
+Sbjct  114  AMTYNAYVILAIAIGAAFGY  133
+
+
+> sp|Q39065|COPT1_ARATH Copper transporter 1 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT1 PE=2 SV=2
+Length=170
+
+ Score = 47.0 bits (110),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 38/130 (29%), Positives = 59/130 (45%), Gaps = 28/130 (22%)
+
+Query  46   TFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNS  105
+            TF++G KN E+LFSG    ++G  A   + VF LA+  E L  A  SLLR S        
+Sbjct  45   TFFWG-KNTEVLFSGWPGTSSGMYALCLIFVFFLAVLTEWL--AHSSLLRGS--------  93
+
+Query  106  MPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVA  165
+                              G        L+QT ++ +++ ++Y +ML  M++N  + +   
+Sbjct  94   -----------------TGDSANRAAGLIQTAVYTLRIGLAYLVMLAVMSFNAGVFLVAL  136
+
+Query  166  AGAGTGYFLF  175
+            AG   G+ LF
+Sbjct  137  AGHAVGFMLF  146
+
+
+> sp|Q9P7F9|CTR5_SCHPO Copper transport protein ctr5 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ctr5 
+PE=1 SV=1
+Length=173
+
+ Score = 45.8 bits (107),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 34/116 (29%), Positives = 55/116 (47%), Gaps = 10/116 (9%)
+
+Query  63   INTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMET--H  120
+            INT  + AG+ + +F  A+  EGL + +    R   +    N   + GP       +  H
+Sbjct  49   INTGNKFAGSIIGIFFFAVAIEGLSLVQRMFDR--WIVAHSNGKTLSGPLRIFFPSSTVH  106
+
+Query  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFS  176
+             TV QQ      L++  ++    + +  LMLI M++NGY  +    GA  G+FLF+
+Sbjct  107  VTVWQQ------LIRAAMYSSFYLSATILMLIVMSFNGYAILFGFVGAWIGFFLFA  156
+
+
+> sp|Q9FGU8|COPT3_ARATH Copper transporter 3 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT3 PE=2 SV=1
+Length=151
+
+ Score = 44.3 bits (103),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 38/145 (26%), Positives = 62/145 (43%), Gaps = 37/145 (26%)
+
+Query  31   HSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIAR  90
+            H HGG      MM MTF++G K  E+LF G    +          +F+++ F E L  +R
+Sbjct  24   HRHGG------MMHMTFFWG-KTTEVLFDGWPGTSLKMYWVCLAVIFVISAFSECL--SR  74
+
+Query  91   ESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLM  150
+               ++    S+                               LLQT ++ ++  +SY +M
+Sbjct  75   CGFMKSGPASLGGG----------------------------LLQTAVYTVRAALSYLVM  106
+
+Query  151  LIFMTYNGYLCIAVAAGAGTGYFLF  175
+            L  M++NG + +A  AG G G+ +F
+Sbjct  107  LAVMSFNGGVFVAAMAGFGLGFMIF  131
+
+
+> sp|Q06686|CTR3_YEAST Copper transport protein CTR3 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CTR3 
+PE=1 SV=1
+Length=241
+
+ Score = 43.5 bits (101),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  132  HLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWK  178
+            H+++  + ++Q  +SY +ML+FM YNGY+ I+   GA  G F+F ++
+Sbjct  167  HMIRVTIFVLQWGLSYIIMLLFMYYNGYIIISCLIGAIVGRFIFCYE  213
+
+
+> sp|O94722|CTR4_SCHPO Copper transport protein ctr4 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ctr4 
+PE=1 SV=1
+Length=289
+
+ Score = 43.5 bits (101),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 30/46 (65%), Gaps = 0/46 (0%)
+
+Query  130  FPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLF  175
+            F H L++  +++Q +++Y  ML+ M YNGY+ + +  G   GYFLF
+Sbjct  203  FLHFLRSCFYLVQYIVAYIAMLLAMYYNGYVILFLFCGTFFGYFLF  248
+
+
+> sp|Q7YXD4|P80_DICDI Protein P80 OS=Dictyostelium discoideum OX=44689 
+GN=p80 PE=2 SV=1
+Length=530
+
+ Score = 42.4 bits (98),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 41/134 (31%), Positives = 66/134 (49%), Gaps = 7/134 (5%)
+
+Query  42   MMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSI  101
+            +M M F+ G  +  +LF   V  T  + AG++ A+F  A+F+E  K  R S+L K     
+Sbjct  390  IMRMYFHTGILDY-ILFKSWVPRTDRQFAGSWFAIFFFAIFFELEKTLR-SILEK-----  442
+
+Query  102  RYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLC  161
+            R+        +  ++  +  +      S+  +++  LH I++  SY LML+ MT+N  L 
+Sbjct  443  RWTPNKKDSEDNNLINSSFLSGSYPKFSYRDIIRGCLHAIELTCSYALMLVAMTFNVALF  502
+
+Query  162  IAVAAGAGTGYFLF  175
+             AV AG   G  LF
+Sbjct  503  FAVIAGVLVGNILF  516
+
+
+> sp|Q93VM8|COPT5_ARATH Copper transporter 5 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT5 PE=1 SV=1
+Length=146
+
+ Score = 40.8 bits (94),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 39/134 (29%), Positives = 59/134 (44%), Gaps = 6/134 (4%)
+
+Query  42   MMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSI  101
+            MM MTFY+G K   +LF     ++        +A F+ + FY+ L+  R     KS  S 
+Sbjct  1    MMHMTFYWGIK-ATILFDFWKTDSWLSYILTLIACFVFSAFYQYLENRRIQF--KSLSSS  57
+
+Query  102  RYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLC  161
+            R  + P P  +  +        G +  S       +L  +   I Y LML  M++NG + 
+Sbjct  58   R-RAPPPPRSSSGVSAPLIPKSGTR--SAAKAASVLLFGVNAAIGYLLMLAAMSFNGGVF  114
+
+Query  162  IAVAAGAGTGYFLF  175
+            IA+  G   GY +F
+Sbjct  115  IAIVVGLTAGYAVF  128
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.136    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10889729641
+Results from round 2
+
+
+Query= O15431|2ls2A
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q5RAS6|COPT1_PONAB High affinity copper uptake protein 1 OS=...  243     4e-80
+  sp|O15431|COPT1_HUMAN High affinity copper uptake protein 1 OS=...  243     6e-80
+  sp|Q8K211|COPT1_MOUSE High affinity copper uptake protein 1 OS=...  222     1e-71
+  sp|Q9JK41|COPT1_RAT High affinity copper uptake protein 1 OS=Ra...  218     3e-70
+  sp|Q8WNR0|COPT1_PIG High affinity copper uptake protein 1 OS=Su...  213     2e-68
+  sp|P38865|CTR2_YEAST Copper transport protein CTR2 OS=Saccharom...  143     5e-41
+  sp|Q93VM8|COPT5_ARATH Copper transporter 5 OS=Arabidopsis thali...  120     8e-33
+  sp|Q8GWP3|COPT6_ARATH Copper transporter 6 OS=Arabidopsis thali...  116     2e-31
+  sp|Q7YXD4|P80_DICDI Protein P80 OS=Dictyostelium discoideum OX=...  112     2e-27
+  sp|Q9P7F9|CTR5_SCHPO Copper transport protein ctr5 OS=Schizosac...  103     5e-26
+  sp|Q9CPU9|COPT2_MOUSE Probable low affinity copper uptake prote...  101     2e-25
+  sp|Q39065|COPT1_ARATH Copper transporter 1 OS=Arabidopsis thali...   99     1e-24
+  sp|Q9USV7|CTR6_SCHPO Copper transport protein ctr6 OS=Schizosac...  98.0    4e-24
+  sp|Q9STG2|COPT2_ARATH Copper transporter 2 OS=Arabidopsis thali...  98.4    4e-24
+  sp|Q9FGU8|COPT3_ARATH Copper transporter 3 OS=Arabidopsis thali...  92.6    4e-22
+  sp|O15432|COPT2_HUMAN Probable low affinity copper uptake prote...  92.2    4e-22
+  sp|O94722|CTR4_SCHPO Copper transport protein ctr4 OS=Schizosac...  91.9    6e-21
+  sp|Q06686|CTR3_YEAST Copper transport protein CTR3 OS=Saccharom...  71.1    6e-14
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q94EE4|COPT1_ORYSJ Copper transporter 1 OS=Oryza sativa subs...  85.7    2e-19
+  sp|J9VLN4|CTR4_CRYNH Copper transport protein CTR4 OS=Cryptococ...  83.0    3e-18
+  sp|Q60EN8|COPT2_ORYSJ Copper transporter 2 OS=Oryza sativa subs...  79.9    2e-17
+  sp|Q8SAA5|COPT4_ARATH Copper transporter 4 OS=Arabidopsis thali...  79.5    3e-17
+  sp|Q69P80|COP51_ORYSJ Copper transporter 5.1 OS=Oryza sativa su...  77.2    2e-16
+  sp|Q7XTF8|COPT6_ORYSJ Copper transporter 6 OS=Oryza sativa subs...  66.0    2e-12
+  sp|Q6Z0Q9|COP52_ORYSJ Putative copper transporter 5.2 OS=Oryza ...  60.3    2e-10
+  sp|Q59NP1|CTR1_CANAL Copper transport protein CTR1 OS=Candida a...  53.3    1e-07
+  sp|Q10KT6|COPT4_ORYSJ Copper transporter 4 OS=Oryza sativa subs...  49.1    2e-06
+  sp|Q5ZD08|COPT3_ORYSJ Copper transporter 3 OS=Oryza sativa subs...  41.0    0.001
+
+
+> sp|Q5RAS6|COPT1_PONAB High affinity copper uptake protein 1 OS=Pongo 
+abelii OX=9601 GN=SLC31A1 PE=2 SV=1
+Length=190
+
+ Score = 243 bits (619),  Expect = 4e-80, Method: Composition-based stats.
+ Identities = 189/190 (99%), Positives = 189/190 (99%), Gaps = 0/190 (0%)
+
+Query  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+            MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHS GGGDSSMMMMPMTFYFGFKNVELLFSG
+Sbjct  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSRGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+
+Query  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+            LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH
+Sbjct  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+
+Query  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+            KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA
+Sbjct  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+
+Query  181  VVVDITEHCH  190
+            VVVDITEHCH
+Sbjct  181  VVVDITEHCH  190
+
+
+> sp|O15431|COPT1_HUMAN High affinity copper uptake protein 1 OS=Homo 
+sapiens OX=9606 GN=SLC31A1 PE=1 SV=1
+Length=190
+
+ Score = 243 bits (619),  Expect = 6e-80, Method: Composition-based stats.
+ Identities = 190/190 (100%), Positives = 190/190 (100%), Gaps = 0/190 (0%)
+
+Query  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+            MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG
+Sbjct  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+
+Query  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+            LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH
+Sbjct  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+
+Query  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+            KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA
+Sbjct  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+
+Query  181  VVVDITEHCH  190
+            VVVDITEHCH
+Sbjct  181  VVVDITEHCH  190
+
+
+> sp|Q8K211|COPT1_MOUSE High affinity copper uptake protein 1 OS=Mus 
+musculus OX=10090 GN=Slc31a1 PE=2 SV=1
+Length=196
+
+ Score = 222 bits (564),  Expect = 1e-71, Method: Composition-based stats.
+ Identities = 169/179 (94%), Positives = 169/179 (94%), Gaps = 2/179 (1%)
+
+Query  12   MDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAG  71
+             D N TM P HHHPTTSASHSHGGGDS MMMMPMTFYF FKNV LLFSGLVINT GEMAG
+Sbjct  20   TDDNITMPP-HHHPTTSASHSHGGGDS-MMMMPMTFYFDFKNVNLLFSGLVINTPGEMAG  77
+
+Query  72   AFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFP  131
+            AFVAVFLLAMFYEGLKIARE LLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFP
+Sbjct  78   AFVAVFLLAMFYEGLKIAREGLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFP  137
+
+Query  132  HLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEHCH  190
+            HLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEHCH
+Sbjct  138  HLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEHCH  196
+
+
+> sp|Q9JK41|COPT1_RAT High affinity copper uptake protein 1 OS=Rattus 
+norvegicus OX=10116 GN=Slc31a1 PE=2 SV=1
+Length=187
+
+ Score = 218 bits (554),  Expect = 3e-70, Method: Composition-based stats.
+ Identities = 167/186 (90%), Positives = 170/186 (91%), Gaps = 7/186 (4%)
+
+Query  5    HHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVIN  64
+            HHMGM++ D N TM P H HPTTSASHSH       MMMPMTFYFGFKNV+LLFS LVIN
+Sbjct  9    HHMGMNHTDDNITMPP-HQHPTTSASHSHE------MMMPMTFYFGFKNVDLLFSSLVIN  61
+
+Query  65   TAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVG  124
+            T GEMAGAFVAVFLLAMFYEGLKIARE LLRKSQVSIRYNSMPVPGPNGTILMETHKTVG
+Sbjct  62   TPGEMAGAFVAVFLLAMFYEGLKIAREGLLRKSQVSIRYNSMPVPGPNGTILMETHKTVG  121
+
+Query  125  QQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVD  184
+            QQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVD
+Sbjct  122  QQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVD  181
+
+Query  185  ITEHCH  190
+            ITEHCH
+Sbjct  182  ITEHCH  187
+
+
+> sp|Q8WNR0|COPT1_PIG High affinity copper uptake protein 1 OS=Sus 
+scrofa OX=9823 GN=SLC31A1 PE=2 SV=1
+Length=189
+
+ Score = 213 bits (542),  Expect = 2e-68, Method: Composition-based stats.
+ Identities = 168/196 (86%), Positives = 174/196 (89%), Gaps = 13/196 (7%)
+
+Query  1    MDHSHHMGMSY------MDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNV  54
+            MDHS HMGMS       M+ ++TM PSHHHPT+S SH         MMMPMTFYFGFK V
+Sbjct  1    MDHSAHMGMSTHMGMSDMNHSTTMPPSHHHPTSSGSHES-------MMMPMTFYFGFKKV  53
+
+Query  55   ELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGT  114
+            E+LF+GLVINTAGEMAGAFVAVFLLAMFYEGLKIARE LLRKSQVSIRYNSMPVPGPNGT
+Sbjct  54   EVLFAGLVINTAGEMAGAFVAVFLLAMFYEGLKIAREGLLRKSQVSIRYNSMPVPGPNGT  113
+
+Query  115  ILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFL  174
+            ILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFL
+Sbjct  114  ILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFL  173
+
+Query  175  FSWKKAVVVDITEHCH  190
+            FSWKKAVVVDITEHCH
+Sbjct  174  FSWKKAVVVDITEHCH  189
+
+
+> sp|P38865|CTR2_YEAST Copper transport protein CTR2 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CTR2 
+PE=1 SV=1
+Length=189
+
+ Score = 143 bits (359),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 56/189 (30%), Positives = 88/189 (47%), Gaps = 29/189 (15%)
+
+Query  10   SYMDSNSTMQPSHHHPTTSASHSH-----GGGDSSMMMMPMTFYFGFKNVELLFSGLVIN  64
+            S +  +  M   +H    +A H H     G GD +   M M F + +KN  ++F    I 
+Sbjct  22   SLIGYSKKMDSMNHKMEGNAGHDHSDMHMGDGDDTCS-MNMLFSWSYKNTCVVFEWWHIK  80
+
+Query  65   TAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVG  124
+            T   +  + +A+F LA  YE LK      + K Q+S R   + +P  + T + +  K   
+Sbjct  81   TLPGLILSCLAIFGLAYLYEYLKYC----VHKRQLSQR---VLLPNRSLTKINQADKVS-  132
+
+Query  125  QQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVD  184
+                       ++L+ +QV  S+ LML+FMTYNG+L +AV  GA  G   +SW  +   +
+Sbjct  133  ----------NSILYGLQVGFSFMLMLVFMTYNGWLMLAVVCGAIWGN--YSWCTSYSPE  180
+
+Query  185  ITEH---CH  190
+            I +    CH
+Sbjct  181  IDDSSLACH  189
+
+
+> sp|Q93VM8|COPT5_ARATH Copper transporter 5 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT5 PE=1 SV=1
+Length=146
+
+ Score = 120 bits (301),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 39/134 (29%), Positives = 59/134 (44%), Gaps = 6/134 (4%)
+
+Query  42   MMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSI  101
+            MM MTFY+G K   +LF     ++        +A F+ + FY+ L+  R     KS  S 
+Sbjct  1    MMHMTFYWGIKAT-ILFDFWKTDSWLSYILTLIACFVFSAFYQYLENRRIQF--KSLSSS  57
+
+Query  102  RYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLC  161
+            R  + P P  +  +        G +  S       +L  +   I Y LML  M++NG + 
+Sbjct  58   R-RAPPPPRSSSGVSAPLIPKSGTR--SAAKAASVLLFGVNAAIGYLLMLAAMSFNGGVF  114
+
+Query  162  IAVAAGAGTGYFLF  175
+            IA+  G   GY +F
+Sbjct  115  IAIVVGLTAGYAVF  128
+
+
+> sp|Q8GWP3|COPT6_ARATH Copper transporter 6 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT6 PE=2 SV=1
+Length=145
+
+ Score = 116 bits (291),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 48/162 (30%), Positives = 76/162 (47%), Gaps = 36/162 (22%)
+
+Query  14   SNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAF  73
+             +  M PS   P++  +H+    +S+M+MM MTF++G KN E+LFSG    + G      
+Sbjct  2    DHGNMPPSS--PSSMVNHT----NSNMIMMHMTFFWG-KNTEILFSGWPGTSLGMYVLCL  54
+
+Query  74   VAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHL  133
+            + VFLLA+  E L  A  S+LR    + R                              L
+Sbjct  55   IVVFLLAVIVEWL--AHSSILRGRGSTSRAKG---------------------------L  85
+
+Query  134  LQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLF  175
+            +QT ++ ++  ++Y +ML  M++NG + I   AG   G+ LF
+Sbjct  86   VQTAVYTLKTGLAYLVMLAVMSFNGGVFIVAIAGFAVGFMLF  127
+
+
+> sp|Q7YXD4|P80_DICDI Protein P80 OS=Dictyostelium discoideum OX=44689 
+GN=p80 PE=2 SV=1
+Length=530
+
+ Score = 112 bits (279),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 40/149 (27%), Positives = 69/149 (46%), Gaps = 7/149 (5%)
+
+Query  38   SSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKS  97
+             ++ +M M F+ G  +  +LF   V  T  + AG++ A+F  A+F+E  K  R  L +  
+Sbjct  386  DAVPIMRMYFHTGILDY-ILFKSWVPRTDRQFAGSWFAIFFFAIFFELEKTLRSILEK--  442
+
+Query  98   QVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYN  157
+                R+        +  ++  +  +      S+  +++  LH I++  SY LML+ MT+N
+Sbjct  443  ----RWTPNKKDSEDNNLINSSFLSGSYPKFSYRDIIRGCLHAIELTCSYALMLVAMTFN  498
+
+Query  158  GYLCIAVAAGAGTGYFLFSWKKAVVVDIT  186
+              L  AV AG   G  LF   +     +T
+Sbjct  499  VALFFAVIAGVLVGNILFGRYRNYTPRVT  527
+
+
+> sp|Q9P7F9|CTR5_SCHPO Copper transport protein ctr5 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ctr5 
+PE=1 SV=1
+Length=173
+
+ Score = 103 bits (256),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 38/151 (25%), Positives = 62/151 (41%), Gaps = 10/151 (7%)
+
+Query  41   MMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVS  100
+              M M + +   +   L     INT  + AG+ + +F  A+  EGL + +    R   + 
+Sbjct  27   CRMSMLWNWYIHDSCFLAKSWHINTGNKFAGSIIGIFFFAVAIEGLSLVQRMFDR--WIV  84
+
+Query  101  IRYNSMPVPGPNGTILMET--HKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNG  158
+               N   + GP       +  H TV QQ      L++  ++    + +  LMLI M++NG
+Sbjct  85   AHSNGKTLSGPLRIFFPSSTVHVTVWQQ------LIRAAMYSSFYLSATILMLIVMSFNG  138
+
+Query  159  YLCIAVAAGAGTGYFLFSWKKAVVVDITEHC  189
+            Y  +    GA  G+FLF+            C
+Sbjct  139  YAILFGFVGAWIGFFLFASDTYGTPSTGTGC  169
+
+
+> sp|Q9CPU9|COPT2_MOUSE Probable low affinity copper uptake protein 
+2 OS=Mus musculus OX=10090 GN=Slc31a2 PE=1 SV=1
+Length=143
+
+ Score = 101 bits (251),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 47/141 (33%), Positives = 73/141 (52%), Gaps = 15/141 (11%)
+
+Query  43   MPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIR  102
+            MPM F F  + V LLF    +++   MA + + V LLA+ YEG+K+ +  LL K+     
+Sbjct  1    MPMHFIFSDEAV-LLFDFWRVHSPTGMALSVLVVLLLAVLYEGIKVGKAKLLHKTL----  55
+
+Query  103  YNSMPVPGPNGTILMETHKTVGQQMLS---------FPHLLQTVLHIIQVVISYFLMLIF  153
+              S+P       IL     + G +  S           +  Q+++H+IQVVI YF+ML  
+Sbjct  56   -ESLPATNSQQFILGPDQDSTGSRSTSDNRTRLRWFLCYFGQSLVHVIQVVIGYFVMLAV  114
+
+Query  154  MTYNGYLCIAVAAGAGTGYFL  174
+            M+YN ++ + V  G+  GY+L
+Sbjct  115  MSYNTWIFLGVVLGSAVGYYL  135
+
+
+> sp|Q39065|COPT1_ARATH Copper transporter 1 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT1 PE=2 SV=2
+Length=170
+
+ Score =  99 bits (247),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 54/179 (30%), Positives = 80/179 (45%), Gaps = 29/179 (16%)
+
+Query  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+            MDH H  GM    S+S+  PS      S +   GG     MMM MTF++G KN E+LFSG
+Sbjct  1    MDHDHMHGMPRPSSSSSSSPSSMMNNGSMN-EGGGHHHMKMMMHMTFFWG-KNTEVLFSG  58
+
+Query  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+                ++G  A   + VF LA+  E L  A  SLLR                         
+Sbjct  59   WPGTSSGMYALCLIFVFFLAVLTEWL--AHSSLLRG------------------------  92
+
+Query  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKK  179
+             + G        L+QT ++ +++ ++Y +ML  M++N  + +   AG   G+ LF  + 
+Sbjct  93   -STGDSANRAAGLIQTAVYTLRIGLAYLVMLAVMSFNAGVFLVALAGHAVGFMLFGSQT  150
+
+
+> sp|Q9USV7|CTR6_SCHPO Copper transport protein ctr6 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ctr6 
+PE=1 SV=1
+Length=148
+
+ Score = 98.0 bits (242),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 41/140 (29%), Positives = 70/140 (50%), Gaps = 12/140 (9%)
+
+Query  35   GGDSSM--MMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARES  92
+            GG+S+M    M MTF   + N+ ++F    I    +   + +A+ +L   +E L+    +
+Sbjct  4    GGNSTMRHCSMKMTFNTDYDNLCIVFKSWHIGNLSQFLLSLLAIAILGYLFERLR--SFT  61
+
+Query  93   LLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLI  152
+             L++++    Y      G      + TH +  + + S        L+ +Q+V SYFLML+
+Sbjct  62   SLKETEFQRGYAGQQSEG------LLTHHS--KSLKSGRPFRLCALYAVQLVFSYFLMLV  113
+
+Query  153  FMTYNGYLCIAVAAGAGTGY  172
+             MTYN Y+ +A+A GA  GY
+Sbjct  114  AMTYNAYVILAIAIGAAFGY  133
+
+
+> sp|Q9STG2|COPT2_ARATH Copper transporter 2 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT2 PE=2 SV=1
+Length=158
+
+ Score = 98.4 bits (243),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 39/129 (30%), Positives = 59/129 (46%), Gaps = 30/129 (23%)
+
+Query  47   FYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSM  106
+            F++G KN E+LFSG    ++G  A   + +FLLA+  E L  A   +LR S  + R    
+Sbjct  34   FFWG-KNTEVLFSGWPGTSSGMYALCLIVIFLLAVIAEWL--AHSPILRVSGSTNRAAG-  89
+
+Query  107  PVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAA  166
+                                      L QT ++ ++  +SY +ML  M++N  + I   A
+Sbjct  90   --------------------------LAQTAVYTLKTGLSYLVMLAVMSFNAGVFIVAIA  123
+
+Query  167  GAGTGYFLF  175
+            G G G+FLF
+Sbjct  124  GYGVGFFLF  132
+
+
+> sp|Q9FGU8|COPT3_ARATH Copper transporter 3 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT3 PE=2 SV=1
+Length=151
+
+ Score = 92.6 bits (228),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 38/145 (26%), Positives = 61/145 (42%), Gaps = 37/145 (26%)
+
+Query  31   HSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIAR  90
+            H HGG      MM MTF++G K  E+LF G    +          +F+++ F E L   R
+Sbjct  24   HRHGG------MMHMTFFWG-KTTEVLFDGWPGTSLKMYWVCLAVIFVISAFSECLS--R  74
+
+Query  91   ESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLM  150
+               ++    S+                               LLQT ++ ++  +SY +M
+Sbjct  75   CGFMKSGPASLGGG----------------------------LLQTAVYTVRAALSYLVM  106
+
+Query  151  LIFMTYNGYLCIAVAAGAGTGYFLF  175
+            L  M++NG + +A  AG G G+ +F
+Sbjct  107  LAVMSFNGGVFVAAMAGFGLGFMIF  131
+
+
+> sp|O15432|COPT2_HUMAN Probable low affinity copper uptake protein 
+2 OS=Homo sapiens OX=9606 GN=SLC31A2 PE=1 SV=1
+Length=143
+
+ Score = 92.2 bits (227),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 44/141 (31%), Positives = 69/141 (49%), Gaps = 15/141 (11%)
+
+Query  43   MPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIR  102
+            M M F F    V LLF    +++   MA + + + LLA+ YEG+K+ +  LL +  V+  
+Sbjct  1    MAMHFIFSDTAV-LLFDFWSVHSPAGMALSVLVLLLLAVLYEGIKVGKAKLLNQVLVN--  57
+
+Query  103  YNSMPVPGPNGTILMETHKTVGQQMLS---------FPHLLQTVLHIIQVVISYFLMLIF  153
+               +P      TI      + G                H  Q+++H+IQVVI YF+ML  
+Sbjct  58   ---LPTSISQQTIAETDGDSAGSDSFPVGRTHHRWYLCHFGQSLIHVIQVVIGYFIMLAV  114
+
+Query  154  MTYNGYLCIAVAAGAGTGYFL  174
+            M+YN ++ + V  G+  GY+L
+Sbjct  115  MSYNTWIFLGVVLGSAVGYYL  135
+
+
+> sp|O94722|CTR4_SCHPO Copper transport protein ctr4 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ctr4 
+PE=1 SV=1
+Length=289
+
+ Score = 91.9 bits (226),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 33/174 (19%), Positives = 72/174 (41%), Gaps = 10/174 (6%)
+
+Query  8    GMSYMDSNSTMQPSHHHPTTSA------SHSHGGGDSSMMMMPMTFYFGFKNVELLFSGL  61
+            GM+  +S ++M   +   +T++      +++     +S   + M + +   +   +    
+Sbjct  79   GMNMTNSTTSMSGMNMSNSTTSMSGMNMTNTTTTAKASSCKLSMYWNWYTIDACFITKHW  138
+
+Query  62   VINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHK  121
+             I +     G+   +  + M  E ++  +    R      R++  P            H 
+Sbjct  139  HITSKHMFVGSIFGIIFMMMALELVRRGQREFDR--WCVRRFS--PASNSCCHSGAPVHS  194
+
+Query  122  TVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLF  175
+                 +  F H L++  +++Q +++Y  ML+ M YNGY+ + +  G   GYFLF
+Sbjct  195  GPSMALRIFLHFLRSCFYLVQYIVAYIAMLLAMYYNGYVILFLFCGTFFGYFLF  248
+
+
+> sp|Q94EE4|COPT1_ORYSJ Copper transporter 1 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=COPT1 PE=2 SV=1
+Length=161
+
+ Score = 85.7 bits (210),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 35/137 (26%), Positives = 56/137 (41%), Gaps = 26/137 (19%)
+
+Query  39   SMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQ  98
+            SM    MTF++G KN E+LF+       G  A A + VF LA+  E L   R        
+Sbjct  29   SMRYTHMTFFWG-KNSEVLFTMWPGTRGGMYALALIFVFALAVIVEFLGSRRA-------  80
+
+Query  99   VSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNG  158
+                                    + ++  +   L +  +H ++V ++Y LML  M++NG
+Sbjct  81   ------------------DACLAALARRAPAAGGLARAAVHTVRVGVAYLLMLALMSFNG  122
+
+Query  159  YLCIAVAAGAGTGYFLF  175
+             + +   AG   G+  F
+Sbjct  123  GVFLVAVAGHAAGFLAF  139
+
+
+> sp|J9VLN4|CTR4_CRYNH Copper transport protein CTR4 OS=Cryptococcus 
+neoformans var. grubii serotype A (strain H99 / ATCC 208821 
+/ CBS 10515 / FGSC 9487) OX=235443 GN=CTR4 PE=1 SV=2
+Length=199
+
+ Score = 83.0 bits (203),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 32/164 (20%), Positives = 56/164 (34%), Gaps = 10/164 (6%)
+
+Query  22   HHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAM  81
+            H+H   +    HG        + M   F   +   L     I + G  AG+ + +F L +
+Sbjct  18   HNHSHMNMGSGHGADSGHACRISMLLNFNTVDACFLSPNWHIRSKGMFAGSIIGIFFLCV  77
+
+Query  82   FYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHL--------  133
+              E ++       R        NS      +     +     G  +   P          
+Sbjct  78   LIELIRRLGREFDRWLVKRAGVNSTCGELSSVAEYGKDGAQGGAVVRVAPRFRYVPSWPH  137
+
+Query  134  --LQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLF  175
+              L+  ++  Q   ++F+ML+ M +N  + I +  G   GY LF
+Sbjct  138  QILRGFIYGSQFTAAFFVMLLGMYFNVIVLIFIFLGQTVGYMLF  181
+
+
+> sp|Q60EN8|COPT2_ORYSJ Copper transporter 2 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=COPT2 PE=1 SV=1
+Length=151
+
+ Score = 79.9 bits (195),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 56/133 (42%), Gaps = 28/133 (21%)
+
+Query  43   MPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIR  102
+            M MTF++G KN E+LF+       G  A A + +F LA+  E                  
+Sbjct  23   MHMTFFWG-KNTEVLFTLWPGARGGMYALAILFMFALAVLLEF-----------------  64
+
+Query  103  YNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCI  162
+                          +   +   ++       L+T +H ++V ++Y +ML  M++NG + +
+Sbjct  65   ----------RGYRVLEARLARRRAPRAAAALRTAVHAVRVGVAYLIMLALMSFNGGVFL  114
+
+Query  163  AVAAGAGTGYFLF  175
+            A+ AG   G+  F
+Sbjct  115  AIVAGHAAGFLAF  127
+
+
+> sp|Q8SAA5|COPT4_ARATH Copper transporter 4 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT4 PE=2 SV=2
+Length=145
+
+ Score = 79.5 bits (194),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 29/135 (21%), Positives = 55/135 (41%), Gaps = 28/135 (21%)
+
+Query  41   MMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVS  100
+             ++  TFY+G+ N ++LFSG   +  G  A A + VF LA   E L    +         
+Sbjct  28   SLLHPTFYWGY-NCQVLFSGWPGSDRGMYALALIFVFFLAFLAEWLARCSD---------  77
+
+Query  101  IRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYL  160
+                              + K    ++       +T ++ ++   SY ++L  +++NG +
+Sbjct  78   ----------------ASSIKQGADKLAKVA--FRTAMYTVKSGFSYLVILAVVSFNGGV  119
+
+Query  161  CIAVAAGAGTGYFLF  175
+             +A   G   G+ +F
+Sbjct  120  FLAAIFGHALGFAVF  134
+
+
+> sp|Q69P80|COP51_ORYSJ Copper transporter 5.1 OS=Oryza sativa 
+subsp. japonica OX=39947 GN=COPT5.1 PE=2 SV=1
+Length=149
+
+ Score = 77.2 bits (188),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 39/134 (29%), Positives = 57/134 (43%), Gaps = 3/134 (2%)
+
+Query  42   MMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSI  101
+            MM MTFY+G K+V +LF G    T      + VA+ L + FY+ L+  R  +  K     
+Sbjct  1    MMHMTFYWG-KDVTILFDGWRTATWTGYLLSLVALLLASAFYQYLEAFRIRV--KLLAGA  57
+
+Query  102  RYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLC  161
+            +  S+P P  +                    L    L  +   + Y LML  M++NG + 
+Sbjct  58   KPASIPPPASSDAARAPLLLPSSAAGRWPARLATAGLFGVNSGLGYLLMLAVMSFNGGVF  117
+
+Query  162  IAVAAGAGTGYFLF  175
+            +AV  G   GY  F
+Sbjct  118  VAVVVGLAAGYLAF  131
+
+
+> sp|Q06686|CTR3_YEAST Copper transport protein CTR3 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CTR3 
+PE=1 SV=1
+Length=241
+
+ Score = 71.1 bits (172),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  132  HLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWK  178
+            H+++  + ++Q  +SY +ML+FM YNGY+ I+   GA  G F+F ++
+Sbjct  167  HMIRVTIFVLQWGLSYIIMLLFMYYNGYIIISCLIGAIVGRFIFCYE  213
+
+
+ Score = 43.3 bits (100),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 10/90 (11%), Positives = 27/90 (30%), Gaps = 0/90 (0%)
+
+Query  27   TSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGL  86
+                 S      +   + M + +   +   +      +T G+ AG+ +  F L +  + L
+Sbjct  2    NMGGSSSTAAKKATCKISMLWNWYTIDTCFIARSWRNDTKGKFAGSCIGCFALVVVAQWL  61
+
+Query  87   KIARESLLRKSQVSIRYNSMPVPGPNGTIL  116
+                     +     +   +    P   ++
+Sbjct  62   TRFSRQFDVELLKRQKIKHLASYSPEEYVV  91
+
+
+> sp|Q7XTF8|COPT6_ORYSJ Copper transporter 6 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=COPT6 PE=2 SV=1
+Length=184
+
+ Score = 66.0 bits (159),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 40/169 (24%), Positives = 63/169 (37%), Gaps = 20/169 (12%)
+
+Query  7    MGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVI-NT  65
+            MG   M   +   P   H T +A           MMM MTF++  + V +L  G      
+Sbjct  4    MGDDGMGPMAMAPPRSGHATAAAP--PPPQHKMAMMMHMTFFWSDRAV-VLIRGWPGERG  60
+
+Query  66   AGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQ  125
+            AG  A   + V  LA   EGL +    L R+   +   +         +           
+Sbjct  61   AGMYALCLLFVLALAALTEGLSVLSRRLARRGGGAASSDGGRPAPAPASSAA--------  112
+
+Query  126  QMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFL  174
+                    L T +H  ++ ++Y +ML  M++N  + +A  AG   G+ L
+Sbjct  113  --------LLTAVHAARMGMAYLVMLAVMSFNVGVLLAAVAGHALGFLL  153
+
+
+> sp|Q6Z0Q9|COP52_ORYSJ Putative copper transporter 5.2 OS=Oryza 
+sativa subsp. japonica OX=39947 GN=COPT5.2 PE=3 SV=1
+Length=176
+
+ Score = 60.3 bits (144),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 33/154 (21%), Positives = 55/154 (36%), Gaps = 21/154 (14%)
+
+Query  42   MMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSI  101
+            MM M+FY+G  +V +LF G   +       + +A+FL A  Y+ L+  R  L    +   
+Sbjct  1    MMHMSFYWG-TSVTILFDGWRTSGWPGYLASLLALFLAAALYQHLEARRVRLRAGRRHRA  59
+
+Query  102  RYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQV------------------  143
+                       G ++            +   L   +    +                   
+Sbjct  60   GGGGGAASSAAGPVVPAASDARALLSAAGGRLGLGLGLGRRWMKEPRAAASAAAAALFGL  119
+
+Query  144  --VISYFLMLIFMTYNGYLCIAVAAGAGTGYFLF  175
+               + Y LML  M++NG + +AV AG   G+  F
+Sbjct  120  SAAVGYLLMLAVMSFNGGVFLAVVAGLAAGHLAF  153
+
+
+> sp|Q59NP1|CTR1_CANAL Copper transport protein CTR1 OS=Candida 
+albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=CTR1 
+PE=1 SV=1
+Length=251
+
+ Score = 53.3 bits (126),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 40/182 (22%), Positives = 58/182 (32%), Gaps = 40/182 (22%)
+
+Query  30   SHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIA  89
+               HG   SS M M M     FK+  ++F  L  +T  +  G FV +F +A     L+  
+Sbjct  54   GMDHG---SSHMAMNMWLTASFKDYPVVFKDLRASTKAQAFGIFVLLFFVAFLARMLEFV  110
+
+Query  90   RESLLRKSQVSIRY-------------------------------------NSMPVPGPN  112
+            R  L      +  Y                                              
+Sbjct  111  RNYLEEIVWKNNNYAEVEQGISQHSANLQSPPVKSCCDDNAKEVVSDESIDKQNSPQHEE  170
+
+Query  113  GTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGY  172
+             T    T K++         +++  L II  + +Y LML  MTY      AV  G+G G 
+Sbjct  171  TTKARGTGKSLSLASTISRDIIRLALCIIPDLFAYSLMLAAMTYTLTYFFAVVIGSGVGR  230
+
+Query  173  FL  174
+            F+
+Sbjct  231  FV  232
+
+
+> sp|Q10KT6|COPT4_ORYSJ Copper transporter 4 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=COPT4 PE=3 SV=1
+Length=183
+
+ Score = 49.1 bits (115),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 29/138 (21%), Positives = 57/138 (41%), Gaps = 23/138 (17%)
+
+Query  41   MMMPMT----FYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRK  96
+            M MPMT    F +G + V +LF     + AG      V ++               LL  
+Sbjct  26   MAMPMTTGMSFTWGHRAV-VLFPRWPGDRAG------VGMYF------------LCLLLV  66
+
+Query  97   SQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTY  156
+              ++    ++        + ++  ++ G++      LL   +H  ++ ++Y +ML  M++
+Sbjct  67   LALAALAEALSAASRRLDLDLDLSRSRGRRRRRRQQLLAAGVHAARMGLAYLVMLAVMSF  126
+
+Query  157  NGYLCIAVAAGAGTGYFL  174
+            N  + +A  AG   G+ L
+Sbjct  127  NAGVLLAAVAGHAAGFLL  144
+
+
+> sp|Q5ZD08|COPT3_ORYSJ Copper transporter 3 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=COPT3 PE=2 SV=1
+Length=150
+
+ Score = 41.0 bits (94),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 35/133 (26%), Positives = 47/133 (35%), Gaps = 30/133 (23%)
+
+Query  43   MPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIR  102
+            M MTFY+G KN E+LF+G    + G  A A  AVF LA+  E L          S     
+Sbjct  28   MHMTFYWG-KNSEILFTGWPGASGGMYALALAAVFALAVLLEFL---------GSPRVQE  77
+
+Query  103  YNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCI  162
+             +S+       T        VG   L                         M++N  + +
+Sbjct  78   SSSLGSRRRRATAAAVHAVRVGLAYLLMLA--------------------LMSFNVGVLL  117
+
+Query  163  AVAAGAGTGYFLF  175
+            A  AG   G+  F
+Sbjct  118  AAVAGHAAGFLAF  130
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.118    0.313    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0362    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10889729641
+Results from round 3
+
+
+Query= O15431|2ls2A
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O15431|COPT1_HUMAN High affinity copper uptake protein 1 OS=...  209     8e-67
+  sp|Q5RAS6|COPT1_PONAB High affinity copper uptake protein 1 OS=...  208     2e-66
+  sp|Q8K211|COPT1_MOUSE High affinity copper uptake protein 1 OS=...  189     5e-59
+  sp|Q9JK41|COPT1_RAT High affinity copper uptake protein 1 OS=Ra...  187     2e-58
+  sp|Q8WNR0|COPT1_PIG High affinity copper uptake protein 1 OS=Su...  183     1e-56
+  sp|J9VLN4|CTR4_CRYNH Copper transport protein CTR4 OS=Cryptococ...  136     3e-38
+  sp|P38865|CTR2_YEAST Copper transport protein CTR2 OS=Saccharom...  135     7e-38
+  sp|O94722|CTR4_SCHPO Copper transport protein ctr4 OS=Schizosac...  136     2e-37
+  sp|Q9P7F9|CTR5_SCHPO Copper transport protein ctr5 OS=Schizosac...  125     2e-34
+  sp|Q93VM8|COPT5_ARATH Copper transporter 5 OS=Arabidopsis thali...  114     2e-30
+  sp|Q8GWP3|COPT6_ARATH Copper transporter 6 OS=Arabidopsis thali...  113     6e-30
+  sp|Q39065|COPT1_ARATH Copper transporter 1 OS=Arabidopsis thali...  112     2e-29
+  sp|Q7YXD4|P80_DICDI Protein P80 OS=Dictyostelium discoideum OX=...  115     9e-29
+  sp|Q59NP1|CTR1_CANAL Copper transport protein CTR1 OS=Candida a...  103     2e-25
+  sp|Q9STG2|COPT2_ARATH Copper transporter 2 OS=Arabidopsis thali...  99.2    2e-24
+  sp|Q94EE4|COPT1_ORYSJ Copper transporter 1 OS=Oryza sativa subs...  96.1    2e-23
+  sp|Q8SAA5|COPT4_ARATH Copper transporter 4 OS=Arabidopsis thali...  95.0    5e-23
+  sp|Q60EN8|COPT2_ORYSJ Copper transporter 2 OS=Oryza sativa subs...  92.7    4e-22
+  sp|Q69P80|COP51_ORYSJ Copper transporter 5.1 OS=Oryza sativa su...  92.3    6e-22
+  sp|Q9CPU9|COPT2_MOUSE Probable low affinity copper uptake prote...  91.1    1e-21
+  sp|Q06686|CTR3_YEAST Copper transport protein CTR3 OS=Saccharom...  92.3    3e-21
+  sp|Q9USV7|CTR6_SCHPO Copper transport protein ctr6 OS=Schizosac...  89.6    5e-21
+  sp|Q7XTF8|COPT6_ORYSJ Copper transporter 6 OS=Oryza sativa subs...  87.7    5e-20
+  sp|Q9FGU8|COPT3_ARATH Copper transporter 3 OS=Arabidopsis thali...  85.0    2e-19
+  sp|O15432|COPT2_HUMAN Probable low affinity copper uptake prote...  83.0    1e-18
+  sp|Q6Z0Q9|COP52_ORYSJ Putative copper transporter 5.2 OS=Oryza ...  72.2    1e-14
+  sp|Q10KT6|COPT4_ORYSJ Copper transporter 4 OS=Oryza sativa subs...  65.7    3e-12
+  sp|Q5ZD08|COPT3_ORYSJ Copper transporter 3 OS=Oryza sativa subs...  51.4    2e-07
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P49573|CTR1_YEAST Copper transport protein CTR1 OS=Saccharom...  52.2    5e-07
+
+
+> sp|O15431|COPT1_HUMAN High affinity copper uptake protein 1 OS=Homo 
+sapiens OX=9606 GN=SLC31A1 PE=1 SV=1
+Length=190
+
+ Score = 209 bits (532),  Expect = 8e-67, Method: Composition-based stats.
+ Identities = 190/190 (100%), Positives = 190/190 (100%), Gaps = 0/190 (0%)
+
+Query  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+            MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG
+Sbjct  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+
+Query  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+            LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH
+Sbjct  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+
+Query  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+            KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA
+Sbjct  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+
+Query  181  VVVDITEHCH  190
+            VVVDITEHCH
+Sbjct  181  VVVDITEHCH  190
+
+
+> sp|Q5RAS6|COPT1_PONAB High affinity copper uptake protein 1 OS=Pongo 
+abelii OX=9601 GN=SLC31A1 PE=2 SV=1
+Length=190
+
+ Score = 208 bits (530),  Expect = 2e-66, Method: Composition-based stats.
+ Identities = 189/190 (99%), Positives = 189/190 (99%), Gaps = 0/190 (0%)
+
+Query  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+            MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHS GGGDSSMMMMPMTFYFGFKNVELLFSG
+Sbjct  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSRGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+
+Query  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+            LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH
+Sbjct  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+
+Query  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+            KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA
+Sbjct  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKA  180
+
+Query  181  VVVDITEHCH  190
+            VVVDITEHCH
+Sbjct  181  VVVDITEHCH  190
+
+
+> sp|Q8K211|COPT1_MOUSE High affinity copper uptake protein 1 OS=Mus 
+musculus OX=10090 GN=Slc31a1 PE=2 SV=1
+Length=196
+
+ Score = 189 bits (480),  Expect = 5e-59, Method: Composition-based stats.
+ Identities = 169/179 (94%), Positives = 169/179 (94%), Gaps = 2/179 (1%)
+
+Query  12   MDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAG  71
+             D N TM P HHHPTTSASHSHGGGD SMMMMPMTFYF FKNV LLFSGLVINT GEMAG
+Sbjct  20   TDDNITMPP-HHHPTTSASHSHGGGD-SMMMMPMTFYFDFKNVNLLFSGLVINTPGEMAG  77
+
+Query  72   AFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFP  131
+            AFVAVFLLAMFYEGLKIARE LLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFP
+Sbjct  78   AFVAVFLLAMFYEGLKIAREGLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFP  137
+
+Query  132  HLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEHCH  190
+            HLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEHCH
+Sbjct  138  HLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEHCH  196
+
+
+> sp|Q9JK41|COPT1_RAT High affinity copper uptake protein 1 OS=Rattus 
+norvegicus OX=10116 GN=Slc31a1 PE=2 SV=1
+Length=187
+
+ Score = 187 bits (475),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 167/186 (90%), Positives = 170/186 (91%), Gaps = 7/186 (4%)
+
+Query  5    HHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVIN  64
+            HHMGM++ D N TM P H HPTTSASHSH       MMMPMTFYFGFKNV+LLFS LVIN
+Sbjct  9    HHMGMNHTDDNITMPP-HQHPTTSASHSHE------MMMPMTFYFGFKNVDLLFSSLVIN  61
+
+Query  65   TAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVG  124
+            T GEMAGAFVAVFLLAMFYEGLKIARE LLRKSQVSIRYNSMPVPGPNGTILMETHKTVG
+Sbjct  62   TPGEMAGAFVAVFLLAMFYEGLKIAREGLLRKSQVSIRYNSMPVPGPNGTILMETHKTVG  121
+
+Query  125  QQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVD  184
+            QQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVD
+Sbjct  122  QQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVD  181
+
+Query  185  ITEHCH  190
+            ITEHCH
+Sbjct  182  ITEHCH  187
+
+
+> sp|Q8WNR0|COPT1_PIG High affinity copper uptake protein 1 OS=Sus 
+scrofa OX=9823 GN=SLC31A1 PE=2 SV=1
+Length=189
+
+ Score = 183 bits (464),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 168/196 (86%), Positives = 174/196 (89%), Gaps = 13/196 (7%)
+
+Query  1    MDHSHHMGMSY------MDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNV  54
+            MDHS HMGMS       M+ ++TM PSHHHPT+S SH         MMMPMTFYFGFK V
+Sbjct  1    MDHSAHMGMSTHMGMSDMNHSTTMPPSHHHPTSSGSHES-------MMMPMTFYFGFKKV  53
+
+Query  55   ELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGT  114
+            E+LF+GLVINTAGEMAGAFVAVFLLAMFYEGLKIARE LLRKSQVSIRYNSMPVPGPNGT
+Sbjct  54   EVLFAGLVINTAGEMAGAFVAVFLLAMFYEGLKIAREGLLRKSQVSIRYNSMPVPGPNGT  113
+
+Query  115  ILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFL  174
+            ILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFL
+Sbjct  114  ILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFL  173
+
+Query  175  FSWKKAVVVDITEHCH  190
+            FSWKKAVVVDITEHCH
+Sbjct  174  FSWKKAVVVDITEHCH  189
+
+
+> sp|J9VLN4|CTR4_CRYNH Copper transport protein CTR4 OS=Cryptococcus 
+neoformans var. grubii serotype A (strain H99 / ATCC 208821 
+/ CBS 10515 / FGSC 9487) OX=235443 GN=CTR4 PE=1 SV=2
+Length=199
+
+ Score = 136 bits (342),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 32/170 (19%), Positives = 56/170 (33%), Gaps = 10/170 (6%)
+
+Query  22   HHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAM  81
+            H+H   +    HG        + M   F   +   L     I + G  AG+ + +F L +
+Sbjct  18   HNHSHMNMGSGHGADSGHACRISMLLNFNTVDACFLSPNWHIRSKGMFAGSIIGIFFLCV  77
+
+Query  82   FYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHL--------  133
+              E ++       R        NS      +     +     G  +   P          
+Sbjct  78   LIELIRRLGREFDRWLVKRAGVNSTCGELSSVAEYGKDGAQGGAVVRVAPRFRYVPSWPH  137
+
+Query  134  --LQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAV  181
+              L+  ++  Q   ++F+ML+ M +N  + I +  G   GY LF      
+Sbjct  138  QILRGFIYGSQFTAAFFVMLLGMYFNVIVLIFIFLGQTVGYMLFGRDTCG  187
+
+
+> sp|P38865|CTR2_YEAST Copper transport protein CTR2 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CTR2 
+PE=1 SV=1
+Length=189
+
+ Score = 135 bits (338),  Expect = 7e-38, Method: Composition-based stats.
+ Identities = 54/188 (29%), Positives = 85/188 (45%), Gaps = 27/188 (14%)
+
+Query  10   SYMDSNSTMQPSHHHPTTSASHSHG----GGDSSMMMMPMTFYFGFKNVELLFSGLVINT  65
+            S +  +  M   +H    +A H H     G       M M F + +KN  ++F    I T
+Sbjct  22   SLIGYSKKMDSMNHKMEGNAGHDHSDMHMGDGDDTCSMNMLFSWSYKNTCVVFEWWHIKT  81
+
+Query  66   AGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQ  125
+               +  + +A+F LA  YE LK      + K Q+S R   + +P  + T + +  K    
+Sbjct  82   LPGLILSCLAIFGLAYLYEYLKYC----VHKRQLSQR---VLLPNRSLTKINQADKVS--  132
+
+Query  126  QMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDI  185
+                      ++L+ +QV  S+ LML+FMTYNG+L +AV  GA  G   +SW  +   +I
+Sbjct  133  ---------NSILYGLQVGFSFMLMLVFMTYNGWLMLAVVCGAIWGN--YSWCTSYSPEI  181
+
+Query  186  TEH---CH  190
+             +    CH
+Sbjct  182  DDSSLACH  189
+
+
+> sp|O94722|CTR4_SCHPO Copper transport protein ctr4 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ctr4 
+PE=1 SV=1
+Length=289
+
+ Score = 136 bits (342),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 33/180 (18%), Positives = 69/180 (38%), Gaps = 10/180 (6%)
+
+Query  6    HMGMSYMDSNSTMQPSHHHPTTSASHSHGG------GDSSMMMMPMTFYFGFKNVELLFS  59
+              GM+  +S ++M   +   +T++              +S   + M + +   +   +  
+Sbjct  77   MSGMNMTNSTTSMSGMNMSNSTTSMSGMNMTNTTTTAKASSCKLSMYWNWYTIDACFITK  136
+
+Query  60   GLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMET  119
+               I +     G+   +  + M  E ++  +    R      R++  P            
+Sbjct  137  HWHITSKHMFVGSIFGIIFMMMALELVRRGQREFDR--WCVRRFS--PASNSCCHSGAPV  192
+
+Query  120  HKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKK  179
+            H      +  F H L++  +++Q +++Y  ML+ M YNGY+ + +  G   GYFLF    
+Sbjct  193  HSGPSMALRIFLHFLRSCFYLVQYIVAYIAMLLAMYYNGYVILFLFCGTFFGYFLFGADT  252
+
+
+> sp|Q9P7F9|CTR5_SCHPO Copper transport protein ctr5 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ctr5 
+PE=1 SV=1
+Length=173
+
+ Score = 125 bits (314),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 36/152 (24%), Positives = 61/152 (40%), Gaps = 6/152 (4%)
+
+Query  38   SSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKS  97
+            ++   M M + +   +   L     INT  + AG+ + +F  A+  EGL + +    R  
+Sbjct  24   AATCRMSMLWNWYIHDSCFLAKSWHINTGNKFAGSIIGIFFFAVAIEGLSLVQRMFDRWI  83
+
+Query  98   QVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYN  157
+                   ++  P          H TV QQ      L++  ++    + +  LMLI M++N
+Sbjct  84   VAHSNGKTLSGPLRIFFPSSTVHVTVWQQ------LIRAAMYSSFYLSATILMLIVMSFN  137
+
+Query  158  GYLCIAVAAGAGTGYFLFSWKKAVVVDITEHC  189
+            GY  +    GA  G+FLF+            C
+Sbjct  138  GYAILFGFVGAWIGFFLFASDTYGTPSTGTGC  169
+
+
+> sp|Q93VM8|COPT5_ARATH Copper transporter 5 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT5 PE=1 SV=1
+Length=146
+
+ Score = 114 bits (284),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 40/146 (27%), Positives = 59/146 (40%), Gaps = 6/146 (4%)
+
+Query  42   MMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSI  101
+            MM MTFY+G K   +LF     ++        +A F+ + FY+ L+  R     KS  S 
+Sbjct  1    MMHMTFYWGIKAT-ILFDFWKTDSWLSYILTLIACFVFSAFYQYLENRRIQF--KSLSSS  57
+
+Query  102  RYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLC  161
+            R    P    +G       K+      S       +L  +   I Y LML  M++NG + 
+Sbjct  58   RRAPPPPRSSSGVSAPLIPKSG---TRSAAKAASVLLFGVNAAIGYLLMLAAMSFNGGVF  114
+
+Query  162  IAVAAGAGTGYFLFSWKKAVVVDITE  187
+            IA+  G   GY +F          T+
+Sbjct  115  IAIVVGLTAGYAVFRSDDGGADTATD  140
+
+
+> sp|Q8GWP3|COPT6_ARATH Copper transporter 6 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT6 PE=2 SV=1
+Length=145
+
+ Score = 113 bits (281),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 49/174 (28%), Positives = 77/174 (44%), Gaps = 36/174 (21%)
+
+Query  14   SNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAF  73
+             +  M PS   P++  +H+    +S+M+MM MTF++G KN E+LFSG    + G      
+Sbjct  2    DHGNMPPSS--PSSMVNHT----NSNMIMMHMTFFWG-KNTEILFSGWPGTSLGMYVLCL  54
+
+Query  74   VAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHL  133
+            + VFLLA+  E L  A  S+LR    + R                              L
+Sbjct  55   IVVFLLAVIVEWL--AHSSILRGRGSTSRAKG---------------------------L  85
+
+Query  134  LQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITE  187
+            +QT ++ ++  ++Y +ML  M++NG + I   AG   G+ LF           E
+Sbjct  86   VQTAVYTLKTGLAYLVMLAVMSFNGGVFIVAIAGFAVGFMLFGSTAFKNPSDDE  139
+
+
+> sp|Q39065|COPT1_ARATH Copper transporter 1 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT1 PE=2 SV=2
+Length=170
+
+ Score = 112 bits (279),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 54/179 (30%), Positives = 80/179 (45%), Gaps = 29/179 (16%)
+
+Query  1    MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSG  60
+            MDH H  GM    S+S+  PS      S +   GG     MMM MTF++G KN E+LFSG
+Sbjct  1    MDHDHMHGMPRPSSSSSSSPSSMMNNGSMN-EGGGHHHMKMMMHMTFFWG-KNTEVLFSG  58
+
+Query  61   LVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETH  120
+                ++G  A   + VF LA+  E L  A  SLLR                         
+Sbjct  59   WPGTSSGMYALCLIFVFFLAVLTEWL--AHSSLLRG------------------------  92
+
+Query  121  KTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKK  179
+             + G        L+QT ++ +++ ++Y +ML  M++N  + +   AG   G+ LF  + 
+Sbjct  93   -STGDSANRAAGLIQTAVYTLRIGLAYLVMLAVMSFNAGVFLVALAGHAVGFMLFGSQT  150
+
+
+> sp|Q7YXD4|P80_DICDI Protein P80 OS=Dictyostelium discoideum OX=44689 
+GN=p80 PE=2 SV=1
+Length=530
+
+ Score = 115 bits (288),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 40/149 (27%), Positives = 69/149 (46%), Gaps = 7/149 (5%)
+
+Query  38   SSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKS  97
+             ++ +M M F+ G  +  +LF   V  T  + AG++ A+F  A+F+E  K  R  L +  
+Sbjct  386  DAVPIMRMYFHTGILDY-ILFKSWVPRTDRQFAGSWFAIFFFAIFFELEKTLRSILEK--  442
+
+Query  98   QVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYN  157
+                R+        +  ++  +  +      S+  +++  LH I++  SY LML+ MT+N
+Sbjct  443  ----RWTPNKKDSEDNNLINSSFLSGSYPKFSYRDIIRGCLHAIELTCSYALMLVAMTFN  498
+
+Query  158  GYLCIAVAAGAGTGYFLFSWKKAVVVDIT  186
+              L  AV AG   G  LF   +     +T
+Sbjct  499  VALFFAVIAGVLVGNILFGRYRNYTPRVT  527
+
+
+> sp|Q59NP1|CTR1_CANAL Copper transport protein CTR1 OS=Candida 
+albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=CTR1 
+PE=1 SV=1
+Length=251
+
+ Score = 103 bits (256),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 40/182 (22%), Positives = 58/182 (32%), Gaps = 40/182 (22%)
+
+Query  30   SHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIA  89
+               HG   SS M M M     FK+  ++F  L  +T  +  G FV +F +A     L+  
+Sbjct  54   GMDHG---SSHMAMNMWLTASFKDYPVVFKDLRASTKAQAFGIFVLLFFVAFLARMLEFV  110
+
+Query  90   RESLLRKSQVSIRY-------------------------------------NSMPVPGPN  112
+            R  L      +  Y                                              
+Sbjct  111  RNYLEEIVWKNNNYAEVEQGISQHSANLQSPPVKSCCDDNAKEVVSDESIDKQNSPQHEE  170
+
+Query  113  GTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGY  172
+             T    T K++         +++  L II  + +Y LML  MTY      AV  G+G G 
+Sbjct  171  TTKARGTGKSLSLASTISRDIIRLALCIIPDLFAYSLMLAAMTYTLTYFFAVVIGSGVGR  230
+
+Query  173  FL  174
+            F+
+Sbjct  231  FV  232
+
+
+> sp|Q9STG2|COPT2_ARATH Copper transporter 2 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT2 PE=2 SV=1
+Length=158
+
+ Score = 99.2 bits (245),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 39/141 (28%), Positives = 60/141 (43%), Gaps = 30/141 (21%)
+
+Query  47   FYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSM  106
+            F++G KN E+LFSG    ++G  A   + +FLLA+  E L  A   +LR S  + R    
+Sbjct  34   FFWG-KNTEVLFSGWPGTSSGMYALCLIVIFLLAVIAEWL--AHSPILRVSGSTNRAAG-  89
+
+Query  107  PVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAA  166
+                                      L QT ++ ++  +SY +ML  M++N  + I   A
+Sbjct  90   --------------------------LAQTAVYTLKTGLSYLVMLAVMSFNAGVFIVAIA  123
+
+Query  167  GAGTGYFLFSWKKAVVVDITE  187
+            G G G+FLF           +
+Sbjct  124  GYGVGFFLFGSTTFKKPSDDQ  144
+
+
+> sp|Q94EE4|COPT1_ORYSJ Copper transporter 1 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=COPT1 PE=2 SV=1
+Length=161
+
+ Score = 96.1 bits (237),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 38/158 (24%), Positives = 61/158 (39%), Gaps = 26/158 (16%)
+
+Query  18   MQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVF  77
+            M         +A+    G   SM    MTF++G KN E+LF+       G  A A + VF
+Sbjct  8    MGGMSPPAAGAAAQGGMGAMKSMRYTHMTFFWG-KNSEVLFTMWPGTRGGMYALALIFVF  66
+
+Query  78   LLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTV  137
+             LA+  E L   R                                + ++  +   L +  
+Sbjct  67   ALAVIVEFLGSRR-------------------------ADACLAALARRAPAAGGLARAA  101
+
+Query  138  LHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLF  175
+            +H ++V ++Y LML  M++NG + +   AG   G+  F
+Sbjct  102  VHTVRVGVAYLLMLALMSFNGGVFLVAVAGHAAGFLAF  139
+
+
+> sp|Q8SAA5|COPT4_ARATH Copper transporter 4 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT4 PE=2 SV=2
+Length=145
+
+ Score = 95.0 bits (234),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 29/135 (21%), Positives = 54/135 (40%), Gaps = 28/135 (21%)
+
+Query  41   MMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVS  100
+             ++  TFY+G+ N ++LFSG   +  G  A A + VF LA   E L              
+Sbjct  28   SLLHPTFYWGY-NCQVLFSGWPGSDRGMYALALIFVFFLAFLAEWLARCS----------  76
+
+Query  101  IRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYL  160
+                              + K    ++       +T ++ ++   SY ++L  +++NG +
+Sbjct  77   ---------------DASSIKQGADKLAKVA--FRTAMYTVKSGFSYLVILAVVSFNGGV  119
+
+Query  161  CIAVAAGAGTGYFLF  175
+             +A   G   G+ +F
+Sbjct  120  FLAAIFGHALGFAVF  134
+
+
+> sp|Q60EN8|COPT2_ORYSJ Copper transporter 2 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=COPT2 PE=1 SV=1
+Length=151
+
+ Score = 92.7 bits (228),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 33/155 (21%), Positives = 57/155 (37%), Gaps = 28/155 (18%)
+
+Query  21   SHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLA  80
+                    A             M MTF++G KN E+LF+       G  A A + +F LA
+Sbjct  1    MDMGGNGMAMPPPPAPVKKARYMHMTFFWG-KNTEVLFTLWPGARGGMYALAILFMFALA  59
+
+Query  81   MFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHI  140
+            +  E                                +   +   ++       L+T +H 
+Sbjct  60   VLLEF---------------------------RGYRVLEARLARRRAPRAAAALRTAVHA  92
+
+Query  141  IQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLF  175
+            ++V ++Y +ML  M++NG + +A+ AG   G+  F
+Sbjct  93   VRVGVAYLIMLALMSFNGGVFLAIVAGHAAGFLAF  127
+
+
+> sp|Q69P80|COP51_ORYSJ Copper transporter 5.1 OS=Oryza sativa 
+subsp. japonica OX=39947 GN=COPT5.1 PE=2 SV=1
+Length=149
+
+ Score = 92.3 bits (227),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 39/134 (29%), Positives = 57/134 (43%), Gaps = 3/134 (2%)
+
+Query  42   MMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSI  101
+            MM MTFY+G K+V +LF G    T      + VA+ L + FY+ L+  R  +  K     
+Sbjct  1    MMHMTFYWG-KDVTILFDGWRTATWTGYLLSLVALLLASAFYQYLEAFRIRV--KLLAGA  57
+
+Query  102  RYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLC  161
+            +  S+P P  +                    L    L  +   + Y LML  M++NG + 
+Sbjct  58   KPASIPPPASSDAARAPLLLPSSAAGRWPARLATAGLFGVNSGLGYLLMLAVMSFNGGVF  117
+
+Query  162  IAVAAGAGTGYFLF  175
+            +AV  G   GY  F
+Sbjct  118  VAVVVGLAAGYLAF  131
+
+
+> sp|Q9CPU9|COPT2_MOUSE Probable low affinity copper uptake protein 
+2 OS=Mus musculus OX=10090 GN=Slc31a2 PE=1 SV=1
+Length=143
+
+ Score = 91.1 bits (224),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 47/141 (33%), Positives = 73/141 (52%), Gaps = 15/141 (11%)
+
+Query  43   MPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIR  102
+            MPM F F  + V LLF    +++   MA + + V LLA+ YEG+K+ +  LL K+     
+Sbjct  1    MPMHFIFSDEAV-LLFDFWRVHSPTGMALSVLVVLLLAVLYEGIKVGKAKLLHKTL----  55
+
+Query  103  YNSMPVPGPNGTILMETHKTVGQQMLS---------FPHLLQTVLHIIQVVISYFLMLIF  153
+              S+P       IL     + G +  S           +  Q+++H+IQVVI YF+ML  
+Sbjct  56   -ESLPATNSQQFILGPDQDSTGSRSTSDNRTRLRWFLCYFGQSLVHVIQVVIGYFVMLAV  114
+
+Query  154  MTYNGYLCIAVAAGAGTGYFL  174
+            M+YN ++ + V  G+  GY+L
+Sbjct  115  MSYNTWIFLGVVLGSAVGYYL  135
+
+
+> sp|Q06686|CTR3_YEAST Copper transport protein CTR3 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CTR3 
+PE=1 SV=1
+Length=241
+
+ Score = 92.3 bits (227),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 10/90 (11%), Positives = 27/90 (30%), Gaps = 0/90 (0%)
+
+Query  27   TSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGL  86
+                 S      +   + M + +   +   +      +T G+ AG+ +  F L +  + L
+Sbjct  2    NMGGSSSTAAKKATCKISMLWNWYTIDTCFIARSWRNDTKGKFAGSCIGCFALVVVAQWL  61
+
+Query  87   KIARESLLRKSQVSIRYNSMPVPGPNGTIL  116
+                     +     +   +    P   ++
+Sbjct  62   TRFSRQFDVELLKRQKIKHLASYSPEEYVV  91
+
+
+ Score = 65.7 bits (158),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 32/51 (63%), Gaps = 0/51 (0%)
+
+Query  132  HLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVV  182
+            H+++  + ++Q  +SY +ML+FM YNGY+ I+   GA  G F+F ++    
+Sbjct  167  HMIRVTIFVLQWGLSYIIMLLFMYYNGYIIISCLIGAIVGRFIFCYEPLGS  217
+
+
+> sp|Q9USV7|CTR6_SCHPO Copper transport protein ctr6 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ctr6 
+PE=1 SV=1
+Length=148
+
+ Score = 89.6 bits (220),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 38/143 (27%), Positives = 65/143 (45%), Gaps = 11/143 (8%)
+
+Query  31   HSHGGGDSS-MMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIA  89
+             +HGG  +     M MTF   + N+ ++F    I    +   + +A+ +L   +E L+  
+Sbjct  1    MNHGGNSTMRHCSMKMTFNTDYDNLCIVFKSWHIGNLSQFLLSLLAIAILGYLFERLR--  58
+
+Query  90   RESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFL  149
+              + L++++    Y      G              + + S        L+ +Q+V SYFL
+Sbjct  59   SFTSLKETEFQRGYAGQQSEGLLTHH--------SKSLKSGRPFRLCALYAVQLVFSYFL  110
+
+Query  150  MLIFMTYNGYLCIAVAAGAGTGY  172
+            ML+ MTYN Y+ +A+A GA  GY
+Sbjct  111  MLVAMTYNAYVILAIAIGAAFGY  133
+
+
+> sp|Q7XTF8|COPT6_ORYSJ Copper transporter 6 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=COPT6 PE=2 SV=1
+Length=184
+
+ Score = 87.7 bits (215),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 40/169 (24%), Positives = 62/169 (37%), Gaps = 20/169 (12%)
+
+Query  7    MGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVI-NT  65
+            MG   M   +   P   H   +A+          MMM MTF++  + V +L  G      
+Sbjct  4    MGDDGMGPMAMAPPRSGH--ATAAAPPPPQHKMAMMMHMTFFWSDRAV-VLIRGWPGERG  60
+
+Query  66   AGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQ  125
+            AG  A   + V  LA   EGL +    L R                 G     +      
+Sbjct  61   AGMYALCLLFVLALAALTEGLSVLSRRLAR----------------RGGGAASSDGGRPA  104
+
+Query  126  QMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFL  174
+               +    L T +H  ++ ++Y +ML  M++N  + +A  AG   G+ L
+Sbjct  105  PAPASSAALLTAVHAARMGMAYLVMLAVMSFNVGVLLAAVAGHALGFLL  153
+
+
+> sp|Q9FGU8|COPT3_ARATH Copper transporter 3 OS=Arabidopsis thaliana 
+OX=3702 GN=COPT3 PE=2 SV=1
+Length=151
+
+ Score = 85.0 bits (208),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 33/152 (22%), Positives = 54/152 (36%), Gaps = 31/152 (20%)
+
+Query  37   DSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRK  96
+                 MM MTF++G K  E+LF G    +          +F+++ F E L          
+Sbjct  24   HRHGGMMHMTFFWG-KTTEVLFDGWPGTSLKMYWVCLAVIFVISAFSECLSRCGFM----  78
+
+Query  97   SQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTY  156
+                                                LLQT ++ ++  +SY +ML  M++
+Sbjct  79   --------------------------KSGPASLGGGLLQTAVYTVRAALSYLVMLAVMSF  112
+
+Query  157  NGYLCIAVAAGAGTGYFLFSWKKAVVVDITEH  188
+            NG + +A  AG G G+ +F  +         H
+Sbjct  113  NGGVFVAAMAGFGLGFMIFGSRAFRATSSNSH  144
+
+
+> sp|O15432|COPT2_HUMAN Probable low affinity copper uptake protein 
+2 OS=Homo sapiens OX=9606 GN=SLC31A2 PE=1 SV=1
+Length=143
+
+ Score = 83.0 bits (203),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 44/141 (31%), Positives = 69/141 (49%), Gaps = 15/141 (11%)
+
+Query  43   MPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIR  102
+            M M F F    V LLF    +++   MA + + + LLA+ YEG+K+ +  LL +  V+  
+Sbjct  1    MAMHFIFSDTAV-LLFDFWSVHSPAGMALSVLVLLLLAVLYEGIKVGKAKLLNQVLVN--  57
+
+Query  103  YNSMPVPGPNGTILMETHKTVGQQMLS---------FPHLLQTVLHIIQVVISYFLMLIF  153
+               +P      TI      + G                H  Q+++H+IQVVI YF+ML  
+Sbjct  58   ---LPTSISQQTIAETDGDSAGSDSFPVGRTHHRWYLCHFGQSLIHVIQVVIGYFIMLAV  114
+
+Query  154  MTYNGYLCIAVAAGAGTGYFL  174
+            M+YN ++ + V  G+  GY+L
+Sbjct  115  MSYNTWIFLGVVLGSAVGYYL  135
+
+
+> sp|Q6Z0Q9|COP52_ORYSJ Putative copper transporter 5.2 OS=Oryza 
+sativa subsp. japonica OX=39947 GN=COPT5.2 PE=3 SV=1
+Length=176
+
+ Score = 72.2 bits (175),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 33/154 (21%), Positives = 55/154 (36%), Gaps = 21/154 (14%)
+
+Query  42   MMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSI  101
+            MM M+FY+G  +V +LF G   +       + +A+FL A  Y+ L+  R  L    +   
+Sbjct  1    MMHMSFYWGT-SVTILFDGWRTSGWPGYLASLLALFLAAALYQHLEARRVRLRAGRRHRA  59
+
+Query  102  RYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQV------------------  143
+                       G ++            +   L   +    +                   
+Sbjct  60   GGGGGAASSAAGPVVPAASDARALLSAAGGRLGLGLGLGRRWMKEPRAAASAAAAALFGL  119
+
+Query  144  --VISYFLMLIFMTYNGYLCIAVAAGAGTGYFLF  175
+               + Y LML  M++NG + +AV AG   G+  F
+Sbjct  120  SAAVGYLLMLAVMSFNGGVFLAVVAGLAAGHLAF  153
+
+
+> sp|Q10KT6|COPT4_ORYSJ Copper transporter 4 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=COPT4 PE=3 SV=1
+Length=183
+
+ Score = 65.7 bits (158),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 27/140 (19%), Positives = 58/140 (41%), Gaps = 19/140 (14%)
+
+Query  35   GGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLL  94
+             G +  M   M+F +G + V +LF     + AG      V ++ L +            L
+Sbjct  24   PGMAMPMTTGMSFTWGHRAV-VLFPRWPGDRAG------VGMYFLCL------------L  64
+
+Query  95   RKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFM  154
+                ++    ++        + ++  ++ G++      LL   +H  ++ ++Y +ML  M
+Sbjct  65   LVLALAALAEALSAASRRLDLDLDLSRSRGRRRRRRQQLLAAGVHAARMGLAYLVMLAVM  124
+
+Query  155  TYNGYLCIAVAAGAGTGYFL  174
+            ++N  + +A  AG   G+ L
+Sbjct  125  SFNAGVLLAAVAGHAAGFLL  144
+
+
+> sp|Q5ZD08|COPT3_ORYSJ Copper transporter 3 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=COPT3 PE=2 SV=1
+Length=150
+
+ Score = 51.4 bits (121),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 36/156 (23%), Positives = 48/156 (31%), Gaps = 30/156 (19%)
+
+Query  20   PSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLL  79
+              H      A  + GG       M MTFY+G KN E+LF+G    + G  A A  AVF L
+Sbjct  5    GRHGMAMAMAPAAAGGAGRRKRYMHMTFYWG-KNSEILFTGWPGASGGMYALALAAVFAL  63
+
+Query  80   AMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLH  139
+            A+  E L   R           R  +          L                       
+Sbjct  64   AVLLEFLGSPRVQESSSLGSRRRRATAAAVHAVRVGLAYLLMLA----------------  107
+
+Query  140  IIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLF  175
+                          M++N  + +A  AG   G+  F
+Sbjct  108  -------------LMSFNVGVLLAAVAGHAAGFLAF  130
+
+
+> sp|P49573|CTR1_YEAST Copper transport protein CTR1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CTR1 
+PE=1 SV=1
+Length=406
+
+ Score = 52.2 bits (123),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 31/151 (21%), Positives = 52/151 (34%), Gaps = 22/151 (15%)
+
+Query  51   FKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLL----RKSQVSIRYNSM  106
+            +KN  +LF  L  N +G+  G F+   + A  Y+ L      L     +K     +Y+++
+Sbjct  135  YKNYPVLFHHLHANNSGKAFGIFLLFVVAAFVYKLLLFVSWCLEVHWFKKWDKQNKYSTL  194
+
+Query  107  PVPGPNGT------------------ILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYF  148
+            P                           + +   V   M  F  +++  L     +I Y 
+Sbjct  195  PSANSKDEGKHYDTENNFEIQGLPKLPNLLSDIFVPSLMDLFHDIIRAFLVFTSTMIIYM  254
+
+Query  149  LMLIFMTYNGYLCIAVAAGAGTGYFLFSWKK  179
+            LML  M++      AV  G       F+  K
+Sbjct  255  LMLATMSFVLTYVFAVITGLALSEVFFNRCK  285
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.114    0.302    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0348    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10889729641
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,3893 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P43457|2bl2A
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P43457|NTPK_ENTHA V-type sodium ATPase subunit K OS=Enteroco...  299     4e-103
+  sp|P27449|VATL_HUMAN V-type proton ATPase 16 kDa proteolipid su...  69.3    7e-14 
+  sp|Q57674|ATPL_METJA Probable ATPase proteolipid chain OS=Metha...  65.9    2e-12 
+  sp|P31403|VATL_MANSE V-type proton ATPase 16 kDa proteolipid su...  64.7    2e-12 
+  sp|P23956|VATL_BOVIN V-type proton ATPase 16 kDa proteolipid su...  64.7    3e-12 
+  sp|O18882|VATL_SHEEP V-type proton ATPase 16 kDa proteolipid su...  64.7    3e-12 
+  sp|Q03105|VATL_TORMA V-type proton ATPase 16 kDa proteolipid su...  64.3    3e-12 
+  sp|P23380|VATL_DROME V-type proton ATPase 16 kDa proteolipid su...  64.3    4e-12 
+  sp|O16110|VATL_AEDAE V-type proton ATPase 16 kDa proteolipid su...  63.5    7e-12 
+  sp|P55277|VATL_HELVI V-type proton ATPase 16 kDa proteolipid su...  63.5    8e-12 
+  sp|P63081|VATL_RAT V-type proton ATPase 16 kDa proteolipid subu...  61.6    3e-11 
+  sp|P63082|VATL_MOUSE V-type proton ATPase 16 kDa proteolipid su...  61.6    3e-11 
+  sp|Q26250|VATL_NEPNO V-type proton ATPase 16 kDa proteolipid su...  59.3    2e-10 
+  sp|P25515|VATL1_YEAST V-type proton ATPase subunit c OS=Sacchar...  57.4    9e-10 
+  sp|P50515|VATL_SCHPO V-type proton ATPase 16 kDa proteolipid su...  55.1    7e-09 
+  sp|Q00607|VATL_CANTR V-type proton ATPase 16 kDa proteolipid su...  52.8    3e-08 
+  sp|Q0IUB5|VATL_ORYSJ V-type proton ATPase 16 kDa proteolipid su...  52.4    6e-08 
+  sp|A2ZBW5|VATL_ORYSI V-type proton ATPase 16 kDa proteolipid su...  52.4    6e-08 
+  sp|O24011|VATL_SOLLC V-type proton ATPase 16 kDa proteolipid su...  51.2    1e-07 
+  sp|P68161|VATL_MESCR V-type proton ATPase 16 kDa proteolipid su...  51.2    1e-07 
+  sp|P68162|VATL_BETVU V-type proton ATPase 16 kDa proteolipid su...  51.2    1e-07 
+  sp|Q40585|VATL_TOBAC V-type proton ATPase 16 kDa proteolipid su...  51.2    2e-07 
+  sp|O22552|VATL_VIGRR V-type proton ATPase 16 kDa proteolipid su...  51.2    2e-07 
+  sp|Q96473|VATL_KALDA V-type proton ATPase 16 kDa proteolipid su...  50.8    2e-07 
+  sp|Q24808|VATL_ENTDI V-type proton ATPase 16 kDa proteolipid su...  51.2    2e-07 
+  sp|P0DH94|VATL5_ARATH V-type proton ATPase subunit c5 OS=Arabid...  50.8    2e-07 
+  sp|P0DH93|VATL3_ARATH V-type proton ATPase subunit c3 OS=Arabid...  50.8    2e-07 
+  sp|P0DH92|VATL1_ARATH V-type proton ATPase subunit c1 OS=Arabid...  50.8    2e-07 
+  sp|Q43434|VATL_GOSHI V-type proton ATPase 16 kDa proteolipid su...  50.8    2e-07 
+  sp|P23957|VATL_AVESA V-type proton ATPase 16 kDa proteolipid su...  50.8    2e-07 
+  sp|P59229|VATL4_ARATH V-type proton ATPase subunit c4 OS=Arabid...  50.8    2e-07 
+  sp|P59228|VATL2_ARATH V-type proton ATPase subunit c2 OS=Arabid...  50.8    2e-07 
+  sp|P31413|VATL_NEUCR V-type proton ATPase 16 kDa proteolipid su...  50.4    2e-07 
+  sp|Q9URZ8|VATL2_SCHPO V-type proton ATPase 16 kDa proteolipid s...  50.4    2e-07 
+  sp|P32842|VATL2_YEAST V-type proton ATPase subunit c' OS=Saccha...  50.4    3e-07 
+  sp|Q24810|VATL_ENTHI V-type proton ATPase 16 kDa proteolipid su...  48.9    1e-06 
+  sp|Q6FUY5|VATL2_CANGA V-type proton ATPase 16 kDa proteolipid s...  48.9    1e-06 
+  sp|Q755G4|VATL2_ASHGO V-type proton ATPase 16 kDa proteolipid s...  46.2    1e-05 
+  sp|P34546|VATL2_CAEEL V-type proton ATPase 16 kDa proteolipid s...  45.4    2e-05 
+  sp|Q612A5|VATL2_CAEBR V-type proton ATPase 16 kDa proteolipid s...  45.1    2e-05 
+  sp|Q6CT28|VATL2_KLULA V-type proton ATPase 16 kDa proteolipid s...  45.1    3e-05 
+  sp|Q17046|VATL_ASCSU V-type proton ATPase 16 kDa proteolipid su...  44.7    4e-05 
+  sp|Q3A941|ATPL_CARHZ ATP synthase subunit c OS=Carboxydothermus...  41.6    2e-04 
+  sp|Q43362|VATL_CHRCT V-type proton ATPase 16 kDa proteolipid su...  42.4    3e-04 
+  sp|Q6BSB9|VATL2_DEBHA V-type proton ATPase 16 kDa proteolipid s...  42.0    4e-04 
+  sp|P54642|VATL_DICDI V-type proton ATPase proteolipid subunit O...  41.2    0.001 
+  sp|Q8EWZ3|ATPL_MYCPE ATP synthase subunit c OS=Mycoplasma penet...  39.3    0.001 
+  sp|A9NGW7|ATPL_ACHLI ATP synthase subunit c OS=Acholeplasma lai...  39.3    0.001 
+  sp|Q9Y874|VATL2_NEUCR V-type proton ATPase 16 kDa proteolipid s...  40.0    0.002 
+
+
+> sp|P43457|NTPK_ENTHA V-type sodium ATPase subunit K OS=Enterococcus 
+hirae (strain ATCC 9790 / DSM 20160 / JCM 8729 / LMG 
+6399 / NBRC 3181 / NCIMB 6459 / NCDO 1258) OX=768486 GN=ntpK 
+PE=1 SV=1
+Length=156
+
+ Score = 299 bits (765),  Expect = 4e-103, Method: Compositional matrix adjust.
+ Identities = 156/156 (100%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL
+Sbjct  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI  120
+            LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI
+Sbjct  61   LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI  120
+
+Query  121  LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA
+Sbjct  121  LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+
+
+> sp|P27449|VATL_HUMAN V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Homo sapiens OX=9606 GN=ATP6V0C PE=1 SV=1
+Length=155
+
+ Score = 69.3 bits (168),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 43/139 (31%), Positives = 77/139 (55%), Gaps = 0/139 (0%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            FAV+  + A +FS +G+A G   +G   AA++  +PE+  +++I  ++ G   +YG V+A
+Sbjct  14   FAVMGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPEQIMKSIIPVVMAGIIAIYGLVVA  73
+
+Query  74   FLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGII  133
+             LI  +L  D+S+ +    LGA L +  +GL +G A G V  AG++  A++P      I+
+Sbjct  74   VLIANSLNDDISLYKSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMIL  133
+
+Query  134  FAAMVETYAILGFVISFLL  152
+                 E   + G +++ +L
+Sbjct  134  ILIFAEVLGLYGLIVALIL  152
+
+
+> sp|Q57674|ATPL_METJA Probable ATPase proteolipid chain OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ0221 PE=3 SV=1
+Length=220
+
+ Score = 65.9 bits (159),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 58/155 (37%), Positives = 82/155 (53%), Gaps = 12/155 (8%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M+D LI    G V A LA+  A    G+GS  G G+TG + A +    P KFG A++ Q 
+Sbjct  1    MVDPLIL---GAVGAGLAVGIA----GLGSGIGAGITGASGAGVVAEDPNKFGTAIVFQA  53
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI  120
+            LP TQGLYGF++A LI        +V     F  A+   A     S I QG  A+AG+  
+Sbjct  54   LPQTQGLYGFLVAILILFVF---KTVSPWAMF--AAGLAAGLAGLSAIGQGIAASAGLGA  108
+
+Query  121  LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+            +A+      K ++F+ + ET AI G +I+ LL++ 
+Sbjct  109  VAEDNSIFGKAMVFSVLPETQAIYGLLIAILLLVG  143
+
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 45/125 (36%), Positives = 68/125 (54%), Gaps = 1/125 (1%)
+
+Query  30   SAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIAFLIFINLGSDMSVVQG  89
+            SA G G+   A           FG+A++  +LP TQ +YG +IA L+ + +    +  + 
+Sbjct  94   SAIGQGIAASAGLGAVAEDNSIFGKAMVFSVLPETQAIYGLLIAILLLVGVFKGNAGAET  153
+
+Query  90   LNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGIIFAAMVETYAILGFVIS  149
+            +  LGA   + F GL SGI QG  AA  I   A+ P+   KG++ A M ET+AI G +I+
+Sbjct  154  VAALGAGFAVGFAGL-SGIGQGITAAGAIGATARDPDAMGKGLVLAVMPETFAIFGLLIA  212
+
+Query  150  FLLVL  154
+             L++L
+Sbjct  213  ILIML  217
+
+
+> sp|P31403|VATL_MANSE V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Manduca sexta OX=7130 GN=VHA16 PE=2 SV=1
+Length=156
+
+ Score = 64.7 bits (156),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 46/145 (32%), Positives = 78/145 (54%), Gaps = 3/145 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+            G  F V+  A+A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG 
+Sbjct  8    GPFFGVMGAASAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGL  67
+
+Query  71   VIAFLIFINLGS---DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            V+A LI  +L S   + ++ +G   LGA L + F+GL +G A G V  AG++  A++P  
+Sbjct  68   VVAVLIAGSLDSPSNNYTLYRGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQPRL  127
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLL  152
+                I+     E   + G +++  L
+Sbjct  128  FVGMILILIFAEVLGLYGLIVAIYL  152
+
+
+> sp|P23956|VATL_BOVIN V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Bos taurus OX=9913 GN=ATP6V0C PE=1 SV=1
+Length=155
+
+ Score = 64.7 bits (156),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 75/139 (54%), Gaps = 0/139 (0%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            FAV+  + A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG V+A
+Sbjct  14   FAVMGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPEMIMKSIIPVVMAGIIAIYGLVVA  73
+
+Query  74   FLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGII  133
+             LI  +L   +S+ +    LGA L +  +GL +G A G V  AG++  A++P      I+
+Sbjct  74   VLIANSLNDGISLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMIL  133
+
+Query  134  FAAMVETYAILGFVISFLL  152
+                 E   + G +++ +L
+Sbjct  134  ILIFAEVLGLYGLIVALIL  152
+
+
+> sp|O18882|VATL_SHEEP V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Ovis aries OX=9940 GN=ATP6V0C PE=2 SV=1
+Length=155
+
+ Score = 64.7 bits (156),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 75/139 (54%), Gaps = 0/139 (0%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            FAV+  + A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG V+A
+Sbjct  14   FAVMGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPEMIMKSIIPVVMAGIIAIYGLVVA  73
+
+Query  74   FLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGII  133
+             LI  +L   +S+ +    LGA L +  +GL +G A G V  AG++  A++P      I+
+Sbjct  74   VLIANSLNDGISLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMIL  133
+
+Query  134  FAAMVETYAILGFVISFLL  152
+                 E   + G +++ +L
+Sbjct  134  ILIFAEVLGLYGLIVALIL  152
+
+
+> sp|Q03105|VATL_TORMA V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Torpedo marmorata OX=7788 PE=1 SV=1
+Length=154
+
+ Score = 64.3 bits (155),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 75/139 (54%), Gaps = 0/139 (0%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F V+  + A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG V+A
+Sbjct  13   FGVIGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGLVVA  72
+
+Query  74   FLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGII  133
+             LI  +L  D+S+ +    LGA L +  +GL +G A G V  AG++  A++P      I+
+Sbjct  73   VLIANSLTEDISLFKSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMIL  132
+
+Query  134  FAAMVETYAILGFVISFLL  152
+                 E   + G +++ +L
+Sbjct  133  ILIFAEVLGLYGLIVALIL  151
+
+
+> sp|P23380|VATL_DROME V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Drosophila melanogaster OX=7227 GN=Vha16-1 PE=2 SV=1
+Length=159
+
+ Score = 64.3 bits (155),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 46/144 (32%), Positives = 76/144 (53%), Gaps = 2/144 (1%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+            G  F V+  A+A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG 
+Sbjct  13   GPFFGVMGAASAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGL  72
+
+Query  71   VIAFLI--FINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+            V+A LI   +   S  S+ +G   LGA L + F+GL +G A G V  AG++  A++P   
+Sbjct  73   VVAVLIAGALEEPSKYSLYRGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQPRLF  132
+
+Query  129  TKGIIFAAMVETYAILGFVISFLL  152
+               I+     E   + G +++  L
+Sbjct  133  VGMILILIFAEVLGLYGLIVAIYL  156
+
+
+> sp|O16110|VATL_AEDAE V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Aedes aegypti OX=7159 GN=AAEL000291 PE=2 SV=2
+Length=157
+
+ Score = 63.5 bits (153),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 45/144 (31%), Positives = 76/144 (53%), Gaps = 2/144 (1%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+            G  F V+  A A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG 
+Sbjct  11   GPFFGVMGAAAAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGL  70
+
+Query  71   VIAFLI--FINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+            V+A LI   ++  +  S+ +G   LGA L + F+GL +G A G V  AG++  A++P   
+Sbjct  71   VVAVLIAGSLDTPTKYSLYKGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQPRLF  130
+
+Query  129  TKGIIFAAMVETYAILGFVISFLL  152
+               I+     E   + G +++  L
+Sbjct  131  VGMILILIFAEVLGLYGLIVAIYL  154
+
+
+> sp|P55277|VATL_HELVI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Heliothis virescens OX=7102 GN=VHA16 PE=2 SV=1
+Length=156
+
+ Score = 63.5 bits (153),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 45/145 (31%), Positives = 78/145 (54%), Gaps = 3/145 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+            G  F V+  A+A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG 
+Sbjct  8    GPFFGVMGAASAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGL  67
+
+Query  71   VIAFLIFINL---GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            V+A LI  +L    ++ ++ +G   LGA L + F+GL +G A G V  AG++  A++P  
+Sbjct  68   VVAVLIAGSLDAPSNNYTLYKGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQPRL  127
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLL  152
+                I+     E   + G +++  L
+Sbjct  128  FVGMILILIFAEVLGLYGLIVAIYL  152
+
+
+> sp|P63081|VATL_RAT V-type proton ATPase 16 kDa proteolipid subunit 
+OS=Rattus norvegicus OX=10116 GN=Atp6v0c PE=2 SV=1
+Length=155
+
+ Score = 61.6 bits (148),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 75/139 (54%), Gaps = 0/139 (0%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F V+  ++A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG V+A
+Sbjct  14   FGVMGASSAMVFSAMGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGLVVA  73
+
+Query  74   FLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGII  133
+             LI  +L   +++ +    LGA L +  +GL +G A G V  AG++  A++P      I+
+Sbjct  74   VLIANSLTDGITLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMIL  133
+
+Query  134  FAAMVETYAILGFVISFLL  152
+                 E   + G +++ +L
+Sbjct  134  ILIFAEVLGLYGLIVALIL  152
+
+
+> sp|P63082|VATL_MOUSE V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Mus musculus OX=10090 GN=Atp6v0c PE=1 SV=1
+Length=155
+
+ Score = 61.6 bits (148),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 75/139 (54%), Gaps = 0/139 (0%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F V+  ++A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG V+A
+Sbjct  14   FGVMGASSAMVFSAMGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGLVVA  73
+
+Query  74   FLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGII  133
+             LI  +L   +++ +    LGA L +  +GL +G A G V  AG++  A++P      I+
+Sbjct  74   VLIANSLTDGITLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMIL  133
+
+Query  134  FAAMVETYAILGFVISFLL  152
+                 E   + G +++ +L
+Sbjct  134  ILIFAEVLGLYGLIVALIL  152
+
+
+> sp|Q26250|VATL_NEPNO V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Nephrops norvegicus OX=6829 PE=2 SV=1
+Length=159
+
+ Score = 59.3 bits (142),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 40/141 (28%), Positives = 73/141 (52%), Gaps = 2/141 (1%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F V+  A+A +FS +G+A G   +G   +A++  +PE   + +I  ++ G   +YG V+A
+Sbjct  13   FGVMGAASAMVFSALGAAYGTAKSGVGISAMSVMRPELIMKCIIPVVMAGIIAIYGLVVA  72
+
+Query  74   FLIF--INLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKG  131
+             LI   ++     ++ QG   +GA L +  +GL +G A G V  AG++  A++P      
+Sbjct  73   VLIAGKLDEAPTYTLYQGFVHMGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLYVGM  132
+
+Query  132  IIFAAMVETYAILGFVISFLL  152
+            I+     E   + G +++  L
+Sbjct  133  ILILIFAEVLGLYGLIVAIFL  153
+
+
+> sp|P25515|VATL1_YEAST V-type proton ATPase subunit c OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=VMA3 
+PE=1 SV=1
+Length=160
+
+ Score = 57.4 bits (137),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 37/139 (27%), Positives = 70/139 (50%), Gaps = 0/139 (0%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  +  A+A IF+ +G+A G   +G    A    +P+   + ++  ++ G   +YG V++
+Sbjct  12   FGAIGCASAIIFTSLGAAYGTAKSGVGICATCVLRPDLLFKNIVPVIMAGIIAIYGLVVS  71
+
+Query  74   FLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGII  133
+             L+  +LG   ++  G   LGA L +  +GL +G A G V  AG++  +++P      I+
+Sbjct  72   VLVCYSLGQKQALYTGFIQLGAGLSVGLSGLAAGFAIGIVGDAGVRGSSQQPRLFVGMIL  131
+
+Query  134  FAAMVETYAILGFVISFLL  152
+                 E   + G +++ LL
+Sbjct  132  ILIFAEVLGLYGLIVALLL  150
+
+
+> sp|P50515|VATL_SCHPO V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=vma3 PE=3 SV=1
+Length=161
+
+ Score = 55.1 bits (131),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 67/139 (48%), Gaps = 0/139 (0%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F V+    A +F+  G+A G    G   +A+   +P+   +  I  ++ G   +YG V++
+Sbjct  13   FGVMGCTAAIVFASFGAAYGTAKAGVGISAMGVLRPDLIVKNTIPVVMAGIIAIYGLVVS  72
+
+Query  74   FLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGII  133
+             LI  NL   +S+  G   LGA L +   GL +G A G V  AG++  A++P      I+
+Sbjct  73   VLISGNLKQILSLYSGFIQLGAGLSVGLAGLAAGFAIGIVGDAGVRGTAQQPRLFVAMIL  132
+
+Query  134  FAAMVETYAILGFVISFLL  152
+                 E   + G +++ LL
+Sbjct  133  ILIFAEVLGLYGLIVALLL  151
+
+
+> sp|Q00607|VATL_CANTR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Candida tropicalis OX=5482 GN=VMA3 PE=3 SV=1
+Length=160
+
+ Score = 52.8 bits (125),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 35/139 (25%), Positives = 69/139 (50%), Gaps = 0/139 (0%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  +  A A +F+  G++ G   +G    A + ++P+   + ++  ++ G   +YG V++
+Sbjct  12   FGSIGCAAAIVFTCFGASYGTAKSGVGICATSVTRPDLLVKNVVPVVMAGIIAIYGLVVS  71
+
+Query  74   FLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGII  133
+             L+  +L    ++  G   LGA L +  +GL +G A G V  AG++  A++P      I+
+Sbjct  72   VLVSDSLSQKQALYTGFIQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMIL  131
+
+Query  134  FAAMVETYAILGFVISFLL  152
+                 E   + G +++ LL
+Sbjct  132  ILIFAEVLGLYGLIVALLL  150
+
+
+> sp|Q0IUB5|VATL_ORYSJ V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Oryza sativa subsp. japonica OX=39947 GN=VATP-P1 
+PE=2 SV=1
+Length=165
+
+ Score = 52.4 bits (124),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 40/146 (27%), Positives = 71/146 (49%), Gaps = 3/146 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A+A IFS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  14   FGFLGAASALIFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  73
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  74   VIISTGINPKAKPYYLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAGVRANAQQPKLFVG  133
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E  A+ G ++  +L   A
+Sbjct  134  MILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|A2ZBW5|VATL_ORYSI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Oryza sativa subsp. indica OX=39946 GN=VATP-P1 PE=2 
+SV=1
+Length=165
+
+ Score = 52.4 bits (124),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 40/146 (27%), Positives = 71/146 (49%), Gaps = 3/146 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A+A IFS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  14   FGFLGAASALIFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  73
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  74   VIISTGINPKAKPYYLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAGVRANAQQPKLFVG  133
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E  A+ G ++  +L   A
+Sbjct  134  MILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|O24011|VATL_SOLLC V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+Length=164
+
+ Score = 51.2 bits (121),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/142 (27%), Positives = 69/142 (49%), Gaps = 3/142 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  13   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  72
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  73   VIISTGINPKTKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  132
+
+Query  131  GIIFAAMVETYAILGFVISFLL  152
+             I+     E  A+ G ++  +L
+Sbjct  133  MILILIFAEALALYGLIVGIIL  154
+
+
+> sp|P68161|VATL_MESCR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Mesembryanthemum crystallinum OX=3544 GN=VMAC1 PE=2 
+SV=1
+Length=165
+
+ Score = 51.2 bits (121),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/142 (27%), Positives = 69/142 (49%), Gaps = 3/142 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  14   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  73
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  74   VIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  133
+
+Query  131  GIIFAAMVETYAILGFVISFLL  152
+             I+     E  A+ G ++  +L
+Sbjct  134  MILILIFAEALALYGLIVGIIL  155
+
+
+> sp|P68162|VATL_BETVU V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Beta vulgaris OX=161934 GN=VMAC1 PE=2 SV=1
+Length=165
+
+ Score = 51.2 bits (121),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/142 (27%), Positives = 69/142 (49%), Gaps = 3/142 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  14   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  73
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  74   VIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  133
+
+Query  131  GIIFAAMVETYAILGFVISFLL  152
+             I+     E  A+ G ++  +L
+Sbjct  134  MILILIFAEALALYGLIVGIIL  155
+
+
+> sp|Q40585|VATL_TOBAC V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+Length=165
+
+ Score = 51.2 bits (121),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 70/146 (48%), Gaps = 3/146 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  14   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  73
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  74   VIISTGINPKTKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  133
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E  A+ G ++  +L   A
+Sbjct  134  MILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|O22552|VATL_VIGRR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Vigna radiata var. radiata OX=3916 PE=2 SV=1
+Length=164
+
+ Score = 51.2 bits (121),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 70/146 (48%), Gaps = 3/146 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  13   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  72
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  73   VIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  132
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E  A+ G ++  +L   A
+Sbjct  133  MILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|Q96473|VATL_KALDA V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Kalanchoe daigremontiana OX=23013 PE=2 SV=1
+Length=165
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 70/146 (48%), Gaps = 3/146 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  14   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  73
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  74   VIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  133
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E  A+ G ++  +L   A
+Sbjct  134  MILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|Q24808|VATL_ENTDI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Entamoeba dispar OX=46681 GN=VMA3 PE=2 SV=1
+Length=176
+
+ Score = 51.2 bits (121),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 35/140 (25%), Positives = 70/140 (50%), Gaps = 1/140 (1%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  + +  + +F+  G A G   +    +++   +PE   ++L   +  G  GLYG ++ 
+Sbjct  19   FGSMGITASIVFTVFGGAYGTAKSSVGISSVGVMKPEFIMRSLFPVVFAGVIGLYGLIVC  78
+
+Query  74   FLIFINLG-SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGI  132
+             ++FIN+  S+ S+ +    LGA L     GL SG++ G     G++  A++P+     +
+Sbjct  79   IVLFINVNKSEYSLNRAFLDLGAGLTCGLCGLASGMSIGISGDCGVRGAAQQPKLFVSML  138
+
+Query  133  IFAAMVETYAILGFVISFLL  152
+            I     E  A+ GF+++ ++
+Sbjct  139  ICLIFSEALALYGFIVALIM  158
+
+
+> sp|P0DH94|VATL5_ARATH V-type proton ATPase subunit c5 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c5 PE=2 SV=1
+Length=164
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 70/146 (48%), Gaps = 3/146 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  13   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  72
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  73   VIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  132
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E  A+ G ++  +L   A
+Sbjct  133  MILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|P0DH93|VATL3_ARATH V-type proton ATPase subunit c3 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c3 PE=1 SV=1
+Length=164
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 70/146 (48%), Gaps = 3/146 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  13   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  72
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  73   VIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  132
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E  A+ G ++  +L   A
+Sbjct  133  MILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|P0DH92|VATL1_ARATH V-type proton ATPase subunit c1 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c1 PE=2 SV=1
+Length=164
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 70/146 (48%), Gaps = 3/146 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  13   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  72
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  73   VIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  132
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E  A+ G ++  +L   A
+Sbjct  133  MILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|Q43434|VATL_GOSHI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Gossypium hirsutum OX=3635 GN=CVA16-2 PE=2 SV=1
+Length=165
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 70/146 (48%), Gaps = 3/146 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  14   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  73
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  74   VIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  133
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E  A+ G ++  +L   A
+Sbjct  134  MILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|P23957|VATL_AVESA V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Avena sativa OX=4498 GN=VATP-P1 PE=2 SV=1
+Length=165
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 38/142 (27%), Positives = 69/142 (49%), Gaps = 3/142 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  14   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  73
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  74   VIISTGINPKAKPYFLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAGVRANAQQPKLFVG  133
+
+Query  131  GIIFAAMVETYAILGFVISFLL  152
+             I+     E  A+ G ++  +L
+Sbjct  134  MILILIFAEALALYGLIVGIIL  155
+
+
+> sp|P59229|VATL4_ARATH V-type proton ATPase subunit c4 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c4 PE=2 SV=1
+Length=166
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 70/146 (48%), Gaps = 3/146 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  15   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  74
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  75   VIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  134
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E  A+ G ++  +L   A
+Sbjct  135  MILILIFAEALALYGLIVGIILSSRA  160
+
+
+> sp|P59228|VATL2_ARATH V-type proton ATPase subunit c2 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c2 PE=2 SV=1
+Length=165
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 70/146 (48%), Gaps = 3/146 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG +IA
+Sbjct  14   FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGLIIA  73
+
+Query  74   FLIFINLGSDMS---VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+    
+Sbjct  74   VIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVG  133
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E  A+ G ++  +L   A
+Sbjct  134  MILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|P31413|VATL_NEUCR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A 
+/ CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=vma-3 PE=2 
+SV=1
+Length=161
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 37/140 (26%), Positives = 69/140 (49%), Gaps = 1/140 (1%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  +    A +F+ +G++ G   +G   AA+   +P+   + ++  ++ G  G+YG V++
+Sbjct  12   FGAMGCTAAIVFTCLGASYGTAKSGVGIAAMGVLRPDLIVKNIVPVIMAGIIGIYGLVVS  71
+
+Query  74   FLIFINLGSD-MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGI  132
+             LI   L  D  ++  G   LGA L +   GL +G A G V  AG++  A++P      I
+Sbjct  72   VLISDALTQDHYALYTGFIQLGAGLAVGLAGLAAGFAIGIVGDAGVRGTAQQPRLFVGMI  131
+
+Query  133  IFAAMVETYAILGFVISFLL  152
+            +     E   + G +++ L+
+Sbjct  132  LILIFAEVLGLYGLIVALLM  151
+
+
+> sp|Q9URZ8|VATL2_SCHPO V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=vma11 PE=3 SV=1
+Length=162
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 67/141 (48%), Gaps = 2/141 (1%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F    +  + +FS +G+  G  + G   AA+   +PE   ++LI  ++ G  G+YG V++
+Sbjct  13   FGFAGVCASMVFSCLGAGYGTALAGRGIAAVGAFRPEIVMKSLIPVVMSGIIGVYGLVMS  72
+
+Query  74   FLIFINLG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKG  131
+             LI  ++   +D S+  G   L A L +  TG+ +G A G V   G+Q   ++       
+Sbjct  73   VLIAGDMSPDNDYSLFSGFIHLSAGLAVGLTGVAAGYAIGVVGDRGVQSFMRQDRIFVSM  132
+
+Query  132  IIFAAMVETYAILGFVISFLL  152
+            ++     E   + G ++  +L
+Sbjct  133  VLILIFAEVLGLYGLIVGLIL  153
+
+
+> sp|P32842|VATL2_YEAST V-type proton ATPase subunit c' OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=VMA11 PE=1 SV=1
+Length=164
+
+ Score = 50.4 bits (119),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 39/141 (28%), Positives = 64/141 (45%), Gaps = 2/141 (1%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F     A A + S +G+A G   +G   A + T +PE   ++LI  ++ G   +YG V+A
+Sbjct  18   FGFAGCAAAMVLSCLGAAIGTAKSGIGIAGIGTFKPELIMKSLIPVVMSGILAIYGLVVA  77
+
+Query  74   FLIFINLG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKG  131
+             LI  NL    D ++  G   L   L + F  L SG A G V   G++    +P      
+Sbjct  78   VLIAGNLSPTEDYTLFNGFMHLSCGLCVGFACLSSGYAIGMVGDVGVRKYMHQPRLFVGI  137
+
+Query  132  IIFAAMVETYAILGFVISFLL  152
+            ++     E   + G +++ +L
+Sbjct  138  VLILIFSEVLGLYGMIVALIL  158
+
+
+> sp|Q24810|VATL_ENTHI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Entamoeba histolytica OX=5759 GN=VMA3 PE=3 SV=1
+Length=177
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 36/140 (26%), Positives = 70/140 (50%), Gaps = 1/140 (1%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  + +  + +F+  G A G   +    +++   +PE   +++   +  G  GLYG ++ 
+Sbjct  21   FGSMGITASIVFTVFGGAYGTAKSSVGISSVGVMKPEFIVRSVAPVVFAGIIGLYGLIVC  80
+
+Query  74   FLIFINL-GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGI  132
+             L+FIN+  S+ S+ +    LGA L     GL SG+A G     G++  A++P+     +
+Sbjct  81   ILLFINVTKSEYSLNRAFLDLGAGLTCGLCGLASGMAIGISGDCGVRGAAQQPKLFVGML  140
+
+Query  133  IFAAMVETYAILGFVISFLL  152
+            I     E  A+ GF+++ ++
+Sbjct  141  ICLIFSEALALYGFIVALIM  160
+
+
+> sp|Q6FUY5|VATL2_CANGA V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Candida glabrata (strain ATCC 2001 / CBS 138 / 
+JCM 3761 / NBRC 0622 / NRRL Y-65) OX=284593 GN=VMA11 PE=3 SV=1
+Length=164
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 40/141 (28%), Positives = 64/141 (45%), Gaps = 2/141 (1%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F     A A I S +G+A G   +G   A + T +PE   ++LI  ++ G   +YG V+A
+Sbjct  18   FGFAGCALAMILSCLGAAIGTAKSGIGIAGIGTFKPELIMKSLIPVVMSGILAIYGLVVA  77
+
+Query  74   FLIFINLG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKG  131
+             LI  NL    + ++  G   L   L + F  L SG A G V   G++    +P      
+Sbjct  78   VLIAGNLSPTEEYTLFNGFMHLSCGLCVGFACLSSGYAIGIVGDVGVRKYMHQPRLFVGI  137
+
+Query  132  IIFAAMVETYAILGFVISFLL  152
+            ++     E   + G +I+ +L
+Sbjct  138  VLILIFSEVLGLYGMIIALIL  158
+
+
+> sp|Q755G4|VATL2_ASHGO V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Ashbya gossypii (strain ATCC 10895 / CBS 109.51 
+/ FGSC 9923 / NRRL Y-1056) OX=284811 GN=VMA11 PE=3 SV=1
+Length=164
+
+ Score = 46.2 bits (108),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 38/141 (27%), Positives = 64/141 (45%), Gaps = 2/141 (1%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F     A A I S +G+A G   +G   + + T +PE   ++LI  ++ G   +YG V+A
+Sbjct  17   FGFAGCAAAMILSSLGAAIGTAKSGIGISGIGTFRPELIMKSLIPVVMSGILAVYGLVVA  76
+
+Query  74   FLIFINLG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKG  131
+             L+   L    + ++  G   L A L + F  L SG A G V   G++    +P      
+Sbjct  77   VLVAGGLSPTEEYTLFNGFMHLAAGLCVGFACLSSGYAIGIVGDVGVRKFMHQPRLFVGI  136
+
+Query  132  IIFAAMVETYAILGFVISFLL  152
+            ++     E   + G +I+ +L
+Sbjct  137  VLILIFAEVLGLYGMIIALIL  157
+
+
+> sp|P34546|VATL2_CAEEL V-type proton ATPase 16 kDa proteolipid 
+subunit 2/3 OS=Caenorhabditis elegans OX=6239 GN=vha-2 PE=2 
+SV=2
+Length=161
+
+ Score = 45.4 bits (106),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 37/144 (26%), Positives = 70/144 (49%), Gaps = 7/144 (5%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  +  A+A IF+ +G+A G   +     ++   +PE   +++I  ++ G  G+YG V+A
+Sbjct  17   FGYMGAASAQIFTVLGAAYGTAKSAVGICSMGVMRPELIMKSVIPVIMAGIIGIYGLVVA  76
+
+Query  74   FLI-----FINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+             ++       + G D++  +G   L A L     GL +G A G V  AG++  A++P   
+Sbjct  77   MVLKGKVTSASAGYDLN--KGFAHLAAGLTCGLCGLGAGYAIGIVGDAGVRGTAQQPRLF  134
+
+Query  129  TKGIIFAAMVETYAILGFVISFLL  152
+               I+     E   + G +++ +L
+Sbjct  135  VGMILILIFSEVLGLYGMIVALIL  158
+
+
+> sp|Q612A5|VATL2_CAEBR V-type proton ATPase 16 kDa proteolipid 
+subunit 2/3 OS=Caenorhabditis briggsae OX=6238 GN=vha-2 PE=3 
+SV=1
+Length=161
+
+ Score = 45.1 bits (105),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 37/144 (26%), Positives = 70/144 (49%), Gaps = 7/144 (5%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  +  A+A IF+ +G+A G   +     ++   +PE   +++I  ++ G  G+YG V+A
+Sbjct  17   FGYMGAASAQIFTVLGAAYGTAKSAVGICSMGVMRPELIMKSVIPVIMAGIIGIYGLVVA  76
+
+Query  74   FLI-----FINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+             ++       + G D++  +G   L A L     GL +G A G V  AG++  A++P   
+Sbjct  77   MVLKGKVQAASAGYDLN--KGFAHLAAGLTCGLCGLGAGYAIGIVGDAGVRGTAQQPRLF  134
+
+Query  129  TKGIIFAAMVETYAILGFVISFLL  152
+               I+     E   + G +++ +L
+Sbjct  135  VGMILILIFSEVLGLYGMIVALIL  158
+
+
+> sp|Q6CT28|VATL2_KLULA V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 
+/ DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 
+GN=VMA11 PE=3 SV=1
+Length=165
+
+ Score = 45.1 bits (105),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 38/141 (27%), Positives = 63/141 (45%), Gaps = 2/141 (1%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F     A A I S +G+A G   +G   + + T +PE   ++LI  ++ G   +YG V+A
+Sbjct  18   FGFAGCAFAMILSCLGAAIGTAKSGIGISGIGTFKPELIMKSLIPVVMSGILAVYGLVVA  77
+
+Query  74   FLIFINLG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKG  131
+             LI   L    D ++  G   L   L + F  L SG A G V   G++    +P      
+Sbjct  78   VLIAGGLSPTEDYTLFNGFMHLSCGLCVGFACLSSGYAIGIVGDVGVRKYMHQPRLFVGI  137
+
+Query  132  IIFAAMVETYAILGFVISFLL  152
+            ++     E   + G +++ +L
+Sbjct  138  VLILIFSEVLGLYGMIVALIL  158
+
+
+> sp|Q17046|VATL_ASCSU V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Ascaris suum OX=6253 GN=12 PE=3 SV=1
+Length=161
+
+ Score = 44.7 bits (104),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 35/142 (25%), Positives = 70/142 (49%), Gaps = 3/142 (2%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  +  A+A IF+ +G+A G   +    +++   +PE   +++I  ++ G  G+YG V+A
+Sbjct  17   FGYMGAASAQIFTVLGAAYGTAKSAVGISSMGVMRPELIMKSVIPVIMAGIIGIYGLVVA  76
+
+Query  74   FLI---FINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+             ++     +  +  ++ +G   L A L     GL +G A G V  AG++  A++P     
+Sbjct  77   MVLRGKVTSASAGYTLDKGFAHLAAGLTCGLCGLGAGYAIGIVGDAGVRGTAQQPRLFVG  136
+
+Query  131  GIIFAAMVETYAILGFVISFLL  152
+             I+     E   + G +++ +L
+Sbjct  137  MILILIFSEVLGLYGMIVALIL  158
+
+
+> sp|Q3A941|ATPL_CARHZ ATP synthase subunit c OS=Carboxydothermus 
+hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901) 
+OX=246194 GN=atpE PE=3 SV=1
+Length=82
+
+ Score = 41.6 bits (96),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/76 (38%), Positives = 43/76 (57%), Gaps = 8/76 (11%)
+
+Query  84   MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKG------IIFAAM  137
+            MS+V GL  +GA + + F  + SGI QG  A    + +A++PE   +G      II  A 
+Sbjct  5    MSLVAGLIAIGAGIAVGFGAIGSGIGQGIAAGKAFEAMARQPE--VRGTVQTFLIIALAF  62
+
+Query  138  VETYAILGFVISFLLV  153
+            +ET  I G VI+F+L+
+Sbjct  63   METLTIYGLVIAFMLL  78
+
+
+> sp|Q43362|VATL_CHRCT V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Chrysotila carteri OX=13221 GN=VAP PE=2 SV=1
+Length=164
+
+ Score = 42.4 bits (98),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 35/145 (24%), Positives = 68/145 (47%), Gaps = 6/145 (4%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  +  A A IF+ +G+A G   +G   +++   +P+   +++I  ++ G  G+YG +IA
+Sbjct  12   FGFMGAAVALIFANLGAAYGTAKSGVGVSSMGVMKPDLVMKSIIPVVMAGVLGIYGLIIA  71
+
+Query  74   FLIFINL------GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+             +I   +          S   G   L A L    +G+ +GIA G V  AG++  A++ + 
+Sbjct  72   VIIGNGVKGPEGGKPQYSSFTGFAHLAAGLACGLSGMAAGIAIGIVGDAGVRASAQQAKL  131
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLL  152
+                ++     E   + G ++  +L
+Sbjct  132  YVGMVLILIFAEALGLYGLIVGLIL  156
+
+
+> sp|Q6BSB9|VATL2_DEBHA V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 
+767 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=VMA11 PE=3 
+SV=1
+Length=163
+
+ Score = 42.0 bits (97),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 36/135 (27%), Positives = 61/135 (45%), Gaps = 2/135 (1%)
+
+Query  20   ATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIAFLIFIN  79
+            A A I S  G+A G   +G   + + T +PE   ++LI  ++ G   +YG V++ LI   
+Sbjct  23   AAAMILSCAGAAIGTAKSGIGISGIGTFKPELIMKSLIPVVMSGILSVYGLVVSVLIAGG  82
+
+Query  80   LG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGIIFAAM  137
+            L    + S+  G   L   L + F  L SG + G V   G++    +P      ++    
+Sbjct  83   LSPTENYSLFNGFMHLACGLSVGFACLASGYSIGIVGDEGVRQFMHQPRLFVGIVLILIF  142
+
+Query  138  VETYAILGFVISFLL  152
+             E   + G +I+ +L
+Sbjct  143  AEVLGLYGMIIALIL  157
+
+
+> sp|P54642|VATL_DICDI V-type proton ATPase proteolipid subunit 
+OS=Dictyostelium discoideum OX=44689 GN=vatP PE=2 SV=1
+Length=196
+
+ Score = 41.2 bits (95),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 31/141 (22%), Positives = 66/141 (47%), Gaps = 2/141 (1%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F  + +  A +F+ +G+A G        + +   +P+   +A I  +  G   +YG +I 
+Sbjct  31   FGAMGVTAALVFTVMGAAYGTAKASVGISNMGVMKPDLVIKAFIPVIFAGVIAIYGLIIC  90
+
+Query  74   FLIF--INLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKG  131
+             ++   I   ++ ++++    LGA L +   GL +G+A G V  +G++   ++P+     
+Sbjct  91   VILVGGIKPNANYTLMKSFTDLGAGLTVGLCGLAAGMAIGIVGDSGVRAFGQQPKLYVIM  150
+
+Query  132  IIFAAMVETYAILGFVISFLL  152
+            ++     E   + G +I  LL
+Sbjct  151  MLILIFSEALGLYGLIIGILL  171
+
+
+> sp|Q8EWZ3|ATPL_MYCPE ATP synthase subunit c OS=Mycoplasma penetrans 
+(strain HF-2) OX=272633 GN=atpE PE=3 SV=1
+Length=78
+
+ Score = 39.3 bits (90),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 30/71 (42%), Positives = 42/71 (59%), Gaps = 7/71 (10%)
+
+Query  88   QGLNFLGASLP-IAFTGLFSGIAQGKVAAAGIQILAKKPEHATK----GIIFAAMVETYA  142
+            QG  F+GA L  IA  G+  GI QG  AA  ++ +A+ PE  +K     I+ AA+ ET A
+Sbjct  6    QGYAFIGAGLAMIAILGV--GIGQGWSAAKSVEAVARNPEVVSKIRSQYILSAAVTETGA  63
+
+Query  143  ILGFVISFLLV  153
+            +  F+I+ LLV
+Sbjct  64   LYCFIIAILLV  74
+
+
+> sp|A9NGW7|ATPL_ACHLI ATP synthase subunit c OS=Acholeplasma laidlawii 
+(strain PG-8A) OX=441768 GN=atpE PE=3 SV=1
+Length=86
+
+ Score = 39.3 bits (90),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 27/68 (40%), Positives = 40/68 (59%), Gaps = 5/68 (7%)
+
+Query  89   GLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK----GIIFAAMVETYAIL  144
+            GL +LGA + I   GL +GI QG  AA  ++ + ++PE + K     I+  AMVET  I 
+Sbjct  17   GLAYLGAGISILAAGL-AGIGQGLAAARAVEAVGRQPEASGKITVTMILGQAMVETSGIY  75
+
+Query  145  GFVISFLL  152
+              +I+F+L
+Sbjct  76   ALIIAFIL  83
+
+
+> sp|Q9Y874|VATL2_NEUCR V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A 
+/ CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=vma-11 
+PE=2 SV=2
+Length=167
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 32/106 (30%), Positives = 49/106 (46%), Gaps = 5/106 (5%)
+
+Query  19   MATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIAFLIFI  78
+            +A A IF   G+A G   +G   A + T +P+   + LI  ++ G   +Y  V+A LI  
+Sbjct  23   IAAAMIFGSAGAAYGTAKSGIGIAGVGTFRPDLIMKCLIPVVMSGIIAVYALVVAVLIAQ  82
+
+Query  79   NL-----GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQ  119
+            +L     G   S+  G   L   L +  TGL +G   G V   G++
+Sbjct  83   DLGPPGSGQHYSLFNGFMHLACGLSVGLTGLAAGYCIGIVGDKGVR  128
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6696727392
+Results from round 2
+
+
+Query= P43457|2bl2A
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q00607|VATL_CANTR V-type proton ATPase 16 kDa proteolipid su...  130     6e-37
+  sp|P32842|VATL2_YEAST V-type proton ATPase subunit c' OS=Saccha...  129     2e-36
+  sp|Q6FUY5|VATL2_CANGA V-type proton ATPase 16 kDa proteolipid s...  129     2e-36
+  sp|Q6CT28|VATL2_KLULA V-type proton ATPase 16 kDa proteolipid s...  128     3e-36
+  sp|P25515|VATL1_YEAST V-type proton ATPase subunit c OS=Sacchar...  126     2e-35
+  sp|Q755G4|VATL2_ASHGO V-type proton ATPase 16 kDa proteolipid s...  124     1e-34
+  sp|P31413|VATL_NEUCR V-type proton ATPase 16 kDa proteolipid su...  122     5e-34
+  sp|Q24808|VATL_ENTDI V-type proton ATPase 16 kDa proteolipid su...  123     6e-34
+  sp|P50515|VATL_SCHPO V-type proton ATPase 16 kDa proteolipid su...  122     7e-34
+  sp|Q6BSB9|VATL2_DEBHA V-type proton ATPase 16 kDa proteolipid s...  121     1e-33
+  sp|Q40585|VATL_TOBAC V-type proton ATPase 16 kDa proteolipid su...  121     2e-33
+  sp|Q9URZ8|VATL2_SCHPO V-type proton ATPase 16 kDa proteolipid s...  120     5e-33
+  sp|O24011|VATL_SOLLC V-type proton ATPase 16 kDa proteolipid su...  120     5e-33
+  sp|P68161|VATL_MESCR V-type proton ATPase 16 kDa proteolipid su...  120     6e-33
+  sp|P68162|VATL_BETVU V-type proton ATPase 16 kDa proteolipid su...  120     6e-33
+  sp|Q0IUB5|VATL_ORYSJ V-type proton ATPase 16 kDa proteolipid su...  120     6e-33
+  sp|A2ZBW5|VATL_ORYSI V-type proton ATPase 16 kDa proteolipid su...  120     6e-33
+  sp|P31403|VATL_MANSE V-type proton ATPase 16 kDa proteolipid su...  120     6e-33
+  sp|P23380|VATL_DROME V-type proton ATPase 16 kDa proteolipid su...  120     6e-33
+  sp|Q96473|VATL_KALDA V-type proton ATPase 16 kDa proteolipid su...  120     8e-33
+  sp|Q26250|VATL_NEPNO V-type proton ATPase 16 kDa proteolipid su...  119     8e-33
+  sp|Q43434|VATL_GOSHI V-type proton ATPase 16 kDa proteolipid su...  119     1e-32
+  sp|P27449|VATL_HUMAN V-type proton ATPase 16 kDa proteolipid su...  119     1e-32
+  sp|Q24810|VATL_ENTHI V-type proton ATPase 16 kDa proteolipid su...  119     1e-32
+  sp|P0DH94|VATL5_ARATH V-type proton ATPase subunit c5 OS=Arabid...  119     1e-32
+  sp|P0DH93|VATL3_ARATH V-type proton ATPase subunit c3 OS=Arabid...  119     1e-32
+  sp|P0DH92|VATL1_ARATH V-type proton ATPase subunit c1 OS=Arabid...  119     1e-32
+  sp|O16110|VATL_AEDAE V-type proton ATPase 16 kDa proteolipid su...  118     2e-32
+  sp|P55277|VATL_HELVI V-type proton ATPase 16 kDa proteolipid su...  118     2e-32
+  sp|P23957|VATL_AVESA V-type proton ATPase 16 kDa proteolipid su...  118     2e-32
+  sp|P59228|VATL2_ARATH V-type proton ATPase subunit c2 OS=Arabid...  118     3e-32
+  sp|P63081|VATL_RAT V-type proton ATPase 16 kDa proteolipid subu...  118     3e-32
+  sp|P63082|VATL_MOUSE V-type proton ATPase 16 kDa proteolipid su...  118     3e-32
+  sp|O22552|VATL_VIGRR V-type proton ATPase 16 kDa proteolipid su...  118     3e-32
+  sp|P59229|VATL4_ARATH V-type proton ATPase subunit c4 OS=Arabid...  117     6e-32
+  sp|P34546|VATL2_CAEEL V-type proton ATPase 16 kDa proteolipid s...  116     1e-31
+  sp|Q612A5|VATL2_CAEBR V-type proton ATPase 16 kDa proteolipid s...  116     1e-31
+  sp|P54642|VATL_DICDI V-type proton ATPase proteolipid subunit O...  117     2e-31
+  sp|P43457|NTPK_ENTHA V-type sodium ATPase subunit K OS=Enteroco...  115     2e-31
+  sp|P23956|VATL_BOVIN V-type proton ATPase 16 kDa proteolipid su...  115     5e-31
+  sp|Q03105|VATL_TORMA V-type proton ATPase 16 kDa proteolipid su...  114     7e-31
+  sp|O18882|VATL_SHEEP V-type proton ATPase 16 kDa proteolipid su...  113     1e-30
+  sp|Q17046|VATL_ASCSU V-type proton ATPase 16 kDa proteolipid su...  113     2e-30
+  sp|Q9Y874|VATL2_NEUCR V-type proton ATPase 16 kDa proteolipid s...  112     5e-30
+  sp|Q43362|VATL_CHRCT V-type proton ATPase 16 kDa proteolipid su...  110     2e-29
+  sp|Q57674|ATPL_METJA Probable ATPase proteolipid chain OS=Metha...  68.4    2e-13
+  sp|Q3A941|ATPL_CARHZ ATP synthase subunit c OS=Carboxydothermus...  41.5    2e-04
+  sp|Q8EWZ3|ATPL_MYCPE ATP synthase subunit c OS=Mycoplasma penet...  39.5    0.001
+  sp|A9NGW7|ATPL_ACHLI ATP synthase subunit c OS=Acholeplasma lai...  37.6    0.004
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q21898|VATL1_CAEEL V-type proton ATPase 16 kDa proteolipid s...  102     5e-26
+  sp|Q41773|VATL_MAIZE V-type proton ATPase 16 kDa proteolipid su...  77.3    3e-17
+  sp|Q91V37|VATO_MOUSE V-type proton ATPase 21 kDa proteolipid su...  65.0    3e-12
+  sp|Q2TA24|VATO_BOVIN V-type proton ATPase 21 kDa proteolipid su...  64.6    4e-12
+  sp|Q99437|VATO_HUMAN V-type proton ATPase 21 kDa proteolipid su...  64.2    5e-12
+  sp|O14046|VATO_SCHPO Probable V-type proton ATPase 20 kDa prote...  61.5    4e-11
+  sp|Q9SLA2|VATO2_ARATH V-type proton ATPase subunit c''2 OS=Arab...  58.4    5e-10
+  sp|Q9SZY7|VATO1_ARATH V-type proton ATPase subunit c''1 OS=Arab...  58.0    7e-10
+  sp|P23968|VATO_YEAST V-type proton ATPase subunit c'' OS=Saccha...  51.5    2e-07
+  sp|B2XTP2|ATPH_HETA4 ATP synthase subunit c, chloroplastic OS=H...  37.6    0.004
+  sp|B2XT86|ATPH_HETA2 ATP synthase subunit c, chloroplastic OS=H...  37.6    0.004
+  sp|Q4G3A1|ATPH_EMIHU ATP synthase subunit c, chloroplastic OS=E...  37.6    0.005
+  sp|A0T0E7|ATPH_PHATC ATP synthase subunit c, chloroplastic OS=P...  37.6    0.005
+
+
+> sp|Q00607|VATL_CANTR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Candida tropicalis OX=5482 GN=VMA3 PE=3 SV=1
+Length=160
+
+ Score = 130 bits (327),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 36/146 (25%), Positives = 70/146 (48%), Gaps = 0/146 (0%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  +  A A +F+  G++ G   +G    A + ++P+   + ++  ++ G   +YG 
+Sbjct  9    APFFGSIGCAAAIVFTCFGASYGTAKSGVGICATSVTRPDLLVKNVVPVVMAGIIAIYGL  68
+
+Query  71   VIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+            V++ L+  +L    ++  G   LGA L +  +GL +G A G V  AG++  A++P     
+Sbjct  69   VVSVLVSDSLSQKQALYTGFIQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVG  128
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E   + G +++ LL   A
+Sbjct  129  MILILIFAEVLGLYGLIVALLLNSRA  154
+
+
+> sp|P32842|VATL2_YEAST V-type proton ATPase subunit c' OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=VMA11 PE=1 SV=1
+Length=164
+
+ Score = 129 bits (324),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 39/148 (26%), Positives = 64/148 (43%), Gaps = 2/148 (1%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F     A A + S +G+A G   +G   A + T +PE   ++LI  ++ G   +YG 
+Sbjct  15   APFFGFAGCAAAMVLSCLGAAIGTAKSGIGIAGIGTFKPELIMKSLIPVVMSGILAIYGL  74
+
+Query  71   VIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+            V+A LI  NL    D ++  G   L   L + F  L SG A G V   G++    +P   
+Sbjct  75   VVAVLIAGNLSPTEDYTLFNGFMHLSCGLCVGFACLSSGYAIGMVGDVGVRKYMHQPRLF  134
+
+Query  129  TKGIIFAAMVETYAILGFVISFLLVLNA  156
+               ++     E   + G +++ +L    
+Sbjct  135  VGIVLILIFSEVLGLYGMIVALILNTRG  162
+
+
+> sp|Q6FUY5|VATL2_CANGA V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Candida glabrata (strain ATCC 2001 / CBS 138 / 
+JCM 3761 / NBRC 0622 / NRRL Y-65) OX=284593 GN=VMA11 PE=3 SV=1
+Length=164
+
+ Score = 129 bits (324),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 40/144 (28%), Positives = 64/144 (44%), Gaps = 2/144 (1%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F     A A I S +G+A G   +G   A + T +PE   ++LI  ++ G   +YG 
+Sbjct  15   APFFGFAGCALAMILSCLGAAIGTAKSGIGIAGIGTFKPELIMKSLIPVVMSGILAIYGL  74
+
+Query  71   VIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+            V+A LI  NL    + ++  G   L   L + F  L SG A G V   G++    +P   
+Sbjct  75   VVAVLIAGNLSPTEEYTLFNGFMHLSCGLCVGFACLSSGYAIGIVGDVGVRKYMHQPRLF  134
+
+Query  129  TKGIIFAAMVETYAILGFVISFLL  152
+               ++     E   + G +I+ +L
+Sbjct  135  VGIVLILIFSEVLGLYGMIIALIL  158
+
+
+> sp|Q6CT28|VATL2_KLULA V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 
+/ DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 
+GN=VMA11 PE=3 SV=1
+Length=165
+
+ Score = 128 bits (323),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 38/148 (26%), Positives = 63/148 (43%), Gaps = 2/148 (1%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F     A A I S +G+A G   +G   + + T +PE   ++LI  ++ G   +YG 
+Sbjct  15   APFFGFAGCAFAMILSCLGAAIGTAKSGIGISGIGTFKPELIMKSLIPVVMSGILAVYGL  74
+
+Query  71   VIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+            V+A LI   L    D ++  G   L   L + F  L SG A G V   G++    +P   
+Sbjct  75   VVAVLIAGGLSPTEDYTLFNGFMHLSCGLCVGFACLSSGYAIGIVGDVGVRKYMHQPRLF  134
+
+Query  129  TKGIIFAAMVETYAILGFVISFLLVLNA  156
+               ++     E   + G +++ +L    
+Sbjct  135  VGIVLILIFSEVLGLYGMIVALILNTRG  162
+
+
+> sp|P25515|VATL1_YEAST V-type proton ATPase subunit c OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=VMA3 
+PE=1 SV=1
+Length=160
+
+ Score = 126 bits (318),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 38/146 (26%), Positives = 71/146 (49%), Gaps = 0/146 (0%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  +  A+A IF+ +G+A G   +G    A    +P+   + ++  ++ G   +YG 
+Sbjct  9    APFFGAIGCASAIIFTSLGAAYGTAKSGVGICATCVLRPDLLFKNIVPVIMAGIIAIYGL  68
+
+Query  71   VIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+            V++ L+  +LG   ++  G   LGA L +  +GL +G A G V  AG++  +++P     
+Sbjct  69   VVSVLVCYSLGQKQALYTGFIQLGAGLSVGLSGLAAGFAIGIVGDAGVRGSSQQPRLFVG  128
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E   + G +++ LL   A
+Sbjct  129  MILILIFAEVLGLYGLIVALLLNSRA  154
+
+
+> sp|Q755G4|VATL2_ASHGO V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Ashbya gossypii (strain ATCC 10895 / CBS 109.51 
+/ FGSC 9923 / NRRL Y-1056) OX=284811 GN=VMA11 PE=3 SV=1
+Length=164
+
+ Score = 124 bits (312),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 38/148 (26%), Positives = 64/148 (43%), Gaps = 2/148 (1%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F     A A I S +G+A G   +G   + + T +PE   ++LI  ++ G   +YG 
+Sbjct  14   APFFGFAGCAAAMILSSLGAAIGTAKSGIGISGIGTFRPELIMKSLIPVVMSGILAVYGL  73
+
+Query  71   VIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+            V+A L+   L    + ++  G   L A L + F  L SG A G V   G++    +P   
+Sbjct  74   VVAVLVAGGLSPTEEYTLFNGFMHLAAGLCVGFACLSSGYAIGIVGDVGVRKFMHQPRLF  133
+
+Query  129  TKGIIFAAMVETYAILGFVISFLLVLNA  156
+               ++     E   + G +I+ +L    
+Sbjct  134  VGIVLILIFAEVLGLYGMIIALILNTRG  161
+
+
+> sp|P31413|VATL_NEUCR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A 
+/ CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=vma-3 PE=2 
+SV=1
+Length=161
+
+ Score = 122 bits (307),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 38/147 (26%), Positives = 70/147 (48%), Gaps = 1/147 (1%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  +    A +F+ +G++ G   +G   AA+   +P+   + ++  ++ G  G+YG 
+Sbjct  9    APFFGAMGCTAAIVFTCLGASYGTAKSGVGIAAMGVLRPDLIVKNIVPVIMAGIIGIYGL  68
+
+Query  71   VIAFLIFINLGSD-MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHAT  129
+            V++ LI   L  D  ++  G   LGA L +   GL +G A G V  AG++  A++P    
+Sbjct  69   VVSVLISDALTQDHYALYTGFIQLGAGLAVGLAGLAAGFAIGIVGDAGVRGTAQQPRLFV  128
+
+Query  130  KGIIFAAMVETYAILGFVISFLLVLNA  156
+              I+     E   + G +++ L+   A
+Sbjct  129  GMILILIFAEVLGLYGLIVALLMNSKA  155
+
+
+> sp|Q24808|VATL_ENTDI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Entamoeba dispar OX=46681 GN=VMA3 PE=2 SV=1
+Length=176
+
+ Score = 123 bits (308),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 35/142 (25%), Positives = 70/142 (49%), Gaps = 1/142 (1%)
+
+Query  12   MVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFV  71
+              F  + +  + +F+  G A G   +    +++   +PE   ++L   +  G  GLYG +
+Sbjct  17   PFFGSMGITASIVFTVFGGAYGTAKSSVGISSVGVMKPEFIMRSLFPVVFAGVIGLYGLI  76
+
+Query  72   IAFLIFINLG-SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+            +  ++FIN+  S+ S+ +    LGA L     GL SG++ G     G++  A++P+    
+Sbjct  77   VCIVLFINVNKSEYSLNRAFLDLGAGLTCGLCGLASGMSIGISGDCGVRGAAQQPKLFVS  136
+
+Query  131  GIIFAAMVETYAILGFVISFLL  152
+             +I     E  A+ GF+++ ++
+Sbjct  137  MLICLIFSEALALYGFIVALIM  158
+
+
+> sp|P50515|VATL_SCHPO V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=vma3 PE=3 SV=1
+Length=161
+
+ Score = 122 bits (307),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 41/146 (28%), Positives = 68/146 (47%), Gaps = 0/146 (0%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F V+    A +F+  G+A G    G   +A+   +P+   +  I  ++ G   +YG 
+Sbjct  10   APFFGVMGCTAAIVFASFGAAYGTAKAGVGISAMGVLRPDLIVKNTIPVVMAGIIAIYGL  69
+
+Query  71   VIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+            V++ LI  NL   +S+  G   LGA L +   GL +G A G V  AG++  A++P     
+Sbjct  70   VVSVLISGNLKQILSLYSGFIQLGAGLSVGLAGLAAGFAIGIVGDAGVRGTAQQPRLFVA  129
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLNA  156
+             I+     E   + G +++ LL   A
+Sbjct  130  MILILIFAEVLGLYGLIVALLLNTRA  155
+
+
+> sp|Q6BSB9|VATL2_DEBHA V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 
+767 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=VMA11 PE=3 
+SV=1
+Length=163
+
+ Score = 121 bits (305),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 36/144 (25%), Positives = 61/144 (42%), Gaps = 2/144 (1%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+                     A A I S  G+A G   +G   + + T +PE   ++LI  ++ G   +YG 
+Sbjct  14   APFLGFAGCAAAMILSCAGAAIGTAKSGIGISGIGTFKPELIMKSLIPVVMSGILSVYGL  73
+
+Query  71   VIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+            V++ LI   L    + S+  G   L   L + F  L SG + G V   G++    +P   
+Sbjct  74   VVSVLIAGGLSPTENYSLFNGFMHLACGLSVGFACLASGYSIGIVGDEGVRQFMHQPRLF  133
+
+Query  129  TKGIIFAAMVETYAILGFVISFLL  152
+               ++     E   + G +I+ +L
+Sbjct  134  VGIVLILIFAEVLGLYGMIIALIL  157
+
+
+> sp|Q40585|VATL_TOBAC V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+Length=165
+
+ Score = 121 bits (305),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  11   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  70
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  71   IIAVIISTGINPKTKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  130
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  131  FVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|Q9URZ8|VATL2_SCHPO V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=vma11 PE=3 SV=1
+Length=162
+
+ Score = 120 bits (301),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 36/142 (25%), Positives = 66/142 (46%), Gaps = 2/142 (1%)
+
+Query  13   VFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVI  72
+             F    +  + +FS +G+  G  + G   AA+   +PE   ++LI  ++ G  G+YG V+
+Sbjct  12   FFGFAGVCASMVFSCLGAGYGTALAGRGIAAVGAFRPEIVMKSLIPVVMSGIIGVYGLVM  71
+
+Query  73   AFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+            + LI  ++    D S+  G   L A L +  TG+ +G A G V   G+Q   ++      
+Sbjct  72   SVLIAGDMSPDNDYSLFSGFIHLSAGLAVGLTGVAAGYAIGVVGDRGVQSFMRQDRIFVS  131
+
+Query  131  GIIFAAMVETYAILGFVISFLL  152
+             ++     E   + G ++  +L
+Sbjct  132  MVLILIFAEVLGLYGLIVGLIL  153
+
+
+> sp|O24011|VATL_SOLLC V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+Length=164
+
+ Score = 120 bits (301),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  10   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  69
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  70   IIAVIISTGINPKTKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  129
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  130  FVGMILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|P68161|VATL_MESCR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Mesembryanthemum crystallinum OX=3544 GN=VMAC1 PE=2 
+SV=1
+Length=165
+
+ Score = 120 bits (301),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  11   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  70
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  71   IIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  130
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  131  FVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|P68162|VATL_BETVU V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Beta vulgaris OX=161934 GN=VMAC1 PE=2 SV=1
+Length=165
+
+ Score = 120 bits (301),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  11   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  70
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  71   IIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  130
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  131  FVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|Q0IUB5|VATL_ORYSJ V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Oryza sativa subsp. japonica OX=39947 GN=VATP-P1 
+PE=2 SV=1
+Length=165
+
+ Score = 120 bits (301),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 40/149 (27%), Positives = 71/149 (48%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A+A IFS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  11   APFFGFLGAASALIFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  70
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  71   IIAVIISTGINPKAKPYYLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAGVRANAQQPKL  130
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  131  FVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|A2ZBW5|VATL_ORYSI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Oryza sativa subsp. indica OX=39946 GN=VATP-P1 PE=2 
+SV=1
+Length=165
+
+ Score = 120 bits (301),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 40/149 (27%), Positives = 71/149 (48%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A+A IFS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  11   APFFGFLGAASALIFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  70
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  71   IIAVIISTGINPKAKPYYLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAGVRANAQQPKL  130
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  131  FVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|P31403|VATL_MANSE V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Manduca sexta OX=7130 GN=VHA16 PE=2 SV=1
+Length=156
+
+ Score = 120 bits (300),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 45/145 (31%), Positives = 78/145 (54%), Gaps = 3/145 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+            G  F V+  A+A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG 
+Sbjct  8    GPFFGVMGAASAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGL  67
+
+Query  71   VIAFLIFINL---GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            V+A LI  +L    ++ ++ +G   LGA L + F+GL +G A G V  AG++  A++P  
+Sbjct  68   VVAVLIAGSLDSPSNNYTLYRGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQPRL  127
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLL  152
+                I+     E   + G +++  L
+Sbjct  128  FVGMILILIFAEVLGLYGLIVAIYL  152
+
+
+> sp|P23380|VATL_DROME V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Drosophila melanogaster OX=7227 GN=Vha16-1 PE=2 SV=1
+Length=159
+
+ Score = 120 bits (300),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 47/144 (33%), Positives = 76/144 (53%), Gaps = 2/144 (1%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+            G  F V+  A+A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG 
+Sbjct  13   GPFFGVMGAASAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGL  72
+
+Query  71   VIAFLIFINLG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+            V+A LI   L   S  S+ +G   LGA L + F+GL +G A G V  AG++  A++P   
+Sbjct  73   VVAVLIAGALEEPSKYSLYRGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQPRLF  132
+
+Query  129  TKGIIFAAMVETYAILGFVISFLL  152
+               I+     E   + G +++  L
+Sbjct  133  VGMILILIFAEVLGLYGLIVAIYL  156
+
+
+> sp|Q96473|VATL_KALDA V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Kalanchoe daigremontiana OX=23013 PE=2 SV=1
+Length=165
+
+ Score = 120 bits (300),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  11   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  70
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  71   IIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  130
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  131  FVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|Q26250|VATL_NEPNO V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Nephrops norvegicus OX=6829 PE=2 SV=1
+Length=159
+
+ Score = 119 bits (299),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 41/143 (29%), Positives = 72/143 (50%), Gaps = 2/143 (1%)
+
+Query  12   MVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFV  71
+              F V+  A+A +FS +G+A G   +G   +A++  +PE   + +I  ++ G   +YG V
+Sbjct  11   PFFGVMGAASAMVFSALGAAYGTAKSGVGISAMSVMRPELIMKCIIPVVMAGIIAIYGLV  70
+
+Query  72   IAFLIFINLG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHAT  129
+            +A LI   L      ++ QG   +GA L +  +GL +G A G V  AG++  A++P    
+Sbjct  71   VAVLIAGKLDEAPTYTLYQGFVHMGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLYV  130
+
+Query  130  KGIIFAAMVETYAILGFVISFLL  152
+              I+     E   + G +++  L
+Sbjct  131  GMILILIFAEVLGLYGLIVAIFL  153
+
+
+> sp|Q43434|VATL_GOSHI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Gossypium hirsutum OX=3635 GN=CVA16-2 PE=2 SV=1
+Length=165
+
+ Score = 119 bits (299),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  11   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  70
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  71   IIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  130
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  131  FVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|P27449|VATL_HUMAN V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Homo sapiens OX=9606 GN=ATP6V0C PE=1 SV=1
+Length=155
+
+ Score = 119 bits (298),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 43/143 (30%), Positives = 77/143 (54%), Gaps = 0/143 (0%)
+
+Query  13   VFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVI  72
+             FAV+  + A +FS +G+A G   +G   AA++  +PE+  +++I  ++ G   +YG V+
+Sbjct  13   FFAVMGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPEQIMKSIIPVVMAGIIAIYGLVV  72
+
+Query  73   AFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGI  132
+            A LI  +L  D+S+ +    LGA L +  +GL +G A G V  AG++  A++P      I
+Sbjct  73   AVLIANSLNDDISLYKSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMI  132
+
+Query  133  IFAAMVETYAILGFVISFLLVLN  155
+            +     E   + G +++ +L   
+Sbjct  133  LILIFAEVLGLYGLIVALILSTK  155
+
+
+> sp|Q24810|VATL_ENTHI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Entamoeba histolytica OX=5759 GN=VMA3 PE=3 SV=1
+Length=177
+
+ Score = 119 bits (299),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 36/144 (25%), Positives = 70/144 (49%), Gaps = 1/144 (1%)
+
+Query  12   MVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFV  71
+              F  + +  + +F+  G A G   +    +++   +PE   +++   +  G  GLYG +
+Sbjct  19   PFFGSMGITASIVFTVFGGAYGTAKSSVGISSVGVMKPEFIVRSVAPVVFAGIIGLYGLI  78
+
+Query  72   IAFLIFINL-GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+            +  L+FIN+  S+ S+ +    LGA L     GL SG+A G     G++  A++P+    
+Sbjct  79   VCILLFINVTKSEYSLNRAFLDLGAGLTCGLCGLASGMAIGISGDCGVRGAAQQPKLFVG  138
+
+Query  131  GIIFAAMVETYAILGFVISFLLVL  154
+             +I     E  A+ GF+++ ++  
+Sbjct  139  MLICLIFSEALALYGFIVALIMAS  162
+
+
+> sp|P0DH94|VATL5_ARATH V-type proton ATPase subunit c5 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c5 PE=2 SV=1
+Length=164
+
+ Score = 119 bits (298),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  10   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  69
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  70   IIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  129
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  130  FVGMILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|P0DH93|VATL3_ARATH V-type proton ATPase subunit c3 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c3 PE=1 SV=1
+Length=164
+
+ Score = 119 bits (298),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  10   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  69
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  70   IIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  129
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  130  FVGMILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|P0DH92|VATL1_ARATH V-type proton ATPase subunit c1 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c1 PE=2 SV=1
+Length=164
+
+ Score = 119 bits (298),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  10   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  69
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  70   IIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  129
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  130  FVGMILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|O16110|VATL_AEDAE V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Aedes aegypti OX=7159 GN=AAEL000291 PE=2 SV=2
+Length=157
+
+ Score = 118 bits (297),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 76/144 (53%), Gaps = 2/144 (1%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+            G  F V+  A A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG 
+Sbjct  11   GPFFGVMGAAAAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGL  70
+
+Query  71   VIAFLIFINLG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+            V+A LI  +L   +  S+ +G   LGA L + F+GL +G A G V  AG++  A++P   
+Sbjct  71   VVAVLIAGSLDTPTKYSLYKGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQPRLF  130
+
+Query  129  TKGIIFAAMVETYAILGFVISFLL  152
+               I+     E   + G +++  L
+Sbjct  131  VGMILILIFAEVLGLYGLIVAIYL  154
+
+
+> sp|P55277|VATL_HELVI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Heliothis virescens OX=7102 GN=VHA16 PE=2 SV=1
+Length=156
+
+ Score = 118 bits (296),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 45/145 (31%), Positives = 78/145 (54%), Gaps = 3/145 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+            G  F V+  A+A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG 
+Sbjct  8    GPFFGVMGAASAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGL  67
+
+Query  71   VIAFLIFINL---GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            V+A LI  +L    ++ ++ +G   LGA L + F+GL +G A G V  AG++  A++P  
+Sbjct  68   VVAVLIAGSLDAPSNNYTLYKGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQPRL  127
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLL  152
+                I+     E   + G +++  L
+Sbjct  128  FVGMILILIFAEVLGLYGLIVAIYL  152
+
+
+> sp|P23957|VATL_AVESA V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Avena sativa OX=4498 GN=VATP-P1 PE=2 SV=1
+Length=165
+
+ Score = 118 bits (297),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  11   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  70
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  71   IIAVIISTGINPKAKPYFLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAGVRANAQQPKL  130
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  131  FVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|P59228|VATL2_ARATH V-type proton ATPase subunit c2 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c2 PE=2 SV=1
+Length=165
+
+ Score = 118 bits (296),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  11   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  70
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  71   IIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  130
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  131  FVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|P63081|VATL_RAT V-type proton ATPase 16 kDa proteolipid subunit 
+OS=Rattus norvegicus OX=10116 GN=Atp6v0c PE=2 SV=1
+Length=155
+
+ Score = 118 bits (295),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 40/143 (28%), Positives = 75/143 (52%), Gaps = 0/143 (0%)
+
+Query  13   VFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVI  72
+             F V+  ++A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG V+
+Sbjct  13   FFGVMGASSAMVFSAMGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGLVV  72
+
+Query  73   AFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGI  132
+            A LI  +L   +++ +    LGA L +  +GL +G A G V  AG++  A++P      I
+Sbjct  73   AVLIANSLTDGITLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMI  132
+
+Query  133  IFAAMVETYAILGFVISFLLVLN  155
+            +     E   + G +++ +L   
+Sbjct  133  LILIFAEVLGLYGLIVALILSTK  155
+
+
+> sp|P63082|VATL_MOUSE V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Mus musculus OX=10090 GN=Atp6v0c PE=1 SV=1
+Length=155
+
+ Score = 118 bits (295),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 40/143 (28%), Positives = 75/143 (52%), Gaps = 0/143 (0%)
+
+Query  13   VFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVI  72
+             F V+  ++A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG V+
+Sbjct  13   FFGVMGASSAMVFSAMGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGLVV  72
+
+Query  73   AFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGI  132
+            A LI  +L   +++ +    LGA L +  +GL +G A G V  AG++  A++P      I
+Sbjct  73   AVLIANSLTDGITLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMI  132
+
+Query  133  IFAAMVETYAILGFVISFLLVLN  155
+            +     E   + G +++ +L   
+Sbjct  133  LILIFAEVLGLYGLIVALILSTK  155
+
+
+> sp|O22552|VATL_VIGRR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Vigna radiata var. radiata OX=3916 PE=2 SV=1
+Length=164
+
+ Score = 118 bits (296),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  10   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  69
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  70   IIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  129
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  130  FVGMILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|P59229|VATL4_ARATH V-type proton ATPase subunit c4 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c4 PE=2 SV=1
+Length=166
+
+ Score = 117 bits (294),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  12   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  71
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  72   IIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  131
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  132  FVGMILILIFAEALALYGLIVGIILSSRA  160
+
+
+> sp|P34546|VATL2_CAEEL V-type proton ATPase 16 kDa proteolipid 
+subunit 2/3 OS=Caenorhabditis elegans OX=6239 GN=vha-2 PE=2 
+SV=2
+Length=161
+
+ Score = 116 bits (292),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 35/145 (24%), Positives = 68/145 (47%), Gaps = 3/145 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  +  A+A IF+ +G+A G   +     ++   +PE   +++I  ++ G  G+YG 
+Sbjct  14   APFFGYMGAASAQIFTVLGAAYGTAKSAVGICSMGVMRPELIMKSVIPVIMAGIIGIYGL  73
+
+Query  71   VIAFLIFI---NLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            V+A ++     +  +   + +G   L A L     GL +G A G V  AG++  A++P  
+Sbjct  74   VVAMVLKGKVTSASAGYDLNKGFAHLAAGLTCGLCGLGAGYAIGIVGDAGVRGTAQQPRL  133
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLL  152
+                I+     E   + G +++ +L
+Sbjct  134  FVGMILILIFSEVLGLYGMIVALIL  158
+
+
+> sp|Q612A5|VATL2_CAEBR V-type proton ATPase 16 kDa proteolipid 
+subunit 2/3 OS=Caenorhabditis briggsae OX=6238 GN=vha-2 PE=3 
+SV=1
+Length=161
+
+ Score = 116 bits (291),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 35/145 (24%), Positives = 68/145 (47%), Gaps = 3/145 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  +  A+A IF+ +G+A G   +     ++   +PE   +++I  ++ G  G+YG 
+Sbjct  14   APFFGYMGAASAQIFTVLGAAYGTAKSAVGICSMGVMRPELIMKSVIPVIMAGIIGIYGL  73
+
+Query  71   VIAFLIFINL---GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            V+A ++   +    +   + +G   L A L     GL +G A G V  AG++  A++P  
+Sbjct  74   VVAMVLKGKVQAASAGYDLNKGFAHLAAGLTCGLCGLGAGYAIGIVGDAGVRGTAQQPRL  133
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLL  152
+                I+     E   + G +++ +L
+Sbjct  134  FVGMILILIFSEVLGLYGMIVALIL  158
+
+
+> sp|P54642|VATL_DICDI V-type proton ATPase proteolipid subunit 
+OS=Dictyostelium discoideum OX=44689 GN=vatP PE=2 SV=1
+Length=196
+
+ Score = 117 bits (293),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 30/146 (21%), Positives = 66/146 (45%), Gaps = 2/146 (1%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  + +  A +F+ +G+A G        + +   +P+   +A I  +  G   +YG 
+Sbjct  28   APFFGAMGVTAALVFTVMGAAYGTAKASVGISNMGVMKPDLVIKAFIPVIFAGVIAIYGL  87
+
+Query  71   VIAFLIFINL--GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHA  128
+            +I  ++   +   ++ ++++    LGA L +   GL +G+A G V  +G++   ++P+  
+Sbjct  88   IICVILVGGIKPNANYTLMKSFTDLGAGLTVGLCGLAAGMAIGIVGDSGVRAFGQQPKLY  147
+
+Query  129  TKGIIFAAMVETYAILGFVISFLLVL  154
+               ++     E   + G +I  LL  
+Sbjct  148  VIMMLILIFSEALGLYGLIIGILLSS  173
+
+
+> sp|P43457|NTPK_ENTHA V-type sodium ATPase subunit K OS=Enterococcus 
+hirae (strain ATCC 9790 / DSM 20160 / JCM 8729 / LMG 
+6399 / NBRC 3181 / NCIMB 6459 / NCDO 1258) OX=768486 GN=ntpK 
+PE=1 SV=1
+Length=156
+
+ Score = 115 bits (289),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 156/156 (100%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL
+Sbjct  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI  120
+            LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI
+Sbjct  61   LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI  120
+
+Query  121  LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA
+Sbjct  121  LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+
+
+> sp|P23956|VATL_BOVIN V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Bos taurus OX=9913 GN=ATP6V0C PE=1 SV=1
+Length=155
+
+ Score = 115 bits (287),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 42/143 (29%), Positives = 75/143 (52%), Gaps = 0/143 (0%)
+
+Query  13   VFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVI  72
+             FAV+  + A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG V+
+Sbjct  13   FFAVMGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPEMIMKSIIPVVMAGIIAIYGLVV  72
+
+Query  73   AFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGI  132
+            A LI  +L   +S+ +    LGA L +  +GL +G A G V  AG++  A++P      I
+Sbjct  73   AVLIANSLNDGISLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMI  132
+
+Query  133  IFAAMVETYAILGFVISFLLVLN  155
+            +     E   + G +++ +L   
+Sbjct  133  LILIFAEVLGLYGLIVALILSTK  155
+
+
+> sp|Q03105|VATL_TORMA V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Torpedo marmorata OX=7788 PE=1 SV=1
+Length=154
+
+ Score = 114 bits (286),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 42/144 (29%), Positives = 75/144 (52%), Gaps = 0/144 (0%)
+
+Query  12   MVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFV  71
+              F V+  + A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG V
+Sbjct  11   AFFGVIGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAIYGLV  70
+
+Query  72   IAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKG  131
+            +A LI  +L  D+S+ +    LGA L +  +GL +G A G V  AG++  A++P      
+Sbjct  71   VAVLIANSLTEDISLFKSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGM  130
+
+Query  132  IIFAAMVETYAILGFVISFLLVLN  155
+            I+     E   + G +++ +L   
+Sbjct  131  ILILIFAEVLGLYGLIVALILSTK  154
+
+
+> sp|O18882|VATL_SHEEP V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Ovis aries OX=9940 GN=ATP6V0C PE=2 SV=1
+Length=155
+
+ Score = 113 bits (284),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 42/143 (29%), Positives = 75/143 (52%), Gaps = 0/143 (0%)
+
+Query  13   VFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVI  72
+             FAV+  + A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +YG V+
+Sbjct  13   FFAVMGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPEMIMKSIIPVVMAGIIAIYGLVV  72
+
+Query  73   AFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGI  132
+            A LI  +L   +S+ +    LGA L +  +GL +G A G V  AG++  A++P      I
+Sbjct  73   AVLIANSLNDGISLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRLFVGMI  132
+
+Query  133  IFAAMVETYAILGFVISFLLVLN  155
+            +     E   + G +++ +L   
+Sbjct  133  LILIFAEVLGLYGLIVALILSTK  155
+
+
+> sp|Q17046|VATL_ASCSU V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Ascaris suum OX=6253 GN=12 PE=3 SV=1
+Length=161
+
+ Score = 113 bits (284),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 35/145 (24%), Positives = 70/145 (48%), Gaps = 3/145 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  +  A+A IF+ +G+A G   +    +++   +PE   +++I  ++ G  G+YG 
+Sbjct  14   APFFGYMGAASAQIFTVLGAAYGTAKSAVGISSMGVMRPELIMKSVIPVIMAGIIGIYGL  73
+
+Query  71   VIAFLI---FINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            V+A ++     +  +  ++ +G   L A L     GL +G A G V  AG++  A++P  
+Sbjct  74   VVAMVLRGKVTSASAGYTLDKGFAHLAAGLTCGLCGLGAGYAIGIVGDAGVRGTAQQPRL  133
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLL  152
+                I+     E   + G +++ +L
+Sbjct  134  FVGMILILIFSEVLGLYGMIVALIL  158
+
+
+> sp|Q9Y874|VATL2_NEUCR V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A 
+/ CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=vma-11 
+PE=2 SV=2
+Length=167
+
+ Score = 112 bits (281),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 37/161 (23%), Positives = 65/161 (40%), Gaps = 5/161 (3%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M D  +         +  +A A IF   G+A G   +G   A + T +P+   + LI  +
+Sbjct  5    MADSELAPKFAPFIGMAGIAAAMIFGSAGAAYGTAKSGIGIAGVGTFRPDLIMKCLIPVV  64
+
+Query  61   LPGTQGLYGFVIAFLIFINLGS-----DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAA  115
+            + G   +Y  V+A LI  +LG        S+  G   L   L +  TGL +G   G V  
+Sbjct  65   MSGIIAVYALVVAVLIAQDLGPPGSGQHYSLFNGFMHLACGLSVGLTGLAAGYCIGIVGD  124
+
+Query  116  AGIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+             G++    +       ++     E   + G +++ +L   +
+Sbjct  125  KGVRSFMLQSRIFVGMVLILIFGEVLGLYGLIVALILNTKS  165
+
+
+> sp|Q43362|VATL_CHRCT V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Chrysotila carteri OX=13221 GN=VAP PE=2 SV=1
+Length=164
+
+ Score = 110 bits (276),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 35/151 (23%), Positives = 68/151 (45%), Gaps = 6/151 (4%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  +  A A IF+ +G+A G   +G   +++   +P+   +++I  ++ G  G+YG 
+Sbjct  9    APFFGFMGAAVALIFANLGAAYGTAKSGVGVSSMGVMKPDLVMKSIIPVVMAGVLGIYGL  68
+
+Query  71   VIAFLIFINL------GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKK  124
+            +IA +I   +          S   G   L A L    +G+ +GIA G V  AG++  A++
+Sbjct  69   IIAVIIGNGVKGPEGGKPQYSSFTGFAHLAAGLACGLSGMAAGIAIGIVGDAGVRASAQQ  128
+
+Query  125  PEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+             +     ++     E   + G ++  +L   
+Sbjct  129  AKLYVGMVLILIFAEALGLYGLIVGLILTSK  159
+
+
+> sp|Q21898|VATL1_CAEEL V-type proton ATPase 16 kDa proteolipid 
+subunit 1 OS=Caenorhabditis elegans OX=6239 GN=vha-1 PE=2 SV=1
+Length=169
+
+ Score = 102 bits (254),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 34/145 (23%), Positives = 68/145 (47%), Gaps = 3/145 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+            G  F  L + +A  F+  GSA G    G   A++  ++P+   +A+I  ++ G   +YG 
+Sbjct  22   GPFFGSLGVTSAMAFAAAGSAYGTAKAGTGIASMAVARPDLVMKAIIPVVMAGIVAIYGL  81
+
+Query  71   VIAFLIFINL---GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            V+A ++   +   G++ ++    +     L     GL +G A G    AG++ L+++P  
+Sbjct  82   VVAVIVSGKVEPAGANYTINNAFSQFAGGLVCGLCGLGAGYAIGIAGDAGVRALSQQPRM  141
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLL  152
+                I+     E   + G +++ +L
+Sbjct  142  FVGMILILIFAEVLGLYGMIVALIL  166
+
+
+> sp|Q41773|VATL_MAIZE V-type proton ATPase 16 kDa proteolipid 
+subunit (Fragment) OS=Zea mays OX=4577 PE=2 SV=2
+Length=109
+
+ Score = 77.3 bits (189),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 26/103 (25%), Positives = 47/103 (46%), Gaps = 3/103 (3%)
+
+Query  57   ILQLLPGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKV  113
+            +  ++ G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V
+Sbjct  1    VPVVMAGVLGIYGLIIAVIISTGINPKAKPYYLFDGYAHLSSGLACGLAGLAAGMAIGIV  60
+
+Query  114  AAAGIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+              AG++  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  61   GDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  103
+
+
+> sp|Q57674|ATPL_METJA Probable ATPase proteolipid chain OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ0221 PE=3 SV=1
+Length=220
+
+ Score = 68.4 bits (166),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 48/143 (34%), Positives = 72/143 (50%), Gaps = 5/143 (3%)
+
+Query  13   VFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVI  72
+            +   +    A   +G+GS  G G+TG + A +    P KFG A++ Q LP TQGLYGF++
+Sbjct  6    ILGAVGAGLAVGIAGLGSGIGAGITGASGAGVVAEDPNKFGTAIVFQALPQTQGLYGFLV  65
+
+Query  73   AFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGI  132
+            A LI        +V     F       A     S I QG  A+AG+  +A+      K +
+Sbjct  66   AILILFVF---KTVSPWAMFAA--GLAAGLAGLSAIGQGIAASAGLGAVAEDNSIFGKAM  120
+
+Query  133  IFAAMVETYAILGFVISFLLVLN  155
+            +F+ + ET AI G +I+ LL++ 
+Sbjct  121  VFSVLPETQAIYGLLIAILLLVG  143
+
+
+ Score = 48.4 bits (114),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 45/125 (36%), Positives = 68/125 (54%), Gaps = 1/125 (1%)
+
+Query  30   SAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIAFLIFINLGSDMSVVQG  89
+            SA G G+   A           FG+A++  +LP TQ +YG +IA L+ + +    +  + 
+Sbjct  94   SAIGQGIAASAGLGAVAEDNSIFGKAMVFSVLPETQAIYGLLIAILLLVGVFKGNAGAET  153
+
+Query  90   LNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGIIFAAMVETYAILGFVIS  149
+            +  LGA   + F GL SGI QG  AA  I   A+ P+   KG++ A M ET+AI G +I+
+Sbjct  154  VAALGAGFAVGFAGL-SGIGQGITAAGAIGATARDPDAMGKGLVLAVMPETFAIFGLLIA  212
+
+Query  150  FLLVL  154
+             L++L
+Sbjct  213  ILIML  217
+
+
+> sp|Q91V37|VATO_MOUSE V-type proton ATPase 21 kDa proteolipid 
+subunit OS=Mus musculus OX=10090 GN=Atp6v0b PE=1 SV=1
+Length=205
+
+ Score = 65.0 bits (157),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 30/164 (18%), Positives = 62/164 (38%), Gaps = 10/164 (6%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            + + +T+    +++ L +  A   S +G+A G+ +TG +        P    + L+  + 
+Sbjct  37   VAWFLTETSPFMWSNLGIGLAISLSVVGAAWGIYITGSSIIGGGVKAPRIKTKNLVSIIF  96
+
+Query  62   PGTQGLYGFVIAFLIFINLGS----------DMSVVQGLNFLGASLPIAFTGLFSGIAQG  111
+                 +YG ++A +I                  +   G +  GA L +  + LF G+  G
+Sbjct  97   CEAVAIYGIIMAIVISNMAEPFSATEPKAIGHRNYHAGYSMFGAGLTVGLSNLFCGVCVG  156
+
+Query  112  KVAAAGIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+             V +      A+ P    K +I         + G +++ L    
+Sbjct  157  IVGSGAALADAQNPSLFVKILIVEIFGSAIGLFGVIVAILQTSR  200
+
+
+> sp|Q2TA24|VATO_BOVIN V-type proton ATPase 21 kDa proteolipid 
+subunit OS=Bos taurus OX=9913 GN=ATP6V0B PE=2 SV=1
+Length=205
+
+ Score = 64.6 bits (156),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 30/164 (18%), Positives = 62/164 (38%), Gaps = 10/164 (6%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            + + +T+    +++ L +  A   S +G+A G+ +TG +        P    + L+  + 
+Sbjct  37   VAWFLTETSPFMWSNLGIGLAISLSVVGAAWGIYITGSSIIGGGVKAPRIKTKNLVSIIF  96
+
+Query  62   PGTQGLYGFVIAFLIFINLGS----------DMSVVQGLNFLGASLPIAFTGLFSGIAQG  111
+                 +YG ++A +I                  +   G +  GA L +  + LF G+  G
+Sbjct  97   CEAVAIYGIIMAIVISNMAEPFSATDPKAIGHRNYHAGYSMFGAGLTVGLSNLFCGVCVG  156
+
+Query  112  KVAAAGIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+             V +      A+ P    K +I         + G +++ L    
+Sbjct  157  IVGSGAALADAQNPSLFVKILIVEIFGSAIGLFGVIVAILQTSR  200
+
+
+> sp|Q99437|VATO_HUMAN V-type proton ATPase 21 kDa proteolipid 
+subunit OS=Homo sapiens OX=9606 GN=ATP6V0B PE=2 SV=1
+Length=205
+
+ Score = 64.2 bits (155),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 30/164 (18%), Positives = 62/164 (38%), Gaps = 10/164 (6%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            + + +T+    +++ L +  A   S +G+A G+ +TG +        P    + L+  + 
+Sbjct  37   VAWFLTETSPFMWSNLGIGLAISLSVVGAAWGIYITGSSIIGGGVKAPRIKTKNLVSIIF  96
+
+Query  62   PGTQGLYGFVIAFLIFINLGS----------DMSVVQGLNFLGASLPIAFTGLFSGIAQG  111
+                 +YG ++A +I                  +   G +  GA L +  + LF G+  G
+Sbjct  97   CEAVAIYGIIMAIVISNMAEPFSATDPKAIGHRNYHAGYSMFGAGLTVGLSNLFCGVCVG  156
+
+Query  112  KVAAAGIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+             V +      A+ P    K +I         + G +++ L    
+Sbjct  157  IVGSGAALADAQNPSLFVKILIVEIFGSAIGLFGVIVAILQTSR  200
+
+
+> sp|O14046|VATO_SCHPO Probable V-type proton ATPase 20 kDa proteolipid 
+subunit OS=Schizosaccharomyces pombe (strain 972 / 
+ATCC 24843) OX=284812 GN=vma16 PE=3 SV=1
+Length=199
+
+ Score = 61.5 bits (148),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 23/151 (15%), Positives = 49/151 (32%), Gaps = 8/151 (5%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            + +L +A+   F  IG+A G+ + G +        P    + LI  +      +Y  +IA
+Sbjct  45   WGLLGIASCVAFGIIGAAWGIFICGTSILGGAVKAPRIKTKNLISIIFCEVVAIYSLIIA  104
+
+Query  74   FLIFINLGS--------DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKP  125
+             +    +                G       + +    L  G+  G   ++     A+  
+Sbjct  105  IVFSAKINDINPAGFYTKSHYYTGFALFWGGITVGLCNLICGVCVGITGSSAALADAQDA  164
+
+Query  126  EHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                K ++         + G ++  L+   A
+Sbjct  165  SLFVKVLVVEIFGSVLGLFGLIVGLLIGGKA  195
+
+
+> sp|Q9SLA2|VATO2_ARATH V-type proton ATPase subunit c''2 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c''2 PE=1 SV=1
+Length=178
+
+ Score = 58.4 bits (140),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 26/151 (17%), Positives = 58/151 (38%), Gaps = 8/151 (5%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F+ + +A +   S +G+A G+ +TG +        P    + LI  +      +YG ++A
+Sbjct  23   FSAIGIAISIGVSVLGAAWGIYITGSSLIGAAIEAPRITSKNLISVIFCEAVAIYGVIVA  82
+
+Query  74   FLIFINLGS--------DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKP  125
+             ++   L S          S+  G     + + + F  L  G+  G + ++     A+  
+Sbjct  83   IILQTKLESVPSSKMYDAESLRAGYAIFASGIIVGFANLVCGLCVGIIGSSCALSDAQNS  142
+
+Query  126  EHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                K ++         + G ++  ++   A
+Sbjct  143  TLFVKILVIEIFGSALGLFGVIVGIIMSAQA  173
+
+
+> sp|Q9SZY7|VATO1_ARATH V-type proton ATPase subunit c''1 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c''1 PE=1 SV=1
+Length=180
+
+ Score = 58.0 bits (139),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 26/151 (17%), Positives = 58/151 (38%), Gaps = 8/151 (5%)
+
+Query  14   FAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIA  73
+            F+ + +A +   S +G+A G+ +TG +        P    + LI  +      +YG ++A
+Sbjct  25   FSAIGIAISIGVSVLGAAWGIYITGSSLIGAAIEAPRITSKNLISVIFCEAVAIYGVIVA  84
+
+Query  74   FLIFINLGS--------DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKP  125
+             ++   L S          S+  G     + + + F  L  G+  G + ++     A+  
+Sbjct  85   IILQTKLESVPSSKMYDAESLRAGYAIFASGIIVGFANLVCGLCVGIIGSSCALSDAQNS  144
+
+Query  126  EHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                K ++         + G ++  ++   A
+Sbjct  145  TLFVKILVIEIFGSALGLFGVIVGIIMSAQA  175
+
+
+> sp|P23968|VATO_YEAST V-type proton ATPase subunit c'' OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=VMA16 PE=1 SV=1
+Length=213
+
+ Score = 51.5 bits (122),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 32/160 (20%), Positives = 59/160 (37%), Gaps = 8/160 (5%)
+
+Query  5    LITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGT  64
+             + +    ++A L +A     S +G+A G+ +TG +        P    + LI  +    
+Sbjct  50   FLLRTSPYMWANLGIALCVGLSVVGAAWGIFITGSSMIGAGVRAPRITTKNLISIIFCEV  109
+
+Query  65   QGLYGFVIAFLIFINLG--------SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAA  116
+              +YG +IA +    L         S  ++  G +   A + +  + L  GIA G   A 
+Sbjct  110  VAIYGLIIAIVFSSKLTVATAENMYSKSNLYTGYSLFWAGITVGASNLICGIAVGITGAT  169
+
+Query  117  GIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                 A       K ++         +LG ++  L+   A
+Sbjct  170  AAISDAADSALFVKILVIEIFGSILGLLGLIVGLLMAGKA  209
+
+
+> sp|Q3A941|ATPL_CARHZ ATP synthase subunit c OS=Carboxydothermus 
+hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901) 
+OX=246194 GN=atpE PE=3 SV=1
+Length=82
+
+ Score = 41.5 bits (96),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 28/78 (36%), Positives = 42/78 (54%), Gaps = 4/78 (5%)
+
+Query  80   LGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK----GIIFA  135
+            +   MS+V GL  +GA + + F  + SGI QG  A    + +A++PE         II  
+Sbjct  1    MDFTMSLVAGLIAIGAGIAVGFGAIGSGIGQGIAAGKAFEAMARQPEVRGTVQTFLIIAL  60
+
+Query  136  AMVETYAILGFVISFLLV  153
+            A +ET  I G VI+F+L+
+Sbjct  61   AFMETLTIYGLVIAFMLL  78
+
+
+> sp|Q8EWZ3|ATPL_MYCPE ATP synthase subunit c OS=Mycoplasma penetrans 
+(strain HF-2) OX=272633 GN=atpE PE=3 SV=1
+Length=78
+
+ Score = 39.5 bits (91),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 29/73 (40%), Positives = 41/73 (56%), Gaps = 5/73 (7%)
+
+Query  88   QGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK----GIIFAAMVETYAI  143
+            QG  F+GA L +    L  GI QG  AA  ++ +A+ PE  +K     I+ AA+ ET A+
+Sbjct  6    QGYAFIGAGLAM-IAILGVGIGQGWSAAKSVEAVARNPEVVSKIRSQYILSAAVTETGAL  64
+
+Query  144  LGFVISFLLVLNA  156
+              F+I+ LLV  A
+Sbjct  65   YCFIIAILLVFVA  77
+
+
+> sp|B2XTP2|ATPH_HETA4 ATP synthase subunit c, chloroplastic OS=Heterosigma 
+akashiwo (strain CCMP452) OX=536046 GN=atpH PE=3 
+SV=1
+Length=82
+
+ Score = 37.6 bits (86),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/73 (23%), Positives = 34/73 (47%), Gaps = 4/73 (5%)
+
+Query  85   SVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVET  140
+            S++   + + A L +    +  GI QG  A   ++ +A++PE         ++  A +E 
+Sbjct  3    SIISAASVIAAGLSVGLAAIGPGIGQGNAAGQAVEGIARQPEAENKIRGTLLLSLAFMEA  62
+
+Query  141  YAILGFVISFLLV  153
+              I G V++  L+
+Sbjct  63   LTIYGLVVALSLL  75
+
+
+> sp|B2XT86|ATPH_HETA2 ATP synthase subunit c, chloroplastic OS=Heterosigma 
+akashiwo (strain NIES-293) OX=536047 GN=atpH PE=3 
+SV=1
+Length=82
+
+ Score = 37.6 bits (86),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/73 (23%), Positives = 34/73 (47%), Gaps = 4/73 (5%)
+
+Query  85   SVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVET  140
+            S++   + + A L +    +  GI QG  A   ++ +A++PE         ++  A +E 
+Sbjct  3    SIISAASVIAAGLSVGLAAIGPGIGQGNAAGQAVEGIARQPEAENKIRGTLLLSLAFMEA  62
+
+Query  141  YAILGFVISFLLV  153
+              I G V++  L+
+Sbjct  63   LTIYGLVVALSLL  75
+
+
+> sp|A9NGW7|ATPL_ACHLI ATP synthase subunit c OS=Acholeplasma laidlawii 
+(strain PG-8A) OX=441768 GN=atpE PE=3 SV=1
+Length=86
+
+ Score = 37.6 bits (86),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 27/72 (38%), Positives = 40/72 (56%), Gaps = 5/72 (7%)
+
+Query  88   QGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK----GIIFAAMVETYAI  143
+             GL +LGA + I   GL +GI QG  AA  ++ + ++PE + K     I+  AMVET  I
+Sbjct  16   TGLAYLGAGISILAAGL-AGIGQGLAAARAVEAVGRQPEASGKITVTMILGQAMVETSGI  74
+
+Query  144  LGFVISFLLVLN  155
+               +I+F+L   
+Sbjct  75   YALIIAFILSSK  86
+
+
+> sp|Q4G3A1|ATPH_EMIHU ATP synthase subunit c, chloroplastic OS=Emiliania 
+huxleyi OX=2903 GN=atpH PE=3 SV=1
+Length=82
+
+ Score = 37.6 bits (86),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 37/72 (51%), Gaps = 4/72 (6%)
+
+Query  86   VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKG----IIFAAMVETY  141
+            +V G + + A L I    +  GI QG  AA  ++ LA++PE   K     ++  A +E+ 
+Sbjct  4    IVSGASVIAAGLAIGLASIGPGIGQGTAAAQAVEGLARQPEAEGKIRGTLLLSLAFMESL  63
+
+Query  142  AILGFVISFLLV  153
+             I G V++  L+
+Sbjct  64   TIYGLVVALCLL  75
+
+
+> sp|A0T0E7|ATPH_PHATC ATP synthase subunit c, chloroplastic OS=Phaeodactylum 
+tricornutum (strain CCAP 1055/1) OX=556484 GN=atpH 
+PE=3 SV=1
+Length=82
+
+ Score = 37.6 bits (86),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 18/72 (25%), Positives = 34/72 (47%), Gaps = 4/72 (6%)
+
+Query  86   VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVETY  141
+            ++   + +GA L I    +  GI QG  A   ++ +A++PE         ++  A +E  
+Sbjct  4    IISAASVIGAGLSIGLAAIGPGIGQGTAAGQAVEGIARQPEAENKIRGVLLLSLAFMEAL  63
+
+Query  142  AILGFVISFLLV  153
+             I G V++  L+
+Sbjct  64   TIYGLVVALALL  75
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.147    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0441    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6696727392
+Results from round 3
+
+
+Query= P43457|2bl2A
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q6FUY5|VATL2_CANGA V-type proton ATPase 16 kDa proteolipid s...  135     1e-38
+  sp|P32842|VATL2_YEAST V-type proton ATPase subunit c' OS=Saccha...  133     3e-38
+  sp|Q6CT28|VATL2_KLULA V-type proton ATPase 16 kDa proteolipid s...  133     3e-38
+  sp|Q00607|VATL_CANTR V-type proton ATPase 16 kDa proteolipid su...  133     4e-38
+  sp|Q755G4|VATL2_ASHGO V-type proton ATPase 16 kDa proteolipid s...  130     8e-37
+  sp|P25515|VATL1_YEAST V-type proton ATPase subunit c OS=Sacchar...  129     1e-36
+  sp|Q6BSB9|VATL2_DEBHA V-type proton ATPase 16 kDa proteolipid s...  127     9e-36
+  sp|P31413|VATL_NEUCR V-type proton ATPase 16 kDa proteolipid su...  126     1e-35
+  sp|P50515|VATL_SCHPO V-type proton ATPase 16 kDa proteolipid su...  126     2e-35
+  sp|Q40585|VATL_TOBAC V-type proton ATPase 16 kDa proteolipid su...  126     3e-35
+  sp|Q24808|VATL_ENTDI V-type proton ATPase 16 kDa proteolipid su...  126     3e-35
+  sp|O24011|VATL_SOLLC V-type proton ATPase 16 kDa proteolipid su...  125     9e-35
+  sp|Q9Y874|VATL2_NEUCR V-type proton ATPase 16 kDa proteolipid s...  125     9e-35
+  sp|Q0IUB5|VATL_ORYSJ V-type proton ATPase 16 kDa proteolipid su...  124     1e-34
+  sp|A2ZBW5|VATL_ORYSI V-type proton ATPase 16 kDa proteolipid su...  124     1e-34
+  sp|Q96473|VATL_KALDA V-type proton ATPase 16 kDa proteolipid su...  124     1e-34
+  sp|P68161|VATL_MESCR V-type proton ATPase 16 kDa proteolipid su...  124     1e-34
+  sp|P68162|VATL_BETVU V-type proton ATPase 16 kDa proteolipid su...  124     1e-34
+  sp|Q43434|VATL_GOSHI V-type proton ATPase 16 kDa proteolipid su...  124     2e-34
+  sp|P59228|VATL2_ARATH V-type proton ATPase subunit c2 OS=Arabid...  123     2e-34
+  sp|P0DH94|VATL5_ARATH V-type proton ATPase subunit c5 OS=Arabid...  123     3e-34
+  sp|P0DH93|VATL3_ARATH V-type proton ATPase subunit c3 OS=Arabid...  123     3e-34
+  sp|P0DH92|VATL1_ARATH V-type proton ATPase subunit c1 OS=Arabid...  123     3e-34
+  sp|O22552|VATL_VIGRR V-type proton ATPase 16 kDa proteolipid su...  123     3e-34
+  sp|Q24810|VATL_ENTHI V-type proton ATPase 16 kDa proteolipid su...  123     4e-34
+  sp|P23957|VATL_AVESA V-type proton ATPase 16 kDa proteolipid su...  123     5e-34
+  sp|Q26250|VATL_NEPNO V-type proton ATPase 16 kDa proteolipid su...  122     6e-34
+  sp|Q9URZ8|VATL2_SCHPO V-type proton ATPase 16 kDa proteolipid s...  121     2e-33
+  sp|P59229|VATL4_ARATH V-type proton ATPase subunit c4 OS=Arabid...  121     2e-33
+  sp|P23380|VATL_DROME V-type proton ATPase 16 kDa proteolipid su...  121     3e-33
+  sp|P31403|VATL_MANSE V-type proton ATPase 16 kDa proteolipid su...  120     3e-33
+  sp|P27449|VATL_HUMAN V-type proton ATPase 16 kDa proteolipid su...  120     3e-33
+  sp|O16110|VATL_AEDAE V-type proton ATPase 16 kDa proteolipid su...  120     5e-33
+  sp|P63081|VATL_RAT V-type proton ATPase 16 kDa proteolipid subu...  120     5e-33
+  sp|P63082|VATL_MOUSE V-type proton ATPase 16 kDa proteolipid su...  120     5e-33
+  sp|P54642|VATL_DICDI V-type proton ATPase proteolipid subunit O...  120     7e-33
+  sp|P55277|VATL_HELVI V-type proton ATPase 16 kDa proteolipid su...  119     1e-32
+  sp|P34546|VATL2_CAEEL V-type proton ATPase 16 kDa proteolipid s...  119     1e-32
+  sp|Q612A5|VATL2_CAEBR V-type proton ATPase 16 kDa proteolipid s...  118     2e-32
+  sp|P23956|VATL_BOVIN V-type proton ATPase 16 kDa proteolipid su...  116     1e-31
+  sp|Q91V37|VATO_MOUSE V-type proton ATPase 21 kDa proteolipid su...  117     2e-31
+  sp|Q2TA24|VATO_BOVIN V-type proton ATPase 21 kDa proteolipid su...  117     2e-31
+  sp|Q43362|VATL_CHRCT V-type proton ATPase 16 kDa proteolipid su...  115     3e-31
+  sp|Q99437|VATO_HUMAN V-type proton ATPase 21 kDa proteolipid su...  116     4e-31
+  sp|Q17046|VATL_ASCSU V-type proton ATPase 16 kDa proteolipid su...  115     4e-31
+  sp|O18882|VATL_SHEEP V-type proton ATPase 16 kDa proteolipid su...  115     4e-31
+  sp|Q03105|VATL_TORMA V-type proton ATPase 16 kDa proteolipid su...  114     8e-31
+  sp|O14046|VATO_SCHPO Probable V-type proton ATPase 20 kDa prote...  113     7e-30
+  sp|P43457|NTPK_ENTHA V-type sodium ATPase subunit K OS=Enteroco...  108     2e-28
+  sp|Q21898|VATL1_CAEEL V-type proton ATPase 16 kDa proteolipid s...  108     4e-28
+  sp|P23968|VATO_YEAST V-type proton ATPase subunit c'' OS=Saccha...  101     3e-25
+  sp|Q9SLA2|VATO2_ARATH V-type proton ATPase subunit c''2 OS=Arab...  98.1    2e-24
+  sp|Q9SZY7|VATO1_ARATH V-type proton ATPase subunit c''1 OS=Arab...  97.7    4e-24
+  sp|Q41773|VATL_MAIZE V-type proton ATPase 16 kDa proteolipid su...  81.9    6e-19
+  sp|Q57674|ATPL_METJA Probable ATPase proteolipid chain OS=Metha...  69.2    1e-13
+  sp|Q3A941|ATPL_CARHZ ATP synthase subunit c OS=Carboxydothermus...  43.0    5e-05
+  sp|Q8EWZ3|ATPL_MYCPE ATP synthase subunit c OS=Mycoplasma penet...  41.1    2e-04
+
+Sequences not found previously or not previously below threshold:
+
+  sp|B2XTP2|ATPH_HETA4 ATP synthase subunit c, chloroplastic OS=H...  38.4    0.002
+  sp|B2XT86|ATPH_HETA2 ATP synthase subunit c, chloroplastic OS=H...  38.4    0.002
+  sp|Q4G3A1|ATPH_EMIHU ATP synthase subunit c, chloroplastic OS=E...  38.0    0.004
+  sp|A0T0E7|ATPH_PHATC ATP synthase subunit c, chloroplastic OS=P...  37.6    0.005
+  sp|O78479|ATPH_GUITH ATP synthase subunit c, chloroplastic OS=G...  37.6    0.005
+  sp|A6H5F3|ATPH_CYCTA ATP synthase subunit c, chloroplastic OS=C...  37.2    0.007
+  sp|P08212|ATPH_PEA ATP synthase subunit c, chloroplastic OS=Pis...  37.2    0.007
+  sp|B5LMM9|ATPH_CICAR ATP synthase subunit c, chloroplastic OS=C...  37.2    0.008
+  sp|A6MVW8|ATPH_RHDSA ATP synthase subunit c, chloroplastic OS=R...  36.8    0.009
+  sp|P41603|ATPH_PINTH ATP synthase subunit c, chloroplastic OS=P...  36.8    0.010
+  sp|Q7GUD2|ATPH_PINKO ATP synthase subunit c, chloroplastic OS=P...  36.8    0.010
+
+
+> sp|Q6FUY5|VATL2_CANGA V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Candida glabrata (strain ATCC 2001 / CBS 138 / 
+JCM 3761 / NBRC 0622 / NRRL Y-65) OX=284593 GN=VMA11 PE=3 SV=1
+Length=164
+
+ Score = 135 bits (339),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 41/156 (26%), Positives = 66/156 (42%), Gaps = 2/156 (1%)
+
+Query  3    DYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLP  62
+            D +        F     A A I S +G+A G   +G   A + T +PE   ++LI  ++ 
+Sbjct  7    DNVYAPLYAPFFGFAGCALAMILSCLGAAIGTAKSGIGIAGIGTFKPELIMKSLIPVVMS  66
+
+Query  63   GTQGLYGFVIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI  120
+            G   +YG V+A LI  NL    + ++  G   L   L + F  L SG A G V   G++ 
+Sbjct  67   GILAIYGLVVAVLIAGNLSPTEEYTLFNGFMHLSCGLCVGFACLSSGYAIGIVGDVGVRK  126
+
+Query  121  LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+               +P      ++     E   + G +I+ +L    
+Sbjct  127  YMHQPRLFVGIVLILIFSEVLGLYGMIIALILNTKG  162
+
+
+> sp|P32842|VATL2_YEAST V-type proton ATPase subunit c' OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=VMA11 PE=1 SV=1
+Length=164
+
+ Score = 133 bits (336),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 39/158 (25%), Positives = 66/158 (42%), Gaps = 2/158 (1%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            +   +        F     A A + S +G+A G   +G   A + T +PE   ++LI  +
+Sbjct  5    LASNIYAPLYAPFFGFAGCAAAMVLSCLGAAIGTAKSGIGIAGIGTFKPELIMKSLIPVV  64
+
+Query  61   LPGTQGLYGFVIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGI  118
+            + G   +YG V+A LI  NL    D ++  G   L   L + F  L SG A G V   G+
+Sbjct  65   MSGILAIYGLVVAVLIAGNLSPTEDYTLFNGFMHLSCGLCVGFACLSSGYAIGMVGDVGV  124
+
+Query  119  QILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            +    +P      ++     E   + G +++ +L    
+Sbjct  125  RKYMHQPRLFVGIVLILIFSEVLGLYGMIVALILNTRG  162
+
+
+> sp|Q6CT28|VATL2_KLULA V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 
+/ DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 
+GN=VMA11 PE=3 SV=1
+Length=165
+
+ Score = 133 bits (336),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 38/152 (25%), Positives = 63/152 (41%), Gaps = 2/152 (1%)
+
+Query  7    TQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQG  66
+                   F     A A I S +G+A G   +G   + + T +PE   ++LI  ++ G   
+Sbjct  11   APLFAPFFGFAGCAFAMILSCLGAAIGTAKSGIGISGIGTFKPELIMKSLIPVVMSGILA  70
+
+Query  67   LYGFVIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKK  124
+            +YG V+A LI   L    D ++  G   L   L + F  L SG A G V   G++    +
+Sbjct  71   VYGLVVAVLIAGGLSPTEDYTLFNGFMHLSCGLCVGFACLSSGYAIGIVGDVGVRKYMHQ  130
+
+Query  125  PEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            P      ++     E   + G +++ +L    
+Sbjct  131  PRLFVGIVLILIFSEVLGLYGMIVALILNTRG  162
+
+
+> sp|Q00607|VATL_CANTR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Candida tropicalis OX=5482 GN=VMA3 PE=3 SV=1
+Length=160
+
+ Score = 133 bits (335),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 36/153 (24%), Positives = 71/153 (46%), Gaps = 0/153 (0%)
+
+Query  4    YLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPG  63
+              +       F  +  A A +F+  G++ G   +G    A + ++P+   + ++  ++ G
+Sbjct  2    SDLCPVYAPFFGSIGCAAAIVFTCFGASYGTAKSGVGICATSVTRPDLLVKNVVPVVMAG  61
+
+Query  64   TQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAK  123
+               +YG V++ L+  +L    ++  G   LGA L +  +GL +G A G V  AG++  A+
+Sbjct  62   IIAIYGLVVSVLVSDSLSQKQALYTGFIQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQ  121
+
+Query  124  KPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            +P      I+     E   + G +++ LL   A
+Sbjct  122  QPRLFVGMILILIFAEVLGLYGLIVALLLNSRA  154
+
+
+> sp|Q755G4|VATL2_ASHGO V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Ashbya gossypii (strain ATCC 10895 / CBS 109.51 
+/ FGSC 9923 / NRRL Y-1056) OX=284811 GN=VMA11 PE=3 SV=1
+Length=164
+
+ Score = 130 bits (327),  Expect = 8e-37, Method: Composition-based stats.
+ Identities = 38/154 (25%), Positives = 64/154 (42%), Gaps = 2/154 (1%)
+
+Query  5    LITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGT  64
+                     F     A A I S +G+A G   +G   + + T +PE   ++LI  ++ G 
+Sbjct  8    EYAPAFAPFFGFAGCAAAMILSSLGAAIGTAKSGIGISGIGTFRPELIMKSLIPVVMSGI  67
+
+Query  65   QGLYGFVIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILA  122
+              +YG V+A L+   L    + ++  G   L A L + F  L SG A G V   G++   
+Sbjct  68   LAVYGLVVAVLVAGGLSPTEEYTLFNGFMHLAAGLCVGFACLSSGYAIGIVGDVGVRKFM  127
+
+Query  123  KKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+             +P      ++     E   + G +I+ +L    
+Sbjct  128  HQPRLFVGIVLILIFAEVLGLYGMIIALILNTRG  161
+
+
+> sp|P25515|VATL1_YEAST V-type proton ATPase subunit c OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=VMA3 
+PE=1 SV=1
+Length=160
+
+ Score = 129 bits (325),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 38/152 (25%), Positives = 72/152 (47%), Gaps = 0/152 (0%)
+
+Query  5    LITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGT  64
+             +       F  +  A+A IF+ +G+A G   +G    A    +P+   + ++  ++ G 
+Sbjct  3    ELCPVYAPFFGAIGCASAIIFTSLGAAYGTAKSGVGICATCVLRPDLLFKNIVPVIMAGI  62
+
+Query  65   QGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKK  124
+              +YG V++ L+  +LG   ++  G   LGA L +  +GL +G A G V  AG++  +++
+Sbjct  63   IAIYGLVVSVLVCYSLGQKQALYTGFIQLGAGLSVGLSGLAAGFAIGIVGDAGVRGSSQQ  122
+
+Query  125  PEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            P      I+     E   + G +++ LL   A
+Sbjct  123  PRLFVGMILILIFAEVLGLYGLIVALLLNSRA  154
+
+
+> sp|Q6BSB9|VATL2_DEBHA V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 
+767 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=VMA11 PE=3 
+SV=1
+Length=163
+
+ Score = 127 bits (320),  Expect = 9e-36, Method: Composition-based stats.
+ Identities = 36/154 (23%), Positives = 61/154 (40%), Gaps = 2/154 (1%)
+
+Query  5    LITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGT  64
+                           A A I S  G+A G   +G   + + T +PE   ++LI  ++ G 
+Sbjct  8    EYAPAFAPFLGFAGCAAAMILSCAGAAIGTAKSGIGISGIGTFKPELIMKSLIPVVMSGI  67
+
+Query  65   QGLYGFVIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILA  122
+              +YG V++ LI   L    + S+  G   L   L + F  L SG + G V   G++   
+Sbjct  68   LSVYGLVVSVLIAGGLSPTENYSLFNGFMHLACGLSVGFACLASGYSIGIVGDEGVRQFM  127
+
+Query  123  KKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+             +P      ++     E   + G +I+ +L    
+Sbjct  128  HQPRLFVGIVLILIFAEVLGLYGMIIALILNTKG  161
+
+
+> sp|P31413|VATL_NEUCR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A 
+/ CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=vma-3 PE=2 
+SV=1
+Length=161
+
+ Score = 126 bits (318),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 38/154 (25%), Positives = 71/154 (46%), Gaps = 1/154 (1%)
+
+Query  4    YLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPG  63
+              +       F  +    A +F+ +G++ G   +G   AA+   +P+   + ++  ++ G
+Sbjct  2    SDLCPVYAPFFGAMGCTAAIVFTCLGASYGTAKSGVGIAAMGVLRPDLIVKNIVPVIMAG  61
+
+Query  64   TQGLYGFVIAFLIFINLGSD-MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILA  122
+              G+YG V++ LI   L  D  ++  G   LGA L +   GL +G A G V  AG++  A
+Sbjct  62   IIGIYGLVVSVLISDALTQDHYALYTGFIQLGAGLAVGLAGLAAGFAIGIVGDAGVRGTA  121
+
+Query  123  KKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            ++P      I+     E   + G +++ L+   A
+Sbjct  122  QQPRLFVGMILILIFAEVLGLYGLIVALLMNSKA  155
+
+
+> sp|P50515|VATL_SCHPO V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=vma3 PE=3 SV=1
+Length=161
+
+ Score = 126 bits (317),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 42/155 (27%), Positives = 70/155 (45%), Gaps = 0/155 (0%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            M   +       F V+    A +F+  G+A G    G   +A+   +P+   +  I  ++
+Sbjct  1    MSTDLCPVYAPFFGVMGCTAAIVFASFGAAYGTAKAGVGISAMGVLRPDLIVKNTIPVVM  60
+
+Query  62   PGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQIL  121
+             G   +YG V++ LI  NL   +S+  G   LGA L +   GL +G A G V  AG++  
+Sbjct  61   AGIIAIYGLVVSVLISGNLKQILSLYSGFIQLGAGLSVGLAGLAAGFAIGIVGDAGVRGT  120
+
+Query  122  AKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            A++P      I+     E   + G +++ LL   A
+Sbjct  121  AQQPRLFVAMILILIFAEVLGLYGLIVALLLNTRA  155
+
+
+> sp|Q40585|VATL_TOBAC V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Nicotiana tabacum OX=4097 PE=2 SV=1
+Length=165
+
+ Score = 126 bits (317),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 40/159 (25%), Positives = 71/159 (45%), Gaps = 3/159 (2%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  +
+Sbjct  1    MPSTFSGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+            + G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG
+Sbjct  61   MAGVLGIYGLIIAVIISTGINPKTKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAG  120
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            ++  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  VRANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|Q24808|VATL_ENTDI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Entamoeba dispar OX=46681 GN=VMA3 PE=2 SV=1
+Length=176
+
+ Score = 126 bits (317),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 35/153 (23%), Positives = 71/153 (46%), Gaps = 1/153 (1%)
+
+Query  5    LITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGT  64
+             +       F  + +  + +F+  G A G   +    +++   +PE   ++L   +  G 
+Sbjct  10   ELCPVYSPFFGSMGITASIVFTVFGGAYGTAKSSVGISSVGVMKPEFIMRSLFPVVFAGV  69
+
+Query  65   QGLYGFVIAFLIFINLG-SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAK  123
+             GLYG ++  ++FIN+  S+ S+ +    LGA L     GL SG++ G     G++  A+
+Sbjct  70   IGLYGLIVCIVLFINVNKSEYSLNRAFLDLGAGLTCGLCGLASGMSIGISGDCGVRGAAQ  129
+
+Query  124  KPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            +P+     +I     E  A+ GF+++ ++    
+Sbjct  130  QPKLFVSMLICLIFSEALALYGFIVALIMAATG  162
+
+
+> sp|O24011|VATL_SOLLC V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Solanum lycopersicum OX=4081 PE=2 SV=1
+Length=164
+
+ Score = 125 bits (313),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 40/158 (25%), Positives = 71/158 (45%), Gaps = 3/158 (2%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            M           F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++
+Sbjct  1    MSNFAGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVM  60
+
+Query  62   PGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGI  118
+             G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG+
+Sbjct  61   AGVLGIYGLIIAVIISTGINPKTKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGV  120
+
+Query  119  QILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            +  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  RANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|Q9Y874|VATL2_NEUCR V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A 
+/ CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=vma-11 
+PE=2 SV=2
+Length=167
+
+ Score = 125 bits (313),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 37/161 (23%), Positives = 65/161 (40%), Gaps = 5/161 (3%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M D  +         +  +A A IF   G+A G   +G   A + T +P+   + LI  +
+Sbjct  5    MADSELAPKFAPFIGMAGIAAAMIFGSAGAAYGTAKSGIGIAGVGTFRPDLIMKCLIPVV  64
+
+Query  61   LPGTQGLYGFVIAFLIFINLGS-----DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAA  115
+            + G   +Y  V+A LI  +LG        S+  G   L   L +  TGL +G   G V  
+Sbjct  65   MSGIIAVYALVVAVLIAQDLGPPGSGQHYSLFNGFMHLACGLSVGLTGLAAGYCIGIVGD  124
+
+Query  116  AGIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+             G++    +       ++     E   + G +++ +L   +
+Sbjct  125  KGVRSFMLQSRIFVGMVLILIFGEVLGLYGLIVALILNTKS  165
+
+
+> sp|Q0IUB5|VATL_ORYSJ V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Oryza sativa subsp. japonica OX=39947 GN=VATP-P1 
+PE=2 SV=1
+Length=165
+
+ Score = 124 bits (312),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 41/159 (26%), Positives = 72/159 (45%), Gaps = 3/159 (2%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M            F  L  A+A IFS +G+A G   +G   A++   +PE   ++++  +
+Sbjct  1    MSSVFSGDETAPFFGFLGAASALIFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+            + G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG
+Sbjct  61   MAGVLGIYGLIIAVIISTGINPKAKPYYLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAG  120
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            ++  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  VRANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|A2ZBW5|VATL_ORYSI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Oryza sativa subsp. indica OX=39946 GN=VATP-P1 PE=2 
+SV=1
+Length=165
+
+ Score = 124 bits (312),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 41/159 (26%), Positives = 72/159 (45%), Gaps = 3/159 (2%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M            F  L  A+A IFS +G+A G   +G   A++   +PE   ++++  +
+Sbjct  1    MSSVFSGDETAPFFGFLGAASALIFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+            + G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG
+Sbjct  61   MAGVLGIYGLIIAVIISTGINPKAKPYYLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAG  120
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            ++  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  VRANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|Q96473|VATL_KALDA V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Kalanchoe daigremontiana OX=23013 PE=2 SV=1
+Length=165
+
+ Score = 124 bits (312),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 40/159 (25%), Positives = 71/159 (45%), Gaps = 3/159 (2%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  +
+Sbjct  1    MSSTFSGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+            + G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG
+Sbjct  61   MAGVLGIYGLIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAG  120
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            ++  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  VRANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|P68161|VATL_MESCR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Mesembryanthemum crystallinum OX=3544 GN=VMAC1 PE=2 
+SV=1
+Length=165
+
+ Score = 124 bits (312),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 40/159 (25%), Positives = 71/159 (45%), Gaps = 3/159 (2%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  +
+Sbjct  1    MSTVFNGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+            + G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG
+Sbjct  61   MAGVLGIYGLIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAG  120
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            ++  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  VRANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|P68162|VATL_BETVU V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Beta vulgaris OX=161934 GN=VMAC1 PE=2 SV=1
+Length=165
+
+ Score = 124 bits (312),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 40/159 (25%), Positives = 71/159 (45%), Gaps = 3/159 (2%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  +
+Sbjct  1    MSTVFNGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+            + G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG
+Sbjct  61   MAGVLGIYGLIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAG  120
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            ++  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  VRANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|Q43434|VATL_GOSHI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Gossypium hirsutum OX=3635 GN=CVA16-2 PE=2 SV=1
+Length=165
+
+ Score = 124 bits (311),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 40/159 (25%), Positives = 71/159 (45%), Gaps = 3/159 (2%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  +
+Sbjct  1    MSSTFSGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+            + G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG
+Sbjct  61   MAGVLGIYGLIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAG  120
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            ++  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  VRANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|P59228|VATL2_ARATH V-type proton ATPase subunit c2 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c2 PE=2 SV=1
+Length=165
+
+ Score = 123 bits (310),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 40/159 (25%), Positives = 71/159 (45%), Gaps = 3/159 (2%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  +
+Sbjct  1    MASTFSGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+            + G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG
+Sbjct  61   MAGVLGIYGLIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAG  120
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            ++  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  VRANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|P0DH94|VATL5_ARATH V-type proton ATPase subunit c5 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c5 PE=2 SV=1
+Length=164
+
+ Score = 123 bits (309),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 40/158 (25%), Positives = 71/158 (45%), Gaps = 3/158 (2%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            M           F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++
+Sbjct  1    MSTFSGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVM  60
+
+Query  62   PGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGI  118
+             G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG+
+Sbjct  61   AGVLGIYGLIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGV  120
+
+Query  119  QILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            +  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  RANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|P0DH93|VATL3_ARATH V-type proton ATPase subunit c3 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c3 PE=1 SV=1
+Length=164
+
+ Score = 123 bits (309),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 40/158 (25%), Positives = 71/158 (45%), Gaps = 3/158 (2%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            M           F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++
+Sbjct  1    MSTFSGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVM  60
+
+Query  62   PGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGI  118
+             G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG+
+Sbjct  61   AGVLGIYGLIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGV  120
+
+Query  119  QILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            +  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  RANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|P0DH92|VATL1_ARATH V-type proton ATPase subunit c1 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c1 PE=2 SV=1
+Length=164
+
+ Score = 123 bits (309),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 40/158 (25%), Positives = 71/158 (45%), Gaps = 3/158 (2%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            M           F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++
+Sbjct  1    MSTFSGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVM  60
+
+Query  62   PGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGI  118
+             G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG+
+Sbjct  61   AGVLGIYGLIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGV  120
+
+Query  119  QILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            +  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  RANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|O22552|VATL_VIGRR V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Vigna radiata var. radiata OX=3916 PE=2 SV=1
+Length=164
+
+ Score = 123 bits (309),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 40/158 (25%), Positives = 71/158 (45%), Gaps = 3/158 (2%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            M           F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++
+Sbjct  1    MASFSGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVM  60
+
+Query  62   PGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGI  118
+             G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG+
+Sbjct  61   AGVLGIYGLIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGV  120
+
+Query  119  QILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            +  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  RANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  158
+
+
+> sp|Q24810|VATL_ENTHI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Entamoeba histolytica OX=5759 GN=VMA3 PE=3 SV=1
+Length=177
+
+ Score = 123 bits (309),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 36/153 (24%), Positives = 71/153 (46%), Gaps = 1/153 (1%)
+
+Query  5    LITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGT  64
+             +       F  + +  + +F+  G A G   +    +++   +PE   +++   +  G 
+Sbjct  12   ELCPVYPPFFGSMGITASIVFTVFGGAYGTAKSSVGISSVGVMKPEFIVRSVAPVVFAGI  71
+
+Query  65   QGLYGFVIAFLIFINLG-SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAK  123
+             GLYG ++  L+FIN+  S+ S+ +    LGA L     GL SG+A G     G++  A+
+Sbjct  72   IGLYGLIVCILLFINVTKSEYSLNRAFLDLGAGLTCGLCGLASGMAIGISGDCGVRGAAQ  131
+
+Query  124  KPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            +P+     +I     E  A+ GF+++ ++    
+Sbjct  132  QPKLFVGMLICLIFSEALALYGFIVALIMASTG  164
+
+
+> sp|P23957|VATL_AVESA V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Avena sativa OX=4498 GN=VATP-P1 PE=2 SV=1
+Length=165
+
+ Score = 123 bits (308),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 40/159 (25%), Positives = 71/159 (45%), Gaps = 3/159 (2%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M            F  L  A A +FS +G+A G   +G   A++   +PE   ++++  +
+Sbjct  1    MSSVFSGDETAPFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+            + G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V  AG
+Sbjct  61   MAGVLGIYGLIIAVIISTGINPKAKPYFLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAG  120
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            ++  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  121  VRANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  159
+
+
+> sp|Q26250|VATL_NEPNO V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Nephrops norvegicus OX=6829 PE=2 SV=1
+Length=159
+
+ Score = 122 bits (307),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 41/151 (27%), Positives = 73/151 (48%), Gaps = 2/151 (1%)
+
+Query  7    TQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQG  66
+            +      F V+  A+A +FS +G+A G   +G   +A++  +PE   + +I  ++ G   
+Sbjct  6    SPMYSPFFGVMGAASAMVFSALGAAYGTAKSGVGISAMSVMRPELIMKCIIPVVMAGIIA  65
+
+Query  67   LYGFVIAFLIFINLG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKK  124
+            +YG V+A LI   L      ++ QG   +GA L +  +GL +G A G V  AG++  A++
+Sbjct  66   IYGLVVAVLIAGKLDEAPTYTLYQGFVHMGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQ  125
+
+Query  125  PEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+            P      I+     E   + G +++  L   
+Sbjct  126  PRLYVGMILILIFAEVLGLYGLIVAIFLYTK  156
+
+
+> sp|Q9URZ8|VATL2_SCHPO V-type proton ATPase 16 kDa proteolipid 
+subunit 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=vma11 PE=3 SV=1
+Length=162
+
+ Score = 121 bits (304),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 37/156 (24%), Positives = 68/156 (44%), Gaps = 2/156 (1%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            M   +       F    +  + +FS +G+  G  + G   AA+   +PE   ++LI  ++
+Sbjct  1    MSSNLCPIYSSFFGFAGVCASMVFSCLGAGYGTALAGRGIAAVGAFRPEIVMKSLIPVVM  60
+
+Query  62   PGTQGLYGFVIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQ  119
+             G  G+YG V++ LI  ++    D S+  G   L A L +  TG+ +G A G V   G+Q
+Sbjct  61   SGIIGVYGLVMSVLIAGDMSPDNDYSLFSGFIHLSAGLAVGLTGVAAGYAIGVVGDRGVQ  120
+
+Query  120  ILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+               ++       ++     E   + G ++  +L   
+Sbjct  121  SFMRQDRIFVSMVLILIFAEVLGLYGLIVGLILQTK  156
+
+
+> sp|P59229|VATL4_ARATH V-type proton ATPase subunit c4 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c4 PE=2 SV=1
+Length=166
+
+ Score = 121 bits (304),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 39/149 (26%), Positives = 70/149 (47%), Gaps = 3/149 (2%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+               F  L  A A +FS +G+A G   +G   A++   +PE   ++++  ++ G  G+YG 
+Sbjct  12   APFFGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLGIYGL  71
+
+Query  71   VIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            +IA +I   +        +  G   L + L     GL +G+A G V  AG++  A++P+ 
+Sbjct  72   IIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKL  131
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                I+     E  A+ G ++  +L   A
+Sbjct  132  FVGMILILIFAEALALYGLIVGIILSSRA  160
+
+
+> sp|P23380|VATL_DROME V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Drosophila melanogaster OX=7227 GN=Vha16-1 PE=2 SV=1
+Length=159
+
+ Score = 121 bits (303),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 47/150 (31%), Positives = 76/150 (51%), Gaps = 2/150 (1%)
+
+Query  8    QNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGL  67
+               G  F V+  A+A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +
+Sbjct  10   PIYGPFFGVMGAASAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAI  69
+
+Query  68   YGFVIAFLIFINLG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKP  125
+            YG V+A LI   L   S  S+ +G   LGA L + F+GL +G A G V  AG++  A++P
+Sbjct  70   YGLVVAVLIAGALEEPSKYSLYRGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQP  129
+
+Query  126  EHATKGIIFAAMVETYAILGFVISFLLVLN  155
+                  I+     E   + G +++  L   
+Sbjct  130  RLFVGMILILIFAEVLGLYGLIVAIYLYTK  159
+
+
+> sp|P31403|VATL_MANSE V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Manduca sexta OX=7130 GN=VHA16 PE=2 SV=1
+Length=156
+
+ Score = 120 bits (302),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 46/151 (30%), Positives = 78/151 (52%), Gaps = 3/151 (2%)
+
+Query  8    QNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGL  67
+               G  F V+  A+A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +
+Sbjct  5    PIYGPFFGVMGAASAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAI  64
+
+Query  68   YGFVIAFLIFINLGS---DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKK  124
+            YG V+A LI  +L S   + ++ +G   LGA L + F+GL +G A G V  AG++  A++
+Sbjct  65   YGLVVAVLIAGSLDSPSNNYTLYRGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQ  124
+
+Query  125  PEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+            P      I+     E   + G +++  L   
+Sbjct  125  PRLFVGMILILIFAEVLGLYGLIVAIYLYTK  155
+
+
+> sp|P27449|VATL_HUMAN V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Homo sapiens OX=9606 GN=ATP6V0C PE=1 SV=1
+Length=155
+
+ Score = 120 bits (302),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 44/155 (28%), Positives = 79/155 (51%), Gaps = 0/155 (0%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M +          FAV+  + A +FS +G+A G   +G   AA++  +PE+  +++I  +
+Sbjct  1    MSESKSGPEYASFFAVMGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPEQIMKSIIPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI  120
+            + G   +YG V+A LI  +L  D+S+ +    LGA L +  +GL +G A G V  AG++ 
+Sbjct  61   MAGIIAIYGLVVAVLIANSLNDDISLYKSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRG  120
+
+Query  121  LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+             A++P      I+     E   + G +++ +L   
+Sbjct  121  TAQQPRLFVGMILILIFAEVLGLYGLIVALILSTK  155
+
+
+> sp|O16110|VATL_AEDAE V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Aedes aegypti OX=7159 GN=AAEL000291 PE=2 SV=2
+Length=157
+
+ Score = 120 bits (301),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 46/150 (31%), Positives = 76/150 (51%), Gaps = 2/150 (1%)
+
+Query  8    QNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGL  67
+               G  F V+  A A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +
+Sbjct  8    PVYGPFFGVMGAAAAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAI  67
+
+Query  68   YGFVIAFLIFINLG--SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKP  125
+            YG V+A LI  +L   +  S+ +G   LGA L + F+GL +G A G V  AG++  A++P
+Sbjct  68   YGLVVAVLIAGSLDTPTKYSLYKGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQP  127
+
+Query  126  EHATKGIIFAAMVETYAILGFVISFLLVLN  155
+                  I+     E   + G +++  L   
+Sbjct  128  RLFVGMILILIFAEVLGLYGLIVAIYLYTK  157
+
+
+> sp|P63081|VATL_RAT V-type proton ATPase 16 kDa proteolipid subunit 
+OS=Rattus norvegicus OX=10116 GN=Atp6v0c PE=2 SV=1
+Length=155
+
+ Score = 120 bits (300),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 42/155 (27%), Positives = 77/155 (50%), Gaps = 0/155 (0%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M D          F V+  ++A +FS +G+A G   +G   AA++  +PE   +++I  +
+Sbjct  1    MADIKNNPEYSSFFGVMGASSAMVFSAMGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI  120
+            + G   +YG V+A LI  +L   +++ +    LGA L +  +GL +G A G V  AG++ 
+Sbjct  61   MAGIIAIYGLVVAVLIANSLTDGITLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRG  120
+
+Query  121  LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+             A++P      I+     E   + G +++ +L   
+Sbjct  121  TAQQPRLFVGMILILIFAEVLGLYGLIVALILSTK  155
+
+
+> sp|P63082|VATL_MOUSE V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Mus musculus OX=10090 GN=Atp6v0c PE=1 SV=1
+Length=155
+
+ Score = 120 bits (300),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 42/155 (27%), Positives = 77/155 (50%), Gaps = 0/155 (0%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            M D          F V+  ++A +FS +G+A G   +G   AA++  +PE   +++I  +
+Sbjct  1    MADIKNNPEYSSFFGVMGASSAMVFSAMGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVV  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI  120
+            + G   +YG V+A LI  +L   +++ +    LGA L +  +GL +G A G V  AG++ 
+Sbjct  61   MAGIIAIYGLVVAVLIANSLTDGITLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRG  120
+
+Query  121  LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+             A++P      I+     E   + G +++ +L   
+Sbjct  121  TAQQPRLFVGMILILIFAEVLGLYGLIVALILSTK  155
+
+
+> sp|P54642|VATL_DICDI V-type proton ATPase proteolipid subunit 
+OS=Dictyostelium discoideum OX=44689 GN=vatP PE=2 SV=1
+Length=196
+
+ Score = 120 bits (302),  Expect = 7e-33, Method: Composition-based stats.
+ Identities = 30/151 (20%), Positives = 66/151 (44%), Gaps = 2/151 (1%)
+
+Query  8    QNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGL  67
+                  F  + +  A +F+ +G+A G        + +   +P+   +A I  +  G   +
+Sbjct  25   PVYAPFFGAMGVTAALVFTVMGAAYGTAKASVGISNMGVMKPDLVIKAFIPVIFAGVIAI  84
+
+Query  68   YGFVIAFLIFINLGS--DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKP  125
+            YG +I  ++   +    + ++++    LGA L +   GL +G+A G V  +G++   ++P
+Sbjct  85   YGLIICVILVGGIKPNANYTLMKSFTDLGAGLTVGLCGLAAGMAIGIVGDSGVRAFGQQP  144
+
+Query  126  EHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            +     ++     E   + G +I  LL   +
+Sbjct  145  KLYVIMMLILIFSEALGLYGLIIGILLSSVS  175
+
+
+> sp|P55277|VATL_HELVI V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Heliothis virescens OX=7102 GN=VHA16 PE=2 SV=1
+Length=156
+
+ Score = 119 bits (298),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 45/151 (30%), Positives = 78/151 (52%), Gaps = 3/151 (2%)
+
+Query  8    QNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGL  67
+               G  F V+  A+A IFS +G+A G   +G   AA++  +PE   +++I  ++ G   +
+Sbjct  5    PIYGPFFGVMGAASAIIFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIAI  64
+
+Query  68   YGFVIAFLIFINLGS---DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKK  124
+            YG V+A LI  +L +   + ++ +G   LGA L + F+GL +G A G V  AG++  A++
+Sbjct  65   YGLVVAVLIAGSLDAPSNNYTLYKGFIHLGAGLAVGFSGLAAGFAIGIVGDAGVRGTAQQ  124
+
+Query  125  PEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+            P      I+     E   + G +++  L   
+Sbjct  125  PRLFVGMILILIFAEVLGLYGLIVAIYLYTK  155
+
+
+> sp|P34546|VATL2_CAEEL V-type proton ATPase 16 kDa proteolipid 
+subunit 2/3 OS=Caenorhabditis elegans OX=6239 GN=vha-2 PE=2 
+SV=2
+Length=161
+
+ Score = 119 bits (298),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 36/148 (24%), Positives = 68/148 (46%), Gaps = 3/148 (2%)
+
+Query  10   GGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYG  69
+                F  +  A+A IF+ +G+A G   +     ++   +PE   +++I  ++ G  G+YG
+Sbjct  13   YAPFFGYMGAASAQIFTVLGAAYGTAKSAVGICSMGVMRPELIMKSVIPVIMAGIIGIYG  72
+
+Query  70   FVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE  126
+             V+A ++   + S      + +G   L A L     GL +G A G V  AG++  A++P 
+Sbjct  73   LVVAMVLKGKVTSASAGYDLNKGFAHLAAGLTCGLCGLGAGYAIGIVGDAGVRGTAQQPR  132
+
+Query  127  HATKGIIFAAMVETYAILGFVISFLLVL  154
+                 I+     E   + G +++ +L  
+Sbjct  133  LFVGMILILIFSEVLGLYGMIVALILGT  160
+
+
+> sp|Q612A5|VATL2_CAEBR V-type proton ATPase 16 kDa proteolipid 
+subunit 2/3 OS=Caenorhabditis briggsae OX=6238 GN=vha-2 PE=3 
+SV=1
+Length=161
+
+ Score = 118 bits (297),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 35/148 (24%), Positives = 68/148 (46%), Gaps = 3/148 (2%)
+
+Query  10   GGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYG  69
+                F  +  A+A IF+ +G+A G   +     ++   +PE   +++I  ++ G  G+YG
+Sbjct  13   YAPFFGYMGAASAQIFTVLGAAYGTAKSAVGICSMGVMRPELIMKSVIPVIMAGIIGIYG  72
+
+Query  70   FVIAFLIFINL---GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE  126
+             V+A ++   +    +   + +G   L A L     GL +G A G V  AG++  A++P 
+Sbjct  73   LVVAMVLKGKVQAASAGYDLNKGFAHLAAGLTCGLCGLGAGYAIGIVGDAGVRGTAQQPR  132
+
+Query  127  HATKGIIFAAMVETYAILGFVISFLLVL  154
+                 I+     E   + G +++ +L  
+Sbjct  133  LFVGMILILIFSEVLGLYGMIVALILGT  160
+
+
+> sp|P23956|VATL_BOVIN V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Bos taurus OX=9913 GN=ATP6V0C PE=1 SV=1
+Length=155
+
+ Score = 116 bits (291),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 42/148 (28%), Positives = 75/148 (51%), Gaps = 0/148 (0%)
+
+Query  8    QNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGL  67
+                  FAV+  + A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +
+Sbjct  8    PEYASFFAVMGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPEMIMKSIIPVVMAGIIAI  67
+
+Query  68   YGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            YG V+A LI  +L   +S+ +    LGA L +  +GL +G A G V  AG++  A++P  
+Sbjct  68   YGLVVAVLIANSLNDGISLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRL  127
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLN  155
+                I+     E   + G +++ +L   
+Sbjct  128  FVGMILILIFAEVLGLYGLIVALILSTK  155
+
+
+> sp|Q91V37|VATO_MOUSE V-type proton ATPase 21 kDa proteolipid 
+subunit OS=Mus musculus OX=10090 GN=Atp6v0b PE=1 SV=1
+Length=205
+
+ Score = 117 bits (294),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 30/164 (18%), Positives = 62/164 (38%), Gaps = 10/164 (6%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            + + +T+    +++ L +  A   S +G+A G+ +TG +        P    + L+  + 
+Sbjct  37   VAWFLTETSPFMWSNLGIGLAISLSVVGAAWGIYITGSSIIGGGVKAPRIKTKNLVSIIF  96
+
+Query  62   PGTQGLYGFVIAFLIFINLGS----------DMSVVQGLNFLGASLPIAFTGLFSGIAQG  111
+                 +YG ++A +I                  +   G +  GA L +  + LF G+  G
+Sbjct  97   CEAVAIYGIIMAIVISNMAEPFSATEPKAIGHRNYHAGYSMFGAGLTVGLSNLFCGVCVG  156
+
+Query  112  KVAAAGIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+             V +      A+ P    K +I         + G +++ L    
+Sbjct  157  IVGSGAALADAQNPSLFVKILIVEIFGSAIGLFGVIVAILQTSR  200
+
+
+> sp|Q2TA24|VATO_BOVIN V-type proton ATPase 21 kDa proteolipid 
+subunit OS=Bos taurus OX=9913 GN=ATP6V0B PE=2 SV=1
+Length=205
+
+ Score = 117 bits (293),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 30/164 (18%), Positives = 62/164 (38%), Gaps = 10/164 (6%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            + + +T+    +++ L +  A   S +G+A G+ +TG +        P    + L+  + 
+Sbjct  37   VAWFLTETSPFMWSNLGIGLAISLSVVGAAWGIYITGSSIIGGGVKAPRIKTKNLVSIIF  96
+
+Query  62   PGTQGLYGFVIAFLIFINLGS----------DMSVVQGLNFLGASLPIAFTGLFSGIAQG  111
+                 +YG ++A +I                  +   G +  GA L +  + LF G+  G
+Sbjct  97   CEAVAIYGIIMAIVISNMAEPFSATDPKAIGHRNYHAGYSMFGAGLTVGLSNLFCGVCVG  156
+
+Query  112  KVAAAGIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+             V +      A+ P    K +I         + G +++ L    
+Sbjct  157  IVGSGAALADAQNPSLFVKILIVEIFGSAIGLFGVIVAILQTSR  200
+
+
+> sp|Q43362|VATL_CHRCT V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Chrysotila carteri OX=13221 GN=VAP PE=2 SV=1
+Length=164
+
+ Score = 115 bits (289),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 35/158 (22%), Positives = 69/158 (44%), Gaps = 6/158 (4%)
+
+Query  4    YLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPG  63
+              +       F  +  A A IF+ +G+A G   +G   +++   +P+   +++I  ++ G
+Sbjct  2    SDLCPPTAPFFGFMGAAVALIFANLGAAYGTAKSGVGVSSMGVMKPDLVMKSIIPVVMAG  61
+
+Query  64   TQGLYGFVIAFLIFINL------GSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+              G+YG +IA +I   +          S   G   L A L    +G+ +GIA G V  AG
+Sbjct  62   VLGIYGLIIAVIIGNGVKGPEGGKPQYSSFTGFAHLAAGLACGLSGMAAGIAIGIVGDAG  121
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+            ++  A++ +     ++     E   + G ++  +L   
+Sbjct  122  VRASAQQAKLYVGMVLILIFAEALGLYGLIVGLILTSK  159
+
+
+> sp|Q99437|VATO_HUMAN V-type proton ATPase 21 kDa proteolipid 
+subunit OS=Homo sapiens OX=9606 GN=ATP6V0B PE=2 SV=1
+Length=205
+
+ Score = 116 bits (291),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 30/164 (18%), Positives = 62/164 (38%), Gaps = 10/164 (6%)
+
+Query  2    MDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLL  61
+            + + +T+    +++ L +  A   S +G+A G+ +TG +        P    + L+  + 
+Sbjct  37   VAWFLTETSPFMWSNLGIGLAISLSVVGAAWGIYITGSSIIGGGVKAPRIKTKNLVSIIF  96
+
+Query  62   PGTQGLYGFVIAFLIFINLGS----------DMSVVQGLNFLGASLPIAFTGLFSGIAQG  111
+                 +YG ++A +I                  +   G +  GA L +  + LF G+  G
+Sbjct  97   CEAVAIYGIIMAIVISNMAEPFSATDPKAIGHRNYHAGYSMFGAGLTVGLSNLFCGVCVG  156
+
+Query  112  KVAAAGIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLN  155
+             V +      A+ P    K +I         + G +++ L    
+Sbjct  157  IVGSGAALADAQNPSLFVKILIVEIFGSAIGLFGVIVAILQTSR  200
+
+
+> sp|Q17046|VATL_ASCSU V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Ascaris suum OX=6253 GN=12 PE=3 SV=1
+Length=161
+
+ Score = 115 bits (288),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 36/148 (24%), Positives = 70/148 (47%), Gaps = 3/148 (2%)
+
+Query  10   GGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYG  69
+                F  +  A+A IF+ +G+A G   +    +++   +PE   +++I  ++ G  G+YG
+Sbjct  13   YAPFFGYMGAASAQIFTVLGAAYGTAKSAVGISSMGVMRPELIMKSVIPVIMAGIIGIYG  72
+
+Query  70   FVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE  126
+             V+A ++   + S     ++ +G   L A L     GL +G A G V  AG++  A++P 
+Sbjct  73   LVVAMVLRGKVTSASAGYTLDKGFAHLAAGLTCGLCGLGAGYAIGIVGDAGVRGTAQQPR  132
+
+Query  127  HATKGIIFAAMVETYAILGFVISFLLVL  154
+                 I+     E   + G +++ +L  
+Sbjct  133  LFVGMILILIFSEVLGLYGMIVALILGT  160
+
+
+> sp|O18882|VATL_SHEEP V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Ovis aries OX=9940 GN=ATP6V0C PE=2 SV=1
+Length=155
+
+ Score = 115 bits (287),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 42/148 (28%), Positives = 75/148 (51%), Gaps = 0/148 (0%)
+
+Query  8    QNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGL  67
+                  FAV+  + A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   +
+Sbjct  8    PEYASFFAVMGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPEMIMKSIIPVVMAGIIAI  67
+
+Query  68   YGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEH  127
+            YG V+A LI  +L   +S+ +    LGA L +  +GL +G A G V  AG++  A++P  
+Sbjct  68   YGLVVAVLIANSLNDGISLYRSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPRL  127
+
+Query  128  ATKGIIFAAMVETYAILGFVISFLLVLN  155
+                I+     E   + G +++ +L   
+Sbjct  128  FVGMILILIFAEVLGLYGLIVALILSTK  155
+
+
+> sp|Q03105|VATL_TORMA V-type proton ATPase 16 kDa proteolipid 
+subunit OS=Torpedo marmorata OX=7788 PE=1 SV=1
+Length=154
+
+ Score = 114 bits (286),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 42/149 (28%), Positives = 75/149 (50%), Gaps = 0/149 (0%)
+
+Query  7    TQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQG  66
+                   F V+  + A +FS +G+A G   +G   AA++  +PE   +++I  ++ G   
+Sbjct  6    APEYSAFFGVIGASAAMVFSALGAAYGTAKSGTGIAAMSVMRPELIMKSIIPVVMAGIIA  65
+
+Query  67   LYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE  126
+            +YG V+A LI  +L  D+S+ +    LGA L +  +GL +G A G V  AG++  A++P 
+Sbjct  66   IYGLVVAVLIANSLTEDISLFKSFLQLGAGLSVGLSGLAAGFAIGIVGDAGVRGTAQQPR  125
+
+Query  127  HATKGIIFAAMVETYAILGFVISFLLVLN  155
+                 I+     E   + G +++ +L   
+Sbjct  126  LFVGMILILIFAEVLGLYGLIVALILSTK  154
+
+
+> sp|O14046|VATO_SCHPO Probable V-type proton ATPase 20 kDa proteolipid 
+subunit OS=Schizosaccharomyces pombe (strain 972 / 
+ATCC 24843) OX=284812 GN=vma16 PE=3 SV=1
+Length=199
+
+ Score = 113 bits (282),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 23/161 (14%), Positives = 50/161 (31%), Gaps = 8/161 (5%)
+
+Query  4    YLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPG  63
+              +       + +L +A+   F  IG+A G+ + G +        P    + LI  +   
+Sbjct  35   SFLLDTSPYTWGLLGIASCVAFGIIGAAWGIFICGTSILGGAVKAPRIKTKNLISIIFCE  94
+
+Query  64   TQGLYGFVIAFLIFINLGS--------DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAA  115
+               +Y  +IA +    +                G       + +    L  G+  G   +
+Sbjct  95   VVAIYSLIIAIVFSAKINDINPAGFYTKSHYYTGFALFWGGITVGLCNLICGVCVGITGS  154
+
+Query  116  AGIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            +     A+      K ++         + G ++  L+   A
+Sbjct  155  SAALADAQDASLFVKVLVVEIFGSVLGLFGLIVGLLIGGKA  195
+
+
+> sp|P43457|NTPK_ENTHA V-type sodium ATPase subunit K OS=Enterococcus 
+hirae (strain ATCC 9790 / DSM 20160 / JCM 8729 / LMG 
+6399 / NBRC 3181 / NCIMB 6459 / NCDO 1258) OX=768486 GN=ntpK 
+PE=1 SV=1
+Length=156
+
+ Score = 108 bits (269),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 156/156 (100%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+            MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL
+Sbjct  1    MMDYLITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQL  60
+
+Query  61   LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI  120
+            LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI
+Sbjct  61   LPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQI  120
+
+Query  121  LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+            LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA
+Sbjct  121  LAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+
+
+> sp|Q21898|VATL1_CAEEL V-type proton ATPase 16 kDa proteolipid 
+subunit 1 OS=Caenorhabditis elegans OX=6239 GN=vha-1 PE=2 SV=1
+Length=169
+
+ Score = 108 bits (269),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 33/148 (22%), Positives = 66/148 (45%), Gaps = 3/148 (2%)
+
+Query  10   GGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYG  69
+             G  F  L + +A  F+  GSA G    G   A++  ++P+   +A+I  ++ G   +YG
+Sbjct  21   YGPFFGSLGVTSAMAFAAAGSAYGTAKAGTGIASMAVARPDLVMKAIIPVVMAGIVAIYG  80
+
+Query  70   FVIAFLIFINLGS---DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE  126
+             V+A ++   +     + ++    +     L     GL +G A G    AG++ L+++P 
+Sbjct  81   LVVAVIVSGKVEPAGANYTINNAFSQFAGGLVCGLCGLGAGYAIGIAGDAGVRALSQQPR  140
+
+Query  127  HATKGIIFAAMVETYAILGFVISFLLVL  154
+                 I+     E   + G +++ +L  
+Sbjct  141  MFVGMILILIFAEVLGLYGMIVALILGA  168
+
+
+> sp|P23968|VATO_YEAST V-type proton ATPase subunit c'' OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=VMA16 PE=1 SV=1
+Length=213
+
+ Score = 101 bits (251),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 32/160 (20%), Positives = 59/160 (37%), Gaps = 8/160 (5%)
+
+Query  5    LITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGT  64
+             + +    ++A L +A     S +G+A G+ +TG +        P    + LI  +    
+Sbjct  50   FLLRTSPYMWANLGIALCVGLSVVGAAWGIFITGSSMIGAGVRAPRITTKNLISIIFCEV  109
+
+Query  65   QGLYGFVIAFLIFINLG--------SDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAA  116
+              +YG +IA +    L         S  ++  G +   A + +  + L  GIA G   A 
+Sbjct  110  VAIYGLIIAIVFSSKLTVATAENMYSKSNLYTGYSLFWAGITVGASNLICGIAVGITGAT  169
+
+Query  117  GIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                 A       K ++         +LG ++  L+   A
+Sbjct  170  AAISDAADSALFVKILVIEIFGSILGLLGLIVGLLMAGKA  209
+
+
+> sp|Q9SLA2|VATO2_ARATH V-type proton ATPase subunit c''2 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c''2 PE=1 SV=1
+Length=178
+
+ Score = 98.1 bits (243),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 26/159 (16%), Positives = 60/159 (38%), Gaps = 8/159 (5%)
+
+Query  6    ITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQ  65
+            + +     F+ + +A +   S +G+A G+ +TG +        P    + LI  +     
+Sbjct  15   LVRISPYTFSAIGIAISIGVSVLGAAWGIYITGSSLIGAAIEAPRITSKNLISVIFCEAV  74
+
+Query  66   GLYGFVIAFLIFINLGS--------DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+             +YG ++A ++   L S          S+  G     + + + F  L  G+  G + ++ 
+Sbjct  75   AIYGVIVAIILQTKLESVPSSKMYDAESLRAGYAIFASGIIVGFANLVCGLCVGIIGSSC  134
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                A+      K ++         + G ++  ++   A
+Sbjct  135  ALSDAQNSTLFVKILVIEIFGSALGLFGVIVGIIMSAQA  173
+
+
+> sp|Q9SZY7|VATO1_ARATH V-type proton ATPase subunit c''1 OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-c''1 PE=1 SV=1
+Length=180
+
+ Score = 97.7 bits (242),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 26/159 (16%), Positives = 60/159 (38%), Gaps = 8/159 (5%)
+
+Query  6    ITQNGGMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQ  65
+            + +     F+ + +A +   S +G+A G+ +TG +        P    + LI  +     
+Sbjct  17   LVRISPYTFSAIGIAISIGVSVLGAAWGIYITGSSLIGAAIEAPRITSKNLISVIFCEAV  76
+
+Query  66   GLYGFVIAFLIFINLGS--------DMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAG  117
+             +YG ++A ++   L S          S+  G     + + + F  L  G+  G + ++ 
+Sbjct  77   AIYGVIVAIILQTKLESVPSSKMYDAESLRAGYAIFASGIIVGFANLVCGLCVGIIGSSC  136
+
+Query  118  IQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+                A+      K ++         + G ++  ++   A
+Sbjct  137  ALSDAQNSTLFVKILVIEIFGSALGLFGVIVGIIMSAQA  175
+
+
+> sp|Q41773|VATL_MAIZE V-type proton ATPase 16 kDa proteolipid 
+subunit (Fragment) OS=Zea mays OX=4577 PE=2 SV=2
+Length=109
+
+ Score = 81.9 bits (201),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 26/103 (25%), Positives = 47/103 (46%), Gaps = 3/103 (3%)
+
+Query  57   ILQLLPGTQGLYGFVIAFLIFINLGSD---MSVVQGLNFLGASLPIAFTGLFSGIAQGKV  113
+            +  ++ G  G+YG +IA +I   +        +  G   L + L     GL +G+A G V
+Sbjct  1    VPVVMAGVLGIYGLIIAVIISTGINPKAKPYYLFDGYAHLSSGLACGLAGLAAGMAIGIV  60
+
+Query  114  AAAGIQILAKKPEHATKGIIFAAMVETYAILGFVISFLLVLNA  156
+              AG++  A++P+     I+     E  A+ G ++  +L   A
+Sbjct  61   GDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGIILSSRA  103
+
+
+> sp|Q57674|ATPL_METJA Probable ATPase proteolipid chain OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ0221 PE=3 SV=1
+Length=220
+
+ Score = 69.2 bits (168),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 47/145 (32%), Positives = 72/145 (50%), Gaps = 5/145 (3%)
+
+Query  11   GMVFAVLAMATATIFSGIGSAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGF  70
+             ++   +    A   +G+GS  G G+TG + A +    P KFG A++ Q LP TQGLYGF
+Sbjct  4    PLILGAVGAGLAVGIAGLGSGIGAGITGASGAGVVAEDPNKFGTAIVFQALPQTQGLYGF  63
+
+Query  71   VIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK  130
+            ++A LI        +V     F             S I QG  A+AG+  +A+      K
+Sbjct  64   LVAILILFVF---KTVSPWAMFAAGLAA--GLAGLSAIGQGIAASAGLGAVAEDNSIFGK  118
+
+Query  131  GIIFAAMVETYAILGFVISFLLVLN  155
+             ++F+ + ET AI G +I+ LL++ 
+Sbjct  119  AMVFSVLPETQAIYGLLIAILLLVG  143
+
+
+ Score = 49.1 bits (116),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 45/125 (36%), Positives = 68/125 (54%), Gaps = 1/125 (1%)
+
+Query  30   SAKGVGMTGEAAAALTTSQPEKFGQALILQLLPGTQGLYGFVIAFLIFINLGSDMSVVQG  89
+            SA G G+   A           FG+A++  +LP TQ +YG +IA L+ + +    +  + 
+Sbjct  94   SAIGQGIAASAGLGAVAEDNSIFGKAMVFSVLPETQAIYGLLIAILLLVGVFKGNAGAET  153
+
+Query  90   LNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGIIFAAMVETYAILGFVIS  149
+            +  LGA   + F GL SGI QG  AA  I   A+ P+   KG++ A M ET+AI G +I+
+Sbjct  154  VAALGAGFAVGFAGL-SGIGQGITAAGAIGATARDPDAMGKGLVLAVMPETFAIFGLLIA  212
+
+Query  150  FLLVL  154
+             L++L
+Sbjct  213  ILIML  217
+
+
+> sp|Q3A941|ATPL_CARHZ ATP synthase subunit c OS=Carboxydothermus 
+hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901) 
+OX=246194 GN=atpE PE=3 SV=1
+Length=82
+
+ Score = 43.0 bits (100),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 28/80 (35%), Positives = 42/80 (53%), Gaps = 4/80 (5%)
+
+Query  80   LGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATK----GIIFA  135
+            +   MS+V GL  +GA + + F  + SGI QG  A    + +A++PE         II  
+Sbjct  1    MDFTMSLVAGLIAIGAGIAVGFGAIGSGIGQGIAAGKAFEAMARQPEVRGTVQTFLIIAL  60
+
+Query  136  AMVETYAILGFVISFLLVLN  155
+            A +ET  I G VI+F+L+  
+Sbjct  61   AFMETLTIYGLVIAFMLLNK  80
+
+
+> sp|Q8EWZ3|ATPL_MYCPE ATP synthase subunit c OS=Mycoplasma penetrans 
+(strain HF-2) OX=272633 GN=atpE PE=3 SV=1
+Length=78
+
+ Score = 41.1 bits (95),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 29/74 (39%), Positives = 41/74 (55%), Gaps = 5/74 (7%)
+
+Query  87   VQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKG----IIFAAMVETYA  142
+             QG  F+GA L +    L  GI QG  AA  ++ +A+ PE  +K     I+ AA+ ET A
+Sbjct  5    NQGYAFIGAGLAM-IAILGVGIGQGWSAAKSVEAVARNPEVVSKIRSQYILSAAVTETGA  63
+
+Query  143  ILGFVISFLLVLNA  156
+            +  F+I+ LLV  A
+Sbjct  64   LYCFIIAILLVFVA  77
+
+
+> sp|B2XTP2|ATPH_HETA4 ATP synthase subunit c, chloroplastic OS=Heterosigma 
+akashiwo (strain CCMP452) OX=536046 GN=atpH PE=3 
+SV=1
+Length=82
+
+ Score = 38.4 bits (88),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 17/74 (23%), Positives = 34/74 (46%), Gaps = 4/74 (5%)
+
+Query  85   SVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVET  140
+            S++   + + A L +    +  GI QG  A   ++ +A++PE         ++  A +E 
+Sbjct  3    SIISAASVIAAGLSVGLAAIGPGIGQGNAAGQAVEGIARQPEAENKIRGTLLLSLAFMEA  62
+
+Query  141  YAILGFVISFLLVL  154
+              I G V++  L+ 
+Sbjct  63   LTIYGLVVALSLLF  76
+
+
+> sp|B2XT86|ATPH_HETA2 ATP synthase subunit c, chloroplastic OS=Heterosigma 
+akashiwo (strain NIES-293) OX=536047 GN=atpH PE=3 
+SV=1
+Length=82
+
+ Score = 38.4 bits (88),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 17/74 (23%), Positives = 34/74 (46%), Gaps = 4/74 (5%)
+
+Query  85   SVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVET  140
+            S++   + + A L +    +  GI QG  A   ++ +A++PE         ++  A +E 
+Sbjct  3    SIISAASVIAAGLSVGLAAIGPGIGQGNAAGQAVEGIARQPEAENKIRGTLLLSLAFMEA  62
+
+Query  141  YAILGFVISFLLVL  154
+              I G V++  L+ 
+Sbjct  63   LTIYGLVVALSLLF  76
+
+
+> sp|Q4G3A1|ATPH_EMIHU ATP synthase subunit c, chloroplastic OS=Emiliania 
+huxleyi OX=2903 GN=atpH PE=3 SV=1
+Length=82
+
+ Score = 38.0 bits (87),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 21/73 (29%), Positives = 36/73 (49%), Gaps = 4/73 (5%)
+
+Query  86   VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVETY  141
+            +V G + + A L I    +  GI QG  AA  ++ LA++PE         ++  A +E+ 
+Sbjct  4    IVSGASVIAAGLAIGLASIGPGIGQGTAAAQAVEGLARQPEAEGKIRGTLLLSLAFMESL  63
+
+Query  142  AILGFVISFLLVL  154
+             I G V++  L+ 
+Sbjct  64   TIYGLVVALCLLF  76
+
+
+> sp|A0T0E7|ATPH_PHATC ATP synthase subunit c, chloroplastic OS=Phaeodactylum 
+tricornutum (strain CCAP 1055/1) OX=556484 GN=atpH 
+PE=3 SV=1
+Length=82
+
+ Score = 37.6 bits (86),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 18/73 (25%), Positives = 34/73 (47%), Gaps = 4/73 (5%)
+
+Query  86   VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVETY  141
+            ++   + +GA L I    +  GI QG  A   ++ +A++PE         ++  A +E  
+Sbjct  4    IISAASVIGAGLSIGLAAIGPGIGQGTAAGQAVEGIARQPEAENKIRGVLLLSLAFMEAL  63
+
+Query  142  AILGFVISFLLVL  154
+             I G V++  L+ 
+Sbjct  64   TIYGLVVALALLF  76
+
+
+> sp|O78479|ATPH_GUITH ATP synthase subunit c, chloroplastic OS=Guillardia 
+theta OX=55529 GN=atpH PE=3 SV=1
+Length=82
+
+ Score = 37.6 bits (86),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 16/73 (22%), Positives = 34/73 (47%), Gaps = 4/73 (5%)
+
+Query  86   VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKP----EHATKGIIFAAMVETY  141
+            +V   + + + L +    +  GI QG  AA  ++ +A++P          ++  A +E+ 
+Sbjct  4    IVSAASVVASGLSVGLAAIGPGIGQGTAAAQAVEGIARQPEAEGRIRGTLLLSLAFMESL  63
+
+Query  142  AILGFVISFLLVL  154
+             I G V++  L+ 
+Sbjct  64   TIYGLVVALALLF  76
+
+
+> sp|A6H5F3|ATPH_CYCTA ATP synthase subunit c, chloroplastic OS=Cycas 
+taitungensis OX=54799 GN=atpH PE=3 SV=1
+Length=81
+
+ Score = 37.2 bits (85),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 15/73 (21%), Positives = 33/73 (45%), Gaps = 4/73 (5%)
+
+Query  86   VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVETY  141
+            ++   + + A L +    +  G+ QG  A   ++ +A++PE         ++  A +E  
+Sbjct  4    LIPAASVIAAGLAVGLASIGPGVGQGTAAGQAVEGIARQPEAEGKIRGTLLLSLAFMEAL  63
+
+Query  142  AILGFVISFLLVL  154
+             I G V++  L+ 
+Sbjct  64   TIYGLVVALALLF  76
+
+
+> sp|P08212|ATPH_PEA ATP synthase subunit c, chloroplastic OS=Pisum 
+sativum OX=3888 GN=atpH PE=1 SV=1
+Length=81
+
+ Score = 37.2 bits (85),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 15/73 (21%), Positives = 33/73 (45%), Gaps = 4/73 (5%)
+
+Query  86   VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVETY  141
+            ++   + + A L +    +  G+ QG  A   ++ +A++PE         ++  A +E  
+Sbjct  4    LIAAASVIAAGLAVGLASIGPGVGQGTAAGQAVEGIARQPEAEDKIRGTLLLSLAFMEAL  63
+
+Query  142  AILGFVISFLLVL  154
+             I G V++  L+ 
+Sbjct  64   TIYGLVVALALLF  76
+
+
+> sp|B5LMM9|ATPH_CICAR ATP synthase subunit c, chloroplastic OS=Cicer 
+arietinum OX=3827 GN=atpH PE=3 SV=1
+Length=81
+
+ Score = 37.2 bits (85),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 16/73 (22%), Positives = 33/73 (45%), Gaps = 4/73 (5%)
+
+Query  86   VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVETY  141
+            ++   + + A L +    +  GI QG  A   ++ +A++PE         ++  A +E  
+Sbjct  4    IISAASVIAAGLAVGLASIGPGIGQGTAAGQAVEGIARQPEAEDKIRGTLLLSLAFMEAL  63
+
+Query  142  AILGFVISFLLVL  154
+             I G V++  L+ 
+Sbjct  64   TIYGLVVALALLF  76
+
+
+> sp|A6MVW8|ATPH_RHDSA ATP synthase subunit c, chloroplastic OS=Rhodomonas 
+salina OX=52970 GN=atpH PE=3 SV=1
+Length=82
+
+ Score = 36.8 bits (84),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 16/73 (22%), Positives = 34/73 (47%), Gaps = 4/73 (5%)
+
+Query  86   VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKP----EHATKGIIFAAMVETY  141
+            +V   + + + L +    +  GI QG  AA  ++ +A++P          ++  A +E+ 
+Sbjct  4    IVSAASVVASGLSVGLAAIGPGIGQGTAAAQAVEGIARQPEAEGRIRGTLLLSLAFMESL  63
+
+Query  142  AILGFVISFLLVL  154
+             I G V++  L+ 
+Sbjct  64   TIYGLVVALALLF  76
+
+
+> sp|P41603|ATPH_PINTH ATP synthase subunit c, chloroplastic OS=Pinus 
+thunbergii OX=3350 GN=atpH PE=3 SV=1
+Length=81
+
+ Score = 36.8 bits (84),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 15/73 (21%), Positives = 33/73 (45%), Gaps = 4/73 (5%)
+
+Query  86   VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVETY  141
+            ++   + + A L +    +  G+ QG  A   ++ +A++PE         ++  A +E  
+Sbjct  4    LISAASVIAAGLSVGLASIGPGVGQGTAAGQAVEGIARQPEAEGKIRGTLLLSLAFMEAL  63
+
+Query  142  AILGFVISFLLVL  154
+             I G V++  L+ 
+Sbjct  64   TIYGLVVALALLF  76
+
+
+> sp|Q7GUD2|ATPH_PINKO ATP synthase subunit c, chloroplastic OS=Pinus 
+koraiensis OX=88728 GN=atpH PE=3 SV=1
+Length=81
+
+ Score = 36.8 bits (84),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 15/73 (21%), Positives = 33/73 (45%), Gaps = 4/73 (5%)
+
+Query  86   VVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPE----HATKGIIFAAMVETY  141
+            ++   + + A L +    +  G+ QG  A   ++ +A++PE         ++  A +E  
+Sbjct  4    LISAASVIAAGLSVGLASIGPGVGQGTAAGQAVEGIARQPEAEGKIRGTLLLSLAFMEAL  63
+
+Query  142  AILGFVISFLLVL  154
+             I G V++  L+ 
+Sbjct  64   TIYGLVVALALLF  76
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.148    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0451    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6696727392
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,633 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P0AC44|1nekD
+
+Length=115
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P0AC46|DHSD_SHIFL Succinate dehydrogenase hydrophobic membra...  223     2e-74
+  sp|P0AC44|DHSD_ECOLI Succinate dehydrogenase hydrophobic membra...  223     2e-74
+  sp|P0AC45|DHSD_ECOL6 Succinate dehydrogenase hydrophobic membra...  223     2e-74
+  sp|Q8X9A9|DHSD_ECO57 Succinate dehydrogenase hydrophobic membra...  220     2e-73
+  sp|P51057|DHSD_COXBU Succinate dehydrogenase hydrophobic membra...  79.0    3e-18
+  sp|P41086|DHSD_RICPR Succinate dehydrogenase hydrophobic membra...  41.2    2e-04
+  sp|Q4UKC3|DHSD_RICFE Succinate dehydrogenase hydrophobic membra...  38.9    0.001
+  sp|Q1RHB6|DHSD_RICBR Succinate dehydrogenase hydrophobic membra...  37.0    0.008
+  sp|Q68XP0|DHSD_RICTY Succinate dehydrogenase hydrophobic membra...  36.6    0.009
+
+
+> sp|P0AC46|DHSD_SHIFL Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Shigella flexneri OX=623 GN=sdhD PE=3 
+SV=1
+Length=115
+
+ Score = 223 bits (567),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|P0AC44|DHSD_ECOLI Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Escherichia coli (strain K12) OX=83333 
+GN=sdhD PE=1 SV=1
+Length=115
+
+ Score = 223 bits (567),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|P0AC45|DHSD_ECOL6 Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Escherichia coli O6:H1 (strain CFT073 
+/ ATCC 700928 / UPEC) OX=199310 GN=sdhD PE=3 SV=1
+Length=115
+
+ Score = 223 bits (567),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|Q8X9A9|DHSD_ECO57 Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Escherichia coli O157:H7 OX=83334 GN=sdhD 
+PE=3 SV=1
+Length=115
+
+ Score = 220 bits (561),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 114/115 (99%), Positives = 114/115 (99%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGF ASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFCASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|P51057|DHSD_COXBU Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Coxiella burnetii (strain RSA 493 / Nine 
+Mile phase I) OX=227377 GN=sdhD PE=1 SV=2
+Length=115
+
+ Score = 79.0 bits (193),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 41/113 (36%), Positives = 65/113 (58%), Gaps = 3/113 (3%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MV   S   R G  D+ + R TA++  +Y ++++ F      ++Y  W   F+    K+F
+Sbjct  3    MVDRTS---RRGYRDWFVQRITALLSGIYAVFVIVFLLVHHPISYPQWHALFSHLIMKIF  59
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVW  113
+            TL+ +FSIL HAWIGMW + TDYVK   +RL L+ ++ + LV Y ++    +W
+Sbjct  60   TLIVIFSILWHAWIGMWTIFTDYVKNKPIRLALETLVCLLLVGYFVWAIEFLW  112
+
+
+> sp|P41086|DHSD_RICPR Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia prowazekii (strain Madrid 
+E) OX=272947 GN=sdhD PE=3 SV=1
+Length=125
+
+ Score = 41.2 bits (95),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 30/109 (28%), Positives = 53/109 (49%), Gaps = 1/109 (1%)
+
+Query  3    SNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTL  62
+            +  S+  ++G H ++L R T ++L L   +++ F  T+      + +  F   F  V  L
+Sbjct  12   AKNSSFSKSGSHHWLLQRVTGVILALCSFWLIYFMFTNKNNDINIIMWEFKKPFNIVILL  71
+
+Query  63   LALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            + +   L H+ +GM  V+ DY+    LR  L ++IV    +  I  FVV
+Sbjct  72   ITVTISLYHSVLGMRVVIEDYINCHKLRNTL-IIIVKLFCILTIVSFVV  119
+
+
+> sp|Q4UKC3|DHSD_RICFE Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia felis (strain ATCC VR-1525 
+/ URRWXCal2) OX=315456 GN=sdhD PE=3 SV=1
+Length=120
+
+ Score = 38.9 bits (89),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 33/103 (32%), Positives = 49/103 (48%), Gaps = 1/103 (1%)
+
+Query  9    GRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTLLALFSI  68
+              +G H ++L R T I+L L  I+++ F  T+      + +      F  V  L+ +   
+Sbjct  13   KNSGSHHWLLQRVTGIILALCSIWLIYFTLTNKNNDINIIMWELKKPFNVVALLITVAIS  72
+
+Query  69   LIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            L HA +GM  V+ DYV    LR  L +VIV    +  I  FVV
+Sbjct  73   LYHAMLGMRVVIEDYVSCHKLRNTL-IVIVQLFCIVTIAAFVV  114
+
+
+> sp|Q1RHB6|DHSD_RICBR Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia bellii (strain RML369-C) OX=336407 
+GN=sdhD PE=3 SV=1
+Length=125
+
+ Score = 37.0 bits (84),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 29/106 (27%), Positives = 51/106 (48%), Gaps = 7/106 (7%)
+
+Query  9    GRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTLLALFSI  68
+             ++G H ++L R TAI+L L  ++++ F   +      + I         +  L+A+ + 
+Sbjct  18   AKSGSHHWLLQRITAIILVLCSLWLLYFTLANKNSDVNIIIWELKRPINLIPLLIAVITS  77
+
+Query  69   LIHAWIGMWQVLTDYVKPLALRLML-------QLVIVVALVVYVIY  107
+            L HA +GM  V+ DY+    LR  L        ++ +VA +V V Y
+Sbjct  78   LYHAMLGMQVVIEDYISCNKLRNTLIIAVKLFSILTIVAFIVAVFY  123
+
+
+> sp|Q68XP0|DHSD_RICTY Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia typhi (strain ATCC VR-144 
+/ Wilmington) OX=257363 GN=sdhD PE=3 SV=1
+Length=125
+
+ Score = 36.6 bits (83),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 29/100 (29%), Positives = 48/100 (48%), Gaps = 1/100 (1%)
+
+Query  12   GVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTLLALFSILIH  71
+            G H ++L R T +VL L   +++ F  T+      + +  F   F  V  L+ +   L H
+Sbjct  21   GAHHWLLQRVTGVVLALCSFWLIYFMFTNKNNDINIIMWEFKKPFNIVILLITVTISLYH  80
+
+Query  72   AWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            + +GM  V+ DY+    LR  L ++IV    +  I  F+V
+Sbjct  81   SVLGMRVVIEDYINCHKLRNTL-IIIVKLFCILTIVAFIV  119
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.146    0.455    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4909944928
+Results from round 2
+
+
+Query= P0AC44|1nekD
+
+Length=115
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P41086|DHSD_RICPR Succinate dehydrogenase hydrophobic membra...  102     5e-27
+  sp|P51057|DHSD_COXBU Succinate dehydrogenase hydrophobic membra...  101     6e-27
+  sp|Q8X9A9|DHSD_ECO57 Succinate dehydrogenase hydrophobic membra...  100     1e-26
+  sp|P0AC46|DHSD_SHIFL Succinate dehydrogenase hydrophobic membra...  99.7    4e-26
+  sp|P0AC44|DHSD_ECOLI Succinate dehydrogenase hydrophobic membra...  99.7    4e-26
+  sp|P0AC45|DHSD_ECOL6 Succinate dehydrogenase hydrophobic membra...  99.7    4e-26
+  sp|Q4UKC3|DHSD_RICFE Succinate dehydrogenase hydrophobic membra...  98.5    1e-25
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q92J98|DHSD_RICCN Succinate dehydrogenase hydrophobic membra...  92.7    3e-23
+  sp|Q68XP0|DHSD_RICTY Succinate dehydrogenase hydrophobic membra...  89.3    5e-22
+  sp|Q1RHB6|DHSD_RICBR Succinate dehydrogenase hydrophobic membra...  87.0    4e-21
+
+
+> sp|P41086|DHSD_RICPR Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia prowazekii (strain Madrid 
+E) OX=272947 GN=sdhD PE=3 SV=1
+Length=125
+
+ Score = 102 bits (254),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 30/109 (28%), Positives = 53/109 (49%), Gaps = 1/109 (1%)
+
+Query  3    SNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTL  62
+            +  S+  ++G H ++L R T ++L L   +++ F  T+      + +  F   F  V  L
+Sbjct  12   AKNSSFSKSGSHHWLLQRVTGVILALCSFWLIYFMFTNKNNDINIIMWEFKKPFNIVILL  71
+
+Query  63   LALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            + +   L H+ +GM  V+ DY+    LR  L ++IV    +  I  FVV
+Sbjct  72   ITVTISLYHSVLGMRVVIEDYINCHKLRNTL-IIIVKLFCILTIVSFVV  119
+
+
+> sp|P51057|DHSD_COXBU Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Coxiella burnetii (strain RSA 493 / Nine 
+Mile phase I) OX=227377 GN=sdhD PE=1 SV=2
+Length=115
+
+ Score = 101 bits (252),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 38/105 (36%), Positives = 62/105 (59%), Gaps = 0/105 (0%)
+
+Query  9    GRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTLLALFSI  68
+             R G  D+ + R TA++  +Y ++++ F      ++Y  W   F+    K+FTL+ +FSI
+Sbjct  8    SRRGYRDWFVQRITALLSGIYAVFVIVFLLVHHPISYPQWHALFSHLIMKIFTLIVIFSI  67
+
+Query  69   LIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVW  113
+            L HAWIGMW + TDYVK   +RL L+ ++ + LV Y ++    +W
+Sbjct  68   LWHAWIGMWTIFTDYVKNKPIRLALETLVCLLLVGYFVWAIEFLW  112
+
+
+> sp|Q8X9A9|DHSD_ECO57 Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Escherichia coli O157:H7 OX=83334 GN=sdhD 
+PE=3 SV=1
+Length=115
+
+ Score = 100 bits (250),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 114/115 (99%), Positives = 114/115 (99%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGF ASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFCASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|P0AC46|DHSD_SHIFL Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Shigella flexneri OX=623 GN=sdhD PE=3 
+SV=1
+Length=115
+
+ Score = 99.7 bits (247),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|P0AC44|DHSD_ECOLI Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Escherichia coli (strain K12) OX=83333 
+GN=sdhD PE=1 SV=1
+Length=115
+
+ Score = 99.7 bits (247),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|P0AC45|DHSD_ECOL6 Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Escherichia coli O6:H1 (strain CFT073 
+/ ATCC 700928 / UPEC) OX=199310 GN=sdhD PE=3 SV=1
+Length=115
+
+ Score = 99.7 bits (247),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|Q4UKC3|DHSD_RICFE Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia felis (strain ATCC VR-1525 
+/ URRWXCal2) OX=315456 GN=sdhD PE=3 SV=1
+Length=120
+
+ Score = 98.5 bits (244),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 33/103 (32%), Positives = 49/103 (48%), Gaps = 1/103 (1%)
+
+Query  9    GRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTLLALFSI  68
+              +G H ++L R T I+L L  I+++ F  T+      + +      F  V  L+ +   
+Sbjct  13   KNSGSHHWLLQRVTGIILALCSIWLIYFTLTNKNNDINIIMWELKKPFNVVALLITVAIS  72
+
+Query  69   LIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            L HA +GM  V+ DYV    LR  L +VIV    +  I  FVV
+Sbjct  73   LYHAMLGMRVVIEDYVSCHKLRNTL-IVIVQLFCIVTIAAFVV  114
+
+
+> sp|Q92J98|DHSD_RICCN Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia conorii (strain ATCC VR-613 
+/ Malish 7) OX=272944 GN=sdhD PE=3 SV=1
+Length=126
+
+ Score = 92.7 bits (229),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 31/110 (28%), Positives = 52/110 (47%), Gaps = 2/110 (2%)
+
+Query  3    SNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWI-GFFASAFTKVFT  61
+            +  S   ++G H ++L R T I+L L  ++++ F  T+      + +       F  V  
+Sbjct  12   AKNSGSAKSGSHHWLLQRVTGIILALCSVWLIYFTLTNKNNDINIIMLWELKKPFNVVAL  71
+
+Query  62   LLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            L+ +   L HA +GM  V+ DY+    LR  L ++IV    +  I  FVV
+Sbjct  72   LITVVISLYHAMLGMRVVIEDYISYHKLRNTL-IIIVQLFCIVTIVAFVV  120
+
+
+> sp|Q68XP0|DHSD_RICTY Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia typhi (strain ATCC VR-144 
+/ Wilmington) OX=257363 GN=sdhD PE=3 SV=1
+Length=125
+
+ Score = 89.3 bits (220),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 29/100 (29%), Positives = 48/100 (48%), Gaps = 1/100 (1%)
+
+Query  12   GVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTLLALFSILIH  71
+            G H ++L R T +VL L   +++ F  T+      + +  F   F  V  L+ +   L H
+Sbjct  21   GAHHWLLQRVTGVVLALCSFWLIYFMFTNKNNDINIIMWEFKKPFNIVILLITVTISLYH  80
+
+Query  72   AWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            + +GM  V+ DY+    LR  L ++IV    +  I  F+V
+Sbjct  81   SVLGMRVVIEDYINCHKLRNTL-IIIVKLFCILTIVAFIV  119
+
+
+> sp|Q1RHB6|DHSD_RICBR Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia bellii (strain RML369-C) OX=336407 
+GN=sdhD PE=3 SV=1
+Length=125
+
+ Score = 87.0 bits (214),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 28/109 (26%), Positives = 52/109 (48%), Gaps = 1/109 (1%)
+
+Query  3    SNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTL  62
+            +  +   ++G H ++L R TAI+L L  ++++ F   +      + I         +  L
+Sbjct  12   AKNTGSAKSGSHHWLLQRITAIILVLCSLWLLYFTLANKNSDVNIIIWELKRPINLIPLL  71
+
+Query  63   LALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            +A+ + L HA +GM  V+ DY+    LR  L ++ V    +  I  F+V
+Sbjct  72   IAVITSLYHAMLGMQVVIEDYISCNKLRNTL-IIAVKLFSILTIVAFIV  119
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.142    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0436    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4909944928
+Results from round 3
+
+
+Query= P0AC44|1nekD
+
+Length=115
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P41086|DHSD_RICPR Succinate dehydrogenase hydrophobic membra...  108     2e-29
+  sp|Q1RHB6|DHSD_RICBR Succinate dehydrogenase hydrophobic membra...  103     1e-27
+  sp|Q4UKC3|DHSD_RICFE Succinate dehydrogenase hydrophobic membra...  103     2e-27
+  sp|Q92J98|DHSD_RICCN Succinate dehydrogenase hydrophobic membra...  103     3e-27
+  sp|P51057|DHSD_COXBU Succinate dehydrogenase hydrophobic membra...  99.3    5e-26
+  sp|Q8X9A9|DHSD_ECO57 Succinate dehydrogenase hydrophobic membra...  97.7    2e-25
+  sp|P0AC46|DHSD_SHIFL Succinate dehydrogenase hydrophobic membra...  96.6    6e-25
+  sp|P0AC44|DHSD_ECOLI Succinate dehydrogenase hydrophobic membra...  96.6    6e-25
+  sp|P0AC45|DHSD_ECOL6 Succinate dehydrogenase hydrophobic membra...  96.6    6e-25
+  sp|Q68XP0|DHSD_RICTY Succinate dehydrogenase hydrophobic membra...  95.0    3e-24
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P41086|DHSD_RICPR Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia prowazekii (strain Madrid 
+E) OX=272947 GN=sdhD PE=3 SV=1
+Length=125
+
+ Score = 108 bits (269),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 30/109 (28%), Positives = 53/109 (49%), Gaps = 1/109 (1%)
+
+Query  3    SNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTL  62
+            +  S+  ++G H ++L R T ++L L   +++ F  T+      + +  F   F  V  L
+Sbjct  12   AKNSSFSKSGSHHWLLQRVTGVILALCSFWLIYFMFTNKNNDINIIMWEFKKPFNIVILL  71
+
+Query  63   LALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            + +   L H+ +GM  V+ DY+    LR  L ++IV    +  I  FVV
+Sbjct  72   ITVTISLYHSVLGMRVVIEDYINCHKLRNTL-IIIVKLFCILTIVSFVV  119
+
+
+> sp|Q1RHB6|DHSD_RICBR Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia bellii (strain RML369-C) OX=336407 
+GN=sdhD PE=3 SV=1
+Length=125
+
+ Score = 103 bits (258),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 28/109 (26%), Positives = 52/109 (48%), Gaps = 1/109 (1%)
+
+Query  3    SNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTL  62
+            +  +   ++G H ++L R TAI+L L  ++++ F   +      + I         +  L
+Sbjct  12   AKNTGSAKSGSHHWLLQRITAIILVLCSLWLLYFTLANKNSDVNIIIWELKRPINLIPLL  71
+
+Query  63   LALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            +A+ + L HA +GM  V+ DY+    LR  L ++ V    +  I  F+V
+Sbjct  72   IAVITSLYHAMLGMQVVIEDYISCNKLRNTL-IIAVKLFSILTIVAFIV  119
+
+
+> sp|Q4UKC3|DHSD_RICFE Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia felis (strain ATCC VR-1525 
+/ URRWXCal2) OX=315456 GN=sdhD PE=3 SV=1
+Length=120
+
+ Score = 103 bits (257),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 33/103 (32%), Positives = 49/103 (48%), Gaps = 1/103 (1%)
+
+Query  9    GRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTLLALFSI  68
+              +G H ++L R T I+L L  I+++ F  T+      + +      F  V  L+ +   
+Sbjct  13   KNSGSHHWLLQRVTGIILALCSIWLIYFTLTNKNNDINIIMWELKKPFNVVALLITVAIS  72
+
+Query  69   LIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            L HA +GM  V+ DYV    LR  L +VIV    +  I  FVV
+Sbjct  73   LYHAMLGMRVVIEDYVSCHKLRNTL-IVIVQLFCIVTIAAFVV  114
+
+
+> sp|Q92J98|DHSD_RICCN Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia conorii (strain ATCC VR-613 
+/ Malish 7) OX=272944 GN=sdhD PE=3 SV=1
+Length=126
+
+ Score = 103 bits (256),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 31/110 (28%), Positives = 52/110 (47%), Gaps = 2/110 (2%)
+
+Query  3    SNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWI-GFFASAFTKVFT  61
+            +  S   ++G H ++L R T I+L L  ++++ F  T+      + +       F  V  
+Sbjct  12   AKNSGSAKSGSHHWLLQRVTGIILALCSVWLIYFTLTNKNNDINIIMLWELKKPFNVVAL  71
+
+Query  62   LLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            L+ +   L HA +GM  V+ DY+    LR  L ++IV    +  I  FVV
+Sbjct  72   LITVVISLYHAMLGMRVVIEDYISYHKLRNTL-IIIVQLFCIVTIVAFVV  120
+
+
+> sp|P51057|DHSD_COXBU Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Coxiella burnetii (strain RSA 493 / Nine 
+Mile phase I) OX=227377 GN=sdhD PE=1 SV=2
+Length=115
+
+ Score = 99.3 bits (246),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 38/105 (36%), Positives = 62/105 (59%), Gaps = 0/105 (0%)
+
+Query  9    GRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTLLALFSI  68
+             R G  D+ + R TA++  +Y ++++ F      ++Y  W   F+    K+FTL+ +FSI
+Sbjct  8    SRRGYRDWFVQRITALLSGIYAVFVIVFLLVHHPISYPQWHALFSHLIMKIFTLIVIFSI  67
+
+Query  69   LIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVW  113
+            L HAWIGMW + TDYVK   +RL L+ ++ + LV Y ++    +W
+Sbjct  68   LWHAWIGMWTIFTDYVKNKPIRLALETLVCLLLVGYFVWAIEFLW  112
+
+
+> sp|Q8X9A9|DHSD_ECO57 Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Escherichia coli O157:H7 OX=83334 GN=sdhD 
+PE=3 SV=1
+Length=115
+
+ Score = 97.7 bits (242),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 114/115 (99%), Positives = 114/115 (99%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGF ASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFCASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|P0AC46|DHSD_SHIFL Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Shigella flexneri OX=623 GN=sdhD PE=3 
+SV=1
+Length=115
+
+ Score = 96.6 bits (239),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|P0AC44|DHSD_ECOLI Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Escherichia coli (strain K12) OX=83333 
+GN=sdhD PE=1 SV=1
+Length=115
+
+ Score = 96.6 bits (239),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|P0AC45|DHSD_ECOL6 Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Escherichia coli O6:H1 (strain CFT073 
+/ ATCC 700928 / UPEC) OX=199310 GN=sdhD PE=3 SV=1
+Length=115
+
+ Score = 96.6 bits (239),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+            MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF
+Sbjct  1    MVSNASALGRNGVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVF  60
+
+Query  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+            TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV
+Sbjct  61   TLLALFSILIHAWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVVVWGV  115
+
+
+> sp|Q68XP0|DHSD_RICTY Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Rickettsia typhi (strain ATCC VR-144 
+/ Wilmington) OX=257363 GN=sdhD PE=3 SV=1
+Length=125
+
+ Score = 95.0 bits (235),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 29/100 (29%), Positives = 48/100 (48%), Gaps = 1/100 (1%)
+
+Query  12   GVHDFILVRATAIVLTLYIIYMVGFFATSGELTYEVWIGFFASAFTKVFTLLALFSILIH  71
+            G H ++L R T +VL L   +++ F  T+      + +  F   F  V  L+ +   L H
+Sbjct  21   GAHHWLLQRVTGVVLALCSFWLIYFMFTNKNNDINIIMWEFKKPFNIVILLITVTISLYH  80
+
+Query  72   AWIGMWQVLTDYVKPLALRLMLQLVIVVALVVYVIYGFVV  111
+            + +GM  V+ DY+    LR  L ++IV    +  I  F+V
+Sbjct  81   SVLGMRVVIEDYINCHKLRNTL-IIIVKLFCILTIVAFIV  119
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.142    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0435    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4909944928
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

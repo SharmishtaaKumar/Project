@@ -1,0 +1,401 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q72GR9|4o9pC
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P0C187|PNTAB_RHORU NAD(P) transhydrogenase subunit alpha par...  75.1    9e-17
+  sp|Q2RSB3|PNTAB_RHORT NAD(P) transhydrogenase subunit alpha par...  75.1    9e-17
+  sp|P51995|PNTAB_RICPR NAD(P) transhydrogenase subunit alpha par...  72.0    1e-15
+  sp|P07001|PNTA_ECOLI NAD(P) transhydrogenase subunit alpha OS=E...  63.9    1e-11
+  sp|Q9ALA2|PNTA_RHOSH NAD(P) transhydrogenase subunit alpha OS=R...  60.5    2e-10
+  sp|P43842|PNTA_HAEIN NAD(P) transhydrogenase subunit alpha OS=H...  58.9    8e-10
+  sp|P11024|NNTM_BOVIN NAD(P) transhydrogenase, mitochondrial OS=...  54.3    4e-08
+  sp|Q61941|NNTM_MOUSE NAD(P) transhydrogenase, mitochondrial OS=...  53.5    6e-08
+  sp|Q13423|NNTM_HUMAN NAD(P) transhydrogenase, mitochondrial OS=...  53.1    8e-08
+
+
+> sp|P0C187|PNTAB_RHORU NAD(P) transhydrogenase subunit alpha part 
+2 OS=Rhodospirillum rubrum OX=1085 GN=pntAB PE=3 SV=1
+Length=139
+
+ Score = 75.1 bits (183),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 36/89 (40%), Positives = 55/89 (62%), Gaps = 0/89 (0%)
+
+Query  5    FWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAETGLEKLI  64
+            FW  + +FVL  F+G+ ++  V   LH+PLM  +N I  V+VVGA++  G       K++
+Sbjct  49   FWWLMTVFVLACFIGFYVVWSVTPALHSPLMGVTNAISSVIVVGALIATGPEAFSASKVL  108
+
+Query  65   GFLGVILGAANAAGGYAVTVRMLEMFERK  93
+            GF  ++L + N  GG+ VT RML MF++K
+Sbjct  109  GFFAILLASVNIFGGFIVTQRMLAMFKKK  137
+
+
+> sp|Q2RSB3|PNTAB_RHORT NAD(P) transhydrogenase subunit alpha part 
+2 OS=Rhodospirillum rubrum (strain ATCC 11170 / ATH 1.1.1 
+/ DSM 467 / LMG 4362 / NCIB 8255 / S1) OX=269796 GN=pntAB 
+PE=3 SV=1
+Length=139
+
+ Score = 75.1 bits (183),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 36/89 (40%), Positives = 55/89 (62%), Gaps = 0/89 (0%)
+
+Query  5    FWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAETGLEKLI  64
+            FW  + +FVL  F+G+ ++  V   LH+PLM  +N I  V+VVGA++  G       K++
+Sbjct  49   FWWLMTVFVLACFIGFYVVWSVTPALHSPLMGVTNAISSVIVVGALIATGPEAFSASKVL  108
+
+Query  65   GFLGVILGAANAAGGYAVTVRMLEMFERK  93
+            GF  ++L + N  GG+ VT RML MF++K
+Sbjct  109  GFFAILLASVNIFGGFIVTQRMLAMFKKK  137
+
+
+> sp|P51995|PNTAB_RICPR NAD(P) transhydrogenase subunit alpha part 
+2 OS=Rickettsia prowazekii (strain Madrid E) OX=272947 GN=pntAB 
+PE=3 SV=2
+Length=132
+
+ Score = 72.0 bits (175),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 35/86 (41%), Positives = 55/86 (64%), Gaps = 1/86 (1%)
+
+Query  8    ALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAET-GLEKLIGF  66
+            A+ IFVL +F+GY ++ +V   LHTPLMS +N I G++V+ +M+ +  +       L+G 
+Sbjct  47   AITIFVLASFVGYYVVWKVTPALHTPLMSITNAISGIIVISSMIAITSSSAFEFSSLLGS  106
+
+Query  67   LGVILGAANAAGGYAVTVRMLEMFER  92
+               +L + N  GG+ VT RMLEMF++
+Sbjct  107  FATLLASINIFGGFIVTTRMLEMFKK  132
+
+
+> sp|P07001|PNTA_ECOLI NAD(P) transhydrogenase subunit alpha OS=Escherichia 
+coli (strain K12) OX=83333 GN=pntA PE=1 SV=2
+Length=510
+
+ Score = 63.9 bits (154),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 33/83 (40%), Positives = 51/83 (61%), Gaps = 2/83 (2%)
+
+Query  11   IFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAETGLEKLIGFLGVI  70
+            +F L   +GY ++  V   LHTPLMS +N I G++VVGA++ +G    G    + F+ V+
+Sbjct  430  VFALACVVGYYVVWNVSHALHTPLMSVTNAISGIIVVGALLQIGQG--GWVSFLSFIAVL  487
+
+Query  71   LGAANAAGGYAVTVRMLEMFERK  93
+            + + N  GG+ VT RML+MF + 
+Sbjct  488  IASINIFGGFTVTQRMLKMFRKN  510
+
+
+> sp|Q9ALA2|PNTA_RHOSH NAD(P) transhydrogenase subunit alpha OS=Rhodobacter 
+sphaeroides OX=1063 GN=pntA PE=1 SV=1
+Length=523
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 33/89 (37%), Positives = 54/89 (61%), Gaps = 1/89 (1%)
+
+Query  4    GFWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAETGLEKL  63
+             F +   +F L  F+G+++I  V   LHTPLM+ +N I G+V++GA++ +G     L  L
+Sbjct  435  SFMAHFIVFALACFVGFQVIWNVSHSLHTPLMAVTNAISGIVILGALLQIGSGNV-LVVL  493
+
+Query  64   IGFLGVILGAANAAGGYAVTVRMLEMFER  92
+            +  + V++   N  GG+ VT RML MF++
+Sbjct  494  LAAISVLIATINIVGGFLVTRRMLAMFQK  522
+
+
+> sp|P43842|PNTA_HAEIN NAD(P) transhydrogenase subunit alpha OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=pntA PE=3 SV=1
+Length=512
+
+ Score = 58.9 bits (141),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 32/90 (36%), Positives = 52/90 (58%), Gaps = 1/90 (1%)
+
+Query  4    GFWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAETGL-EK  62
+             F S   +FVL   +GY ++  V   LHTPLM+ +N I G+++VGA++ +      L   
+Sbjct  422  AFLSHFTVFVLACVVGYYVVWNVSHALHTPLMAVTNAISGIIIVGALLQIRQPTGNLFID  481
+
+Query  63   LIGFLGVILGAANAAGGYAVTVRMLEMFER  92
+             + F+ +++ + N  GG+ VT RML MF +
+Sbjct  482  ALAFVAILVASINIFGGFRVTQRMLAMFRK  511
+
+
+> sp|P11024|NNTM_BOVIN NAD(P) transhydrogenase, mitochondrial OS=Bos 
+taurus OX=9913 GN=NNT PE=1 SV=3
+Length=1086
+
+ Score = 54.3 bits (129),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 34/94 (36%), Positives = 50/94 (53%), Gaps = 4/94 (4%)
+
+Query  2    EFGFWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLG---HAET  58
+               F   +  F L   +GY  +  V   LH+PLMS +N I G+  VG +V++G   +  T
+Sbjct  495  NLAFSQMVTTFGLAGIVGYHTVWGVTPALHSPLMSVTNAISGLTAVGGLVLMGGHLYPST  554
+
+Query  59   GLEKLIGFLGVILGAANAAGGYAVTVRMLEMFER  92
+              + L   L   + + N AGG+ VT RML+MF+R
+Sbjct  555  TSQGLAA-LATFISSVNIAGGFLVTQRMLDMFKR  587
+
+
+> sp|Q61941|NNTM_MOUSE NAD(P) transhydrogenase, mitochondrial OS=Mus 
+musculus OX=10090 GN=Nnt PE=1 SV=2
+Length=1086
+
+ Score = 53.5 bits (127),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 33/91 (36%), Positives = 49/91 (54%), Gaps = 4/91 (4%)
+
+Query  5    FWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLG---HAETGLE  61
+            F   +  F L   +GY  +  V   LH+PLMS +N I G+  VG + ++G   +  T  +
+Sbjct  498  FSQMVTTFGLAGIIGYHTVWGVTPALHSPLMSVTNAISGLTAVGGLALMGGHFYPSTTSQ  557
+
+Query  62   KLIGFLGVILGAANAAGGYAVTVRMLEMFER  92
+             L   L   + + N AGG+ VT RML+MF+R
+Sbjct  558  SLAA-LATFISSVNIAGGFLVTQRMLDMFKR  587
+
+
+> sp|Q13423|NNTM_HUMAN NAD(P) transhydrogenase, mitochondrial OS=Homo 
+sapiens OX=9606 GN=NNT PE=1 SV=3
+Length=1086
+
+ Score = 53.1 bits (126),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 34/97 (35%), Positives = 48/97 (49%), Gaps = 10/97 (10%)
+
+Query  2    EFGFWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLG------H  55
+               F   +  F L   +GY  +  V   LH+PLMS +N I G+  VG + ++G       
+Sbjct  495  NLAFSQMVTTFGLAGIVGYHTVWGVTPALHSPLMSVTNAISGLTAVGGLALMGGHLYPST  554
+
+Query  56   AETGLEKLIGFLGVILGAANAAGGYAVTVRMLEMFER  92
+               GL  L  F+  +    N AGG+ VT RML+MF+R
+Sbjct  555  TSQGLAALAAFISSV----NIAGGFLVTQRMLDMFKR  587
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.146    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4998171199
+Results from round 2
+
+
+Query= Q72GR9|4o9pC
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P43842|PNTA_HAEIN NAD(P) transhydrogenase subunit alpha OS=H...  127     2e-34
+  sp|P07001|PNTA_ECOLI NAD(P) transhydrogenase subunit alpha OS=E...  126     5e-34
+  sp|P0C187|PNTAB_RHORU NAD(P) transhydrogenase subunit alpha par...  117     5e-33
+  sp|Q2RSB3|PNTAB_RHORT NAD(P) transhydrogenase subunit alpha par...  117     5e-33
+  sp|Q9ALA2|PNTA_RHOSH NAD(P) transhydrogenase subunit alpha OS=R...  117     1e-30
+  sp|P11024|NNTM_BOVIN NAD(P) transhydrogenase, mitochondrial OS=...  119     2e-30
+  sp|Q13423|NNTM_HUMAN NAD(P) transhydrogenase, mitochondrial OS=...  118     4e-30
+  sp|Q61941|NNTM_MOUSE NAD(P) transhydrogenase, mitochondrial OS=...  117     5e-30
+  sp|P51995|PNTAB_RICPR NAD(P) transhydrogenase subunit alpha par...  104     5e-28
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P43842|PNTA_HAEIN NAD(P) transhydrogenase subunit alpha OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=pntA PE=3 SV=1
+Length=512
+
+ Score = 127 bits (320),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 32/90 (36%), Positives = 52/90 (58%), Gaps = 1/90 (1%)
+
+Query  4    GFWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAETGL-EK  62
+             F S   +FVL   +GY ++  V   LHTPLM+ +N I G+++VGA++ +      L   
+Sbjct  422  AFLSHFTVFVLACVVGYYVVWNVSHALHTPLMAVTNAISGIIIVGALLQIRQPTGNLFID  481
+
+Query  63   LIGFLGVILGAANAAGGYAVTVRMLEMFER  92
+             + F+ +++ + N  GG+ VT RML MF +
+Sbjct  482  ALAFVAILVASINIFGGFRVTQRMLAMFRK  511
+
+
+> sp|P07001|PNTA_ECOLI NAD(P) transhydrogenase subunit alpha OS=Escherichia 
+coli (strain K12) OX=83333 GN=pntA PE=1 SV=2
+Length=510
+
+ Score = 126 bits (317),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 34/89 (38%), Positives = 52/89 (58%), Gaps = 2/89 (2%)
+
+Query  5    FWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAETGLEKLI  64
+            F     +F L   +GY ++  V   LHTPLMS +N I G++VVGA++ +G    G    +
+Sbjct  424  FLGHFTVFALACVVGYYVVWNVSHALHTPLMSVTNAISGIIVVGALLQIGQG--GWVSFL  481
+
+Query  65   GFLGVILGAANAAGGYAVTVRMLEMFERK  93
+             F+ V++ + N  GG+ VT RML+MF + 
+Sbjct  482  SFIAVLIASINIFGGFTVTQRMLKMFRKN  510
+
+
+> sp|P0C187|PNTAB_RHORU NAD(P) transhydrogenase subunit alpha part 
+2 OS=Rhodospirillum rubrum OX=1085 GN=pntAB PE=3 SV=1
+Length=139
+
+ Score = 117 bits (293),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 36/89 (40%), Positives = 55/89 (62%), Gaps = 0/89 (0%)
+
+Query  5    FWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAETGLEKLI  64
+            FW  + +FVL  F+G+ ++  V   LH+PLM  +N I  V+VVGA++  G       K++
+Sbjct  49   FWWLMTVFVLACFIGFYVVWSVTPALHSPLMGVTNAISSVIVVGALIATGPEAFSASKVL  108
+
+Query  65   GFLGVILGAANAAGGYAVTVRMLEMFERK  93
+            GF  ++L + N  GG+ VT RML MF++K
+Sbjct  109  GFFAILLASVNIFGGFIVTQRMLAMFKKK  137
+
+
+> sp|Q2RSB3|PNTAB_RHORT NAD(P) transhydrogenase subunit alpha part 
+2 OS=Rhodospirillum rubrum (strain ATCC 11170 / ATH 1.1.1 
+/ DSM 467 / LMG 4362 / NCIB 8255 / S1) OX=269796 GN=pntAB 
+PE=3 SV=1
+Length=139
+
+ Score = 117 bits (293),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 36/89 (40%), Positives = 55/89 (62%), Gaps = 0/89 (0%)
+
+Query  5    FWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAETGLEKLI  64
+            FW  + +FVL  F+G+ ++  V   LH+PLM  +N I  V+VVGA++  G       K++
+Sbjct  49   FWWLMTVFVLACFIGFYVVWSVTPALHSPLMGVTNAISSVIVVGALIATGPEAFSASKVL  108
+
+Query  65   GFLGVILGAANAAGGYAVTVRMLEMFERK  93
+            GF  ++L + N  GG+ VT RML MF++K
+Sbjct  109  GFFAILLASVNIFGGFIVTQRMLAMFKKK  137
+
+
+> sp|Q9ALA2|PNTA_RHOSH NAD(P) transhydrogenase subunit alpha OS=Rhodobacter 
+sphaeroides OX=1063 GN=pntA PE=1 SV=1
+Length=523
+
+ Score = 117 bits (293),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 33/90 (37%), Positives = 54/90 (60%), Gaps = 1/90 (1%)
+
+Query  4    GFWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAETGLEKL  63
+             F +   +F L  F+G+++I  V   LHTPLM+ +N I G+V++GA++ +G     L  L
+Sbjct  435  SFMAHFIVFALACFVGFQVIWNVSHSLHTPLMAVTNAISGIVILGALLQIGSGNV-LVVL  493
+
+Query  64   IGFLGVILGAANAAGGYAVTVRMLEMFERK  93
+            +  + V++   N  GG+ VT RML MF++ 
+Sbjct  494  LAAISVLIATINIVGGFLVTRRMLAMFQKS  523
+
+
+> sp|P11024|NNTM_BOVIN NAD(P) transhydrogenase, mitochondrial OS=Bos 
+taurus OX=9913 GN=NNT PE=1 SV=3
+Length=1086
+
+ Score = 119 bits (298),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 34/94 (36%), Positives = 50/94 (53%), Gaps = 4/94 (4%)
+
+Query  2    EFGFWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLG---HAET  58
+               F   +  F L   +GY  +  V   LH+PLMS +N I G+  VG +V++G   +  T
+Sbjct  495  NLAFSQMVTTFGLAGIVGYHTVWGVTPALHSPLMSVTNAISGLTAVGGLVLMGGHLYPST  554
+
+Query  59   GLEKLIGFLGVILGAANAAGGYAVTVRMLEMFER  92
+              + L   L   + + N AGG+ VT RML+MF+R
+Sbjct  555  TSQGLAA-LATFISSVNIAGGFLVTQRMLDMFKR  587
+
+
+> sp|Q13423|NNTM_HUMAN NAD(P) transhydrogenase, mitochondrial OS=Homo 
+sapiens OX=9606 GN=NNT PE=1 SV=3
+Length=1086
+
+ Score = 118 bits (295),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 33/94 (35%), Positives = 49/94 (52%), Gaps = 4/94 (4%)
+
+Query  2    EFGFWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLG---HAET  58
+               F   +  F L   +GY  +  V   LH+PLMS +N I G+  VG + ++G   +  T
+Sbjct  495  NLAFSQMVTTFGLAGIVGYHTVWGVTPALHSPLMSVTNAISGLTAVGGLALMGGHLYPST  554
+
+Query  59   GLEKLIGFLGVILGAANAAGGYAVTVRMLEMFER  92
+              + L   L   + + N AGG+ VT RML+MF+R
+Sbjct  555  TSQGLAA-LAAFISSVNIAGGFLVTQRMLDMFKR  587
+
+
+> sp|Q61941|NNTM_MOUSE NAD(P) transhydrogenase, mitochondrial OS=Mus 
+musculus OX=10090 GN=Nnt PE=1 SV=2
+Length=1086
+
+ Score = 117 bits (294),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 33/94 (35%), Positives = 49/94 (52%), Gaps = 4/94 (4%)
+
+Query  2    EFGFWSALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLG---HAET  58
+               F   +  F L   +GY  +  V   LH+PLMS +N I G+  VG + ++G   +  T
+Sbjct  495  NVAFSQMVTTFGLAGIIGYHTVWGVTPALHSPLMSVTNAISGLTAVGGLALMGGHFYPST  554
+
+Query  59   GLEKLIGFLGVILGAANAAGGYAVTVRMLEMFER  92
+              + L   L   + + N AGG+ VT RML+MF+R
+Sbjct  555  TSQSLAA-LATFISSVNIAGGFLVTQRMLDMFKR  587
+
+
+> sp|P51995|PNTAB_RICPR NAD(P) transhydrogenase subunit alpha part 
+2 OS=Rickettsia prowazekii (strain Madrid E) OX=272947 GN=pntAB 
+PE=3 SV=2
+Length=132
+
+ Score = 104 bits (259),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 35/86 (41%), Positives = 55/86 (64%), Gaps = 1/86 (1%)
+
+Query  8    ALYIFVLTAFLGYELITRVPVILHTPLMSGSNFIHGVVVVGAMVVLGHAE-TGLEKLIGF  66
+            A+ IFVL +F+GY ++ +V   LHTPLMS +N I G++V+ +M+ +  +       L+G 
+Sbjct  47   AITIFVLASFVGYYVVWKVTPALHTPLMSITNAISGIIVISSMIAITSSSAFEFSSLLGS  106
+
+Query  67   LGVILGAANAAGGYAVTVRMLEMFER  92
+               +L + N  GG+ VT RMLEMF++
+Sbjct  107  FATLLASINIFGGFIVTTRMLEMFKK  132
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.143    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0439    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4998171199
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

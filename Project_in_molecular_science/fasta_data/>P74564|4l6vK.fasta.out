@@ -1,0 +1,1140 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P74564|4l6vK
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P74564|PSAK2_SYNY3 Photosystem I reaction center subunit Psa...  177     2e-57
+  sp|P0A425|PSAK_THEEB Photosystem I reaction center subunit PsaK...  76.3    7e-18
+  sp|P0A426|PSAK_SYNEL Photosystem I reaction center subunit PsaK...  76.3    7e-18
+  sp|O78444|PSAK_GUITH Photosystem I reaction center subunit PsaK...  72.8    2e-16
+  sp|P23318|PSAK_THEVL Photosystem I reaction center subunit PsaK...  71.2    7e-16
+  sp|Q6B8M4|PSAK_GRATL Photosystem I reaction center subunit PsaK...  68.9    5e-15
+  sp|P51370|PSAK_PORPU Photosystem I reaction center subunit PsaK...  68.6    8e-15
+  sp|Q1XDB7|PSAK_PYRYE Photosystem I reaction center subunit PsaK...  67.4    2e-14
+  sp|Q9S3W9|PSAK_MASLA Photosystem I reaction center subunit PsaK...  66.2    5e-14
+  sp|P72712|PSAK1_SYNY3 Photosystem I reaction center subunit Psa...  61.6    3e-12
+  sp|P58583|PSAK1_NOSS1 Photosystem I reaction center subunit Psa...  59.7    1e-11
+  sp|P23317|PSAK_ANAVT Photosystem I reaction center subunit PsaK...  58.5    4e-11
+  sp|Q7U6P8|PSAK_SYNPX Photosystem I reaction center subunit PsaK...  55.5    6e-10
+  sp|O19902|PSAK_CYACA Photosystem I reaction center subunit PsaK...  50.4    3e-08
+  sp|A5GL35|PSAK_SYNPW Photosystem I reaction center subunit PsaK...  48.5    2e-07
+  sp|B2IWT4|PSAK_NOSP7 Photosystem I reaction center subunit PsaK...  47.4    6e-07
+  sp|P31567|PSAK_GALSU Photosystem I reaction center subunit PsaK...  40.8    8e-05
+  sp|Q8YLK8|PSAK2_NOSS1 Photosystem I reaction center subunit Psa...  38.1    9e-04
+
+
+> sp|P74564|PSAK2_SYNY3 Photosystem I reaction center subunit PsaK 
+2 OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=psaK2 PE=1 SV=2
+Length=90
+
+ Score = 177 bits (450),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 90/90 (100%), Positives = 90/90 (100%), Gaps = 0/90 (0%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT
+Sbjct  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+           FGLPELLATMSFGHILGAGMVLGLASSGIL
+Sbjct  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+
+
+> sp|P0A425|PSAK_THEEB Photosystem I reaction center subunit PsaK 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 
+GN=psaK PE=1 SV=1
+Length=83
+
+ Score = 76.3 bits (186),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 43/85 (51%), Positives = 57/85 (67%), Gaps = 2/85 (2%)
+
+Query  6   LLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPE  65
+           ++LA    TT  W+ SVG+++ LCN+FA  +G +AIQ  GKG  L +   A  + FGLPE
+Sbjct  1   MVLATLPDTT--WTPSVGLVVILCNLFAIALGRYAIQSRGKGPGLPIALPALFEGFGLPE  58
+
+Query  66  LLATMSFGHILGAGMVLGLASSGIL  90
+           LLAT SFGH+L AG+V GL  +G L
+Sbjct  59  LLATTSFGHLLAAGVVSGLQYAGAL  83
+
+
+> sp|P0A426|PSAK_SYNEL Photosystem I reaction center subunit PsaK 
+OS=Synechococcus elongatus OX=32046 GN=psaK PE=1 SV=1
+Length=83
+
+ Score = 76.3 bits (186),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 43/85 (51%), Positives = 57/85 (67%), Gaps = 2/85 (2%)
+
+Query  6   LLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPE  65
+           ++LA    TT  W+ SVG+++ LCN+FA  +G +AIQ  GKG  L +   A  + FGLPE
+Sbjct  1   MVLATLPDTT--WTPSVGLVVILCNLFAIALGRYAIQSRGKGPGLPIALPALFEGFGLPE  58
+
+Query  66  LLATMSFGHILGAGMVLGLASSGIL  90
+           LLAT SFGH+L AG+V GL  +G L
+Sbjct  59  LLATTSFGHLLAAGVVSGLQYAGAL  83
+
+
+> sp|O78444|PSAK_GUITH Photosystem I reaction center subunit PsaK 
+OS=Guillardia theta OX=55529 GN=psaK PE=3 SV=1
+Length=87
+
+ Score = 72.8 bits (177),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 42/87 (48%), Positives = 48/87 (55%), Gaps = 2/87 (2%)
+
+Query  4   TALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGL  63
+            A LL    P T  WS     IM LCNV   V   + IQ   KG   ALP   S  TFGL
+Sbjct  2   NAELLISLVPQTVAWSAKTSSIMILCNVLCIVSARYIIQNKNKGT--ALPLSGSFSTFGL  59
+
+Query  64  PELLATMSFGHILGAGMVLGLASSGIL  90
+           PELLAT S GHI+G+G +LG +  G+L
+Sbjct  60  PELLATTSLGHIIGSGTILGFSYIGLL  86
+
+
+> sp|P23318|PSAK_THEVL Photosystem I reaction center subunit PsaK 
+OS=Thermosynechococcus vulcanus OX=32053 GN=psaK PE=1 SV=2
+Length=85
+
+ Score = 71.2 bits (173),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 42/86 (49%), Positives = 57/86 (66%), Gaps = 2/86 (2%)
+
+Query  6   LLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPE  65
+           ++LA   P T  W+ SVG+++ L N+FA  +G +AIQ  GKG  L +   A  + FGLPE
+Sbjct  1   MVLATTLPDTT-WTPSVGLVVILSNLFAIALGRYAIQSRGKGPGLPIALPALFEGFGLPE  59
+
+Query  66  LLATMSFGHILGAGMV-LGLASSGIL  90
+           LLAT SFGH+L AG+V +GL  +G L
+Sbjct  60  LLATTSFGHLLAAGVVSVGLQYAGAL  85
+
+
+> sp|Q6B8M4|PSAK_GRATL Photosystem I reaction center subunit PsaK 
+OS=Gracilaria tenuistipitata var. liui OX=285951 GN=psaK 
+PE=3 SV=1
+Length=86
+
+ Score = 68.9 bits (167),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 42/89 (47%), Positives = 56/89 (63%), Gaps = 4/89 (4%)
+
+Query  2   FNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTF  61
+            N   LL+  S T++ WS+S  IIM +CN+    +G +AIQ  G G   ++P L   K F
+Sbjct  1   MNLQTLLSMISNTSS-WSISTAIIMVICNLLCIGLGRYAIQVRGLGP--SIPALG-LKGF  56
+
+Query  62  GLPELLATMSFGHILGAGMVLGLASSGIL  90
+           GLPELLAT S GHI+GAG ++GL S  I+
+Sbjct  57  GLPELLATTSLGHIIGAGAIIGLNSIKII  85
+
+
+> sp|P51370|PSAK_PORPU Photosystem I reaction center subunit PsaK 
+OS=Porphyra purpurea OX=2787 GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 68.6 bits (166),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 35/85 (41%), Positives = 53/85 (62%), Gaps = 3/85 (4%)
+
+Query  6   LLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPE  65
+           L +  A P T+ WS  V ++M  CN+ A V G +AI+  G G  +    ++  + FGLPE
+Sbjct  4   LFVLSAVPHTSPWSTQVAMVMITCNLLAIVAGRYAIKVRGLGPSI---PVSGVEGFGLPE  60
+
+Query  66  LLATMSFGHILGAGMVLGLASSGIL  90
+           LLAT S GH++GA  +LGL++ G++
+Sbjct  61  LLATTSLGHVIGAASILGLSNVGLI  85
+
+
+> sp|Q1XDB7|PSAK_PYRYE Photosystem I reaction center subunit PsaK 
+OS=Pyropia yezoensis OX=2788 GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 67.4 bits (163),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 34/85 (40%), Positives = 53/85 (62%), Gaps = 3/85 (4%)
+
+Query  6   LLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPE  65
+           L +  + P T+ WS  V ++M  CN+ A V G +AI+  G G  +    ++  + FGLPE
+Sbjct  4   LFVLSSVPHTSPWSTQVAMVMITCNLLAIVAGRYAIKVRGLGPSI---PVSGVEGFGLPE  60
+
+Query  66  LLATMSFGHILGAGMVLGLASSGIL  90
+           LLAT S GH++GA  +LGL++ G++
+Sbjct  61  LLATTSLGHVIGAASILGLSNVGLI  85
+
+
+> sp|Q9S3W9|PSAK_MASLA Photosystem I reaction center subunit PsaK 
+OS=Mastigocladus laminosus OX=83541 GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 66.2 bits (160),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 42/88 (48%), Positives = 50/88 (57%), Gaps = 4/88 (5%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           M  + LL A  +P    WS +VGIIM LCN+ A   G   IQ    G   ALP       
+Sbjct  1   MLTSTLLAAATTPLQ--WSPTVGIIMILCNIVAIAFGKSTIQYPNAGP--ALPSSQFFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSG  88
+           FGLP LLAT +FGHILG G++LGL + G
+Sbjct  57  FGLPALLATTAFGHILGTGVILGLHNLG  84
+
+
+> sp|P72712|PSAK1_SYNY3 Photosystem I reaction center subunit PsaK 
+1 OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=psaK1 PE=3 SV=1
+Length=86
+
+ Score = 61.6 bits (148),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 37/86 (43%), Positives = 48/86 (56%), Gaps = 2/86 (2%)
+
+Query  5   ALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLP  64
+           + LLA A P T  WS  V  +M  CN+ A   G   I++   G  +  P       FGL 
+Sbjct  3   SFLLATAVPATLSWSPKVAGVMIACNILAIAFGKLTIKQQNVGTPM--PSSNFFGGFGLG  60
+
+Query  65  ELLATMSFGHILGAGMVLGLASSGIL  90
+            +L T SFGHILGAG++LGLA+ G+L
+Sbjct  61  AVLGTASFGHILGAGVILGLANMGVL  86
+
+
+> sp|P58583|PSAK1_NOSS1 Photosystem I reaction center subunit PsaK 
+1 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) 
+OX=103690 GN=psaK1 PE=3 SV=1
+Length=86
+
+ Score = 59.7 bits (143),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 39/88 (44%), Positives = 48/88 (55%), Gaps = 4/88 (5%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           M  + LL A  +P    WS +VGIIM + NV A   G   I+      + ALP       
+Sbjct  1   MLTSTLLAAATTPLE--WSPTVGIIMVIANVIAITFGRQTIKY--PSAEPALPSAKFFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSG  88
+           FG P LLAT +FGHILG G+VLGL + G
+Sbjct  57  FGAPALLATTAFGHILGVGLVLGLHNLG  84
+
+
+> sp|P23317|PSAK_ANAVT Photosystem I reaction center subunit PsaK 
+OS=Anabaena variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=psaK PE=1 SV=2
+Length=86
+
+ Score = 58.5 bits (140),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 37/88 (42%), Positives = 48/88 (55%), Gaps = 4/88 (5%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           M  + LL A  +P    WS ++GIIM + NV A   G   I+      + ALP       
+Sbjct  1   MLTSTLLAAATTPLE--WSPTIGIIMVIANVIAITFGRQTIKY--PSAEPALPSAKFFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSG  88
+           FG P LLAT +FGHILG G++LGL + G
+Sbjct  57  FGAPALLATTAFGHILGVGIILGLHNLG  84
+
+
+> sp|Q7U6P8|PSAK_SYNPX Photosystem I reaction center subunit PsaK 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=psaK PE=3 
+SV=1
+Length=85
+
+ Score = 55.5 bits (132),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 31/79 (39%), Positives = 42/79 (53%), Gaps = 2/79 (3%)
+
+Query  12  SPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELLATMS  71
+           +P T  WS  V ++M +CNV A  +G   I+   +G  L  P  A     G   LL T S
+Sbjct  9   APATVTWSPKVALVMIVCNVIAIAVGKATIKHPSEGAKL--PNAAFFGGMGHAALLGTTS  66
+
+Query  72  FGHILGAGMVLGLASSGIL  90
+            GHI+G G + GLA+ G+L
+Sbjct  67  LGHIIGIGAIQGLAARGVL  85
+
+
+> sp|O19902|PSAK_CYACA Photosystem I reaction center subunit PsaK 
+OS=Cyanidium caldarium OX=2771 GN=psaK PE=3 SV=1
+Length=84
+
+ Score = 50.4 bits (119),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 26/54 (48%), Positives = 36/54 (67%), Gaps = 3/54 (6%)
+
+Query  33  AFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELLATMSFGHILGAGMVLGLAS  86
+           A V+G ++I+  G    +A+ QL   K FG+PELLATMS GHI+G G  +GL +
+Sbjct  28  AIVVGRYSIKVRGLKPPIAISQL---KDFGVPELLATMSLGHIIGVGSTIGLKT  78
+
+
+> sp|A5GL35|PSAK_SYNPW Photosystem I reaction center subunit PsaK 
+OS=Synechococcus sp. (strain WH7803) OX=32051 GN=psaK PE=3 
+SV=1
+Length=85
+
+ Score = 48.5 bits (114),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 25/79 (32%), Positives = 41/79 (52%), Gaps = 2/79 (3%)
+
+Query  12  SPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELLATMS  71
+           +P +  W+  V ++M +CNV A  IG   I+   +G  +         + G   +L   S
+Sbjct  9   TPASVSWTPKVALVMIICNVIAIAIGKATIKYPNEGAKMPSASFFGGMSHG--AMLGCTS  66
+
+Query  72  FGHILGAGMVLGLASSGIL  90
+           FGH+LG G +LGL++ G+ 
+Sbjct  67  FGHLLGMGAILGLSTRGVF  85
+
+
+> sp|B2IWT4|PSAK_NOSP7 Photosystem I reaction center subunit PsaK 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 47.4 bits (111),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 38/88 (43%), Positives = 49/88 (56%), Gaps = 4/88 (5%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           MF + LL A  +P    WS +VG+I+ + N+ A   G   I+      + ALP       
+Sbjct  1   MFTSTLLAAATTPLQ--WSPTVGLIIIIANIIAIAFGKSTIKY--PNAEPALPSSNLFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSG  88
+           FGLP LLAT +FGHILG G VLGL + G
+Sbjct  57  FGLPALLATTAFGHILGVGAVLGLHNLG  84
+
+
+> sp|P31567|PSAK_GALSU Photosystem I reaction center subunit PsaK 
+OS=Galdieria sulphuraria OX=130081 GN=psaK PE=3 SV=1
+Length=69
+
+ Score = 40.8 bits (94),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 37/68 (54%), Gaps = 7/68 (10%)
+
+Query  19  SLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELLATMSFGHILGA  78
+           ++S  II  + N    ++G +++Q   K +  ++  +       L ELLA+MS GHI+ +
+Sbjct  4   AVSTNIIFIVVNTICVILGKYSVQN-KKNESYSIANI------NLAELLASMSLGHIISS  56
+
+Query  79  GMVLGLAS  86
+             VLGL S
+Sbjct  57  ATVLGLKS  64
+
+
+> sp|Q8YLK8|PSAK2_NOSS1 Photosystem I reaction center subunit PsaK 
+2 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) 
+OX=103690 GN=psaK2 PE=3 SV=2
+Length=92
+
+ Score = 38.1 bits (87),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 30/93 (32%), Positives = 47/93 (51%), Gaps = 4/93 (4%)
+
+Query  1   MFNTALLLAQASPTTAG--WSLS-VGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLAS  57
+           M ++ LL AQA+    G  W+ +   II+  C +   +I   +I+    G  + LP  + 
+Sbjct  1   MLSSILLAAQATVPNTGTTWNWNGTPIIIASC-LLVLLIAGRSIRYPHVGTKMPLPFPSI  59
+
+Query  58  KKTFGLPELLATMSFGHILGAGMVLGLASSGIL  90
+                +   LA MSFGHI+G   VLGL + G++
+Sbjct  60  FNNPSVATFLAAMSFGHIIGVAAVLGLTNLGVI  92
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.139    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4987282620
+Results from round 2
+
+
+Query= P74564|4l6vK
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P74564|PSAK2_SYNY3 Photosystem I reaction center subunit Psa...  96.3    2e-25
+  sp|Q9S3W9|PSAK_MASLA Photosystem I reaction center subunit PsaK...  87.4    4e-22
+  sp|P0A425|PSAK_THEEB Photosystem I reaction center subunit PsaK...  86.7    7e-22
+  sp|P0A426|PSAK_SYNEL Photosystem I reaction center subunit PsaK...  86.7    7e-22
+  sp|O78444|PSAK_GUITH Photosystem I reaction center subunit PsaK...  84.0    9e-21
+  sp|P72712|PSAK1_SYNY3 Photosystem I reaction center subunit Psa...  82.0    5e-20
+  sp|P58583|PSAK1_NOSS1 Photosystem I reaction center subunit Psa...  81.7    7e-20
+  sp|P51370|PSAK_PORPU Photosystem I reaction center subunit PsaK...  81.7    7e-20
+  sp|P23317|PSAK_ANAVT Photosystem I reaction center subunit PsaK...  81.3    9e-20
+  sp|A5GL35|PSAK_SYNPW Photosystem I reaction center subunit PsaK...  80.9    1e-19
+  sp|Q1XDB7|PSAK_PYRYE Photosystem I reaction center subunit PsaK...  80.9    2e-19
+  sp|P23318|PSAK_THEVL Photosystem I reaction center subunit PsaK...  79.7    4e-19
+  sp|Q7U6P8|PSAK_SYNPX Photosystem I reaction center subunit PsaK...  77.0    4e-18
+  sp|Q6B8M4|PSAK_GRATL Photosystem I reaction center subunit PsaK...  74.3    5e-17
+  sp|Q8YLK8|PSAK2_NOSS1 Photosystem I reaction center subunit Psa...  72.8    2e-16
+  sp|B2IWT4|PSAK_NOSP7 Photosystem I reaction center subunit PsaK...  72.8    2e-16
+  sp|O19902|PSAK_CYACA Photosystem I reaction center subunit PsaK...  60.9    6e-12
+  sp|P31567|PSAK_GALSU Photosystem I reaction center subunit PsaK...  51.2    1e-08
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P36886|PSAK_HORVU Photosystem I reaction center subunit psaK...  38.9    6e-04
+  sp|Q9SUI5|PSAK_ARATH Photosystem I reaction center subunit psaK...  37.4    0.003
+
+
+> sp|P74564|PSAK2_SYNY3 Photosystem I reaction center subunit PsaK 
+2 OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=psaK2 PE=1 SV=2
+Length=90
+
+ Score = 96.3 bits (238),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 90/90 (100%), Positives = 90/90 (100%), Gaps = 0/90 (0%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT
+Sbjct  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+           FGLPELLATMSFGHILGAGMVLGLASSGIL
+Sbjct  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+
+
+> sp|Q9S3W9|PSAK_MASLA Photosystem I reaction center subunit PsaK 
+OS=Mastigocladus laminosus OX=83541 GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 87.4 bits (215),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 42/88 (48%), Positives = 50/88 (57%), Gaps = 4/88 (5%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           M  + LL A  +P    WS +VGIIM LCN+ A   G   IQ    G   ALP       
+Sbjct  1   MLTSTLLAAATTPLQ--WSPTVGIIMILCNIVAIAFGKSTIQYPNAGP--ALPSSQFFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSG  88
+           FGLP LLAT +FGHILG G++LGL + G
+Sbjct  57  FGLPALLATTAFGHILGTGVILGLHNLG  84
+
+
+> sp|P0A425|PSAK_THEEB Photosystem I reaction center subunit PsaK 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 
+GN=psaK PE=1 SV=1
+Length=83
+
+ Score = 86.7 bits (213),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 40/80 (50%), Positives = 53/80 (66%), Gaps = 0/80 (0%)
+
+Query  11  ASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELLATM  70
+           A+     W+ SVG+++ LCN+FA  +G +AIQ  GKG  L +   A  + FGLPELLAT 
+Sbjct  4   ATLPDTTWTPSVGLVVILCNLFAIALGRYAIQSRGKGPGLPIALPALFEGFGLPELLATT  63
+
+Query  71  SFGHILGAGMVLGLASSGIL  90
+           SFGH+L AG+V GL  +G L
+Sbjct  64  SFGHLLAAGVVSGLQYAGAL  83
+
+
+> sp|P0A426|PSAK_SYNEL Photosystem I reaction center subunit PsaK 
+OS=Synechococcus elongatus OX=32046 GN=psaK PE=1 SV=1
+Length=83
+
+ Score = 86.7 bits (213),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 40/80 (50%), Positives = 53/80 (66%), Gaps = 0/80 (0%)
+
+Query  11  ASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELLATM  70
+           A+     W+ SVG+++ LCN+FA  +G +AIQ  GKG  L +   A  + FGLPELLAT 
+Sbjct  4   ATLPDTTWTPSVGLVVILCNLFAIALGRYAIQSRGKGPGLPIALPALFEGFGLPELLATT  63
+
+Query  71  SFGHILGAGMVLGLASSGIL  90
+           SFGH+L AG+V GL  +G L
+Sbjct  64  SFGHLLAAGVVSGLQYAGAL  83
+
+
+> sp|O78444|PSAK_GUITH Photosystem I reaction center subunit PsaK 
+OS=Guillardia theta OX=55529 GN=psaK PE=3 SV=1
+Length=87
+
+ Score = 84.0 bits (206),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 42/87 (48%), Positives = 48/87 (55%), Gaps = 2/87 (2%)
+
+Query  4   TALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGL  63
+            A LL    P T  WS     IM LCNV   V   + IQ   KG   ALP   S  TFGL
+Sbjct  2   NAELLISLVPQTVAWSAKTSSIMILCNVLCIVSARYIIQNKNKGT--ALPLSGSFSTFGL  59
+
+Query  64  PELLATMSFGHILGAGMVLGLASSGIL  90
+           PELLAT S GHI+G+G +LG +  G+L
+Sbjct  60  PELLATTSLGHIIGSGTILGFSYIGLL  86
+
+
+> sp|P72712|PSAK1_SYNY3 Photosystem I reaction center subunit PsaK 
+1 OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=psaK1 PE=3 SV=1
+Length=86
+
+ Score = 82.0 bits (201),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 37/86 (43%), Positives = 48/86 (56%), Gaps = 2/86 (2%)
+
+Query  5   ALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLP  64
+           + LLA A P T  WS  V  +M  CN+ A   G   I++   G  +  P       FGL 
+Sbjct  3   SFLLATAVPATLSWSPKVAGVMIACNILAIAFGKLTIKQQNVGTPM--PSSNFFGGFGLG  60
+
+Query  65  ELLATMSFGHILGAGMVLGLASSGIL  90
+            +L T SFGHILGAG++LGLA+ G+L
+Sbjct  61  AVLGTASFGHILGAGVILGLANMGVL  86
+
+
+> sp|P58583|PSAK1_NOSS1 Photosystem I reaction center subunit PsaK 
+1 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) 
+OX=103690 GN=psaK1 PE=3 SV=1
+Length=86
+
+ Score = 81.7 bits (200),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 39/90 (43%), Positives = 49/90 (54%), Gaps = 4/90 (4%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           M  + LL A  +P    WS +VGIIM + NV A   G   I+      + ALP       
+Sbjct  1   MLTSTLLAAATTPLE--WSPTVGIIMVIANVIAITFGRQTIKYPS--AEPALPSAKFFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+           FG P LLAT +FGHILG G+VLGL + G +
+Sbjct  57  FGAPALLATTAFGHILGVGLVLGLHNLGRI  86
+
+
+> sp|P51370|PSAK_PORPU Photosystem I reaction center subunit PsaK 
+OS=Porphyra purpurea OX=2787 GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 81.7 bits (200),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 35/86 (41%), Positives = 53/86 (62%), Gaps = 3/86 (3%)
+
+Query  5   ALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLP  64
+            L +  A P T+ WS  V ++M  CN+ A V G +AI+  G G  + +   +  + FGLP
+Sbjct  3   ILFVLSAVPHTSPWSTQVAMVMITCNLLAIVAGRYAIKVRGLGPSIPV---SGVEGFGLP  59
+
+Query  65  ELLATMSFGHILGAGMVLGLASSGIL  90
+           ELLAT S GH++GA  +LGL++ G++
+Sbjct  60  ELLATTSLGHVIGAASILGLSNVGLI  85
+
+
+> sp|P23317|PSAK_ANAVT Photosystem I reaction center subunit PsaK 
+OS=Anabaena variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=psaK PE=1 SV=2
+Length=86
+
+ Score = 81.3 bits (199),  Expect = 9e-20, Method: Composition-based stats.
+ Identities = 37/88 (42%), Positives = 48/88 (55%), Gaps = 4/88 (5%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           M  + LL A  +P    WS ++GIIM + NV A   G   I+      + ALP       
+Sbjct  1   MLTSTLLAAATTPLE--WSPTIGIIMVIANVIAITFGRQTIKYPS--AEPALPSAKFFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSG  88
+           FG P LLAT +FGHILG G++LGL + G
+Sbjct  57  FGAPALLATTAFGHILGVGIILGLHNLG  84
+
+
+> sp|A5GL35|PSAK_SYNPW Photosystem I reaction center subunit PsaK 
+OS=Synechococcus sp. (strain WH7803) OX=32051 GN=psaK PE=3 
+SV=1
+Length=85
+
+ Score = 80.9 bits (198),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 27/85 (32%), Positives = 43/85 (51%), Gaps = 2/85 (2%)
+
+Query  6   LLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPE  65
+           L L   +P +  W+  V ++M +CNV A  IG   I+   +G  +  P  +         
+Sbjct  3   LSLLAITPASVSWTPKVALVMIICNVIAIAIGKATIKYPNEGAKM--PSASFFGGMSHGA  60
+
+Query  66  LLATMSFGHILGAGMVLGLASSGIL  90
+           +L   SFGH+LG G +LGL++ G+ 
+Sbjct  61  MLGCTSFGHLLGMGAILGLSTRGVF  85
+
+
+> sp|Q1XDB7|PSAK_PYRYE Photosystem I reaction center subunit PsaK 
+OS=Pyropia yezoensis OX=2788 GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 80.9 bits (198),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 34/87 (39%), Positives = 53/87 (61%), Gaps = 3/87 (3%)
+
+Query  4   TALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGL  63
+             L +  + P T+ WS  V ++M  CN+ A V G +AI+  G G  + +   +  + FGL
+Sbjct  2   NILFVLSSVPHTSPWSTQVAMVMITCNLLAIVAGRYAIKVRGLGPSIPV---SGVEGFGL  58
+
+Query  64  PELLATMSFGHILGAGMVLGLASSGIL  90
+           PELLAT S GH++GA  +LGL++ G++
+Sbjct  59  PELLATTSLGHVIGAASILGLSNVGLI  85
+
+
+> sp|P23318|PSAK_THEVL Photosystem I reaction center subunit PsaK 
+OS=Thermosynechococcus vulcanus OX=32053 GN=psaK PE=1 SV=2
+Length=85
+
+ Score = 79.7 bits (195),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 42/86 (49%), Positives = 57/86 (66%), Gaps = 2/86 (2%)
+
+Query  6   LLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPE  65
+           ++LA   P T  W+ SVG+++ L N+FA  +G +AIQ  GKG  L +   A  + FGLPE
+Sbjct  1   MVLATTLPDTT-WTPSVGLVVILSNLFAIALGRYAIQSRGKGPGLPIALPALFEGFGLPE  59
+
+Query  66  LLATMSFGHILGAGMV-LGLASSGIL  90
+           LLAT SFGH+L AG+V +GL  +G L
+Sbjct  60  LLATTSFGHLLAAGVVSVGLQYAGAL  85
+
+
+> sp|Q7U6P8|PSAK_SYNPX Photosystem I reaction center subunit PsaK 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=psaK PE=3 
+SV=1
+Length=85
+
+ Score = 77.0 bits (188),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 32/83 (39%), Positives = 43/83 (52%), Gaps = 2/83 (2%)
+
+Query  8   LAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELL  67
+           L   +P T  WS  V ++M +CNV A  +G   I+   +G    LP  A     G   LL
+Sbjct  5   LFAIAPATVTWSPKVALVMIVCNVIAIAVGKATIKHPSEGAK--LPNAAFFGGMGHAALL  62
+
+Query  68  ATMSFGHILGAGMVLGLASSGIL  90
+            T S GHI+G G + GLA+ G+L
+Sbjct  63  GTTSLGHIIGIGAIQGLAARGVL  85
+
+
+> sp|Q6B8M4|PSAK_GRATL Photosystem I reaction center subunit PsaK 
+OS=Gracilaria tenuistipitata var. liui OX=285951 GN=psaK 
+PE=3 SV=1
+Length=86
+
+ Score = 74.3 bits (181),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 40/89 (45%), Positives = 52/89 (58%), Gaps = 4/89 (4%)
+
+Query  2   FNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTF  61
+            N   LL+  S  T+ WS+S  IIM +CN+    +G +AIQ  G G  +        K F
+Sbjct  1   MNLQTLLSMISN-TSSWSISTAIIMVICNLLCIGLGRYAIQVRGLGPSIP---ALGLKGF  56
+
+Query  62  GLPELLATMSFGHILGAGMVLGLASSGIL  90
+           GLPELLAT S GHI+GAG ++GL S  I+
+Sbjct  57  GLPELLATTSLGHIIGAGAIIGLNSIKII  85
+
+
+> sp|Q8YLK8|PSAK2_NOSS1 Photosystem I reaction center subunit PsaK 
+2 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) 
+OX=103690 GN=psaK2 PE=3 SV=2
+Length=92
+
+ Score = 72.8 bits (177),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 28/92 (30%), Positives = 45/92 (49%), Gaps = 2/92 (2%)
+
+Query  1   MFNTALLLAQASPTTAG--WSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASK  58
+           M ++ LL AQA+    G  W+ +   I+    +   +I   +I+    G  + LP  +  
+Sbjct  1   MLSSILLAAQATVPNTGTTWNWNGTPIIIASCLLVLLIAGRSIRYPHVGTKMPLPFPSIF  60
+
+Query  59  KTFGLPELLATMSFGHILGAGMVLGLASSGIL  90
+               +   LA MSFGHI+G   VLGL + G++
+Sbjct  61  NNPSVATFLAAMSFGHIIGVAAVLGLTNLGVI  92
+
+
+> sp|B2IWT4|PSAK_NOSP7 Photosystem I reaction center subunit PsaK 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 72.8 bits (177),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 38/90 (42%), Positives = 50/90 (56%), Gaps = 4/90 (4%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           MF + LL A  +P    WS +VG+I+ + N+ A   G   I+      + ALP       
+Sbjct  1   MFTSTLLAAATTPLQ--WSPTVGLIIIIANIIAIAFGKSTIKYPN--AEPALPSSNLFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+           FGLP LLAT +FGHILG G VLGL + G +
+Sbjct  57  FGLPALLATTAFGHILGVGAVLGLHNLGRI  86
+
+
+> sp|O19902|PSAK_CYACA Photosystem I reaction center subunit PsaK 
+OS=Cyanidium caldarium OX=2771 GN=psaK PE=3 SV=1
+Length=84
+
+ Score = 60.9 bits (146),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 34/85 (40%), Positives = 51/85 (60%), Gaps = 3/85 (4%)
+
+Query  6   LLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPE  65
+           +L +  +     W+ S+ IIM L N+ A V+G ++I+  G    +A+ QL   K FG+PE
+Sbjct  1   MLASYLNLFNTPWNSSISIIMILSNIMAIVVGRYSIKVRGLKPPIAISQL---KDFGVPE  57
+
+Query  66  LLATMSFGHILGAGMVLGLASSGIL  90
+           LLATMS GHI+G G  +GL +   +
+Sbjct  58  LLATMSLGHIIGVGSTIGLKTLNFI  82
+
+
+> sp|P31567|PSAK_GALSU Photosystem I reaction center subunit PsaK 
+OS=Galdieria sulphuraria OX=130081 GN=psaK PE=3 SV=1
+Length=69
+
+ Score = 51.2 bits (121),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 39/72 (54%), Gaps = 7/72 (10%)
+
+Query  19  SLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELLATMSFGHILGA  78
+           ++S  II  + N    ++G +++Q   K +  ++  +       L ELLA+MS GHI+ +
+Sbjct  4   AVSTNIIFIVVNTICVILGKYSVQNK-KNESYSIANI------NLAELLASMSLGHIISS  56
+
+Query  79  GMVLGLASSGIL  90
+             VLGL S  ++
+Sbjct  57  ATVLGLKSLNLI  68
+
+
+> sp|P36886|PSAK_HORVU Photosystem I reaction center subunit psaK, 
+chloroplastic OS=Hordeum vulgare OX=4513 GN=PSAK PE=1 SV=1
+Length=131
+
+ Score = 38.9 bits (89),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 32/79 (41%), Gaps = 9/79 (11%)
+
+Query  21   SVGIIMCLCNVFAFVIGYFAIQ---KTGKGKDLALP------QLASKKTFGLPELLATMS  71
+            S  +IM          G F +           L L       Q      F L + LA  +
+Sbjct  48   STNLIMVTTTTLMLFAGRFGLAPSANRKATAGLKLEARESGLQTGDPAGFTLADTLACGA  107
+
+Query  72   FGHILGAGMVLGLASSGIL  90
+             GHI+G G+VLGL ++G+L
+Sbjct  108  VGHIMGVGIVLGLKNTGVL  126
+
+
+> sp|Q9SUI5|PSAK_ARATH Photosystem I reaction center subunit psaK, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PSAK PE=2 
+SV=2
+Length=130
+
+ Score = 37.4 bits (85),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 30/79 (38%), Gaps = 9/79 (11%)
+
+Query  21   SVGIIMCLCNVFAFVIGYFAIQ---KTGKGKDLALP------QLASKKTFGLPELLATMS  71
+            S  +IM          G F +           L L       Q      F L + LA  +
+Sbjct  52   STNLIMVTSTTLMLFAGRFGLAPSANRKATAGLRLEARDSGLQTGDPAGFTLADTLACGT  111
+
+Query  72   FGHILGAGMVLGLASSGIL  90
+             GHI+G G+VLGL + G +
+Sbjct  112  VGHIIGVGVVLGLKNIGAI  130
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.132    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4987282620
+Results from round 3
+
+
+Query= P74564|4l6vK
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P74564|PSAK2_SYNY3 Photosystem I reaction center subunit Psa...  89.7    7e-23
+  sp|P0A425|PSAK_THEEB Photosystem I reaction center subunit PsaK...  83.6    1e-20
+  sp|P0A426|PSAK_SYNEL Photosystem I reaction center subunit PsaK...  83.6    1e-20
+  sp|Q9S3W9|PSAK_MASLA Photosystem I reaction center subunit PsaK...  82.4    4e-20
+  sp|O78444|PSAK_GUITH Photosystem I reaction center subunit PsaK...  79.0    9e-19
+  sp|P51370|PSAK_PORPU Photosystem I reaction center subunit PsaK...  78.6    1e-18
+  sp|P58583|PSAK1_NOSS1 Photosystem I reaction center subunit Psa...  78.2    1e-18
+  sp|P23317|PSAK_ANAVT Photosystem I reaction center subunit PsaK...  77.8    2e-18
+  sp|Q1XDB7|PSAK_PYRYE Photosystem I reaction center subunit PsaK...  77.4    3e-18
+  sp|P23318|PSAK_THEVL Photosystem I reaction center subunit PsaK...  77.4    3e-18
+  sp|A5GL35|PSAK_SYNPW Photosystem I reaction center subunit PsaK...  76.6    6e-18
+  sp|P72712|PSAK1_SYNY3 Photosystem I reaction center subunit Psa...  76.3    9e-18
+  sp|Q8YLK8|PSAK2_NOSS1 Photosystem I reaction center subunit Psa...  74.7    3e-17
+  sp|Q7U6P8|PSAK_SYNPX Photosystem I reaction center subunit PsaK...  73.6    8e-17
+  sp|Q6B8M4|PSAK_GRATL Photosystem I reaction center subunit PsaK...  69.7    3e-15
+  sp|B2IWT4|PSAK_NOSP7 Photosystem I reaction center subunit PsaK...  69.3    4e-15
+  sp|O19902|PSAK_CYACA Photosystem I reaction center subunit PsaK...  64.7    2e-13
+  sp|P36886|PSAK_HORVU Photosystem I reaction center subunit psaK...  57.8    1e-10
+  sp|P31567|PSAK_GALSU Photosystem I reaction center subunit PsaK...  49.7    6e-08
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9SUI5|PSAK_ARATH Photosystem I reaction center subunit psaK...  52.8    8e-09
+  sp|Q9ZT05|PSAK_MEDSA Photosystem I reaction center subunit psaK...  50.4    6e-08
+
+
+> sp|P74564|PSAK2_SYNY3 Photosystem I reaction center subunit PsaK 
+2 OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=psaK2 PE=1 SV=2
+Length=90
+
+ Score = 89.7 bits (221),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 90/90 (100%), Positives = 90/90 (100%), Gaps = 0/90 (0%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT
+Sbjct  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+           FGLPELLATMSFGHILGAGMVLGLASSGIL
+Sbjct  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+
+
+> sp|P0A425|PSAK_THEEB Photosystem I reaction center subunit PsaK 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 
+GN=psaK PE=1 SV=1
+Length=83
+
+ Score = 83.6 bits (205),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 40/80 (50%), Positives = 53/80 (66%), Gaps = 0/80 (0%)
+
+Query  11  ASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELLATM  70
+           A+     W+ SVG+++ LCN+FA  +G +AIQ  GKG  L +   A  + FGLPELLAT 
+Sbjct  4   ATLPDTTWTPSVGLVVILCNLFAIALGRYAIQSRGKGPGLPIALPALFEGFGLPELLATT  63
+
+Query  71  SFGHILGAGMVLGLASSGIL  90
+           SFGH+L AG+V GL  +G L
+Sbjct  64  SFGHLLAAGVVSGLQYAGAL  83
+
+
+> sp|P0A426|PSAK_SYNEL Photosystem I reaction center subunit PsaK 
+OS=Synechococcus elongatus OX=32046 GN=psaK PE=1 SV=1
+Length=83
+
+ Score = 83.6 bits (205),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 40/80 (50%), Positives = 53/80 (66%), Gaps = 0/80 (0%)
+
+Query  11  ASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELLATM  70
+           A+     W+ SVG+++ LCN+FA  +G +AIQ  GKG  L +   A  + FGLPELLAT 
+Sbjct  4   ATLPDTTWTPSVGLVVILCNLFAIALGRYAIQSRGKGPGLPIALPALFEGFGLPELLATT  63
+
+Query  71  SFGHILGAGMVLGLASSGIL  90
+           SFGH+L AG+V GL  +G L
+Sbjct  64  SFGHLLAAGVVSGLQYAGAL  83
+
+
+> sp|Q9S3W9|PSAK_MASLA Photosystem I reaction center subunit PsaK 
+OS=Mastigocladus laminosus OX=83541 GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 82.4 bits (202),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 42/90 (47%), Positives = 50/90 (56%), Gaps = 4/90 (4%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           M  + LL A  +P    WS +VGIIM LCN+ A   G   IQ    G   ALP       
+Sbjct  1   MLTSTLLAAATTPLQ--WSPTVGIIMILCNIVAIAFGKSTIQYPNAGP--ALPSSQFFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+           FGLP LLAT +FGHILG G++LGL + G  
+Sbjct  57  FGLPALLATTAFGHILGTGVILGLHNLGRF  86
+
+
+> sp|O78444|PSAK_GUITH Photosystem I reaction center subunit PsaK 
+OS=Guillardia theta OX=55529 GN=psaK PE=3 SV=1
+Length=87
+
+ Score = 79.0 bits (193),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 42/87 (48%), Positives = 48/87 (55%), Gaps = 2/87 (2%)
+
+Query  4   TALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGL  63
+            A LL    P T  WS     IM LCNV   V   + IQ   KG   ALP   S  TFGL
+Sbjct  2   NAELLISLVPQTVAWSAKTSSIMILCNVLCIVSARYIIQNKNKGT--ALPLSGSFSTFGL  59
+
+Query  64  PELLATMSFGHILGAGMVLGLASSGIL  90
+           PELLAT S GHI+G+G +LG +  G+L
+Sbjct  60  PELLATTSLGHIIGSGTILGFSYIGLL  86
+
+
+> sp|P51370|PSAK_PORPU Photosystem I reaction center subunit PsaK 
+OS=Porphyra purpurea OX=2787 GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 78.6 bits (192),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 35/86 (41%), Positives = 53/86 (62%), Gaps = 3/86 (3%)
+
+Query  5   ALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLP  64
+            L +  A P T+ WS  V ++M  CN+ A V G +AI+  G G  + +   +  + FGLP
+Sbjct  3   ILFVLSAVPHTSPWSTQVAMVMITCNLLAIVAGRYAIKVRGLGPSIPV---SGVEGFGLP  59
+
+Query  65  ELLATMSFGHILGAGMVLGLASSGIL  90
+           ELLAT S GH++GA  +LGL++ G++
+Sbjct  60  ELLATTSLGHVIGAASILGLSNVGLI  85
+
+
+> sp|P58583|PSAK1_NOSS1 Photosystem I reaction center subunit PsaK 
+1 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) 
+OX=103690 GN=psaK1 PE=3 SV=1
+Length=86
+
+ Score = 78.2 bits (191),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 39/90 (43%), Positives = 49/90 (54%), Gaps = 4/90 (4%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           M  + LL A  +P    WS +VGIIM + NV A   G   I+      + ALP       
+Sbjct  1   MLTSTLLAAATTPLE--WSPTVGIIMVIANVIAITFGRQTIKYPS--AEPALPSAKFFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+           FG P LLAT +FGHILG G+VLGL + G +
+Sbjct  57  FGAPALLATTAFGHILGVGLVLGLHNLGRI  86
+
+
+> sp|P23317|PSAK_ANAVT Photosystem I reaction center subunit PsaK 
+OS=Anabaena variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=psaK PE=1 SV=2
+Length=86
+
+ Score = 77.8 bits (190),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 37/90 (41%), Positives = 48/90 (53%), Gaps = 4/90 (4%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           M  + LL A  +P    WS ++GIIM + NV A   G   I+      + ALP       
+Sbjct  1   MLTSTLLAAATTPLE--WSPTIGIIMVIANVIAITFGRQTIKYPS--AEPALPSAKFFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+           FG P LLAT +FGHILG G++LGL + G  
+Sbjct  57  FGAPALLATTAFGHILGVGIILGLHNLGRF  86
+
+
+> sp|Q1XDB7|PSAK_PYRYE Photosystem I reaction center subunit PsaK 
+OS=Pyropia yezoensis OX=2788 GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 77.4 bits (189),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 34/87 (39%), Positives = 53/87 (61%), Gaps = 3/87 (3%)
+
+Query  4   TALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGL  63
+             L +  + P T+ WS  V ++M  CN+ A V G +AI+  G G  + +   +  + FGL
+Sbjct  2   NILFVLSSVPHTSPWSTQVAMVMITCNLLAIVAGRYAIKVRGLGPSIPV---SGVEGFGL  58
+
+Query  64  PELLATMSFGHILGAGMVLGLASSGIL  90
+           PELLAT S GH++GA  +LGL++ G++
+Sbjct  59  PELLATTSLGHVIGAASILGLSNVGLI  85
+
+
+> sp|P23318|PSAK_THEVL Photosystem I reaction center subunit PsaK 
+OS=Thermosynechococcus vulcanus OX=32053 GN=psaK PE=1 SV=2
+Length=85
+
+ Score = 77.4 bits (189),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 38/85 (45%), Positives = 54/85 (64%), Gaps = 1/85 (1%)
+
+Query  7   LLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPEL  66
+           ++   +     W+ SVG+++ L N+FA  +G +AIQ  GKG  L +   A  + FGLPEL
+Sbjct  1   MVLATTLPDTTWTPSVGLVVILSNLFAIALGRYAIQSRGKGPGLPIALPALFEGFGLPEL  60
+
+Query  67  LATMSFGHILGAGMV-LGLASSGIL  90
+           LAT SFGH+L AG+V +GL  +G L
+Sbjct  61  LATTSFGHLLAAGVVSVGLQYAGAL  85
+
+
+> sp|A5GL35|PSAK_SYNPW Photosystem I reaction center subunit PsaK 
+OS=Synechococcus sp. (strain WH7803) OX=32051 GN=psaK PE=3 
+SV=1
+Length=85
+
+ Score = 76.6 bits (187),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 27/85 (32%), Positives = 43/85 (51%), Gaps = 2/85 (2%)
+
+Query  6   LLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPE  65
+           L L   +P +  W+  V ++M +CNV A  IG   I+   +G  +  P  +         
+Sbjct  3   LSLLAITPASVSWTPKVALVMIICNVIAIAIGKATIKYPNEGAKM--PSASFFGGMSHGA  60
+
+Query  66  LLATMSFGHILGAGMVLGLASSGIL  90
+           +L   SFGH+LG G +LGL++ G+ 
+Sbjct  61  MLGCTSFGHLLGMGAILGLSTRGVF  85
+
+
+> sp|P72712|PSAK1_SYNY3 Photosystem I reaction center subunit PsaK 
+1 OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=psaK1 PE=3 SV=1
+Length=86
+
+ Score = 76.3 bits (186),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 37/86 (43%), Positives = 48/86 (56%), Gaps = 2/86 (2%)
+
+Query  5   ALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLP  64
+           + LLA A P T  WS  V  +M  CN+ A   G   I++   G    +P       FGL 
+Sbjct  3   SFLLATAVPATLSWSPKVAGVMIACNILAIAFGKLTIKQQNVGT--PMPSSNFFGGFGLG  60
+
+Query  65  ELLATMSFGHILGAGMVLGLASSGIL  90
+            +L T SFGHILGAG++LGLA+ G+L
+Sbjct  61  AVLGTASFGHILGAGVILGLANMGVL  86
+
+
+> sp|Q8YLK8|PSAK2_NOSS1 Photosystem I reaction center subunit PsaK 
+2 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) 
+OX=103690 GN=psaK2 PE=3 SV=2
+Length=92
+
+ Score = 74.7 bits (182),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 28/92 (30%), Positives = 45/92 (49%), Gaps = 2/92 (2%)
+
+Query  1   MFNTALLLAQASPTTAG--WSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASK  58
+           M ++ LL AQA+    G  W+ +   I+    +   +I   +I+    G  + LP  +  
+Sbjct  1   MLSSILLAAQATVPNTGTTWNWNGTPIIIASCLLVLLIAGRSIRYPHVGTKMPLPFPSIF  60
+
+Query  59  KTFGLPELLATMSFGHILGAGMVLGLASSGIL  90
+               +   LA MSFGHI+G   VLGL + G++
+Sbjct  61  NNPSVATFLAAMSFGHIIGVAAVLGLTNLGVI  92
+
+
+> sp|Q7U6P8|PSAK_SYNPX Photosystem I reaction center subunit PsaK 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=psaK PE=3 
+SV=1
+Length=85
+
+ Score = 73.6 bits (179),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 32/83 (39%), Positives = 43/83 (52%), Gaps = 2/83 (2%)
+
+Query  8   LAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELL  67
+           L   +P T  WS  V ++M +CNV A  +G   I+   +G    LP  A     G   LL
+Sbjct  5   LFAIAPATVTWSPKVALVMIVCNVIAIAVGKATIKHPSEGAK--LPNAAFFGGMGHAALL  62
+
+Query  68  ATMSFGHILGAGMVLGLASSGIL  90
+            T S GHI+G G + GLA+ G+L
+Sbjct  63  GTTSLGHIIGIGAIQGLAARGVL  85
+
+
+> sp|Q6B8M4|PSAK_GRATL Photosystem I reaction center subunit PsaK 
+OS=Gracilaria tenuistipitata var. liui OX=285951 GN=psaK 
+PE=3 SV=1
+Length=86
+
+ Score = 69.7 bits (169),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 40/89 (45%), Positives = 52/89 (58%), Gaps = 4/89 (4%)
+
+Query  2   FNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTF  61
+            N   LL+  S  T+ WS+S  IIM +CN+    +G +AIQ  G G  +        K F
+Sbjct  1   MNLQTLLSMISN-TSSWSISTAIIMVICNLLCIGLGRYAIQVRGLGPSIP---ALGLKGF  56
+
+Query  62  GLPELLATMSFGHILGAGMVLGLASSGIL  90
+           GLPELLAT S GHI+GAG ++GL S  I+
+Sbjct  57  GLPELLATTSLGHIIGAGAIIGLNSIKII  85
+
+
+> sp|B2IWT4|PSAK_NOSP7 Photosystem I reaction center subunit PsaK 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=psaK PE=3 SV=1
+Length=86
+
+ Score = 69.3 bits (168),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 38/90 (42%), Positives = 50/90 (56%), Gaps = 4/90 (4%)
+
+Query  1   MFNTALLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKT  60
+           MF + LL A  +P    WS +VG+I+ + N+ A   G   I+      + ALP       
+Sbjct  1   MFTSTLLAAATTPLQ--WSPTVGLIIIIANIIAIAFGKSTIKYPN--AEPALPSSNLFGG  56
+
+Query  61  FGLPELLATMSFGHILGAGMVLGLASSGIL  90
+           FGLP LLAT +FGHILG G VLGL + G +
+Sbjct  57  FGLPALLATTAFGHILGVGAVLGLHNLGRI  86
+
+
+> sp|O19902|PSAK_CYACA Photosystem I reaction center subunit PsaK 
+OS=Cyanidium caldarium OX=2771 GN=psaK PE=3 SV=1
+Length=84
+
+ Score = 64.7 bits (156),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 33/85 (39%), Positives = 50/85 (59%), Gaps = 3/85 (4%)
+
+Query  6   LLLAQASPTTAGWSLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPE  65
+           +L +  +     W+ S+ IIM L N+ A V+G ++I+  G    +A+ Q    K FG+PE
+Sbjct  1   MLASYLNLFNTPWNSSISIIMILSNIMAIVVGRYSIKVRGLKPPIAISQ---LKDFGVPE  57
+
+Query  66  LLATMSFGHILGAGMVLGLASSGIL  90
+           LLATMS GHI+G G  +GL +   +
+Sbjct  58  LLATMSLGHIIGVGSTIGLKTLNFI  82
+
+
+> sp|P36886|PSAK_HORVU Photosystem I reaction center subunit psaK, 
+chloroplastic OS=Hordeum vulgare OX=4513 GN=PSAK PE=1 SV=1
+Length=131
+
+ Score = 57.8 bits (138),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 32/79 (41%), Gaps = 9/79 (11%)
+
+Query  21   SVGIIMCLCNVFAFVIGYFAIQ---KTGKGKDLALP------QLASKKTFGLPELLATMS  71
+            S  +IM          G F +           L L       Q      F L + LA  +
+Sbjct  48   STNLIMVTTTTLMLFAGRFGLAPSANRKATAGLKLEARESGLQTGDPAGFTLADTLACGA  107
+
+Query  72   FGHILGAGMVLGLASSGIL  90
+             GHI+G G+VLGL ++G+L
+Sbjct  108  VGHIMGVGIVLGLKNTGVL  126
+
+
+> sp|Q9SUI5|PSAK_ARATH Photosystem I reaction center subunit psaK, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PSAK PE=2 
+SV=2
+Length=130
+
+ Score = 52.8 bits (125),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 30/79 (38%), Gaps = 9/79 (11%)
+
+Query  21   SVGIIMCLCNVFAFVIGYFAIQ---KTGKGKDLALP------QLASKKTFGLPELLATMS  71
+            S  +IM          G F +           L L       Q      F L + LA  +
+Sbjct  52   STNLIMVTSTTLMLFAGRFGLAPSANRKATAGLRLEARDSGLQTGDPAGFTLADTLACGT  111
+
+Query  72   FGHILGAGMVLGLASSGIL  90
+             GHI+G G+VLGL + G +
+Sbjct  112  VGHIIGVGVVLGLKNIGAI  130
+
+
+> sp|P31567|PSAK_GALSU Photosystem I reaction center subunit PsaK 
+OS=Galdieria sulphuraria OX=130081 GN=psaK PE=3 SV=1
+Length=69
+
+ Score = 49.7 bits (117),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 36/72 (50%), Gaps = 7/72 (10%)
+
+Query  19  SLSVGIIMCLCNVFAFVIGYFAIQKTGKGKDLALPQLASKKTFGLPELLATMSFGHILGA  78
+           ++S  II  + N    ++G +++Q           +  S     L ELLA+MS GHI+ +
+Sbjct  4   AVSTNIIFIVVNTICVILGKYSVQNKKN-------ESYSIANINLAELLASMSLGHIISS  56
+
+Query  79  GMVLGLASSGIL  90
+             VLGL S  ++
+Sbjct  57  ATVLGLKSLNLI  68
+
+
+> sp|Q9ZT05|PSAK_MEDSA Photosystem I reaction center subunit psaK, 
+chloroplastic OS=Medicago sativa OX=3879 GN=PSAK PE=2 SV=1
+Length=129
+
+ Score = 50.4 bits (119),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 21/76 (28%), Positives = 28/76 (37%), Gaps = 9/76 (12%)
+
+Query  21   SVGIIMCLCNVFAFVIGYFAIQ---KTGKGKDLALP------QLASKKTFGLPELLATMS  71
+            S  +IM          G F +           L L       Q      F L + LA  +
+Sbjct  52   STNVIMVASTTLMLFAGRFGLAPSANRKATAGLKLETRDSGLQTGDPAGFTLADTLACGT  111
+
+Query  72   FGHILGAGMVLGLASS  87
+             GHI+G G+VLGL + 
+Sbjct  112  VGHIIGVGVVLGLRTL  127
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.134    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0414    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4987282620
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

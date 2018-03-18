@@ -1,0 +1,1428 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P9WP56|2mmuA
+
+Length=93
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P9WP57|CRGA_MYCTU Cell division protein CrgA OS=Mycobacteriu...  186     7e-61
+  sp|P9WP56|CRGA_MYCTO Cell division protein CrgA OS=Mycobacteriu...  186     7e-61
+  sp|A5TY81|CRGA_MYCTA Cell division protein CrgA OS=Mycobacteriu...  186     7e-61
+  sp|C1AJ08|CRGA_MYCBT Cell division protein CrgA OS=Mycobacteriu...  186     7e-61
+  sp|P67377|CRGA_MYCBO Cell division protein CrgA OS=Mycobacteriu...  186     7e-61
+  sp|Q744R9|CRGA_MYCPA Cell division protein CrgA OS=Mycobacteriu...  183     2e-59
+  sp|A0Q8S8|CRGA_MYCA1 Cell division protein CrgA OS=Mycobacteriu...  183     2e-59
+  sp|A0PKC4|CRGA_MYCUA Cell division protein CrgA OS=Mycobacteriu...  177     4e-57
+  sp|B2HI58|CRGA_MYCMM Cell division protein CrgA OS=Mycobacteriu...  177     4e-57
+  sp|Q9CDE7|CRGA_MYCLE Cell division protein CrgA OS=Mycobacteriu...  176     6e-57
+  sp|B8ZTP9|CRGA_MYCLB Cell division protein CrgA OS=Mycobacteriu...  176     6e-57
+  sp|Q1BG50|CRGA_MYCSS Cell division protein CrgA OS=Mycobacteriu...  153     9e-48
+  sp|A1U8T1|CRGA_MYCSK Cell division protein CrgA OS=Mycobacteriu...  153     9e-48
+  sp|A3PSE8|CRGA_MYCSJ Cell division protein CrgA OS=Mycobacteriu...  153     9e-48
+  sp|A4Q9X1|CRGA_CORGB Cell division protein CrgA OS=Corynebacter...  69.3    5e-15
+  sp|Q8NU99|CRGA_CORGL Cell division protein CrgA OS=Corynebacter...  68.9    7e-15
+  sp|Q8FUI7|CRGA_COREF Cell division protein CrgA OS=Corynebacter...  63.9    5e-13
+  sp|B1VE23|CRGA_CORU7 Cell division protein CrgA OS=Corynebacter...  54.3    2e-09
+  sp|C3PE99|CRGA_CORA7 Cell division protein CrgA OS=Corynebacter...  54.3    2e-09
+  sp|Q8G6P5|CRGA_BIFLO Cell division protein CrgA OS=Bifidobacter...  53.1    6e-09
+  sp|Q93JL8|CRGA_STRAW Cell division protein CrgA OS=Streptomyces...  48.9    2e-07
+  sp|Q4JYC3|CRGA_CORJK Cell division protein CrgA OS=Corynebacter...  46.2    1e-06
+  sp|Q9XA10|CRGA_STRCO Cell division protein CrgA OS=Streptomyces...  45.8    2e-06
+  sp|P67378|CRGA_TROWT Cell division protein CrgA OS=Tropheryma w...  35.4    0.007
+  sp|P67379|CRGA_TROW8 Cell division protein CrgA OS=Tropheryma w...  35.4    0.007
+
+
+> sp|P9WP57|CRGA_MYCTU Cell division protein CrgA OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=crgA 
+PE=1 SV=1
+Length=93
+
+ Score = 186 bits (473),  Expect = 7e-61, Method: Compositional matrix adjust.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|P9WP56|CRGA_MYCTO Cell division protein CrgA OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=crgA 
+PE=3 SV=1
+Length=93
+
+ Score = 186 bits (473),  Expect = 7e-61, Method: Compositional matrix adjust.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|A5TY81|CRGA_MYCTA Cell division protein CrgA OS=Mycobacterium 
+tuberculosis (strain ATCC 25177 / H37Ra) OX=419947 GN=crgA 
+PE=3 SV=1
+Length=93
+
+ Score = 186 bits (473),  Expect = 7e-61, Method: Compositional matrix adjust.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|C1AJ08|CRGA_MYCBT Cell division protein CrgA OS=Mycobacterium 
+bovis (strain BCG / Tokyo 172 / ATCC 35737 / TMC 1019) OX=561275 
+GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 186 bits (473),  Expect = 7e-61, Method: Compositional matrix adjust.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|P67377|CRGA_MYCBO Cell division protein CrgA OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=crgA 
+PE=3 SV=1
+Length=93
+
+ Score = 186 bits (473),  Expect = 7e-61, Method: Compositional matrix adjust.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|Q744R9|CRGA_MYCPA Cell division protein CrgA OS=Mycobacterium 
+paratuberculosis (strain ATCC BAA-968 / K-10) OX=262316 
+GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 183 bits (464),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 89/93 (96%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|A0Q8S8|CRGA_MYCA1 Cell division protein CrgA OS=Mycobacterium 
+avium (strain 104) OX=243243 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 183 bits (464),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 89/93 (96%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|A0PKC4|CRGA_MYCUA Cell division protein CrgA OS=Mycobacterium 
+ulcerans (strain Agy99) OX=362242 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 177 bits (449),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 86/93 (92%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTV  VSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVKPVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           P ALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PAALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|B2HI58|CRGA_MYCMM Cell division protein CrgA OS=Mycobacterium 
+marinum (strain ATCC BAA-535 / M) OX=216594 GN=crgA PE=3 
+SV=1
+Length=93
+
+ Score = 177 bits (449),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 86/93 (92%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTV  VSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVKPVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           P ALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PAALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|Q9CDE7|CRGA_MYCLE Cell division protein CrgA OS=Mycobacterium 
+leprae (strain TN) OX=272631 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 176 bits (447),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 83/93 (89%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFT+++VSRTP+KVKVGPSSVWFV+LF+GLMLIGL+WLMVFQLAA+G+QA
+Sbjct  1   MPKSKVRKKNDFTITSVSRTPVKVKVGPSSVWFVTLFVGLMLIGLVWLMVFQLAALGTQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTAL+WMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALHWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|B8ZTP9|CRGA_MYCLB Cell division protein CrgA OS=Mycobacterium 
+leprae (strain Br4923) OX=561304 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 176 bits (447),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 83/93 (89%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFT+++VSRTP+KVKVGPSSVWFV+LF+GLMLIGL+WLMVFQLAA+G+QA
+Sbjct  1   MPKSKVRKKNDFTITSVSRTPVKVKVGPSSVWFVTLFVGLMLIGLVWLMVFQLAALGTQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTAL+WMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALHWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|Q1BG50|CRGA_MYCSS Cell division protein CrgA OS=Mycobacterium 
+sp. (strain MCS) OX=164756 GN=crgA PE=3 SV=1
+Length=94
+
+ Score = 153 bits (387),  Expect = 9e-48, Method: Compositional matrix adjust.
+ Identities = 77/94 (82%), Positives = 82/94 (87%), Gaps = 1/94 (1%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGS-Q  59
+           MPKSKVRKKNDFT+S VSRTP+KVK GPSSVWFV+LF+GLMLIGLIWL+VFQLAA     
+Sbjct  1   MPKSKVRKKNDFTISPVSRTPVKVKAGPSSVWFVALFVGLMLIGLIWLLVFQLAATNPVD  60
+
+Query  60  APTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           AP  L WMA LGPWNYAIAFAFMITGLLLTMRW 
+Sbjct  61  APGMLQWMADLGPWNYAIAFAFMITGLLLTMRWR  94
+
+
+> sp|A1U8T1|CRGA_MYCSK Cell division protein CrgA OS=Mycobacterium 
+sp. (strain KMS) OX=189918 GN=crgA PE=3 SV=1
+Length=94
+
+ Score = 153 bits (387),  Expect = 9e-48, Method: Compositional matrix adjust.
+ Identities = 77/94 (82%), Positives = 82/94 (87%), Gaps = 1/94 (1%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGS-Q  59
+           MPKSKVRKKNDFT+S VSRTP+KVK GPSSVWFV+LF+GLMLIGLIWL+VFQLAA     
+Sbjct  1   MPKSKVRKKNDFTISPVSRTPVKVKAGPSSVWFVALFVGLMLIGLIWLLVFQLAATNPVD  60
+
+Query  60  APTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           AP  L WMA LGPWNYAIAFAFMITGLLLTMRW 
+Sbjct  61  APGMLQWMADLGPWNYAIAFAFMITGLLLTMRWR  94
+
+
+> sp|A3PSE8|CRGA_MYCSJ Cell division protein CrgA OS=Mycobacterium 
+sp. (strain JLS) OX=164757 GN=crgA PE=3 SV=1
+Length=94
+
+ Score = 153 bits (387),  Expect = 9e-48, Method: Compositional matrix adjust.
+ Identities = 77/94 (82%), Positives = 82/94 (87%), Gaps = 1/94 (1%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGS-Q  59
+           MPKSKVRKKNDFT+S VSRTP+KVK GPSSVWFV+LF+GLMLIGLIWL+VFQLAA     
+Sbjct  1   MPKSKVRKKNDFTISPVSRTPVKVKAGPSSVWFVALFVGLMLIGLIWLLVFQLAATNPVD  60
+
+Query  60  APTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           AP  L WMA LGPWNYAIAFAFMITGLLLTMRW 
+Sbjct  61  APGMLQWMADLGPWNYAIAFAFMITGLLLTMRWR  94
+
+
+> sp|A4Q9X1|CRGA_CORGB Cell division protein CrgA OS=Corynebacterium 
+glutamicum (strain R) OX=340322 GN=crgA PE=3 SV=1
+Length=90
+
+ Score = 69.3 bits (168),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 39/96 (41%), Positives = 55/96 (57%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKNDFTVSA---VSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPK++V K     VS+    +RTP+K+    + +W+  +    M++GL WL+V  L  +G
+Sbjct  1   MPKARVTKNETAPVSSNPSANRTPVKINSAGTPMWYKVIMFAFMIVGLAWLIVNYL--VG  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+            Q P    +MA LG WNY I F  MI GLL+TM W 
+Sbjct  59  PQIP----FMADLGAWNYGIGFGLMIIGLLMTMGWR  90
+
+
+> sp|Q8NU99|CRGA_CORGL Cell division protein CrgA OS=Corynebacterium 
+glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / 
+LMG 3730 / NCIMB 10025) OX=196627 GN=crgA PE=3 SV=1
+Length=90
+
+ Score = 68.9 bits (167),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 38/96 (40%), Positives = 55/96 (57%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKNDFTVSA---VSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPK++V K     VS+    +RTP+K+    + +W+  +    M++GL WL++  L  +G
+Sbjct  1   MPKARVTKNETAPVSSNPSANRTPVKINSAGTPMWYKVIMFAFMIVGLAWLIINYL--VG  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+            Q P    +MA LG WNY I F  MI GLL+TM W 
+Sbjct  59  PQIP----FMADLGAWNYGIGFGLMIIGLLMTMGWR  90
+
+
+> sp|Q8FUI7|CRGA_COREF Cell division protein CrgA OS=Corynebacterium 
+efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 
+11189 / NBRC 100395) OX=196164 GN=crgA PE=3 SV=2
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 37/96 (39%), Positives = 55/96 (57%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKNDFTVSA---VSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPK+KV K +   VS+    +RTP+K+    + +W+  +    ML+GL+WL+   L  +G
+Sbjct  1   MPKAKVTKNSIAPVSSNPSANRTPVKINSTGTPMWYKVIMFAFMLVGLLWLVANYL--VG  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+            Q P    +M +L  WNY I F  +I GLL+TM W 
+Sbjct  59  PQIP----FMNELDAWNYGIGFGLLIIGLLMTMGWR  90
+
+
+> sp|B1VE23|CRGA_CORU7 Cell division protein CrgA OS=Corynebacterium 
+urealyticum (strain ATCC 43042 / DSM 7109) OX=504474 GN=crgA 
+PE=3 SV=1
+Length=92
+
+ Score = 54.3 bits (129),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 40/98 (41%), Positives = 56/98 (57%), Gaps = 11/98 (11%)
+
+Query  1   MPKSKVRK-KNDFTVSAVS----RTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAA  55
+           MPKSK+   + +F  SA +    RTP+K+    +  W++ + +GLML+GL WL+V  +A 
+Sbjct  1   MPKSKINSPEENFDSSAAAGVDRRTPVKLNASGTPRWYIVIMLGLMLLGLAWLVVNYIAG  60
+
+Query  56  IGSQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                  A+  M  LGPWNY I F   I GLL+TM W 
+Sbjct  61  ------PAIPLMVTLGPWNYLIGFGLFIVGLLMTMGWK  92
+
+
+> sp|C3PE99|CRGA_CORA7 Cell division protein CrgA OS=Corynebacterium 
+aurimucosum (strain ATCC 700975 / DSM 44827 / CN-1) OX=548476 
+GN=crgA PE=3 SV=1
+Length=91
+
+ Score = 54.3 bits (129),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 39/97 (40%), Positives = 59/97 (61%), Gaps = 10/97 (10%)
+
+Query  1   MPKSKVRKKN----DFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAI  56
+           MPKSK+  +       + SA +RTP+K+    +  W++++ +GLML+GL+WL+V  LA  
+Sbjct  1   MPKSKITTEGSALPQSSSSATNRTPVKINSEGTPKWYIAIMLGLMLLGLLWLVVNYLAG-  59
+
+Query  57  GSQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 ++ +M +LGPWNY I F   I GLL+TM W 
+Sbjct  60  -----ESIPFMQELGPWNYGIGFGLAIIGLLMTMGWR  91
+
+
+> sp|Q8G6P5|CRGA_BIFLO Cell division protein CrgA OS=Bifidobacterium 
+longum (strain NCC 2705) OX=206672 GN=crgA PE=3 SV=2
+Length=103
+
+ Score = 53.1 bits (126),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 32/91 (35%), Positives = 44/91 (48%), Gaps = 10/91 (11%)
+
+Query  4    SKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQAPTA  63
+             ++  +       V  T    K  P   WFV LF  LM+IGLIW +V+ L+  GS     
+Sbjct  22   QRMMNRQAENTKRVEETIKGTKSNPR--WFVPLFCALMIIGLIWCVVYYLSPSGS-----  74
+
+Query  64   LNW-MAQLGPWNYAIAFAFMITGLLLTMRWH  93
+              W +  +G WN  I FA ++ G L+TM W 
+Sbjct  75   --WPIPNIGAWNLGIGFALIMIGFLMTMGWR  103
+
+
+> sp|Q93JL8|CRGA_STRAW Cell division protein CrgA OS=Streptomyces 
+avermitilis (strain ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 
+14893 / NCIMB 12804 / NRRL 8165 / MA-4680) OX=227882 GN=crgA 
+PE=3 SV=1
+Length=84
+
+ Score = 48.9 bits (115),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 31/93 (33%), Positives = 49/93 (53%), Gaps = 9/93 (10%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKS++RKK D+T    S+    +K+G S  W   + + + LIGL W++VF +   GS  
+Sbjct  1   MPKSRIRKKADYTPPP-SKQATNIKLG-SRGWVAPVMLAMFLIGLAWIVVFYVTD-GSLP  57
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+             AL+       WN  + F F+  G  ++ +W 
+Sbjct  58  IDALD------NWNIVVGFGFIAAGFGVSTQWK  84
+
+
+> sp|Q4JYC3|CRGA_CORJK Cell division protein CrgA OS=Corynebacterium 
+jeikeium (strain K411) OX=306537 GN=crgA PE=3 SV=1
+Length=90
+
+ Score = 46.2 bits (108),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 40/96 (42%), Positives = 55/96 (57%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKND---FTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPKSKV    +    + SA  RTP+K+    +  W++ L + LML+GL WL+V  +A  G
+Sbjct  1   MPKSKVNSAEENYSSSSSADRRTPVKLNSSGTPRWYIVLMLALMLLGLAWLVVNYIA--G  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+            + P    +M  L  WNY I FA +I GLL+TM W 
+Sbjct  59  PEIP----FMRDLNAWNYLIGFALLIVGLLMTMGWK  90
+
+
+> sp|Q9XA10|CRGA_STRCO Cell division protein CrgA OS=Streptomyces 
+coelicolor (strain ATCC BAA-471 / A3(2) / M145) OX=100226 
+GN=crgA PE=1 SV=1
+Length=84
+
+ Score = 45.8 bits (107),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 29/93 (31%), Positives = 48/93 (52%), Gaps = 9/93 (10%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKS++RKK D+T    S+    +K+  S  W   + + + +IGL W++VF +   GS  
+Sbjct  1   MPKSRIRKKADYTPPP-SKQATSIKL-TSRGWVAPVMLAMFVIGLAWIVVFYVTD-GSLP  57
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 +  LG WN  + F F+  G  ++ +W 
+Sbjct  58  ------IDSLGNWNIVVGFGFIAAGFGVSTQWK  84
+
+
+> sp|P67378|CRGA_TROWT Cell division protein CrgA OS=Tropheryma 
+whipplei (strain Twist) OX=203267 GN=crgA PE=3 SV=1
+Length=69
+
+ Score = 35.4 bits (80),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 32/64 (50%), Gaps = 7/64 (11%)
+
+Query  29  SSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQAPTALNWMAQLGPWNYAIAFAFMITGLLL  88
+           + VWF ++  GLM  G +W+++F ++      P        +G WN  IAF  ++ G  +
+Sbjct  12  NPVWFPTIMFGLMGTGAVWMVLFYISNGALPLPA-------VGTWNILIAFGIIMAGFAM  64
+
+Query  89  TMRW  92
+             RW
+Sbjct  65  MSRW  68
+
+
+> sp|P67379|CRGA_TROW8 Cell division protein CrgA OS=Tropheryma 
+whipplei (strain TW08/27) OX=218496 GN=crgA PE=3 SV=1
+Length=69
+
+ Score = 35.4 bits (80),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 32/64 (50%), Gaps = 7/64 (11%)
+
+Query  29  SSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQAPTALNWMAQLGPWNYAIAFAFMITGLLL  88
+           + VWF ++  GLM  G +W+++F ++      P        +G WN  IAF  ++ G  +
+Sbjct  12  NPVWFPTIMFGLMGTGAVWMVLFYISNGALPLPA-------VGTWNILIAFGIIMAGFAM  64
+
+Query  89  TMRW  92
+             RW
+Sbjct  65  MSRW  68
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.136    0.448    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4937168370
+Results from round 2
+
+
+Query= P9WP56|2mmuA
+
+Length=93
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q744R9|CRGA_MYCPA Cell division protein CrgA OS=Mycobacteriu...  120     9e-35
+  sp|A0Q8S8|CRGA_MYCA1 Cell division protein CrgA OS=Mycobacteriu...  120     9e-35
+  sp|A0PKC4|CRGA_MYCUA Cell division protein CrgA OS=Mycobacteriu...  119     1e-34
+  sp|B2HI58|CRGA_MYCMM Cell division protein CrgA OS=Mycobacteriu...  119     1e-34
+  sp|Q9CDE7|CRGA_MYCLE Cell division protein CrgA OS=Mycobacteriu...  119     3e-34
+  sp|B8ZTP9|CRGA_MYCLB Cell division protein CrgA OS=Mycobacteriu...  119     3e-34
+  sp|P9WP57|CRGA_MYCTU Cell division protein CrgA OS=Mycobacteriu...  118     4e-34
+  sp|P9WP56|CRGA_MYCTO Cell division protein CrgA OS=Mycobacteriu...  118     4e-34
+  sp|A5TY81|CRGA_MYCTA Cell division protein CrgA OS=Mycobacteriu...  118     4e-34
+  sp|C1AJ08|CRGA_MYCBT Cell division protein CrgA OS=Mycobacteriu...  118     4e-34
+  sp|P67377|CRGA_MYCBO Cell division protein CrgA OS=Mycobacteriu...  118     4e-34
+  sp|Q1BG50|CRGA_MYCSS Cell division protein CrgA OS=Mycobacteriu...  113     3e-32
+  sp|A1U8T1|CRGA_MYCSK Cell division protein CrgA OS=Mycobacteriu...  113     3e-32
+  sp|A3PSE8|CRGA_MYCSJ Cell division protein CrgA OS=Mycobacteriu...  113     3e-32
+  sp|A4Q9X1|CRGA_CORGB Cell division protein CrgA OS=Corynebacter...  96.3    2e-25
+  sp|Q8NU99|CRGA_CORGL Cell division protein CrgA OS=Corynebacter...  95.6    3e-25
+  sp|Q8FUI7|CRGA_COREF Cell division protein CrgA OS=Corynebacter...  92.9    4e-24
+  sp|Q8G6P5|CRGA_BIFLO Cell division protein CrgA OS=Bifidobacter...  87.1    1e-21
+  sp|Q93JL8|CRGA_STRAW Cell division protein CrgA OS=Streptomyces...  85.9    2e-21
+  sp|Q9XA10|CRGA_STRCO Cell division protein CrgA OS=Streptomyces...  84.4    6e-21
+  sp|C3PE99|CRGA_CORA7 Cell division protein CrgA OS=Corynebacter...  81.3    1e-19
+  sp|B1VE23|CRGA_CORU7 Cell division protein CrgA OS=Corynebacter...  79.8    5e-19
+  sp|Q4JYC3|CRGA_CORJK Cell division protein CrgA OS=Corynebacter...  78.6    1e-18
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P67378|CRGA_TROWT Cell division protein CrgA OS=Tropheryma w...  46.3    1e-06
+  sp|P67379|CRGA_TROW8 Cell division protein CrgA OS=Tropheryma w...  46.3    1e-06
+
+
+> sp|Q744R9|CRGA_MYCPA Cell division protein CrgA OS=Mycobacterium 
+paratuberculosis (strain ATCC BAA-968 / K-10) OX=262316 
+GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 120 bits (300),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 89/93 (96%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|A0Q8S8|CRGA_MYCA1 Cell division protein CrgA OS=Mycobacterium 
+avium (strain 104) OX=243243 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 120 bits (300),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 89/93 (96%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|A0PKC4|CRGA_MYCUA Cell division protein CrgA OS=Mycobacterium 
+ulcerans (strain Agy99) OX=362242 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 119 bits (299),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 86/93 (92%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTV  VSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVKPVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           P ALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PAALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|B2HI58|CRGA_MYCMM Cell division protein CrgA OS=Mycobacterium 
+marinum (strain ATCC BAA-535 / M) OX=216594 GN=crgA PE=3 
+SV=1
+Length=93
+
+ Score = 119 bits (299),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 86/93 (92%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTV  VSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVKPVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           P ALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PAALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|Q9CDE7|CRGA_MYCLE Cell division protein CrgA OS=Mycobacterium 
+leprae (strain TN) OX=272631 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 119 bits (297),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 83/93 (89%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFT+++VSRTP+KVKVGPSSVWFV+LF+GLMLIGL+WLMVFQLAA+G+QA
+Sbjct  1   MPKSKVRKKNDFTITSVSRTPVKVKVGPSSVWFVTLFVGLMLIGLVWLMVFQLAALGTQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTAL+WMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALHWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|B8ZTP9|CRGA_MYCLB Cell division protein CrgA OS=Mycobacterium 
+leprae (strain Br4923) OX=561304 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 119 bits (297),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 83/93 (89%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFT+++VSRTP+KVKVGPSSVWFV+LF+GLMLIGL+WLMVFQLAA+G+QA
+Sbjct  1   MPKSKVRKKNDFTITSVSRTPVKVKVGPSSVWFVTLFVGLMLIGLVWLMVFQLAALGTQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTAL+WMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALHWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|P9WP57|CRGA_MYCTU Cell division protein CrgA OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=crgA 
+PE=1 SV=1
+Length=93
+
+ Score = 118 bits (296),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|P9WP56|CRGA_MYCTO Cell division protein CrgA OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=crgA 
+PE=3 SV=1
+Length=93
+
+ Score = 118 bits (296),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|A5TY81|CRGA_MYCTA Cell division protein CrgA OS=Mycobacterium 
+tuberculosis (strain ATCC 25177 / H37Ra) OX=419947 GN=crgA 
+PE=3 SV=1
+Length=93
+
+ Score = 118 bits (296),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|C1AJ08|CRGA_MYCBT Cell division protein CrgA OS=Mycobacterium 
+bovis (strain BCG / Tokyo 172 / ATCC 35737 / TMC 1019) OX=561275 
+GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 118 bits (296),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|P67377|CRGA_MYCBO Cell division protein CrgA OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=crgA 
+PE=3 SV=1
+Length=93
+
+ Score = 118 bits (296),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|Q1BG50|CRGA_MYCSS Cell division protein CrgA OS=Mycobacterium 
+sp. (strain MCS) OX=164756 GN=crgA PE=3 SV=1
+Length=94
+
+ Score = 113 bits (283),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 77/94 (82%), Positives = 82/94 (87%), Gaps = 1/94 (1%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGS-Q  59
+           MPKSKVRKKNDFT+S VSRTP+KVK GPSSVWFV+LF+GLMLIGLIWL+VFQLAA     
+Sbjct  1   MPKSKVRKKNDFTISPVSRTPVKVKAGPSSVWFVALFVGLMLIGLIWLLVFQLAATNPVD  60
+
+Query  60  APTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           AP  L WMA LGPWNYAIAFAFMITGLLLTMRW 
+Sbjct  61  APGMLQWMADLGPWNYAIAFAFMITGLLLTMRWR  94
+
+
+> sp|A1U8T1|CRGA_MYCSK Cell division protein CrgA OS=Mycobacterium 
+sp. (strain KMS) OX=189918 GN=crgA PE=3 SV=1
+Length=94
+
+ Score = 113 bits (283),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 77/94 (82%), Positives = 82/94 (87%), Gaps = 1/94 (1%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGS-Q  59
+           MPKSKVRKKNDFT+S VSRTP+KVK GPSSVWFV+LF+GLMLIGLIWL+VFQLAA     
+Sbjct  1   MPKSKVRKKNDFTISPVSRTPVKVKAGPSSVWFVALFVGLMLIGLIWLLVFQLAATNPVD  60
+
+Query  60  APTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           AP  L WMA LGPWNYAIAFAFMITGLLLTMRW 
+Sbjct  61  APGMLQWMADLGPWNYAIAFAFMITGLLLTMRWR  94
+
+
+> sp|A3PSE8|CRGA_MYCSJ Cell division protein CrgA OS=Mycobacterium 
+sp. (strain JLS) OX=164757 GN=crgA PE=3 SV=1
+Length=94
+
+ Score = 113 bits (283),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 77/94 (82%), Positives = 82/94 (87%), Gaps = 1/94 (1%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGS-Q  59
+           MPKSKVRKKNDFT+S VSRTP+KVK GPSSVWFV+LF+GLMLIGLIWL+VFQLAA     
+Sbjct  1   MPKSKVRKKNDFTISPVSRTPVKVKAGPSSVWFVALFVGLMLIGLIWLLVFQLAATNPVD  60
+
+Query  60  APTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           AP  L WMA LGPWNYAIAFAFMITGLLLTMRW 
+Sbjct  61  APGMLQWMADLGPWNYAIAFAFMITGLLLTMRWR  94
+
+
+> sp|A4Q9X1|CRGA_CORGB Cell division protein CrgA OS=Corynebacterium 
+glutamicum (strain R) OX=340322 GN=crgA PE=3 SV=1
+Length=90
+
+ Score = 96.3 bits (238),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 35/96 (36%), Positives = 51/96 (53%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKNDFTV---SAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPK++V K     V    + +RTP+K+    + +W+  +    M++GL WL+V  L    
+Sbjct  1   MPKARVTKNETAPVSSNPSANRTPVKINSAGTPMWYKVIMFAFMIVGLAWLIVNYLVG--  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 + +MA LG WNY I F  MI GLL+TM W 
+Sbjct  59  ----PQIPFMADLGAWNYGIGFGLMIIGLLMTMGWR  90
+
+
+> sp|Q8NU99|CRGA_CORGL Cell division protein CrgA OS=Corynebacterium 
+glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / 
+LMG 3730 / NCIMB 10025) OX=196627 GN=crgA PE=3 SV=1
+Length=90
+
+ Score = 95.6 bits (236),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 34/96 (35%), Positives = 51/96 (53%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKNDFTV---SAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPK++V K     V    + +RTP+K+    + +W+  +    M++GL WL++  L    
+Sbjct  1   MPKARVTKNETAPVSSNPSANRTPVKINSAGTPMWYKVIMFAFMIVGLAWLIINYLVG--  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 + +MA LG WNY I F  MI GLL+TM W 
+Sbjct  59  ----PQIPFMADLGAWNYGIGFGLMIIGLLMTMGWR  90
+
+
+> sp|Q8FUI7|CRGA_COREF Cell division protein CrgA OS=Corynebacterium 
+efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 
+11189 / NBRC 100395) OX=196164 GN=crgA PE=3 SV=2
+Length=90
+
+ Score = 92.9 bits (229),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 33/96 (34%), Positives = 51/96 (53%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKNDFTV---SAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPK+KV K +   V    + +RTP+K+    + +W+  +    ML+GL+WL+   L    
+Sbjct  1   MPKAKVTKNSIAPVSSNPSANRTPVKINSTGTPMWYKVIMFAFMLVGLLWLVANYLVG--  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 + +M +L  WNY I F  +I GLL+TM W 
+Sbjct  59  ----PQIPFMNELDAWNYGIGFGLLIIGLLMTMGWR  90
+
+
+> sp|Q8G6P5|CRGA_BIFLO Cell division protein CrgA OS=Bifidobacterium 
+longum (strain NCC 2705) OX=206672 GN=crgA PE=3 SV=2
+Length=103
+
+ Score = 87.1 bits (214),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 31/90 (34%), Positives = 43/90 (48%), Gaps = 8/90 (9%)
+
+Query  4    SKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQAPTA  63
+             ++  +       V  T    K  P   WFV LF  LM+IGLIW +V+ L+  GS     
+Sbjct  22   QRMMNRQAENTKRVEETIKGTKSNP--RWFVPLFCALMIIGLIWCVVYYLSPSGSWP---  76
+
+Query  64   LNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+               +  +G WN  I FA ++ G L+TM W 
+Sbjct  77   ---IPNIGAWNLGIGFALIMIGFLMTMGWR  103
+
+
+> sp|Q93JL8|CRGA_STRAW Cell division protein CrgA OS=Streptomyces 
+avermitilis (strain ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 
+14893 / NCIMB 12804 / NRRL 8165 / MA-4680) OX=227882 GN=crgA 
+PE=3 SV=1
+Length=84
+
+ Score = 85.9 bits (211),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 31/93 (33%), Positives = 48/93 (52%), Gaps = 9/93 (10%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKS++RKK D+T    S+    +K+G S  W   + + + LIGL W++VF +   GS  
+Sbjct  1   MPKSRIRKKADYTPPP-SKQATNIKLG-SRGWVAPVMLAMFLIGLAWIVVFYVTD-GSLP  57
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+             A      L  WN  + F F+  G  ++ +W 
+Sbjct  58  IDA------LDNWNIVVGFGFIAAGFGVSTQWK  84
+
+
+> sp|Q9XA10|CRGA_STRCO Cell division protein CrgA OS=Streptomyces 
+coelicolor (strain ATCC BAA-471 / A3(2) / M145) OX=100226 
+GN=crgA PE=1 SV=1
+Length=84
+
+ Score = 84.4 bits (207),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 29/93 (31%), Positives = 48/93 (52%), Gaps = 9/93 (10%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKS++RKK D+T    S+    +K+  S  W   + + + +IGL W++VF +   GS  
+Sbjct  1   MPKSRIRKKADYTPPP-SKQATSIKLT-SRGWVAPVMLAMFVIGLAWIVVFYVTD-GSLP  57
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 +  LG WN  + F F+  G  ++ +W 
+Sbjct  58  ------IDSLGNWNIVVGFGFIAAGFGVSTQWK  84
+
+
+> sp|C3PE99|CRGA_CORA7 Cell division protein CrgA OS=Corynebacterium 
+aurimucosum (strain ATCC 700975 / DSM 44827 / CN-1) OX=548476 
+GN=crgA PE=3 SV=1
+Length=91
+
+ Score = 81.3 bits (199),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 39/97 (40%), Positives = 59/97 (61%), Gaps = 10/97 (10%)
+
+Query  1   MPKSKVRKKN----DFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAI  56
+           MPKSK+  +       + SA +RTP+K+    +  W++++ +GLML+GL+WL+V  LA  
+Sbjct  1   MPKSKITTEGSALPQSSSSATNRTPVKINSEGTPKWYIAIMLGLMLLGLLWLVVNYLAG-  59
+
+Query  57  GSQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 ++ +M +LGPWNY I F   I GLL+TM W 
+Sbjct  60  -----ESIPFMQELGPWNYGIGFGLAIIGLLMTMGWR  91
+
+
+> sp|B1VE23|CRGA_CORU7 Cell division protein CrgA OS=Corynebacterium 
+urealyticum (strain ATCC 43042 / DSM 7109) OX=504474 GN=crgA 
+PE=3 SV=1
+Length=92
+
+ Score = 79.8 bits (195),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 40/98 (41%), Positives = 56/98 (57%), Gaps = 11/98 (11%)
+
+Query  1   MPKSKVRK-KNDFTVSAVS----RTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAA  55
+           MPKSK+   + +F  SA +    RTP+K+    +  W++ + +GLML+GL WL+V  +A 
+Sbjct  1   MPKSKINSPEENFDSSAAAGVDRRTPVKLNASGTPRWYIVIMLGLMLLGLAWLVVNYIAG  60
+
+Query  56  IGSQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                  A+  M  LGPWNY I F   I GLL+TM W 
+Sbjct  61  ------PAIPLMVTLGPWNYLIGFGLFIVGLLMTMGWK  92
+
+
+> sp|Q4JYC3|CRGA_CORJK Cell division protein CrgA OS=Corynebacterium 
+jeikeium (strain K411) OX=306537 GN=crgA PE=3 SV=1
+Length=90
+
+ Score = 78.6 bits (192),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 38/96 (40%), Positives = 53/96 (55%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKND---FTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPKSKV    +    + SA  RTP+K+    +  W++ L + LML+GL WL+V  +A   
+Sbjct  1   MPKSKVNSAEENYSSSSSADRRTPVKLNSSGTPRWYIVLMLALMLLGLAWLVVNYIAG--  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 + +M  L  WNY I FA +I GLL+TM W 
+Sbjct  59  ----PEIPFMRDLNAWNYLIGFALLIVGLLMTMGWK  90
+
+
+> sp|P67378|CRGA_TROWT Cell division protein CrgA OS=Tropheryma 
+whipplei (strain Twist) OX=203267 GN=crgA PE=3 SV=1
+Length=69
+
+ Score = 46.3 bits (108),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 19/68 (28%), Positives = 32/68 (47%), Gaps = 7/68 (10%)
+
+Query  26  VGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQAPTALNWMAQLGPWNYAIAFAFMITG  85
+              + VWF ++  GLM  G +W+++F ++      P        +G WN  IAF  ++ G
+Sbjct  9   SENNPVWFPTIMFGLMGTGAVWMVLFYISNGALPLPA-------VGTWNILIAFGIIMAG  61
+
+Query  86  LLLTMRWH  93
+             +  RW 
+Sbjct  62  FAMMSRWK  69
+
+
+> sp|P67379|CRGA_TROW8 Cell division protein CrgA OS=Tropheryma 
+whipplei (strain TW08/27) OX=218496 GN=crgA PE=3 SV=1
+Length=69
+
+ Score = 46.3 bits (108),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 19/68 (28%), Positives = 32/68 (47%), Gaps = 7/68 (10%)
+
+Query  26  VGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQAPTALNWMAQLGPWNYAIAFAFMITG  85
+              + VWF ++  GLM  G +W+++F ++      P        +G WN  IAF  ++ G
+Sbjct  9   SENNPVWFPTIMFGLMGTGAVWMVLFYISNGALPLPA-------VGTWNILIAFGIIMAG  61
+
+Query  86  LLLTMRWH  93
+             +  RW 
+Sbjct  62  FAMMSRWK  69
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.129    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0392    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4937168370
+Results from round 3
+
+
+Query= P9WP56|2mmuA
+
+Length=93
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q744R9|CRGA_MYCPA Cell division protein CrgA OS=Mycobacteriu...  114     2e-32
+  sp|A0Q8S8|CRGA_MYCA1 Cell division protein CrgA OS=Mycobacteriu...  114     2e-32
+  sp|A0PKC4|CRGA_MYCUA Cell division protein CrgA OS=Mycobacteriu...  114     2e-32
+  sp|B2HI58|CRGA_MYCMM Cell division protein CrgA OS=Mycobacteriu...  114     2e-32
+  sp|Q9CDE7|CRGA_MYCLE Cell division protein CrgA OS=Mycobacteriu...  114     2e-32
+  sp|B8ZTP9|CRGA_MYCLB Cell division protein CrgA OS=Mycobacteriu...  114     2e-32
+  sp|P9WP57|CRGA_MYCTU Cell division protein CrgA OS=Mycobacteriu...  113     6e-32
+  sp|P9WP56|CRGA_MYCTO Cell division protein CrgA OS=Mycobacteriu...  113     6e-32
+  sp|A5TY81|CRGA_MYCTA Cell division protein CrgA OS=Mycobacteriu...  113     6e-32
+  sp|C1AJ08|CRGA_MYCBT Cell division protein CrgA OS=Mycobacteriu...  113     6e-32
+  sp|P67377|CRGA_MYCBO Cell division protein CrgA OS=Mycobacteriu...  113     6e-32
+  sp|Q1BG50|CRGA_MYCSS Cell division protein CrgA OS=Mycobacteriu...  108     5e-30
+  sp|A1U8T1|CRGA_MYCSK Cell division protein CrgA OS=Mycobacteriu...  108     5e-30
+  sp|A3PSE8|CRGA_MYCSJ Cell division protein CrgA OS=Mycobacteriu...  108     5e-30
+  sp|A4Q9X1|CRGA_CORGB Cell division protein CrgA OS=Corynebacter...  93.7    2e-24
+  sp|Q8NU99|CRGA_CORGL Cell division protein CrgA OS=Corynebacter...  93.3    3e-24
+  sp|Q8FUI7|CRGA_COREF Cell division protein CrgA OS=Corynebacter...  91.3    2e-23
+  sp|Q8G6P5|CRGA_BIFLO Cell division protein CrgA OS=Bifidobacter...  84.0    1e-20
+  sp|Q93JL8|CRGA_STRAW Cell division protein CrgA OS=Streptomyces...  83.3    2e-20
+  sp|Q9XA10|CRGA_STRCO Cell division protein CrgA OS=Streptomyces...  82.1    5e-20
+  sp|C3PE99|CRGA_CORA7 Cell division protein CrgA OS=Corynebacter...  77.9    2e-18
+  sp|B1VE23|CRGA_CORU7 Cell division protein CrgA OS=Corynebacter...  77.5    4e-18
+  sp|Q4JYC3|CRGA_CORJK Cell division protein CrgA OS=Corynebacter...  77.1    5e-18
+  sp|P67378|CRGA_TROWT Cell division protein CrgA OS=Tropheryma w...  60.9    4e-12
+  sp|P67379|CRGA_TROW8 Cell division protein CrgA OS=Tropheryma w...  60.9    4e-12
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q744R9|CRGA_MYCPA Cell division protein CrgA OS=Mycobacterium 
+paratuberculosis (strain ATCC BAA-968 / K-10) OX=262316 
+GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 114 bits (285),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 89/93 (96%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|A0Q8S8|CRGA_MYCA1 Cell division protein CrgA OS=Mycobacterium 
+avium (strain 104) OX=243243 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 114 bits (285),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 89/93 (96%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|A0PKC4|CRGA_MYCUA Cell division protein CrgA OS=Mycobacterium 
+ulcerans (strain Agy99) OX=362242 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 114 bits (285),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 86/93 (92%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTV  VSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVKPVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           P ALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PAALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|B2HI58|CRGA_MYCMM Cell division protein CrgA OS=Mycobacterium 
+marinum (strain ATCC BAA-535 / M) OX=216594 GN=crgA PE=3 
+SV=1
+Length=93
+
+ Score = 114 bits (285),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 86/93 (92%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTV  VSRTP+KVKVGPSSVWFV+LFIGLMLIGL+WLMVFQLAA+GSQA
+Sbjct  1   MPKSKVRKKNDFTVKPVSRTPVKVKVGPSSVWFVALFIGLMLIGLVWLMVFQLAAVGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           P ALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PAALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|Q9CDE7|CRGA_MYCLE Cell division protein CrgA OS=Mycobacterium 
+leprae (strain TN) OX=272631 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 114 bits (285),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 83/93 (89%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFT+++VSRTP+KVKVGPSSVWFV+LF+GLMLIGL+WLMVFQLAA+G+QA
+Sbjct  1   MPKSKVRKKNDFTITSVSRTPVKVKVGPSSVWFVTLFVGLMLIGLVWLMVFQLAALGTQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTAL+WMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALHWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|B8ZTP9|CRGA_MYCLB Cell division protein CrgA OS=Mycobacterium 
+leprae (strain Br4923) OX=561304 GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 114 bits (285),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 83/93 (89%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFT+++VSRTP+KVKVGPSSVWFV+LF+GLMLIGL+WLMVFQLAA+G+QA
+Sbjct  1   MPKSKVRKKNDFTITSVSRTPVKVKVGPSSVWFVTLFVGLMLIGLVWLMVFQLAALGTQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTAL+WMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALHWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|P9WP57|CRGA_MYCTU Cell division protein CrgA OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=crgA 
+PE=1 SV=1
+Length=93
+
+ Score = 113 bits (282),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|P9WP56|CRGA_MYCTO Cell division protein CrgA OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=crgA 
+PE=3 SV=1
+Length=93
+
+ Score = 113 bits (282),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|A5TY81|CRGA_MYCTA Cell division protein CrgA OS=Mycobacterium 
+tuberculosis (strain ATCC 25177 / H37Ra) OX=419947 GN=crgA 
+PE=3 SV=1
+Length=93
+
+ Score = 113 bits (282),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|C1AJ08|CRGA_MYCBT Cell division protein CrgA OS=Mycobacterium 
+bovis (strain BCG / Tokyo 172 / ATCC 35737 / TMC 1019) OX=561275 
+GN=crgA PE=3 SV=1
+Length=93
+
+ Score = 113 bits (282),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|P67377|CRGA_MYCBO Cell division protein CrgA OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=crgA 
+PE=3 SV=1
+Length=93
+
+ Score = 113 bits (282),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA
+Sbjct  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH
+Sbjct  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+
+
+> sp|Q1BG50|CRGA_MYCSS Cell division protein CrgA OS=Mycobacterium 
+sp. (strain MCS) OX=164756 GN=crgA PE=3 SV=1
+Length=94
+
+ Score = 108 bits (269),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 77/94 (82%), Positives = 82/94 (87%), Gaps = 1/94 (1%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGS-Q  59
+           MPKSKVRKKNDFT+S VSRTP+KVK GPSSVWFV+LF+GLMLIGLIWL+VFQLAA     
+Sbjct  1   MPKSKVRKKNDFTISPVSRTPVKVKAGPSSVWFVALFVGLMLIGLIWLLVFQLAATNPVD  60
+
+Query  60  APTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           AP  L WMA LGPWNYAIAFAFMITGLLLTMRW 
+Sbjct  61  APGMLQWMADLGPWNYAIAFAFMITGLLLTMRWR  94
+
+
+> sp|A1U8T1|CRGA_MYCSK Cell division protein CrgA OS=Mycobacterium 
+sp. (strain KMS) OX=189918 GN=crgA PE=3 SV=1
+Length=94
+
+ Score = 108 bits (269),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 77/94 (82%), Positives = 82/94 (87%), Gaps = 1/94 (1%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGS-Q  59
+           MPKSKVRKKNDFT+S VSRTP+KVK GPSSVWFV+LF+GLMLIGLIWL+VFQLAA     
+Sbjct  1   MPKSKVRKKNDFTISPVSRTPVKVKAGPSSVWFVALFVGLMLIGLIWLLVFQLAATNPVD  60
+
+Query  60  APTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           AP  L WMA LGPWNYAIAFAFMITGLLLTMRW 
+Sbjct  61  APGMLQWMADLGPWNYAIAFAFMITGLLLTMRWR  94
+
+
+> sp|A3PSE8|CRGA_MYCSJ Cell division protein CrgA OS=Mycobacterium 
+sp. (strain JLS) OX=164757 GN=crgA PE=3 SV=1
+Length=94
+
+ Score = 108 bits (269),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 77/94 (82%), Positives = 82/94 (87%), Gaps = 1/94 (1%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGS-Q  59
+           MPKSKVRKKNDFT+S VSRTP+KVK GPSSVWFV+LF+GLMLIGLIWL+VFQLAA     
+Sbjct  1   MPKSKVRKKNDFTISPVSRTPVKVKAGPSSVWFVALFVGLMLIGLIWLLVFQLAATNPVD  60
+
+Query  60  APTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+           AP  L WMA LGPWNYAIAFAFMITGLLLTMRW 
+Sbjct  61  APGMLQWMADLGPWNYAIAFAFMITGLLLTMRWR  94
+
+
+> sp|A4Q9X1|CRGA_CORGB Cell division protein CrgA OS=Corynebacterium 
+glutamicum (strain R) OX=340322 GN=crgA PE=3 SV=1
+Length=90
+
+ Score = 93.7 bits (231),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 35/96 (36%), Positives = 51/96 (53%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKNDFTV---SAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPK++V K     V    + +RTP+K+    + +W+  +    M++GL WL+V  L    
+Sbjct  1   MPKARVTKNETAPVSSNPSANRTPVKINSAGTPMWYKVIMFAFMIVGLAWLIVNYLVG--  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 + +MA LG WNY I F  MI GLL+TM W 
+Sbjct  59  ----PQIPFMADLGAWNYGIGFGLMIIGLLMTMGWR  90
+
+
+> sp|Q8NU99|CRGA_CORGL Cell division protein CrgA OS=Corynebacterium 
+glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / 
+LMG 3730 / NCIMB 10025) OX=196627 GN=crgA PE=3 SV=1
+Length=90
+
+ Score = 93.3 bits (230),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 34/96 (35%), Positives = 51/96 (53%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKNDFTV---SAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPK++V K     V    + +RTP+K+    + +W+  +    M++GL WL++  L    
+Sbjct  1   MPKARVTKNETAPVSSNPSANRTPVKINSAGTPMWYKVIMFAFMIVGLAWLIINYLVG--  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 + +MA LG WNY I F  MI GLL+TM W 
+Sbjct  59  ----PQIPFMADLGAWNYGIGFGLMIIGLLMTMGWR  90
+
+
+> sp|Q8FUI7|CRGA_COREF Cell division protein CrgA OS=Corynebacterium 
+efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 
+11189 / NBRC 100395) OX=196164 GN=crgA PE=3 SV=2
+Length=90
+
+ Score = 91.3 bits (225),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 33/96 (34%), Positives = 51/96 (53%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKNDFTV---SAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPK+KV K +   V    + +RTP+K+    + +W+  +    ML+GL+WL+   L    
+Sbjct  1   MPKAKVTKNSIAPVSSNPSANRTPVKINSTGTPMWYKVIMFAFMLVGLLWLVANYLVG--  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 + +M +L  WNY I F  +I GLL+TM W 
+Sbjct  59  ----PQIPFMNELDAWNYGIGFGLLIIGLLMTMGWR  90
+
+
+> sp|Q8G6P5|CRGA_BIFLO Cell division protein CrgA OS=Bifidobacterium 
+longum (strain NCC 2705) OX=206672 GN=crgA PE=3 SV=2
+Length=103
+
+ Score = 84.0 bits (206),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 30/90 (33%), Positives = 42/90 (47%), Gaps = 8/90 (9%)
+
+Query  4    SKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQAPTA  63
+             ++  +       V  T    K   +  WFV LF  LM+IGLIW +V+ L+  GS     
+Sbjct  22   QRMMNRQAENTKRVEETIKGTKS--NPRWFVPLFCALMIIGLIWCVVYYLSPSGSWPIP-  78
+
+Query  64   LNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                  +G WN  I FA ++ G L+TM W 
+Sbjct  79   -----NIGAWNLGIGFALIMIGFLMTMGWR  103
+
+
+> sp|Q93JL8|CRGA_STRAW Cell division protein CrgA OS=Streptomyces 
+avermitilis (strain ATCC 31267 / DSM 46492 / JCM 5070 / NBRC 
+14893 / NCIMB 12804 / NRRL 8165 / MA-4680) OX=227882 GN=crgA 
+PE=3 SV=1
+Length=84
+
+ Score = 83.3 bits (204),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 28/93 (30%), Positives = 46/93 (49%), Gaps = 9/93 (10%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKS++RKK D+T    S+    +K+G S  W   + + + LIGL W++VF +       
+Sbjct  1   MPKSRIRKKADYTPPP-SKQATNIKLG-SRGWVAPVMLAMFLIGLAWIVVFYVTDGSLP-  57
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 +  L  WN  + F F+  G  ++ +W 
+Sbjct  58  ------IDALDNWNIVVGFGFIAAGFGVSTQWK  84
+
+
+> sp|Q9XA10|CRGA_STRCO Cell division protein CrgA OS=Streptomyces 
+coelicolor (strain ATCC BAA-471 / A3(2) / M145) OX=100226 
+GN=crgA PE=1 SV=1
+Length=84
+
+ Score = 82.1 bits (201),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 27/93 (29%), Positives = 46/93 (49%), Gaps = 9/93 (10%)
+
+Query  1   MPKSKVRKKNDFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQA  60
+           MPKS++RKK D+T    S+    +K+  S  W   + + + +IGL W++VF +       
+Sbjct  1   MPKSRIRKKADYTPPP-SKQATSIKLT-SRGWVAPVMLAMFVIGLAWIVVFYVTDGSLP-  57
+
+Query  61  PTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 +  LG WN  + F F+  G  ++ +W 
+Sbjct  58  ------IDSLGNWNIVVGFGFIAAGFGVSTQWK  84
+
+
+> sp|C3PE99|CRGA_CORA7 Cell division protein CrgA OS=Corynebacterium 
+aurimucosum (strain ATCC 700975 / DSM 44827 / CN-1) OX=548476 
+GN=crgA PE=3 SV=1
+Length=91
+
+ Score = 77.9 bits (190),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 39/97 (40%), Positives = 59/97 (61%), Gaps = 10/97 (10%)
+
+Query  1   MPKSKVRKKN----DFTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAI  56
+           MPKSK+  +       + SA +RTP+K+    +  W++++ +GLML+GL+WL+V  LA  
+Sbjct  1   MPKSKITTEGSALPQSSSSATNRTPVKINSEGTPKWYIAIMLGLMLLGLLWLVVNYLAG-  59
+
+Query  57  GSQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 ++ +M +LGPWNY I F   I GLL+TM W 
+Sbjct  60  -----ESIPFMQELGPWNYGIGFGLAIIGLLMTMGWR  91
+
+
+> sp|B1VE23|CRGA_CORU7 Cell division protein CrgA OS=Corynebacterium 
+urealyticum (strain ATCC 43042 / DSM 7109) OX=504474 GN=crgA 
+PE=3 SV=1
+Length=92
+
+ Score = 77.5 bits (189),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 40/98 (41%), Positives = 56/98 (57%), Gaps = 11/98 (11%)
+
+Query  1   MPKSKVRK-KNDFTVSAVS----RTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAA  55
+           MPKSK+   + +F  SA +    RTP+K+    +  W++ + +GLML+GL WL+V  +A 
+Sbjct  1   MPKSKINSPEENFDSSAAAGVDRRTPVKLNASGTPRWYIVIMLGLMLLGLAWLVVNYIAG  60
+
+Query  56  IGSQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                  A+  M  LGPWNY I F   I GLL+TM W 
+Sbjct  61  ------PAIPLMVTLGPWNYLIGFGLFIVGLLMTMGWK  92
+
+
+> sp|Q4JYC3|CRGA_CORJK Cell division protein CrgA OS=Corynebacterium 
+jeikeium (strain K411) OX=306537 GN=crgA PE=3 SV=1
+Length=90
+
+ Score = 77.1 bits (188),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 38/96 (40%), Positives = 53/96 (55%), Gaps = 9/96 (9%)
+
+Query  1   MPKSKVRKKND---FTVSAVSRTPMKVKVGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIG  57
+           MPKSKV    +    + SA  RTP+K+    +  W++ L + LML+GL WL+V  +A   
+Sbjct  1   MPKSKVNSAEENYSSSSSADRRTPVKLNSSGTPRWYIVLMLALMLLGLAWLVVNYIAG--  58
+
+Query  58  SQAPTALNWMAQLGPWNYAIAFAFMITGLLLTMRWH  93
+                 + +M  L  WNY I FA +I GLL+TM W 
+Sbjct  59  ----PEIPFMRDLNAWNYLIGFALLIVGLLMTMGWK  90
+
+
+> sp|P67378|CRGA_TROWT Cell division protein CrgA OS=Tropheryma 
+whipplei (strain Twist) OX=203267 GN=crgA PE=3 SV=1
+Length=69
+
+ Score = 60.9 bits (146),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 19/68 (28%), Positives = 32/68 (47%), Gaps = 7/68 (10%)
+
+Query  26  VGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQAPTALNWMAQLGPWNYAIAFAFMITG  85
+              + VWF ++  GLM  G +W+++F ++      P        +G WN  IAF  ++ G
+Sbjct  9   SENNPVWFPTIMFGLMGTGAVWMVLFYISNGALPLPA-------VGTWNILIAFGIIMAG  61
+
+Query  86  LLLTMRWH  93
+             +  RW 
+Sbjct  62  FAMMSRWK  69
+
+
+> sp|P67379|CRGA_TROW8 Cell division protein CrgA OS=Tropheryma 
+whipplei (strain TW08/27) OX=218496 GN=crgA PE=3 SV=1
+Length=69
+
+ Score = 60.9 bits (146),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 19/68 (28%), Positives = 32/68 (47%), Gaps = 7/68 (10%)
+
+Query  26  VGPSSVWFVSLFIGLMLIGLIWLMVFQLAAIGSQAPTALNWMAQLGPWNYAIAFAFMITG  85
+              + VWF ++  GLM  G +W+++F ++      P        +G WN  IAF  ++ G
+Sbjct  9   SENNPVWFPTIMFGLMGTGAVWMVLFYISNGALPLPA-------VGTWNILIAFGIIMAG  61
+
+Query  86  LLLTMRWH  93
+             +  RW 
+Sbjct  62  FAMMSRWK  69
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.128    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0390    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4937168370
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

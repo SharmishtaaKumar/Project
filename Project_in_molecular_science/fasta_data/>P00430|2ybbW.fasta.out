@@ -1,0 +1,589 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P00430|2ybbW
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P00430|COX7C_BOVIN Cytochrome c oxidase subunit 7C, mitochon...  131     6e-40
+  sp|Q1W0Y2|COX7C_PIG Cytochrome c oxidase subunit 7C, mitochondr...  129     3e-39
+  sp|P17665|COX7C_MOUSE Cytochrome c oxidase subunit 7C, mitochon...  128     9e-39
+  sp|P80432|COX7C_RAT Cytochrome c oxidase subunit 7C, mitochondr...  125     8e-38
+  sp|Q7YRK5|COX7C_TARSY Cytochrome c oxidase subunit 7C, mitochon...  122     1e-36
+  sp|Q53CF9|COX7C_SAISC Cytochrome c oxidase subunit 7C, mitochon...  120     1e-35
+  sp|Q8SQ81|COX7C_PONPY Cytochrome c oxidase subunit 7C, mitochon...  116     4e-34
+  sp|P60025|COX7C_PANTR Cytochrome c oxidase subunit 7C, mitochon...  115     8e-34
+  sp|P61639|COX7C_PANPA Cytochrome c oxidase subunit 7C, mitochon...  115     8e-34
+  sp|P15954|COX7C_HUMAN Cytochrome c oxidase subunit 7C, mitochon...  115     8e-34
+  sp|P61638|COX7C_GORGO Cytochrome c oxidase subunit 7C, mitochon...  115     8e-34
+  sp|Q53CG2|COX7C_MACSL Cytochrome c oxidase subunit 7C, mitochon...  112     2e-32
+  sp|Q8SPI1|COX7C_MACFA Cytochrome c oxidase subunit 7C, mitochon...  112     2e-32
+  sp|Q8SQ80|COX7C_PAPHA Cytochrome c oxidase subunit 7C, mitochon...  111     4e-32
+  sp|P80334|COX7C_ONCMY Cytochrome c oxidase polypeptide VIIc (Fr...  46.6    2e-07
+
+
+> sp|P00430|COX7C_BOVIN Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX7C PE=1 SV=3
+Length=63
+
+ Score = 131 bits (329),  Expect = 6e-40, Method: Compositional matrix adjust.
+ Identities = 63/63 (100%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|Q1W0Y2|COX7C_PIG Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Sus scrofa OX=9823 GN=COX7C PE=1 SV=1
+Length=63
+
+ Score = 129 bits (324),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 61/63 (97%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKWRLLAMMTL+FGSGFAAPFFIVRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWRLLAMMTLYFGSGFAAPFFIVRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|P17665|COX7C_MOUSE Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox7c PE=1 SV=1
+Length=63
+
+ Score = 128 bits (321),  Expect = 9e-39, Method: Compositional matrix adjust.
+ Identities = 60/63 (95%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKWRLLAMMT++FGSGFAAPFFIVRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWRLLAMMTVYFGSGFAAPFFIVRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|P80432|COX7C_RAT Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox7c PE=1 SV=2
+Length=63
+
+ Score = 125 bits (315),  Expect = 8e-38, Method: Compositional matrix adjust.
+ Identities = 59/63 (94%), Positives = 62/63 (98%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKWRLL MMT++FGSGFAAPFFIVRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWRLLLMMTVYFGSGFAAPFFIVRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|Q7YRK5|COX7C_TARSY Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Tarsius syrichta OX=1868482 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 122 bits (307),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 57/63 (90%), Positives = 60/63 (95%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           M GQ +RRFTTSVVRRSHYEEGPGKN+PFSVENKWRLLAMMTL+ GSGFAAPFFIVRHQL
+Sbjct  1   MWGQGVRRFTTSVVRRSHYEEGPGKNLPFSVENKWRLLAMMTLYLGSGFAAPFFIVRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|Q53CF9|COX7C_SAISC Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Saimiri sciureus OX=9521 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 120 bits (300),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 55/63 (87%), Positives = 58/63 (92%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTS VRRSHYEEGPGKN+PFSVENKWRLLAMM L+FGS FA PF I+RHQL
+Sbjct  1   MLGQSIRRFTTSAVRRSHYEEGPGKNLPFSVENKWRLLAMMCLYFGSAFATPFLILRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|Q8SQ81|COX7C_PONPY Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Pongo pygmaeus OX=9600 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 116 bits (290),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 54/62 (87%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LLA M L+FGS FA PF IVRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWSLLAKMCLYFGSAFATPFLIVRHQL  60
+
+Query  61  LK  62
+           LK
+Sbjct  61  LK  62
+
+
+> sp|P60025|COX7C_PANTR Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Pan troglodytes OX=9598 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 115 bits (289),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 53/62 (85%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LLA M L+FGS FA PF +VRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWSLLAKMCLYFGSAFATPFLVVRHQL  60
+
+Query  61  LK  62
+           LK
+Sbjct  61  LK  62
+
+
+> sp|P61639|COX7C_PANPA Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Pan paniscus OX=9597 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 115 bits (289),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 53/62 (85%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LLA M L+FGS FA PF +VRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWSLLAKMCLYFGSAFATPFLVVRHQL  60
+
+Query  61  LK  62
+           LK
+Sbjct  61  LK  62
+
+
+> sp|P15954|COX7C_HUMAN Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX7C PE=1 SV=1
+Length=63
+
+ Score = 115 bits (289),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 53/62 (85%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LLA M L+FGS FA PF +VRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWSLLAKMCLYFGSAFATPFLVVRHQL  60
+
+Query  61  LK  62
+           LK
+Sbjct  61  LK  62
+
+
+> sp|P61638|COX7C_GORGO Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Gorilla gorilla gorilla OX=9595 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 115 bits (289),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 53/62 (85%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LLA M L+FGS FA PF +VRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWSLLAKMCLYFGSAFATPFLVVRHQL  60
+
+Query  61  LK  62
+           LK
+Sbjct  61  LK  62
+
+
+> sp|Q53CG2|COX7C_MACSL Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Macaca silenus OX=54601 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 112 bits (279),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 52/63 (83%), Positives = 55/63 (87%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLG SIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LL  M LFFGS F+ PF IVRHQL
+Sbjct  1   MLGHSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWTLLVKMCLFFGSAFSVPFLIVRHQL  60
+
+Query  61  LKK  63
+           LK+
+Sbjct  61  LKQ  63
+
+
+> sp|Q8SPI1|COX7C_MACFA Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Macaca fascicularis OX=9541 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 112 bits (279),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 52/63 (83%), Positives = 55/63 (87%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLG SIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LL  M LFFGS F+ PF IVRHQL
+Sbjct  1   MLGHSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWTLLVKMCLFFGSAFSVPFLIVRHQL  60
+
+Query  61  LKK  63
+           LK+
+Sbjct  61  LKQ  63
+
+
+> sp|Q8SQ80|COX7C_PAPHA Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Papio hamadryas OX=9557 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 111 bits (277),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 51/63 (81%), Positives = 56/63 (89%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLG SIRRFTTSVVRRSHYEEGPGKN+PFSV+NKW LL  M+L+FGS FA PF IVRHQL
+Sbjct  1   MLGHSIRRFTTSVVRRSHYEEGPGKNLPFSVKNKWALLVKMSLYFGSAFATPFLIVRHQL  60
+
+Query  61  LKK  63
+           LK+
+Sbjct  61  LKQ  63
+
+
+> sp|P80334|COX7C_ONCMY Cytochrome c oxidase polypeptide VIIc (Fragment) 
+OS=Oncorhynchus mykiss OX=8022 PE=1 SV=1
+Length=25
+
+ Score = 46.6 bits (109),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 19/25 (76%), Positives = 22/25 (88%), Gaps = 0/25 (0%)
+
+Query  17  SHYEEGPGKNIPFSVENKWRLLAMM  41
+           SHY EGPG+N+PFSV+NK RLL MM
+Sbjct  1   SHYSEGPGQNLPFSVQNKXRLLGMM  25
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.141    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5044574612
+Results from round 2
+
+
+Query= P00430|2ybbW
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q53CF9|COX7C_SAISC Cytochrome c oxidase subunit 7C, mitochon...  117     1e-34
+  sp|Q8SQ81|COX7C_PONPY Cytochrome c oxidase subunit 7C, mitochon...  117     1e-34
+  sp|Q1W0Y2|COX7C_PIG Cytochrome c oxidase subunit 7C, mitochondr...  117     2e-34
+  sp|P60025|COX7C_PANTR Cytochrome c oxidase subunit 7C, mitochon...  117     2e-34
+  sp|P61639|COX7C_PANPA Cytochrome c oxidase subunit 7C, mitochon...  117     2e-34
+  sp|P15954|COX7C_HUMAN Cytochrome c oxidase subunit 7C, mitochon...  117     2e-34
+  sp|P61638|COX7C_GORGO Cytochrome c oxidase subunit 7C, mitochon...  117     2e-34
+  sp|P17665|COX7C_MOUSE Cytochrome c oxidase subunit 7C, mitochon...  116     3e-34
+  sp|Q7YRK5|COX7C_TARSY Cytochrome c oxidase subunit 7C, mitochon...  116     4e-34
+  sp|P00430|COX7C_BOVIN Cytochrome c oxidase subunit 7C, mitochon...  115     7e-34
+  sp|Q53CG2|COX7C_MACSL Cytochrome c oxidase subunit 7C, mitochon...  115     1e-33
+  sp|Q8SPI1|COX7C_MACFA Cytochrome c oxidase subunit 7C, mitochon...  115     1e-33
+  sp|P80432|COX7C_RAT Cytochrome c oxidase subunit 7C, mitochondr...  114     2e-33
+  sp|Q8SQ80|COX7C_PAPHA Cytochrome c oxidase subunit 7C, mitochon...  113     8e-33
+  sp|P80334|COX7C_ONCMY Cytochrome c oxidase polypeptide VIIc (Fr...  46.5    2e-07
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q53CF9|COX7C_SAISC Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Saimiri sciureus OX=9521 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 117 bits (294),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 55/63 (87%), Positives = 58/63 (92%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTS VRRSHYEEGPGKN+PFSVENKWRLLAMM L+FGS FA PF I+RHQL
+Sbjct  1   MLGQSIRRFTTSAVRRSHYEEGPGKNLPFSVENKWRLLAMMCLYFGSAFATPFLILRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|Q8SQ81|COX7C_PONPY Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Pongo pygmaeus OX=9600 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 117 bits (294),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 54/62 (87%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LLA M L+FGS FA PF IVRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWSLLAKMCLYFGSAFATPFLIVRHQL  60
+
+Query  61  LK  62
+           LK
+Sbjct  61  LK  62
+
+
+> sp|Q1W0Y2|COX7C_PIG Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Sus scrofa OX=9823 GN=COX7C PE=1 SV=1
+Length=63
+
+ Score = 117 bits (293),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 61/63 (97%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKWRLLAMMTL+FGSGFAAPFFIVRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWRLLAMMTLYFGSGFAAPFFIVRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|P60025|COX7C_PANTR Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Pan troglodytes OX=9598 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 117 bits (292),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 53/62 (85%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LLA M L+FGS FA PF +VRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWSLLAKMCLYFGSAFATPFLVVRHQL  60
+
+Query  61  LK  62
+           LK
+Sbjct  61  LK  62
+
+
+> sp|P61639|COX7C_PANPA Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Pan paniscus OX=9597 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 117 bits (292),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 53/62 (85%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LLA M L+FGS FA PF +VRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWSLLAKMCLYFGSAFATPFLVVRHQL  60
+
+Query  61  LK  62
+           LK
+Sbjct  61  LK  62
+
+
+> sp|P15954|COX7C_HUMAN Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX7C PE=1 SV=1
+Length=63
+
+ Score = 117 bits (292),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 53/62 (85%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LLA M L+FGS FA PF +VRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWSLLAKMCLYFGSAFATPFLVVRHQL  60
+
+Query  61  LK  62
+           LK
+Sbjct  61  LK  62
+
+
+> sp|P61638|COX7C_GORGO Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Gorilla gorilla gorilla OX=9595 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 117 bits (292),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 53/62 (85%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LLA M L+FGS FA PF +VRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWSLLAKMCLYFGSAFATPFLVVRHQL  60
+
+Query  61  LK  62
+           LK
+Sbjct  61  LK  62
+
+
+> sp|P17665|COX7C_MOUSE Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox7c PE=1 SV=1
+Length=63
+
+ Score = 116 bits (291),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 60/63 (95%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKWRLLAMMT++FGSGFAAPFFIVRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWRLLAMMTVYFGSGFAAPFFIVRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|Q7YRK5|COX7C_TARSY Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Tarsius syrichta OX=1868482 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 116 bits (291),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 57/63 (90%), Positives = 60/63 (95%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           M GQ +RRFTTSVVRRSHYEEGPGKN+PFSVENKWRLLAMMTL+ GSGFAAPFFIVRHQL
+Sbjct  1   MWGQGVRRFTTSVVRRSHYEEGPGKNLPFSVENKWRLLAMMTLYLGSGFAAPFFIVRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|P00430|COX7C_BOVIN Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX7C PE=1 SV=3
+Length=63
+
+ Score = 115 bits (289),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 63/63 (100%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|Q53CG2|COX7C_MACSL Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Macaca silenus OX=54601 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 115 bits (287),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 52/63 (83%), Positives = 55/63 (87%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLG SIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LL  M LFFGS F+ PF IVRHQL
+Sbjct  1   MLGHSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWTLLVKMCLFFGSAFSVPFLIVRHQL  60
+
+Query  61  LKK  63
+           LK+
+Sbjct  61  LKQ  63
+
+
+> sp|Q8SPI1|COX7C_MACFA Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Macaca fascicularis OX=9541 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 115 bits (287),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 52/63 (83%), Positives = 55/63 (87%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLG SIRRFTTSVVRRSHYEEGPGKN+PFSVENKW LL  M LFFGS F+ PF IVRHQL
+Sbjct  1   MLGHSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWTLLVKMCLFFGSAFSVPFLIVRHQL  60
+
+Query  61  LKK  63
+           LK+
+Sbjct  61  LKQ  63
+
+
+> sp|P80432|COX7C_RAT Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox7c PE=1 SV=2
+Length=63
+
+ Score = 114 bits (286),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 59/63 (94%), Positives = 62/63 (98%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLGQSIRRFTTSVVRRSHYEEGPGKN+PFSVENKWRLL MMT++FGSGFAAPFFIVRHQL
+Sbjct  1   MLGQSIRRFTTSVVRRSHYEEGPGKNLPFSVENKWRLLLMMTVYFGSGFAAPFFIVRHQL  60
+
+Query  61  LKK  63
+           LKK
+Sbjct  61  LKK  63
+
+
+> sp|Q8SQ80|COX7C_PAPHA Cytochrome c oxidase subunit 7C, mitochondrial 
+OS=Papio hamadryas OX=9557 GN=COX7C PE=3 SV=1
+Length=63
+
+ Score = 113 bits (282),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 51/63 (81%), Positives = 56/63 (89%), Gaps = 0/63 (0%)
+
+Query  1   MLGQSIRRFTTSVVRRSHYEEGPGKNIPFSVENKWRLLAMMTLFFGSGFAAPFFIVRHQL  60
+           MLG SIRRFTTSVVRRSHYEEGPGKN+PFSV+NKW LL  M+L+FGS FA PF IVRHQL
+Sbjct  1   MLGHSIRRFTTSVVRRSHYEEGPGKNLPFSVKNKWALLVKMSLYFGSAFATPFLIVRHQL  60
+
+Query  61  LKK  63
+           LK+
+Sbjct  61  LKQ  63
+
+
+> sp|P80334|COX7C_ONCMY Cytochrome c oxidase polypeptide VIIc (Fragment) 
+OS=Oncorhynchus mykiss OX=8022 PE=1 SV=1
+Length=25
+
+ Score = 46.5 bits (109),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 19/25 (76%), Positives = 22/25 (88%), Gaps = 0/25 (0%)
+
+Query  17  SHYEEGPGKNIPFSVENKWRLLAMM  41
+           SHY EGPG+N+PFSV+NK RLL MM
+Sbjct  1   SHYSEGPGQNLPFSVQNKXRLLGMM  25
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.142    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0427    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5044574612
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

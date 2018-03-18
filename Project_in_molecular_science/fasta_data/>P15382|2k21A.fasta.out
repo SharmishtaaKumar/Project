@@ -1,0 +1,1156 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P15382|2k21A
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P15382|KCNE1_HUMAN Potassium voltage-gated channel subfamily...  272     2e-93
+  sp|A0A087WTH5|KCE1B_HUMAN Potassium voltage-gated channel subfa...  268     1e-91
+  sp|Q5R8Q2|KCNE1_PONAB Potassium voltage-gated channel subfamily...  262     1e-89
+  sp|Q9XSP1|KCNE1_FELCA Potassium voltage-gated channel subfamily...  223     3e-74
+  sp|P23299|KCNE1_MOUSE Potassium voltage-gated channel subfamily...  213     4e-70
+  sp|Q60409|KCNE1_CAVPO Potassium voltage-gated channel subfamily...  209     1e-68
+  sp|P15383|KCNE1_RAT Potassium voltage-gated channel subfamily E...  207     9e-68
+  sp|Q9TUH9|KCNE1_PIG Potassium voltage-gated channel subfamily E...  206     3e-67
+  sp|Q28705|KCNE1_RABIT Potassium voltage-gated channel subfamily...  196     3e-63
+  sp|Q9BDR0|KCNE2_RABIT Potassium voltage-gated channel subfamily...  54.3    2e-09
+  sp|Q9Y6J6|KCNE2_HUMAN Potassium voltage-gated channel subfamily...  55.1    3e-09
+  sp|P63161|KCNE2_RAT Potassium voltage-gated channel subfamily E...  51.6    4e-08
+  sp|P63160|KCNE2_CAVPO Potassium voltage-gated channel subfamily...  51.6    4e-08
+  sp|Q9D808|KCNE2_MOUSE Potassium voltage-gated channel subfamily...  50.4    1e-07
+  sp|Q9WTW3|KCNE4_MOUSE Potassium voltage-gated channel subfamily...  40.8    6e-04
+  sp|Q8WWG9|KCNE4_HUMAN Potassium voltage-gated channel subfamily...  41.2    7e-04
+  sp|Q9Y6H6|KCNE3_HUMAN Potassium voltage-gated channel subfamily...  37.4    0.005
+  sp|Q9WTW2|KCNE3_MOUSE Potassium voltage-gated channel subfamily...  37.0    0.006
+  sp|Q9JJV7|KCNE3_RAT Potassium voltage-gated channel subfamily E...  37.0    0.007
+
+
+> sp|P15382|KCNE1_HUMAN Potassium voltage-gated channel subfamily 
+E member 1 OS=Homo sapiens OX=9606 GN=KCNE1 PE=1 SV=1
+Length=129
+
+ Score = 272 bits (695),  Expect = 2e-93, Method: Compositional matrix adjust.
+ Identities = 129/129 (100%), Positives = 129/129 (100%), Gaps = 0/129 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG
+Sbjct  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT
+Sbjct  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+
+Query  121  HLPETKPSP  129
+            HLPETKPSP
+Sbjct  121  HLPETKPSP  129
+
+
+> sp|A0A087WTH5|KCE1B_HUMAN Potassium voltage-gated channel subfamily 
+E member 1B OS=Homo sapiens OX=9606 GN=KCNE1B PE=3 SV=2
+Length=132
+
+ Score = 268 bits (684),  Expect = 1e-91, Method: Compositional matrix adjust.
+ Identities = 127/129 (98%), Positives = 128/129 (99%), Gaps = 0/129 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRS DGKLEALYVLMVLGFFGFFTLG
+Sbjct  4    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSGDGKLEALYVLMVLGFFGFFTLG  63
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHSNDPFNVYIES+AWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT
+Sbjct  64   IMLSYIRSKKLEHSNDPFNVYIESNAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  123
+
+Query  121  HLPETKPSP  129
+            HLPETKPSP
+Sbjct  124  HLPETKPSP  132
+
+
+> sp|Q5R8Q2|KCNE1_PONAB Potassium voltage-gated channel subfamily 
+E member 1 OS=Pongo abelii OX=9601 GN=KCNE1 PE=2 SV=1
+Length=129
+
+ Score = 262 bits (670),  Expect = 1e-89, Method: Compositional matrix adjust.
+ Identities = 123/129 (95%), Positives = 127/129 (98%), Gaps = 0/129 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MILSNTTAVTPFLTKLWQETVQQGGN+SGLARRSPRS DGKLEALYVLMVLGFFGFFTLG
+Sbjct  1    MILSNTTAVTPFLTKLWQETVQQGGNVSGLARRSPRSDDGKLEALYVLMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVL+SYR+CYVVENHLA+EQPNT
+Sbjct  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLKSYRACYVVENHLAVEQPNT  120
+
+Query  121  HLPETKPSP  129
+            HLP TKPSP
+Sbjct  121  HLPGTKPSP  129
+
+
+> sp|Q9XSP1|KCNE1_FELCA Potassium voltage-gated channel subfamily 
+E member 1 OS=Felis catus OX=9685 GN=KCNE1 PE=2 SV=1
+Length=129
+
+ Score = 223 bits (569),  Expect = 3e-74, Method: Compositional matrix adjust.
+ Identities = 102/127 (80%), Positives = 111/127 (87%), Gaps = 0/127 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MIL NTTA TPFL  LWQ T  QGGN SGLARRSP   D +LEALY+LMVLGFFGFFTLG
+Sbjct  1    MILPNTTATTPFLNALWQGTAHQGGNTSGLARRSPGGDDSQLEALYILMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHS+DPFNVYIESD WQEKDKAY+QARVLESY++CYV+EN LA+E+PN 
+Sbjct  61   IMLSYIRSKKLEHSHDPFNVYIESDTWQEKDKAYLQARVLESYKACYVIENQLAVERPNA  120
+
+Query  121  HLPETKP  127
+            HLPE KP
+Sbjct  121  HLPEIKP  127
+
+
+> sp|P23299|KCNE1_MOUSE Potassium voltage-gated channel subfamily 
+E member 1 OS=Mus musculus OX=10090 GN=Kcne1 PE=1 SV=1
+Length=129
+
+ Score = 213 bits (541),  Expect = 4e-70, Method: Compositional matrix adjust.
+ Identities = 98/127 (77%), Positives = 109/127 (86%), Gaps = 0/127 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            M L N+T V PFL +LWQET +QGGN+SGLAR+S    D KLEALY+LMVLGFFGFFTLG
+Sbjct  1    MSLPNSTTVLPFLARLWQETAEQGGNVSGLARKSQLRDDSKLEALYILMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHS+DPFNVYIESDAWQEK KA  QARVLES+R+CYV+EN  A+EQP T
+Sbjct  61   IMLSYIRSKKLEHSHDPFNVYIESDAWQEKGKAVFQARVLESFRACYVIENQAAVEQPAT  120
+
+Query  121  HLPETKP  127
+            HLPE KP
+Sbjct  121  HLPELKP  127
+
+
+> sp|Q60409|KCNE1_CAVPO Potassium voltage-gated channel subfamily 
+E member 1 OS=Cavia porcellus OX=10141 GN=KCNE1 PE=2 SV=1
+Length=125
+
+ Score = 209 bits (532),  Expect = 1e-68, Method: Compositional matrix adjust.
+ Identities = 98/124 (79%), Positives = 107/124 (86%), Gaps = 0/124 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MIL N+TAV PFLT +WQ TVQ   N SGLARRSP   DGKLEALY+LMVLGFFGFFTLG
+Sbjct  1    MILPNSTAVMPFLTTVWQGTVQPSSNASGLARRSPLRDDGKLEALYILMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHS+DPFNVYIESD WQEKDKA+ QARVLE+ RSC V+EN L +EQPNT
+Sbjct  61   IMLSYIRSKKLEHSHDPFNVYIESDTWQEKDKAFFQARVLENCRSCCVIENQLTVEQPNT  120
+
+Query  121  HLPE  124
+            +LPE
+Sbjct  121  YLPE  124
+
+
+> sp|P15383|KCNE1_RAT Potassium voltage-gated channel subfamily 
+E member 1 OS=Rattus norvegicus OX=10116 GN=Kcne1 PE=1 SV=1
+Length=130
+
+ Score = 207 bits (526),  Expect = 9e-68, Method: Compositional matrix adjust.
+ Identities = 99/128 (77%), Positives = 107/128 (84%), Gaps = 1/128 (1%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSG-LARRSPRSSDGKLEALYVLMVLGFFGFFTL  59
+            M LSN+T V PFL  LWQET + GGNMS  LARRS    D KLEALY+LMVLGFFGFFTL
+Sbjct  1    MALSNSTTVLPFLASLWQETDEPGGNMSADLARRSQLRDDSKLEALYILMVLGFFGFFTL  60
+
+Query  60   GIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPN  119
+            GIMLSYIRSKKLEHS+DPFNVYIESDAWQEK KA  QARVLES+R+CYV+EN  A+EQP 
+Sbjct  61   GIMLSYIRSKKLEHSHDPFNVYIESDAWQEKGKALFQARVLESFRACYVIENQAAVEQPA  120
+
+Query  120  THLPETKP  127
+            THLPE KP
+Sbjct  121  THLPELKP  128
+
+
+> sp|Q9TUH9|KCNE1_PIG Potassium voltage-gated channel subfamily 
+E member 1 OS=Sus scrofa OX=9823 GN=KCNE1 PE=2 SV=1
+Length=130
+
+ Score = 206 bits (523),  Expect = 3e-67, Method: Compositional matrix adjust.
+ Identities = 98/128 (77%), Positives = 106/128 (83%), Gaps = 1/128 (1%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSG-LARRSPRSSDGKLEALYVLMVLGFFGFFTL  59
+            M LSN+T V PFL  LWQET + GGNMS  LARRS    D KLEALY+LMVLGFFGFFTL
+Sbjct  1    MALSNSTTVLPFLASLWQETDEPGGNMSADLARRSQLRDDSKLEALYILMVLGFFGFFTL  60
+
+Query  60   GIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPN  119
+            GIMLSYIRSKKLEHS+DPFNVYIESDAWQEK KA  QARVLES+R+CY +EN  A+EQP 
+Sbjct  61   GIMLSYIRSKKLEHSHDPFNVYIESDAWQEKGKALFQARVLESFRACYAIENQAAVEQPA  120
+
+Query  120  THLPETKP  127
+            THLPE KP
+Sbjct  121  THLPELKP  128
+
+
+> sp|Q28705|KCNE1_RABIT Potassium voltage-gated channel subfamily 
+E member 1 OS=Oryctolagus cuniculus OX=9986 GN=KCNE1 PE=3 
+SV=1
+Length=130
+
+ Score = 196 bits (497),  Expect = 3e-63, Method: Compositional matrix adjust.
+ Identities = 92/129 (71%), Positives = 106/129 (82%), Gaps = 1/129 (1%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQ-QGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTL  59
+            MI  N TAV PFLT L +ET   QG + + LARR P   DG++EALY+LMVLGFFGFFTL
+Sbjct  1    MIPPNATAVMPFLTTLGEETAHLQGSSATSLARRGPLGDDGQMEALYILMVLGFFGFFTL  60
+
+Query  60   GIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPN  119
+            GIMLSYIRS+KLEHS+DPFNVYIE++ WQEKD+AY QARVLES R CYV+EN LA+E P+
+Sbjct  61   GIMLSYIRSQKLEHSHDPFNVYIEANDWQEKDRAYFQARVLESCRGCYVLENQLAVEHPD  120
+
+Query  120  THLPETKPS  128
+            THLPE KPS
+Sbjct  121  THLPELKPS  129
+
+
+> sp|Q9BDR0|KCNE2_RABIT Potassium voltage-gated channel subfamily 
+E member 2 (Fragment) OS=Oryctolagus cuniculus OX=9986 GN=KCNE2 
+PE=2 SV=1
+Length=71
+
+ Score = 54.3 bits (129),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 23/49 (47%), Positives = 37/49 (76%), Gaps = 1/49 (2%)
+
+Query  45  LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKA  93
+           LY+++++G F F  + I++S ++SK+ EHSNDP++ YI  D WQEK K+
+Sbjct  9   LYLMVMIGMFSFIIVAILVSTVKSKRREHSNDPYHQYIVED-WQEKYKS  56
+
+
+> sp|Q9Y6J6|KCNE2_HUMAN Potassium voltage-gated channel subfamily 
+E member 2 OS=Homo sapiens OX=9606 GN=KCNE2 PE=1 SV=1
+Length=123
+
+ Score = 55.1 bits (131),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 23/51 (45%), Positives = 38/51 (75%), Gaps = 1/51 (2%)
+
+Query  45  LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYV  95
+           LY+++++G F F  + I++S ++SK+ EHSNDP++ YI  D WQEK K+ +
+Sbjct  51  LYLMVMIGMFSFIIVAILVSTVKSKRREHSNDPYHQYIVED-WQEKYKSQI  100
+
+
+> sp|P63161|KCNE2_RAT Potassium voltage-gated channel subfamily 
+E member 2 OS=Rattus norvegicus OX=10116 GN=Kcne2 PE=1 SV=1
+Length=123
+
+ Score = 51.6 bits (122),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 20/51 (39%), Positives = 37/51 (73%), Gaps = 1/51 (2%)
+
+Query  45  LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYV  95
+           LY+++++G F F  + I++S ++SK+ EHS DP++ YI  D WQ+K ++ +
+Sbjct  51  LYLMVMIGMFAFIVVAILVSTVKSKRREHSQDPYHQYIVED-WQQKYRSQI  100
+
+
+> sp|P63160|KCNE2_CAVPO Potassium voltage-gated channel subfamily 
+E member 2 OS=Cavia porcellus OX=10141 GN=Kcne2 PE=2 SV=1
+Length=123
+
+ Score = 51.6 bits (122),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 20/51 (39%), Positives = 37/51 (73%), Gaps = 1/51 (2%)
+
+Query  45  LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYV  95
+           LY+++++G F F  + I++S ++SK+ EHS DP++ YI  D WQ+K ++ +
+Sbjct  51  LYLMVMIGMFAFIVVAILVSTVKSKRREHSQDPYHQYIVED-WQQKYRSQI  100
+
+
+> sp|Q9D808|KCNE2_MOUSE Potassium voltage-gated channel subfamily 
+E member 2 OS=Mus musculus OX=10090 GN=Kcne2 PE=2 SV=2
+Length=123
+
+ Score = 50.4 bits (119),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 44/75 (59%), Gaps = 12/75 (16%)
+
+Query  32  RRSPRSSDGKLEA-----------LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNV  80
+           RR+  + +  L+A           LY+++++G F F  + I++S ++SK+ EHS  P++ 
+Sbjct  27  RRNTTAEEQALQARVDAENFYYVILYLMVMIGMFSFIVVAILVSTVKSKRREHSQHPYHQ  86
+
+Query  81  YIESDAWQEKDKAYV  95
+           YI  D WQEK K+ +
+Sbjct  87  YIVED-WQEKYKSQI  100
+
+
+> sp|Q9WTW3|KCNE4_MOUSE Potassium voltage-gated channel subfamily 
+E member 4 OS=Mus musculus OX=10090 GN=Kcne4 PE=2 SV=1
+Length=170
+
+ Score = 40.8 bits (94),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 24/67 (36%), Positives = 37/67 (55%), Gaps = 2/67 (3%)
+
+Query  28  SGLARRSPRSSDGKL-EALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDA  86
+           S L    P +S G   E  Y+L+V+ F+G F +GIML Y++SK+ E  +    +Y + + 
+Sbjct  19  SPLESHVPSNSSGNGNEYFYILVVMSFYGVFLIGIMLGYMKSKRREKKSSLLLLYKDEER  78
+
+Query  87  -WQEKDK  92
+            W E  K
+Sbjct  79  LWGEAMK  85
+
+
+> sp|Q8WWG9|KCNE4_HUMAN Potassium voltage-gated channel subfamily 
+E member 4 OS=Homo sapiens OX=9606 GN=KCNE4 PE=1 SV=4
+Length=221
+
+ Score = 41.2 bits (95),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 19/51 (37%), Positives = 31/51 (61%), Gaps = 1/51 (2%)
+
+Query  43   EALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESD-AWQEKDK  92
+            E  Y+L+V+ F+G F +GIML Y++SK+ E  +    +Y + +  W E  K
+Sbjct  86   EYFYILVVMSFYGIFLIGIMLGYMKSKRREKKSSLLLLYKDEERLWGEAMK  136
+
+
+> sp|Q9Y6H6|KCNE3_HUMAN Potassium voltage-gated channel subfamily 
+E member 3 OS=Homo sapiens OX=9606 GN=KCNE3 PE=1 SV=1
+Length=103
+
+ Score = 37.4 bits (85),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 27/40 (68%), Gaps = 0/40 (0%)
+
+Query  45  LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIES  84
+           +Y+L V+  F      ++L Y RS+K++  +DP++VYI++
+Sbjct  59  MYILFVMFLFAVTVGSLILGYTRSRKVDKRSDPYHVYIKN  98
+
+
+> sp|Q9WTW2|KCNE3_MOUSE Potassium voltage-gated channel subfamily 
+E member 3 OS=Mus musculus OX=10090 GN=Kcne3 PE=3 SV=1
+Length=103
+
+ Score = 37.0 bits (84),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 27/40 (68%), Gaps = 0/40 (0%)
+
+Query  45  LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIES  84
+           +Y+L V+  F      ++L Y RS+K++  +DP++VYI++
+Sbjct  59  MYILFVMFLFAVTVGSLILGYTRSRKVDKRSDPYHVYIKN  98
+
+
+> sp|Q9JJV7|KCNE3_RAT Potassium voltage-gated channel subfamily 
+E member 3 OS=Rattus norvegicus OX=10116 GN=Kcne3 PE=1 SV=1
+Length=107
+
+ Score = 37.0 bits (84),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 27/40 (68%), Gaps = 0/40 (0%)
+
+Query  45   LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIES  84
+            +Y+L V+  F      ++L Y RS+K++  +DP++VYI++
+Sbjct  63   MYILFVMFLFAVTVGSLILGYTRSRKVDKRSDPYHVYIKN  102
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4989631886
+Results from round 2
+
+
+Query= P15382|2k21A
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P15382|KCNE1_HUMAN Potassium voltage-gated channel subfamily...  236     2e-79
+  sp|Q5R8Q2|KCNE1_PONAB Potassium voltage-gated channel subfamily...  236     3e-79
+  sp|A0A087WTH5|KCE1B_HUMAN Potassium voltage-gated channel subfa...  235     1e-78
+  sp|Q9XSP1|KCNE1_FELCA Potassium voltage-gated channel subfamily...  231     2e-77
+  sp|Q60409|KCNE1_CAVPO Potassium voltage-gated channel subfamily...  227     9e-76
+  sp|P23299|KCNE1_MOUSE Potassium voltage-gated channel subfamily...  225     5e-75
+  sp|Q28705|KCNE1_RABIT Potassium voltage-gated channel subfamily...  221     2e-73
+  sp|P15383|KCNE1_RAT Potassium voltage-gated channel subfamily E...  219     1e-72
+  sp|Q9TUH9|KCNE1_PIG Potassium voltage-gated channel subfamily E...  217     7e-72
+  sp|Q9D808|KCNE2_MOUSE Potassium voltage-gated channel subfamily...  86.7    7e-21
+  sp|P63161|KCNE2_RAT Potassium voltage-gated channel subfamily E...  85.9    1e-20
+  sp|P63160|KCNE2_CAVPO Potassium voltage-gated channel subfamily...  85.9    1e-20
+  sp|Q9WTW3|KCNE4_MOUSE Potassium voltage-gated channel subfamily...  85.9    4e-20
+  sp|Q9Y6J6|KCNE2_HUMAN Potassium voltage-gated channel subfamily...  84.8    4e-20
+  sp|Q9BDR0|KCNE2_RABIT Potassium voltage-gated channel subfamily...  81.7    2e-19
+  sp|Q8WWG9|KCNE4_HUMAN Potassium voltage-gated channel subfamily...  77.5    1e-16
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9WTW2|KCNE3_MOUSE Potassium voltage-gated channel subfamily...  48.6    5e-07
+  sp|Q9Y6H6|KCNE3_HUMAN Potassium voltage-gated channel subfamily...  47.8    7e-07
+  sp|Q9JJV7|KCNE3_RAT Potassium voltage-gated channel subfamily E...  45.5    5e-06
+
+
+> sp|P15382|KCNE1_HUMAN Potassium voltage-gated channel subfamily 
+E member 1 OS=Homo sapiens OX=9606 GN=KCNE1 PE=1 SV=1
+Length=129
+
+ Score = 236 bits (603),  Expect = 2e-79, Method: Composition-based stats.
+ Identities = 129/129 (100%), Positives = 129/129 (100%), Gaps = 0/129 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG
+Sbjct  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT
+Sbjct  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+
+Query  121  HLPETKPSP  129
+            HLPETKPSP
+Sbjct  121  HLPETKPSP  129
+
+
+> sp|Q5R8Q2|KCNE1_PONAB Potassium voltage-gated channel subfamily 
+E member 1 OS=Pongo abelii OX=9601 GN=KCNE1 PE=2 SV=1
+Length=129
+
+ Score = 236 bits (601),  Expect = 3e-79, Method: Composition-based stats.
+ Identities = 123/129 (95%), Positives = 127/129 (98%), Gaps = 0/129 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MILSNTTAVTPFLTKLWQETVQQGGN+SGLARRSPRS DGKLEALYVLMVLGFFGFFTLG
+Sbjct  1    MILSNTTAVTPFLTKLWQETVQQGGNVSGLARRSPRSDDGKLEALYVLMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVL+SYR+CYVVENHLA+EQPNT
+Sbjct  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLKSYRACYVVENHLAVEQPNT  120
+
+Query  121  HLPETKPSP  129
+            HLP TKPSP
+Sbjct  121  HLPGTKPSP  129
+
+
+> sp|A0A087WTH5|KCE1B_HUMAN Potassium voltage-gated channel subfamily 
+E member 1B OS=Homo sapiens OX=9606 GN=KCNE1B PE=3 SV=2
+Length=132
+
+ Score = 235 bits (598),  Expect = 1e-78, Method: Composition-based stats.
+ Identities = 127/129 (98%), Positives = 128/129 (99%), Gaps = 0/129 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRS DGKLEALYVLMVLGFFGFFTLG
+Sbjct  4    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSGDGKLEALYVLMVLGFFGFFTLG  63
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHSNDPFNVYIES+AWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT
+Sbjct  64   IMLSYIRSKKLEHSNDPFNVYIESNAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  123
+
+Query  121  HLPETKPSP  129
+            HLPETKPSP
+Sbjct  124  HLPETKPSP  132
+
+
+> sp|Q9XSP1|KCNE1_FELCA Potassium voltage-gated channel subfamily 
+E member 1 OS=Felis catus OX=9685 GN=KCNE1 PE=2 SV=1
+Length=129
+
+ Score = 231 bits (590),  Expect = 2e-77, Method: Composition-based stats.
+ Identities = 102/127 (80%), Positives = 111/127 (87%), Gaps = 0/127 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MIL NTTA TPFL  LWQ T  QGGN SGLARRSP   D +LEALY+LMVLGFFGFFTLG
+Sbjct  1    MILPNTTATTPFLNALWQGTAHQGGNTSGLARRSPGGDDSQLEALYILMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHS+DPFNVYIESD WQEKDKAY+QARVLESY++CYV+EN LA+E+PN 
+Sbjct  61   IMLSYIRSKKLEHSHDPFNVYIESDTWQEKDKAYLQARVLESYKACYVIENQLAVERPNA  120
+
+Query  121  HLPETKP  127
+            HLPE KP
+Sbjct  121  HLPEIKP  127
+
+
+> sp|Q60409|KCNE1_CAVPO Potassium voltage-gated channel subfamily 
+E member 1 OS=Cavia porcellus OX=10141 GN=KCNE1 PE=2 SV=1
+Length=125
+
+ Score = 227 bits (579),  Expect = 9e-76, Method: Composition-based stats.
+ Identities = 98/125 (78%), Positives = 107/125 (86%), Gaps = 0/125 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MIL N+TAV PFLT +WQ TVQ   N SGLARRSP   DGKLEALY+LMVLGFFGFFTLG
+Sbjct  1    MILPNSTAVMPFLTTVWQGTVQPSSNASGLARRSPLRDDGKLEALYILMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHS+DPFNVYIESD WQEKDKA+ QARVLE+ RSC V+EN L +EQPNT
+Sbjct  61   IMLSYIRSKKLEHSHDPFNVYIESDTWQEKDKAFFQARVLENCRSCCVIENQLTVEQPNT  120
+
+Query  121  HLPET  125
+            +LPE 
+Sbjct  121  YLPEL  125
+
+
+> sp|P23299|KCNE1_MOUSE Potassium voltage-gated channel subfamily 
+E member 1 OS=Mus musculus OX=10090 GN=Kcne1 PE=1 SV=1
+Length=129
+
+ Score = 225 bits (574),  Expect = 5e-75, Method: Composition-based stats.
+ Identities = 98/127 (77%), Positives = 109/127 (86%), Gaps = 0/127 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            M L N+T V PFL +LWQET +QGGN+SGLAR+S    D KLEALY+LMVLGFFGFFTLG
+Sbjct  1    MSLPNSTTVLPFLARLWQETAEQGGNVSGLARKSQLRDDSKLEALYILMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHS+DPFNVYIESDAWQEK KA  QARVLES+R+CYV+EN  A+EQP T
+Sbjct  61   IMLSYIRSKKLEHSHDPFNVYIESDAWQEKGKAVFQARVLESFRACYVIENQAAVEQPAT  120
+
+Query  121  HLPETKP  127
+            HLPE KP
+Sbjct  121  HLPELKP  127
+
+
+> sp|Q28705|KCNE1_RABIT Potassium voltage-gated channel subfamily 
+E member 1 OS=Oryctolagus cuniculus OX=9986 GN=KCNE1 PE=3 
+SV=1
+Length=130
+
+ Score = 221 bits (564),  Expect = 2e-73, Method: Composition-based stats.
+ Identities = 92/129 (71%), Positives = 106/129 (82%), Gaps = 1/129 (1%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQ-QGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTL  59
+            MI  N TAV PFLT L +ET   QG + + LARR P   DG++EALY+LMVLGFFGFFTL
+Sbjct  1    MIPPNATAVMPFLTTLGEETAHLQGSSATSLARRGPLGDDGQMEALYILMVLGFFGFFTL  60
+
+Query  60   GIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPN  119
+            GIMLSYIRS+KLEHS+DPFNVYIE++ WQEKD+AY QARVLES R CYV+EN LA+E P+
+Sbjct  61   GIMLSYIRSQKLEHSHDPFNVYIEANDWQEKDRAYFQARVLESCRGCYVLENQLAVEHPD  120
+
+Query  120  THLPETKPS  128
+            THLPE KPS
+Sbjct  121  THLPELKPS  129
+
+
+> sp|P15383|KCNE1_RAT Potassium voltage-gated channel subfamily 
+E member 1 OS=Rattus norvegicus OX=10116 GN=Kcne1 PE=1 SV=1
+Length=130
+
+ Score = 219 bits (559),  Expect = 1e-72, Method: Composition-based stats.
+ Identities = 99/128 (77%), Positives = 107/128 (84%), Gaps = 1/128 (1%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSG-LARRSPRSSDGKLEALYVLMVLGFFGFFTL  59
+            M LSN+T V PFL  LWQET + GGNMS  LARRS    D KLEALY+LMVLGFFGFFTL
+Sbjct  1    MALSNSTTVLPFLASLWQETDEPGGNMSADLARRSQLRDDSKLEALYILMVLGFFGFFTL  60
+
+Query  60   GIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPN  119
+            GIMLSYIRSKKLEHS+DPFNVYIESDAWQEK KA  QARVLES+R+CYV+EN  A+EQP 
+Sbjct  61   GIMLSYIRSKKLEHSHDPFNVYIESDAWQEKGKALFQARVLESFRACYVIENQAAVEQPA  120
+
+Query  120  THLPETKP  127
+            THLPE KP
+Sbjct  121  THLPELKP  128
+
+
+> sp|Q9TUH9|KCNE1_PIG Potassium voltage-gated channel subfamily 
+E member 1 OS=Sus scrofa OX=9823 GN=KCNE1 PE=2 SV=1
+Length=130
+
+ Score = 217 bits (553),  Expect = 7e-72, Method: Composition-based stats.
+ Identities = 98/128 (77%), Positives = 106/128 (83%), Gaps = 1/128 (1%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSG-LARRSPRSSDGKLEALYVLMVLGFFGFFTL  59
+            M LSN+T V PFL  LWQET + GGNMS  LARRS    D KLEALY+LMVLGFFGFFTL
+Sbjct  1    MALSNSTTVLPFLASLWQETDEPGGNMSADLARRSQLRDDSKLEALYILMVLGFFGFFTL  60
+
+Query  60   GIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPN  119
+            GIMLSYIRSKKLEHS+DPFNVYIESDAWQEK KA  QARVLES+R+CY +EN  A+EQP 
+Sbjct  61   GIMLSYIRSKKLEHSHDPFNVYIESDAWQEKGKALFQARVLESFRACYAIENQAAVEQPA  120
+
+Query  120  THLPETKP  127
+            THLPE KP
+Sbjct  121  THLPELKP  128
+
+
+> sp|Q9D808|KCNE2_MOUSE Potassium voltage-gated channel subfamily 
+E member 2 OS=Mus musculus OX=10090 GN=Kcne2 PE=2 SV=2
+Length=123
+
+ Score = 86.7 bits (213),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 25/75 (33%), Positives = 44/75 (59%), Gaps = 12/75 (16%)
+
+Query  32  RRSPRSSDGKLEA-----------LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNV  80
+           RR+  + +  L+A           LY+++++G F F  + I++S ++SK+ EHS  P++ 
+Sbjct  27  RRNTTAEEQALQARVDAENFYYVILYLMVMIGMFSFIVVAILVSTVKSKRREHSQHPYHQ  86
+
+Query  81  YIESDAWQEKDKAYV  95
+           YI  D WQEK K+ +
+Sbjct  87  YIVED-WQEKYKSQI  100
+
+
+> sp|P63161|KCNE2_RAT Potassium voltage-gated channel subfamily 
+E member 2 OS=Rattus norvegicus OX=10116 GN=Kcne2 PE=1 SV=1
+Length=123
+
+ Score = 85.9 bits (211),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 24/75 (32%), Positives = 44/75 (59%), Gaps = 12/75 (16%)
+
+Query  32  RRSPRSSDGKLEA-----------LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNV  80
+           RR+  +    L+A           LY+++++G F F  + I++S ++SK+ EHS DP++ 
+Sbjct  27  RRNTTAEQQALQARVDAENFYYVILYLMVMIGMFAFIVVAILVSTVKSKRREHSQDPYHQ  86
+
+Query  81  YIESDAWQEKDKAYV  95
+           YI  D WQ+K ++ +
+Sbjct  87  YIVED-WQQKYRSQI  100
+
+
+> sp|P63160|KCNE2_CAVPO Potassium voltage-gated channel subfamily 
+E member 2 OS=Cavia porcellus OX=10141 GN=Kcne2 PE=2 SV=1
+Length=123
+
+ Score = 85.9 bits (211),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 24/75 (32%), Positives = 44/75 (59%), Gaps = 12/75 (16%)
+
+Query  32  RRSPRSSDGKLEA-----------LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNV  80
+           RR+  +    L+A           LY+++++G F F  + I++S ++SK+ EHS DP++ 
+Sbjct  27  RRNTTAEQQALQARVDAENFYYVILYLMVMIGMFAFIVVAILVSTVKSKRREHSQDPYHQ  86
+
+Query  81  YIESDAWQEKDKAYV  95
+           YI  D WQ+K ++ +
+Sbjct  87  YIVED-WQQKYRSQI  100
+
+
+> sp|Q9WTW3|KCNE4_MOUSE Potassium voltage-gated channel subfamily 
+E member 4 OS=Mus musculus OX=10090 GN=Kcne4 PE=2 SV=1
+Length=170
+
+ Score = 85.9 bits (211),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 24/71 (34%), Positives = 38/71 (54%), Gaps = 2/71 (3%)
+
+Query  24  GGNMSGLARRSPRSSDGKL-EALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYI  82
+             + S L    P +S G   E  Y+L+V+ F+G F +GIML Y++SK+ E  +    +Y 
+Sbjct  15  AASSSPLESHVPSNSSGNGNEYFYILVVMSFYGVFLIGIMLGYMKSKRREKKSSLLLLYK  74
+
+Query  83  ESDA-WQEKDK  92
+           + +  W E  K
+Sbjct  75  DEERLWGEAMK  85
+
+
+> sp|Q9Y6J6|KCNE2_HUMAN Potassium voltage-gated channel subfamily 
+E member 2 OS=Homo sapiens OX=9606 GN=KCNE2 PE=1 SV=1
+Length=123
+
+ Score = 84.8 bits (208),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 26/75 (35%), Positives = 45/75 (60%), Gaps = 12/75 (16%)
+
+Query  32  RRSPRSSDGKLEA-----------LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNV  80
+           R++  +    L+A           LY+++++G F F  + I++S ++SK+ EHSNDP++ 
+Sbjct  27  RQNTTAEQEALQAKVDAENFYYVILYLMVMIGMFSFIIVAILVSTVKSKRREHSNDPYHQ  86
+
+Query  81  YIESDAWQEKDKAYV  95
+           YI  D WQEK K+ +
+Sbjct  87  YIVED-WQEKYKSQI  100
+
+
+> sp|Q9BDR0|KCNE2_RABIT Potassium voltage-gated channel subfamily 
+E member 2 (Fragment) OS=Oryctolagus cuniculus OX=9986 GN=KCNE2 
+PE=2 SV=1
+Length=71
+
+ Score = 81.7 bits (200),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 23/51 (45%), Positives = 38/51 (75%), Gaps = 1/51 (2%)
+
+Query  45  LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYV  95
+           LY+++++G F F  + I++S ++SK+ EHSNDP++ YI  D WQEK K+ +
+Sbjct  9   LYLMVMIGMFSFIIVAILVSTVKSKRREHSNDPYHQYIVED-WQEKYKSQI  58
+
+
+> sp|Q8WWG9|KCNE4_HUMAN Potassium voltage-gated channel subfamily 
+E member 4 OS=Homo sapiens OX=9606 GN=KCNE4 PE=1 SV=4
+Length=221
+
+ Score = 77.5 bits (189),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 24/77 (31%), Positives = 39/77 (51%), Gaps = 4/77 (5%)
+
+Query  20   TVQQG--GNMSGLARRSPRSSDGKL-EALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSND  76
+            +   G   + S L  R+     G   E  Y+L+V+ F+G F +GIML Y++SK+ E  + 
+Sbjct  60   STHPGTAASSSPLESRAAGGGSGNGNEYFYILVVMSFYGIFLIGIMLGYMKSKRREKKSS  119
+
+Query  77   PFNVYIESDA-WQEKDK  92
+               +Y + +  W E  K
+Sbjct  120  LLLLYKDEERLWGEAMK  136
+
+
+> sp|Q9WTW2|KCNE3_MOUSE Potassium voltage-gated channel subfamily 
+E member 3 OS=Mus musculus OX=10090 GN=Kcne3 PE=3 SV=1
+Length=103
+
+ Score = 48.6 bits (114),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  23  QGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYI  82
+            G +     RR+          +Y+L V+  F      ++L Y RS+K++  +DP++VYI
+Sbjct  37  PGPDNQTEDRRASLPGRNDNSYMYILFVMFLFAVTVGSLILGYTRSRKVDKRSDPYHVYI  96
+
+
+> sp|Q9Y6H6|KCNE3_HUMAN Potassium voltage-gated channel subfamily 
+E member 3 OS=Homo sapiens OX=9606 GN=KCNE3 PE=1 SV=1
+Length=103
+
+ Score = 47.8 bits (112),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 28/52 (54%), Gaps = 0/52 (0%)
+
+Query  31  ARRSPRSSDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYI  82
+            RR+          +Y+L V+  F      ++L Y RS+K++  +DP++VYI
+Sbjct  45  ERRASLPGRDDNSYMYILFVMFLFAVTVGSLILGYTRSRKVDKRSDPYHVYI  96
+
+
+> sp|Q9JJV7|KCNE3_RAT Potassium voltage-gated channel subfamily 
+E member 3 OS=Rattus norvegicus OX=10116 GN=Kcne3 PE=1 SV=1
+Length=107
+
+ Score = 45.5 bits (106),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 28/48 (58%), Gaps = 2/48 (4%)
+
+Query  35  PRSSDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYI  82
+           P  +D     +Y+L V+  F      ++L Y RS+K++  +DP++VYI
+Sbjct  55  PGRNDNS--YMYILFVMFLFAVTVGSLILGYTRSRKVDKRSDPYHVYI  100
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.129    0.357    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0392    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4989631886
+Results from round 3
+
+
+Query= P15382|2k21A
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q5R8Q2|KCNE1_PONAB Potassium voltage-gated channel subfamily...  230     1e-76
+  sp|P15382|KCNE1_HUMAN Potassium voltage-gated channel subfamily...  228     7e-76
+  sp|A0A087WTH5|KCE1B_HUMAN Potassium voltage-gated channel subfa...  226     2e-75
+  sp|Q9XSP1|KCNE1_FELCA Potassium voltage-gated channel subfamily...  226     3e-75
+  sp|Q60409|KCNE1_CAVPO Potassium voltage-gated channel subfamily...  221     2e-73
+  sp|P23299|KCNE1_MOUSE Potassium voltage-gated channel subfamily...  219     2e-72
+  sp|Q28705|KCNE1_RABIT Potassium voltage-gated channel subfamily...  216     2e-71
+  sp|P15383|KCNE1_RAT Potassium voltage-gated channel subfamily E...  214     2e-70
+  sp|Q9TUH9|KCNE1_PIG Potassium voltage-gated channel subfamily E...  212     1e-69
+  sp|Q9WTW2|KCNE3_MOUSE Potassium voltage-gated channel subfamily...  89.4    4e-22
+  sp|Q9Y6H6|KCNE3_HUMAN Potassium voltage-gated channel subfamily...  87.1    3e-21
+  sp|Q9Y6J6|KCNE2_HUMAN Potassium voltage-gated channel subfamily...  87.1    6e-21
+  sp|P63161|KCNE2_RAT Potassium voltage-gated channel subfamily E...  86.7    6e-21
+  sp|P63160|KCNE2_CAVPO Potassium voltage-gated channel subfamily...  86.7    6e-21
+  sp|Q9D808|KCNE2_MOUSE Potassium voltage-gated channel subfamily...  86.3    1e-20
+  sp|Q9BDR0|KCNE2_RABIT Potassium voltage-gated channel subfamily...  82.1    1e-19
+  sp|Q9WTW3|KCNE4_MOUSE Potassium voltage-gated channel subfamily...  82.9    4e-19
+  sp|Q9JJV7|KCNE3_RAT Potassium voltage-gated channel subfamily E...  80.6    1e-18
+  sp|Q8WWG9|KCNE4_HUMAN Potassium voltage-gated channel subfamily...  80.6    6e-18
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9QZ26|KCNE5_MOUSE Potassium voltage-gated channel subfamily...  48.2    8e-07
+  sp|Q9UJ90|KCNE5_HUMAN Potassium voltage-gated channel subfamily...  45.5    7e-06
+
+
+> sp|Q5R8Q2|KCNE1_PONAB Potassium voltage-gated channel subfamily 
+E member 1 OS=Pongo abelii OX=9601 GN=KCNE1 PE=2 SV=1
+Length=129
+
+ Score = 230 bits (585),  Expect = 1e-76, Method: Composition-based stats.
+ Identities = 123/129 (95%), Positives = 127/129 (98%), Gaps = 0/129 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MILSNTTAVTPFLTKLWQETVQQGGN+SGLARRSPRS DGKLEALYVLMVLGFFGFFTLG
+Sbjct  1    MILSNTTAVTPFLTKLWQETVQQGGNVSGLARRSPRSDDGKLEALYVLMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVL+SYR+CYVVENHLA+EQPNT
+Sbjct  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLKSYRACYVVENHLAVEQPNT  120
+
+Query  121  HLPETKPSP  129
+            HLP TKPSP
+Sbjct  121  HLPGTKPSP  129
+
+
+> sp|P15382|KCNE1_HUMAN Potassium voltage-gated channel subfamily 
+E member 1 OS=Homo sapiens OX=9606 GN=KCNE1 PE=1 SV=1
+Length=129
+
+ Score = 228 bits (580),  Expect = 7e-76, Method: Composition-based stats.
+ Identities = 129/129 (100%), Positives = 129/129 (100%), Gaps = 0/129 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG
+Sbjct  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT
+Sbjct  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+
+Query  121  HLPETKPSP  129
+            HLPETKPSP
+Sbjct  121  HLPETKPSP  129
+
+
+> sp|A0A087WTH5|KCE1B_HUMAN Potassium voltage-gated channel subfamily 
+E member 1B OS=Homo sapiens OX=9606 GN=KCNE1B PE=3 SV=2
+Length=132
+
+ Score = 226 bits (576),  Expect = 2e-75, Method: Composition-based stats.
+ Identities = 127/129 (98%), Positives = 128/129 (99%), Gaps = 0/129 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRS DGKLEALYVLMVLGFFGFFTLG
+Sbjct  4    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSGDGKLEALYVLMVLGFFGFFTLG  63
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHSNDPFNVYIES+AWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT
+Sbjct  64   IMLSYIRSKKLEHSNDPFNVYIESNAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  123
+
+Query  121  HLPETKPSP  129
+            HLPETKPSP
+Sbjct  124  HLPETKPSP  132
+
+
+> sp|Q9XSP1|KCNE1_FELCA Potassium voltage-gated channel subfamily 
+E member 1 OS=Felis catus OX=9685 GN=KCNE1 PE=2 SV=1
+Length=129
+
+ Score = 226 bits (576),  Expect = 3e-75, Method: Composition-based stats.
+ Identities = 102/127 (80%), Positives = 111/127 (87%), Gaps = 0/127 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MIL NTTA TPFL  LWQ T  QGGN SGLARRSP   D +LEALY+LMVLGFFGFFTLG
+Sbjct  1    MILPNTTATTPFLNALWQGTAHQGGNTSGLARRSPGGDDSQLEALYILMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHS+DPFNVYIESD WQEKDKAY+QARVLESY++CYV+EN LA+E+PN 
+Sbjct  61   IMLSYIRSKKLEHSHDPFNVYIESDTWQEKDKAYLQARVLESYKACYVIENQLAVERPNA  120
+
+Query  121  HLPETKP  127
+            HLPE KP
+Sbjct  121  HLPEIKP  127
+
+
+> sp|Q60409|KCNE1_CAVPO Potassium voltage-gated channel subfamily 
+E member 1 OS=Cavia porcellus OX=10141 GN=KCNE1 PE=2 SV=1
+Length=125
+
+ Score = 221 bits (563),  Expect = 2e-73, Method: Composition-based stats.
+ Identities = 98/125 (78%), Positives = 107/125 (86%), Gaps = 0/125 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            MIL N+TAV PFLT +WQ TVQ   N SGLARRSP   DGKLEALY+LMVLGFFGFFTLG
+Sbjct  1    MILPNSTAVMPFLTTVWQGTVQPSSNASGLARRSPLRDDGKLEALYILMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHS+DPFNVYIESD WQEKDKA+ QARVLE+ RSC V+EN L +EQPNT
+Sbjct  61   IMLSYIRSKKLEHSHDPFNVYIESDTWQEKDKAFFQARVLENCRSCCVIENQLTVEQPNT  120
+
+Query  121  HLPET  125
+            +LPE 
+Sbjct  121  YLPEL  125
+
+
+> sp|P23299|KCNE1_MOUSE Potassium voltage-gated channel subfamily 
+E member 1 OS=Mus musculus OX=10090 GN=Kcne1 PE=1 SV=1
+Length=129
+
+ Score = 219 bits (557),  Expect = 2e-72, Method: Composition-based stats.
+ Identities = 98/127 (77%), Positives = 109/127 (86%), Gaps = 0/127 (0%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLG  60
+            M L N+T V PFL +LWQET +QGGN+SGLAR+S    D KLEALY+LMVLGFFGFFTLG
+Sbjct  1    MSLPNSTTVLPFLARLWQETAEQGGNVSGLARKSQLRDDSKLEALYILMVLGFFGFFTLG  60
+
+Query  61   IMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNT  120
+            IMLSYIRSKKLEHS+DPFNVYIESDAWQEK KA  QARVLES+R+CYV+EN  A+EQP T
+Sbjct  61   IMLSYIRSKKLEHSHDPFNVYIESDAWQEKGKAVFQARVLESFRACYVIENQAAVEQPAT  120
+
+Query  121  HLPETKP  127
+            HLPE KP
+Sbjct  121  HLPELKP  127
+
+
+> sp|Q28705|KCNE1_RABIT Potassium voltage-gated channel subfamily 
+E member 1 OS=Oryctolagus cuniculus OX=9986 GN=KCNE1 PE=3 
+SV=1
+Length=130
+
+ Score = 216 bits (550),  Expect = 2e-71, Method: Composition-based stats.
+ Identities = 92/129 (71%), Positives = 106/129 (82%), Gaps = 1/129 (1%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQ-QGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTL  59
+            MI  N TAV PFLT L +ET   QG + + LARR P   DG++EALY+LMVLGFFGFFTL
+Sbjct  1    MIPPNATAVMPFLTTLGEETAHLQGSSATSLARRGPLGDDGQMEALYILMVLGFFGFFTL  60
+
+Query  60   GIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPN  119
+            GIMLSYIRS+KLEHS+DPFNVYIE++ WQEKD+AY QARVLES R CYV+EN LA+E P+
+Sbjct  61   GIMLSYIRSQKLEHSHDPFNVYIEANDWQEKDRAYFQARVLESCRGCYVLENQLAVEHPD  120
+
+Query  120  THLPETKPS  128
+            THLPE KPS
+Sbjct  121  THLPELKPS  129
+
+
+> sp|P15383|KCNE1_RAT Potassium voltage-gated channel subfamily 
+E member 1 OS=Rattus norvegicus OX=10116 GN=Kcne1 PE=1 SV=1
+Length=130
+
+ Score = 214 bits (544),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 99/128 (77%), Positives = 107/128 (84%), Gaps = 1/128 (1%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSG-LARRSPRSSDGKLEALYVLMVLGFFGFFTL  59
+            M LSN+T V PFL  LWQET + GGNMS  LARRS    D KLEALY+LMVLGFFGFFTL
+Sbjct  1    MALSNSTTVLPFLASLWQETDEPGGNMSADLARRSQLRDDSKLEALYILMVLGFFGFFTL  60
+
+Query  60   GIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPN  119
+            GIMLSYIRSKKLEHS+DPFNVYIESDAWQEK KA  QARVLES+R+CYV+EN  A+EQP 
+Sbjct  61   GIMLSYIRSKKLEHSHDPFNVYIESDAWQEKGKALFQARVLESFRACYVIENQAAVEQPA  120
+
+Query  120  THLPETKP  127
+            THLPE KP
+Sbjct  121  THLPELKP  128
+
+
+> sp|Q9TUH9|KCNE1_PIG Potassium voltage-gated channel subfamily 
+E member 1 OS=Sus scrofa OX=9823 GN=KCNE1 PE=2 SV=1
+Length=130
+
+ Score = 212 bits (539),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 98/128 (77%), Positives = 106/128 (83%), Gaps = 1/128 (1%)
+
+Query  1    MILSNTTAVTPFLTKLWQETVQQGGNMSG-LARRSPRSSDGKLEALYVLMVLGFFGFFTL  59
+            M LSN+T V PFL  LWQET + GGNMS  LARRS    D KLEALY+LMVLGFFGFFTL
+Sbjct  1    MALSNSTTVLPFLASLWQETDEPGGNMSADLARRSQLRDDSKLEALYILMVLGFFGFFTL  60
+
+Query  60   GIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPN  119
+            GIMLSYIRSKKLEHS+DPFNVYIESDAWQEK KA  QARVLES+R+CY +EN  A+EQP 
+Sbjct  61   GIMLSYIRSKKLEHSHDPFNVYIESDAWQEKGKALFQARVLESFRACYAIENQAAVEQPA  120
+
+Query  120  THLPETKP  127
+            THLPE KP
+Sbjct  121  THLPELKP  128
+
+
+> sp|Q9WTW2|KCNE3_MOUSE Potassium voltage-gated channel subfamily 
+E member 3 OS=Mus musculus OX=10090 GN=Kcne3 PE=3 SV=1
+Length=103
+
+ Score = 89.4 bits (220),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 30/60 (50%), Gaps = 0/60 (0%)
+
+Query  23  QGGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYI  82
+            G +     RR+          +Y+L V+  F      ++L Y RS+K++  +DP++VYI
+Sbjct  37  PGPDNQTEDRRASLPGRNDNSYMYILFVMFLFAVTVGSLILGYTRSRKVDKRSDPYHVYI  96
+
+
+> sp|Q9Y6H6|KCNE3_HUMAN Potassium voltage-gated channel subfamily 
+E member 3 OS=Homo sapiens OX=9606 GN=KCNE3 PE=1 SV=1
+Length=103
+
+ Score = 87.1 bits (214),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 17/59 (29%), Positives = 30/59 (51%), Gaps = 0/59 (0%)
+
+Query  24  GGNMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYI  82
+           G +     RR+          +Y+L V+  F      ++L Y RS+K++  +DP++VYI
+Sbjct  38  GPDNQTEERRASLPGRDDNSYMYILFVMFLFAVTVGSLILGYTRSRKVDKRSDPYHVYI  96
+
+
+> sp|Q9Y6J6|KCNE2_HUMAN Potassium voltage-gated channel subfamily 
+E member 2 OS=Homo sapiens OX=9606 GN=KCNE2 PE=1 SV=1
+Length=123
+
+ Score = 87.1 bits (214),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 26/75 (35%), Positives = 45/75 (60%), Gaps = 12/75 (16%)
+
+Query  32  RRSPRSSDGKLEA-----------LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNV  80
+           R++  +    L+A           LY+++++G F F  + I++S ++SK+ EHSNDP++ 
+Sbjct  27  RQNTTAEQEALQAKVDAENFYYVILYLMVMIGMFSFIIVAILVSTVKSKRREHSNDPYHQ  86
+
+Query  81  YIESDAWQEKDKAYV  95
+           YI  D WQEK K+ +
+Sbjct  87  YIVED-WQEKYKSQI  100
+
+
+> sp|P63161|KCNE2_RAT Potassium voltage-gated channel subfamily 
+E member 2 OS=Rattus norvegicus OX=10116 GN=Kcne2 PE=1 SV=1
+Length=123
+
+ Score = 86.7 bits (213),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 24/75 (32%), Positives = 44/75 (59%), Gaps = 12/75 (16%)
+
+Query  32  RRSPRSSDGKLEA-----------LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNV  80
+           RR+  +    L+A           LY+++++G F F  + I++S ++SK+ EHS DP++ 
+Sbjct  27  RRNTTAEQQALQARVDAENFYYVILYLMVMIGMFAFIVVAILVSTVKSKRREHSQDPYHQ  86
+
+Query  81  YIESDAWQEKDKAYV  95
+           YI  D WQ+K ++ +
+Sbjct  87  YIVED-WQQKYRSQI  100
+
+
+> sp|P63160|KCNE2_CAVPO Potassium voltage-gated channel subfamily 
+E member 2 OS=Cavia porcellus OX=10141 GN=Kcne2 PE=2 SV=1
+Length=123
+
+ Score = 86.7 bits (213),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 24/75 (32%), Positives = 44/75 (59%), Gaps = 12/75 (16%)
+
+Query  32  RRSPRSSDGKLEA-----------LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNV  80
+           RR+  +    L+A           LY+++++G F F  + I++S ++SK+ EHS DP++ 
+Sbjct  27  RRNTTAEQQALQARVDAENFYYVILYLMVMIGMFAFIVVAILVSTVKSKRREHSQDPYHQ  86
+
+Query  81  YIESDAWQEKDKAYV  95
+           YI  D WQ+K ++ +
+Sbjct  87  YIVED-WQQKYRSQI  100
+
+
+> sp|Q9D808|KCNE2_MOUSE Potassium voltage-gated channel subfamily 
+E member 2 OS=Mus musculus OX=10090 GN=Kcne2 PE=2 SV=2
+Length=123
+
+ Score = 86.3 bits (212),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 25/75 (33%), Positives = 44/75 (59%), Gaps = 12/75 (16%)
+
+Query  32  RRSPRSSDGKLEA-----------LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNV  80
+           RR+  + +  L+A           LY+++++G F F  + I++S ++SK+ EHS  P++ 
+Sbjct  27  RRNTTAEEQALQARVDAENFYYVILYLMVMIGMFSFIVVAILVSTVKSKRREHSQHPYHQ  86
+
+Query  81  YIESDAWQEKDKAYV  95
+           YI  D WQEK K+ +
+Sbjct  87  YIVED-WQEKYKSQI  100
+
+
+> sp|Q9BDR0|KCNE2_RABIT Potassium voltage-gated channel subfamily 
+E member 2 (Fragment) OS=Oryctolagus cuniculus OX=9986 GN=KCNE2 
+PE=2 SV=1
+Length=71
+
+ Score = 82.1 bits (201),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 23/51 (45%), Positives = 38/51 (75%), Gaps = 1/51 (2%)
+
+Query  45  LYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYV  95
+           LY+++++G F F  + I++S ++SK+ EHSNDP++ YI  D WQEK K+ +
+Sbjct  9   LYLMVMIGMFSFIIVAILVSTVKSKRREHSNDPYHQYIVED-WQEKYKSQI  58
+
+
+> sp|Q9WTW3|KCNE4_MOUSE Potassium voltage-gated channel subfamily 
+E member 4 OS=Mus musculus OX=10090 GN=Kcne4 PE=2 SV=1
+Length=170
+
+ Score = 82.9 bits (203),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 24/71 (34%), Positives = 38/71 (54%), Gaps = 2/71 (3%)
+
+Query  24  GGNMSGLARRSPRSSDGKL-EALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYI  82
+             + S L    P +S G   E  Y+L+V+ F+G F +GIML Y++SK+ E  +    +Y 
+Sbjct  15  AASSSPLESHVPSNSSGNGNEYFYILVVMSFYGVFLIGIMLGYMKSKRREKKSSLLLLYK  74
+
+Query  83  ESDA-WQEKDK  92
+           + +  W E  K
+Sbjct  75  DEERLWGEAMK  85
+
+
+> sp|Q9JJV7|KCNE3_RAT Potassium voltage-gated channel subfamily 
+E member 3 OS=Rattus norvegicus OX=10116 GN=Kcne3 PE=1 SV=1
+Length=107
+
+ Score = 80.6 bits (197),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 28/57 (49%), Gaps = 0/57 (0%)
+
+Query  26  NMSGLARRSPRSSDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYI  82
+           +      R+          +Y+L V+  F      ++L Y RS+K++  +DP++VYI
+Sbjct  44  DNQTEDHRASLPGRNDNSYMYILFVMFLFAVTVGSLILGYTRSRKVDKRSDPYHVYI  100
+
+
+> sp|Q8WWG9|KCNE4_HUMAN Potassium voltage-gated channel subfamily 
+E member 4 OS=Homo sapiens OX=9606 GN=KCNE4 PE=1 SV=4
+Length=221
+
+ Score = 80.6 bits (197),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 24/77 (31%), Positives = 39/77 (51%), Gaps = 4/77 (5%)
+
+Query  20   TVQQG--GNMSGLARRSPRSSDGKL-EALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSND  76
+            +   G   + S L  R+     G   E  Y+L+V+ F+G F +GIML Y++SK+ E  + 
+Sbjct  60   STHPGTAASSSPLESRAAGGGSGNGNEYFYILVVMSFYGIFLIGIMLGYMKSKRREKKSS  119
+
+Query  77   PFNVYIESDA-WQEKDK  92
+               +Y + +  W E  K
+Sbjct  120  LLLLYKDEERLWGEAMK  136
+
+
+> sp|Q9QZ26|KCNE5_MOUSE Potassium voltage-gated channel subfamily 
+E regulatory beta subunit 5 OS=Mus musculus OX=10090 GN=Kcne5 
+PE=2 SV=1
+Length=143
+
+ Score = 48.2 bits (113),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 30/60 (50%), Gaps = 1/60 (2%)
+
+Query  29   GLARRSPRSSDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKL-EHSNDPFNVYIESDAW  87
+                R   S+ G    LY+L+++ F+     G++L+Y RS+KL E  ++P    +    W
+Sbjct  45   PFVGREATSAKGNDAYLYILLIMIFYACLAGGLILAYTRSRKLVEAKDEPPLACVAEQEW  104
+
+
+> sp|Q9UJ90|KCNE5_HUMAN Potassium voltage-gated channel subfamily 
+E regulatory beta subunit 5 OS=Homo sapiens OX=9606 GN=KCNE5 
+PE=1 SV=1
+Length=142
+
+ Score = 45.5 bits (106),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 16/59 (27%), Positives = 28/59 (47%), Gaps = 0/59 (0%)
+
+Query  29   GLARRSPRSSDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDAW  87
+                R   S+ G    LY+L+++ F+     G++L+Y RS+KL  + D  +       W
+Sbjct  45   PFVGREVTSAKGDDAYLYILLIMIFYACLAGGLILAYTRSRKLVEAKDEPSQACAEHEW  103
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.127    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0388    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4989631886
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

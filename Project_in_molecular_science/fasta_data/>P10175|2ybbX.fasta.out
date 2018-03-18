@@ -1,0 +1,1525 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P10175|2ybbX
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P10175|COX8B_BOVIN Cytochrome c oxidase subunit 8B, mitochon...  141     1e-43
+  sp|Q863F9|COX8B_TARSY Cytochrome c oxidase subunit 8B, mitochon...  110     2e-31
+  sp|Q863F8|COX8B_EULFU Cytochrome c oxidase subunit 8B, mitochon...  105     7e-30
+  sp|Q863G0|COX8B_ATEBE Cytochrome c oxidase subunit 8B, mitochon...  103     6e-29
+  sp|P48772|COX8B_MOUSE Cytochrome c oxidase subunit 8B, mitochon...  93.6    5e-25
+  sp|P16221|COX8B_RAT Cytochrome c oxidase subunit 8B, mitochondr...  87.4    2e-22
+  sp|P14622|COX8A_BOVIN Cytochrome c oxidase subunit 8A, mitochon...  61.6    1e-12
+  sp|Q863G4|COX8A_TARSY Cytochrome c oxidase subunit 8A, mitochon...  57.0    6e-11
+  sp|Q863G3|COX8A_OTOCR Cytochrome c oxidase subunit 8A, mitochon...  55.8    2e-10
+  sp|Q64445|COX8A_MOUSE Cytochrome c oxidase subunit 8A, mitochon...  54.7    5e-10
+  sp|P80433|COX8A_RAT Cytochrome c oxidase subunit 8A, mitochondr...  54.7    5e-10
+  sp|Q863G2|COX8A_NYCCO Cytochrome c oxidase subunit 8A, mitochon...  54.7    6e-10
+  sp|Q863G7|COX8A_TRACR Cytochrome c oxidase subunit 8A, mitochon...  53.1    2e-09
+  sp|Q8SPI5|COX8A_MACFA Cytochrome c oxidase subunit 8A, mitochon...  52.8    3e-09
+  sp|Q863G8|COX8A_MACSL Cytochrome c oxidase subunit 8A, mitochon...  51.6    7e-09
+  sp|Q863G5|COX8A_SAISC Cytochrome c oxidase subunit 8A, mitochon...  51.6    7e-09
+  sp|Q863G1|COX8A_EULFU Cytochrome c oxidase subunit 8A, mitochon...  51.2    8e-09
+  sp|P60183|COX8A_PONPY Cytochrome c oxidase subunit 8A, mitochon...  50.8    1e-08
+  sp|P60182|COX8A_PANTR Cytochrome c oxidase subunit 8A, mitochon...  50.8    1e-08
+  sp|P60181|COX8A_PANPA Cytochrome c oxidase subunit 8A, mitochon...  50.8    1e-08
+  sp|Q862Z9|COX8A_HYLAG Cytochrome c oxidase subunit 8A, mitochon...  50.8    1e-08
+  sp|P10176|COX8A_HUMAN Cytochrome c oxidase subunit 8A, mitochon...  50.8    1e-08
+  sp|Q8SQ79|COX8A_GORGO Cytochrome c oxidase subunit 8A, mitochon...  50.4    2e-08
+  sp|Q862Z8|COX8A_THEGE Cytochrome c oxidase subunit 8A, mitochon...  49.7    3e-08
+  sp|Q8SQ78|COX8A_PAPHA Cytochrome c oxidase subunit 8A, mitochon...  49.7    3e-08
+  sp|Q863G9|COX8A_PAPAN Cytochrome c oxidase subunit 8A, mitochon...  49.7    3e-08
+  sp|Q863G6|COX8A_ATEBE Cytochrome c oxidase subunit 8A, mitochon...  48.9    6e-08
+  sp|Q7Z4L0|COX8C_HUMAN Cytochrome c oxidase subunit 8C, mitochon...  37.7    6e-04
+  sp|Q7YRF4|COX8C_EULFU Cytochrome c oxidase subunit 8C, mitochon...  34.7    0.007
+
+
+> sp|P10175|COX8B_BOVIN Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX8B PE=1 SV=3
+Length=70
+
+ Score = 141 bits (355),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH
+Sbjct  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+
+Query  61  LDNYKKSSAA  70
+           LDNYKKSSAA
+Sbjct  61  LDNYKKSSAA  70
+
+
+> sp|Q863F9|COX8B_TARSY Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Tarsius syrichta OX=1868482 GN=COX8B PE=3 SV=1
+Length=70
+
+ Score = 110 bits (274),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 51/68 (75%), Positives = 62/68 (91%), Gaps = 0/68 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RLAP +RLLQAPL+ WAVPKAH++AKPA+TPTSP EQA+GLSV F+SFL+P+GWVL H
+Sbjct  1   MSRLAPPLRLLQAPLKCWAVPKAHVSAKPARTPTSPMEQAVGLSVMFVSFLVPSGWVLSH  60
+
+Query  61  LDNYKKSS  68
+           L++YKKSS
+Sbjct  61  LESYKKSS  68
+
+
+> sp|Q863F8|COX8B_EULFU Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Eulemur fulvus fulvus OX=40322 GN=COX8B PE=3 SV=1
+Length=70
+
+ Score = 105 bits (263),  Expect = 7e-30, Method: Compositional matrix adjust.
+ Identities = 50/70 (71%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RL P +RLLQ PLR W VPK H++AKPA+TPTSP EQA+GLS+ FLSFL+PAGWVL H
+Sbjct  1   MPRLPPALRLLQPPLRCWVVPKLHVSAKPARTPTSPAEQAVGLSMMFLSFLVPAGWVLSH  60
+
+Query  61  LDNYKKSSAA  70
+           L++YKKSS A
+Sbjct  61  LESYKKSSTA  70
+
+
+> sp|Q863G0|COX8B_ATEBE Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Ateles belzebuth OX=9507 GN=COX8B PE=3 SV=1
+Length=70
+
+ Score = 103 bits (257),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 47/66 (71%), Positives = 57/66 (86%), Gaps = 0/66 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           ML L P +RLLQAPLR WAVPKAH++AKPA+TPTSP EQA+GLS  F++FL PAGW+L H
+Sbjct  1   MLSLRPALRLLQAPLRCWAVPKAHVSAKPAETPTSPAEQAVGLSFIFITFLGPAGWILSH  60
+
+Query  61  LDNYKK  66
+           ++NYKK
+Sbjct  61  VENYKK  66
+
+
+> sp|P48772|COX8B_MOUSE Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox8b PE=3 SV=1
+Length=70
+
+ Score = 93.6 bits (231),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 45/70 (64%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RL P +RLLQAP +   VPKAH++AKPAKTPTS  EQA+G+S   + F++PAGWVL H
+Sbjct  1   MPRLPPILRLLQAPAKFTVVPKAHVSAKPAKTPTSAVEQAVGISAIVVGFMVPAGWVLAH  60
+
+Query  61  LDNYKKSSAA  70
+           L++YKKSSAA
+Sbjct  61  LESYKKSSAA  70
+
+
+> sp|P16221|COX8B_RAT Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox8b PE=1 SV=3
+Length=70
+
+ Score = 87.4 bits (215),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 41/70 (59%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RL P +RLLQAP +   +PKA I++KPAK+PTS  +QA+G+SV    F++PAGWVL H
+Sbjct  1   MPRLPPILRLLQAPEKYTVIPKARISSKPAKSPTSAMDQAVGMSVIIAGFMVPAGWVLSH  60
+
+Query  61  LDNYKKSSAA  70
+           L++YK+SSAA
+Sbjct  61  LESYKRSSAA  70
+
+
+> sp|P14622|COX8A_BOVIN Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX8A PE=1 SV=1
+Length=69
+
+ Score = 61.6 bits (148),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 29/59 (49%), Positives = 38/59 (64%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L  P R   VP+A I +KP +      + AIGL+  FL FLLP+GWVL H++NYKK
+Sbjct  9   LRGLTGPARRLPVPRAQIHSKPPREQLGTMDIAIGLTSCFLCFLLPSGWVLSHMENYKK  67
+
+
+> sp|Q863G4|COX8A_TARSY Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Tarsius syrichta OX=1868482 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 57.0 bits (136),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 28/59 (47%), Positives = 37/59 (63%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A I +KP +      + AIG++  FL FLLPAGWVL HL++YKK
+Sbjct  9   LRGLAGSARRLPVPRAQIHSKPPREQLGTMDVAIGITSCFLCFLLPAGWVLSHLESYKK  67
+
+
+> sp|Q863G3|COX8A_OTOCR Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Otolemur crassicaudatus OX=9463 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 55.8 bits (133),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 27/59 (46%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP A + +KP +      + AIGL+  F+ FLLP+GWVL HL+NYKK
+Sbjct  9   LRGLTGSARRLPVPCARVHSKPPREQLGTMDIAIGLTSCFVCFLLPSGWVLSHLENYKK  67
+
+
+> sp|Q64445|COX8A_MOUSE Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox8a PE=3 SV=1
+Length=69
+
+ Score = 54.7 bits (130),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 26/59 (44%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + +KPA+      +  IGL+  F+  LLPAGWVL HL++YKK
+Sbjct  9   LRSLTGSARRLMVPRAQVHSKPAREQLGVLDITIGLTSCFVCCLLPAGWVLSHLESYKK  67
+
+
+> sp|P80433|COX8A_RAT Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox8a PE=1 SV=3
+Length=69
+
+ Score = 54.7 bits (130),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 26/59 (44%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L  P R   VP+A + +KP +      +  IGL+  F+  LLPAGWVL HL++YKK
+Sbjct  9   LRSLTGPARRLMVPRAQVHSKPPREQLGVLDITIGLTSCFVCCLLPAGWVLSHLESYKK  67
+
+
+> sp|Q863G2|COX8A_NYCCO Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Nycticebus coucang OX=9470 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 54.7 bits (130),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 26/59 (44%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   +P A + +KP +      + AIGL+  F+ FLLP+GWVL HL+NYKK
+Sbjct  9   LRGLTGSARRLPMPCARVHSKPPREQLGTMDIAIGLTSCFVCFLLPSGWVLSHLENYKK  67
+
+
+> sp|Q863G7|COX8A_TRACR Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Trachypithecus cristatus OX=122765 GN=COX8A PE=3 
+SV=1
+Length=69
+
+ Score = 53.1 bits (126),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 25/59 (42%), Positives = 37/59 (63%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A I + P +      E+AI L+  F++FLLPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARRLPVPRAKIHSMPPEEELGIMEKAIALTSCFVTFLLPAGWILSHLEDYKR  67
+
+
+> sp|Q8SPI5|COX8A_MACFA Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Macaca fascicularis OX=9541 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 52.8 bits (125),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E+AIGL+  F+S  LPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARRLPVPRAKVHSMPPEEELGIMEKAIGLTFCFVSLFLPAGWILSHLEDYKR  67
+
+
+> sp|Q863G8|COX8A_MACSL Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Macaca silenus OX=54601 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 51.6 bits (122),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E+AIGL+  F+S  LPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARWLPVPRAKVHSMPPEVELGIMEKAIGLTSCFVSLFLPAGWILSHLEDYKR  67
+
+
+> sp|Q863G5|COX8A_SAISC Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Saimiri sciureus OX=9521 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 51.6 bits (122),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 25/59 (42%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E AIG +   ++FLLPAGW+L HLD+YKK
+Sbjct  9   LRGLTGSARRLPVPRAQVHSMPPEQKLGVLELAIGFTSCLVTFLLPAGWILSHLDSYKK  67
+
+
+> sp|Q863G1|COX8A_EULFU Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Eulemur fulvus fulvus OX=40322 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 51.2 bits (121),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 25/59 (42%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   V +A + +KP +      + AIGL+  F+ FLLP+GWVL HL+ YKK
+Sbjct  9   LRGLTGSARRLPVLRAQVHSKPPREKLGTMDVAIGLTSCFVCFLLPSGWVLSHLETYKK  67
+
+
+> sp|P60183|COX8A_PONPY Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Pongo pygmaeus OX=9600 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 50.8 bits (120),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y++
+Sbjct  9   LRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETYRR  67
+
+
+> sp|P60182|COX8A_PANTR Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Pan troglodytes OX=9598 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 50.8 bits (120),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y++
+Sbjct  9   LRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETYRR  67
+
+
+> sp|P60181|COX8A_PANPA Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Pan paniscus OX=9597 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 50.8 bits (120),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y++
+Sbjct  9   LRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETYRR  67
+
+
+> sp|Q862Z9|COX8A_HYLAG Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Hylobates agilis OX=9579 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 50.8 bits (120),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y++
+Sbjct  9   LRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETYRR  67
+
+
+> sp|P10176|COX8A_HUMAN Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX8A PE=1 SV=2
+Length=69
+
+ Score = 50.8 bits (120),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y++
+Sbjct  9   LRGLTGSARRLPVPRAKIHSLPPEGKLGIMELAVGLTSCFVTFLLPAGWILSHLETYRR  67
+
+
+> sp|Q8SQ79|COX8A_GORGO Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Gorilla gorilla gorilla OX=9595 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 50.4 bits (119),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A I + P        E A+GL+  F++FLLPAGW+L HL+ Y++
+Sbjct  9   LRGLTGSARRLPVPRAKIHSLPPDEKLGIMELAVGLTSCFVTFLLPAGWILSHLETYRR  67
+
+
+> sp|Q862Z8|COX8A_THEGE Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Theropithecus gelada OX=9565 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 49.7 bits (117),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 23/59 (39%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E+AI L+  F+S  LPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARRLPVPRAKVHSMPPEEELGTLEKAIALTSCFVSLFLPAGWILSHLEDYKR  67
+
+
+> sp|Q8SQ78|COX8A_PAPHA Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Papio hamadryas OX=9557 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 49.7 bits (117),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 23/59 (39%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E+AI L+  F+S  LPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARRLPVPRAKVHSMPPEEELGTLEKAIALTSCFVSLFLPAGWILSHLEDYKR  67
+
+
+> sp|Q863G9|COX8A_PAPAN Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Papio anubis OX=9555 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 49.7 bits (117),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 23/59 (39%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E+AI L+  F+S  LPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARRLPVPRAKVHSMPPEEELGTLEKAIALTSCFVSLFLPAGWILSHLEDYKR  67
+
+
+> sp|Q863G6|COX8A_ATEBE Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Ateles belzebuth OX=9507 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 48.9 bits (115),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 23/59 (39%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E AIG +   ++FLLPAGW++ HL++YKK
+Sbjct  9   LRGLTGSARRLPVPRAQVHSMPPEQKLGVLELAIGFTSCMVTFLLPAGWIMSHLESYKK  67
+
+
+> sp|Q7Z4L0|COX8C_HUMAN Cytochrome c oxidase subunit 8C, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX8C PE=2 SV=1
+Length=72
+
+ Score = 37.7 bits (86),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  21  PKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKKS  67
+           P+   +  P + P S  E A+GL V F +FL PA +VL +L  ++++
+Sbjct  26  PRFAHSGPPRQRPLSAAEMAVGLVVFFTTFLTPAAYVLGNLKQFRRN  72
+
+
+> sp|Q7YRF4|COX8C_EULFU Cytochrome c oxidase subunit 8C, mitochondrial 
+OS=Eulemur fulvus fulvus OX=40322 GN=COX8C PE=3 SV=1
+Length=71
+
+ Score = 34.7 bits (78),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 19/66 (29%), Positives = 34/66 (52%), Gaps = 1/66 (2%)
+
+Query  3   RLAPTVRLLQAPLRGWAVPKAHITAKPAKT-PTSPKEQAIGLSVTFLSFLLPAGWVLYHL  61
+           R+ P +R L+  L           ++P +  P S  E A+G+ V F +FL P+ +VL +L
+Sbjct  6   RVCPFIRRLRVALLCLRPGHRFAHSEPQRQRPASALEMAVGIVVIFSAFLTPSAYVLSNL  65
+
+Query  62  DNYKKS  67
+             +++ 
+Sbjct  66  SQFRRE  71
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.132    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4935436912
+Results from round 2
+
+
+Query= P10175|2ybbX
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q863G3|COX8A_OTOCR Cytochrome c oxidase subunit 8A, mitochon...  97.0    3e-26
+  sp|P14622|COX8A_BOVIN Cytochrome c oxidase subunit 8A, mitochon...  96.3    5e-26
+  sp|Q863G2|COX8A_NYCCO Cytochrome c oxidase subunit 8A, mitochon...  95.1    1e-25
+  sp|Q863G4|COX8A_TARSY Cytochrome c oxidase subunit 8A, mitochon...  94.3    3e-25
+  sp|Q863G1|COX8A_EULFU Cytochrome c oxidase subunit 8A, mitochon...  94.3    3e-25
+  sp|P10175|COX8B_BOVIN Cytochrome c oxidase subunit 8B, mitochon...  92.8    1e-24
+  sp|Q863G7|COX8A_TRACR Cytochrome c oxidase subunit 8A, mitochon...  92.0    2e-24
+  sp|Q64445|COX8A_MOUSE Cytochrome c oxidase subunit 8A, mitochon...  92.0    2e-24
+  sp|Q8SPI5|COX8A_MACFA Cytochrome c oxidase subunit 8A, mitochon...  92.0    2e-24
+  sp|Q863F9|COX8B_TARSY Cytochrome c oxidase subunit 8B, mitochon...  91.3    4e-24
+  sp|P80433|COX8A_RAT Cytochrome c oxidase subunit 8A, mitochondr...  90.9    5e-24
+  sp|Q863F8|COX8B_EULFU Cytochrome c oxidase subunit 8B, mitochon...  89.7    2e-23
+  sp|Q863G0|COX8B_ATEBE Cytochrome c oxidase subunit 8B, mitochon...  89.3    2e-23
+  sp|Q863G6|COX8A_ATEBE Cytochrome c oxidase subunit 8A, mitochon...  89.3    2e-23
+  sp|P60183|COX8A_PONPY Cytochrome c oxidase subunit 8A, mitochon...  88.9    3e-23
+  sp|P60182|COX8A_PANTR Cytochrome c oxidase subunit 8A, mitochon...  88.9    3e-23
+  sp|P60181|COX8A_PANPA Cytochrome c oxidase subunit 8A, mitochon...  88.9    3e-23
+  sp|Q862Z9|COX8A_HYLAG Cytochrome c oxidase subunit 8A, mitochon...  88.9    3e-23
+  sp|Q863G5|COX8A_SAISC Cytochrome c oxidase subunit 8A, mitochon...  88.9    3e-23
+  sp|Q8SQ79|COX8A_GORGO Cytochrome c oxidase subunit 8A, mitochon...  88.9    4e-23
+  sp|P16221|COX8B_RAT Cytochrome c oxidase subunit 8B, mitochondr...  88.9    4e-23
+  sp|P48772|COX8B_MOUSE Cytochrome c oxidase subunit 8B, mitochon...  88.2    6e-23
+  sp|Q863G8|COX8A_MACSL Cytochrome c oxidase subunit 8A, mitochon...  88.2    8e-23
+  sp|Q862Z8|COX8A_THEGE Cytochrome c oxidase subunit 8A, mitochon...  87.4    1e-22
+  sp|Q8SQ78|COX8A_PAPHA Cytochrome c oxidase subunit 8A, mitochon...  87.4    1e-22
+  sp|Q863G9|COX8A_PAPAN Cytochrome c oxidase subunit 8A, mitochon...  87.4    1e-22
+  sp|P10176|COX8A_HUMAN Cytochrome c oxidase subunit 8A, mitochon...  87.4    1e-22
+  sp|Q7Z4L0|COX8C_HUMAN Cytochrome c oxidase subunit 8C, mitochon...  58.1    3e-11
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q7YRF4|COX8C_EULFU Cytochrome c oxidase subunit 8C, mitochon...  52.0    5e-09
+  sp|A6H666|COX8C_MOUSE Cytochrome c oxidase subunit 8C, mitochon...  43.5    7e-06
+  sp|Q7TNN2|COX8C_RAT Cytochrome c oxidase subunit 8C, mitochondr...  42.7    1e-05
+
+
+> sp|Q863G3|COX8A_OTOCR Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Otolemur crassicaudatus OX=9463 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 97.0 bits (240),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 27/62 (44%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP A + +KP +      + AIGL+  F+ FLLP+GWVL HL+NY
+Sbjct  6   PLLLRGLTGSARRLPVPCARVHSKPPREQLGTMDIAIGLTSCFVCFLLPSGWVLSHLENY  65
+
+Query  65  KK  66
+           KK
+Sbjct  66  KK  67
+
+
+> sp|P14622|COX8A_BOVIN Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX8A PE=1 SV=1
+Length=69
+
+ Score = 96.3 bits (238),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 29/62 (47%), Positives = 38/62 (61%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L  P R   VP+A I +KP +      + AIGL+  FL FLLP+GWVL H++NY
+Sbjct  6   PLLLRGLTGPARRLPVPRAQIHSKPPREQLGTMDIAIGLTSCFLCFLLPSGWVLSHMENY  65
+
+Query  65  KK  66
+           KK
+Sbjct  66  KK  67
+
+
+> sp|Q863G2|COX8A_NYCCO Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Nycticebus coucang OX=9470 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 95.1 bits (235),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 26/62 (42%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   +P A + +KP +      + AIGL+  F+ FLLP+GWVL HL+NY
+Sbjct  6   PLLLRGLTGSARRLPMPCARVHSKPPREQLGTMDIAIGLTSCFVCFLLPSGWVLSHLENY  65
+
+Query  65  KK  66
+           KK
+Sbjct  66  KK  67
+
+
+> sp|Q863G4|COX8A_TARSY Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Tarsius syrichta OX=1868482 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 94.3 bits (233),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 28/62 (45%), Positives = 37/62 (60%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I +KP +      + AIG++  FL FLLPAGWVL HL++Y
+Sbjct  6   PLLLRGLAGSARRLPVPRAQIHSKPPREQLGTMDVAIGITSCFLCFLLPAGWVLSHLESY  65
+
+Query  65  KK  66
+           KK
+Sbjct  66  KK  67
+
+
+> sp|Q863G1|COX8A_EULFU Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Eulemur fulvus fulvus OX=40322 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 94.3 bits (233),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 25/62 (40%), Positives = 35/62 (56%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   V +A + +KP +      + AIGL+  F+ FLLP+GWVL HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVLRAQVHSKPPREKLGTMDVAIGLTSCFVCFLLPSGWVLSHLETY  65
+
+Query  65  KK  66
+           KK
+Sbjct  66  KK  67
+
+
+> sp|P10175|COX8B_BOVIN Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX8B PE=1 SV=3
+Length=70
+
+ Score = 92.8 bits (229),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH
+Sbjct  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+
+Query  61  LDNYKKSSAA  70
+           LDNYKKSSAA
+Sbjct  61  LDNYKKSSAA  70
+
+
+> sp|Q863G7|COX8A_TRACR Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Trachypithecus cristatus OX=122765 GN=COX8A PE=3 
+SV=1
+Length=69
+
+ Score = 92.0 bits (227),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 25/59 (42%), Positives = 37/59 (63%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A I + P +      E+AI L+  F++FLLPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARRLPVPRAKIHSMPPEEELGIMEKAIALTSCFVTFLLPAGWILSHLEDYKR  67
+
+
+> sp|Q64445|COX8A_MOUSE Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox8a PE=3 SV=1
+Length=69
+
+ Score = 92.0 bits (227),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 26/62 (42%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A + +KPA+      +  IGL+  F+  LLPAGWVL HL++Y
+Sbjct  6   PLLLRSLTGSARRLMVPRAQVHSKPAREQLGVLDITIGLTSCFVCCLLPAGWVLSHLESY  65
+
+Query  65  KK  66
+           KK
+Sbjct  66  KK  67
+
+
+> sp|Q8SPI5|COX8A_MACFA Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Macaca fascicularis OX=9541 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 92.0 bits (227),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E+AIGL+  F+S  LPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARRLPVPRAKVHSMPPEEELGIMEKAIGLTFCFVSLFLPAGWILSHLEDYKR  67
+
+
+> sp|Q863F9|COX8B_TARSY Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Tarsius syrichta OX=1868482 GN=COX8B PE=3 SV=1
+Length=70
+
+ Score = 91.3 bits (225),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 51/69 (74%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RLAP +RLLQAPL+ WAVPKAH++AKPA+TPTSP EQA+GLSV F+SFL+P+GWVL H
+Sbjct  1   MSRLAPPLRLLQAPLKCWAVPKAHVSAKPARTPTSPMEQAVGLSVMFVSFLVPSGWVLSH  60
+
+Query  61  LDNYKKSSA  69
+           L++YKKSS 
+Sbjct  61  LESYKKSST  69
+
+
+> sp|P80433|COX8A_RAT Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox8a PE=1 SV=3
+Length=69
+
+ Score = 90.9 bits (224),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 29/67 (43%), Positives = 39/67 (58%), Gaps = 1/67 (1%)
+
+Query  1   MLRLAPTV-RLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLY  59
+           M  L P + R L  P R   VP+A + +KP +      +  IGL+  F+  LLPAGWVL 
+Sbjct  1   MSSLTPLLLRSLTGPARRLMVPRAQVHSKPPREQLGVLDITIGLTSCFVCCLLPAGWVLS  60
+
+Query  60  HLDNYKK  66
+           HL++YKK
+Sbjct  61  HLESYKK  67
+
+
+> sp|Q863F8|COX8B_EULFU Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Eulemur fulvus fulvus OX=40322 GN=COX8B PE=3 SV=1
+Length=70
+
+ Score = 89.7 bits (221),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 50/70 (71%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RL P +RLLQ PLR W VPK H++AKPA+TPTSP EQA+GLS+ FLSFL+PAGWVL H
+Sbjct  1   MPRLPPALRLLQPPLRCWVVPKLHVSAKPARTPTSPAEQAVGLSMMFLSFLVPAGWVLSH  60
+
+Query  61  LDNYKKSSAA  70
+           L++YKKSS A
+Sbjct  61  LESYKKSSTA  70
+
+
+> sp|Q863G0|COX8B_ATEBE Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Ateles belzebuth OX=9507 GN=COX8B PE=3 SV=1
+Length=70
+
+ Score = 89.3 bits (220),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 48/70 (69%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           ML L P +RLLQAPLR WAVPKAH++AKPA+TPTSP EQA+GLS  F++FL PAGW+L H
+Sbjct  1   MLSLRPALRLLQAPLRCWAVPKAHVSAKPAETPTSPAEQAVGLSFIFITFLGPAGWILSH  60
+
+Query  61  LDNYKKSSAA  70
+           ++NYKK   A
+Sbjct  61  VENYKKRPRA  70
+
+
+> sp|Q863G6|COX8A_ATEBE Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Ateles belzebuth OX=9507 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 89.3 bits (220),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 23/62 (37%), Positives = 35/62 (56%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A + + P +      E AIG +   ++FLLPAGW++ HL++Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAQVHSMPPEQKLGVLELAIGFTSCMVTFLLPAGWIMSHLESY  65
+
+Query  65  KK  66
+           KK
+Sbjct  66  KK  67
+
+
+> sp|P60183|COX8A_PONPY Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Pongo pygmaeus OX=9600 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.9 bits (219),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|P60182|COX8A_PANTR Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Pan troglodytes OX=9598 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.9 bits (219),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|P60181|COX8A_PANPA Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Pan paniscus OX=9597 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.9 bits (219),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|Q862Z9|COX8A_HYLAG Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Hylobates agilis OX=9579 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.9 bits (219),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|Q863G5|COX8A_SAISC Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Saimiri sciureus OX=9521 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.9 bits (219),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 25/62 (40%), Positives = 35/62 (56%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A + + P +      E AIG +   ++FLLPAGW+L HLD+Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAQVHSMPPEQKLGVLELAIGFTSCLVTFLLPAGWILSHLDSY  65
+
+Query  65  KK  66
+           KK
+Sbjct  66  KK  67
+
+
+> sp|Q8SQ79|COX8A_GORGO Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Gorilla gorilla gorilla OX=9595 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.9 bits (219),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 35/62 (56%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P        E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPDEKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|P16221|COX8B_RAT Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox8b PE=1 SV=3
+Length=70
+
+ Score = 88.9 bits (219),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 41/70 (59%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RL P +RLLQAP +   +PKA I++KPAK+PTS  +QA+G+SV    F++PAGWVL H
+Sbjct  1   MPRLPPILRLLQAPEKYTVIPKARISSKPAKSPTSAMDQAVGMSVIIAGFMVPAGWVLSH  60
+
+Query  61  LDNYKKSSAA  70
+           L++YK+SSAA
+Sbjct  61  LESYKRSSAA  70
+
+
+> sp|P48772|COX8B_MOUSE Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox8b PE=3 SV=1
+Length=70
+
+ Score = 88.2 bits (217),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 45/70 (64%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RL P +RLLQAP +   VPKAH++AKPAKTPTS  EQA+G+S   + F++PAGWVL H
+Sbjct  1   MPRLPPILRLLQAPAKFTVVPKAHVSAKPAKTPTSAVEQAVGISAIVVGFMVPAGWVLAH  60
+
+Query  61  LDNYKKSSAA  70
+           L++YKKSSAA
+Sbjct  61  LESYKKSSAA  70
+
+
+> sp|Q863G8|COX8A_MACSL Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Macaca silenus OX=54601 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.2 bits (217),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E+AIGL+  F+S  LPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARWLPVPRAKVHSMPPEVELGIMEKAIGLTSCFVSLFLPAGWILSHLEDYKR  67
+
+
+> sp|Q862Z8|COX8A_THEGE Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Theropithecus gelada OX=9565 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 23/59 (39%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E+AI L+  F+S  LPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARRLPVPRAKVHSMPPEEELGTLEKAIALTSCFVSLFLPAGWILSHLEDYKR  67
+
+
+> sp|Q8SQ78|COX8A_PAPHA Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Papio hamadryas OX=9557 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 23/59 (39%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E+AI L+  F+S  LPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARRLPVPRAKVHSMPPEEELGTLEKAIALTSCFVSLFLPAGWILSHLEDYKR  67
+
+
+> sp|Q863G9|COX8A_PAPAN Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Papio anubis OX=9555 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 23/59 (39%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  8   VRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKK  66
+           +R L    R   VP+A + + P +      E+AI L+  F+S  LPAGW+L HL++YK+
+Sbjct  9   LRGLTGSARRLPVPRAKVHSMPPEEELGTLEKAIALTSCFVSLFLPAGWILSHLEDYKR  67
+
+
+> sp|P10176|COX8A_HUMAN Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX8A PE=1 SV=2
+Length=69
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPEGKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|Q7Z4L0|COX8C_HUMAN Cytochrome c oxidase subunit 8C, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX8C PE=2 SV=1
+Length=72
+
+ Score = 58.1 bits (139),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 28/49 (57%), Gaps = 0/49 (0%)
+
+Query  19  AVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKKS  67
+             P+   +  P + P S  E A+GL V F +FL PA +VL +L  ++++
+Sbjct  24  PAPRFAHSGPPRQRPLSAAEMAVGLVVFFTTFLTPAAYVLGNLKQFRRN  72
+
+
+> sp|Q7YRF4|COX8C_EULFU Cytochrome c oxidase subunit 8C, mitochondrial 
+OS=Eulemur fulvus fulvus OX=40322 GN=COX8C PE=3 SV=1
+Length=71
+
+ Score = 52.0 bits (123),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 18/67 (27%), Positives = 34/67 (51%), Gaps = 1/67 (1%)
+
+Query  1   MLRLAPTVRLLQAPLRGW-AVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLY  59
+           + R+ P +R L+  L       +   +    + P S  E A+G+ V F +FL P+ +VL 
+Sbjct  4   LPRVCPFIRRLRVALLCLRPGHRFAHSEPQRQRPASALEMAVGIVVIFSAFLTPSAYVLS  63
+
+Query  60  HLDNYKK  66
+           +L  +++
+Sbjct  64  NLSQFRR  70
+
+
+> sp|A6H666|COX8C_MOUSE Cytochrome c oxidase subunit 8C, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox8c PE=3 SV=1
+Length=72
+
+ Score = 43.5 bits (101),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 16/44 (36%), Positives = 24/44 (55%), Gaps = 0/44 (0%)
+
+Query  22  KAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYK  65
+           +   +  P K   SP E A+G+ V F +F +PA +VL  L  +K
+Sbjct  27  RLSHSESPQKKILSPTESAVGIVVFFTTFYIPAAYVLSSLKYFK  70
+
+
+> sp|Q7TNN2|COX8C_RAT Cytochrome c oxidase subunit 8C, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox8c PE=3 SV=1
+Length=72
+
+ Score = 42.7 bits (99),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 12/44 (27%), Positives = 23/44 (52%), Gaps = 0/44 (0%)
+
+Query  22  KAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYK  65
+           +   +  P     +P E  +G+ V F +F +PA +V+ +L  +K
+Sbjct  27  RLSHSESPQNQVLTPTESVVGIVVFFATFFIPAAYVMSNLKFFK  70
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.136    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0397    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4935436912
+Results from round 3
+
+
+Query= P10175|2ybbX
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P14622|COX8A_BOVIN Cytochrome c oxidase subunit 8A, mitochon...  96.3    4e-26
+  sp|Q863G3|COX8A_OTOCR Cytochrome c oxidase subunit 8A, mitochon...  96.3    4e-26
+  sp|Q863G2|COX8A_NYCCO Cytochrome c oxidase subunit 8A, mitochon...  94.7    2e-25
+  sp|Q863G4|COX8A_TARSY Cytochrome c oxidase subunit 8A, mitochon...  94.7    2e-25
+  sp|Q863G1|COX8A_EULFU Cytochrome c oxidase subunit 8A, mitochon...  94.0    4e-25
+  sp|Q64445|COX8A_MOUSE Cytochrome c oxidase subunit 8A, mitochon...  92.0    2e-24
+  sp|Q863G6|COX8A_ATEBE Cytochrome c oxidase subunit 8A, mitochon...  91.3    4e-24
+  sp|Q8SPI5|COX8A_MACFA Cytochrome c oxidase subunit 8A, mitochon...  90.5    8e-24
+  sp|Q863G7|COX8A_TRACR Cytochrome c oxidase subunit 8A, mitochon...  90.5    9e-24
+  sp|P80433|COX8A_RAT Cytochrome c oxidase subunit 8A, mitochondr...  90.5    9e-24
+  sp|Q863G0|COX8B_ATEBE Cytochrome c oxidase subunit 8B, mitochon...  90.1    1e-23
+  sp|P10175|COX8B_BOVIN Cytochrome c oxidase subunit 8B, mitochon...  89.7    2e-23
+  sp|Q863G5|COX8A_SAISC Cytochrome c oxidase subunit 8A, mitochon...  89.3    2e-23
+  sp|Q863F9|COX8B_TARSY Cytochrome c oxidase subunit 8B, mitochon...  89.0    3e-23
+  sp|Q8SQ79|COX8A_GORGO Cytochrome c oxidase subunit 8A, mitochon...  88.6    5e-23
+  sp|P60183|COX8A_PONPY Cytochrome c oxidase subunit 8A, mitochon...  88.6    5e-23
+  sp|P60182|COX8A_PANTR Cytochrome c oxidase subunit 8A, mitochon...  88.6    5e-23
+  sp|P60181|COX8A_PANPA Cytochrome c oxidase subunit 8A, mitochon...  88.6    5e-23
+  sp|Q862Z9|COX8A_HYLAG Cytochrome c oxidase subunit 8A, mitochon...  88.6    5e-23
+  sp|Q863F8|COX8B_EULFU Cytochrome c oxidase subunit 8B, mitochon...  87.8    9e-23
+  sp|P10176|COX8A_HUMAN Cytochrome c oxidase subunit 8A, mitochon...  87.0    2e-22
+  sp|Q863G8|COX8A_MACSL Cytochrome c oxidase subunit 8A, mitochon...  87.0    2e-22
+  sp|P16221|COX8B_RAT Cytochrome c oxidase subunit 8B, mitochondr...  87.0    2e-22
+  sp|P48772|COX8B_MOUSE Cytochrome c oxidase subunit 8B, mitochon...  86.3    4e-22
+  sp|Q862Z8|COX8A_THEGE Cytochrome c oxidase subunit 8A, mitochon...  86.3    4e-22
+  sp|Q8SQ78|COX8A_PAPHA Cytochrome c oxidase subunit 8A, mitochon...  86.3    4e-22
+  sp|Q863G9|COX8A_PAPAN Cytochrome c oxidase subunit 8A, mitochon...  86.3    4e-22
+  sp|Q7YRF4|COX8C_EULFU Cytochrome c oxidase subunit 8C, mitochon...  71.6    2e-16
+  sp|Q7Z4L0|COX8C_HUMAN Cytochrome c oxidase subunit 8C, mitochon...  61.6    1e-12
+  sp|Q7TNN2|COX8C_RAT Cytochrome c oxidase subunit 8C, mitochondr...  58.5    2e-11
+  sp|A6H666|COX8C_MOUSE Cytochrome c oxidase subunit 8C, mitochon...  58.1    3e-11
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P14622|COX8A_BOVIN Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX8A PE=1 SV=1
+Length=69
+
+ Score = 96.3 bits (238),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 29/63 (46%), Positives = 38/63 (60%), Gaps = 0/63 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L  P R   VP+A I +KP +      + AIGL+  FL FLLP+GWVL H++NY
+Sbjct  6   PLLLRGLTGPARRLPVPRAQIHSKPPREQLGTMDIAIGLTSCFLCFLLPSGWVLSHMENY  65
+
+Query  65  KKS  67
+           KK 
+Sbjct  66  KKR  68
+
+
+> sp|Q863G3|COX8A_OTOCR Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Otolemur crassicaudatus OX=9463 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 96.3 bits (238),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 0/63 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP A + +KP +      + AIGL+  F+ FLLP+GWVL HL+NY
+Sbjct  6   PLLLRGLTGSARRLPVPCARVHSKPPREQLGTMDIAIGLTSCFVCFLLPSGWVLSHLENY  65
+
+Query  65  KKS  67
+           KK 
+Sbjct  66  KKR  68
+
+
+> sp|Q863G2|COX8A_NYCCO Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Nycticebus coucang OX=9470 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 26/63 (41%), Positives = 36/63 (57%), Gaps = 0/63 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   +P A + +KP +      + AIGL+  F+ FLLP+GWVL HL+NY
+Sbjct  6   PLLLRGLTGSARRLPMPCARVHSKPPREQLGTMDIAIGLTSCFVCFLLPSGWVLSHLENY  65
+
+Query  65  KKS  67
+           KK 
+Sbjct  66  KKR  68
+
+
+> sp|Q863G4|COX8A_TARSY Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Tarsius syrichta OX=1868482 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 28/63 (44%), Positives = 37/63 (59%), Gaps = 0/63 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I +KP +      + AIG++  FL FLLPAGWVL HL++Y
+Sbjct  6   PLLLRGLAGSARRLPVPRAQIHSKPPREQLGTMDVAIGITSCFLCFLLPAGWVLSHLESY  65
+
+Query  65  KKS  67
+           KK 
+Sbjct  66  KKR  68
+
+
+> sp|Q863G1|COX8A_EULFU Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Eulemur fulvus fulvus OX=40322 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 94.0 bits (232),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 25/63 (40%), Positives = 35/63 (56%), Gaps = 0/63 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   V +A + +KP +      + AIGL+  F+ FLLP+GWVL HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVLRAQVHSKPPREKLGTMDVAIGLTSCFVCFLLPSGWVLSHLETY  65
+
+Query  65  KKS  67
+           KK 
+Sbjct  66  KKR  68
+
+
+> sp|Q64445|COX8A_MOUSE Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox8a PE=3 SV=1
+Length=69
+
+ Score = 92.0 bits (227),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 26/63 (41%), Positives = 36/63 (57%), Gaps = 0/63 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A + +KPA+      +  IGL+  F+  LLPAGWVL HL++Y
+Sbjct  6   PLLLRSLTGSARRLMVPRAQVHSKPAREQLGVLDITIGLTSCFVCCLLPAGWVLSHLESY  65
+
+Query  65  KKS  67
+           KK 
+Sbjct  66  KKR  68
+
+
+> sp|Q863G6|COX8A_ATEBE Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Ateles belzebuth OX=9507 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 91.3 bits (225),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 23/63 (37%), Positives = 35/63 (56%), Gaps = 0/63 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A + + P +      E AIG +   ++FLLPAGW++ HL++Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAQVHSMPPEQKLGVLELAIGFTSCMVTFLLPAGWIMSHLESY  65
+
+Query  65  KKS  67
+           KK 
+Sbjct  66  KKR  68
+
+
+> sp|Q8SPI5|COX8A_MACFA Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Macaca fascicularis OX=9541 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 90.5 bits (223),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 36/61 (59%), Gaps = 0/61 (0%)
+
+Query  6   PTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYK  65
+             +R L    R   VP+A + + P +      E+AIGL+  F+S  LPAGW+L HL++YK
+Sbjct  7   LLLRGLTGSARRLPVPRAKVHSMPPEEELGIMEKAIGLTFCFVSLFLPAGWILSHLEDYK  66
+
+Query  66  K  66
+           +
+Sbjct  67  R  67
+
+
+> sp|Q863G7|COX8A_TRACR Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Trachypithecus cristatus OX=122765 GN=COX8A PE=3 
+SV=1
+Length=69
+
+ Score = 90.5 bits (223),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 37/61 (61%), Gaps = 0/61 (0%)
+
+Query  6   PTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYK  65
+             +R L    R   VP+A I + P +      E+AI L+  F++FLLPAGW+L HL++YK
+Sbjct  7   LLLRGLTGSARRLPVPRAKIHSMPPEEELGIMEKAIALTSCFVTFLLPAGWILSHLEDYK  66
+
+Query  66  K  66
+           +
+Sbjct  67  R  67
+
+
+> sp|P80433|COX8A_RAT Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox8a PE=1 SV=3
+Length=69
+
+ Score = 90.5 bits (223),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 26/63 (41%), Positives = 36/63 (57%), Gaps = 0/63 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L  P R   VP+A + +KP +      +  IGL+  F+  LLPAGWVL HL++Y
+Sbjct  6   PLLLRSLTGPARRLMVPRAQVHSKPPREQLGVLDITIGLTSCFVCCLLPAGWVLSHLESY  65
+
+Query  65  KKS  67
+           KK 
+Sbjct  66  KKR  68
+
+
+> sp|Q863G0|COX8B_ATEBE Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Ateles belzebuth OX=9507 GN=COX8B PE=3 SV=1
+Length=70
+
+ Score = 90.1 bits (222),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 48/70 (69%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           ML L P +RLLQAPLR WAVPKAH++AKPA+TPTSP EQA+GLS  F++FL PAGW+L H
+Sbjct  1   MLSLRPALRLLQAPLRCWAVPKAHVSAKPAETPTSPAEQAVGLSFIFITFLGPAGWILSH  60
+
+Query  61  LDNYKKSSAA  70
+           ++NYKK   A
+Sbjct  61  VENYKKRPRA  70
+
+
+> sp|P10175|COX8B_BOVIN Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX8B PE=1 SV=3
+Length=70
+
+ Score = 89.7 bits (221),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH
+Sbjct  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+
+Query  61  LDNYKKSSAA  70
+           LDNYKKSSAA
+Sbjct  61  LDNYKKSSAA  70
+
+
+> sp|Q863G5|COX8A_SAISC Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Saimiri sciureus OX=9521 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 89.3 bits (220),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 25/63 (40%), Positives = 35/63 (56%), Gaps = 0/63 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A + + P +      E AIG +   ++FLLPAGW+L HLD+Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAQVHSMPPEQKLGVLELAIGFTSCLVTFLLPAGWILSHLDSY  65
+
+Query  65  KKS  67
+           KK 
+Sbjct  66  KKR  68
+
+
+> sp|Q863F9|COX8B_TARSY Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Tarsius syrichta OX=1868482 GN=COX8B PE=3 SV=1
+Length=70
+
+ Score = 89.0 bits (219),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 51/69 (74%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RLAP +RLLQAPL+ WAVPKAH++AKPA+TPTSP EQA+GLSV F+SFL+P+GWVL H
+Sbjct  1   MSRLAPPLRLLQAPLKCWAVPKAHVSAKPARTPTSPMEQAVGLSVMFVSFLVPSGWVLSH  60
+
+Query  61  LDNYKKSSA  69
+           L++YKKSS 
+Sbjct  61  LESYKKSST  69
+
+
+> sp|Q8SQ79|COX8A_GORGO Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Gorilla gorilla gorilla OX=9595 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.6 bits (218),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 35/62 (56%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P        E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPDEKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|P60183|COX8A_PONPY Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Pongo pygmaeus OX=9600 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.6 bits (218),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|P60182|COX8A_PANTR Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Pan troglodytes OX=9598 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.6 bits (218),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|P60181|COX8A_PANPA Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Pan paniscus OX=9597 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.6 bits (218),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|Q862Z9|COX8A_HYLAG Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Hylobates agilis OX=9579 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 88.6 bits (218),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPEEKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|Q863F8|COX8B_EULFU Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Eulemur fulvus fulvus OX=40322 GN=COX8B PE=3 SV=1
+Length=70
+
+ Score = 87.8 bits (216),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 50/70 (71%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RL P +RLLQ PLR W VPK H++AKPA+TPTSP EQA+GLS+ FLSFL+PAGWVL H
+Sbjct  1   MPRLPPALRLLQPPLRCWVVPKLHVSAKPARTPTSPAEQAVGLSMMFLSFLVPAGWVLSH  60
+
+Query  61  LDNYKKSSAA  70
+           L++YKKSS A
+Sbjct  61  LESYKKSSTA  70
+
+
+> sp|P10176|COX8A_HUMAN Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX8A PE=1 SV=2
+Length=69
+
+ Score = 87.0 bits (214),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  5   APTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNY  64
+              +R L    R   VP+A I + P +      E A+GL+  F++FLLPAGW+L HL+ Y
+Sbjct  6   PLLLRGLTGSARRLPVPRAKIHSLPPEGKLGIMELAVGLTSCFVTFLLPAGWILSHLETY  65
+
+Query  65  KK  66
+           ++
+Sbjct  66  RR  67
+
+
+> sp|Q863G8|COX8A_MACSL Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Macaca silenus OX=54601 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 87.0 bits (214),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 36/61 (59%), Gaps = 0/61 (0%)
+
+Query  6   PTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYK  65
+             +R L    R   VP+A + + P +      E+AIGL+  F+S  LPAGW+L HL++YK
+Sbjct  7   LLLRGLTGSARWLPVPRAKVHSMPPEVELGIMEKAIGLTSCFVSLFLPAGWILSHLEDYK  66
+
+Query  66  K  66
+           +
+Sbjct  67  R  67
+
+
+> sp|P16221|COX8B_RAT Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox8b PE=1 SV=3
+Length=70
+
+ Score = 87.0 bits (214),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 41/70 (59%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RL P +RLLQAP +   +PKA I++KPAK+PTS  +QA+G+SV    F++PAGWVL H
+Sbjct  1   MPRLPPILRLLQAPEKYTVIPKARISSKPAKSPTSAMDQAVGMSVIIAGFMVPAGWVLSH  60
+
+Query  61  LDNYKKSSAA  70
+           L++YK+SSAA
+Sbjct  61  LESYKRSSAA  70
+
+
+> sp|P48772|COX8B_MOUSE Cytochrome c oxidase subunit 8B, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox8b PE=3 SV=1
+Length=70
+
+ Score = 86.3 bits (212),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 45/70 (64%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  1   MLRLAPTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYH  60
+           M RL P +RLLQAP +   VPKAH++AKPAKTPTS  EQA+G+S   + F++PAGWVL H
+Sbjct  1   MPRLPPILRLLQAPAKFTVVPKAHVSAKPAKTPTSAVEQAVGISAIVVGFMVPAGWVLAH  60
+
+Query  61  LDNYKKSSAA  70
+           L++YKKSSAA
+Sbjct  61  LESYKKSSAA  70
+
+
+> sp|Q862Z8|COX8A_THEGE Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Theropithecus gelada OX=9565 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 86.3 bits (212),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 23/61 (38%), Positives = 35/61 (57%), Gaps = 0/61 (0%)
+
+Query  6   PTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYK  65
+             +R L    R   VP+A + + P +      E+AI L+  F+S  LPAGW+L HL++YK
+Sbjct  7   LLLRGLTGSARRLPVPRAKVHSMPPEEELGTLEKAIALTSCFVSLFLPAGWILSHLEDYK  66
+
+Query  66  K  66
+           +
+Sbjct  67  R  67
+
+
+> sp|Q8SQ78|COX8A_PAPHA Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Papio hamadryas OX=9557 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 86.3 bits (212),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 23/61 (38%), Positives = 35/61 (57%), Gaps = 0/61 (0%)
+
+Query  6   PTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYK  65
+             +R L    R   VP+A + + P +      E+AI L+  F+S  LPAGW+L HL++YK
+Sbjct  7   LLLRGLTGSARRLPVPRAKVHSMPPEEELGTLEKAIALTSCFVSLFLPAGWILSHLEDYK  66
+
+Query  66  K  66
+           +
+Sbjct  67  R  67
+
+
+> sp|Q863G9|COX8A_PAPAN Cytochrome c oxidase subunit 8A, mitochondrial 
+OS=Papio anubis OX=9555 GN=COX8A PE=3 SV=1
+Length=69
+
+ Score = 86.3 bits (212),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 23/61 (38%), Positives = 35/61 (57%), Gaps = 0/61 (0%)
+
+Query  6   PTVRLLQAPLRGWAVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYK  65
+             +R L    R   VP+A + + P +      E+AI L+  F+S  LPAGW+L HL++YK
+Sbjct  7   LLLRGLTGSARRLPVPRAKVHSMPPEEELGTLEKAIALTSCFVSLFLPAGWILSHLEDYK  66
+
+Query  66  K  66
+           +
+Sbjct  67  R  67
+
+
+> sp|Q7YRF4|COX8C_EULFU Cytochrome c oxidase subunit 8C, mitochondrial 
+OS=Eulemur fulvus fulvus OX=40322 GN=COX8C PE=3 SV=1
+Length=71
+
+ Score = 71.6 bits (174),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 18/67 (27%), Positives = 34/67 (51%), Gaps = 1/67 (1%)
+
+Query  1   MLRLAPTVRLLQAPLRGW-AVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLY  59
+           + R+ P +R L+  L       +   +    + P S  E A+G+ V F +FL P+ +VL 
+Sbjct  4   LPRVCPFIRRLRVALLCLRPGHRFAHSEPQRQRPASALEMAVGIVVIFSAFLTPSAYVLS  63
+
+Query  60  HLDNYKK  66
+           +L  +++
+Sbjct  64  NLSQFRR  70
+
+
+> sp|Q7Z4L0|COX8C_HUMAN Cytochrome c oxidase subunit 8C, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX8C PE=2 SV=1
+Length=72
+
+ Score = 61.6 bits (148),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 28/49 (57%), Gaps = 0/49 (0%)
+
+Query  19  AVPKAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYKKS  67
+             P+   +  P + P S  E A+GL V F +FL PA +VL +L  ++++
+Sbjct  24  PAPRFAHSGPPRQRPLSAAEMAVGLVVFFTTFLTPAAYVLGNLKQFRRN  72
+
+
+> sp|Q7TNN2|COX8C_RAT Cytochrome c oxidase subunit 8C, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox8c PE=3 SV=1
+Length=72
+
+ Score = 58.5 bits (140),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 12/44 (27%), Positives = 23/44 (52%), Gaps = 0/44 (0%)
+
+Query  22  KAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYK  65
+           +   +  P     +P E  +G+ V F +F +PA +V+ +L  +K
+Sbjct  27  RLSHSESPQNQVLTPTESVVGIVVFFATFFIPAAYVMSNLKFFK  70
+
+
+> sp|A6H666|COX8C_MOUSE Cytochrome c oxidase subunit 8C, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox8c PE=3 SV=1
+Length=72
+
+ Score = 58.1 bits (139),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 16/44 (36%), Positives = 24/44 (55%), Gaps = 0/44 (0%)
+
+Query  22  KAHITAKPAKTPTSPKEQAIGLSVTFLSFLLPAGWVLYHLDNYK  65
+           +   +  P K   SP E A+G+ V F +F +PA +VL  L  +K
+Sbjct  27  RLSHSESPQKKILSPTESAVGIVVFFTTFYIPAAYVLSSLKYFK  70
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.135    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0420    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4935436912
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

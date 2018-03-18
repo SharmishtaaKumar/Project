@@ -1,0 +1,1925 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= D0VWV4|1zoyC
+
+Length=169
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|D0VWV4|C560_PIG Succinate dehydrogenase cytochrome b560 subu...  341     3e-119
+  sp|P35720|C560_BOVIN Succinate dehydrogenase cytochrome b560 su...  308     3e-106
+  sp|Q99643|C560_HUMAN Succinate dehydrogenase cytochrome b560 su...  303     1e-104
+  sp|P70097|C560_CRIGR Succinate dehydrogenase cytochrome b560 su...  290     2e-99 
+  sp|Q9CZB0|C560_MOUSE Succinate dehydrogenase cytochrome b560 su...  266     6e-90 
+  sp|Q8T2T5|C560_DICDI Succinate dehydrogenase cytochrome b560 su...  94.0    2e-22 
+  sp|O74882|SDH3_SCHPO Succinate dehydrogenase cytochrome B subun...  79.0    4e-17 
+  sp|P41956|C560_CAEEL Succinate dehydrogenase cytochrome b560 su...  75.9    5e-16 
+  sp|P41955|C560_CAEBR Succinate dehydrogenase cytochrome b560 su...  72.0    1e-14 
+  sp|Q4UKC1|DHSC_RICFE Succinate dehydrogenase cytochrome b556 su...  70.1    3e-14 
+  sp|Q68XP1|DHSC_RICTY Succinate dehydrogenase cytochrome b556 su...  68.2    1e-13 
+  sp|Q92J99|DHSC_RICCN Succinate dehydrogenase cytochrome b556 su...  67.8    2e-13 
+  sp|P41085|DHSC_RICPR Succinate dehydrogenase cytochrome b556 su...  67.4    2e-13 
+  sp|Q1RHB5|DHSC_RICBR Succinate dehydrogenase cytochrome b556 su...  67.4    3e-13 
+  sp|P80481|C560_RECAM Succinate dehydrogenase cytochrome b560 su...  64.3    4e-12 
+  sp|P35721|C560_MARPO Succinate dehydrogenase cytochrome b560 su...  61.6    3e-11 
+  sp|Q59659|DHSC_PARDE Succinate dehydrogenase cytochrome b556 su...  59.3    2e-10 
+  sp|Q04487|SHH3_YEAST Mitochondrial inner membrane protein SHH3 ...  54.3    3e-08 
+  sp|P48935|C560_CYACA Succinate dehydrogenase cytochrome b560 su...  47.4    3e-06 
+  sp|P80478|C560_PORPU Succinate dehydrogenase cytochrome b560 su...  47.0    3e-06 
+  sp|P33421|SDH3_YEAST Succinate dehydrogenase [ubiquinone] cytoc...  47.0    1e-05 
+  sp|P48934|C560_CHOCR Succinate dehydrogenase cytochrome b560 su...  44.3    4e-05 
+  sp|P69054|DHSC_ECOLI Succinate dehydrogenase cytochrome b556 su...  41.6    4e-04 
+  sp|P69055|DHSC_ECO57 Succinate dehydrogenase cytochrome b556 su...  41.6    4e-04 
+  sp|P63725|DHSC_SALTY Succinate dehydrogenase cytochrome b556 su...  39.3    0.003 
+  sp|P63726|DHSC_SALTI Succinate dehydrogenase cytochrome b556 su...  39.3    0.003 
+
+
+> sp|D0VWV4|C560_PIG Succinate dehydrogenase cytochrome b560 subunit, 
+mitochondrial OS=Sus scrofa OX=9823 GN=SDHC PE=1 SV=2
+Length=169
+
+ Score = 341 bits (874),  Expect = 3e-119, Method: Compositional matrix adjust.
+ Identities = 169/169 (100%), Positives = 169/169 (100%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR
+Sbjct  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI
+Sbjct  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM
+Sbjct  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+
+
+> sp|P35720|C560_BOVIN Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Bos taurus OX=9913 GN=SDHC PE=1 SV=2
+Length=169
+
+ Score = 308 bits (788),  Expect = 3e-106, Method: Compositional matrix adjust.
+ Identities = 151/169 (89%), Positives = 159/169 (94%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFW+KN   NRPLSPHI+IY 
+Sbjct  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWSKNTTLNRPLSPHISIYG  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMAMSICHRGTGIALSAGVSLFGLSALL+PG+FESHLE VKSLCLGP LI+TAKF +
+Sbjct  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLVPGSFESHLEFVKSLCLGPALIHTAKFAL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYHTWNGIRHL+WDLGKGLTI QL QSGV VL+LTVLSSVGLAAM
+Sbjct  121  VFPLMYHTWNGIRHLMWDLGKGLTISQLHQSGVAVLVLTVLSSVGLAAM  169
+
+
+> sp|Q99643|C560_HUMAN Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Homo sapiens OX=9606 GN=SDHC PE=1 
+SV=1
+Length=169
+
+ Score = 303 bits (777),  Expect = 1e-104, Method: Compositional matrix adjust.
+ Identities = 155/169 (92%), Positives = 163/169 (96%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAH SPQLCIRNAVPLGTTAKEEMERFWNKN+GSNRPLSPHITIY 
+Sbjct  1    MAALLLRHVGRHCLRAHFSPQLCIRNAVPLGTTAKEEMERFWNKNIGSNRPLSPHITIYS  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMAMSICHRGTGIALSAGVSLFG+SALLLPGNFES+LELVKSLCLGP LI+TAKF +
+Sbjct  61   WSLPMAMSICHRGTGIALSAGVSLFGMSALLLPGNFESYLELVKSLCLGPALIHTAKFAL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYHTWNGIRHL+WDLGKGL IPQL QSGVVVL+LTVLSS+GLAAM
+Sbjct  121  VFPLMYHTWNGIRHLMWDLGKGLKIPQLYQSGVVVLVLTVLSSMGLAAM  169
+
+
+> sp|P70097|C560_CRIGR Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Cricetulus griseus OX=10029 GN=SDHC 
+PE=2 SV=1
+Length=169
+
+ Score = 290 bits (743),  Expect = 2e-99, Method: Compositional matrix adjust.
+ Identities = 139/169 (82%), Positives = 154/169 (91%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAHL+ Q+C+RNAVPLGTTAKEEMERFWNKN  S RP+SPH+TIYR
+Sbjct  1    MAALLLRHVGRHCLRAHLNSQICLRNAVPLGTTAKEEMERFWNKNTSSKRPVSPHLTIYR  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPM MSICHRGTG+ALS GVSLFGLSALLLPGNFES+L  +KSLCLGP LI++AKF +
+Sbjct  61   WSLPMVMSICHRGTGVALSGGVSLFGLSALLLPGNFESYLMFIKSLCLGPALIHSAKFVL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYH+ NGIRHLIWDLGKGL+I Q+ QSGV VL+L VLSSVGLAAM
+Sbjct  121  VFPLMYHSLNGIRHLIWDLGKGLSISQVYQSGVAVLMLAVLSSVGLAAM  169
+
+
+> sp|Q9CZB0|C560_MOUSE Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Mus musculus OX=10090 GN=Sdhc PE=1 
+SV=1
+Length=169
+
+ Score = 266 bits (681),  Expect = 6e-90, Method: Compositional matrix adjust.
+ Identities = 136/169 (80%), Positives = 151/169 (89%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAA LLRHV RHCLRAHL+ QLCIRNA PLGTTAKEEMERFW KN  SNRPLSPH+TIY+
+Sbjct  1    MAAFLLRHVSRHCLRAHLNAQLCIRNAAPLGTTAKEEMERFWKKNTSSNRPLSPHLTIYK  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMA+S+CHRG+GIALS GVSLFGLSALLLPGNFES+L  VKSLCLGPTLIY+AKF +
+Sbjct  61   WSLPMALSVCHRGSGIALSGGVSLFGLSALLLPGNFESYLMFVKSLCLGPTLIYSAKFVL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYH+ NGIRHL+WDLGKGL IPQ+  SGV V++L VLSS GLAA+
+Sbjct  121  VFPLMYHSLNGIRHLLWDLGKGLAIPQVWLSGVAVVVLAVLSSGGLAAL  169
+
+
+> sp|Q8T2T5|C560_DICDI Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Dictyostelium discoideum OX=44689 
+GN=sdhC PE=3 SV=1
+Length=192
+
+ Score = 94.0 bits (232),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 74/117 (63%), Gaps = 4/117 (3%)
+
+Query  50   RPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLG  109
+            +P SPH+TIY++ LP  MSI HR TGI L+ G++      L  P +   +++L+ +    
+Sbjct  71   QPTSPHLTIYKFPLPAVMSIMHRATGICLALGITGLAGVTLFAPHDAIHYIQLLHTQY--  128
+
+Query  110  PTLIYTAKFGIVFPLMYHTWNGIRHLIWDLG-KGLTIPQLTQSGVVVL-ILTVLSSV  164
+            P L+Y AKF +  PL YH   G+RH+IWD   KGL+I Q+  SG V+L ++ VLS++
+Sbjct  129  PALVYPAKFAVALPLTYHFCTGVRHIIWDETVKGLSISQIESSGKVLLAVVAVLSTI  185
+
+
+> sp|O74882|SDH3_SCHPO Succinate dehydrogenase cytochrome B subunit, 
+mitochondrial OS=Schizosaccharomyces pombe (strain 972 
+/ ATCC 24843) OX=284812 GN=sdh3 PE=3 SV=1
+Length=180
+
+ Score = 79.0 bits (193),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 62/171 (36%), Positives = 87/171 (51%), Gaps = 11/171 (6%)
+
+Query  2    AALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYRW  61
+            AA LLR  GR  LR      +  R+      T  E   R  ++ +  +RP SPH+TIY  
+Sbjct  17   AAQLLRPAGRSTLR-----NVWRRSIATEHLTQTEANSRLASQRV--HRPNSPHLTIYEP  69
+
+Query  62   SLPMAMSICHRGTGIALSAGVSLFGLSALLLP-GNFESHLELVKSLCLG-PTLIYT-AKF  118
+             L   +S  HR TG  ++  +  F +  L+ P   +      +  L    PT I   AKF
+Sbjct  70   QLTWYLSSLHRITGCVVAGTLYAFAMGYLVAPLAGYSLDTATISGLIQQVPTWIKVPAKF  129
+
+Query  119  GIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+             I +PL +H +NGIRHLIWD  K L++  + ++G  VL L+VL+S G  AM
+Sbjct  130  VISYPLTFHIFNGIRHLIWDTTKELSLKGVYRTGYAVLALSVLTS-GYFAM  179
+
+
+> sp|P41956|C560_CAEEL Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Caenorhabditis elegans OX=6239 GN=mev-1 
+PE=2 SV=1
+Length=182
+
+ Score = 75.9 bits (185),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 42/129 (33%), Positives = 76/129 (59%), Gaps = 5/129 (4%)
+
+Query  32   TTAKEEMERF-WN---KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGL  87
+            + AK  +++F W    K    NRP++PH+T+Y+  L   +S  HR +G  ++  + + G+
+Sbjct  30   SEAKTPIQKFGWEYLLKQRSKNRPIAPHLTVYQPQLTWMLSGFHRISGCVMAGTLLVGGI  89
+
+Query  88   SALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGL-TIP  146
+               +LP +F + ++ ++S  L   +    K+ I FP+++HT NGIR L +DL KG+  + 
+Sbjct  90   GFAVLPFDFTAFVDFIRSWNLPCAVTAVFKYIIAFPIIFHTLNGIRFLGFDLAKGVNNVG  149
+
+Query  147  QLTQSGVVV  155
+            Q+ +SG +V
+Sbjct  150  QIYKSGYLV  158
+
+
+> sp|P41955|C560_CAEBR Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Caenorhabditis briggsae OX=6238 GN=mev-1 
+PE=2 SV=1
+Length=184
+
+ Score = 72.0 bits (175),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 45/136 (33%), Positives = 76/136 (56%), Gaps = 5/136 (4%)
+
+Query  26   NAVPLGTTAKEEMERF-W---NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAG  81
+             +V   + AK  +++F W    K     RP++PH+TIY+  L   +S  HR +G  ++  
+Sbjct  24   TSVVTKSEAKTPIQKFGWEYLKKQRDMKRPIAPHLTIYQPQLTWMLSGFHRISGCVMAGT  83
+
+Query  82   VSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK  141
+            + + GL   +LP +F + +E ++   L   +    K+ I FP+++HT NGIR L +DL K
+Sbjct  84   LLVGGLGFAVLPLDFTTFVEYIRGWNLPCAVTAVFKYIIAFPIIFHTLNGIRFLGFDLAK  143
+
+Query  142  GL-TIPQLTQSGVVVL  156
+            G+  I Q+ +SG +V 
+Sbjct  144  GVDNIGQVYKSGWLVF  159
+
+
+> sp|Q4UKC1|DHSC_RICFE Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) 
+OX=315456 GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 70.1 bits (170),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 37/119 (31%), Positives = 63/119 (53%), Gaps = 6/119 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH++IY+  +   +SI HR TG+AL   VS+     L+L     ++L+ 
+Sbjct  5    KQEIYNKRPTSPHLSIYKLQISSTLSILHRMTGVALFFAVSILAW-WLILSKYDNNYLQF  63
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVL  161
+                 +   L+      + +   YH  NGIRHL WD+G G +I  +  +G  V++ ++L
+Sbjct  64   ANCCIIKICLV-----AVSYAWFYHLCNGIRHLFWDIGYGFSIKAVNITGWCVVVCSIL  117
+
+
+> sp|Q68XP1|DHSC_RICTY Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia typhi (strain ATCC VR-144 / Wilmington) 
+OX=257363 GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 68.2 bits (165),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 39/119 (33%), Positives = 65/119 (55%), Gaps = 6/119 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH+TIY+  +   +SI HR TG+AL   VS+  +  L+L     ++L+L
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVALFFVVSIL-VWWLILSKYDNNYLQL  63
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVL  161
+             +   +   L+        +   YH  NGIRHL WD+G G +I  +  +G  V++ ++L
+Sbjct  64   ARCCIIKICLV-----AFSYAWCYHLCNGIRHLFWDIGYGFSIRAVNITGWCVVVCSIL  117
+
+
+> sp|Q92J99|DHSC_RICCN Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia conorii (strain ATCC VR-613 / Malish 7) 
+OX=272944 GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 67.8 bits (164),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 41/124 (33%), Positives = 69/124 (56%), Gaps = 6/124 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH+TIY+  +   +SI +R TG+AL   VS+  +  L+L     ++L+L
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILYRMTGVALFFAVSIL-VWWLILSKYDNNYLQL  63
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+             +   +   L+      + +   YH  NGIRHL WD+G G +I  +  +G  V++ +VL 
+Sbjct  64   AECCIIKICLV-----AVSYAWFYHLCNGIRHLFWDIGYGFSIKLVNITGWCVVVGSVLL  118
+
+Query  163  SVGL  166
+            +V L
+Sbjct  119  TVLL  122
+
+
+> sp|P41085|DHSC_RICPR Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia prowazekii (strain Madrid E) OX=272947 
+GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 67.4 bits (163),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 39/119 (33%), Positives = 64/119 (54%), Gaps = 6/119 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH+TIY+  +   +SI HR TG+AL   VS+  L   L+   ++++   
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVALFFVVSI--LVWWLILSKYDNNYLQ  62
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVL  161
+            + S C+    I        +   YH  NGIRHL WD+G G +I  +  +G  V++ ++L
+Sbjct  63   LASCCI----IKICLVAFSYSWCYHLCNGIRHLFWDIGYGFSIKAVNITGWCVVVCSIL  117
+
+
+> sp|Q1RHB5|DHSC_RICBR Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia bellii (strain RML369-C) OX=336407 GN=sdhC 
+PE=3 SV=1
+Length=125
+
+ Score = 67.4 bits (163),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 42/123 (34%), Positives = 67/123 (54%), Gaps = 7/123 (6%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFES-HLE  101
+             + + + RP SPH+TIY+  +   +SI HR TG+AL   VS+  L+   +   F+S +++
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVALFFAVSI--LAWWFILSKFDSNYIK  62
+
+Query  102  LVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVL  161
+            L    C+    +    F       YH  NGIRHL WD+G G +I  +  +G  V+I +VL
+Sbjct  63   LANCCCIIKICLILTSFA----WFYHLCNGIRHLFWDIGLGFSIKAVNLTGWSVVICSVL  118
+
+Query  162  SSV  164
+             ++
+Sbjct  119  FTI  121
+
+
+> sp|P80481|C560_RECAM Succinate dehydrogenase cytochrome b560 
+subunit OS=Reclinomonas americana OX=48483 GN=SDH3 PE=3 SV=1
+Length=144
+
+ Score = 64.3 bits (155),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 39/123 (32%), Positives = 63/123 (51%), Gaps = 3/123 (2%)
+
+Query  45   NLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVK  104
+            N+  NRP+SPH+TIY+  +   +SI HR TG  L+  +  F L   +L  +  S+     
+Sbjct  16   NMNINRPISPHLTIYKLQITNTLSIFHRITGGVLALTLCFFILILKMLNFHLSSYAFYSI  75
+
+Query  105  SLCLGPT---LIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVL  161
+            +  L      L     F ++  + YH + G+RHL+WD G  L I  +  +G ++L L  L
+Sbjct  76   AYTLNQYSGFLFIAISFFLLLFIFYHLFAGLRHLVWDAGYALEIENVYLTGYIMLGLAFL  135
+
+Query  162  SSV  164
+             ++
+Sbjct  136  FTL  138
+
+
+> sp|P35721|C560_MARPO Succinate dehydrogenase cytochrome b560 
+subunit OS=Marchantia polymorpha OX=3197 GN=SDH3 PE=3 SV=1
+Length=137
+
+ Score = 61.6 bits (148),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 39/113 (35%), Positives = 57/113 (50%), Gaps = 5/113 (4%)
+
+Query  49   NRPLSPHITIYRWSLPMAMSICHRGTGIALSA----GVSLFGLSALLLPGNFESHLELVK  104
+            NRPLSPH+TIY+  L    SI HR +G  L+      +  F +  L L            
+Sbjct  4    NRPLSPHLTIYKPQLTSTFSIFHRISGAFLATMVLFSILFFKIGDLSLTFYHFYQYFFFL  63
+
+Query  105  SLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLI  157
+            +  L   +I    F ++  L YH  NG+RHL+WDLG  L + ++  SG+++L 
+Sbjct  64   TFYLNWFIISLVNFTLL-ALCYHMSNGVRHLLWDLGFFLELSKVYTSGIIMLF  115
+
+
+> sp|Q59659|DHSC_PARDE Succinate dehydrogenase cytochrome b556 
+subunit OS=Paracoccus denitrificans OX=266 GN=sdhC PE=3 SV=1
+Length=130
+
+ Score = 59.3 bits (142),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 43/106 (41%), Positives = 58/106 (55%), Gaps = 8/106 (8%)
+
+Query  49   NRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFG---LSALLLPGNFESHLELVKS  105
+            NRPLSPH+ +YR  L    SI  R TG AL AG+ L     ++A+  PG F     +V+S
+Sbjct  8    NRPLSPHLQVYRLPLAAITSIMTRITGHALVAGIVLITWWLVAAVTSPGAFACADWVVRS  67
+
+Query  106  LCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQS  151
+              LG  ++     G ++ L YH   G+RHL +D G GL I Q  +S
+Sbjct  68   -WLGFIILT----GSMWALWYHLLAGLRHLFYDAGYGLEIEQAHKS  108
+
+
+> sp|Q04487|SHH3_YEAST Mitochondrial inner membrane protein SHH3 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=SHH3 PE=3 SV=1
+Length=196
+
+ Score = 54.3 bits (129),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 35/118 (30%), Positives = 58/118 (49%), Gaps = 4/118 (3%)
+
+Query  48   SNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLF----GLSALLLPGNFESHLELV  103
+              RP+SPH+T+Y   +   +S  HR +G+ L+ G   F    G++ ++        L   
+Sbjct  71   KKRPISPHLTVYEPEMSWYLSSLHRISGVLLALGFYAFTITLGVTTIMGMDTTFQDLNKW  130
+
+Query  104  KSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVL  161
+                +     + AK    +   +H  NGIRHLIWD+G  LT   + ++G +VL  T++
+Sbjct  131  YHEKMPKWSQWVAKGSAAYLFAFHFGNGIRHLIWDMGYELTNRGVIKTGSIVLAGTLV  188
+
+
+> sp|P48935|C560_CYACA Succinate dehydrogenase cytochrome b560 
+subunit OS=Cyanidium caldarium OX=2771 GN=SDH3 PE=3 SV=1
+Length=132
+
+ Score = 47.4 bits (111),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 33/94 (35%), Positives = 48/94 (51%), Gaps = 5/94 (5%)
+
+Query  49   NRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVS-LF-GLSALLLPGNFESHLELVKSL  106
+            NRPLSP++TIY        SI HR +G+ L   +  LF  +  L     F    + VK+ 
+Sbjct  5    NRPLSPYVTIYSSQWTSISSIFHRLSGLYLVFFLFVLFCSIKFLFCFSTFWFVYKFVKT-  63
+
+Query  107  CLGPTLIYTAKFGI--VFPLMYHTWNGIRHLIWD  138
+            C    L +   F +  ++ L YH + G+RHL+WD
+Sbjct  64   CFFFILSFFIVFIVFSMYSLFYHFFIGLRHLVWD  97
+
+
+> sp|P80478|C560_PORPU Succinate dehydrogenase cytochrome b560 
+subunit OS=Porphyra purpurea OX=2787 GN=SDH3 PE=3 SV=1
+Length=125
+
+ Score = 47.0 bits (110),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 30/93 (32%), Positives = 49/93 (53%), Gaps = 6/93 (6%)
+
+Query  49   NRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCL  108
+            NRP+SPH+TIY        SI HR +G+A+   ++   L   L   +++S   ++  +  
+Sbjct  5    NRPISPHLTIYNTQKSSLFSIWHRISGVAMFTLIASPPLFLKLATFSYKS-FNILDLMLN  63
+
+Query  109  GPTLI---YTAKFGIVFPLMYHTWNGIRHLIWD  138
+              +LI   +     ++F  +YH  NGIRH +WD
+Sbjct  64   NSSLILPWFIVIISVIF--LYHIINGIRHFLWD  94
+
+
+> sp|P33421|SDH3_YEAST Succinate dehydrogenase [ubiquinone] cytochrome 
+b subunit, mitochondrial OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=SDH3 PE=1 SV=1
+Length=198
+
+ Score = 47.0 bits (110),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 62/139 (45%), Gaps = 5/139 (4%)
+
+Query  27   AVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVS---  83
+            A  + T A    E+  NK   + RP+SPH+TIY+  L   +S  HR + + +  G     
+Sbjct  53   ASEMNTKAAIAEEQILNKQ-RAKRPISPHLTIYQPQLTWYLSSLHRISLVLMGLGFYLFT  111
+
+Query  84   -LFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKG  142
+             LFG+S LL  G     +             ++ K    +    H    IRHLIWD  K 
+Sbjct  112  ILFGVSGLLGLGLTTEKVSNWYHQKFSKITEWSIKGSFAYLFAIHYGGAIRHLIWDTAKE  171
+
+Query  143  LTIPQLTQSGVVVLILTVL  161
+            LT+  + ++G  ++  T +
+Sbjct  172  LTLKGVYRTGYALIGFTAV  190
+
+
+> sp|P48934|C560_CHOCR Succinate dehydrogenase cytochrome b560 
+subunit OS=Chondrus crispus OX=2769 GN=SDH3 PE=3 SV=1
+Length=127
+
+ Score = 44.3 bits (103),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 36/104 (35%), Positives = 56/104 (54%), Gaps = 1/104 (1%)
+
+Query  48   SNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSA-LLLPGNFESHLELVKSL  106
+            SNRP++PH+ +Y   L    SI HR +G+ L+   + F +   ++L  NF  +L  + S 
+Sbjct  8    SNRPIAPHLLVYTPQLSSLFSIWHRISGVGLAFFFTTFLIFIRIILSSNFACNLLTLISF  67
+
+Query  107  CLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQ  150
+             +   +I      I+  L YH +NG RH+IWD G  L I  L++
+Sbjct  68   EISQWIIIYFNLFILLFLFYHLFNGTRHIIWDFGFLLDIKYLSK  111
+
+
+> sp|P69054|DHSC_ECOLI Succinate dehydrogenase cytochrome b556 
+subunit OS=Escherichia coli (strain K12) OX=83333 GN=sdhC PE=1 
+SV=1
+Length=129
+
+ Score = 41.6 bits (96),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 29/100 (29%), Positives = 50/100 (50%), Gaps = 8/100 (8%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGL-SALLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L ++L  P  FE   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFVAVGILLWLLGTSLSSPEGFEQ--  60
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLG  140
+                S  +G   +    +GI+  L YH   GIRH++ D G
+Sbjct  61   ---ASAIMGSFFVKFIMWGILTALAYHVVVGIRHMMMDFG  97
+
+
+> sp|P69055|DHSC_ECO57 Succinate dehydrogenase cytochrome b556 
+subunit OS=Escherichia coli O157:H7 OX=83334 GN=sdhC PE=3 SV=1
+Length=129
+
+ Score = 41.6 bits (96),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 29/100 (29%), Positives = 50/100 (50%), Gaps = 8/100 (8%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGL-SALLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L ++L  P  FE   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFVAVGILLWLLGTSLSSPEGFEQ--  60
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLG  140
+                S  +G   +    +GI+  L YH   GIRH++ D G
+Sbjct  61   ---ASAIMGSFFVKFIMWGILTALAYHVVVGIRHMMMDFG  97
+
+
+> sp|P63725|DHSC_SALTY Succinate dehydrogenase cytochrome b556 
+subunit OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 
+700720) OX=99287 GN=sdhC PE=3 SV=1
+Length=129
+
+ Score = 39.3 bits (90),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 26/100 (26%), Positives = 51/100 (51%), Gaps = 8/100 (8%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGL-SALLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L ++L  P  F+   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFIAVGILLWLLGTSLSSPEGFQQAA  62
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLG  140
+            +++    +   +     +GI+  L YH   GIRH++ D G
+Sbjct  63   DIMDGFIVKFIM-----WGILTALAYHVIVGIRHMLMDFG  97
+
+
+> sp|P63726|DHSC_SALTI Succinate dehydrogenase cytochrome b556 
+subunit OS=Salmonella typhi OX=90370 GN=sdhC PE=3 SV=1
+Length=129
+
+ Score = 39.3 bits (90),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 26/100 (26%), Positives = 51/100 (51%), Gaps = 8/100 (8%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGL-SALLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L ++L  P  F+   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFIAVGILLWLLGTSLSSPEGFQQAA  62
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLG  140
+            +++    +   +     +GI+  L YH   GIRH++ D G
+Sbjct  63   DIMDGFIVKFIM-----WGILTALAYHVIVGIRHMLMDFG  97
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.140    0.444    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8337499740
+Results from round 2
+
+
+Query= D0VWV4|1zoyC
+
+Length=169
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P70097|C560_CRIGR Succinate dehydrogenase cytochrome b560 su...  230     1e-75
+  sp|D0VWV4|C560_PIG Succinate dehydrogenase cytochrome b560 subu...  229     2e-75
+  sp|P35720|C560_BOVIN Succinate dehydrogenase cytochrome b560 su...  223     5e-73
+  sp|Q99643|C560_HUMAN Succinate dehydrogenase cytochrome b560 su...  222     2e-72
+  sp|Q9CZB0|C560_MOUSE Succinate dehydrogenase cytochrome b560 su...  211     6e-68
+  sp|O74882|SDH3_SCHPO Succinate dehydrogenase cytochrome B subun...  157     9e-47
+  sp|P41955|C560_CAEBR Succinate dehydrogenase cytochrome b560 su...  147     4e-43
+  sp|P41956|C560_CAEEL Succinate dehydrogenase cytochrome b560 su...  142     3e-41
+  sp|Q68XP1|DHSC_RICTY Succinate dehydrogenase cytochrome b556 su...  139     9e-41
+  sp|P41085|DHSC_RICPR Succinate dehydrogenase cytochrome b556 su...  138     2e-40
+  sp|Q92J99|DHSC_RICCN Succinate dehydrogenase cytochrome b556 su...  136     1e-39
+  sp|Q4UKC1|DHSC_RICFE Succinate dehydrogenase cytochrome b556 su...  136     2e-39
+  sp|Q04487|SHH3_YEAST Mitochondrial inner membrane protein SHH3 ...  129     7e-36
+  sp|Q1RHB5|DHSC_RICBR Succinate dehydrogenase cytochrome b556 su...  123     2e-34
+  sp|P33421|SDH3_YEAST Succinate dehydrogenase [ubiquinone] cytoc...  124     4e-34
+  sp|Q8T2T5|C560_DICDI Succinate dehydrogenase cytochrome b560 su...  117     2e-31
+  sp|P80481|C560_RECAM Succinate dehydrogenase cytochrome b560 su...  111     1e-29
+  sp|P35721|C560_MARPO Succinate dehydrogenase cytochrome b560 su...  104     4e-27
+  sp|Q59659|DHSC_PARDE Succinate dehydrogenase cytochrome b556 su...  97.4    3e-24
+  sp|P80478|C560_PORPU Succinate dehydrogenase cytochrome b560 su...  85.5    6e-20
+  sp|P69054|DHSC_ECOLI Succinate dehydrogenase cytochrome b556 su...  83.9    2e-19
+  sp|P69055|DHSC_ECO57 Succinate dehydrogenase cytochrome b556 su...  83.9    2e-19
+  sp|P48934|C560_CHOCR Succinate dehydrogenase cytochrome b560 su...  79.3    1e-17
+  sp|P48935|C560_CYACA Succinate dehydrogenase cytochrome b560 su...  78.5    3e-17
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P63725|DHSC_SALTY Succinate dehydrogenase cytochrome b556 su...  80.4    5e-18
+  sp|P63726|DHSC_SALTI Succinate dehydrogenase cytochrome b556 su...  80.4    5e-18
+  sp|P51055|DHSC_COXBU Succinate dehydrogenase cytochrome b556 su...  60.4    6e-11
+  sp|P0DKI1|SDH32_ARATH Succinate dehydrogenase subunit 3-2, mito...  56.2    5e-09
+  sp|P0DKI0|SDH31_ARATH Succinate dehydrogenase subunit 3-1, mito...  56.2    5e-09
+  sp|Q6ZH92|SDH31_ORYSJ Succinate dehydrogenase subunit 3-1, mito...  50.4    2e-07
+  sp|Q84VK7|SDH32_ORYSJ Succinate dehydrogenase subunit 3-2, mito...  50.4    3e-07
+
+
+> sp|P70097|C560_CRIGR Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Cricetulus griseus OX=10029 GN=SDHC 
+PE=2 SV=1
+Length=169
+
+ Score = 230 bits (587),  Expect = 1e-75, Method: Composition-based stats.
+ Identities = 139/169 (82%), Positives = 154/169 (91%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAHL+ Q+C+RNAVPLGTTAKEEMERFWNKN  S RP+SPH+TIYR
+Sbjct  1    MAALLLRHVGRHCLRAHLNSQICLRNAVPLGTTAKEEMERFWNKNTSSKRPVSPHLTIYR  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPM MSICHRGTG+ALS GVSLFGLSALLLPGNFES+L  +KSLCLGP LI++AKF +
+Sbjct  61   WSLPMVMSICHRGTGVALSGGVSLFGLSALLLPGNFESYLMFIKSLCLGPALIHSAKFVL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYH+ NGIRHLIWDLGKGL+I Q+ QSGV VL+L VLSSVGLAAM
+Sbjct  121  VFPLMYHSLNGIRHLIWDLGKGLSISQVYQSGVAVLMLAVLSSVGLAAM  169
+
+
+> sp|D0VWV4|C560_PIG Succinate dehydrogenase cytochrome b560 subunit, 
+mitochondrial OS=Sus scrofa OX=9823 GN=SDHC PE=1 SV=2
+Length=169
+
+ Score = 229 bits (585),  Expect = 2e-75, Method: Composition-based stats.
+ Identities = 169/169 (100%), Positives = 169/169 (100%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR
+Sbjct  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI
+Sbjct  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM
+Sbjct  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+
+
+> sp|P35720|C560_BOVIN Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Bos taurus OX=9913 GN=SDHC PE=1 SV=2
+Length=169
+
+ Score = 223 bits (569),  Expect = 5e-73, Method: Composition-based stats.
+ Identities = 151/169 (89%), Positives = 159/169 (94%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFW+KN   NRPLSPHI+IY 
+Sbjct  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWSKNTTLNRPLSPHISIYG  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMAMSICHRGTGIALSAGVSLFGLSALL+PG+FESHLE VKSLCLGP LI+TAKF +
+Sbjct  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLVPGSFESHLEFVKSLCLGPALIHTAKFAL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYHTWNGIRHL+WDLGKGLTI QL QSGV VL+LTVLSSVGLAAM
+Sbjct  121  VFPLMYHTWNGIRHLMWDLGKGLTISQLHQSGVAVLVLTVLSSVGLAAM  169
+
+
+> sp|Q99643|C560_HUMAN Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Homo sapiens OX=9606 GN=SDHC PE=1 
+SV=1
+Length=169
+
+ Score = 222 bits (565),  Expect = 2e-72, Method: Composition-based stats.
+ Identities = 155/169 (92%), Positives = 163/169 (96%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAH SPQLCIRNAVPLGTTAKEEMERFWNKN+GSNRPLSPHITIY 
+Sbjct  1    MAALLLRHVGRHCLRAHFSPQLCIRNAVPLGTTAKEEMERFWNKNIGSNRPLSPHITIYS  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMAMSICHRGTGIALSAGVSLFG+SALLLPGNFES+LELVKSLCLGP LI+TAKF +
+Sbjct  61   WSLPMAMSICHRGTGIALSAGVSLFGMSALLLPGNFESYLELVKSLCLGPALIHTAKFAL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYHTWNGIRHL+WDLGKGL IPQL QSGVVVL+LTVLSS+GLAAM
+Sbjct  121  VFPLMYHTWNGIRHLMWDLGKGLKIPQLYQSGVVVLVLTVLSSMGLAAM  169
+
+
+> sp|Q9CZB0|C560_MOUSE Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Mus musculus OX=10090 GN=Sdhc PE=1 
+SV=1
+Length=169
+
+ Score = 211 bits (536),  Expect = 6e-68, Method: Composition-based stats.
+ Identities = 136/169 (80%), Positives = 151/169 (89%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAA LLRHV RHCLRAHL+ QLCIRNA PLGTTAKEEMERFW KN  SNRPLSPH+TIY+
+Sbjct  1    MAAFLLRHVSRHCLRAHLNAQLCIRNAAPLGTTAKEEMERFWKKNTSSNRPLSPHLTIYK  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMA+S+CHRG+GIALS GVSLFGLSALLLPGNFES+L  VKSLCLGPTLIY+AKF +
+Sbjct  61   WSLPMALSVCHRGSGIALSGGVSLFGLSALLLPGNFESYLMFVKSLCLGPTLIYSAKFVL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYH+ NGIRHL+WDLGKGL IPQ+  SGV V++L VLSS GLAA+
+Sbjct  121  VFPLMYHSLNGIRHLLWDLGKGLAIPQVWLSGVAVVVLAVLSSGGLAAL  169
+
+
+> sp|O74882|SDH3_SCHPO Succinate dehydrogenase cytochrome B subunit, 
+mitochondrial OS=Schizosaccharomyces pombe (strain 972 
+/ ATCC 24843) OX=284812 GN=sdh3 PE=3 SV=1
+Length=180
+
+ Score = 157 bits (396),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 59/171 (35%), Positives = 86/171 (50%), Gaps = 11/171 (6%)
+
+Query  2    AALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYRW  61
+            AA LLR  GR  LR      +  R+      T  E   R  ++ +  +RP SPH+TIY  
+Sbjct  17   AAQLLRPAGRSTLR-----NVWRRSIATEHLTQTEANSRLASQRV--HRPNSPHLTIYEP  69
+
+Query  62   SLPMAMSICHRGTGIALSAGVSLFGLSALLLP-GNFESHLELVKSLC--LGPTLIYTAKF  118
+             L   +S  HR TG  ++  +  F +  L+ P   +      +  L   +   +   AKF
+Sbjct  70   QLTWYLSSLHRITGCVVAGTLYAFAMGYLVAPLAGYSLDTATISGLIQQVPTWIKVPAKF  129
+
+Query  119  GIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+             I +PL +H +NGIRHLIWD  K L++  + ++G  VL L+VL+S G  AM
+Sbjct  130  VISYPLTFHIFNGIRHLIWDTTKELSLKGVYRTGYAVLALSVLTS-GYFAM  179
+
+
+> sp|P41955|C560_CAEBR Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Caenorhabditis briggsae OX=6238 GN=mev-1 
+PE=2 SV=1
+Length=184
+
+ Score = 147 bits (371),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 44/146 (30%), Positives = 81/146 (55%), Gaps = 5/146 (3%)
+
+Query  26   NAVPLGTTAKEEMERF----WNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAG  81
+             +V   + AK  +++F      K     RP++PH+TIY+  L   +S  HR +G  ++  
+Sbjct  24   TSVVTKSEAKTPIQKFGWEYLKKQRDMKRPIAPHLTIYQPQLTWMLSGFHRISGCVMAGT  83
+
+Query  82   VSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK  141
+            + + GL   +LP +F + +E ++   L   +    K+ I FP+++HT NGIR L +DL K
+Sbjct  84   LLVGGLGFAVLPLDFTTFVEYIRGWNLPCAVTAVFKYIIAFPIIFHTLNGIRFLGFDLAK  143
+
+Query  142  GL-TIPQLTQSGVVVLILTVLSSVGL  166
+            G+  I Q+ +SG +V  ++ + ++ +
+Sbjct  144  GVDNIGQVYKSGWLVFGVSAVIALAI  169
+
+
+> sp|P41956|C560_CAEEL Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Caenorhabditis elegans OX=6239 GN=mev-1 
+PE=2 SV=1
+Length=182
+
+ Score = 142 bits (359),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 43/146 (29%), Positives = 84/146 (58%), Gaps = 5/146 (3%)
+
+Query  26   NAVPLGTTAKEEMERF-WN---KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAG  81
+             ++   + AK  +++F W    K    NRP++PH+T+Y+  L   +S  HR +G  ++  
+Sbjct  24   TSIVTKSEAKTPIQKFGWEYLLKQRSKNRPIAPHLTVYQPQLTWMLSGFHRISGCVMAGT  83
+
+Query  82   VSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK  141
+            + + G+   +LP +F + ++ ++S  L   +    K+ I FP+++HT NGIR L +DL K
+Sbjct  84   LLVGGIGFAVLPFDFTAFVDFIRSWNLPCAVTAVFKYIIAFPIIFHTLNGIRFLGFDLAK  143
+
+Query  142  GL-TIPQLTQSGVVVLILTVLSSVGL  166
+            G+  + Q+ +SG +V  L+ + ++ +
+Sbjct  144  GVNNVGQIYKSGYLVSGLSAILALAI  169
+
+
+> sp|Q68XP1|DHSC_RICTY Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia typhi (strain ATCC VR-144 / Wilmington) 
+OX=257363 GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 139 bits (351),  Expect = 9e-41, Method: Composition-based stats.
+ Identities = 40/124 (32%), Positives = 68/124 (55%), Gaps = 6/124 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH+TIY+  +   +SI HR TG+AL   VS+  +  L+L     ++L+L
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVALFFVVSIL-VWWLILSKYDNNYLQL  63
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+             +   +   L+        +   YH  NGIRHL WD+G G +I  +  +G  V++ ++L 
+Sbjct  64   ARCCIIKICLV-----AFSYAWCYHLCNGIRHLFWDIGYGFSIRAVNITGWCVVVCSILL  118
+
+Query  163  SVGL  166
+            ++ L
+Sbjct  119  TMLL  122
+
+
+> sp|P41085|DHSC_RICPR Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia prowazekii (strain Madrid E) OX=272947 
+GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 138 bits (348),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 40/124 (32%), Positives = 67/124 (54%), Gaps = 6/124 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH+TIY+  +   +SI HR TG+AL   VS+  +  L+L     ++L+L
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVALFFVVSIL-VWWLILSKYDNNYLQL  63
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+                 +   L+        +   YH  NGIRHL WD+G G +I  +  +G  V++ ++L 
+Sbjct  64   ASCCIIKICLV-----AFSYSWCYHLCNGIRHLFWDIGYGFSIKAVNITGWCVVVCSILL  118
+
+Query  163  SVGL  166
+            ++ L
+Sbjct  119  TMLL  122
+
+
+> sp|Q92J99|DHSC_RICCN Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia conorii (strain ATCC VR-613 / Malish 7) 
+OX=272944 GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 136 bits (343),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 41/124 (33%), Positives = 69/124 (56%), Gaps = 6/124 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH+TIY+  +   +SI +R TG+AL   VS+  +  L+L     ++L+L
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILYRMTGVALFFAVSIL-VWWLILSKYDNNYLQL  63
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+             +   +   L+      + +   YH  NGIRHL WD+G G +I  +  +G  V++ +VL 
+Sbjct  64   AECCIIKICLV-----AVSYAWFYHLCNGIRHLFWDIGYGFSIKLVNITGWCVVVGSVLL  118
+
+Query  163  SVGL  166
+            +V L
+Sbjct  119  TVLL  122
+
+
+> sp|Q4UKC1|DHSC_RICFE Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) 
+OX=315456 GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 136 bits (342),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 38/124 (31%), Positives = 66/124 (53%), Gaps = 6/124 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH++IY+  +   +SI HR TG+AL   VS+     L+L     ++L+ 
+Sbjct  5    KQEIYNKRPTSPHLSIYKLQISSTLSILHRMTGVALFFAVSILA-WWLILSKYDNNYLQF  63
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+                 +   L+      + +   YH  NGIRHL WD+G G +I  +  +G  V++ ++L 
+Sbjct  64   ANCCIIKICLV-----AVSYAWFYHLCNGIRHLFWDIGYGFSIKAVNITGWCVVVCSILL  118
+
+Query  163  SVGL  166
+            ++ L
+Sbjct  119  TMLL  122
+
+
+> sp|Q04487|SHH3_YEAST Mitochondrial inner membrane protein SHH3 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=SHH3 PE=3 SV=1
+Length=196
+
+ Score = 129 bits (324),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 37/126 (29%), Positives = 60/126 (48%), Gaps = 4/126 (3%)
+
+Query  47   GSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLF----GLSALLLPGNFESHLEL  102
+               RP+SPH+T+Y   +   +S  HR +G+ L+ G   F    G++ ++        L  
+Sbjct  70   RKKRPISPHLTVYEPEMSWYLSSLHRISGVLLALGFYAFTITLGVTTIMGMDTTFQDLNK  129
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+                 +     + AK    +   +H  NGIRHLIWD+G  LT   + ++G +VL  T++ 
+Sbjct  130  WYHEKMPKWSQWVAKGSAAYLFAFHFGNGIRHLIWDMGYELTNRGVIKTGSIVLAGTLVL  189
+
+Query  163  SVGLAA  168
+               L A
+Sbjct  190  GTYLLA  195
+
+
+> sp|Q1RHB5|DHSC_RICBR Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia bellii (strain RML369-C) OX=336407 GN=sdhC 
+PE=3 SV=1
+Length=125
+
+ Score = 123 bits (308),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 42/124 (34%), Positives = 66/124 (53%), Gaps = 5/124 (4%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH+TIY+  +   +SI HR TG+AL   VS+  L+   +   F+S+   
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVALFFAVSI--LAWWFILSKFDSNYIK  62
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+            + +      +I        F   YH  NGIRHL WD+G G +I  +  +G  V+I +VL 
+Sbjct  63   LANC---CCIIKICLILTSFAWFYHLCNGIRHLFWDIGLGFSIKAVNLTGWSVVICSVLF  119
+
+Query  163  SVGL  166
+            ++ L
+Sbjct  120  TILL  123
+
+
+> sp|P33421|SDH3_YEAST Succinate dehydrogenase [ubiquinone] cytochrome 
+b subunit, mitochondrial OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=SDH3 PE=1 SV=1
+Length=198
+
+ Score = 124 bits (312),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 41/147 (28%), Positives = 64/147 (44%), Gaps = 5/147 (3%)
+
+Query  27   AVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLF-  85
+            A  + T A    E+  NK   + RP+SPH+TIY+  L   +S  HR + + +  G  LF 
+Sbjct  53   ASEMNTKAAIAEEQILNKQ-RAKRPISPHLTIYQPQLTWYLSSLHRISLVLMGLGFYLFT  111
+
+Query  86   ---GLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKG  142
+               G+S LL  G     +             ++ K    +    H    IRHLIWD  K 
+Sbjct  112  ILFGVSGLLGLGLTTEKVSNWYHQKFSKITEWSIKGSFAYLFAIHYGGAIRHLIWDTAKE  171
+
+Query  143  LTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            LT+  + ++G  ++  T +    L  +
+Sbjct  172  LTLKGVYRTGYALIGFTAVLGTYLLTL  198
+
+
+> sp|Q8T2T5|C560_DICDI Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Dictyostelium discoideum OX=44689 
+GN=sdhC PE=3 SV=1
+Length=192
+
+ Score = 117 bits (294),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 50/117 (43%), Positives = 74/117 (63%), Gaps = 4/117 (3%)
+
+Query  50   RPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLG  109
+            +P SPH+TIY++ LP  MSI HR TGI L+ G++      L  P +   +++L+ +    
+Sbjct  71   QPTSPHLTIYKFPLPAVMSIMHRATGICLALGITGLAGVTLFAPHDAIHYIQLLHTQY--  128
+
+Query  110  PTLIYTAKFGIVFPLMYHTWNGIRHLIWDLG-KGLTIPQLTQSGVVVL-ILTVLSSV  164
+            P L+Y AKF +  PL YH   G+RH+IWD   KGL+I Q+  SG V+L ++ VLS++
+Sbjct  129  PALVYPAKFAVALPLTYHFCTGVRHIIWDETVKGLSISQIESSGKVLLAVVAVLSTI  185
+
+
+> sp|P80481|C560_RECAM Succinate dehydrogenase cytochrome b560 
+subunit OS=Reclinomonas americana OX=48483 GN=SDH3 PE=3 SV=1
+Length=144
+
+ Score = 111 bits (278),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 39/123 (32%), Positives = 63/123 (51%), Gaps = 3/123 (2%)
+
+Query  45   NLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVK  104
+            N+  NRP+SPH+TIY+  +   +SI HR TG  L+  +  F L   +L  +  S+     
+Sbjct  16   NMNINRPISPHLTIYKLQITNTLSIFHRITGGVLALTLCFFILILKMLNFHLSSYAFYSI  75
+
+Query  105  SLCLGP---TLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVL  161
+            +  L      L     F ++  + YH + G+RHL+WD G  L I  +  +G ++L L  L
+Sbjct  76   AYTLNQYSGFLFIAISFFLLLFIFYHLFAGLRHLVWDAGYALEIENVYLTGYIMLGLAFL  135
+
+Query  162  SSV  164
+             ++
+Sbjct  136  FTL  138
+
+
+> sp|P35721|C560_MARPO Succinate dehydrogenase cytochrome b560 
+subunit OS=Marchantia polymorpha OX=3197 GN=SDH3 PE=3 SV=1
+Length=137
+
+ Score = 104 bits (260),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 39/124 (31%), Positives = 60/124 (48%), Gaps = 5/124 (4%)
+
+Query  46   LGSNRPLSPHITIYRWSLPMAMSICHRGTGIALS----AGVSLFGLSALLLPGNFESHLE  101
+            +  NRPLSPH+TIY+  L    SI HR +G  L+      +  F +  L L         
+Sbjct  1    MKINRPLSPHLTIYKPQLTSTFSIFHRISGAFLATMVLFSILFFKIGDLSLTFYHFYQYF  60
+
+Query  102  LVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVL  161
+               +  L   +I    F ++  L YH  NG+RHL+WDLG  L + ++  SG+++L     
+Sbjct  61   FFLTFYLNWFIISLVNFTLL-ALCYHMSNGVRHLLWDLGFFLELSKVYTSGIIMLFCAAF  119
+
+Query  162  SSVG  165
+             ++ 
+Sbjct  120  LALL  123
+
+
+> sp|Q59659|DHSC_PARDE Succinate dehydrogenase cytochrome b556 
+subunit OS=Paracoccus denitrificans OX=266 GN=sdhC PE=3 SV=1
+Length=130
+
+ Score = 97.4 bits (241),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 44/122 (36%), Positives = 64/122 (52%), Gaps = 8/122 (7%)
+
+Query  47   GSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSL---FGLSALLLPGNFESHLELV  103
+              NRPLSPH+ +YR  L    SI  R TG AL AG+ L   + ++A+  PG F     +V
+Sbjct  6    RGNRPLSPHLQVYRLPLAAITSIMTRITGHALVAGIVLITWWLVAAVTSPGAFACADWVV  65
+
+Query  104  KSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSS  163
+            +S      L +    G ++ L YH   G+RHL +D G GL I Q  +S   ++  +V+ +
+Sbjct  66   RS-----WLGFIILTGSMWALWYHLLAGLRHLFYDAGYGLEIEQAHKSSQALIAGSVVLA  120
+
+Query  164  VG  165
+            V 
+Sbjct  121  VL  122
+
+
+> sp|P80478|C560_PORPU Succinate dehydrogenase cytochrome b560 
+subunit OS=Porphyra purpurea OX=2787 GN=SDH3 PE=3 SV=1
+Length=125
+
+ Score = 85.5 bits (210),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 33/115 (29%), Positives = 51/115 (44%), Gaps = 0/115 (0%)
+
+Query  47   GSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSL  106
+              NRP+SPH+TIY        SI HR +G+A+   ++   L   L   +++S   L   L
+Sbjct  3    NINRPISPHLTIYNTQKSSLFSIWHRISGVAMFTLIASPPLFLKLATFSYKSFNILDLML  62
+
+Query  107  CLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVL  161
+                 ++      I    +YH  NGIRH +WD    +    + +    +L L  L
+Sbjct  63   NNSSLILPWFIVIISVIFLYHIINGIRHFLWDSVVNVNTESIIKDSNTLLALVFL  117
+
+
+> sp|P69054|DHSC_ECOLI Succinate dehydrogenase cytochrome b556 
+subunit OS=Escherichia coli (strain K12) OX=83333 GN=sdhC PE=1 
+SV=1
+Length=129
+
+ Score = 83.9 bits (206),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 34/126 (27%), Positives = 59/126 (47%), Gaps = 9/126 (7%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGLSA-LLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L   L  P  FE   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFVAVGILLWLLGTSLSSPEGFEQ--  60
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK-GLTIPQLTQSGVVVLILT  159
+                S  +G   +    +GI+  L YH   GIRH++ D G    T     +S  +  ++T
+Sbjct  61   ---ASAIMGSFFVKFIMWGILTALAYHVVVGIRHMMMDFGYLEETFEAGKRSAKISFVIT  117
+
+Query  160  VLSSVG  165
+            V+ S+ 
+Sbjct  118  VVLSLL  123
+
+
+> sp|P69055|DHSC_ECO57 Succinate dehydrogenase cytochrome b556 
+subunit OS=Escherichia coli O157:H7 OX=83334 GN=sdhC PE=3 SV=1
+Length=129
+
+ Score = 83.9 bits (206),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 34/126 (27%), Positives = 59/126 (47%), Gaps = 9/126 (7%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGLSA-LLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L   L  P  FE   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFVAVGILLWLLGTSLSSPEGFEQ--  60
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK-GLTIPQLTQSGVVVLILT  159
+                S  +G   +    +GI+  L YH   GIRH++ D G    T     +S  +  ++T
+Sbjct  61   ---ASAIMGSFFVKFIMWGILTALAYHVVVGIRHMMMDFGYLEETFEAGKRSAKISFVIT  117
+
+Query  160  VLSSVG  165
+            V+ S+ 
+Sbjct  118  VVLSLL  123
+
+
+> sp|P63725|DHSC_SALTY Succinate dehydrogenase cytochrome b556 
+subunit OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 
+700720) OX=99287 GN=sdhC PE=3 SV=1
+Length=129
+
+ Score = 80.4 bits (197),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 31/126 (25%), Positives = 60/126 (48%), Gaps = 9/126 (7%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGLSA-LLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L   L  P  F+   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFIAVGILLWLLGTSLSSPEGFQQAA  62
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK-GLTIPQLTQSGVVVLILT  159
+            +++        ++    +GI+  L YH   GIRH++ D G    T     +S  +  ++T
+Sbjct  63   DIMDG-----FIVKFIMWGILTALAYHVIVGIRHMLMDFGYLEETFEAGQRSAKISFVIT  117
+
+Query  160  VLSSVG  165
+            V+ S+ 
+Sbjct  118  VVLSLL  123
+
+
+> sp|P63726|DHSC_SALTI Succinate dehydrogenase cytochrome b556 
+subunit OS=Salmonella typhi OX=90370 GN=sdhC PE=3 SV=1
+Length=129
+
+ Score = 80.4 bits (197),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 31/126 (25%), Positives = 60/126 (48%), Gaps = 9/126 (7%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGLSA-LLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L   L  P  F+   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFIAVGILLWLLGTSLSSPEGFQQAA  62
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK-GLTIPQLTQSGVVVLILT  159
+            +++        ++    +GI+  L YH   GIRH++ D G    T     +S  +  ++T
+Sbjct  63   DIMDG-----FIVKFIMWGILTALAYHVIVGIRHMLMDFGYLEETFEAGQRSAKISFVIT  117
+
+Query  160  VLSSVG  165
+            V+ S+ 
+Sbjct  118  VVLSLL  123
+
+
+> sp|P48934|C560_CHOCR Succinate dehydrogenase cytochrome b560 
+subunit OS=Chondrus crispus OX=2769 GN=SDH3 PE=3 SV=1
+Length=127
+
+ Score = 79.3 bits (194),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 36/104 (35%), Positives = 56/104 (54%), Gaps = 1/104 (1%)
+
+Query  48   SNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSA-LLLPGNFESHLELVKSL  106
+            SNRP++PH+ +Y   L    SI HR +G+ L+   + F +   ++L  NF  +L  + S 
+Sbjct  8    SNRPIAPHLLVYTPQLSSLFSIWHRISGVGLAFFFTTFLIFIRIILSSNFACNLLTLISF  67
+
+Query  107  CLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQ  150
+             +   +I      I+  L YH +NG RH+IWD G  L I  L++
+Sbjct  68   EISQWIIIYFNLFILLFLFYHLFNGTRHIIWDFGFLLDIKYLSK  111
+
+
+> sp|P48935|C560_CYACA Succinate dehydrogenase cytochrome b560 
+subunit OS=Cyanidium caldarium OX=2771 GN=SDH3 PE=3 SV=1
+Length=132
+
+ Score = 78.5 bits (192),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 31/96 (32%), Positives = 47/96 (49%), Gaps = 5/96 (5%)
+
+Query  47   GSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLF--GLSALLLPGNFESHLELVK  104
+              NRPLSP++TIY        SI HR +G+ L   + +    +  L     F    + VK
+Sbjct  3    YKNRPLSPYVTIYSSQWTSISSIFHRLSGLYLVFFLFVLFCSIKFLFCFSTFWFVYKFVK  62
+
+Query  105  SLCLGPTLIYTAKFGI--VFPLMYHTWNGIRHLIWD  138
+            + C    L +   F +  ++ L YH + G+RHL+WD
+Sbjct  63   T-CFFFILSFFIVFIVFSMYSLFYHFFIGLRHLVWD  97
+
+
+> sp|P51055|DHSC_COXBU Succinate dehydrogenase cytochrome b556 
+subunit OS=Coxiella burnetii (strain RSA 493 / Nine Mile phase 
+I) OX=227377 GN=sdhC PE=3 SV=1
+Length=125
+
+ Score = 60.4 bits (145),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 29/120 (24%), Positives = 55/120 (46%), Gaps = 1/120 (1%)
+
+Query  46   LGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKS  105
+            + + RP++  +T + +     +SI HR +G  L   + L          + ES    +  
+Sbjct  1    MNAKRPVNLDLTKFHFPPMAILSIGHRISGFVLFLCMPLMFYLLHRATASAESFYH-LHQ  59
+
+Query  106  LCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVG  165
+            L L    I  A + ++   ++H + GIRHL  DLG   ++P+   S   V +++ ++ V 
+Sbjct  60   LLLHNGWIKLAVWIMLSATLFHLFAGIRHLAMDLGFWESVPEGRISAYTVFVVSFIAIVL  119
+
+
+> sp|P0DKI1|SDH32_ARATH Succinate dehydrogenase subunit 3-2, mitochondrial 
+OS=Arabidopsis thaliana OX=3702 GN=SDH3-2 PE=1 SV=1
+Length=213
+
+ Score = 56.2 bits (134),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 22/100 (22%), Positives = 41/100 (41%), Gaps = 7/100 (7%)
+
+Query  30   LGTTAKEEMERFWNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSA  89
+            + TT +E         + S RPLSPH+++Y+  +   +SI +R +G+ L+       L  
+Sbjct  112  IKTTQEEP-------KIKSFRPLSPHLSVYQPQMNSMLSIFNRISGVYLTGVTFAGYLLY  164
+
+Query  90   LLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTW  129
+            L +     ++    + L      +           +YHT 
+Sbjct  165  LKMGMICLTYPSFYQVLYHTQQQLPVITSVTALAAIYHTI  204
+
+
+> sp|P0DKI0|SDH31_ARATH Succinate dehydrogenase subunit 3-1, mitochondrial 
+OS=Arabidopsis thaliana OX=3702 GN=SDH3-1 PE=1 SV=1
+Length=213
+
+ Score = 56.2 bits (134),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 22/100 (22%), Positives = 41/100 (41%), Gaps = 7/100 (7%)
+
+Query  30   LGTTAKEEMERFWNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSA  89
+            + TT +E         + S RPLSPH+++Y+  +   +SI +R +G+ L+       L  
+Sbjct  112  IKTTQEEP-------KIKSFRPLSPHLSVYQPQMNSMLSIFNRISGVYLTGVTFAGYLLY  164
+
+Query  90   LLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTW  129
+            L +     ++    + L      +           +YHT 
+Sbjct  165  LKMGMICLTYPSFYQVLYHTQQQLPVITSVTALAAIYHTI  204
+
+
+> sp|Q6ZH92|SDH31_ORYSJ Succinate dehydrogenase subunit 3-1, mitochondrial 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SDH3-1 
+PE=1 SV=1
+Length=129
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 17/46 (37%), Positives = 23/46 (50%), Gaps = 0/46 (0%)
+
+Query  48   SNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLP  93
+            +NRPLSPH+ + +  L    SI HR  G AL A +    L+     
+Sbjct  80   ANRPLSPHLPLKKPQLSATFSISHRIFGAALGAAIISIPLATKFSL  125
+
+
+> sp|Q84VK7|SDH32_ORYSJ Succinate dehydrogenase subunit 3-2, mitochondrial 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SDH3-2 
+PE=1 SV=2
+Length=129
+
+ Score = 50.4 bits (119),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 17/46 (37%), Positives = 23/46 (50%), Gaps = 0/46 (0%)
+
+Query  48   SNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLP  93
+            +NRPLSPH+ + +  L    SI HR  G AL A +    L+     
+Sbjct  80   ANRPLSPHLPLKKPQLSATFSISHRIFGAALGAVIISIPLATKFSL  125
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0426    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8337499740
+Results from round 3
+
+
+Query= D0VWV4|1zoyC
+
+Length=169
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|D0VWV4|C560_PIG Succinate dehydrogenase cytochrome b560 subu...  217     2e-70
+  sp|P70097|C560_CRIGR Succinate dehydrogenase cytochrome b560 su...  217     2e-70
+  sp|P35720|C560_BOVIN Succinate dehydrogenase cytochrome b560 su...  211     4e-68
+  sp|Q99643|C560_HUMAN Succinate dehydrogenase cytochrome b560 su...  210     7e-68
+  sp|Q9CZB0|C560_MOUSE Succinate dehydrogenase cytochrome b560 su...  199     1e-63
+  sp|O74882|SDH3_SCHPO Succinate dehydrogenase cytochrome B subun...  150     2e-44
+  sp|P41955|C560_CAEBR Succinate dehydrogenase cytochrome b560 su...  146     1e-42
+  sp|P41956|C560_CAEEL Succinate dehydrogenase cytochrome b560 su...  141     7e-41
+  sp|Q68XP1|DHSC_RICTY Succinate dehydrogenase cytochrome b556 su...  131     1e-37
+  sp|P41085|DHSC_RICPR Succinate dehydrogenase cytochrome b556 su...  130     4e-37
+  sp|Q92J99|DHSC_RICCN Succinate dehydrogenase cytochrome b556 su...  129     9e-37
+  sp|Q4UKC1|DHSC_RICFE Succinate dehydrogenase cytochrome b556 su...  129     1e-36
+  sp|Q04487|SHH3_YEAST Mitochondrial inner membrane protein SHH3 ...  129     4e-36
+  sp|P33421|SDH3_YEAST Succinate dehydrogenase [ubiquinone] cytoc...  122     2e-33
+  sp|Q1RHB5|DHSC_RICBR Succinate dehydrogenase cytochrome b556 su...  115     2e-31
+  sp|Q8T2T5|C560_DICDI Succinate dehydrogenase cytochrome b560 su...  115     1e-30
+  sp|P80481|C560_RECAM Succinate dehydrogenase cytochrome b560 su...  105     4e-27
+  sp|P35721|C560_MARPO Succinate dehydrogenase cytochrome b560 su...  102     5e-26
+  sp|Q59659|DHSC_PARDE Succinate dehydrogenase cytochrome b556 su...  101     5e-26
+  sp|P51055|DHSC_COXBU Succinate dehydrogenase cytochrome b556 su...  100     1e-25
+  sp|P80478|C560_PORPU Succinate dehydrogenase cytochrome b560 su...  99.4    3e-25
+  sp|P63725|DHSC_SALTY Succinate dehydrogenase cytochrome b556 su...  98.6    6e-25
+  sp|P63726|DHSC_SALTI Succinate dehydrogenase cytochrome b556 su...  98.6    6e-25
+  sp|P69054|DHSC_ECOLI Succinate dehydrogenase cytochrome b556 su...  98.2    9e-25
+  sp|P69055|DHSC_ECO57 Succinate dehydrogenase cytochrome b556 su...  98.2    9e-25
+  sp|P0DKI1|SDH32_ARATH Succinate dehydrogenase subunit 3-2, mito...  84.7    5e-19
+  sp|P0DKI0|SDH31_ARATH Succinate dehydrogenase subunit 3-1, mito...  84.7    5e-19
+  sp|P48935|C560_CYACA Succinate dehydrogenase cytochrome b560 su...  76.2    2e-16
+  sp|P48934|C560_CHOCR Succinate dehydrogenase cytochrome b560 su...  75.1    5e-16
+  sp|Q6ZH92|SDH31_ORYSJ Succinate dehydrogenase subunit 3-1, mito...  55.8    3e-09
+  sp|Q84VK7|SDH32_ORYSJ Succinate dehydrogenase subunit 3-2, mito...  55.8    3e-09
+
+Sequences not found previously or not previously below threshold:
+
+  sp|O53368|SDHC_MYCTU Succinate dehydrogenase 2 membrane subunit...  40.8    0.001
+  sp|P72109|DHSD_NATPH Succinate dehydrogenase hydrophobic membra...  39.6    0.002
+  sp|Q9HQ63|DHSD_HALSA Succinate dehydrogenase hydrophobic membra...  38.9    0.005
+
+
+> sp|D0VWV4|C560_PIG Succinate dehydrogenase cytochrome b560 subunit, 
+mitochondrial OS=Sus scrofa OX=9823 GN=SDHC PE=1 SV=2
+Length=169
+
+ Score = 217 bits (552),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 169/169 (100%), Positives = 169/169 (100%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR
+Sbjct  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI
+Sbjct  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM
+Sbjct  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+
+
+> sp|P70097|C560_CRIGR Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Cricetulus griseus OX=10029 GN=SDHC 
+PE=2 SV=1
+Length=169
+
+ Score = 217 bits (552),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 139/169 (82%), Positives = 154/169 (91%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAHL+ Q+C+RNAVPLGTTAKEEMERFWNKN  S RP+SPH+TIYR
+Sbjct  1    MAALLLRHVGRHCLRAHLNSQICLRNAVPLGTTAKEEMERFWNKNTSSKRPVSPHLTIYR  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPM MSICHRGTG+ALS GVSLFGLSALLLPGNFES+L  +KSLCLGP LI++AKF +
+Sbjct  61   WSLPMVMSICHRGTGVALSGGVSLFGLSALLLPGNFESYLMFIKSLCLGPALIHSAKFVL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYH+ NGIRHLIWDLGKGL+I Q+ QSGV VL+L VLSSVGLAAM
+Sbjct  121  VFPLMYHSLNGIRHLIWDLGKGLSISQVYQSGVAVLMLAVLSSVGLAAM  169
+
+
+> sp|P35720|C560_BOVIN Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Bos taurus OX=9913 GN=SDHC PE=1 SV=2
+Length=169
+
+ Score = 211 bits (536),  Expect = 4e-68, Method: Composition-based stats.
+ Identities = 151/169 (89%), Positives = 159/169 (94%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFW+KN   NRPLSPHI+IY 
+Sbjct  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWSKNTTLNRPLSPHISIYG  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMAMSICHRGTGIALSAGVSLFGLSALL+PG+FESHLE VKSLCLGP LI+TAKF +
+Sbjct  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLVPGSFESHLEFVKSLCLGPALIHTAKFAL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYHTWNGIRHL+WDLGKGLTI QL QSGV VL+LTVLSSVGLAAM
+Sbjct  121  VFPLMYHTWNGIRHLMWDLGKGLTISQLHQSGVAVLVLTVLSSVGLAAM  169
+
+
+> sp|Q99643|C560_HUMAN Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Homo sapiens OX=9606 GN=SDHC PE=1 
+SV=1
+Length=169
+
+ Score = 210 bits (535),  Expect = 7e-68, Method: Composition-based stats.
+ Identities = 155/169 (92%), Positives = 163/169 (96%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAALLLRHVGRHCLRAH SPQLCIRNAVPLGTTAKEEMERFWNKN+GSNRPLSPHITIY 
+Sbjct  1    MAALLLRHVGRHCLRAHFSPQLCIRNAVPLGTTAKEEMERFWNKNIGSNRPLSPHITIYS  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMAMSICHRGTGIALSAGVSLFG+SALLLPGNFES+LELVKSLCLGP LI+TAKF +
+Sbjct  61   WSLPMAMSICHRGTGIALSAGVSLFGMSALLLPGNFESYLELVKSLCLGPALIHTAKFAL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYHTWNGIRHL+WDLGKGL IPQL QSGVVVL+LTVLSS+GLAAM
+Sbjct  121  VFPLMYHTWNGIRHLMWDLGKGLKIPQLYQSGVVVLVLTVLSSMGLAAM  169
+
+
+> sp|Q9CZB0|C560_MOUSE Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Mus musculus OX=10090 GN=Sdhc PE=1 
+SV=1
+Length=169
+
+ Score = 199 bits (507),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 136/169 (80%), Positives = 151/169 (89%), Gaps = 0/169 (0%)
+
+Query  1    MAALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYR  60
+            MAA LLRHV RHCLRAHL+ QLCIRNA PLGTTAKEEMERFW KN  SNRPLSPH+TIY+
+Sbjct  1    MAAFLLRHVSRHCLRAHLNAQLCIRNAAPLGTTAKEEMERFWKKNTSSNRPLSPHLTIYK  60
+
+Query  61   WSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGI  120
+            WSLPMA+S+CHRG+GIALS GVSLFGLSALLLPGNFES+L  VKSLCLGPTLIY+AKF +
+Sbjct  61   WSLPMALSVCHRGSGIALSGGVSLFGLSALLLPGNFESYLMFVKSLCLGPTLIYSAKFVL  120
+
+Query  121  VFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            VFPLMYH+ NGIRHL+WDLGKGL IPQ+  SGV V++L VLSS GLAA+
+Sbjct  121  VFPLMYHSLNGIRHLLWDLGKGLAIPQVWLSGVAVVVLAVLSSGGLAAL  169
+
+
+> sp|O74882|SDH3_SCHPO Succinate dehydrogenase cytochrome B subunit, 
+mitochondrial OS=Schizosaccharomyces pombe (strain 972 
+/ ATCC 24843) OX=284812 GN=sdh3 PE=3 SV=1
+Length=180
+
+ Score = 150 bits (380),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 57/171 (33%), Positives = 85/171 (50%), Gaps = 10/171 (6%)
+
+Query  2    AALLLRHVGRHCLRAHLSPQLCIRNAVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYRW  61
+            AA LLR  GR  LR      +  R+      T  E   R  ++ +  +RP SPH+TIY  
+Sbjct  17   AAQLLRPAGRSTLR-----NVWRRSIATEHLTQTEANSRLASQRV--HRPNSPHLTIYEP  69
+
+Query  62   SLPMAMSICHRGTGIALSAGVSLFGLSALLLP-GNFESHLELVKSLC--LGPTLIYTAKF  118
+             L   +S  HR TG  ++  +  F +  L+ P   +      +  L   +   +   AKF
+Sbjct  70   QLTWYLSSLHRITGCVVAGTLYAFAMGYLVAPLAGYSLDTATISGLIQQVPTWIKVPAKF  129
+
+Query  119  GIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGLAAM  169
+             I +PL +H +NGIRHLIWD  K L++  + ++G  VL L+VL+S   A +
+Sbjct  130  VISYPLTFHIFNGIRHLIWDTTKELSLKGVYRTGYAVLALSVLTSGYFAMI  180
+
+
+> sp|P41955|C560_CAEBR Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Caenorhabditis briggsae OX=6238 GN=mev-1 
+PE=2 SV=1
+Length=184
+
+ Score = 146 bits (368),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 44/147 (30%), Positives = 81/147 (55%), Gaps = 5/147 (3%)
+
+Query  26   NAVPLGTTAKEEMERF----WNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAG  81
+             +V   + AK  +++F      K     RP++PH+TIY+  L   +S  HR +G  ++  
+Sbjct  24   TSVVTKSEAKTPIQKFGWEYLKKQRDMKRPIAPHLTIYQPQLTWMLSGFHRISGCVMAGT  83
+
+Query  82   VSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK  141
+            + + GL   +LP +F + +E ++   L   +    K+ I FP+++HT NGIR L +DL K
+Sbjct  84   LLVGGLGFAVLPLDFTTFVEYIRGWNLPCAVTAVFKYIIAFPIIFHTLNGIRFLGFDLAK  143
+
+Query  142  GL-TIPQLTQSGVVVLILTVLSSVGLA  167
+            G+  I Q+ +SG +V  ++ + ++ + 
+Sbjct  144  GVDNIGQVYKSGWLVFGVSAVIALAIV  170
+
+
+> sp|P41956|C560_CAEEL Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Caenorhabditis elegans OX=6239 GN=mev-1 
+PE=2 SV=1
+Length=182
+
+ Score = 141 bits (356),  Expect = 7e-41, Method: Composition-based stats.
+ Identities = 42/147 (29%), Positives = 83/147 (56%), Gaps = 5/147 (3%)
+
+Query  26   NAVPLGTTAKEEMERF----WNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAG  81
+             ++   + AK  +++F      K    NRP++PH+T+Y+  L   +S  HR +G  ++  
+Sbjct  24   TSIVTKSEAKTPIQKFGWEYLLKQRSKNRPIAPHLTVYQPQLTWMLSGFHRISGCVMAGT  83
+
+Query  82   VSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK  141
+            + + G+   +LP +F + ++ ++S  L   +    K+ I FP+++HT NGIR L +DL K
+Sbjct  84   LLVGGIGFAVLPFDFTAFVDFIRSWNLPCAVTAVFKYIIAFPIIFHTLNGIRFLGFDLAK  143
+
+Query  142  GL-TIPQLTQSGVVVLILTVLSSVGLA  167
+            G+  + Q+ +SG +V  L+ + ++ + 
+Sbjct  144  GVNNVGQIYKSGYLVSGLSAILALAIV  170
+
+
+> sp|Q68XP1|DHSC_RICTY Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia typhi (strain ATCC VR-144 / Wilmington) 
+OX=257363 GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 131 bits (330),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 40/124 (32%), Positives = 68/124 (55%), Gaps = 6/124 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH+TIY+  +   +SI HR TG+AL   VS+  +  L+L     ++L+L
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVALFFVVSIL-VWWLILSKYDNNYLQL  63
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+             +   +   L+        +   YH  NGIRHL WD+G G +I  +  +G  V++ ++L 
+Sbjct  64   ARCCIIKICLV-----AFSYAWCYHLCNGIRHLFWDIGYGFSIRAVNITGWCVVVCSILL  118
+
+Query  163  SVGL  166
+            ++ L
+Sbjct  119  TMLL  122
+
+
+> sp|P41085|DHSC_RICPR Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia prowazekii (strain Madrid E) OX=272947 
+GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 130 bits (326),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 40/124 (32%), Positives = 67/124 (54%), Gaps = 6/124 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH+TIY+  +   +SI HR TG+AL   VS+  +  L+L     ++L+L
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVALFFVVSIL-VWWLILSKYDNNYLQL  63
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+                 +   L+        +   YH  NGIRHL WD+G G +I  +  +G  V++ ++L 
+Sbjct  64   ASCCIIKICLV-----AFSYSWCYHLCNGIRHLFWDIGYGFSIKAVNITGWCVVVCSILL  118
+
+Query  163  SVGL  166
+            ++ L
+Sbjct  119  TMLL  122
+
+
+> sp|Q92J99|DHSC_RICCN Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia conorii (strain ATCC VR-613 / Malish 7) 
+OX=272944 GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 129 bits (324),  Expect = 9e-37, Method: Composition-based stats.
+ Identities = 41/124 (33%), Positives = 69/124 (56%), Gaps = 6/124 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH+TIY+  +   +SI +R TG+AL   VS+  +  L+L     ++L+L
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILYRMTGVALFFAVSIL-VWWLILSKYDNNYLQL  63
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+             +   +   L+      + +   YH  NGIRHL WD+G G +I  +  +G  V++ +VL 
+Sbjct  64   AECCIIKICLV-----AVSYAWFYHLCNGIRHLFWDIGYGFSIKLVNITGWCVVVGSVLL  118
+
+Query  163  SVGL  166
+            +V L
+Sbjct  119  TVLL  122
+
+
+> sp|Q4UKC1|DHSC_RICFE Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) 
+OX=315456 GN=sdhC PE=3 SV=1
+Length=124
+
+ Score = 129 bits (323),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 38/124 (31%), Positives = 66/124 (53%), Gaps = 6/124 (5%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH++IY+  +   +SI HR TG+AL   VS+     L+L     ++L+ 
+Sbjct  5    KQEIYNKRPTSPHLSIYKLQISSTLSILHRMTGVALFFAVSILA-WWLILSKYDNNYLQF  63
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+                 +   L+      + +   YH  NGIRHL WD+G G +I  +  +G  V++ ++L 
+Sbjct  64   ANCCIIKICLV-----AVSYAWFYHLCNGIRHLFWDIGYGFSIKAVNITGWCVVVCSILL  118
+
+Query  163  SVGL  166
+            ++ L
+Sbjct  119  TMLL  122
+
+
+> sp|Q04487|SHH3_YEAST Mitochondrial inner membrane protein SHH3 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=SHH3 PE=3 SV=1
+Length=196
+
+ Score = 129 bits (325),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 37/126 (29%), Positives = 60/126 (48%), Gaps = 4/126 (3%)
+
+Query  47   GSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLF----GLSALLLPGNFESHLEL  102
+               RP+SPH+T+Y   +   +S  HR +G+ L+ G   F    G++ ++        L  
+Sbjct  70   RKKRPISPHLTVYEPEMSWYLSSLHRISGVLLALGFYAFTITLGVTTIMGMDTTFQDLNK  129
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+                 +     + AK    +   +H  NGIRHLIWD+G  LT   + ++G +VL  T++ 
+Sbjct  130  WYHEKMPKWSQWVAKGSAAYLFAFHFGNGIRHLIWDMGYELTNRGVIKTGSIVLAGTLVL  189
+
+Query  163  SVGLAA  168
+               L A
+Sbjct  190  GTYLLA  195
+
+
+> sp|P33421|SDH3_YEAST Succinate dehydrogenase [ubiquinone] cytochrome 
+b subunit, mitochondrial OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=SDH3 PE=1 SV=1
+Length=198
+
+ Score = 122 bits (307),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 41/147 (28%), Positives = 64/147 (44%), Gaps = 5/147 (3%)
+
+Query  27   AVPLGTTAKEEMERFWNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLF-  85
+            A  + T A    E+  NK   + RP+SPH+TIY+  L   +S  HR + + +  G  LF 
+Sbjct  53   ASEMNTKAAIAEEQILNKQ-RAKRPISPHLTIYQPQLTWYLSSLHRISLVLMGLGFYLFT  111
+
+Query  86   ---GLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKG  142
+               G+S LL  G     +             ++ K    +    H    IRHLIWD  K 
+Sbjct  112  ILFGVSGLLGLGLTTEKVSNWYHQKFSKITEWSIKGSFAYLFAIHYGGAIRHLIWDTAKE  171
+
+Query  143  LTIPQLTQSGVVVLILTVLSSVGLAAM  169
+            LT+  + ++G  ++  T +    L  +
+Sbjct  172  LTLKGVYRTGYALIGFTAVLGTYLLTL  198
+
+
+> sp|Q1RHB5|DHSC_RICBR Succinate dehydrogenase cytochrome b556 
+subunit OS=Rickettsia bellii (strain RML369-C) OX=336407 GN=sdhC 
+PE=3 SV=1
+Length=125
+
+ Score = 115 bits (289),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 43/124 (35%), Positives = 67/124 (54%), Gaps = 5/124 (4%)
+
+Query  43   NKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLEL  102
+             + + + RP SPH+TIY+  +   +SI HR TG+AL   VS+  L+   +   F+S+   
+Sbjct  5    KQEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVALFFAVSI--LAWWFILSKFDSNYIK  62
+
+Query  103  VKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLS  162
+            + + C    +I        F   YH  NGIRHL WD+G G +I  +  +G  V+I +VL 
+Sbjct  63   LANCCC---IIKICLILTSFAWFYHLCNGIRHLFWDIGLGFSIKAVNLTGWSVVICSVLF  119
+
+Query  163  SVGL  166
+            ++ L
+Sbjct  120  TILL  123
+
+
+> sp|Q8T2T5|C560_DICDI Succinate dehydrogenase cytochrome b560 
+subunit, mitochondrial OS=Dictyostelium discoideum OX=44689 
+GN=sdhC PE=3 SV=1
+Length=192
+
+ Score = 115 bits (288),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 48/118 (41%), Positives = 70/118 (59%), Gaps = 3/118 (3%)
+
+Query  50   RPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLG  109
+            +P SPH+TIY++ LP  MSI HR TGI L+ G++      L  P +   +++L+ +    
+Sbjct  71   QPTSPHLTIYKFPLPAVMSIMHRATGICLALGITGLAGVTLFAPHDAIHYIQLLHTQY--  128
+
+Query  110  PTLIYTAKFGIVFPLMYHTWNGIRHLIWD-LGKGLTIPQLTQSGVVVLILTVLSSVGL  166
+            P L+Y AKF +  PL YH   G+RH+IWD   KGL+I Q+  SG V+L +  + S   
+Sbjct  129  PALVYPAKFAVALPLTYHFCTGVRHIIWDETVKGLSISQIESSGKVLLAVVAVLSTIF  186
+
+
+> sp|P80481|C560_RECAM Succinate dehydrogenase cytochrome b560 
+subunit OS=Reclinomonas americana OX=48483 GN=SDH3 PE=3 SV=1
+Length=144
+
+ Score = 105 bits (261),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 39/123 (32%), Positives = 63/123 (51%), Gaps = 3/123 (2%)
+
+Query  45   NLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVK  104
+            N+  NRP+SPH+TIY+  +   +SI HR TG  L+  +  F L   +L  +  S+     
+Sbjct  16   NMNINRPISPHLTIYKLQITNTLSIFHRITGGVLALTLCFFILILKMLNFHLSSYAFYSI  75
+
+Query  105  SLCLGP---TLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVL  161
+            +  L      L     F ++  + YH + G+RHL+WD G  L I  +  +G ++L L  L
+Sbjct  76   AYTLNQYSGFLFIAISFFLLLFIFYHLFAGLRHLVWDAGYALEIENVYLTGYIMLGLAFL  135
+
+Query  162  SSV  164
+             ++
+Sbjct  136  FTL  138
+
+
+> sp|P35721|C560_MARPO Succinate dehydrogenase cytochrome b560 
+subunit OS=Marchantia polymorpha OX=3197 GN=SDH3 PE=3 SV=1
+Length=137
+
+ Score = 102 bits (253),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 39/124 (31%), Positives = 59/124 (48%), Gaps = 5/124 (4%)
+
+Query  46   LGSNRPLSPHITIYRWSLPMAMSICHRGTGIALS----AGVSLFGLSALLLPGNFESHLE  101
+            +  NRPLSPH+TIY+  L    SI HR +G  L+      +  F +  L L         
+Sbjct  1    MKINRPLSPHLTIYKPQLTSTFSIFHRISGAFLATMVLFSILFFKIGDLSLTFYHFYQYF  60
+
+Query  102  LVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVL  161
+               +  L   +I    F  +  L YH  NG+RHL+WDLG  L + ++  SG+++L     
+Sbjct  61   FFLTFYLNWFIISLVNF-TLLALCYHMSNGVRHLLWDLGFFLELSKVYTSGIIMLFCAAF  119
+
+Query  162  SSVG  165
+             ++ 
+Sbjct  120  LALL  123
+
+
+> sp|Q59659|DHSC_PARDE Succinate dehydrogenase cytochrome b556 
+subunit OS=Paracoccus denitrificans OX=266 GN=sdhC PE=3 SV=1
+Length=130
+
+ Score = 101 bits (252),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 44/124 (35%), Positives = 64/124 (52%), Gaps = 8/124 (6%)
+
+Query  47   GSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSL---FGLSALLLPGNFESHLELV  103
+              NRPLSPH+ +YR  L    SI  R TG AL AG+ L   + ++A+  PG F     +V
+Sbjct  6    RGNRPLSPHLQVYRLPLAAITSIMTRITGHALVAGIVLITWWLVAAVTSPGAFACADWVV  65
+
+Query  104  KSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSS  163
+            +S      L +    G ++ L YH   G+RHL +D G GL I Q  +S   ++  +V+ +
+Sbjct  66   RS-----WLGFIILTGSMWALWYHLLAGLRHLFYDAGYGLEIEQAHKSSQALIAGSVVLA  120
+
+Query  164  VGLA  167
+            V   
+Sbjct  121  VLTL  124
+
+
+> sp|P51055|DHSC_COXBU Succinate dehydrogenase cytochrome b556 
+subunit OS=Coxiella burnetii (strain RSA 493 / Nine Mile phase 
+I) OX=227377 GN=sdhC PE=3 SV=1
+Length=125
+
+ Score = 100 bits (249),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 29/120 (24%), Positives = 55/120 (46%), Gaps = 1/120 (1%)
+
+Query  46   LGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKS  105
+            + + RP++  +T + +     +SI HR +G  L   + L          + ES    +  
+Sbjct  1    MNAKRPVNLDLTKFHFPPMAILSIGHRISGFVLFLCMPLMFYLLHRATASAESFYH-LHQ  59
+
+Query  106  LCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVG  165
+            L L    I  A + ++   ++H + GIRHL  DLG   ++P+   S   V +++ ++ V 
+Sbjct  60   LLLHNGWIKLAVWIMLSATLFHLFAGIRHLAMDLGFWESVPEGRISAYTVFVVSFIAIVL  119
+
+
+> sp|P80478|C560_PORPU Succinate dehydrogenase cytochrome b560 
+subunit OS=Porphyra purpurea OX=2787 GN=SDH3 PE=3 SV=1
+Length=125
+
+ Score = 99.4 bits (246),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 33/123 (27%), Positives = 53/123 (43%), Gaps = 0/123 (0%)
+
+Query  47   GSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSL  106
+              NRP+SPH+TIY        SI HR +G+A+   ++   L   L   +++S   L   L
+Sbjct  3    NINRPISPHLTIYNTQKSSLFSIWHRISGVAMFTLIASPPLFLKLATFSYKSFNILDLML  62
+
+Query  107  CLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVGL  166
+                 ++      I    +YH  NGIRH +WD    +    + +    +L L  L  +  
+Sbjct  63   NNSSLILPWFIVIISVIFLYHIINGIRHFLWDSVVNVNTESIIKDSNTLLALVFLIMLFK  122
+
+Query  167  AAM  169
+              +
+Sbjct  123  FIL  125
+
+
+> sp|P63725|DHSC_SALTY Succinate dehydrogenase cytochrome b556 
+subunit OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 
+700720) OX=99287 GN=sdhC PE=3 SV=1
+Length=129
+
+ Score = 98.6 bits (244),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 31/126 (25%), Positives = 60/126 (48%), Gaps = 9/126 (7%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGLSA-LLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L   L  P  F+   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFIAVGILLWLLGTSLSSPEGFQQAA  62
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK-GLTIPQLTQSGVVVLILT  159
+            +++        ++    +GI+  L YH   GIRH++ D G    T     +S  +  ++T
+Sbjct  63   DIMDG-----FIVKFIMWGILTALAYHVIVGIRHMLMDFGYLEETFEAGQRSAKISFVIT  117
+
+Query  160  VLSSVG  165
+            V+ S+ 
+Sbjct  118  VVLSLL  123
+
+
+> sp|P63726|DHSC_SALTI Succinate dehydrogenase cytochrome b556 
+subunit OS=Salmonella typhi OX=90370 GN=sdhC PE=3 SV=1
+Length=129
+
+ Score = 98.6 bits (244),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 31/126 (25%), Positives = 60/126 (48%), Gaps = 9/126 (7%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGLSA-LLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L   L  P  F+   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFIAVGILLWLLGTSLSSPEGFQQAA  62
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK-GLTIPQLTQSGVVVLILT  159
+            +++        ++    +GI+  L YH   GIRH++ D G    T     +S  +  ++T
+Sbjct  63   DIMDG-----FIVKFIMWGILTALAYHVIVGIRHMLMDFGYLEETFEAGQRSAKISFVIT  117
+
+Query  160  VLSSVG  165
+            V+ S+ 
+Sbjct  118  VVLSLL  123
+
+
+> sp|P69054|DHSC_ECOLI Succinate dehydrogenase cytochrome b556 
+subunit OS=Escherichia coli (strain K12) OX=83333 GN=sdhC PE=1 
+SV=1
+Length=129
+
+ Score = 98.2 bits (243),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 34/126 (27%), Positives = 59/126 (47%), Gaps = 9/126 (7%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGLSA-LLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L   L  P  FE   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFVAVGILLWLLGTSLSSPEGFEQA-  61
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK-GLTIPQLTQSGVVVLILT  159
+                S  +G   +    +GI+  L YH   GIRH++ D G    T     +S  +  ++T
+Sbjct  62   ----SAIMGSFFVKFIMWGILTALAYHVVVGIRHMMMDFGYLEETFEAGKRSAKISFVIT  117
+
+Query  160  VLSSVG  165
+            V+ S+ 
+Sbjct  118  VVLSLL  123
+
+
+> sp|P69055|DHSC_ECO57 Succinate dehydrogenase cytochrome b556 
+subunit OS=Escherichia coli O157:H7 OX=83334 GN=sdhC PE=3 SV=1
+Length=129
+
+ Score = 98.2 bits (243),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 34/126 (27%), Positives = 59/126 (47%), Gaps = 9/126 (7%)
+
+Query  44   KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA--LSAGVSLFGLSA-LLLPGNFESHL  100
+            +N+   RP++  +   R+ +    SI HR +G+   ++ G+ L+ L   L  P  FE   
+Sbjct  3    RNVKKQRPVNLDLQTIRFPITAIASILHRVSGVITFVAVGILLWLLGTSLSSPEGFEQA-  61
+
+Query  101  ELVKSLCLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGK-GLTIPQLTQSGVVVLILT  159
+                S  +G   +    +GI+  L YH   GIRH++ D G    T     +S  +  ++T
+Sbjct  62   ----SAIMGSFFVKFIMWGILTALAYHVVVGIRHMMMDFGYLEETFEAGKRSAKISFVIT  117
+
+Query  160  VLSSVG  165
+            V+ S+ 
+Sbjct  118  VVLSLL  123
+
+
+> sp|P0DKI1|SDH32_ARATH Succinate dehydrogenase subunit 3-2, mitochondrial 
+OS=Arabidopsis thaliana OX=3702 GN=SDH3-2 PE=1 SV=1
+Length=213
+
+ Score = 84.7 bits (208),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 22/100 (22%), Positives = 41/100 (41%), Gaps = 7/100 (7%)
+
+Query  30   LGTTAKEEMERFWNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSA  89
+            + TT +E         + S RPLSPH+++Y+  +   +SI +R +G+ L+       L  
+Sbjct  112  IKTTQEEP-------KIKSFRPLSPHLSVYQPQMNSMLSIFNRISGVYLTGVTFAGYLLY  164
+
+Query  90   LLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTW  129
+            L +     ++    + L      +           +YHT 
+Sbjct  165  LKMGMICLTYPSFYQVLYHTQQQLPVITSVTALAAIYHTI  204
+
+
+> sp|P0DKI0|SDH31_ARATH Succinate dehydrogenase subunit 3-1, mitochondrial 
+OS=Arabidopsis thaliana OX=3702 GN=SDH3-1 PE=1 SV=1
+Length=213
+
+ Score = 84.7 bits (208),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 22/100 (22%), Positives = 41/100 (41%), Gaps = 7/100 (7%)
+
+Query  30   LGTTAKEEMERFWNKNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSA  89
+            + TT +E         + S RPLSPH+++Y+  +   +SI +R +G+ L+       L  
+Sbjct  112  IKTTQEEP-------KIKSFRPLSPHLSVYQPQMNSMLSIFNRISGVYLTGVTFAGYLLY  164
+
+Query  90   LLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHTW  129
+            L +     ++    + L      +           +YHT 
+Sbjct  165  LKMGMICLTYPSFYQVLYHTQQQLPVITSVTALAAIYHTI  204
+
+
+> sp|P48935|C560_CYACA Succinate dehydrogenase cytochrome b560 
+subunit OS=Cyanidium caldarium OX=2771 GN=SDH3 PE=3 SV=1
+Length=132
+
+ Score = 76.2 bits (186),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 28/95 (29%), Positives = 42/95 (44%), Gaps = 3/95 (3%)
+
+Query  47   GSNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFG--LSALLLPGNFESHLELVK  104
+              NRPLSP++TIY        SI HR +G+ L   + +    +  L     F    + VK
+Sbjct  3    YKNRPLSPYVTIYSSQWTSISSIFHRLSGLYLVFFLFVLFCSIKFLFCFSTFWFVYKFVK  62
+
+Query  105  SLCLGPT-LIYTAKFGIVFPLMYHTWNGIRHLIWD  138
+            +                ++ L YH + G+RHL+WD
+Sbjct  63   TCFFFILSFFIVFIVFSMYSLFYHFFIGLRHLVWD  97
+
+
+> sp|P48934|C560_CHOCR Succinate dehydrogenase cytochrome b560 
+subunit OS=Chondrus crispus OX=2769 GN=SDH3 PE=3 SV=1
+Length=127
+
+ Score = 75.1 bits (183),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 36/104 (35%), Positives = 56/104 (54%), Gaps = 1/104 (1%)
+
+Query  48   SNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSA-LLLPGNFESHLELVKSL  106
+            SNRP++PH+ +Y   L    SI HR +G+ L+   + F +   ++L  NF  +L  + S 
+Sbjct  8    SNRPIAPHLLVYTPQLSSLFSIWHRISGVGLAFFFTTFLIFIRIILSSNFACNLLTLISF  67
+
+Query  107  CLGPTLIYTAKFGIVFPLMYHTWNGIRHLIWDLGKGLTIPQLTQ  150
+             +   +I      I+  L YH +NG RH+IWD G  L I  L++
+Sbjct  68   EISQWIIIYFNLFILLFLFYHLFNGTRHIIWDFGFLLDIKYLSK  111
+
+
+> sp|Q6ZH92|SDH31_ORYSJ Succinate dehydrogenase subunit 3-1, mitochondrial 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SDH3-1 
+PE=1 SV=1
+Length=129
+
+ Score = 55.8 bits (133),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 23/47 (49%), Gaps = 0/47 (0%)
+
+Query  48   SNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPG  94
+            +NRPLSPH+ + +  L    SI HR  G AL A +    L+      
+Sbjct  80   ANRPLSPHLPLKKPQLSATFSISHRIFGAALGAAIISIPLATKFSLM  126
+
+
+> sp|Q84VK7|SDH32_ORYSJ Succinate dehydrogenase subunit 3-2, mitochondrial 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SDH3-2 
+PE=1 SV=2
+Length=129
+
+ Score = 55.8 bits (133),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 23/47 (49%), Gaps = 0/47 (0%)
+
+Query  48   SNRPLSPHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPG  94
+            +NRPLSPH+ + +  L    SI HR  G AL A +    L+      
+Sbjct  80   ANRPLSPHLPLKKPQLSATFSISHRIFGAALGAVIISIPLATKFSLM  126
+
+
+> sp|O53368|SDHC_MYCTU Succinate dehydrogenase 2 membrane subunit 
+SdhC OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) 
+OX=83332 GN=sdhC PE=1 SV=2
+Length=144
+
+ Score = 40.8 bits (94),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/86 (23%), Positives = 44/86 (51%), Gaps = 2/86 (2%)
+
+Query  54   PHITIYRWSLPMAMSICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLI  113
+            P  T+YR    M   +CHR +G  +   + +  L A +L  + +++  ++ +      ++
+Sbjct  22   PPRTLYRGDPGMWSWVCHRISGATIFFFLFVHVLDAAMLRVSPQTYNAVLATYKTP--IV  79
+
+Query  114  YTAKFGIVFPLMYHTWNGIRHLIWDL  139
+               ++G+V  +++H  NGIR ++ D 
+Sbjct  80   GLMEYGLVAAVLFHALNGIRVILIDF  105
+
+
+> sp|P72109|DHSD_NATPH Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Natronomonas pharaonis OX=2257 GN=sdhD 
+PE=3 SV=1
+Length=130
+
+ Score = 39.6 bits (91),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 22/97 (23%), Positives = 41/97 (42%), Gaps = 3/97 (3%)
+
+Query  69   ICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHT  128
+            I H+ TG  L   +            +  ++ + ++ L     ++   + G++   ++H 
+Sbjct  27   IFHKFTGWVLIGYLFTHVAVLSTATVDAATYTQTLQGLE-SLLVVRFLEVGLLAVAVFHI  85
+
+Query  129  WNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVG  165
+             NGIR L  DLG GL      ++    LI+T   +V 
+Sbjct  86   LNGIRLLFVDLGVGL--EAQDKAFYAALIVTAAITVA  120
+
+
+> sp|Q9HQ63|DHSD_HALSA Succinate dehydrogenase hydrophobic membrane 
+anchor subunit OS=Halobacterium salinarum (strain ATCC 
+700922 / JCM 11081 / NRC-1) OX=64091 GN=sdhD PE=3 SV=2
+Length=130
+
+ Score = 38.9 bits (89),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 22/97 (23%), Positives = 38/97 (39%), Gaps = 3/97 (3%)
+
+Query  69   ICHRGTGIALSAGVSLFGLSALLLPGNFESHLELVKSLCLGPTLIYTAKFGIVFPLMYHT  128
+            + H+ TG  L   +              + +   +  L     ++   + G++   ++H 
+Sbjct  27   VFHKFTGWVLVGYLFTHISVLSTSLQGAQVYNSTLSGLE-SLAIVRLLEVGLLAVAVFHI  85
+
+Query  129  WNGIRHLIWDLGKGLTIPQLTQSGVVVLILTVLSSVG  165
+             NGIR L  DLG GL      +S    L+LT +  V 
+Sbjct  86   LNGIRLLFVDLGVGL--EAQDKSFYASLVLTGVIVVA  120
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8337499740
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

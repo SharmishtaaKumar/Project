@@ -1,0 +1,173 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q03NM0|4hzuS
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|A2RIH3|HMPT_LACLM Thiamine precursor transporter HmpT OS=Lac...  96.3    1e-23
+  sp|P20298|YORX_PYRWO Uncharacterized protein in gap 3'region (F...  79.3    2e-17
+
+
+> sp|A2RIH3|HMPT_LACLM Thiamine precursor transporter HmpT OS=Lactococcus 
+lactis subsp. cremoris (strain MG1363) OX=416870 
+GN=hmpT PE=1 SV=1
+Length=166
+
+ Score = 96.3 bits (238),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 56/145 (39%), Positives = 87/145 (60%), Gaps = 9/145 (6%)
+
+Query  1    MTKGSLKENTIAAVLIAMTVALSILVVIPIPATKG-IVTLCEVGIYTSAILYGRRMGLLV  59
+            M   ++K+ T+ A+  A+T  L  L   PIP + G I+TL +VGIYT+  L+G+R   ++
+Sbjct  4    MDNKNIKKLTLLAIWTALTFVLGRLFTFPIPGSAGNILTLLDVGIYTAVFLFGKREAAII  63
+
+Query  60   GGASGFLIDILTGYPVWCLFSLVIHGTQGLVVGWLLPRHHKGIRSMLLPLLVGSLVMVIG  119
+            GG + FL+D+  G+  +  FSL+IHG QG + G  L R+        L  L+  LVMV G
+Sbjct  64   GGFAAFLLDLTAGFSNYMFFSLIIHGGQGYLAG--LTRYK------WLNFLLSLLVMVGG  115
+
+Query  120  YCLATTLLFGWPAGLASIFGNVVQV  144
+            Y +   L++GW + +A ++ N+VQV
+Sbjct  116  YFIVGGLMYGWGSAIAGLWVNIVQV  140
+
+
+> sp|P20298|YORX_PYRWO Uncharacterized protein in gap 3'region 
+(Fragment) OS=Pyrococcus woesei OX=2262 PE=4 SV=1
+Length=148
+
+ Score = 79.3 bits (194),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 45/121 (37%), Positives = 73/121 (60%), Gaps = 2/121 (2%)
+
+Query  23   SILVVIPIPATKGIVTLCEVGIYTSAILYGRRMGLLVGGASGFLIDILTGYPVWCLFSLV  82
+            ++LV IPIPA++G +   ++ I   A+L+G  +G   GG    L D++ GYP W LF+LV
+Sbjct  6    TMLVRIPIPASQGYLNFGDIMIMLVAVLFGPLVGGFAGGVGSALADVI-GYPSWALFTLV  64
+
+Query  83   IHGTQGLVVGWLLPRHHKGIRSMLLPLLVGSLVMVIGYCLATTLLFGWPAGLASIFGNVV  142
+            I GT+G++VGW   +       +LL  ++G +VMV+GY     +L+G    +A  + ++V
+Sbjct  65   IKGTEGVIVGW-FSKGTTNYGRILLGTVLGGIVMVLGYVSVAYVLYGPGGAVAEFYNDIV  123
+
+Query  143  Q  143
+            Q
+Sbjct  124  Q  124
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.146    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7920624753
+Results from round 2
+
+
+Query= Q03NM0|4hzuS
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A2RIH3|HMPT_LACLM Thiamine precursor transporter HmpT OS=Lac...  134     4e-38
+  sp|P20298|YORX_PYRWO Uncharacterized protein in gap 3'region (F...  115     4e-31
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|A2RIH3|HMPT_LACLM Thiamine precursor transporter HmpT OS=Lactococcus 
+lactis subsp. cremoris (strain MG1363) OX=416870 
+GN=hmpT PE=1 SV=1
+Length=166
+
+ Score = 134 bits (337),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 57/148 (39%), Positives = 88/148 (59%), Gaps = 9/148 (6%)
+
+Query  1    MTKGSLKENTIAAVLIAMTVALSILVVIPIPATKG-IVTLCEVGIYTSAILYGRRMGLLV  59
+            M   ++K+ T+ A+  A+T  L  L   PIP + G I+TL +VGIYT+  L+G+R   ++
+Sbjct  4    MDNKNIKKLTLLAIWTALTFVLGRLFTFPIPGSAGNILTLLDVGIYTAVFLFGKREAAII  63
+
+Query  60   GGASGFLIDILTGYPVWCLFSLVIHGTQGLVVGWLLPRHHKGIRSMLLPLLVGSLVMVIG  119
+            GG + FL+D+  G+  +  FSL+IHG QG + G  L R+        L  L+  LVMV G
+Sbjct  64   GGFAAFLLDLTAGFSNYMFFSLIIHGGQGYLAG--LTRYK------WLNFLLSLLVMVGG  115
+
+Query  120  YCLATTLLFGWPAGLASIFGNVVQVGFG  147
+            Y +   L++GW + +A ++ N+VQV  G
+Sbjct  116  YFIVGGLMYGWGSAIAGLWVNIVQVIVG  143
+
+
+> sp|P20298|YORX_PYRWO Uncharacterized protein in gap 3'region 
+(Fragment) OS=Pyrococcus woesei OX=2262 PE=4 SV=1
+Length=148
+
+ Score = 115 bits (288),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 45/123 (37%), Positives = 73/123 (59%), Gaps = 2/123 (2%)
+
+Query  21   ALSILVVIPIPATKGIVTLCEVGIYTSAILYGRRMGLLVGGASGFLIDILTGYPVWCLFS  80
+              ++LV IPIPA++G +   ++ I   A+L+G  +G   GG    L D++ GYP W LF+
+Sbjct  4    VTTMLVRIPIPASQGYLNFGDIMIMLVAVLFGPLVGGFAGGVGSALADVI-GYPSWALFT  62
+
+Query  81   LVIHGTQGLVVGWLLPRHHKGIRSMLLPLLVGSLVMVIGYCLATTLLFGWPAGLASIFGN  140
+            LVI GT+G++VGW   +       +LL  ++G +VMV+GY     +L+G    +A  + +
+Sbjct  63   LVIKGTEGVIVGW-FSKGTTNYGRILLGTVLGGIVMVLGYVSVAYVLYGPGGAVAEFYND  121
+
+Query  141  VVQ  143
+            +VQ
+Sbjct  122  IVQ  124
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.150    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0451    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7920624753
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

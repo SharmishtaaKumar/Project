@@ -1,0 +1,3258 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q8R6L9|3t9nC
+
+Length=282
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q8R6L9|MSCS_CALS4 Small-conductance mechanosensitive channel...  568     0.0  
+  sp|O34897|YKUT_BACSU Uncharacterized MscS family protein YkuT O...  191     3e-57
+  sp|O35043|YFKC_BACSU Uncharacterized MscS family protein YfkC O...  122     5e-31
+  sp|P75783|YBIO_ECOLI Moderate conductance mechanosensitive chan...  105     6e-24
+  sp|P42531|Y1270_CORGL Uncharacterized protein Cgl1270/cg1434 OS...  97.8    1e-21
+  sp|Q89AB5|Y402_BUCBP Uncharacterized MscS family protein bbp_40...  87.8    5e-19
+  sp|O07594|YHDY_BACSU Uncharacterized MscS family protein YhdY O...  88.2    9e-19
+  sp|Q8K9B1|Y437_BUCAP Uncharacterized MscS family protein BUsg_4...  80.5    2e-16
+  sp|P0C0S3|MSCS_SHIFL Small-conductance mechanosensitive channel...  80.5    2e-16
+  sp|P0C0S1|MSCS_ECOLI Small-conductance mechanosensitive channel...  80.5    2e-16
+  sp|P0C0S2|MSCS_ECO57 Small-conductance mechanosensitive channel...  80.5    2e-16
+  sp|O25170|Y415_HELPY Uncharacterized MscS family protein HP_041...  80.9    8e-16
+  sp|O66994|Y812_AQUAE Uncharacterized MscS family protein aq_812...  79.7    1e-15
+  sp|Q9ZKG7|Y415_HELPJ Uncharacterized MscS family protein jhp_09...  79.3    2e-15
+  sp|Q55717|Y639_SYNY3 Uncharacterized MscS family protein slr063...  77.0    4e-15
+  sp|P0AEB5|YNAI_ECOLI Low conductance mechanosensitive channel Y...  77.0    5e-15
+  sp|P0AEB6|YNAI_ECO57 Low conductance mechanosensitive channel Y...  77.0    5e-15
+  sp|Q58543|MSMJL_METJA Large-conductance mechanosensitive channe...  76.3    1e-14
+  sp|O52401|MSCS_EDWI9 Small-conductance mechanosensitive channel...  75.1    2e-14
+  sp|O28726|Y1546_ARCFU Uncharacterized MscS family protein AF_15...  73.9    4e-14
+  sp|P57527|Y452_BUCAI Uncharacterized MscS family protein BU452 ...  71.2    6e-13
+  sp|Q57634|MSMJS_METJA Small-conductance mechanosensitive channe...  70.1    2e-12
+  sp|P39285|MSCM_ECOLI Miniconductance mechanosensitive channel M...  61.6    2e-09
+  sp|P77338|MSCK_ECOLI Mechanosensitive channel MscK OS=Escherich...  61.6    2e-09
+  sp|Q57362|Y195A_HAEIN Uncharacterized MscS family protein HI_01...  60.8    5e-09
+  sp|P0DKS1|MSCS_WIGBR Small-conductance mechanosensitive channel...  53.5    6e-07
+  sp|T0DVE4|MSCS_HELPX Small-conductance mechanosensitive channel...  53.1    6e-07
+  sp|Q8VZL4|MSL1_ARATH Mechanosensitive ion channel protein 1, mi...  53.1    1e-06
+
+
+> sp|Q8R6L9|MSCS_CALS4 Small-conductance mechanosensitive channel 
+OS=Caldanaerobacter subterraneus subsp. tengcongensis (strain 
+DSM 15242 / JCM 11007 / NBRC 100824 / MB4) OX=273068 GN=mscS 
+PE=1 SV=1
+Length=282
+
+ Score = 568 bits (1464),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 282/282 (100%), Positives = 282/282 (100%), Gaps = 0/282 (0%)
+
+Query  1    MWADIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRK  60
+            MWADIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRK
+Sbjct  1    MWADIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRK  60
+
+Query  61   IDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISG  120
+            IDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISG
+Sbjct  61   IDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISG  120
+
+Query  121  FFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSM  180
+            FFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSM
+Sbjct  121  FFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSM  180
+
+Query  181  MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKT  240
+            MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKT
+Sbjct  181  MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKT  240
+
+Query  241  QPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+            QPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN
+Sbjct  241  QPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+
+
+> sp|O34897|YKUT_BACSU Uncharacterized MscS family protein YkuT 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=ykuT PE=2 SV=2
+Length=267
+
+ Score = 191 bits (484),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 101/251 (40%), Positives = 155/251 (62%), Gaps = 8/251 (3%)
+
+Query  18   VKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIY  77
+            +K  + +L   I+  +G+K    L  +F +  S     L   +  TL SLT N   Y + 
+Sbjct  21   IKLAIMILLYFIVRSLGMKIIKHLFAKFEEQNS-----LSIGRAHTLRSLTLNIFAYTLI  75
+
+Query  78   FLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTI  137
+            F+    +L LF+ D ++LLA AGI  LA+GFGAQ LV D+++GFFI+ E Q  VGDY+T+
+Sbjct  76   FIFFVMVLDLFHYDPSALLAGAGIVGLAVGFGAQGLVSDIVTGFFILLEKQLDVGDYITV  135
+
+Query  138  NGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAVVNIAFPIDEDVDKI  197
+            +   G VE++GLR T+IR F   LH IPN  I  V+N ++ +M A+V+I  P + ++D++
+Sbjct  136  STFDGIVEQVGLRTTQIRSFDGTLHYIPNRNITNVSNHSRGTMQALVDIKVPAERNIDEM  195
+
+Query  198  IEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVK  257
+            I  LQ++C+E   +   + EGP V+GI ++  S++VI V AKT+ M++W VER +R  +K
+Sbjct  196  IHILQQVCDETAAALPQIKEGPNVIGIQELGTSEIVIRVIAKTENMEQWRVERVLRKEIK  255
+
+Query  258  KMFDQKNISFP  268
+              FD+   +FP
+Sbjct  256  NAFDR---AFP  263
+
+
+> sp|O35043|YFKC_BACSU Uncharacterized MscS family protein YfkC 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=yfkC PE=2 SV=1
+Length=280
+
+ Score = 122 bits (305),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 82/230 (36%), Positives = 127/230 (55%), Gaps = 18/230 (8%)
+
+Query  9    LVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLT  68
+            L EI+  K V    D+L + +I +IG+    F+I R  +L+ K    + ++K  T+ SL 
+Sbjct  7    LTEIFQNKIV----DILLVAVILWIGV----FIINRLVQLFFKRTDFIEEKKEKTIESLV  58
+
+Query  69   KNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQ  128
+            ++  +Y         ++ LF  D   +LA AG+  + IGFGAQ+L+KD+++G F+I+E Q
+Sbjct  59   RSVTQYTATIGFIFYVISLFVHDFGKILAGAGVAGIVIGFGAQSLIKDVLAGVFLIYERQ  118
+
+Query  129  FSVGDYVTINGI-SGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAVVNIA  187
+               GDYVT+N + +GTVEEIGLR  +IR +S  L  I NGE++ + N   D M    +  
+Sbjct  119  LHKGDYVTVNNLFNGTVEEIGLRSLQIREWSGKLLTISNGEVRQIENYNIDFMRITESFL  178
+
+Query  188  FPIDEDVDKIIEGLQEIC----EEVKKS-RDDLIEGPT----VLGITDMQ  228
+                ED D++   L+E C    EE++ S + D    PT    + GIT + 
+Sbjct  179  ISFKEDPDRVYSVLEEACDMLNEELRDSLKRDEFGNPTEPFQIHGITALN  228
+
+
+> sp|P75783|YBIO_ECOLI Moderate conductance mechanosensitive channel 
+YbiO OS=Escherichia coli (strain K12) OX=83333 GN=ybiO 
+PE=1 SV=2
+Length=741
+
+ Score = 105 bits (263),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 72/216 (33%), Positives = 110/216 (51%), Gaps = 3/216 (1%)
+
+Query  56   LPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVK  115
+            LP  +  TL +L +NA+  II  +    +L    +++  LLA AG   LAI FG+Q LVK
+Sbjct  501  LPSARTRTLLTLFRNALAVIISTITIMIVLSEIGVNIAPLLAGAGALGLAISFGSQTLVK  560
+
+Query  116  DMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNL  175
+            D+I+G FI FE+  + GD VTI  ++GTVE + +R   +R  +   HIIP   I    N 
+Sbjct  561  DIITGVFIQFENGMNTGDLVTIGPLTGTVERMSIRSVGVRQDTGAYHIIPWSSITTFANF  620
+
+Query  176  TKDSMMAVVNIAFPIDEDVDKIIEGLQEICEEVKKS---RDDLIEGPTVLGITDMQDSKL  232
+             +     V N      ED DK  + L++   E+ ++   R  +I  P   GI  + ++  
+Sbjct  621  VRGIGSVVANYDVDRHEDADKANQALKDAVAELMENEEIRGLIIGEPNFAGIVGLSNTAF  680
+
+Query  233  VIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFP  268
+             + V   T P+++W V   +  +VKK FD   +  P
+Sbjct  681  TLRVSFTTLPLKQWTVRFALDSQVKKHFDLAGVRAP  716
+
+
+> sp|P42531|Y1270_CORGL Uncharacterized protein Cgl1270/cg1434 
+OS=Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 
+/ JCM 1318 / LMG 3730 / NCIMB 10025) OX=196627 GN=Cgl1270 PE=4 
+SV=2
+Length=491
+
+ Score = 97.8 bits (242),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 68/209 (33%), Positives = 101/209 (48%), Gaps = 24/209 (11%)
+
+Query  72   VRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSV  131
+             + + +F+   S ++ F   +      A I S AIG GAQ++V D ++GFFI+ E QF V
+Sbjct  31   AQIVAFFMLAVSAMQAFGFSLAGAAIPATIASAAIGLGAQSIVADFLAGFFILTEKQFGV  90
+
+Query  132  GDYVTING----ISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAVVNIA  187
+            GD+V   G    + GTV EI +R TKIR  +    IIPN   K+  N + +   AVV I 
+Sbjct  91   GDWVRFEGNGIVVEGTVIEITMRATKIRTIAQETVIIPNSTAKVCINNSNNWSRAVVVIP  150
+
+Query  188  FPI--DEDVDKIIE----------GLQEICEEVKKSRD----DLIEGPTVLGITDMQDSK  231
+             P+   E++  +I           G ++I  E+    D      +  PTV+G+  M   +
+Sbjct  151  IPMLGSENITDVIARSEAATRRALGQEKIAPEILGELDVHPATEVTPPTVVGMPWMVTMR  210
+
+Query  232  LVIMVYAKTQPMQKWAVERDIRYRVKKMF  260
+             ++ V A  Q    W VER IR  +   F
+Sbjct  211  FLVQVTAGNQ----WLVERAIRTEIISEF  235
+
+
+> sp|Q89AB5|Y402_BUCBP Uncharacterized MscS family protein bbp_402 
+OS=Buchnera aphidicola subsp. Baizongia pistaciae (strain 
+Bp) OX=224915 GN=bbp_402 PE=3 SV=1
+Length=281
+
+ Score = 87.8 bits (216),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 62/233 (27%), Positives = 115/233 (49%), Gaps = 10/233 (4%)
+
+Query  52   SKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQ  111
+            +K+ + Q+   T+ +     VRYII   A  + L    +  TS++A+ G   +AIG   Q
+Sbjct  53   NKVLITQKIDTTIANFLAALVRYIIITFALIASLGCIGVQTTSVIAILGAAGMAIGLALQ  112
+
+Query  112  NLVKDMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--  169
+              + +  +G  ++    F  G+YV +  ISGTV  I +  T  R     + +IPNG+I  
+Sbjct  113  GSLSNFAAGVLLVILRPFRTGEYVNLEKISGTVLNIHVFYTTFRTLDGKIVVIPNGKIIS  172
+
+Query  170  KMVTNLTKDSMMA---VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITD  226
+              + N +++       ++ +++  D D+DK+I+ L+ +   VK  +  L +   ++G+++
+Sbjct  173  GNIINYSREKARRNEFIIGVSY--DSDIDKVIKILKNV---VKNEKRVLKDRDIIVGLSE  227
+
+Query  227  MQDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEK  279
+            +  S L  +V   +       V  D+  + KK  D  NI+ PYP+  + L +K
+Sbjct  228  LAPSSLNFIVRCWSHTDDINIVYWDLMVKFKKALDSNNINIPYPQFDINLKKK  280
+
+
+> sp|O07594|YHDY_BACSU Uncharacterized MscS family protein YhdY 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=yhdY PE=3 SV=1
+Length=371
+
+ Score = 88.2 bits (217),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 62/232 (27%), Positives = 113/232 (49%), Gaps = 21/232 (9%)
+
+Query  62   DTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGF  121
+            D L       +R++I  L+ + I + FN D+   +A  G+G LA    A++ + +   G 
+Sbjct  131  DILAPFLSKLLRFVIIALSVSVIAQEFNYDVNGFVAGLGLGGLAFALAAKDTISNFFGGI  190
+
+Query  122  FIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKM--VTNLTKDS  179
+             II E  F++GD+V  + ++G+VE+I  R T+ R     L  +PN  + M  +TN T+ +
+Sbjct  191  IIITEKPFTIGDWVETSTVTGSVEDITFRSTRFRTAQGALVTVPNSTLSMEAITNWTRMT  250
+
+Query  180  MMAV-----VNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDS--KL  232
+               +     V+ A PI E++++ I  L+ +  E +   +++I    ++      DS   L
+Sbjct  251  KRQITFSIHVSYATPI-ENLERSIHSLRTMLLEHEGVDNEII----MVNFDTFADSYYNL  305
+
+Query  233  VIMVYAKTQPMQKWA----VERDIRYRVKKMFDQKNISFPYPRTTVILSEKK  280
+                Y KT     WA    +  DI Y++ ++   + + F YP   V++ +K 
+Sbjct  306  FFNFYTKT---TVWAENLNIREDINYKIIEILGAEGVQFAYPGQMVVVKQKH  354
+
+
+> sp|Q8K9B1|Y437_BUCAP Uncharacterized MscS family protein BUsg_437 
+OS=Buchnera aphidicola subsp. Schizaphis graminum (strain 
+Sg) OX=198804 GN=BUsg_437 PE=3 SV=1
+Length=283
+
+ Score = 80.5 bits (197),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 63/236 (27%), Positives = 114/236 (48%), Gaps = 17/236 (7%)
+
+Query  56   LPQRKID-TLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLV  114
+            L  R ID T+       +RYII      + L    +  TS++A+ G   +AIG   Q  +
+Sbjct  56   LITRHIDATIAGFLSALMRYIIITFTLIASLGRIGVQTTSVIAILGAAGMAIGLALQGSL  115
+
+Query  115  KDMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMV  172
+             +  +G  ++       G+YV +  ++GTV  I +  T +R     + ++PN +I    +
+Sbjct  116  SNFAAGVLLVTLRPLKTGEYVNLGNVAGTVLNIHIFYTTLRTLDGKIVVVPNNKIISGNI  175
+
+Query  173  TNLTKD-SMMAVVNIAFPIDEDVDKIIEGLQEICEE---VKKSRDDLIEGPTVLGITDMQ  228
+             N +++ +     +I+   + D+D +I+ L+ + E    V K RD       V+G++++ 
+Sbjct  176  INYSREPARRNEFSISVSYNTDIDLVIKVLKRVIENEDRVMKDRD------IVIGLSELA  229
+
+Query  229  DSKL--VIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+             S L  +I  ++ T  +   AV  D+  + KK  D+ NI+ PYP+  V L +K  N
+Sbjct  230  PSSLNFIIRCWSSTDELN--AVYWDLMVKFKKELDKNNINIPYPQIDVHLYKKNKN  283
+
+
+> sp|P0C0S3|MSCS_SHIFL Small-conductance mechanosensitive channel 
+OS=Shigella flexneri OX=623 GN=mscS PE=3 SV=1
+Length=286
+
+ Score = 80.5 bits (197),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 60/226 (27%), Positives = 109/226 (48%), Gaps = 17/226 (8%)
+
+Query  58   QRKID-TLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKD  116
+             RKID T+       VRY I      + L    +   S++AV G   LA+G   Q  + +
+Sbjct  58   SRKIDATVADFLSALVRYGIIAFTLIAALGRVGVQTASVIAVLGAAGLAVGLALQGSLSN  117
+
+Query  117  MISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTN  174
+            + +G  ++    F  G+YV + G++GTV  + +  T +R     + +IPNG+I    + N
+Sbjct  118  LAAGVLLVMFRPFRAGEYVDLGGVAGTVLSVQIFSTTMRTADGKIIVIPNGKIIAGNIIN  177
+
+Query  175  LTKDSMMA---VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLI---EGPTVLGITDMQ  228
+             +++ +     ++ +A+  D D+D++    ++I   + +S D ++   E    L      
+Sbjct  178  FSREPVRRNEFIIGVAY--DSDIDQV----KQILTNIIQSEDRILKDREMTVRLNELGAS  231
+
+Query  229  DSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTV  274
+                V+ V++ +  +Q   V  D+  R+K+ FD   ISFPYP+  V
+Sbjct  232  SINFVVRVWSNSGDLQN--VYWDVLERIKREFDAAGISFPYPQMDV  275
+
+
+> sp|P0C0S1|MSCS_ECOLI Small-conductance mechanosensitive channel 
+OS=Escherichia coli (strain K12) OX=83333 GN=mscS PE=1 SV=1
+Length=286
+
+ Score = 80.5 bits (197),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 60/226 (27%), Positives = 109/226 (48%), Gaps = 17/226 (8%)
+
+Query  58   QRKID-TLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKD  116
+             RKID T+       VRY I      + L    +   S++AV G   LA+G   Q  + +
+Sbjct  58   SRKIDATVADFLSALVRYGIIAFTLIAALGRVGVQTASVIAVLGAAGLAVGLALQGSLSN  117
+
+Query  117  MISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTN  174
+            + +G  ++    F  G+YV + G++GTV  + +  T +R     + +IPNG+I    + N
+Sbjct  118  LAAGVLLVMFRPFRAGEYVDLGGVAGTVLSVQIFSTTMRTADGKIIVIPNGKIIAGNIIN  177
+
+Query  175  LTKDSMMA---VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLI---EGPTVLGITDMQ  228
+             +++ +     ++ +A+  D D+D++    ++I   + +S D ++   E    L      
+Sbjct  178  FSREPVRRNEFIIGVAY--DSDIDQV----KQILTNIIQSEDRILKDREMTVRLNELGAS  231
+
+Query  229  DSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTV  274
+                V+ V++ +  +Q   V  D+  R+K+ FD   ISFPYP+  V
+Sbjct  232  SINFVVRVWSNSGDLQN--VYWDVLERIKREFDAAGISFPYPQMDV  275
+
+
+> sp|P0C0S2|MSCS_ECO57 Small-conductance mechanosensitive channel 
+OS=Escherichia coli O157:H7 OX=83334 GN=mscS PE=3 SV=1
+Length=286
+
+ Score = 80.5 bits (197),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 60/226 (27%), Positives = 109/226 (48%), Gaps = 17/226 (8%)
+
+Query  58   QRKID-TLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKD  116
+             RKID T+       VRY I      + L    +   S++AV G   LA+G   Q  + +
+Sbjct  58   SRKIDATVADFLSALVRYGIIAFTLIAALGRVGVQTASVIAVLGAAGLAVGLALQGSLSN  117
+
+Query  117  MISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTN  174
+            + +G  ++    F  G+YV + G++GTV  + +  T +R     + +IPNG+I    + N
+Sbjct  118  LAAGVLLVMFRPFRAGEYVDLGGVAGTVLSVQIFSTTMRTADGKIIVIPNGKIIAGNIIN  177
+
+Query  175  LTKDSMMA---VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLI---EGPTVLGITDMQ  228
+             +++ +     ++ +A+  D D+D++    ++I   + +S D ++   E    L      
+Sbjct  178  FSREPVRRNEFIIGVAY--DSDIDQV----KQILTNIIQSEDRILKDREMTVRLNELGAS  231
+
+Query  229  DSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTV  274
+                V+ V++ +  +Q   V  D+  R+K+ FD   ISFPYP+  V
+Sbjct  232  SINFVVRVWSNSGDLQN--VYWDVLERIKREFDAAGISFPYPQMDV  275
+
+
+> sp|O25170|Y415_HELPY Uncharacterized MscS family protein HP_0415 
+OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 
+GN=HP_0415 PE=3 SV=1
+Length=623
+
+ Score = 80.9 bits (198),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 58/239 (24%), Positives = 112/239 (47%), Gaps = 36/239 (15%)
+
+Query  72   VRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSV  131
+            V ++I+ +A   +LK    ++++++A  GIG LA+    ++++ +  +   ++ ++ FS 
+Sbjct  369  VYFLIFIVALLGVLKQLGFNVSAIIASLGIGGLAVALAVKDVLANFFASVILLLDNSFSQ  428
+
+Query  132  GDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGE-----------------IKMVTN  174
+            GD++    + GTV E+GLR T IR F + L  +PN E                 IKM   
+Sbjct  429  GDWIVCGEVEGTVVEMGLRRTTIRAFDNALLSVPNSELAGKPIRNWSRRKVGRRIKMEIG  488
+
+Query  175  LTKDSMMAVVNIAF----PIDEDVDKIIEGLQEICEEVKKSR----DDLIEGPTVLG---  223
+            LT  S  + + +       + E+  KI  G     + V   R     D++     LG   
+Sbjct  489  LTYSSSQSALQLCVKDIKEMLENHPKIANGADSALQNVSDYRYMFKKDIVSIDDFLGYKN  548
+
+Query  224  -----ITDMQDSKLVIMVY--AKTQPMQKW-AVERDIRYRVKKMFDQKNISFPYPRTTV  274
+                 +    DS + I+VY  +KT   ++W  V+ D+  ++  + ++ ++SF +P  ++
+Sbjct  549  NLFVFLDQFADSSINILVYCFSKTVVWEEWLEVKEDVMLKIMGIVEKHHLSFAFPSQSL  607
+
+
+> sp|O66994|Y812_AQUAE Uncharacterized MscS family protein aq_812 
+OS=Aquifex aeolicus (strain VF5) OX=224324 GN=aq_812 PE=3 
+SV=1
+Length=368
+
+ Score = 79.7 bits (195),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 61/208 (29%), Positives = 107/208 (51%), Gaps = 18/208 (9%)
+
+Query  79   LAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTIN  138
+            + GAS+L+ + +++ ++LA  G+  LA+   A++  ++++SG  I+ +    VG+ V + 
+Sbjct  159  IVGASLLQEWGVNIGAILASVGLLGLAVSLAAKDTFENILSGLIILLDKPVKVGETVKVK  218
+
+Query  139  GISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMAVVNIAFPIDEDVDK  196
+               G+VE+IGLR TKIR F   L  IPN +I    V N T+ +   V    F I      
+Sbjct  219  DFMGSVEDIGLRSTKIRTFDKSLVTIPNRDIVNNHVENFTRRNKRRV---RFYIGVVYST  275
+
+Query  197  IIEGLQEICEEVKKSRDDLIEGPTV-------LGITDMQDSKLVIMV--YAKTQPMQKW-  246
+              E L+ I +E+   R+ L E P V       +   +  DS L I++  YA T   +++ 
+Sbjct  276  KREQLENILKEI---RELLKEHPGVAKDEKFYVYFENYGDSSLNILIQYYANTNDYEEYL  332
+
+Query  247  AVERDIRYRVKKMFDQKNISFPYPRTTV  274
+             +  DI  ++ ++ ++   SF +P  +V
+Sbjct  333  KIIEDINLKIMEIVEKNGSSFAFPSRSV  360
+
+
+> sp|Q9ZKG7|Y415_HELPJ Uncharacterized MscS family protein jhp_0969 
+OS=Helicobacter pylori (strain J99 / ATCC 700824) OX=85963 
+GN=jhp_0969 PE=3 SV=1
+Length=623
+
+ Score = 79.3 bits (194),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 57/239 (24%), Positives = 111/239 (46%), Gaps = 36/239 (15%)
+
+Query  72   VRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSV  131
+            V ++I+ +A   +LK    ++++++A  GIG LA+    ++++ +  +   ++ ++ FS 
+Sbjct  369  VYFLIFIVALLGVLKQLGFNVSAIIASLGIGGLAVALAVKDVLANFFASVILLLDNSFSQ  428
+
+Query  132  GDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGE-----------------IKMVTN  174
+            GD++    + GTV E+GLR T IR F + L  +PN E                 IKM   
+Sbjct  429  GDWIVCGEVEGTVVEMGLRRTTIRAFDNALLSVPNSELAGKPIRNWSRRKVGRRIKMEIG  488
+
+Query  175  LTKDSMMAVVNIAF----PIDEDVDKIIEGLQEICEEVKKSR----DDLIEGPTVLG---  223
+            LT  S  + + +       + E+  KI  G     +     R     D++     LG   
+Sbjct  489  LTYSSSQSALQLCVKDIKEMLENHPKIANGADSALQNASDYRYMFKKDIVSIDDFLGYKN  548
+
+Query  224  -----ITDMQDSKLVIMVY--AKTQPMQKW-AVERDIRYRVKKMFDQKNISFPYPRTTV  274
+                 +    DS + I+VY  +KT   ++W  V+ D+  ++  + ++ ++SF +P  ++
+Sbjct  549  NLFVFLDQFADSSINILVYCFSKTVVWEEWLEVKEDVMLKIMGIVEKHHLSFAFPSQSL  607
+
+
+> sp|Q55717|Y639_SYNY3 Uncharacterized MscS family protein slr0639 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=slr0639 PE=3 SV=1
+Length=296
+
+ Score = 77.0 bits (188),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 65/264 (25%), Positives = 121/264 (46%), Gaps = 15/264 (6%)
+
+Query  21   LLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLA  80
+            +L  L IL+I F   K    LI R  +   KS ++       T  S   N   Y++  + 
+Sbjct  37   ILFALAILLIGFWLSKRLQKLIIRALR---KSNLE------PTFISFAGNISYYLLLVVF  87
+
+Query  81   GASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGI  140
+                L    I  +SL+A+ G  +LAIG   Q  + ++  G  ++  + F VG+ + + GI
+Sbjct  88   FVLCLAQLGIQTSSLVALLGASTLAIGLALQGSLANVAGGILLVLFNYFRVGERIEVAGI  147
+
+Query  141  SGTVEEIGLRVTKIRGFSDGLHIIPNGEI---KMVTNLTKDSMMAVVNIAFPIDEDVDKI  197
+             G VE I +  T I  + + L  IPN +I    ++ ++ K      + I    +ED+D +
+Sbjct  148  EGIVESIEILSTTICTYDNRLVTIPNKQIIENNIINHVGKPERRIDLVIGVGYEEDIDHV  207
+
+Query  198  IEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVK  257
+               LQ +   + ++ +   E    + + ++ DS +   V    +    + ++  +   +K
+Sbjct  208  RSSLQWV---IDQNSEVCTEPAPTIALGELGDSSVNFYVRPWVKSEDYFRLKLQLTEAIK  264
+
+Query  258  KMFDQKNISFPYPRTTVILSEKKT  281
+            +  D++NIS P+P+  V L + +T
+Sbjct  265  RKLDEENISIPFPQRDVHLIQPET  288
+
+
+> sp|P0AEB5|YNAI_ECOLI Low conductance mechanosensitive channel 
+YnaI OS=Escherichia coli (strain K12) OX=83333 GN=ynaI PE=1 
+SV=1
+Length=343
+
+ Score = 77.0 bits (188),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 53/198 (27%), Positives = 94/198 (47%), Gaps = 15/198 (8%)
+
+Query  88   FNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTI--NGISGTVE  145
+            F + ++ LL   GIG LA+G   ++++ +  SG  + F+  FS+GD++      I GTV 
+Sbjct  138  FGMSLSGLLTFGGIGGLAVGMAGKDILSNFFSGIMLYFDRPFSIGDWIRSPDRNIEGTVA  197
+
+Query  146  EIGLRVTKIRGFSDGLHIIPNGEIKMVT-----NLTKDSMMAVVNIAFPIDEDVDKIIEG  200
+            EIG R+TKI  F +    +PN     ++      +T   +   + + +     V  I+E 
+Sbjct  198  EIGWRITKITTFDNRPLYVPNSLFSSISVENPGRMTNRRITTTIGLRYEDAAKVGVIVEA  257
+
+Query  201  LQEICEEVKKSRDDLIEGPTVL-GITDMQDSKLVIMVYA--KTQPMQKW-AVERDIRYRV  256
+            ++E+     K+   + +  T+L       DS L IMVY   KT    +W A ++D+  ++
+Sbjct  258  VREML----KNHPAIDQRQTLLVYFNQFADSSLNIMVYCFTKTTVWAEWLAAQQDVYLKI  313
+
+Query  257  KKMFDQKNISFPYPRTTV  274
+              +       F +P  T+
+Sbjct  314  IDIVQSHGADFAFPSQTL  331
+
+
+> sp|P0AEB6|YNAI_ECO57 Low conductance mechanosensitive channel 
+YnaI OS=Escherichia coli O157:H7 OX=83334 GN=ynaI PE=3 SV=1
+Length=343
+
+ Score = 77.0 bits (188),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 53/198 (27%), Positives = 94/198 (47%), Gaps = 15/198 (8%)
+
+Query  88   FNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTI--NGISGTVE  145
+            F + ++ LL   GIG LA+G   ++++ +  SG  + F+  FS+GD++      I GTV 
+Sbjct  138  FGMSLSGLLTFGGIGGLAVGMAGKDILSNFFSGIMLYFDRPFSIGDWIRSPDRNIEGTVA  197
+
+Query  146  EIGLRVTKIRGFSDGLHIIPNGEIKMVT-----NLTKDSMMAVVNIAFPIDEDVDKIIEG  200
+            EIG R+TKI  F +    +PN     ++      +T   +   + + +     V  I+E 
+Sbjct  198  EIGWRITKITTFDNRPLYVPNSLFSSISVENPGRMTNRRITTTIGLRYEDAAKVGVIVEA  257
+
+Query  201  LQEICEEVKKSRDDLIEGPTVL-GITDMQDSKLVIMVYA--KTQPMQKW-AVERDIRYRV  256
+            ++E+     K+   + +  T+L       DS L IMVY   KT    +W A ++D+  ++
+Sbjct  258  VREML----KNHPAIDQRQTLLVYFNQFADSSLNIMVYCFTKTTVWAEWLAAQQDVYLKI  313
+
+Query  257  KKMFDQKNISFPYPRTTV  274
+              +       F +P  T+
+Sbjct  314  IDIVQSHGADFAFPSQTL  331
+
+
+> sp|Q58543|MSMJL_METJA Large-conductance mechanosensitive channel 
+MscMJLR OS=Methanocaldococcus jannaschii (strain ATCC 43067 
+/ DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 
+GN=MJ1143 PE=1 SV=1
+Length=361
+
+ Score = 76.3 bits (186),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 48/180 (27%), Positives = 97/180 (54%), Gaps = 10/180 (6%)
+
+Query  106  IGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIP  165
+            +   +QNLV ++I+G  I+ +  F +G+++T +G SG VE+IG+R TKIR   + + ++P
+Sbjct  179  VALASQNLVSNLIAGLIILTDKPFKIGNWITFSGGSGIVEDIGIRSTKIRATDNSIIVVP  238
+
+Query  166  NGEI--KMVTNL-TKDSMMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVL  222
+            N ++  +++ N+ +K+       I    +  V+KI +  +EI + +     ++ + P  +
+Sbjct  239  NSKLIDEIIQNVPSKNKWKVSTTIGVTYNTPVEKIRKA-EEIIKNILLEHPNVEDEPITV  297
+
+Query  223  GITDMQDSKLVIMVY-----AKTQPMQKW-AVERDIRYRVKKMFDQKNISFPYPRTTVIL  276
+               +  D  L I V      ++    QK+ +   ++  ++K+ FD+K I F +P  T+ L
+Sbjct  298  YFKEFGDWSLNIQVVYYIKNSRYNGYQKYISTINEVNLKIKEEFDRKGIEFAFPTYTLYL  357
+
+
+> sp|O52401|MSCS_EDWI9 Small-conductance mechanosensitive channel 
+OS=Edwardsiella ictaluri (strain 93-146) OX=634503 GN=mscS 
+PE=3 SV=1
+Length=286
+
+ Score = 75.1 bits (183),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 59/230 (26%), Positives = 105/230 (46%), Gaps = 11/230 (5%)
+
+Query  56   LPQRKID-TLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLV  114
+            L  R +D T+       VRY I      + L    +  TS++AV G   LA+G   Q  +
+Sbjct  56   LKARGLDVTVVHFLAAMVRYAILAFTIIAALGRLGVQTTSVIAVLGAAGLAVGLALQGSL  115
+
+Query  115  KDMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMV  172
+             +  +G  ++    F  G+ V + G++GTV E+ +  T +    + + ++PNG+I    +
+Sbjct  116  SNFAAGVLLVLFRPFRAGEVVDLGGVTGTVREVQIFSTTLATADNKVIVVPNGKIIAGNI  175
+
+Query  173  TNLTKDS---MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQD  229
+             N +++    +  +V +A+  D DV K + G   +  + +   DD   G T+  + +M  
+Sbjct  176  INFSREPKRRIDIIVGVAYDADIDVVKRVLG-DVVAADTRILHDD---GVTIR-LNEMAA  230
+
+Query  230  SKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEK  279
+            S L  +V         WA+  D+    K+  D  NI  P+P+  V L + 
+Sbjct  231  SSLNFVVRVWGNNADYWAIYFDLMENFKRALDANNIGIPFPQMDVHLYQA  280
+
+
+> sp|O28726|Y1546_ARCFU Uncharacterized MscS family protein AF_1546 
+OS=Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / 
+DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 GN=AF_1546 PE=3 
+SV=1
+Length=283
+
+ Score = 73.9 bits (180),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 53/211 (25%), Positives = 110/211 (52%), Gaps = 8/211 (4%)
+
+Query  75   IIYF----LAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFS  130
+            +IYF    +A  ++L    +D++ LL   GI  + +GF +Q++V +++SG F+I E    
+Sbjct  61   VIYFGIIIVAFIAVLPALGLDLSGLLVAGGITGIVLGFASQSVVANLVSGIFLISEKPIK  120
+
+Query  131  VGDYVTINGISGTVEEIGLRVTKIRGFSDGLHI-IPNGEIKMVTNLTKDSMMAVVNIAFP  189
+            +GD V I+G++G VE++ +  T IR + DGL++ IPN ++   +N+T           + 
+Sbjct  121  IGDQVNIDGVAGFVEDVNILSTIIRTY-DGLYVRIPNEKV-FTSNITNYVAHIARRFEYV  178
+
+Query  190  IDEDVDKIIEGLQEICEEVKKSRDDLIEGP-TVLGITDMQDSKLVIMVYAKTQPMQKWAV  248
+            +        E   EI + + +     ++ P  V+ + ++ DS + I+V       + + V
+Sbjct  179  VGIRYSDDAEKAIEIIKRIIEEHPFALKNPEPVVFVDNLGDSSVNIVVRIWAPSTEWYNV  238
+
+Query  249  ERDIRYRVKKMFDQKNISFPYPRTTVILSEK  279
+            + ++ +++K   ++  I  P+P+  V  + +
+Sbjct  239  KMELLWKIKTELEKNGIEIPFPQRVVWFANE  269
+
+
+> sp|P57527|Y452_BUCAI Uncharacterized MscS family protein BU452 
+OS=Buchnera aphidicola subsp. Acyrthosiphon pisum (strain 
+APS) OX=107806 GN=BU452 PE=3 SV=1
+Length=305
+
+ Score = 71.2 bits (173),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 54/231 (23%), Positives = 112/231 (48%), Gaps = 11/231 (5%)
+
+Query  56   LPQRKID-TLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLV  114
+            L  R ID T+       +RYII      + L    +  TS++A+ G   +AIG   Q  +
+Sbjct  80   LITRNIDATIAGFLSALMRYIIITFTFIAALGRIGVQTTSVIAILGAAGMAIGLALQGSL  139
+
+Query  115  KDMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMV  172
+             +  +G  ++        +YV +  +SGTV  I +  T +R     + ++PN +I    +
+Sbjct  140  SNFAAGVLLVTLRPLKTEEYVDLGSVSGTVLNIHIFYTTLRTLDGKIVVVPNNKIISGNI  199
+
+Query  173  TNLTKDSMMA---VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQD  229
+             N +++       ++++++  + D+D +I+ L+ + E+ ++   D      ++G++++  
+Sbjct  200  INYSREPARRNEFIISVSY--NSDIDLVIKILRSVIEKEERVIKD---KDIIVGLSELAP  254
+
+Query  230  SKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKK  280
+            S L  +V   ++      V  D+  + KK  D+ NI+ P+P+  V + +KK
+Sbjct  255  SSLNFIVRCWSKNHDLNTVYWDLMAKFKKELDKNNINIPFPQLDVHVYKKK  305
+
+
+> sp|Q57634|MSMJS_METJA Small-conductance mechanosensitive channel 
+MscMJ OS=Methanocaldococcus jannaschii (strain ATCC 43067 
+/ DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ0170 
+PE=1 SV=1
+Length=350
+
+ Score = 70.1 bits (170),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 77/274 (28%), Positives = 136/274 (50%), Gaps = 15/274 (5%)
+
+Query  13   YDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFY-KLYSKSKIQLPQRKIDTLTSLTKNA  71
+            Y +K +   + V+ IL   +  +KF D +   +   L  K++ +L +  I  L    K  
+Sbjct  82   YILKLIDEAVKVVVILSATYFAVKFIDGIFEHYLIPLTEKTETELDEHIIKPL----KKV  137
+
+Query  72   VRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSV  131
+            V+ +   L   + L     D+T+LLA  G+G LA+    Q+ +K+ I+G  I+ +  FS+
+Sbjct  138  VKILTILLGILTALSSVGYDITALLAGLGVGGLALALAMQDTIKNFIAGILILIDKPFSL  197
+
+Query  132  GDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLT-KDSMMAVVNIAF  188
+            G +V + G  G VEEIG+R T+IR F   L  IPN E+    + NLT +D    ++ I  
+Sbjct  198  GHWVKVKGAEGIVEEIGIRSTRIRTFDYTLITIPNSELLDSAIENLTVRDRRRVLMTIGL  257
+
+Query  189  PIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMV--YAKTQPMQKW  246
+              +  V+KI    +EI +E+ ++    +  P  +   +  D  L + V  + +      +
+Sbjct  258  TYNTPVEKIKRA-KEIIKEIVENHPATLP-PYRVHFREYGDWSLNLRVEYFVRNMGFDYY  315
+
+Query  247  --AVERDIRYRVKKMFDQKNISFPYPRTTVILSE  278
+              AV+ +I  ++K+ F+++ I   +P  TV L +
+Sbjct  316  LNAVD-EINLKIKEEFEKEGIEMAFPTYTVYLEK  348
+
+
+> sp|P39285|MSCM_ECOLI Miniconductance mechanosensitive channel 
+MscM OS=Escherichia coli (strain K12) OX=83333 GN=mscM PE=1 
+SV=3
+Length=1107
+
+ Score = 61.6 bits (148),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 52/213 (24%), Positives = 93/213 (44%), Gaps = 14/213 (7%)
+
+Query  64    LTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFI  123
+             +T++TK    Y++  + G     +  I+ + L  +     + +GFG Q +  + ISG  I
+Sbjct  873   ITTITK----YLLMLIGGLVGFSMIGIEWSKLQWLVAALGVGLGFGLQEIFANFISGLII  928
+
+Query  124   IFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI---KMVTNLTKDSM  180
+             +FE    +GD VTI  ++G+V +I  R T I  +     I+PN      + +     DS+
+Sbjct  929   LFEKPIRIGDTVTIRDLTGSVTKINTRATTISDWDRKEIIVPNKAFITEQFINWSLSDSV  988
+
+Query  181   MAVV-NIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLV--IMVY  237
+               VV  I  P D + +++ E L           D+    P V  + D+Q    +  + +Y
+Sbjct  989   TRVVLTIPAPADANSEEVTEILLTAARRCSLVIDN--PAPEVF-LVDLQQGIQIFELRIY  1045
+
+Query  238   AKTQPMQKWAVERDIRYRVKKMFDQKNISFPYP  270
+             A  +   +  +  +I   +   F    I  P+P
+Sbjct  1046  A-AEMGHRMPLRHEIHQLILAGFHAHGIDMPFP  1077
+
+
+> sp|P77338|MSCK_ECOLI Mechanosensitive channel MscK OS=Escherichia 
+coli (strain K12) OX=83333 GN=mscK PE=1 SV=1
+Length=1120
+
+ Score = 61.6 bits (148),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 39/130 (30%), Positives = 62/130 (48%), Gaps = 4/130 (3%)
+
+Query  72    VRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSV  131
+             + YII  +   ++     +    L  +A   S+ +GFG Q +  + +SG  I+FE    +
+Sbjct  889   LNYIIIAVGAMTVFGSLGVSWDKLQWLAAALSVGLGFGLQEIFGNFVSGLIILFERPVRI  948
+
+Query  132   GDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNG----EIKMVTNLTKDSMMAVVNIA  187
+             GD VTI   SGTV +I +R T I  F     IIPN     E  +  +LT  +   V+ + 
+Sbjct  949   GDTVTIGSFSGTVSKIRIRATTITDFDRKEVIIPNKAFVTERLINWSLTDTTTRLVIRLG  1008
+
+Query  188   FPIDEDVDKI  197
+                  D++K+
+Sbjct  1009  VAYGSDLEKV  1018
+
+
+> sp|Q57362|Y195A_HAEIN Uncharacterized MscS family protein HI_0195.1 
+OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 
+/ KW20 / Rd) OX=71421 GN=HI_0195.1 PE=1 SV=1
+Length=1111
+
+ Score = 60.8 bits (146),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 58/237 (24%), Positives = 102/237 (43%), Gaps = 16/237 (7%)
+
+Query  52    SKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQ  111
+             S++ L Q    T+T+L    + YI   + GA       +  + L  +    S+ +GFG Q
+Sbjct  873   SRVNLSQGTPYTITTL----LTYIFIAIGGAWAFATLGMSWSKLQWLFAALSVGLGFGMQ  928
+
+Query  112   NLVKDMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--  169
+              +  + +SG  ++FE    VGD VTIN +SGTV +I +R   +  F     I+PN     
+Sbjct  929   EIFANFVSGIILLFERPIRVGDVVTINEVSGTVAKIRIRAITLIDFDRKEVIVPNKSFVT  988
+
+Query  170   KMVTNLTKDSMMA--VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGIT--  225
+               VTN    + M   V+++      D+  + + L +  +E      D    P+   +T  
+Sbjct  989   GQVTNWALSNTMTRLVISVGVAYGSDLTLVRQLLLQAADEQPTILRD--PKPSAYFLTFG  1046
+
+Query  226   -DMQDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKT  281
+                 D +L + V    Q   + +    +  R+ ++F + NI   + +  V +    T
+Sbjct  1047  ASTLDHELRVYV---EQVGDRTSTTDALNRRINELFAEHNIDIAFNQLDVFIKNNDT  1100
+
+
+> sp|P0DKS1|MSCS_WIGBR Small-conductance mechanosensitive channel 
+OS=Wigglesworthia glossinidia brevipalpis OX=36870 GN=mscS 
+PE=3 SV=1
+Length=280
+
+ Score = 53.5 bits (127),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 51/216 (24%), Positives = 94/216 (44%), Gaps = 14/216 (6%)
+
+Query  72   VRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSV  131
+            ++Y I      + L    I  TS++AV G   +AIG   Q  + +  +G  ++    F  
+Sbjct  70   IKYSILIFTIVTSLGCIGIQTTSIIAVIGAAGIAIGLALQGSLSNFAAGVLLVTLRYFRT  129
+
+Query  132  GDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDS------MMAVVN  185
+            GDYV + G+ G ++ + +  TKI+   DG  II      + +N+   S      M  +++
+Sbjct  130  GDYVNLCGVKGKIKTVQIFCTKIKT-KDGKIIIIPNNKIISSNIINYSEELHRLMEVIIS  188
+
+Query  186  IAFPIDEDVDKIIEGLQEICEEVKKSRDDLI-EGPTVLGITDMQDSKLVIMVYAKTQPMQ  244
+              +  D      I+ ++EI  +V K    ++ E    + + ++ +S L  +V       +
+Sbjct  189  TEYTSD------IKNVKEIIIDVLKKETRIVKEKKITVRLKNLGESSLDFLVRGWVYKKE  242
+
+Query  245  KWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKK  280
+                  DI  ++K   D+  I+ PY +  V L   K
+Sbjct  243  LKQTTSDILEKIKIELDKNKINIPYKQIDVNLKYSK  278
+
+
+> sp|T0DVE4|MSCS_HELPX Small-conductance mechanosensitive channel 
+OS=Helicobacter pylori OX=210 GN=mscS PE=1 SV=1
+Length=274
+
+ Score = 53.1 bits (126),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 63/275 (23%), Positives = 119/275 (43%), Gaps = 23/275 (8%)
+
+Query  16   KAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYI  75
+            +A  F + ++K +I+  IG  F+ FL  +  KL SK        K + L +        +
+Sbjct  14   QAKHFGIILIKAVIVFCIGFYFSFFLRNKTMKLLSK--------KDEILANFVAQVTFIL  65
+
+Query  76   IYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYV  135
+            I  +     L    +  TS++ V G   +A+    ++ +  +  G  +I    F  GD +
+Sbjct  66   ILIITTIIALSTLGVQTTSIITVLGTVGIAVALALKDYLSSIAGGIILIILHPFKKGDII  125
+
+Query  136  TINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMA-----VVNIAFPI  190
+             I+G+ G VE +    T +R     L ++PN  +     +  ++        V  + +  
+Sbjct  126  EISGLEGKVEALNFFNTSLRLHDGRLAVLPNRSVANSNIINSNNTACRRIEWVCGVGYGS  185
+
+Query  191  D-EDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKL--VIMVYAKTQPMQKWA  247
+            D E V K I+ + +  E++ K+       PT +GITD   S L   I V+AK +    + 
+Sbjct  186  DIELVHKTIKDVIDTMEKIDKNM------PTFIGITDFGSSSLNFTIRVWAKIED-GIFN  238
+
+Query  248  VERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+            V  ++  R+K   D  +I  P+ +  + +  + ++
+Sbjct  239  VRSELIERIKNALDANHIEIPFNKLDIAIKNQDSS  273
+
+
+> sp|Q8VZL4|MSL1_ARATH Mechanosensitive ion channel protein 1, 
+mitochondrial OS=Arabidopsis thaliana OX=3702 GN=MSL1 PE=2 SV=1
+Length=497
+
+ Score = 53.1 bits (126),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 44/167 (26%), Positives = 85/167 (51%), Gaps = 8/167 (5%)
+
+Query  48   LYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIG  107
+            L +KS   L + K+ TL  ++   + + I  +A A   +   + + S+L V G+G +A  
+Sbjct  267  LSAKSFGGLDREKVLTLDKVSSVGL-FAIGLMASA---EACGVAVQSILTVGGVGGVATA  322
+
+Query  108  FGAQNLVKDMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNG  167
+            F A++++ +++SG  + F   FS+GD +    + G V E+GL  T +        ++PN 
+Sbjct  323  FAARDILGNVLSGLSMQFSRPFSMGDTIKAGSVEGQVIEMGLTTTSLLNAEKFPVLVPNS  382
+
+Query  168  --EIKMVTNLTKDSMMAVVN-IAFPIDEDVDKIIEGLQEICEEVKKS  211
+                +++ N ++    A+ + I   ID D+D I +   EI E ++ +
+Sbjct  383  LFSSQVIVNKSRAQWRAIASKIPLQID-DLDMIPQISNEIKEMLRSN  428
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.142    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22420051964
+Results from round 2
+
+
+Query= Q8R6L9|3t9nC
+
+Length=282
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8R6L9|MSCS_CALS4 Small-conductance mechanosensitive channel...  303     1e-100
+  sp|O34897|YKUT_BACSU Uncharacterized MscS family protein YkuT O...  216     3e-67 
+  sp|Q8K9B1|Y437_BUCAP Uncharacterized MscS family protein BUsg_4...  209     2e-64 
+  sp|Q89AB5|Y402_BUCBP Uncharacterized MscS family protein bbp_40...  206     7e-63 
+  sp|Q55717|Y639_SYNY3 Uncharacterized MscS family protein slr063...  205     2e-62 
+  sp|P57527|Y452_BUCAI Uncharacterized MscS family protein BU452 ...  203     8e-62 
+  sp|O52401|MSCS_EDWI9 Small-conductance mechanosensitive channel...  202     1e-61 
+  sp|P0C0S3|MSCS_SHIFL Small-conductance mechanosensitive channel...  202     1e-61 
+  sp|P0C0S1|MSCS_ECOLI Small-conductance mechanosensitive channel...  202     1e-61 
+  sp|P0C0S2|MSCS_ECO57 Small-conductance mechanosensitive channel...  202     1e-61 
+  sp|Q57634|MSMJS_METJA Small-conductance mechanosensitive channe...  178     2e-51 
+  sp|O28726|Y1546_ARCFU Uncharacterized MscS family protein AF_15...  176     2e-51 
+  sp|T0DVE4|MSCS_HELPX Small-conductance mechanosensitive channel...  175     4e-51 
+  sp|Q57362|Y195A_HAEIN Uncharacterized MscS family protein HI_01...  178     2e-48 
+  sp|O07594|YHDY_BACSU Uncharacterized MscS family protein YhdY O...  169     4e-48 
+  sp|P0AEB5|YNAI_ECOLI Low conductance mechanosensitive channel Y...  168     6e-48 
+  sp|P0AEB6|YNAI_ECO57 Low conductance mechanosensitive channel Y...  168     6e-48 
+  sp|O35043|YFKC_BACSU Uncharacterized MscS family protein YfkC O...  166     1e-47 
+  sp|P75783|YBIO_ECOLI Moderate conductance mechanosensitive chan...  172     3e-47 
+  sp|O66994|Y812_AQUAE Uncharacterized MscS family protein aq_812...  162     3e-45 
+  sp|P0DKS1|MSCS_WIGBR Small-conductance mechanosensitive channel...  159     6e-45 
+  sp|P39285|MSCM_ECOLI Miniconductance mechanosensitive channel M...  166     2e-44 
+  sp|O25170|Y415_HELPY Uncharacterized MscS family protein HP_041...  163     2e-44 
+  sp|Q9ZKG7|Y415_HELPJ Uncharacterized MscS family protein jhp_09...  163     3e-44 
+  sp|P77338|MSCK_ECOLI Mechanosensitive channel MscK OS=Escherich...  165     3e-44 
+  sp|Q58543|MSMJL_METJA Large-conductance mechanosensitive channe...  155     8e-43 
+  sp|P42531|Y1270_CORGL Uncharacterized protein Cgl1270/cg1434 OS...  145     2e-38 
+  sp|Q8VZL4|MSL1_ARATH Mechanosensitive ion channel protein 1, mi...  136     3e-35 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q8L7W1|MSL3_ARATH Mechanosensitive ion channel protein 3, ch...  87.8    5e-18
+  sp|Q56X46|MSL2_ARATH Mechanosensitive ion channel protein 2, ch...  85.5    3e-17
+  sp|Q9LYG9|MSL10_ARATH Mechanosensitive ion channel protein 10 O...  68.5    9e-12
+  sp|Q9SYM1|MSL6_ARATH Mechanosensitive ion channel protein 6 OS=...  65.8    9e-11
+  sp|Q58111|Y700_METJA Uncharacterized MscS family protein MJ0700...  63.5    3e-10
+  sp|Q9LPG3|MSL4_ARATH Mechanosensitive ion channel protein 4 OS=...  63.1    7e-10
+  sp|Q9LH74|MSL5_ARATH Mechanosensitive ion channel protein 5 OS=...  62.4    1e-09
+  sp|O74839|YC1B_SCHPO Uncharacterized MscS family protein C1183....  61.2    3e-09
+  sp|Q84M97|MSL9_ARATH Mechanosensitive ion channel protein 9 OS=...  58.9    2e-08
+  sp|P0AAT5|YBDG_SHIFL Miniconductance mechanosensitive channel Y...  58.5    2e-08
+  sp|P0AAT4|YBDG_ECOLI Miniconductance mechanosensitive channel Y...  58.5    2e-08
+  sp|F4IME2|MSL8_ARATH Mechanosensitive ion channel protein 8 OS=...  57.0    7e-08
+  sp|F4IME1|MSL7_ARATH Mechanosensitive ion channel protein 7 OS=...  53.1    1e-06
+  sp|O14050|YEYH_SCHPO Uncharacterized MscS family protein C2C4.1...  51.6    4e-06
+
+
+> sp|Q8R6L9|MSCS_CALS4 Small-conductance mechanosensitive channel 
+OS=Caldanaerobacter subterraneus subsp. tengcongensis (strain 
+DSM 15242 / JCM 11007 / NBRC 100824 / MB4) OX=273068 GN=mscS 
+PE=1 SV=1
+Length=282
+
+ Score = 303 bits (775),  Expect = 1e-100, Method: Composition-based stats.
+ Identities = 282/282 (100%), Positives = 282/282 (100%), Gaps = 0/282 (0%)
+
+Query  1    MWADIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRK  60
+            MWADIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRK
+Sbjct  1    MWADIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRK  60
+
+Query  61   IDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISG  120
+            IDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISG
+Sbjct  61   IDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISG  120
+
+Query  121  FFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSM  180
+            FFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSM
+Sbjct  121  FFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSM  180
+
+Query  181  MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKT  240
+            MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKT
+Sbjct  181  MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKT  240
+
+Query  241  QPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+            QPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN
+Sbjct  241  QPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+
+
+> sp|O34897|YKUT_BACSU Uncharacterized MscS family protein YkuT 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=ykuT PE=2 SV=2
+Length=267
+
+ Score = 216 bits (551),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 101/257 (39%), Positives = 156/257 (61%), Gaps = 10/257 (4%)
+
+Query  17   AVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYII  76
+             +K  + +L   I+  +G+K    L  +F +  S     L   +  TL SLT N   Y +
+Sbjct  20   LIKLAIMILLYFIVRSLGMKIIKHLFAKFEEQNS-----LSIGRAHTLRSLTLNIFAYTL  74
+
+Query  77   YFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVT  136
+             F+    +L LF+ D ++LLA AGI  LA+GFGAQ LV D+++GFFI+ E Q  VGDY+T
+Sbjct  75   IFIFFVMVLDLFHYDPSALLAGAGIVGLAVGFGAQGLVSDIVTGFFILLEKQLDVGDYIT  134
+
+Query  137  INGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAVVNIAFPIDEDVDK  196
+            ++   G VE++GLR T+IR F   LH IPN  I  V+N ++ +M A+V+I  P + ++D+
+Sbjct  135  VSTFDGIVEQVGLRTTQIRSFDGTLHYIPNRNITNVSNHSRGTMQALVDIKVPAERNIDE  194
+
+Query  197  IIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRV  256
+            +I  LQ++C+E   +   + EGP V+GI ++  S++VI V AKT+ M++W VER +R  +
+Sbjct  195  MIHILQQVCDETAAALPQIKEGPNVIGIQELGTSEIVIRVIAKTENMEQWRVERVLRKEI  254
+
+Query  257  KKMFDQKNISFPYPRTT  273
+            K  FD+      +P+ T
+Sbjct  255  KNAFDR-----AFPKET  266
+
+
+> sp|Q8K9B1|Y437_BUCAP Uncharacterized MscS family protein BUsg_437 
+OS=Buchnera aphidicola subsp. Schizaphis graminum (strain 
+Sg) OX=198804 GN=BUsg_437 PE=3 SV=1
+Length=283
+
+ Score = 209 bits (533),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 65/283 (23%), Positives = 125/283 (44%), Gaps = 12/283 (4%)
+
+Query  4    DIYHKLVEIYDIKAVKFLLDV-LKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKID  62
+            DI H    +   + + F   + L   II  I   F   +I         ++I + +    
+Sbjct  9    DINHAGNWLIRNQELLFGYVINLTSAIIILISGMFIAKIISNGV-----NQILITRHIDA  63
+
+Query  63   TLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFF  122
+            T+       +RYII      + L    +  TS++A+ G   +AIG   Q  + +  +G  
+Sbjct  64   TIAGFLSALMRYIIITFTLIASLGRIGVQTTSVIAILGAAGMAIGLALQGSLSNFAAGVL  123
+
+Query  123  IIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSM  180
+            ++       G+YV +  ++GTV  I +  T +R     + ++PN +I    + N +++  
+Sbjct  124  LVTLRPLKTGEYVNLGNVAGTVLNIHIFYTTLRTLDGKIVVVPNNKIISGNIINYSREPA  183
+
+Query  181  MA-VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAK  239
+                 +I+   + D+D +I+ L+ + E   +   D      V+G++++  S L  ++   
+Sbjct  184  RRNEFSISVSYNTDIDLVIKVLKRVIENEDRVMKD---RDIVIGLSELAPSSLNFIIRCW  240
+
+Query  240  TQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+            +   +  AV  D+  + KK  D+ NI+ PYP+  V L +K  N
+Sbjct  241  SSTDELNAVYWDLMVKFKKELDKNNINIPYPQIDVHLYKKNKN  283
+
+
+> sp|Q89AB5|Y402_BUCBP Uncharacterized MscS family protein bbp_402 
+OS=Buchnera aphidicola subsp. Baizongia pistaciae (strain 
+Bp) OX=224915 GN=bbp_402 PE=3 SV=1
+Length=281
+
+ Score = 206 bits (523),  Expect = 7e-63, Method: Composition-based stats.
+ Identities = 64/252 (25%), Positives = 112/252 (44%), Gaps = 15/252 (6%)
+
+Query  31   AFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNI  90
+             F   K    LI +           + Q+   T+ +     VRYII   A  + L    +
+Sbjct  41   GFFAAKIISNLINKVL---------ITQKIDTTIANFLAALVRYIIITFALIASLGCIGV  91
+
+Query  91   DMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLR  150
+              TS++A+ G   +AIG   Q  + +  +G  ++    F  G+YV +  ISGTV  I + 
+Sbjct  92   QTTSVIAILGAAGMAIGLALQGSLSNFAAGVLLVILRPFRTGEYVNLEKISGTVLNIHVF  151
+
+Query  151  VTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMA-VVNIAFPIDEDVDKIIEGLQEICEE  207
+             T  R     + +IPNG+I    + N +++        I    D D+DK+I+ L+ + + 
+Sbjct  152  YTTFRTLDGKIVVIPNGKIISGNIINYSREKARRNEFIIGVSYDSDIDKVIKILKNVVKN  211
+
+Query  208  VKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISF  267
+                +  L +   ++G++++  S L  +V   +       V  D+  + KK  D  NI+ 
+Sbjct  212  ---EKRVLKDRDIIVGLSELAPSSLNFIVRCWSHTDDINIVYWDLMVKFKKALDSNNINI  268
+
+Query  268  PYPRTTVILSEK  279
+            PYP+  + L +K
+Sbjct  269  PYPQFDINLKKK  280
+
+
+> sp|Q55717|Y639_SYNY3 Uncharacterized MscS family protein slr0639 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=slr0639 PE=3 SV=1
+Length=296
+
+ Score = 205 bits (521),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 65/264 (25%), Positives = 121/264 (46%), Gaps = 15/264 (6%)
+
+Query  21   LLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLA  80
+            +L  L IL+I F   K    LI R  +   KS ++       T  S   N   Y++  + 
+Sbjct  37   ILFALAILLIGFWLSKRLQKLIIRALR---KSNLE------PTFISFAGNISYYLLLVVF  87
+
+Query  81   GASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGI  140
+                L    I  +SL+A+ G  +LAIG   Q  + ++  G  ++  + F VG+ + + GI
+Sbjct  88   FVLCLAQLGIQTSSLVALLGASTLAIGLALQGSLANVAGGILLVLFNYFRVGERIEVAGI  147
+
+Query  141  SGTVEEIGLRVTKIRGFSDGLHIIPNGEI---KMVTNLTKDSMMAVVNIAFPIDEDVDKI  197
+             G VE I +  T I  + + L  IPN +I    ++ ++ K      + I    +ED+D +
+Sbjct  148  EGIVESIEILSTTICTYDNRLVTIPNKQIIENNIINHVGKPERRIDLVIGVGYEEDIDHV  207
+
+Query  198  IEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVK  257
+               LQ +   + ++ +   E    + + ++ DS +   V    +    + ++  +   +K
+Sbjct  208  RSSLQWV---IDQNSEVCTEPAPTIALGELGDSSVNFYVRPWVKSEDYFRLKLQLTEAIK  264
+
+Query  258  KMFDQKNISFPYPRTTVILSEKKT  281
+            +  D++NIS P+P+  V L + +T
+Sbjct  265  RKLDEENISIPFPQRDVHLIQPET  288
+
+
+> sp|P57527|Y452_BUCAI Uncharacterized MscS family protein BU452 
+OS=Buchnera aphidicola subsp. Acyrthosiphon pisum (strain 
+APS) OX=107806 GN=BU452 PE=3 SV=1
+Length=305
+
+ Score = 203 bits (517),  Expect = 8e-62, Method: Composition-based stats.
+ Identities = 54/267 (20%), Positives = 122/267 (46%), Gaps = 12/267 (4%)
+
+Query  17   AVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYII  76
+             +++ +++   +II  +G+  +  +          +++ + +    T+       +RYII
+Sbjct  48   LLRYTINLTSAIIILVVGMFISKIISNGA------NQVLITRNIDATIAGFLSALMRYII  101
+
+Query  77   YFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVT  136
+                  + L    +  TS++A+ G   +AIG   Q  + +  +G  ++        +YV 
+Sbjct  102  ITFTFIAALGRIGVQTTSVIAILGAAGMAIGLALQGSLSNFAAGVLLVTLRPLKTEEYVD  161
+
+Query  137  INGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMA-VVNIAFPIDED  193
+            +  +SGTV  I +  T +R     + ++PN +I    + N +++        I+   + D
+Sbjct  162  LGSVSGTVLNIHIFYTTLRTLDGKIVVVPNNKIISGNIINYSREPARRNEFIISVSYNSD  221
+
+Query  194  VDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIR  253
+            +D +I+ L+ + E   K    + +   ++G++++  S L  +V   ++      V  D+ 
+Sbjct  222  IDLVIKILRSVIE---KEERVIKDKDIIVGLSELAPSSLNFIVRCWSKNHDLNTVYWDLM  278
+
+Query  254  YRVKKMFDQKNISFPYPRTTVILSEKK  280
+             + KK  D+ NI+ P+P+  V + +KK
+Sbjct  279  AKFKKELDKNNINIPFPQLDVHVYKKK  305
+
+
+> sp|O52401|MSCS_EDWI9 Small-conductance mechanosensitive channel 
+OS=Edwardsiella ictaluri (strain 93-146) OX=634503 GN=mscS 
+PE=3 SV=1
+Length=286
+
+ Score = 202 bits (515),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 56/266 (21%), Positives = 113/266 (42%), Gaps = 12/266 (5%)
+
+Query  17   AVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYII  76
+             + + ++++  ++I  IG   A  +     +L     + +      T+       VRY I
+Sbjct  24   LLGYAVNLVAAVVILIIGSLIARGISTTLIRLLKARGLDV------TVVHFLAAMVRYAI  77
+
+Query  77   YFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVT  136
+                  + L    +  TS++AV G   LA+G   Q  + +  +G  ++    F  G+ V 
+Sbjct  78   LAFTIIAALGRLGVQTTSVIAVLGAAGLAVGLALQGSLSNFAAGVLLVLFRPFRAGEVVD  137
+
+Query  137  INGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMAV-VNIAFPIDED  193
+            + G++GTV E+ +  T +    + + ++PNG+I    + N +++    + + +    D D
+Sbjct  138  LGGVTGTVREVQIFSTTLATADNKVIVVPNGKIIAGNIINFSREPKRRIDIIVGVAYDAD  197
+
+Query  194  VDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIR  253
+            +D +   L ++   V      L +    + + +M  S L  +V         WA+  D+ 
+Sbjct  198  IDVVKRVLGDV---VAADTRILHDDGVTIRLNEMAASSLNFVVRVWGNNADYWAIYFDLM  254
+
+Query  254  YRVKKMFDQKNISFPYPRTTVILSEK  279
+               K+  D  NI  P+P+  V L + 
+Sbjct  255  ENFKRALDANNIGIPFPQMDVHLYQA  280
+
+
+> sp|P0C0S3|MSCS_SHIFL Small-conductance mechanosensitive channel 
+OS=Shigella flexneri OX=623 GN=mscS PE=3 SV=1
+Length=286
+
+ Score = 202 bits (514),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 61/265 (23%), Positives = 117/265 (44%), Gaps = 7/265 (3%)
+
+Query  21   LLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLA  80
+            LL    + I+A + I     +I R     + +++ + ++   T+       VRY I    
+Sbjct  23   LLLSYAVNIVAALAIIIVGLIIARMIS-NAVNRLMISRKIDATVADFLSALVRYGIIAFT  81
+
+Query  81   GASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGI  140
+              + L    +   S++AV G   LA+G   Q  + ++ +G  ++    F  G+YV + G+
+Sbjct  82   LIAALGRVGVQTASVIAVLGAAGLAVGLALQGSLSNLAAGVLLVMFRPFRAGEYVDLGGV  141
+
+Query  141  SGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMA-VVNIAFPIDEDVDKI  197
+            +GTV  + +  T +R     + +IPNG+I    + N +++ +      I    D D+D++
+Sbjct  142  AGTVLSVQIFSTTMRTADGKIIVIPNGKIIAGNIINFSREPVRRNEFIIGVAYDSDIDQV  201
+
+Query  198  IEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVK  257
+             + L  I +        L +    + + ++  S +  +V   +       V  D+  R+K
+Sbjct  202  KQILTNIIQ---SEDRILKDREMTVRLNELGASSINFVVRVWSNSGDLQNVYWDVLERIK  258
+
+Query  258  KMFDQKNISFPYPRTTVILSEKKTN  282
+            + FD   ISFPYP+  V     K +
+Sbjct  259  REFDAAGISFPYPQMDVNFKRVKED  283
+
+
+> sp|P0C0S1|MSCS_ECOLI Small-conductance mechanosensitive channel 
+OS=Escherichia coli (strain K12) OX=83333 GN=mscS PE=1 SV=1
+Length=286
+
+ Score = 202 bits (514),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 61/265 (23%), Positives = 117/265 (44%), Gaps = 7/265 (3%)
+
+Query  21   LLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLA  80
+            LL    + I+A + I     +I R     + +++ + ++   T+       VRY I    
+Sbjct  23   LLLSYAVNIVAALAIIIVGLIIARMIS-NAVNRLMISRKIDATVADFLSALVRYGIIAFT  81
+
+Query  81   GASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGI  140
+              + L    +   S++AV G   LA+G   Q  + ++ +G  ++    F  G+YV + G+
+Sbjct  82   LIAALGRVGVQTASVIAVLGAAGLAVGLALQGSLSNLAAGVLLVMFRPFRAGEYVDLGGV  141
+
+Query  141  SGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMA-VVNIAFPIDEDVDKI  197
+            +GTV  + +  T +R     + +IPNG+I    + N +++ +      I    D D+D++
+Sbjct  142  AGTVLSVQIFSTTMRTADGKIIVIPNGKIIAGNIINFSREPVRRNEFIIGVAYDSDIDQV  201
+
+Query  198  IEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVK  257
+             + L  I +        L +    + + ++  S +  +V   +       V  D+  R+K
+Sbjct  202  KQILTNIIQ---SEDRILKDREMTVRLNELGASSINFVVRVWSNSGDLQNVYWDVLERIK  258
+
+Query  258  KMFDQKNISFPYPRTTVILSEKKTN  282
+            + FD   ISFPYP+  V     K +
+Sbjct  259  REFDAAGISFPYPQMDVNFKRVKED  283
+
+
+> sp|P0C0S2|MSCS_ECO57 Small-conductance mechanosensitive channel 
+OS=Escherichia coli O157:H7 OX=83334 GN=mscS PE=3 SV=1
+Length=286
+
+ Score = 202 bits (514),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 61/265 (23%), Positives = 117/265 (44%), Gaps = 7/265 (3%)
+
+Query  21   LLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLA  80
+            LL    + I+A + I     +I R     + +++ + ++   T+       VRY I    
+Sbjct  23   LLLSYAVNIVAALAIIIVGLIIARMIS-NAVNRLMISRKIDATVADFLSALVRYGIIAFT  81
+
+Query  81   GASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGI  140
+              + L    +   S++AV G   LA+G   Q  + ++ +G  ++    F  G+YV + G+
+Sbjct  82   LIAALGRVGVQTASVIAVLGAAGLAVGLALQGSLSNLAAGVLLVMFRPFRAGEYVDLGGV  141
+
+Query  141  SGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMA-VVNIAFPIDEDVDKI  197
+            +GTV  + +  T +R     + +IPNG+I    + N +++ +      I    D D+D++
+Sbjct  142  AGTVLSVQIFSTTMRTADGKIIVIPNGKIIAGNIINFSREPVRRNEFIIGVAYDSDIDQV  201
+
+Query  198  IEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVK  257
+             + L  I +        L +    + + ++  S +  +V   +       V  D+  R+K
+Sbjct  202  KQILTNIIQ---SEDRILKDREMTVRLNELGASSINFVVRVWSNSGDLQNVYWDVLERIK  258
+
+Query  258  KMFDQKNISFPYPRTTVILSEKKTN  282
+            + FD   ISFPYP+  V     K +
+Sbjct  259  REFDAAGISFPYPQMDVNFKRVKED  283
+
+
+> sp|Q57634|MSMJS_METJA Small-conductance mechanosensitive channel 
+MscMJ OS=Methanocaldococcus jannaschii (strain ATCC 43067 
+/ DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ0170 
+PE=1 SV=1
+Length=350
+
+ Score = 178 bits (451),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 75/275 (27%), Positives = 133/275 (48%), Gaps = 13/275 (5%)
+
+Query  13   YDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFY-KLYSKSKIQLPQRKIDTLTSLTKNA  71
+            Y +K +   + V+ IL   +  +KF D +   +   L  K++ +L +  I  L    K  
+Sbjct  82   YILKLIDEAVKVVVILSATYFAVKFIDGIFEHYLIPLTEKTETELDEHIIKPL----KKV  137
+
+Query  72   VRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSV  131
+            V+ +   L   + L     D+T+LLA  G+G LA+    Q+ +K+ I+G  I+ +  FS+
+Sbjct  138  VKILTILLGILTALSSVGYDITALLAGLGVGGLALALAMQDTIKNFIAGILILIDKPFSL  197
+
+Query  132  GDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLT-KDSMMAVVNIAF  188
+            G +V + G  G VEEIG+R T+IR F   L  IPN E+    + NLT +D    ++ I  
+Sbjct  198  GHWVKVKGAEGIVEEIGIRSTRIRTFDYTLITIPNSELLDSAIENLTVRDRRRVLMTIGL  257
+
+Query  189  PIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMV--YAKTQPMQKW  246
+              +  V+KI    +EI +E+ ++    +  P  +   +  D  L + V  + +      +
+Sbjct  258  TYNTPVEKIKRA-KEIIKEIVENHPATLP-PYRVHFREYGDWSLNLRVEYFVRNMGFDYY  315
+
+Query  247  -AVERDIRYRVKKMFDQKNISFPYPRTTVILSEKK  280
+                 +I  ++K+ F+++ I   +P  TV L +  
+Sbjct  316  LNAVDEINLKIKEEFEKEGIEMAFPTYTVYLEKDN  350
+
+
+> sp|O28726|Y1546_ARCFU Uncharacterized MscS family protein AF_1546 
+OS=Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / 
+DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 GN=AF_1546 PE=3 
+SV=1
+Length=283
+
+ Score = 176 bits (446),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 49/214 (23%), Positives = 105/214 (49%), Gaps = 2/214 (1%)
+
+Query  67   LTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFE  126
+            L    + + I  +A  ++L    +D++ LL   GI  + +GF +Q++V +++SG F+I E
+Sbjct  57   LMLKVIYFGIIIVAFIAVLPALGLDLSGLLVAGGITGIVLGFASQSVVANLVSGIFLISE  116
+
+Query  127  DQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAVVNI  186
+                +GD V I+G++G VE++ +  T IR +      IPN ++   +N+T          
+Sbjct  117  KPIKIGDQVNIDGVAGFVEDVNILSTIIRTYDGLYVRIPNEKV-FTSNITNYVAHIARRF  175
+
+Query  187  AFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGP-TVLGITDMQDSKLVIMVYAKTQPMQK  245
+             + +        E   EI + + +     ++ P  V+ + ++ DS + I+V       + 
+Sbjct  176  EYVVGIRYSDDAEKAIEIIKRIIEEHPFALKNPEPVVFVDNLGDSSVNIVVRIWAPSTEW  235
+
+Query  246  WAVERDIRYRVKKMFDQKNISFPYPRTTVILSEK  279
+            + V+ ++ +++K   ++  I  P+P+  V  + +
+Sbjct  236  YNVKMELLWKIKTELEKNGIEIPFPQRVVWFANE  269
+
+
+> sp|T0DVE4|MSCS_HELPX Small-conductance mechanosensitive channel 
+OS=Helicobacter pylori OX=210 GN=mscS PE=1 SV=1
+Length=274
+
+ Score = 175 bits (443),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 59/277 (21%), Positives = 116/277 (42%), Gaps = 21/277 (8%)
+
+Query  13   YDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAV  72
+            +  +A  F + ++K +I+  IG  F+ FL  +  KL SK        K + L +      
+Sbjct  11   FFPQAKHFGIILIKAVIVFCIGFYFSFFLRNKTMKLLSK--------KDEILANFVAQVT  62
+
+Query  73   RYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVG  132
+              +I  +     L    +  TS++ V G   +A+    ++ +  +  G  +I    F  G
+Sbjct  63   FILILIITTIIALSTLGVQTTSIITVLGTVGIAVALALKDYLSSIAGGIILIILHPFKKG  122
+
+Query  133  DYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMA-----VVNIA  187
+            D + I+G+ G VE +    T +R     L ++PN  +     +  ++        V  + 
+Sbjct  123  DIIEISGLEGKVEALNFFNTSLRLHDGRLAVLPNRSVANSNIINSNNTACRRIEWVCGVG  182
+
+Query  188  FPID-EDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQ-K  245
+            +  D E V K I+ + +  E++ K+       PT +GITD   S L   +    +     
+Sbjct  183  YGSDIELVHKTIKDVIDTMEKIDKNM------PTFIGITDFGSSSLNFTIRVWAKIEDGI  236
+
+Query  246  WAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+            + V  ++  R+K   D  +I  P+ +  + +  + ++
+Sbjct  237  FNVRSELIERIKNALDANHIEIPFNKLDIAIKNQDSS  273
+
+
+> sp|Q57362|Y195A_HAEIN Uncharacterized MscS family protein HI_0195.1 
+OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 
+/ KW20 / Rd) OX=71421 GN=HI_0195.1 PE=1 SV=1
+Length=1111
+
+ Score = 178 bits (451),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 61/266 (23%), Positives = 111/266 (42%), Gaps = 16/266 (6%)
+
+Query  21    LLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLA  80
+             LL  L I+ I ++ ++    +     ++   S++ L Q    T+T+L    + YI   + 
+Sbjct  846   LLVALVIVGITYVLVRNISGI----LEVLIFSRVNLSQGTPYTITTL----LTYIFIAIG  897
+
+Query  81    GASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGI  140
+             GA       +  + L  +    S+ +GFG Q +  + +SG  ++FE    VGD VTIN +
+Sbjct  898   GAWAFATLGMSWSKLQWLFAALSVGLGFGMQEIFANFVSGIILLFERPIRVGDVVTINEV  957
+
+Query  141   SGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNL--TKDSMMAVVNIAFPIDEDVDK  196
+             SGTV +I +R   +  F     I+PN       VTN   +      V+++      D+  
+Sbjct  958   SGTVAKIRIRAITLIDFDRKEVIVPNKSFVTGQVTNWALSNTMTRLVISVGVAYGSDLTL  1017
+
+Query  197   IIEGLQEICEEVKKSRDDLIEGPTVLGIT-DMQDSKLVIMVYAKTQPMQKWAVERDIRYR  255
+             + + L +  +E      D       L       D +L + V    Q   + +    +  R
+Sbjct  1018  VRQLLLQAADEQPTILRDPKPSAYFLTFGASTLDHELRVYV---EQVGDRTSTTDALNRR  1074
+
+Query  256   VKKMFDQKNISFPYPRTTVILSEKKT  281
+             + ++F + NI   + +  V +    T
+Sbjct  1075  INELFAEHNIDIAFNQLDVFIKNNDT  1100
+
+
+> sp|O07594|YHDY_BACSU Uncharacterized MscS family protein YhdY 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=yhdY PE=3 SV=1
+Length=371
+
+ Score = 169 bits (429),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 61/266 (23%), Positives = 119/266 (45%), Gaps = 16/266 (6%)
+
+Query  26   KILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASIL  85
+             I+ +   G      L      ++ K   +      D L       +R++I  L+ + I 
+Sbjct  98   LIVALLCWG---LCNLTATSSFIFHKVNQRFELDMDDILAPFLSKLLRFVIIALSVSVIA  154
+
+Query  86   KLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGISGTVE  145
+            + FN D+   +A  G+G LA    A++ + +   G  II E  F++GD+V  + ++G+VE
+Sbjct  155  QEFNYDVNGFVAGLGLGGLAFALAAKDTISNFFGGIIIITEKPFTIGDWVETSTVTGSVE  214
+
+Query  146  EIGLRVTKIRGFSDGLHIIPNGEIKM--VTNLTKDSMMAVV-NIAFPID---EDVDKIIE  199
+            +I  R T+ R     L  +PN  + M  +TN T+ +   +  +I        E++++ I 
+Sbjct  215  DITFRSTRFRTAQGALVTVPNSTLSMEAITNWTRMTKRQITFSIHVSYATPIENLERSIH  274
+
+Query  200  GLQEICEEVKKSRDDLIEGPTVLGITDMQDS--KLVIMVYAKTQPMQKW-AVERDIRYRV  256
+             L+ +  E +   +++I    ++      DS   L    Y KT    +   +  DI Y++
+Sbjct  275  SLRTMLLEHEGVDNEII----MVNFDTFADSYYNLFFNFYTKTTVWAENLNIREDINYKI  330
+
+Query  257  KKMFDQKNISFPYPRTTVILSEKKTN  282
+             ++   + + F YP   V++ +K  +
+Sbjct  331  IEILGAEGVQFAYPGQMVVVKQKHES  356
+
+
+> sp|P0AEB5|YNAI_ECOLI Low conductance mechanosensitive channel 
+YnaI OS=Escherichia coli (strain K12) OX=83333 GN=ynaI PE=1 
+SV=1
+Length=343
+
+ Score = 168 bits (426),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 67/286 (23%), Positives = 127/286 (44%), Gaps = 22/286 (8%)
+
+Query  5    IYHKLVEIYDIKAVKFL-LDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDT  63
+            I + ++E Y +K +    +D +   +IA I       LI +F K       Q+ + +  T
+Sbjct  60   IINYVIENYKLKFITPGVIDFICTSLIAVILTIKLFLLINQFEKQ------QIKKGRDIT  113
+
+Query  64   LTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFI  123
+               +    ++  I  +      + F + ++ LL   GIG LA+G   ++++ +  SG  +
+Sbjct  114  SARIMSRIIKITIIVVLVLLYGEHFGMSLSGLLTFGGIGGLAVGMAGKDILSNFFSGIML  173
+
+Query  124  IFEDQFSVGDYVTI--NGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVT-----NLT  176
+             F+  FS+GD++      I GTV EIG R+TKI  F +    +PN     ++      +T
+Sbjct  174  YFDRPFSIGDWIRSPDRNIEGTVAEIGWRITKITTFDNRPLYVPNSLFSSISVENPGRMT  233
+
+Query  177  KDSMMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPT-VLGITDMQDSKLVIM  235
+               +   + + +     V  I+E ++E+     K+   + +  T ++      DS L IM
+Sbjct  234  NRRITTTIGLRYEDAAKVGVIVEAVREML----KNHPAIDQRQTLLVYFNQFADSSLNIM  289
+
+Query  236  VYA--KTQPMQKW-AVERDIRYRVKKMFDQKNISFPYPRTTVILSE  278
+            VY   KT    +W A ++D+  ++  +       F +P  T+ +  
+Sbjct  290  VYCFTKTTVWAEWLAAQQDVYLKIIDIVQSHGADFAFPSQTLYMDN  335
+
+
+> sp|P0AEB6|YNAI_ECO57 Low conductance mechanosensitive channel 
+YnaI OS=Escherichia coli O157:H7 OX=83334 GN=ynaI PE=3 SV=1
+Length=343
+
+ Score = 168 bits (426),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 67/286 (23%), Positives = 127/286 (44%), Gaps = 22/286 (8%)
+
+Query  5    IYHKLVEIYDIKAVKFL-LDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDT  63
+            I + ++E Y +K +    +D +   +IA I       LI +F K       Q+ + +  T
+Sbjct  60   IINYVIENYKLKFITPGVIDFICTSLIAVILTIKLFLLINQFEKQ------QIKKGRDIT  113
+
+Query  64   LTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFI  123
+               +    ++  I  +      + F + ++ LL   GIG LA+G   ++++ +  SG  +
+Sbjct  114  SARIMSRIIKITIIVVLVLLYGEHFGMSLSGLLTFGGIGGLAVGMAGKDILSNFFSGIML  173
+
+Query  124  IFEDQFSVGDYVTI--NGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVT-----NLT  176
+             F+  FS+GD++      I GTV EIG R+TKI  F +    +PN     ++      +T
+Sbjct  174  YFDRPFSIGDWIRSPDRNIEGTVAEIGWRITKITTFDNRPLYVPNSLFSSISVENPGRMT  233
+
+Query  177  KDSMMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPT-VLGITDMQDSKLVIM  235
+               +   + + +     V  I+E ++E+     K+   + +  T ++      DS L IM
+Sbjct  234  NRRITTTIGLRYEDAAKVGVIVEAVREML----KNHPAIDQRQTLLVYFNQFADSSLNIM  289
+
+Query  236  VYA--KTQPMQKW-AVERDIRYRVKKMFDQKNISFPYPRTTVILSE  278
+            VY   KT    +W A ++D+  ++  +       F +P  T+ +  
+Sbjct  290  VYCFTKTTVWAEWLAAQQDVYLKIIDIVQSHGADFAFPSQTLYMDN  335
+
+
+> sp|O35043|YFKC_BACSU Uncharacterized MscS family protein YfkC 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=yfkC PE=2 SV=1
+Length=280
+
+ Score = 166 bits (420),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 81/271 (30%), Positives = 134/271 (49%), Gaps = 20/271 (7%)
+
+Query  9    LVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLT  68
+            L EI+  K V    D+L + +I +IG+    F+I R  +L+ K    + ++K  T+ SL 
+Sbjct  7    LTEIFQNKIV----DILLVAVILWIGV----FIINRLVQLFFKRTDFIEEKKEKTIESLV  58
+
+Query  69   KNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQ  128
+            ++  +Y         ++ LF  D   +LA AG+  + IGFGAQ+L+KD+++G F+I+E Q
+Sbjct  59   RSVTQYTATIGFIFYVISLFVHDFGKILAGAGVAGIVIGFGAQSLIKDVLAGVFLIYERQ  118
+
+Query  129  FSVGDYVTING-ISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAVVNIA  187
+               GDYVT+N   +GTVEEIGLR  +IR +S  L  I NGE++ + N   D M    +  
+Sbjct  119  LHKGDYVTVNNLFNGTVEEIGLRSLQIREWSGKLLTISNGEVRQIENYNIDFMRITESFL  178
+
+Query  188  FPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTV---------LGITDMQDSK--LVIMV  236
+                ED D++   L+E C+ + +   D ++              GIT +      +   V
+Sbjct  179  ISFKEDPDRVYSVLEEACDMLNEELRDSLKRDEFGNPTEPFQIHGITALNKINRGVEFTV  238
+
+Query  237  YAKTQPMQKWAVERDIRYRVKKMFDQKNISF  267
+                +    ++    +R  + +   Q N+  
+Sbjct  239  KGMVKDDDYFSASLAVRRVLVRQLYQNNVQM  269
+
+
+> sp|P75783|YBIO_ECOLI Moderate conductance mechanosensitive channel 
+YbiO OS=Escherichia coli (strain K12) OX=83333 GN=ybiO 
+PE=1 SV=2
+Length=741
+
+ Score = 172 bits (436),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 81/262 (31%), Positives = 124/262 (47%), Gaps = 4/262 (2%)
+
+Query  16   KAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYI  75
+            K V  L+ +  IL  + +G      LI          +  LP  +  TL +L +NA+  I
+Sbjct  462  KTVDILIRIALILFFSAVGWTVLASLIENRLASDIHGR-PLPSARTRTLLTLFRNALAVI  520
+
+Query  76   IYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYV  135
+            I  +    +L    +++  LLA AG   LAI FG+Q LVKD+I+G FI FE+  + GD V
+Sbjct  521  ISTITIMIVLSEIGVNIAPLLAGAGALGLAISFGSQTLVKDIITGVFIQFENGMNTGDLV  580
+
+Query  136  TINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAVVNIAFPIDEDVD  195
+            TI  ++GTVE + +R   +R  +   HIIP   I    N  +     V N      ED D
+Sbjct  581  TIGPLTGTVERMSIRSVGVRQDTGAYHIIPWSSITTFANFVRGIGSVVANYDVDRHEDAD  640
+
+Query  196  KIIEGLQEICEEVKKS---RDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDI  252
+            K  + L++   E+ ++   R  +I  P   GI  + ++   + V   T P+++W V   +
+Sbjct  641  KANQALKDAVAELMENEEIRGLIIGEPNFAGIVGLSNTAFTLRVSFTTLPLKQWTVRFAL  700
+
+Query  253  RYRVKKMFDQKNISFPYPRTTV  274
+              +VKK FD   +  P     V
+Sbjct  701  DSQVKKHFDLAGVRAPVQTYQV  722
+
+
+> sp|O66994|Y812_AQUAE Uncharacterized MscS family protein aq_812 
+OS=Aquifex aeolicus (strain VF5) OX=224324 GN=aq_812 PE=3 
+SV=1
+Length=368
+
+ Score = 162 bits (410),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 62/270 (23%), Positives = 128/270 (47%), Gaps = 9/270 (3%)
+
+Query  19   KFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYF  78
+               L    +LI+ +  I+F +    +  + + K      +   + +       ++  +  
+Sbjct  102  DKFLKTFSLLILGWAIIRFLNLFHNKIVEFFVKVGG---KDFAEEVGDFILKILKAFVVV  158
+
+Query  79   LAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTIN  138
+            + GAS+L+ + +++ ++LA  G+  LA+   A++  ++++SG  I+ +    VG+ V + 
+Sbjct  159  IVGASLLQEWGVNIGAILASVGLLGLAVSLAAKDTFENILSGLIILLDKPVKVGETVKVK  218
+
+Query  139  GISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMAV-VNIAFPIDEDVD  195
+               G+VE+IGLR TKIR F   L  IPN +I    V N T+ +   V   I        +
+Sbjct  219  DFMGSVEDIGLRSTKIRTFDKSLVTIPNRDIVNNHVENFTRRNKRRVRFYIGVVYSTKRE  278
+
+Query  196  KIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMV--YAKTQPMQKW-AVERDI  252
+            ++   L+EI E +K+      +    +   +  DS L I++  YA T   +++  +  DI
+Sbjct  279  QLENILKEIRELLKEHPGVAKDEKFYVYFENYGDSSLNILIQYYANTNDYEEYLKIIEDI  338
+
+Query  253  RYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+              ++ ++ ++   SF +P  +V + +   +
+Sbjct  339  NLKIMEIVEKNGSSFAFPSRSVYIEKMPKS  368
+
+
+> sp|P0DKS1|MSCS_WIGBR Small-conductance mechanosensitive channel 
+OS=Wigglesworthia glossinidia brevipalpis OX=36870 GN=mscS 
+PE=3 SV=1
+Length=280
+
+ Score = 159 bits (401),  Expect = 6e-45, Method: Composition-based stats.
+ Identities = 58/270 (21%), Positives = 111/270 (41%), Gaps = 11/270 (4%)
+
+Query  12   IYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNA  71
+            I  IK +  ++  L ILI+ +   K    +I  F          + +     ++    + 
+Sbjct  19   ILFIKYISNIILSLIILIVGYSASKVTQKIIKNFM---------IKKNIDIIISEFFCSI  69
+
+Query  72   VRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSV  131
+            ++Y I      + L    I  TS++AV G   +AIG   Q  + +  +G  ++    F  
+Sbjct  70   IKYSILIFTIVTSLGCIGIQTTSIIAVIGAAGIAIGLALQGSLSNFAAGVLLVTLRYFRT  129
+
+Query  132  GDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAVVNIAFPID  191
+            GDYV + G+ G ++ + +  TKI+     + II      + +N+   S      +   I 
+Sbjct  130  GDYVNLCGVKGKIKTVQIFCTKIKTKDGKIIII-PNNKIISSNIINYSEELHRLMEVIIS  188
+
+Query  192  EDVDKIIEGLQEICEEVKKSRDDLI-EGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVER  250
+             +    I+ ++EI  +V K    ++ E    + + ++ +S L  +V       +      
+Sbjct  189  TEYTSDIKNVKEIIIDVLKKETRIVKEKKITVRLKNLGESSLDFLVRGWVYKKELKQTTS  248
+
+Query  251  DIRYRVKKMFDQKNISFPYPRTTVILSEKK  280
+            DI  ++K   D+  I+ PY +  V L   K
+Sbjct  249  DILEKIKIELDKNKINIPYKQIDVNLKYSK  278
+
+
+> sp|P39285|MSCM_ECOLI Miniconductance mechanosensitive channel 
+MscM OS=Escherichia coli (strain K12) OX=83333 GN=mscM PE=1 
+SV=3
+Length=1107
+
+ Score = 166 bits (421),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 55/290 (19%), Positives = 115/290 (40%), Gaps = 15/290 (5%)
+
+Query  1     MWADIYHKL-----VEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQ  55
+             +W++I+        + ++D+ +    ++ L+ + +  + I    F+I         + ++
+Sbjct  797   LWSEIHSAFGFLENISLWDVTSTVQGVESLEPITLGAVLIAILVFIITTQLVRNLPALLE  856
+
+Query  56    LPQRKIDTLTSLTK----NAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQ  111
+             L   +   LT  T        +Y++  + G     +  I+ + L  +     + +GFG Q
+Sbjct  857   LAILQHLDLTPGTGYAITTITKYLLMLIGGLVGFSMIGIEWSKLQWLVAALGVGLGFGLQ  916
+
+Query  112   NLVKDMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--  169
+              +  + ISG  I+FE    +GD VTI  ++G+V +I  R T I  +     I+PN     
+Sbjct  917   EIFANFISGLIILFEKPIRIGDTVTIRDLTGSVTKINTRATTISDWDRKEIIVPNKAFIT  976
+
+Query  170   KMVTNL--TKDSMMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDM  227
+             +   N   +      V+ I  P D + +++ E L           D+      ++ +   
+Sbjct  977   EQFINWSLSDSVTRVVLTIPAPADANSEEVTEILLTAARRCSLVIDNPAPEVFLVDLQQ-  1035
+
+Query  228   QDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILS  277
+                   + +YA  +   +  +  +I   +   F    I  P+P   + L 
+Sbjct  1036  GIQIFELRIYA-AEMGHRMPLRHEIHQLILAGFHAHGIDMPFPPFQMRLE  1084
+
+
+> sp|O25170|Y415_HELPY Uncharacterized MscS family protein HP_0415 
+OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 
+GN=HP_0415 PE=3 SV=1
+Length=623
+
+ Score = 163 bits (413),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 59/250 (24%), Positives = 115/250 (46%), Gaps = 36/250 (14%)
+
+Query  64   LTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFI  123
+            + +L    V ++I+ +A   +LK    ++++++A  GIG LA+    ++++ +  +   +
+Sbjct  361  VINLILKVVYFLIFIVALLGVLKQLGFNVSAIIASLGIGGLAVALAVKDVLANFFASVIL  420
+
+Query  124  IFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGE---------------  168
+            + ++ FS GD++    + GTV E+GLR T IR F + L  +PN E               
+Sbjct  421  LLDNSFSQGDWIVCGEVEGTVVEMGLRRTTIRAFDNALLSVPNSELAGKPIRNWSRRKVG  480
+
+Query  169  --IKMVTNLTKDSMMAVVNIAF----PIDEDVDKIIEGLQEICEEVKKSR----DDLIEG  218
+              IKM   LT  S  + + +       + E+  KI  G     + V   R     D++  
+Sbjct  481  RRIKMEIGLTYSSSQSALQLCVKDIKEMLENHPKIANGADSALQNVSDYRYMFKKDIVSI  540
+
+Query  219  PTVLG--------ITDMQDSKLVIMVYA--KTQPMQKW-AVERDIRYRVKKMFDQKNISF  267
+               LG        +    DS + I+VY   KT   ++W  V+ D+  ++  + ++ ++SF
+Sbjct  541  DDFLGYKNNLFVFLDQFADSSINILVYCFSKTVVWEEWLEVKEDVMLKIMGIVEKHHLSF  600
+
+Query  268  PYPRTTVILS  277
+             +P  ++ + 
+Sbjct  601  AFPSQSLYVE  610
+
+
+> sp|Q9ZKG7|Y415_HELPJ Uncharacterized MscS family protein jhp_0969 
+OS=Helicobacter pylori (strain J99 / ATCC 700824) OX=85963 
+GN=jhp_0969 PE=3 SV=1
+Length=623
+
+ Score = 163 bits (412),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 58/250 (23%), Positives = 114/250 (46%), Gaps = 36/250 (14%)
+
+Query  64   LTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFI  123
+            + +L    V ++I+ +A   +LK    ++++++A  GIG LA+    ++++ +  +   +
+Sbjct  361  VINLILKVVYFLIFIVALLGVLKQLGFNVSAIIASLGIGGLAVALAVKDVLANFFASVIL  420
+
+Query  124  IFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGE---------------  168
+            + ++ FS GD++    + GTV E+GLR T IR F + L  +PN E               
+Sbjct  421  LLDNSFSQGDWIVCGEVEGTVVEMGLRRTTIRAFDNALLSVPNSELAGKPIRNWSRRKVG  480
+
+Query  169  --IKMVTNLTKDSMMAVVNIAF----PIDEDVDKIIEGLQEICEEVKKSR----DDLIEG  218
+              IKM   LT  S  + + +       + E+  KI  G     +     R     D++  
+Sbjct  481  RRIKMEIGLTYSSSQSALQLCVKDIKEMLENHPKIANGADSALQNASDYRYMFKKDIVSI  540
+
+Query  219  PTVLG--------ITDMQDSKLVIMVYA--KTQPMQKW-AVERDIRYRVKKMFDQKNISF  267
+               LG        +    DS + I+VY   KT   ++W  V+ D+  ++  + ++ ++SF
+Sbjct  541  DDFLGYKNNLFVFLDQFADSSINILVYCFSKTVVWEEWLEVKEDVMLKIMGIVEKHHLSF  600
+
+Query  268  PYPRTTVILS  277
+             +P  ++ + 
+Sbjct  601  AFPSQSLYVE  610
+
+
+> sp|P77338|MSCK_ECOLI Mechanosensitive channel MscK OS=Escherichia 
+coli (strain K12) OX=83333 GN=mscK PE=1 SV=1
+Length=1120
+
+ Score = 165 bits (419),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 56/266 (21%), Positives = 113/266 (42%), Gaps = 18/266 (7%)
+
+Query  21    LLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLA  80
+             LL  +   ++A+  I+    L     ++   S++ + Q     +T+     + YII  + 
+Sbjct  846   LLFAIIASMVAWALIRNLPGL----LEVLVLSRLNMRQGASYAITT----ILNYIIIAVG  897
+
+Query  81    GASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGI  140
+               ++     +    L  +A   S+ +GFG Q +  + +SG  I+FE    +GD VTI   
+Sbjct  898   AMTVFGSLGVSWDKLQWLAAALSVGLGFGLQEIFGNFVSGLIILFERPVRIGDTVTIGSF  957
+
+Query  141   SGTVEEIGLRVTKIRGFSDGLHIIPNGEI----KMVTNLTKDSMMAVVNIAFPIDEDVDK  196
+             SGTV +I +R T I  F     IIPN        +  +LT  +   V+ +      D++K
+Sbjct  958   SGTVSKIRIRATTITDFDRKEVIIPNKAFVTERLINWSLTDTTTRLVIRLGVAYGSDLEK  1017
+
+Query  197   IIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLV--IMVYAKTQPMQKWAVERDIRY  254
+             + + L +   E  +   + +     +  T    S L   + +Y + +   +     ++  
+Sbjct  1018  VRKVLLKAATEHPRVMHEPMPE---VFFTAFGASTLDHELRLYVR-ELRDRSRTVDELNR  1073
+
+Query  255   RVKKMFDQKNISFPYPRTTVILSEKK  280
+              + ++  + +I+  + +  V L  +K
+Sbjct  1074  TIDQLCRENDINIAFNQLEVHLHNEK  1099
+
+
+> sp|Q58543|MSMJL_METJA Large-conductance mechanosensitive channel 
+MscMJLR OS=Methanocaldococcus jannaschii (strain ATCC 43067 
+/ DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 
+GN=MJ1143 PE=1 SV=1
+Length=361
+
+ Score = 155 bits (392),  Expect = 8e-43, Method: Composition-based stats.
+ Identities = 74/273 (27%), Positives = 137/273 (50%), Gaps = 12/273 (4%)
+
+Query  17   AVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYII  76
+            AV   +    IL +     +F + L+ R+  L    K +      D +  LTK  VR ++
+Sbjct  92   AVNEGILTAFILCVVVFFDRFLNELVERYLALTISKKTKKDV--DDQIVVLTKKLVRLVV  149
+
+Query  77   YFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVT  136
+            + +    IL     D+ +LLA  GIG LA+   +QNLV ++I+G  I+ +  F +G+++T
+Sbjct  150  WVVGLLLILSNLGYDIKTLLAGLGIGGLAVALASQNLVSNLIAGLIILTDKPFKIGNWIT  209
+
+Query  137  INGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNL-TKDSMMAVVNIAFPIDED  193
+             +G SG VE+IG+R TKIR   + + ++PN ++  +++ N+ +K+       I    +  
+Sbjct  210  FSGGSGIVEDIGIRSTKIRATDNSIIVVPNSKLIDEIIQNVPSKNKWKVSTTIGVTYNTP  269
+
+Query  194  VDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVY-----AKTQPMQKW-A  247
+            V+KI +  +EI + +     ++ + P  +   +  D  L I V      ++    QK+ +
+Sbjct  270  VEKIRKA-EEIIKNILLEHPNVEDEPITVYFKEFGDWSLNIQVVYYIKNSRYNGYQKYIS  328
+
+Query  248  VERDIRYRVKKMFDQKNISFPYPRTTVILSEKK  280
+               ++  ++K+ FD+K I F +P  T+ L    
+Sbjct  329  TINEVNLKIKEEFDRKGIEFAFPTYTLYLKRDD  361
+
+
+> sp|P42531|Y1270_CORGL Uncharacterized protein Cgl1270/cg1434 
+OS=Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 
+/ JCM 1318 / LMG 3730 / NCIMB 10025) OX=196627 GN=Cgl1270 PE=4 
+SV=2
+Length=491
+
+ Score = 145 bits (366),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 68/224 (30%), Positives = 103/224 (46%), Gaps = 24/224 (11%)
+
+Query  57   PQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKD  116
+              +       +     + + +F+   S ++ F   +      A I S AIG GAQ++V D
+Sbjct  16   TTKNQLAFAGVGVYIAQIVAFFMLAVSAMQAFGFSLAGAAIPATIASAAIGLGAQSIVAD  75
+
+Query  117  MISGFFIIFEDQFSVGDYVTING----ISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMV  172
+             ++GFFI+ E QF VGD+V   G    + GTV EI +R TKIR  +    IIPN   K+ 
+Sbjct  76   FLAGFFILTEKQFGVGDWVRFEGNGIVVEGTVIEITMRATKIRTIAQETVIIPNSTAKVC  135
+
+Query  173  TNLTKDSMMAVVNIAFPI--DEDVDKIIE----------GLQEICEEVKKSRD----DLI  216
+             N + +   AVV I  P+   E++  +I           G ++I  E+    D      +
+Sbjct  136  INNSNNWSRAVVVIPIPMLGSENITDVIARSEAATRRALGQEKIAPEILGELDVHPATEV  195
+
+Query  217  EGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMF  260
+              PTV+G+  M   + ++ V A  Q    W VER IR  +   F
+Sbjct  196  TPPTVVGMPWMVTMRFLVQVTAGNQ----WLVERAIRTEIISEF  235
+
+
+> sp|Q8VZL4|MSL1_ARATH Mechanosensitive ion channel protein 1, 
+mitochondrial OS=Arabidopsis thaliana OX=3702 GN=MSL1 PE=2 SV=1
+Length=497
+
+ Score = 136 bits (343),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 48/249 (19%), Positives = 112/249 (45%), Gaps = 14/249 (6%)
+
+Query  26   KILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASIL  85
+             IL + +   ++   +I R   L +KS   L + K+ TL  ++   +    + +   +  
+Sbjct  247  VILSLVWFLYRWKTNVITRM--LSAKSFGGLDREKVLTLDKVSSVGL----FAIGLMASA  300
+
+Query  86   KLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGISGTVE  145
+            +   + + S+L V G+G +A  F A++++ +++SG  + F   FS+GD +    + G V 
+Sbjct  301  EACGVAVQSILTVGGVGGVATAFAARDILGNVLSGLSMQFSRPFSMGDTIKAGSVEGQVI  360
+
+Query  146  EIGLRVTKIRGFSDGLHIIPNG--EIKMVTNLTKDSMMAVVN-IAFPIDEDVDKIIEGLQ  202
+            E+GL  T +        ++PN     +++ N ++    A+ + I   ID D+D I +   
+Sbjct  361  EMGLTTTSLLNAEKFPVLVPNSLFSSQVIVNKSRAQWRAIASKIPLQID-DLDMIPQISN  419
+
+Query  203  EICEEVKKSRDDLIEG-PTVLGITDMQDSKLVIMVYA---KTQPMQKWAVERDIRYRVKK  258
+            EI E ++ +    +        ++ ++ S   + +     +    + +  ++++     K
+Sbjct  420  EIKEMLRSNTKVFLGKEAPHCYLSRVEKSFAELTIGCNLIRMGKEELYNTQQEVLLEAVK  479
+
+Query  259  MFDQKNISF  267
+            +  +  +S 
+Sbjct  480  IIKKHGVSL  488
+
+
+> sp|Q8L7W1|MSL3_ARATH Mechanosensitive ion channel protein 3, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=MSL3 PE=1 SV=1
+Length=678
+
+ Score = 87.8 bits (216),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 42/223 (19%), Positives = 88/223 (39%), Gaps = 15/223 (7%)
+
+Query  66   SLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIF  125
+            S    AV    +  A +  ++L        L   G+G++ +    + ++ + +S   I  
+Sbjct  237  SFAGKAVYTAAWVAAASLFMELLGFSTQKWLTAGGLGTVLLTLAGREILTNFLSSIMIHA  296
+
+Query  126  EDQFSVGDYV--TING--ISGTVEEIGLRV-TKIRGFSDGLHIIPNG--EIKMVTNLTKD  178
+               F + +++   I G  +SGTVE++G    T IRG       IPN    + +V NLT+ 
+Sbjct  297  TRPFVLNEWIQTKIGGYEVSGTVEQVGWWSPTIIRGDDREAVHIPNHQFSVNIVRNLTQK  356
+
+Query  179  SMMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPT--VLGITDMQDSKLVIMV  236
+            +   +         DV KI   + ++ + + K+   + +      + + D+      + +
+Sbjct  357  THWRIKTHLAISHLDVSKINNIVADMRKVLSKN-PQIEQQKIHRRVFLEDIDPENQALRI  415
+
+Query  237  ----YAKTQPMQKWA-VERDIRYRVKKMFDQKNISFPYPRTTV  274
+                + KT   +++  V+  +   +  +          P  TV
+Sbjct  416  LISCFVKTSRFEEYLCVKEAVLLDLLTVIRHHGARLATPIRTV  458
+
+
+> sp|Q56X46|MSL2_ARATH Mechanosensitive ion channel protein 2, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=MSL2 PE=2 SV=1
+Length=673
+
+ Score = 85.5 bits (210),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 52/279 (19%), Positives = 108/279 (39%), Gaps = 15/279 (5%)
+
+Query  17   AVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYII  76
+                LL+ ++ L            LI +  KL+S++      R +         A+   +
+Sbjct  188  VKDRLLNFVRSLSTVLAFAYCLSSLIQQTQKLFSETSNPSDTRNMG--FQFAGKALYSAV  245
+
+Query  77   YFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVT  136
+            +  A +  ++L        L   G+G++ I    + ++ + +S   I     F + +++ 
+Sbjct  246  WVAAVSLFMELLGFSTQKWLTAGGLGTVLITLAGREILTNFLSSVMIHATRPFVLNEWIQ  305
+
+Query  137  IN----GISGTVEEIGLRV-TKIRGFSDGLHIIPNGE--IKMVTNLTKDSMMAVVNIAFP  189
+                   +SGTVE +G    T IRG       IPN +  + +V NLT+ +   +      
+Sbjct  306  TKIEGYEVSGTVEHVGWWSPTIIRGEDREAIHIPNHKFTVNVVRNLTQKTHWRIKTHLAI  365
+
+Query  190  IDEDVDKIIEGLQEICEEVKKS---RDDLIEGPTVLG--ITDMQDSKLVIMVYAKTQPMQ  244
+               DV+KI   + ++ + + K+       +     L   I + Q   ++I  + KT   +
+Sbjct  366  SHLDVNKINNIVADMRKVLAKNPMVEQQRLHRRVFLENVIPENQALSILISCFVKTSHHE  425
+
+Query  245  KWA-VERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+            ++  V+  I   + ++          P  T+     +T+
+Sbjct  426  EYLGVKEAILLDLLRVISHHRARLATPIRTIRKMYTETD  464
+
+
+> sp|Q9LYG9|MSL10_ARATH Mechanosensitive ion channel protein 10 
+OS=Arabidopsis thaliana OX=3702 GN=MSL10 PE=1 SV=1
+Length=734
+
+ Score = 68.5 bits (166),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 40/246 (16%), Positives = 86/246 (35%), Gaps = 19/246 (8%)
+
+Query  49   YSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGF  108
+             S+  +        T        V  I+  +     L L  +  T +L       +A+ F
+Sbjct  494  TSRRALAHSLNDTKTAVKQLNKLVTAILMVVTVVIWLLLLEVATTKVLLFFSTQLVALAF  553
+
+Query  109  GAQNLVKDMISGFFIIF-EDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNG  167
+               +  K++      +F    + VGD   ++G++  VEE+ L  T     ++     PN 
+Sbjct  554  IIGSTCKNLFESIVFVFVMHPYDVGDRCVVDGVAMLVEEMNLLTTVFLKLNNEKVYYPNA  613
+
+Query  168  EIKM--VTNLTKD-SMMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRD----------D  214
+             +    ++N  +  +M   V  +      V KI    + I E ++++             
+Sbjct  614  VLATKPISNYFRSPNMGETVEFSISFSTPVSKIAHLKERIAEYLEQNPQHWAPVHSVVVK  673
+
+Query  215  LIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTV  274
+             IE    L +    D  +        +  ++     ++   +K+M +  +I +      +
+Sbjct  674  EIENMNKLKMALYSDHTITFQ-----ENRERNLRRTELSLAIKRMLEDLHIDYTLLPQDI  728
+
+Query  275  ILSEKK  280
+             L++K 
+Sbjct  729  NLTKKN  734
+
+
+> sp|Q9SYM1|MSL6_ARATH Mechanosensitive ion channel protein 6 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL6 PE=1 SV=1
+Length=856
+
+ Score = 65.8 bits (159),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 33/174 (19%), Positives = 65/174 (37%), Gaps = 8/174 (5%)
+
+Query  117  MISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTN  174
+              S  ++     F VGD   I+G+   VEE+ +  T    F +   + PN  +  K + N
+Sbjct  662  FESIIYLFVIHPFDVGDRCEIDGVQMVVEEMNILTTVFLRFDNQKVVYPNSLLWTKSIGN  721
+
+Query  175  LTKDSMMAV-VNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLV  233
+              +   M   +  +  I    +KII   Q I   ++  +D     P ++       + + 
+Sbjct  722  YYRSPDMGDGIEFSIHITTPAEKIILIKQRITSYIEGKKDHWYPAPMIVFKDMESLNSVR  781
+
+Query  234  IMVYAK-----TQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+            I V+           +KWA    +   + K+  + +I +      + +    T+
+Sbjct  782  IAVWPTHRMNHQDMGEKWARRSQLVEEIAKICRELDIEYRLYPLDINVRNLPTS  835
+
+
+> sp|Q58111|Y700_METJA Uncharacterized MscS family protein MJ0700 
+OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 
+2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ0700 
+PE=3 SV=1
+Length=324
+
+ Score = 63.5 bits (153),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 50/308 (16%), Positives = 117/308 (38%), Gaps = 46/308 (15%)
+
+Query  4    DIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDT  63
+            + Y K++  Y  + +   + +L  LII  I  +    +  ++ +   +   +        
+Sbjct  29   ETYIKILAKYQNQIMIIAIIILSGLIIVDIASE----VFKKYARTREEKAGEYLT-----  79
+
+Query  64   LTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFI  123
+                     +Y++Y      I  +   +++SL+   G+   A+ +  Q  + +      I
+Sbjct  80   ----LNYIFKYLVYVCVTLMIFGVIYQNVSSLVVSVGLIGAAVTYALQKPILNFAGWIII  135
+
+Query  124  IFEDQFSVGDYVTINGI-SGTVEEI---GLRVTKIRGF----SDGLHIIPNGEI--KMVT  173
+            ++     +GD + I  + +G V +I    + ++++       +  + IIPN  I    + 
+Sbjct  136  LYTRTIKIGDRIFIKNMGAGDVFDIDTQHIYLSELTTDTFEPTGRVLIIPNSYIFTASIE  195
+
+Query  174  NLTKDSMMA--VVNIAFPIDEDVDKIIEGLQEICEEVKKS-----------------RDD  214
+            NLTK S      + + F ++ +++K  + + E  +EV  +                 R  
+Sbjct  196  NLTKGSPYIWDNIVVHFTLNSNINKAEKIVFESADEVIGNLMRELYEKWSKRKYLISRKL  255
+
+Query  215  LIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKN-ISFPYPRTT  273
+              +    +GIT    S   I         +K  +  +I  R+ +  +++N +   YP   
+Sbjct  256  SDKPVVRVGITR---SSFYIKALYLVNVYEKAKIRSEINKRILEKVNKENDVKLAYPHIK  312
+
+Query  274  VILSEKKT  281
+             ++  +  
+Sbjct  313  AVIETENK  320
+
+
+> sp|Q9LPG3|MSL4_ARATH Mechanosensitive ion channel protein 4 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL4 PE=3 SV=1
+Length=881
+
+ Score = 63.1 bits (152),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 36/216 (17%), Positives = 69/216 (32%), Gaps = 9/216 (4%)
+
+Query  50   SKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFG  109
+             +  + L      T  +     V  ++  +     L +  I  T  L V     L + F 
+Sbjct  622  ERRALALTLNDTKTAVNRLHRIVDVLVSIVILIIWLLILGIATTKFLLVISSQLLLVVFV  681
+
+Query  110  AQNLVKDMISGFFIIF-EDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGE  168
+              N  K +      +F    F VGD   I+G+   VEE+ +  T    F +   + PN  
+Sbjct  682  FGNSCKTIFEAVIFVFVMHPFDVGDRCEIDGVQMIVEEMNILTTVFLRFDNQKIVYPNSL  741
+
+Query  169  IKM--VTNLTKDS-MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGIT  225
+            +    + N  +   M   +     I    +K     Q I   V   +D     P ++   
+Sbjct  742  LGTKPIANYYRSPDMQDAIEFFVHIATPPEKTTALRQRILSYVDNKKDHWHPSPMIVFRD  801
+
+Query  226  DMQDSKLVIMVYAK-----TQPMQKWAVERDIRYRV  256
+                + + I ++           +++     +   +
+Sbjct  802  MCGLNSVKIAMWPTHKMNHQNMGERYVRRGQLLEEI  837
+
+
+> sp|Q9LH74|MSL5_ARATH Mechanosensitive ion channel protein 5 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL5 PE=2 SV=1
+Length=881
+
+ Score = 62.4 bits (150),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 27/124 (22%), Positives = 47/124 (38%), Gaps = 3/124 (2%)
+
+Query  117  MISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKM--VTN  174
+              +  F+     F VGD   I+G+   VEE+ +  T    + +   I PN  +    + N
+Sbjct  689  FEAIIFLFVMHPFDVGDRCEIDGVQLVVEEMNILTTVFLRYDNQKIIYPNSVLGTKPIAN  748
+
+Query  175  LTKDS-MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLV  233
+              +   M   V     I    +KI    Q I   V   +D     P ++ ++    + + 
+Sbjct  749  YYRSPDMGDAVEFCVHIATPPEKITAIKQRILSYVDNKKDYWYPAPMIVFLSMDDLNSVK  808
+
+Query  234  IMVY  237
+            I V+
+Sbjct  809  IAVW  812
+
+
+> sp|O74839|YC1B_SCHPO Uncharacterized MscS family protein C1183.11 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPCC1183.11 PE=1 SV=1
+Length=1011
+
+ Score = 61.2 bits (147),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 33/183 (18%), Positives = 72/183 (39%), Gaps = 12/183 (7%)
+
+Query  74   YIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFED-QFSVG  132
+            +I+  +     L L   + + +L  AG   L + +      ++++S    +F    + VG
+Sbjct  602  FIVAVITLFIFLYLIARNFSGVLTSAGTTLLGLSWLFSGSAQELLSSIIFVFVKHPYDVG  661
+
+Query  133  DYVTINGISGTV-----EEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAV---V  184
+            D V +  I+GTV     +EI +  T+ R  +  +   PN  +  +  L       +   V
+Sbjct  662  DRVDVM-INGTVTSAMVKEISIMSTEFRLLTGKVIQAPNSLLNTLWILNMRRSDGIADPV  720
+
+Query  185  NIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEG--PTVLGITDMQDSKLVIMVYAKTQP  242
+             +       + +I +   +I + +K+ + D        V  + D+    L ++ + K   
+Sbjct  721  TVNLKFGTTLQQIEQLRIKIIDFLKEEKRDYKPDLLTEVTDLPDLYSMSLCVVFFHKYNF  780
+
+Query  243  MQK  245
+              +
+Sbjct  781  QDE  783
+
+
+> sp|Q84M97|MSL9_ARATH Mechanosensitive ion channel protein 9 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL9 PE=1 SV=1
+Length=742
+
+ Score = 58.9 bits (141),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 46/237 (19%), Positives = 83/237 (35%), Gaps = 9/237 (4%)
+
+Query  49   YSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGF  108
+             S+  I        T        +  I+  +     + L +I  T LL V     L + F
+Sbjct  502  TSRKTIGHSLNDTKTAVKQLDKLITGILTVITFIVWMVLLDIASTKLLLVFSSQFLGLAF  561
+
+Query  109  GAQNLVKDMISGFFIIF-EDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNG  167
+               +  K++   F  +F    + VGD   ++G+   VEEI L  T      +     PN 
+Sbjct  562  MIGSTCKNIFESFMFVFVMHPYDVGDRCVVDGVMLLVEEIDLLTTVFLKIDNEKVFYPNS  621
+
+Query  168  EIKM--VTNLTKDS-MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVL--  222
+             +    ++N  +   M   V+         +KI     +I E +  +         V+  
+Sbjct  622  VLISKPISNFYRSPDMGDYVDFGIAFSTPAEKIGCLKGKIGEYLVANSQHWYPEAQVMVR  681
+
+Query  223  GITDMQDSKLVIMV--YAKTQPMQKWAVER-DIRYRVKKMFDQKNISFPYPRTTVIL  276
+             I +M    L I+V      Q   + ++ R  +   +K++ +   I +      V L
+Sbjct  682  AIENMNKLVLNILVQHTINFQVYVEKSLRRTALIIAIKRILEDLEIDYTLLPQDVNL  738
+
+
+> sp|P0AAT5|YBDG_SHIFL Miniconductance mechanosensitive channel 
+YbdG OS=Shigella flexneri OX=623 GN=ybdG PE=3 SV=1
+Length=415
+
+ Score = 58.5 bits (140),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 31/205 (15%), Positives = 71/205 (35%), Gaps = 5/205 (2%)
+
+Query  12   IYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNA  71
+            ++ ++      D+L      +I +     +      +      + P      L  + +  
+Sbjct  86   VFWLQKGTEAADILTTCAQLWIMMYALLSVFS-LLDVILNLAQKFPAASQLPLKGIFQGI  144
+
+Query  72   VRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSV  131
+                   +    I  L       L++  G  +  +    ++ +  +++G  +   D   +
+Sbjct  145  KLIGAILVGILMISLLIGQSPAILISGLGAMAAVLMLVFKDPILGLVAGIQLSANDMLKL  204
+
+Query  132  GDYVTIN--GISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMAVVNIA  187
+            GD++ +   G  G V +IGL   K+R + + +  IP   +      N +  S      I 
+Sbjct  205  GDWLEMPKYGADGAVIDIGLTTVKVRNWDNTITTIPTWSLVSDSFKNWSGMSASGGRRIK  264
+
+Query  188  FPIDEDVDKIIEGLQEICEEVKKSR  212
+              I  DV  I    ++  + + K+ 
+Sbjct  265  RSISIDVTSIRFLDEDEMQRLNKAH  289
+
+
+> sp|P0AAT4|YBDG_ECOLI Miniconductance mechanosensitive channel 
+YbdG OS=Escherichia coli (strain K12) OX=83333 GN=ybdG PE=1 
+SV=1
+Length=415
+
+ Score = 58.5 bits (140),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 31/205 (15%), Positives = 71/205 (35%), Gaps = 5/205 (2%)
+
+Query  12   IYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNA  71
+            ++ ++      D+L      +I +     +      +      + P      L  + +  
+Sbjct  86   VFWLQKGTEAADILTTCAQLWIMMYALLSVFS-LLDVILNLAQKFPAASQLPLKGIFQGI  144
+
+Query  72   VRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSV  131
+                   +    I  L       L++  G  +  +    ++ +  +++G  +   D   +
+Sbjct  145  KLIGAILVGILMISLLIGQSPAILISGLGAMAAVLMLVFKDPILGLVAGIQLSANDMLKL  204
+
+Query  132  GDYVTIN--GISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMAVVNIA  187
+            GD++ +   G  G V +IGL   K+R + + +  IP   +      N +  S      I 
+Sbjct  205  GDWLEMPKYGADGAVIDIGLTTVKVRNWDNTITTIPTWSLVSDSFKNWSGMSASGGRRIK  264
+
+Query  188  FPIDEDVDKIIEGLQEICEEVKKSR  212
+              I  DV  I    ++  + + K+ 
+Sbjct  265  RSISIDVTSIRFLDEDEMQRLNKAH  289
+
+
+> sp|F4IME2|MSL8_ARATH Mechanosensitive ion channel protein 8 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL8 PE=2 SV=2
+Length=908
+
+ Score = 57.0 bits (136),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 31/203 (15%), Positives = 74/203 (36%), Gaps = 11/203 (5%)
+
+Query  85   LKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFE-DQFSVGDYVTINGISGT  143
+            L L  I  + +L       + + F   N VK +      +F    + VGD   I+ +   
+Sbjct  687  LVLLEIASSKVLLFVSSQVVLLAFIFGNTVKTVFESIIFLFIVHPYDVGDRCEIDSVQLV  746
+
+Query  144  VEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDS-MMAVVNIAFPIDEDVDKIIEG  200
+            VEE+ +  T    + +   + PN  +  K + N  +   M   +     I   ++K I  
+Sbjct  747  VEEMNILTTVFLRYDNLKIMYPNSLLWQKSINNYYRSPDMGDAIEFCVHITTPLEK-ISV  805
+
+Query  201  LQEICEEVKKSRDDLIEGPTVLGITDMQD-SKLVIMVYA-----KTQPMQKWAVERDIRY  254
+            +++       ++ +       + + D++D   + + ++           ++W     +  
+Sbjct  806  IKQRISNYIDNKPEYWYPQAKIIVKDLEDLHIVRLAIWPCHRINHQDMAERWTRRAVLVE  865
+
+Query  255  RVKKMFDQKNISFPYPRTTVILS  277
+             V K+  + +I   +    + + 
+Sbjct  866  EVIKILLELDIQHRFYPLDINVR  888
+
+
+> sp|F4IME1|MSL7_ARATH Mechanosensitive ion channel protein 7 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL7 PE=2 SV=1
+Length=849
+
+ Score = 53.1 bits (126),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 35/239 (15%), Positives = 81/239 (34%), Gaps = 13/239 (5%)
+
+Query  50   SKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFG  109
+             +  + L      T  +   + + ++   +     L L  I  +  L       + + F 
+Sbjct  585  ERRALALTLNDTKTAVNKLHHMISFLTAIVIIVIWLILLEIATSKYLLFLTSQVVLLAFM  644
+
+Query  110  AQNLVKDMISGFFIIFE-DQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGE  168
+              N +K +      +F    + VGD + I+ +   VEE+ +  T      +   + PN  
+Sbjct  645  FGNSLKTVFESIIFLFIIHPYDVGDRLLIDTVEMVVEEMNILTTVFLRADNLKIVYPNIL  704
+
+Query  169  I--KMVTNLTKDS-MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGIT  225
+            +  K + N  +   M   V     I    +KI    Q I   +    +       V+ + 
+Sbjct  705  LWQKAIHNYNRSPDMGDEVTCCVHITTPPEKIAAIKQRISSYIDSKPEYWYPKADVI-VK  763
+
+Query  226  DMQDSKLVIMVYAK-------TQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILS  277
+            D++D  + + +              +++     +   V K+  + +I + +    + + 
+Sbjct  764  DVEDLNI-VRIAIWLCHKINHQNMGERFTRRALLIEEVIKILLELDIQYRFHPLDINVK  821
+
+
+> sp|O14050|YEYH_SCHPO Uncharacterized MscS family protein C2C4.17c 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPAC2C4.17c PE=3 SV=1
+Length=840
+
+ Score = 51.6 bits (122),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 35/192 (18%), Positives = 69/192 (36%), Gaps = 7/192 (4%)
+
+Query  75   IIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFED-QFSVGD  133
+            ++  +A  + +   +    ++LA  G   L++ F      ++++S    +F    F + D
+Sbjct  452  VVGIIAVLTFISFLDTSFATILAAFGTTLLSLSFVFSTSAQELMSSIIFLFSKHPFDISD  511
+
+Query  134  YVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIK--MVTNLTKDSMMA-VVNIAFPI  190
+             V +N I   V  + L  T  R         PN  +    + NL +    +  + I  P 
+Sbjct  512  VVIVNNIKYEVVSLSLLFTVFRTMGGSTVQAPNSLLNTLFIENLRRSQPQSETITIVSPF  571
+
+Query  191  DEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQD-SKLVIMV-YAKTQPMQKWAV  248
+              D  K +E L+++     K  +        L ++D      L   V Y      Q  ++
+Sbjct  572  ATDF-KQLERLRDLLLTFVKENERDFRPIIDLNVSDFSTLDSLKFTVTYYYKSNWQNVSL  630
+
+Query  249  ERDIRYRVKKMF  260
+            +   R +     
+Sbjct  631  QCVRRNKFMCAL  642
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22420051964
+Results from round 3
+
+
+Query= Q8R6L9|3t9nC
+
+Length=282
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8R6L9|MSCS_CALS4 Small-conductance mechanosensitive channel...  252     7e-81
+  sp|Q8K9B1|Y437_BUCAP Uncharacterized MscS family protein BUsg_4...  211     7e-65
+  sp|P0C0S3|MSCS_SHIFL Small-conductance mechanosensitive channel...  209     3e-64
+  sp|P0C0S1|MSCS_ECOLI Small-conductance mechanosensitive channel...  209     3e-64
+  sp|P0C0S2|MSCS_ECO57 Small-conductance mechanosensitive channel...  209     3e-64
+  sp|O52401|MSCS_EDWI9 Small-conductance mechanosensitive channel...  202     1e-61
+  sp|Q89AB5|Y402_BUCBP Uncharacterized MscS family protein bbp_40...  201     2e-61
+  sp|P57527|Y452_BUCAI Uncharacterized MscS family protein BU452 ...  199     3e-60
+  sp|Q55717|Y639_SYNY3 Uncharacterized MscS family protein slr063...  196     8e-59
+  sp|O34897|YKUT_BACSU Uncharacterized MscS family protein YkuT O...  191     1e-57
+  sp|P39285|MSCM_ECOLI Miniconductance mechanosensitive channel M...  195     1e-54
+  sp|P0AEB5|YNAI_ECOLI Low conductance mechanosensitive channel Y...  181     1e-52
+  sp|P0AEB6|YNAI_ECO57 Low conductance mechanosensitive channel Y...  181     1e-52
+  sp|Q56X46|MSL2_ARATH Mechanosensitive ion channel protein 2, ch...  183     2e-51
+  sp|O66994|Y812_AQUAE Uncharacterized MscS family protein aq_812...  177     4e-51
+  sp|O28726|Y1546_ARCFU Uncharacterized MscS family protein AF_15...  174     8e-51
+  sp|Q9LPG3|MSL4_ARATH Mechanosensitive ion channel protein 4 OS=...  182     1e-50
+  sp|P77338|MSCK_ECOLI Mechanosensitive channel MscK OS=Escherich...  182     4e-50
+  sp|O07594|YHDY_BACSU Uncharacterized MscS family protein YhdY O...  174     8e-50
+  sp|F4IME2|MSL8_ARATH Mechanosensitive ion channel protein 8 OS=...  177     1e-48
+  sp|Q9LYG9|MSL10_ARATH Mechanosensitive ion channel protein 10 O...  173     1e-47
+  sp|Q57362|Y195A_HAEIN Uncharacterized MscS family protein HI_01...  174     3e-47
+  sp|P0DKS1|MSCS_WIGBR Small-conductance mechanosensitive channel...  164     7e-47
+  sp|T0DVE4|MSCS_HELPX Small-conductance mechanosensitive channel...  164     8e-47
+  sp|Q8L7W1|MSL3_ARATH Mechanosensitive ion channel protein 3, ch...  170     9e-47
+  sp|P75783|YBIO_ECOLI Moderate conductance mechanosensitive chan...  170     1e-46
+  sp|Q9SYM1|MSL6_ARATH Mechanosensitive ion channel protein 6 OS=...  170     3e-46
+  sp|Q57634|MSMJS_METJA Small-conductance mechanosensitive channe...  163     6e-46
+  sp|O35043|YFKC_BACSU Uncharacterized MscS family protein YfkC O...  160     2e-45
+  sp|F4IME1|MSL7_ARATH Mechanosensitive ion channel protein 7 OS=...  167     4e-45
+  sp|Q9ZKG7|Y415_HELPJ Uncharacterized MscS family protein jhp_09...  164     1e-44
+  sp|Q8VZL4|MSL1_ARATH Mechanosensitive ion channel protein 1, mi...  162     1e-44
+  sp|O25170|Y415_HELPY Uncharacterized MscS family protein HP_041...  163     2e-44
+  sp|Q84M97|MSL9_ARATH Mechanosensitive ion channel protein 9 OS=...  163     3e-44
+  sp|Q9LH74|MSL5_ARATH Mechanosensitive ion channel protein 5 OS=...  163     1e-43
+  sp|Q58543|MSMJL_METJA Large-conductance mechanosensitive channe...  157     2e-43
+  sp|P42531|Y1270_CORGL Uncharacterized protein Cgl1270/cg1434 OS...  141     5e-37
+  sp|O74839|YC1B_SCHPO Uncharacterized MscS family protein C1183....  129     2e-31
+  sp|P0AAT5|YBDG_SHIFL Miniconductance mechanosensitive channel Y...  124     5e-31
+  sp|P0AAT4|YBDG_ECOLI Miniconductance mechanosensitive channel Y...  124     5e-31
+  sp|O14050|YEYH_SCHPO Uncharacterized MscS family protein C2C4.1...  120     9e-29
+  sp|Q58111|Y700_METJA Uncharacterized MscS family protein MJ0700...  115     2e-28
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q8R6L9|MSCS_CALS4 Small-conductance mechanosensitive channel 
+OS=Caldanaerobacter subterraneus subsp. tengcongensis (strain 
+DSM 15242 / JCM 11007 / NBRC 100824 / MB4) OX=273068 GN=mscS 
+PE=1 SV=1
+Length=282
+
+ Score = 252 bits (643),  Expect = 7e-81, Method: Composition-based stats.
+ Identities = 282/282 (100%), Positives = 282/282 (100%), Gaps = 0/282 (0%)
+
+Query  1    MWADIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRK  60
+            MWADIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRK
+Sbjct  1    MWADIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRK  60
+
+Query  61   IDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISG  120
+            IDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISG
+Sbjct  61   IDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISG  120
+
+Query  121  FFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSM  180
+            FFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSM
+Sbjct  121  FFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSM  180
+
+Query  181  MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKT  240
+            MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKT
+Sbjct  181  MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKT  240
+
+Query  241  QPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+            QPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN
+Sbjct  241  QPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+
+
+> sp|Q8K9B1|Y437_BUCAP Uncharacterized MscS family protein BUsg_437 
+OS=Buchnera aphidicola subsp. Schizaphis graminum (strain 
+Sg) OX=198804 GN=BUsg_437 PE=3 SV=1
+Length=283
+
+ Score = 211 bits (536),  Expect = 7e-65, Method: Composition-based stats.
+ Identities = 64/283 (23%), Positives = 125/283 (44%), Gaps = 12/283 (4%)
+
+Query  4    DIYHKLVEIYDIKAVKFLLDV-LKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKID  62
+            DI H    +   + + F   + L   II  I   F   +I         ++I + +    
+Sbjct  9    DINHAGNWLIRNQELLFGYVINLTSAIIILISGMFIAKIISNGV-----NQILITRHIDA  63
+
+Query  63   TLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFF  122
+            T+       +RYII      + L    +  TS++A+ G   +AIG   Q  + +  +G  
+Sbjct  64   TIAGFLSALMRYIIITFTLIASLGRIGVQTTSVIAILGAAGMAIGLALQGSLSNFAAGVL  123
+
+Query  123  IIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSM  180
+            ++       G+YV +  ++GTV  I +  T +R     + ++PN +I    + N +++  
+Sbjct  124  LVTLRPLKTGEYVNLGNVAGTVLNIHIFYTTLRTLDGKIVVVPNNKIISGNIINYSREPA  183
+
+Query  181  MA-VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAK  239
+                 +I+   + D+D +I+ L+ + E        + +   V+G++++  S L  ++   
+Sbjct  184  RRNEFSISVSYNTDIDLVIKVLKRVIEN---EDRVMKDRDIVIGLSELAPSSLNFIIRCW  240
+
+Query  240  TQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+            +   +  AV  D+  + KK  D+ NI+ PYP+  V L +K  N
+Sbjct  241  SSTDELNAVYWDLMVKFKKELDKNNINIPYPQIDVHLYKKNKN  283
+
+
+> sp|P0C0S3|MSCS_SHIFL Small-conductance mechanosensitive channel 
+OS=Shigella flexneri OX=623 GN=mscS PE=3 SV=1
+Length=286
+
+ Score = 209 bits (533),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 63/281 (22%), Positives = 121/281 (43%), Gaps = 10/281 (4%)
+
+Query  5    IYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTL  64
+            I      +   +A   LL    + I+A + I     +I R     + +++ + ++   T+
+Sbjct  10   INGAGSWLVANQA---LLLSYAVNIVAALAIIIVGLIIARMIS-NAVNRLMISRKIDATV  65
+
+Query  65   TSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFII  124
+                   VRY I      + L    +   S++AV G   LA+G   Q  + ++ +G  ++
+Sbjct  66   ADFLSALVRYGIIAFTLIAALGRVGVQTASVIAVLGAAGLAVGLALQGSLSNLAAGVLLV  125
+
+Query  125  FEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMA  182
+                F  G+YV + G++GTV  + +  T +R     + +IPNG+I    + N +++ +  
+Sbjct  126  MFRPFRAGEYVDLGGVAGTVLSVQIFSTTMRTADGKIIVIPNGKIIAGNIINFSREPVRR  185
+
+Query  183  -VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQ  241
+                I    D D+D++ + L  I +        L +    + + ++  S +  +V   + 
+Sbjct  186  NEFIIGVAYDSDIDQVKQILTNIIQ---SEDRILKDREMTVRLNELGASSINFVVRVWSN  242
+
+Query  242  PMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+                  V  D+  R+K+ FD   ISFPYP+  V     K +
+Sbjct  243  SGDLQNVYWDVLERIKREFDAAGISFPYPQMDVNFKRVKED  283
+
+
+> sp|P0C0S1|MSCS_ECOLI Small-conductance mechanosensitive channel 
+OS=Escherichia coli (strain K12) OX=83333 GN=mscS PE=1 SV=1
+Length=286
+
+ Score = 209 bits (533),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 63/281 (22%), Positives = 121/281 (43%), Gaps = 10/281 (4%)
+
+Query  5    IYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTL  64
+            I      +   +A   LL    + I+A + I     +I R     + +++ + ++   T+
+Sbjct  10   INGAGSWLVANQA---LLLSYAVNIVAALAIIIVGLIIARMIS-NAVNRLMISRKIDATV  65
+
+Query  65   TSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFII  124
+                   VRY I      + L    +   S++AV G   LA+G   Q  + ++ +G  ++
+Sbjct  66   ADFLSALVRYGIIAFTLIAALGRVGVQTASVIAVLGAAGLAVGLALQGSLSNLAAGVLLV  125
+
+Query  125  FEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMA  182
+                F  G+YV + G++GTV  + +  T +R     + +IPNG+I    + N +++ +  
+Sbjct  126  MFRPFRAGEYVDLGGVAGTVLSVQIFSTTMRTADGKIIVIPNGKIIAGNIINFSREPVRR  185
+
+Query  183  -VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQ  241
+                I    D D+D++ + L  I +        L +    + + ++  S +  +V   + 
+Sbjct  186  NEFIIGVAYDSDIDQVKQILTNIIQ---SEDRILKDREMTVRLNELGASSINFVVRVWSN  242
+
+Query  242  PMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+                  V  D+  R+K+ FD   ISFPYP+  V     K +
+Sbjct  243  SGDLQNVYWDVLERIKREFDAAGISFPYPQMDVNFKRVKED  283
+
+
+> sp|P0C0S2|MSCS_ECO57 Small-conductance mechanosensitive channel 
+OS=Escherichia coli O157:H7 OX=83334 GN=mscS PE=3 SV=1
+Length=286
+
+ Score = 209 bits (533),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 63/281 (22%), Positives = 121/281 (43%), Gaps = 10/281 (4%)
+
+Query  5    IYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTL  64
+            I      +   +A   LL    + I+A + I     +I R     + +++ + ++   T+
+Sbjct  10   INGAGSWLVANQA---LLLSYAVNIVAALAIIIVGLIIARMIS-NAVNRLMISRKIDATV  65
+
+Query  65   TSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFII  124
+                   VRY I      + L    +   S++AV G   LA+G   Q  + ++ +G  ++
+Sbjct  66   ADFLSALVRYGIIAFTLIAALGRVGVQTASVIAVLGAAGLAVGLALQGSLSNLAAGVLLV  125
+
+Query  125  FEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMA  182
+                F  G+YV + G++GTV  + +  T +R     + +IPNG+I    + N +++ +  
+Sbjct  126  MFRPFRAGEYVDLGGVAGTVLSVQIFSTTMRTADGKIIVIPNGKIIAGNIINFSREPVRR  185
+
+Query  183  -VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQ  241
+                I    D D+D++ + L  I +        L +    + + ++  S +  +V   + 
+Sbjct  186  NEFIIGVAYDSDIDQVKQILTNIIQ---SEDRILKDREMTVRLNELGASSINFVVRVWSN  242
+
+Query  242  PMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+                  V  D+  R+K+ FD   ISFPYP+  V     K +
+Sbjct  243  SGDLQNVYWDVLERIKREFDAAGISFPYPQMDVNFKRVKED  283
+
+
+> sp|O52401|MSCS_EDWI9 Small-conductance mechanosensitive channel 
+OS=Edwardsiella ictaluri (strain 93-146) OX=634503 GN=mscS 
+PE=3 SV=1
+Length=286
+
+ Score = 202 bits (515),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 58/279 (21%), Positives = 115/279 (41%), Gaps = 14/279 (5%)
+
+Query  5    IYHKLVEIYDIK--AVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKID  62
+            I      I   +   + + ++++  ++I  IG   A  +     +L     +        
+Sbjct  10   IQSAGGWIVRNQDLLLGYAVNLVAAVVILIIGSLIARGISTTLIRLLKARGL------DV  63
+
+Query  63   TLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFF  122
+            T+       VRY I      + L    +  TS++AV G   LA+G   Q  + +  +G  
+Sbjct  64   TVVHFLAAMVRYAILAFTIIAALGRLGVQTTSVIAVLGAAGLAVGLALQGSLSNFAAGVL  123
+
+Query  123  IIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSM  180
+            ++    F  G+ V + G++GTV E+ +  T +    + + ++PNG+I    + N +++  
+Sbjct  124  LVLFRPFRAGEVVDLGGVTGTVREVQIFSTTLATADNKVIVVPNGKIIAGNIINFSREPK  183
+
+Query  181  MAV-VNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAK  239
+              + + +    D D+D +   L ++   V      L +    + + +M  S L  +V   
+Sbjct  184  RRIDIIVGVAYDADIDVVKRVLGDV---VAADTRILHDDGVTIRLNEMAASSLNFVVRVW  240
+
+Query  240  TQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSE  278
+                  WA+  D+    K+  D  NI  P+P+  V L +
+Sbjct  241  GNNADYWAIYFDLMENFKRALDANNIGIPFPQMDVHLYQ  279
+
+
+> sp|Q89AB5|Y402_BUCBP Uncharacterized MscS family protein bbp_402 
+OS=Buchnera aphidicola subsp. Baizongia pistaciae (strain 
+Bp) OX=224915 GN=bbp_402 PE=3 SV=1
+Length=281
+
+ Score = 201 bits (512),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 72/284 (25%), Positives = 125/284 (44%), Gaps = 20/284 (7%)
+
+Query  4    DIYHKLVEIYDIK-----AVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQ  58
+            DI H    +   +      +  L+  + ILII F   K    LI +           + Q
+Sbjct  9    DINHAGNWLIRNQELLLSYIINLISSIIILIIGFFAAKIISNLINKVL---------ITQ  59
+
+Query  59   RKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMI  118
+            +   T+ +     VRYII   A  + L    +  TS++A+ G   +AIG   Q  + +  
+Sbjct  60   KIDTTIANFLAALVRYIIITFALIASLGCIGVQTTSVIAILGAAGMAIGLALQGSLSNFA  119
+
+Query  119  SGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLT  176
+            +G  ++    F  G+YV +  ISGTV  I +  T  R     + +IPNG+I    + N +
+Sbjct  120  AGVLLVILRPFRTGEYVNLEKISGTVLNIHVFYTTFRTLDGKIVVIPNGKIISGNIINYS  179
+
+Query  177  KDSMMA-VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIM  235
+            ++        I    D D+DK+I+ L+ + +     +  L +   ++G++++  S L  +
+Sbjct  180  REKARRNEFIIGVSYDSDIDKVIKILKNVVKN---EKRVLKDRDIIVGLSELAPSSLNFI  236
+
+Query  236  VYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEK  279
+            V   +       V  D+  + KK  D  NI+ PYP+  + L +K
+Sbjct  237  VRCWSHTDDINIVYWDLMVKFKKALDSNNINIPYPQFDINLKKK  280
+
+
+> sp|P57527|Y452_BUCAI Uncharacterized MscS family protein BU452 
+OS=Buchnera aphidicola subsp. Acyrthosiphon pisum (strain 
+APS) OX=107806 GN=BU452 PE=3 SV=1
+Length=305
+
+ Score = 199 bits (507),  Expect = 3e-60, Method: Composition-based stats.
+ Identities = 56/282 (20%), Positives = 126/282 (45%), Gaps = 14/282 (5%)
+
+Query  4    DIYHKLVEIYDIK--AVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKI  61
+            +I H    +   +   +++ +++   +II  +G+  +  +     ++       + +   
+Sbjct  33   NINHAGTWLIRNQELLLRYTINLTSAIIILVVGMFISKIISNGANQVL------ITRNID  86
+
+Query  62   DTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGF  121
+             T+       +RYII      + L    +  TS++A+ G   +AIG   Q  + +  +G 
+Sbjct  87   ATIAGFLSALMRYIIITFTFIAALGRIGVQTTSVIAILGAAGMAIGLALQGSLSNFAAGV  146
+
+Query  122  FIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDS  179
+             ++        +YV +  +SGTV  I +  T +R     + ++PN +I    + N +++ 
+Sbjct  147  LLVTLRPLKTEEYVDLGSVSGTVLNIHIFYTTLRTLDGKIVVVPNNKIISGNIINYSREP  206
+
+Query  180  MMA-VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYA  238
+                   I+   + D+D +I+ L+ + E   K    + +   ++G++++  S L  +V  
+Sbjct  207  ARRNEFIISVSYNSDIDLVIKILRSVIE---KEERVIKDKDIIVGLSELAPSSLNFIVRC  263
+
+Query  239  KTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKK  280
+             ++      V  D+  + KK  D+ NI+ P+P+  V + +KK
+Sbjct  264  WSKNHDLNTVYWDLMAKFKKELDKNNINIPFPQLDVHVYKKK  305
+
+
+> sp|Q55717|Y639_SYNY3 Uncharacterized MscS family protein slr0639 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=slr0639 PE=3 SV=1
+Length=296
+
+ Score = 196 bits (497),  Expect = 8e-59, Method: Composition-based stats.
+ Identities = 65/270 (24%), Positives = 119/270 (44%), Gaps = 15/270 (6%)
+
+Query  15   IKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRY  74
+            I A   +L  L IL+I F   K    LI R  +               T  S   N   Y
+Sbjct  31   ITASLKILFALAILLIGFWLSKRLQKLIIRALR---------KSNLEPTFISFAGNISYY  81
+
+Query  75   IIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDY  134
+            ++  +     L    I  +SL+A+ G  +LAIG   Q  + ++  G  ++  + F VG+ 
+Sbjct  82   LLLVVFFVLCLAQLGIQTSSLVALLGASTLAIGLALQGSLANVAGGILLVLFNYFRVGER  141
+
+Query  135  VTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI---KMVTNLTKDSMMAVVNIAFPID  191
+            + + GI G VE I +  T I  + + L  IPN +I    ++ ++ K      + I    +
+Sbjct  142  IEVAGIEGIVESIEILSTTICTYDNRLVTIPNKQIIENNIINHVGKPERRIDLVIGVGYE  201
+
+Query  192  EDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERD  251
+            ED+D +   LQ + +   ++ +   E    + + ++ DS +   V    +    + ++  
+Sbjct  202  EDIDHVRSSLQWVID---QNSEVCTEPAPTIALGELGDSSVNFYVRPWVKSEDYFRLKLQ  258
+
+Query  252  IRYRVKKMFDQKNISFPYPRTTVILSEKKT  281
+            +   +K+  D++NIS P+P+  V L + +T
+Sbjct  259  LTEAIKRKLDEENISIPFPQRDVHLIQPET  288
+
+
+> sp|O34897|YKUT_BACSU Uncharacterized MscS family protein YkuT 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=ykuT PE=2 SV=2
+Length=267
+
+ Score = 191 bits (486),  Expect = 1e-57, Method: Composition-based stats.
+ Identities = 101/257 (39%), Positives = 156/257 (61%), Gaps = 10/257 (4%)
+
+Query  17   AVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYII  76
+             +K  + +L   I+  +G+K    L  +F +  S     L   +  TL SLT N   Y +
+Sbjct  20   LIKLAIMILLYFIVRSLGMKIIKHLFAKFEEQNS-----LSIGRAHTLRSLTLNIFAYTL  74
+
+Query  77   YFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVT  136
+             F+    +L LF+ D ++LLA AGI  LA+GFGAQ LV D+++GFFI+ E Q  VGDY+T
+Sbjct  75   IFIFFVMVLDLFHYDPSALLAGAGIVGLAVGFGAQGLVSDIVTGFFILLEKQLDVGDYIT  134
+
+Query  137  INGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAVVNIAFPIDEDVDK  196
+            ++   G VE++GLR T+IR F   LH IPN  I  V+N ++ +M A+V+I  P + ++D+
+Sbjct  135  VSTFDGIVEQVGLRTTQIRSFDGTLHYIPNRNITNVSNHSRGTMQALVDIKVPAERNIDE  194
+
+Query  197  IIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRV  256
+            +I  LQ++C+E   +   + EGP V+GI ++  S++VI V AKT+ M++W VER +R  +
+Sbjct  195  MIHILQQVCDETAAALPQIKEGPNVIGIQELGTSEIVIRVIAKTENMEQWRVERVLRKEI  254
+
+Query  257  KKMFDQKNISFPYPRTT  273
+            K  FD+      +P+ T
+Sbjct  255  KNAFDR-----AFPKET  266
+
+
+> sp|P39285|MSCM_ECOLI Miniconductance mechanosensitive channel 
+MscM OS=Escherichia coli (strain K12) OX=83333 GN=mscM PE=1 
+SV=3
+Length=1107
+
+ Score = 195 bits (496),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 55/293 (19%), Positives = 115/293 (39%), Gaps = 15/293 (5%)
+
+Query  1     MWADIYHKL-----VEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQ  55
+             +W++I+        + ++D+ +    ++ L+ + +  + I    F+I         + ++
+Sbjct  797   LWSEIHSAFGFLENISLWDVTSTVQGVESLEPITLGAVLIAILVFIITTQLVRNLPALLE  856
+
+Query  56    LPQRKIDTLTSLTKN----AVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQ  111
+             L   +   LT  T        +Y++  + G     +  I+ + L  +     + +GFG Q
+Sbjct  857   LAILQHLDLTPGTGYAITTITKYLLMLIGGLVGFSMIGIEWSKLQWLVAALGVGLGFGLQ  916
+
+Query  112   NLVKDMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--  169
+              +  + ISG  I+FE    +GD VTI  ++G+V +I  R T I  +     I+PN     
+Sbjct  917   EIFANFISGLIILFEKPIRIGDTVTIRDLTGSVTKINTRATTISDWDRKEIIVPNKAFIT  976
+
+Query  170   KMVTNL--TKDSMMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDM  227
+             +   N   +      V+ I  P D + +++ E L           D+      ++ +   
+Sbjct  977   EQFINWSLSDSVTRVVLTIPAPADANSEEVTEILLTAARRCSLVIDNPAPEVFLVDLQQ-  1035
+
+Query  228   QDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKK  280
+                   + +YA  +   +  +  +I   +   F    I  P+P   + L    
+Sbjct  1036  GIQIFELRIYA-AEMGHRMPLRHEIHQLILAGFHAHGIDMPFPPFQMRLESLN  1087
+
+
+> sp|P0AEB5|YNAI_ECOLI Low conductance mechanosensitive channel 
+YnaI OS=Escherichia coli (strain K12) OX=83333 GN=ynaI PE=1 
+SV=1
+Length=343
+
+ Score = 181 bits (458),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 66/282 (23%), Positives = 121/282 (43%), Gaps = 14/282 (5%)
+
+Query  5    IYHKLVEIYDIKAVKFL-LDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDT  63
+            I + ++E Y +K +    +D +   +IA I       LI +F K       Q+ + +  T
+Sbjct  60   IINYVIENYKLKFITPGVIDFICTSLIAVILTIKLFLLINQFEK------QQIKKGRDIT  113
+
+Query  64   LTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFI  123
+               +    ++  I  +      + F + ++ LL   GIG LA+G   ++++ +  SG  +
+Sbjct  114  SARIMSRIIKITIIVVLVLLYGEHFGMSLSGLLTFGGIGGLAVGMAGKDILSNFFSGIML  173
+
+Query  124  IFEDQFSVGDYVTI--NGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMV--TNLTKDS  179
+             F+  FS+GD++      I GTV EIG R+TKI  F +    +PN     +   N  + +
+Sbjct  174  YFDRPFSIGDWIRSPDRNIEGTVAEIGWRITKITTFDNRPLYVPNSLFSSISVENPGRMT  233
+
+Query  180  MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYA-  238
+               +        ED  K+   ++ + E +K           ++      DS L IMVY  
+Sbjct  234  NRRITTTIGLRYEDAAKVGVIVEAVREMLKNHPAIDQRQTLLVYFNQFADSSLNIMVYCF  293
+
+Query  239  -KTQPMQKW-AVERDIRYRVKKMFDQKNISFPYPRTTVILSE  278
+             KT    +W A ++D+  ++  +       F +P  T+ +  
+Sbjct  294  TKTTVWAEWLAAQQDVYLKIIDIVQSHGADFAFPSQTLYMDN  335
+
+
+> sp|P0AEB6|YNAI_ECO57 Low conductance mechanosensitive channel 
+YnaI OS=Escherichia coli O157:H7 OX=83334 GN=ynaI PE=3 SV=1
+Length=343
+
+ Score = 181 bits (458),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 66/282 (23%), Positives = 121/282 (43%), Gaps = 14/282 (5%)
+
+Query  5    IYHKLVEIYDIKAVKFL-LDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDT  63
+            I + ++E Y +K +    +D +   +IA I       LI +F K       Q+ + +  T
+Sbjct  60   IINYVIENYKLKFITPGVIDFICTSLIAVILTIKLFLLINQFEK------QQIKKGRDIT  113
+
+Query  64   LTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFI  123
+               +    ++  I  +      + F + ++ LL   GIG LA+G   ++++ +  SG  +
+Sbjct  114  SARIMSRIIKITIIVVLVLLYGEHFGMSLSGLLTFGGIGGLAVGMAGKDILSNFFSGIML  173
+
+Query  124  IFEDQFSVGDYVTI--NGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMV--TNLTKDS  179
+             F+  FS+GD++      I GTV EIG R+TKI  F +    +PN     +   N  + +
+Sbjct  174  YFDRPFSIGDWIRSPDRNIEGTVAEIGWRITKITTFDNRPLYVPNSLFSSISVENPGRMT  233
+
+Query  180  MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYA-  238
+               +        ED  K+   ++ + E +K           ++      DS L IMVY  
+Sbjct  234  NRRITTTIGLRYEDAAKVGVIVEAVREMLKNHPAIDQRQTLLVYFNQFADSSLNIMVYCF  293
+
+Query  239  -KTQPMQKW-AVERDIRYRVKKMFDQKNISFPYPRTTVILSE  278
+             KT    +W A ++D+  ++  +       F +P  T+ +  
+Sbjct  294  TKTTVWAEWLAAQQDVYLKIIDIVQSHGADFAFPSQTLYMDN  335
+
+
+> sp|Q56X46|MSL2_ARATH Mechanosensitive ion channel protein 2, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=MSL2 PE=2 SV=1
+Length=673
+
+ Score = 183 bits (465),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 52/279 (19%), Positives = 108/279 (39%), Gaps = 15/279 (5%)
+
+Query  17   AVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYII  76
+                LL+ ++ L            LI +  KL+S++      R +         A+   +
+Sbjct  188  VKDRLLNFVRSLSTVLAFAYCLSSLIQQTQKLFSETSNPSDTRNMG--FQFAGKALYSAV  245
+
+Query  77   YFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVT  136
+            +  A +  ++L        L   G+G++ I    + ++ + +S   I     F + +++ 
+Sbjct  246  WVAAVSLFMELLGFSTQKWLTAGGLGTVLITLAGREILTNFLSSVMIHATRPFVLNEWIQ  305
+
+Query  137  IN----GISGTVEEIGLRV-TKIRGFSDGLHIIPNGE--IKMVTNLTKDSMMAVVNIAFP  189
+                   +SGTVE +G    T IRG       IPN +  + +V NLT+ +   +      
+Sbjct  306  TKIEGYEVSGTVEHVGWWSPTIIRGEDREAIHIPNHKFTVNVVRNLTQKTHWRIKTHLAI  365
+
+Query  190  IDEDVDKIIEGLQEICEEVKKSR---DDLIEGPTVLG--ITDMQDSKLVIMVYAKTQPMQ  244
+               DV+KI   + ++ + + K+       +     L   I + Q   ++I  + KT   +
+Sbjct  366  SHLDVNKINNIVADMRKVLAKNPMVEQQRLHRRVFLENVIPENQALSILISCFVKTSHHE  425
+
+Query  245  KWA-VERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+            ++  V+  I   + ++          P  T+     +T+
+Sbjct  426  EYLGVKEAILLDLLRVISHHRARLATPIRTIRKMYTETD  464
+
+
+> sp|O66994|Y812_AQUAE Uncharacterized MscS family protein aq_812 
+OS=Aquifex aeolicus (strain VF5) OX=224324 GN=aq_812 PE=3 
+SV=1
+Length=368
+
+ Score = 177 bits (450),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 62/270 (23%), Positives = 128/270 (47%), Gaps = 9/270 (3%)
+
+Query  19   KFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYF  78
+               L    +LI+ +  I+F +    +  + + K      +   + +       ++  +  
+Sbjct  102  DKFLKTFSLLILGWAIIRFLNLFHNKIVEFFVKVGG---KDFAEEVGDFILKILKAFVVV  158
+
+Query  79   LAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTIN  138
+            + GAS+L+ + +++ ++LA  G+  LA+   A++  ++++SG  I+ +    VG+ V + 
+Sbjct  159  IVGASLLQEWGVNIGAILASVGLLGLAVSLAAKDTFENILSGLIILLDKPVKVGETVKVK  218
+
+Query  139  GISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSMMAV-VNIAFPIDEDVD  195
+               G+VE+IGLR TKIR F   L  IPN +I    V N T+ +   V   I        +
+Sbjct  219  DFMGSVEDIGLRSTKIRTFDKSLVTIPNRDIVNNHVENFTRRNKRRVRFYIGVVYSTKRE  278
+
+Query  196  KIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMV--YAKTQPMQKW-AVERDI  252
+            ++   L+EI E +K+      +    +   +  DS L I++  YA T   +++  +  DI
+Sbjct  279  QLENILKEIRELLKEHPGVAKDEKFYVYFENYGDSSLNILIQYYANTNDYEEYLKIIEDI  338
+
+Query  253  RYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+              ++ ++ ++   SF +P  +V + +   +
+Sbjct  339  NLKIMEIVEKNGSSFAFPSRSVYIEKMPKS  368
+
+
+> sp|O28726|Y1546_ARCFU Uncharacterized MscS family protein AF_1546 
+OS=Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / 
+DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 GN=AF_1546 PE=3 
+SV=1
+Length=283
+
+ Score = 174 bits (442),  Expect = 8e-51, Method: Composition-based stats.
+ Identities = 50/243 (21%), Positives = 112/243 (46%), Gaps = 4/243 (2%)
+
+Query  38   ADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLA  97
+               +I +      +  +    ++      L    + + I  +A  ++L    +D++ LL 
+Sbjct  30   LATIIAKLITTNLRRALIDKMKRDQ--LELMLKVIYFGIIIVAFIAVLPALGLDLSGLLV  87
+
+Query  98   VAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGF  157
+              GI  + +GF +Q++V +++SG F+I E    +GD V I+G++G VE++ +  T IR +
+Sbjct  88   AGGITGIVLGFASQSVVANLVSGIFLISEKPIKIGDQVNIDGVAGFVEDVNILSTIIRTY  147
+
+Query  158  SDGLHIIPNGEIKMVTNLTKDSMMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIE  217
+                  IPN ++   +N+T           + +        E   EI + + +     ++
+Sbjct  148  DGLYVRIPNEKV-FTSNITNYVAHIARRFEYVVGIRYSDDAEKAIEIIKRIIEEHPFALK  206
+
+Query  218  GP-TVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVIL  276
+             P  V+ + ++ DS + I+V       + + V+ ++ +++K   ++  I  P+P+  V  
+Sbjct  207  NPEPVVFVDNLGDSSVNIVVRIWAPSTEWYNVKMELLWKIKTELEKNGIEIPFPQRVVWF  266
+
+Query  277  SEK  279
+            + +
+Sbjct  267  ANE  269
+
+
+> sp|Q9LPG3|MSL4_ARATH Mechanosensitive ion channel protein 4 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL4 PE=3 SV=1
+Length=881
+
+ Score = 182 bits (463),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 37/243 (15%), Positives = 77/243 (32%), Gaps = 9/243 (4%)
+
+Query  47   KLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAI  106
+                +  + L      T  +     V  ++  +     L +  I  T  L V     L +
+Sbjct  619  AFRERRALALTLNDTKTAVNRLHRIVDVLVSIVILIIWLLILGIATTKFLLVISSQLLLV  678
+
+Query  107  GFGAQNLVKDMISGFFIIF-EDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIP  165
+             F   N  K +      +F    F VGD   I+G+   VEE+ +  T    F +   + P
+Sbjct  679  VFVFGNSCKTIFEAVIFVFVMHPFDVGDRCEIDGVQMIVEEMNILTTVFLRFDNQKIVYP  738
+
+Query  166  NGEIKM--VTNLTKDS-MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVL  222
+            N  +    + N  +   M   +     I    +K     Q I   V   +D     P ++
+Sbjct  739  NSLLGTKPIANYYRSPDMQDAIEFFVHIATPPEKTTALRQRILSYVDNKKDHWHPSPMIV  798
+
+Query  223  GITDMQDSKLVIMVYAK-----TQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILS  277
+                   + + I ++           +++     +   + ++  + +I +      + + 
+Sbjct  799  FRDMCGLNSVKIAMWPTHKMNHQNMGERYVRRGQLLEEIGRLCRELDIEYRLYPLNINVK  858
+
+Query  278  EKK  280
+               
+Sbjct  859  SLP  861
+
+
+> sp|P77338|MSCK_ECOLI Mechanosensitive channel MscK OS=Escherichia 
+coli (strain K12) OX=83333 GN=mscK PE=1 SV=1
+Length=1120
+
+ Score = 182 bits (463),  Expect = 4e-50, Method: Composition-based stats.
+ Identities = 56/281 (20%), Positives = 115/281 (41%), Gaps = 18/281 (6%)
+
+Query  8     KLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSL  67
+                 +     +  LL  +   ++A+  I+    L     ++   S++ + Q     +T+ 
+Sbjct  833   AGAAVVKNVTMGSLLFAIIASMVAWALIRNLPGL----LEVLVLSRLNMRQGASYAITT-  887
+
+Query  68    TKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFED  127
+                 + YII  +   ++     +    L  +A   S+ +GFG Q +  + +SG  I+FE 
+Sbjct  888   ---ILNYIIIAVGAMTVFGSLGVSWDKLQWLAAALSVGLGFGLQEIFGNFVSGLIILFER  944
+
+Query  128   QFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKM--VTNL--TKDSMMAV  183
+                +GD VTI   SGTV +I +R T I  F     IIPN       + N   T  +   V
+Sbjct  945   PVRIGDTVTIGSFSGTVSKIRIRATTITDFDRKEVIIPNKAFVTERLINWSLTDTTTRLV  1004
+
+Query  184   VNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKL--VIMVYAKTQ  241
+             + +      D++K+ + L +   E  +   + +     +  T    S L   + +Y + +
+Sbjct  1005  IRLGVAYGSDLEKVRKVLLKAATEHPRVMHEPMPE---VFFTAFGASTLDHELRLYVR-E  1060
+
+Query  242   PMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+                +     ++   + ++  + +I+  + +  V L  +K +
+Sbjct  1061  LRDRSRTVDELNRTIDQLCRENDINIAFNQLEVHLHNEKGD  1101
+
+
+> sp|O07594|YHDY_BACSU Uncharacterized MscS family protein YhdY 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=yhdY PE=3 SV=1
+Length=371
+
+ Score = 174 bits (441),  Expect = 8e-50, Method: Composition-based stats.
+ Identities = 56/263 (21%), Positives = 111/263 (42%), Gaps = 10/263 (4%)
+
+Query  26   KILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASIL  85
+             I+ +   G      L      ++ K   +      D L       +R++I  L+ + I 
+Sbjct  98   LIVALLCWG---LCNLTATSSFIFHKVNQRFELDMDDILAPFLSKLLRFVIIALSVSVIA  154
+
+Query  86   KLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGISGTVE  145
+            + FN D+   +A  G+G LA    A++ + +   G  II E  F++GD+V  + ++G+VE
+Sbjct  155  QEFNYDVNGFVAGLGLGGLAFALAAKDTISNFFGGIIIITEKPFTIGDWVETSTVTGSVE  214
+
+Query  146  EIGLRVTKIRGFSDGLHIIPNGEIKM--VTNLTKDSMM-AVVNIAFPIDEDVDKIIEGLQ  202
+            +I  R T+ R     L  +PN  + M  +TN T+ +      +I       ++ +   + 
+Sbjct  215  DITFRSTRFRTAQGALVTVPNSTLSMEAITNWTRMTKRQITFSIHVSYATPIENLERSIH  274
+
+Query  203  EICEEVKKSRDDLIEGPTVLGITDMQDS--KLVIMVYAKTQPMQKW-AVERDIRYRVKKM  259
+             +   +    + +     ++      DS   L    Y KT    +   +  DI Y++ ++
+Sbjct  275  SLRTMLL-EHEGVDNEIIMVNFDTFADSYYNLFFNFYTKTTVWAENLNIREDINYKIIEI  333
+
+Query  260  FDQKNISFPYPRTTVILSEKKTN  282
+               + + F YP   V++ +K  +
+Sbjct  334  LGAEGVQFAYPGQMVVVKQKHES  356
+
+
+> sp|F4IME2|MSL8_ARATH Mechanosensitive ion channel protein 8 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL8 PE=2 SV=2
+Length=908
+
+ Score = 177 bits (450),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 34/244 (14%), Positives = 78/244 (32%), Gaps = 9/244 (4%)
+
+Query  47   KLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAI  106
+                +  + L      T  +   + +  +   +     L L  I  + +L       + +
+Sbjct  649  AFRERRALALTLNDTKTAVNKLHHMINIVTAIVIVVIWLVLLEIASSKVLLFVSSQVVLL  708
+
+Query  107  GFGAQNLVKDMISGFFIIFE-DQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIP  165
+             F   N VK +      +F    + VGD   I+ +   VEE+ +  T    + +   + P
+Sbjct  709  AFIFGNTVKTVFESIIFLFIVHPYDVGDRCEIDSVQLVVEEMNILTTVFLRYDNLKIMYP  768
+
+Query  166  NGEI--KMVTNLTKDS-MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVL  222
+            N  +  K + N  +   M   +     I   ++KI    Q I   +    +       ++
+Sbjct  769  NSLLWQKSINNYYRSPDMGDAIEFCVHITTPLEKISVIKQRISNYIDNKPEYWYPQAKII  828
+
+Query  223  GITDMQDSKLVIMVYA-----KTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILS  277
+                     + + ++           ++W     +   V K+  + +I   +    + + 
+Sbjct  829  VKDLEDLHIVRLAIWPCHRINHQDMAERWTRRAVLVEEVIKILLELDIQHRFYPLDINVR  888
+
+Query  278  EKKT  281
+               T
+Sbjct  889  TMPT  892
+
+
+> sp|Q9LYG9|MSL10_ARATH Mechanosensitive ion channel protein 10 
+OS=Arabidopsis thaliana OX=3702 GN=MSL10 PE=1 SV=1
+Length=734
+
+ Score = 173 bits (438),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 38/246 (15%), Positives = 83/246 (34%), Gaps = 19/246 (8%)
+
+Query  49   YSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGF  108
+             S+  +        T        V  I+  +     L L  +  T +L       +A+ F
+Sbjct  494  TSRRALAHSLNDTKTAVKQLNKLVTAILMVVTVVIWLLLLEVATTKVLLFFSTQLVALAF  553
+
+Query  109  GAQNLVKDMISGFFIIF-EDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNG  167
+               +  K++      +F    + VGD   ++G++  VEE+ L  T     ++     PN 
+Sbjct  554  IIGSTCKNLFESIVFVFVMHPYDVGDRCVVDGVAMLVEEMNLLTTVFLKLNNEKVYYPNA  613
+
+Query  168  EIKM--VTNLTKDS-MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIE-------  217
+             +    ++N  +   M   V  +      V KI    + I E ++++             
+Sbjct  614  VLATKPISNYFRSPNMGETVEFSISFSTPVSKIAHLKERIAEYLEQNPQHWAPVHSVVVK  673
+
+Query  218  ---GPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTV  274
+                   L +    D  +        +  ++     ++   +K+M +  +I +      +
+Sbjct  674  EIENMNKLKMALYSDHTITF-----QENRERNLRRTELSLAIKRMLEDLHIDYTLLPQDI  728
+
+Query  275  ILSEKK  280
+             L++K 
+Sbjct  729  NLTKKN  734
+
+
+> sp|Q57362|Y195A_HAEIN Uncharacterized MscS family protein HI_0195.1 
+OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 
+/ KW20 / Rd) OX=71421 GN=HI_0195.1 PE=1 SV=1
+Length=1111
+
+ Score = 174 bits (442),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 60/267 (22%), Positives = 108/267 (40%), Gaps = 16/267 (6%)
+
+Query  20    FLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFL  79
+              LL  L I+ I ++ ++    +     ++   S++ L Q    T+T+L      YI   +
+Sbjct  845   NLLVALVIVGITYVLVRNISGI----LEVLIFSRVNLSQGTPYTITTLL----TYIFIAI  896
+
+Query  80    AGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTING  139
+              GA       +  + L  +    S+ +GFG Q +  + +SG  ++FE    VGD VTIN 
+Sbjct  897   GGAWAFATLGMSWSKLQWLFAALSVGLGFGMQEIFANFVSGIILLFERPIRVGDVVTINE  956
+
+Query  140   ISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNL--TKDSMMAVVNIAFPIDEDVD  195
+             +SGTV +I +R   +  F     I+PN       VTN   +      V+++      D+ 
+Sbjct  957   VSGTVAKIRIRAITLIDFDRKEVIVPNKSFVTGQVTNWALSNTMTRLVISVGVAYGSDLT  1016
+
+Query  196   KIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKT-QPMQKWAVERDIRY  254
+              + + L +  +E      D       L       S L   +     Q   + +    +  
+Sbjct  1017  LVRQLLLQAADEQPTILRDPKPSAYFL---TFGASTLDHELRVYVEQVGDRTSTTDALNR  1073
+
+Query  255   RVKKMFDQKNISFPYPRTTVILSEKKT  281
+             R+ ++F + NI   + +  V +    T
+Sbjct  1074  RINELFAEHNIDIAFNQLDVFIKNNDT  1100
+
+
+> sp|P0DKS1|MSCS_WIGBR Small-conductance mechanosensitive channel 
+OS=Wigglesworthia glossinidia brevipalpis OX=36870 GN=mscS 
+PE=3 SV=1
+Length=280
+
+ Score = 164 bits (414),  Expect = 7e-47, Method: Composition-based stats.
+ Identities = 59/287 (21%), Positives = 116/287 (40%), Gaps = 16/287 (6%)
+
+Query  1    MWADIYHKLVEI-----YDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQ  55
+            ++ +I +    I       IK +  ++  L ILI+ +   K    +I  F          
+Sbjct  3    IYKEIDNASNWISDNHILFIKYISNIILSLIILIVGYSASKVTQKIIKNFM---------  53
+
+Query  56   LPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVK  115
+            + +     ++    + ++Y I      + L    I  TS++AV G   +AIG   Q  + 
+Sbjct  54   IKKNIDIIISEFFCSIIKYSILIFTIVTSLGCIGIQTTSIIAVIGAAGIAIGLALQGSLS  113
+
+Query  116  DMISGFFIIFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNL  175
+            +  +G  ++    F  GDYV + G+ G ++ + +  TKI+     + II      + +N+
+Sbjct  114  NFAAGVLLVTLRYFRTGDYVNLCGVKGKIKTVQIFCTKIKTKDGKIIII-PNNKIISSNI  172
+
+Query  176  TKDSMMAVVNIAFPIDEDVDKIIEGLQE-ICEEVKKSRDDLIEGPTVLGITDMQDSKLVI  234
+               S      +   I  +    I+ ++E I + +KK    + E    + + ++ +S L  
+Sbjct  173  INYSEELHRLMEVIISTEYTSDIKNVKEIIIDVLKKETRIVKEKKITVRLKNLGESSLDF  232
+
+Query  235  MVYAKTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKT  281
+            +V       +      DI  ++K   D+  I+ PY +  V L   K 
+Sbjct  233  LVRGWVYKKELKQTTSDILEKIKIELDKNKINIPYKQIDVNLKYSKE  279
+
+
+> sp|T0DVE4|MSCS_HELPX Small-conductance mechanosensitive channel 
+OS=Helicobacter pylori OX=210 GN=mscS PE=1 SV=1
+Length=274
+
+ Score = 164 bits (414),  Expect = 8e-47, Method: Composition-based stats.
+ Identities = 55/283 (19%), Positives = 118/283 (42%), Gaps = 15/283 (5%)
+
+Query  4    DIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDT  63
+            D    L+  +  +A  F + ++K +I+  IG  F+ FL  +  KL SK        K + 
+Sbjct  2    DEIKTLLVDFFPQAKHFGIILIKAVIVFCIGFYFSFFLRNKTMKLLSK--------KDEI  53
+
+Query  64   LTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFI  123
+            L +        +I  +     L    +  TS++ V G   +A+    ++ +  +  G  +
+Sbjct  54   LANFVAQVTFILILIITTIIALSTLGVQTTSIITVLGTVGIAVALALKDYLSSIAGGIIL  113
+
+Query  124  IFEDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSM---  180
+            I    F  GD + I+G+ G VE +    T +R     L ++PN  +     +  ++    
+Sbjct  114  IILHPFKKGDIIEISGLEGKVEALNFFNTSLRLHDGRLAVLPNRSVANSNIINSNNTACR  173
+
+Query  181  MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKT  240
+                        D++ + + ++++ + ++K   ++   PT +GITD   S L   +    
+Sbjct  174  RIEWVCGVGYGSDIELVHKTIKDVIDTMEKIDKNM---PTFIGITDFGSSSLNFTIRVWA  230
+
+Query  241  QPMQ-KWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKTN  282
+            +     + V  ++  R+K   D  +I  P+ +  + +  + ++
+Sbjct  231  KIEDGIFNVRSELIERIKNALDANHIEIPFNKLDIAIKNQDSS  273
+
+
+> sp|Q8L7W1|MSL3_ARATH Mechanosensitive ion channel protein 3, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=MSL3 PE=1 SV=1
+Length=678
+
+ Score = 170 bits (431),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 46/277 (17%), Positives = 101/277 (36%), Gaps = 15/277 (5%)
+
+Query  17   AVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYII  76
+              + LL   + +            L+ +  K + ++      R +    S    AV    
+Sbjct  190  IKQRLLIFARSISTVLAFSCCLSSLLQQVQKFFMETNNPADTRNMG--FSFAGKAVYTAA  247
+
+Query  77   YFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVT  136
+            +  A +  ++L        L   G+G++ +    + ++ + +S   I     F + +++ 
+Sbjct  248  WVAAASLFMELLGFSTQKWLTAGGLGTVLLTLAGREILTNFLSSIMIHATRPFVLNEWIQ  307
+
+Query  137  IN----GISGTVEEIGLRV-TKIRGFSDGLHIIPNG--EIKMVTNLTKDSMMAVVNIAFP  189
+                   +SGTVE++G    T IRG       IPN    + +V NLT+ +   +      
+Sbjct  308  TKIGGYEVSGTVEQVGWWSPTIIRGDDREAVHIPNHQFSVNIVRNLTQKTHWRIKTHLAI  367
+
+Query  190  IDEDVDKIIEGLQEICEEVKKSRDDLIEGPT-VLGITDMQDSK----LVIMVYAKTQPMQ  244
+               DV KI   + ++ + + K+     +     + + D+        ++I  + KT   +
+Sbjct  368  SHLDVSKINNIVADMRKVLSKNPQIEQQKIHRRVFLEDIDPENQALRILISCFVKTSRFE  427
+
+Query  245  KWA-VERDIRYRVKKMFDQKNISFPYPRTTVILSEKK  280
+            ++  V+  +   +  +          P  TV     +
+Sbjct  428  EYLCVKEAVLLDLLTVIRHHGARLATPIRTVQRMRNE  464
+
+
+> sp|P75783|YBIO_ECOLI Moderate conductance mechanosensitive channel 
+YbiO OS=Escherichia coli (strain K12) OX=83333 GN=ybiO 
+PE=1 SV=2
+Length=741
+
+ Score = 170 bits (431),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 80/262 (31%), Positives = 124/262 (47%), Gaps = 4/262 (2%)
+
+Query  16   KAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYI  75
+            K V  L+ +  IL  + +G      LI          +  LP  +  TL +L +NA+  I
+Sbjct  462  KTVDILIRIALILFFSAVGWTVLASLIENRLASDIHGR-PLPSARTRTLLTLFRNALAVI  520
+
+Query  76   IYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYV  135
+            I  +    +L    +++  LLA AG   LAI FG+Q LVKD+I+G FI FE+  + GD V
+Sbjct  521  ISTITIMIVLSEIGVNIAPLLAGAGALGLAISFGSQTLVKDIITGVFIQFENGMNTGDLV  580
+
+Query  136  TINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAVVNIAFPIDEDVD  195
+            TI  ++GTVE + +R   +R  +   HIIP   I    N  +     V N      ED D
+Sbjct  581  TIGPLTGTVERMSIRSVGVRQDTGAYHIIPWSSITTFANFVRGIGSVVANYDVDRHEDAD  640
+
+Query  196  KIIEGLQEICEEVKKSRDD---LIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDI  252
+            K  + L++   E+ ++ +    +I  P   GI  + ++   + V   T P+++W V   +
+Sbjct  641  KANQALKDAVAELMENEEIRGLIIGEPNFAGIVGLSNTAFTLRVSFTTLPLKQWTVRFAL  700
+
+Query  253  RYRVKKMFDQKNISFPYPRTTV  274
+              +VKK FD   +  P     V
+Sbjct  701  DSQVKKHFDLAGVRAPVQTYQV  722
+
+
+> sp|Q9SYM1|MSL6_ARATH Mechanosensitive ion channel protein 6 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL6 PE=1 SV=1
+Length=856
+
+ Score = 170 bits (431),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 44/245 (18%), Positives = 86/245 (35%), Gaps = 9/245 (4%)
+
+Query  47   KLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAI  106
+                +  + L      T  +     V  ++  +     L +  I  T  L V     + +
+Sbjct  591  AFRERRALALTLNDTKTAVNRLHKMVNIVVGIIILVIWLIILGITSTKFLVVMSSQVVVV  650
+
+Query  107  GFGAQNLVKDMISGFFIIF-EDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIP  165
+             F   N+ K +      +F    F VGD   I+G+   VEE+ +  T    F +   + P
+Sbjct  651  AFIFGNMCKIVFESIIYLFVIHPFDVGDRCEIDGVQMVVEEMNILTTVFLRFDNQKVVYP  710
+
+Query  166  NGEI--KMVTNLTKDS-MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVL  222
+            N  +  K + N  +   M   +  +  I    +KII   Q I   ++  +D     P ++
+Sbjct  711  NSLLWTKSIGNYYRSPDMGDGIEFSIHITTPAEKIILIKQRITSYIEGKKDHWYPAPMIV  770
+
+Query  223  GITDMQDSKLVIMVYAK-----TQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILS  277
+                   + + I V+           +KWA    +   + K+  + +I +      + + 
+Sbjct  771  FKDMESLNSVRIAVWPTHRMNHQDMGEKWARRSQLVEEIAKICRELDIEYRLYPLDINVR  830
+
+Query  278  EKKTN  282
+               T+
+Sbjct  831  NLPTS  835
+
+
+> sp|Q57634|MSMJS_METJA Small-conductance mechanosensitive channel 
+MscMJ OS=Methanocaldococcus jannaschii (strain ATCC 43067 
+/ DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ0170 
+PE=1 SV=1
+Length=350
+
+ Score = 163 bits (413),  Expect = 6e-46, Method: Composition-based stats.
+ Identities = 75/275 (27%), Positives = 134/275 (49%), Gaps = 13/275 (5%)
+
+Query  13   YDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFY-KLYSKSKIQLPQRKIDTLTSLTKNA  71
+            Y +K +   + V+ IL   +  +KF D +   +   L  K++ +L +  I  L    K  
+Sbjct  82   YILKLIDEAVKVVVILSATYFAVKFIDGIFEHYLIPLTEKTETELDEHIIKPL----KKV  137
+
+Query  72   VRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSV  131
+            V+ +   L   + L     D+T+LLA  G+G LA+    Q+ +K+ I+G  I+ +  FS+
+Sbjct  138  VKILTILLGILTALSSVGYDITALLAGLGVGGLALALAMQDTIKNFIAGILILIDKPFSL  197
+
+Query  132  GDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLT-KDSMMAVVNIAF  188
+            G +V + G  G VEEIG+R T+IR F   L  IPN E+    + NLT +D    ++ I  
+Sbjct  198  GHWVKVKGAEGIVEEIGIRSTRIRTFDYTLITIPNSELLDSAIENLTVRDRRRVLMTIGL  257
+
+Query  189  PIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMV--YAKTQPMQKW  246
+              +  V+KI +  +EI +E+ ++    +  P  +   +  D  L + V  + +      +
+Sbjct  258  TYNTPVEKI-KRAKEIIKEIVENHPATLP-PYRVHFREYGDWSLNLRVEYFVRNMGFDYY  315
+
+Query  247  -AVERDIRYRVKKMFDQKNISFPYPRTTVILSEKK  280
+                 +I  ++K+ F+++ I   +P  TV L +  
+Sbjct  316  LNAVDEINLKIKEEFEKEGIEMAFPTYTVYLEKDN  350
+
+
+> sp|O35043|YFKC_BACSU Uncharacterized MscS family protein YfkC 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=yfkC PE=2 SV=1
+Length=280
+
+ Score = 160 bits (405),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 80/271 (30%), Positives = 133/271 (49%), Gaps = 20/271 (7%)
+
+Query  9    LVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLT  68
+            L EI+  K V     +L + +I +IG+    F+I R  +L+ K    + ++K  T+ SL 
+Sbjct  7    LTEIFQNKIVD----ILLVAVILWIGV----FIINRLVQLFFKRTDFIEEKKEKTIESLV  58
+
+Query  69   KNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQ  128
+            ++  +Y         ++ LF  D   +LA AG+  + IGFGAQ+L+KD+++G F+I+E Q
+Sbjct  59   RSVTQYTATIGFIFYVISLFVHDFGKILAGAGVAGIVIGFGAQSLIKDVLAGVFLIYERQ  118
+
+Query  129  FSVGDYVTING-ISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKMVTNLTKDSMMAVVNIA  187
+               GDYVT+N   +GTVEEIGLR  +IR +S  L  I NGE++ + N   D M    +  
+Sbjct  119  LHKGDYVTVNNLFNGTVEEIGLRSLQIREWSGKLLTISNGEVRQIENYNIDFMRITESFL  178
+
+Query  188  FPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTV---------LGITDMQDSK--LVIMV  236
+                ED D++   L+E C+ + +   D ++              GIT +      +   V
+Sbjct  179  ISFKEDPDRVYSVLEEACDMLNEELRDSLKRDEFGNPTEPFQIHGITALNKINRGVEFTV  238
+
+Query  237  YAKTQPMQKWAVERDIRYRVKKMFDQKNISF  267
+                +    ++    +R  + +   Q N+  
+Sbjct  239  KGMVKDDDYFSASLAVRRVLVRQLYQNNVQM  269
+
+
+> sp|F4IME1|MSL7_ARATH Mechanosensitive ion channel protein 7 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL7 PE=2 SV=1
+Length=849
+
+ Score = 167 bits (422),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 39/287 (14%), Positives = 92/287 (32%), Gaps = 11/287 (4%)
+
+Query  6    YHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFY--KLYSKSKIQLPQRKIDT  63
+            +  L ++     V   +  + +   A +  K     +  +       +  + L      T
+Sbjct  539  HIYLEDLMRFLRVDEAMKTMCLFEGALVTKKITKSALKNWLVNAFRERRALALTLNDTKT  598
+
+Query  64   LTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFI  123
+              +   + + ++   +     L L  I  +  L       + + F   N +K +      
+Sbjct  599  AVNKLHHMISFLTAIVIIVIWLILLEIATSKYLLFLTSQVVLLAFMFGNSLKTVFESIIF  658
+
+Query  124  IF-EDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDS-  179
+            +F    + VGD + I+ +   VEE+ +  T      +   + PN  +  K + N  +   
+Sbjct  659  LFIIHPYDVGDRLLIDTVEMVVEEMNILTTVFLRADNLKIVYPNILLWQKAIHNYNRSPD  718
+
+Query  180  MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYA-  238
+            M   V     I    +KI    Q I   +    +       V+       + + I ++  
+Sbjct  719  MGDEVTCCVHITTPPEKIAAIKQRISSYIDSKPEYWYPKADVIVKDVEDLNIVRIAIWLC  778
+
+Query  239  ----KTQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILSEKKT  281
+                     +++     +   V K+  + +I + +    + +    T
+Sbjct  779  HKINHQNMGERFTRRALLIEEVIKILLELDIQYRFHPLDINVKTMPT  825
+
+
+> sp|Q9ZKG7|Y415_HELPJ Uncharacterized MscS family protein jhp_0969 
+OS=Helicobacter pylori (strain J99 / ATCC 700824) OX=85963 
+GN=jhp_0969 PE=3 SV=1
+Length=623
+
+ Score = 164 bits (415),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 51/291 (18%), Positives = 116/291 (40%), Gaps = 36/291 (12%)
+
+Query  27   ILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILK  86
+             + I  +              L +    +        + +L    V ++I+ +A   +LK
+Sbjct  324  AVYIMLLAWLVIALFKGYGEALVTNVATKSTHNFRKEVINLILKVVYFLIFIVALLGVLK  383
+
+Query  87   LFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGISGTVEE  146
+                ++++++A  GIG LA+    ++++ +  +   ++ ++ FS GD++    + GTV E
+Sbjct  384  QLGFNVSAIIASLGIGGLAVALAVKDVLANFFASVILLLDNSFSQGDWIVCGEVEGTVVE  443
+
+Query  147  IGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDS--MMAVVNIAFPIDEDVDKIIEGLQ  202
+            +GLR T IR F + L  +PN E+  K + N ++        + I          +   ++
+Sbjct  444  MGLRRTTIRAFDNALLSVPNSELAGKPIRNWSRRKVGRRIKMEIGLTYSSSQSALQLCVK  503
+
+Query  203  EICEEVKKSRDDL-----------------------------IEGPTVLGITDMQDSKLV  233
+            +I E ++                                    +    + +    DS + 
+Sbjct  504  DIKEMLENHPKIANGADSALQNASDYRYMFKKDIVSIDDFLGYKNNLFVFLDQFADSSIN  563
+
+Query  234  IMVYA--KTQPMQKWA-VERDIRYRVKKMFDQKNISFPYPRTTVILSEKKT  281
+            I+VY   KT   ++W  V+ D+  ++  + ++ ++SF +P  ++ +     
+Sbjct  564  ILVYCFSKTVVWEEWLEVKEDVMLKIMGIVEKHHLSFAFPSQSLYVESLPE  614
+
+
+> sp|Q8VZL4|MSL1_ARATH Mechanosensitive ion channel protein 1, 
+mitochondrial OS=Arabidopsis thaliana OX=3702 GN=MSL1 PE=2 SV=1
+Length=497
+
+ Score = 162 bits (411),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 47/259 (18%), Positives = 110/259 (42%), Gaps = 14/259 (5%)
+
+Query  16   KAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYI  75
+            +     +    IL + +   ++   +I R     +KS   L + K+ TL           
+Sbjct  237  QYFSPTVKGAVILSLVWFLYRWKTNVITRML--SAKSFGGLDREKVLTL----DKVSSVG  290
+
+Query  76   IYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYV  135
+            ++ +   +  +   + + S+L V G+G +A  F A++++ +++SG  + F   FS+GD +
+Sbjct  291  LFAIGLMASAEACGVAVQSILTVGGVGGVATAFAARDILGNVLSGLSMQFSRPFSMGDTI  350
+
+Query  136  TINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEIKM--VTNLTKDSMMAVVN-IAFPIDE  192
+                + G V E+GL  T +        ++PN       + N ++    A+ + I   ID 
+Sbjct  351  KAGSVEGQVIEMGLTTTSLLNAEKFPVLVPNSLFSSQVIVNKSRAQWRAIASKIPLQID-  409
+
+Query  193  DVDKIIEGLQEICEEVKKSRDDLI-EGPTVLGITDMQDSKLVIMVYA---KTQPMQKWAV  248
+            D+D I +   EI E ++ +    + +      ++ ++ S   + +     +    + +  
+Sbjct  410  DLDMIPQISNEIKEMLRSNTKVFLGKEAPHCYLSRVEKSFAELTIGCNLIRMGKEELYNT  469
+
+Query  249  ERDIRYRVKKMFDQKNISF  267
+            ++++     K+  +  +S 
+Sbjct  470  QQEVLLEAVKIIKKHGVSL  488
+
+
+> sp|O25170|Y415_HELPY Uncharacterized MscS family protein HP_0415 
+OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 
+GN=HP_0415 PE=3 SV=1
+Length=623
+
+ Score = 163 bits (413),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 55/291 (19%), Positives = 116/291 (40%), Gaps = 36/291 (12%)
+
+Query  27   ILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILK  86
+             + I  +              L +    +        + +L    V ++I+ +A   +LK
+Sbjct  324  AVYIMLLAWLVIALFKGYGEALVTNMATKSTHNFRKEVINLILKVVYFLIFIVALLGVLK  383
+
+Query  87   LFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYVTINGISGTVEE  146
+                ++++++A  GIG LA+    ++++ +  +   ++ ++ FS GD++    + GTV E
+Sbjct  384  QLGFNVSAIIASLGIGGLAVALAVKDVLANFFASVILLLDNSFSQGDWIVCGEVEGTVVE  443
+
+Query  147  IGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDS--MMAVVNIAFPID-----------  191
+            +GLR T IR F + L  +PN E+  K + N ++        + I                
+Sbjct  444  MGLRRTTIRAFDNALLSVPNSELAGKPIRNWSRRKVGRRIKMEIGLTYSSSQSALQLCVK  503
+
+Query  192  ------EDVDKIIEGLQEICEEVKKSRDDLIEGPT------------VLGITDMQDSKLV  233
+                  E+  KI  G     + V   R    +                + +    DS + 
+Sbjct  504  DIKEMLENHPKIANGADSALQNVSDYRYMFKKDIVSIDDFLGYKNNLFVFLDQFADSSIN  563
+
+Query  234  IMVYA--KTQPMQKWA-VERDIRYRVKKMFDQKNISFPYPRTTVILSEKKT  281
+            I+VY   KT   ++W  V+ D+  ++  + ++ ++SF +P  ++ +     
+Sbjct  564  ILVYCFSKTVVWEEWLEVKEDVMLKIMGIVEKHHLSFAFPSQSLYVESLPE  614
+
+
+> sp|Q84M97|MSL9_ARATH Mechanosensitive ion channel protein 9 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL9 PE=1 SV=1
+Length=742
+
+ Score = 163 bits (413),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 45/237 (19%), Positives = 80/237 (34%), Gaps = 9/237 (4%)
+
+Query  49   YSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGF  108
+             S+  I        T        +  I+  +     + L +I  T LL V     L + F
+Sbjct  502  TSRKTIGHSLNDTKTAVKQLDKLITGILTVITFIVWMVLLDIASTKLLLVFSSQFLGLAF  561
+
+Query  109  GAQNLVKDMISGFFIIF-EDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNG  167
+               +  K++   F  +F    + VGD   ++G+   VEEI L  T      +     PN 
+Sbjct  562  MIGSTCKNIFESFMFVFVMHPYDVGDRCVVDGVMLLVEEIDLLTTVFLKIDNEKVFYPNS  621
+
+Query  168  EIKM--VTNLTKDS-MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVL--  222
+             +    ++N  +   M   V+         +KI     +I E +  +         V+  
+Sbjct  622  VLISKPISNFYRSPDMGDYVDFGIAFSTPAEKIGCLKGKIGEYLVANSQHWYPEAQVMVR  681
+
+Query  223  GITDMQDSKLVIMVYAKTQPM---QKWAVERDIRYRVKKMFDQKNISFPYPRTTVIL  276
+             I +M    L I+V          +K      +   +K++ +   I +      V L
+Sbjct  682  AIENMNKLVLNILVQHTINFQVYVEKSLRRTALIIAIKRILEDLEIDYTLLPQDVNL  738
+
+
+> sp|Q9LH74|MSL5_ARATH Mechanosensitive ion channel protein 5 OS=Arabidopsis 
+thaliana OX=3702 GN=MSL5 PE=2 SV=1
+Length=881
+
+ Score = 163 bits (413),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 42/243 (17%), Positives = 78/243 (32%), Gaps = 9/243 (4%)
+
+Query  47   KLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAI  106
+                +  + L      T        +  +I  +     L +  I  T  L V     L +
+Sbjct  618  AFRERRALALTLNDTKTAVDRLHRIINVVIGIIIIIIWLLILGIATTRFLLVLSSQLLLV  677
+
+Query  107  GFGAQNLVKDMISGFFIIF-EDQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIP  165
+             F   N  K +      +F    F VGD   I+G+   VEE+ +  T    + +   I P
+Sbjct  678  AFVFGNSCKTIFEAIIFLFVMHPFDVGDRCEIDGVQLVVEEMNILTTVFLRYDNQKIIYP  737
+
+Query  166  NGEIKM--VTNLTKDS-MMAVVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVL  222
+            N  +    + N  +   M   V     I    +KI    Q I   V   +D     P ++
+Sbjct  738  NSVLGTKPIANYYRSPDMGDAVEFCVHIATPPEKITAIKQRILSYVDNKKDYWYPAPMIV  797
+
+Query  223  GITDMQDSKLVIMVYAK-----TQPMQKWAVERDIRYRVKKMFDQKNISFPYPRTTVILS  277
+             ++    + + I V+           +++     +   V K   + +I +      + + 
+Sbjct  798  FLSMDDLNSVKIAVWLTHRMNHQDMGERYIRRGLLLEEVGKTCRELDIEYRLYPLNINVR  857
+
+Query  278  EKK  280
+               
+Sbjct  858  SLP  860
+
+
+> sp|Q58543|MSMJL_METJA Large-conductance mechanosensitive channel 
+MscMJLR OS=Methanocaldococcus jannaschii (strain ATCC 43067 
+/ DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 
+GN=MJ1143 PE=1 SV=1
+Length=361
+
+ Score = 157 bits (397),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 72/274 (26%), Positives = 135/274 (49%), Gaps = 12/274 (4%)
+
+Query  16   KAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTLTSLTKNAVRYI  75
+             AV   +    IL +     +F + L+ R+  L    K +  +   D +  LTK  VR +
+Sbjct  91   TAVNEGILTAFILCVVVFFDRFLNELVERYLALTISKKTK--KDVDDQIVVLTKKLVRLV  148
+
+Query  76   IYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFIIFEDQFSVGDYV  135
+            ++ +    IL     D+ +LLA  GIG LA+   +QNLV ++I+G  I+ +  F +G+++
+Sbjct  149  VWVVGLLLILSNLGYDIKTLLAGLGIGGLAVALASQNLVSNLIAGLIILTDKPFKIGNWI  208
+
+Query  136  TINGISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNL-TKDSMMAVVNIAFPIDE  192
+            T +G SG VE+IG+R TKIR   + + ++PN ++  +++ N+ +K+       I    + 
+Sbjct  209  TFSGGSGIVEDIGIRSTKIRATDNSIIVVPNSKLIDEIIQNVPSKNKWKVSTTIGVTYNT  268
+
+Query  193  DVDKIIEGLQEICEEVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKW------  246
+             V+KI +  +EI + +     ++ + P  +   +  D  L I V    +  +        
+Sbjct  269  PVEKIRKA-EEIIKNILLEHPNVEDEPITVYFKEFGDWSLNIQVVYYIKNSRYNGYQKYI  327
+
+Query  247  AVERDIRYRVKKMFDQKNISFPYPRTTVILSEKK  280
+            +   ++  ++K+ FD+K I F +P  T+ L    
+Sbjct  328  STINEVNLKIKEEFDRKGIEFAFPTYTLYLKRDD  361
+
+
+> sp|P42531|Y1270_CORGL Uncharacterized protein Cgl1270/cg1434 
+OS=Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 
+/ JCM 1318 / LMG 3730 / NCIMB 10025) OX=196627 GN=Cgl1270 PE=4 
+SV=2
+Length=491
+
+ Score = 141 bits (356),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 66/237 (28%), Positives = 105/237 (44%), Gaps = 24/237 (10%)
+
+Query  47   KLYSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAI  106
+            +    +      +       +     + + +F+   S ++ F   +      A I S AI
+Sbjct  6    RRVESAADADTTKNQLAFAGVGVYIAQIVAFFMLAVSAMQAFGFSLAGAAIPATIASAAI  65
+
+Query  107  GFGAQNLVKDMISGFFIIFEDQFSVGDYVTING----ISGTVEEIGLRVTKIRGFSDGLH  162
+            G GAQ++V D ++GFFI+ E QF VGD+V   G    + GTV EI +R TKIR  +    
+Sbjct  66   GLGAQSIVADFLAGFFILTEKQFGVGDWVRFEGNGIVVEGTVIEITMRATKIRTIAQETV  125
+
+Query  163  IIPNGEIKMVTNLTKDSMMAVVNIAFPI--DEDVDKII--------------EGLQEICE  206
+            IIPN   K+  N + +   AVV I  P+   E++  +I              +   EI  
+Sbjct  126  IIPNSTAKVCINNSNNWSRAVVVIPIPMLGSENITDVIARSEAATRRALGQEKIAPEILG  185
+
+Query  207  EVKKSRDDLIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQK  263
+            E+       +  PTV+G+  M   + ++ V A      +W VER IR  +   F ++
+Sbjct  186  ELDVHPATEVTPPTVVGMPWMVTMRFLVQVTA----GNQWLVERAIRTEIISEFWEE  238
+
+
+> sp|O74839|YC1B_SCHPO Uncharacterized MscS family protein C1183.11 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPCC1183.11 PE=1 SV=1
+Length=1011
+
+ Score = 129 bits (323),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 37/230 (16%), Positives = 82/230 (36%), Gaps = 15/230 (7%)
+
+Query  50   SKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFG  109
+             +  I    R ++   S       +I+  +     L L   + + +L  AG   L + + 
+Sbjct  578  ERKSISASLRDLNDSISKLDGICMFIVAVITLFIFLYLIARNFSGVLTSAGTTLLGLSWL  637
+
+Query  110  AQNLVKDMISGFFIIFE-DQFSVGDYVTINGISGT-----VEEIGLRVTKIRGFSDGLHI  163
+                 ++++S    +F    + VGD V +  I+GT     V+EI +  T+ R  +  +  
+Sbjct  638  FSGSAQELLSSIIFVFVKHPYDVGDRVDVM-INGTVTSAMVKEISIMSTEFRLLTGKVIQ  696
+
+Query  164  IPNGEIKMVTNLTKDSMMAV---VNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEG--  218
+             PN  +  +  L       +   V +       + +I +   +I + +K+ + D      
+Sbjct  697  APNSLLNTLWILNMRRSDGIADPVTVNLKFGTTLQQIEQLRIKIIDFLKEEKRDYKPDLL  756
+
+Query  219  PTVLGITDMQDSKLVIMVYAKTQPMQ---KWAVERDIRYRVKKMFDQKNI  265
+              V  + D+    L ++ + K        +          +     + +I
+Sbjct  757  TEVTDLPDLYSMSLCVVFFHKYNFQDEVLRMRRRNMFMCALMTYMQELDI  806
+
+
+> sp|P0AAT5|YBDG_SHIFL Miniconductance mechanosensitive channel 
+YbdG OS=Shigella flexneri OX=623 GN=ybdG PE=3 SV=1
+Length=415
+
+ Score = 124 bits (310),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 32/212 (15%), Positives = 73/212 (34%), Gaps = 5/212 (2%)
+
+Query  5    IYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTL  64
+            I   +  ++ ++      D+L      +I +     +      +      + P      L
+Sbjct  79   IIVNIQAVFWLQKGTEAADILTTCAQLWIMMYALLSVFS-LLDVILNLAQKFPAASQLPL  137
+
+Query  65   TSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFII  124
+              + +         +    I  L       L++  G  +  +    ++ +  +++G  + 
+Sbjct  138  KGIFQGIKLIGAILVGILMISLLIGQSPAILISGLGAMAAVLMLVFKDPILGLVAGIQLS  197
+
+Query  125  FEDQFSVGDYVTIN--GISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSM  180
+              D   +GD++ +   G  G V +IGL   K+R + + +  IP   +      N +  S 
+Sbjct  198  ANDMLKLGDWLEMPKYGADGAVIDIGLTTVKVRNWDNTITTIPTWSLVSDSFKNWSGMSA  257
+
+Query  181  MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSR  212
+                 I   I  DV  I    ++  + + K+ 
+Sbjct  258  SGGRRIKRSISIDVTSIRFLDEDEMQRLNKAH  289
+
+
+> sp|P0AAT4|YBDG_ECOLI Miniconductance mechanosensitive channel 
+YbdG OS=Escherichia coli (strain K12) OX=83333 GN=ybdG PE=1 
+SV=1
+Length=415
+
+ Score = 124 bits (310),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 32/212 (15%), Positives = 73/212 (34%), Gaps = 5/212 (2%)
+
+Query  5    IYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDTL  64
+            I   +  ++ ++      D+L      +I +     +      +      + P      L
+Sbjct  79   IIVNIQAVFWLQKGTEAADILTTCAQLWIMMYALLSVFS-LLDVILNLAQKFPAASQLPL  137
+
+Query  65   TSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFII  124
+              + +         +    I  L       L++  G  +  +    ++ +  +++G  + 
+Sbjct  138  KGIFQGIKLIGAILVGILMISLLIGQSPAILISGLGAMAAVLMLVFKDPILGLVAGIQLS  197
+
+Query  125  FEDQFSVGDYVTIN--GISGTVEEIGLRVTKIRGFSDGLHIIPNGEI--KMVTNLTKDSM  180
+              D   +GD++ +   G  G V +IGL   K+R + + +  IP   +      N +  S 
+Sbjct  198  ANDMLKLGDWLEMPKYGADGAVIDIGLTTVKVRNWDNTITTIPTWSLVSDSFKNWSGMSA  257
+
+Query  181  MAVVNIAFPIDEDVDKIIEGLQEICEEVKKSR  212
+                 I   I  DV  I    ++  + + K+ 
+Sbjct  258  SGGRRIKRSISIDVTSIRFLDEDEMQRLNKAH  289
+
+
+> sp|O14050|YEYH_SCHPO Uncharacterized MscS family protein C2C4.17c 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPAC2C4.17c PE=3 SV=1
+Length=840
+
+ Score = 120 bits (301),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 38/219 (17%), Positives = 73/219 (33%), Gaps = 7/219 (3%)
+
+Query  49   YSKSKIQLPQRKIDTLTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGF  108
+                 I    R +D            ++  +A  + +   +    ++LA  G   L++ F
+Sbjct  426  IEFRSISSSLRDVDLALGKLDRVGLGVVGIIAVLTFISFLDTSFATILAAFGTTLLSLSF  485
+
+Query  109  GAQNLVKDMISGFFIIFE-DQFSVGDYVTINGISGTVEEIGLRVTKIRGFSDGLHIIPNG  167
+                  ++++S    +F    F + D V +N I   V  + L  T  R         PN 
+Sbjct  486  VFSTSAQELMSSIIFLFSKHPFDISDVVIVNNIKYEVVSLSLLFTVFRTMGGSTVQAPNS  545
+
+Query  168  EIKM--VTNLTKDSMMA-VVNIAFPIDEDVDKIIEGLQEICEEVKKSRDDLIEGPTVLGI  224
+             +    + NL +    +  + I  P   D  K +E L+++     K  +        L +
+Sbjct  546  LLNTLFIENLRRSQPQSETITIVSPFATDF-KQLERLRDLLLTFVKENERDFRPIIDLNV  604
+
+Query  225  TDMQD-SKLVIMV-YAKTQPMQKWAVERDIRYRVKKMFD  261
+            +D      L   V Y      Q  +++   R +      
+Sbjct  605  SDFSTLDSLKFTVTYYYKSNWQNVSLQCVRRNKFMCALK  643
+
+
+> sp|Q58111|Y700_METJA Uncharacterized MscS family protein MJ0700 
+OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 
+2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ0700 
+PE=3 SV=1
+Length=324
+
+ Score = 115 bits (289),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 49/308 (16%), Positives = 116/308 (38%), Gaps = 46/308 (15%)
+
+Query  4    DIYHKLVEIYDIKAVKFLLDVLKILIIAFIGIKFADFLIYRFYKLYSKSKIQLPQRKIDT  63
+            + Y K++  Y  + +   + +L  LII  I  +    +  ++ +   +   +        
+Sbjct  29   ETYIKILAKYQNQIMIIAIIILSGLIIVDIASE----VFKKYARTREEKAGEYLT-----  79
+
+Query  64   LTSLTKNAVRYIIYFLAGASILKLFNIDMTSLLAVAGIGSLAIGFGAQNLVKDMISGFFI  123
+                     +Y++Y      I  +   +++SL+   G+   A+ +  Q  + +      I
+Sbjct  80   ----LNYIFKYLVYVCVTLMIFGVIYQNVSSLVVSVGLIGAAVTYALQKPILNFAGWIII  135
+
+Query  124  IFEDQFSVGDYVTINGI-SGTVEEI---GLRVTKIRGF----SDGLHIIPNGEI--KMVT  173
+            ++     +GD + I  + +G V +I    + ++++       +  + IIPN  I    + 
+Sbjct  136  LYTRTIKIGDRIFIKNMGAGDVFDIDTQHIYLSELTTDTFEPTGRVLIIPNSYIFTASIE  195
+
+Query  174  NLTKDSM--MAVVNIAFPIDEDVDKIIEGLQEICEEVKKS-----------------RDD  214
+            NLTK S      + + F ++ +++K  + + E  +EV  +                 R  
+Sbjct  196  NLTKGSPYIWDNIVVHFTLNSNINKAEKIVFESADEVIGNLMRELYEKWSKRKYLISRKL  255
+
+Query  215  LIEGPTVLGITDMQDSKLVIMVYAKTQPMQKWAVERDIRYRVKKMFDQ-KNISFPYPRTT  273
+              +    +GIT    S   I         +K  +  +I  R+ +  ++  ++   YP   
+Sbjct  256  SDKPVVRVGITR---SSFYIKALYLVNVYEKAKIRSEINKRILEKVNKENDVKLAYPHIK  312
+
+Query  274  VILSEKKT  281
+             ++  +  
+Sbjct  313  AVIETENK  320
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.135    0.313    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0415    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22420051964
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

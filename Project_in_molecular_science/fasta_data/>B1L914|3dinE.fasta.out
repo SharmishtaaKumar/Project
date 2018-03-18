@@ -1,0 +1,1171 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= B1L914|3dinE
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9WYU9|SECG_THEMA Protein-export membrane protein SecG OS=Th...  67.8    5e-15
+  sp|O32233|SECG_BACSU Probable protein-export membrane protein S...  46.6    6e-07
+  sp|Q7A1F4|SECG_STAAW Probable protein-export membrane protein S...  42.0    2e-05
+  sp|Q6GB52|SECG_STAAS Probable protein-export membrane protein S...  42.0    2e-05
+  sp|Q7A6Q1|SECG_STAAN Probable protein-export membrane protein S...  42.0    2e-05
+  sp|Q99VK3|SECG_STAAM Probable protein-export membrane protein S...  42.0    2e-05
+  sp|Q5HHN9|SECG_STAAC Probable protein-export membrane protein S...  42.0    2e-05
+  sp|Q2G026|SECG_STAA8 Protein translocase subunit SecG OS=Staphy...  42.0    3e-05
+  sp|Q6GIL2|SECG_STAAR Probable protein-export membrane protein S...  40.0    1e-04
+  sp|P0AG99|SECG_ECOLI Protein-export membrane protein SecG OS=Es...  37.7    0.001
+  sp|P0AGA0|SECG_ECOL6 Protein-export membrane protein SecG OS=Es...  37.7    0.001
+  sp|P0AGA1|SECG_ECO57 Protein-export membrane protein SecG OS=Es...  37.7    0.001
+  sp|Q9HV52|SECG_PSEAE Protein-export membrane protein SecG OS=Ps...  37.7    0.001
+  sp|Q4L4K9|SECG_STAHJ Probable protein-export membrane protein S...  36.2    0.003
+
+
+> sp|Q9WYU9|SECG_THEMA Protein-export membrane protein SecG OS=Thermotoga 
+maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 
+10099) OX=243274 GN=secG PE=1 SV=1
+Length=67
+
+ Score = 67.8 bits (164),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGA  33
+           MKTFFLIVHTIISVALIYMVQVQMSKFSELGGA
+Sbjct  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGA  33
+
+
+> sp|O32233|SECG_BACSU Probable protein-export membrane protein 
+SecG OS=Bacillus subtilis (strain 168) OX=224308 GN=secG PE=2 
+SV=1
+Length=76
+
+ Score = 46.6 bits (109),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 33/77 (43%), Positives = 49/77 (64%), Gaps = 4/77 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRK--GLD-TGGKITL  57
+           M    + +  I+S+ALI +V +Q SK + L GA  SGG   +FG++K  GLD    +IT+
+Sbjct  1   MHAVLITLLVIVSIALIIVVLLQSSKSAGLSGAI-SGGAEQLFGKQKARGLDLILHRITV  59
+
+Query  58  VLSVLFFVSCVVTAFVL  74
+           VL+VLFFV  +  A++L
+Sbjct  60  VLAVLFFVLTIALAYIL  76
+
+
+> sp|Q7A1F4|SECG_STAAW Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain MW2) OX=196620 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 42.0 bits (97),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 29/76 (38%), Positives = 48/76 (63%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRK--GLDT-GGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K  G+D    ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q6GB52|SECG_STAAS Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 42.0 bits (97),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 29/76 (38%), Positives = 48/76 (63%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRK--GLDT-GGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K  G+D    ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q7A6Q1|SECG_STAAN Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain N315) OX=158879 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 42.0 bits (97),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 29/76 (38%), Positives = 48/76 (63%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRK--GLDT-GGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K  G+D    ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q99VK3|SECG_STAAM Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 
+GN=secG PE=3 SV=1
+Length=77
+
+ Score = 42.0 bits (97),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 29/76 (38%), Positives = 48/76 (63%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRK--GLDT-GGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K  G+D    ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q5HHN9|SECG_STAAC Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain COL) OX=93062 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 42.0 bits (97),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 29/76 (38%), Positives = 48/76 (63%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRK--GLDT-GGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K  G+D    ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q2G026|SECG_STAA8 Protein translocase subunit SecG OS=Staphylococcus 
+aureus (strain NCTC 8325) OX=93061 GN=SAOUHSC_00801 
+PE=3 SV=1
+Length=91
+
+ Score = 42.0 bits (97),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 29/76 (38%), Positives = 48/76 (63%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRK--GLDT-GGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K  G+D    ++T+
+Sbjct  15  MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  73
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  74  ILSILFFVLMICISYL  89
+
+
+> sp|Q6GIL2|SECG_STAAR Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 40.0 bits (92),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 28/76 (37%), Positives = 47/76 (62%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRK--GLDT-GGKITL  57
+           M TF +++  I  +ALI +V +Q  K S   GA  SGG   +FG++K  G+D    ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGFSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|P0AG99|SECG_ECOLI Protein-export membrane protein SecG OS=Escherichia 
+coli (strain K12) OX=83333 GN=secG PE=1 SV=1
+Length=110
+
+ Score = 37.7 bits (86),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 20/69 (29%), Positives = 41/69 (59%), Gaps = 0/69 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L+V  I+++ L+ ++ +Q  K +++G +FG+G   T+FG     +   ++T +L+
+Sbjct  1   MYEALLVVFLIVAIGLVGLIMLQQGKGADMGASFGAGASATLFGSSGSGNFMTRMTALLA  60
+
+Query  61  VLFFVSCVV  69
+            LFF+  +V
+Sbjct  61  TLFFIISLV  69
+
+
+> sp|P0AGA0|SECG_ECOL6 Protein-export membrane protein SecG OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) 
+OX=199310 GN=secG PE=3 SV=1
+Length=110
+
+ Score = 37.7 bits (86),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 20/69 (29%), Positives = 41/69 (59%), Gaps = 0/69 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L+V  I+++ L+ ++ +Q  K +++G +FG+G   T+FG     +   ++T +L+
+Sbjct  1   MYEALLVVFLIVAIGLVGLIMLQQGKGADMGASFGAGASATLFGSSGSGNFMTRMTALLA  60
+
+Query  61  VLFFVSCVV  69
+            LFF+  +V
+Sbjct  61  TLFFIISLV  69
+
+
+> sp|P0AGA1|SECG_ECO57 Protein-export membrane protein SecG OS=Escherichia 
+coli O157:H7 OX=83334 GN=secG PE=3 SV=1
+Length=110
+
+ Score = 37.7 bits (86),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 20/69 (29%), Positives = 41/69 (59%), Gaps = 0/69 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L+V  I+++ L+ ++ +Q  K +++G +FG+G   T+FG     +   ++T +L+
+Sbjct  1   MYEALLVVFLIVAIGLVGLIMLQQGKGADMGASFGAGASATLFGSSGSGNFMTRMTALLA  60
+
+Query  61  VLFFVSCVV  69
+            LFF+  +V
+Sbjct  61  TLFFIISLV  69
+
+
+> sp|Q9HV52|SECG_PSEAE Protein-export membrane protein SecG OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=secG PE=3 SV=1
+Length=129
+
+ Score = 37.7 bits (86),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 20/72 (28%), Positives = 44/72 (61%), Gaps = 0/72 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           ++   ++VH ++++ L+ ++ VQ  K ++ G +FG+G   TVFG +       +IT +L+
+Sbjct  2   LEKVVIVVHLLMALGLVGLILVQHGKGADAGASFGAGASATVFGSQGSATFLSRITGILA  61
+
+Query  61  VLFFVSCVVTAF  72
+            +FF++ +  A+
+Sbjct  62  AVFFLTSLGLAY  73
+
+
+> sp|Q4L4K9|SECG_STAHJ Probable protein-export membrane protein 
+SecG OS=Staphylococcus haemolyticus (strain JCSC1435) OX=279808 
+GN=secG PE=3 SV=1
+Length=77
+
+ Score = 36.2 bits (82),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 26/68 (38%), Positives = 44/68 (65%), Gaps = 4/68 (6%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRK--GLDT-GGKITL  57
+           M T F+++  I  +ALI +V +Q  K + L GA  SGG   +FG++K  G+D    ++T+
+Sbjct  1   MHTLFIVLLIIDCIALITVVLLQEGKSNGLSGAI-SGGAEQLFGKQKQRGVDLFLHRLTI  59
+
+Query  58  VLSVLFFV  65
+           +L+V+FF+
+Sbjct  60  ILAVIFFL  67
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.146    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5030962891
+Results from round 2
+
+
+Query= B1L914|3dinE
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9HV52|SECG_PSEAE Protein-export membrane protein SecG OS=Ps...  81.9    8e-20
+  sp|P0AG99|SECG_ECOLI Protein-export membrane protein SecG OS=Es...  78.0    2e-18
+  sp|P0AGA0|SECG_ECOL6 Protein-export membrane protein SecG OS=Es...  78.0    2e-18
+  sp|P0AGA1|SECG_ECO57 Protein-export membrane protein SecG OS=Es...  78.0    2e-18
+  sp|Q2G026|SECG_STAA8 Protein translocase subunit SecG OS=Staphy...  53.7    2e-09
+  sp|Q7A1F4|SECG_STAAW Probable protein-export membrane protein S...  50.7    2e-08
+  sp|Q6GB52|SECG_STAAS Probable protein-export membrane protein S...  50.7    2e-08
+  sp|Q7A6Q1|SECG_STAAN Probable protein-export membrane protein S...  50.7    2e-08
+  sp|Q99VK3|SECG_STAAM Probable protein-export membrane protein S...  50.7    2e-08
+  sp|Q5HHN9|SECG_STAAC Probable protein-export membrane protein S...  50.7    2e-08
+  sp|Q6GIL2|SECG_STAAR Probable protein-export membrane protein S...  50.7    2e-08
+  sp|O32233|SECG_BACSU Probable protein-export membrane protein S...  40.6    7e-05
+  sp|Q9WYU9|SECG_THEMA Protein-export membrane protein SecG OS=Th...  39.1    2e-04
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P95577|SECG_PSEU2 Protein-export membrane protein SecG OS=Ps...  68.8    8e-15
+  sp|Q8CPY2|SECG_STAES Probable protein-export membrane protein S...  48.7    9e-08
+  sp|Q5HQU8|SECG_STAEQ Probable protein-export membrane protein S...  48.7    9e-08
+  sp|Q4L4K9|SECG_STAHJ Probable protein-export membrane protein S...  47.6    2e-07
+  sp|P44713|SECG_HAEIN Protein-export membrane protein SecG OS=Ha...  47.2    5e-07
+  sp|Q9CP52|SECG_PASMU Protein-export membrane protein SecG OS=Pa...  46.4    1e-06
+  sp|Q49W06|SECG_STAS1 Probable protein-export membrane protein S...  45.3    1e-06
+  sp|P57460|SECG_BUCAI Protein-export membrane protein SecG OS=Bu...  38.3    6e-04
+  sp|O25847|SECG_HELPY Protein-export membrane protein SecG OS=He...  39.5    7e-04
+  sp|Q9ZJX2|SECG_HELPJ Protein-export membrane protein SecG OS=He...  38.3    0.002
+
+
+> sp|Q9HV52|SECG_PSEAE Protein-export membrane protein SecG OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=secG PE=3 SV=1
+Length=129
+
+ Score = 81.9 bits (201),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 20/72 (28%), Positives = 44/72 (61%), Gaps = 0/72 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           ++   ++VH ++++ L+ ++ VQ  K ++ G +FG+G   TVFG +       +IT +L+
+Sbjct  2   LEKVVIVVHLLMALGLVGLILVQHGKGADAGASFGAGASATVFGSQGSATFLSRITGILA  61
+
+Query  61  VLFFVSCVVTAF  72
+            +FF++ +  A+
+Sbjct  62  AVFFLTSLGLAY  73
+
+
+> sp|P0AG99|SECG_ECOLI Protein-export membrane protein SecG OS=Escherichia 
+coli (strain K12) OX=83333 GN=secG PE=1 SV=1
+Length=110
+
+ Score = 78.0 bits (191),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 20/73 (27%), Positives = 42/73 (58%), Gaps = 0/73 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L+V  I+++ L+ ++ +Q  K +++G +FG+G   T+FG     +   ++T +L+
+Sbjct  1   MYEALLVVFLIVAIGLVGLIMLQQGKGADMGASFGAGASATLFGSSGSGNFMTRMTALLA  60
+
+Query  61  VLFFVSCVVTAFV  73
+            LFF+  +V   +
+Sbjct  61  TLFFIISLVLGNI  73
+
+
+> sp|P0AGA0|SECG_ECOL6 Protein-export membrane protein SecG OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) 
+OX=199310 GN=secG PE=3 SV=1
+Length=110
+
+ Score = 78.0 bits (191),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 20/73 (27%), Positives = 42/73 (58%), Gaps = 0/73 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L+V  I+++ L+ ++ +Q  K +++G +FG+G   T+FG     +   ++T +L+
+Sbjct  1   MYEALLVVFLIVAIGLVGLIMLQQGKGADMGASFGAGASATLFGSSGSGNFMTRMTALLA  60
+
+Query  61  VLFFVSCVVTAFV  73
+            LFF+  +V   +
+Sbjct  61  TLFFIISLVLGNI  73
+
+
+> sp|P0AGA1|SECG_ECO57 Protein-export membrane protein SecG OS=Escherichia 
+coli O157:H7 OX=83334 GN=secG PE=3 SV=1
+Length=110
+
+ Score = 78.0 bits (191),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 20/73 (27%), Positives = 42/73 (58%), Gaps = 0/73 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L+V  I+++ L+ ++ +Q  K +++G +FG+G   T+FG     +   ++T +L+
+Sbjct  1   MYEALLVVFLIVAIGLVGLIMLQQGKGADMGASFGAGASATLFGSSGSGNFMTRMTALLA  60
+
+Query  61  VLFFVSCVVTAFV  73
+            LFF+  +V   +
+Sbjct  61  TLFFIISLVLGNI  73
+
+
+> sp|P95577|SECG_PSEU2 Protein-export membrane protein SecG OS=Pseudomonas 
+syringae pv. syringae (strain B728a) OX=205918 GN=secG 
+PE=3 SV=1
+Length=126
+
+ Score = 68.8 bits (167),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 18/72 (25%), Positives = 41/72 (57%), Gaps = 0/72 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           ++T  ++ H + ++ ++ +V +Q  K ++ G +FG+G  +TVFG +       K T +L+
+Sbjct  2   LETVVIVFHLLGALGVVALVLLQQGKGADAGASFGAGASNTVFGGQGTSTFLSKFTAILA  61
+
+Query  61  VLFFVSCVVTAF  72
+             FF++ +   +
+Sbjct  62  ACFFITSLGLGY  73
+
+
+> sp|Q2G026|SECG_STAA8 Protein translocase subunit SecG OS=Staphylococcus 
+aureus (strain NCTC 8325) OX=93061 GN=SAOUHSC_00801 
+PE=3 SV=1
+Length=91
+
+ Score = 53.7 bits (128),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  15  MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  73
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  74  ILSILFFVLMICISYL  89
+
+
+> sp|Q7A1F4|SECG_STAAW Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain MW2) OX=196620 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 50.7 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q6GB52|SECG_STAAS Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 50.7 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q7A6Q1|SECG_STAAN Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain N315) OX=158879 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 50.7 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q99VK3|SECG_STAAM Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 
+GN=secG PE=3 SV=1
+Length=77
+
+ Score = 50.7 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q5HHN9|SECG_STAAC Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain COL) OX=93062 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 50.7 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q6GIL2|SECG_STAAR Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 50.7 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 26/76 (34%), Positives = 44/76 (58%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S   GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGFSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q8CPY2|SECG_STAES Probable protein-export membrane protein 
+SecG OS=Staphylococcus epidermidis (strain ATCC 12228) OX=176280 
+GN=secG PE=3 SV=1
+Length=77
+
+ Score = 48.7 bits (115),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 23/76 (30%), Positives = 43/76 (57%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M T  +++  I  +AL+ +V +Q  K + L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTLIIVLLIIDCIALVTVVLLQEGKSNGLSGAI-SGGAEQLFGKQKQRGVDLFLHRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +L++LFFV     +++
+Sbjct  60  ILAILFFVLMFCISYL  75
+
+
+> sp|Q5HQU8|SECG_STAEQ Probable protein-export membrane protein 
+SecG OS=Staphylococcus epidermidis (strain ATCC 35984 / RP62A) 
+OX=176279 GN=secG PE=3 SV=1
+Length=77
+
+ Score = 48.7 bits (115),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 23/76 (30%), Positives = 43/76 (57%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M T  +++  I  +AL+ +V +Q  K + L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTLIIVLLIIDCIALVTVVLLQEGKSNGLSGAI-SGGAEQLFGKQKQRGVDLFLHRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +L++LFFV     +++
+Sbjct  60  ILAILFFVLMFCISYL  75
+
+
+> sp|Q4L4K9|SECG_STAHJ Probable protein-export membrane protein 
+SecG OS=Staphylococcus haemolyticus (strain JCSC1435) OX=279808 
+GN=secG PE=3 SV=1
+Length=77
+
+ Score = 47.6 bits (112),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 24/75 (32%), Positives = 44/75 (59%), Gaps = 4/75 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M T F+++  I  +ALI +V +Q  K + L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTLFIVLLIIDCIALITVVLLQEGKSNGLSGAI-SGGAEQLFGKQKQRGVDLFLHRLTI  59
+
+Query  58  VLSVLFFVSCVVTAF  72
+           +L+V+FF+  +  ++
+Sbjct  60  ILAVIFFLIMIGISY  74
+
+
+> sp|P44713|SECG_HAEIN Protein-export membrane protein SecG OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=secG PE=3 SV=1
+Length=112
+
+ Score = 47.2 bits (111),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 20/70 (29%), Positives = 36/70 (51%), Gaps = 0/70 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L ++ ++++ALI  + VQ  K +  G +FG G   T+FG     +   + + +L+
+Sbjct  1   MYQVLLFIYVVVAIALIGFILVQQGKGANAGASFGGGASGTMFGSAGAGNFLTRTSAILA  60
+
+Query  61  VLFFVSCVVT  70
+             FFV  +V 
+Sbjct  61  TAFFVIALVL  70
+
+
+> sp|Q9CP52|SECG_PASMU Protein-export membrane protein SecG OS=Pasteurella 
+multocida (strain Pm70) OX=272843 GN=secG PE=3 SV=1
+Length=115
+
+ Score = 46.4 bits (109),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 21/73 (29%), Positives = 40/73 (55%), Gaps = 0/73 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L+ + II++ +++++ +Q  K ++ G +FG G   T+FG     +   K+T +L+
+Sbjct  1   MYQTLLLGYAIIAIVIVFLILIQQGKGADAGASFGGGASGTIFGSVGSGNFLSKMTALLA  60
+
+Query  61  VLFFVSCVVTAFV  73
+             FFV  +V   V
+Sbjct  61  TAFFVMSIVIGNV  73
+
+
+> sp|Q49W06|SECG_STAS1 Probable protein-export membrane protein 
+SecG OS=Staphylococcus saprophyticus subsp. saprophyticus (strain 
+ATCC 15305 / DSM 20229) OX=342451 GN=secG PE=3 SV=1
+Length=77
+
+ Score = 45.3 bits (106),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 23/75 (31%), Positives = 43/75 (57%), Gaps = 4/75 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M T  +++  +  +AL+ +V +Q  K + L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTLIMVLLILDCIALVTVVLLQEGKSNGLSGAI-SGGAEQLFGKQKQRGIDLFLHRLTI  59
+
+Query  58  VLSVLFFVSCVVTAF  72
+           VLSV+FF+  +  ++
+Sbjct  60  VLSVIFFLLMLGISY  74
+
+
+> sp|O32233|SECG_BACSU Probable protein-export membrane protein 
+SecG OS=Bacillus subtilis (strain 168) OX=224308 GN=secG PE=2 
+SV=1
+Length=76
+
+ Score = 40.6 bits (94),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 30/77 (39%), Positives = 46/77 (60%), Gaps = 4/77 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M    + +  I+S+ALI +V +Q SK + L GA  SGG   +FG++K         +IT+
+Sbjct  1   MHAVLITLLVIVSIALIIVVLLQSSKSAGLSGAI-SGGAEQLFGKQKARGLDLILHRITV  59
+
+Query  58  VLSVLFFVSCVVTAFVL  74
+           VL+VLFFV  +  A++L
+Sbjct  60  VLAVLFFVLTIALAYIL  76
+
+
+> sp|Q9WYU9|SECG_THEMA Protein-export membrane protein SecG OS=Thermotoga 
+maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 
+10099) OX=243274 GN=secG PE=1 SV=1
+Length=67
+
+ Score = 39.1 bits (90),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGA  33
+           MKTFFLIVHTIISVALIYMVQVQMSKFSELGGA
+Sbjct  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGA  33
+
+
+> sp|P57460|SECG_BUCAI Protein-export membrane protein SecG OS=Buchnera 
+aphidicola subsp. Acyrthosiphon pisum (strain APS) 
+OX=107806 GN=secG PE=3 SV=1
+Length=109
+
+ Score = 38.3 bits (88),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 17/76 (22%), Positives = 31/76 (41%), Gaps = 0/76 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M  FFLIV   IS +LI+ + +Q  K         +      F      +   KI  +L+
+Sbjct  1   MYLFFLIVFIFISFSLIFFILLQPGKGLNNTVHSHTKNNIKFFNSIGTNNFITKIIKILA  60
+
+Query  61  VLFFVSCVVTAFVLTR  76
+             F +  ++   + ++
+Sbjct  61  FFFLLISIILCNINSK  76
+
+
+> sp|O25847|SECG_HELPY Protein-export membrane protein SecG OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=secG 
+PE=3 SV=2
+Length=199
+
+ Score = 39.5 bits (91),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 12/51 (24%), Positives = 24/51 (47%), Gaps = 0/51 (0%)
+
+Query  26  KFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLSVLFFVSCVVTAFVLTR  76
+           K S +G    SG   ++FG +       K+T+ L +LF ++ +   +   +
+Sbjct  24  KSSSIGLGAYSGSNESLFGAKGPASFMAKLTMFLGLLFVINTIALGYFYNK  74
+
+
+> sp|Q9ZJX2|SECG_HELPJ Protein-export membrane protein SecG OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=secG 
+PE=3 SV=1
+Length=198
+
+ Score = 38.3 bits (88),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 12/51 (24%), Positives = 24/51 (47%), Gaps = 0/51 (0%)
+
+Query  26  KFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLSVLFFVSCVVTAFVLTR  76
+           K S +G    SG   ++FG +       K+T+ L +LF ++ +   +   +
+Sbjct  24  KSSSIGLGAYSGSNDSLFGAKGPASFMAKLTMFLGLLFVINTIALGYFYNK  74
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.151    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0465    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5030962891
+Results from round 3
+
+
+Query= B1L914|3dinE
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9HV52|SECG_PSEAE Protein-export membrane protein SecG OS=Ps...  81.1    2e-19
+  sp|P0AG99|SECG_ECOLI Protein-export membrane protein SecG OS=Es...  79.9    3e-19
+  sp|P0AGA0|SECG_ECOL6 Protein-export membrane protein SecG OS=Es...  79.9    3e-19
+  sp|P0AGA1|SECG_ECO57 Protein-export membrane protein SecG OS=Es...  79.9    3e-19
+  sp|P95577|SECG_PSEU2 Protein-export membrane protein SecG OS=Ps...  78.4    2e-18
+  sp|P57460|SECG_BUCAI Protein-export membrane protein SecG OS=Bu...  69.9    2e-15
+  sp|O25847|SECG_HELPY Protein-export membrane protein SecG OS=He...  63.0    2e-12
+  sp|Q9ZJX2|SECG_HELPJ Protein-export membrane protein SecG OS=He...  61.8    5e-12
+  sp|Q9CP52|SECG_PASMU Protein-export membrane protein SecG OS=Pa...  59.9    1e-11
+  sp|P44713|SECG_HAEIN Protein-export membrane protein SecG OS=Ha...  56.8    2e-10
+  sp|Q2G026|SECG_STAA8 Protein translocase subunit SecG OS=Staphy...  54.5    1e-09
+  sp|Q8CPY2|SECG_STAES Probable protein-export membrane protein S...  53.4    2e-09
+  sp|Q5HQU8|SECG_STAEQ Probable protein-export membrane protein S...  53.4    2e-09
+  sp|Q7A1F4|SECG_STAAW Probable protein-export membrane protein S...  52.6    3e-09
+  sp|Q6GB52|SECG_STAAS Probable protein-export membrane protein S...  52.6    3e-09
+  sp|Q7A6Q1|SECG_STAAN Probable protein-export membrane protein S...  52.6    3e-09
+  sp|Q99VK3|SECG_STAAM Probable protein-export membrane protein S...  52.6    3e-09
+  sp|Q5HHN9|SECG_STAAC Probable protein-export membrane protein S...  52.6    3e-09
+  sp|Q4L4K9|SECG_STAHJ Probable protein-export membrane protein S...  52.2    5e-09
+  sp|Q6GIL2|SECG_STAAR Probable protein-export membrane protein S...  51.8    7e-09
+  sp|Q49W06|SECG_STAS1 Probable protein-export membrane protein S...  51.1    2e-08
+  sp|O32233|SECG_BACSU Probable protein-export membrane protein S...  42.6    1e-05
+  sp|Q9WYU9|SECG_THEMA Protein-export membrane protein SecG OS=Th...  36.4    0.002
+
+Sequences not found previously or not previously below threshold:
+
+  sp|O66505|SECG_AQUAE Protein-export membrane protein SecG OS=Aq...  36.0    0.004
+
+
+> sp|Q9HV52|SECG_PSEAE Protein-export membrane protein SecG OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=secG PE=3 SV=1
+Length=129
+
+ Score = 81.1 bits (199),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 20/73 (27%), Positives = 44/73 (60%), Gaps = 0/73 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           ++   ++VH ++++ L+ ++ VQ  K ++ G +FG+G   TVFG +       +IT +L+
+Sbjct  2   LEKVVIVVHLLMALGLVGLILVQHGKGADAGASFGAGASATVFGSQGSATFLSRITGILA  61
+
+Query  61  VLFFVSCVVTAFV  73
+            +FF++ +  A+ 
+Sbjct  62  AVFFLTSLGLAYF  74
+
+
+> sp|P0AG99|SECG_ECOLI Protein-export membrane protein SecG OS=Escherichia 
+coli (strain K12) OX=83333 GN=secG PE=1 SV=1
+Length=110
+
+ Score = 79.9 bits (196),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 20/75 (27%), Positives = 43/75 (57%), Gaps = 0/75 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L+V  I+++ L+ ++ +Q  K +++G +FG+G   T+FG     +   ++T +L+
+Sbjct  1   MYEALLVVFLIVAIGLVGLIMLQQGKGADMGASFGAGASATLFGSSGSGNFMTRMTALLA  60
+
+Query  61  VLFFVSCVVTAFVLT  75
+            LFF+  +V   + +
+Sbjct  61  TLFFIISLVLGNINS  75
+
+
+> sp|P0AGA0|SECG_ECOL6 Protein-export membrane protein SecG OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) 
+OX=199310 GN=secG PE=3 SV=1
+Length=110
+
+ Score = 79.9 bits (196),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 20/75 (27%), Positives = 43/75 (57%), Gaps = 0/75 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L+V  I+++ L+ ++ +Q  K +++G +FG+G   T+FG     +   ++T +L+
+Sbjct  1   MYEALLVVFLIVAIGLVGLIMLQQGKGADMGASFGAGASATLFGSSGSGNFMTRMTALLA  60
+
+Query  61  VLFFVSCVVTAFVLT  75
+            LFF+  +V   + +
+Sbjct  61  TLFFIISLVLGNINS  75
+
+
+> sp|P0AGA1|SECG_ECO57 Protein-export membrane protein SecG OS=Escherichia 
+coli O157:H7 OX=83334 GN=secG PE=3 SV=1
+Length=110
+
+ Score = 79.9 bits (196),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 20/75 (27%), Positives = 43/75 (57%), Gaps = 0/75 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L+V  I+++ L+ ++ +Q  K +++G +FG+G   T+FG     +   ++T +L+
+Sbjct  1   MYEALLVVFLIVAIGLVGLIMLQQGKGADMGASFGAGASATLFGSSGSGNFMTRMTALLA  60
+
+Query  61  VLFFVSCVVTAFVLT  75
+            LFF+  +V   + +
+Sbjct  61  TLFFIISLVLGNINS  75
+
+
+> sp|P95577|SECG_PSEU2 Protein-export membrane protein SecG OS=Pseudomonas 
+syringae pv. syringae (strain B728a) OX=205918 GN=secG 
+PE=3 SV=1
+Length=126
+
+ Score = 78.4 bits (192),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 18/73 (25%), Positives = 41/73 (56%), Gaps = 0/73 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           ++T  ++ H + ++ ++ +V +Q  K ++ G +FG+G  +TVFG +       K T +L+
+Sbjct  2   LETVVIVFHLLGALGVVALVLLQQGKGADAGASFGAGASNTVFGGQGTSTFLSKFTAILA  61
+
+Query  61  VLFFVSCVVTAFV  73
+             FF++ +   + 
+Sbjct  62  ACFFITSLGLGYF  74
+
+
+> sp|P57460|SECG_BUCAI Protein-export membrane protein SecG OS=Buchnera 
+aphidicola subsp. Acyrthosiphon pisum (strain APS) 
+OX=107806 GN=secG PE=3 SV=1
+Length=109
+
+ Score = 69.9 bits (170),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 17/76 (22%), Positives = 31/76 (41%), Gaps = 0/76 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M  FFLIV   IS +LI+ + +Q  K         +      F      +   KI  +L+
+Sbjct  1   MYLFFLIVFIFISFSLIFFILLQPGKGLNNTVHSHTKNNIKFFNSIGTNNFITKIIKILA  60
+
+Query  61  VLFFVSCVVTAFVLTR  76
+             F +  ++   + ++
+Sbjct  61  FFFLLISIILCNINSK  76
+
+
+> sp|O25847|SECG_HELPY Protein-export membrane protein SecG OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=secG 
+PE=3 SV=2
+Length=199
+
+ Score = 63.0 bits (152),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 12/51 (24%), Positives = 24/51 (47%), Gaps = 0/51 (0%)
+
+Query  26  KFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLSVLFFVSCVVTAFVLTR  76
+           K S +G    SG   ++FG +       K+T+ L +LF ++ +   +   +
+Sbjct  24  KSSSIGLGAYSGSNESLFGAKGPASFMAKLTMFLGLLFVINTIALGYFYNK  74
+
+
+> sp|Q9ZJX2|SECG_HELPJ Protein-export membrane protein SecG OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=secG 
+PE=3 SV=1
+Length=198
+
+ Score = 61.8 bits (149),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 12/51 (24%), Positives = 24/51 (47%), Gaps = 0/51 (0%)
+
+Query  26  KFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLSVLFFVSCVVTAFVLTR  76
+           K S +G    SG   ++FG +       K+T+ L +LF ++ +   +   +
+Sbjct  24  KSSSIGLGAYSGSNDSLFGAKGPASFMAKLTMFLGLLFVINTIALGYFYNK  74
+
+
+> sp|Q9CP52|SECG_PASMU Protein-export membrane protein SecG OS=Pasteurella 
+multocida (strain Pm70) OX=272843 GN=secG PE=3 SV=1
+Length=115
+
+ Score = 59.9 bits (144),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 21/75 (28%), Positives = 41/75 (55%), Gaps = 0/75 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L+ + II++ +++++ +Q  K ++ G +FG G   T+FG     +   K+T +L+
+Sbjct  1   MYQTLLLGYAIIAIVIVFLILIQQGKGADAGASFGGGASGTIFGSVGSGNFLSKMTALLA  60
+
+Query  61  VLFFVSCVVTAFVLT  75
+             FFV  +V   V +
+Sbjct  61  TAFFVMSIVIGNVNS  75
+
+
+> sp|P44713|SECG_HAEIN Protein-export membrane protein SecG OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=secG PE=3 SV=1
+Length=112
+
+ Score = 56.8 bits (136),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 20/75 (27%), Positives = 38/75 (51%), Gaps = 0/75 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKITLVLS  60
+           M    L ++ ++++ALI  + VQ  K +  G +FG G   T+FG     +   + + +L+
+Sbjct  1   MYQVLLFIYVVVAIALIGFILVQQGKGANAGASFGGGASGTMFGSAGAGNFLTRTSAILA  60
+
+Query  61  VLFFVSCVVTAFVLT  75
+             FFV  +V   + +
+Sbjct  61  TAFFVIALVLGNMNS  75
+
+
+> sp|Q2G026|SECG_STAA8 Protein translocase subunit SecG OS=Staphylococcus 
+aureus (strain NCTC 8325) OX=93061 GN=SAOUHSC_00801 
+PE=3 SV=1
+Length=91
+
+ Score = 54.5 bits (130),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  15  MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  73
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  74  ILSILFFVLMICISYL  89
+
+
+> sp|Q8CPY2|SECG_STAES Probable protein-export membrane protein 
+SecG OS=Staphylococcus epidermidis (strain ATCC 12228) OX=176280 
+GN=secG PE=3 SV=1
+Length=77
+
+ Score = 53.4 bits (127),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 23/76 (30%), Positives = 43/76 (57%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M T  +++  I  +AL+ +V +Q  K + L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTLIIVLLIIDCIALVTVVLLQEGKSNGLSGAI-SGGAEQLFGKQKQRGVDLFLHRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +L++LFFV     +++
+Sbjct  60  ILAILFFVLMFCISYL  75
+
+
+> sp|Q5HQU8|SECG_STAEQ Probable protein-export membrane protein 
+SecG OS=Staphylococcus epidermidis (strain ATCC 35984 / RP62A) 
+OX=176279 GN=secG PE=3 SV=1
+Length=77
+
+ Score = 53.4 bits (127),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 23/76 (30%), Positives = 43/76 (57%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M T  +++  I  +AL+ +V +Q  K + L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTLIIVLLIIDCIALVTVVLLQEGKSNGLSGAI-SGGAEQLFGKQKQRGVDLFLHRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +L++LFFV     +++
+Sbjct  60  ILAILFFVLMFCISYL  75
+
+
+> sp|Q7A1F4|SECG_STAAW Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain MW2) OX=196620 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 52.6 bits (125),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q6GB52|SECG_STAAS Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 52.6 bits (125),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q7A6Q1|SECG_STAAN Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain N315) OX=158879 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 52.6 bits (125),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q99VK3|SECG_STAAM Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 
+GN=secG PE=3 SV=1
+Length=77
+
+ Score = 52.6 bits (125),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q5HHN9|SECG_STAAC Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain COL) OX=93062 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 52.6 bits (125),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGLSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q4L4K9|SECG_STAHJ Probable protein-export membrane protein 
+SecG OS=Staphylococcus haemolyticus (strain JCSC1435) OX=279808 
+GN=secG PE=3 SV=1
+Length=77
+
+ Score = 52.2 bits (124),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 24/76 (32%), Positives = 44/76 (58%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M T F+++  I  +ALI +V +Q  K + L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTLFIVLLIIDCIALITVVLLQEGKSNGLSGAI-SGGAEQLFGKQKQRGVDLFLHRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +L+V+FF+  +  ++ 
+Sbjct  60  ILAVIFFLIMIGISYF  75
+
+
+> sp|Q6GIL2|SECG_STAAR Probable protein-export membrane protein 
+SecG OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=secG 
+PE=3 SV=1
+Length=77
+
+ Score = 51.8 bits (123),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 26/76 (34%), Positives = 44/76 (58%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M TF +++  I  +ALI +V +Q  K S   GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTFLIVLLIIDCIALITVVLLQEGKSSGFSGAI-SGGAEQLFGKQKQRGVDLFLNRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           +LS+LFFV  +  +++
+Sbjct  60  ILSILFFVLMICISYL  75
+
+
+> sp|Q49W06|SECG_STAS1 Probable protein-export membrane protein 
+SecG OS=Staphylococcus saprophyticus subsp. saprophyticus (strain 
+ATCC 15305 / DSM 20229) OX=342451 GN=secG PE=3 SV=1
+Length=77
+
+ Score = 51.1 bits (121),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 23/76 (30%), Positives = 43/76 (57%), Gaps = 4/76 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M T  +++  +  +AL+ +V +Q  K + L GA  SGG   +FG++K         ++T+
+Sbjct  1   MHTLIMVLLILDCIALVTVVLLQEGKSNGLSGAI-SGGAEQLFGKQKQRGIDLFLHRLTI  59
+
+Query  58  VLSVLFFVSCVVTAFV  73
+           VLSV+FF+  +  ++ 
+Sbjct  60  VLSVIFFLLMLGISYF  75
+
+
+> sp|O32233|SECG_BACSU Probable protein-export membrane protein 
+SecG OS=Bacillus subtilis (strain 168) OX=224308 GN=secG PE=2 
+SV=1
+Length=76
+
+ Score = 42.6 bits (99),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 30/77 (39%), Positives = 46/77 (60%), Gaps = 4/77 (5%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLD---TGGKITL  57
+           M    + +  I+S+ALI +V +Q SK + L GA  SGG   +FG++K         +IT+
+Sbjct  1   MHAVLITLLVIVSIALIIVVLLQSSKSAGLSGAI-SGGAEQLFGKQKARGLDLILHRITV  59
+
+Query  58  VLSVLFFVSCVVTAFVL  74
+           VL+VLFFV  +  A++L
+Sbjct  60  VLAVLFFVLTIALAYIL  76
+
+
+> sp|Q9WYU9|SECG_THEMA Protein-export membrane protein SecG OS=Thermotoga 
+maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 
+10099) OX=243274 GN=secG PE=1 SV=1
+Length=67
+
+ Score = 36.4 bits (83),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 33/34 (97%), Positives = 33/34 (97%), Gaps = 0/34 (0%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAF  34
+           MKTFFLIVHTIISVALIYMVQVQMSKFSELGGA 
+Sbjct  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAS  34
+
+
+> sp|O66505|SECG_AQUAE Protein-export membrane protein SecG OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=secG PE=1 SV=1
+Length=100
+
+ Score = 36.0 bits (82),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/56 (30%), Positives = 25/56 (45%), Gaps = 1/56 (2%)
+
+Query  1   MKTFFLIVHTIISVALIYMVQVQMSKFSELGGAFGSGGLHTVFGRRKGLDTGGKIT  56
+           M    L +  II+V LI    +Q  +  ++G AFG G   ++FG         K T
+Sbjct  1   MYYALLTLFVIIAVVLIISTLLQKGRG-DVGAAFGGGMGQSIFGVGGVETILTKAT  55
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.150    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0467    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5030962891
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

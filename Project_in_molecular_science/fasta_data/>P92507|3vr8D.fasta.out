@@ -1,0 +1,1474 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P92507|3vr8D
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P92507|DHSD_ASCSU Succinate dehydrogenase [ubiquinone] cytoc...  317     2e-110
+  sp|A8WT26|DHSD_CAEBR Putative succinate dehydrogenase [ubiquino...  129     1e-36 
+  sp|O62215|DHSD_CAEEL Putative succinate dehydrogenase [ubiquino...  125     3e-35 
+  sp|Q9CXV1|DHSD_MOUSE Succinate dehydrogenase [ubiquinone] cytoc...  83.6    5e-19 
+  sp|Q9VCI5|DHSD_DROME Succinate dehydrogenase [ubiquinone] cytoc...  83.6    8e-19 
+  sp|Q5G2C6|DHSD_SHEEP Succinate dehydrogenase [ubiquinone] cytoc...  81.3    4e-18 
+  sp|Q95123|DHSD_BOVIN Succinate dehydrogenase [ubiquinone] cytoc...  80.5    6e-18 
+  sp|Q6PCT8|DHSD_RAT Succinate dehydrogenase [ubiquinone] cytochr...  80.1    8e-18 
+  sp|Q6P355|DHSD_XENTR Succinate dehydrogenase [ubiquinone] cytoc...  79.7    1e-17 
+  sp|Q6AZV0|DHSDB_XENLA Succinate dehydrogenase [ubiquinone] cyto...  79.3    1e-17 
+  sp|Q6AZR3|DHSDA_XENLA Succinate dehydrogenase [ubiquinone] cyto...  77.0    1e-16 
+  sp|O14521|DHSD_HUMAN Succinate dehydrogenase [ubiquinone] cytoc...  75.9    3e-16 
+  sp|Q68FN7|DHSDB_DANRE Succinate dehydrogenase [ubiquinone] cyto...  74.7    8e-16 
+  sp|A5GZW8|DHSD_PIG Succinate dehydrogenase [ubiquinone] cytochr...  73.9    1e-15 
+  sp|Q5RC29|DHSD_PONAB Succinate dehydrogenase [ubiquinone] cytoc...  71.6    1e-14 
+  sp|Q5ZIS0|DHSD_CHICK Succinate dehydrogenase [ubiquinone] cytoc...  68.9    8e-14 
+  sp|Q6DGM2|DHSDA_DANRE Succinate dehydrogenase [ubiquinone] cyto...  67.8    2e-13 
+  sp|Q9P7X0|DHSD_SCHPO Succinate dehydrogenase [ubiquinone] cytoc...  46.6    6e-06 
+  sp|Q7SGY6|DHSD_NEUCR Succinate dehydrogenase [ubiquinone] cytoc...  38.5    0.007 
+
+
+> sp|P92507|DHSD_ASCSU Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Ascaris suum OX=6253 
+PE=1 SV=2
+Length=156
+
+ Score = 317 bits (813),  Expect = 2e-110, Method: Compositional matrix adjust.
+ Identities = 156/156 (100%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  1    MLSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFK  60
+            MLSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFK
+Sbjct  1    MLSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFK  60
+
+Query  61   IERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAA  120
+            IERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAA
+Sbjct  61   IERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAA  120
+
+Query  121  VRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            VRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL
+Sbjct  121  VRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+
+
+> sp|A8WT26|DHSD_CAEBR Putative succinate dehydrogenase [ubiquinone] 
+cytochrome b small subunit, mitochondrial OS=Caenorhabditis 
+briggsae OX=6238 GN=sdhd-1 PE=3 SV=1
+Length=145
+
+ Score = 129 bits (323),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 58/111 (52%), Positives = 79/111 (71%), Gaps = 0/111 (0%)
+
+Query  46   EKGFKPLHSHGTLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVN  105
+              G   +  H   FK+ER +A  M+P++PA+YFIHG  MD  L +ALTLH+HWG+ GVV 
+Sbjct  35   NDGASKVPDHSMHFKLERLWAVGMLPILPASYFIHGPVMDAVLTVALTLHIHWGIHGVVY  94
+
+Query  106  DYGRPFVLGDTLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            DY RP+V+G+  A A  +G Y+ T  LLAGLL+FN +DVG+T+AFE+V+ L
+Sbjct  95   DYARPYVIGEAAAKAAHIGVYLITGLLLAGLLHFNTNDVGITKAFELVFSL  145
+
+
+> sp|O62215|DHSD_CAEEL Putative succinate dehydrogenase [ubiquinone] 
+cytochrome b small subunit, mitochondrial OS=Caenorhabditis 
+elegans OX=6239 GN=sdhd-1 PE=3 SV=1
+Length=145
+
+ Score = 125 bits (315),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 57/111 (51%), Positives = 77/111 (69%), Gaps = 0/111 (0%)
+
+Query  46   EKGFKPLHSHGTLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVN  105
+              G   +  H   FK+ER +A  M+P++PA+YFIHG  MD  L +ALTLH+HWG+ GVV 
+Sbjct  35   NDGASKVPDHSMHFKLERLWAVGMLPILPASYFIHGPVMDAVLTVALTLHIHWGIHGVVY  94
+
+Query  106  DYGRPFVLGDTLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            DY RP+V+G+  A A  VG Y+ T  LL  LL+FN +DVG+T+AFE+V+ L
+Sbjct  95   DYARPYVIGEAAAKAAHVGVYLITGLLLGALLHFNTNDVGITKAFELVFSL  145
+
+
+> sp|Q9CXV1|DHSD_MOUSE Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Mus musculus OX=10090 
+GN=Sdhd PE=1 SV=2
+Length=159
+
+ Score = 83.6 bits (205),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 57/155 (37%), Positives = 75/155 (48%), Gaps = 17/155 (11%)
+
+Query  7    RAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTL-----FKI  61
+            RA+ L +R++R + +        +A     P Q           P H  G+      +  
+Sbjct  17   RALLLRSRVVRPAYV--------SAFLQDQPTQGRCGTQHIHLSPSHHSGSKAASLHWTS  68
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER  +  ++ LIPA Y      +D  LA ALTLH HWG+  VV DY    V GDTL  A 
+Sbjct  69   ERVVSVLLLGLIPAGYLNPCSVVDYSLAAALTLHSHWGLGQVVTDY----VHGDTLPKAA  124
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            R G    +A   AGL YFN HDVG+ RA  M+W+L
+Sbjct  125  RAGLLALSALTFAGLCYFNYHDVGICRAVAMLWKL  159
+
+
+> sp|Q9VCI5|DHSD_DROME Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Drosophila melanogaster 
+OX=7227 GN=SdhD PE=2 SV=1
+Length=182
+
+ Score = 83.6 bits (205),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 47/152 (31%), Positives = 75/152 (49%), Gaps = 2/152 (1%)
+
+Query  7    RAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIA--AEKGFKPLHSHGTLFKIERY  64
+            R  PL +     + +QR A     AV     P    I+  A +      SH  L+ +ER 
+Sbjct  23   RITPLKSYSTLVANVQRKAVVQPLAVAKIVAPVVREISVSAPRMASAGSSHTLLWTVERI  82
+
+Query  65   FAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAVRVG  124
+             +A ++ +IPAA+    + +D  +A+++ +H HWGV  +V DY RP V+G+ L     + 
+Sbjct  83   VSAGLLAVIPAAFIAPSQVLDALMAISVVIHTHWGVEAMVVDYMRPSVVGNVLPKVAHIA  142
+
+Query  125  AYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+              I +   L GL YF ++DVGL    +  W +
+Sbjct  143  LIIISVATLGGLFYFIQNDVGLANGIKRFWAI  174
+
+
+> sp|Q5G2C6|DHSD_SHEEP Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Ovis aries OX=9940 
+GN=SDHD PE=2 SV=1
+Length=158
+
+ Score = 81.3 bits (199),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 43/95 (45%), Positives = 55/95 (58%), Gaps = 4/95 (4%)
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER  +  ++ LIPAAY      MD  LA  LTLH HWG+  VV DY    V GD +  A 
+Sbjct  68   ERVVSVLLLGLIPAAYLNPCSAMDYSLAATLTLHSHWGIGQVVTDY----VHGDAVQKAA  123
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            + G  + +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  124  KTGLLVLSAFTFAGLCYFNYHDVGICKAVAMLWKL  158
+
+
+> sp|Q95123|DHSD_BOVIN Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Bos taurus OX=9913 
+GN=SDHD PE=2 SV=2
+Length=158
+
+ Score = 80.5 bits (197),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 43/95 (45%), Positives = 55/95 (58%), Gaps = 4/95 (4%)
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER  +  ++ LIPAAY      MD  LA  LTLH HWG+  VV DY    V GD +  A 
+Sbjct  68   ERVVSVLLLGLIPAAYLNPCSAMDYSLAATLTLHSHWGIGQVVTDY----VHGDAVQKAA  123
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            + G  + +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  124  KTGLLVLSAFTFAGLCYFNYHDVGICKAVAMLWKL  158
+
+
+> sp|Q6PCT8|DHSD_RAT Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Rattus norvegicus OX=10116 
+GN=Sdhd PE=2 SV=1
+Length=159
+
+ Score = 80.1 bits (196),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 57/160 (36%), Positives = 77/160 (48%), Gaps = 27/160 (17%)
+
+Query  7    RAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLH---SHGTLFKI--  61
+            RA+ L +R +R + +             +A  Q  P    +G + +H   SH +  K   
+Sbjct  17   RALSLRSRAVRPAFV-------------SAFLQDQPTPGWRGTQHIHLSPSHQSGSKAAS  63
+
+Query  62   -----ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+                 ER  +  ++ LIPA Y      +D  LA ALTLH HWG+  VV DY    V GD 
+Sbjct  64   LHWTSERVVSVLLLGLIPAGYLNPCSVVDYSLAAALTLHSHWGIGQVVTDY----VHGDA  119
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            L  A + G    +A   AGL YFN HDVG+ RA  M+W+L
+Sbjct  120  LQKATKAGLLAVSALTFAGLCYFNYHDVGICRAVAMLWKL  159
+
+
+> sp|Q6P355|DHSD_XENTR Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Xenopus tropicalis 
+OX=8364 GN=sdhd PE=2 SV=1
+Length=152
+
+ Score = 79.7 bits (195),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 43/95 (45%), Positives = 53/95 (56%), Gaps = 4/95 (4%)
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER  + A++ L+PAAY   G  MD  LA ALTLH HWG+  VV DY    V GD      
+Sbjct  62   ERALSVALLGLLPAAYLYPGAAMDYSLAAALTLHGHWGLGQVVTDY----VHGDAKIKMA  117
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+                +  +A   AGL YFN HDVG+ +A  M+W L
+Sbjct  118  NTSLFALSALTFAGLCYFNYHDVGICKAVSMLWSL  152
+
+
+> sp|Q6AZV0|DHSDB_XENLA Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit B, mitochondrial OS=Xenopus laevis 
+OX=8355 GN=sdhd-b PE=2 SV=1
+Length=152
+
+ Score = 79.3 bits (194),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 43/95 (45%), Positives = 54/95 (57%), Gaps = 4/95 (4%)
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER  + A++ L+PAAY   G  MD  LA ALTLH HWG+  VV DY    V G+T     
+Sbjct  62   ERALSVALLGLLPAAYLYPGAAMDYSLAAALTLHGHWGLGQVVTDY----VHGETKIKMA  117
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+                +  +A   AGL YFN HDVG+ +A  M+W L
+Sbjct  118  NTSLFALSALTFAGLCYFNYHDVGICKAVAMLWSL  152
+
+
+> sp|Q6AZR3|DHSDA_XENLA Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit A, mitochondrial OS=Xenopus laevis 
+OX=8355 GN=sdhd-a PE=2 SV=1
+Length=152
+
+ Score = 77.0 bits (188),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 42/95 (44%), Positives = 53/95 (56%), Gaps = 4/95 (4%)
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER  + A++ L+PAAY   G  +D  LA ALTLH HWG+  VV DY    V GD      
+Sbjct  62   ERALSVALLGLLPAAYLYPGAAVDYSLAAALTLHGHWGLGQVVTDY----VHGDAKIKLA  117
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+                +  +A   AGL YFN HDVG+ +A  M+W L
+Sbjct  118  NTSLFALSALTFAGLCYFNYHDVGICKAVAMLWSL  152
+
+
+> sp|O14521|DHSD_HUMAN Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Homo sapiens OX=9606 
+GN=SDHD PE=1 SV=1
+Length=159
+
+ Score = 75.9 bits (185),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 59/160 (37%), Positives = 81/160 (51%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTL---  58
+            LSAV  A+   A +LRT +++      SA +     P++  +       P H  G+    
+Sbjct  7    LSAVCGALGGRALLLRTPVVR--PAHISAFLQDRPIPEWCGVQ-HIHLSPSHHSGSKAAS  63
+
+Query  59   --FKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ L+PAAY      MD  LA ALTLH HWG+  VV DY    V GD 
+Sbjct  64   LHWTSERVVSVLLLGLLPAAYLNPCSAMDYSLAAALTLHGHWGLGQVVTDY----VHGDA  119
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            L  A + G    +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  120  LQKAAKAGLLALSALTFAGLCYFNYHDVGICKAVAMLWKL  159
+
+
+> sp|Q68FN7|DHSDB_DANRE Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit B, mitochondrial OS=Danio rerio OX=7955 
+GN=sdhdb PE=2 SV=1
+Length=158
+
+ Score = 74.7 bits (182),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 39/94 (41%), Positives = 51/94 (54%), Gaps = 4/94 (4%)
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER  + A++ L P AYF     +D  LA ALTLH HWG+  VV DY    V GD      
+Sbjct  68   ERILSIALLSLAPVAYFCPSPAVDYSLAAALTLHGHWGLGQVVTDY----VHGDAKIKMA  123
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+              G ++ +    AGL YFN HDVG+ +A  ++W 
+Sbjct  124  NAGLFVLSTVTFAGLCYFNYHDVGICKAVALLWS  157
+
+
+> sp|A5GZW8|DHSD_PIG Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Sus scrofa OX=9823 GN=SDHD 
+PE=1 SV=2
+Length=159
+
+ Score = 73.9 bits (180),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 43/95 (45%), Positives = 54/95 (57%), Gaps = 4/95 (4%)
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER  +  ++ L+PAAY      MD  LA ALTLH HWG+  VV DY R    GD L    
+Sbjct  69   ERVVSVLLLGLLPAAYLNPCSAMDYSLAAALTLHGHWGIGQVVTDYVR----GDALQKVA  124
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            + G    +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  125  KAGLLALSAFTFAGLCYFNYHDVGICKAVAMLWKL  159
+
+
+> sp|Q5RC29|DHSD_PONAB Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Pongo abelii OX=9601 
+GN=SDHD PE=2 SV=1
+Length=159
+
+ Score = 71.6 bits (174),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 42/95 (44%), Positives = 53/95 (56%), Gaps = 4/95 (4%)
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER  +  ++ L+PAAY      MD  LA  LTLH HWG+  VV DY    V GD    A 
+Sbjct  69   ERVVSVLLLGLLPAAYLNPCSAMDYSLAATLTLHGHWGLGQVVTDY----VHGDASQKAA  124
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            + G    +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  125  KAGLLALSALTFAGLCYFNYHDVGICKAVAMLWKL  159
+
+
+> sp|Q5ZIS0|DHSD_CHICK Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Gallus gallus OX=9031 
+GN=SDHD PE=1 SV=1
+Length=157
+
+ Score = 68.9 bits (167),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 54/150 (36%), Positives = 80/150 (53%), Gaps = 7/150 (5%)
+
+Query  7    RAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFKIERYFA  66
+            R +P +  +LR +L++  A  T+AA   +AP +     A +G     +    +  ER  +
+Sbjct  15   RGVPTA--LLRGTLLRHSAVLTAAA-DRSAPARQSHGGAPQGHGSSKAASLHWTSERAVS  71
+
+Query  67   AAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAVRVGAY  126
+            A ++ L+PAAY   G  +D  LA ALTLH HWG+  V+ DY    V GDT       G Y
+Sbjct  72   ALLLGLLPAAYLYPGPAVDYSLAAALTLHGHWGLGQVITDY----VHGDTPIKVANTGLY  127
+
+Query  127  IFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            + +A    GL YFN +DVG+ +A  M+W +
+Sbjct  128  VLSAITFTGLCYFNYYDVGICKAVAMLWSI  157
+
+
+> sp|Q6DGM2|DHSDA_DANRE Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit A, mitochondrial OS=Danio rerio OX=7955 
+GN=sdhda PE=2 SV=1
+Length=154
+
+ Score = 67.8 bits (164),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 35/94 (37%), Positives = 52/94 (55%), Gaps = 4/94 (4%)
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER     ++ + PAAY   G  +D  +A ALT+H HWG+  V+ DY    V G+      
+Sbjct  64   ERVMTLVLLGMAPAAYLCPGPVVDYSIAAALTMHGHWGIGQVLTDY----VHGEVKIKLA  119
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+            +VG ++ +     GL YFN +DVGL +A  M+W+
+Sbjct  120  KVGIFLLSTATFFGLCYFNYNDVGLCKAVVMLWQ  153
+
+
+> sp|Q9P7X0|DHSD_SCHPO Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=sdh4 PE=2 SV=2
+Length=159
+
+ Score = 46.6 bits (109),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 45/141 (32%), Positives = 58/141 (41%), Gaps = 11/141 (8%)
+
+Query  23   RCAGATSAAVTGAAPPQ-FDPIAAEKGFKPLHS--HGTL-FKIERYFAAAMVP--LIPAA  76
+            +    TS A     PPQ       +    P HS  HG+  +  ER  A AMVP  +IP  
+Sbjct  21   KSFSTTSVAKIFPPPPQTIKGTVNDAAVFPHHSKLHGSYHWDFERIIAIAMVPQVMIPLF  80
+
+Query  77   YFIHGREMDLCLALALTLHVHWGVWGVVNDY--GRPFVLGDTLAAAVRVGAYIFTACLLA  134
+                   MD  LA  L  H H G    V DY   R F     L   +  G  + T   L 
+Sbjct  81   TGTSHPLMDAALACTLITHAHLGFESCVIDYFPARRFKKLSPLMHWILRGCTVLT---LI  137
+
+Query  135  GLLYFNEHDVGLTRAFEMVWE  155
+            G+  FN +D+GLT   + +W+
+Sbjct  138  GVYEFNTNDIGLTEGIKKLWK  158
+
+
+> sp|Q7SGY6|DHSD_NEUCR Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Neurospora crassa 
+(strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 
+987) OX=367110 GN=B18P24.060 PE=3 SV=1
+Length=166
+
+ Score = 38.5 bits (88),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 35/107 (33%), Positives = 51/107 (48%), Gaps = 10/107 (9%)
+
+Query  55   HGTL-FKIERYFAAAMVPLI--PAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPF  111
+            HG+  +  +R  AA ++PL   P A       MD  LA  + +H H G   ++ DY    
+Sbjct  63   HGSYHWTFDRVVAAGLIPLTVAPFAAGSLNPTMDAVLAATILIHSHTGFGNIIVDY----  118
+
+Query  112  VLGDTLAAAVRVGAY-IFTACLLAGL-LY-FNEHDVGLTRAFEMVWE  155
+            V    +  A +V  + +  A +L GL LY F   DVGLT   + VW+
+Sbjct  119  VPSKRVPKARKVFTWGLNAATVLVGLALYEFETTDVGLTETIKRVWK  165
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.140    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6696727392
+Results from round 2
+
+
+Query= P92507|3vr8D
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P92507|DHSD_ASCSU Succinate dehydrogenase [ubiquinone] cytoc...  191     7e-61
+  sp|Q9CXV1|DHSD_MOUSE Succinate dehydrogenase [ubiquinone] cytoc...  162     3e-49
+  sp|Q95123|DHSD_BOVIN Succinate dehydrogenase [ubiquinone] cytoc...  161     5e-49
+  sp|Q5G2C6|DHSD_SHEEP Succinate dehydrogenase [ubiquinone] cytoc...  159     3e-48
+  sp|O14521|DHSD_HUMAN Succinate dehydrogenase [ubiquinone] cytoc...  156     7e-47
+  sp|Q6PCT8|DHSD_RAT Succinate dehydrogenase [ubiquinone] cytochr...  156     7e-47
+  sp|Q9VCI5|DHSD_DROME Succinate dehydrogenase [ubiquinone] cytoc...  155     2e-46
+  sp|Q5RC29|DHSD_PONAB Succinate dehydrogenase [ubiquinone] cytoc...  154     2e-46
+  sp|A5GZW8|DHSD_PIG Succinate dehydrogenase [ubiquinone] cytochr...  143     9e-42
+  sp|Q68FN7|DHSDB_DANRE Succinate dehydrogenase [ubiquinone] cyto...  142     2e-41
+  sp|Q6DGM2|DHSDA_DANRE Succinate dehydrogenase [ubiquinone] cyto...  138     4e-40
+  sp|Q5ZIS0|DHSD_CHICK Succinate dehydrogenase [ubiquinone] cytoc...  138     5e-40
+  sp|Q6P355|DHSD_XENTR Succinate dehydrogenase [ubiquinone] cytoc...  138     5e-40
+  sp|Q6AZV0|DHSDB_XENLA Succinate dehydrogenase [ubiquinone] cyto...  136     2e-39
+  sp|Q6AZR3|DHSDA_XENLA Succinate dehydrogenase [ubiquinone] cyto...  135     5e-39
+  sp|A8WT26|DHSD_CAEBR Putative succinate dehydrogenase [ubiquino...  134     2e-38
+  sp|Q9P7X0|DHSD_SCHPO Succinate dehydrogenase [ubiquinone] cytoc...  134     3e-38
+  sp|O62215|DHSD_CAEEL Putative succinate dehydrogenase [ubiquino...  132     8e-38
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q7SGY6|DHSD_NEUCR Succinate dehydrogenase [ubiquinone] cytoc...  76.0    3e-16
+  sp|Q06236|SHH4_YEAST Mitochondrial inner membrane protein SHH4 ...  58.6    3e-10
+  sp|Q750S6|DHSD_ASHGO Succinate dehydrogenase [ubiquinone] cytoc...  49.0    1e-06
+  sp|P37298|DHSD_YEAST Succinate dehydrogenase [ubiquinone] cytoc...  49.0    1e-06
+  sp|Q08749|TIM18_YEAST Mitochondrial import inner membrane trans...  45.9    2e-05
+
+
+> sp|P92507|DHSD_ASCSU Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Ascaris suum OX=6253 
+PE=1 SV=2
+Length=156
+
+ Score = 191 bits (486),  Expect = 7e-61, Method: Composition-based stats.
+ Identities = 156/156 (100%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  1    MLSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFK  60
+            MLSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFK
+Sbjct  1    MLSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFK  60
+
+Query  61   IERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAA  120
+            IERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAA
+Sbjct  61   IERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAA  120
+
+Query  121  VRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            VRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL
+Sbjct  121  VRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+
+
+> sp|Q9CXV1|DHSD_MOUSE Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Mus musculus OX=10090 
+GN=Sdhd PE=1 SV=2
+Length=159
+
+ Score = 162 bits (409),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 57/155 (37%), Positives = 75/155 (48%), Gaps = 17/155 (11%)
+
+Query  7    RAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGT-----LFKI  61
+            RA+ L +R++R + +        +A     P Q           P H  G+      +  
+Sbjct  17   RALLLRSRVVRPAYV--------SAFLQDQPTQGRCGTQHIHLSPSHHSGSKAASLHWTS  68
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER  +  ++ LIPA Y      +D  LA ALTLH HWG+  VV DY    V GDTL  A 
+Sbjct  69   ERVVSVLLLGLIPAGYLNPCSVVDYSLAAALTLHSHWGLGQVVTDY----VHGDTLPKAA  124
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            R G    +A   AGL YFN HDVG+ RA  M+W+L
+Sbjct  125  RAGLLALSALTFAGLCYFNYHDVGICRAVAMLWKL  159
+
+
+> sp|Q95123|DHSD_BOVIN Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Bos taurus OX=9913 
+GN=SDHD PE=2 SV=2
+Length=158
+
+ Score = 161 bits (407),  Expect = 5e-49, Method: Composition-based stats.
+ Identities = 56/160 (35%), Positives = 75/160 (47%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGT----  57
+            LS +  A    A  LRT +++       +A     P Q           P H  G+    
+Sbjct  6    LSVLCGAREGRALFLRTPVVRPALV---SAFLQDRPAQGWCGTQHIHLSPSHHSGSKAAS  62
+
+Query  58   -LFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ LIPAAY      MD  LA  LTLH HWG+  VV DY    V GD 
+Sbjct  63   LHWTGERVVSVLLLGLIPAAYLNPCSAMDYSLAATLTLHSHWGIGQVVTDY----VHGDA  118
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            +  A + G  + +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  119  VQKAAKTGLLVLSAFTFAGLCYFNYHDVGICKAVAMLWKL  158
+
+
+> sp|Q5G2C6|DHSD_SHEEP Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Ovis aries OX=9940 
+GN=SDHD PE=2 SV=1
+Length=158
+
+ Score = 159 bits (402),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 55/160 (34%), Positives = 74/160 (46%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGT----  57
+            LS +       A  LRT +++       +A     P Q           P H  G+    
+Sbjct  6    LSVLCGVREGRALFLRTPVVRPALV---SAFLQGRPAQGWCGTQHIHLSPSHHSGSKAAS  62
+
+Query  58   -LFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ LIPAAY      MD  LA  LTLH HWG+  VV DY    V GD 
+Sbjct  63   LHWTGERVVSVLLLGLIPAAYLNPCSAMDYSLAATLTLHSHWGIGQVVTDY----VHGDA  118
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            +  A + G  + +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  119  VQKAAKTGLLVLSAFTFAGLCYFNYHDVGICKAVAMLWKL  158
+
+
+> sp|O14521|DHSD_HUMAN Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Homo sapiens OX=9606 
+GN=SDHD PE=1 SV=1
+Length=159
+
+ Score = 156 bits (393),  Expect = 7e-47, Method: Composition-based stats.
+ Identities = 59/160 (37%), Positives = 81/160 (51%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGT----  57
+            LSAV  A+   A +LRT +++      SA +     P++  +       P H  G+    
+Sbjct  7    LSAVCGALGGRALLLRTPVVR--PAHISAFLQDRPIPEWCGV-QHIHLSPSHHSGSKAAS  63
+
+Query  58   -LFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ L+PAAY      MD  LA ALTLH HWG+  VV DY    V GD 
+Sbjct  64   LHWTSERVVSVLLLGLLPAAYLNPCSAMDYSLAAALTLHGHWGLGQVVTDY----VHGDA  119
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            L  A + G    +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  120  LQKAAKAGLLALSALTFAGLCYFNYHDVGICKAVAMLWKL  159
+
+
+> sp|Q6PCT8|DHSD_RAT Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Rattus norvegicus OX=10116 
+GN=Sdhd PE=2 SV=1
+Length=159
+
+ Score = 156 bits (393),  Expect = 7e-47, Method: Composition-based stats.
+ Identities = 55/155 (35%), Positives = 74/155 (48%), Gaps = 17/155 (11%)
+
+Query  7    RAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGT-----LFKI  61
+            RA+ L +R +R + +       SA +     P +          P H  G+      +  
+Sbjct  17   RALSLRSRAVRPAFV-------SAFLQDQPTPGWRGT-QHIHLSPSHQSGSKAASLHWTS  68
+
+Query  62   ERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAV  121
+            ER  +  ++ LIPA Y      +D  LA ALTLH HWG+  VV DY    V GD L  A 
+Sbjct  69   ERVVSVLLLGLIPAGYLNPCSVVDYSLAAALTLHSHWGIGQVVTDY----VHGDALQKAT  124
+
+Query  122  RVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            + G    +A   AGL YFN HDVG+ RA  M+W+L
+Sbjct  125  KAGLLAVSALTFAGLCYFNYHDVGICRAVAMLWKL  159
+
+
+> sp|Q9VCI5|DHSD_DROME Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Drosophila melanogaster 
+OX=7227 GN=SdhD PE=2 SV=1
+Length=182
+
+ Score = 155 bits (392),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 47/152 (31%), Positives = 75/152 (49%), Gaps = 2/152 (1%)
+
+Query  7    RAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIA--AEKGFKPLHSHGTLFKIERY  64
+            R  PL +     + +QR A     AV     P    I+  A +      SH  L+ +ER 
+Sbjct  23   RITPLKSYSTLVANVQRKAVVQPLAVAKIVAPVVREISVSAPRMASAGSSHTLLWTVERI  82
+
+Query  65   FAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAVRVG  124
+             +A ++ +IPAA+    + +D  +A+++ +H HWGV  +V DY RP V+G+ L     + 
+Sbjct  83   VSAGLLAVIPAAFIAPSQVLDALMAISVVIHTHWGVEAMVVDYMRPSVVGNVLPKVAHIA  142
+
+Query  125  AYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+              I +   L GL YF ++DVGL    +  W +
+Sbjct  143  LIIISVATLGGLFYFIQNDVGLANGIKRFWAI  174
+
+
+> sp|Q5RC29|DHSD_PONAB Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Pongo abelii OX=9601 
+GN=SDHD PE=2 SV=1
+Length=159
+
+ Score = 154 bits (390),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 57/160 (36%), Positives = 78/160 (49%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGT----  57
+            LSAV  A    A +LRT +++      SA +     P++  +       P H  G+    
+Sbjct  7    LSAVCGAQGGRALLLRTPVVR--PAHISAFLQDRPIPEWCGV-QHIHLSPGHHSGSKAAS  63
+
+Query  58   -LFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ L+PAAY      MD  LA  LTLH HWG+  VV DY    V GD 
+Sbjct  64   LHWTSERVVSVLLLGLLPAAYLNPCSAMDYSLAATLTLHGHWGLGQVVTDY----VHGDA  119
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+               A + G    +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  120  SQKAAKAGLLALSALTFAGLCYFNYHDVGICKAVAMLWKL  159
+
+
+> sp|A5GZW8|DHSD_PIG Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Sus scrofa OX=9823 GN=SDHD 
+PE=1 SV=2
+Length=159
+
+ Score = 143 bits (359),  Expect = 9e-42, Method: Composition-based stats.
+ Identities = 56/160 (35%), Positives = 77/160 (48%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLH-----SHG  56
+            LS +  A    A +LRTS+++      SA +     P +  +       P H     +  
+Sbjct  7    LSVLCGARGGGALVLRTSVVR--PAHVSAFLQDRHTPGWCGV-QHIHLSPSHQASSKAAS  63
+
+Query  57   TLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ L+PAAY      MD  LA ALTLH HWG+  VV DY R    GD 
+Sbjct  64   LHWTGERVVSVLLLGLLPAAYLNPCSAMDYSLAAALTLHGHWGIGQVVTDYVR----GDA  119
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            L    + G    +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  120  LQKVAKAGLLALSAFTFAGLCYFNYHDVGICKAVAMLWKL  159
+
+
+> sp|Q68FN7|DHSDB_DANRE Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit B, mitochondrial OS=Danio rerio OX=7955 
+GN=sdhdb PE=2 SV=1
+Length=158
+
+ Score = 142 bits (357),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 46/161 (29%), Positives = 68/161 (42%), Gaps = 11/161 (7%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGA-------APPQFDPIAAEKGFKPLHS  54
+            ++A+ R   L  R +   L +  +     AV             +     +        +
+Sbjct  1    MAALVRISSLCHRGVSPLLFRPSSLIRPLAVQQKDHDCSYLISARIHATPSNYAGSGSKA  60
+
+Query  55   HGTLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLG  114
+                +  ER  + A++ L P AYF     +D  LA ALTLH HWG+  VV DY    V G
+Sbjct  61   ATMHWTGERILSIALLSLAPVAYFCPSPAVDYSLAAALTLHGHWGLGQVVTDY----VHG  116
+
+Query  115  DTLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+            D        G ++ +    AGL YFN HDVG+ +A  ++W 
+Sbjct  117  DAKIKMANAGLFVLSTVTFAGLCYFNYHDVGICKAVALLWS  157
+
+
+> sp|Q6DGM2|DHSDA_DANRE Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit A, mitochondrial OS=Danio rerio OX=7955 
+GN=sdhda PE=2 SV=1
+Length=154
+
+ Score = 138 bits (347),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 42/157 (27%), Positives = 70/157 (45%), Gaps = 7/157 (4%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLH---SHGTL  58
+            ++++ R   +  R +R  L+     +  +A        +   A            S    
+Sbjct  1    MASLIRLSSVWQRGMRPVLLCHTQLSRGSACPRIGDVDYTEPAGRIHTASSSTGISASQH  60
+
+Query  59   FKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLA  118
+            +  ER     ++ + PAAY   G  +D  +A ALT+H HWG+  V+ DY    V G+   
+Sbjct  61   WTGERVMTLVLLGMAPAAYLCPGPVVDYSIAAALTMHGHWGIGQVLTDY----VHGEVKI  116
+
+Query  119  AAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+               +VG ++ +     GL YFN +DVGL +A  M+W+
+Sbjct  117  KLAKVGIFLLSTATFFGLCYFNYNDVGLCKAVVMLWQ  153
+
+
+> sp|Q5ZIS0|DHSD_CHICK Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Gallus gallus OX=9031 
+GN=SDHD PE=1 SV=1
+Length=157
+
+ Score = 138 bits (347),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 54/150 (36%), Positives = 80/150 (53%), Gaps = 7/150 (5%)
+
+Query  7    RAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFKIERYFA  66
+            R +P +  +LR +L++  A  T+AA   +AP +     A +G     +    +  ER  +
+Sbjct  15   RGVPTA--LLRGTLLRHSAVLTAAA-DRSAPARQSHGGAPQGHGSSKAASLHWTSERAVS  71
+
+Query  67   AAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAVRVGAY  126
+            A ++ L+PAAY   G  +D  LA ALTLH HWG+  V+ DY    V GDT       G Y
+Sbjct  72   ALLLGLLPAAYLYPGPAVDYSLAAALTLHGHWGLGQVITDY----VHGDTPIKVANTGLY  127
+
+Query  127  IFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            + +A    GL YFN +DVG+ +A  M+W +
+Sbjct  128  VLSAITFTGLCYFNYYDVGICKAVAMLWSI  157
+
+
+> sp|Q6P355|DHSD_XENTR Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Xenopus tropicalis 
+OX=8364 GN=sdhd PE=2 SV=1
+Length=152
+
+ Score = 138 bits (347),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 43/113 (38%), Positives = 56/113 (50%), Gaps = 4/113 (4%)
+
+Query  44   AAEKGFKPLHSHGTLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGV  103
+             +        +    +  ER  + A++ L+PAAY   G  MD  LA ALTLH HWG+  V
+Sbjct  44   TSPNHHAGSKAASMHWTSERALSVALLGLLPAAYLYPGAAMDYSLAAALTLHGHWGLGQV  103
+
+Query  104  VNDYGRPFVLGDTLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            V DY    V GD          +  +A   AGL YFN HDVG+ +A  M+W L
+Sbjct  104  VTDY----VHGDAKIKMANTSLFALSALTFAGLCYFNYHDVGICKAVSMLWSL  152
+
+
+> sp|Q6AZV0|DHSDB_XENLA Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit B, mitochondrial OS=Xenopus laevis 
+OX=8355 GN=sdhd-b PE=2 SV=1
+Length=152
+
+ Score = 136 bits (343),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 43/113 (38%), Positives = 57/113 (50%), Gaps = 4/113 (4%)
+
+Query  44   AAEKGFKPLHSHGTLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGV  103
+             +        +    +  ER  + A++ L+PAAY   G  MD  LA ALTLH HWG+  V
+Sbjct  44   TSPNHHAGSKAASMHWTGERALSVALLGLLPAAYLYPGAAMDYSLAAALTLHGHWGLGQV  103
+
+Query  104  VNDYGRPFVLGDTLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            V DY    V G+T         +  +A   AGL YFN HDVG+ +A  M+W L
+Sbjct  104  VTDY----VHGETKIKMANTSLFALSALTFAGLCYFNYHDVGICKAVAMLWSL  152
+
+
+> sp|Q6AZR3|DHSDA_XENLA Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit A, mitochondrial OS=Xenopus laevis 
+OX=8355 GN=sdhd-a PE=2 SV=1
+Length=152
+
+ Score = 135 bits (340),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 42/113 (37%), Positives = 57/113 (50%), Gaps = 4/113 (4%)
+
+Query  44   AAEKGFKPLHSHGTLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGV  103
+             ++       +    +  ER  + A++ L+PAAY   G  +D  LA ALTLH HWG+  V
+Sbjct  44   TSQNHHAASKAASLHWTSERALSVALLGLLPAAYLYPGAAVDYSLAAALTLHGHWGLGQV  103
+
+Query  104  VNDYGRPFVLGDTLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            V DY    V GD          +  +A   AGL YFN HDVG+ +A  M+W L
+Sbjct  104  VTDY----VHGDAKIKLANTSLFALSALTFAGLCYFNYHDVGICKAVAMLWSL  152
+
+
+> sp|A8WT26|DHSD_CAEBR Putative succinate dehydrogenase [ubiquinone] 
+cytochrome b small subunit, mitochondrial OS=Caenorhabditis 
+briggsae OX=6238 GN=sdhd-1 PE=3 SV=1
+Length=145
+
+ Score = 134 bits (336),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 62/143 (43%), Positives = 88/143 (62%), Gaps = 5/143 (3%)
+
+Query  19   SLIQRCAGATSAAVTGAAPPQFDPIAA-----EKGFKPLHSHGTLFKIERYFAAAMVPLI  73
+            + ++  A    A +     P+   I         G   +  H   FK+ER +A  M+P++
+Sbjct  3    ASLRHMAHFQKALLVAKTAPRLSTIVRATSTLNDGASKVPDHSMHFKLERLWAVGMLPIL  62
+
+Query  74   PAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAVRVGAYIFTACLL  133
+            PA+YFIHG  MD  L +ALTLH+HWG+ GVV DY RP+V+G+  A A  +G Y+ T  LL
+Sbjct  63   PASYFIHGPVMDAVLTVALTLHIHWGIHGVVYDYARPYVIGEAAAKAAHIGVYLITGLLL  122
+
+Query  134  AGLLYFNEHDVGLTRAFEMVWEL  156
+            AGLL+FN +DVG+T+AFE+V+ L
+Sbjct  123  AGLLHFNTNDVGITKAFELVFSL  145
+
+
+> sp|Q9P7X0|DHSD_SCHPO Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=sdh4 PE=2 SV=2
+Length=159
+
+ Score = 134 bits (336),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 47/157 (30%), Positives = 61/157 (39%), Gaps = 11/157 (7%)
+
+Query  7    RAIPLSARILRTSLIQRCAGATSAAVTGAAPPQ-FDPIAAEKGFKPLHS--HGT-LFKIE  62
+            R    + R  R     +    TS A     PPQ       +    P HS  HG+  +  E
+Sbjct  5    RLGLGALRQGRLLFAVKSFSTTSVAKIFPPPPQTIKGTVNDAAVFPHHSKLHGSYHWDFE  64
+
+Query  63   RYFAAAMVP--LIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDY--GRPFVLGDTLA  118
+            R  A AMVP  +IP         MD  LA  L  H H G    V DY   R F     L 
+Sbjct  65   RIIAIAMVPQVMIPLFTGTSHPLMDAALACTLITHAHLGFESCVIDYFPARRFKKLSPLM  124
+
+Query  119  AAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+              +  G  +     L G+  FN +D+GLT   + +W+
+Sbjct  125  HWILRGCTVL---TLIGVYEFNTNDIGLTEGIKKLWK  158
+
+
+> sp|O62215|DHSD_CAEEL Putative succinate dehydrogenase [ubiquinone] 
+cytochrome b small subunit, mitochondrial OS=Caenorhabditis 
+elegans OX=6239 GN=sdhd-1 PE=3 SV=1
+Length=145
+
+ Score = 132 bits (331),  Expect = 8e-38, Method: Composition-based stats.
+ Identities = 61/143 (43%), Positives = 87/143 (61%), Gaps = 5/143 (3%)
+
+Query  19   SLIQRCAGATSAAVTGAAPPQFDPIAA-----EKGFKPLHSHGTLFKIERYFAAAMVPLI  73
+            + ++  A    A +   + P+   I         G   +  H   FK+ER +A  M+P++
+Sbjct  3    ASLRHMAHFQKALLVARSAPRISTIVRATSTLNDGASKVPDHSMHFKLERLWAVGMLPIL  62
+
+Query  74   PAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAVRVGAYIFTACLL  133
+            PA+YFIHG  MD  L +ALTLH+HWG+ GVV DY RP+V+G+  A A  VG Y+ T  LL
+Sbjct  63   PASYFIHGPVMDAVLTVALTLHIHWGIHGVVYDYARPYVIGEAAAKAAHVGVYLITGLLL  122
+
+Query  134  AGLLYFNEHDVGLTRAFEMVWEL  156
+              LL+FN +DVG+T+AFE+V+ L
+Sbjct  123  GALLHFNTNDVGITKAFELVFSL  145
+
+
+> sp|Q7SGY6|DHSD_NEUCR Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Neurospora crassa 
+(strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 
+987) OX=367110 GN=B18P24.060 PE=3 SV=1
+Length=166
+
+ Score = 76.0 bits (185),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 36/159 (23%), Positives = 52/159 (33%), Gaps = 7/159 (4%)
+
+Query  3    SAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLH----SHGTL  58
+            SA+ + +     +    L       TS       PPQ          +            
+Sbjct  8    SALLKQVAAQQSVAANGLRVAAFHTTSRKSLLPPPPQRIEGTVNDPVEVPPPSPSHGSYH  67
+
+Query  59   FKIERYFAAAMVPL--IPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+            +  +R  AA ++PL   P A       MD  LA  + +H H G   ++ DY  P      
+Sbjct  68   WTFDRVVAAGLIPLTVAPFAAGSLNPTMDAVLAATILIHSHTGFGNIIVDYV-PSKRVPK  126
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+                   G    T  +   L  F   DVGLT   + VW+
+Sbjct  127  ARKVFTWGLNAATVLVGLALYEFETTDVGLTETIKRVWK  165
+
+
+> sp|Q06236|SHH4_YEAST Mitochondrial inner membrane protein SHH4 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=SHH4 PE=1 SV=1
+Length=168
+
+ Score = 58.6 bits (140),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 32/162 (20%), Positives = 52/162 (32%), Gaps = 13/162 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSH---GTL  58
+            +S+ +   PL       + I R             P      A +  + P  S       
+Sbjct  1    MSSTKFLKPLCRIRAFHTSIARSFTIPFLPKIPQKPGGVSGTANDSSYMPPESRAQGSYH  60
+
+Query  59   FKIERYFAAAMVPLIPAAYFIHGRE---MDLCLALALTLHVHWGVWGVVNDYGRPFVLGD  115
+            + +ER  + A++PLI       G      D  L+L L  H H G    + DY    V G 
+Sbjct  61   WIVERGLSLAVLPLIAVPLVTTGPISTFTDTFLSLVLLGHCHIGFQSCIIDYISERVYG-  119
+
+Query  116  TLAAAVRVGAYIFTA---CLLAGLLYFNEHDVGLTRAFEMVW  154
+                      Y+ +        G+      + GL  + + +W
+Sbjct  120  ---KVHHYAMYLLSLGSFLSFVGIYKLESQEAGLIASLKSLW  158
+
+
+> sp|Q750S6|DHSD_ASHGO Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Ashbya gossypii (strain 
+ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 
+GN=SDH4 PE=3 SV=1
+Length=171
+
+ Score = 49.0 bits (115),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 26/105 (25%), Positives = 37/105 (35%), Gaps = 4/105 (4%)
+
+Query  54   SHGTLFKIERYFAAAMVPLIPAAYFIHGRE---MDLCLALALTLHVHWGVWGVVNDYGRP  110
+                 + IER FA A VPL+             MD  LA  +  H + G    + DY   
+Sbjct  59   HGSLHWNIERAFAVAAVPLVGLPLVAGSGVSTLMDSLLASVMLGHCYIGFQACIIDYIPQ  118
+
+Query  111  FVLGDTLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+             V G     A+ + A+  +     G+        G+  A   VW 
+Sbjct  119  RVYGKFHQYAMYLLAFG-SLLSGVGIYKMESEGYGICGAVAAVWS  162
+
+
+> sp|P37298|DHSD_YEAST Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=SDH4 PE=1 SV=1
+Length=181
+
+ Score = 49.0 bits (115),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 25/155 (16%), Positives = 47/155 (30%), Gaps = 7/155 (5%)
+
+Query  6    RRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSH---GTLFKIE  62
+            RR    +      S  ++        V    P        +    P  +       + +E
+Sbjct  13   RRIFHTATVRAFQSTAKKSLTIPFLPVLPQKPGGVRGTPNDAYVPPPENKLEGSYHWYME  72
+
+Query  63   RYFAAAMVPLIPAAYFIHGR---EMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAA  119
+            + FA ++VPL   A    G      D   ++ L  + +      + DY    V G     
+Sbjct  73   KIFALSVVPLATTAMLTTGPLSTAADSFFSVMLLGYCYMEFNSCITDYISERVYG-VWHK  131
+
+Query  120  AVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVW  154
+                   + +A  L G+      + G+    + +W
+Sbjct  132  YAMYMLGLGSAVSLFGIYKLETENDGVVGLVKSLW  166
+
+
+> sp|Q08749|TIM18_YEAST Mitochondrial import inner membrane translocase 
+subunit TIM18 OS=Saccharomyces cerevisiae (strain ATCC 
+204508 / S288c) OX=559292 GN=TIM18 PE=1 SV=2
+Length=192
+
+ Score = 45.9 bits (107),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 14/104 (13%), Positives = 32/104 (31%), Gaps = 13/104 (13%)
+
+Query  60   KIERYFAAAMVPLIPAAYFIH------GREMDLCLALALTLHVHWGVWGVVNDYGRPFVL  113
+              ER     ++PL    ++           +D  L+    +++ +G    + DY      
+Sbjct  80   DYERIAKYTLIPLTMVPFYASFTGGVINPLLDASLSSIFLIYLQYGFTSCIIDYIPKEKY  139
+
+Query  114  GDTLAAAVRVGAYIF---TACLLAGLLYFNEHDVGLTRAFEMVW  154
+                    ++  Y     +   L G+      + G     + +W
+Sbjct  140  ----PRWHKLALYCLYGGSMLSLYGIYELETKNNGFVDLVKKLW  179
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.124    0.340    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0382    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6696727392
+Results from round 3
+
+
+Query= P92507|3vr8D
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P92507|DHSD_ASCSU Succinate dehydrogenase [ubiquinone] cytoc...  161     5e-49
+  sp|Q95123|DHSD_BOVIN Succinate dehydrogenase [ubiquinone] cytoc...  154     2e-46
+  sp|Q5G2C6|DHSD_SHEEP Succinate dehydrogenase [ubiquinone] cytoc...  153     1e-45
+  sp|P37298|DHSD_YEAST Succinate dehydrogenase [ubiquinone] cytoc...  153     1e-45
+  sp|Q6DGM2|DHSDA_DANRE Succinate dehydrogenase [ubiquinone] cyto...  151     3e-45
+  sp|Q06236|SHH4_YEAST Mitochondrial inner membrane protein SHH4 ...  150     9e-45
+  sp|Q68FN7|DHSDB_DANRE Succinate dehydrogenase [ubiquinone] cyto...  150     1e-44
+  sp|Q9CXV1|DHSD_MOUSE Succinate dehydrogenase [ubiquinone] cytoc...  148     4e-44
+  sp|Q6PCT8|DHSD_RAT Succinate dehydrogenase [ubiquinone] cytochr...  145     9e-43
+  sp|Q9P7X0|DHSD_SCHPO Succinate dehydrogenase [ubiquinone] cytoc...  142     2e-41
+  sp|O14521|DHSD_HUMAN Succinate dehydrogenase [ubiquinone] cytoc...  139     2e-40
+  sp|Q5RC29|DHSD_PONAB Succinate dehydrogenase [ubiquinone] cytoc...  138     3e-40
+  sp|A5GZW8|DHSD_PIG Succinate dehydrogenase [ubiquinone] cytochr...  138     4e-40
+  sp|Q9VCI5|DHSD_DROME Succinate dehydrogenase [ubiquinone] cytoc...  138     6e-40
+  sp|Q6AZV0|DHSDB_XENLA Succinate dehydrogenase [ubiquinone] cyto...  135     5e-39
+  sp|Q6P355|DHSD_XENTR Succinate dehydrogenase [ubiquinone] cytoc...  134     1e-38
+  sp|Q6AZR3|DHSDA_XENLA Succinate dehydrogenase [ubiquinone] cyto...  131     3e-37
+  sp|A8WT26|DHSD_CAEBR Putative succinate dehydrogenase [ubiquino...  130     4e-37
+  sp|Q7SGY6|DHSD_NEUCR Succinate dehydrogenase [ubiquinone] cytoc...  131     4e-37
+  sp|O62215|DHSD_CAEEL Putative succinate dehydrogenase [ubiquino...  128     4e-36
+  sp|Q5ZIS0|DHSD_CHICK Succinate dehydrogenase [ubiquinone] cytoc...  126     3e-35
+  sp|Q750S6|DHSD_ASHGO Succinate dehydrogenase [ubiquinone] cytoc...  124     1e-34
+  sp|Q08749|TIM18_YEAST Mitochondrial import inner membrane trans...  102     4e-26
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P92507|DHSD_ASCSU Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Ascaris suum OX=6253 
+PE=1 SV=2
+Length=156
+
+ Score = 161 bits (407),  Expect = 5e-49, Method: Composition-based stats.
+ Identities = 156/156 (100%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  1    MLSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFK  60
+            MLSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFK
+Sbjct  1    MLSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFK  60
+
+Query  61   IERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAA  120
+            IERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAA
+Sbjct  61   IERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAA  120
+
+Query  121  VRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            VRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL
+Sbjct  121  VRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+
+
+> sp|Q95123|DHSD_BOVIN Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Bos taurus OX=9913 
+GN=SDHD PE=2 SV=2
+Length=158
+
+ Score = 154 bits (390),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 55/160 (34%), Positives = 73/160 (46%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHS-----HG  56
+            LS +  A    A  LRT +++       +A     P Q           P H        
+Sbjct  6    LSVLCGAREGRALFLRTPVVRPALV---SAFLQDRPAQGWCGTQHIHLSPSHHSGSKAAS  62
+
+Query  57   TLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ LIPAAY      MD  LA  LTLH HWG+  VV DY    V GD 
+Sbjct  63   LHWTGERVVSVLLLGLIPAAYLNPCSAMDYSLAATLTLHSHWGIGQVVTDY----VHGDA  118
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            +  A + G  + +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  119  VQKAAKTGLLVLSAFTFAGLCYFNYHDVGICKAVAMLWKL  158
+
+
+> sp|Q5G2C6|DHSD_SHEEP Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Ovis aries OX=9940 
+GN=SDHD PE=2 SV=1
+Length=158
+
+ Score = 153 bits (385),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 54/160 (34%), Positives = 72/160 (45%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHS-----HG  56
+            LS +       A  LRT +++       +A     P Q           P H        
+Sbjct  6    LSVLCGVREGRALFLRTPVVRPALV---SAFLQGRPAQGWCGTQHIHLSPSHHSGSKAAS  62
+
+Query  57   TLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ LIPAAY      MD  LA  LTLH HWG+  VV DY    V GD 
+Sbjct  63   LHWTGERVVSVLLLGLIPAAYLNPCSAMDYSLAATLTLHSHWGIGQVVTDY----VHGDA  118
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            +  A + G  + +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  119  VQKAAKTGLLVLSAFTFAGLCYFNYHDVGICKAVAMLWKL  158
+
+
+> sp|P37298|DHSD_YEAST Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=SDH4 PE=1 SV=1
+Length=181
+
+ Score = 153 bits (386),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 25/155 (16%), Positives = 47/155 (30%), Gaps = 7/155 (5%)
+
+Query  6    RRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHS---HGTLFKIE  62
+            RR    +      S  ++        V    P        +    P  +       + +E
+Sbjct  13   RRIFHTATVRAFQSTAKKSLTIPFLPVLPQKPGGVRGTPNDAYVPPPENKLEGSYHWYME  72
+
+Query  63   RYFAAAMVPLIPAAYFIHGR---EMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAA  119
+            + FA ++VPL   A    G      D   ++ L  + +      + DY    V G     
+Sbjct  73   KIFALSVVPLATTAMLTTGPLSTAADSFFSVMLLGYCYMEFNSCITDYISERVYG-VWHK  131
+
+Query  120  AVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVW  154
+                   + +A  L G+      + G+    + +W
+Sbjct  132  YAMYMLGLGSAVSLFGIYKLETENDGVVGLVKSLW  166
+
+
+> sp|Q6DGM2|DHSDA_DANRE Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit A, mitochondrial OS=Danio rerio OX=7955 
+GN=sdhda PE=2 SV=1
+Length=154
+
+ Score = 151 bits (381),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 42/157 (27%), Positives = 70/157 (45%), Gaps = 7/157 (4%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLH---SHGTL  58
+            ++++ R   +  R +R  L+     +  +A        +   A            S    
+Sbjct  1    MASLIRLSSVWQRGMRPVLLCHTQLSRGSACPRIGDVDYTEPAGRIHTASSSTGISASQH  60
+
+Query  59   FKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLA  118
+            +  ER     ++ + PAAY   G  +D  +A ALT+H HWG+  V+ DY    V G+   
+Sbjct  61   WTGERVMTLVLLGMAPAAYLCPGPVVDYSIAAALTMHGHWGIGQVLTDY----VHGEVKI  116
+
+Query  119  AAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+               +VG ++ +     GL YFN +DVGL +A  M+W+
+Sbjct  117  KLAKVGIFLLSTATFFGLCYFNYNDVGLCKAVVMLWQ  153
+
+
+> sp|Q06236|SHH4_YEAST Mitochondrial inner membrane protein SHH4 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=SHH4 PE=1 SV=1
+Length=168
+
+ Score = 150 bits (379),  Expect = 9e-45, Method: Composition-based stats.
+ Identities = 31/159 (19%), Positives = 51/159 (32%), Gaps = 7/159 (4%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHS---HGTL  58
+            +S+ +   PL       + I R             P      A +  + P  S       
+Sbjct  1    MSSTKFLKPLCRIRAFHTSIARSFTIPFLPKIPQKPGGVSGTANDSSYMPPESRAQGSYH  60
+
+Query  59   FKIERYFAAAMVPLIPAAYFIHGRE---MDLCLALALTLHVHWGVWGVVNDYGRPFVLGD  115
+            + +ER  + A++PLI       G      D  L+L L  H H G    + DY    V G 
+Sbjct  61   WIVERGLSLAVLPLIAVPLVTTGPISTFTDTFLSLVLLGHCHIGFQSCIIDYISERVYGK  120
+
+Query  116  TLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVW  154
+                       + +     G+      + GL  + + +W
+Sbjct  121  V-HHYAMYLLSLGSFLSFVGIYKLESQEAGLIASLKSLW  158
+
+
+> sp|Q68FN7|DHSDB_DANRE Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit B, mitochondrial OS=Danio rerio OX=7955 
+GN=sdhdb PE=2 SV=1
+Length=158
+
+ Score = 150 bits (378),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 46/161 (29%), Positives = 68/161 (42%), Gaps = 11/161 (7%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGA-------APPQFDPIAAEKGFKPLHS  54
+            ++A+ R   L  R +   L +  +     AV             +     +        +
+Sbjct  1    MAALVRISSLCHRGVSPLLFRPSSLIRPLAVQQKDHDCSYLISARIHATPSNYAGSGSKA  60
+
+Query  55   HGTLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLG  114
+                +  ER  + A++ L P AYF     +D  LA ALTLH HWG+  VV DY    V G
+Sbjct  61   ATMHWTGERILSIALLSLAPVAYFCPSPAVDYSLAAALTLHGHWGLGQVVTDY----VHG  116
+
+Query  115  DTLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+            D        G ++ +    AGL YFN HDVG+ +A  ++W 
+Sbjct  117  DAKIKMANAGLFVLSTVTFAGLCYFNYHDVGICKAVALLWS  157
+
+
+> sp|Q9CXV1|DHSD_MOUSE Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Mus musculus OX=10090 
+GN=Sdhd PE=1 SV=2
+Length=159
+
+ Score = 148 bits (374),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 55/163 (34%), Positives = 72/163 (44%), Gaps = 12/163 (7%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSA---AVTGAAPPQFDPIAAEKGFKPLHS----  54
+            ++ + +   L +     +L+ R      A   A     P Q           P H     
+Sbjct  1    MAVLLKLGVLCSGQGARALLLRSRVVRPAYVSAFLQDQPTQGRCGTQHIHLSPSHHSGSK  60
+
+Query  55   -HGTLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVL  113
+                 +  ER  +  ++ LIPA Y      +D  LA ALTLH HWG+  VV DY    V 
+Sbjct  61   AASLHWTSERVVSVLLLGLIPAGYLNPCSVVDYSLAAALTLHSHWGLGQVVTDY----VH  116
+
+Query  114  GDTLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            GDTL  A R G    +A   AGL YFN HDVG+ RA  M+W+L
+Sbjct  117  GDTLPKAARAGLLALSALTFAGLCYFNYHDVGICRAVAMLWKL  159
+
+
+> sp|Q6PCT8|DHSD_RAT Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Rattus norvegicus OX=10116 
+GN=Sdhd PE=2 SV=1
+Length=159
+
+ Score = 145 bits (365),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 53/160 (33%), Positives = 71/160 (44%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLH-----SHG  56
+            L  +       A  LR+  ++      SA +     P +          P H     +  
+Sbjct  7    LGVLCSGQGARALSLRSRAVRPAFV--SAFLQDQPTPGWRGT-QHIHLSPSHQSGSKAAS  63
+
+Query  57   TLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ LIPA Y      +D  LA ALTLH HWG+  VV DY    V GD 
+Sbjct  64   LHWTSERVVSVLLLGLIPAGYLNPCSVVDYSLAAALTLHSHWGIGQVVTDY----VHGDA  119
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            L  A + G    +A   AGL YFN HDVG+ RA  M+W+L
+Sbjct  120  LQKATKAGLLAVSALTFAGLCYFNYHDVGICRAVAMLWKL  159
+
+
+> sp|Q9P7X0|DHSD_SCHPO Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=sdh4 PE=2 SV=2
+Length=159
+
+ Score = 142 bits (357),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 45/157 (29%), Positives = 57/157 (36%), Gaps = 11/157 (7%)
+
+Query  7    RAIPLSARILRTSLIQRCAGATSAAVTGAAPPQ-FDPIAAEKGFKPLH---SHGTLFKIE  62
+            R    + R  R     +    TS A     PPQ       +    P H        +  E
+Sbjct  5    RLGLGALRQGRLLFAVKSFSTTSVAKIFPPPPQTIKGTVNDAAVFPHHSKLHGSYHWDFE  64
+
+Query  63   RYFAAAMVP--LIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDY--GRPFVLGDTLA  118
+            R  A AMVP  +IP         MD  LA  L  H H G    V DY   R F     L 
+Sbjct  65   RIIAIAMVPQVMIPLFTGTSHPLMDAALACTLITHAHLGFESCVIDYFPARRFKKLSPLM  124
+
+Query  119  AAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+              +  G    T   L G+  FN +D+GLT   + +W+
+Sbjct  125  HWILRGC---TVLTLIGVYEFNTNDIGLTEGIKKLWK  158
+
+
+> sp|O14521|DHSD_HUMAN Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Homo sapiens OX=9606 
+GN=SDHD PE=1 SV=1
+Length=159
+
+ Score = 139 bits (349),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 58/160 (36%), Positives = 78/160 (49%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHS-----HG  56
+            LSAV  A+   A +LRT +++      SA +     P++          P H        
+Sbjct  7    LSAVCGALGGRALLLRTPVVRPA--HISAFLQDRPIPEWCG-VQHIHLSPSHHSGSKAAS  63
+
+Query  57   TLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ L+PAAY      MD  LA ALTLH HWG+  VV DY    V GD 
+Sbjct  64   LHWTSERVVSVLLLGLLPAAYLNPCSAMDYSLAAALTLHGHWGLGQVVTDY----VHGDA  119
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            L  A + G    +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  120  LQKAAKAGLLALSALTFAGLCYFNYHDVGICKAVAMLWKL  159
+
+
+> sp|Q5RC29|DHSD_PONAB Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Pongo abelii OX=9601 
+GN=SDHD PE=2 SV=1
+Length=159
+
+ Score = 138 bits (348),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 56/160 (35%), Positives = 75/160 (47%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHS-----HG  56
+            LSAV  A    A +LRT +++      SA +     P++          P H        
+Sbjct  7    LSAVCGAQGGRALLLRTPVVRPA--HISAFLQDRPIPEWCG-VQHIHLSPGHHSGSKAAS  63
+
+Query  57   TLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ L+PAAY      MD  LA  LTLH HWG+  VV DY    V GD 
+Sbjct  64   LHWTSERVVSVLLLGLLPAAYLNPCSAMDYSLAATLTLHGHWGLGQVVTDY----VHGDA  119
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+               A + G    +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  120  SQKAAKAGLLALSALTFAGLCYFNYHDVGICKAVAMLWKL  159
+
+
+> sp|A5GZW8|DHSD_PIG Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Sus scrofa OX=9823 GN=SDHD 
+PE=1 SV=2
+Length=159
+
+ Score = 138 bits (348),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 56/160 (35%), Positives = 76/160 (48%), Gaps = 12/160 (8%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLH-----SHG  56
+            LS +  A    A +LRTS+++      SA +     P +          P H     +  
+Sbjct  7    LSVLCGARGGGALVLRTSVVRPA--HVSAFLQDRHTPGWCG-VQHIHLSPSHQASSKAAS  63
+
+Query  57   TLFKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+              +  ER  +  ++ L+PAAY      MD  LA ALTLH HWG+  VV DY R    GD 
+Sbjct  64   LHWTGERVVSVLLLGLLPAAYLNPCSAMDYSLAAALTLHGHWGIGQVVTDYVR----GDA  119
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+            L    + G    +A   AGL YFN HDVG+ +A  M+W+L
+Sbjct  120  LQKVAKAGLLALSAFTFAGLCYFNYHDVGICKAVAMLWKL  159
+
+
+> sp|Q9VCI5|DHSD_DROME Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Drosophila melanogaster 
+OX=7227 GN=SdhD PE=2 SV=1
+Length=182
+
+ Score = 138 bits (348),  Expect = 6e-40, Method: Composition-based stats.
+ Identities = 47/152 (31%), Positives = 75/152 (49%), Gaps = 2/152 (1%)
+
+Query  7    RAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIA--AEKGFKPLHSHGTLFKIERY  64
+            R  PL +     + +QR A     AV     P    I+  A +      SH  L+ +ER 
+Sbjct  23   RITPLKSYSTLVANVQRKAVVQPLAVAKIVAPVVREISVSAPRMASAGSSHTLLWTVERI  82
+
+Query  65   FAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAVRVG  124
+             +A ++ +IPAA+    + +D  +A+++ +H HWGV  +V DY RP V+G+ L     + 
+Sbjct  83   VSAGLLAVIPAAFIAPSQVLDALMAISVVIHTHWGVEAMVVDYMRPSVVGNVLPKVAHIA  142
+
+Query  125  AYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+              I +   L GL YF ++DVGL    +  W +
+Sbjct  143  LIIISVATLGGLFYFIQNDVGLANGIKRFWAI  174
+
+
+> sp|Q6AZV0|DHSDB_XENLA Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit B, mitochondrial OS=Xenopus laevis 
+OX=8355 GN=sdhd-b PE=2 SV=1
+Length=152
+
+ Score = 135 bits (340),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 45/158 (28%), Positives = 64/158 (41%), Gaps = 9/158 (6%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPI---AAEKGFKPLHSHGTL  58
+            ++ + R   L       +   +                        +        +    
+Sbjct  1    MATLLRVSSLC--RANRASAFKSLLIRPLPCLSQDLHMVQTSQIHTSPNHHAGSKAASMH  58
+
+Query  59   FKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLA  118
+            +  ER  + A++ L+PAAY   G  MD  LA ALTLH HWG+  VV DY    V G+T  
+Sbjct  59   WTGERALSVALLGLLPAAYLYPGAAMDYSLAAALTLHGHWGLGQVVTDY----VHGETKI  114
+
+Query  119  AAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+                   +  +A   AGL YFN HDVG+ +A  M+W L
+Sbjct  115  KMANTSLFALSALTFAGLCYFNYHDVGICKAVAMLWSL  152
+
+
+> sp|Q6P355|DHSD_XENTR Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Xenopus tropicalis 
+OX=8364 GN=sdhd PE=2 SV=1
+Length=152
+
+ Score = 134 bits (338),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 45/158 (28%), Positives = 63/158 (40%), Gaps = 9/158 (6%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPI---AAEKGFKPLHSHGTL  58
+            ++ + R   L       +   +                        +        +    
+Sbjct  1    MATLLRVSSLC--RANRASAFKSLLIRPVPCLTQDHHMVQTSQIHTSPNHHAGSKAASMH  58
+
+Query  59   FKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLA  118
+            +  ER  + A++ L+PAAY   G  MD  LA ALTLH HWG+  VV DY    V GD   
+Sbjct  59   WTSERALSVALLGLLPAAYLYPGAAMDYSLAAALTLHGHWGLGQVVTDY----VHGDAKI  114
+
+Query  119  AAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+                   +  +A   AGL YFN HDVG+ +A  M+W L
+Sbjct  115  KMANTSLFALSALTFAGLCYFNYHDVGICKAVSMLWSL  152
+
+
+> sp|Q6AZR3|DHSDA_XENLA Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit A, mitochondrial OS=Xenopus laevis 
+OX=8355 GN=sdhd-a PE=2 SV=1
+Length=152
+
+ Score = 131 bits (328),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 45/158 (28%), Positives = 63/158 (40%), Gaps = 9/158 (6%)
+
+Query  2    LSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPI---AAEKGFKPLHSHGTL  58
+            +  V R   L       +   +                        ++       +    
+Sbjct  1    MVTVLRLSSLC--RANRASAFKSLLIRPVPCLSQDLHTVQTSQIHTSQNHHAASKAASLH  58
+
+Query  59   FKIERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLA  118
+            +  ER  + A++ L+PAAY   G  +D  LA ALTLH HWG+  VV DY    V GD   
+Sbjct  59   WTSERALSVALLGLLPAAYLYPGAAVDYSLAAALTLHGHWGLGQVVTDY----VHGDAKI  114
+
+Query  119  AAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+                   +  +A   AGL YFN HDVG+ +A  M+W L
+Sbjct  115  KLANTSLFALSALTFAGLCYFNYHDVGICKAVAMLWSL  152
+
+
+> sp|A8WT26|DHSD_CAEBR Putative succinate dehydrogenase [ubiquinone] 
+cytochrome b small subunit, mitochondrial OS=Caenorhabditis 
+briggsae OX=6238 GN=sdhd-1 PE=3 SV=1
+Length=145
+
+ Score = 130 bits (327),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 62/143 (43%), Positives = 88/143 (62%), Gaps = 5/143 (3%)
+
+Query  19   SLIQRCAGATSAAVTGAAPPQFDPIAA-----EKGFKPLHSHGTLFKIERYFAAAMVPLI  73
+            + ++  A    A +     P+   I         G   +  H   FK+ER +A  M+P++
+Sbjct  3    ASLRHMAHFQKALLVAKTAPRLSTIVRATSTLNDGASKVPDHSMHFKLERLWAVGMLPIL  62
+
+Query  74   PAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAVRVGAYIFTACLL  133
+            PA+YFIHG  MD  L +ALTLH+HWG+ GVV DY RP+V+G+  A A  +G Y+ T  LL
+Sbjct  63   PASYFIHGPVMDAVLTVALTLHIHWGIHGVVYDYARPYVIGEAAAKAAHIGVYLITGLLL  122
+
+Query  134  AGLLYFNEHDVGLTRAFEMVWEL  156
+            AGLL+FN +DVG+T+AFE+V+ L
+Sbjct  123  AGLLHFNTNDVGITKAFELVFSL  145
+
+
+> sp|Q7SGY6|DHSD_NEUCR Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Neurospora crassa 
+(strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 
+987) OX=367110 GN=B18P24.060 PE=3 SV=1
+Length=166
+
+ Score = 131 bits (328),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 36/159 (23%), Positives = 52/159 (33%), Gaps = 7/159 (4%)
+
+Query  3    SAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLH----SHGTL  58
+            SA+ + +     +    L       TS       PPQ          +            
+Sbjct  8    SALLKQVAAQQSVAANGLRVAAFHTTSRKSLLPPPPQRIEGTVNDPVEVPPPSPSHGSYH  67
+
+Query  59   FKIERYFAAAMVPL--IPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDT  116
+            +  +R  AA ++PL   P A       MD  LA  + +H H G   ++ DY  P      
+Sbjct  68   WTFDRVVAAGLIPLTVAPFAAGSLNPTMDAVLAATILIHSHTGFGNIIVDYV-PSKRVPK  126
+
+Query  117  LAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+                   G    T  +   L  F   DVGLT   + VW+
+Sbjct  127  ARKVFTWGLNAATVLVGLALYEFETTDVGLTETIKRVWK  165
+
+
+> sp|O62215|DHSD_CAEEL Putative succinate dehydrogenase [ubiquinone] 
+cytochrome b small subunit, mitochondrial OS=Caenorhabditis 
+elegans OX=6239 GN=sdhd-1 PE=3 SV=1
+Length=145
+
+ Score = 128 bits (320),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 61/143 (43%), Positives = 87/143 (61%), Gaps = 5/143 (3%)
+
+Query  19   SLIQRCAGATSAAVTGAAPPQFDPIAA-----EKGFKPLHSHGTLFKIERYFAAAMVPLI  73
+            + ++  A    A +   + P+   I         G   +  H   FK+ER +A  M+P++
+Sbjct  3    ASLRHMAHFQKALLVARSAPRISTIVRATSTLNDGASKVPDHSMHFKLERLWAVGMLPIL  62
+
+Query  74   PAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAAVRVGAYIFTACLL  133
+            PA+YFIHG  MD  L +ALTLH+HWG+ GVV DY RP+V+G+  A A  VG Y+ T  LL
+Sbjct  63   PASYFIHGPVMDAVLTVALTLHIHWGIHGVVYDYARPYVIGEAAAKAAHVGVYLITGLLL  122
+
+Query  134  AGLLYFNEHDVGLTRAFEMVWEL  156
+              LL+FN +DVG+T+AFE+V+ L
+Sbjct  123  GALLHFNTNDVGITKAFELVFSL  145
+
+
+> sp|Q5ZIS0|DHSD_CHICK Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Gallus gallus OX=9031 
+GN=SDHD PE=1 SV=1
+Length=157
+
+ Score = 126 bits (315),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 53/156 (34%), Positives = 81/156 (52%), Gaps = 5/156 (3%)
+
+Query  1    MLSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLHSHGTLFK  60
+            + + + R   +   +LR +L++  A  T+AA   +AP +     A +G     +    + 
+Sbjct  7    LRAGLARPRGVPTALLRGTLLRHSAVLTAAA-DRSAPARQSHGGAPQGHGSSKAASLHWT  65
+
+Query  61   IERYFAAAMVPLIPAAYFIHGREMDLCLALALTLHVHWGVWGVVNDYGRPFVLGDTLAAA  120
+             ER  +A ++ L+PAAY   G  +D  LA ALTLH HWG+  V+ DY    V GDT    
+Sbjct  66   SERAVSALLLGLLPAAYLYPGPAVDYSLAAALTLHGHWGLGQVITDY----VHGDTPIKV  121
+
+Query  121  VRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWEL  156
+               G Y+ +A    GL YFN +DVG+ +A  M+W +
+Sbjct  122  ANTGLYVLSAITFTGLCYFNYYDVGICKAVAMLWSI  157
+
+
+> sp|Q750S6|DHSD_ASHGO Succinate dehydrogenase [ubiquinone] cytochrome 
+b small subunit, mitochondrial OS=Ashbya gossypii (strain 
+ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 
+GN=SDH4 PE=3 SV=1
+Length=171
+
+ Score = 124 bits (312),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 35/161 (22%), Positives = 48/161 (30%), Gaps = 10/161 (6%)
+
+Query  1    MLSAVRRAIPLSARILRTSLIQRCAGATSAAVTGAAPPQFDPIAAEKGFKPLH---SHGT  57
+            M S V RA   + +        R             P        E    P         
+Sbjct  6    MASPVIRA---ACKRSLHQSAVRAITIPFLPTLPQNPGGVKGDVNEANPVPPANKMHGSL  62
+
+Query  58   LFKIERYFAAAMVPLIPAAYFIHGRE---MDLCLALALTLHVHWGVWGVVNDYGRPFVLG  114
+             + IER FA A VPL+             MD  LA  +  H + G    + DY    V G
+Sbjct  63   HWNIERAFAVAAVPLVGLPLVAGSGVSTLMDSLLASVMLGHCYIGFQACIIDYIPQRVYG  122
+
+Query  115  DTLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVWE  155
+                 A+ + A+  +     G+        G+  A   VW 
+Sbjct  123  KFHQYAMYLLAF-GSLLSGVGIYKMESEGYGICGAVAAVWS  162
+
+
+> sp|Q08749|TIM18_YEAST Mitochondrial import inner membrane translocase 
+subunit TIM18 OS=Saccharomyces cerevisiae (strain ATCC 
+204508 / S288c) OX=559292 GN=TIM18 PE=1 SV=2
+Length=192
+
+ Score = 102 bits (255),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 14/105 (13%), Positives = 30/105 (29%), Gaps = 7/105 (7%)
+
+Query  56   GTLFKIERYFAAAMVPLIPAAYFIH------GREMDLCLALALTLHVHWGVWGVVNDYGR  109
+                  ER     ++PL    ++           +D  L+    +++ +G    + DY  
+Sbjct  76   SYQKDYERIAKYTLIPLTMVPFYASFTGGVINPLLDASLSSIFLIYLQYGFTSCIIDYIP  135
+
+Query  110  PFVLGDTLAAAVRVGAYIFTACLLAGLLYFNEHDVGLTRAFEMVW  154
+                            Y  +   L G+      + G     + +W
+Sbjct  136  KEKY-PRWHKLALYCLYGGSMLSLYGIYELETKNNGFVDLVKKLW  179
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.319    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0373    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6696727392
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

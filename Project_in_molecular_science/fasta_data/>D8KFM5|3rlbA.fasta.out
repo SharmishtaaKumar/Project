@@ -1,0 +1,241 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= D8KFM5|3rlbA
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|A2RI47|THIT_LACLM Thiamine transporter ThiT OS=Lactococcus l...  352     2e-123
+  sp|Q037U3|THIT_LACP3 Thiamine transporter ThiT OS=Lactobacillus...  89.4    1e-20 
+  sp|O32074|THIT_BACSU Thiamine transporter ThiT OS=Bacillus subt...  57.8    1e-09 
+
+
+> sp|A2RI47|THIT_LACLM Thiamine transporter ThiT OS=Lactococcus 
+lactis subsp. cremoris (strain MG1363) OX=416870 GN=thiT PE=1 
+SV=1
+Length=182
+
+ Score = 352 bits (904),  Expect = 2e-123, Method: Compositional matrix adjust.
+ Identities = 182/182 (100%), Positives = 182/182 (100%), Gaps = 0/182 (0%)
+
+Query  1    MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGG  60
+            MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGG
+Sbjct  1    MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGG  60
+
+Query  61   LIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLL  120
+            LIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLL
+Sbjct  61   LIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLL  120
+
+Query  121  KYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHS  180
+            KYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHS
+Sbjct  121  KYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHS  180
+
+Query  181  NY  182
+            NY
+Sbjct  181  NY  182
+
+
+> sp|Q037U3|THIT_LACP3 Thiamine transporter ThiT OS=Lactobacillus 
+paracasei (strain ATCC 334 / BCRC 17002 / CIP 107868 / KCTC 
+3260 / NRRL B-441) OX=321967 GN=thiT PE=1 SV=1
+Length=201
+
+ Score = 89.4 bits (220),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 65/186 (35%), Positives = 99/186 (53%), Gaps = 22/186 (12%)
+
+Query  13   EIAFMAALAFIISLIPNTVYGWIIVEI--ACIPILLLSLRRGLTAGLVGGLIWGILSMI-  69
+            E A +AA A  ++ IP+T  G   +E+    IPI +L++RRGL      G +WGIL +I 
+Sbjct  12   ETAIIAAFAMALTYIPHTT-GVSAIELNYGLIPIAVLAMRRGLVPAAWAGFVWGILDLIL  70
+
+Query  70   --TGHAYILSLSQAFLEYLVAPVSLGIAGL----FRQ--------KTAPLKLAPVLLGTF  115
+               G   +L+  Q  LEY +A   +G+ GL    F++        K +    A +++GTF
+Sbjct  71   RGIGGGSVLNPLQGILEYPIAFTLVGLMGLTFASFQKAVRGSEKVKASGYAFAGIIIGTF  130
+
+Query  116  VAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPK  175
+                 KYF HFIAG++FW  YA KG     YSL VNG S + + +   V++ + +   P+
+Sbjct  131  A----KYFIHFIAGVVFWGAYAPKGTNVWVYSLIVNGGSALFSTVLTIVVVGVLLTVAPQ  186
+
+Query  176  LFIHSN  181
+            LF+  +
+Sbjct  187  LFVAKD  192
+
+
+> sp|O32074|THIT_BACSU Thiamine transporter ThiT OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=thiT PE=1 SV=1
+Length=192
+
+ Score = 57.8 bits (138),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 60/187 (32%), Positives = 92/187 (49%), Gaps = 12/187 (6%)
+
+Query  1    MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWII---VEIACIPILLLSLRRGLTAGL  57
+            M+ SK  VRL+ EIA M A A I+ ++            V I  IPI L+S R G+ AGL
+Sbjct  1    MNQSKQLVRLI-EIAIMTAAAVILDIVSGMFLSMPQGGSVSIMMIPIFLISFRWGVKAGL  59
+
+Query  58   VGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFR--------QKTAPLKLAP  109
+              GL+ G++ +  G+ +     Q  L+Y+VA  ++GI+G F          KT    +  
+Sbjct  60   TTGLLTGLVQIAIGNLFAQHPVQLLLDYIVAFAAIGISGCFASSVRKAAVSKTKGKLIVS  119
+
+Query  110  VLLGTFVAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIF  169
+            V+   F+  LL+Y  H I+G +F+  +A KG     YSL  N    + + I   ++L + 
+Sbjct  120  VVSAVFIGSLLRYAAHVISGAVFFGSFAPKGTPVWIYSLTYNATYMVPSFIICAIVLCLL  179
+
+Query  170  VKKFPKL  176
+                P+L
+Sbjct  180  FMTAPRL  186
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.146    0.450    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9964908288
+Results from round 2
+
+
+Query= D8KFM5|3rlbA
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A2RI47|THIT_LACLM Thiamine transporter ThiT OS=Lactococcus l...  186     3e-58
+  sp|O32074|THIT_BACSU Thiamine transporter ThiT OS=Bacillus subt...  157     2e-46
+  sp|Q037U3|THIT_LACP3 Thiamine transporter ThiT OS=Lactobacillus...  148     4e-43
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|A2RI47|THIT_LACLM Thiamine transporter ThiT OS=Lactococcus 
+lactis subsp. cremoris (strain MG1363) OX=416870 GN=thiT PE=1 
+SV=1
+Length=182
+
+ Score = 186 bits (473),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 182/182 (100%), Positives = 182/182 (100%), Gaps = 0/182 (0%)
+
+Query  1    MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGG  60
+            MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGG
+Sbjct  1    MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGG  60
+
+Query  61   LIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLL  120
+            LIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLL
+Sbjct  61   LIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLL  120
+
+Query  121  KYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHS  180
+            KYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHS
+Sbjct  121  KYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHS  180
+
+Query  181  NY  182
+            NY
+Sbjct  181  NY  182
+
+
+> sp|O32074|THIT_BACSU Thiamine transporter ThiT OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=thiT PE=1 SV=1
+Length=192
+
+ Score = 157 bits (396),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 60/188 (32%), Positives = 92/188 (49%), Gaps = 12/188 (6%)
+
+Query  1    MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWII---VEIACIPILLLSLRRGLTAGL  57
+            M+ SK  VRL+ EIA M A A I+ ++            V I  IPI L+S R G+ AGL
+Sbjct  1    MNQSKQLVRLI-EIAIMTAAAVILDIVSGMFLSMPQGGSVSIMMIPIFLISFRWGVKAGL  59
+
+Query  58   VGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQ--------KTAPLKLAP  109
+              GL+ G++ +  G+ +     Q  L+Y+VA  ++GI+G F          KT    +  
+Sbjct  60   TTGLLTGLVQIAIGNLFAQHPVQLLLDYIVAFAAIGISGCFASSVRKAAVSKTKGKLIVS  119
+
+Query  110  VLLGTFVAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIF  169
+            V+   F+  LL+Y  H I+G +F+  +A KG     YSL  N    + + I   ++L + 
+Sbjct  120  VVSAVFIGSLLRYAAHVISGAVFFGSFAPKGTPVWIYSLTYNATYMVPSFIICAIVLCLL  179
+
+Query  170  VKKFPKLF  177
+                P+L 
+Sbjct  180  FMTAPRLL  187
+
+
+> sp|Q037U3|THIT_LACP3 Thiamine transporter ThiT OS=Lactobacillus 
+paracasei (strain ATCC 334 / BCRC 17002 / CIP 107868 / KCTC 
+3260 / NRRL B-441) OX=321967 GN=thiT PE=1 SV=1
+Length=201
+
+ Score = 148 bits (374),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 68/198 (34%), Positives = 104/198 (53%), Gaps = 23/198 (12%)
+
+Query  1    MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEI--ACIPILLLSLRRGLTAGLV  58
+            M   K  V ++ E A +AA A  ++ IP+T  G   +E+    IPI +L++RRGL     
+Sbjct  1    MQQHKQLV-VILETAIIAAFAMALTYIPHTT-GVSAIELNYGLIPIAVLAMRRGLVPAAW  58
+
+Query  59   GGLIWGILSMI---TGHAYILSLSQAFLEYLVAPVSLGIAGL----FRQ--------KTA  103
+             G +WGIL +I    G   +L+  Q  LEY +A   +G+ GL    F++        K +
+Sbjct  59   AGFVWGILDLILRGIGGGSVLNPLQGILEYPIAFTLVGLMGLTFASFQKAVRGSEKVKAS  118
+
+Query  104  PLKLAPVLLGTFVAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAF  163
+                A +++GTF     KYF HFIAG++FW  YA KG     YSL VNG S + + +   
+Sbjct  119  GYAFAGIIIGTFA----KYFIHFIAGVVFWGAYAPKGTNVWVYSLIVNGGSALFSTVLTI  174
+
+Query  164  VILIIFVKKFPKLFIHSN  181
+            V++ + +   P+LF+  +
+Sbjct  175  VVVGVLLTVAPQLFVAKD  192
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.144    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0434    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9964908288
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

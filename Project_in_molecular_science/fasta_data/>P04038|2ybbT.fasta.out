@@ -1,0 +1,597 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P04038|2ybbT
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P04038|COX6C_BOVIN Cytochrome c oxidase subunit 6C OS=Bos ta...  150     5e-47
+  sp|Q7YRK7|COX6C_TARSY Cytochrome c oxidase subunit 6C OS=Tarsiu...  134     1e-40
+  sp|Q7YRJ8|COX6C_NYCCO Cytochrome c oxidase subunit 6C OS=Nyctic...  129     1e-38
+  sp|A1XQT2|COX6C_PIG Cytochrome c oxidase subunit 6C OS=Sus scro...  124     7e-37
+  sp|P11951|CX6C2_RAT Cytochrome c oxidase subunit 6C-2 OS=Rattus...  123     2e-36
+  sp|Q0Q4Z0|COX6C_VICPA Cytochrome c oxidase subunit 6C OS=Vicugn...  123     2e-36
+  sp|Q9CPQ1|COX6C_MOUSE Cytochrome c oxidase subunit 6C OS=Mus mu...  121     1e-35
+  sp|Q7YRK1|COX6C_TRACR Cytochrome c oxidase subunit 6C OS=Trachy...  120     3e-35
+  sp|Q7YRK2|COX6C_MACSL Cytochrome c oxidase subunit 6C OS=Macaca...  118     1e-34
+  sp|Q7YRJ9|COX6C_SAISC Cytochrome c oxidase subunit 6C OS=Saimir...  115     1e-33
+  sp|Q7YRK0|COX6C_PLEDO Cytochrome c oxidase subunit 6C OS=Plectu...  114     4e-33
+  sp|Q7YRK3|COX6C_PONPY Cytochrome c oxidase subunit 6C OS=Pongo ...  112     5e-32
+  sp|P09669|COX6C_HUMAN Cytochrome c oxidase subunit 6C OS=Homo s...  111     6e-32
+  sp|P11950|CX6C1_RAT Cytochrome c oxidase subunit 6C-1 OS=Rattus...  100     2e-27
+  sp|P80977|CX6C1_THUOB Cytochrome c oxidase subunit 6C-1 OS=Thun...  89.7    3e-23
+
+
+> sp|P04038|COX6C_BOVIN Cytochrome c oxidase subunit 6C OS=Bos 
+taurus OX=9913 GN=COX6C PE=1 SV=2
+Length=74
+
+ Score = 150 bits (378),  Expect = 5e-47, Method: Compositional matrix adjust.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   MSTALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKD  60
+           MSTALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKD
+Sbjct  1   MSTALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKD  60
+
+Query  61  FEEMRKAGIFQSAK  74
+           FEEMRKAGIFQSAK
+Sbjct  61  FEEMRKAGIFQSAK  74
+
+
+> sp|Q7YRK7|COX6C_TARSY Cytochrome c oxidase subunit 6C OS=Tarsius 
+syrichta OX=1868482 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 134 bits (336),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 66/73 (90%), Positives = 67/73 (92%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+           S AL KPQMRGLLA+RLRFHIVGAF VSLG A FYKFAVAE RKKAYADFYRNYDSMKDF
+Sbjct  3   SGALTKPQMRGLLAKRLRFHIVGAFAVSLGVAAFYKFAVAEPRKKAYADFYRNYDSMKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAGIFQSAK
+Sbjct  63  EEMRKAGIFQSAK  75
+
+
+> sp|Q7YRJ8|COX6C_NYCCO Cytochrome c oxidase subunit 6C OS=Nycticebus 
+coucang OX=9470 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 129 bits (323),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 62/73 (85%), Positives = 67/73 (92%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+           S+ALAKPQMRGLLARRLR HIVGAF+VSLG A FYK+AVAE RKKAYADFYRNYDS+K F
+Sbjct  3   SSALAKPQMRGLLARRLRIHIVGAFVVSLGVAAFYKYAVAEPRKKAYADFYRNYDSVKYF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAG+FQS K
+Sbjct  63  EEMRKAGVFQSVK  75
+
+
+> sp|A1XQT2|COX6C_PIG Cytochrome c oxidase subunit 6C OS=Sus scrofa 
+OX=9823 GN=COX6C PE=3 SV=1
+Length=76
+
+ Score = 124 bits (311),  Expect = 7e-37, Method: Compositional matrix adjust.
+ Identities = 62/74 (84%), Positives = 66/74 (89%), Gaps = 1/74 (1%)
+
+Query  2   STALAKPQMRGLLA-RRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKD  60
+           +++L KPQMR     RRLRFHIVGAF+VSLG ATFYKFAVAE RKKAYADFYRNYDSMKD
+Sbjct  3   TSSLTKPQMRWPSGPRRLRFHIVGAFIVSLGVATFYKFAVAEPRKKAYADFYRNYDSMKD  62
+
+Query  61  FEEMRKAGIFQSAK  74
+           FEEMRKAGIFQSAK
+Sbjct  63  FEEMRKAGIFQSAK  76
+
+
+> sp|P11951|CX6C2_RAT Cytochrome c oxidase subunit 6C-2 OS=Rattus 
+norvegicus OX=10116 GN=Cox6c2 PE=1 SV=3
+Length=76
+
+ Score = 123 bits (308),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 58/70 (83%), Positives = 63/70 (90%), Gaps = 0/70 (0%)
+
+Query  5   LAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDFEEM  64
+           L KPQMRGLLA+RLR HIVGAF+V+LG A  YKF VAE RKKAYADFYRNYDSMKDFEEM
+Sbjct  7   LPKPQMRGLLAKRLRVHIVGAFVVALGVAAAYKFGVAEPRKKAYADFYRNYDSMKDFEEM  66
+
+Query  65  RKAGIFQSAK  74
+           R+AG+FQSAK
+Sbjct  67  RQAGVFQSAK  76
+
+
+> sp|Q0Q4Z0|COX6C_VICPA Cytochrome c oxidase subunit 6C OS=Vicugna 
+pacos OX=30538 GN=COX6C PE=3 SV=1
+Length=76
+
+ Score = 123 bits (308),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 58/70 (83%), Positives = 63/70 (90%), Gaps = 0/70 (0%)
+
+Query  5   LAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDFEEM  64
+           L KPQMRGLLA+RLR HIVGAF+V+LG A  YKF VAE RKKAYADFYRNYDSMKDFEEM
+Sbjct  7   LPKPQMRGLLAKRLRVHIVGAFVVALGVAAAYKFGVAEPRKKAYADFYRNYDSMKDFEEM  66
+
+Query  65  RKAGIFQSAK  74
+           R+AG+FQSAK
+Sbjct  67  RQAGVFQSAK  76
+
+
+> sp|Q9CPQ1|COX6C_MOUSE Cytochrome c oxidase subunit 6C OS=Mus 
+musculus OX=10090 GN=Cox6c PE=1 SV=3
+Length=76
+
+ Score = 121 bits (303),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 58/70 (83%), Positives = 62/70 (89%), Gaps = 0/70 (0%)
+
+Query  5   LAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDFEEM  64
+           L KPQMRGLLA+RLR HI GAF+V+LG A  YKF VAE RKKAYA+FYRNYDSMKDFEEM
+Sbjct  7   LPKPQMRGLLAKRLRVHIAGAFIVALGVAAAYKFGVAEPRKKAYAEFYRNYDSMKDFEEM  66
+
+Query  65  RKAGIFQSAK  74
+           RKAGIFQSAK
+Sbjct  67  RKAGIFQSAK  76
+
+
+> sp|Q7YRK1|COX6C_TRACR Cytochrome c oxidase subunit 6C OS=Trachypithecus 
+cristatus OX=122765 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 120 bits (300),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 57/73 (78%), Positives = 63/73 (86%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+              L KPQMRGLLA+RLRFH+V AF++SLG A  YKF VA+KRKKAYADFYRNYD+MKDF
+Sbjct  3   PEVLPKPQMRGLLAKRLRFHMVTAFVLSLGVAALYKFRVADKRKKAYADFYRNYDAMKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAGIFQS K
+Sbjct  63  EEMRKAGIFQSVK  75
+
+
+> sp|Q7YRK2|COX6C_MACSL Cytochrome c oxidase subunit 6C OS=Macaca 
+silenus OX=54601 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 118 bits (296),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 56/73 (77%), Positives = 61/73 (84%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+              L KPQMRGLLARRLRFH+V  F++SLG A  YK  VA+KRKKAYADFYRNYD+MKDF
+Sbjct  3   PEVLPKPQMRGLLARRLRFHMVTGFVLSLGVAALYKVGVADKRKKAYADFYRNYDAMKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAGIFQS K
+Sbjct  63  EEMRKAGIFQSVK  75
+
+
+> sp|Q7YRJ9|COX6C_SAISC Cytochrome c oxidase subunit 6C OS=Saimiri 
+sciureus OX=9521 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 115 bits (289),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 54/73 (74%), Positives = 61/73 (84%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+           S  LAKPQMRGLLARRLR H+VGAF++SLG A  YKF VAE RKKAYADFY+NY   KDF
+Sbjct  3   SEVLAKPQMRGLLARRLRIHMVGAFLISLGVAALYKFGVAEPRKKAYADFYKNYSPEKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEM+KAG+F+S K
+Sbjct  63  EEMKKAGVFRSIK  75
+
+
+> sp|Q7YRK0|COX6C_PLEDO Cytochrome c oxidase subunit 6C OS=Plecturocebus 
+donacophilus OX=230833 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 114 bits (286),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 54/73 (74%), Positives = 61/73 (84%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+           S  L KPQMRGLLARRLR H+VGAF+VSLG A  YKF VAE RKKAYADFY+NY + KDF
+Sbjct  3   SEVLVKPQMRGLLARRLRIHMVGAFLVSLGVAALYKFGVAEPRKKAYADFYKNYSAEKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEM+KAG+F+S K
+Sbjct  63  EEMKKAGLFRSIK  75
+
+
+> sp|Q7YRK3|COX6C_PONPY Cytochrome c oxidase subunit 6C OS=Pongo 
+pygmaeus OX=9600 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 112 bits (279),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 54/73 (74%), Positives = 60/73 (82%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+              L KP+MRGLLARRLR H+  AF++SLG A  YKF VA++RKKAYADFYRNYD MKDF
+Sbjct  3   PEVLPKPRMRGLLARRLRNHMAVAFVLSLGVAALYKFRVADRRKKAYADFYRNYDVMKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAGIFQS K
+Sbjct  63  EEMRKAGIFQSVK  75
+
+
+> sp|P09669|COX6C_HUMAN Cytochrome c oxidase subunit 6C OS=Homo 
+sapiens OX=9606 GN=COX6C PE=1 SV=2
+Length=75
+
+ Score = 111 bits (278),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 54/73 (74%), Positives = 60/73 (82%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+              L KP+MRGLLARRLR H+  AF++SLG A  YKF VA++RKKAYADFYRNYD MKDF
+Sbjct  3   PEVLPKPRMRGLLARRLRNHMAVAFVLSLGVAALYKFRVADQRKKAYADFYRNYDVMKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAGIFQS K
+Sbjct  63  EEMRKAGIFQSVK  75
+
+
+> sp|P11950|CX6C1_RAT Cytochrome c oxidase subunit 6C-1 OS=Rattus 
+norvegicus OX=10116 GN=Cox6c1 PE=1 SV=3
+Length=76
+
+ Score = 100 bits (248),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 46/70 (66%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  5   LAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDFEEM  64
+           L KPQM   L++RL  HIVGAF+V LG A  +KF  A+ RKKAYADFYRN+D MKDF+EM
+Sbjct  7   LPKPQMHDPLSKRLWVHIVGAFIVDLGVAAAHKFGAAKPRKKAYADFYRNHDPMKDFDEM  66
+
+Query  65  RKAGIFQSAK  74
+           RKAG+F+S K
+Sbjct  67  RKAGVFRSVK  76
+
+
+> sp|P80977|CX6C1_THUOB Cytochrome c oxidase subunit 6C-1 OS=Thunnus 
+obesus OX=8241 PE=1 SV=2
+Length=76
+
+ Score = 89.7 bits (221),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 42/71 (59%), Positives = 55/71 (77%), Gaps = 0/71 (0%)
+
+Query  4   ALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDFEE  63
+           +LAKP MRGLL +RLRFH+  AF +SL  A  +K+ V E RK+AYADFY+ YD++KDF  
+Sbjct  2   SLAKPAMRGLLGKRLRFHLPIAFTLSLVAALGFKYGVTEPRKQAYADFYKQYDAVKDFNA  61
+
+Query  64  MRKAGIFQSAK  74
+           MR+AGIF+S +
+Sbjct  62  MREAGIFESVR  72
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.137    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4873072512
+Results from round 2
+
+
+Query= P04038|2ybbT
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P11951|CX6C2_RAT Cytochrome c oxidase subunit 6C-2 OS=Rattus...  110     1e-31
+  sp|Q0Q4Z0|COX6C_VICPA Cytochrome c oxidase subunit 6C OS=Vicugn...  110     1e-31
+  sp|Q7YRK7|COX6C_TARSY Cytochrome c oxidase subunit 6C OS=Tarsiu...  110     3e-31
+  sp|P11950|CX6C1_RAT Cytochrome c oxidase subunit 6C-1 OS=Rattus...  109     3e-31
+  sp|Q7YRK2|COX6C_MACSL Cytochrome c oxidase subunit 6C OS=Macaca...  109     6e-31
+  sp|A1XQT2|COX6C_PIG Cytochrome c oxidase subunit 6C OS=Sus scro...  108     1e-30
+  sp|Q7YRK1|COX6C_TRACR Cytochrome c oxidase subunit 6C OS=Trachy...  108     1e-30
+  sp|Q9CPQ1|COX6C_MOUSE Cytochrome c oxidase subunit 6C OS=Mus mu...  108     1e-30
+  sp|Q7YRJ9|COX6C_SAISC Cytochrome c oxidase subunit 6C OS=Saimir...  107     2e-30
+  sp|P04038|COX6C_BOVIN Cytochrome c oxidase subunit 6C OS=Bos ta...  107     2e-30
+  sp|Q7YRJ8|COX6C_NYCCO Cytochrome c oxidase subunit 6C OS=Nyctic...  107     3e-30
+  sp|Q7YRK0|COX6C_PLEDO Cytochrome c oxidase subunit 6C OS=Plectu...  105     2e-29
+  sp|P09669|COX6C_HUMAN Cytochrome c oxidase subunit 6C OS=Homo s...  105     2e-29
+  sp|Q7YRK3|COX6C_PONPY Cytochrome c oxidase subunit 6C OS=Pongo ...  104     3e-29
+  sp|P80977|CX6C1_THUOB Cytochrome c oxidase subunit 6C-1 OS=Thun...  99.3    4e-27
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P11951|CX6C2_RAT Cytochrome c oxidase subunit 6C-2 OS=Rattus 
+norvegicus OX=10116 GN=Cox6c2 PE=1 SV=3
+Length=76
+
+ Score = 110 bits (276),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 58/70 (83%), Positives = 63/70 (90%), Gaps = 0/70 (0%)
+
+Query  5   LAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDFEEM  64
+           L KPQMRGLLA+RLR HIVGAF+V+LG A  YKF VAE RKKAYADFYRNYDSMKDFEEM
+Sbjct  7   LPKPQMRGLLAKRLRVHIVGAFVVALGVAAAYKFGVAEPRKKAYADFYRNYDSMKDFEEM  66
+
+Query  65  RKAGIFQSAK  74
+           R+AG+FQSAK
+Sbjct  67  RQAGVFQSAK  76
+
+
+> sp|Q0Q4Z0|COX6C_VICPA Cytochrome c oxidase subunit 6C OS=Vicugna 
+pacos OX=30538 GN=COX6C PE=3 SV=1
+Length=76
+
+ Score = 110 bits (276),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 58/70 (83%), Positives = 63/70 (90%), Gaps = 0/70 (0%)
+
+Query  5   LAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDFEEM  64
+           L KPQMRGLLA+RLR HIVGAF+V+LG A  YKF VAE RKKAYADFYRNYDSMKDFEEM
+Sbjct  7   LPKPQMRGLLAKRLRVHIVGAFVVALGVAAAYKFGVAEPRKKAYADFYRNYDSMKDFEEM  66
+
+Query  65  RKAGIFQSAK  74
+           R+AG+FQSAK
+Sbjct  67  RQAGVFQSAK  76
+
+
+> sp|Q7YRK7|COX6C_TARSY Cytochrome c oxidase subunit 6C OS=Tarsius 
+syrichta OX=1868482 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 110 bits (274),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 66/73 (90%), Positives = 67/73 (92%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+           S AL KPQMRGLLA+RLRFHIVGAF VSLG A FYKFAVAE RKKAYADFYRNYDSMKDF
+Sbjct  3   SGALTKPQMRGLLAKRLRFHIVGAFAVSLGVAAFYKFAVAEPRKKAYADFYRNYDSMKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAGIFQSAK
+Sbjct  63  EEMRKAGIFQSAK  75
+
+
+> sp|P11950|CX6C1_RAT Cytochrome c oxidase subunit 6C-1 OS=Rattus 
+norvegicus OX=10116 GN=Cox6c1 PE=1 SV=3
+Length=76
+
+ Score = 109 bits (273),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 46/70 (66%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  5   LAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDFEEM  64
+           L KPQM   L++RL  HIVGAF+V LG A  +KF  A+ RKKAYADFYRN+D MKDF+EM
+Sbjct  7   LPKPQMHDPLSKRLWVHIVGAFIVDLGVAAAHKFGAAKPRKKAYADFYRNHDPMKDFDEM  66
+
+Query  65  RKAGIFQSAK  74
+           RKAG+F+S K
+Sbjct  67  RKAGVFRSVK  76
+
+
+> sp|Q7YRK2|COX6C_MACSL Cytochrome c oxidase subunit 6C OS=Macaca 
+silenus OX=54601 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 109 bits (272),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 56/73 (77%), Positives = 61/73 (84%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+              L KPQMRGLLARRLRFH+V  F++SLG A  YK  VA+KRKKAYADFYRNYD+MKDF
+Sbjct  3   PEVLPKPQMRGLLARRLRFHMVTGFVLSLGVAALYKVGVADKRKKAYADFYRNYDAMKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAGIFQS K
+Sbjct  63  EEMRKAGIFQSVK  75
+
+
+> sp|A1XQT2|COX6C_PIG Cytochrome c oxidase subunit 6C OS=Sus scrofa 
+OX=9823 GN=COX6C PE=3 SV=1
+Length=76
+
+ Score = 108 bits (270),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 62/74 (84%), Positives = 66/74 (89%), Gaps = 1/74 (1%)
+
+Query  2   STALAKPQMRGLLA-RRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKD  60
+           +++L KPQMR     RRLRFHIVGAF+VSLG ATFYKFAVAE RKKAYADFYRNYDSMKD
+Sbjct  3   TSSLTKPQMRWPSGPRRLRFHIVGAFIVSLGVATFYKFAVAEPRKKAYADFYRNYDSMKD  62
+
+Query  61  FEEMRKAGIFQSAK  74
+           FEEMRKAGIFQSAK
+Sbjct  63  FEEMRKAGIFQSAK  76
+
+
+> sp|Q7YRK1|COX6C_TRACR Cytochrome c oxidase subunit 6C OS=Trachypithecus 
+cristatus OX=122765 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 108 bits (270),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 57/73 (78%), Positives = 63/73 (86%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+              L KPQMRGLLA+RLRFH+V AF++SLG A  YKF VA+KRKKAYADFYRNYD+MKDF
+Sbjct  3   PEVLPKPQMRGLLAKRLRFHMVTAFVLSLGVAALYKFRVADKRKKAYADFYRNYDAMKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAGIFQS K
+Sbjct  63  EEMRKAGIFQSVK  75
+
+
+> sp|Q9CPQ1|COX6C_MOUSE Cytochrome c oxidase subunit 6C OS=Mus 
+musculus OX=10090 GN=Cox6c PE=1 SV=3
+Length=76
+
+ Score = 108 bits (270),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 58/70 (83%), Positives = 62/70 (89%), Gaps = 0/70 (0%)
+
+Query  5   LAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDFEEM  64
+           L KPQMRGLLA+RLR HI GAF+V+LG A  YKF VAE RKKAYA+FYRNYDSMKDFEEM
+Sbjct  7   LPKPQMRGLLAKRLRVHIAGAFIVALGVAAAYKFGVAEPRKKAYAEFYRNYDSMKDFEEM  66
+
+Query  65  RKAGIFQSAK  74
+           RKAGIFQSAK
+Sbjct  67  RKAGIFQSAK  76
+
+
+> sp|Q7YRJ9|COX6C_SAISC Cytochrome c oxidase subunit 6C OS=Saimiri 
+sciureus OX=9521 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 107 bits (268),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 54/73 (74%), Positives = 61/73 (84%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+           S  LAKPQMRGLLARRLR H+VGAF++SLG A  YKF VAE RKKAYADFY+NY   KDF
+Sbjct  3   SEVLAKPQMRGLLARRLRIHMVGAFLISLGVAALYKFGVAEPRKKAYADFYKNYSPEKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEM+KAG+F+S K
+Sbjct  63  EEMKKAGVFRSIK  75
+
+
+> sp|P04038|COX6C_BOVIN Cytochrome c oxidase subunit 6C OS=Bos 
+taurus OX=9913 GN=COX6C PE=1 SV=2
+Length=74
+
+ Score = 107 bits (268),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   MSTALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKD  60
+           MSTALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKD
+Sbjct  1   MSTALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKD  60
+
+Query  61  FEEMRKAGIFQSAK  74
+           FEEMRKAGIFQSAK
+Sbjct  61  FEEMRKAGIFQSAK  74
+
+
+> sp|Q7YRJ8|COX6C_NYCCO Cytochrome c oxidase subunit 6C OS=Nycticebus 
+coucang OX=9470 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 107 bits (267),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 62/73 (85%), Positives = 67/73 (92%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+           S+ALAKPQMRGLLARRLR HIVGAF+VSLG A FYK+AVAE RKKAYADFYRNYDS+K F
+Sbjct  3   SSALAKPQMRGLLARRLRIHIVGAFVVSLGVAAFYKYAVAEPRKKAYADFYRNYDSVKYF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAG+FQS K
+Sbjct  63  EEMRKAGVFQSVK  75
+
+
+> sp|Q7YRK0|COX6C_PLEDO Cytochrome c oxidase subunit 6C OS=Plecturocebus 
+donacophilus OX=230833 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 105 bits (262),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 54/73 (74%), Positives = 61/73 (84%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+           S  L KPQMRGLLARRLR H+VGAF+VSLG A  YKF VAE RKKAYADFY+NY + KDF
+Sbjct  3   SEVLVKPQMRGLLARRLRIHMVGAFLVSLGVAALYKFGVAEPRKKAYADFYKNYSAEKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEM+KAG+F+S K
+Sbjct  63  EEMKKAGLFRSIK  75
+
+
+> sp|P09669|COX6C_HUMAN Cytochrome c oxidase subunit 6C OS=Homo 
+sapiens OX=9606 GN=COX6C PE=1 SV=2
+Length=75
+
+ Score = 105 bits (262),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 54/73 (74%), Positives = 60/73 (82%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+              L KP+MRGLLARRLR H+  AF++SLG A  YKF VA++RKKAYADFYRNYD MKDF
+Sbjct  3   PEVLPKPRMRGLLARRLRNHMAVAFVLSLGVAALYKFRVADQRKKAYADFYRNYDVMKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAGIFQS K
+Sbjct  63  EEMRKAGIFQSVK  75
+
+
+> sp|Q7YRK3|COX6C_PONPY Cytochrome c oxidase subunit 6C OS=Pongo 
+pygmaeus OX=9600 GN=COX6C PE=3 SV=1
+Length=75
+
+ Score = 104 bits (260),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 54/73 (74%), Positives = 60/73 (82%), Gaps = 0/73 (0%)
+
+Query  2   STALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDF  61
+              L KP+MRGLLARRLR H+  AF++SLG A  YKF VA++RKKAYADFYRNYD MKDF
+Sbjct  3   PEVLPKPRMRGLLARRLRNHMAVAFVLSLGVAALYKFRVADRRKKAYADFYRNYDVMKDF  62
+
+Query  62  EEMRKAGIFQSAK  74
+           EEMRKAGIFQS K
+Sbjct  63  EEMRKAGIFQSVK  75
+
+
+> sp|P80977|CX6C1_THUOB Cytochrome c oxidase subunit 6C-1 OS=Thunnus 
+obesus OX=8241 PE=1 SV=2
+Length=76
+
+ Score = 99.3 bits (246),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 42/71 (59%), Positives = 55/71 (77%), Gaps = 0/71 (0%)
+
+Query  4   ALAKPQMRGLLARRLRFHIVGAFMVSLGFATFYKFAVAEKRKKAYADFYRNYDSMKDFEE  63
+           +LAKP MRGLL +RLRFH+  AF +SL  A  +K+ V E RK+AYADFY+ YD++KDF  
+Sbjct  2   SLAKPAMRGLLGKRLRFHLPIAFTLSLVAALGFKYGVTEPRKQAYADFYKQYDAVKDFNA  61
+
+Query  64  MRKAGIFQSAK  74
+           MR+AGIF+S +
+Sbjct  62  MREAGIFESVR  72
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.142    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0436    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4873072512
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

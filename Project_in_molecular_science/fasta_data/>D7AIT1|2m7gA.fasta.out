@@ -1,0 +1,2827 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= D7AIT1|2m7gA
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P45773|GSPG_VIBCH Type II secretion system protein G OS=Vibr...  55.5    1e-09
+  sp|P36643|FMWC_PSEPU Fimbrial protein OS=Pseudomonas putida OX=...  54.3    3e-09
+  sp|P27689|FMA3_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  53.5    6e-09
+  sp|P27688|FMA0_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  53.5    6e-09
+  sp|P17822|FMAB_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  53.5    6e-09
+  sp|P27691|FMA7_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  53.5    6e-09
+  sp|P27690|FMA6_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  53.1    6e-09
+  sp|P31586|GSPG_PECCC Type II secretion system protein G OS=Pect...  53.1    7e-09
+  sp|P31733|GSPG_AERHY Type II secretion system protein G OS=Aero...  52.8    1e-08
+  sp|P11764|FMM2_NEIGO Fimbrial protein P9-2 OS=Neisseria gonorrh...  52.4    1e-08
+  sp|Q00046|FMD3_NEIGO Fimbrial protein MS11-D3A OS=Neisseria gon...  52.4    1e-08
+  sp|P02974|FMM1_NEIGO Fimbrial protein OS=Neisseria gonorrhoeae ...  52.0    2e-08
+  sp|P31585|GSPG_DICCH Type II secretion system protein G OS=Dick...  51.6    2e-08
+  sp|Q00514|GSPG_PSEAE Type II secretion system protein G OS=Pseu...  51.6    2e-08
+  sp|P05431|FMM1_NEIMB Fimbrial protein OS=Neisseria meningitidis...  52.0    2e-08
+  sp|P57039|FMM1_NEIMA Fimbrial protein OS=Neisseria meningitidis...  51.6    2e-08
+  sp|P17827|FMAI_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  51.6    2e-08
+  sp|P15746|GSPG_KLEPN Type II secretion system protein G OS=Kleb...  50.8    4e-08
+  sp|Q00045|FMD1_NEIGO Fimbrial protein MS11-D1 OS=Neisseria gono...  51.6    4e-08
+  sp|P11933|FMAG_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  50.8    5e-08
+  sp|P17824|FMA2_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  50.4    6e-08
+  sp|P02975|FMAA_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  50.4    6e-08
+  sp|P17416|FMZD_DICNO Probable minor fimbrial protein OS=Dichelo...  50.4    6e-08
+  sp|P17823|FMA1_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  50.4    6e-08
+  sp|P27906|FMAX_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  50.4    7e-08
+  sp|P17825|FMAE_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  50.4    7e-08
+  sp|P17826|FMAF_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  50.1    9e-08
+  sp|P17417|FMZH_DICNO Probable minor fimbrial protein OS=Dichelo...  48.5    3e-07
+  sp|P36647|PPDD_ECOLI Prepilin peptidase-dependent protein D OS=...  44.3    9e-06
+  sp|P18774|FM12_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  43.9    2e-05
+  sp|P17836|FMK1_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  43.5    2e-05
+  sp|P02973|FMPA_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  41.2    1e-04
+  sp|Q8VQ71|COMGC_BACLD ComG operon protein 3 homolog OS=Bacillus...  39.7    3e-04
+  sp|P04953|FMAH_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  40.4    3e-04
+  sp|Q59589|PILA_MYXXD Fimbrial protein OS=Myxococcus xanthus (st...  41.2    3e-04
+  sp|P19528|FMAJ_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  40.4    3e-04
+  sp|P04739|FMPO_PSEAE Fimbrial protein OS=Pseudomonas aeruginosa...  39.7    5e-04
+  sp|P17837|FMCD_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  39.7    5e-04
+  sp|P13253|FMAD_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  39.7    5e-04
+  sp|Q9K923|COMGC_BACHD ComG operon protein 3 homolog OS=Bacillus...  38.9    6e-04
+  sp|P08015|FMP3_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  39.7    6e-04
+  sp|P33555|PPDA_CLOPE Prepilin peptidase-dependent protein A OS=...  36.2    0.008
+
+
+> sp|P45773|GSPG_VIBCH Type II secretion system protein G OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=epsG PE=1 SV=1
+Length=146
+
+ Score = 55.5 bits (132),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 42/67 (63%), Gaps = 0/67 (0%)
+
+Query  21  LQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           ++K+R + GFTL+E+++VV I+GILA+  +P     + KA    A +D+  L+ AL+   
+Sbjct  1   MKKMRKQTGFTLLEVMVVVVILGILASFVVPNLLGNKEKADQQKAVTDIVALENALDMYK  60
+
+Query  81  ADDQTYP  87
+            D+  YP
+Sbjct  61  LDNSVYP  67
+
+
+> sp|P36643|FMWC_PSEPU Fimbrial protein OS=Pseudomonas putida OX=303 
+GN=pilA PE=3 SV=1
+Length=136
+
+ Score = 54.3 bits (129),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 25/54 (46%), Positives = 40/54 (74%), Gaps = 0/54 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALE  77
+           ++ ++G TLIEL+IVVAIIGILA IAIP ++ ++ +   +A   ++  LKTA++
+Sbjct  1   MKGQRGITLIELMIVVAIIGILATIAIPMYTNHQSRTKAAAGLLEISALKTAMD  54
+
+
+> sp|P27689|FMA3_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 53.5 bits (127),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P27688|FMA0_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 53.5 bits (127),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P17822|FMAB_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 53.5 bits (127),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P27691|FMA7_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 53.5 bits (127),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P27690|FMA6_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 53.1 bits (126),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P31586|GSPG_PECCC Type II secretion system protein G OS=Pectobacterium 
+carotovorum subsp. carotovorum OX=555 GN=outG PE=3 
+SV=1
+Length=156
+
+ Score = 53.1 bits (126),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 41/61 (67%), Gaps = 0/61 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           ++GFTL+E+++V+ I+G+LA++ +P     + KA    A SD+ +L++AL+    D+  Y
+Sbjct  20  QRGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADRQKAVSDIVSLESALDMYKLDNNRY  79
+
+Query  87  P  87
+           P
+Sbjct  80  P  80
+
+
+> sp|P31733|GSPG_AERHY Type II secretion system protein G OS=Aeromonas 
+hydrophila OX=644 GN=exeG PE=3 SV=1
+Length=143
+
+ Score = 52.8 bits (125),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 26/67 (39%), Positives = 42/67 (63%), Gaps = 1/67 (1%)
+
+Query  21  LQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           +QK R + GFTL+E+++V+ I+GILA++ +P     + KA    A SD+  L+ AL+   
+Sbjct  1   MQK-RRQSGFTLLEVMVVIVILGILASLVVPNLMGNKEKADQQKAVSDIVALENALDMYK  59
+
+Query  81  ADDQTYP  87
+            D+  YP
+Sbjct  60  LDNNRYP  66
+
+
+> sp|P11764|FMM2_NEIGO Fimbrial protein P9-2 OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE PE=3 SV=1
+Length=167
+
+ Score = 52.4 bits (124),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 26/64 (41%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGIW  64
+
+Query  87  PPES  90
+           P ++
+Sbjct  65  PKDN  68
+
+
+> sp|Q00046|FMD3_NEIGO Fimbrial protein MS11-D3A OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE1 PE=3 SV=1
+Length=180
+
+ Score = 52.4 bits (124),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 39/61 (64%), Gaps = 0/61 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGKW  64
+
+Query  87  P  87
+           P
+Sbjct  65  P  65
+
+
+> sp|P02974|FMM1_NEIGO Fimbrial protein OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE1 PE=1 SV=2
+Length=165
+
+ Score = 52.0 bits (123),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 39/61 (64%), Gaps = 0/61 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGKW  64
+
+Query  87  P  87
+           P
+Sbjct  65  P  65
+
+
+> sp|P31585|GSPG_DICCH Type II secretion system protein G OS=Dickeya 
+chrysanthemi OX=556 GN=outG PE=3 SV=1
+Length=153
+
+ Score = 51.6 bits (122),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 22/63 (35%), Positives = 40/63 (63%), Gaps = 0/63 (0%)
+
+Query  25  RNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQ  84
+           R ++GFTL+E+++V+ I+G+LA++ +P     + KA    A SD+  L++ L+    D+ 
+Sbjct  3   RRQRGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADKQKAVSDIVALESQLDMYKLDNS  62
+
+Query  85  TYP  87
+            YP
+Sbjct  63  RYP  65
+
+
+> sp|Q00514|GSPG_PSEAE Type II secretion system protein G OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=xcpT PE=1 SV=1
+Length=142
+
+ Score = 51.6 bits (122),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 25/63 (40%), Positives = 40/63 (63%), Gaps = 0/63 (0%)
+
+Query  25  RNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQ  84
+           R + GFTLIE+++VV I+GILAA+ +PQ  +   +A  + A  D++ +  AL+    D+ 
+Sbjct  4   RQQSGFTLIEIMVVVVILGILAALVVPQVMSRPDQAKVTVAKGDIKAIAAALDMYKLDNF  63
+
+Query  85  TYP  87
+            YP
+Sbjct  64  AYP  66
+
+
+> sp|P05431|FMM1_NEIMB Fimbrial protein OS=Neisseria meningitidis 
+serogroup B (strain MC58) OX=122586 GN=pilE PE=1 SV=2
+Length=170
+
+ Score = 52.0 bits (123),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 39/61 (64%), Gaps = 0/61 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGEW  64
+
+Query  87  P  87
+           P
+Sbjct  65  P  65
+
+
+> sp|P57039|FMM1_NEIMA Fimbrial protein OS=Neisseria meningitidis 
+serogroup A / serotype 4A (strain Z2491) OX=122587 GN=pilE 
+PE=1 SV=1
+Length=170
+
+ Score = 51.6 bits (122),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 26/64 (41%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGEW  64
+
+Query  87  PPES  90
+           P  +
+Sbjct  65  PSNN  68
+
+
+> sp|P17827|FMAI_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 51.6 bits (122),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 38/64 (59%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D    
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKIRIAENLQDGACK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P15746|GSPG_KLEPN Type II secretion system protein G OS=Klebsiella 
+pneumoniae OX=573 GN=pulG PE=1 SV=1
+Length=140
+
+ Score = 50.8 bits (120),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 22/64 (34%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ ++GFTL+E+++V+ I+G+LA++ +P     + KA      SDL  L+ AL+    D+
+Sbjct  1   MQRQRGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADRQKVVSDLVALEGALDMYKLDN  60
+
+Query  84  QTYP  87
+             YP
+Sbjct  61  SRYP  64
+
+
+> sp|Q00045|FMD1_NEIGO Fimbrial protein MS11-D1 OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE1 PE=3 SV=1
+Length=214
+
+ Score = 51.6 bits (122),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 39/61 (64%), Gaps = 0/61 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGIW  64
+
+Query  87  P  87
+           P
+Sbjct  65  P  65
+
+
+> sp|P11933|FMAG_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=162
+
+ Score = 50.8 bits (120),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 28/59 (47%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  +   S   S    LK  +     D + 
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARTQVSEGVSLADGLKIRIADNLQDGKC  63
+
+
+> sp|P17824|FMA2_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 50.4 bits (119),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAY  56
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDY  34
+
+
+> sp|P02975|FMAA_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=1 SV=1
+Length=158
+
+ Score = 50.4 bits (119),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAY  56
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDY  34
+
+
+> sp|P17416|FMZD_DICNO Probable minor fimbrial protein OS=Dichelobacter 
+nodosus OX=870 GN=fimZ PE=3 SV=1
+Length=159
+
+ Score = 50.4 bits (119),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 39/62 (63%), Gaps = 0/62 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++   GFTLIEL+IVVAIIG+LA+IA+ Q+  + V++  +    +   L+ A+E    D 
+Sbjct  1   MKKMHGFTLIELMIVVAIIGVLASIALMQYQNFVVRSQVTRVLMEAGELRLAVEQCLNDG  60
+
+Query  84  QT  85
+            T
+Sbjct  61  TT  62
+
+
+> sp|P17823|FMA1_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=1 SV=1
+Length=160
+
+ Score = 50.4 bits (119),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAY  56
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDY  34
+
+
+> sp|P27906|FMAX_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 50.4 bits (119),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAY  56
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDY  34
+
+
+> sp|P17825|FMAE_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 50.4 bits (119),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAY  56
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDY  34
+
+
+> sp|P17826|FMAF_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=158
+
+ Score = 50.1 bits (118),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAY  56
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDY  34
+
+
+> sp|P17417|FMZH_DICNO Probable minor fimbrial protein OS=Dichelobacter 
+nodosus OX=870 GN=fimZ PE=3 SV=1
+Length=159
+
+ Score = 48.5 bits (114),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 24/62 (39%), Positives = 38/62 (61%), Gaps = 0/62 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++   GFTLIEL+IVVAIIG+LA+ A+ Q+  + V++  +    +   L+ A+E    D 
+Sbjct  1   MKKMHGFTLIELMIVVAIIGVLASTALMQYQNFVVRSQVTRVLMEAGELRLAVEQCLNDG  60
+
+Query  84  QT  85
+            T
+Sbjct  61  TT  62
+
+
+> sp|P36647|PPDD_ECOLI Prepilin peptidase-dependent protein D OS=Escherichia 
+coli (strain K12) OX=83333 GN=ppdD PE=3 SV=2
+Length=146
+
+ Score = 44.3 bits (103),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 19/37 (51%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKA  60
+           +  ++GFTLIEL++V+ II IL+AI IP +  Y  KA
+Sbjct  1   MDKQRGFTLIELMVVIGIIAILSAIGIPAYQNYLRKA  37
+
+
+> sp|P18774|FM12_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=1 SV=1
+Length=154
+
+ Score = 43.9 bits (102),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 34/57 (60%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  +   + A S++  LKTA ESA 
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQDYTARTQVTRAVSEVSALKTAAESAI  57
+
+
+> sp|P17836|FMK1_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=3 SV=1
+Length=154
+
+ Score = 43.5 bits (101),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 34/57 (60%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  +   + A S++  LKTA ESA 
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQDYTARTQVTRAVSEVSALKTAAESAI  57
+
+
+> sp|P02973|FMPA_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=1 SV=2
+Length=150
+
+ Score = 41.2 bits (95),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 31/58 (53%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFA  81
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E A +
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALASVNPLKTTVEEALS  58
+
+
+> sp|Q8VQ71|COMGC_BACLD ComG operon protein 3 homolog OS=Bacillus 
+licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / NBRC 
+12200 / NCIMB 9375 / NRRL NRS-1264 / Gibson 46) OX=279010 
+GN=comGC PE=3 SV=1
+Length=97
+
+ Score = 39.7 bits (91),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 21/59 (36%), Positives = 32/59 (54%), Gaps = 1/59 (2%)
+
+Query  26  NRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQ  84
+           N KGFTLIE+L+V+ +I IL  I IP  + +  ++        L N+  A  +A+  D 
+Sbjct  2   NEKGFTLIEMLVVMLVISILLLITIPNVTKHN-QSIQKKGCEGLINMVQAQITAYQMDH  59
+
+
+> sp|P04953|FMAH_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=1 SV=1
+Length=156
+
+ Score = 40.4 bits (93),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 31/58 (53%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQ  84
+           +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  S   S+   ++TA+E+   D +
+Sbjct  5   QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRVMSETGQMRTAIETCLLDGK  62
+
+
+> sp|Q59589|PILA_MYXXD Fimbrial protein OS=Myxococcus xanthus (strain 
+DK 1622) OX=246197 GN=pilA PE=1 SV=1
+Length=220
+
+ Score = 41.2 bits (95),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 35/62 (56%), Positives = 46/62 (74%), Gaps = 1/62 (2%)
+
+Query  25  RNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQ  84
+           RNR GFTLIEL+IVVAIIGILAAIAIP F  ++ ++  S A ++L+ L TA +S F++  
+Sbjct  9   RNR-GFTLIELMIVVAIIGILAAIAIPNFIKFQARSKQSEAKTNLKALYTAQKSFFSEKD  67
+
+Query  85  TY  86
+            Y
+Sbjct  68  RY  69
+
+
+> sp|P19528|FMAJ_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 40.4 bits (93),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 31/56 (55%), Positives = 41/56 (73%), Gaps = 0/56 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  S   S+   ++TA+E+   D
+Sbjct  5   QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRVMSETGQMRTAIETCLLD  60
+
+
+> sp|P04739|FMPO_PSEAE Fimbrial protein OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / 
+LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pilA PE=1 SV=1
+Length=149
+
+ Score = 39.7 bits (91),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 30/58 (52%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFA  81
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E + +
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEESLS  58
+
+
+> sp|P17837|FMCD_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=3 SV=1
+Length=150
+
+ Score = 39.7 bits (91),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 30/58 (52%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFA  81
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E + +
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEESLS  58
+
+
+> sp|P13253|FMAD_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=2
+Length=156
+
+ Score = 39.7 bits (91),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 31/58 (53%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQ  84
+           +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  S   S+   ++TA+E+   D +
+Sbjct  5   QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRVMSETGQMRTAIETCVLDGK  62
+
+
+> sp|Q9K923|COMGC_BACHD ComG operon protein 3 homolog OS=Bacillus 
+halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / 
+JCM 9153 / C-125) OX=272558 GN=comGC PE=3 SV=1
+Length=102
+
+ Score = 38.9 bits (89),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 19/68 (28%), Positives = 36/68 (53%), Gaps = 0/68 (0%)
+
+Query  20  MLQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESA  79
+           M +   ++ GFTL+E++IV+ II IL  +A+P  +     A +    + ++ L+T + + 
+Sbjct  1   MKKPFHHQAGFTLVEMMIVLMIISILLLVALPSMTKNNEVAGDKGCEATVKLLQTQVHAY  60
+
+Query  80  FADDQTYP  87
+             D    P
+Sbjct  61  EIDHDRLP  68
+
+
+> sp|P08015|FMP3_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=3 SV=1
+Length=150
+
+ Score = 39.7 bits (91),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 30/58 (52%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFA  81
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E + +
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEESLS  58
+
+
+> sp|P33555|PPDA_CLOPE Prepilin peptidase-dependent protein A OS=Clostridium 
+perfringens (strain 13 / Type A) OX=195102 GN=ppdA 
+PE=3 SV=2
+Length=140
+
+ Score = 36.2 bits (82),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 21/60 (35%), Positives = 34/60 (57%), Gaps = 1/60 (2%)
+
+Query  25  RNRKG-FTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           RN+KG FTLIEL +V+AI+ I+  +  P FS  +  A       +   ++ ++E   A+D
+Sbjct  18  RNKKGGFTLIELTVVLAIMAIILMVIAPNFSYVKDSAKAKVDKQNCAAIERSVEMLLAED  77
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.130    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4987282620
+Results from round 2
+
+
+Query= D7AIT1|2m7gA
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P45773|GSPG_VIBCH Type II secretion system protein G OS=Vibr...  95.2    2e-24
+  sp|P31733|GSPG_AERHY Type II secretion system protein G OS=Aero...  90.6    1e-22
+  sp|P15746|GSPG_KLEPN Type II secretion system protein G OS=Kleb...  90.2    1e-22
+  sp|P31586|GSPG_PECCC Type II secretion system protein G OS=Pect...  89.4    4e-22
+  sp|P31585|GSPG_DICCH Type II secretion system protein G OS=Dick...  88.6    6e-22
+  sp|P11764|FMM2_NEIGO Fimbrial protein P9-2 OS=Neisseria gonorrh...  88.2    1e-21
+  sp|P02974|FMM1_NEIGO Fimbrial protein OS=Neisseria gonorrhoeae ...  85.9    9e-21
+  sp|Q00045|FMD1_NEIGO Fimbrial protein MS11-D1 OS=Neisseria gono...  86.3    1e-20
+  sp|Q00046|FMD3_NEIGO Fimbrial protein MS11-D3A OS=Neisseria gon...  85.2    2e-20
+  sp|P17822|FMAB_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  84.0    4e-20
+  sp|P27689|FMA3_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  83.6    6e-20
+  sp|P57039|FMM1_NEIMA Fimbrial protein OS=Neisseria meningitidis...  84.0    6e-20
+  sp|P27690|FMA6_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  82.9    1e-19
+  sp|P27688|FMA0_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  82.9    1e-19
+  sp|P27691|FMA7_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  82.9    1e-19
+  sp|P05431|FMM1_NEIMB Fimbrial protein OS=Neisseria meningitidis...  82.5    2e-19
+  sp|P17827|FMAI_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  82.1    2e-19
+  sp|Q9K923|COMGC_BACHD ComG operon protein 3 homolog OS=Bacillus...  79.0    9e-19
+  sp|Q00514|GSPG_PSEAE Type II secretion system protein G OS=Pseu...  79.0    2e-18
+  sp|P17824|FMA2_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  77.1    2e-17
+  sp|P17823|FMA1_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  76.7    2e-17
+  sp|P17416|FMZD_DICNO Probable minor fimbrial protein OS=Dichelo...  75.5    6e-17
+  sp|P11933|FMAG_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  75.5    6e-17
+  sp|P36643|FMWC_PSEPU Fimbrial protein OS=Pseudomonas putida OX=...  73.6    2e-16
+  sp|P17417|FMZH_DICNO Probable minor fimbrial protein OS=Dichelo...  73.6    3e-16
+  sp|P02975|FMAA_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  73.2    4e-16
+  sp|P17826|FMAF_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  72.8    6e-16
+  sp|P27906|FMAX_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  71.7    2e-15
+  sp|P17825|FMAE_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  71.7    2e-15
+  sp|P36647|PPDD_ECOLI Prepilin peptidase-dependent protein D OS=...  67.8    4e-14
+  sp|P19528|FMAJ_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  61.7    8e-12
+  sp|P17836|FMK1_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  61.3    9e-12
+  sp|P18774|FM12_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  61.3    9e-12
+  sp|P04953|FMAH_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  61.3    1e-11
+  sp|P13253|FMAD_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  60.5    2e-11
+  sp|Q8VQ71|COMGC_BACLD ComG operon protein 3 homolog OS=Bacillus...  58.2    8e-11
+  sp|Q59589|PILA_MYXXD Fimbrial protein OS=Myxococcus xanthus (st...  57.0    5e-10
+  sp|P02973|FMPA_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  55.5    1e-09
+  sp|P08015|FMP3_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  55.1    1e-09
+  sp|P04739|FMPO_PSEAE Fimbrial protein OS=Pseudomonas aeruginosa...  55.1    2e-09
+  sp|P17837|FMCD_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  54.7    2e-09
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P41442|GSPG_ECOLI Putative type II secretion system protein ...  68.6    2e-14
+  sp|Q07564|ECPC_EIKCO Fimbrial protein EcpC OS=Eikenella corrode...  54.7    2e-09
+  sp|P09829|FMM_MORNO Fimbrial protein OS=Moraxella nonliquefacie...  53.2    8e-09
+  sp|P07640|FMQ_MORBO Fimbrial protein Q OS=Moraxella bovis OX=47...  50.5    5e-08
+  sp|P20657|FMI_MORBO Fimbrial protein 1 OS=Moraxella bovis OX=47...  48.2    4e-07
+  sp|P35645|ECPA_EIKCO Fimbrial protein EcpA OS=Eikenella corrode...  47.4    7e-07
+  sp|Q00515|GSPH_PSEAE Type II secretion system protein H OS=Pseu...  46.6    2e-06
+  sp|P17838|FMP1_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  46.3    2e-06
+  sp|Q07565|ECPD_EIKCO Fimbrial protein EcpD OS=Eikenella corrode...  45.9    3e-06
+  sp|P35646|ECPB_EIKCO Fimbrial protein EcpB OS=Eikenella corrode...  44.3    1e-05
+  sp|O30583|COMP_ACIAD Pilin-like competence factor ComP OS=Acine...  42.8    3e-05
+  sp|P33555|PPDA_CLOPE Prepilin peptidase-dependent protein A OS=...  42.4    4e-05
+  sp|P45791|TAPA_AERHY Pilus biogenesis protein TapA OS=Aeromonas...  42.0    7e-05
+  sp|P41443|GSPH_ECOLI Putative type II secretion system protein ...  42.0    8e-05
+  sp|P24687|GSPH_DICCH Type II secretion system protein H OS=Dick...  38.2    0.002
+  sp|Q60153|TCPA_VIBCH Toxin coregulated pilin OS=Vibrio cholerae...  37.8    0.005
+  sp|P23024|TCPA_VIBCL Toxin coregulated pilin OS=Vibrio cholerae...  37.4    0.005
+
+
+> sp|P45773|GSPG_VIBCH Type II secretion system protein G OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=epsG PE=1 SV=1
+Length=146
+
+ Score = 95.2 bits (235),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 25/67 (37%), Positives = 42/67 (63%), Gaps = 0/67 (0%)
+
+Query  21  LQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           ++K+R + GFTL+E+++VV I+GILA+  +P     + KA    A +D+  L+ AL+   
+Sbjct  1   MKKMRKQTGFTLLEVMVVVVILGILASFVVPNLLGNKEKADQQKAVTDIVALENALDMYK  60
+
+Query  81  ADDQTYP  87
+            D+  YP
+Sbjct  61  LDNSVYP  67
+
+
+> sp|P31733|GSPG_AERHY Type II secretion system protein G OS=Aeromonas 
+hydrophila OX=644 GN=exeG PE=3 SV=1
+Length=143
+
+ Score = 90.6 bits (223),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 26/67 (39%), Positives = 42/67 (63%), Gaps = 1/67 (1%)
+
+Query  21  LQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           +QK R + GFTL+E+++V+ I+GILA++ +P     + KA    A SD+  L+ AL+   
+Sbjct  1   MQK-RRQSGFTLLEVMVVIVILGILASLVVPNLMGNKEKADQQKAVSDIVALENALDMYK  59
+
+Query  81  ADDQTYP  87
+            D+  YP
+Sbjct  60  LDNNRYP  66
+
+
+> sp|P15746|GSPG_KLEPN Type II secretion system protein G OS=Klebsiella 
+pneumoniae OX=573 GN=pulG PE=1 SV=1
+Length=140
+
+ Score = 90.2 bits (222),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 22/64 (34%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ ++GFTL+E+++V+ I+G+LA++ +P     + KA      SDL  L+ AL+    D+
+Sbjct  1   MQRQRGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADRQKVVSDLVALEGALDMYKLDN  60
+
+Query  84  QTYP  87
+             YP
+Sbjct  61  SRYP  64
+
+
+> sp|P31586|GSPG_PECCC Type II secretion system protein G OS=Pectobacterium 
+carotovorum subsp. carotovorum OX=555 GN=outG PE=3 
+SV=1
+Length=156
+
+ Score = 89.4 bits (220),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 22/62 (35%), Positives = 41/62 (66%), Gaps = 0/62 (0%)
+
+Query  26  NRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+            ++GFTL+E+++V+ I+G+LA++ +P     + KA    A SD+ +L++AL+    D+  
+Sbjct  19  RQRGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADRQKAVSDIVSLESALDMYKLDNNR  78
+
+Query  86  YP  87
+           YP
+Sbjct  79  YP  80
+
+
+> sp|P31585|GSPG_DICCH Type II secretion system protein G OS=Dickeya 
+chrysanthemi OX=556 GN=outG PE=3 SV=1
+Length=153
+
+ Score = 88.6 bits (218),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 22/63 (35%), Positives = 40/63 (63%), Gaps = 0/63 (0%)
+
+Query  25  RNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQ  84
+           R ++GFTL+E+++V+ I+G+LA++ +P     + KA    A SD+  L++ L+    D+ 
+Sbjct  3   RRQRGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADKQKAVSDIVALESQLDMYKLDNS  62
+
+Query  85  TYP  87
+            YP
+Sbjct  63  RYP  65
+
+
+> sp|P11764|FMM2_NEIGO Fimbrial protein P9-2 OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE PE=3 SV=1
+Length=167
+
+ Score = 88.2 bits (217),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGIW  64
+
+Query  87  PPES  90
+           P ++
+Sbjct  65  PKDN  68
+
+
+> sp|P02974|FMM1_NEIGO Fimbrial protein OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE1 PE=1 SV=2
+Length=165
+
+ Score = 85.9 bits (211),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGKW  64
+
+Query  87  PPES  90
+           P  +
+Sbjct  65  PENN  68
+
+
+> sp|Q00045|FMD1_NEIGO Fimbrial protein MS11-D1 OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE1 PE=3 SV=1
+Length=214
+
+ Score = 86.3 bits (212),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGIW  64
+
+Query  87  PPES  90
+           P  +
+Sbjct  65  PENN  68
+
+
+> sp|Q00046|FMD3_NEIGO Fimbrial protein MS11-D3A OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE1 PE=3 SV=1
+Length=180
+
+ Score = 85.2 bits (209),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGKW  64
+
+Query  87  PPES  90
+           P  +
+Sbjct  65  PENN  68
+
+
+> sp|P17822|FMAB_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 84.0 bits (206),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P27689|FMA3_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 83.6 bits (205),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P57039|FMM1_NEIMA Fimbrial protein OS=Neisseria meningitidis 
+serogroup A / serotype 4A (strain Z2491) OX=122587 GN=pilE 
+PE=1 SV=1
+Length=170
+
+ Score = 84.0 bits (206),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGEW  64
+
+Query  87  PPES  90
+           P  +
+Sbjct  65  PSNN  68
+
+
+> sp|P27690|FMA6_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 82.9 bits (203),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P27688|FMA0_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 82.9 bits (203),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P27691|FMA7_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 82.9 bits (203),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P05431|FMM1_NEIMB Fimbrial protein OS=Neisseria meningitidis 
+serogroup B (strain MC58) OX=122586 GN=pilE PE=1 SV=2
+Length=170
+
+ Score = 82.5 bits (202),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGEW  64
+
+Query  87  PPES  90
+           P  +
+Sbjct  65  PGNN  68
+
+
+> sp|P17827|FMAI_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 82.1 bits (201),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 38/64 (59%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D    
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKIRIAENLQDGACK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|Q9K923|COMGC_BACHD ComG operon protein 3 homolog OS=Bacillus 
+halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / 
+JCM 9153 / C-125) OX=272558 GN=comGC PE=3 SV=1
+Length=102
+
+ Score = 79.0 bits (193),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 19/68 (28%), Positives = 36/68 (53%), Gaps = 0/68 (0%)
+
+Query  20  MLQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESA  79
+           M +   ++ GFTL+E++IV+ II IL  +A+P  +     A +    + ++ L+T + + 
+Sbjct  1   MKKPFHHQAGFTLVEMMIVLMIISILLLVALPSMTKNNEVAGDKGCEATVKLLQTQVHAY  60
+
+Query  80  FADDQTYP  87
+             D    P
+Sbjct  61  EIDHDRLP  68
+
+
+> sp|Q00514|GSPG_PSEAE Type II secretion system protein G OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=xcpT PE=1 SV=1
+Length=142
+
+ Score = 79.0 bits (193),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 25/63 (40%), Positives = 40/63 (63%), Gaps = 0/63 (0%)
+
+Query  25  RNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQ  84
+           R + GFTLIE+++VV I+GILAA+ +PQ  +   +A  + A  D++ +  AL+    D+ 
+Sbjct  4   RQQSGFTLIEIMVVVVILGILAALVVPQVMSRPDQAKVTVAKGDIKAIAAALDMYKLDNF  63
+
+Query  85  TYP  87
+            YP
+Sbjct  64  AYP  66
+
+
+> sp|P17824|FMA2_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 77.1 bits (188),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 34/59 (58%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  +   S   S    LK  +     D   
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARTQVSEGVSLADGLKIRIADNLQDGDC  63
+
+
+> sp|P17823|FMA1_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=1 SV=1
+Length=160
+
+ Score = 76.7 bits (187),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 34/59 (58%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  +   S   S    LK  +     D   
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARTQVSEGVSLADGLKIRIADNLQDGDC  63
+
+
+> sp|P17416|FMZD_DICNO Probable minor fimbrial protein OS=Dichelobacter 
+nodosus OX=870 GN=fimZ PE=3 SV=1
+Length=159
+
+ Score = 75.5 bits (184),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 25/62 (40%), Positives = 39/62 (63%), Gaps = 0/62 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++   GFTLIEL+IVVAIIG+LA+IA+ Q+  + V++  +    +   L+ A+E    D 
+Sbjct  1   MKKMHGFTLIELMIVVAIIGVLASIALMQYQNFVVRSQVTRVLMEAGELRLAVEQCLNDG  60
+
+Query  84  QT  85
+            T
+Sbjct  61  TT  62
+
+
+> sp|P11933|FMAG_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=162
+
+ Score = 75.5 bits (184),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  +   S   S    LK  +     D + 
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARTQVSEGVSLADGLKIRIADNLQDGKC  63
+
+
+> sp|P36643|FMWC_PSEPU Fimbrial protein OS=Pseudomonas putida OX=303 
+GN=pilA PE=3 SV=1
+Length=136
+
+ Score = 73.6 bits (179),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ ++G TLIEL+IVVAIIGILA IAIP ++ ++ +   +A   ++  LKTA++    + 
+Sbjct  1   MKGQRGITLIELMIVVAIIGILATIAIPMYTNHQSRTKAAAGLLEISALKTAMDLRLNEG  60
+
+Query  84  Q  84
+           +
+Sbjct  61  K  61
+
+
+> sp|P17417|FMZH_DICNO Probable minor fimbrial protein OS=Dichelobacter 
+nodosus OX=870 GN=fimZ PE=3 SV=1
+Length=159
+
+ Score = 73.6 bits (179),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 24/63 (38%), Positives = 38/63 (60%), Gaps = 0/63 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++   GFTLIEL+IVVAIIG+LA+ A+ Q+  + V++  +    +   L+ A+E    D 
+Sbjct  1   MKKMHGFTLIELMIVVAIIGVLASTALMQYQNFVVRSQVTRVLMEAGELRLAVEQCLNDG  60
+
+Query  84  QTY  86
+            T 
+Sbjct  61  TTK  63
+
+
+> sp|P02975|FMAA_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=1 SV=1
+Length=158
+
+ Score = 73.2 bits (178),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 36/64 (56%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   +    LK  +       +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGLTLADGLKVRISDHLESGECK  64
+
+Query  87  PPES  90
+              +
+Sbjct  65  GDAN  68
+
+
+> sp|P17826|FMAF_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=158
+
+ Score = 72.8 bits (177),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 25/59 (42%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   +    LK  +     +   
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGLTLADGLKIRIADHLENGSC  63
+
+
+> sp|P27906|FMAX_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 71.7 bits (174),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 25/59 (42%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   +    LK  +     +   
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGLTLADGLKIRIADHLENGSC  63
+
+
+> sp|P17825|FMAE_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 71.7 bits (174),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 25/59 (42%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   +    LK  +     +   
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGLTLADGLKIRIADHLENGSC  63
+
+
+> sp|P41442|GSPG_ECOLI Putative type II secretion system protein 
+G OS=Escherichia coli (strain K12) OX=83333 GN=gspG PE=2 SV=1
+Length=145
+
+ Score = 68.6 bits (166),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 23/70 (33%), Positives = 42/70 (60%), Gaps = 0/70 (0%)
+
+Query  21  LQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           ++    ++GFTL+E+++V+ IIG+LA++ +P     + KA    A SD+  L+ AL+   
+Sbjct  1   MRATDKQRGFTLLEIMVVIVIIGVLASLVVPNLMGNKEKADKQKAVSDIVALENALDMYK  60
+
+Query  81  ADDQTYPPES  90
+            D+  YP  +
+Sbjct  61  LDNHHYPTTN  70
+
+
+> sp|P36647|PPDD_ECOLI Prepilin peptidase-dependent protein D OS=Escherichia 
+coli (strain K12) OX=83333 GN=ppdD PE=3 SV=2
+Length=146
+
+ Score = 67.8 bits (164),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 22/61 (36%), Positives = 34/61 (56%), Gaps = 0/61 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           +  ++GFTLIEL++V+ II IL+AI IP +  Y  KA  +         +TA+E    + 
+Sbjct  1   MDKQRGFTLIELMVVIGIIAILSAIGIPAYQNYLRKAALTDMLQTFVPYRTAVELCALEH  60
+
+Query  84  Q  84
+            
+Sbjct  61  G  61
+
+
+> sp|P19528|FMAJ_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 61.7 bits (148),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 31/59 (53%), Positives = 42/59 (71%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  S   S+   ++TA+E+   D + 
+Sbjct  5   QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRVMSETGQMRTAIETCLLDGKK  63
+
+
+> sp|P17836|FMK1_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=3 SV=1
+Length=154
+
+ Score = 61.3 bits (147),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 34/61 (56%), Positives = 45/61 (74%), Gaps = 0/61 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  +   + A S++  LKTA ESA  + 
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQDYTARTQVTRAVSEVSALKTAAESAILEG  60
+
+Query  84  Q  84
+           +
+Sbjct  61  K  61
+
+
+> sp|P18774|FM12_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=1 SV=1
+Length=154
+
+ Score = 61.3 bits (147),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 34/61 (56%), Positives = 45/61 (74%), Gaps = 0/61 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  +   + A S++  LKTA ESA  + 
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQDYTARTQVTRAVSEVSALKTAAESAILEG  60
+
+Query  84  Q  84
+           +
+Sbjct  61  K  61
+
+
+> sp|P04953|FMAH_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=1 SV=1
+Length=156
+
+ Score = 61.3 bits (147),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 31/58 (53%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQ  84
+           +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  S   S+   ++TA+E+   D +
+Sbjct  5   QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRVMSETGQMRTAIETCLLDGK  62
+
+
+> sp|P13253|FMAD_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=2
+Length=156
+
+ Score = 60.5 bits (145),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 31/58 (53%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQ  84
+           +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  S   S+   ++TA+E+   D +
+Sbjct  5   QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRVMSETGQMRTAIETCVLDGK  62
+
+
+> sp|Q8VQ71|COMGC_BACLD ComG operon protein 3 homolog OS=Bacillus 
+licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / NBRC 
+12200 / NCIMB 9375 / NRRL NRS-1264 / Gibson 46) OX=279010 
+GN=comGC PE=3 SV=1
+Length=97
+
+ Score = 58.2 bits (139),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 18/64 (28%), Positives = 29/64 (45%), Gaps = 0/64 (0%)
+
+Query  26  NRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           N KGFTLIE+L+V+ +I IL  I IP  + +            +  ++  + +   D   
+Sbjct  2   NEKGFTLIEMLVVMLVISILLLITIPNVTKHNQSIQKKGCEGLINMVQAQITAYQMDHDG  61
+
+Query  86  YPPE  89
+             P 
+Sbjct  62  KTPN  65
+
+
+> sp|Q59589|PILA_MYXXD Fimbrial protein OS=Myxococcus xanthus (strain 
+DK 1622) OX=246197 GN=pilA PE=1 SV=1
+Length=220
+
+ Score = 57.0 bits (136),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 32/61 (52%), Positives = 44/61 (72%), Gaps = 0/61 (0%)
+
+Query  26  NRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+             +GFTLIEL+IVVAIIGILAAIAIP F  ++ ++  S A ++L+ L TA +S F++   
+Sbjct  9   RNRGFTLIELMIVVAIIGILAAIAIPNFIKFQARSKQSEAKTNLKALYTAQKSFFSEKDR  68
+
+Query  86  Y  86
+           Y
+Sbjct  69  Y  69
+
+
+> sp|P02973|FMPA_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=1 SV=2
+Length=150
+
+ Score = 55.5 bits (132),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 31/60 (52%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E A +  
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALASVNPLKTTVEEALSRG  60
+
+
+> sp|P08015|FMP3_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=3 SV=1
+Length=150
+
+ Score = 55.1 bits (131),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 30/60 (50%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E + +  
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEESLSRG  60
+
+
+> sp|P04739|FMPO_PSEAE Fimbrial protein OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / 
+LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pilA PE=1 SV=1
+Length=149
+
+ Score = 55.1 bits (131),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 30/60 (50%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E + +  
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEESLSRG  60
+
+
+> sp|P17837|FMCD_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=3 SV=1
+Length=150
+
+ Score = 54.7 bits (130),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 30/60 (50%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E + +  
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEESLSRG  60
+
+
+> sp|Q07564|ECPC_EIKCO Fimbrial protein EcpC OS=Eikenella corrodens 
+OX=539 GN=ecpC PE=3 SV=1
+Length=153
+
+ Score = 54.7 bits (130),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 28/61 (46%), Positives = 40/61 (66%), Gaps = 0/61 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AIIGILAAIA+P +  Y  ++  S A +     K A+   ++D   +
+Sbjct  6   QKGFTLIELMIVIAIIGILAAIALPAYQDYVARSQMSEAFNLAGGQKGAVSEYYSDKGVW  65
+
+Query  87  P  87
+           P
+Sbjct  66  P  66
+
+
+> sp|P09829|FMM_MORNO Fimbrial protein OS=Moraxella nonliquefaciens 
+OX=478 GN=tfpA PE=1 SV=2
+Length=154
+
+ Score = 53.2 bits (126),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 28/63 (44%), Positives = 42/63 (67%), Gaps = 0/63 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           +  +KGFTLIEL+IV+AIIGILAAIA+P +  Y  +A  S A +    LKT++ +   + 
+Sbjct  1   MNAQKGFTLIELMIVIAIIGILAAIALPAYQDYIARAQVSEAFTLADGLKTSISTNRQNG  60
+
+Query  84  QTY  86
+           + +
+Sbjct  61  RCF  63
+
+
+> sp|P07640|FMQ_MORBO Fimbrial protein Q OS=Moraxella bovis OX=476 
+GN=tfpQ PE=1 SV=1
+Length=157
+
+ Score = 50.5 bits (119),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 29/62 (47%), Positives = 43/62 (69%), Gaps = 0/62 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           +  +KGFTLIEL+IV+AIIGILAAIA+P +  Y  K+  +    +L   KTA+++A  + 
+Sbjct  1   MNAQKGFTLIELMIVIAIIGILAAIALPAYQDYISKSQTTRVVGELAAGKTAVDAALFEG  60
+
+Query  84  QT  85
+           +T
+Sbjct  61  KT  62
+
+
+> sp|P20657|FMI_MORBO Fimbrial protein 1 OS=Moraxella bovis OX=476 
+PE=1 SV=1
+Length=159
+
+ Score = 48.2 bits (113),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 30/62 (48%), Positives = 44/62 (71%), Gaps = 0/62 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           +  +KGFTLIEL+IV+AIIGILAAIA+P +  Y  K+  +  S +L   KTA+++A  + 
+Sbjct  1   MNAQKGFTLIELMIVIAIIGILAAIALPAYQDYISKSQTTRVSGELAAGKTAVDAALFEG  60
+
+Query  84  QT  85
+           +T
+Sbjct  61  KT  62
+
+
+> sp|P35645|ECPA_EIKCO Fimbrial protein EcpA OS=Eikenella corrodens 
+OX=539 GN=ecpA PE=3 SV=1
+Length=159
+
+ Score = 47.4 bits (111),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 30/59 (51%), Positives = 43/59 (73%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IV+AIIGILAAIA+P +  Y  K+  + A  ++   KTA+E+A  + +T
+Sbjct  5   QKGFTLIELMIVIAIIGILAAIALPLYQDYISKSQVTRAYGEMAGTKTAIEAALFEGRT  63
+
+
+> sp|Q00515|GSPH_PSEAE Type II secretion system protein H OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=xcpU PE=3 SV=1
+Length=172
+
+ Score = 46.6 bits (109),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 19/65 (29%), Positives = 33/65 (51%), Gaps = 1/65 (2%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQF-SAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           +R  +GFTLIEL++V+ II +L  +A+     A   +  +S A      +    + A  D
+Sbjct  1   MRASRGFTLIELMVVMVIISVLIGLAVLSTGFASTSRELDSEAERLAGLIGVLTDEAVLD  60
+
+Query  83  DQTYP  87
+           ++ Y 
+Sbjct  61  NREYG  65
+
+
+> sp|P17838|FMP1_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=1 SV=1
+Length=157
+
+ Score = 46.3 bits (108),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 32/65 (49%), Positives = 41/65 (63%), Gaps = 0/65 (0%)
+
+Query  26  NRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+            +KGFTLIEL+IVVAIIGILAAIAIP +  Y  +A  S   +    LKT +   F+ D +
+Sbjct  4   AQKGFTLIELMIVVAIIGILAAIAIPAYQDYTARAQLSERMTLASGLKTKVSDIFSQDGS  63
+
+Query  86  YPPES  90
+            P  +
+Sbjct  64  CPANT  68
+
+
+> sp|Q07565|ECPD_EIKCO Fimbrial protein EcpD OS=Eikenella corrodens 
+OX=539 GN=ecpD PE=3 SV=1
+Length=152
+
+ Score = 45.9 bits (107),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 27/55 (49%), Positives = 39/55 (71%), Gaps = 0/55 (0%)
+
+Query  28  KGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFAD  82
+            GFTLIEL+IV+AIIGILAAIA+P + +Y  +A  S A S +  LK+++   + +
+Sbjct  6   SGFTLIELMIVIAIIGILAAIALPAYQSYTARAQVSEAISLMDGLKSSVADNYFN  60
+
+
+> sp|P35646|ECPB_EIKCO Fimbrial protein EcpB OS=Eikenella corrodens 
+OX=539 GN=ecpB PE=3 SV=1
+Length=159
+
+ Score = 44.3 bits (103),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 30/61 (49%), Positives = 41/61 (67%), Gaps = 0/61 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           +  +KGFTLIEL+IV+AIIGILAAIA+P +  +  KA  +    +L + KTA+ES  A  
+Sbjct  1   MYKQKGFTLIELMIVIAIIGILAAIALPLYQDHMAKAQINRVFYELGSTKTAVESILAHG  60
+
+Query  84  Q  84
+            
+Sbjct  61  G  61
+
+
+> sp|O30583|COMP_ACIAD Pilin-like competence factor ComP OS=Acinetobacter 
+baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 
+GN=comP PE=1 SV=1
+Length=147
+
+ Score = 42.8 bits (99),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 40/59 (68%), Gaps = 0/59 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           +  +KGFTLIEL+IV+AIIGILAAIAIP ++ Y V+A  S   +   ++KT +     +
+Sbjct  1   MNAQKGFTLIELMIVIAIIGILAAIAIPAYTDYTVRARVSEGLTAASSMKTTVSENILN  59
+
+
+> sp|P33555|PPDA_CLOPE Prepilin peptidase-dependent protein A OS=Clostridium 
+perfringens (strain 13 / Type A) OX=195102 GN=ppdA 
+PE=3 SV=2
+Length=140
+
+ Score = 42.4 bits (98),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 19/61 (31%), Positives = 32/61 (52%), Gaps = 0/61 (0%)
+
+Query  23  KLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           K   + GFTLIEL +V+AI+ I+  +  P FS  +  A       +   ++ ++E   A+
+Sbjct  17  KRNKKGGFTLIELTVVLAIMAIILMVIAPNFSYVKDSAKAKVDKQNCAAIERSVEMLLAE  76
+
+Query  83  D  83
+           D
+Sbjct  77  D  77
+
+
+> sp|P45791|TAPA_AERHY Pilus biogenesis protein TapA OS=Aeromonas 
+hydrophila OX=644 GN=tapA PE=3 SV=2
+Length=142
+
+ Score = 42.0 bits (97),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 37/58 (64%), Gaps = 0/58 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFA  81
+           ++ + GFTLIEL+IVVAI+ ILAAIA+P +  Y  KA  +   S     K+ALE  F 
+Sbjct  1   MKKQSGFTLIELMIVVAIVAILAAIALPAYQTYTKKAKFTEVVSATGTYKSALEVCFQ  58
+
+
+> sp|P41443|GSPH_ECOLI Putative type II secretion system protein 
+H OS=Escherichia coli (strain K12) OX=83333 GN=gspH PE=1 SV=1
+Length=169
+
+ Score = 42.0 bits (97),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 15/63 (24%), Positives = 35/63 (56%), Gaps = 2/63 (3%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSA--ASSDLRNLKTALESAFA  81
+           +  ++GFTL+E+++V+A++ I A++ +  +    V +  +   A+     L+ A++ A  
+Sbjct  1   MNQQRGFTLLEMMLVLALVAITASVVLFTYGREDVASTRARETAARFTAALELAIDRATL  60
+
+Query  82  DDQ  84
+             Q
+Sbjct  61  SGQ  63
+
+
+> sp|P24687|GSPH_DICCH Type II secretion system protein H OS=Dickeya 
+chrysanthemi OX=556 GN=outH PE=3 SV=2
+Length=181
+
+ Score = 38.2 bits (87),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 14/62 (23%), Positives = 31/62 (50%), Gaps = 0/62 (0%)
+
+Query  26  NRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+            ++GFTL+E+++VV + G+ A + +    A + +      +     L+ A+E +  +D  
+Sbjct  2   RQRGFTLLEIMLVVLLAGVAATLVMMAIPAPKQQDSGWQIARFKAQLQYAVEDSQMNDHI  61
+
+Query  86  YP  87
+             
+Sbjct  62  LG  63
+
+
+> sp|Q60153|TCPA_VIBCH Toxin coregulated pilin OS=Vibrio cholerae 
+serotype O1 (strain ATCC 39315 / El Tor Inaba N16961) OX=243277 
+GN=tcpA PE=1 SV=1
+Length=224
+
+ Score = 37.8 bits (86),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 15/65 (23%), Positives = 34/65 (52%), Gaps = 0/65 (0%)
+
+Query  23  KLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           K   ++G TL+E++IV+ I+G+++A  +            + A+ +L +++ A+   +  
+Sbjct  19  KKTGQEGMTLLEVIIVLGIMGVVSAGVVTLAQRAIDSQNMTKAAQNLNSVQIAMTQTYRS  78
+
+Query  83  DQTYP  87
+              YP
+Sbjct  79  LGNYP  83
+
+
+> sp|P23024|TCPA_VIBCL Toxin coregulated pilin OS=Vibrio cholerae 
+OX=666 GN=tcpA PE=1 SV=1
+Length=224
+
+ Score = 37.4 bits (85),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 16/68 (24%), Positives = 34/68 (50%), Gaps = 0/68 (0%)
+
+Query  23  KLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           K   ++G TL+E++IV+ I+G+++A  +            + A+  L +++ AL   +  
+Sbjct  19  KKTGQEGMTLLEVIIVLGIMGVVSAGVVTLAQRAIDSQIMTKAAQSLNSIQVALTQTYRG  78
+
+Query  83  DQTYPPES  90
+              YP  +
+Sbjct  79  LGNYPATA  86
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.129    0.333    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0398    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4987282620
+Results from round 3
+
+
+Query= D7AIT1|2m7gA
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P45773|GSPG_VIBCH Type II secretion system protein G OS=Vibr...  99.7    3e-26
+  sp|P02974|FMM1_NEIGO Fimbrial protein OS=Neisseria gonorrhoeae ...  98.9    1e-25
+  sp|P11764|FMM2_NEIGO Fimbrial protein P9-2 OS=Neisseria gonorrh...  98.1    2e-25
+  sp|Q00045|FMD1_NEIGO Fimbrial protein MS11-D1 OS=Neisseria gono...  99.3    2e-25
+  sp|Q00046|FMD3_NEIGO Fimbrial protein MS11-D3A OS=Neisseria gon...  97.8    4e-25
+  sp|P57039|FMM1_NEIMA Fimbrial protein OS=Neisseria meningitidis...  97.0    6e-25
+  sp|P27689|FMA3_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  96.6    8e-25
+  sp|P15746|GSPG_KLEPN Type II secretion system protein G OS=Kleb...  95.8    9e-25
+  sp|P17822|FMAB_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  95.4    2e-24
+  sp|P05431|FMM1_NEIMB Fimbrial protein OS=Neisseria meningitidis...  95.4    3e-24
+  sp|P31585|GSPG_DICCH Type II secretion system protein G OS=Dick...  94.7    3e-24
+  sp|P31733|GSPG_AERHY Type II secretion system protein G OS=Aero...  94.3    3e-24
+  sp|P27691|FMA7_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  94.7    4e-24
+  sp|P27688|FMA0_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  94.7    4e-24
+  sp|P17827|FMAI_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  94.7    4e-24
+  sp|P27690|FMA6_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  94.7    4e-24
+  sp|P31586|GSPG_PECCC Type II secretion system protein G OS=Pect...  93.5    1e-23
+  sp|P02975|FMAA_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  92.8    2e-23
+  sp|P17824|FMA2_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  89.3    4e-22
+  sp|P11933|FMAG_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  88.5    1e-21
+  sp|P17826|FMAF_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  88.1    1e-21
+  sp|P17823|FMA1_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  88.1    1e-21
+  sp|Q00514|GSPG_PSEAE Type II secretion system protein G OS=Pseu...  87.0    2e-21
+  sp|Q9K923|COMGC_BACHD ComG operon protein 3 homolog OS=Bacillus...  85.8    3e-21
+  sp|P36647|PPDD_ECOLI Prepilin peptidase-dependent protein D OS=...  86.6    4e-21
+  sp|P27906|FMAX_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  86.6    5e-21
+  sp|P17825|FMAE_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  85.4    1e-20
+  sp|P17416|FMZD_DICNO Probable minor fimbrial protein OS=Dichelo...  85.0    2e-20
+  sp|P17417|FMZH_DICNO Probable minor fimbrial protein OS=Dichelo...  83.1    8e-20
+  sp|P36643|FMWC_PSEPU Fimbrial protein OS=Pseudomonas putida OX=...  81.2    4e-19
+  sp|P41442|GSPG_ECOLI Putative type II secretion system protein ...  73.1    4e-16
+  sp|Q8VQ71|COMGC_BACLD ComG operon protein 3 homolog OS=Bacillus...  72.0    5e-16
+  sp|P17836|FMK1_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  70.4    5e-15
+  sp|P18774|FM12_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  70.4    5e-15
+  sp|Q00515|GSPH_PSEAE Type II secretion system protein H OS=Pseu...  68.5    3e-14
+  sp|P19528|FMAJ_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  68.1    4e-14
+  sp|P41443|GSPH_ECOLI Putative type II secretion system protein ...  67.7    6e-14
+  sp|P04953|FMAH_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  67.3    6e-14
+  sp|P33555|PPDA_CLOPE Prepilin peptidase-dependent protein A OS=...  66.9    6e-14
+  sp|P13253|FMAD_DICNO Fimbrial protein OS=Dichelobacter nodosus ...  66.6    1e-13
+  sp|P09829|FMM_MORNO Fimbrial protein OS=Moraxella nonliquefacie...  65.0    5e-13
+  sp|P02973|FMPA_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  63.1    2e-12
+  sp|P07640|FMQ_MORBO Fimbrial protein Q OS=Moraxella bovis OX=47...  63.1    3e-12
+  sp|P04739|FMPO_PSEAE Fimbrial protein OS=Pseudomonas aeruginosa...  62.3    4e-12
+  sp|Q07564|ECPC_EIKCO Fimbrial protein EcpC OS=Eikenella corrode...  61.9    5e-12
+  sp|P08015|FMP3_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  61.9    5e-12
+  sp|P17837|FMCD_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  61.9    6e-12
+  sp|P17838|FMP1_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa...  60.8    1e-11
+  sp|P20657|FMI_MORBO Fimbrial protein 1 OS=Moraxella bovis OX=47...  60.8    1e-11
+  sp|P35645|ECPA_EIKCO Fimbrial protein EcpA OS=Eikenella corrode...  58.9    6e-11
+  sp|Q59589|PILA_MYXXD Fimbrial protein OS=Myxococcus xanthus (st...  58.5    2e-10
+  sp|P35646|ECPB_EIKCO Fimbrial protein EcpB OS=Eikenella corrode...  56.9    3e-10
+  sp|Q07565|ECPD_EIKCO Fimbrial protein EcpD OS=Eikenella corrode...  52.3    1e-08
+  sp|P45791|TAPA_AERHY Pilus biogenesis protein TapA OS=Aeromonas...  50.0    8e-08
+  sp|O30583|COMP_ACIAD Pilin-like competence factor ComP OS=Acine...  50.0    1e-07
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P24687|GSPH_DICCH Type II secretion system protein H OS=Dick...  44.6    1e-05
+  sp|P44623|PPDD_HAEIN Prepilin peptidase-dependent protein D hom...  43.1    2e-05
+  sp|P31735|GSPH_AERHY Type II secretion system protein H OS=Aero...  42.7    5e-05
+  sp|Q9Z788|OMPX_CHLPN Putative outer membrane protein CPn_0818/C...  41.5    6e-05
+  sp|Q9PJH1|OMPX_CHLMU Putative outer membrane protein TC_0858 OS...  41.1    1e-04
+  sp|Q00517|GSPJ_PSEAE Type II secretion system protein J OS=Pseu...  42.3    1e-04
+  sp|O84573|OMPX_CHLTR Putative outer membrane protein CT_569 OS=...  40.4    2e-04
+  sp|P25955|COMGC_BACSU ComG operon protein 3 OS=Bacillus subtili...  40.0    2e-04
+  sp|Q60153|TCPA_VIBCH Toxin coregulated pilin OS=Vibrio cholerae...  41.1    3e-04
+  sp|P23024|TCPA_VIBCL Toxin coregulated pilin OS=Vibrio cholerae...  40.4    6e-04
+  sp|Q00516|GSPI_PSEAE Type II secretion system protein I OS=Pseu...  37.7    0.002
+  sp|P45776|GSPJ_VIBCH Type II secretion system protein J OS=Vibr...  38.4    0.002
+  sp|P44079|Y938_HAEIN Uncharacterized protein HI_0938 OS=Haemoph...  38.1    0.003
+  sp|P31588|GSPI_PECCC Type II secretion system protein I OS=Pect...  36.1    0.007
+
+
+> sp|P45773|GSPG_VIBCH Type II secretion system protein G OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=epsG PE=1 SV=1
+Length=146
+
+ Score = 99.7 bits (247),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 25/70 (36%), Positives = 42/70 (60%), Gaps = 0/70 (0%)
+
+Query  21  LQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           ++K+R + GFTL+E+++VV I+GILA+  +P     + KA    A +D+  L+ AL+   
+Sbjct  1   MKKMRKQTGFTLLEVMVVVVILGILASFVVPNLLGNKEKADQQKAVTDIVALENALDMYK  60
+
+Query  81  ADDQTYPPES  90
+            D+  YP   
+Sbjct  61  LDNSVYPTTD  70
+
+
+> sp|P02974|FMM1_NEIGO Fimbrial protein OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE1 PE=1 SV=2
+Length=165
+
+ Score = 98.9 bits (245),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGKW  64
+
+Query  87  PPES  90
+           P  +
+Sbjct  65  PENN  68
+
+
+> sp|P11764|FMM2_NEIGO Fimbrial protein P9-2 OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE PE=3 SV=1
+Length=167
+
+ Score = 98.1 bits (243),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGIW  64
+
+Query  87  PPES  90
+           P ++
+Sbjct  65  PKDN  68
+
+
+> sp|Q00045|FMD1_NEIGO Fimbrial protein MS11-D1 OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE1 PE=3 SV=1
+Length=214
+
+ Score = 99.3 bits (246),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGIW  64
+
+Query  87  PPES  90
+           P  +
+Sbjct  65  PENN  68
+
+
+> sp|Q00046|FMD3_NEIGO Fimbrial protein MS11-D3A OS=Neisseria gonorrhoeae 
+OX=485 GN=pilE1 PE=3 SV=1
+Length=180
+
+ Score = 97.8 bits (242),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGKW  64
+
+Query  87  PPES  90
+           P  +
+Sbjct  65  PENN  68
+
+
+> sp|P57039|FMM1_NEIMA Fimbrial protein OS=Neisseria meningitidis 
+serogroup A / serotype 4A (strain Z2491) OX=122587 GN=pilE 
+PE=1 SV=1
+Length=170
+
+ Score = 97.0 bits (240),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGEW  64
+
+Query  87  PPES  90
+           P  +
+Sbjct  65  PSNN  68
+
+
+> sp|P27689|FMA3_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 96.6 bits (239),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P15746|GSPG_KLEPN Type II secretion system protein G OS=Klebsiella 
+pneumoniae OX=573 GN=pulG PE=1 SV=1
+Length=140
+
+ Score = 95.8 bits (237),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 22/66 (33%), Positives = 40/66 (61%), Gaps = 0/66 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ ++GFTL+E+++V+ I+G+LA++ +P     + KA      SDL  L+ AL+    D+
+Sbjct  1   MQRQRGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADRQKVVSDLVALEGALDMYKLDN  60
+
+Query  84  QTYPPE  89
+             YP  
+Sbjct  61  SRYPTT  66
+
+
+> sp|P17822|FMAB_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 95.4 bits (236),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P05431|FMM1_NEIMB Fimbrial protein OS=Neisseria meningitidis 
+serogroup B (strain MC58) OX=122586 GN=pilE PE=1 SV=2
+Length=170
+
+ Score = 95.4 bits (236),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AI+GILAA+A+P +  Y  +A  S A       K+A+   + +   +
+Sbjct  5   QKGFTLIELMIVIAIVGILAAVALPAYQDYTARAQVSEAILLAEGQKSAVTEYYLNHGEW  64
+
+Query  87  PPES  90
+           P  +
+Sbjct  65  PGNN  68
+
+
+> sp|P31585|GSPG_DICCH Type II secretion system protein G OS=Dickeya 
+chrysanthemi OX=556 GN=outG PE=3 SV=1
+Length=153
+
+ Score = 94.7 bits (234),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 22/65 (34%), Positives = 40/65 (62%), Gaps = 0/65 (0%)
+
+Query  25  RNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQ  84
+           R ++GFTL+E+++V+ I+G+LA++ +P     + KA    A SD+  L++ L+    D+ 
+Sbjct  3   RRQRGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADKQKAVSDIVALESQLDMYKLDNS  62
+
+Query  85  TYPPE  89
+            YP  
+Sbjct  63  RYPTT  67
+
+
+> sp|P31733|GSPG_AERHY Type II secretion system protein G OS=Aeromonas 
+hydrophila OX=644 GN=exeG PE=3 SV=1
+Length=143
+
+ Score = 94.3 bits (233),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 26/69 (38%), Positives = 42/69 (61%), Gaps = 1/69 (1%)
+
+Query  21  LQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           +QK R + GFTL+E+++V+ I+GILA++ +P     + KA    A SD+  L+ AL+   
+Sbjct  1   MQK-RRQSGFTLLEVMVVIVILGILASLVVPNLMGNKEKADQQKAVSDIVALENALDMYK  59
+
+Query  81  ADDQTYPPE  89
+            D+  YP  
+Sbjct  60  LDNNRYPTT  68
+
+
+> sp|P27691|FMA7_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 94.7 bits (234),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P27688|FMA0_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 94.7 bits (234),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P17827|FMAI_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 94.7 bits (234),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 38/64 (59%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D    
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKIRIAENLQDGACK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P27690|FMA6_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 94.7 bits (234),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   S    LK  +     D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGVSLADGLKVRIAENLQDGECK  64
+
+Query  87  PPES  90
+            P++
+Sbjct  65  GPDA  68
+
+
+> sp|P31586|GSPG_PECCC Type II secretion system protein G OS=Pectobacterium 
+carotovorum subsp. carotovorum OX=555 GN=outG PE=3 
+SV=1
+Length=156
+
+ Score = 93.5 bits (231),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 23/68 (34%), Positives = 42/68 (62%), Gaps = 0/68 (0%)
+
+Query  22  QKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFA  81
+           Q    ++GFTL+E+++V+ I+G+LA++ +P     + KA    A SD+ +L++AL+    
+Sbjct  15  QSGYRQRGFTLLEIMVVIVILGVLASLVVPNLMGNKEKADRQKAVSDIVSLESALDMYKL  74
+
+Query  82  DDQTYPPE  89
+           D+  YP  
+Sbjct  75  DNNRYPST  82
+
+
+> sp|P02975|FMAA_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=1 SV=1
+Length=158
+
+ Score = 92.8 bits (229),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 36/64 (56%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   +    LK  +       +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGLTLADGLKVRISDHLESGECK  64
+
+Query  87  PPES  90
+              +
+Sbjct  65  GDAN  68
+
+
+> sp|P17824|FMA2_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 89.3 bits (220),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 34/59 (58%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  +   S   S    LK  +     D   
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARTQVSEGVSLADGLKIRIADNLQDGDC  63
+
+
+> sp|P11933|FMAG_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=162
+
+ Score = 88.5 bits (218),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  +   S   S    LK  +     D + 
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARTQVSEGVSLADGLKIRIADNLQDGKC  63
+
+
+> sp|P17826|FMAF_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=158
+
+ Score = 88.1 bits (217),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 36/64 (56%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   +    LK  +     +    
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGLTLADGLKIRIADHLENGSCM  64
+
+Query  87  PPES  90
+              +
+Sbjct  65  ETAN  68
+
+
+> sp|P17823|FMA1_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=1 SV=1
+Length=160
+
+ Score = 88.1 bits (217),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 34/59 (58%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  +   S   S    LK  +     D   
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARTQVSEGVSLADGLKIRIADNLQDGDC  63
+
+
+> sp|Q00514|GSPG_PSEAE Type II secretion system protein G OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=xcpT PE=1 SV=1
+Length=142
+
+ Score = 87.0 bits (214),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 25/67 (37%), Positives = 41/67 (61%), Gaps = 0/67 (0%)
+
+Query  23  KLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           + R + GFTLIE+++VV I+GILAA+ +PQ  +   +A  + A  D++ +  AL+    D
+Sbjct  2   QRRQQSGFTLIEIMVVVVILGILAALVVPQVMSRPDQAKVTVAKGDIKAIAAALDMYKLD  61
+
+Query  83  DQTYPPE  89
+           +  YP  
+Sbjct  62  NFAYPST  68
+
+
+> sp|Q9K923|COMGC_BACHD ComG operon protein 3 homolog OS=Bacillus 
+halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / 
+JCM 9153 / C-125) OX=272558 GN=comGC PE=3 SV=1
+Length=102
+
+ Score = 85.8 bits (211),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 19/70 (27%), Positives = 36/70 (51%), Gaps = 0/70 (0%)
+
+Query  20  MLQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESA  79
+           M +   ++ GFTL+E++IV+ II IL  +A+P  +     A +    + ++ L+T + + 
+Sbjct  1   MKKPFHHQAGFTLVEMMIVLMIISILLLVALPSMTKNNEVAGDKGCEATVKLLQTQVHAY  60
+
+Query  80  FADDQTYPPE  89
+             D    P  
+Sbjct  61  EIDHDRLPTN  70
+
+
+> sp|P36647|PPDD_ECOLI Prepilin peptidase-dependent protein D OS=Escherichia 
+coli (strain K12) OX=83333 GN=ppdD PE=3 SV=2
+Length=146
+
+ Score = 86.6 bits (213),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 22/62 (35%), Positives = 34/62 (55%), Gaps = 0/62 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           +  ++GFTLIEL++V+ II IL+AI IP +  Y  KA  +         +TA+E    + 
+Sbjct  1   MDKQRGFTLIELMVVIGIIAILSAIGIPAYQNYLRKAALTDMLQTFVPYRTAVELCALEH  60
+
+Query  84  QT  85
+             
+Sbjct  61  GG  62
+
+
+> sp|P27906|FMAX_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 86.6 bits (213),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 36/64 (56%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   +    LK  +     +    
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGLTLADGLKIRIADHLENGSCT  64
+
+Query  87  PPES  90
+              +
+Sbjct  65  EDAN  68
+
+
+> sp|P17825|FMAE_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=161
+
+ Score = 85.4 bits (210),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 36/64 (56%), Gaps = 0/64 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAA AIP ++ Y  ++  +   +    LK  +     +    
+Sbjct  5   QKGFTLIELMIVVAIIGILAAFAIPAYNDYIARSQAAEGLTLADGLKIRIADHLENGSCT  64
+
+Query  87  PPES  90
+              +
+Sbjct  65  EDAN  68
+
+
+> sp|P17416|FMZD_DICNO Probable minor fimbrial protein OS=Dichelobacter 
+nodosus OX=870 GN=fimZ PE=3 SV=1
+Length=159
+
+ Score = 85.0 bits (209),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 25/62 (40%), Positives = 39/62 (63%), Gaps = 0/62 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++   GFTLIEL+IVVAIIG+LA+IA+ Q+  + V++  +    +   L+ A+E    D 
+Sbjct  1   MKKMHGFTLIELMIVVAIIGVLASIALMQYQNFVVRSQVTRVLMEAGELRLAVEQCLNDG  60
+
+Query  84  QT  85
+            T
+Sbjct  61  TT  62
+
+
+> sp|P17417|FMZH_DICNO Probable minor fimbrial protein OS=Dichelobacter 
+nodosus OX=870 GN=fimZ PE=3 SV=1
+Length=159
+
+ Score = 83.1 bits (204),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 24/63 (38%), Positives = 38/63 (60%), Gaps = 0/63 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++   GFTLIEL+IVVAIIG+LA+ A+ Q+  + V++  +    +   L+ A+E    D 
+Sbjct  1   MKKMHGFTLIELMIVVAIIGVLASTALMQYQNFVVRSQVTRVLMEAGELRLAVEQCLNDG  60
+
+Query  84  QTY  86
+            T 
+Sbjct  61  TTK  63
+
+
+> sp|P36643|FMWC_PSEPU Fimbrial protein OS=Pseudomonas putida OX=303 
+GN=pilA PE=3 SV=1
+Length=136
+
+ Score = 81.2 bits (199),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ ++G TLIEL+IVVAIIGILA IAIP ++ ++ +   +A   ++  LKTA++    + 
+Sbjct  1   MKGQRGITLIELMIVVAIIGILATIAIPMYTNHQSRTKAAAGLLEISALKTAMDLRLNEG  60
+
+Query  84  Q  84
+           +
+Sbjct  61  K  61
+
+
+> sp|P41442|GSPG_ECOLI Putative type II secretion system protein 
+G OS=Escherichia coli (strain K12) OX=83333 GN=gspG PE=2 SV=1
+Length=145
+
+ Score = 73.1 bits (178),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 23/70 (33%), Positives = 42/70 (60%), Gaps = 0/70 (0%)
+
+Query  21  LQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           ++    ++GFTL+E+++V+ IIG+LA++ +P     + KA    A SD+  L+ AL+   
+Sbjct  1   MRATDKQRGFTLLEIMVVIVIIGVLASLVVPNLMGNKEKADKQKAVSDIVALENALDMYK  60
+
+Query  81  ADDQTYPPES  90
+            D+  YP  +
+Sbjct  61  LDNHHYPTTN  70
+
+
+> sp|Q8VQ71|COMGC_BACLD ComG operon protein 3 homolog OS=Bacillus 
+licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / NBRC 
+12200 / NCIMB 9375 / NRRL NRS-1264 / Gibson 46) OX=279010 
+GN=comGC PE=3 SV=1
+Length=97
+
+ Score = 72.0 bits (175),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 18/64 (28%), Positives = 29/64 (45%), Gaps = 0/64 (0%)
+
+Query  26  NRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           N KGFTLIE+L+V+ +I IL  I IP  + +            +  ++  + +   D   
+Sbjct  2   NEKGFTLIEMLVVMLVISILLLITIPNVTKHNQSIQKKGCEGLINMVQAQITAYQMDHDG  61
+
+Query  86  YPPE  89
+             P 
+Sbjct  62  KTPN  65
+
+
+> sp|P17836|FMK1_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=3 SV=1
+Length=154
+
+ Score = 70.4 bits (171),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 34/62 (55%), Positives = 45/62 (73%), Gaps = 0/62 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  +   + A S++  LKTA ESA  + 
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQDYTARTQVTRAVSEVSALKTAAESAILEG  60
+
+Query  84  QT  85
+           + 
+Sbjct  61  KE  62
+
+
+> sp|P18774|FM12_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=1 SV=1
+Length=154
+
+ Score = 70.4 bits (171),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 34/62 (55%), Positives = 45/62 (73%), Gaps = 0/62 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  +   + A S++  LKTA ESA  + 
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQDYTARTQVTRAVSEVSALKTAAESAILEG  60
+
+Query  84  QT  85
+           + 
+Sbjct  61  KE  62
+
+
+> sp|Q00515|GSPH_PSEAE Type II secretion system protein H OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=xcpU PE=3 SV=1
+Length=172
+
+ Score = 68.5 bits (166),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 19/65 (29%), Positives = 33/65 (51%), Gaps = 1/65 (2%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQF-SAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           +R  +GFTLIEL++V+ II +L  +A+     A   +  +S A      +    + A  D
+Sbjct  1   MRASRGFTLIELMVVMVIISVLIGLAVLSTGFASTSRELDSEAERLAGLIGVLTDEAVLD  60
+
+Query  83  DQTYP  87
+           ++ Y 
+Sbjct  61  NREYG  65
+
+
+> sp|P19528|FMAJ_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=1
+Length=160
+
+ Score = 68.1 bits (165),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 31/59 (53%), Positives = 42/59 (71%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  S   S+   ++TA+E+   D + 
+Sbjct  5   QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRVMSETGQMRTAIETCLLDGKK  63
+
+
+> sp|P41443|GSPH_ECOLI Putative type II secretion system protein 
+H OS=Escherichia coli (strain K12) OX=83333 GN=gspH PE=1 SV=1
+Length=169
+
+ Score = 67.7 bits (164),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 15/63 (24%), Positives = 35/63 (56%), Gaps = 2/63 (3%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSA--ASSDLRNLKTALESAFA  81
+           +  ++GFTL+E+++V+A++ I A++ +  +    V +  +   A+     L+ A++ A  
+Sbjct  1   MNQQRGFTLLEMMLVLALVAITASVVLFTYGREDVASTRARETAARFTAALELAIDRATL  60
+
+Query  82  DDQ  84
+             Q
+Sbjct  61  SGQ  63
+
+
+> sp|P04953|FMAH_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=1 SV=1
+Length=156
+
+ Score = 67.3 bits (163),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 31/59 (53%), Positives = 42/59 (71%), Gaps = 0/59 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  S   S+   ++TA+E+   D + 
+Sbjct  5   QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRVMSETGQMRTAIETCLLDGKE  63
+
+
+> sp|P33555|PPDA_CLOPE Prepilin peptidase-dependent protein A OS=Clostridium 
+perfringens (strain 13 / Type A) OX=195102 GN=ppdA 
+PE=3 SV=2
+Length=140
+
+ Score = 66.9 bits (162),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 19/61 (31%), Positives = 32/61 (52%), Gaps = 0/61 (0%)
+
+Query  23  KLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           K   + GFTLIEL +V+AI+ I+  +  P FS  +  A       +   ++ ++E   A+
+Sbjct  17  KRNKKGGFTLIELTVVLAIMAIILMVIAPNFSYVKDSAKAKVDKQNCAAIERSVEMLLAE  76
+
+Query  83  D  83
+           D
+Sbjct  77  D  77
+
+
+> sp|P13253|FMAD_DICNO Fimbrial protein OS=Dichelobacter nodosus 
+OX=870 GN=fimA PE=3 SV=2
+Length=156
+
+ Score = 66.6 bits (161),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 31/61 (51%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  S   S+   ++TA+E+   D +  
+Sbjct  5   QKGFTLIELMIVVAIIGILAAIAIPQYQNYIARSQVSRVMSETGQMRTAIETCVLDGKEA  64
+
+Query  87  P  87
+            
+Sbjct  65  G  65
+
+
+> sp|P09829|FMM_MORNO Fimbrial protein OS=Moraxella nonliquefaciens 
+OX=478 GN=tfpA PE=1 SV=2
+Length=154
+
+ Score = 65.0 bits (157),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 28/63 (44%), Positives = 42/63 (67%), Gaps = 0/63 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           +  +KGFTLIEL+IV+AIIGILAAIA+P +  Y  +A  S A +    LKT++ +   + 
+Sbjct  1   MNAQKGFTLIELMIVIAIIGILAAIALPAYQDYIARAQVSEAFTLADGLKTSISTNRQNG  60
+
+Query  84  QTY  86
+           + +
+Sbjct  61  RCF  63
+
+
+> sp|P02973|FMPA_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=1 SV=2
+Length=150
+
+ Score = 63.1 bits (152),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 31/60 (52%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E A +  
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALASVNPLKTTVEEALSRG  60
+
+
+> sp|P07640|FMQ_MORBO Fimbrial protein Q OS=Moraxella bovis OX=476 
+GN=tfpQ PE=1 SV=1
+Length=157
+
+ Score = 63.1 bits (152),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 29/62 (47%), Positives = 43/62 (69%), Gaps = 0/62 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           +  +KGFTLIEL+IV+AIIGILAAIA+P +  Y  K+  +    +L   KTA+++A  + 
+Sbjct  1   MNAQKGFTLIELMIVIAIIGILAAIALPAYQDYISKSQTTRVVGELAAGKTAVDAALFEG  60
+
+Query  84  QT  85
+           +T
+Sbjct  61  KT  62
+
+
+> sp|P04739|FMPO_PSEAE Fimbrial protein OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / 
+LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pilA PE=1 SV=1
+Length=149
+
+ Score = 62.3 bits (150),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 30/60 (50%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E + +  
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEESLSRG  60
+
+
+> sp|Q07564|ECPC_EIKCO Fimbrial protein EcpC OS=Eikenella corrodens 
+OX=539 GN=ecpC PE=3 SV=1
+Length=153
+
+ Score = 61.9 bits (149),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 28/61 (46%), Positives = 40/61 (66%), Gaps = 0/61 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTY  86
+           +KGFTLIEL+IV+AIIGILAAIA+P +  Y  ++  S A +     K A+   ++D   +
+Sbjct  6   QKGFTLIELMIVIAIIGILAAIALPAYQDYVARSQMSEAFNLAGGQKGAVSEYYSDKGVW  65
+
+Query  87  P  87
+           P
+Sbjct  66  P  66
+
+
+> sp|P08015|FMP3_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=3 SV=1
+Length=150
+
+ Score = 61.9 bits (149),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 30/60 (50%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E + +  
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEESLSRG  60
+
+
+> sp|P17837|FMCD_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=3 SV=1
+Length=150
+
+ Score = 61.9 bits (149),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 30/60 (50%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           ++ +KGFTLIEL+IVVAIIGILAAIAIPQ+  Y  ++  ++A + +  LKT +E + +  
+Sbjct  1   MKAQKGFTLIELMIVVAIIGILAAIAIPQYQNYVARSEGASALATINPLKTTVEESLSRG  60
+
+
+> sp|P17838|FMP1_PSEAI Fimbrial protein OS=Pseudomonas aeruginosa 
+OX=287 GN=pilA PE=1 SV=1
+Length=157
+
+ Score = 60.8 bits (146),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 32/65 (49%), Positives = 41/65 (63%), Gaps = 0/65 (0%)
+
+Query  26  NRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+            +KGFTLIEL+IVVAIIGILAAIAIP +  Y  +A  S   +    LKT +   F+ D +
+Sbjct  4   AQKGFTLIELMIVVAIIGILAAIAIPAYQDYTARAQLSERMTLASGLKTKVSDIFSQDGS  63
+
+Query  86  YPPES  90
+            P  +
+Sbjct  64  CPANT  68
+
+
+> sp|P20657|FMI_MORBO Fimbrial protein 1 OS=Moraxella bovis OX=476 
+PE=1 SV=1
+Length=159
+
+ Score = 60.8 bits (146),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 30/62 (48%), Positives = 44/62 (71%), Gaps = 0/62 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           +  +KGFTLIEL+IV+AIIGILAAIA+P +  Y  K+  +  S +L   KTA+++A  + 
+Sbjct  1   MNAQKGFTLIELMIVIAIIGILAAIALPAYQDYISKSQTTRVSGELAAGKTAVDAALFEG  60
+
+Query  84  QT  85
+           +T
+Sbjct  61  KT  62
+
+
+> sp|P35645|ECPA_EIKCO Fimbrial protein EcpA OS=Eikenella corrodens 
+OX=539 GN=ecpA PE=3 SV=1
+Length=159
+
+ Score = 58.9 bits (141),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 30/63 (48%), Positives = 45/63 (71%), Gaps = 1/63 (2%)
+
+Query  24  LRN-RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           ++  +KGFTLIEL+IV+AIIGILAAIA+P +  Y  K+  + A  ++   KTA+E+A  +
+Sbjct  1   MKQVQKGFTLIELMIVIAIIGILAAIALPLYQDYISKSQVTRAYGEMAGTKTAIEAALFE  60
+
+Query  83  DQT  85
+            +T
+Sbjct  61  GRT  63
+
+
+> sp|Q59589|PILA_MYXXD Fimbrial protein OS=Myxococcus xanthus (strain 
+DK 1622) OX=246197 GN=pilA PE=1 SV=1
+Length=220
+
+ Score = 58.5 bits (140),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 32/63 (51%), Positives = 44/63 (70%), Gaps = 0/63 (0%)
+
+Query  26  NRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+             +GFTLIEL+IVVAIIGILAAIAIP F  ++ ++  S A ++L+ L TA +S F++   
+Sbjct  9   RNRGFTLIELMIVVAIIGILAAIAIPNFIKFQARSKQSEAKTNLKALYTAQKSFFSEKDR  68
+
+Query  86  YPP  88
+           Y  
+Sbjct  69  YSD  71
+
+
+> sp|P35646|ECPB_EIKCO Fimbrial protein EcpB OS=Eikenella corrodens 
+OX=539 GN=ecpB PE=3 SV=1
+Length=159
+
+ Score = 56.9 bits (136),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 30/61 (49%), Positives = 41/61 (67%), Gaps = 0/61 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           +  +KGFTLIEL+IV+AIIGILAAIA+P +  +  KA  +    +L + KTA+ES  A  
+Sbjct  1   MYKQKGFTLIELMIVIAIIGILAAIALPLYQDHMAKAQINRVFYELGSTKTAVESILAHG  60
+
+Query  84  Q  84
+            
+Sbjct  61  G  61
+
+
+> sp|Q07565|ECPD_EIKCO Fimbrial protein EcpD OS=Eikenella corrodens 
+OX=539 GN=ecpD PE=3 SV=1
+Length=152
+
+ Score = 52.3 bits (124),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 27/62 (44%), Positives = 39/62 (63%), Gaps = 0/62 (0%)
+
+Query  28  KGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQTYP  87
+            GFTLIEL+IV+AIIGILAAIA+P + +Y  +A  S A S +  LK+++   + +     
+Sbjct  6   SGFTLIELMIVIAIIGILAAIALPAYQSYTARAQVSEAISLMDGLKSSVADNYFNSMICA  65
+
+Query  88  PE  89
+             
+Sbjct  66  DN  67
+
+
+> sp|P45791|TAPA_AERHY Pilus biogenesis protein TapA OS=Aeromonas 
+hydrophila OX=644 GN=tapA PE=3 SV=2
+Length=142
+
+ Score = 50.0 bits (118),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 37/58 (64%), Gaps = 0/58 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFA  81
+           ++ + GFTLIEL+IVVAI+ ILAAIA+P +  Y  KA  +   S     K+ALE  F 
+Sbjct  1   MKKQSGFTLIELMIVVAIVAILAAIALPAYQTYTKKAKFTEVVSATGTYKSALEVCFQ  58
+
+
+> sp|O30583|COMP_ACIAD Pilin-like competence factor ComP OS=Acinetobacter 
+baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 
+GN=comP PE=1 SV=1
+Length=147
+
+ Score = 50.0 bits (118),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 28/61 (46%), Positives = 40/61 (66%), Gaps = 0/61 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADD  83
+           +  +KGFTLIEL+IV+AIIGILAAIAIP ++ Y V+A  S   +   ++KT +     + 
+Sbjct  1   MNAQKGFTLIELMIVIAIIGILAAIAIPAYTDYTVRARVSEGLTAASSMKTTVSENILNA  60
+
+Query  84  Q  84
+            
+Sbjct  61  G  61
+
+
+> sp|P24687|GSPH_DICCH Type II secretion system protein H OS=Dickeya 
+chrysanthemi OX=556 GN=outH PE=3 SV=2
+Length=181
+
+ Score = 44.6 bits (104),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 14/62 (23%), Positives = 31/62 (50%), Gaps = 0/62 (0%)
+
+Query  26  NRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+            ++GFTL+E+++VV + G+ A + +    A + +      +     L+ A+E +  +D  
+Sbjct  2   RQRGFTLLEIMLVVLLAGVAATLVMMAIPAPKQQDSGWQIARFKAQLQYAVEDSQMNDHI  61
+
+Query  86  YP  87
+             
+Sbjct  62  LG  63
+
+
+> sp|P44623|PPDD_HAEIN Prepilin peptidase-dependent protein D homolog 
+OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 
+/ KW20 / Rd) OX=71421 GN=ppdD PE=3 SV=1
+Length=149
+
+ Score = 43.1 bits (100),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 26/54 (48%), Positives = 31/54 (57%), Gaps = 0/54 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           +KGFTLIEL+IV+AII ILA IAIP +  Y  KA  S         K  +E   
+Sbjct  10  KKGFTLIELMIVIAIIAILATIAIPSYQNYTKKAAVSELLQASAPYKADVELCV  63
+
+
+> sp|P31735|GSPH_AERHY Type II secretion system protein H OS=Aeromonas 
+hydrophila OX=644 GN=exeH PE=3 SV=1
+Length=183
+
+ Score = 42.7 bits (99),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 16/63 (25%), Positives = 33/63 (52%), Gaps = 1/63 (2%)
+
+Query  23  KLRNRKGFTLIELLIVVAIIGILA-AIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFA  81
+           +   + GFTL+E+L+V  ++G++A A+ +    A   +  +  A   +  L+ A E +  
+Sbjct  2   RRHRQSGFTLLEVLLVAMLMGLVATAVTLSMGGARGDRELDKQARRFMATLQQAQEYSVM  61
+
+Query  82  DDQ  84
+           D +
+Sbjct  62  DGR  64
+
+
+> sp|Q9Z788|OMPX_CHLPN Putative outer membrane protein CPn_0818/CP_1053/CPj0818/CpB0847 
+OS=Chlamydia pneumoniae OX=83558 GN=CPn_0818 
+PE=3 SV=1
+Length=123
+
+ Score = 41.5 bits (96),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 11/65 (17%), Positives = 28/65 (43%), Gaps = 0/65 (0%)
+
+Query  21  LQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAF  80
+           +++ + ++  TLIE+++V+ +IGI+             K     +  +   +   L   +
+Sbjct  1   MKRQKRKQSITLIEMMVVITLIGIIGGALAFNMRGSIHKGKVFQSEQNCAKVYDILMMEY  60
+
+Query  81  ADDQT  85
+           A   +
+Sbjct  61  ATGGS  65
+
+
+> sp|Q9PJH1|OMPX_CHLMU Putative outer membrane protein TC_0858 
+OS=Chlamydia muridarum (strain MoPn / Nigg) OX=243161 GN=TC_0858 
+PE=3 SV=1
+Length=124
+
+ Score = 41.1 bits (95),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 12/65 (18%), Positives = 26/65 (40%), Gaps = 0/65 (0%)
+
+Query  20  MLQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESA  79
+           M +  + ++  TLIE+++V+ +IGI++            K        +   +   L   
+Sbjct  1   MGKTKKRKQSITLIEMMVVITLIGIISGALAFNMRGSLQKGKVFQTEQNCARVYDVLMME  60
+
+Query  80  FADDQ  84
+           +A   
+Sbjct  61  YASGN  65
+
+
+> sp|Q00517|GSPJ_PSEAE Type II secretion system protein J OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=xcpW PE=1 SV=1
+Length=237
+
+ Score = 42.3 bits (98),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/65 (26%), Positives = 27/65 (42%), Gaps = 8/65 (12%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAA--------SSDLRNLKTA  75
+           +R ++GFTL+ELLI +AI  +LA      F +       +             +  L+  
+Sbjct  1   MRLQRGFTLLELLIAIAIFALLALATYRMFDSVMQTDQATRVQEQRMRELVRAMGALERD  60
+
+Query  76  LESAF  80
+           L  A 
+Sbjct  61  LTQAV  65
+
+
+> sp|O84573|OMPX_CHLTR Putative outer membrane protein CT_569 OS=Chlamydia 
+trachomatis (strain D/UW-3/Cx) OX=272561 GN=CT_569 
+PE=3 SV=2
+Length=124
+
+ Score = 40.4 bits (93),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 11/65 (17%), Positives = 25/65 (38%), Gaps = 0/65 (0%)
+
+Query  20  MLQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESA  79
+           M +  + ++  TL+E+++V+ +IGI+             K        +   +   L   
+Sbjct  1   MKKTKKRKQSITLVEMMVVITLIGIIGGALAFNMRGSLQKGKIFQTEQNCARVYDVLMME  60
+
+Query  80  FADDQ  84
+           +A   
+Sbjct  61  YASGN  65
+
+
+> sp|P25955|COMGC_BACSU ComG operon protein 3 OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=comGC PE=1 SV=1
+Length=98
+
+ Score = 40.0 bits (92),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 20/64 (31%), Positives = 29/64 (45%), Gaps = 0/64 (0%)
+
+Query  26  NRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFADDQT  85
+           N KGFTL+E+LIV+ II IL  I IP  + +               +K  + +   D + 
+Sbjct  2   NEKGFTLVEMLIVLFIISILLLITIPNVTKHNQTIQKKGCEGLQNMVKAQMTAFELDHEG  61
+
+Query  86  YPPE  89
+             P 
+Sbjct  62  QTPS  65
+
+
+> sp|Q60153|TCPA_VIBCH Toxin coregulated pilin OS=Vibrio cholerae 
+serotype O1 (strain ATCC 39315 / El Tor Inaba N16961) OX=243277 
+GN=tcpA PE=1 SV=1
+Length=224
+
+ Score = 41.1 bits (95),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 15/65 (23%), Positives = 34/65 (52%), Gaps = 0/65 (0%)
+
+Query  23  KLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           K   ++G TL+E++IV+ I+G+++A  +            + A+ +L +++ A+   +  
+Sbjct  19  KKTGQEGMTLLEVIIVLGIMGVVSAGVVTLAQRAIDSQNMTKAAQNLNSVQIAMTQTYRS  78
+
+Query  83  DQTYP  87
+              YP
+Sbjct  79  LGNYP  83
+
+
+> sp|P23024|TCPA_VIBCL Toxin coregulated pilin OS=Vibrio cholerae 
+OX=666 GN=tcpA PE=1 SV=1
+Length=224
+
+ Score = 40.4 bits (93),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 16/68 (24%), Positives = 34/68 (50%), Gaps = 0/68 (0%)
+
+Query  23  KLRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDLRNLKTALESAFAD  82
+           K   ++G TL+E++IV+ I+G+++A  +            + A+  L +++ AL   +  
+Sbjct  19  KKTGQEGMTLLEVIIVLGIMGVVSAGVVTLAQRAIDSQIMTKAAQSLNSIQVALTQTYRG  78
+
+Query  83  DQTYPPES  90
+              YP  +
+Sbjct  79  LGNYPATA  86
+
+
+> sp|Q00516|GSPI_PSEAE Type II secretion system protein I OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=xcpV PE=1 SV=1
+Length=129
+
+ Score = 37.7 bits (86),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 11/46 (24%), Positives = 23/46 (50%), Gaps = 0/46 (0%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKAYNSAASSDL  69
+           ++  +GFTL+E+L+ +AI  ++AA  +   +     A      +  
+Sbjct  1   MKRARGFTLLEVLVALAIFAMVAASVLSASARSLQNASRLEDKTLA  46
+
+
+> sp|P45776|GSPJ_VIBCH Type II secretion system protein J OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba 
+N16961) OX=243277 GN=epsJ PE=3 SV=2
+Length=221
+
+ Score = 38.4 bits (88),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 15/69 (22%), Positives = 27/69 (39%), Gaps = 5/69 (7%)
+
+Query  18  TLMLQKLRNRKGFTLIELLIVVAIIGILAAIAIPQFS--AYRVKAYNSAASSDLRNLKTA  75
+           T  +   +N  GFTLIE   V+  I I A++++  +       ++   +A    R  +  
+Sbjct  4   TNQVSSRQNMAGFTLIE---VLVAIAIFASLSVGAYQVLNQVQRSNEISAERTARLAELQ  60
+
+Query  76  LESAFADDQ  84
+                 D  
+Sbjct  61  RAMVIMDAD  69
+
+
+> sp|P44079|Y938_HAEIN Uncharacterized protein HI_0938 OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=HI_0938 PE=4 SV=1
+Length=170
+
+ Score = 38.1 bits (87),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 14/25 (56%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  27  RKGFTLIELLIVVAIIGILAAIAIP  51
+           +KG TL+ELLI +AII I    A+P
+Sbjct  2   QKGMTLVELLIGLAIISIALNFAVP  26
+
+
+> sp|P31588|GSPI_PECCC Type II secretion system protein I OS=Pectobacterium 
+carotovorum subsp. carotovorum OX=555 GN=outI PE=3 
+SV=1
+Length=121
+
+ Score = 36.1 bits (82),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 13/37 (35%), Positives = 25/37 (68%), Gaps = 1/37 (3%)
+
+Query  24  LRNRKGFTLIELLIVVAIIGILAAIAIPQFSAYRVKA  60
+           +R +KG TL+E+L+ +++   LA IA+ Q +A +  +
+Sbjct  1   MRRQKGMTLVEVLVALSVFA-LAGIAVLQTTARQASS  36
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.140    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0432    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4987282620
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

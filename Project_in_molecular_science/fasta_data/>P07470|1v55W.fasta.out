@@ -1,0 +1,717 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P07470|1v55W
+
+Length=80
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P07470|CX7A1_BOVIN Cytochrome c oxidase subunit 7A1, mitocho...  169     2e-54
+  sp|Q8SPJ9|CX7A1_PIG Cytochrome c oxidase subunit 7A1, mitochond...  160     5e-51
+  sp|P24310|CX7A1_HUMAN Cytochrome c oxidase subunit 7A1, mitocho...  142     1e-43
+  sp|P56392|CX7A1_MOUSE Cytochrome c oxidase subunit 7A1, mitocho...  141     2e-43
+  sp|Q9N234|CX7A1_TRACR Cytochrome c oxidase subunit 7A1, mitocho...  135     4e-41
+  sp|Q53CF6|CX7A1_SAISC Cytochrome c oxidase subunit 7A1, mitocho...  134     1e-40
+  sp|P48771|CX7A2_MOUSE Cytochrome c oxidase subunit 7A2, mitocho...  106     1e-29
+  sp|P35171|CX7A2_RAT Cytochrome c oxidase subunit 7A2, mitochond...  103     2e-28
+  sp|P13184|CX7A2_BOVIN Cytochrome c oxidase subunit 7A2, mitocho...  100     3e-27
+  sp|P14406|CX7A2_HUMAN Cytochrome c oxidase subunit 7A2, mitocho...  89.7    3e-23
+  sp|O60397|COX7S_HUMAN Putative cytochrome c oxidase subunit 7A3...  87.0    6e-22
+  sp|Q3T061|COX7R_BOVIN Cytochrome c oxidase subunit 7A-related p...  64.7    2e-13
+  sp|Q9TR28|CX7A1_SHEEP Cytochrome c oxidase subunit 7A1, mitocho...  62.4    5e-13
+  sp|O14548|COX7R_HUMAN Cytochrome c oxidase subunit 7A-related p...  63.9    5e-13
+  sp|Q61387|COX7R_MOUSE Cytochrome c oxidase subunit 7A-related p...  57.4    1e-10
+  sp|Q9TR30|CX7A2_SHEEP Cytochrome c oxidase subunit 7A2, mitocho...  51.6    5e-09
+  sp|Q9TR29|CX7A2_CANLF Cytochrome c oxidase subunit 7A2, mitocho...  51.2    8e-09
+  sp|Q9VHS2|COX7A_DROME Cytochrome c oxidase subunit 7A, mitochon...  52.0    1e-08
+  sp|Q9TRZ8|CX7A1_CANLF Cytochrome c oxidase subunit 7A1, mitocho...  46.2    5e-07
+  sp|P80333|CX7A1_ONCMY Cytochrome c oxidase subunit 7A-liver, mi...  36.6    0.001
+
+
+> sp|P07470|CX7A1_BOVIN Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX7A1 PE=1 SV=2
+Length=80
+
+ Score = 169 bits (428),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC
+Sbjct  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+
+Query  61  LGGTLYSLYCLGWASFPHKK  80
+           LGGTLYSLYCLGWASFPHKK
+Sbjct  61  LGGTLYSLYCLGWASFPHKK  80
+
+
+> sp|Q8SPJ9|CX7A1_PIG Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Sus scrofa OX=9823 GN=COX7A1 PE=3 SV=1
+Length=80
+
+ Score = 160 bits (406),  Expect = 5e-51, Method: Compositional matrix adjust.
+ Identities = 75/80 (94%), Positives = 77/80 (96%), Gaps = 0/80 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           MRALRVSQALVRSFSSTARNR ENRVAEKQK+FQ DN LPVHLKGGATDNILYRVTMTLC
+Sbjct  1   MRALRVSQALVRSFSSTARNRLENRVAEKQKIFQADNDLPVHLKGGATDNILYRVTMTLC  60
+
+Query  61  LGGTLYSLYCLGWASFPHKK  80
+           LGGT+YSLYCLGWASFPHKK
+Sbjct  61  LGGTVYSLYCLGWASFPHKK  80
+
+
+> sp|P24310|CX7A1_HUMAN Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX7A1 PE=1 SV=2
+Length=79
+
+ Score = 142 bits (357),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 65/78 (83%), Positives = 72/78 (92%), Gaps = 0/78 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           M+ALRVSQAL+RSFSSTARNRF+NRV EKQKLFQEDN +P++LKGG  DNILYRVTMTLC
+Sbjct  1   MQALRVSQALIRSFSSTARNRFQNRVREKQKLFQEDNDIPLYLKGGIVDNILYRVTMTLC  60
+
+Query  61  LGGTLYSLYCLGWASFPH  78
+           LGGT+YSLY LGWASFP 
+Sbjct  61  LGGTVYSLYSLGWASFPR  78
+
+
+> sp|P56392|CX7A1_MOUSE Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox7a1 PE=1 SV=1
+Length=80
+
+ Score = 141 bits (355),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 66/80 (83%), Positives = 70/80 (88%), Gaps = 0/80 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           MRALRVSQALVRSFSS+ R+  ENRVAEKQKLFQ DN LPVHLKGG  DN+LYR+TMTL 
+Sbjct  1   MRALRVSQALVRSFSSSTRSHLENRVAEKQKLFQADNDLPVHLKGGGMDNVLYRLTMTLT  60
+
+Query  61  LGGTLYSLYCLGWASFPHKK  80
+           LGGT Y LYCLGWASFPHKK
+Sbjct  61  LGGTAYCLYCLGWASFPHKK  80
+
+
+> sp|Q9N234|CX7A1_TRACR Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Trachypithecus cristatus OX=122765 GN=COX7A1 PE=3 
+SV=1
+Length=79
+
+ Score = 135 bits (340),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 60/78 (77%), Positives = 71/78 (91%), Gaps = 0/78 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           M+ALRVS+AL+RSF++TARNRF+NRV EKQKLFQEDN +P++LKGG  DNILYRVTM LC
+Sbjct  1   MQALRVSRALIRSFNTTARNRFQNRVPEKQKLFQEDNDIPLYLKGGIVDNILYRVTMGLC  60
+
+Query  61  LGGTLYSLYCLGWASFPH  78
+           LGG+ YS+YCLGWASFP 
+Sbjct  61  LGGSAYSMYCLGWASFPR  78
+
+
+> sp|Q53CF6|CX7A1_SAISC Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Saimiri sciureus OX=9521 GN=COX7A1 PE=3 SV=1
+Length=80
+
+ Score = 134 bits (337),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 62/80 (78%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           M A RVSQAL+RSFSSTARNR +NRV EKQKLFQEDNG+PV+LKGG  D+ILYRVTM LC
+Sbjct  1   MLAPRVSQALIRSFSSTARNRLKNRVPEKQKLFQEDNGIPVYLKGGVVDHILYRVTMGLC  60
+
+Query  61  LGGTLYSLYCLGWASFPHKK  80
+           LGGT Y +YCL WASFP  K
+Sbjct  61  LGGTAYGVYCLAWASFPRNK  80
+
+
+> sp|P48771|CX7A2_MOUSE Cytochrome c oxidase subunit 7A2, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox7a2 PE=1 SV=2
+Length=83
+
+ Score = 106 bits (264),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 47/77 (61%), Positives = 59/77 (77%), Gaps = 0/77 (0%)
+
+Query  4   LRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGG  63
+           L + Q   R+ S+T+R  FEN+V EKQKLFQEDNG+PVHLKGGA+D +LYR TM L LGG
+Sbjct  6   LALRQIAQRTISTTSRRHFENKVPEKQKLFQEDNGMPVHLKGGASDALLYRATMALTLGG  65
+
+Query  64  TLYSLYCLGWASFPHKK  80
+           T Y++Y L  A+FP K+
+Sbjct  66  TAYAIYLLAMAAFPKKQ  82
+
+
+> sp|P35171|CX7A2_RAT Cytochrome c oxidase subunit 7A2, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox7a2 PE=1 SV=1
+Length=83
+
+ Score = 103 bits (256),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 45/77 (58%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  4   LRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGG  63
+           L + Q   R+ S+T+R  FEN+V EKQKLFQEDNG+PVHLKGG +D +LYR TM L +GG
+Sbjct  6   LALRQIAQRTISTTSRRHFENKVPEKQKLFQEDNGMPVHLKGGTSDALLYRATMLLTVGG  65
+
+Query  64  TLYSLYCLGWASFPHKK  80
+           T Y++Y L  A+FP K+
+Sbjct  66  TAYAIYMLAMAAFPKKQ  82
+
+
+> sp|P13184|CX7A2_BOVIN Cytochrome c oxidase subunit 7A2, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX7A2 PE=1 SV=3
+Length=83
+
+ Score = 100 bits (248),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 44/77 (57%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  4   LRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGG  63
+           L + Q   R+ S+++R +FEN+V EKQKLFQEDNG+PVHLKGG  D +LYR T+ L +GG
+Sbjct  6   LALRQIAKRTISTSSRRQFENKVPEKQKLFQEDNGIPVHLKGGIADALLYRATLILTVGG  65
+
+Query  64  TLYSLYCLGWASFPHKK  80
+           T Y++Y L  ASFP K+
+Sbjct  66  TAYAMYELAVASFPKKQ  82
+
+
+> sp|P14406|CX7A2_HUMAN Cytochrome c oxidase subunit 7A2, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX7A2 PE=1 SV=1
+Length=83
+
+ Score = 89.7 bits (221),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 38/69 (55%), Positives = 52/69 (75%), Gaps = 0/69 (0%)
+
+Query  12  RSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGGTLYSLYCL  71
+           R+ S+ +R  F+N+V EKQKLFQED+ +P++LKGG  D +LYR TM L +GGT Y++Y L
+Sbjct  14  RTISTASRRHFKNKVPEKQKLFQEDDEIPLYLKGGVADALLYRATMILTVGGTAYAIYEL  73
+
+Query  72  GWASFPHKK  80
+             ASFP K+
+Sbjct  74  AVASFPKKQ  82
+
+
+> sp|O60397|COX7S_HUMAN Putative cytochrome c oxidase subunit 7A3, 
+mitochondrial OS=Homo sapiens OX=9606 GN=COX7A2P2 PE=5 SV=1
+Length=106
+
+ Score = 87.0 bits (214),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 37/68 (54%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  12  RSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGGTLYSLYCL  71
+           R+ S+ +   F+N+V EKQKLFQED+G+P++LKGG  D +L+R TM L +GGT Y++Y L
+Sbjct  14  RTISTASHRHFKNKVPEKQKLFQEDDGIPLYLKGGIADALLHRATMILTVGGTAYAIYQL  73
+
+Query  72  GWASFPHK  79
+             ASFP+K
+Sbjct  74  AVASFPNK  81
+
+
+> sp|Q3T061|COX7R_BOVIN Cytochrome c oxidase subunit 7A-related 
+protein, mitochondrial OS=Bos taurus OX=9913 GN=COX7A2L PE=3 
+SV=1
+Length=114
+
+ Score = 64.7 bits (156),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 30/58 (52%), Positives = 38/58 (66%), Gaps = 0/58 (0%)
+
+Query  23   ENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGGTLYSLYCLGWASFPHKK  80
+            +N V E QK FQ+ +G+P+HLK G  D +LYR TM L +GGT+Y L  L  AS P  K
+Sbjct  57   KNTVPELQKFFQKSDGVPIHLKRGLPDQMLYRTTMALTVGGTIYCLIALYMASQPRNK  114
+
+
+> sp|Q9TR28|CX7A1_SHEEP Cytochrome c oxidase subunit 7A1, mitochondrial 
+(Fragment) OS=Ovis aries OX=9940 GN=COX7A1 PE=1 SV=1
+Length=29
+
+ Score = 62.4 bits (150),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 28/29 (97%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  22  FENRVAEKQKLFQEDNGLPVHLKGGATDN  50
+            ENRVAEKQKLFQEDNGLPVHLKGGATDN
+Sbjct  1   LENRVAEKQKLFQEDNGLPVHLKGGATDN  29
+
+
+> sp|O14548|COX7R_HUMAN Cytochrome c oxidase subunit 7A-related 
+protein, mitochondrial OS=Homo sapiens OX=9606 GN=COX7A2L PE=1 
+SV=2
+Length=114
+
+ Score = 63.9 bits (154),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 30/58 (52%), Positives = 39/58 (67%), Gaps = 0/58 (0%)
+
+Query  23   ENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGGTLYSLYCLGWASFPHKK  80
+            +N+V E QK FQ+ +G+PV+LK G  D +LYR TM L +GGT+Y L  L  AS P  K
+Sbjct  57   KNKVPELQKFFQKADGVPVYLKRGLPDQMLYRTTMALTVGGTIYCLIALYMASQPKNK  114
+
+
+> sp|Q61387|COX7R_MOUSE Cytochrome c oxidase subunit 7A-related 
+protein, mitochondrial OS=Mus musculus OX=10090 GN=Cox7a2l 
+PE=1 SV=1
+Length=111
+
+ Score = 57.4 bits (137),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 30/58 (52%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  23   ENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGGTLYSLYCLGWASFPHKK  80
+            +N+V E QK FQ+ +G   HLK G  D +LYR TM L LGGT+Y L  L  AS P  K
+Sbjct  56   KNKVPELQKFFQKADGF--HLKRGLPDQMLYRTTMALTLGGTIYCLIALYMASQPRNK  111
+
+
+> sp|Q9TR30|CX7A2_SHEEP Cytochrome c oxidase subunit 7A2, mitochondrial 
+(Fragment) OS=Ovis aries OX=9940 GN=COX7A2 PE=1 SV=1
+Length=24
+
+ Score = 51.6 bits (122),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 21/24 (88%), Positives = 23/24 (96%), Gaps = 0/24 (0%)
+
+Query  22  FENRVAEKQKLFQEDNGLPVHLKG  45
+           FEN+V EKQKLFQEDNG+PVHLKG
+Sbjct  1   FENKVPEKQKLFQEDNGIPVHLKG  24
+
+
+> sp|Q9TR29|CX7A2_CANLF Cytochrome c oxidase subunit 7A2, mitochondrial 
+(Fragment) OS=Canis lupus familiaris OX=9615 GN=COX7A2 
+PE=1 SV=1
+Length=29
+
+ Score = 51.2 bits (121),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  22  FENRVAEKQKLFQEDNGLPVHLKGGATD  49
+           FEN+V EKQKLFQEDNG+PV LKGG  D
+Sbjct  1   FENKVPEKQKLFQEDNGIPVVLKGGVAD  28
+
+
+> sp|Q9VHS2|COX7A_DROME Cytochrome c oxidase subunit 7A, mitochondrial 
+OS=Drosophila melanogaster OX=7227 GN=COX7A PE=3 SV=1
+Length=89
+
+ Score = 52.0 bits (123),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 31/73 (42%), Positives = 43/73 (59%), Gaps = 15/73 (21%)
+
+Query  4   LRVSQALVRSFSSTARNR-------------FENRVAEKQKLFQEDNGLPVHLKGGATDN  50
+           + +S+A+VRSF++TA  R             FE R  + Q+ FQ+ +G PV LKG   DN
+Sbjct  2   MNLSRAVVRSFATTAGRRSAAVPKDQIEKGYFEIR--KVQEHFQKKDGKPVFLKGSVVDN  59
+
+Query  51  ILYRVTMTLCLGG  63
+           +LYRVT+ L L G
+Sbjct  60  VLYRVTVALALVG  72
+
+
+> sp|Q9TRZ8|CX7A1_CANLF Cytochrome c oxidase subunit 7A1, mitochondrial 
+(Fragment) OS=Canis lupus familiaris OX=9615 GN=COX7A1 
+PE=1 SV=1
+Length=23
+
+ Score = 46.2 bits (108),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 20/23 (87%), Positives = 21/23 (91%), Gaps = 0/23 (0%)
+
+Query  22  FENRVAEKQKLFQEDNGLPVHLK  44
+           FEN+VAEKQKLFQ DNGLPV LK
+Sbjct  1   FENKVAEKQKLFQADNGLPVXLK  23
+
+
+> sp|P80333|CX7A1_ONCMY Cytochrome c oxidase subunit 7A-liver, 
+mitochondrial (Fragment) OS=Oncorhynchus mykiss OX=8022 PE=1 
+SV=1
+Length=23
+
+ Score = 36.6 bits (83),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 15/21 (71%), Positives = 17/21 (81%), Gaps = 0/21 (0%)
+
+Query  23  ENRVAEKQKLFQEDNGLPVHL  43
+           +N V EKQKLFQ  NG+PVHL
+Sbjct  2   DNMVPEKQKLFQAXNGIPVHL  22
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.135    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4966371191
+Results from round 2
+
+
+Query= P07470|1v55W
+
+Length=80
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P07470|CX7A1_BOVIN Cytochrome c oxidase subunit 7A1, mitocho...  141     2e-43
+  sp|Q53CF6|CX7A1_SAISC Cytochrome c oxidase subunit 7A1, mitocho...  138     2e-42
+  sp|Q9N234|CX7A1_TRACR Cytochrome c oxidase subunit 7A1, mitocho...  138     3e-42
+  sp|Q8SPJ9|CX7A1_PIG Cytochrome c oxidase subunit 7A1, mitochond...  137     6e-42
+  sp|P56392|CX7A1_MOUSE Cytochrome c oxidase subunit 7A1, mitocho...  135     4e-41
+  sp|P24310|CX7A1_HUMAN Cytochrome c oxidase subunit 7A1, mitocho...  134     2e-40
+  sp|P13184|CX7A2_BOVIN Cytochrome c oxidase subunit 7A2, mitocho...  118     3e-34
+  sp|P48771|CX7A2_MOUSE Cytochrome c oxidase subunit 7A2, mitocho...  117     4e-34
+  sp|O60397|COX7S_HUMAN Putative cytochrome c oxidase subunit 7A3...  118     5e-34
+  sp|P35171|CX7A2_RAT Cytochrome c oxidase subunit 7A2, mitochond...  115     2e-33
+  sp|P14406|CX7A2_HUMAN Cytochrome c oxidase subunit 7A2, mitocho...  115     3e-33
+  sp|O14548|COX7R_HUMAN Cytochrome c oxidase subunit 7A-related p...  98.2    4e-26
+  sp|Q3T061|COX7R_BOVIN Cytochrome c oxidase subunit 7A-related p...  97.8    5e-26
+  sp|Q61387|COX7R_MOUSE Cytochrome c oxidase subunit 7A-related p...  88.9    1e-22
+  sp|Q9VHS2|COX7A_DROME Cytochrome c oxidase subunit 7A, mitochon...  72.4    2e-16
+  sp|Q9TR28|CX7A1_SHEEP Cytochrome c oxidase subunit 7A1, mitocho...  55.8    1e-10
+  sp|Q9TR29|CX7A2_CANLF Cytochrome c oxidase subunit 7A2, mitocho...  55.4    2e-10
+  sp|Q9TR30|CX7A2_SHEEP Cytochrome c oxidase subunit 7A2, mitocho...  52.0    4e-09
+  sp|Q9TRZ8|CX7A1_CANLF Cytochrome c oxidase subunit 7A1, mitocho...  42.0    2e-05
+  sp|P80333|CX7A1_ONCMY Cytochrome c oxidase subunit 7A-liver, mi...  40.0    1e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P07470|CX7A1_BOVIN Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX7A1 PE=1 SV=2
+Length=80
+
+ Score = 141 bits (355),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC
+Sbjct  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+
+Query  61  LGGTLYSLYCLGWASFPHKK  80
+           LGGTLYSLYCLGWASFPHKK
+Sbjct  61  LGGTLYSLYCLGWASFPHKK  80
+
+
+> sp|Q53CF6|CX7A1_SAISC Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Saimiri sciureus OX=9521 GN=COX7A1 PE=3 SV=1
+Length=80
+
+ Score = 138 bits (348),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 62/80 (78%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           M A RVSQAL+RSFSSTARNR +NRV EKQKLFQEDNG+PV+LKGG  D+ILYRVTM LC
+Sbjct  1   MLAPRVSQALIRSFSSTARNRLKNRVPEKQKLFQEDNGIPVYLKGGVVDHILYRVTMGLC  60
+
+Query  61  LGGTLYSLYCLGWASFPHKK  80
+           LGGT Y +YCL WASFP  K
+Sbjct  61  LGGTAYGVYCLAWASFPRNK  80
+
+
+> sp|Q9N234|CX7A1_TRACR Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Trachypithecus cristatus OX=122765 GN=COX7A1 PE=3 
+SV=1
+Length=79
+
+ Score = 138 bits (348),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 60/79 (76%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           M+ALRVS+AL+RSF++TARNRF+NRV EKQKLFQEDN +P++LKGG  DNILYRVTM LC
+Sbjct  1   MQALRVSRALIRSFNTTARNRFQNRVPEKQKLFQEDNDIPLYLKGGIVDNILYRVTMGLC  60
+
+Query  61  LGGTLYSLYCLGWASFPHK  79
+           LGG+ YS+YCLGWASFP  
+Sbjct  61  LGGSAYSMYCLGWASFPRN  79
+
+
+> sp|Q8SPJ9|CX7A1_PIG Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Sus scrofa OX=9823 GN=COX7A1 PE=3 SV=1
+Length=80
+
+ Score = 137 bits (346),  Expect = 6e-42, Method: Composition-based stats.
+ Identities = 75/80 (94%), Positives = 77/80 (96%), Gaps = 0/80 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           MRALRVSQALVRSFSSTARNR ENRVAEKQK+FQ DN LPVHLKGGATDNILYRVTMTLC
+Sbjct  1   MRALRVSQALVRSFSSTARNRLENRVAEKQKIFQADNDLPVHLKGGATDNILYRVTMTLC  60
+
+Query  61  LGGTLYSLYCLGWASFPHKK  80
+           LGGT+YSLYCLGWASFPHKK
+Sbjct  61  LGGTVYSLYCLGWASFPHKK  80
+
+
+> sp|P56392|CX7A1_MOUSE Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox7a1 PE=1 SV=1
+Length=80
+
+ Score = 135 bits (340),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 66/80 (83%), Positives = 70/80 (88%), Gaps = 0/80 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           MRALRVSQALVRSFSS+ R+  ENRVAEKQKLFQ DN LPVHLKGG  DN+LYR+TMTL 
+Sbjct  1   MRALRVSQALVRSFSSSTRSHLENRVAEKQKLFQADNDLPVHLKGGGMDNVLYRLTMTLT  60
+
+Query  61  LGGTLYSLYCLGWASFPHKK  80
+           LGGT Y LYCLGWASFPHKK
+Sbjct  61  LGGTAYCLYCLGWASFPHKK  80
+
+
+> sp|P24310|CX7A1_HUMAN Cytochrome c oxidase subunit 7A1, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX7A1 PE=1 SV=2
+Length=79
+
+ Score = 134 bits (336),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 65/79 (82%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MRALRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLC  60
+           M+ALRVSQAL+RSFSSTARNRF+NRV EKQKLFQEDN +P++LKGG  DNILYRVTMTLC
+Sbjct  1   MQALRVSQALIRSFSSTARNRFQNRVREKQKLFQEDNDIPLYLKGGIVDNILYRVTMTLC  60
+
+Query  61  LGGTLYSLYCLGWASFPHK  79
+           LGGT+YSLY LGWASFP  
+Sbjct  61  LGGTVYSLYSLGWASFPRN  79
+
+
+> sp|P13184|CX7A2_BOVIN Cytochrome c oxidase subunit 7A2, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX7A2 PE=1 SV=3
+Length=83
+
+ Score = 118 bits (295),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 44/77 (57%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  4   LRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGG  63
+           L + Q   R+ S+++R +FEN+V EKQKLFQEDNG+PVHLKGG  D +LYR T+ L +GG
+Sbjct  6   LALRQIAKRTISTSSRRQFENKVPEKQKLFQEDNGIPVHLKGGIADALLYRATLILTVGG  65
+
+Query  64  TLYSLYCLGWASFPHKK  80
+           T Y++Y L  ASFP K+
+Sbjct  66  TAYAMYELAVASFPKKQ  82
+
+
+> sp|P48771|CX7A2_MOUSE Cytochrome c oxidase subunit 7A2, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox7a2 PE=1 SV=2
+Length=83
+
+ Score = 117 bits (294),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 47/77 (61%), Positives = 59/77 (77%), Gaps = 0/77 (0%)
+
+Query  4   LRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGG  63
+           L + Q   R+ S+T+R  FEN+V EKQKLFQEDNG+PVHLKGGA+D +LYR TM L LGG
+Sbjct  6   LALRQIAQRTISTTSRRHFENKVPEKQKLFQEDNGMPVHLKGGASDALLYRATMALTLGG  65
+
+Query  64  TLYSLYCLGWASFPHKK  80
+           T Y++Y L  A+FP K+
+Sbjct  66  TAYAIYLLAMAAFPKKQ  82
+
+
+> sp|O60397|COX7S_HUMAN Putative cytochrome c oxidase subunit 7A3, 
+mitochondrial OS=Homo sapiens OX=9606 GN=COX7A2P2 PE=5 SV=1
+Length=106
+
+ Score = 118 bits (295),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 39/76 (51%), Positives = 55/76 (72%), Gaps = 0/76 (0%)
+
+Query  4   LRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGG  63
+           L + Q   R+ S+ +   F+N+V EKQKLFQED+G+P++LKGG  D +L+R TM L +GG
+Sbjct  6   LALHQIGQRTISTASHRHFKNKVPEKQKLFQEDDGIPLYLKGGIADALLHRATMILTVGG  65
+
+Query  64  TLYSLYCLGWASFPHK  79
+           T Y++Y L  ASFP+K
+Sbjct  66  TAYAIYQLAVASFPNK  81
+
+
+> sp|P35171|CX7A2_RAT Cytochrome c oxidase subunit 7A2, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox7a2 PE=1 SV=1
+Length=83
+
+ Score = 115 bits (289),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 45/77 (58%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  4   LRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGG  63
+           L + Q   R+ S+T+R  FEN+V EKQKLFQEDNG+PVHLKGG +D +LYR TM L +GG
+Sbjct  6   LALRQIAQRTISTTSRRHFENKVPEKQKLFQEDNGMPVHLKGGTSDALLYRATMLLTVGG  65
+
+Query  64  TLYSLYCLGWASFPHKK  80
+           T Y++Y L  A+FP K+
+Sbjct  66  TAYAIYMLAMAAFPKKQ  82
+
+
+> sp|P14406|CX7A2_HUMAN Cytochrome c oxidase subunit 7A2, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX7A2 PE=1 SV=1
+Length=83
+
+ Score = 115 bits (289),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 40/77 (52%), Positives = 55/77 (71%), Gaps = 0/77 (0%)
+
+Query  4   LRVSQALVRSFSSTARNRFENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGG  63
+           L + Q   R+ S+ +R  F+N+V EKQKLFQED+ +P++LKGG  D +LYR TM L +GG
+Sbjct  6   LALRQIGQRTISTASRRHFKNKVPEKQKLFQEDDEIPLYLKGGVADALLYRATMILTVGG  65
+
+Query  64  TLYSLYCLGWASFPHKK  80
+           T Y++Y L  ASFP K+
+Sbjct  66  TAYAIYELAVASFPKKQ  82
+
+
+> sp|O14548|COX7R_HUMAN Cytochrome c oxidase subunit 7A-related 
+protein, mitochondrial OS=Homo sapiens OX=9606 GN=COX7A2L PE=1 
+SV=2
+Length=114
+
+ Score = 98.2 bits (243),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 30/58 (52%), Positives = 39/58 (67%), Gaps = 0/58 (0%)
+
+Query  23   ENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGGTLYSLYCLGWASFPHKK  80
+            +N+V E QK FQ+ +G+PV+LK G  D +LYR TM L +GGT+Y L  L  AS P  K
+Sbjct  57   KNKVPELQKFFQKADGVPVYLKRGLPDQMLYRTTMALTVGGTIYCLIALYMASQPKNK  114
+
+
+> sp|Q3T061|COX7R_BOVIN Cytochrome c oxidase subunit 7A-related 
+protein, mitochondrial OS=Bos taurus OX=9913 GN=COX7A2L PE=3 
+SV=1
+Length=114
+
+ Score = 97.8 bits (242),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 30/58 (52%), Positives = 38/58 (66%), Gaps = 0/58 (0%)
+
+Query  23   ENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGGTLYSLYCLGWASFPHKK  80
+            +N V E QK FQ+ +G+P+HLK G  D +LYR TM L +GGT+Y L  L  AS P  K
+Sbjct  57   KNTVPELQKFFQKSDGVPIHLKRGLPDQMLYRTTMALTVGGTIYCLIALYMASQPRNK  114
+
+
+> sp|Q61387|COX7R_MOUSE Cytochrome c oxidase subunit 7A-related 
+protein, mitochondrial OS=Mus musculus OX=10090 GN=Cox7a2l 
+PE=1 SV=1
+Length=111
+
+ Score = 88.9 bits (219),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 30/58 (52%), Positives = 36/58 (62%), Gaps = 2/58 (3%)
+
+Query  23   ENRVAEKQKLFQEDNGLPVHLKGGATDNILYRVTMTLCLGGTLYSLYCLGWASFPHKK  80
+            +N+V E QK FQ+ +G   HLK G  D +LYR TM L LGGT+Y L  L  AS P  K
+Sbjct  56   KNKVPELQKFFQKADGF--HLKRGLPDQMLYRTTMALTLGGTIYCLIALYMASQPRNK  111
+
+
+> sp|Q9VHS2|COX7A_DROME Cytochrome c oxidase subunit 7A, mitochondrial 
+OS=Drosophila melanogaster OX=7227 GN=COX7A PE=3 SV=1
+Length=89
+
+ Score = 72.4 bits (176),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/90 (38%), Positives = 47/90 (52%), Gaps = 15/90 (17%)
+
+Query  4   LRVSQALVRSFSSTARNR-------------FENRVAEKQKLFQEDNGLPVHLKGGATDN  50
+           + +S+A+VRSF++TA  R             FE R  + Q+ FQ+ +G PV LKG   DN
+Sbjct  2   MNLSRAVVRSFATTAGRRSAAVPKDQIEKGYFEIR--KVQEHFQKKDGKPVFLKGSVVDN  59
+
+Query  51  ILYRVTMTLCLGGTLYSLYCLGWASFPHKK  80
+           +LYRVT+ L L G           S P K+
+Sbjct  60  VLYRVTVALALVGIGGMGKLFYELSVPKKE  89
+
+
+> sp|Q9TR28|CX7A1_SHEEP Cytochrome c oxidase subunit 7A1, mitochondrial 
+(Fragment) OS=Ovis aries OX=9940 GN=COX7A1 PE=1 SV=1
+Length=29
+
+ Score = 55.8 bits (133),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 28/29 (97%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  22  FENRVAEKQKLFQEDNGLPVHLKGGATDN  50
+            ENRVAEKQKLFQEDNGLPVHLKGGATDN
+Sbjct  1   LENRVAEKQKLFQEDNGLPVHLKGGATDN  29
+
+
+> sp|Q9TR29|CX7A2_CANLF Cytochrome c oxidase subunit 7A2, mitochondrial 
+(Fragment) OS=Canis lupus familiaris OX=9615 GN=COX7A2 
+PE=1 SV=1
+Length=29
+
+ Score = 55.4 bits (132),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 22/29 (76%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  22  FENRVAEKQKLFQEDNGLPVHLKGGATDN  50
+           FEN+V EKQKLFQEDNG+PV LKGG  D 
+Sbjct  1   FENKVPEKQKLFQEDNGIPVVLKGGVADA  29
+
+
+> sp|Q9TR30|CX7A2_SHEEP Cytochrome c oxidase subunit 7A2, mitochondrial 
+(Fragment) OS=Ovis aries OX=9940 GN=COX7A2 PE=1 SV=1
+Length=24
+
+ Score = 52.0 bits (123),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 21/24 (88%), Positives = 23/24 (96%), Gaps = 0/24 (0%)
+
+Query  22  FENRVAEKQKLFQEDNGLPVHLKG  45
+           FEN+V EKQKLFQEDNG+PVHLKG
+Sbjct  1   FENKVPEKQKLFQEDNGIPVHLKG  24
+
+
+> sp|Q9TRZ8|CX7A1_CANLF Cytochrome c oxidase subunit 7A1, mitochondrial 
+(Fragment) OS=Canis lupus familiaris OX=9615 GN=COX7A1 
+PE=1 SV=1
+Length=23
+
+ Score = 42.0 bits (97),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/23 (87%), Positives = 21/23 (91%), Gaps = 0/23 (0%)
+
+Query  22  FENRVAEKQKLFQEDNGLPVHLK  44
+           FEN+VAEKQKLFQ DNGLPV LK
+Sbjct  1   FENKVAEKQKLFQADNGLPVXLK  23
+
+
+> sp|P80333|CX7A1_ONCMY Cytochrome c oxidase subunit 7A-liver, 
+mitochondrial (Fragment) OS=Oncorhynchus mykiss OX=8022 PE=1 
+SV=1
+Length=23
+
+ Score = 40.0 bits (92),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/21 (71%), Positives = 17/21 (81%), Gaps = 0/21 (0%)
+
+Query  23  ENRVAEKQKLFQEDNGLPVHL  43
+           +N V EKQKLFQ  NG+PVHL
+Sbjct  2   DNMVPEKQKLFQAXNGIPVHL  22
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.136    0.364    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4966371191
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

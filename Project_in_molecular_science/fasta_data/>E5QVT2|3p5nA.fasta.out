@@ -1,0 +1,435 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= E5QVT2|3p5nA
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|E5QVT2|RIBU_STAAH Riboflavin transporter RibU OS=Staphylococ...  360     3e-126
+  sp|P50726|FMNP_BACSU Riboflavin transporter FmnP OS=Bacillus su...  152     1e-44 
+  sp|Q9X1G6|RIBU_THEMA Riboflavin transporter RibU OS=Thermotoga ...  81.3    9e-18 
+  sp|Q5M614|RIBU_STRT2 Riboflavin transporter RibU OS=Streptococc...  78.6    1e-16 
+  sp|D8KIE9|RIBU_LACLN Riboflavin transporter RibU OS=Lactococcus...  69.3    2e-13 
+  sp|P0CI36|RIBU_LACLM Riboflavin transporter RibU OS=Lactococcus...  69.3    2e-13 
+  sp|Q03WN0|RIBU_LEUMM Riboflavin transporter RibU OS=Leuconostoc...  62.8    3e-11 
+
+
+> sp|E5QVT2|RIBU_STAAH Riboflavin transporter RibU OS=Staphylococcus 
+aureus (strain TCH60) OX=548473 GN=ribU PE=1 SV=1
+Length=189
+
+ Score = 360 bits (924),  Expect = 3e-126, Method: Compositional matrix adjust.
+ Identities = 189/189 (100%), Positives = 189/189 (100%), Gaps = 0/189 (0%)
+
+Query  1    MNGRRKLNMQQNKRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGP  60
+            MNGRRKLNMQQNKRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGP
+Sbjct  1    MNGRRKLNMQQNKRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGP  60
+
+Query  61   VAGIIVALVKNLLNYLFSMGDPVGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIAT  120
+            VAGIIVALVKNLLNYLFSMGDPVGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIAT
+Sbjct  61   VAGIIVALVKNLLNYLFSMGDPVGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIAT  120
+
+Query  121  IVMTIVLSILNYFVLLPLYGMIFNLADIANNLKVIIVSGIIPFNIIKGIVISIVFILLYR  180
+            IVMTIVLSILNYFVLLPLYGMIFNLADIANNLKVIIVSGIIPFNIIKGIVISIVFILLYR
+Sbjct  121  IVMTIVLSILNYFVLLPLYGMIFNLADIANNLKVIIVSGIIPFNIIKGIVISIVFILLYR  180
+
+Query  181  RLANFLKRI  189
+            RLANFLKRI
+Sbjct  181  RLANFLKRI  189
+
+
+> sp|P50726|FMNP_BACSU Riboflavin transporter FmnP OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=fmnP PE=1 SV=1
+Length=190
+
+ Score = 152 bits (384),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 81/180 (45%), Positives = 123/180 (68%), Gaps = 4/180 (2%)
+
+Query  13   KRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGPVAGIIVALVKNL  72
+            K+L+ +SMLS+IAFVL  + FP P LP YL +DFSDVP+++A   +GP+AGI V  +KN+
+Sbjct  4    KKLVVVSMLSSIAFVLMLLNFPFPGLPDYLKIDFSDVPAIIAILIYGPLAGIAVEAIKNV  63
+
+Query  73   LNYLFS---MGDPVGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIATIVMTIVLSI  129
+            L Y+      G PVG  ANF+AG  F+L    ++K   S K L   L++ T  MTI++SI
+Sbjct  64   LQYIIQGSMAGVPVGQVANFIAGTLFILPTAFLFKKLNSAKGLAVSLLLGTAAMTILMSI  123
+
+Query  130  LNYFVLLPLYGMIFNLADIANN-LKVIIVSGIIPFNIIKGIVISIVFILLYRRLANFLKR  188
+            LNY ++LP Y    +   ++++ LK  +V+GI+PFN+IKGIVI++VF L++ +L  ++++
+Sbjct  124  LNYVLILPAYTWFLHSPALSDSALKTAVVAGILPFNMIKGIVITVVFSLIFIKLKPWIEQ  183
+
+
+> sp|Q9X1G6|RIBU_THEMA Riboflavin transporter RibU OS=Thermotoga 
+maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) 
+OX=243274 GN=ribU PE=1 SV=1
+Length=183
+
+ Score = 81.3 bits (199),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 58/179 (32%), Positives = 100/179 (56%), Gaps = 7/179 (4%)
+
+Query  9    MQQNKRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGPVAGIIVAL  68
+            M   K++  + + SA+A ++ F++FPI     +L  D S++P+L+ +F  GP  G+ V L
+Sbjct  1    MSSIKKISFVGIFSALATLVMFLEFPIFPQASFLKYDPSEIPALIVSFLLGPGVGMFVVL  60
+
+Query  69   VKNLLNYLFSMGDPVGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIATIVMTIVLS  128
+            VK++L +L   GDPVG   N + G SF+  A  IY   +S  + I G+I+AT+  T    
+Sbjct  61   VKDILFFLMKSGDPVGIAMNAVLGMSFVGIAGLIYHRNKSRATAIKGMIVATLFATAFAL  120
+
+Query  129  ILNYFVLLPLYGMIFNLADIANNLKVIIVSGIIPFNIIKGIVISIVFILLYRRLANFLK  187
+             LN  +++PLY       +    L +     I+ FN++K  + S+V   +Y+++++ LK
+Sbjct  121  GLNA-LIVPLY------FEAPFELYLKFFPFILAFNLVKFGIDSVVTFFVYKKVSSILK  172
+
+
+> sp|Q5M614|RIBU_STRT2 Riboflavin transporter RibU OS=Streptococcus 
+thermophilus (strain ATCC BAA-250 / LMG 18311) OX=264199 
+GN=ribU PE=1 SV=1
+Length=211
+
+ Score = 78.6 bits (192),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 60/190 (32%), Positives = 108/190 (57%), Gaps = 6/190 (3%)
+
+Query  5    RKLNMQQNKRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGPVAGI  64
+            R   M   ++L  I++LSA++F+L +  FP+     +L +DFS +P L+A   F   + I
+Sbjct  23   RNFFMTNTRKLAYIAILSAVSFLLLYFSFPLIPAADFLKVDFSILPVLIALVIFDFKSAI  82
+
+Query  65   IVALVKNLLNYLFSMGDP---VGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIATI  121
+             V L+++LL  L + G P   +G   NF+A   F+      +K  +++K+ I G ++ TI
+Sbjct  83   GVLLLRSLLKLLLNNGGPGSMIGLPMNFVALGVFVWGLSYFWKKNQTSKNYILGSVLGTI  142
+
+Query  122  VMTIVLSILNYFVLLPLYGMIFNLADIAN--NLKVIIVSGIIPFNIIKGIVISIVFILLY  179
+            ++T+ + +LNY   +PLY    N  DIA    L   + + ++PFN+++G++ S+ F L+Y
+Sbjct  143  LLTVAMVVLNYIYAVPLYAKFANF-DIAQFIGLYKYLFAMVVPFNLLEGLIFSVAFALIY  201
+
+Query  180  RRLANFLKRI  189
+              L + L ++
+Sbjct  202  APLKSILVKL  211
+
+
+> sp|D8KIE9|RIBU_LACLN Riboflavin transporter RibU OS=Lactococcus 
+lactis subsp. cremoris (strain NZ9000) OX=746361 GN=ribU 
+PE=1 SV=1
+Length=206
+
+ Score = 69.3 bits (168),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 52/188 (28%), Positives = 98/188 (52%), Gaps = 21/188 (11%)
+
+Query  9    MQQNKRLITISMLSAIAFVLTFIKFPIPFLP--PYLTLDFSDVPSLLATFTFGPVAGIIV  66
+            M + +R++ I+ML+A++ +L       P LP   ++ ++ S +P L+  FT G   G I+
+Sbjct  1    MSKTRRMVLIAMLAALSTILLLPILQFPLLPGIDFMKVELSIIPVLIGVFTLGLGDGFII  60
+
+Query  67   ALVKNLLNYLFSMGDP---VGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIATIVM  123
+              ++++L YL     P   +G   NF+A   F+   +   K K S K+   G+++ATI  
+Sbjct  61   LFIRSVLWYLLFNQGPSTWIGVPMNFVALGIFMAIVWFFTKKKFSIKNYTVGIVLATIAS  120
+
+Query  124  TIVLSILNYFVLLPLYGM---------------IFNLADIANNLK-VIIVSGIIPFNIIK  167
+             +V+ +LN F  LPLY +               +FN+  ++  L    +++ ++PFN ++
+Sbjct  121  VLVMMVLNVFYALPLYRLAAGFDVDKIFAGATHLFNMGSLSVTLNPTYLLTVVLPFNALQ  180
+
+Query  168  GIVISIVF  175
+             I+ ++VF
+Sbjct  181  YIIFALVF  188
+
+
+> sp|P0CI36|RIBU_LACLM Riboflavin transporter RibU OS=Lactococcus 
+lactis subsp. cremoris (strain MG1363) OX=416870 GN=ribU 
+PE=1 SV=1
+Length=206
+
+ Score = 69.3 bits (168),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 52/188 (28%), Positives = 98/188 (52%), Gaps = 21/188 (11%)
+
+Query  9    MQQNKRLITISMLSAIAFVLTFIKFPIPFLP--PYLTLDFSDVPSLLATFTFGPVAGIIV  66
+            M + +R++ I+ML+A++ +L       P LP   ++ ++ S +P L+  FT G   G I+
+Sbjct  1    MSKTRRMVLIAMLAALSTILLLPILQFPLLPGIDFMKVELSIIPVLIGVFTLGLGDGFII  60
+
+Query  67   ALVKNLLNYLFSMGDP---VGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIATIVM  123
+              ++++L YL     P   +G   NF+A   F+   +   K K S K+   G+++ATI  
+Sbjct  61   LFIRSVLWYLLFNQGPSTWIGVPMNFVALGIFMAIVWFFTKKKFSIKNYTVGIVLATIAS  120
+
+Query  124  TIVLSILNYFVLLPLYGM---------------IFNLADIANNLK-VIIVSGIIPFNIIK  167
+             +V+ +LN F  LPLY +               +FN+  ++  L    +++ ++PFN ++
+Sbjct  121  VLVMMVLNVFYALPLYRLAAGFDVDKIFAGATHLFNMGSLSVTLNPTYLLTVVLPFNALQ  180
+
+Query  168  GIVISIVF  175
+             I+ ++VF
+Sbjct  181  YIIFALVF  188
+
+
+> sp|Q03WN0|RIBU_LEUMM Riboflavin transporter RibU OS=Leuconostoc 
+mesenteroides subsp. mesenteroides (strain ATCC 8293 / NCDO 
+523) OX=203120 GN=ribU PE=1 SV=1
+Length=196
+
+ Score = 62.8 bits (151),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 63/197 (32%), Positives = 101/197 (51%), Gaps = 34/197 (17%)
+
+Query  13   KRLITISMLSAIAFVLTFIKFP-IPFLPP--YLTLDFSDVPSLLATFTFGPVAGIIVALV  69
+            +R   I++LSAI+F L    FP +P +P   +L LDFS VP ++  +     A + V L+
+Sbjct  10   QRTTLIAILSAISFGLML--FPQVPIIPSADFLKLDFSIVPVVIGLYWLNYSASLWVILI  67
+
+Query  70   KNLLNYLFS-------MGDPVGPFANFLAGASFL---------LTAYAIYKNKRSTKSLI  113
+            + LL  + +       +G PV    N L   +F+         L  Y+ ++ K      I
+Sbjct  68   RTLLKLILANEGVNTYLGLPV----NLLVVLAFITVLKITMPNLEQYSNWQKK------I  117
+
+Query  114  TGLIIATIVMTIVLSILNYFVLLPLYGMIFNLADIAN--NLKVIIVSGIIPFNIIKGIVI  171
+              LI +T VMTIV  ++N+FV +PLY    N  DIA    LK   +  ++PFN+I+GI+ 
+Sbjct  118  LPLISSTFVMTIVAIVINWFVAIPLYARFANF-DIAKFIGLKNYFIGMVLPFNLIEGIIW  176
+
+Query  172  SIVFILLYRRLANFLKR  188
+             +V +++ R +    +R
+Sbjct  177  FVVSMIILRAIQPLQRR  193
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.148    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10751884962
+Results from round 2
+
+
+Query= E5QVT2|3p5nA
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|E5QVT2|RIBU_STAAH Riboflavin transporter RibU OS=Staphylococ...  155     9e-46
+  sp|P50726|FMNP_BACSU Riboflavin transporter FmnP OS=Bacillus su...  138     5e-39
+  sp|Q9X1G6|RIBU_THEMA Riboflavin transporter RibU OS=Thermotoga ...  129     6e-36
+  sp|Q5M614|RIBU_STRT2 Riboflavin transporter RibU OS=Streptococc...  129     1e-35
+  sp|D8KIE9|RIBU_LACLN Riboflavin transporter RibU OS=Lactococcus...  106     1e-26
+  sp|P0CI36|RIBU_LACLM Riboflavin transporter RibU OS=Lactococcus...  106     1e-26
+  sp|Q03WN0|RIBU_LEUMM Riboflavin transporter RibU OS=Leuconostoc...  103     6e-26
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|E5QVT2|RIBU_STAAH Riboflavin transporter RibU OS=Staphylococcus 
+aureus (strain TCH60) OX=548473 GN=ribU PE=1 SV=1
+Length=189
+
+ Score = 155 bits (392),  Expect = 9e-46, Method: Composition-based stats.
+ Identities = 189/189 (100%), Positives = 189/189 (100%), Gaps = 0/189 (0%)
+
+Query  1    MNGRRKLNMQQNKRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGP  60
+            MNGRRKLNMQQNKRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGP
+Sbjct  1    MNGRRKLNMQQNKRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGP  60
+
+Query  61   VAGIIVALVKNLLNYLFSMGDPVGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIAT  120
+            VAGIIVALVKNLLNYLFSMGDPVGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIAT
+Sbjct  61   VAGIIVALVKNLLNYLFSMGDPVGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIAT  120
+
+Query  121  IVMTIVLSILNYFVLLPLYGMIFNLADIANNLKVIIVSGIIPFNIIKGIVISIVFILLYR  180
+            IVMTIVLSILNYFVLLPLYGMIFNLADIANNLKVIIVSGIIPFNIIKGIVISIVFILLYR
+Sbjct  121  IVMTIVLSILNYFVLLPLYGMIFNLADIANNLKVIIVSGIIPFNIIKGIVISIVFILLYR  180
+
+Query  181  RLANFLKRI  189
+            RLANFLKRI
+Sbjct  181  RLANFLKRI  189
+
+
+> sp|P50726|FMNP_BACSU Riboflavin transporter FmnP OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=fmnP PE=1 SV=1
+Length=190
+
+ Score = 138 bits (347),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 81/182 (45%), Positives = 124/182 (68%), Gaps = 4/182 (2%)
+
+Query  11   QNKRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGPVAGIIVALVK  70
+            + K+L+ +SMLS+IAFVL  + FP P LP YL +DFSDVP+++A   +GP+AGI V  +K
+Sbjct  2    KVKKLVVVSMLSSIAFVLMLLNFPFPGLPDYLKIDFSDVPAIIAILIYGPLAGIAVEAIK  61
+
+Query  71   NLLNYLFS---MGDPVGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIATIVMTIVL  127
+            N+L Y+      G PVG  ANF+AG  F+L    ++K   S K L   L++ T  MTI++
+Sbjct  62   NVLQYIIQGSMAGVPVGQVANFIAGTLFILPTAFLFKKLNSAKGLAVSLLLGTAAMTILM  121
+
+Query  128  SILNYFVLLPLYGMIFNLADIANN-LKVIIVSGIIPFNIIKGIVISIVFILLYRRLANFL  186
+            SILNY ++LP Y    +   ++++ LK  +V+GI+PFN+IKGIVI++VF L++ +L  ++
+Sbjct  122  SILNYVLILPAYTWFLHSPALSDSALKTAVVAGILPFNMIKGIVITVVFSLIFIKLKPWI  181
+
+Query  187  KR  188
+            ++
+Sbjct  182  EQ  183
+
+
+> sp|Q9X1G6|RIBU_THEMA Riboflavin transporter RibU OS=Thermotoga 
+maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) 
+OX=243274 GN=ribU PE=1 SV=1
+Length=183
+
+ Score = 129 bits (325),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 58/179 (32%), Positives = 100/179 (56%), Gaps = 7/179 (4%)
+
+Query  9    MQQNKRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGPVAGIIVAL  68
+            M   K++  + + SA+A ++ F++FPI     +L  D S++P+L+ +F  GP  G+ V L
+Sbjct  1    MSSIKKISFVGIFSALATLVMFLEFPIFPQASFLKYDPSEIPALIVSFLLGPGVGMFVVL  60
+
+Query  69   VKNLLNYLFSMGDPVGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIATIVMTIVLS  128
+            VK++L +L   GDPVG   N + G SF+  A  IY   +S  + I G+I+AT+  T    
+Sbjct  61   VKDILFFLMKSGDPVGIAMNAVLGMSFVGIAGLIYHRNKSRATAIKGMIVATLFATAFAL  120
+
+Query  129  ILNYFVLLPLYGMIFNLADIANNLKVIIVSGIIPFNIIKGIVISIVFILLYRRLANFLK  187
+             LN  +++PLY       +    L +     I+ FN++K  + S+V   +Y+++++ LK
+Sbjct  121  GLNA-LIVPLY------FEAPFELYLKFFPFILAFNLVKFGIDSVVTFFVYKKVSSILK  172
+
+
+> sp|Q5M614|RIBU_STRT2 Riboflavin transporter RibU OS=Streptococcus 
+thermophilus (strain ATCC BAA-250 / LMG 18311) OX=264199 
+GN=ribU PE=1 SV=1
+Length=211
+
+ Score = 129 bits (325),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 57/189 (30%), Positives = 105/189 (56%), Gaps = 4/189 (2%)
+
+Query  5    RKLNMQQNKRLITISMLSAIAFVLTFIKFPIPFLPPYLTLDFSDVPSLLATFTFGPVAGI  64
+            R   M   ++L  I++LSA++F+L +  FP+     +L +DFS +P L+A   F   + I
+Sbjct  23   RNFFMTNTRKLAYIAILSAVSFLLLYFSFPLIPAADFLKVDFSILPVLIALVIFDFKSAI  82
+
+Query  65   IVALVKNLLNYLFSMGDP---VGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIATI  121
+             V L+++LL  L + G P   +G   NF+A   F+      +K  +++K+ I G ++ TI
+Sbjct  83   GVLLLRSLLKLLLNNGGPGSMIGLPMNFVALGVFVWGLSYFWKKNQTSKNYILGSVLGTI  142
+
+Query  122  VMTIVLSILNYFVLLPLYGMIFNLADIAN-NLKVIIVSGIIPFNIIKGIVISIVFILLYR  180
+            ++T+ + +LNY   +PLY    N        L   + + ++PFN+++G++ S+ F L+Y 
+Sbjct  143  LLTVAMVVLNYIYAVPLYAKFANFDIAQFIGLYKYLFAMVVPFNLLEGLIFSVAFALIYA  202
+
+Query  181  RLANFLKRI  189
+             L + L ++
+Sbjct  203  PLKSILVKL  211
+
+
+> sp|D8KIE9|RIBU_LACLN Riboflavin transporter RibU OS=Lactococcus 
+lactis subsp. cremoris (strain NZ9000) OX=746361 GN=ribU 
+PE=1 SV=1
+Length=206
+
+ Score = 106 bits (264),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 53/191 (28%), Positives = 100/191 (52%), Gaps = 21/191 (11%)
+
+Query  9    MQQNKRLITISMLSAIAFVLTFIKFPIPFLP--PYLTLDFSDVPSLLATFTFGPVAGIIV  66
+            M + +R++ I+ML+A++ +L       P LP   ++ ++ S +P L+  FT G   G I+
+Sbjct  1    MSKTRRMVLIAMLAALSTILLLPILQFPLLPGIDFMKVELSIIPVLIGVFTLGLGDGFII  60
+
+Query  67   ALVKNLLNYLFSMGDP---VGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIATIVM  123
+              ++++L YL     P   +G   NF+A   F+   +   K K S K+   G+++ATI  
+Sbjct  61   LFIRSVLWYLLFNQGPSTWIGVPMNFVALGIFMAIVWFFTKKKFSIKNYTVGIVLATIAS  120
+
+Query  124  TIVLSILNYFVLLPLYGM---------------IFNLADIANNLK-VIIVSGIIPFNIIK  167
+             +V+ +LN F  LPLY +               +FN+  ++  L    +++ ++PFN ++
+Sbjct  121  VLVMMVLNVFYALPLYRLAAGFDVDKIFAGATHLFNMGSLSVTLNPTYLLTVVLPFNALQ  180
+
+Query  168  GIVISIVFILL  178
+             I+ ++VF L+
+Sbjct  181  YIIFALVFGLI  191
+
+
+> sp|P0CI36|RIBU_LACLM Riboflavin transporter RibU OS=Lactococcus 
+lactis subsp. cremoris (strain MG1363) OX=416870 GN=ribU 
+PE=1 SV=1
+Length=206
+
+ Score = 106 bits (264),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 53/191 (28%), Positives = 100/191 (52%), Gaps = 21/191 (11%)
+
+Query  9    MQQNKRLITISMLSAIAFVLTFIKFPIPFLP--PYLTLDFSDVPSLLATFTFGPVAGIIV  66
+            M + +R++ I+ML+A++ +L       P LP   ++ ++ S +P L+  FT G   G I+
+Sbjct  1    MSKTRRMVLIAMLAALSTILLLPILQFPLLPGIDFMKVELSIIPVLIGVFTLGLGDGFII  60
+
+Query  67   ALVKNLLNYLFSMGDP---VGPFANFLAGASFLLTAYAIYKNKRSTKSLITGLIIATIVM  123
+              ++++L YL     P   +G   NF+A   F+   +   K K S K+   G+++ATI  
+Sbjct  61   LFIRSVLWYLLFNQGPSTWIGVPMNFVALGIFMAIVWFFTKKKFSIKNYTVGIVLATIAS  120
+
+Query  124  TIVLSILNYFVLLPLYGM---------------IFNLADIANNLK-VIIVSGIIPFNIIK  167
+             +V+ +LN F  LPLY +               +FN+  ++  L    +++ ++PFN ++
+Sbjct  121  VLVMMVLNVFYALPLYRLAAGFDVDKIFAGATHLFNMGSLSVTLNPTYLLTVVLPFNALQ  180
+
+Query  168  GIVISIVFILL  178
+             I+ ++VF L+
+Sbjct  181  YIIFALVFGLI  191
+
+
+> sp|Q03WN0|RIBU_LEUMM Riboflavin transporter RibU OS=Leuconostoc 
+mesenteroides subsp. mesenteroides (strain ATCC 8293 / NCDO 
+523) OX=203120 GN=ribU PE=1 SV=1
+Length=196
+
+ Score = 103 bits (258),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 55/189 (29%), Positives = 92/189 (49%), Gaps = 8/189 (4%)
+
+Query  9    MQQNKRLITISMLSAIAFVLT-FIKFPIPFLPPYLTLDFSDVPSLLATFTFGPVAGIIVA  67
+            + + +R   I++LSAI+F L  F + PI     +L LDFS VP ++  +     A + V 
+Sbjct  6    VTRVQRTTLIAILSAISFGLMLFPQVPIIPSADFLKLDFSIVPVVIGLYWLNYSASLWVI  65
+
+Query  68   LVKNLLNYLFSMGDP---VGPFANFLAGASFLLTAYAIYKNKRSTKSL---ITGLIIATI  121
+            L++ LL  + +       +G   N L   +F+        N     +    I  LI +T 
+Sbjct  66   LIRTLLKLILANEGVNTYLGLPVNLLVVLAFITVLKITMPNLEQYSNWQKKILPLISSTF  125
+
+Query  122  VMTIVLSILNYFVLLPLYGMIFNLADIAN-NLKVIIVSGIIPFNIIKGIVISIVFILLYR  180
+            VMTIV  ++N+FV +PLY    N        LK   +  ++PFN+I+GI+  +V +++ R
+Sbjct  126  VMTIVAIVINWFVAIPLYARFANFDIAKFIGLKNYFIGMVLPFNLIEGIIWFVVSMIILR  185
+
+Query  181  RLANFLKRI  189
+             +    +R 
+Sbjct  186  AIQPLQRRF  194
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.144    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0442    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10751884962
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

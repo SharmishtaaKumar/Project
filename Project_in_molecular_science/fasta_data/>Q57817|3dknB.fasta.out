@@ -1,0 +1,2103 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q57817|3dknB
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q57817|SECE_METJA Protein translocase subunit SecE OS=Methan...  150     3e-47
+  sp|Q6LXB7|SECE_METMP Protein translocase subunit SecE OS=Methan...  84.7    2e-21
+  sp|B6YSX5|SECE_THEON Protein translocase subunit SecE OS=Thermo...  49.7    4e-08
+  sp|P58199|SECE_PYRHO Protein translocase subunit SecE OS=Pyroco...  48.9    7e-08
+  sp|Q5JH32|SECE_THEKO Protein translocase subunit SecE OS=Thermo...  48.1    1e-07
+  sp|Q8TX54|SECE_METKA Protein translocase subunit SecE OS=Methan...  45.8    8e-07
+  sp|Q46EU5|SECE_METBF Protein translocase subunit SecE OS=Methan...  42.4    2e-05
+  sp|Q19967|SC61G_CAEEL Protein transport protein Sec61 subunit g...  40.4    7e-05
+  sp|Q7T207|SC61G_HARAN Protein transport protein Sec61 subunit g...  40.4    9e-05
+  sp|Q8TI84|SECE_METAC Protein translocase subunit SecE OS=Methan...  40.0    1e-04
+  sp|Q66KU2|SC61G_XENLA Protein transport protein Sec61 subunit g...  39.7    1e-04
+  sp|Q7SZU9|SC61G_GADMO Protein transport protein Sec61 subunit g...  39.7    2e-04
+  sp|P60060|SC61G_MOUSE Protein transport protein Sec61 subunit g...  39.7    2e-04
+  sp|P60059|SC61G_HUMAN Protein transport protein Sec61 subunit g...  39.7    2e-04
+  sp|P60058|SC61G_CANLF Protein transport protein Sec61 subunit g...  39.7    2e-04
+  sp|Q3T104|SC61G_BOVIN Protein transport protein Sec61 subunit g...  39.7    2e-04
+  sp|Q8PY55|SECE_METMA Protein translocase subunit SecE OS=Methan...  39.7    2e-04
+  sp|Q962X7|SC61G_BRABE Protein transport protein Sec61 subunit g...  39.3    2e-04
+  sp|P35179|SC61G_YEAST Protein transport protein SSS1 OS=Sacchar...  38.9    3e-04
+  sp|Q12UQ2|SECE_METBU Protein translocase subunit SecE OS=Methan...  38.1    5e-04
+  sp|Q09827|SC61G_SCHPO Probable protein transport protein Sec61 ...  37.7    7e-04
+  sp|Q46493|SECE_ACIAM Protein translocase subunit SecE OS=Acidia...  37.4    8e-04
+  sp|Q2NEV8|SECE_METST Protein translocase subunit SecE OS=Methan...  37.4    0.001
+  sp|Q3ITN6|SECE_NATPD Protein translocase subunit SecE OS=Natron...  37.0    0.001
+  sp|Q8I7D9|SC61G_CIOIN Protein transport protein Sec61 subunit g...  36.6    0.002
+  sp|P58198|SECE_AERPE Protein translocase subunit SecE OS=Aeropy...  36.6    0.002
+  sp|O27713|SECE_METTH Protein translocase subunit SecE OS=Methan...  36.2    0.002
+  sp|Q7Z1B8|S61G1_GRYOR Protein transport protein Sec61 subunit g...  36.2    0.002
+  sp|Q971I8|SECE_SULTO Protein translocase subunit SecE OS=Sulfol...  35.8    0.003
+  sp|Q5V456|SECE_HALMA Protein translocase subunit SecE OS=Haloar...  35.8    0.003
+  sp|Q54JV6|SC61G_DICDI Protein transport protein Sec61 subunit g...  35.4    0.004
+  sp|B9LV21|SECE_HALLT Protein translocase subunit SecE OS=Haloru...  35.4    0.004
+  sp|P38385|SC61G_ORYSJ Protein transport protein Sec61 subunit g...  35.0    0.006
+
+
+> sp|Q57817|SECE_METJA Protein translocase subunit SecE OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=secE PE=1 SV=1
+Length=74
+
+ Score = 150 bits (380),  Expect = 3e-47, Method: Compositional matrix adjust.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPAT  60
+           MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPAT
+Sbjct  1   MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPAT  60
+
+Query  61  YIKGILKPPTTPRV  74
+           YIKGILKPPTTPRV
+Sbjct  61  YIKGILKPPTTPRV  74
+
+
+> sp|Q6LXB7|SECE_METMP Protein translocase subunit SecE OS=Methanococcus 
+maripaludis (strain S2 / LL) OX=267377 GN=secE PE=3 
+SV=2
+Length=69
+
+ Score = 84.7 bits (208),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 33/67 (49%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  2   KTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATY  61
+           K+  N  +  LK+F+ +CRRV ++ +KPT+ EY+ ++KVT LGI LLG +G++IHVP TY
+Sbjct  3   KSKLNTTLNGLKDFLHQCRRVLMISRKPTRQEYITISKVTGLGICLLGFVGFVIHVPITY  62
+
+Query  62  IKGILKP  68
+           +K ++KP
+Sbjct  63  LKALIKP  69
+
+
+> sp|B6YSX5|SECE_THEON Protein translocase subunit SecE OS=Thermococcus 
+onnurineus (strain NA1) OX=523850 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 49.7 bits (117),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 25/55 (45%), Positives = 34/55 (62%), Gaps = 0/55 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           E+LK F  E RRV LV KKP   E+   AK+T +G+ L+G+IG +I +    I G
+Sbjct  6   EKLKNFFAELRRVLLVTKKPGWKEFKMAAKITGIGMILIGLIGLVIRMIGYLITG  60
+
+
+> sp|P58199|SECE_PYRHO Protein translocase subunit SecE OS=Pyrococcus 
+horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 
+/ NBRC 100139 / OT-3) OX=70601 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 48.9 bits (115),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 22/55 (40%), Positives = 37/55 (67%), Gaps = 0/55 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           E+++ F +E +RV+LV KKP  +EY   AK+T LGI ++G++G +I +    + G
+Sbjct  6   ERVRNFFKESKRVFLVTKKPGWEEYKKAAKITGLGILVIGLVGMLIRIIGILMLG  60
+
+
+> sp|Q5JH32|SECE_THEKO Protein translocase subunit SecE OS=Thermococcus 
+kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1) 
+OX=69014 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 48.1 bits (113),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 34/55 (62%), Gaps = 0/55 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           E++K F+ E +RV LV KKP   E+   AK+T +G+ L+G IG II +    + G
+Sbjct  6   EKVKSFLAESKRVLLVTKKPGMKEFKLAAKITGIGMILIGTIGMIIRIIGYLVTG  60
+
+
+> sp|Q8TX54|SECE_METKA Protein translocase subunit SecE OS=Methanopyrus 
+kandleri (strain AV19 / DSM 6324 / JCM 9639 / NBRC 
+100938) OX=190192 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 45.8 bits (107),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 21/54 (39%), Positives = 34/54 (63%), Gaps = 0/54 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIK  63
+           E+L   + +C+RV    +KPT DEY+  AK+  LGI ++G +G++I V    I+
+Sbjct  5   EELISLLRDCKRVLRAARKPTWDEYIESAKIAGLGILIVGGVGFLIRVIVQLIE  58
+
+
+> sp|Q46EU5|SECE_METBF Protein translocase subunit SecE OS=Methanosarcina 
+barkeri (strain Fusaro / DSM 804) OX=269797 GN=secE 
+PE=3 SV=1
+Length=71
+
+ Score = 42.4 bits (98),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 23/64 (36%), Positives = 40/64 (63%), Gaps = 2/64 (3%)
+
+Query  1   MKTDFNQKI--EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVP  58
+           +++ F  KI  E + + I    RV  + +KP+++E+L +AKV  +GI  +G IG+II+V 
+Sbjct  2   VESTFEPKITAESVGQVIRAHLRVLKLTRKPSREEFLTIAKVAGVGILAVGAIGFIIYVL  61
+
+Query  59  ATYI  62
+            T +
+Sbjct  62  LTML  65
+
+
+> sp|Q19967|SC61G_CAEEL Protein transport protein Sec61 subunit 
+gamma OS=Caenorhabditis elegans OX=6239 GN=emo-1 PE=2 SV=1
+Length=68
+
+ Score = 40.4 bits (93),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 20/61 (33%), Positives = 34/61 (56%), Gaps = 3/61 (5%)
+
+Query  5   FNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATY  61
+           F   IE  ++F ++  R+     KP + EY  +A  TA+G +++G IG+   +IH+P   
+Sbjct  4   FQALIEPARQFSKDSYRLVKRCTKPDRKEYQKIAMATAIGFAIMGFIGFFVKLIHIPINN  63
+
+Query  62  I  62
+           I
+Sbjct  64  I  64
+
+
+> sp|Q7T207|SC61G_HARAN Protein transport protein Sec61 subunit 
+gamma OS=Harpagifer antarcticus OX=43256 GN=sec61g PE=3 SV=1
+Length=68
+
+ Score = 40.4 bits (93),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 19/59 (32%), Positives = 35/59 (59%), Gaps = 3/59 (5%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           Q +E  ++F+++  R+     KP + E+  VA  TA+G +++G IG+   +IH+P   I
+Sbjct  6   QFVEPSRQFVKDSIRLVKRCTKPDRKEFQKVAMATAIGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|Q8TI84|SECE_METAC Protein translocase subunit SecE OS=Methanosarcina 
+acetivorans (strain ATCC 35395 / DSM 2834 / JCM 12185 
+/ C2A) OX=188937 GN=secE PE=3 SV=1
+Length=71
+
+ Score = 40.0 bits (92),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 34/57 (60%), Gaps = 0/57 (0%)
+
+Query  6   NQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+           N   + + + I    RV  + KKP+++E+L +AKV   GI  +G IG+II+V  T +
+Sbjct  9   NITTKSVGQAIRAHLRVLKLTKKPSREEFLTIAKVAGAGILAVGAIGFIIYVLLTML  65
+
+
+> sp|Q66KU2|SC61G_XENLA Protein transport protein Sec61 subunit 
+gamma OS=Xenopus laevis OX=8355 GN=sec61g PE=3 SV=1
+Length=68
+
+ Score = 39.7 bits (91),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 35/59 (59%), Gaps = 3/59 (5%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P   I
+Sbjct  6   QFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|Q7SZU9|SC61G_GADMO Protein transport protein Sec61 subunit 
+gamma OS=Gadus morhua OX=8049 GN=sec61g PE=3 SV=1
+Length=68
+
+ Score = 39.7 bits (91),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 35/59 (59%), Gaps = 3/59 (5%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P   I
+Sbjct  6   QFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|P60060|SC61G_MOUSE Protein transport protein Sec61 subunit 
+gamma OS=Mus musculus OX=10090 GN=Sec61g PE=3 SV=1
+Length=68
+
+ Score = 39.7 bits (91),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 35/59 (59%), Gaps = 3/59 (5%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P   I
+Sbjct  6   QFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|P60059|SC61G_HUMAN Protein transport protein Sec61 subunit 
+gamma OS=Homo sapiens OX=9606 GN=SEC61G PE=1 SV=1
+Length=68
+
+ Score = 39.7 bits (91),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 35/59 (59%), Gaps = 3/59 (5%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P   I
+Sbjct  6   QFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|P60058|SC61G_CANLF Protein transport protein Sec61 subunit 
+gamma OS=Canis lupus familiaris OX=9615 GN=SEC61G PE=1 SV=1
+Length=68
+
+ Score = 39.7 bits (91),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 35/59 (59%), Gaps = 3/59 (5%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P   I
+Sbjct  6   QFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|Q3T104|SC61G_BOVIN Protein transport protein Sec61 subunit 
+gamma OS=Bos taurus OX=9913 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 39.7 bits (91),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 35/59 (59%), Gaps = 3/59 (5%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P   I
+Sbjct  6   QFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|Q8PY55|SECE_METMA Protein translocase subunit SecE OS=Methanosarcina 
+mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 
+/ JCM 11833 / OCM 88) OX=192952 GN=secE PE=3 SV=1
+Length=71
+
+ Score = 39.7 bits (91),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 34/57 (60%), Gaps = 0/57 (0%)
+
+Query  6   NQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+           N   + + + I    RV  + KKP+++E+L +AKV   GI  +G +G+II+V  T +
+Sbjct  9   NITTKSVGQAIRAHLRVLKLTKKPSREEFLTIAKVAGAGILAVGAVGFIIYVLLTML  65
+
+
+> sp|Q962X7|SC61G_BRABE Protein transport protein Sec61 subunit 
+gamma OS=Branchiostoma belcheri OX=7741 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 39.3 bits (90),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 34/59 (58%), Gaps = 3/59 (5%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           Q +E  ++F ++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P   I
+Sbjct  6   QFVEPARQFAKDSYRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|P35179|SC61G_YEAST Protein transport protein SSS1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSS1 
+PE=1 SV=2
+Length=80
+
+ Score = 38.9 bits (89),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 34/68 (50%), Gaps = 7/68 (10%)
+
+Query  2   KTDFNQKIEQLKE----FIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---I  54
+           K   N ++E+L E    F+ E  +     KKP   EY  + K   +G   +GIIGY   +
+Sbjct  11  KKQSNNQVEKLVEAPVEFVREGTQFLAKCKKPDLKEYTKIVKAVGIGFIAVGIIGYAIKL  70
+
+Query  55  IHVPATYI  62
+           IH+P  Y+
+Sbjct  71  IHIPIRYV  78
+
+
+> sp|Q12UQ2|SECE_METBU Protein translocase subunit SecE OS=Methanococcoides 
+burtonii (strain DSM 6242 / NBRC 107633 / OCM 468 
+/ ACE-M) OX=259564 GN=secE PE=3 SV=1
+Length=69
+
+ Score = 38.1 bits (87),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 20/56 (36%), Positives = 37/56 (66%), Gaps = 5/56 (9%)
+
+Query  6   NQKIEQ-LKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPAT  60
+           N+ + Q LK ++    RV  + KKP+++E+L ++KV   GI ++G +G++I+V  T
+Sbjct  12  NRNVGQVLKSYL----RVLKLSKKPSREEFLMISKVAGAGILVIGFVGFLIYVLLT  63
+
+
+> sp|Q09827|SC61G_SCHPO Probable protein transport protein Sec61 
+subunit gamma OS=Schizosaccharomyces pombe (strain 972 / ATCC 
+24843) OX=284812 GN=sss1 PE=3 SV=1
+Length=70
+
+ Score = 37.7 bits (86),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 28/49 (57%), Gaps = 3/49 (6%)
+
+Query  13  KEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYI---IHVP  58
+           K F +E         KP + E+L+++K  A G  L+G+IGYI   IH+P
+Sbjct  13  KNFYKEGSHFIKRCVKPDRKEFLSISKAVATGFVLMGLIGYIIKLIHIP  61
+
+
+> sp|Q46493|SECE_ACIAM Protein translocase subunit SecE OS=Acidianus 
+ambivalens OX=2283 GN=secE PE=3 SV=1
+Length=58
+
+ Score = 37.4 bits (85),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 34/54 (63%), Gaps = 0/54 (0%)
+
+Query  9   IEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+           +E++K+  E+ +R+  V KKP KD +    KVT + ++ +G++ Y+I +   +I
+Sbjct  4   LERIKKLPEDWKRIITVAKKPDKDTFSMYLKVTLIVMAFVGLLAYLIQLVLAFI  57
+
+
+> sp|Q2NEV8|SECE_METST Protein translocase subunit SecE OS=Methanosphaera 
+stadtmanae (strain ATCC 43021 / DSM 3091 / JCM 11832 
+/ MCB-3) OX=339860 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 37.4 bits (85),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 16/32 (50%), Positives = 22/32 (69%), Gaps = 0/32 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVT  41
+           E +  F+++C RV  + KKP  +EYL VAKVT
+Sbjct  6   ESIHGFLKQCERVLRISKKPDNEEYLTVAKVT  37
+
+
+> sp|Q3ITN6|SECE_NATPD Protein translocase subunit SecE OS=Natronomonas 
+pharaonis (strain ATCC 35678 / DSM 2160 / CIP 103997 
+/ NBRC 14720 / NCIMB 2260 / Gabara) OX=348780 GN=secE PE=3 
+SV=1
+Length=57
+
+ Score = 37.0 bits (84),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 18/44 (41%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  21  RVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           RV  +   PT DE+  VA +  LGI L+G IG++I    T++ G
+Sbjct  12  RVLKLASTPTWDEFSKVATIAGLGILLVGFIGFVIFSIMTFVPG  55
+
+
+> sp|Q8I7D9|SC61G_CIOIN Protein transport protein Sec61 subunit 
+gamma OS=Ciona intestinalis OX=7719 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 36.6 bits (83),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 18/57 (32%), Positives = 33/57 (58%), Gaps = 3/57 (5%)
+
+Query  9   IEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           +E  K+F ++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P   I
+Sbjct  8   VEPGKQFAKDSIRLVKRCTKPDRKEFQKIAVATAIGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|P58198|SECE_AERPE Protein translocase subunit SecE OS=Aeropyrum 
+pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 
+100138 / K1) OX=272557 GN=secE PE=3 SV=2
+Length=60
+
+ Score = 36.6 bits (83),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 31/45 (69%), Gaps = 0/45 (0%)
+
+Query  13  KEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHV  57
+           +E+I   RR+  + +KP ++EY  + K+  LG +L+G IGY+IH+
+Sbjct  8   REYIVAWRRILTLARKPDEEEYSLLLKLNLLGFALVGGIGYLIHL  52
+
+
+> sp|O27713|SECE_METTH Protein translocase subunit SecE OS=Methanothermobacter 
+thermautotrophicus (strain ATCC 29096 / DSM 
+1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=secE 
+PE=3 SV=1
+Length=59
+
+ Score = 36.2 bits (82),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 16/32 (50%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVT  41
+           E +  FI++ +RV  V KKP+++EYL V+KVT
+Sbjct  5   ESILNFIKQSKRVLRVSKKPSREEYLNVSKVT  36
+
+
+> sp|Q7Z1B8|S61G1_GRYOR Protein transport protein Sec61 subunit 
+gamma OS=Gryllotalpa orientalis OX=213494 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 36.2 bits (82),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 18/57 (32%), Positives = 32/57 (56%), Gaps = 3/57 (5%)
+
+Query  9   IEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           IE  ++F ++  R+     KP + E+  +A  TA+G  ++G IG+   +IH+P   I
+Sbjct  8   IEPGRQFAKDSIRLVKRCTKPDRKEFQKIAVATAIGFCIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|Q971I8|SECE_SULTO Protein translocase subunit SecE OS=Sulfolobus 
+tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 
+/ 7) OX=273063 GN=secE PE=3 SV=1
+Length=59
+
+ Score = 35.8 bits (81),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 19/53 (36%), Positives = 31/53 (58%), Gaps = 0/53 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+           ++LK   E+ +R+  V KKP KD      K+T L ++++GII YII +    +
+Sbjct  5   QRLKNLREDWKRIISVAKKPEKDTLNQSIKLTLLVMAIVGIIAYIIQLTVALL  57
+
+
+> sp|Q5V456|SECE_HALMA Protein translocase subunit SecE OS=Haloarcula 
+marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 
+/ VKM B-1809) OX=272569 GN=secE PE=3 SV=1
+Length=59
+
+ Score = 35.8 bits (81),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  21  RVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           RV  +   P+ +E+  +AK+   GI+L+G++G+II    T++ G
+Sbjct  12  RVLKLASTPSWEEFSQIAKIAGAGIALVGLLGFIIFAVMTFVPG  55
+
+
+> sp|Q54JV6|SC61G_DICDI Protein transport protein Sec61 subunit 
+gamma OS=Dictyostelium discoideum OX=44689 GN=sec61g PE=3 SV=1
+Length=69
+
+ Score = 35.4 bits (80),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 30/54 (56%), Gaps = 3/54 (6%)
+
+Query  12  LKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           LK+F +   R++    KP   E+  +A  T +G +++G IG+   +IH+P   I
+Sbjct  11  LKDFAKNSIRLFKKCTKPDAQEFQKIALATLIGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|B9LV21|SECE_HALLT Protein translocase subunit SecE OS=Halorubrum 
+lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 8891 
+/ ACAM 34) OX=416348 GN=secE PE=3 SV=1
+Length=58
+
+ Score = 35.4 bits (80),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 27/45 (60%), Gaps = 0/45 (0%)
+
+Query  21  RVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKGI  65
+           RV  +   P+ DE+L V+K+   GI L+G IG+++    + + G+
+Sbjct  12  RVLKLASTPSTDEFLQVSKIAGAGILLIGFIGFLMFAIMSLLPGV  56
+
+
+> sp|P38385|SC61G_ORYSJ Protein transport protein Sec61 subunit 
+gamma OS=Oryza sativa subsp. japonica OX=39947 GN=Os02g0178400 
+PE=3 SV=1
+Length=69
+
+ Score = 35.0 bits (79),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 14/50 (28%), Positives = 29/50 (58%), Gaps = 0/50 (0%)
+
+Query  6   NQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYII  55
+           +  ++ L+EF ++  R+     KP + E+  VA  TA+G  ++G +G+ +
+Sbjct  5   DSVVDPLREFAKDSVRLVKRCHKPDRKEFTKVAARTAIGFVVMGFVGFFV  54
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.141    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4873072512
+Results from round 2
+
+
+Query= Q57817|3dknB
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q57817|SECE_METJA Protein translocase subunit SecE OS=Methan...  93.9    6e-25
+  sp|Q6LXB7|SECE_METMP Protein translocase subunit SecE OS=Methan...  79.6    2e-19
+  sp|Q19967|SC61G_CAEEL Protein transport protein Sec61 subunit g...  70.0    8e-16
+  sp|Q962X7|SC61G_BRABE Protein transport protein Sec61 subunit g...  68.5    4e-15
+  sp|Q66KU2|SC61G_XENLA Protein transport protein Sec61 subunit g...  66.1    2e-14
+  sp|P60060|SC61G_MOUSE Protein transport protein Sec61 subunit g...  66.1    2e-14
+  sp|P60059|SC61G_HUMAN Protein transport protein Sec61 subunit g...  66.1    2e-14
+  sp|Q7T207|SC61G_HARAN Protein transport protein Sec61 subunit g...  66.1    2e-14
+  sp|P60058|SC61G_CANLF Protein transport protein Sec61 subunit g...  66.1    2e-14
+  sp|Q3T104|SC61G_BOVIN Protein transport protein Sec61 subunit g...  66.1    2e-14
+  sp|Q7SZU9|SC61G_GADMO Protein transport protein Sec61 subunit g...  66.1    3e-14
+  sp|Q8I7D9|SC61G_CIOIN Protein transport protein Sec61 subunit g...  64.2    1e-13
+  sp|Q8TX54|SECE_METKA Protein translocase subunit SecE OS=Methan...  63.4    3e-13
+  sp|Q46EU5|SECE_METBF Protein translocase subunit SecE OS=Methan...  61.5    2e-12
+  sp|B6YSX5|SECE_THEON Protein translocase subunit SecE OS=Thermo...  60.8    2e-12
+  sp|P58199|SECE_PYRHO Protein translocase subunit SecE OS=Pyroco...  60.4    3e-12
+  sp|Q8TI84|SECE_METAC Protein translocase subunit SecE OS=Methan...  60.0    6e-12
+  sp|Q8PY55|SECE_METMA Protein translocase subunit SecE OS=Methan...  58.8    2e-11
+  sp|P35179|SC61G_YEAST Protein transport protein SSS1 OS=Sacchar...  58.8    2e-11
+  sp|Q5JH32|SECE_THEKO Protein translocase subunit SecE OS=Thermo...  56.9    7e-11
+  sp|Q09827|SC61G_SCHPO Probable protein transport protein Sec61 ...  56.9    9e-11
+  sp|Q12UQ2|SECE_METBU Protein translocase subunit SecE OS=Methan...  53.4    1e-09
+  sp|Q3ITN6|SECE_NATPD Protein translocase subunit SecE OS=Natron...  53.4    2e-09
+  sp|Q46493|SECE_ACIAM Protein translocase subunit SecE OS=Acidia...  53.0    2e-09
+  sp|P58198|SECE_AERPE Protein translocase subunit SecE OS=Aeropy...  52.3    4e-09
+  sp|Q2NEV8|SECE_METST Protein translocase subunit SecE OS=Methan...  43.4    6e-06
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q7Z1B8|S61G1_GRYOR Protein transport protein Sec61 subunit g...  64.6    1e-13
+  sp|Q9VWE9|S61G2_DROME Protein transport protein Sec61 gamma-2 s...  60.4    4e-12
+  sp|Q9V668|S61G1_DROME Protein transport protein Sec61 gamma-1 s...  59.6    7e-12
+  sp|P38385|SC61G_ORYSJ Protein transport protein Sec61 subunit g...  58.4    2e-11
+  sp|P0DI75|S61G2_ARATH Protein transport protein Sec61 subunit g...  57.3    6e-11
+  sp|P0DI74|S61G1_ARATH Protein transport protein Sec61 subunit g...  57.3    6e-11
+  sp|O29714|SECE_ARCFU Protein translocase subunit SecE OS=Archae...  56.9    8e-11
+  sp|Q54JV6|SC61G_DICDI Protein transport protein Sec61 subunit g...  56.5    1e-10
+  sp|Q9C2D4|SC61G_NEUCR Probable protein transport protein Sec61 ...  55.0    4e-10
+  sp|Q9SMP2|S61G3_ARATH Protein transport protein Sec61 subunit g...  54.6    6e-10
+  sp|Q5V456|SECE_HALMA Protein translocase subunit SecE OS=Haloar...  52.7    2e-09
+  sp|Q9V2S5|SECE_HALMT Protein translocase subunit SecE OS=Halofe...  51.5    6e-09
+  sp|B9LV21|SECE_HALLT Protein translocase subunit SecE OS=Haloru...  49.6    4e-08
+  sp|Q9HS72|SECE_HALSA Protein translocase subunit SecE OS=Haloba...  48.4    1e-07
+  sp|B0R382|SECE_HALS3 Protein translocase subunit SecE OS=Haloba...  48.4    1e-07
+  sp|Q18KS3|SECE_HALWD Protein translocase subunit SecE OS=Haloqu...  48.0    1e-07
+  sp|Q971I8|SECE_SULTO Protein translocase subunit SecE OS=Sulfol...  43.0    8e-06
+  sp|A4YH85|SECE_METS5 Protein translocase subunit SecE OS=Metall...  40.7    5e-05
+  sp|P27340|SECE_SULAC Protein translocase subunit SecE OS=Sulfol...  39.9    1e-04
+  sp|Q9V2S1|SECE_PYRAB Protein translocase subunit SecE OS=Pyroco...  38.0    5e-04
+  sp|O27713|SECE_METTH Protein translocase subunit SecE OS=Methan...  38.0    6e-04
+  sp|Q8SRW9|SC61G_ENCCU Probable protein transport protein Sec61 ...  36.1    0.003
+  sp|A5UKV2|SECE_METS3 Protein translocase subunit SecE OS=Methan...  35.3    0.005
+
+
+> sp|Q57817|SECE_METJA Protein translocase subunit SecE OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=secE PE=1 SV=1
+Length=74
+
+ Score = 93.9 bits (232),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPAT  60
+           MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPAT
+Sbjct  1   MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPAT  60
+
+Query  61  YIKGILKPPTTPRV  74
+           YIKGILKPPTTPRV
+Sbjct  61  YIKGILKPPTTPRV  74
+
+
+> sp|Q6LXB7|SECE_METMP Protein translocase subunit SecE OS=Methanococcus 
+maripaludis (strain S2 / LL) OX=267377 GN=secE PE=3 
+SV=2
+Length=69
+
+ Score = 79.6 bits (195),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 33/67 (49%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  2   KTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATY  61
+           K+  N  +  LK+F+ +CRRV ++ +KPT+ EY+ ++KVT LGI LLG +G++IHVP TY
+Sbjct  3   KSKLNTTLNGLKDFLHQCRRVLMISRKPTRQEYITISKVTGLGICLLGFVGFVIHVPITY  62
+
+Query  62  IKGILKP  68
+           +K ++KP
+Sbjct  63  LKALIKP  69
+
+
+> sp|Q19967|SC61G_CAEEL Protein transport protein Sec61 subunit 
+gamma OS=Caenorhabditis elegans OX=6239 GN=emo-1 PE=2 SV=1
+Length=68
+
+ Score = 70.0 bits (170),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 34/62 (55%), Gaps = 3/62 (5%)
+
+Query  4   DFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPAT  60
+            F   IE  ++F ++  R+     KP + EY  +A  TA+G +++G IG+   +IH+P  
+Sbjct  3   QFQALIEPARQFSKDSYRLVKRCTKPDRKEYQKIAMATAIGFAIMGFIGFFVKLIHIPIN  62
+
+Query  61  YI  62
+            I
+Sbjct  63  NI  64
+
+
+> sp|Q962X7|SC61G_BRABE Protein transport protein Sec61 subunit 
+gamma OS=Branchiostoma belcheri OX=7741 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 68.5 bits (166),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 34/62 (55%), Gaps = 3/62 (5%)
+
+Query  4   DFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPAT  60
+              Q +E  ++F ++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P  
+Sbjct  3   QLVQFVEPARQFAKDSYRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPIN  62
+
+Query  61  YI  62
+            I
+Sbjct  63  NI  64
+
+
+> sp|Q66KU2|SC61G_XENLA Protein transport protein Sec61 subunit 
+gamma OS=Xenopus laevis OX=8355 GN=sec61g PE=3 SV=1
+Length=68
+
+ Score = 66.1 bits (160),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 35/62 (56%), Gaps = 3/62 (5%)
+
+Query  4   DFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPAT  60
+              Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P  
+Sbjct  3   QVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPIN  62
+
+Query  61  YI  62
+            I
+Sbjct  63  NI  64
+
+
+> sp|P60060|SC61G_MOUSE Protein transport protein Sec61 subunit 
+gamma OS=Mus musculus OX=10090 GN=Sec61g PE=3 SV=1
+Length=68
+
+ Score = 66.1 bits (160),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 35/62 (56%), Gaps = 3/62 (5%)
+
+Query  4   DFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPAT  60
+              Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P  
+Sbjct  3   QVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPIN  62
+
+Query  61  YI  62
+            I
+Sbjct  63  NI  64
+
+
+> sp|P60059|SC61G_HUMAN Protein transport protein Sec61 subunit 
+gamma OS=Homo sapiens OX=9606 GN=SEC61G PE=1 SV=1
+Length=68
+
+ Score = 66.1 bits (160),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 35/62 (56%), Gaps = 3/62 (5%)
+
+Query  4   DFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPAT  60
+              Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P  
+Sbjct  3   QVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPIN  62
+
+Query  61  YI  62
+            I
+Sbjct  63  NI  64
+
+
+> sp|Q7T207|SC61G_HARAN Protein transport protein Sec61 subunit 
+gamma OS=Harpagifer antarcticus OX=43256 GN=sec61g PE=3 SV=1
+Length=68
+
+ Score = 66.1 bits (160),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 19/62 (31%), Positives = 35/62 (56%), Gaps = 3/62 (5%)
+
+Query  4   DFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPAT  60
+              Q +E  ++F+++  R+     KP + E+  VA  TA+G +++G IG+   +IH+P  
+Sbjct  3   QVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKVAMATAIGFAIMGFIGFFVKLIHIPIN  62
+
+Query  61  YI  62
+            I
+Sbjct  63  NI  64
+
+
+> sp|P60058|SC61G_CANLF Protein transport protein Sec61 subunit 
+gamma OS=Canis lupus familiaris OX=9615 GN=SEC61G PE=1 SV=1
+Length=68
+
+ Score = 66.1 bits (160),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 35/62 (56%), Gaps = 3/62 (5%)
+
+Query  4   DFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPAT  60
+              Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P  
+Sbjct  3   QVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPIN  62
+
+Query  61  YI  62
+            I
+Sbjct  63  NI  64
+
+
+> sp|Q3T104|SC61G_BOVIN Protein transport protein Sec61 subunit 
+gamma OS=Bos taurus OX=9913 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 66.1 bits (160),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 35/62 (56%), Gaps = 3/62 (5%)
+
+Query  4   DFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPAT  60
+              Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P  
+Sbjct  3   QVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPIN  62
+
+Query  61  YI  62
+            I
+Sbjct  63  NI  64
+
+
+> sp|Q7SZU9|SC61G_GADMO Protein transport protein Sec61 subunit 
+gamma OS=Gadus morhua OX=8049 GN=sec61g PE=3 SV=1
+Length=68
+
+ Score = 66.1 bits (160),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 35/62 (56%), Gaps = 3/62 (5%)
+
+Query  4   DFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPAT  60
+              Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P  
+Sbjct  3   QIMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPIN  62
+
+Query  61  YI  62
+            I
+Sbjct  63  NI  64
+
+
+> sp|Q7Z1B8|S61G1_GRYOR Protein transport protein Sec61 subunit 
+gamma OS=Gryllotalpa orientalis OX=213494 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 64.6 bits (156),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 33/62 (53%), Gaps = 3/62 (5%)
+
+Query  4   DFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPAT  60
+              + IE  ++F ++  R+     KP + E+  +A  TA+G  ++G IG+   +IH+P  
+Sbjct  3   QVTKFIEPGRQFAKDSIRLVKRCTKPDRKEFQKIAVATAIGFCIMGFIGFFVKLIHIPIN  62
+
+Query  61  YI  62
+            I
+Sbjct  63  NI  64
+
+
+> sp|Q8I7D9|SC61G_CIOIN Protein transport protein Sec61 subunit 
+gamma OS=Ciona intestinalis OX=7719 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 64.2 bits (155),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 18/57 (32%), Positives = 33/57 (58%), Gaps = 3/57 (5%)
+
+Query  9   IEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           +E  K+F ++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P   I
+Sbjct  8   VEPGKQFAKDSIRLVKRCTKPDRKEFQKIAVATAIGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|Q8TX54|SECE_METKA Protein translocase subunit SecE OS=Methanopyrus 
+kandleri (strain AV19 / DSM 6324 / JCM 9639 / NBRC 
+100938) OX=190192 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 63.4 bits (153),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 21/56 (38%), Positives = 34/56 (61%), Gaps = 0/56 (0%)
+
+Query  8   KIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIK  63
+             E+L   + +C+RV    +KPT DEY+  AK+  LGI ++G +G++I V    I+
+Sbjct  3   TYEELISLLRDCKRVLRAARKPTWDEYIESAKIAGLGILIVGGVGFLIRVIVQLIE  58
+
+
+> sp|Q46EU5|SECE_METBF Protein translocase subunit SecE OS=Methanosarcina 
+barkeri (strain Fusaro / DSM 804) OX=269797 GN=secE 
+PE=3 SV=1
+Length=71
+
+ Score = 61.5 bits (148),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 40/65 (62%), Gaps = 2/65 (3%)
+
+Query  1   MKTDFNQKI--EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVP  58
+           +++ F  KI  E + + I    RV  + +KP+++E+L +AKV  +GI  +G IG+II+V 
+Sbjct  2   VESTFEPKITAESVGQVIRAHLRVLKLTRKPSREEFLTIAKVAGVGILAVGAIGFIIYVL  61
+
+Query  59  ATYIK  63
+            T + 
+Sbjct  62  LTMLP  66
+
+
+> sp|B6YSX5|SECE_THEON Protein translocase subunit SecE OS=Thermococcus 
+onnurineus (strain NA1) OX=523850 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 60.8 bits (146),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 25/58 (43%), Positives = 34/58 (59%), Gaps = 0/58 (0%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+              E+LK F  E RRV LV KKP   E+   AK+T +G+ L+G+IG +I +    I G
+Sbjct  3   TTTEKLKNFFAELRRVLLVTKKPGWKEFKMAAKITGIGMILIGLIGLVIRMIGYLITG  60
+
+
+> sp|P58199|SECE_PYRHO Protein translocase subunit SecE OS=Pyrococcus 
+horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 
+/ NBRC 100139 / OT-3) OX=70601 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 60.4 bits (145),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 22/55 (40%), Positives = 37/55 (67%), Gaps = 0/55 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           E+++ F +E +RV+LV KKP  +EY   AK+T LGI ++G++G +I +    + G
+Sbjct  6   ERVRNFFKESKRVFLVTKKPGWEEYKKAAKITGLGILVIGLVGMLIRIIGILMLG  60
+
+
+> sp|Q9VWE9|S61G2_DROME Protein transport protein Sec61 gamma-2 
+subunit OS=Drosophila melanogaster OX=7227 GN=Sec61gamma PE=3 
+SV=1
+Length=68
+
+ Score = 60.4 bits (145),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 17/59 (29%), Positives = 31/59 (53%), Gaps = 3/59 (5%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           +  E  + F ++  R+     KP + E+  +A  TA+G  ++G IG+   +IH+P   I
+Sbjct  6   KFAEPGRAFAKDSIRLVKRCTKPDRKEFQKIAIATAVGFCIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|Q8TI84|SECE_METAC Protein translocase subunit SecE OS=Methanosarcina 
+acetivorans (strain ATCC 35395 / DSM 2834 / JCM 12185 
+/ C2A) OX=188937 GN=secE PE=3 SV=1
+Length=71
+
+ Score = 60.0 bits (144),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 22/65 (34%), Positives = 38/65 (58%), Gaps = 2/65 (3%)
+
+Query  1   MKTDFNQKI--EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVP  58
+           +++ F   I  + + + I    RV  + KKP+++E+L +AKV   GI  +G IG+II+V 
+Sbjct  2   VESTFEPNITTKSVGQAIRAHLRVLKLTKKPSREEFLTIAKVAGAGILAVGAIGFIIYVL  61
+
+Query  59  ATYIK  63
+            T + 
+Sbjct  62  LTMLP  66
+
+
+> sp|Q9V668|S61G1_DROME Protein transport protein Sec61 gamma-1 
+subunit OS=Drosophila melanogaster OX=7227 GN=SEC61G1 PE=3 
+SV=1
+Length=68
+
+ Score = 59.6 bits (143),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 17/59 (29%), Positives = 32/59 (54%), Gaps = 3/59 (5%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           +  E  + F ++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P   I
+Sbjct  6   KFAEPGRAFAKDSIRLVKRCTKPDRKEFQKIAIATAVGFAIMGFIGFFVKLIHIPINNI  64
+
+
+> sp|Q8PY55|SECE_METMA Protein translocase subunit SecE OS=Methanosarcina 
+mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 
+/ JCM 11833 / OCM 88) OX=192952 GN=secE PE=3 SV=1
+Length=71
+
+ Score = 58.8 bits (141),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 34/58 (59%), Gaps = 0/58 (0%)
+
+Query  6   NQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIK  63
+           N   + + + I    RV  + KKP+++E+L +AKV   GI  +G +G+II+V  T + 
+Sbjct  9   NITTKSVGQAIRAHLRVLKLTKKPSREEFLTIAKVAGAGILAVGAVGFIIYVLLTMLP  66
+
+
+> sp|P35179|SC61G_YEAST Protein transport protein SSS1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSS1 
+PE=1 SV=2
+Length=80
+
+ Score = 58.8 bits (141),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 23/68 (34%), Positives = 34/68 (50%), Gaps = 7/68 (10%)
+
+Query  2   KTDFNQKIEQLKE----FIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---I  54
+           K   N ++E+L E    F+ E  +     KKP   EY  + K   +G   +GIIGY   +
+Sbjct  11  KKQSNNQVEKLVEAPVEFVREGTQFLAKCKKPDLKEYTKIVKAVGIGFIAVGIIGYAIKL  70
+
+Query  55  IHVPATYI  62
+           IH+P  Y+
+Sbjct  71  IHIPIRYV  78
+
+
+> sp|P38385|SC61G_ORYSJ Protein transport protein Sec61 subunit 
+gamma OS=Oryza sativa subsp. japonica OX=39947 GN=Os02g0178400 
+PE=3 SV=1
+Length=69
+
+ Score = 58.4 bits (140),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 32/57 (56%), Gaps = 3/57 (5%)
+
+Query  9   IEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           ++ L+EF ++  R+     KP + E+  VA  TA+G  ++G +G+   +I +P   I
+Sbjct  8   VDPLREFAKDSVRLVKRCHKPDRKEFTKVAARTAIGFVVMGFVGFFVKLIFIPINNI  64
+
+
+> sp|P0DI75|S61G2_ARATH Protein transport protein Sec61 subunit 
+gamma-2 OS=Arabidopsis thaliana OX=3702 GN=SEC61G2 PE=1 SV=1
+Length=69
+
+ Score = 57.3 bits (137),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 16/57 (28%), Positives = 32/57 (56%), Gaps = 3/57 (5%)
+
+Query  9   IEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           ++ L++F ++  R+     KP + E+  VA  TA+G  ++G +G+   +I +P   I
+Sbjct  8   VDPLRDFAKDSIRLVKRCHKPDRKEFTKVAVRTAIGFVVMGFVGFFVKLIFIPINNI  64
+
+
+> sp|P0DI74|S61G1_ARATH Protein transport protein Sec61 subunit 
+gamma-1 OS=Arabidopsis thaliana OX=3702 GN=SEC61G1 PE=1 SV=1
+Length=69
+
+ Score = 57.3 bits (137),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 16/57 (28%), Positives = 32/57 (56%), Gaps = 3/57 (5%)
+
+Query  9   IEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           ++ L++F ++  R+     KP + E+  VA  TA+G  ++G +G+   +I +P   I
+Sbjct  8   VDPLRDFAKDSIRLVKRCHKPDRKEFTKVAVRTAIGFVVMGFVGFFVKLIFIPINNI  64
+
+
+> sp|Q5JH32|SECE_THEKO Protein translocase subunit SecE OS=Thermococcus 
+kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1) 
+OX=69014 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 56.9 bits (136),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 23/58 (40%), Positives = 35/58 (60%), Gaps = 0/58 (0%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           +  E++K F+ E +RV LV KKP   E+   AK+T +G+ L+G IG II +    + G
+Sbjct  3   EFTEKVKSFLAESKRVLLVTKKPGMKEFKLAAKITGIGMILIGTIGMIIRIIGYLVTG  60
+
+
+> sp|O29714|SECE_ARCFU Protein translocase subunit SecE OS=Archaeoglobus 
+fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 
+9628 / NBRC 100126) OX=224325 GN=secE PE=3 SV=1
+Length=66
+
+ Score = 56.9 bits (136),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 15/60 (25%), Positives = 34/60 (57%), Gaps = 0/60 (0%)
+
+Query  8   KIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKGILK  67
+           +I +++  ++E   V  + +KP  +E+   AKV    + ++G +G++I++    + G LK
+Sbjct  7   QINEVQSKLKEYYNVLKMARKPDWEEFSMTAKVALAVMFIVGFVGFVIYILMEILPGALK  66
+
+
+> sp|Q09827|SC61G_SCHPO Probable protein transport protein Sec61 
+subunit gamma OS=Schizosaccharomyces pombe (strain 972 / ATCC 
+24843) OX=284812 GN=sss1 PE=3 SV=1
+Length=70
+
+ Score = 56.9 bits (136),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 18/53 (34%), Positives = 29/53 (55%), Gaps = 3/53 (6%)
+
+Query  13  KEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           K F +E         KP + E+L+++K  A G  L+G+IGY   +IH+P   +
+Sbjct  13  KNFYKEGSHFIKRCVKPDRKEFLSISKAVATGFVLMGLIGYIIKLIHIPINKV  65
+
+
+> sp|Q54JV6|SC61G_DICDI Protein transport protein Sec61 subunit 
+gamma OS=Dictyostelium discoideum OX=44689 GN=sec61g PE=3 SV=1
+Length=69
+
+ Score = 56.5 bits (135),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 17/61 (28%), Positives = 31/61 (51%), Gaps = 3/61 (5%)
+
+Query  5   FNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATY  61
+             +    LK+F +   R++    KP   E+  +A  T +G +++G IG+   +IH+P   
+Sbjct  4   LEETAAPLKDFAKNSIRLFKKCTKPDAQEFQKIALATLIGFAIMGFIGFFVKLIHIPINN  63
+
+Query  62  I  62
+           I
+Sbjct  64  I  64
+
+
+> sp|Q9C2D4|SC61G_NEUCR Probable protein transport protein Sec61 
+subunit gamma OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A 
+/ CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=9G6.310 
+PE=3 SV=2
+Length=70
+
+ Score = 55.0 bits (131),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 13/65 (20%), Positives = 34/65 (52%), Gaps = 3/65 (5%)
+
+Query  1   MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHV  57
+           M     + ++  +EF+++  +     +KP + E++ +++    G  ++G +GY   +IH+
+Sbjct  1   MADQIQEILDVPREFLKDGIQFIKKCQKPDRREFIKISQAVGTGFLIMGAVGYLVKLIHI  60
+
+Query  58  PATYI  62
+           P   +
+Sbjct  61  PLNQV  65
+
+
+> sp|Q9SMP2|S61G3_ARATH Protein transport protein Sec61 subunit 
+gamma-3 OS=Arabidopsis thaliana OX=3702 GN=SEC61G3 PE=1 SV=1
+Length=69
+
+ Score = 54.6 bits (130),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 16/57 (28%), Positives = 31/57 (54%), Gaps = 3/57 (5%)
+
+Query  9   IEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           I+ L++F +   R+     KP + E+  VA  TA+G  ++G +G+   ++ +P   I
+Sbjct  8   IDPLRDFAKSSVRLVQRCHKPDRKEFTKVAVRTAIGFVVMGFVGFFVKLVFIPINNI  64
+
+
+> sp|Q12UQ2|SECE_METBU Protein translocase subunit SecE OS=Methanococcoides 
+burtonii (strain DSM 6242 / NBRC 107633 / OCM 468 
+/ ACE-M) OX=259564 GN=secE PE=3 SV=1
+Length=69
+
+ Score = 53.4 bits (127),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 34/52 (65%), Gaps = 0/52 (0%)
+
+Query  12  LKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIK  63
+           + + ++   RV  + KKP+++E+L ++KV   GI ++G +G++I+V  T + 
+Sbjct  15  VGQVLKSYLRVLKLSKKPSREEFLMISKVAGAGILVIGFVGFLIYVLLTEVP  66
+
+
+> sp|Q3ITN6|SECE_NATPD Protein translocase subunit SecE OS=Natronomonas 
+pharaonis (strain ATCC 35678 / DSM 2160 / CIP 103997 
+/ NBRC 14720 / NCIMB 2260 / Gabara) OX=348780 GN=secE PE=3 
+SV=1
+Length=57
+
+ Score = 53.4 bits (127),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 18/44 (41%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  21  RVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           RV  +   PT DE+  VA +  LGI L+G IG++I    T++ G
+Sbjct  12  RVLKLASTPTWDEFSKVATIAGLGILLVGFIGFVIFSIMTFVPG  55
+
+
+> sp|Q46493|SECE_ACIAM Protein translocase subunit SecE OS=Acidianus 
+ambivalens OX=2283 GN=secE PE=3 SV=1
+Length=58
+
+ Score = 53.0 bits (126),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 17/56 (30%), Positives = 34/56 (61%), Gaps = 0/56 (0%)
+
+Query  7   QKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+             +E++K+  E+ +R+  V KKP KD +    KVT + ++ +G++ Y+I +   +I
+Sbjct  2   NLLERIKKLPEDWKRIITVAKKPDKDTFSMYLKVTLIVMAFVGLLAYLIQLVLAFI  57
+
+
+> sp|Q5V456|SECE_HALMA Protein translocase subunit SecE OS=Haloarcula 
+marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 
+/ VKM B-1809) OX=272569 GN=secE PE=3 SV=1
+Length=59
+
+ Score = 52.7 bits (125),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 15/44 (34%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  21  RVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           RV  +   P+ +E+  +AK+   GI+L+G++G+II    T++ G
+Sbjct  12  RVLKLASTPSWEEFSQIAKIAGAGIALVGLLGFIIFAVMTFVPG  55
+
+
+> sp|P58198|SECE_AERPE Protein translocase subunit SecE OS=Aeropyrum 
+pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 
+100138 / K1) OX=272557 GN=secE PE=3 SV=2
+Length=60
+
+ Score = 52.3 bits (124),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  9   IEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHV  57
+           ++  +E+I   RR+  + +KP ++EY  + K+  LG +L+G IGY+IH+
+Sbjct  4   VDIAREYIVAWRRILTLARKPDEEEYSLLLKLNLLGFALVGGIGYLIHL  52
+
+
+> sp|Q9V2S5|SECE_HALMT Protein translocase subunit SecE OS=Haloferax 
+mediterranei (strain ATCC 33500 / DSM 1411 / JCM 8866 
+/ NBRC 14739 / NCIMB 2177 / R-4) OX=523841 GN=secE PE=3 SV=1
+Length=57
+
+ Score = 51.5 bits (122),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 13/44 (30%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  21  RVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           RV  +   P+  E+  ++K+   GI L+G++G+II    +++ G
+Sbjct  12  RVLKLASTPSWQEFSQISKIAGAGIFLVGLLGFIIFAVMSFLPG  55
+
+
+> sp|B9LV21|SECE_HALLT Protein translocase subunit SecE OS=Halorubrum 
+lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 8891 
+/ ACAM 34) OX=416348 GN=secE PE=3 SV=1
+Length=58
+
+ Score = 49.6 bits (117),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 28/50 (56%), Gaps = 0/50 (0%)
+
+Query  16  IEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKGI  65
+           +    RV  +   P+ DE+L V+K+   GI L+G IG+++    + + G+
+Sbjct  7   LNSYIRVLKLASTPSTDEFLQVSKIAGAGILLIGFIGFLMFAIMSLLPGV  56
+
+
+> sp|Q9HS72|SECE_HALSA Protein translocase subunit SecE OS=Halobacterium 
+salinarum (strain ATCC 700922 / JCM 11081 / NRC-1) 
+OX=64091 GN=secE PE=3 SV=1
+Length=57
+
+ Score = 48.4 bits (114),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 13/51 (25%), Positives = 27/51 (53%), Gaps = 0/51 (0%)
+
+Query  16  IEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKGIL  66
+           +    RV  +   P+ +E+  +AK+   GI L+G IG+++ +    I  ++
+Sbjct  7   LSAYTRVLRLASTPSWEEFSQIAKIAGAGILLIGAIGFLVFLIMGGIVSVI  57
+
+
+> sp|B0R382|SECE_HALS3 Protein translocase subunit SecE OS=Halobacterium 
+salinarum (strain ATCC 29341 / DSM 671 / R1) OX=478009 
+GN=secE PE=3 SV=1
+Length=57
+
+ Score = 48.4 bits (114),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 13/51 (25%), Positives = 27/51 (53%), Gaps = 0/51 (0%)
+
+Query  16  IEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKGIL  66
+           +    RV  +   P+ +E+  +AK+   GI L+G IG+++ +    I  ++
+Sbjct  7   LSAYTRVLRLASTPSWEEFSQIAKIAGAGILLIGAIGFLVFLIMGGIVSVI  57
+
+
+> sp|Q18KS3|SECE_HALWD Protein translocase subunit SecE OS=Haloquadratum 
+walsbyi (strain DSM 16790 / HBSQ001) OX=362976 GN=secE 
+PE=3 SV=1
+Length=57
+
+ Score = 48.0 bits (113),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 11/44 (25%), Positives = 22/44 (50%), Gaps = 0/44 (0%)
+
+Query  21  RVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           RV  +   P+ +E+  +  +   GI  +G +G++I    T + G
+Sbjct  12  RVLKLASTPSWNEFSQIGLIAGAGIVFVGFLGFLIFAIMTLLPG  55
+
+
+> sp|Q2NEV8|SECE_METST Protein translocase subunit SecE OS=Methanosphaera 
+stadtmanae (strain ATCC 43021 / DSM 3091 / JCM 11832 
+/ MCB-3) OX=339860 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 43.4 bits (101),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 17/37 (46%), Positives = 23/37 (62%), Gaps = 0/37 (0%)
+
+Query  5   FNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVT  41
+            N   E +  F+++C RV  + KKP  +EYL VAKVT
+Sbjct  1   MNINKESIHGFLKQCERVLRISKKPDNEEYLTVAKVT  37
+
+
+> sp|Q971I8|SECE_SULTO Protein translocase subunit SecE OS=Sulfolobus 
+tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 
+/ 7) OX=273063 GN=secE PE=3 SV=1
+Length=59
+
+ Score = 43.0 bits (100),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 19/53 (36%), Positives = 31/53 (58%), Gaps = 0/53 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+           ++LK   E+ +R+  V KKP KD      K+T L ++++GII YII +    +
+Sbjct  5   QRLKNLREDWKRIISVAKKPEKDTLNQSIKLTLLVMAIVGIIAYIIQLTVALL  57
+
+
+> sp|A4YH85|SECE_METS5 Protein translocase subunit SecE OS=Metallosphaera 
+sedula (strain ATCC 51363 / DSM 5348 / JCM 9185 / 
+NBRC 15509 / TH2) OX=399549 GN=secE PE=3 SV=1
+Length=59
+
+ Score = 40.7 bits (94),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 12/55 (22%), Positives = 32/55 (58%), Gaps = 0/55 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           +++K+  E+ +R+  V KKP K  +    +VT + +  +G++ +++ +  + + G
+Sbjct  5   DRIKKLREDWKRIISVAKKPDKSMFYLNLRVTLIVLLFVGLLAFLVQLAFSILLG  59
+
+
+> sp|P27340|SECE_SULAC Protein translocase subunit SecE OS=Sulfolobus 
+acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 
+/ NBRC 15157 / NCIMB 11770) OX=330779 GN=secE PE=3 SV=1
+Length=65
+
+ Score = 39.9 bits (92),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 31/51 (61%), Gaps = 0/51 (0%)
+
+Query  12  LKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+           +K   E+ +R+  V KKP KD +    ++T L ++++G+I YI+ +  + I
+Sbjct  13  IKRLREDWKRIISVAKKPDKDSFNYSIRLTLLVMAVVGLIAYIVQLTTSLI  63
+
+
+> sp|Q9V2S1|SECE_PYRAB Protein translocase subunit SecE OS=Pyrococcus 
+abyssi (strain GE5 / Orsay) OX=272844 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 38.0 bits (87),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 13/30 (43%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAK  39
+           E+++ F++E +RV+LV +KP  +EY   AK
+Sbjct  6   ERIRNFLKESKRVFLVTRKPGWEEYKKAAK  35
+
+
+> sp|O27713|SECE_METTH Protein translocase subunit SecE OS=Methanothermobacter 
+thermautotrophicus (strain ATCC 29096 / DSM 
+1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=secE 
+PE=3 SV=1
+Length=59
+
+ Score = 38.0 bits (87),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 16/32 (50%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVT  41
+           E +  FI++ +RV  V KKP+++EYL V+KVT
+Sbjct  5   ESILNFIKQSKRVLRVSKKPSREEYLNVSKVT  36
+
+
+> sp|Q8SRW9|SC61G_ENCCU Probable protein transport protein Sec61 
+subunit gamma OS=Encephalitozoon cuniculi (strain GB-M1) OX=284813 
+GN=ECU05_0885 PE=3 SV=1
+Length=72
+
+ Score = 36.1 bits (82),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 26/54 (48%), Gaps = 3/54 (6%)
+
+Query  12  LKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           L E++   R       +P+  E     K  A+GI  LGI+GY   +IH+P   I
+Sbjct  11  LSEYLRSIRLFSKKCVRPSGKELSMSIKRHAIGIGFLGILGYAIKLIHIPINNI  64
+
+
+> sp|A5UKV2|SECE_METS3 Protein translocase subunit SecE OS=Methanobrevibacter 
+smithii (strain ATCC 35061 / DSM 861 / OCM 144 
+/ PS) OX=420247 GN=secE PE=3 SV=1
+Length=59
+
+ Score = 35.3 bits (80),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 21/53 (40%), Positives = 37/53 (70%), Gaps = 0/53 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+           E+  + I++C+RV  V +KP K EYL  +K+ A+GI+++G++G+II +    I
+Sbjct  5   ERFDKTIKDCKRVLKVSRKPDKQEYLEFSKIVAIGIAIIGVVGFIIVLIGELI  57
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.143    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0433    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4873072512
+Results from round 3
+
+
+Query= Q57817|3dknB
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q57817|SECE_METJA Protein translocase subunit SecE OS=Methan...  93.5    9e-25
+  sp|Q6LXB7|SECE_METMP Protein translocase subunit SecE OS=Methan...  80.8    5e-20
+  sp|Q19967|SC61G_CAEEL Protein transport protein Sec61 subunit g...  76.2    3e-18
+  sp|Q962X7|SC61G_BRABE Protein transport protein Sec61 subunit g...  75.8    5e-18
+  sp|Q7Z1B8|S61G1_GRYOR Protein transport protein Sec61 subunit g...  74.2    2e-17
+  sp|P60060|SC61G_MOUSE Protein transport protein Sec61 subunit g...  74.2    2e-17
+  sp|P60059|SC61G_HUMAN Protein transport protein Sec61 subunit g...  74.2    2e-17
+  sp|P60058|SC61G_CANLF Protein transport protein Sec61 subunit g...  74.2    2e-17
+  sp|Q3T104|SC61G_BOVIN Protein transport protein Sec61 subunit g...  74.2    2e-17
+  sp|Q7T207|SC61G_HARAN Protein transport protein Sec61 subunit g...  74.2    2e-17
+  sp|Q66KU2|SC61G_XENLA Protein transport protein Sec61 subunit g...  73.8    2e-17
+  sp|Q7SZU9|SC61G_GADMO Protein transport protein Sec61 subunit g...  73.8    3e-17
+  sp|Q8I7D9|SC61G_CIOIN Protein transport protein Sec61 subunit g...  72.7    9e-17
+  sp|O29714|SECE_ARCFU Protein translocase subunit SecE OS=Archae...  70.8    4e-16
+  sp|Q9C2D4|SC61G_NEUCR Probable protein transport protein Sec61 ...  69.6    1e-15
+  sp|P38385|SC61G_ORYSJ Protein transport protein Sec61 subunit g...  69.6    1e-15
+  sp|Q9VWE9|S61G2_DROME Protein transport protein Sec61 gamma-2 s...  69.6    1e-15
+  sp|P0DI75|S61G2_ARATH Protein transport protein Sec61 subunit g...  68.4    3e-15
+  sp|P0DI74|S61G1_ARATH Protein transport protein Sec61 subunit g...  68.4    3e-15
+  sp|Q9V668|S61G1_DROME Protein transport protein Sec61 gamma-1 s...  68.4    3e-15
+  sp|Q8TX54|SECE_METKA Protein translocase subunit SecE OS=Methan...  66.9    1e-14
+  sp|Q54JV6|SC61G_DICDI Protein transport protein Sec61 subunit g...  66.9    1e-14
+  sp|P58199|SECE_PYRHO Protein translocase subunit SecE OS=Pyroco...  65.4    4e-14
+  sp|Q9SMP2|S61G3_ARATH Protein transport protein Sec61 subunit g...  65.4    5e-14
+  sp|Q9V2S5|SECE_HALMT Protein translocase subunit SecE OS=Halofe...  64.2    1e-13
+  sp|Q46EU5|SECE_METBF Protein translocase subunit SecE OS=Methan...  64.2    1e-13
+  sp|Q09827|SC61G_SCHPO Probable protein transport protein Sec61 ...  64.2    1e-13
+  sp|Q8TI84|SECE_METAC Protein translocase subunit SecE OS=Methan...  64.2    1e-13
+  sp|Q5V456|SECE_HALMA Protein translocase subunit SecE OS=Haloar...  63.4    2e-13
+  sp|Q8PY55|SECE_METMA Protein translocase subunit SecE OS=Methan...  63.4    3e-13
+  sp|B6YSX5|SECE_THEON Protein translocase subunit SecE OS=Thermo...  63.1    3e-13
+  sp|B9LV21|SECE_HALLT Protein translocase subunit SecE OS=Haloru...  62.3    5e-13
+  sp|Q12UQ2|SECE_METBU Protein translocase subunit SecE OS=Methan...  61.5    2e-12
+  sp|Q3ITN6|SECE_NATPD Protein translocase subunit SecE OS=Natron...  61.1    2e-12
+  sp|Q18KS3|SECE_HALWD Protein translocase subunit SecE OS=Haloqu...  60.7    2e-12
+  sp|P35179|SC61G_YEAST Protein transport protein SSS1 OS=Sacchar...  60.4    5e-12
+  sp|Q5JH32|SECE_THEKO Protein translocase subunit SecE OS=Thermo...  59.6    7e-12
+  sp|Q46493|SECE_ACIAM Protein translocase subunit SecE OS=Acidia...  59.2    8e-12
+  sp|Q9HS72|SECE_HALSA Protein translocase subunit SecE OS=Haloba...  58.8    1e-11
+  sp|B0R382|SECE_HALS3 Protein translocase subunit SecE OS=Haloba...  58.8    1e-11
+  sp|A4YH85|SECE_METS5 Protein translocase subunit SecE OS=Metall...  58.0    2e-11
+  sp|Q971I8|SECE_SULTO Protein translocase subunit SecE OS=Sulfol...  57.3    4e-11
+  sp|P58198|SECE_AERPE Protein translocase subunit SecE OS=Aeropy...  55.7    2e-10
+  sp|P27340|SECE_SULAC Protein translocase subunit SecE OS=Sulfol...  55.4    3e-10
+  sp|Q2NEV8|SECE_METST Protein translocase subunit SecE OS=Methan...  41.9    2e-05
+  sp|O27713|SECE_METTH Protein translocase subunit SecE OS=Methan...  41.5    3e-05
+  sp|Q9V2S1|SECE_PYRAB Protein translocase subunit SecE OS=Pyroco...  41.5    3e-05
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P58191|SECE_SULSO Protein translocase subunit SecE OS=Sulfol...  40.3    8e-05
+  sp|Q8SRW9|SC61G_ENCCU Probable protein transport protein Sec61 ...  38.8    3e-04
+  sp|A5UKV2|SECE_METS3 Protein translocase subunit SecE OS=Methan...  37.2    8e-04
+
+
+> sp|Q57817|SECE_METJA Protein translocase subunit SecE OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=secE PE=1 SV=1
+Length=74
+
+ Score = 93.5 bits (231),  Expect = 9e-25, Method: Composition-based stats.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPAT  60
+           MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPAT
+Sbjct  1   MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPAT  60
+
+Query  61  YIKGILKPPTTPRV  74
+           YIKGILKPPTTPRV
+Sbjct  61  YIKGILKPPTTPRV  74
+
+
+> sp|Q6LXB7|SECE_METMP Protein translocase subunit SecE OS=Methanococcus 
+maripaludis (strain S2 / LL) OX=267377 GN=secE PE=3 
+SV=2
+Length=69
+
+ Score = 80.8 bits (198),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 33/67 (49%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  2   KTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATY  61
+           K+  N  +  LK+F+ +CRRV ++ +KPT+ EY+ ++KVT LGI LLG +G++IHVP TY
+Sbjct  3   KSKLNTTLNGLKDFLHQCRRVLMISRKPTRQEYITISKVTGLGICLLGFVGFVIHVPITY  62
+
+Query  62  IKGILKP  68
+           +K ++KP
+Sbjct  63  LKALIKP  69
+
+
+> sp|Q19967|SC61G_CAEEL Protein transport protein Sec61 subunit 
+gamma OS=Caenorhabditis elegans OX=6239 GN=emo-1 PE=2 SV=1
+Length=68
+
+ Score = 76.2 bits (186),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 20/63 (32%), Positives = 34/63 (54%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+             F   IE  ++F ++  R+     KP + EY  +A  TA+G +++G IG+   +IH+P 
+Sbjct  2   DQFQALIEPARQFSKDSYRLVKRCTKPDRKEYQKIAMATAIGFAIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|Q962X7|SC61G_BRABE Protein transport protein Sec61 subunit 
+gamma OS=Branchiostoma belcheri OX=7741 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 75.8 bits (185),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 34/63 (54%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               Q +E  ++F ++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P 
+Sbjct  2   DQLVQFVEPARQFAKDSYRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|Q7Z1B8|S61G1_GRYOR Protein transport protein Sec61 subunit 
+gamma OS=Gryllotalpa orientalis OX=213494 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 74.2 bits (181),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 33/63 (52%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               + IE  ++F ++  R+     KP + E+  +A  TA+G  ++G IG+   +IH+P 
+Sbjct  2   DQVTKFIEPGRQFAKDSIRLVKRCTKPDRKEFQKIAVATAIGFCIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|P60060|SC61G_MOUSE Protein transport protein Sec61 subunit 
+gamma OS=Mus musculus OX=10090 GN=Sec61g PE=3 SV=1
+Length=68
+
+ Score = 74.2 bits (181),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P 
+Sbjct  2   DQVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|P60059|SC61G_HUMAN Protein transport protein Sec61 subunit 
+gamma OS=Homo sapiens OX=9606 GN=SEC61G PE=1 SV=1
+Length=68
+
+ Score = 74.2 bits (181),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P 
+Sbjct  2   DQVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|P60058|SC61G_CANLF Protein transport protein Sec61 subunit 
+gamma OS=Canis lupus familiaris OX=9615 GN=SEC61G PE=1 SV=1
+Length=68
+
+ Score = 74.2 bits (181),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P 
+Sbjct  2   DQVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|Q3T104|SC61G_BOVIN Protein transport protein Sec61 subunit 
+gamma OS=Bos taurus OX=9913 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 74.2 bits (181),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P 
+Sbjct  2   DQVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|Q7T207|SC61G_HARAN Protein transport protein Sec61 subunit 
+gamma OS=Harpagifer antarcticus OX=43256 GN=sec61g PE=3 SV=1
+Length=68
+
+ Score = 74.2 bits (181),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 19/63 (30%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               Q +E  ++F+++  R+     KP + E+  VA  TA+G +++G IG+   +IH+P 
+Sbjct  2   DQVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKVAMATAIGFAIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|Q66KU2|SC61G_XENLA Protein transport protein Sec61 subunit 
+gamma OS=Xenopus laevis OX=8355 GN=sec61g PE=3 SV=1
+Length=68
+
+ Score = 73.8 bits (180),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P 
+Sbjct  2   DQVMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|Q7SZU9|SC61G_GADMO Protein transport protein Sec61 subunit 
+gamma OS=Gadus morhua OX=8049 GN=sec61g PE=3 SV=1
+Length=68
+
+ Score = 73.8 bits (180),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               Q +E  ++F+++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P 
+Sbjct  2   DQIMQFVEPSRQFVKDSIRLVKRCTKPDRKEFQKIAMATAIGFAIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|Q8I7D9|SC61G_CIOIN Protein transport protein Sec61 subunit 
+gamma OS=Ciona intestinalis OX=7719 GN=SEC61G PE=3 SV=1
+Length=68
+
+ Score = 72.7 bits (177),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 33/63 (52%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+                 +E  K+F ++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P 
+Sbjct  2   DQVMAWVEPGKQFAKDSIRLVKRCTKPDRKEFQKIAVATAIGFAIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|O29714|SECE_ARCFU Protein translocase subunit SecE OS=Archaeoglobus 
+fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 
+9628 / NBRC 100126) OX=224325 GN=secE PE=3 SV=1
+Length=66
+
+ Score = 70.8 bits (172),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 15/60 (25%), Positives = 34/60 (57%), Gaps = 0/60 (0%)
+
+Query  8   KIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKGILK  67
+           +I +++  ++E   V  + +KP  +E+   AKV    + ++G +G++I++    + G LK
+Sbjct  7   QINEVQSKLKEYYNVLKMARKPDWEEFSMTAKVALAVMFIVGFVGFVIYILMEILPGALK  66
+
+
+> sp|Q9C2D4|SC61G_NEUCR Probable protein transport protein Sec61 
+subunit gamma OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A 
+/ CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=9G6.310 
+PE=3 SV=2
+Length=70
+
+ Score = 69.6 bits (169),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 13/66 (20%), Positives = 34/66 (52%), Gaps = 3/66 (5%)
+
+Query  1   MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHV  57
+           M     + ++  +EF+++  +     +KP + E++ +++    G  ++G +GY   +IH+
+Sbjct  1   MADQIQEILDVPREFLKDGIQFIKKCQKPDRREFIKISQAVGTGFLIMGAVGYLVKLIHI  60
+
+Query  58  PATYIK  63
+           P   + 
+Sbjct  61  PLNQVL  66
+
+
+> sp|P38385|SC61G_ORYSJ Protein transport protein Sec61 subunit 
+gamma OS=Oryza sativa subsp. japonica OX=39947 GN=Os02g0178400 
+PE=3 SV=1
+Length=69
+
+ Score = 69.6 bits (169),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 17/63 (27%), Positives = 33/63 (52%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+              +  ++ L+EF ++  R+     KP + E+  VA  TA+G  ++G +G+   +I +P 
+Sbjct  2   DAVDSVVDPLREFAKDSVRLVKRCHKPDRKEFTKVAARTAIGFVVMGFVGFFVKLIFIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|Q9VWE9|S61G2_DROME Protein transport protein Sec61 gamma-2 
+subunit OS=Drosophila melanogaster OX=7227 GN=Sec61gamma PE=3 
+SV=1
+Length=68
+
+ Score = 69.6 bits (169),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 17/63 (27%), Positives = 31/63 (49%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               +  E  + F ++  R+     KP + E+  +A  TA+G  ++G IG+   +IH+P 
+Sbjct  2   DKVVKFAEPGRAFAKDSIRLVKRCTKPDRKEFQKIAIATAVGFCIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|P0DI75|S61G2_ARATH Protein transport protein Sec61 subunit 
+gamma-2 OS=Arabidopsis thaliana OX=3702 GN=SEC61G2 PE=1 SV=1
+Length=69
+
+ Score = 68.4 bits (166),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 16/63 (25%), Positives = 33/63 (52%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+              +  ++ L++F ++  R+     KP + E+  VA  TA+G  ++G +G+   +I +P 
+Sbjct  2   DAIDSVVDPLRDFAKDSIRLVKRCHKPDRKEFTKVAVRTAIGFVVMGFVGFFVKLIFIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|P0DI74|S61G1_ARATH Protein transport protein Sec61 subunit 
+gamma-1 OS=Arabidopsis thaliana OX=3702 GN=SEC61G1 PE=1 SV=1
+Length=69
+
+ Score = 68.4 bits (166),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 16/63 (25%), Positives = 33/63 (52%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+              +  ++ L++F ++  R+     KP + E+  VA  TA+G  ++G +G+   +I +P 
+Sbjct  2   DAIDSVVDPLRDFAKDSIRLVKRCHKPDRKEFTKVAVRTAIGFVVMGFVGFFVKLIFIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|Q9V668|S61G1_DROME Protein transport protein Sec61 gamma-1 
+subunit OS=Drosophila melanogaster OX=7227 GN=SEC61G1 PE=3 
+SV=1
+Length=68
+
+ Score = 68.4 bits (166),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 17/63 (27%), Positives = 32/63 (51%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               +  E  + F ++  R+     KP + E+  +A  TA+G +++G IG+   +IH+P 
+Sbjct  2   DKVVKFAEPGRAFAKDSIRLVKRCTKPDRKEFQKIAIATAVGFAIMGFIGFFVKLIHIPI  61
+
+Query  60  TYI  62
+             I
+Sbjct  62  NNI  64
+
+
+> sp|Q8TX54|SECE_METKA Protein translocase subunit SecE OS=Methanopyrus 
+kandleri (strain AV19 / DSM 6324 / JCM 9639 / NBRC 
+100938) OX=190192 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 66.9 bits (162),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 21/58 (36%), Positives = 34/58 (59%), Gaps = 0/58 (0%)
+
+Query  6   NQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIK  63
+               E+L   + +C+RV    +KPT DEY+  AK+  LGI ++G +G++I V    I+
+Sbjct  1   MSTYEELISLLRDCKRVLRAARKPTWDEYIESAKIAGLGILIVGGVGFLIRVIVQLIE  58
+
+
+> sp|Q54JV6|SC61G_DICDI Protein transport protein Sec61 subunit 
+gamma OS=Dictyostelium discoideum OX=44689 GN=sec61g PE=3 SV=1
+Length=69
+
+ Score = 66.9 bits (162),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 17/62 (27%), Positives = 31/62 (50%), Gaps = 3/62 (5%)
+
+Query  5   FNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATY  61
+             +    LK+F +   R++    KP   E+  +A  T +G +++G IG+   +IH+P   
+Sbjct  4   LEETAAPLKDFAKNSIRLFKKCTKPDAQEFQKIALATLIGFAIMGFIGFFVKLIHIPINN  63
+
+Query  62  IK  63
+           I 
+Sbjct  64  IL  65
+
+
+> sp|P58199|SECE_PYRHO Protein translocase subunit SecE OS=Pyrococcus 
+horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 
+/ NBRC 100139 / OT-3) OX=70601 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 65.4 bits (158),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 22/60 (37%), Positives = 38/60 (63%), Gaps = 0/60 (0%)
+
+Query  5   FNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+             +  E+++ F +E +RV+LV KKP  +EY   AK+T LGI ++G++G +I +    + G
+Sbjct  1   MPEFQERVRNFFKESKRVFLVTKKPGWEEYKKAAKITGLGILVIGLVGMLIRIIGILMLG  60
+
+
+> sp|Q9SMP2|S61G3_ARATH Protein transport protein Sec61 subunit 
+gamma-3 OS=Arabidopsis thaliana OX=3702 GN=SEC61G3 PE=1 SV=1
+Length=69
+
+ Score = 65.4 bits (158),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 16/61 (26%), Positives = 32/61 (52%), Gaps = 3/61 (5%)
+
+Query  5   FNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATY  61
+            +  I+ L++F +   R+     KP + E+  VA  TA+G  ++G +G+   ++ +P   
+Sbjct  4   IDSAIDPLRDFAKSSVRLVQRCHKPDRKEFTKVAVRTAIGFVVMGFVGFFVKLVFIPINN  63
+
+Query  62  I  62
+           I
+Sbjct  64  I  64
+
+
+> sp|Q9V2S5|SECE_HALMT Protein translocase subunit SecE OS=Haloferax 
+mediterranei (strain ATCC 33500 / DSM 1411 / JCM 8866 
+/ NBRC 14739 / NCIMB 2177 / R-4) OX=523841 GN=secE PE=3 SV=1
+Length=57
+
+ Score = 64.2 bits (155),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 13/49 (27%), Positives = 27/49 (55%), Gaps = 0/49 (0%)
+
+Query  16  IEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           +    RV  +   P+  E+  ++K+   GI L+G++G+II    +++ G
+Sbjct  7   LNSYVRVLKLASTPSWQEFSQISKIAGAGIFLVGLLGFIIFAVMSFLPG  55
+
+
+> sp|Q46EU5|SECE_METBF Protein translocase subunit SecE OS=Methanosarcina 
+barkeri (strain Fusaro / DSM 804) OX=269797 GN=secE 
+PE=3 SV=1
+Length=71
+
+ Score = 64.2 bits (155),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 40/65 (62%), Gaps = 2/65 (3%)
+
+Query  1   MKTDFNQKI--EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVP  58
+           +++ F  KI  E + + I    RV  + +KP+++E+L +AKV  +GI  +G IG+II+V 
+Sbjct  2   VESTFEPKITAESVGQVIRAHLRVLKLTRKPSREEFLTIAKVAGVGILAVGAIGFIIYVL  61
+
+Query  59  ATYIK  63
+            T + 
+Sbjct  62  LTMLP  66
+
+
+> sp|Q09827|SC61G_SCHPO Probable protein transport protein Sec61 
+subunit gamma OS=Schizosaccharomyces pombe (strain 972 / ATCC 
+24843) OX=284812 GN=sss1 PE=3 SV=1
+Length=70
+
+ Score = 64.2 bits (155),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 19/66 (29%), Positives = 33/66 (50%), Gaps = 3/66 (5%)
+
+Query  1   MKTDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHV  57
+           M  + +   +  K F +E         KP + E+L+++K  A G  L+G+IGY   +IH+
+Sbjct  1   MADNADDLFQIPKNFYKEGSHFIKRCVKPDRKEFLSISKAVATGFVLMGLIGYIIKLIHI  60
+
+Query  58  PATYIK  63
+           P   + 
+Sbjct  61  PINKVL  66
+
+
+> sp|Q8TI84|SECE_METAC Protein translocase subunit SecE OS=Methanosarcina 
+acetivorans (strain ATCC 35395 / DSM 2834 / JCM 12185 
+/ C2A) OX=188937 GN=secE PE=3 SV=1
+Length=71
+
+ Score = 64.2 bits (155),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 21/58 (36%), Positives = 34/58 (59%), Gaps = 0/58 (0%)
+
+Query  6   NQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIK  63
+           N   + + + I    RV  + KKP+++E+L +AKV   GI  +G IG+II+V  T + 
+Sbjct  9   NITTKSVGQAIRAHLRVLKLTKKPSREEFLTIAKVAGAGILAVGAIGFIIYVLLTMLP  66
+
+
+> sp|Q5V456|SECE_HALMA Protein translocase subunit SecE OS=Haloarcula 
+marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 
+/ VKM B-1809) OX=272569 GN=secE PE=3 SV=1
+Length=59
+
+ Score = 63.4 bits (153),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 29/49 (59%), Gaps = 0/49 (0%)
+
+Query  16  IEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           +    RV  +   P+ +E+  +AK+   GI+L+G++G+II    T++ G
+Sbjct  7   LTSYIRVLKLASTPSWEEFSQIAKIAGAGIALVGLLGFIIFAVMTFVPG  55
+
+
+> sp|Q8PY55|SECE_METMA Protein translocase subunit SecE OS=Methanosarcina 
+mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 
+/ JCM 11833 / OCM 88) OX=192952 GN=secE PE=3 SV=1
+Length=71
+
+ Score = 63.4 bits (153),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 34/58 (59%), Gaps = 0/58 (0%)
+
+Query  6   NQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIK  63
+           N   + + + I    RV  + KKP+++E+L +AKV   GI  +G +G+II+V  T + 
+Sbjct  9   NITTKSVGQAIRAHLRVLKLTKKPSREEFLTIAKVAGAGILAVGAVGFIIYVLLTMLP  66
+
+
+> sp|B6YSX5|SECE_THEON Protein translocase subunit SecE OS=Thermococcus 
+onnurineus (strain NA1) OX=523850 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 63.1 bits (152),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 34/61 (56%), Gaps = 0/61 (0%)
+
+Query  5   FNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+                E+LK F  E RRV LV KKP   E+   AK+T +G+ L+G+IG +I +    I G
+Sbjct  1   MATTTEKLKNFFAELRRVLLVTKKPGWKEFKMAAKITGIGMILIGLIGLVIRMIGYLITG  60
+
+Query  65  I  65
+            
+Sbjct  61  A  61
+
+
+> sp|B9LV21|SECE_HALLT Protein translocase subunit SecE OS=Halorubrum 
+lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 8891 
+/ ACAM 34) OX=416348 GN=secE PE=3 SV=1
+Length=58
+
+ Score = 62.3 bits (150),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 28/50 (56%), Gaps = 0/50 (0%)
+
+Query  16  IEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKGI  65
+           +    RV  +   P+ DE+L V+K+   GI L+G IG+++    + + G+
+Sbjct  7   LNSYIRVLKLASTPSTDEFLQVSKIAGAGILLIGFIGFLMFAIMSLLPGV  56
+
+
+> sp|Q12UQ2|SECE_METBU Protein translocase subunit SecE OS=Methanococcoides 
+burtonii (strain DSM 6242 / NBRC 107633 / OCM 468 
+/ ACE-M) OX=259564 GN=secE PE=3 SV=1
+Length=69
+
+ Score = 61.5 bits (148),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 34/52 (65%), Gaps = 0/52 (0%)
+
+Query  12  LKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIK  63
+           + + ++   RV  + KKP+++E+L ++KV   GI ++G +G++I+V  T + 
+Sbjct  15  VGQVLKSYLRVLKLSKKPSREEFLMISKVAGAGILVIGFVGFLIYVLLTEVP  66
+
+
+> sp|Q3ITN6|SECE_NATPD Protein translocase subunit SecE OS=Natronomonas 
+pharaonis (strain ATCC 35678 / DSM 2160 / CIP 103997 
+/ NBRC 14720 / NCIMB 2260 / Gabara) OX=348780 GN=secE PE=3 
+SV=1
+Length=57
+
+ Score = 61.1 bits (147),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 27/49 (55%), Gaps = 0/49 (0%)
+
+Query  16  IEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           +    RV  +   PT DE+  VA +  LGI L+G IG++I    T++ G
+Sbjct  7   LTSYIRVLKLASTPTWDEFSKVATIAGLGILLVGFIGFVIFSIMTFVPG  55
+
+
+> sp|Q18KS3|SECE_HALWD Protein translocase subunit SecE OS=Haloquadratum 
+walsbyi (strain DSM 16790 / HBSQ001) OX=362976 GN=secE 
+PE=3 SV=1
+Length=57
+
+ Score = 60.7 bits (146),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 11/49 (22%), Positives = 23/49 (47%), Gaps = 0/49 (0%)
+
+Query  16  IEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+           +    RV  +   P+ +E+  +  +   GI  +G +G++I    T + G
+Sbjct  7   LSSYVRVLKLASTPSWNEFSQIGLIAGAGIVFVGFLGFLIFAIMTLLPG  55
+
+
+> sp|P35179|SC61G_YEAST Protein transport protein SSS1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSS1 
+PE=1 SV=2
+Length=80
+
+ Score = 60.4 bits (145),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 20/63 (32%), Positives = 30/63 (48%), Gaps = 3/63 (5%)
+
+Query  3   TDFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPA  59
+               + +E   EF+ E  +     KKP   EY  + K   +G   +GIIGY   +IH+P 
+Sbjct  16  NQVEKLVEAPVEFVREGTQFLAKCKKPDLKEYTKIVKAVGIGFIAVGIIGYAIKLIHIPI  75
+
+Query  60  TYI  62
+            Y+
+Sbjct  76  RYV  78
+
+
+> sp|Q5JH32|SECE_THEKO Protein translocase subunit SecE OS=Thermococcus 
+kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1) 
+OX=69014 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 59.6 bits (143),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 35/60 (58%), Gaps = 0/60 (0%)
+
+Query  5   FNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+             +  E++K F+ E +RV LV KKP   E+   AK+T +G+ L+G IG II +    + G
+Sbjct  1   MAEFTEKVKSFLAESKRVLLVTKKPGMKEFKLAAKITGIGMILIGTIGMIIRIIGYLVTG  60
+
+
+> sp|Q46493|SECE_ACIAM Protein translocase subunit SecE OS=Acidianus 
+ambivalens OX=2283 GN=secE PE=3 SV=1
+Length=58
+
+ Score = 59.2 bits (142),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 34/57 (60%), Gaps = 0/57 (0%)
+
+Query  6   NQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+              +E++K+  E+ +R+  V KKP KD +    KVT + ++ +G++ Y+I +   +I
+Sbjct  1   MNLLERIKKLPEDWKRIITVAKKPDKDTFSMYLKVTLIVMAFVGLLAYLIQLVLAFI  57
+
+
+> sp|Q9HS72|SECE_HALSA Protein translocase subunit SecE OS=Halobacterium 
+salinarum (strain ATCC 700922 / JCM 11081 / NRC-1) 
+OX=64091 GN=secE PE=3 SV=1
+Length=57
+
+ Score = 58.8 bits (141),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 13/51 (25%), Positives = 27/51 (53%), Gaps = 0/51 (0%)
+
+Query  16  IEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKGIL  66
+           +    RV  +   P+ +E+  +AK+   GI L+G IG+++ +    I  ++
+Sbjct  7   LSAYTRVLRLASTPSWEEFSQIAKIAGAGILLIGAIGFLVFLIMGGIVSVI  57
+
+
+> sp|B0R382|SECE_HALS3 Protein translocase subunit SecE OS=Halobacterium 
+salinarum (strain ATCC 29341 / DSM 671 / R1) OX=478009 
+GN=secE PE=3 SV=1
+Length=57
+
+ Score = 58.8 bits (141),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 13/51 (25%), Positives = 27/51 (53%), Gaps = 0/51 (0%)
+
+Query  16  IEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKGIL  66
+           +    RV  +   P+ +E+  +AK+   GI L+G IG+++ +    I  ++
+Sbjct  7   LSAYTRVLRLASTPSWEEFSQIAKIAGAGILLIGAIGFLVFLIMGGIVSVI  57
+
+
+> sp|A4YH85|SECE_METS5 Protein translocase subunit SecE OS=Metallosphaera 
+sedula (strain ATCC 51363 / DSM 5348 / JCM 9185 / 
+NBRC 15509 / TH2) OX=399549 GN=secE PE=3 SV=1
+Length=59
+
+ Score = 58.0 bits (139),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 12/57 (21%), Positives = 32/57 (56%), Gaps = 0/57 (0%)
+
+Query  8   KIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIKG  64
+             +++K+  E+ +R+  V KKP K  +    +VT + +  +G++ +++ +  + + G
+Sbjct  3   LADRIKKLREDWKRIISVAKKPDKSMFYLNLRVTLIVLLFVGLLAFLVQLAFSILLG  59
+
+
+> sp|Q971I8|SECE_SULTO Protein translocase subunit SecE OS=Sulfolobus 
+tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 
+/ 7) OX=273063 GN=secE PE=3 SV=1
+Length=59
+
+ Score = 57.3 bits (137),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 19/54 (35%), Positives = 31/54 (57%), Gaps = 0/54 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYIK  63
+           ++LK   E+ +R+  V KKP KD      K+T L ++++GII YII +    + 
+Sbjct  5   QRLKNLREDWKRIISVAKKPEKDTLNQSIKLTLLVMAIVGIIAYIIQLTVALLL  58
+
+
+> sp|P58198|SECE_AERPE Protein translocase subunit SecE OS=Aeropyrum 
+pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 
+100138 / K1) OX=272557 GN=secE PE=3 SV=2
+Length=60
+
+ Score = 55.7 bits (133),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 18/50 (36%), Positives = 33/50 (66%), Gaps = 0/50 (0%)
+
+Query  8   KIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHV  57
+            ++  +E+I   RR+  + +KP ++EY  + K+  LG +L+G IGY+IH+
+Sbjct  3   IVDIAREYIVAWRRILTLARKPDEEEYSLLLKLNLLGFALVGGIGYLIHL  52
+
+
+> sp|P27340|SECE_SULAC Protein translocase subunit SecE OS=Sulfolobus 
+acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 
+/ NBRC 15157 / NCIMB 11770) OX=330779 GN=secE PE=3 SV=1
+Length=65
+
+ Score = 55.4 bits (132),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 16/59 (27%), Positives = 33/59 (56%), Gaps = 0/59 (0%)
+
+Query  4   DFNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+              +  + +K   E+ +R+  V KKP KD +    ++T L ++++G+I YI+ +  + I
+Sbjct  5   SIMKISDIIKRLREDWKRIISVAKKPDKDSFNYSIRLTLLVMAVVGLIAYIVQLTTSLI  63
+
+
+> sp|Q2NEV8|SECE_METST Protein translocase subunit SecE OS=Methanosphaera 
+stadtmanae (strain ATCC 43021 / DSM 3091 / JCM 11832 
+/ MCB-3) OX=339860 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 41.9 bits (97),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/45 (44%), Positives = 29/45 (64%), Gaps = 0/45 (0%)
+
+Query  5   FNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLG  49
+            N   E +  F+++C RV  + KKP  +EYL VAKVT +GI ++G
+Sbjct  1   MNINKESIHGFLKQCERVLRISKKPDNEEYLTVAKVTGVGIIIIG  45
+
+
+> sp|O27713|SECE_METTH Protein translocase subunit SecE OS=Methanothermobacter 
+thermautotrophicus (strain ATCC 29096 / DSM 
+1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=secE 
+PE=3 SV=1
+Length=59
+
+ Score = 41.5 bits (96),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 16/32 (50%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVT  41
+           E +  FI++ +RV  V KKP+++EYL V+KVT
+Sbjct  5   ESILNFIKQSKRVLRVSKKPSREEYLNVSKVT  36
+
+
+> sp|Q9V2S1|SECE_PYRAB Protein translocase subunit SecE OS=Pyrococcus 
+abyssi (strain GE5 / Orsay) OX=272844 GN=secE PE=3 SV=1
+Length=61
+
+ Score = 41.5 bits (96),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  5   FNQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAK  39
+             +  E+++ F++E +RV+LV +KP  +EY   AK
+Sbjct  1   MPELQERIRNFLKESKRVFLVTRKPGWEEYKKAAK  35
+
+
+> sp|P58191|SECE_SULSO Protein translocase subunit SecE OS=Sulfolobus 
+solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 
+/ P2) OX=273057 GN=secE PE=3 SV=1
+Length=62
+
+ Score = 40.3 bits (93),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 32/57 (56%), Gaps = 0/57 (0%)
+
+Query  6   NQKIEQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+           N+ I   +   E+  R+  V +KP ++ +    KVT L ++++G++ YII +  T I
+Sbjct  4   NKIINWFRRLREDWNRIITVARKPDRNFFSLNLKVTLLVLAVVGVLAYIIQLALTLI  60
+
+
+> sp|Q8SRW9|SC61G_ENCCU Probable protein transport protein Sec61 
+subunit gamma OS=Encephalitozoon cuniculi (strain GB-M1) OX=284813 
+GN=ECU05_0885 PE=3 SV=1
+Length=72
+
+ Score = 38.8 bits (89),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 26/54 (48%), Gaps = 3/54 (6%)
+
+Query  12  LKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGY---IIHVPATYI  62
+           L E++   R       +P+  E     K  A+GI  LGI+GY   +IH+P   I
+Sbjct  11  LSEYLRSIRLFSKKCVRPSGKELSMSIKRHAIGIGFLGILGYAIKLIHIPINNI  64
+
+
+> sp|A5UKV2|SECE_METS3 Protein translocase subunit SecE OS=Methanobrevibacter 
+smithii (strain ATCC 35061 / DSM 861 / OCM 144 
+/ PS) OX=420247 GN=secE PE=3 SV=1
+Length=59
+
+ Score = 37.2 bits (85),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 21/53 (40%), Positives = 37/53 (70%), Gaps = 0/53 (0%)
+
+Query  10  EQLKEFIEECRRVWLVLKKPTKDEYLAVAKVTALGISLLGIIGYIIHVPATYI  62
+           E+  + I++C+RV  V +KP K EYL  +K+ A+GI+++G++G+II +    I
+Sbjct  5   ERFDKTIKDCKRVLKVSRKPDKQEYLEFSKIVAIGIAIIGVVGFIIVLIGELI  57
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.144    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0445    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4873072512
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

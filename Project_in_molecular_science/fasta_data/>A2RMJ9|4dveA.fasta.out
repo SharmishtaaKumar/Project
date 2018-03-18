@@ -1,0 +1,904 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= A2RMJ9|4dveA
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|A2RMJ9|BIOY_LACLM Biotin transporter BioY OS=Lactococcus lac...  363     1e-127
+  sp|Q2KBP7|BIOY_RHIEC Biotin transporter BioY OS=Rhizobium etli ...  105     1e-26 
+  sp|D5ARG8|BIOY_RHOCB Biotin transporter BioY OS=Rhodobacter cap...  87.4    6e-20 
+  sp|O07620|BIOY_BACSU Probable biotin transporter BioY OS=Bacill...  83.6    2e-18 
+  sp|O83256|BIOY_TREPA Probable biotin transporter BioY OS=Trepon...  66.6    3e-12 
+  sp|O57898|BIOY_PYRHO Probable biotin transporter BioY OS=Pyroco...  65.1    3e-12 
+  sp|Q9WZQ6|BIOY_THEMA Biotin transporter BioY OS=Thermotoga mari...  62.8    2e-11 
+  sp|A2RI45|BIOY2_LACLM Biotin transporter BioY2 OS=Lactococcus l...  62.4    3e-11 
+  sp|P22819|BIOY_LYSSH Probable biotin transporter BioY OS=Lysini...  51.2    5e-07 
+  sp|Q9ZDK4|BIOY_RICPR Probable biotin transporter BioY OS=Ricket...  42.4    8e-04 
+
+
+> sp|A2RMJ9|BIOY_LACLM Biotin transporter BioY OS=Lactococcus lactis 
+subsp. cremoris (strain MG1363) OX=416870 GN=bioY PE=1 
+SV=1
+Length=189
+
+ Score = 363 bits (933),  Expect = 1e-127, Method: Compositional matrix adjust.
+ Identities = 189/189 (100%), Positives = 189/189 (100%), Gaps = 0/189 (0%)
+
+Query  1    MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+            MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS
+Sbjct  1    MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+
+Query  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG  120
+            VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG
+Sbjct  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG  120
+
+Query  121  ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRKQ  180
+            ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRKQ
+Sbjct  121  ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRKQ  180
+
+Query  181  GGFELYFRK  189
+            GGFELYFRK
+Sbjct  181  GGFELYFRK  189
+
+
+> sp|Q2KBP7|BIOY_RHIEC Biotin transporter BioY OS=Rhizobium etli 
+(strain CFN 42 / ATCC 51251) OX=347834 GN=bioY PE=1 SV=1
+Length=187
+
+ Score = 105 bits (262),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 61/175 (35%), Positives = 101/175 (58%), Gaps = 5/175 (3%)
+
+Query  5    QKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAF  64
+               + L  +A   A I+ LG LP I +GFIPVPI  Q++G+MMAG +LG + G I+V   
+Sbjct  1    MSTRDLVLTALFAAIIVALGLLPPISLGFIPVPITAQSLGVMMAGVVLGARRGAIAVLIV  60
+
+Query  65   LALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELI-  123
+            L L  IGLPVL+GG GG A F  P+ G+ + W+F  F+ G+  ++L +   Q+   + + 
+Sbjct  61   LLLVAIGLPVLSGGRGGLAIFASPTAGFLVGWIFGAFVTGYLSERL-VNHGQSGLVQTVS  119
+
+Query  124  ---IVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVR  175
+                 ++ G++ +   G  +L+  + +    + + ++ FIPGD IKA++  ++ R
+Sbjct  120  FFLAAMIGGIVVLYAFGITYLATVAGLGFTKAFVGSMAFIPGDVIKAVVAALLGR  174
+
+
+> sp|D5ARG8|BIOY_RHOCB Biotin transporter BioY OS=Rhodobacter capsulatus 
+(strain ATCC BAA-309 / NBRC 16581 / SB1003) OX=272942 
+GN=bioY PE=1 SV=1
+Length=190
+
+ Score = 87.4 bits (215),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 62/179 (35%), Positives = 96/179 (54%), Gaps = 8/179 (4%)
+
+Query  8    KTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAFLAL  67
+            + +T      A I+ LGF+P IP+GF  VPI LQ++G+M+AG +LG   G ++V    AL
+Sbjct  3    RNVTLIGLFAALIVALGFVPAIPLGF-GVPITLQSLGVMLAGAVLGSWRGALAVLLVQAL  61
+
+Query  68   ALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQ------NWFGE  121
+              IGLPVL GG GG   F+GP+ G+ I WL   F+ G  +++L+              G 
+Sbjct  62   VAIGLPVLAGGRGGLGIFVGPTAGFLIGWLPAAFVTGLIVERLRRVPVALAAGIGATLGG  121
+
+Query  122  LIIVLLFGVIFVDFVGAIWLSFQ-SNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRK  179
+            +II+   G++    V    L  + + I L  +      FIPGD +K ++T ++ R + +
+Sbjct  122  IIIMYALGILGFWLVKNAGLKPEDAPISLWAATAIMAPFIPGDLVKVVVTGLVARTIAQ  180
+
+
+> sp|O07620|BIOY_BACSU Probable biotin transporter BioY OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=bioY PE=2 SV=1
+Length=186
+
+ Score = 83.6 bits (205),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 61/175 (35%), Positives = 99/175 (57%), Gaps = 5/175 (3%)
+
+Query  6    KVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAFL  65
+            K+  + + A  TA + +LGF+P + + F PVPI LQ +G+M+AG +L PK   +S   FL
+Sbjct  3    KLIDMMHIAIFTALMAVLGFMPPLFLSFTPVPITLQTLGVMLAGSILRPKSAFLSQLVFL  62
+
+Query  66   ALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKL-KITTSQNWFGELII  124
+             L   G P+L GG GG   F GPS G+ IA+    +LI     +L K+T  + +F  ++ 
+Sbjct  63   LLVAFGAPLLPGGRGGFGVFFGPSAGFLIAYPLASWLISLAANRLRKVTVLRLFFTHIV-  121
+
+Query  125  VLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRK  179
+               FG+IF+  +G    +F  +I L  +   +L ++PGD IKA ++  +  ++ +
+Sbjct  122  ---FGIIFIYLLGIPVQAFIMHIDLSQAAFMSLAYVPGDLIKAAVSAFLAIKITQ  173
+
+
+> sp|O83256|BIOY_TREPA Probable biotin transporter BioY OS=Treponema 
+pallidum (strain Nichols) OX=243276 GN=bioY PE=3 SV=1
+Length=271
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 55/193 (28%), Positives = 91/193 (47%), Gaps = 16/193 (8%)
+
+Query  5    QKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAF  64
+             + K+L + A   A I        + I   PVP++LQN   ++ G LLGP+ G ++V +F
+Sbjct  81   HRSKSLAFVALFAALISSSAL---VSIPLKPVPLVLQNAAAVLTGLLLGPRDGALAVLSF  137
+
+Query  65   LALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELII  124
+            L   L+GLPV +GG GG  +   P+GG+ + ++    L G   +  +++ +    G   +
+Sbjct  138  LGAGLLGLPVFSGGRGGYTALFAPTGGFLLGYILAATLAGAIAQHHRLSCTPPRGGGRAL  197
+
+Query  125  VLLFGVIFVDFVGAIWLSFQS-NIPLL-------TSLISNLVFIP---GDCIKAILTVVI  173
+            +L   +     VG  +LS  S  +P+L       T  +   VF+P    D +K  L V++
+Sbjct  198  LLWIRLTVATLVG--FLSIYSIGLPVLGYVLGLRTGELMLGVFLPFFLADTLKIALVVLL  255
+
+Query  174  VRRLRKQGGFELY  186
+               L       LY
+Sbjct  256  AHHLAPTVRRHLY  268
+
+
+> sp|O57898|BIOY_PYRHO Probable biotin transporter BioY OS=Pyrococcus 
+horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 
+/ NBRC 100139 / OT-3) OX=70601 GN=bioY PE=3 SV=1
+Length=162
+
+ Score = 65.1 bits (157),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 50/148 (34%), Positives = 77/148 (52%), Gaps = 20/148 (14%)
+
+Query  35   PVPIILQNMGIMMAGGLLGPKYGTISVGAFLALALIGLPVLTGGNGGAASFLGPSGGYRI  94
+            PVP+ LQ   +++AG +LGPK G +S+  +  L  +G+PV  G +GG A  LGP+GGY I
+Sbjct  28   PVPLTLQVFFVILAGLVLGPKLGFLSILIYDILGALGIPVFAGFSGGIAHILGPTGGYII  87
+
+Query  95   AWLFTPFLIGFFLKKLKITTSQNWFGELIIVLLFGVIFVDFVGAIWLS----FQSNIPLL  150
+            A+    F+ G    K++  TS           L G++ +  +G +WL+    F       
+Sbjct  88   AFPIATFIAGLGRGKVRYLTS-----------LMGLLVIYLIGWMWLARFVGFNKAF---  133
+
+Query  151  TSLISNLVFIPGDCIKAILTVVIVRRLR  178
+              ++  L FI  D +KA   V+I  RL+
+Sbjct  134  --ILGVLPFIVPDIVKAATAVIIAERLQ  159
+
+
+> sp|Q9WZQ6|BIOY_THEMA Biotin transporter BioY OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=bioY PE=1 SV=1
+Length=169
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 54/178 (30%), Positives = 88/178 (49%), Gaps = 19/178 (11%)
+
+Query  7    VKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAFLA  66
+            ++ L  +   TA I++ G    IP+G  PVP  LQ   + ++  +LG KYGT++V  ++ 
+Sbjct  1    MRQLIKAGIFTALIVV-GAWISIPLG--PVPFTLQVFFVFLSAYVLGKKYGTLAVATYVL  57
+
+Query  67   LALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWF-----GE  121
+            L  +GLPV     GGA   +GP+GGY   ++   F+IG   +K     S  W+       
+Sbjct  58   LGAMGLPVFANFKGGAQVLVGPTGGYLFGFILGAFVIGLLAEK---KESFAWYLASGVAG  114
+
+Query  122  LIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRK  179
+            L I+   GV  ++F       +  +I    S +  + F+  D IK ++  +I  RL+K
+Sbjct  115  LGIIYALGVFVLNF-------YVHDIRKAIS-VGFVPFVWFDLIKLVVAALIALRLKK  164
+
+
+> sp|A2RI45|BIOY2_LACLM Biotin transporter BioY2 OS=Lactococcus 
+lactis subsp. cremoris (strain MG1363) OX=416870 GN=bioY2 PE=1 
+SV=1
+Length=182
+
+ Score = 62.4 bits (150),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 58/188 (31%), Positives = 92/188 (49%), Gaps = 17/188 (9%)
+
+Query  3    NNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVG  62
+             N K+ +LT  A   A I +L  L  IPIG +PV   LQ + + +   +L  +    ++ 
+Sbjct  2    QNTKLYSLTLIALGAAIIAVLSPL-AIPIGIVPVT--LQTLAVGLVATVLKARETFFAIL  58
+
+Query  63   AFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGEL  122
+             +L L  IG+PV TGG  G A   GP+GG+ +A+L    LI + L ++K  T   +    
+Sbjct  59   LYLLLGFIGIPVFTGGTSGIAVLFGPTGGFLLAFLVMGTLISWGLHQIKYKTIPAF----  114
+
+Query  123  IIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIP---GDCIKAILTVV----IVR  175
+             I+ + G + +  +G +WL F + +    SL   L F P    + IKAIL  +    ++R
+Sbjct  115  -IINIVGHLLMLVIGTLWLKFFTQVDW--SLALKLGFTPFVFVEIIKAILVTIFGLALIR  171
+
+Query  176  RLRKQGGF  183
+             L     +
+Sbjct  172  ALSHTNKY  179
+
+
+> sp|P22819|BIOY_LYSSH Probable biotin transporter BioY OS=Lysinibacillus 
+sphaericus OX=1421 GN=bioY PE=3 SV=1
+Length=196
+
+ Score = 51.2 bits (121),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 51/185 (28%), Positives = 88/185 (48%), Gaps = 13/185 (7%)
+
+Query  1    MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+            M   Q   +L   A   A   +  F+  IP+    VP  LQ + + +AG LLG + G  S
+Sbjct  1    MLKQQSTLSLVMIAMFAALTAVGAFIK-IPLPL--VPFTLQIVFVFLAGCLLGGRNGFQS  57
+
+Query  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG  120
+               ++ + L+GLPV T G GG    L P+ GY I +     +IG+ + +++  T +++  
+Sbjct  58   QLVYIGIGLVGLPVFTQG-GGITYVLQPTFGYLIGFALAALVIGYMIDRVESPTKKHFIV  116
+
+Query  121  E----LIIVLLFGVIFVDFVGAIWLSFQSNIP--LLTSLISNLVFIPGDCIKAILTVVIV  174
+                 LII+    V ++     +WL+ +S+     L   ++++V    D   AI + ++ 
+Sbjct  117  ANIIGLIIIYAVAVPYLYVALNVWLNMKSSWSHVFLVGFVNSIV---ADFCLAIASALLA  173
+
+Query  175  RRLRK  179
+             RL K
+Sbjct  174  ERLYK  178
+
+
+> sp|Q9ZDK4|BIOY_RICPR Probable biotin transporter BioY OS=Rickettsia 
+prowazekii (strain Madrid E) OX=272947 GN=bioY PE=3 SV=1
+Length=194
+
+ Score = 42.4 bits (98),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 42/143 (29%), Positives = 72/143 (50%), Gaps = 12/143 (8%)
+
+Query  29   IPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAFLALALIGLPVLTGGNGGAASFLGP  88
+            IPI   PV I + ++ + +      P+   +++  F+ + ++GLPV    + G   FLG 
+Sbjct  48   IPIK--PVAITMHSVILCIIAFTYSPRLSFLTILTFIFIGVMGLPVFCQFSSGINYFLGS  105
+
+Query  89   SGGYRIAWLFTPFLIGF-FLKKLKITTSQNWFGELIIVLLFGVIFVDFVGAIWLSFQSNI  147
+            +GGY +      FLIG   +  LK   ++N+    II ++   IF    G IWL+  S I
+Sbjct  106  AGGYYLG-----FLIGMPVMSVLKGKLAENYLNVTIICIIGHAIFY-LCGIIWLA--SMI  157
+
+Query  148  PLLTSLISN-LVFIPGDCIKAIL  169
+             L  ++ S  ++FIP   +K ++
+Sbjct  158  GLKQAIYSGFIIFIPSGLVKILI  180
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.150    0.462    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10751884962
+Results from round 2
+
+
+Query= A2RMJ9|4dveA
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A2RMJ9|BIOY_LACLM Biotin transporter BioY OS=Lactococcus lac...  164     4e-49
+  sp|O83256|BIOY_TREPA Probable biotin transporter BioY OS=Trepon...  130     2e-35
+  sp|P22819|BIOY_LYSSH Probable biotin transporter BioY OS=Lysini...  115     3e-30
+  sp|D5ARG8|BIOY_RHOCB Biotin transporter BioY OS=Rhodobacter cap...  113     1e-29
+  sp|Q2KBP7|BIOY_RHIEC Biotin transporter BioY OS=Rhizobium etli ...  110     1e-28
+  sp|O07620|BIOY_BACSU Probable biotin transporter BioY OS=Bacill...  104     2e-26
+  sp|Q9WZQ6|BIOY_THEMA Biotin transporter BioY OS=Thermotoga mari...  98.9    2e-24
+  sp|A2RI45|BIOY2_LACLM Biotin transporter BioY2 OS=Lactococcus l...  96.6    2e-23
+  sp|O57898|BIOY_PYRHO Probable biotin transporter BioY OS=Pyroco...  95.1    5e-23
+  sp|Q9ZDK4|BIOY_RICPR Probable biotin transporter BioY OS=Ricket...  85.0    5e-19
+
+Sequences not found previously or not previously below threshold:
+
+  sp|O32104|BIOYB_BACSU Putative biotin transporter BioYB OS=Baci...  73.1    9e-15
+  sp|O26990|BIOY_METTH Probable biotin transporter BioY OS=Methan...  63.9    8e-12
+
+
+> sp|A2RMJ9|BIOY_LACLM Biotin transporter BioY OS=Lactococcus lactis 
+subsp. cremoris (strain MG1363) OX=416870 GN=bioY PE=1 
+SV=1
+Length=189
+
+ Score = 164 bits (414),  Expect = 4e-49, Method: Composition-based stats.
+ Identities = 189/189 (100%), Positives = 189/189 (100%), Gaps = 0/189 (0%)
+
+Query  1    MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+            MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS
+Sbjct  1    MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+
+Query  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG  120
+            VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG
+Sbjct  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG  120
+
+Query  121  ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRKQ  180
+            ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRKQ
+Sbjct  121  ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRKQ  180
+
+Query  181  GGFELYFRK  189
+            GGFELYFRK
+Sbjct  181  GGFELYFRK  189
+
+
+> sp|O83256|BIOY_TREPA Probable biotin transporter BioY OS=Treponema 
+pallidum (strain Nichols) OX=243276 GN=bioY PE=3 SV=1
+Length=271
+
+ Score = 130 bits (328),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 51/191 (27%), Positives = 87/191 (46%), Gaps = 12/191 (6%)
+
+Query  5    QKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAF  64
+             + K+L + A   A I        + I   PVP++LQN   ++ G LLGP+ G ++V +F
+Sbjct  81   HRSKSLAFVALFAALISSSAL---VSIPLKPVPLVLQNAAAVLTGLLLGPRDGALAVLSF  137
+
+Query  65   LALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELII  124
+            L   L+GLPV +GG GG  +   P+GG+ + ++    L G   +  +++ +    G   +
+Sbjct  138  LGAGLLGLPVFSGGRGGYTALFAPTGGFLLGYILAATLAGAIAQHHRLSCTPPRGGGRAL  197
+
+Query  125  VLLFGVIFVDFVGAIWLSFQSN------IPLLTSLISNLVFIP---GDCIKAILTVVIVR  175
+            +L   +     VG + +           + L T  +   VF+P    D +K  L V++  
+Sbjct  198  LLWIRLTVATLVGFLSIYSIGLPVLGYVLGLRTGELMLGVFLPFFLADTLKIALVVLLAH  257
+
+Query  176  RLRKQGGFELY  186
+             L       LY
+Sbjct  258  HLAPTVRRHLY  268
+
+
+> sp|P22819|BIOY_LYSSH Probable biotin transporter BioY OS=Lysinibacillus 
+sphaericus OX=1421 GN=bioY PE=3 SV=1
+Length=196
+
+ Score = 115 bits (287),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 51/186 (27%), Positives = 84/186 (45%), Gaps = 9/186 (5%)
+
+Query  1    MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+            M   Q   +L   A   A   +  F   I I    VP  LQ + + +AG LLG + G  S
+Sbjct  1    MLKQQSTLSLVMIAMFAALTAVGAF---IKIPLPLVPFTLQIVFVFLAGCLLGGRNGFQS  57
+
+Query  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG  120
+               ++ + L+GLPV T G GG    L P+ GY I +     +IG+ + +++  T +++  
+Sbjct  58   QLVYIGIGLVGLPVFTQG-GGITYVLQPTFGYLIGFALAALVIGYMIDRVESPTKKHFIV  116
+
+Query  121  ----ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRR  176
+                 LII+    V ++     +WL+ +S+      L+  +  I  D   AI + ++  R
+Sbjct  117  ANIIGLIIIYAVAVPYLYVALNVWLNMKSSWS-HVFLVGFVNSIVADFCLAIASALLAER  175
+
+Query  177  LRKQGG  182
+            L K   
+Sbjct  176  LYKVFR  181
+
+
+> sp|D5ARG8|BIOY_RHOCB Biotin transporter BioY OS=Rhodobacter capsulatus 
+(strain ATCC BAA-309 / NBRC 16581 / SB1003) OX=272942 
+GN=bioY PE=1 SV=1
+Length=190
+
+ Score = 113 bits (283),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 62/179 (35%), Positives = 96/179 (54%), Gaps = 8/179 (4%)
+
+Query  8    KTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAFLAL  67
+            + +T      A I+ LGF+P IP+GF  VPI LQ++G+M+AG +LG   G ++V    AL
+Sbjct  3    RNVTLIGLFAALIVALGFVPAIPLGF-GVPITLQSLGVMLAGAVLGSWRGALAVLLVQAL  61
+
+Query  68   ALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQ------NWFGE  121
+              IGLPVL GG GG   F+GP+ G+ I WL   F+ G  +++L+              G 
+Sbjct  62   VAIGLPVLAGGRGGLGIFVGPTAGFLIGWLPAAFVTGLIVERLRRVPVALAAGIGATLGG  121
+
+Query  122  LIIVLLFGVIFVDFVGAIWLSFQ-SNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRK  179
+            +II+   G++    V    L  + + I L  +      FIPGD +K ++T ++ R + +
+Sbjct  122  IIIMYALGILGFWLVKNAGLKPEDAPISLWAATAIMAPFIPGDLVKVVVTGLVARTIAQ  180
+
+
+> sp|Q2KBP7|BIOY_RHIEC Biotin transporter BioY OS=Rhizobium etli 
+(strain CFN 42 / ATCC 51251) OX=347834 GN=bioY PE=1 SV=1
+Length=187
+
+ Score = 110 bits (276),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 61/177 (34%), Positives = 102/177 (58%), Gaps = 5/177 (3%)
+
+Query  5    QKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAF  64
+               + L  +A   A I+ LG LP I +GFIPVPI  Q++G+MMAG +LG + G I+V   
+Sbjct  1    MSTRDLVLTALFAAIIVALGLLPPISLGFIPVPITAQSLGVMMAGVVLGARRGAIAVLIV  60
+
+Query  65   LALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELI-  123
+            L L  IGLPVL+GG GG A F  P+ G+ + W+F  F+ G+  ++L +   Q+   + + 
+Sbjct  61   LLLVAIGLPVLSGGRGGLAIFASPTAGFLVGWIFGAFVTGYLSERL-VNHGQSGLVQTVS  119
+
+Query  124  ---IVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRL  177
+                 ++ G++ +   G  +L+  + +    + + ++ FIPGD IKA++  ++ R +
+Sbjct  120  FFLAAMIGGIVVLYAFGITYLATVAGLGFTKAFVGSMAFIPGDVIKAVVAALLGRAV  176
+
+
+> sp|O07620|BIOY_BACSU Probable biotin transporter BioY OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=bioY PE=2 SV=1
+Length=186
+
+ Score = 104 bits (260),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 61/174 (35%), Positives = 96/174 (55%), Gaps = 3/174 (2%)
+
+Query  6    KVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAFL  65
+            K+  + + A  TA + +LGF+P + + F PVPI LQ +G+M+AG +L PK   +S   FL
+Sbjct  3    KLIDMMHIAIFTALMAVLGFMPPLFLSFTPVPITLQTLGVMLAGSILRPKSAFLSQLVFL  62
+
+Query  66   ALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELIIV  125
+             L   G P+L GG GG   F GPS G+ IA+    +LI     +L+  T    F   I+ 
+Sbjct  63   LLVAFGAPLLPGGRGGFGVFFGPSAGFLIAYPLASWLISLAANRLRKVTVLRLFFTHIV-  121
+
+Query  126  LLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRK  179
+              FG+IF+  +G    +F  +I L  +   +L ++PGD IKA ++  +  ++ +
+Sbjct  122  --FGIIFIYLLGIPVQAFIMHIDLSQAAFMSLAYVPGDLIKAAVSAFLAIKITQ  173
+
+
+> sp|Q9WZQ6|BIOY_THEMA Biotin transporter BioY OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=bioY PE=1 SV=1
+Length=169
+
+ Score = 98.9 bits (245),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 49/173 (28%), Positives = 84/173 (49%), Gaps = 9/173 (5%)
+
+Query  7    VKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAFLA  66
+            ++ L  +   TA I++  +   I I   PVP  LQ   + ++  +LG KYGT++V  ++ 
+Sbjct  1    MRQLIKAGIFTALIVVGAW---ISIPLGPVPFTLQVFFVFLSAYVLGKKYGTLAVATYVL  57
+
+Query  67   LALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELIIVL  126
+            L  +GLPV     GGA   +GP+GGY   ++   F+IG   +K     S  W+    +  
+Sbjct  58   LGAMGLPVFANFKGGAQVLVGPTGGYLFGFILGAFVIGLLAEK---KESFAWYLASGVA-  113
+
+Query  127  LFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRK  179
+              G+  +  +G   L+F  +       +  + F+  D IK ++  +I  RL+K
+Sbjct  114  --GLGIIYALGVFVLNFYVHDIRKAISVGFVPFVWFDLIKLVVAALIALRLKK  164
+
+
+> sp|A2RI45|BIOY2_LACLM Biotin transporter BioY2 OS=Lactococcus 
+lactis subsp. cremoris (strain MG1363) OX=416870 GN=bioY2 PE=1 
+SV=1
+Length=182
+
+ Score = 96.6 bits (239),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 51/187 (27%), Positives = 89/187 (48%), Gaps = 13/187 (7%)
+
+Query  2    TNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISV  61
+              N K+ +LT  A   A I +L     + I    VP+ LQ + + +   +L  +    ++
+Sbjct  1    MQNTKLYSLTLIALGAAIIAVLS---PLAIPIGIVPVTLQTLAVGLVATVLKARETFFAI  57
+
+Query  62   GAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGE  121
+              +L L  IG+PV TGG  G A   GP+GG+ +A+L    LI + L ++K  T   +   
+Sbjct  58   LLYLLLGFIGIPVFTGGTSGIAVLFGPTGGFLLAFLVMGTLISWGLHQIKYKTIPAF---  114
+
+Query  122  LIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSL-ISNLVFIPGDCIKAILTVV----IVRR  176
+              I+ + G + +  +G +WL F + +    +L +    F+  + IKAIL  +    ++R 
+Sbjct  115  --IINIVGHLLMLVIGTLWLKFFTQVDWSLALKLGFTPFVFVEIIKAILVTIFGLALIRA  172
+
+Query  177  LRKQGGF  183
+            L     +
+Sbjct  173  LSHTNKY  179
+
+
+> sp|O57898|BIOY_PYRHO Probable biotin transporter BioY OS=Pyrococcus 
+horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 
+/ NBRC 100139 / OT-3) OX=70601 GN=bioY PE=3 SV=1
+Length=162
+
+ Score = 95.1 bits (235),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 54/174 (31%), Positives = 85/174 (49%), Gaps = 15/174 (9%)
+
+Query  5    QKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAF  64
+             K K ++  A   A   +      I +   PVP+ LQ   +++AG +LGPK G +S+  +
+Sbjct  1    MKAKEVSLVALFVALTSVGA---QISVSIGPVPLTLQVFFVILAGLVLGPKLGFLSILIY  57
+
+Query  65   LALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELII  124
+              L  +G+PV  G +GG A  LGP+GGY IA+    F+ G    K++  TS         
+Sbjct  58   DILGALGIPVFAGFSGGIAHILGPTGGYIIAFPIATFIAGLGRGKVRYLTS---------  108
+
+Query  125  VLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLR  178
+              L G++ +  +G +WL+          ++  L FI  D +KA   V+I  RL+
+Sbjct  109  --LMGLLVIYLIGWMWLARFVGFN-KAFILGVLPFIVPDIVKAATAVIIAERLQ  159
+
+
+> sp|Q9ZDK4|BIOY_RICPR Probable biotin transporter BioY OS=Rickettsia 
+prowazekii (strain Madrid E) OX=272947 GN=bioY PE=3 SV=1
+Length=194
+
+ Score = 85.0 bits (209),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 39/170 (23%), Positives = 75/170 (44%), Gaps = 11/170 (6%)
+
+Query  1    MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+            ++ N  +  +         I        I I   PV I + ++ + +      P+   ++
+Sbjct  21   LSTNTYILDIVKIVMGVIAIFASS---QITIPIKPVAITMHSVILCIIAFTYSPRLSFLT  77
+
+Query  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG  120
+            +  F+ + ++GLPV    + G   FLG +GGY + +L    +    +  LK   ++N+  
+Sbjct  78   ILTFIFIGVMGLPVFCQFSSGINYFLGSAGGYYLGFLIGMPV----MSVLKGKLAENYLN  133
+
+Query  121  ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLI-SNLVFIPGDCIKAIL  169
+              II ++   IF    G IWL+  S I L  ++    ++FIP   +K ++
+Sbjct  134  VTIICIIGHAIF-YLCGIIWLA--SMIGLKQAIYSGFIIFIPSGLVKILI  180
+
+
+> sp|O32104|BIOYB_BACSU Putative biotin transporter BioYB OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=bioYB PE=3 SV=1
+Length=200
+
+ Score = 73.1 bits (178),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 37/193 (19%), Positives = 76/193 (39%), Gaps = 8/193 (4%)
+
+Query  3    NNQKVKTLTYSAFMTAFIIILGFLPGI--PIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+               +   +       A + +   +  +   +    +P+ +Q    ++A  LLG K   I+
+Sbjct  4    RKLRAGDMALIGMFAALMAVGANITSVAPFLQVAGIPLSMQPFFCLLAALLLGSKRAAIA  63
+
+Query  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKK----LKITTSQ  116
+            +  +  + L G PV    + G A F G SGG+ I+++   F  G+FL++     KI    
+Sbjct  64   MIVYALVGLAGAPVFAQFSAGFAPFAGKSGGFIISYIPAAFAAGWFLERNIQPSKIRFLI  123
+
+Query  117  NWFGELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRR  176
+                   I+ L G  ++     +W+   + +   T+    + F+  D   A++   I   
+Sbjct  124  ASLIGTAIMYLIGTTYMYLALKLWI--HTPVSYGTAWGFMIWFMVKDTALAVILSFIAPA  181
+
+Query  177  LRKQGGFELYFRK  189
+            + +       F +
+Sbjct  182  IYRSIHKATGFNR  194
+
+
+> sp|O26990|BIOY_METTH Probable biotin transporter BioY OS=Methanothermobacter 
+thermautotrophicus (strain ATCC 29096 / DSM 
+1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=bioY 
+PE=3 SV=1
+Length=157
+
+ Score = 63.9 bits (154),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 34/142 (24%), Positives = 64/142 (45%), Gaps = 5/142 (4%)
+
+Query  47   MAGGLLGPKYGTISVGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFF  106
+            M+G +LG  +G +S   ++ +   G+P     +GG    LG +GGY + ++    L+G F
+Sbjct  1    MSGVILGRYWGGLSQLIYVIIGAAGVPWFADMSGGPEVLLGATGGYLLGFILAALLLGHF  60
+
+Query  107  LKKLKITTSQNWFGELIIVLLFGVIF---VDFVGAIWLSFQSNI--PLLTSLISNLVFIP  161
+            + +            L+ +  FG+I+   +  +G   L  Q  +  P    ++  L FIP
+Sbjct  61   VDRHIRARKFTPMLGLMTIANFGLIYIPGLVVLGLWSLKTQGTLPGPWELLVMGLLPFIP  120
+
+Query  162  GDCIKAILTVVIVRRLRKQGGF  183
+            GD +K      + R +  +  +
+Sbjct  121  GDILKITGAAALTRAITPKEPY  142
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.141    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10751884962
+Results from round 3
+
+
+Query= A2RMJ9|4dveA
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A2RMJ9|BIOY_LACLM Biotin transporter BioY OS=Lactococcus lac...  152     9e-45
+  sp|O83256|BIOY_TREPA Probable biotin transporter BioY OS=Trepon...  138     3e-38
+  sp|P22819|BIOY_LYSSH Probable biotin transporter BioY OS=Lysini...  125     2e-34
+  sp|O32104|BIOYB_BACSU Putative biotin transporter BioYB OS=Baci...  125     4e-34
+  sp|Q9WZQ6|BIOY_THEMA Biotin transporter BioY OS=Thermotoga mari...  113     1e-29
+  sp|D5ARG8|BIOY_RHOCB Biotin transporter BioY OS=Rhodobacter cap...  112     4e-29
+  sp|Q2KBP7|BIOY_RHIEC Biotin transporter BioY OS=Rhizobium etli ...  108     9e-28
+  sp|O07620|BIOY_BACSU Probable biotin transporter BioY OS=Bacill...  107     1e-27
+  sp|O26990|BIOY_METTH Probable biotin transporter BioY OS=Methan...  106     3e-27
+  sp|O57898|BIOY_PYRHO Probable biotin transporter BioY OS=Pyroco...  105     1e-26
+  sp|A2RI45|BIOY2_LACLM Biotin transporter BioY2 OS=Lactococcus l...  102     2e-25
+  sp|Q9ZDK4|BIOY_RICPR Probable biotin transporter BioY OS=Ricket...  99.3    3e-24
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|A2RMJ9|BIOY_LACLM Biotin transporter BioY OS=Lactococcus lactis 
+subsp. cremoris (strain MG1363) OX=416870 GN=bioY PE=1 
+SV=1
+Length=189
+
+ Score = 152 bits (385),  Expect = 9e-45, Method: Composition-based stats.
+ Identities = 189/189 (100%), Positives = 189/189 (100%), Gaps = 0/189 (0%)
+
+Query  1    MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+            MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS
+Sbjct  1    MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+
+Query  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG  120
+            VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG
+Sbjct  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG  120
+
+Query  121  ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRKQ  180
+            ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRKQ
+Sbjct  121  ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRKQ  180
+
+Query  181  GGFELYFRK  189
+            GGFELYFRK
+Sbjct  181  GGFELYFRK  189
+
+
+> sp|O83256|BIOY_TREPA Probable biotin transporter BioY OS=Treponema 
+pallidum (strain Nichols) OX=243276 GN=bioY PE=3 SV=1
+Length=271
+
+ Score = 138 bits (347),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 51/191 (27%), Positives = 87/191 (46%), Gaps = 12/191 (6%)
+
+Query  5    QKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAF  64
+             + K+L + A   A I        + I   PVP++LQN   ++ G LLGP+ G ++V +F
+Sbjct  81   HRSKSLAFVALFAALISSSAL---VSIPLKPVPLVLQNAAAVLTGLLLGPRDGALAVLSF  137
+
+Query  65   LALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELII  124
+            L   L+GLPV +GG GG  +   P+GG+ + ++    L G   +  +++ +    G   +
+Sbjct  138  LGAGLLGLPVFSGGRGGYTALFAPTGGFLLGYILAATLAGAIAQHHRLSCTPPRGGGRAL  197
+
+Query  125  VLLFGVIFVDFVGAIWLSFQSN------IPLLTSLISNLVFIP---GDCIKAILTVVIVR  175
+            +L   +     VG + +           + L T  +   VF+P    D +K  L V++  
+Sbjct  198  LLWIRLTVATLVGFLSIYSIGLPVLGYVLGLRTGELMLGVFLPFFLADTLKIALVVLLAH  257
+
+Query  176  RLRKQGGFELY  186
+             L       LY
+Sbjct  258  HLAPTVRRHLY  268
+
+
+> sp|P22819|BIOY_LYSSH Probable biotin transporter BioY OS=Lysinibacillus 
+sphaericus OX=1421 GN=bioY PE=3 SV=1
+Length=196
+
+ Score = 125 bits (315),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 51/188 (27%), Positives = 84/188 (45%), Gaps = 9/188 (5%)
+
+Query  1    MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+            M   Q   +L   A   A   +  F   I I    VP  LQ + + +AG LLG + G  S
+Sbjct  1    MLKQQSTLSLVMIAMFAALTAVGAF---IKIPLPLVPFTLQIVFVFLAGCLLGGRNGFQS  57
+
+Query  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG  120
+               ++ + L+GLPV T G GG    L P+ GY I +     +IG+ + +++  T +++  
+Sbjct  58   QLVYIGIGLVGLPVFTQG-GGITYVLQPTFGYLIGFALAALVIGYMIDRVESPTKKHFIV  116
+
+Query  121  ----ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRR  176
+                 LII+    V ++     +WL+ +S+      L+  +  I  D   AI + ++  R
+Sbjct  117  ANIIGLIIIYAVAVPYLYVALNVWLNMKSSWS-HVFLVGFVNSIVADFCLAIASALLAER  175
+
+Query  177  LRKQGGFE  184
+            L K     
+Sbjct  176  LYKVFRSA  183
+
+
+> sp|O32104|BIOYB_BACSU Putative biotin transporter BioYB OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=bioYB PE=3 SV=1
+Length=200
+
+ Score = 125 bits (314),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 37/193 (19%), Positives = 76/193 (39%), Gaps = 8/193 (4%)
+
+Query  3    NNQKVKTLTYSAFMTAFIIILGFLPGI--PIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+               +   +       A + +   +  +   +    +P+ +Q    ++A  LLG K   I+
+Sbjct  4    RKLRAGDMALIGMFAALMAVGANITSVAPFLQVAGIPLSMQPFFCLLAALLLGSKRAAIA  63
+
+Query  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKK----LKITTSQ  116
+            +  +  + L G PV    + G A F G SGG+ I+++   F  G+FL++     KI    
+Sbjct  64   MIVYALVGLAGAPVFAQFSAGFAPFAGKSGGFIISYIPAAFAAGWFLERNIQPSKIRFLI  123
+
+Query  117  NWFGELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRR  176
+                   I+ L G  ++     +W+   + +   T+    + F+  D   A++   I   
+Sbjct  124  ASLIGTAIMYLIGTTYMYLALKLWI--HTPVSYGTAWGFMIWFMVKDTALAVILSFIAPA  181
+
+Query  177  LRKQGGFELYFRK  189
+            + +       F +
+Sbjct  182  IYRSIHKATGFNR  194
+
+
+> sp|Q9WZQ6|BIOY_THEMA Biotin transporter BioY OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=bioY PE=1 SV=1
+Length=169
+
+ Score = 113 bits (282),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 49/173 (28%), Positives = 84/173 (49%), Gaps = 9/173 (5%)
+
+Query  7    VKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAFLA  66
+            ++ L  +   TA I++  +   I I   PVP  LQ   + ++  +LG KYGT++V  ++ 
+Sbjct  1    MRQLIKAGIFTALIVVGAW---ISIPLGPVPFTLQVFFVFLSAYVLGKKYGTLAVATYVL  57
+
+Query  67   LALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELIIVL  126
+            L  +GLPV     GGA   +GP+GGY   ++   F+IG   +K     S  W+    +  
+Sbjct  58   LGAMGLPVFANFKGGAQVLVGPTGGYLFGFILGAFVIGLLAEK---KESFAWYLASGVA-  113
+
+Query  127  LFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRK  179
+              G+  +  +G   L+F  +       +  + F+  D IK ++  +I  RL+K
+Sbjct  114  --GLGIIYALGVFVLNFYVHDIRKAISVGFVPFVWFDLIKLVVAALIALRLKK  164
+
+
+> sp|D5ARG8|BIOY_RHOCB Biotin transporter BioY OS=Rhodobacter capsulatus 
+(strain ATCC BAA-309 / NBRC 16581 / SB1003) OX=272942 
+GN=bioY PE=1 SV=1
+Length=190
+
+ Score = 112 bits (279),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 63/185 (34%), Positives = 97/185 (52%), Gaps = 8/185 (4%)
+
+Query  8    KTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAFLAL  67
+            + +T      A I+ LGF+P IP+GF  VPI LQ++G+M+AG +LG   G ++V    AL
+Sbjct  3    RNVTLIGLFAALIVALGFVPAIPLGFG-VPITLQSLGVMLAGAVLGSWRGALAVLLVQAL  61
+
+Query  68   ALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQ------NWFGE  121
+              IGLPVL GG GG   F+GP+ G+ I WL   F+ G  +++L+              G 
+Sbjct  62   VAIGLPVLAGGRGGLGIFVGPTAGFLIGWLPAAFVTGLIVERLRRVPVALAAGIGATLGG  121
+
+Query  122  LIIVLLFGVIFVDFVGAIWLSFQ-SNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRKQ  180
+            +II+   G++    V    L  + + I L  +      FIPGD +K ++T ++ R + + 
+Sbjct  122  IIIMYALGILGFWLVKNAGLKPEDAPISLWAATAIMAPFIPGDLVKVVVTGLVARTIAQY  181
+
+Query  181  GGFEL  185
+                L
+Sbjct  182  RPSAL  186
+
+
+> sp|Q2KBP7|BIOY_RHIEC Biotin transporter BioY OS=Rhizobium etli 
+(strain CFN 42 / ATCC 51251) OX=347834 GN=bioY PE=1 SV=1
+Length=187
+
+ Score = 108 bits (270),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 61/177 (34%), Positives = 102/177 (58%), Gaps = 5/177 (3%)
+
+Query  5    QKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAF  64
+               + L  +A   A I+ LG LP I +GFIPVPI  Q++G+MMAG +LG + G I+V   
+Sbjct  1    MSTRDLVLTALFAAIIVALGLLPPISLGFIPVPITAQSLGVMMAGVVLGARRGAIAVLIV  60
+
+Query  65   LALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELI-  123
+            L L  IGLPVL+GG GG A F  P+ G+ + W+F  F+ G+  ++L +   Q+   + + 
+Sbjct  61   LLLVAIGLPVLSGGRGGLAIFASPTAGFLVGWIFGAFVTGYLSERL-VNHGQSGLVQTVS  119
+
+Query  124  ---IVLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRL  177
+                 ++ G++ +   G  +L+  + +    + + ++ FIPGD IKA++  ++ R +
+Sbjct  120  FFLAAMIGGIVVLYAFGITYLATVAGLGFTKAFVGSMAFIPGDVIKAVVAALLGRAV  176
+
+
+> sp|O07620|BIOY_BACSU Probable biotin transporter BioY OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=bioY PE=2 SV=1
+Length=186
+
+ Score = 107 bits (268),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 61/175 (35%), Positives = 96/175 (55%), Gaps = 3/175 (2%)
+
+Query  5    QKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAF  64
+             K+  + + A  TA + +LGF+P + + F PVPI LQ +G+M+AG +L PK   +S   F
+Sbjct  2    LKLIDMMHIAIFTALMAVLGFMPPLFLSFTPVPITLQTLGVMLAGSILRPKSAFLSQLVF  61
+
+Query  65   LALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELII  124
+            L L   G P+L GG GG   F GPS G+ IA+    +LI     +L+  T    F   I+
+Sbjct  62   LLLVAFGAPLLPGGRGGFGVFFGPSAGFLIAYPLASWLISLAANRLRKVTVLRLFFTHIV  121
+
+Query  125  VLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLRK  179
+               FG+IF+  +G    +F  +I L  +   +L ++PGD IKA ++  +  ++ +
+Sbjct  122  ---FGIIFIYLLGIPVQAFIMHIDLSQAAFMSLAYVPGDLIKAAVSAFLAIKITQ  173
+
+
+> sp|O26990|BIOY_METTH Probable biotin transporter BioY OS=Methanothermobacter 
+thermautotrophicus (strain ATCC 29096 / DSM 
+1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=bioY 
+PE=3 SV=1
+Length=157
+
+ Score = 106 bits (264),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 34/142 (24%), Positives = 64/142 (45%), Gaps = 5/142 (4%)
+
+Query  47   MAGGLLGPKYGTISVGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFF  106
+            M+G +LG  +G +S   ++ +   G+P     +GG    LG +GGY + ++    L+G F
+Sbjct  1    MSGVILGRYWGGLSQLIYVIIGAAGVPWFADMSGGPEVLLGATGGYLLGFILAALLLGHF  60
+
+Query  107  LKKLKITTSQNWFGELIIVLLFGVIFV---DFVGAIWLSFQSNI--PLLTSLISNLVFIP  161
+            + +            L+ +  FG+I++     +G   L  Q  +  P    ++  L FIP
+Sbjct  61   VDRHIRARKFTPMLGLMTIANFGLIYIPGLVVLGLWSLKTQGTLPGPWELLVMGLLPFIP  120
+
+Query  162  GDCIKAILTVVIVRRLRKQGGF  183
+            GD +K      + R +  +  +
+Sbjct  121  GDILKITGAAALTRAITPKEPY  142
+
+
+> sp|O57898|BIOY_PYRHO Probable biotin transporter BioY OS=Pyrococcus 
+horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 
+/ NBRC 100139 / OT-3) OX=70601 GN=bioY PE=3 SV=1
+Length=162
+
+ Score = 105 bits (261),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 54/174 (31%), Positives = 85/174 (49%), Gaps = 15/174 (9%)
+
+Query  5    QKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISVGAF  64
+             K K ++  A   A   +      I +   PVP+ LQ   +++AG +LGPK G +S+  +
+Sbjct  1    MKAKEVSLVALFVALTSVGA---QISVSIGPVPLTLQVFFVILAGLVLGPKLGFLSILIY  57
+
+Query  65   LALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGELII  124
+              L  +G+PV  G +GG A  LGP+GGY IA+    F+ G    K++  TS         
+Sbjct  58   DILGALGIPVFAGFSGGIAHILGPTGGYIIAFPIATFIAGLGRGKVRYLTS---------  108
+
+Query  125  VLLFGVIFVDFVGAIWLSFQSNIPLLTSLISNLVFIPGDCIKAILTVVIVRRLR  178
+              L G++ +  +G +WL+          ++  L FI  D +KA   V+I  RL+
+Sbjct  109  --LMGLLVIYLIGWMWLARFVGFN-KAFILGVLPFIVPDIVKAATAVIIAERLQ  159
+
+
+> sp|A2RI45|BIOY2_LACLM Biotin transporter BioY2 OS=Lactococcus 
+lactis subsp. cremoris (strain MG1363) OX=416870 GN=bioY2 PE=1 
+SV=1
+Length=182
+
+ Score = 102 bits (254),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 50/179 (28%), Positives = 86/179 (48%), Gaps = 9/179 (5%)
+
+Query  2    TNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTISV  61
+              N K+ +LT  A   A I +L     + I    VP+ LQ + + +   +L  +    ++
+Sbjct  1    MQNTKLYSLTLIALGAAIIAVLS---PLAIPIGIVPVTLQTLAVGLVATVLKARETFFAI  57
+
+Query  62   GAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFGE  121
+              +L L  IG+PV TGG  G A   GP+GG+ +A+L    LI + L ++K  T   +   
+Sbjct  58   LLYLLLGFIGIPVFTGGTSGIAVLFGPTGGFLLAFLVMGTLISWGLHQIKYKTIPAF---  114
+
+Query  122  LIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSL-ISNLVFIPGDCIKAILTVVIVRRLRK  179
+              I+ + G + +  +G +WL F + +    +L +    F+  + IKAIL  +    L +
+Sbjct  115  --IINIVGHLLMLVIGTLWLKFFTQVDWSLALKLGFTPFVFVEIIKAILVTIFGLALIR  171
+
+
+> sp|Q9ZDK4|BIOY_RICPR Probable biotin transporter BioY OS=Rickettsia 
+prowazekii (strain Madrid E) OX=272947 GN=bioY PE=3 SV=1
+Length=194
+
+ Score = 99.3 bits (246),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 39/184 (21%), Positives = 78/184 (42%), Gaps = 11/184 (6%)
+
+Query  1    MTNNQKVKTLTYSAFMTAFIIILGFLPGIPIGFIPVPIILQNMGIMMAGGLLGPKYGTIS  60
+            ++ N  +  +         I        I I   PV I + ++ + +      P+   ++
+Sbjct  21   LSTNTYILDIVKIVMGVIAIFASS---QITIPIKPVAITMHSVILCIIAFTYSPRLSFLT  77
+
+Query  61   VGAFLALALIGLPVLTGGNGGAASFLGPSGGYRIAWLFTPFLIGFFLKKLKITTSQNWFG  120
+            +  F+ + ++GLPV    + G   FLG +GGY + +L    +    +  LK   ++N+  
+Sbjct  78   ILTFIFIGVMGLPVFCQFSSGINYFLGSAGGYYLGFLIGMPV----MSVLKGKLAENYLN  133
+
+Query  121  ELIIVLLFGVIFVDFVGAIWLSFQSNIPLLTSLI-SNLVFIPGDCIKAILTVVIVRRLRK  179
+              II ++   IF    G IWL+  S I L  ++    ++FIP   +K ++   +   ++ 
+Sbjct  134  VTIICIIGHAIF-YLCGIIWLA--SMIGLKQAIYSGFIIFIPSGLVKILIFSCLFSYIKN  190
+
+Query  180  QGGF  183
+                
+Sbjct  191  LKRK  194
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.140    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0428    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10751884962
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

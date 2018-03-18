@@ -1,0 +1,205 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q2JJF6|4nv6A
+
+Length=283
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q2JJF6|VKOR_SYNJB Vitamin K epoxide reductase homolog OS=Syn...  572     0.0  
+  sp|Q8L540|LTO1_ARATH Thiol-disulfide oxidoreductase LTO1 OS=Ara...  138     3e-36
+
+
+> sp|Q2JJF6|VKOR_SYNJB Vitamin K epoxide reductase homolog OS=Synechococcus 
+sp. (strain JA-2-3B'a(2-13)) OX=321332 GN=CYB_2278 
+PE=1 SV=1
+Length=283
+
+ Score = 572 bits (1473),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 283/283 (100%), Positives = 283/283 (100%), Gaps = 0/283 (0%)
+
+Query  1    MASYLKLKAQEETWLQRHSRLILAILAGLGSLLTAYLTYTKLTEQPAAFCTGDGGCDLVL  60
+            MASYLKLKAQEETWLQRHSRLILAILAGLGSLLTAYLTYTKLTEQPAAFCTGDGGCDLVL
+Sbjct  1    MASYLKLKAQEETWLQRHSRLILAILAGLGSLLTAYLTYTKLTEQPAAFCTGDGGCDLVL  60
+
+Query  61   SSRWAEFLGIPTAAVGLLGFLGVLALAVLPDGLPLVKRWRWPALFGLVSAMTAFEMYMLY  120
+            SSRWAEFLGIPTAAVGLLGFLGVLALAVLPDGLPLVKRWRWPALFGLVSAMTAFEMYMLY
+Sbjct  61   SSRWAEFLGIPTAAVGLLGFLGVLALAVLPDGLPLVKRWRWPALFGLVSAMTAFEMYMLY  120
+
+Query  121  LMVAVLRQFCMYCTTAIILVAGLGLVTVLGHRWLDGGKLAFSYILVAFLTLVTTIGVYAN  180
+            LMVAVLRQFCMYCTTAIILVAGLGLVTVLGHRWLDGGKLAFSYILVAFLTLVTTIGVYAN
+Sbjct  121  LMVAVLRQFCMYCTTAIILVAGLGLVTVLGHRWLDGGKLAFSYILVAFLTLVTTIGVYAN  180
+
+Query  181  QVPPPSPLAVGLAAHLRQIGGTMYGAYWCPHCQDQKELFGAAFDQVPYVECSPNGPGTPQ  240
+            QVPPPSPLAVGLAAHLRQIGGTMYGAYWCPHCQDQKELFGAAFDQVPYVECSPNGPGTPQ
+Sbjct  181  QVPPPSPLAVGLAAHLRQIGGTMYGAYWCPHCQDQKELFGAAFDQVPYVECSPNGPGTPQ  240
+
+Query  241  AQECTEAGITSYPTWIINGRTYTGVRSLEALAVASGYPLEEGR  283
+            AQECTEAGITSYPTWIINGRTYTGVRSLEALAVASGYPLEEGR
+Sbjct  241  AQECTEAGITSYPTWIINGRTYTGVRSLEALAVASGYPLEEGR  283
+
+
+> sp|Q8L540|LTO1_ARATH Thiol-disulfide oxidoreductase LTO1 OS=Arabidopsis 
+thaliana OX=3702 GN=LTO1 PE=1 SV=1
+Length=376
+
+ Score = 138 bits (347),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 100/286 (35%), Positives = 145/286 (51%), Gaps = 29/286 (10%)
+
+Query  26   LAGLGSLLTAYLTYTKLTEQPAAFC-TGDGGCDLVLSSRWAEFLGIPTAAVGLLGFLGVL  84
+            + G+G L TAYLTY K+T   A FC  G G C  VL+S +A   G+P   +G + +  V 
+Sbjct  86   IGGIGMLDTAYLTYLKVTGSDA-FCPIGGGTCGDVLNSDYAVVFGVPLPVIGFVMYGVVT  144
+
+Query  85   AL-AVLPDG-LP--LVKRWRWPALFGLVSAMTAFEMYMLYLMVAVLR-QFCMYCTTAIIL  139
+            AL A L +G LP  + K     ALFG+ +AM +   Y LY++   L    C+YC  +  L
+Sbjct  145  ALSAELGEGNLPFGISKSNGRFALFGITTAMASASAYFLYILSTKLSGSSCLYCLVSAFL  204
+
+Query  140  VAGLGLVTVLGHRWLDGGKLAFSYILVAFLTLVTTIGVYANQVPPPS-------------  186
+               L  ++V   +  +  ++    I +A + + +    Y+   P PS             
+Sbjct  205  SFSLFFLSVKDVKLQEIQQVVGLQICLAIIVVASLTASYSTAQPIPSRSGDIELPYFRTE  264
+
+Query  187  ------PLAVGLAAHLRQIGGTMYGAYWCPHCQDQKELFG-AAFDQVPYVECSPNG--PG  237
+                  P A+ LA HL  IG  MYGA+WC HC +QKE+FG  A  ++ YVEC P+G   G
+Sbjct  265  ISSSSSPYAIALAKHLNSIGAKMYGAFWCSHCLEQKEMFGREAAKELNYVECFPDGYKKG  324
+
+Query  238  TPQAQECTEAGITSYPTWIINGRTYTGVRSLEALAVASGYPLEEGR  283
+            T   + C +A I  +PTWIIN +  +G   L  LA  +G+ L++  
+Sbjct  325  TKILKACADAAIEGFPTWIINDKVLSGEIELAELAEMTGFSLDQAN  370
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22555112518
+Results from round 2
+
+
+Query= Q2JJF6|4nv6A
+
+Length=283
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q2JJF6|VKOR_SYNJB Vitamin K epoxide reductase homolog OS=Syn...  450     1e-158
+  sp|Q8L540|LTO1_ARATH Thiol-disulfide oxidoreductase LTO1 OS=Ara...  344     1e-115
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q2JJF6|VKOR_SYNJB Vitamin K epoxide reductase homolog OS=Synechococcus 
+sp. (strain JA-2-3B'a(2-13)) OX=321332 GN=CYB_2278 
+PE=1 SV=1
+Length=283
+
+ Score = 450 bits (1158),  Expect = 1e-158, Method: Composition-based stats.
+ Identities = 283/283 (100%), Positives = 283/283 (100%), Gaps = 0/283 (0%)
+
+Query  1    MASYLKLKAQEETWLQRHSRLILAILAGLGSLLTAYLTYTKLTEQPAAFCTGDGGCDLVL  60
+            MASYLKLKAQEETWLQRHSRLILAILAGLGSLLTAYLTYTKLTEQPAAFCTGDGGCDLVL
+Sbjct  1    MASYLKLKAQEETWLQRHSRLILAILAGLGSLLTAYLTYTKLTEQPAAFCTGDGGCDLVL  60
+
+Query  61   SSRWAEFLGIPTAAVGLLGFLGVLALAVLPDGLPLVKRWRWPALFGLVSAMTAFEMYMLY  120
+            SSRWAEFLGIPTAAVGLLGFLGVLALAVLPDGLPLVKRWRWPALFGLVSAMTAFEMYMLY
+Sbjct  61   SSRWAEFLGIPTAAVGLLGFLGVLALAVLPDGLPLVKRWRWPALFGLVSAMTAFEMYMLY  120
+
+Query  121  LMVAVLRQFCMYCTTAIILVAGLGLVTVLGHRWLDGGKLAFSYILVAFLTLVTTIGVYAN  180
+            LMVAVLRQFCMYCTTAIILVAGLGLVTVLGHRWLDGGKLAFSYILVAFLTLVTTIGVYAN
+Sbjct  121  LMVAVLRQFCMYCTTAIILVAGLGLVTVLGHRWLDGGKLAFSYILVAFLTLVTTIGVYAN  180
+
+Query  181  QVPPPSPLAVGLAAHLRQIGGTMYGAYWCPHCQDQKELFGAAFDQVPYVECSPNGPGTPQ  240
+            QVPPPSPLAVGLAAHLRQIGGTMYGAYWCPHCQDQKELFGAAFDQVPYVECSPNGPGTPQ
+Sbjct  181  QVPPPSPLAVGLAAHLRQIGGTMYGAYWCPHCQDQKELFGAAFDQVPYVECSPNGPGTPQ  240
+
+Query  241  AQECTEAGITSYPTWIINGRTYTGVRSLEALAVASGYPLEEGR  283
+            AQECTEAGITSYPTWIINGRTYTGVRSLEALAVASGYPLEEGR
+Sbjct  241  AQECTEAGITSYPTWIINGRTYTGVRSLEALAVASGYPLEEGR  283
+
+
+> sp|Q8L540|LTO1_ARATH Thiol-disulfide oxidoreductase LTO1 OS=Arabidopsis 
+thaliana OX=3702 GN=LTO1 PE=1 SV=1
+Length=376
+
+ Score = 344 bits (883),  Expect = 1e-115, Method: Composition-based stats.
+ Identities = 98/285 (34%), Positives = 143/285 (50%), Gaps = 27/285 (9%)
+
+Query  26   LAGLGSLLTAYLTYTKLTEQPAAFCTGDGGCDLVLSSRWAEFLGIPTAAVGLLGFLGVLA  85
+            + G+G L TAYLTY K+T   A    G G C  VL+S +A   G+P   +G + +  V A
+Sbjct  86   IGGIGMLDTAYLTYLKVTGSDAFCPIGGGTCGDVLNSDYAVVFGVPLPVIGFVMYGVVTA  145
+
+Query  86   L-AVLPDG-LP--LVKRWRWPALFGLVSAMTAFEMYMLYLMVAVLR-QFCMYCTTAIILV  140
+            L A L +G LP  + K     ALFG+ +AM +   Y LY++   L    C+YC  +  L 
+Sbjct  146  LSAELGEGNLPFGISKSNGRFALFGITTAMASASAYFLYILSTKLSGSSCLYCLVSAFLS  205
+
+Query  141  AGLGLVTVLGHRWLDGGKLAFSYILVAFLTLVTTIGVYANQVPPP---------------  185
+              L  ++V   +  +  ++    I +A + + +    Y+   P P               
+Sbjct  206  FSLFFLSVKDVKLQEIQQVVGLQICLAIIVVASLTASYSTAQPIPSRSGDIELPYFRTEI  265
+
+Query  186  ----SPLAVGLAAHLRQIGGTMYGAYWCPHCQDQKELFG-AAFDQVPYVECSPNG--PGT  238
+                SP A+ LA HL  IG  MYGA+WC HC +QKE+FG  A  ++ YVEC P+G   GT
+Sbjct  266  SSSSSPYAIALAKHLNSIGAKMYGAFWCSHCLEQKEMFGREAAKELNYVECFPDGYKKGT  325
+
+Query  239  PQAQECTEAGITSYPTWIINGRTYTGVRSLEALAVASGYPLEEGR  283
+               + C +A I  +PTWIIN +  +G   L  LA  +G+ L++  
+Sbjct  326  KILKACADAAIEGFPTWIINDKVLSGEIELAELAEMTGFSLDQAN  370
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0418    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22555112518
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

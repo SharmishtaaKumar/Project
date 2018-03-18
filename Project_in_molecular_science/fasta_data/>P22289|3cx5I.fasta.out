@@ -1,0 +1,490 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P22289|3cx5I
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P22289|QCR9_YEAST Cytochrome b-c1 complex subunit 9 OS=Sacch...  134     4e-41
+  sp|Q6CJX2|QCR9_KLULA Cytochrome b-c1 complex subunit 9 OS=Kluyv...  93.6    4e-25
+  sp|Q8R1I1|QCR9_MOUSE Cytochrome b-c1 complex subunit 9 OS=Mus m...  48.5    9e-08
+  sp|Q9XY35|QCR9_DROME Cytochrome b-c1 complex subunit 9 OS=Droso...  47.8    1e-07
+  sp|P00130|QCR9_BOVIN Cytochrome b-c1 complex subunit 9 OS=Bos t...  47.8    2e-07
+  sp|O74433|QCR9_SCHPO Cytochrome b-c1 complex subunit 9 OS=Schiz...  47.4    2e-07
+  sp|Q9UDW1|QCR9_HUMAN Cytochrome b-c1 complex subunit 9 OS=Homo ...  45.4    1e-06
+  sp|Q54QR8|QCR9_DICDI Probable cytochrome b-c1 complex subunit 9...  41.2    3e-05
+  sp|P46270|QCR9_SOLTU Cytochrome b-c1 complex subunit 9 OS=Solan...  35.0    0.005
+
+
+> sp|P22289|QCR9_YEAST Cytochrome b-c1 complex subunit 9 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=QCR9 PE=1 SV=2
+Length=66
+
+ Score = 134 bits (338),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD
+Sbjct  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+
+Query  61  GDDDDE  66
+           GDDDDE
+Sbjct  61  GDDDDE  66
+
+
+> sp|Q6CJX2|QCR9_KLULA Cytochrome b-c1 complex subunit 9 OS=Kluyveromyces 
+lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / 
+NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=QCR9 PE=3 SV=3
+Length=69
+
+ Score = 93.6 bits (231),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 45/60 (75%), Positives = 50/60 (83%), Gaps = 1/60 (2%)
+
+Query  1   MSF-SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSF S+LYKT FKRN+VFVGT+FA AFVFQ  FDT +TSWYENHNKGKLWKD+K  I  G
+Sbjct  1   MSFASTLYKTVFKRNSVFVGTVFASAFVFQAAFDTGVTSWYENHNKGKLWKDIKGGIMNG  60
+
+
+> sp|Q8R1I1|QCR9_MOUSE Cytochrome b-c1 complex subunit 9 OS=Mus 
+musculus OX=10090 GN=Uqcr10 PE=1 SV=1
+Length=64
+
+ Score = 48.5 bits (114),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 22/52 (42%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           S LY   F+R + F  TI  GA  F+  FD    + YE+ N+GKLWK +K +
+Sbjct  8   SRLYSLLFRRTSTFALTIAVGALFFERAFDQGADAIYEHINEGKLWKHIKHK  59
+
+
+> sp|Q9XY35|QCR9_DROME Cytochrome b-c1 complex subunit 9 OS=Drosophila 
+melanogaster OX=7227 GN=ox PE=3 SV=1
+Length=55
+
+ Score = 47.8 bits (112),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 21/50 (42%), Positives = 29/50 (58%), Gaps = 0/50 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           +Y T FKR + +   I A AF F+   D    + +E  NKGKLWKD+K +
+Sbjct  4   IYNTLFKRTSTYAVAIIASAFFFERALDVTSVAIFEGINKGKLWKDIKGK  53
+
+
+> sp|P00130|QCR9_BOVIN Cytochrome b-c1 complex subunit 9 OS=Bos 
+taurus OX=9913 GN=UQCR10 PE=1 SV=3
+Length=64
+
+ Score = 47.8 bits (112),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 21/52 (40%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           + LY   F+R + F  TI  GA  F+  FD    + YE+ N+GKLWK +K +
+Sbjct  8   ARLYSLLFRRTSTFALTIVVGALFFERAFDQGADAIYEHINEGKLWKHIKHK  59
+
+
+> sp|O74433|QCR9_SCHPO Cytochrome b-c1 complex subunit 9 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=qcr9 
+PE=3 SV=2
+Length=67
+
+ Score = 47.4 bits (111),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 25/66 (38%), Positives = 36/66 (55%), Gaps = 0/66 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           M+ S++Y  FF+RN+ F  TIF  AF  +  FD    S ++  N G  W +VK R    D
+Sbjct  1   MASSTIYNIFFRRNSSFYATIFVSAFFAKIGFDVFTDSVWKRANAGLTWDEVKPRFLNKD  60
+
+Query  61  GDDDDE  66
+            D +D+
+Sbjct  61  EDAEDD  66
+
+
+> sp|Q9UDW1|QCR9_HUMAN Cytochrome b-c1 complex subunit 9 OS=Homo 
+sapiens OX=9606 GN=UQCR10 PE=1 SV=3
+Length=63
+
+ Score = 45.4 bits (106),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 20/52 (38%), Positives = 29/52 (56%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           S LY   F+R + F  TI  G   F+  FD    + Y++ N+GKLWK +K +
+Sbjct  8   SKLYSLLFRRTSTFALTIIVGVMFFERAFDQGADAIYDHINEGKLWKHIKHK  59
+
+
+> sp|Q54QR8|QCR9_DICDI Probable cytochrome b-c1 complex subunit 
+9 OS=Dictyostelium discoideum OX=44689 GN=DDB_G0283669 PE=3 
+SV=1
+Length=66
+
+ Score = 41.2 bits (95),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 21/54 (39%), Positives = 33/54 (61%), Gaps = 1/54 (2%)
+
+Query  7   YKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKA-RIAAG  59
+           YK   +RN+ ++     GAFV  +    A+ +++++ NKGKLWKDV A R+  G
+Sbjct  10  YKYVARRNSTWMAGAILGAFVLDSTVSGAVNTFFDSVNKGKLWKDVYAERVKKG  63
+
+
+> sp|P46270|QCR9_SOLTU Cytochrome b-c1 complex subunit 9 OS=Solanum 
+tuberosum OX=4113 PE=1 SV=1
+Length=72
+
+ Score = 35.0 bits (79),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 13/50 (26%), Positives = 26/50 (52%), Gaps = 0/50 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDV  52
+               Y+   +R  V+V  + AGA + +   D  + + +E +N GK ++D+
+Sbjct  13  LEGFYRLVMRRTPVYVTFVIAGALLGERAVDYGVKTLWEKNNVGKRYEDI  62
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4997801312
+Results from round 2
+
+
+Query= P22289|3cx5I
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8R1I1|QCR9_MOUSE Cytochrome b-c1 complex subunit 9 OS=Mus m...  84.0    2e-21
+  sp|P00130|QCR9_BOVIN Cytochrome b-c1 complex subunit 9 OS=Bos t...  82.8    5e-21
+  sp|O74433|QCR9_SCHPO Cytochrome b-c1 complex subunit 9 OS=Schiz...  79.4    1e-19
+  sp|Q9UDW1|QCR9_HUMAN Cytochrome b-c1 complex subunit 9 OS=Homo ...  79.0    2e-19
+  sp|Q6CJX2|QCR9_KLULA Cytochrome b-c1 complex subunit 9 OS=Kluyv...  77.4    9e-19
+  sp|P22289|QCR9_YEAST Cytochrome b-c1 complex subunit 9 OS=Sacch...  76.3    2e-18
+  sp|Q9XY35|QCR9_DROME Cytochrome b-c1 complex subunit 9 OS=Droso...  66.6    1e-14
+  sp|Q54QR8|QCR9_DICDI Probable cytochrome b-c1 complex subunit 9...  61.6    8e-13
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P46270|QCR9_SOLTU Cytochrome b-c1 complex subunit 9 OS=Solan...  44.7    2e-06
+
+
+> sp|Q8R1I1|QCR9_MOUSE Cytochrome b-c1 complex subunit 9 OS=Mus 
+musculus OX=10090 GN=Uqcr10 PE=1 SV=1
+Length=64
+
+ Score = 84.0 bits (206),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 22/57 (39%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           S LY   F+R + F  TI  GA  F+  FD    + YE+ N+GKLWK +K +    +
+Sbjct  8   SRLYSLLFRRTSTFALTIAVGALFFERAFDQGADAIYEHINEGKLWKHIKHKYENKE  64
+
+
+> sp|P00130|QCR9_BOVIN Cytochrome b-c1 complex subunit 9 OS=Bos 
+taurus OX=9913 GN=UQCR10 PE=1 SV=3
+Length=64
+
+ Score = 82.8 bits (203),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           + LY   F+R + F  TI  GA  F+  FD    + YE+ N+GKLWK +K +    +
+Sbjct  8   ARLYSLLFRRTSTFALTIVVGALFFERAFDQGADAIYEHINEGKLWKHIKHKYENKE  64
+
+
+> sp|O74433|QCR9_SCHPO Cytochrome b-c1 complex subunit 9 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=qcr9 
+PE=3 SV=2
+Length=67
+
+ Score = 79.4 bits (194),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 25/66 (38%), Positives = 36/66 (55%), Gaps = 0/66 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           M+ S++Y  FF+RN+ F  TIF  AF  +  FD    S ++  N G  W +VK R    D
+Sbjct  1   MASSTIYNIFFRRNSSFYATIFVSAFFAKIGFDVFTDSVWKRANAGLTWDEVKPRFLNKD  60
+
+Query  61  GDDDDE  66
+            D +D+
+Sbjct  61  EDAEDD  66
+
+
+> sp|Q9UDW1|QCR9_HUMAN Cytochrome b-c1 complex subunit 9 OS=Homo 
+sapiens OX=9606 GN=UQCR10 PE=1 SV=3
+Length=63
+
+ Score = 79.0 bits (193),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 20/56 (36%), Positives = 29/56 (52%), Gaps = 0/56 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           S LY   F+R + F  TI  G   F+  FD    + Y++ N+GKLWK +K +    
+Sbjct  8   SKLYSLLFRRTSTFALTIIVGVMFFERAFDQGADAIYDHINEGKLWKHIKHKYENK  63
+
+
+> sp|Q6CJX2|QCR9_KLULA Cytochrome b-c1 complex subunit 9 OS=Kluyveromyces 
+lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / 
+NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=QCR9 PE=3 SV=3
+Length=69
+
+ Score = 77.4 bits (189),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 45/60 (75%), Positives = 50/60 (83%), Gaps = 1/60 (2%)
+
+Query  1   MSF-SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSF S+LYKT FKRN+VFVGT+FA AFVFQ  FDT +TSWYENHNKGKLWKD+K  I  G
+Sbjct  1   MSFASTLYKTVFKRNSVFVGTVFASAFVFQAAFDTGVTSWYENHNKGKLWKDIKGGIMNG  60
+
+
+> sp|P22289|QCR9_YEAST Cytochrome b-c1 complex subunit 9 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=QCR9 PE=1 SV=2
+Length=66
+
+ Score = 76.3 bits (186),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 56/56 (100%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI
+Sbjct  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+
+
+> sp|Q9XY35|QCR9_DROME Cytochrome b-c1 complex subunit 9 OS=Drosophila 
+melanogaster OX=7227 GN=ox PE=3 SV=1
+Length=55
+
+ Score = 66.6 bits (161),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 21/51 (41%), Positives = 29/51 (57%), Gaps = 0/51 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           +Y T FKR + +   I A AF F+   D    + +E  NKGKLWKD+K + 
+Sbjct  4   IYNTLFKRTSTYAVAIIASAFFFERALDVTSVAIFEGINKGKLWKDIKGKY  54
+
+
+> sp|Q54QR8|QCR9_DICDI Probable cytochrome b-c1 complex subunit 
+9 OS=Dictyostelium discoideum OX=44689 GN=DDB_G0283669 PE=3 
+SV=1
+Length=66
+
+ Score = 61.6 bits (148),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 21/55 (38%), Positives = 33/55 (60%), Gaps = 1/55 (2%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKA-RIAAG  59
+            YK   +RN+ ++     GAFV  +    A+ +++++ NKGKLWKDV A R+  G
+Sbjct  9   FYKYVARRNSTWMAGAILGAFVLDSTVSGAVNTFFDSVNKGKLWKDVYAERVKKG  63
+
+
+> sp|P46270|QCR9_SOLTU Cytochrome b-c1 complex subunit 9 OS=Solanum 
+tuberosum OX=4113 PE=1 SV=1
+Length=72
+
+ Score = 44.7 bits (104),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 13/47 (28%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDV  52
+            Y+   +R  V+V  + AGA + +   D  + + +E +N GK ++D+
+Sbjct  16  FYRLVMRRTPVYVTFVIAGALLGERAVDYGVKTLWEKNNVGKRYEDI  62
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.133    0.348    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0405    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4997801312
+Results from round 3
+
+
+Query= P22289|3cx5I
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q8R1I1|QCR9_MOUSE Cytochrome b-c1 complex subunit 9 OS=Mus m...  82.4    9e-21
+  sp|P00130|QCR9_BOVIN Cytochrome b-c1 complex subunit 9 OS=Bos t...  81.2    2e-20
+  sp|Q9UDW1|QCR9_HUMAN Cytochrome b-c1 complex subunit 9 OS=Homo ...  77.4    9e-19
+  sp|O74433|QCR9_SCHPO Cytochrome b-c1 complex subunit 9 OS=Schiz...  74.3    1e-17
+  sp|Q6CJX2|QCR9_KLULA Cytochrome b-c1 complex subunit 9 OS=Kluyv...  72.8    6e-17
+  sp|P22289|QCR9_YEAST Cytochrome b-c1 complex subunit 9 OS=Sacch...  70.8    3e-16
+  sp|Q9XY35|QCR9_DROME Cytochrome b-c1 complex subunit 9 OS=Droso...  63.9    9e-14
+  sp|P46270|QCR9_SOLTU Cytochrome b-c1 complex subunit 9 OS=Solan...  63.5    2e-13
+  sp|Q54QR8|QCR9_DICDI Probable cytochrome b-c1 complex subunit 9...  58.5    1e-11
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q8R1I1|QCR9_MOUSE Cytochrome b-c1 complex subunit 9 OS=Mus 
+musculus OX=10090 GN=Uqcr10 PE=1 SV=1
+Length=64
+
+ Score = 82.4 bits (202),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 22/57 (39%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           S LY   F+R + F  TI  GA  F+  FD    + YE+ N+GKLWK +K +    +
+Sbjct  8   SRLYSLLFRRTSTFALTIAVGALFFERAFDQGADAIYEHINEGKLWKHIKHKYENKE  64
+
+
+> sp|P00130|QCR9_BOVIN Cytochrome b-c1 complex subunit 9 OS=Bos 
+taurus OX=9913 GN=UQCR10 PE=1 SV=3
+Length=64
+
+ Score = 81.2 bits (199),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           + LY   F+R + F  TI  GA  F+  FD    + YE+ N+GKLWK +K +    +
+Sbjct  8   ARLYSLLFRRTSTFALTIVVGALFFERAFDQGADAIYEHINEGKLWKHIKHKYENKE  64
+
+
+> sp|Q9UDW1|QCR9_HUMAN Cytochrome b-c1 complex subunit 9 OS=Homo 
+sapiens OX=9606 GN=UQCR10 PE=1 SV=3
+Length=63
+
+ Score = 77.4 bits (189),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 20/56 (36%), Positives = 29/56 (52%), Gaps = 0/56 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           S LY   F+R + F  TI  G   F+  FD    + Y++ N+GKLWK +K +    
+Sbjct  8   SKLYSLLFRRTSTFALTIIVGVMFFERAFDQGADAIYDHINEGKLWKHIKHKYENK  63
+
+
+> sp|O74433|QCR9_SCHPO Cytochrome b-c1 complex subunit 9 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=qcr9 
+PE=3 SV=2
+Length=67
+
+ Score = 74.3 bits (181),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 25/66 (38%), Positives = 36/66 (55%), Gaps = 0/66 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           M+ S++Y  FF+RN+ F  TIF  AF  +  FD    S ++  N G  W +VK R    D
+Sbjct  1   MASSTIYNIFFRRNSSFYATIFVSAFFAKIGFDVFTDSVWKRANAGLTWDEVKPRFLNKD  60
+
+Query  61  GDDDDE  66
+            D +D+
+Sbjct  61  EDAEDD  66
+
+
+> sp|Q6CJX2|QCR9_KLULA Cytochrome b-c1 complex subunit 9 OS=Kluyveromyces 
+lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / 
+NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=QCR9 PE=3 SV=3
+Length=69
+
+ Score = 72.8 bits (177),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 42/56 (75%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           S+LYKT FKRN+VFVGT+FA AFVFQ  FDT +TSWYENHNKGKLWKD+K  I  G
+Sbjct  5   STLYKTVFKRNSVFVGTVFASAFVFQAAFDTGVTSWYENHNKGKLWKDIKGGIMNG  60
+
+
+> sp|P22289|QCR9_YEAST Cytochrome b-c1 complex subunit 9 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=QCR9 PE=1 SV=2
+Length=66
+
+ Score = 70.8 bits (172),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 56/56 (100%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI
+Sbjct  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+
+
+> sp|Q9XY35|QCR9_DROME Cytochrome b-c1 complex subunit 9 OS=Drosophila 
+melanogaster OX=7227 GN=ox PE=3 SV=1
+Length=55
+
+ Score = 63.9 bits (154),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 21/52 (40%), Positives = 29/52 (56%), Gaps = 0/52 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           +Y T FKR + +   I A AF F+   D    + +E  NKGKLWKD+K +  
+Sbjct  4   IYNTLFKRTSTYAVAIIASAFFFERALDVTSVAIFEGINKGKLWKDIKGKYE  55
+
+
+> sp|P46270|QCR9_SOLTU Cytochrome b-c1 complex subunit 9 OS=Solanum 
+tuberosum OX=4113 PE=1 SV=1
+Length=72
+
+ Score = 63.5 bits (153),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 13/47 (28%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDV  52
+            Y+   +R  V+V  + AGA + +   D  + + +E +N GK ++D+
+Sbjct  16  FYRLVMRRTPVYVTFVIAGALLGERAVDYGVKTLWEKNNVGKRYEDI  62
+
+
+> sp|Q54QR8|QCR9_DICDI Probable cytochrome b-c1 complex subunit 
+9 OS=Dictyostelium discoideum OX=44689 GN=DDB_G0283669 PE=3 
+SV=1
+Length=66
+
+ Score = 58.5 bits (140),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 19/54 (35%), Positives = 30/54 (56%), Gaps = 0/54 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+            YK   +RN+ ++     GAFV  +    A+ +++++ NKGKLWKDV A     
+Sbjct  9   FYKYVARRNSTWMAGAILGAFVLDSTVSGAVNTFFDSVNKGKLWKDVYAERVKK  62
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0421    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4997801312
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,223 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= O75324|1zzaA
+
+Length=88
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O75324|SNN_HUMAN Stannin OS=Homo sapiens OX=9606 GN=SNN PE=1...  181     5e-59
+  sp|P61808|SNN_RAT Stannin OS=Rattus norvegicus OX=10116 GN=Snn ...  177     2e-57
+  sp|P61807|SNN_MOUSE Stannin OS=Mus musculus OX=10090 GN=Snn PE=...  177     2e-57
+  sp|Q17Q87|SNN_BOVIN Stannin OS=Bos taurus OX=9913 GN=SNN PE=3 SV=1  173     1e-55
+
+
+> sp|O75324|SNN_HUMAN Stannin OS=Homo sapiens OX=9606 GN=SNN PE=1 
+SV=1
+Length=88
+
+ Score = 181 bits (460),  Expect = 5e-59, Method: Compositional matrix adjust.
+ Identities = 88/88 (100%), Positives = 88/88 (100%), Gaps = 0/88 (0%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+           LLVQYSAKGPCVERKAKLMTPNGPEVHG
+Sbjct  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+
+
+> sp|P61808|SNN_RAT Stannin OS=Rattus norvegicus OX=10116 GN=Snn 
+PE=1 SV=1
+Length=88
+
+ Score = 177 bits (449),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 86/88 (98%), Positives = 86/88 (98%), Gaps = 0/88 (0%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+           LLVQYSAKGPCVERKAKLMT N PEVHG
+Sbjct  61  LLVQYSAKGPCVERKAKLMTANSPEVHG  88
+
+
+> sp|P61807|SNN_MOUSE Stannin OS=Mus musculus OX=10090 GN=Snn PE=1 
+SV=1
+Length=88
+
+ Score = 177 bits (449),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 86/88 (98%), Positives = 86/88 (98%), Gaps = 0/88 (0%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+           LLVQYSAKGPCVERKAKLMT N PEVHG
+Sbjct  61  LLVQYSAKGPCVERKAKLMTANSPEVHG  88
+
+
+> sp|Q17Q87|SNN_BOVIN Stannin OS=Bos taurus OX=9913 GN=SNN PE=3 
+SV=1
+Length=87
+
+ Score = 173 bits (438),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 86/87 (99%), Positives = 86/87 (99%), Gaps = 1/87 (1%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVH  87
+           LLVQYSAKGPCVERKAKL TPNGPEVH
+Sbjct  61  LLVQYSAKGPCVERKAKL-TPNGPEVH  86
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5020692120
+Results from round 2
+
+
+Query= O75324|1zzaA
+
+Length=88
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O75324|SNN_HUMAN Stannin OS=Homo sapiens OX=9606 GN=SNN PE=1...  173     7e-56
+  sp|P61808|SNN_RAT Stannin OS=Rattus norvegicus OX=10116 GN=Snn ...  172     3e-55
+  sp|P61807|SNN_MOUSE Stannin OS=Mus musculus OX=10090 GN=Snn PE=...  172     3e-55
+  sp|Q17Q87|SNN_BOVIN Stannin OS=Bos taurus OX=9913 GN=SNN PE=3 SV=1  165     2e-52
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|O75324|SNN_HUMAN Stannin OS=Homo sapiens OX=9606 GN=SNN PE=1 
+SV=1
+Length=88
+
+ Score = 173 bits (439),  Expect = 7e-56, Method: Composition-based stats.
+ Identities = 88/88 (100%), Positives = 88/88 (100%), Gaps = 0/88 (0%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+           LLVQYSAKGPCVERKAKLMTPNGPEVHG
+Sbjct  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+
+
+> sp|P61808|SNN_RAT Stannin OS=Rattus norvegicus OX=10116 GN=Snn 
+PE=1 SV=1
+Length=88
+
+ Score = 172 bits (435),  Expect = 3e-55, Method: Composition-based stats.
+ Identities = 86/88 (98%), Positives = 86/88 (98%), Gaps = 0/88 (0%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+           LLVQYSAKGPCVERKAKLMT N PEVHG
+Sbjct  61  LLVQYSAKGPCVERKAKLMTANSPEVHG  88
+
+
+> sp|P61807|SNN_MOUSE Stannin OS=Mus musculus OX=10090 GN=Snn PE=1 
+SV=1
+Length=88
+
+ Score = 172 bits (435),  Expect = 3e-55, Method: Composition-based stats.
+ Identities = 86/88 (98%), Positives = 86/88 (98%), Gaps = 0/88 (0%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+           LLVQYSAKGPCVERKAKLMT N PEVHG
+Sbjct  61  LLVQYSAKGPCVERKAKLMTANSPEVHG  88
+
+
+> sp|Q17Q87|SNN_BOVIN Stannin OS=Bos taurus OX=9913 GN=SNN PE=3 
+SV=1
+Length=87
+
+ Score = 165 bits (417),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 86/87 (99%), Positives = 86/87 (99%), Gaps = 1/87 (1%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVH  87
+           LLVQYSAKGPCVERKAKL TPNGPEVH
+Sbjct  61  LLVQYSAKGPCVERKAKL-TPNGPEVH  86
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.144    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0446    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5020692120
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,147 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q42496|1q90M
+
+Length=99
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q42496|PETM_CHLRE Cytochrome b6-f complex subunit 7, chlorop...  188     2e-61
+  sp|P80883|PETM_SPIOL Cytochrome b6-f complex subunit 7 (Fragmen...  38.9    3e-04
+
+
+> sp|Q42496|PETM_CHLRE Cytochrome b6-f complex subunit 7, chloroplastic 
+OS=Chlamydomonas reinhardtii OX=3055 GN=petM PE=1 SV=1
+Length=99
+
+ Score = 188 bits (478),  Expect = 2e-61, Method: Compositional matrix adjust.
+ Identities = 99/99 (100%), Positives = 99/99 (100%), Gaps = 0/99 (0%)
+
+Query  1   MAMSIAARSACCGVAAPRSSTVRVAAARPAVRPSLRTAGQKAAPSRGVATKAVNELAMIA  60
+           MAMSIAARSACCGVAAPRSSTVRVAAARPAVRPSLRTAGQKAAPSRGVATKAVNELAMIA
+Sbjct  1   MAMSIAARSACCGVAAPRSSTVRVAAARPAVRPSLRTAGQKAAPSRGVATKAVNELAMIA  60
+
+Query  61  GEAEFIAGTALTMVGMTLVGLAIGFVLLRVESLVEEGKI  99
+           GEAEFIAGTALTMVGMTLVGLAIGFVLLRVESLVEEGKI
+Sbjct  61  GEAEFIAGTALTMVGMTLVGLAIGFVLLRVESLVEEGKI  99
+
+
+> sp|P80883|PETM_SPIOL Cytochrome b6-f complex subunit 7 (Fragment) 
+OS=Spinacia oleracea OX=3562 GN=petM PE=1 SV=1
+Length=36
+
+ Score = 38.9 bits (89),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 18/24 (75%), Positives = 22/24 (92%), Gaps = 0/24 (0%)
+
+Query  73  MVGMTLVGLAIGFVLLRVESLVEE  96
+           M G+TLVG+AIGFVLLR+E+ VEE
+Sbjct  13  MNGLTLVGVAIGFVLLRIEATVEE  36
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.129    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5015432774
+Results from round 2
+
+
+Query= Q42496|1q90M
+
+Length=99
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q42496|PETM_CHLRE Cytochrome b6-f complex subunit 7, chlorop...  126     4e-37
+  sp|P80883|PETM_SPIOL Cytochrome b6-f complex subunit 7 (Fragmen...  36.6    0.002
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q42496|PETM_CHLRE Cytochrome b6-f complex subunit 7, chloroplastic 
+OS=Chlamydomonas reinhardtii OX=3055 GN=petM PE=1 SV=1
+Length=99
+
+ Score = 126 bits (317),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 99/99 (100%), Positives = 99/99 (100%), Gaps = 0/99 (0%)
+
+Query  1   MAMSIAARSACCGVAAPRSSTVRVAAARPAVRPSLRTAGQKAAPSRGVATKAVNELAMIA  60
+           MAMSIAARSACCGVAAPRSSTVRVAAARPAVRPSLRTAGQKAAPSRGVATKAVNELAMIA
+Sbjct  1   MAMSIAARSACCGVAAPRSSTVRVAAARPAVRPSLRTAGQKAAPSRGVATKAVNELAMIA  60
+
+Query  61  GEAEFIAGTALTMVGMTLVGLAIGFVLLRVESLVEEGKI  99
+           GEAEFIAGTALTMVGMTLVGLAIGFVLLRVESLVEEGKI
+Sbjct  61  GEAEFIAGTALTMVGMTLVGLAIGFVLLRVESLVEEGKI  99
+
+
+> sp|P80883|PETM_SPIOL Cytochrome b6-f complex subunit 7 (Fragment) 
+OS=Spinacia oleracea OX=3562 GN=petM PE=1 SV=1
+Length=36
+
+ Score = 36.6 bits (83),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  70  ALTMVGMTLVGLAIGFVLLRVESLVEE  96
+           A  M G+TLVG+AIGFVLLR+E+ VEE
+Sbjct  10  AAVMNGLTLVGVAIGFVLLRIEATVEE  36
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.131    0.357    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0403    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5015432774
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

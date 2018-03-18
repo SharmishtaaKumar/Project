@@ -1,0 +1,1724 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P54710|2mkvA
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P54710|ATNG_HUMAN Sodium/potassium-transporting ATPase subun...  134     3e-41
+  sp|Q04679|ATNG_RAT Sodium/potassium-transporting ATPase subunit...  105     8e-30
+  sp|Q04646|ATNG_MOUSE Sodium/potassium-transporting ATPase subun...  101     5e-28
+  sp|Q04680|ATNG_SHEEP Sodium/potassium-transporting ATPase subun...  87.4    7e-23
+  sp|Q04645|ATNG_BOVIN Sodium/potassium-transporting ATPase subun...  87.0    1e-22
+  sp|O13001|ATNG_XENLA Sodium/potassium-transporting ATPase subun...  70.1    5e-16
+  sp|O00168|PLM_HUMAN Phospholemman OS=Homo sapiens OX=9606 GN=FX...  65.1    9e-14
+  sp|W5P3P0|PLM_SHEEP Phospholemman OS=Ovis aries OX=9940 GN=FXYD...  64.7    1e-13
+  sp|Q3SZX0|PLM_BOVIN Phospholemman OS=Bos taurus OX=9913 GN=FXYD...  64.7    1e-13
+  sp|Q9H0Q3|FXYD6_HUMAN FXYD domain-containing ion transport regu...  64.3    2e-13
+  sp|Q9D164|FXYD6_MOUSE FXYD domain-containing ion transport regu...  64.3    2e-13
+  sp|Q91XV6|FXYD6_RAT FXYD domain-containing ion transport regula...  64.3    2e-13
+  sp|Q5RB29|FXYD6_PONAB FXYD domain-containing ion transport regu...  63.9    3e-13
+  sp|Q4R566|FXYD6_MACFA FXYD domain-containing ion transport regu...  63.5    3e-13
+  sp|P56513|PLM_CANLF Phospholemman OS=Canis lupus familiaris OX=...  62.8    6e-13
+  sp|Q3MHZ5|FXYD6_BOVIN FXYD domain-containing ion transport regu...  61.6    2e-12
+  sp|I3LMB3|PLM_PIG Phospholemman OS=Sus scrofa OX=9823 GN=FXYD1 ...  60.5    4e-12
+  sp|O97797|FXYD3_PIG FXYD domain-containing ion transport regula...  52.0    6e-09
+  sp|P58550|FXYD8_HUMAN Putative FXYD domain-containing ion trans...  51.2    1e-08
+  sp|P59648|FXYD7_MOUSE FXYD domain-containing ion transport regu...  50.8    2e-08
+  sp|P58549|FXYD7_HUMAN FXYD domain-containing ion transport regu...  50.1    2e-08
+  sp|Q61835|FXYD3_MOUSE FXYD domain-containing ion transport regu...  47.4    3e-07
+  sp|P59645|FXYD3_RAT FXYD domain-containing ion transport regula...  46.2    7e-07
+  sp|Q63113|FXYD4_RAT FXYD domain-containing ion transport regula...  46.2    8e-07
+  sp|Q9Z239|PLM_MOUSE Phospholemman OS=Mus musculus OX=10090 GN=F...  45.4    1e-06
+  sp|O08589|PLM_RAT Phospholemman OS=Rattus norvegicus OX=10116 G...  45.1    2e-06
+  sp|Q14802|FXYD3_HUMAN FXYD domain-containing ion transport regu...  44.3    4e-06
+  sp|P59646|FXYD4_HUMAN FXYD domain-containing ion transport regu...  42.7    1e-05
+  sp|P59649|FXYD7_RAT FXYD domain-containing ion transport regula...  42.7    1e-05
+  sp|Q96DB9|FXYD5_HUMAN FXYD domain-containing ion transport regu...  41.2    1e-04
+  sp|P59647|FXYD5_RAT FXYD domain-containing ion transport regula...  40.8    2e-04
+  sp|P97808|FXYD5_MOUSE FXYD domain-containing ion transport regu...  40.4    2e-04
+  sp|Q3ZBJ3|FXYD7_BOVIN FXYD domain-containing ion transport regu...  37.0    0.001
+
+
+> sp|P54710|ATNG_HUMAN Sodium/potassium-transporting ATPase subunit 
+gamma OS=Homo sapiens OX=9606 GN=FXYD2 PE=1 SV=3
+Length=66
+
+ Score = 134 bits (338),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ
+Sbjct  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+
+Query  61  INEDEP  66
+           INEDEP
+Sbjct  61  INEDEP  66
+
+
+> sp|Q04679|ATNG_RAT Sodium/potassium-transporting ATPase subunit 
+gamma OS=Rattus norvegicus OX=10116 GN=Fxyd2 PE=2 SV=2
+Length=66
+
+ Score = 105 bits (263),  Expect = 8e-30, Method: Compositional matrix adjust.
+ Identities = 50/65 (77%), Positives = 56/65 (86%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           MT LS + GGS KG  +PF YDYETVR GGLIFAGLAF+VGLLILLS+RFRCGG+KK RQ
+Sbjct  1   MTELSANHGGSAKGTENPFEYDYETVRKGGLIFAGLAFVVGLLILLSKRFRCGGSKKHRQ  60
+
+Query  61  INEDE  65
+           +NEDE
+Sbjct  61  VNEDE  65
+
+
+> sp|Q04646|ATNG_MOUSE Sodium/potassium-transporting ATPase subunit 
+gamma OS=Mus musculus OX=10090 GN=Fxyd2 PE=1 SV=2
+Length=70
+
+ Score = 101 bits (251),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 47/65 (72%), Positives = 55/65 (85%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           ++ LS + GGS KG  +PF YDYETVR GGLIFAGLAF+VGLLI+LS+RFRCGG KK RQ
+Sbjct  5   ISDLSANSGGSAKGTENPFEYDYETVRKGGLIFAGLAFVVGLLIILSKRFRCGGGKKHRQ  64
+
+Query  61  INEDE  65
+           +NEDE
+Sbjct  65  VNEDE  69
+
+
+> sp|Q04680|ATNG_SHEEP Sodium/potassium-transporting ATPase subunit 
+gamma (Fragment) OS=Ovis aries OX=9940 GN=FXYD2 PE=1 SV=2
+Length=53
+
+ Score = 87.4 bits (215),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 40/48 (83%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  17  DPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINED  64
+           DPFYYDYETVRNGGLIFA LAFIVGL+I+LS+RFRCG  KK RQI ED
+Sbjct  4   DPFYYDYETVRNGGLIFAALAFIVGLVIILSKRFRCGAKKKHRQIPED  51
+
+
+> sp|Q04645|ATNG_BOVIN Sodium/potassium-transporting ATPase subunit 
+gamma OS=Bos taurus OX=9913 GN=FXYD2 PE=1 SV=1
+Length=58
+
+ Score = 87.0 bits (214),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 39/54 (72%), Positives = 46/54 (85%), Gaps = 0/54 (0%)
+
+Query  11  SPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINED  64
+           + +G  DPFYYDYETVRNGGLIFA LAFIVGL+I+LS+RFRCG  ++ RQI ED
+Sbjct  3   AVQGTEDPFYYDYETVRNGGLIFAALAFIVGLVIILSKRFRCGAKRQHRQIPED  56
+
+
+> sp|O13001|ATNG_XENLA Sodium/potassium-transporting ATPase subunit 
+gamma OS=Xenopus laevis OX=8355 GN=fxyd2 PE=1 SV=1
+Length=61
+
+ Score = 70.1 bits (170),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 30/48 (63%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  17  DPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINED  64
+           D F YDYET+R GGLIFA +AF+VG+LI+ S RFRCG  K+ R +N+D
+Sbjct  13  DKFTYDYETIRKGGLIFAAIAFVVGMLIIFSGRFRCGRKKQLRALNDD  60
+
+
+> sp|O00168|PLM_HUMAN Phospholemman OS=Homo sapiens OX=9606 GN=FXYD1 
+PE=1 SV=2
+Length=92
+
+ Score = 65.1 bits (157),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 31/62 (50%), Positives = 45/62 (73%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+M    SPK + DPF YDY++++ GGL+ AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LTMAKAESPK-EHDPFTYDYQSLQIGGLVIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|W5P3P0|PLM_SHEEP Phospholemman OS=Ovis aries OX=9940 GN=FXYD1 
+PE=3 SV=1
+Length=92
+
+ Score = 64.7 bits (156),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 31/62 (50%), Positives = 45/62 (73%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+M    +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LAMVNAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|Q3SZX0|PLM_BOVIN Phospholemman OS=Bos taurus OX=9913 GN=FXYD1 
+PE=1 SV=1
+Length=92
+
+ Score = 64.7 bits (156),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 31/62 (50%), Positives = 45/62 (73%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+M    +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LAMVNAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|Q9H0Q3|FXYD6_HUMAN FXYD domain-containing ion transport regulator 
+6 OS=Homo sapiens OX=9606 GN=FXYD6 PE=1 SV=1
+Length=95
+
+ Score = 64.3 bits (155),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 26/65 (40%), Positives = 44/65 (68%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + ++DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  12  LAPMVLASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+Query  61  INEDE  65
+             ++E
+Sbjct  72  PGDEE  76
+
+
+> sp|Q9D164|FXYD6_MOUSE FXYD domain-containing ion transport regulator 
+6 OS=Mus musculus OX=10090 GN=Fxyd6 PE=1 SV=2
+Length=94
+
+ Score = 64.3 bits (155),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 27/65 (42%), Positives = 43/65 (66%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + + DPFYYDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  11  LAPVVLASAAEKEKEKDPFYYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  70
+
+Query  61  INEDE  65
+             ++E
+Sbjct  71  PGDEE  75
+
+
+> sp|Q91XV6|FXYD6_RAT FXYD domain-containing ion transport regulator 
+6 OS=Rattus norvegicus OX=10116 GN=Fxyd6 PE=1 SV=1
+Length=94
+
+ Score = 64.3 bits (155),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 27/65 (42%), Positives = 43/65 (66%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + + DPFYYDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  11  LAPVVLASAAEKEKEKDPFYYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  70
+
+Query  61  INEDE  65
+             ++E
+Sbjct  71  PGDEE  75
+
+
+> sp|Q5RB29|FXYD6_PONAB FXYD domain-containing ion transport regulator 
+6 OS=Pongo abelii OX=9601 GN=FXYD6 PE=3 SV=1
+Length=95
+
+ Score = 63.9 bits (154),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 26/60 (43%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+
+Query  6   MDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINEDE  65
+           +      + ++DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R   ++E
+Sbjct  17  LASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRAPGDEE  76
+
+
+> sp|Q4R566|FXYD6_MACFA FXYD domain-containing ion transport regulator 
+6 OS=Macaca fascicularis OX=9541 GN=FXYD6 PE=3 SV=1
+Length=95
+
+ Score = 63.5 bits (153),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 26/65 (40%), Positives = 44/65 (68%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + ++DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  12  LAPMVLASTAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+Query  61  INEDE  65
+             ++E
+Sbjct  72  PGDEE  76
+
+
+> sp|P56513|PLM_CANLF Phospholemman OS=Canis lupus familiaris OX=9615 
+GN=FXYD1 PE=1 SV=1
+Length=92
+
+ Score = 62.8 bits (151),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 30/62 (48%), Positives = 44/62 (71%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+     +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LTTATAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|Q3MHZ5|FXYD6_BOVIN FXYD domain-containing ion transport regulator 
+6 OS=Bos taurus OX=9913 GN=FXYD6 PE=3 SV=1
+Length=95
+
+ Score = 61.6 bits (148),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 26/60 (43%), Positives = 41/60 (68%), Gaps = 0/60 (0%)
+
+Query  6   MDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINEDE  65
+           +      + + DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R   ++E
+Sbjct  17  LASATEQEKEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRAPGDEE  76
+
+
+> sp|I3LMB3|PLM_PIG Phospholemman OS=Sus scrofa OX=9823 GN=FXYD1 
+PE=1 SV=2
+Length=87
+
+ Score = 60.5 bits (145),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 27/55 (49%), Positives = 42/55 (76%), Gaps = 1/55 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKR  58
+           L++    +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++
+Sbjct  15  LTVVNAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQ  68
+
+
+> sp|O97797|FXYD3_PIG FXYD domain-containing ion transport regulator 
+3 OS=Sus scrofa OX=9823 GN=FXYD3 PE=3 SV=1
+Length=88
+
+ Score = 52.0 bits (123),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 25/66 (38%), Positives = 37/66 (56%), Gaps = 0/66 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           + GLS      P+    PFYYD+ ++R GGLI AG    +G++ILLS + +C  ++K   
+Sbjct  12  LAGLSALDANDPEDKNSPFYYDWHSLRVGGLICAGTPCALGIIILLSGKCKCKFSQKPSH  71
+
+Query  61  INEDEP  66
+              D P
+Sbjct  72  RPGDAP  77
+
+
+> sp|P58550|FXYD8_HUMAN Putative FXYD domain-containing ion transport 
+regulator 8 OS=Homo sapiens OX=9606 GN=FXYD6P3 PE=5 SV=2
+Length=94
+
+ Score = 51.2 bits (121),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 20/50 (40%), Positives = 33/50 (66%), Gaps = 0/50 (0%)
+
+Query  8   GGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKK  57
+              + + ++DPF+Y+Y+T+R GGL+F  + F+V    LLS R +C  N+K
+Sbjct  18  ASAAKEKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQK  67
+
+
+> sp|P59648|FXYD7_MOUSE FXYD domain-containing ion transport regulator 
+7 OS=Mus musculus OX=10090 GN=Fxyd7 PE=3 SV=1
+Length=80
+
+ Score = 50.8 bits (120),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 31/46 (67%), Gaps = 0/46 (0%)
+
+Query  15  DVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           + DPF+YDY TV+  G+  A + F++G++I+LS++ +C     R +
+Sbjct  14  ETDPFFYDYATVQTVGMTLATIMFVLGIIIILSKKVKCRKADSRSE  59
+
+
+> sp|P58549|FXYD7_HUMAN FXYD domain-containing ion transport regulator 
+7 OS=Homo sapiens OX=9606 GN=FXYD7 PE=1 SV=1
+Length=80
+
+ Score = 50.1 bits (118),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 31/46 (67%), Gaps = 0/46 (0%)
+
+Query  15  DVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           + DPFYYDY TV+  G+  A + F++G+LI++S++ +C     R +
+Sbjct  14  EPDPFYYDYNTVQTVGMTLATILFLLGILIVISKKVKCRKADSRSE  59
+
+
+> sp|Q61835|FXYD3_MOUSE FXYD domain-containing ion transport regulator 
+3 OS=Mus musculus OX=10090 GN=Fxyd3 PE=1 SV=1
+Length=88
+
+ Score = 47.4 bits (111),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 24/65 (37%), Positives = 36/65 (55%), Gaps = 4/65 (6%)
+
+Query  2   TGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQI  61
+            GL       P+   DPFYYD+ ++R GGLI AG+   +G+++L+S + +C    K RQ 
+Sbjct  13  AGLPTLDANDPENKNDPFYYDWYSLRVGGLICAGILCALGIIVLMSGKCKC----KFRQK  68
+
+Query  62  NEDEP  66
+               P
+Sbjct  69  PSHRP  73
+
+
+> sp|P59645|FXYD3_RAT FXYD domain-containing ion transport regulator 
+3 OS=Rattus norvegicus OX=10116 GN=Fxyd3 PE=3 SV=1
+Length=88
+
+ Score = 46.2 bits (108),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 34/55 (62%), Gaps = 0/55 (0%)
+
+Query  12  PKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINEDEP  66
+           P+    PFYYD+ ++R GGLI AG+   +G+++L+S + +C  ++K      D P
+Sbjct  23  PEDKDSPFYYDWHSLRVGGLICAGILCALGIIVLMSGKCKCKFSQKPSHRPGDGP  77
+
+
+> sp|Q63113|FXYD4_RAT FXYD domain-containing ion transport regulator 
+4 OS=Rattus norvegicus OX=10116 GN=Fxyd4 PE=1 SV=1
+Length=87
+
+ Score = 46.2 bits (108),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 22/63 (35%), Positives = 34/63 (54%), Gaps = 0/63 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           + GL +     P     PFYYD+E+++ GG+IF GL  I G+ + LS + +C  N     
+Sbjct  12  LAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+
+Query  61  INE  63
+           + E
+Sbjct  72  LPE  74
+
+
+> sp|Q9Z239|PLM_MOUSE Phospholemman OS=Mus musculus OX=10090 GN=Fxyd1 
+PE=1 SV=1
+Length=92
+
+ Score = 45.4 bits (106),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 31/62 (50%), Positives = 43/62 (69%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           LSM    +P+ + DPF YDY T+R GGL  AG+ FI+G+LI+LS+R RC  N+++R    
+Sbjct  15  LSMASAEAPQ-EPDPFTYDYHTLRIGGLTIAGILFILGILIILSKRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|O08589|PLM_RAT Phospholemman OS=Rattus norvegicus OX=10116 
+GN=Fxyd1 PE=1 SV=2
+Length=92
+
+ Score = 45.1 bits (105),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 31/62 (50%), Positives = 43/62 (69%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           LSM    +P+ + DPF YDY T+R GGL  AG+ FI+G+LI+LS+R RC  N+++R    
+Sbjct  15  LSMASAEAPQ-EPDPFTYDYHTLRIGGLTIAGILFILGILIILSKRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|Q14802|FXYD3_HUMAN FXYD domain-containing ion transport regulator 
+3 OS=Homo sapiens OX=9606 GN=FXYD3 PE=1 SV=1
+Length=87
+
+ Score = 44.3 bits (103),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 19/51 (37%), Positives = 31/51 (61%), Gaps = 1/51 (2%)
+
+Query  17  DPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCG-GNKKRRQINEDEP  66
+            PFYYD+ +++ GGLI AG+   +G++I++S + +C  G K      E  P
+Sbjct  28  SPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGHHPGETPP  78
+
+
+> sp|P59646|FXYD4_HUMAN FXYD domain-containing ion transport regulator 
+4 OS=Homo sapiens OX=9606 GN=FXYD4 PE=3 SV=2
+Length=89
+
+ Score = 42.7 bits (99),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 17/43 (40%), Positives = 28/43 (65%), Gaps = 0/43 (0%)
+
+Query  17  DPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRR  59
+           DPFYYD++ ++  GLI  GL  I G+  +LS + +C  ++K+ 
+Sbjct  28  DPFYYDWKNLQLSGLICGGLLAIAGIAAVLSGKCKCKSSQKQH  70
+
+
+> sp|P59649|FXYD7_RAT FXYD domain-containing ion transport regulator 
+7 OS=Rattus norvegicus OX=10116 GN=Fxyd7 PE=1 SV=1
+Length=80
+
+ Score = 42.7 bits (99),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 31/46 (67%), Gaps = 0/46 (0%)
+
+Query  15  DVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           + DPF+YDY TV+  G+  A + F++G++I++S++ +C     R +
+Sbjct  14  ETDPFFYDYATVQTVGMTLATIMFVLGIIIIISKKVKCRKADSRSE  59
+
+
+> sp|Q96DB9|FXYD5_HUMAN FXYD domain-containing ion transport regulator 
+5 OS=Homo sapiens OX=9606 GN=FXYD5 PE=1 SV=2
+Length=178
+
+ Score = 41.2 bits (95),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 17/35 (49%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  17   DPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFR  51
+            DPF+YD  T+R  GL+ A + FI G++IL S + R
+Sbjct  133  DPFFYDEHTLRKRGLLVAAVLFITGIIILTSGKCR  167
+
+
+> sp|P59647|FXYD5_RAT FXYD domain-containing ion transport regulator 
+5 OS=Rattus norvegicus OX=10116 GN=Fxyd5 PE=2 SV=2
+Length=178
+
+ Score = 40.8 bits (94),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 17/35 (49%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  17   DPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFR  51
+             PFYYD  T+R  GL+ A + FI G++IL S + R
+Sbjct  133  SPFYYDNTTLRKRGLLVAAVLFITGIIILTSGKCR  167
+
+
+> sp|P97808|FXYD5_MOUSE FXYD domain-containing ion transport regulator 
+5 OS=Mus musculus OX=10090 GN=Fxyd5 PE=1 SV=3
+Length=178
+
+ Score = 40.4 bits (93),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 17/35 (49%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  17   DPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFR  51
+            +PFYYD  T+R  GL+ A + FI G++IL S + R
+Sbjct  133  NPFYYDDTTLRKRGLLVAAVLFITGIIILTSGKCR  167
+
+
+> sp|Q3ZBJ3|FXYD7_BOVIN FXYD domain-containing ion transport regulator 
+7 OS=Bos taurus OX=9913 GN=FXYD7 PE=3 SV=1
+Length=78
+
+ Score = 37.0 bits (84),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 20/46 (43%), Positives = 32/46 (70%), Gaps = 0/46 (0%)
+
+Query  15  DVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           D DPFYYDY+TV+  G+  A + F++G+LI+LS++ +C     R +
+Sbjct  12  DPDPFYYDYDTVQTVGMTLATILFLLGILIILSKKVKCRKADSRSE  57
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.148    0.451    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4997801312
+Results from round 2
+
+
+Query= P54710|2mkvA
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P54710|ATNG_HUMAN Sodium/potassium-transporting ATPase subun...  106     5e-30
+  sp|O97797|FXYD3_PIG FXYD domain-containing ion transport regula...  105     1e-29
+  sp|Q61835|FXYD3_MOUSE FXYD domain-containing ion transport regu...  103     9e-29
+  sp|Q9H0Q3|FXYD6_HUMAN FXYD domain-containing ion transport regu...  102     3e-28
+  sp|Q91XV6|FXYD6_RAT FXYD domain-containing ion transport regula...  101     5e-28
+  sp|Q9D164|FXYD6_MOUSE FXYD domain-containing ion transport regu...  101     5e-28
+  sp|Q4R566|FXYD6_MACFA FXYD domain-containing ion transport regu...  100     1e-27
+  sp|Q5RB29|FXYD6_PONAB FXYD domain-containing ion transport regu...  100     1e-27
+  sp|P59645|FXYD3_RAT FXYD domain-containing ion transport regula...  100     1e-27
+  sp|W5P3P0|PLM_SHEEP Phospholemman OS=Ovis aries OX=9940 GN=FXYD...  100     2e-27
+  sp|Q3SZX0|PLM_BOVIN Phospholemman OS=Bos taurus OX=9913 GN=FXYD...  100     2e-27
+  sp|P56513|PLM_CANLF Phospholemman OS=Canis lupus familiaris OX=...  100     3e-27
+  sp|O00168|PLM_HUMAN Phospholemman OS=Homo sapiens OX=9606 GN=FX...  99.0    7e-27
+  sp|Q3MHZ5|FXYD6_BOVIN FXYD domain-containing ion transport regu...  98.2    1e-26
+  sp|Q04679|ATNG_RAT Sodium/potassium-transporting ATPase subunit...  97.4    2e-26
+  sp|Q04646|ATNG_MOUSE Sodium/potassium-transporting ATPase subun...  96.3    4e-26
+  sp|Q14802|FXYD3_HUMAN FXYD domain-containing ion transport regu...  96.7    5e-26
+  sp|Q63113|FXYD4_RAT FXYD domain-containing ion transport regula...  93.6    8e-25
+  sp|I3LMB3|PLM_PIG Phospholemman OS=Sus scrofa OX=9823 GN=FXYD1 ...  92.8    1e-24
+  sp|Q04645|ATNG_BOVIN Sodium/potassium-transporting ATPase subun...  88.2    4e-23
+  sp|Q04680|ATNG_SHEEP Sodium/potassium-transporting ATPase subun...  85.5    5e-22
+  sp|P58550|FXYD8_HUMAN Putative FXYD domain-containing ion trans...  85.9    8e-22
+  sp|O13001|ATNG_XENLA Sodium/potassium-transporting ATPase subun...  76.2    2e-18
+  sp|O08589|PLM_RAT Phospholemman OS=Rattus norvegicus OX=10116 G...  75.5    1e-17
+  sp|P59646|FXYD4_HUMAN FXYD domain-containing ion transport regu...  74.7    2e-17
+  sp|Q9Z239|PLM_MOUSE Phospholemman OS=Mus musculus OX=10090 GN=F...  73.9    3e-17
+  sp|P58549|FXYD7_HUMAN FXYD domain-containing ion transport regu...  71.2    2e-16
+  sp|P59648|FXYD7_MOUSE FXYD domain-containing ion transport regu...  70.5    5e-16
+  sp|P59649|FXYD7_RAT FXYD domain-containing ion transport regula...  60.5    4e-12
+  sp|Q96DB9|FXYD5_HUMAN FXYD domain-containing ion transport regu...  61.6    4e-12
+  sp|P97808|FXYD5_MOUSE FXYD domain-containing ion transport regu...  60.8    8e-12
+  sp|P59647|FXYD5_RAT FXYD domain-containing ion transport regula...  60.1    1e-11
+  sp|Q3ZBJ3|FXYD7_BOVIN FXYD domain-containing ion transport regu...  48.5    1e-07
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9D2W0|FXYD4_MOUSE FXYD domain-containing ion transport regu...  56.6    1e-10
+  sp|G1TZA0|PLM_RABIT Phospholemman OS=Oryctolagus cuniculus OX=9...  50.8    2e-08
+  sp|C0HJJ0|FXY11_DANRE FXYD domain-containing ion transport regu...  42.7    1e-05
+
+
+> sp|P54710|ATNG_HUMAN Sodium/potassium-transporting ATPase subunit 
+gamma OS=Homo sapiens OX=9606 GN=FXYD2 PE=1 SV=3
+Length=66
+
+ Score = 106 bits (264),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ
+Sbjct  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+
+Query  61  INEDEP  66
+           INEDEP
+Sbjct  61  INEDEP  66
+
+
+> sp|O97797|FXYD3_PIG FXYD domain-containing ion transport regulator 
+3 OS=Sus scrofa OX=9823 GN=FXYD3 PE=3 SV=1
+Length=88
+
+ Score = 105 bits (262),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 25/66 (38%), Positives = 37/66 (56%), Gaps = 0/66 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           + GLS      P+    PFYYD+ ++R GGLI AG    +G++ILLS + +C  ++K   
+Sbjct  12  LAGLSALDANDPEDKNSPFYYDWHSLRVGGLICAGTPCALGIIILLSGKCKCKFSQKPSH  71
+
+Query  61  INEDEP  66
+              D P
+Sbjct  72  RPGDAP  77
+
+
+> sp|Q61835|FXYD3_MOUSE FXYD domain-containing ion transport regulator 
+3 OS=Mus musculus OX=10090 GN=Fxyd3 PE=1 SV=1
+Length=88
+
+ Score = 103 bits (257),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 22/65 (34%), Positives = 36/65 (55%), Gaps = 0/65 (0%)
+
+Query  2   TGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQI  61
+            GL       P+   DPFYYD+ ++R GGLI AG+   +G+++L+S + +C   +K    
+Sbjct  13  AGLPTLDANDPENKNDPFYYDWYSLRVGGLICAGILCALGIIVLMSGKCKCKFRQKPSHR  72
+
+Query  62  NEDEP  66
+             + P
+Sbjct  73  PGEGP  77
+
+
+> sp|Q9H0Q3|FXYD6_HUMAN FXYD domain-containing ion transport regulator 
+6 OS=Homo sapiens OX=9606 GN=FXYD6 PE=1 SV=1
+Length=95
+
+ Score = 102 bits (254),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 44/65 (68%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + ++DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  12  LAPMVLASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+Query  61  INEDE  65
+             ++E
+Sbjct  72  PGDEE  76
+
+
+> sp|Q91XV6|FXYD6_RAT FXYD domain-containing ion transport regulator 
+6 OS=Rattus norvegicus OX=10116 GN=Fxyd6 PE=1 SV=1
+Length=94
+
+ Score = 101 bits (252),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 27/65 (42%), Positives = 43/65 (66%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + + DPFYYDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  11  LAPVVLASAAEKEKEKDPFYYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  70
+
+Query  61  INEDE  65
+             ++E
+Sbjct  71  PGDEE  75
+
+
+> sp|Q9D164|FXYD6_MOUSE FXYD domain-containing ion transport regulator 
+6 OS=Mus musculus OX=10090 GN=Fxyd6 PE=1 SV=2
+Length=94
+
+ Score = 101 bits (252),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 27/65 (42%), Positives = 43/65 (66%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + + DPFYYDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  11  LAPVVLASAAEKEKEKDPFYYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  70
+
+Query  61  INEDE  65
+             ++E
+Sbjct  71  PGDEE  75
+
+
+> sp|Q4R566|FXYD6_MACFA FXYD domain-containing ion transport regulator 
+6 OS=Macaca fascicularis OX=9541 GN=FXYD6 PE=3 SV=1
+Length=95
+
+ Score = 100 bits (250),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 44/65 (68%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + ++DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  12  LAPMVLASTAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+Query  61  INEDE  65
+             ++E
+Sbjct  72  PGDEE  76
+
+
+> sp|Q5RB29|FXYD6_PONAB FXYD domain-containing ion transport regulator 
+6 OS=Pongo abelii OX=9601 GN=FXYD6 PE=3 SV=1
+Length=95
+
+ Score = 100 bits (250),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 43/65 (66%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +    +      + ++DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  12  LAPTVLASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+Query  61  INEDE  65
+             ++E
+Sbjct  72  PGDEE  76
+
+
+> sp|P59645|FXYD3_RAT FXYD domain-containing ion transport regulator 
+3 OS=Rattus norvegicus OX=10116 GN=Fxyd3 PE=3 SV=1
+Length=88
+
+ Score = 100 bits (249),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 34/62 (55%), Gaps = 0/62 (0%)
+
+Query  5   SMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINED  64
+                  P+    PFYYD+ ++R GGLI AG+   +G+++L+S + +C  ++K      D
+Sbjct  16  PTLDANDPEDKDSPFYYDWHSLRVGGLICAGILCALGIIVLMSGKCKCKFSQKPSHRPGD  75
+
+Query  65  EP  66
+            P
+Sbjct  76  GP  77
+
+
+> sp|W5P3P0|PLM_SHEEP Phospholemman OS=Ovis aries OX=9940 GN=FXYD1 
+PE=3 SV=1
+Length=92
+
+ Score = 100 bits (248),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 45/62 (73%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+M    +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LAMVNAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|Q3SZX0|PLM_BOVIN Phospholemman OS=Bos taurus OX=9913 GN=FXYD1 
+PE=1 SV=1
+Length=92
+
+ Score = 100 bits (248),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 45/62 (73%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+M    +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LAMVNAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|P56513|PLM_CANLF Phospholemman OS=Canis lupus familiaris OX=9615 
+GN=FXYD1 PE=1 SV=1
+Length=92
+
+ Score = 100 bits (248),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 30/62 (48%), Positives = 44/62 (71%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+     +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LTTATAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|O00168|PLM_HUMAN Phospholemman OS=Homo sapiens OX=9606 GN=FXYD1 
+PE=1 SV=2
+Length=92
+
+ Score = 99.0 bits (245),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 45/62 (73%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+M    SPK + DPF YDY++++ GGL+ AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LTMAKAESPK-EHDPFTYDYQSLQIGGLVIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|Q3MHZ5|FXYD6_BOVIN FXYD domain-containing ion transport regulator 
+6 OS=Bos taurus OX=9913 GN=FXYD6 PE=3 SV=1
+Length=95
+
+ Score = 98.2 bits (243),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 42/65 (65%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +    +      + + DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  12  LAPAVLASATEQEKEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+Query  61  INEDE  65
+             ++E
+Sbjct  72  PGDEE  76
+
+
+> sp|Q04679|ATNG_RAT Sodium/potassium-transporting ATPase subunit 
+gamma OS=Rattus norvegicus OX=10116 GN=Fxyd2 PE=2 SV=2
+Length=66
+
+ Score = 97.4 bits (241),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 56/65 (86%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           MT LS + GGS KG  +PF YDYETVR GGLIFAGLAF+VGLLILLS+RFRCGG+KK RQ
+Sbjct  1   MTELSANHGGSAKGTENPFEYDYETVRKGGLIFAGLAFVVGLLILLSKRFRCGGSKKHRQ  60
+
+Query  61  INEDE  65
+           +NEDE
+Sbjct  61  VNEDE  65
+
+
+> sp|Q04646|ATNG_MOUSE Sodium/potassium-transporting ATPase subunit 
+gamma OS=Mus musculus OX=10090 GN=Fxyd2 PE=1 SV=2
+Length=70
+
+ Score = 96.3 bits (238),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 47/65 (72%), Positives = 55/65 (85%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           ++ LS + GGS KG  +PF YDYETVR GGLIFAGLAF+VGLLI+LS+RFRCGG KK RQ
+Sbjct  5   ISDLSANSGGSAKGTENPFEYDYETVRKGGLIFAGLAFVVGLLIILSKRFRCGGGKKHRQ  64
+
+Query  61  INEDE  65
+           +NEDE
+Sbjct  65  VNEDE  69
+
+
+> sp|Q14802|FXYD3_HUMAN FXYD domain-containing ion transport regulator 
+3 OS=Homo sapiens OX=9606 GN=FXYD3 PE=1 SV=1
+Length=87
+
+ Score = 96.7 bits (239),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 18/66 (27%), Positives = 35/66 (53%), Gaps = 0/66 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           + G  +      +    PFYYD+ +++ GGLI AG+   +G++I++S + +C   +K   
+Sbjct  12  LAGFPVLDANDLEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGH  71
+
+Query  61  INEDEP  66
+              + P
+Sbjct  72  HPGETP  77
+
+
+> sp|Q63113|FXYD4_RAT FXYD domain-containing ion transport regulator 
+4 OS=Rattus norvegicus OX=10116 GN=Fxyd4 PE=1 SV=1
+Length=87
+
+ Score = 93.6 bits (231),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 22/63 (35%), Positives = 34/63 (54%), Gaps = 0/63 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           + GL +     P     PFYYD+E+++ GG+IF GL  I G+ + LS + +C  N     
+Sbjct  12  LAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+
+Query  61  INE  63
+           + E
+Sbjct  72  LPE  74
+
+
+> sp|I3LMB3|PLM_PIG Phospholemman OS=Sus scrofa OX=9823 GN=FXYD1 
+PE=1 SV=2
+Length=87
+
+ Score = 92.8 bits (229),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 28/63 (44%), Positives = 43/63 (68%), Gaps = 1/63 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L++    +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++     
+Sbjct  15  LTVVNAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQSLGKM  73
+
+Query  64  DEP  66
+             P
+Sbjct  74  RSP  76
+
+
+> sp|Q04645|ATNG_BOVIN Sodium/potassium-transporting ATPase subunit 
+gamma OS=Bos taurus OX=9913 GN=FXYD2 PE=1 SV=1
+Length=58
+
+ Score = 88.2 bits (217),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 39/55 (71%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  11  SPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINEDE  65
+           + +G  DPFYYDYETVRNGGLIFA LAFIVGL+I+LS+RFRCG  ++ RQI ED 
+Sbjct  3   AVQGTEDPFYYDYETVRNGGLIFAALAFIVGLVIILSKRFRCGAKRQHRQIPEDG  57
+
+
+> sp|Q04680|ATNG_SHEEP Sodium/potassium-transporting ATPase subunit 
+gamma (Fragment) OS=Ovis aries OX=9940 GN=FXYD2 PE=1 SV=2
+Length=53
+
+ Score = 85.5 bits (210),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 40/52 (77%), Positives = 44/52 (85%), Gaps = 0/52 (0%)
+
+Query  14  GDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINEDE  65
+            + DPFYYDYETVRNGGLIFA LAFIVGL+I+LS+RFRCG  KK RQI ED 
+Sbjct  1   ENEDPFYYDYETVRNGGLIFAALAFIVGLVIILSKRFRCGAKKKHRQIPEDG  52
+
+
+> sp|P58550|FXYD8_HUMAN Putative FXYD domain-containing ion transport 
+regulator 8 OS=Homo sapiens OX=9606 GN=FXYD6P3 PE=5 SV=2
+Length=94
+
+ Score = 85.9 bits (211),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 37/61 (61%), Gaps = 0/61 (0%)
+
+Query  5   SMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINED  64
+            +    + + ++DPF+Y+Y+T+R GGL+F  + F+V    LLS R +C  N+K +   + 
+Sbjct  15  VVLASAAKEKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQKPQDPGDK  74
+
+Query  65  E  65
+           E
+Sbjct  75  E  75
+
+
+> sp|O13001|ATNG_XENLA Sodium/potassium-transporting ATPase subunit 
+gamma OS=Xenopus laevis OX=8355 GN=fxyd2 PE=1 SV=1
+Length=61
+
+ Score = 76.2 bits (186),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 31/60 (52%), Positives = 40/60 (67%), Gaps = 1/60 (2%)
+
+Query  6   MDGGGSPKGDV-DPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINED  64
+           M         + D F YDYET+R GGLIFA +AF+VG+LI+ S RFRCG  K+ R +N+D
+Sbjct  1   MADAQDDMSQMQDKFTYDYETIRKGGLIFAAIAFVVGMLIIFSGRFRCGRKKQLRALNDD  60
+
+
+> sp|O08589|PLM_RAT Phospholemman OS=Rattus norvegicus OX=10116 
+GN=Fxyd1 PE=1 SV=2
+Length=92
+
+ Score = 75.5 bits (184),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 43/62 (69%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           LSM    +P+ + DPF YDY T+R GGL  AG+ FI+G+LI+LS+R RC  N+++R    
+Sbjct  15  LSMASAEAPQ-EPDPFTYDYHTLRIGGLTIAGILFILGILIILSKRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|P59646|FXYD4_HUMAN FXYD domain-containing ion transport regulator 
+4 OS=Homo sapiens OX=9606 GN=FXYD4 PE=3 SV=2
+Length=89
+
+ Score = 74.7 bits (182),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  14  GDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINEDE  65
+              DPFYYD++ ++  GLI  GL  I G+  +LS + +C  ++K+     ++
+Sbjct  25  NKDDPFYYDWKNLQLSGLICGGLLAIAGIAAVLSGKCKCKSSQKQHSPVPEK  76
+
+
+> sp|Q9Z239|PLM_MOUSE Phospholemman OS=Mus musculus OX=10090 GN=Fxyd1 
+PE=1 SV=1
+Length=92
+
+ Score = 73.9 bits (180),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 43/62 (69%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           LSM    +P+ + DPF YDY T+R GGL  AG+ FI+G+LI+LS+R RC  N+++R    
+Sbjct  15  LSMASAEAPQ-EPDPFTYDYHTLRIGGLTIAGILFILGILIILSKRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|P58549|FXYD7_HUMAN FXYD domain-containing ion transport regulator 
+7 OS=Homo sapiens OX=9606 GN=FXYD7 PE=1 SV=1
+Length=80
+
+ Score = 71.2 bits (173),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 18/58 (31%), Positives = 31/58 (53%), Gaps = 0/58 (0%)
+
+Query  5   SMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQIN  62
+                     + DPFYYDY TV+  G+  A + F++G+LI++S++ +C     R +  
+Sbjct  4   PTQTPTKAPEEPDPFYYDYNTVQTVGMTLATILFLLGILIVISKKVKCRKADSRSESP  61
+
+
+> sp|P59648|FXYD7_MOUSE FXYD domain-containing ion transport regulator 
+7 OS=Mus musculus OX=10090 GN=Fxyd7 PE=3 SV=1
+Length=80
+
+ Score = 70.5 bits (171),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 17/58 (29%), Positives = 32/58 (55%), Gaps = 0/58 (0%)
+
+Query  5   SMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQIN  62
+                 +   + DPF+YDY TV+  G+  A + F++G++I+LS++ +C     R +  
+Sbjct  4   PTQSPTNVPEETDPFFYDYATVQTVGMTLATIMFVLGIIIILSKKVKCRKADSRSESP  61
+
+
+> sp|P59649|FXYD7_RAT FXYD domain-containing ion transport regulator 
+7 OS=Rattus norvegicus OX=10116 GN=Fxyd7 PE=1 SV=1
+Length=80
+
+ Score = 60.5 bits (145),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 16/58 (28%), Positives = 32/58 (55%), Gaps = 0/58 (0%)
+
+Query  5   SMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQIN  62
+                 +   + DPF+YDY TV+  G+  A + F++G++I++S++ +C     R +  
+Sbjct  4   PTQSPTNVPEETDPFFYDYATVQTVGMTLATIMFVLGIIIIISKKVKCRKADSRSESP  61
+
+
+> sp|Q96DB9|FXYD5_HUMAN FXYD domain-containing ion transport regulator 
+5 OS=Homo sapiens OX=9606 GN=FXYD5 PE=1 SV=2
+Length=178
+
+ Score = 61.6 bits (148),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 17/37 (46%), Positives = 25/37 (68%), Gaps = 0/37 (0%)
+
+Query  15   DVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFR  51
+            + DPF+YD  T+R  GL+ A + FI G++IL S + R
+Sbjct  131  EDDPFFYDEHTLRKRGLLVAAVLFITGIIILTSGKCR  167
+
+
+> sp|P97808|FXYD5_MOUSE FXYD domain-containing ion transport regulator 
+5 OS=Mus musculus OX=10090 GN=Fxyd5 PE=1 SV=3
+Length=178
+
+ Score = 60.8 bits (146),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 25/38 (66%), Gaps = 0/38 (0%)
+
+Query  14   GDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFR  51
+             + +PFYYD  T+R  GL+ A + FI G++IL S + R
+Sbjct  130  NENNPFYYDDTTLRKRGLLVAAVLFITGIIILTSGKCR  167
+
+
+> sp|P59647|FXYD5_RAT FXYD domain-containing ion transport regulator 
+5 OS=Rattus norvegicus OX=10116 GN=Fxyd5 PE=2 SV=2
+Length=178
+
+ Score = 60.1 bits (144),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 24/38 (63%), Gaps = 0/38 (0%)
+
+Query  14   GDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFR  51
+             +  PFYYD  T+R  GL+ A + FI G++IL S + R
+Sbjct  130  NENSPFYYDNTTLRKRGLLVAAVLFITGIIILTSGKCR  167
+
+
+> sp|Q9D2W0|FXYD4_MOUSE FXYD domain-containing ion transport regulator 
+4 OS=Mus musculus OX=10090 GN=Fxyd4 PE=3 SV=1
+Length=88
+
+ Score = 56.6 bits (135),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 20/54 (37%), Positives = 29/54 (54%), Gaps = 0/54 (0%)
+
+Query  10  GSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+             P     PFYYD+E+++ GGLIF GL  I G+ + LS + +C    K   +  
+Sbjct  21  SDPVDKDSPFYYDWESLQLGGLIFGGLLCIAGIAMALSGKCKCRRTHKPSSLPG  74
+
+
+> sp|G1TZA0|PLM_RABIT Phospholemman OS=Oryctolagus cuniculus OX=9986 
+GN=FXYD1 PE=1 SV=1
+Length=92
+
+ Score = 50.8 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/62 (44%), Positives = 39/62 (63%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+M    +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+L R      +  RR    
+Sbjct  15  LAMANAEAPQ-EQDPFTYDYQSLRIGGLIIAGILFILGILIILKRGAWERFDTARRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|Q3ZBJ3|FXYD7_BOVIN FXYD domain-containing ion transport regulator 
+7 OS=Bos taurus OX=9913 GN=FXYD7 PE=3 SV=1
+Length=78
+
+ Score = 48.5 bits (114),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 20/48 (42%), Positives = 32/48 (67%), Gaps = 0/48 (0%)
+
+Query  15  DVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQIN  62
+           D DPFYYDY+TV+  G+  A + F++G+LI+LS++ +C     R +  
+Sbjct  12  DPDPFYYDYDTVQTVGMTLATILFLLGILIILSKKVKCRKADSRSESP  59
+
+
+> sp|C0HJJ0|FXY11_DANRE FXYD domain-containing ion transport regulator 
+11 OS=Danio rerio OX=7955 GN=fxyd11 PE=1 SV=1
+Length=69
+
+ Score = 42.7 bits (99),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 12/53 (23%), Positives = 24/53 (45%), Gaps = 0/53 (0%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNK  56
+           L++      + + +PF Y+YE +R GGL+F  +     +  L   + +     
+Sbjct  10  LTVFLALFSRAEANPFVYNYEALRIGGLVFTCVLVAGAVTALCWGQCKPKRKH  62
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.135    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0416    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4997801312
+Results from round 3
+
+
+Query= P54710|2mkvA
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q61835|FXYD3_MOUSE FXYD domain-containing ion transport regu...  107     4e-30
+  sp|O97797|FXYD3_PIG FXYD domain-containing ion transport regula...  106     9e-30
+  sp|P59645|FXYD3_RAT FXYD domain-containing ion transport regula...  103     1e-28
+  sp|Q9H0Q3|FXYD6_HUMAN FXYD domain-containing ion transport regu...  102     2e-28
+  sp|Q91XV6|FXYD6_RAT FXYD domain-containing ion transport regula...  102     3e-28
+  sp|Q9D164|FXYD6_MOUSE FXYD domain-containing ion transport regu...  102     3e-28
+  sp|Q14802|FXYD3_HUMAN FXYD domain-containing ion transport regu...  102     3e-28
+  sp|P54710|ATNG_HUMAN Sodium/potassium-transporting ATPase subun...  100     8e-28
+  sp|Q3MHZ5|FXYD6_BOVIN FXYD domain-containing ion transport regu...  101     8e-28
+  sp|Q5RB29|FXYD6_PONAB FXYD domain-containing ion transport regu...  101     1e-27
+  sp|P56513|PLM_CANLF Phospholemman OS=Canis lupus familiaris OX=...  100     1e-27
+  sp|Q4R566|FXYD6_MACFA FXYD domain-containing ion transport regu...  100     1e-27
+  sp|W5P3P0|PLM_SHEEP Phospholemman OS=Ovis aries OX=9940 GN=FXYD...  100     2e-27
+  sp|Q3SZX0|PLM_BOVIN Phospholemman OS=Bos taurus OX=9913 GN=FXYD...  100     2e-27
+  sp|O00168|PLM_HUMAN Phospholemman OS=Homo sapiens OX=9606 GN=FX...  99.0    6e-27
+  sp|I3LMB3|PLM_PIG Phospholemman OS=Sus scrofa OX=9823 GN=FXYD1 ...  95.1    2e-25
+  sp|Q63113|FXYD4_RAT FXYD domain-containing ion transport regula...  94.7    3e-25
+  sp|Q04679|ATNG_RAT Sodium/potassium-transporting ATPase subunit...  90.9    4e-24
+  sp|Q04646|ATNG_MOUSE Sodium/potassium-transporting ATPase subun...  90.5    7e-24
+  sp|Q04645|ATNG_BOVIN Sodium/potassium-transporting ATPase subun...  86.2    3e-22
+  sp|Q04680|ATNG_SHEEP Sodium/potassium-transporting ATPase subun...  85.5    5e-22
+  sp|P58550|FXYD8_HUMAN Putative FXYD domain-containing ion trans...  86.2    5e-22
+  sp|O13001|ATNG_XENLA Sodium/potassium-transporting ATPase subun...  79.7    1e-19
+  sp|P58549|FXYD7_HUMAN FXYD domain-containing ion transport regu...  77.4    1e-18
+  sp|P59648|FXYD7_MOUSE FXYD domain-containing ion transport regu...  77.4    1e-18
+  sp|P59646|FXYD4_HUMAN FXYD domain-containing ion transport regu...  76.6    2e-18
+  sp|O08589|PLM_RAT Phospholemman OS=Rattus norvegicus OX=10116 G...  75.5    1e-17
+  sp|Q9Z239|PLM_MOUSE Phospholemman OS=Mus musculus OX=10090 GN=F...  73.9    3e-17
+  sp|C0HJJ0|FXY11_DANRE FXYD domain-containing ion transport regu...  70.8    3e-16
+  sp|P59649|FXYD7_RAT FXYD domain-containing ion transport regula...  67.0    1e-14
+  sp|P97808|FXYD5_MOUSE FXYD domain-containing ion transport regu...  62.4    3e-12
+  sp|Q96DB9|FXYD5_HUMAN FXYD domain-containing ion transport regu...  61.6    5e-12
+  sp|Q9D2W0|FXYD4_MOUSE FXYD domain-containing ion transport regu...  60.0    5e-12
+  sp|G1TZA0|PLM_RABIT Phospholemman OS=Oryctolagus cuniculus OX=9...  59.7    9e-12
+  sp|P59647|FXYD5_RAT FXYD domain-containing ion transport regula...  60.0    1e-11
+  sp|Q3ZBJ3|FXYD7_BOVIN FXYD domain-containing ion transport regu...  52.7    3e-09
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q61835|FXYD3_MOUSE FXYD domain-containing ion transport regulator 
+3 OS=Mus musculus OX=10090 GN=Fxyd3 PE=1 SV=1
+Length=88
+
+ Score = 107 bits (266),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 22/65 (34%), Positives = 36/65 (55%), Gaps = 0/65 (0%)
+
+Query  2   TGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQI  61
+            GL       P+   DPFYYD+ ++R GGLI AG+   +G+++L+S + +C   +K    
+Sbjct  13  AGLPTLDANDPENKNDPFYYDWYSLRVGGLICAGILCALGIIVLMSGKCKCKFRQKPSHR  72
+
+Query  62  NEDEP  66
+             + P
+Sbjct  73  PGEGP  77
+
+
+> sp|O97797|FXYD3_PIG FXYD domain-containing ion transport regulator 
+3 OS=Sus scrofa OX=9823 GN=FXYD3 PE=3 SV=1
+Length=88
+
+ Score = 106 bits (264),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 25/66 (38%), Positives = 37/66 (56%), Gaps = 0/66 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           + GLS      P+    PFYYD+ ++R GGLI AG    +G++ILLS + +C  ++K   
+Sbjct  12  LAGLSALDANDPEDKNSPFYYDWHSLRVGGLICAGTPCALGIIILLSGKCKCKFSQKPSH  71
+
+Query  61  INEDEP  66
+              D P
+Sbjct  72  RPGDAP  77
+
+
+> sp|P59645|FXYD3_RAT FXYD domain-containing ion transport regulator 
+3 OS=Rattus norvegicus OX=10116 GN=Fxyd3 PE=3 SV=1
+Length=88
+
+ Score = 103 bits (256),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 34/62 (55%), Gaps = 0/62 (0%)
+
+Query  5   SMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINED  64
+                  P+    PFYYD+ ++R GGLI AG+   +G+++L+S + +C  ++K      D
+Sbjct  16  PTLDANDPEDKDSPFYYDWHSLRVGGLICAGILCALGIIVLMSGKCKCKFSQKPSHRPGD  75
+
+Query  65  EP  66
+            P
+Sbjct  76  GP  77
+
+
+> sp|Q9H0Q3|FXYD6_HUMAN FXYD domain-containing ion transport regulator 
+6 OS=Homo sapiens OX=9606 GN=FXYD6 PE=1 SV=1
+Length=95
+
+ Score = 102 bits (255),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 44/65 (68%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + ++DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  12  LAPMVLASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+Query  61  INEDE  65
+             ++E
+Sbjct  72  PGDEE  76
+
+
+> sp|Q91XV6|FXYD6_RAT FXYD domain-containing ion transport regulator 
+6 OS=Rattus norvegicus OX=10116 GN=Fxyd6 PE=1 SV=1
+Length=94
+
+ Score = 102 bits (254),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 27/65 (42%), Positives = 43/65 (66%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + + DPFYYDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  11  LAPVVLASAAEKEKEKDPFYYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  70
+
+Query  61  INEDE  65
+             ++E
+Sbjct  71  PGDEE  75
+
+
+> sp|Q9D164|FXYD6_MOUSE FXYD domain-containing ion transport regulator 
+6 OS=Mus musculus OX=10090 GN=Fxyd6 PE=1 SV=2
+Length=94
+
+ Score = 102 bits (254),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 27/65 (42%), Positives = 43/65 (66%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + + DPFYYDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  11  LAPVVLASAAEKEKEKDPFYYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  70
+
+Query  61  INEDE  65
+             ++E
+Sbjct  71  PGDEE  75
+
+
+> sp|Q14802|FXYD3_HUMAN FXYD domain-containing ion transport regulator 
+3 OS=Homo sapiens OX=9606 GN=FXYD3 PE=1 SV=1
+Length=87
+
+ Score = 102 bits (253),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 18/66 (27%), Positives = 35/66 (53%), Gaps = 0/66 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           + G  +      +    PFYYD+ +++ GGLI AG+   +G++I++S + +C   +K   
+Sbjct  12  LAGFPVLDANDLEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGH  71
+
+Query  61  INEDEP  66
+              + P
+Sbjct  72  HPGETP  77
+
+
+> sp|P54710|ATNG_HUMAN Sodium/potassium-transporting ATPase subunit 
+gamma OS=Homo sapiens OX=9606 GN=FXYD2 PE=1 SV=3
+Length=66
+
+ Score = 100 bits (249),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ
+Sbjct  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+
+Query  61  INEDEP  66
+           INEDEP
+Sbjct  61  INEDEP  66
+
+
+> sp|Q3MHZ5|FXYD6_BOVIN FXYD domain-containing ion transport regulator 
+6 OS=Bos taurus OX=9913 GN=FXYD6 PE=3 SV=1
+Length=95
+
+ Score = 101 bits (251),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 42/65 (65%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +    +      + + DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  12  LAPAVLASATEQEKEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+Query  61  INEDE  65
+             ++E
+Sbjct  72  PGDEE  76
+
+
+> sp|Q5RB29|FXYD6_PONAB FXYD domain-containing ion transport regulator 
+6 OS=Pongo abelii OX=9601 GN=FXYD6 PE=3 SV=1
+Length=95
+
+ Score = 101 bits (251),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 43/65 (66%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +    +      + ++DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  12  LAPTVLASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+Query  61  INEDE  65
+             ++E
+Sbjct  72  PGDEE  76
+
+
+> sp|P56513|PLM_CANLF Phospholemman OS=Canis lupus familiaris OX=9615 
+GN=FXYD1 PE=1 SV=1
+Length=92
+
+ Score = 100 bits (250),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 30/62 (48%), Positives = 44/62 (71%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+     +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LTTATAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|Q4R566|FXYD6_MACFA FXYD domain-containing ion transport regulator 
+6 OS=Macaca fascicularis OX=9541 GN=FXYD6 PE=3 SV=1
+Length=95
+
+ Score = 100 bits (250),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 44/65 (68%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           +  + +      + ++DPF+YDY+T+R GGL+FA + F VG+L++LSRR +C  N+K R 
+Sbjct  12  LAPMVLASTAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+Query  61  INEDE  65
+             ++E
+Sbjct  72  PGDEE  76
+
+
+> sp|W5P3P0|PLM_SHEEP Phospholemman OS=Ovis aries OX=9940 GN=FXYD1 
+PE=3 SV=1
+Length=92
+
+ Score = 100 bits (249),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 45/62 (73%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+M    +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LAMVNAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|Q3SZX0|PLM_BOVIN Phospholemman OS=Bos taurus OX=9913 GN=FXYD1 
+PE=1 SV=1
+Length=92
+
+ Score = 100 bits (249),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 45/62 (73%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+M    +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LAMVNAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|O00168|PLM_HUMAN Phospholemman OS=Homo sapiens OX=9606 GN=FXYD1 
+PE=1 SV=2
+Length=92
+
+ Score = 99.0 bits (245),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 45/62 (73%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+M    SPK + DPF YDY++++ GGL+ AG+ FI+G+LI+LSRR RC  N+++R    
+Sbjct  15  LTMAKAESPK-EHDPFTYDYQSLQIGGLVIAGILFILGILIVLSRRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|I3LMB3|PLM_PIG Phospholemman OS=Sus scrofa OX=9823 GN=FXYD1 
+PE=1 SV=2
+Length=87
+
+ Score = 95.1 bits (235),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 28/63 (44%), Positives = 43/63 (68%), Gaps = 1/63 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L++    +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+LSRR RC  N+++     
+Sbjct  15  LTVVNAEAPQ-EHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQQSLGKM  73
+
+Query  64  DEP  66
+             P
+Sbjct  74  RSP  76
+
+
+> sp|Q63113|FXYD4_RAT FXYD domain-containing ion transport regulator 
+4 OS=Rattus norvegicus OX=10116 GN=Fxyd4 PE=1 SV=1
+Length=87
+
+ Score = 94.7 bits (234),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 22/64 (34%), Positives = 34/64 (53%), Gaps = 0/64 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           + GL +     P     PFYYD+E+++ GG+IF GL  I G+ + LS + +C  N     
+Sbjct  12  LAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+
+Query  61  INED  64
+           + E 
+Sbjct  72  LPEK  75
+
+
+> sp|Q04679|ATNG_RAT Sodium/potassium-transporting ATPase subunit 
+gamma OS=Rattus norvegicus OX=10116 GN=Fxyd2 PE=2 SV=2
+Length=66
+
+ Score = 90.9 bits (224),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 56/65 (86%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           MT LS + GGS KG  +PF YDYETVR GGLIFAGLAF+VGLLILLS+RFRCGG+KK RQ
+Sbjct  1   MTELSANHGGSAKGTENPFEYDYETVRKGGLIFAGLAFVVGLLILLSKRFRCGGSKKHRQ  60
+
+Query  61  INEDE  65
+           +NEDE
+Sbjct  61  VNEDE  65
+
+
+> sp|Q04646|ATNG_MOUSE Sodium/potassium-transporting ATPase subunit 
+gamma OS=Mus musculus OX=10090 GN=Fxyd2 PE=1 SV=2
+Length=70
+
+ Score = 90.5 bits (223),  Expect = 7e-24, Method: Composition-based stats.
+ Identities = 47/65 (72%), Positives = 55/65 (85%), Gaps = 0/65 (0%)
+
+Query  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+           ++ LS + GGS KG  +PF YDYETVR GGLIFAGLAF+VGLLI+LS+RFRCGG KK RQ
+Sbjct  5   ISDLSANSGGSAKGTENPFEYDYETVRKGGLIFAGLAFVVGLLIILSKRFRCGGGKKHRQ  64
+
+Query  61  INEDE  65
+           +NEDE
+Sbjct  65  VNEDE  69
+
+
+> sp|Q04645|ATNG_BOVIN Sodium/potassium-transporting ATPase subunit 
+gamma OS=Bos taurus OX=9913 GN=FXYD2 PE=1 SV=1
+Length=58
+
+ Score = 86.2 bits (212),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 39/55 (71%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  11  SPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINEDE  65
+           + +G  DPFYYDYETVRNGGLIFA LAFIVGL+I+LS+RFRCG  ++ RQI ED 
+Sbjct  3   AVQGTEDPFYYDYETVRNGGLIFAALAFIVGLVIILSKRFRCGAKRQHRQIPEDG  57
+
+
+> sp|Q04680|ATNG_SHEEP Sodium/potassium-transporting ATPase subunit 
+gamma (Fragment) OS=Ovis aries OX=9940 GN=FXYD2 PE=1 SV=2
+Length=53
+
+ Score = 85.5 bits (210),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 40/52 (77%), Positives = 44/52 (85%), Gaps = 0/52 (0%)
+
+Query  14  GDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINEDE  65
+            + DPFYYDYETVRNGGLIFA LAFIVGL+I+LS+RFRCG  KK RQI ED 
+Sbjct  1   ENEDPFYYDYETVRNGGLIFAALAFIVGLVIILSKRFRCGAKKKHRQIPEDG  52
+
+
+> sp|P58550|FXYD8_HUMAN Putative FXYD domain-containing ion transport 
+regulator 8 OS=Homo sapiens OX=9606 GN=FXYD6P3 PE=5 SV=2
+Length=94
+
+ Score = 86.2 bits (212),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 21/61 (34%), Positives = 37/61 (61%), Gaps = 0/61 (0%)
+
+Query  5   SMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINED  64
+            +    + + ++DPF+Y+Y+T+R GGL+F  + F+V    LLS R +C  N+K +   + 
+Sbjct  15  VVLASAAKEKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQKPQDPGDK  74
+
+Query  65  E  65
+           E
+Sbjct  75  E  75
+
+
+> sp|O13001|ATNG_XENLA Sodium/potassium-transporting ATPase subunit 
+gamma OS=Xenopus laevis OX=8355 GN=fxyd2 PE=1 SV=1
+Length=61
+
+ Score = 79.7 bits (195),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 31/60 (52%), Positives = 39/60 (65%), Gaps = 1/60 (2%)
+
+Query  6   MDGGGSPKGD-VDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINED  64
+           M           D F YDYET+R GGLIFA +AF+VG+LI+ S RFRCG  K+ R +N+D
+Sbjct  1   MADAQDDMSQMQDKFTYDYETIRKGGLIFAAIAFVVGMLIIFSGRFRCGRKKQLRALNDD  60
+
+
+> sp|P58549|FXYD7_HUMAN FXYD domain-containing ion transport regulator 
+7 OS=Homo sapiens OX=9606 GN=FXYD7 PE=1 SV=1
+Length=80
+
+ Score = 77.4 bits (189),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 18/58 (31%), Positives = 31/58 (53%), Gaps = 0/58 (0%)
+
+Query  5   SMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQIN  62
+                     + DPFYYDY TV+  G+  A + F++G+LI++S++ +C     R +  
+Sbjct  4   PTQTPTKAPEEPDPFYYDYNTVQTVGMTLATILFLLGILIVISKKVKCRKADSRSESP  61
+
+
+> sp|P59648|FXYD7_MOUSE FXYD domain-containing ion transport regulator 
+7 OS=Mus musculus OX=10090 GN=Fxyd7 PE=3 SV=1
+Length=80
+
+ Score = 77.4 bits (189),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 17/58 (29%), Positives = 32/58 (55%), Gaps = 0/58 (0%)
+
+Query  5   SMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQIN  62
+                 +   + DPF+YDY TV+  G+  A + F++G++I+LS++ +C     R +  
+Sbjct  4   PTQSPTNVPEETDPFFYDYATVQTVGMTLATIMFVLGIIIILSKKVKCRKADSRSESP  61
+
+
+> sp|P59646|FXYD4_HUMAN FXYD domain-containing ion transport regulator 
+4 OS=Homo sapiens OX=9606 GN=FXYD4 PE=3 SV=2
+Length=89
+
+ Score = 76.6 bits (187),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  14  GDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINEDE  65
+              DPFYYD++ ++  GLI  GL  I G+  +LS + +C  ++K+     ++
+Sbjct  25  NKDDPFYYDWKNLQLSGLICGGLLAIAGIAAVLSGKCKCKSSQKQHSPVPEK  76
+
+
+> sp|O08589|PLM_RAT Phospholemman OS=Rattus norvegicus OX=10116 
+GN=Fxyd1 PE=1 SV=2
+Length=92
+
+ Score = 75.5 bits (184),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 43/62 (69%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           LSM    +P+ + DPF YDY T+R GGL  AG+ FI+G+LI+LS+R RC  N+++R    
+Sbjct  15  LSMASAEAPQ-EPDPFTYDYHTLRIGGLTIAGILFILGILIILSKRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|Q9Z239|PLM_MOUSE Phospholemman OS=Mus musculus OX=10090 GN=Fxyd1 
+PE=1 SV=1
+Length=92
+
+ Score = 73.9 bits (180),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 43/62 (69%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           LSM    +P+ + DPF YDY T+R GGL  AG+ FI+G+LI+LS+R RC  N+++R    
+Sbjct  15  LSMASAEAPQ-EPDPFTYDYHTLRIGGLTIAGILFILGILIILSKRCRCKFNQQQRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|C0HJJ0|FXY11_DANRE FXYD domain-containing ion transport regulator 
+11 OS=Danio rerio OX=7955 GN=fxyd11 PE=1 SV=1
+Length=69
+
+ Score = 70.8 bits (172),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 12/53 (23%), Positives = 24/53 (45%), Gaps = 0/53 (0%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNK  56
+           L++      + + +PF Y+YE +R GGL+F  +     +  L   + +     
+Sbjct  10  LTVFLALFSRAEANPFVYNYEALRIGGLVFTCVLVAGAVTALCWGQCKPKRKH  62
+
+
+> sp|P59649|FXYD7_RAT FXYD domain-containing ion transport regulator 
+7 OS=Rattus norvegicus OX=10116 GN=Fxyd7 PE=1 SV=1
+Length=80
+
+ Score = 67.0 bits (162),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 16/58 (28%), Positives = 32/58 (55%), Gaps = 0/58 (0%)
+
+Query  5   SMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQIN  62
+                 +   + DPF+YDY TV+  G+  A + F++G++I++S++ +C     R +  
+Sbjct  4   PTQSPTNVPEETDPFFYDYATVQTVGMTLATIMFVLGIIIIISKKVKCRKADSRSESP  61
+
+
+> sp|P97808|FXYD5_MOUSE FXYD domain-containing ion transport regulator 
+5 OS=Mus musculus OX=10090 GN=Fxyd5 PE=1 SV=3
+Length=178
+
+ Score = 62.4 bits (150),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 25/38 (66%), Gaps = 0/38 (0%)
+
+Query  14   GDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFR  51
+             + +PFYYD  T+R  GL+ A + FI G++IL S + R
+Sbjct  130  NENNPFYYDDTTLRKRGLLVAAVLFITGIIILTSGKCR  167
+
+
+> sp|Q96DB9|FXYD5_HUMAN FXYD domain-containing ion transport regulator 
+5 OS=Homo sapiens OX=9606 GN=FXYD5 PE=1 SV=2
+Length=178
+
+ Score = 61.6 bits (148),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 17/37 (46%), Positives = 25/37 (68%), Gaps = 0/37 (0%)
+
+Query  15   DVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFR  51
+            + DPF+YD  T+R  GL+ A + FI G++IL S + R
+Sbjct  131  EDDPFFYDEHTLRKRGLLVAAVLFITGIIILTSGKCR  167
+
+
+> sp|Q9D2W0|FXYD4_MOUSE FXYD domain-containing ion transport regulator 
+4 OS=Mus musculus OX=10090 GN=Fxyd4 PE=3 SV=1
+Length=88
+
+ Score = 60.0 bits (144),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 20/55 (36%), Positives = 29/55 (53%), Gaps = 0/55 (0%)
+
+Query  10  GSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINED  64
+             P     PFYYD+E+++ GGLIF GL  I G+ + LS + +C    K   +   
+Sbjct  21  SDPVDKDSPFYYDWESLQLGGLIFGGLLCIAGIAMALSGKCKCRRTHKPSSLPGK  75
+
+
+> sp|G1TZA0|PLM_RABIT Phospholemman OS=Oryctolagus cuniculus OX=9986 
+GN=FXYD1 PE=1 SV=1
+Length=92
+
+ Score = 59.7 bits (143),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 27/62 (44%), Positives = 39/62 (63%), Gaps = 1/62 (2%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  63
+           L+M    +P+ + DPF YDY+++R GGLI AG+ FI+G+LI+L R      +  RR    
+Sbjct  15  LAMANAEAPQ-EQDPFTYDYQSLRIGGLIIAGILFILGILIILKRGAWERFDTARRTGEP  73
+
+Query  64  DE  65
+           DE
+Sbjct  74  DE  75
+
+
+> sp|P59647|FXYD5_RAT FXYD domain-containing ion transport regulator 
+5 OS=Rattus norvegicus OX=10116 GN=Fxyd5 PE=2 SV=2
+Length=178
+
+ Score = 60.0 bits (144),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 17/40 (43%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  12   PKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFR  51
+               +  PFYYD  T+R  GL+ A + FI G++IL S + R
+Sbjct  128  DPNENSPFYYDNTTLRKRGLLVAAVLFITGIIILTSGKCR  167
+
+
+> sp|Q3ZBJ3|FXYD7_BOVIN FXYD domain-containing ion transport regulator 
+7 OS=Bos taurus OX=9913 GN=FXYD7 PE=3 SV=1
+Length=78
+
+ Score = 52.7 bits (125),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 20/59 (34%), Positives = 34/59 (58%), Gaps = 0/59 (0%)
+
+Query  4   LSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQIN  62
+           ++         D DPFYYDY+TV+  G+  A + F++G+LI+LS++ +C     R +  
+Sbjct  1   MATQVPTKVPQDPDPFYYDYDTVQTVGMTLATILFLLGILIILSKKVKCRKADSRSESP  59
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.137    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0426    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4997801312
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

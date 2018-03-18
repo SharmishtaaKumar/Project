@@ -1,0 +1,1731 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q41385|2o01L
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q41385|PSAL_SPIOL Photosystem I reaction center subunit XI, ...  436     3e-155
+  sp|Q9SUI4|PSAL_ARATH Photosystem I reaction center subunit XI, ...  300     7e-102
+  sp|Q39654|PSAL_CUCSA Photosystem I reaction center subunit XI, ...  280     1e-93 
+  sp|P23993|PSAL_HORVU Photosystem I reaction center subunit XI, ...  275     4e-92 
+  sp|O78469|PSAL_GUITH Photosystem I reaction center subunit XI O...  142     9e-41 
+  sp|Q6B8P4|PSAL_GRATL Photosystem I reaction center subunit XI O...  142     1e-40 
+  sp|P51222|PSAL_PORPU Photosystem I reaction center subunit XI O...  140     3e-40 
+  sp|Q1XDR5|PSAL_PYRYE Photosystem I reaction center subunit XI O...  137     8e-39 
+  sp|A0T0M6|PSAL_PHATC Photosystem I reaction center subunit XI O...  134     6e-38 
+  sp|Q8DGB4|PSAL_THEEB Photosystem I reaction center subunit XI O...  134     1e-37 
+  sp|P37277|PSAL_SYNY3 Photosystem I reaction center subunit XI O...  134     2e-37 
+  sp|Q85FP8|PSAL_CYAM1 Photosystem I reaction center subunit XI O...  132     4e-37 
+  sp|B8HRF0|PSAL_CYAP4 Photosystem I reaction center subunit XI O...  132     6e-37 
+  sp|Q116L4|PSAL_TRIEI Photosystem I reaction center subunit XI O...  131     1e-36 
+  sp|B0JT88|PSAL_MICAN Photosystem I reaction center subunit XI O...  131     2e-36 
+  sp|P25902|PSAL_SYNEL Photosystem I reaction center subunit XI O...  130     3e-36 
+  sp|Q5ENP6|PSAL_ISOGA Photosystem I reaction center subunit XI O...  129     7e-36 
+  sp|P58577|PSAL_NOSS1 Photosystem I reaction center subunit XI O...  129     2e-35 
+  sp|P31092|PSAL_ANAVT Photosystem I reaction center subunit XI O...  127     5e-35 
+  sp|P95822|PSAL_SYNE7 Photosystem I reaction center subunit XI O...  125     3e-34 
+  sp|B2J591|PSAL_NOSP7 Photosystem I reaction center subunit XI O...  124     9e-34 
+  sp|P31084|PSAL_SYNP6 Photosystem I reaction center subunit XI O...  122     8e-33 
+  sp|O31126|PSAL_MASLA Photosystem I reaction center subunit XI O...  120     5e-32 
+  sp|P49486|PSAL_ODOSI Photosystem I reaction center subunit XI O...  119     7e-32 
+  sp|B1WPZ7|PSAL_CYAA5 Photosystem I reaction center subunit XI O...  117     2e-31 
+  sp|Q9TM17|PSAL_CYACA Photosystem I reaction center subunit XI O...  117     3e-31 
+  sp|A0T0U5|PSAL_THAPS Photosystem I reaction center subunit XI O...  114     6e-30 
+  sp|Q4G3B5|PSAL_EMIHU Photosystem I reaction center subunit XI O...  110     9e-29 
+  sp|Q54753|PSAL_SYNP2 Photosystem I reaction center subunit XI O...  110     1e-28 
+  sp|A9BCL5|PSAL_PROM4 Photosystem I reaction center subunit XI O...  110     6e-28 
+  sp|A2BT95|PSAL_PROMS Photosystem I reaction center subunit XI O...  103     1e-25 
+  sp|O87787|PSAL_PROMA Photosystem I reaction center subunit XI O...  103     2e-25 
+  sp|A8G719|PSAL_PROM2 Photosystem I reaction center subunit XI O...  102     3e-25 
+  sp|A2BYP5|PSAL_PROM5 Photosystem I reaction center subunit XI O...  101     7e-25 
+  sp|A3PF09|PSAL_PROM0 Photosystem I reaction center subunit XI O...  101     9e-25 
+  sp|Q7UZX6|PSAL_PROMP Photosystem I reaction center subunit XI O...  99.0    8e-24 
+  sp|Q7NIE7|PSAL_GLOVI Photosystem I reaction center subunit XI O...  83.2    2e-18 
+
+
+> sp|Q41385|PSAL_SPIOL Photosystem I reaction center subunit XI, 
+chloroplastic OS=Spinacia oleracea OX=3562 GN=PSAL PE=1 SV=1
+Length=216
+
+ Score = 436 bits (1121),  Expect = 3e-155, Method: Compositional matrix adjust.
+ Identities = 216/216 (100%), Positives = 216/216 (100%), Gaps = 0/216 (0%)
+
+Query  1    MAATTSPMASQLKSGFTTKALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTYQVIQ  60
+            MAATTSPMASQLKSGFTTKALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTYQVIQ
+Sbjct  1    MAATTSPMASQLKSGFTTKALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTYQVIQ  60
+
+Query  61   PLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAG  120
+            PLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAG
+Sbjct  61   PLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAG  120
+
+Query  121  PLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQS  180
+            PLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQS
+Sbjct  121  PLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQS  180
+
+Query  181  ADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPYYFK  216
+            ADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPYYFK
+Sbjct  181  ADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPYYFK  216
+
+
+> sp|Q9SUI4|PSAL_ARATH Photosystem I reaction center subunit XI, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PSAL PE=1 
+SV=2
+Length=219
+
+ Score = 300 bits (769),  Expect = 7e-102, Method: Compositional matrix adjust.
+ Identities = 176/220 (80%), Positives = 197/220 (90%), Gaps = 5/220 (2%)
+
+Query  1    MAATTSPMASQLKSGFTT----KALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTY  56
+            MAA+ SPMASQL+S F++    + L VPKGISG A  G    +R +SFTVRA+K++K T+
+Sbjct  1    MAASASPMASQLRSSFSSASLSQRLAVPKGISG-APFGVSPTKRVSSFTVRAVKSDKTTF  59
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            QV+QP+NGDPFIG LETPVTSSPLIAWYLSNLP YRTAVNPLLRGVEVGLAHGF LVGPF
+Sbjct  60   QVVQPINGDPFIGSLETPVTSSPLIAWYLSNLPGYRTAVNPLLRGVEVGLAHGFFLVGPF  119
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            VKAGPLRNT YAG+AGSLAAAGLVVILSMCLT+YGI+SFKEGEPSIAP+LTLTGRKKQPD
+Sbjct  120  VKAGPLRNTAYAGSAGSLAAAGLVVILSMCLTIYGISSFKEGEPSIAPSLTLTGRKKQPD  179
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPYYFK  216
+            QLQ+ADGWAKFTGGFFFGG+SGVTWA FL+YVLDLPY+ K
+Sbjct  180  QLQTADGWAKFTGGFFFGGISGVTWAYFLLYVLDLPYFVK  219
+
+
+> sp|Q39654|PSAL_CUCSA Photosystem I reaction center subunit XI, 
+chloroplastic OS=Cucumis sativus OX=3659 GN=PSAL PE=2 SV=1
+Length=217
+
+ Score = 280 bits (715),  Expect = 1e-93, Method: Compositional matrix adjust.
+ Identities = 168/219 (77%), Positives = 187/219 (85%), Gaps = 5/219 (2%)
+
+Query  1    MAATTSPMASQLKSGF---TTKALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTYQ  57
+            MA  TSP ASQL S F    T+AL+ PKG+S   LR  P+  R  SFT+RAI+ +KPT+Q
+Sbjct  1    MATATSPTASQLSSSFASSNTRALISPKGLSASPLRRIPT--RTHSFTIRAIQADKPTFQ  58
+
+Query  58   VIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFV  117
+            VIQP+NGDPFIG LETPVTSSPLIAWYLSNLPAYRTAV+PLLRG+EVGLAHGF LVGPFV
+Sbjct  59   VIQPINGDPFIGSLETPVTSSPLIAWYLSNLPAYRTAVSPLLRGIEVGLAHGFFLVGPFV  118
+
+Query  118  KAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQ  177
+            KAGPLRNT YAG AGSLAA GL+VILS+CLTMYG+ASF EGEPS AP+LTLTGRKK PD 
+Sbjct  119  KAGPLRNTAYAGGAGSLAAGGLIVILSVCLTMYGVASFNEGEPSTAPSLTLTGRKKTPDP  178
+
+Query  178  LQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPYYFK  216
+            LQ+ADGWAKF+GGFFFGG+SGV WA FL+YVLDLPYY K
+Sbjct  179  LQTADGWAKFSGGFFFGGISGVIWAYFLLYVLDLPYYVK  217
+
+
+> sp|P23993|PSAL_HORVU Photosystem I reaction center subunit XI, 
+chloroplastic OS=Hordeum vulgare OX=4513 GN=PSAL PE=1 SV=1
+Length=209
+
+ Score = 275 bits (704),  Expect = 4e-92, Method: Compositional matrix adjust.
+ Identities = 148/211 (70%), Positives = 173/211 (82%), Gaps = 10/211 (5%)
+
+Query  7    PMASQ-LKSGFTTKALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTYQVIQPLNGD  65
+            PMASQ +KSG    A   P+G+SG +L       R   F V+A+K++KPTYQV+QP+NGD
+Sbjct  8    PMASQVMKSGL---ACSKPRGMSGASLT------RRPRFVVKAVKSDKPTYQVVQPINGD  58
+
+Query  66   PFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPLRNT  125
+            PFIG LETPVTSSPL+AWYLSNLPAYRTAV+PLLRG+EVGLAHG+LLVGPF   GPLRNT
+Sbjct  59   PFIGSLETPVTSSPLVAWYLSNLPAYRTAVSPLLRGIEVGLAHGYLLVGPFALTGPLRNT  118
+
+Query  126  EYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSADGWA  185
+               G AG+L A GLV ILS+CLTMYG+ASF EGEPS AP LTLTGRKK+ D+LQ+A+GW+
+Sbjct  119  PVHGQAGTLGAIGLVSILSVCLTMYGVASFNEGEPSTAPVLTLTGRKKEADKLQTAEGWS  178
+
+Query  186  KFTGGFFFGGVSGVTWACFLMYVLDLPYYFK  216
+            +FTGGFFFGGVSG  WA FL+YVLDLPY+FK
+Sbjct  179  QFTGGFFFGGVSGAVWAYFLLYVLDLPYFFK  209
+
+
+> sp|O78469|PSAL_GUITH Photosystem I reaction center subunit XI 
+OS=Guillardia theta OX=55529 GN=psaL PE=3 SV=1
+Length=152
+
+ Score = 142 bits (357),  Expect = 9e-41, Method: Compositional matrix adjust.
+ Identities = 68/150 (45%), Positives = 95/150 (63%), Gaps = 14/150 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            Q ++P N DPF+G L TP+T+S      LSNLPAYR  ++PLLRG+E+G+ HG+ LVGPF
+Sbjct  3    QFVKPYNDDPFVGNLATPITTSSFTRTLLSNLPAYRAGLSPLLRGLEIGMTHGYFLVGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+             K GPLRN+E A  AG  +A GL++I++ CL +YG+ SF   +                +
+Sbjct  63   YKLGPLRNSEVALLAGVFSALGLIIIMAACLAIYGVVSFNTNDGG--------------E  108
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLM  206
+            QLQSA GW +FT G+  G + G ++A  L+
+Sbjct  109  QLQSAKGWRQFTSGWLVGSIGGASFAYILI  138
+
+
+> sp|Q6B8P4|PSAL_GRATL Photosystem I reaction center subunit XI 
+OS=Gracilaria tenuistipitata var. liui OX=285951 GN=psaL PE=3 
+SV=1
+Length=150
+
+ Score = 142 bits (357),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 70/150 (47%), Positives = 94/150 (63%), Gaps = 14/150 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+              IQ  N DPF+G L TPV++S      L+NLPAYR  ++PLLRG+E+G+AHG+ LVGPF
+Sbjct  3    DFIQSYNNDPFLGNLSTPVSTSTFTKGLLNNLPAYRRGLSPLLRGLEIGMAHGYFLVGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+             K GPLRNT+ A  +G L+A GL++IL++CL+MYG  SF               +    D
+Sbjct  63   DKLGPLRNTDVALLSGFLSAVGLIIILTVCLSMYGNVSFD--------------KDDAKD  108
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLM  206
+             LQ+ +GW +FT GF  G V G  +A  L+
+Sbjct  109  LLQTTEGWGQFTAGFLVGAVGGSGFAYLLL  138
+
+
+> sp|P51222|PSAL_PORPU Photosystem I reaction center subunit XI 
+OS=Porphyra purpurea OX=2787 GN=psaL PE=3 SV=1
+Length=153
+
+ Score = 140 bits (354),  Expect = 3e-40, Method: Compositional matrix adjust.
+ Identities = 70/150 (47%), Positives = 94/150 (63%), Gaps = 14/150 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            + I+P N DPF+G L TPV++S      L NLPAYR  ++PLLRG+E+G+AHG+ L+GPF
+Sbjct  3    EFIKPYNDDPFVGNLSTPVSTSSFSKGLLGNLPAYRRGLSPLLRGLEIGMAHGYFLIGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+             K GPLR T+ A  AG L++ GL++IL+ CL+MYG  SF               R    D
+Sbjct  63   DKLGPLRGTDVALLAGFLSSVGLIIILTTCLSMYGNVSFT--------------RSDSKD  108
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLM  206
+             LQ+A+GW +FT GF  G V G  +A  L+
+Sbjct  109  PLQTAEGWGQFTAGFLVGAVGGSGFAYLLL  138
+
+
+> sp|Q1XDR5|PSAL_PYRYE Photosystem I reaction center subunit XI 
+OS=Pyropia yezoensis OX=2788 GN=psaL PE=3 SV=1
+Length=153
+
+ Score = 137 bits (344),  Expect = 8e-39, Method: Compositional matrix adjust.
+ Identities = 68/150 (45%), Positives = 93/150 (62%), Gaps = 14/150 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            + I+P N DPF+G L TPV++S        NLPAYR  ++PLLRG+E+G+AHG+ L+GPF
+Sbjct  3    EFIKPYNDDPFVGNLSTPVSTSSFSKGTSRNLPAYRRGLSPLLRGLEIGMAHGYFLIGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+             K GPLR T+ A  AG L++ GL++IL+ CL+MYG  SF               R    D
+Sbjct  63   DKLGPLRGTDVALLAGFLSSVGLIIILTTCLSMYGNVSFT--------------RADSKD  108
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLM  206
+             LQ+++GW +FT GF  G V G  +A  L+
+Sbjct  109  PLQTSEGWGQFTAGFLVGAVGGSGFAYLLL  138
+
+
+> sp|A0T0M6|PSAL_PHATC Photosystem I reaction center subunit XI 
+OS=Phaeodactylum tricornutum (strain CCAP 1055/1) OX=556484 
+GN=psaL PE=3 SV=1
+Length=151
+
+ Score = 134 bits (338),  Expect = 6e-38, Method: Compositional matrix adjust.
+ Identities = 68/149 (46%), Positives = 94/149 (63%), Gaps = 12/149 (8%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+              I+P N DPF+G L TP+TSS +    L NLPAYR  + PLLRG+E+GLAHG+ L+GPF
+Sbjct  3    NFIKPYNDDPFVGHLATPITSSAVTRAILQNLPAYRFGLTPLLRGLEIGLAHGYFLMGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            VK GPLR++E    AG L+  GL+VIL++ LT+YG+A+F + +           +    +
+Sbjct  63   VKLGPLRDSEIGLLAGFLSTVGLIVILTLGLTIYGVAAFGQEKT----------QSSNEN  112
+
+Query  177  QLQSADGWAKFTGGFFFG--GVSGVTWAC  203
+             LQ+   W +F GGFF G  G +G  + C
+Sbjct  113  DLQTKKAWDQFKGGFFVGACGSAGFAFIC  141
+
+
+> sp|Q8DGB4|PSAL_THEEB Photosystem I reaction center subunit XI 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 GN=psaL 
+PE=1 SV=1
+Length=155
+
+ Score = 134 bits (337),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 61/150 (41%), Positives = 99/150 (66%), Gaps = 13/150 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            ++++P NGDPF+G L TP++ S L+  ++ NLPAYR  ++P+LRG+EVG+AHG+ L+GP+
+Sbjct  4    ELVKPYNGDPFVGHLSTPISDSGLVKTFIGNLPAYRQGLSPILRGLEVGMAHGYFLIGPW  63
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            VK GPLR+++ A   G ++   L+++ + CL  YG+ SF++G  S              D
+Sbjct  64   VKLGPLRDSDVANLGGLISGIALILVATACLAAYGLVSFQKGGSS-------------SD  110
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLM  206
+             L++++GW++FT GFF G +     A FL+
+Sbjct  111  PLKTSEGWSQFTAGFFVGAMGSAFVAFFLL  140
+
+
+> sp|P37277|PSAL_SYNY3 Photosystem I reaction center subunit XI 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=psaL PE=1 SV=1
+Length=157
+
+ Score = 134 bits (336),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 63/150 (42%), Positives = 94/150 (63%), Gaps = 13/150 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            QV+Q  NGDPF+G L TP++ S     ++ NLPAYR  ++P+LRG+EVG+AHG+ L+GP+
+Sbjct  6    QVVQAYNGDPFVGHLSTPISDSAFTRTFIGNLPAYRKGLSPILRGLEVGMAHGYFLIGPW  65
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+               GPLR++EY    G + A  L+++ +  L+ YG+ +F+             G +   D
+Sbjct  66   TLLGPLRDSEYQYIGGLIGALALILVATAALSSYGLVTFQ-------------GEQGSGD  112
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLM  206
+             LQ+ADGW++F  GFF GG+ G   A FL+
+Sbjct  113  TLQTADGWSQFAAGFFVGGMGGAFVAYFLL  142
+
+
+> sp|Q85FP8|PSAL_CYAM1 Photosystem I reaction center subunit XI 
+OS=Cyanidioschyzon merolae (strain 10D) OX=280699 GN=psaL PE=3 
+SV=1
+Length=140
+
+ Score = 132 bits (332),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 66/148 (45%), Positives = 87/148 (59%), Gaps = 16/148 (11%)
+
+Query  59   IQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVK  118
+            I+P N DPF+G L TP+ SS L   YLS LP YR  V+P LRG+E+G+AHG+ L+GPFV+
+Sbjct  5    IKPYNNDPFVGHLATPINSSSLTRAYLSQLPIYRRGVSPFLRGLEIGMAHGYFLIGPFVQ  64
+
+Query  119  AGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQL  178
+             GPLRNT+    AG L+A GL+VIL++ + +YG  SF                      L
+Sbjct  65   LGPLRNTDIKYLAGLLSAIGLIVILTLGMLLYGAVSF----------------TNDSQDL  108
+
+Query  179  QSADGWAKFTGGFFFGGVSGVTWACFLM  206
+            +S DGW +   GF  G V G  +A  L+
+Sbjct  109  ESVDGWRQLASGFLLGAVGGAGFAYLLL  136
+
+
+> sp|B8HRF0|PSAL_CYAP4 Photosystem I reaction center subunit XI 
+OS=Cyanothece sp. (strain PCC 7425 / ATCC 29141) OX=395961 
+GN=psaL PE=3 SV=1
+Length=159
+
+ Score = 132 bits (333),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 63/155 (41%), Positives = 96/155 (62%), Gaps = 13/155 (8%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            ++I+P NGDPF G L TP++ S     ++ NLPAYR  ++P+LRG+E+G+AHG+ L+GP+
+Sbjct  8    ELIKPYNGDPFTGHLSTPISDSDFTRTFIGNLPAYRKGLSPILRGLEIGMAHGYFLIGPW  67
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            VK GPLR+++ A   G ++   L++I + CL  YGI SF++ E +  P            
+Sbjct  68   VKLGPLRDSDVANLGGLISGIALILIATACLAAYGIVSFQKEEAAANP------------  115
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             L +A+GW++FT GFF G   G   A  L+   D+
+Sbjct  116  -LNTAEGWSQFTAGFFVGATGGAFVAFTLLEKFDV  149
+
+
+> sp|Q116L4|PSAL_TRIEI Photosystem I reaction center subunit XI 
+OS=Trichodesmium erythraeum (strain IMS101) OX=203124 GN=psaL 
+PE=3 SV=1
+Length=161
+
+ Score = 131 bits (330),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 64/161 (40%), Positives = 98/161 (61%), Gaps = 12/161 (7%)
+
+Query  51   TEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGF  110
+            T+      +QP  GDPF+G L TP++ S     ++ NLP YR  ++P+LRG+EVG+AHG+
+Sbjct  2    TQATDSGFVQPYKGDPFVGHLSTPISDSDFTRAFIGNLPIYRPGLSPILRGLEVGMAHGY  61
+
+Query  111  LLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTG  170
+             +VGP+ K GPLR++  A   G ++   LV+I ++CL+ YG+ SF+   P  A       
+Sbjct  62   FIVGPWTKLGPLRDSAVANLGGLISTIALVLIATICLSAYGLVSFQGKSPEGA-------  114
+
+Query  171  RKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+                 D L++++GW++FTGGFF G + G   A FL+   +L
+Sbjct  115  -----DPLKTSEGWSQFTGGFFIGAMGGAVVAFFLLENFEL  150
+
+
+> sp|B0JT88|PSAL_MICAN Photosystem I reaction center subunit XI 
+OS=Microcystis aeruginosa (strain NIES-843) OX=449447 GN=psaL 
+PE=3 SV=1
+Length=160
+
+ Score = 131 bits (330),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 66/150 (44%), Positives = 94/150 (63%), Gaps = 13/150 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            QV+ P N DPFIG L TP+++S     ++ NLPAYR  + P+LRG+EVG+AHG+ L GP+
+Sbjct  8    QVVTPYNDDPFIGHLATPISASGFTKAFIGNLPAYRPGLAPILRGLEVGMAHGYFLGGPW  67
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            V  GPLR++EYA   G + A  +V++ + CL  YG+ SF+             G+    D
+Sbjct  68   VVLGPLRDSEYANIGGLIPALAMVLLATGCLASYGLVSFQ-------------GKAASND  114
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLM  206
+             L+SA+GW++F  GFF GG+ G   A FL+
+Sbjct  115  PLKSAEGWSQFAAGFFIGGMGGAFVAYFLL  144
+
+
+> sp|P25902|PSAL_SYNEL Photosystem I reaction center subunit XI 
+OS=Synechococcus elongatus OX=32046 GN=psaL PE=3 SV=2
+Length=149
+
+ Score = 130 bits (327),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 60/150 (40%), Positives = 98/150 (65%), Gaps = 13/150 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            ++++P NGDPF+G L TP++ S L+  ++ NLPAYR  ++P+L G+EVG+AHG+ L+GP+
+Sbjct  4    ELVKPYNGDPFVGHLSTPISDSGLVKTFIGNLPAYRQGLSPILPGLEVGMAHGYFLIGPW  63
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            VK GPLR+++ A   G ++   L+++ + CL  YG+ SF++G  S              D
+Sbjct  64   VKLGPLRDSDVANLGGLISGIALILVATACLAAYGLVSFQKGGSS-------------SD  110
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLM  206
+             L++++GW++FT GFF G +     A FL+
+Sbjct  111  PLKTSEGWSQFTAGFFVGAMGSAFVAFFLL  140
+
+
+> sp|Q5ENP6|PSAL_ISOGA Photosystem I reaction center subunit XI 
+OS=Isochrysis galbana OX=37099 GN=psaL PE=2 SV=2
+Length=145
+
+ Score = 129 bits (324),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 63/150 (42%), Positives = 91/150 (61%), Gaps = 14/150 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            + ++P N DPF+G L TPVT+S     YL NLP YR  + PLLRG+E+G+AHG+ L+GPF
+Sbjct  3    EFVKPFNNDPFVGNLSTPVTTSTATKLYLGNLPIYRKGLTPLLRGLEIGMAHGYFLIGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+               GPLRN+  A   G  +A GL++IL++ LT+YG+ASF++                  +
+Sbjct  63   YILGPLRNSPNALLVGLFSAFGLIIILTLALTIYGLASFQD--------------NGVGE  108
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLM  206
+             L+S+ GW  FT GF  G + G + A  ++
+Sbjct  109  NLESSKGWRNFTSGFTIGALGGASVAYLVL  138
+
+
+> sp|P58577|PSAL_NOSS1 Photosystem I reaction center subunit XI 
+OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 
+GN=psaL PE=3 SV=1
+Length=172
+
+ Score = 129 bits (323),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 67/165 (41%), Positives = 94/165 (57%), Gaps = 7/165 (4%)
+
+Query  47   RAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGL  106
+            + + ++    +V+ P   DP  G LETPV +SPL+ W+++NLPAYR  + P  RG+EVG+
+Sbjct  9    KNLPSDPRNREVVFPAGRDPQWGNLETPVNASPLVKWFINNLPAYRPGLTPFRRGLEVGM  68
+
+Query  107  AHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPAL  166
+            AHG+ L GPF K GPLR+   A  AG L A GLVV+ ++ L++Y         P+   ++
+Sbjct  69   AHGYFLFGPFAKLGPLRDAANANLAGLLGAIGLVVLFTLALSLYA----NSNPPTALASV  124
+
+Query  167  TLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            T+      PD  QS +GW  F   F  GG+ G   A FL   L L
+Sbjct  125  TV---PNPPDAFQSKEGWNNFASAFLIGGIGGAVVAYFLTSNLAL  166
+
+
+> sp|P31092|PSAL_ANAVT Photosystem I reaction center subunit XI 
+OS=Anabaena variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=psaL PE=1 SV=2
+Length=172
+
+ Score = 127 bits (320),  Expect = 5e-35, Method: Compositional matrix adjust.
+ Identities = 65/159 (41%), Positives = 91/159 (57%), Gaps = 7/159 (4%)
+
+Query  47   RAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGL  106
+            + + ++    +V+ P   DP  G LETPV +SPL+ W+++NLPAYR  + P  RG+EVG+
+Sbjct  9    KNLPSDPRNREVVFPAGRDPQWGNLETPVNASPLVKWFINNLPAYRPGLTPFRRGLEVGM  68
+
+Query  107  AHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPAL  166
+            AHG+ L GPF K GPLR+   A  AG L A GLVV+ ++ L++Y         P    ++
+Sbjct  69   AHGYFLFGPFAKLGPLRDAANANLAGLLGAIGLVVLFTLSLSLYA----NSNPPKALASV  124
+
+Query  167  TLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFL  205
+            T+      PD  QS +GW  F   F  GG+ G   A FL
+Sbjct  125  TV---PNPPDAFQSKEGWNNFASAFLIGGIGGAVVAYFL  160
+
+
+> sp|P95822|PSAL_SYNE7 Photosystem I reaction center subunit XI 
+OS=Synechococcus elongatus (strain PCC 7942) OX=1140 GN=psaL 
+PE=3 SV=1
+Length=166
+
+ Score = 125 bits (315),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 71/150 (47%), Positives = 93/150 (62%), Gaps = 8/150 (5%)
+
+Query  64   GDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPLR  123
+            G P IG L TP+ SSP    +++ LP YR  ++   RG+E+G+AHGFLL GPF   GPLR
+Sbjct  10   GTPEIGNLATPINSSPFTRTFINALPIYRRGLSSNRRGLEIGMAHGFLLYGPFSILGPLR  69
+
+Query  124  NTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSADG  183
+            NTE AG+AG LA  GLVVIL++CL++YG A      PS A +   T     P +L + +G
+Sbjct  70   NTETAGSAGLLATVGLVVILTVCLSLYGNAG---SGPSAAESTVTT--PNPPQELFTKEG  124
+
+Query  184  WAKFTGGFFFGGVSGVTWACFLMYVLDLPY  213
+            W++FT GF  GG+ G   A F  Y+   PY
+Sbjct  125  WSEFTSGFILGGLGG---AFFAFYLASTPY  151
+
+
+> sp|B2J591|PSAL_NOSP7 Photosystem I reaction center subunit XI 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=psaL PE=3 SV=1
+Length=173
+
+ Score = 124 bits (312),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 65/159 (41%), Positives = 94/159 (59%), Gaps = 6/159 (4%)
+
+Query  47   RAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGL  106
+            + + ++    +V+ P   DP +G LETPV +SPL  W+++NLPAYR  ++P  RG+EVG+
+Sbjct  9    KNLPSDPRNREVVFPAFRDPQLGNLETPVNASPLSKWFINNLPAYRPGLSPARRGLEVGM  68
+
+Query  107  AHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPAL  166
+            AHG+ + GPF K GPLR+T+ A  AG LAA GLVV+L+  L++Y  ++  +  PS+    
+Sbjct  69   AHGYWIFGPFAKLGPLRDTDNANLAGLLAAIGLVVLLTGALSLYSNSNPPKALPSV----  124
+
+Query  167  TLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFL  205
+              T      D   S + W  F   F  GG+ G   A FL
+Sbjct  125  --TVPNPPVDAFNSKESWNNFASSFLIGGIGGAVVAYFL  161
+
+
+> sp|P31084|PSAL_SYNP6 Photosystem I reaction center subunit XI 
+OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) 
+OX=269084 GN=psaL PE=1 SV=2
+Length=165
+
+ Score = 122 bits (305),  Expect = 8e-33, Method: Compositional matrix adjust.
+ Identities = 70/150 (47%), Positives = 91/150 (61%), Gaps = 8/150 (5%)
+
+Query  64   GDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPLR  123
+            G P IG L TP  SSP    +++ LP YR  ++   RG+E+G+AHGFLL GP    GPLR
+Sbjct  9    GTPEIGDLATPTNSSPFTRTFINALPIYRRGLSSNRRGLEIGMAHGFLLYGPLSILGPLR  68
+
+Query  124  NTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSADG  183
+            NTE AG+AG LA  GLVVIL++CL++YG A      PS A +   T     P +L + +G
+Sbjct  69   NTETAGSAGLLATVGLVVILTVCLSLYGNAG---SGPSAAESTVTT--PNPPQELFTKEG  123
+
+Query  184  WAKFTGGFFFGGVSGVTWACFLMYVLDLPY  213
+            W++FT GF  GG+ G   A F  Y+   PY
+Sbjct  124  WSEFTSGFILGGLGG---AFFAFYLASTPY  150
+
+
+> sp|O31126|PSAL_MASLA Photosystem I reaction center subunit XI 
+OS=Mastigocladus laminosus OX=83541 GN=psaL PE=3 SV=1
+Length=173
+
+ Score = 120 bits (300),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 69/155 (45%), Positives = 93/155 (60%), Gaps = 7/155 (5%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            +V+ P   DP IG LETP+ SSPL+ W++ NLPAYR  +    RG+EVG+AHG+ + GPF
+Sbjct  19   EVVFPAYRDPQIGDLETPINSSPLVKWFIGNLPAYRPGITTFRRGLEVGMAHGYWIFGPF  78
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+             K GPLRNT  A  AG L+A GL++IL+  LT+Y  A+ K  +P     +        P+
+Sbjct  79   AKLGPLRNTVNANLAGLLSALGLIIILTGALTLY--ANSKPPKP-----VKSVATPNPPE  131
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+              QS++GW  F   F  GG+ G   A FL   L+L
+Sbjct  132  AFQSSEGWNNFASAFLIGGIGGAVVAYFLTSNLEL  166
+
+
+> sp|P49486|PSAL_ODOSI Photosystem I reaction center subunit XI 
+OS=Odontella sinensis OX=1514140 GN=psaL PE=3 SV=1
+Length=150
+
+ Score = 119 bits (297),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 68/149 (46%), Positives = 96/149 (64%), Gaps = 13/149 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+              I+P N DPF+G L TP+TSS +    L NLPAYR  + PLLRG+E+GLAHG+ L+GPF
+Sbjct  3    NFIKPYNDDPFVGHLATPITSSSITRAILKNLPAYRFGLTPLLRGLEIGLAHGYFLMGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            VK GPLRN++ A  +G L+  GL++IL++ LT+YG+A+F +G+ +           +  +
+Sbjct  63   VKLGPLRNSDIALFSGFLSTIGLILILTLGLTIYGVAAFGQGQTT-----------ENSN  111
+
+Query  177  QLQSADGWAKFTGGFFFG--GVSGVTWAC  203
+             LQ+   W +F GGFF G  G +G    C
+Sbjct  112  DLQTKKAWDQFKGGFFVGACGSAGFALIC  140
+
+
+> sp|B1WPZ7|PSAL_CYAA5 Photosystem I reaction center subunit XI 
+OS=Cyanothece sp. (strain ATCC 51142) OX=43989 GN=psaL PE=3 
+SV=1
+Length=156
+
+ Score = 117 bits (294),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 68/146 (47%), Positives = 89/146 (61%), Gaps = 7/146 (5%)
+
+Query  64   GDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPLR  123
+            GDP IG L TPV SS L   ++ NLPAYR  ++   RG+EVG+AHG+ L GPF   GPLR
+Sbjct  8    GDPQIGNLATPVNSSRLSLAFIRNLPAYRRGLSANRRGLEVGMAHGYFLYGPFAILGPLR  67
+
+Query  124  NTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSADG  183
+            NTEYA   G L+A  ++ IL++ L++Y  AS + G+    P  TLT     P+ L ++ G
+Sbjct  68   NTEYASTGGLLSAVAMISILTIALSLY--ASVEVGK----PIETLT-TPDVPEDLGTSVG  120
+
+Query  184  WAKFTGGFFFGGVSGVTWACFLMYVL  209
+            W +F  GFF GG  GV +A  L   L
+Sbjct  121  WGEFANGFFIGGSGGVIFAYLLCQAL  146
+
+
+> sp|Q9TM17|PSAL_CYACA Photosystem I reaction center subunit XI 
+OS=Cyanidium caldarium OX=2771 GN=psaL PE=3 SV=1
+Length=152
+
+ Score = 117 bits (293),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 64/150 (43%), Positives = 93/150 (62%), Gaps = 14/150 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+              I+P   +PF+G L TPV SS +  WYL NLP YR  ++PLLRG+E+G+AHG+ ++GPF
+Sbjct  3    NYIKPYGSNPFVGNLSTPVNSSKVTIWYLKNLPIYRRGLSPLLRGLEIGMAHGYFIIGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+             K GPLRNT+ +  +G +AA GL++I S+ + +YGI +F   E +              D
+Sbjct  63   YKLGPLRNTDLSLLSGLIAAIGLIIISSIAMIIYGIVTFDNSENN--------------D  108
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLM  206
+            +LQ+A+GW +   GF  G V G  +A  L+
+Sbjct  109  KLQTANGWRQLASGFLLGAVGGAGFAYILL  138
+
+
+> sp|A0T0U5|PSAL_THAPS Photosystem I reaction center subunit XI 
+OS=Thalassiosira pseudonana OX=35128 GN=psaL PE=3 SV=1
+Length=148
+
+ Score = 114 bits (284),  Expect = 6e-30, Method: Compositional matrix adjust.
+ Identities = 67/149 (45%), Positives = 91/149 (61%), Gaps = 15/149 (10%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+              I+P N DPF+G L TP+TSS L    L NLPAYR  + PLLRG+E+GLAHG+ L+GPF
+Sbjct  3    NFIKPYNDDPFVGHLATPITSSSLTRALLKNLPAYRFGLTPLLRGLEIGLAHGYFLIGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+             + GPLRN++    AG L+  GL++IL++ LT+YG A+F +              K    
+Sbjct  63   AQLGPLRNSDIGLLAGFLSTIGLILILTLGLTIYGAAAFGQ-------------EKSNGS  109
+
+Query  177  QLQSADGWAKFTGGFFFG--GVSGVTWAC  203
+            +LQ+   W +F GGFF G  G +G  + C
+Sbjct  110  ELQTKKSWDQFKGGFFVGACGSAGFAFIC  138
+
+
+> sp|Q4G3B5|PSAL_EMIHU Photosystem I reaction center subunit XI 
+OS=Emiliania huxleyi OX=2903 GN=psaL PE=3 SV=1
+Length=145
+
+ Score = 110 bits (276),  Expect = 9e-29, Method: Compositional matrix adjust.
+ Identities = 66/150 (44%), Positives = 91/150 (61%), Gaps = 14/150 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            + ++P N DPF+G L TPVT+S     YL NLP YR  ++PLLRG+E+G+AHG+ L+GPF
+Sbjct  3    EFVKPYNNDPFVGNLSTPVTTSTATKLYLGNLPIYRKGLSPLLRGLEIGMAHGYFLIGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+               GPLRN+  A   G  +A GL++IL++ LT+YG+ASF+  E                +
+Sbjct  63   YILGPLRNSPNALLVGLFSAFGLILILTLGLTIYGLASFQGTEGG--------------E  108
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLM  206
+             L+SA GW  FT GF  G   G + A  L+
+Sbjct  109  NLESAKGWRNFTSGFSIGAFGGASVAYVLL  138
+
+
+> sp|Q54753|PSAL_SYNP2 Photosystem I reaction center subunit XI 
+OS=Synechococcus sp. (strain ATCC 27264 / PCC 7002 / PR-6) 
+OX=32049 GN=psaL PE=3 SV=1
+Length=152
+
+ Score = 110 bits (275),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 61/157 (39%), Positives = 87/157 (55%), Gaps = 8/157 (5%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+             +IQ   GDP +G L TP+ +S     +++NLP YR  ++   RG+EVG+AHG+ L GPF
+Sbjct  2    DIIQH-GGDPQVGNLATPINASAFSKAFINNLPGYRQGLSAQRRGLEVGMAHGYFLYGPF  60
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+               GPLRN ++AG AG L   GL+ +L++ L++YG            P  TLT     P+
+Sbjct  61   ALLGPLRNADFAGVAGLLGTVGLISLLTLALSLYGSVGVST------PTATLT-TPNPPE  113
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPY  213
+             L + +GW++F  GF  GG  G   A  L   L + Y
+Sbjct  114  NLGTKEGWSEFAAGFLIGGCGGALVAYGLCIALPMMY  150
+
+
+> sp|A9BCL5|PSAL_PROM4 Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain MIT 9211) OX=93059 GN=psaL 
+PE=3 SV=1
+Length=199
+
+ Score = 110 bits (274),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 63/173 (36%), Positives = 94/173 (54%), Gaps = 6/173 (3%)
+
+Query  39   RRHTSFTVRAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPL  98
+            +++   T+R           ++P++ DPF+G LETPV S      +++NLP YR+ ++P 
+Sbjct  19   KKYIDSTIRPGDIGIADQWAVKPVS-DPFVGNLETPVNSGYFTKAFINNLPFYRSGISPN  77
+
+Query  99   LRGVEVGLAHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEG  158
+             RG+EVG A G+LL GPF   GPLRNT++A  AG L+  G V IL+    +Y   +    
+Sbjct  78   FRGLEVGAAFGYLLYGPFAMTGPLRNTDFALTAGLLSTIGAVHILTALFVLY---TAPGK  134
+
+Query  159  EPSIAPALTLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            +P++ P+      +  P  L +  GW  FT GF+ GG  G  +A  L   L L
+Sbjct  135  DPNVQPSDCTV--ENPPTDLFTRTGWTDFTSGFWLGGCGGAVFAWLLCGTLHL  185
+
+
+> sp|A2BT95|PSAL_PROMS Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 GN=psaL 
+PE=3 SV=1
+Length=199
+
+ Score = 103 bits (258),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 61/147 (41%), Positives = 79/147 (54%), Gaps = 5/147 (3%)
+
+Query  65   DPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPLRN  124
+            DP +G L TPV S      +++NLP YR  ++P  RG+E G A G+LL GPF   GPLRN
+Sbjct  44   DPCVGNLATPVNSGYFTKAFINNLPFYREGISPNFRGLETGAAFGYLLYGPFTMTGPLRN  103
+
+Query  125  TEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSADGW  184
+            +E+A  AG LAA G V IL+  L +Y         P++ P          P  L +  GW
+Sbjct  104  SEFALTAGLLAAIGAVHILTALLVLYNAPG---KAPNVQPPDATV--NNPPKDLFTRAGW  158
+
+Query  185  AKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            A FT GF+ GG  G  +A  L+  L L
+Sbjct  159  ADFTSGFWLGGCGGSVFAWLLVGTLHL  185
+
+
+> sp|O87787|PSAL_PROMA Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 / SS120) 
+OX=167539 GN=psaL PE=3 SV=1
+Length=199
+
+ Score = 103 bits (256),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 62/147 (42%), Positives = 78/147 (53%), Gaps = 5/147 (3%)
+
+Query  65   DPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPLRN  124
+            DP +G L TPV S      +L+NLP YR  ++P  RG+EVG A G+LL GP+   GPLRN
+Sbjct  44   DPCVGNLSTPVNSGYFTKAFLNNLPFYRGGLSPNFRGLEVGAAFGYLLYGPYAMTGPLRN  103
+
+Query  125  TEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSADGW  184
+            T+YA  AG L   G V IL+  L +Y         P+I P+         P  L +  GW
+Sbjct  104  TDYALTAGLLGTIGAVHILTALLVLYNAPG---KAPNIQPSDCTI--NNPPADLFTRSGW  158
+
+Query  185  AKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            A FT GF+ GG  G  +A  L   L L
+Sbjct  159  ADFTSGFWLGGCGGAVFAWLLCGTLHL  185
+
+
+> sp|A8G719|PSAL_PROM2 Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=psaL 
+PE=3 SV=1
+Length=199
+
+ Score = 102 bits (255),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 59/147 (40%), Positives = 79/147 (54%), Gaps = 5/147 (3%)
+
+Query  65   DPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPLRN  124
+            DP +G L TPV S      +++NLP YR  ++P  RG+E G A G+LL GPF   GPLRN
+Sbjct  44   DPCVGNLATPVNSGYFTKAFINNLPFYREGISPNFRGLETGAAFGYLLYGPFTMTGPLRN  103
+
+Query  125  TEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSADGW  184
+            +E+A  AG L+A G V I++  L +Y         P++ P          P  L +  GW
+Sbjct  104  SEFAVTAGLLSAIGAVHIMTALLVLYNAPG---KAPNVQPPDATV--NNPPKDLFTRAGW  158
+
+Query  185  AKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            A FT GF+ GG  G  +A  L+  L L
+Sbjct  159  ADFTSGFWLGGCGGAVFAWLLVGTLHL  185
+
+
+> sp|A2BYP5|PSAL_PROM5 Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 GN=psaL 
+PE=3 SV=1
+Length=199
+
+ Score = 101 bits (252),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 59/147 (40%), Positives = 79/147 (54%), Gaps = 5/147 (3%)
+
+Query  65   DPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPLRN  124
+            DP +G L TPV S      +++NLP YR  ++P  RG+E G A G+LL GPF   GPLRN
+Sbjct  44   DPCVGNLATPVNSGYFTKAFINNLPFYREGISPNFRGLETGAAFGYLLYGPFTMTGPLRN  103
+
+Query  125  TEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSADGW  184
+            +++A  AG LAA G V I++  L +Y         P++ P          P  L +  GW
+Sbjct  104  SDFAITAGLLAAIGAVHIMTALLVLYNAPG---KAPNVQPPDATV--NNPPADLFTRAGW  158
+
+Query  185  AKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            A FT GF+ GG  G  +A  L+  L L
+Sbjct  159  ADFTSGFWLGGCGGAVFAWLLVGTLHL  185
+
+
+> sp|A3PF09|PSAL_PROM0 Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=psaL 
+PE=3 SV=1
+Length=199
+
+ Score = 101 bits (252),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 59/147 (40%), Positives = 77/147 (52%), Gaps = 5/147 (3%)
+
+Query  65   DPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPLRN  124
+            DP +G L TPV S      +++NLP YR  ++P  RG+E G A G+LL GPF   GPLRN
+Sbjct  44   DPCVGNLATPVNSGYFTKAFINNLPFYREGISPNFRGLETGAAFGYLLYGPFTMTGPLRN  103
+
+Query  125  TEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSADGW  184
+            +E+A  AG LA  G V IL+    +Y         P++ P          P  L +  GW
+Sbjct  104  SEFALTAGLLATIGAVHILTALFVLYNAPG---KAPNVQPPDATV--NNPPKDLFTRAGW  158
+
+Query  185  AKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            A FT GF+ GG  G  +A  L+  L L
+Sbjct  159  ADFTSGFWLGGCGGAVFAWLLVGTLHL  185
+
+
+> sp|Q7UZX6|PSAL_PROMP Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus subsp. pastoris (strain CCMP1986 
+/ NIES-2087 / MED4) OX=59919 GN=psaL PE=3 SV=1
+Length=199
+
+ Score = 99.0 bits (245),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 60/153 (39%), Positives = 83/153 (54%), Gaps = 6/153 (4%)
+
+Query  59   IQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVK  118
+            ++P++ DP +G L TPV S      +++NLP YR  ++P  RG+E G A G+LL GPF  
+Sbjct  39   VKPVS-DPCVGNLATPVNSGYFTKAFINNLPFYREGISPNFRGLETGAAFGYLLYGPFSM  97
+
+Query  119  AGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQL  178
+             GPLRN+++A  AG LA  G V IL+  L +Y         P++ P          P  L
+Sbjct  98   TGPLRNSDFALTAGLLATIGAVHILTGLLVLYNAPG---KAPNVQPPDATV--YNPPADL  152
+
+Query  179  QSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             +  GWA FT GF+ GG  G  +A  L+  L L
+Sbjct  153  FTRTGWADFTSGFWLGGCGGAVFAWLLVGTLHL  185
+
+
+> sp|Q7NIE7|PSAL_GLOVI Photosystem I reaction center subunit XI 
+OS=Gloeobacter violaceus (strain PCC 7421) OX=251221 GN=psaL 
+PE=1 SV=1
+Length=147
+
+ Score = 83.2 bits (204),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 43/97 (44%), Positives = 61/97 (63%), Gaps = 2/97 (2%)
+
+Query  65   DPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPLRN  124
+            DP  G L TPV +S  I W++ NLP  R  ++   RG+E+G+AHG+ L+GPF   GPLRN
+Sbjct  11   DPQEGTLLTPVNNSTAIRWFIDNLPINRVGMDEFTRGLEIGMAHGYWLIGPFALLGPLRN  70
+
+Query  125  TEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPS  161
+            TE    AG ++  GL++I ++ L+  G AS  E  P+
+Sbjct  71   TELGLVAGLVSTIGLLLISTIGLS--GYASLVEDVPT  105
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 14083295987
+Results from round 2
+
+
+Query= Q41385|2o01L
+
+Length=216
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q41385|PSAL_SPIOL Photosystem I reaction center subunit XI, ...  276     2e-92
+  sp|P23993|PSAL_HORVU Photosystem I reaction center subunit XI, ...  255     3e-84
+  sp|Q9SUI4|PSAL_ARATH Photosystem I reaction center subunit XI, ...  252     7e-83
+  sp|Q39654|PSAL_CUCSA Photosystem I reaction center subunit XI, ...  242     6e-79
+  sp|A9BCL5|PSAL_PROM4 Photosystem I reaction center subunit XI O...  226     8e-73
+  sp|O87787|PSAL_PROMA Photosystem I reaction center subunit XI O...  219     3e-70
+  sp|B8HRF0|PSAL_CYAP4 Photosystem I reaction center subunit XI O...  216     2e-69
+  sp|Q116L4|PSAL_TRIEI Photosystem I reaction center subunit XI O...  215     5e-69
+  sp|Q7UZX6|PSAL_PROMP Photosystem I reaction center subunit XI O...  215     1e-68
+  sp|A8G719|PSAL_PROM2 Photosystem I reaction center subunit XI O...  215     2e-68
+  sp|P58577|PSAL_NOSS1 Photosystem I reaction center subunit XI O...  213     2e-68
+  sp|P31092|PSAL_ANAVT Photosystem I reaction center subunit XI O...  213     4e-68
+  sp|B2J591|PSAL_NOSP7 Photosystem I reaction center subunit XI O...  211     2e-67
+  sp|A2BT95|PSAL_PROMS Photosystem I reaction center subunit XI O...  211     3e-67
+  sp|A2BYP5|PSAL_PROM5 Photosystem I reaction center subunit XI O...  211     4e-67
+  sp|A3PF09|PSAL_PROM0 Photosystem I reaction center subunit XI O...  211     7e-67
+  sp|Q6B8P4|PSAL_GRATL Photosystem I reaction center subunit XI O...  207     3e-66
+  sp|Q8DGB4|PSAL_THEEB Photosystem I reaction center subunit XI O...  206     1e-65
+  sp|P37277|PSAL_SYNY3 Photosystem I reaction center subunit XI O...  204     1e-64
+  sp|P51222|PSAL_PORPU Photosystem I reaction center subunit XI O...  203     1e-64
+  sp|A0T0M6|PSAL_PHATC Photosystem I reaction center subunit XI O...  201     1e-63
+  sp|O78469|PSAL_GUITH Photosystem I reaction center subunit XI O...  201     1e-63
+  sp|B0JT88|PSAL_MICAN Photosystem I reaction center subunit XI O...  201     1e-63
+  sp|Q85FP8|PSAL_CYAM1 Photosystem I reaction center subunit XI O...  199     5e-63
+  sp|Q1XDR5|PSAL_PYRYE Photosystem I reaction center subunit XI O...  199     5e-63
+  sp|P25902|PSAL_SYNEL Photosystem I reaction center subunit XI O...  199     6e-63
+  sp|O31126|PSAL_MASLA Photosystem I reaction center subunit XI O...  197     5e-62
+  sp|Q54753|PSAL_SYNP2 Photosystem I reaction center subunit XI O...  194     7e-61
+  sp|Q5ENP6|PSAL_ISOGA Photosystem I reaction center subunit XI O...  192     3e-60
+  sp|B1WPZ7|PSAL_CYAA5 Photosystem I reaction center subunit XI O...  189     6e-59
+  sp|P95822|PSAL_SYNE7 Photosystem I reaction center subunit XI O...  185     3e-57
+  sp|P31084|PSAL_SYNP6 Photosystem I reaction center subunit XI O...  179     5e-55
+  sp|P49486|PSAL_ODOSI Photosystem I reaction center subunit XI O...  175     1e-53
+  sp|Q4G3B5|PSAL_EMIHU Photosystem I reaction center subunit XI O...  174     3e-53
+  sp|A0T0U5|PSAL_THAPS Photosystem I reaction center subunit XI O...  173     7e-53
+  sp|Q9TM17|PSAL_CYACA Photosystem I reaction center subunit XI O...  171     3e-52
+  sp|Q7NIE7|PSAL_GLOVI Photosystem I reaction center subunit XI O...  140     3e-40
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P25937|PSAL_THEVL Photosystem I reaction center subunit XI (...  38.5    0.003
+
+
+> sp|Q41385|PSAL_SPIOL Photosystem I reaction center subunit XI, 
+chloroplastic OS=Spinacia oleracea OX=3562 GN=PSAL PE=1 SV=1
+Length=216
+
+ Score = 276 bits (706),  Expect = 2e-92, Method: Composition-based stats.
+ Identities = 216/216 (100%), Positives = 216/216 (100%), Gaps = 0/216 (0%)
+
+Query  1    MAATTSPMASQLKSGFTTKALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTYQVIQ  60
+            MAATTSPMASQLKSGFTTKALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTYQVIQ
+Sbjct  1    MAATTSPMASQLKSGFTTKALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTYQVIQ  60
+
+Query  61   PLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAG  120
+            PLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAG
+Sbjct  61   PLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAG  120
+
+Query  121  PLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQS  180
+            PLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQS
+Sbjct  121  PLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQS  180
+
+Query  181  ADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPYYFK  216
+            ADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPYYFK
+Sbjct  181  ADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPYYFK  216
+
+
+> sp|P23993|PSAL_HORVU Photosystem I reaction center subunit XI, 
+chloroplastic OS=Hordeum vulgare OX=4513 GN=PSAL PE=1 SV=1
+Length=209
+
+ Score = 255 bits (652),  Expect = 3e-84, Method: Composition-based stats.
+ Identities = 150/218 (69%), Positives = 175/218 (80%), Gaps = 11/218 (5%)
+
+Query  1    MAAT-TSPMASQ-LKSGFTTKALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTYQV  58
+            MA     PMASQ +KSG    A   P+G+SG +L       R   F V+A+K++KPTYQV
+Sbjct  1    MATAYAPPMASQVMKSGL---ACSKPRGMSGASLT------RRPRFVVKAVKSDKPTYQV  51
+
+Query  59   IQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVK  118
+            +QP+NGDPFIG LETPVTSSPL+AWYLSNLPAYRTAV+PLLRG+EVGLAHG+LLVGPF  
+Sbjct  52   VQPINGDPFIGSLETPVTSSPLVAWYLSNLPAYRTAVSPLLRGIEVGLAHGYLLVGPFAL  111
+
+Query  119  AGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQL  178
+             GPLRNT   G AG+L A GLV ILS+CLTMYG+ASF EGEPS AP LTLTGRKK+ D+L
+Sbjct  112  TGPLRNTPVHGQAGTLGAIGLVSILSVCLTMYGVASFNEGEPSTAPVLTLTGRKKEADKL  171
+
+Query  179  QSADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPYYFK  216
+            Q+A+GW++FTGGFFFGGVSG  WA FL+YVLDLPY+FK
+Sbjct  172  QTAEGWSQFTGGFFFGGVSGAVWAYFLLYVLDLPYFFK  209
+
+
+> sp|Q9SUI4|PSAL_ARATH Photosystem I reaction center subunit XI, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PSAL PE=1 
+SV=2
+Length=219
+
+ Score = 252 bits (644),  Expect = 7e-83, Method: Composition-based stats.
+ Identities = 176/220 (80%), Positives = 197/220 (90%), Gaps = 5/220 (2%)
+
+Query  1    MAATTSPMASQLKSGFTT----KALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTY  56
+            MAA+ SPMASQL+S F++    + L VPKGISG A  G    +R +SFTVRA+K++K T+
+Sbjct  1    MAASASPMASQLRSSFSSASLSQRLAVPKGISG-APFGVSPTKRVSSFTVRAVKSDKTTF  59
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            QV+QP+NGDPFIG LETPVTSSPLIAWYLSNLP YRTAVNPLLRGVEVGLAHGF LVGPF
+Sbjct  60   QVVQPINGDPFIGSLETPVTSSPLIAWYLSNLPGYRTAVNPLLRGVEVGLAHGFFLVGPF  119
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            VKAGPLRNT YAG+AGSLAAAGLVVILSMCLT+YGI+SFKEGEPSIAP+LTLTGRKKQPD
+Sbjct  120  VKAGPLRNTAYAGSAGSLAAAGLVVILSMCLTIYGISSFKEGEPSIAPSLTLTGRKKQPD  179
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPYYFK  216
+            QLQ+ADGWAKFTGGFFFGG+SGVTWA FL+YVLDLPY+ K
+Sbjct  180  QLQTADGWAKFTGGFFFGGISGVTWAYFLLYVLDLPYFVK  219
+
+
+> sp|Q39654|PSAL_CUCSA Photosystem I reaction center subunit XI, 
+chloroplastic OS=Cucumis sativus OX=3659 GN=PSAL PE=2 SV=1
+Length=217
+
+ Score = 242 bits (618),  Expect = 6e-79, Method: Composition-based stats.
+ Identities = 168/219 (77%), Positives = 187/219 (85%), Gaps = 5/219 (2%)
+
+Query  1    MAATTSPMASQLKSGF---TTKALVVPKGISGPALRGFPSPRRHTSFTVRAIKTEKPTYQ  57
+            MA  TSP ASQL S F    T+AL+ PKG+S   LR  P+  R  SFT+RAI+ +KPT+Q
+Sbjct  1    MATATSPTASQLSSSFASSNTRALISPKGLSASPLRRIPT--RTHSFTIRAIQADKPTFQ  58
+
+Query  58   VIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFV  117
+            VIQP+NGDPFIG LETPVTSSPLIAWYLSNLPAYRTAV+PLLRG+EVGLAHGF LVGPFV
+Sbjct  59   VIQPINGDPFIGSLETPVTSSPLIAWYLSNLPAYRTAVSPLLRGIEVGLAHGFFLVGPFV  118
+
+Query  118  KAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQ  177
+            KAGPLRNT YAG AGSLAA GL+VILS+CLTMYG+ASF EGEPS AP+LTLTGRKK PD 
+Sbjct  119  KAGPLRNTAYAGGAGSLAAGGLIVILSVCLTMYGVASFNEGEPSTAPSLTLTGRKKTPDP  178
+
+Query  178  LQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDLPYYFK  216
+            LQ+ADGWAKF+GGFFFGG+SGV WA FL+YVLDLPYY K
+Sbjct  179  LQTADGWAKFSGGFFFGGISGVIWAYFLLYVLDLPYYVK  217
+
+
+> sp|A9BCL5|PSAL_PROM4 Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain MIT 9211) OX=93059 GN=psaL 
+PE=3 SV=1
+Length=199
+
+ Score = 226 bits (575),  Expect = 8e-73, Method: Composition-based stats.
+ Identities = 63/173 (36%), Positives = 93/173 (54%), Gaps = 6/173 (3%)
+
+Query  39   RRHTSFTVRAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPL  98
+            +++   T+R           ++P++ DPF+G LETPV S      +++NLP YR+ ++P 
+Sbjct  19   KKYIDSTIRPGDIGIADQWAVKPVS-DPFVGNLETPVNSGYFTKAFINNLPFYRSGISPN  77
+
+Query  99   LRGVEVGLAHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEG  158
+             RG+EVG A G+LL GPF   GPLRNT++A  AG L+  G V IL+    +Y        
+Sbjct  78   FRGLEVGAAFGYLLYGPFAMTGPLRNTDFALTAGLLSTIGAVHILTALFVLYTAPG---K  134
+
+Query  159  EPSIAPALTLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            +P++ P+      +  P  L +  GW  FT GF+ GG  G  +A  L   L L
+Sbjct  135  DPNVQPSDCTV--ENPPTDLFTRTGWTDFTSGFWLGGCGGAVFAWLLCGTLHL  185
+
+
+> sp|O87787|PSAL_PROMA Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 / SS120) 
+OX=167539 GN=psaL PE=3 SV=1
+Length=199
+
+ Score = 219 bits (558),  Expect = 3e-70, Method: Composition-based stats.
+ Identities = 65/173 (38%), Positives = 87/173 (50%), Gaps = 6/173 (3%)
+
+Query  39   RRHTSFTVRAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPL  98
+             ++   +VR           + P++ DP +G L TPV S      +L+NLP YR  ++P 
+Sbjct  19   EKYVDSSVRPGDIGIVDQWAVTPVS-DPCVGNLSTPVNSGYFTKAFLNNLPFYRGGLSPN  77
+
+Query  99   LRGVEVGLAHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEG  158
+             RG+EVG A G+LL GP+   GPLRNT+YA  AG L   G V IL+  L +Y        
+Sbjct  78   FRGLEVGAAFGYLLYGPYAMTGPLRNTDYALTAGLLGTIGAVHILTALLVLYNAPG---K  134
+
+Query  159  EPSIAPALTLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             P+I P+         P  L +  GWA FT GF+ GG  G  +A  L   L L
+Sbjct  135  APNIQPSDCTI--NNPPADLFTRSGWADFTSGFWLGGCGGAVFAWLLCGTLHL  185
+
+
+> sp|B8HRF0|PSAL_CYAP4 Photosystem I reaction center subunit XI 
+OS=Cyanothece sp. (strain PCC 7425 / ATCC 29141) OX=395961 
+GN=psaL PE=3 SV=1
+Length=159
+
+ Score = 216 bits (550),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 63/161 (39%), Positives = 97/161 (60%), Gaps = 13/161 (8%)
+
+Query  51   TEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGF  110
+             +    ++I+P NGDPF G L TP++ S     ++ NLPAYR  ++P+LRG+E+G+AHG+
+Sbjct  2    ADARDMELIKPYNGDPFTGHLSTPISDSDFTRTFIGNLPAYRKGLSPILRGLEIGMAHGY  61
+
+Query  111  LLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTG  170
+             L+GP+VK GPLR+++ A   G ++   L++I + CL  YGI SF++ E +  P      
+Sbjct  62   FLIGPWVKLGPLRDSDVANLGGLISGIALILIATACLAAYGIVSFQKEEAAANP------  115
+
+Query  171  RKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+                   L +A+GW++FT GFF G   G   A  L+   D+
+Sbjct  116  -------LNTAEGWSQFTAGFFVGATGGAFVAFTLLEKFDV  149
+
+
+> sp|Q116L4|PSAL_TRIEI Photosystem I reaction center subunit XI 
+OS=Trichodesmium erythraeum (strain IMS101) OX=203124 GN=psaL 
+PE=3 SV=1
+Length=161
+
+ Score = 215 bits (547),  Expect = 5e-69, Method: Composition-based stats.
+ Identities = 64/161 (40%), Positives = 98/161 (61%), Gaps = 12/161 (7%)
+
+Query  51   TEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGF  110
+            T+      +QP  GDPF+G L TP++ S     ++ NLP YR  ++P+LRG+EVG+AHG+
+Sbjct  2    TQATDSGFVQPYKGDPFVGHLSTPISDSDFTRAFIGNLPIYRPGLSPILRGLEVGMAHGY  61
+
+Query  111  LLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTG  170
+             +VGP+ K GPLR++  A   G ++   LV+I ++CL+ YG+ SF+   P  A       
+Sbjct  62   FIVGPWTKLGPLRDSAVANLGGLISTIALVLIATICLSAYGLVSFQGKSPEGA-------  114
+
+Query  171  RKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+                 D L++++GW++FTGGFF G + G   A FL+   +L
+Sbjct  115  -----DPLKTSEGWSQFTGGFFIGAMGGAVVAFFLLENFEL  150
+
+
+> sp|Q7UZX6|PSAL_PROMP Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus subsp. pastoris (strain CCMP1986 
+/ NIES-2087 / MED4) OX=59919 GN=psaL PE=3 SV=1
+Length=199
+
+ Score = 215 bits (547),  Expect = 1e-68, Method: Composition-based stats.
+ Identities = 61/173 (35%), Positives = 88/173 (51%), Gaps = 6/173 (3%)
+
+Query  39   RRHTSFTVRAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPL  98
+             ++   +V+           ++P++ DP +G L TPV S      +++NLP YR  ++P 
+Sbjct  19   EKYIDNSVQPNDIGIANQWAVKPVS-DPCVGNLATPVNSGYFTKAFINNLPFYREGISPN  77
+
+Query  99   LRGVEVGLAHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEG  158
+             RG+E G A G+LL GPF   GPLRN+++A  AG LA  G V IL+  L +Y        
+Sbjct  78   FRGLETGAAFGYLLYGPFSMTGPLRNSDFALTAGLLATIGAVHILTGLLVLYNAPG---K  134
+
+Query  159  EPSIAPALTLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             P++ P          P  L +  GWA FT GF+ GG  G  +A  L+  L L
+Sbjct  135  APNVQPPDATV--YNPPADLFTRTGWADFTSGFWLGGCGGAVFAWLLVGTLHL  185
+
+
+> sp|A8G719|PSAL_PROM2 Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=psaL 
+PE=3 SV=1
+Length=199
+
+ Score = 215 bits (547),  Expect = 2e-68, Method: Composition-based stats.
+ Identities = 60/173 (35%), Positives = 87/173 (50%), Gaps = 6/173 (3%)
+
+Query  39   RRHTSFTVRAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPL  98
+             ++   +V+           ++ +  DP +G L TPV S      +++NLP YR  ++P 
+Sbjct  19   EKYIDNSVQPNDIGVADQWAVKTV-DDPCVGNLATPVNSGYFTKAFINNLPFYREGISPN  77
+
+Query  99   LRGVEVGLAHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEG  158
+             RG+E G A G+LL GPF   GPLRN+E+A  AG L+A G V I++  L +Y        
+Sbjct  78   FRGLETGAAFGYLLYGPFTMTGPLRNSEFAVTAGLLSAIGAVHIMTALLVLYNAPG---K  134
+
+Query  159  EPSIAPALTLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             P++ P          P  L +  GWA FT GF+ GG  G  +A  L+  L L
+Sbjct  135  APNVQPPDATV--NNPPKDLFTRAGWADFTSGFWLGGCGGAVFAWLLVGTLHL  185
+
+
+> sp|P58577|PSAL_NOSS1 Photosystem I reaction center subunit XI 
+OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 
+GN=psaL PE=3 SV=1
+Length=172
+
+ Score = 213 bits (543),  Expect = 2e-68, Method: Composition-based stats.
+ Identities = 67/165 (41%), Positives = 92/165 (56%), Gaps = 7/165 (4%)
+
+Query  47   RAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGL  106
+            + + ++    +V+ P   DP  G LETPV +SPL+ W+++NLPAYR  + P  RG+EVG+
+Sbjct  9    KNLPSDPRNREVVFPAGRDPQWGNLETPVNASPLVKWFINNLPAYRPGLTPFRRGLEVGM  68
+
+Query  107  AHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPAL  166
+            AHG+ L GPF K GPLR+   A  AG L A GLVV+ ++ L++Y  ++          AL
+Sbjct  69   AHGYFLFGPFAKLGPLRDAANANLAGLLGAIGLVVLFTLALSLYANSNPPT-------AL  121
+
+Query  167  TLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+                    PD  QS +GW  F   F  GG+ G   A FL   L L
+Sbjct  122  ASVTVPNPPDAFQSKEGWNNFASAFLIGGIGGAVVAYFLTSNLAL  166
+
+
+> sp|P31092|PSAL_ANAVT Photosystem I reaction center subunit XI 
+OS=Anabaena variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=psaL PE=1 SV=2
+Length=172
+
+ Score = 213 bits (541),  Expect = 4e-68, Method: Composition-based stats.
+ Identities = 66/165 (40%), Positives = 92/165 (56%), Gaps = 7/165 (4%)
+
+Query  47   RAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGL  106
+            + + ++    +V+ P   DP  G LETPV +SPL+ W+++NLPAYR  + P  RG+EVG+
+Sbjct  9    KNLPSDPRNREVVFPAGRDPQWGNLETPVNASPLVKWFINNLPAYRPGLTPFRRGLEVGM  68
+
+Query  107  AHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPAL  166
+            AHG+ L GPF K GPLR+   A  AG L A GLVV+ ++ L++Y  ++  +       AL
+Sbjct  69   AHGYFLFGPFAKLGPLRDAANANLAGLLGAIGLVVLFTLSLSLYANSNPPK-------AL  121
+
+Query  167  TLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+                    PD  QS +GW  F   F  GG+ G   A FL     L
+Sbjct  122  ASVTVPNPPDAFQSKEGWNNFASAFLIGGIGGAVVAYFLTSNFAL  166
+
+
+> sp|B2J591|PSAL_NOSP7 Photosystem I reaction center subunit XI 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=psaL PE=3 SV=1
+Length=173
+
+ Score = 211 bits (537),  Expect = 2e-67, Method: Composition-based stats.
+ Identities = 66/163 (40%), Positives = 95/163 (58%), Gaps = 6/163 (4%)
+
+Query  47   RAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGL  106
+            + + ++    +V+ P   DP +G LETPV +SPL  W+++NLPAYR  ++P  RG+EVG+
+Sbjct  9    KNLPSDPRNREVVFPAFRDPQLGNLETPVNASPLSKWFINNLPAYRPGLSPARRGLEVGM  68
+
+Query  107  AHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPAL  166
+            AHG+ + GPF K GPLR+T+ A  AG LAA GLVV+L+  L++Y  ++  +  PS+    
+Sbjct  69   AHGYWIFGPFAKLGPLRDTDNANLAGLLAAIGLVVLLTGALSLYSNSNPPKALPSV----  124
+
+Query  167  TLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVL  209
+              T      D   S + W  F   F  GG+ G   A FL   L
+Sbjct  125  --TVPNPPVDAFNSKESWNNFASSFLIGGIGGAVVAYFLTSNL  165
+
+
+> sp|A2BT95|PSAL_PROMS Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 GN=psaL 
+PE=3 SV=1
+Length=199
+
+ Score = 211 bits (538),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 62/173 (36%), Positives = 87/173 (50%), Gaps = 6/173 (3%)
+
+Query  39   RRHTSFTVRAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPL  98
+             ++   +V+           ++ +  DP +G L TPV S      +++NLP YR  ++P 
+Sbjct  19   EKYIDNSVQPNDIGVAEQWAVKTV-ADPCVGNLATPVNSGYFTKAFINNLPFYREGISPN  77
+
+Query  99   LRGVEVGLAHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEG  158
+             RG+E G A G+LL GPF   GPLRN+E+A  AG LAA G V IL+  L +Y        
+Sbjct  78   FRGLETGAAFGYLLYGPFTMTGPLRNSEFALTAGLLAAIGAVHILTALLVLYNAPG---K  134
+
+Query  159  EPSIAPALTLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             P++ P          P  L +  GWA FT GF+ GG  G  +A  L+  L L
+Sbjct  135  APNVQPPDATV--NNPPKDLFTRAGWADFTSGFWLGGCGGSVFAWLLVGTLHL  185
+
+
+> sp|A2BYP5|PSAL_PROM5 Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 GN=psaL 
+PE=3 SV=1
+Length=199
+
+ Score = 211 bits (537),  Expect = 4e-67, Method: Composition-based stats.
+ Identities = 60/172 (35%), Positives = 87/172 (51%), Gaps = 6/172 (3%)
+
+Query  40   RHTSFTVRAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLL  99
+            ++   +V+           ++ +  DP +G L TPV S      +++NLP YR  ++P  
+Sbjct  20   KYRDNSVQPDDIGVANQWAVKTV-ADPCVGNLATPVNSGYFTKAFINNLPFYREGISPNF  78
+
+Query  100  RGVEVGLAHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGE  159
+            RG+E G A G+LL GPF   GPLRN+++A  AG LAA G V I++  L +Y         
+Sbjct  79   RGLETGAAFGYLLYGPFTMTGPLRNSDFAITAGLLAAIGAVHIMTALLVLYNAPG---KA  135
+
+Query  160  PSIAPALTLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            P++ P          P  L +  GWA FT GF+ GG  G  +A  L+  L L
+Sbjct  136  PNVQPPDATV--NNPPADLFTRAGWADFTSGFWLGGCGGAVFAWLLVGTLHL  185
+
+
+> sp|A3PF09|PSAL_PROM0 Photosystem I reaction center subunit XI 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=psaL 
+PE=3 SV=1
+Length=199
+
+ Score = 211 bits (536),  Expect = 7e-67, Method: Composition-based stats.
+ Identities = 60/173 (35%), Positives = 85/173 (49%), Gaps = 6/173 (3%)
+
+Query  39   RRHTSFTVRAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPL  98
+             ++   +V+           ++ +  DP +G L TPV S      +++NLP YR  ++P 
+Sbjct  19   EKYIDTSVQPNDIGVAEQWAVKTV-ADPCVGNLATPVNSGYFTKAFINNLPFYREGISPN  77
+
+Query  99   LRGVEVGLAHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEG  158
+             RG+E G A G+LL GPF   GPLRN+E+A  AG LA  G V IL+    +Y        
+Sbjct  78   FRGLETGAAFGYLLYGPFTMTGPLRNSEFALTAGLLATIGAVHILTALFVLYNAPG---K  134
+
+Query  159  EPSIAPALTLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             P++ P          P  L +  GWA FT GF+ GG  G  +A  L+  L L
+Sbjct  135  APNVQPPDATV--NNPPKDLFTRAGWADFTSGFWLGGCGGAVFAWLLVGTLHL  185
+
+
+> sp|Q6B8P4|PSAL_GRATL Photosystem I reaction center subunit XI 
+OS=Gracilaria tenuistipitata var. liui OX=285951 GN=psaL PE=3 
+SV=1
+Length=150
+
+ Score = 207 bits (527),  Expect = 3e-66, Method: Composition-based stats.
+ Identities = 70/156 (45%), Positives = 96/156 (62%), Gaps = 14/156 (9%)
+
+Query  56   YQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGP  115
+               IQ  N DPF+G L TPV++S      L+NLPAYR  ++PLLRG+E+G+AHG+ LVGP
+Sbjct  2    SDFIQSYNNDPFLGNLSTPVSTSTFTKGLLNNLPAYRRGLSPLLRGLEIGMAHGYFLVGP  61
+
+Query  116  FVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQP  175
+            F K GPLRNT+ A  +G L+A GL++IL++CL+MYG  SF +                  
+Sbjct  62   FDKLGPLRNTDVALLSGFLSAVGLIIILTVCLSMYGNVSFDKD--------------DAK  107
+
+Query  176  DQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            D LQ+ +GW +FT GF  G V G  +A  L+  + +
+Sbjct  108  DLLQTTEGWGQFTAGFLVGAVGGSGFAYLLLANIPV  143
+
+
+> sp|Q8DGB4|PSAL_THEEB Photosystem I reaction center subunit XI 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 GN=psaL 
+PE=1 SV=1
+Length=155
+
+ Score = 206 bits (524),  Expect = 1e-65, Method: Composition-based stats.
+ Identities = 61/155 (39%), Positives = 100/155 (65%), Gaps = 13/155 (8%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            ++++P NGDPF+G L TP++ S L+  ++ NLPAYR  ++P+LRG+EVG+AHG+ L+GP+
+Sbjct  4    ELVKPYNGDPFVGHLSTPISDSGLVKTFIGNLPAYRQGLSPILRGLEVGMAHGYFLIGPW  63
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            VK GPLR+++ A   G ++   L+++ + CL  YG+ SF++G  S              D
+Sbjct  64   VKLGPLRDSDVANLGGLISGIALILVATACLAAYGLVSFQKGGSS-------------SD  110
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             L++++GW++FT GFF G +     A FL+    +
+Sbjct  111  PLKTSEGWSQFTAGFFVGAMGSAFVAFFLLENFSV  145
+
+
+> sp|P37277|PSAL_SYNY3 Photosystem I reaction center subunit XI 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=psaL PE=1 SV=1
+Length=157
+
+ Score = 204 bits (518),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 64/155 (41%), Positives = 96/155 (62%), Gaps = 13/155 (8%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            QV+Q  NGDPF+G L TP++ S     ++ NLPAYR  ++P+LRG+EVG+AHG+ L+GP+
+Sbjct  6    QVVQAYNGDPFVGHLSTPISDSAFTRTFIGNLPAYRKGLSPILRGLEVGMAHGYFLIGPW  65
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+               GPLR++EY    G + A  L+++ +  L+ YG+ +F+             G +   D
+Sbjct  66   TLLGPLRDSEYQYIGGLIGALALILVATAALSSYGLVTFQ-------------GEQGSGD  112
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             LQ+ADGW++F  GFF GG+ G   A FL+  L +
+Sbjct  113  TLQTADGWSQFAAGFFVGGMGGAFVAYFLLENLSV  147
+
+
+> sp|P51222|PSAL_PORPU Photosystem I reaction center subunit XI 
+OS=Porphyra purpurea OX=2787 GN=psaL PE=3 SV=1
+Length=153
+
+ Score = 203 bits (517),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 70/155 (45%), Positives = 96/155 (62%), Gaps = 14/155 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            + I+P N DPF+G L TPV++S      L NLPAYR  ++PLLRG+E+G+AHG+ L+GPF
+Sbjct  3    EFIKPYNDDPFVGNLSTPVSTSSFSKGLLGNLPAYRRGLSPLLRGLEIGMAHGYFLIGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+             K GPLR T+ A  AG L++ GL++IL+ CL+MYG  SF               R    D
+Sbjct  63   DKLGPLRGTDVALLAGFLSSVGLIIILTTCLSMYGNVSFT--------------RSDSKD  108
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             LQ+A+GW +FT GF  G V G  +A  L+  + +
+Sbjct  109  PLQTAEGWGQFTAGFLVGAVGGSGFAYLLLANIPV  143
+
+
+> sp|A0T0M6|PSAL_PHATC Photosystem I reaction center subunit XI 
+OS=Phaeodactylum tricornutum (strain CCAP 1055/1) OX=556484 
+GN=psaL PE=3 SV=1
+Length=151
+
+ Score = 201 bits (511),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 66/154 (43%), Positives = 93/154 (60%), Gaps = 10/154 (6%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+              I+P N DPF+G L TP+TSS +    L NLPAYR  + PLLRG+E+GLAHG+ L+GPF
+Sbjct  3    NFIKPYNDDPFVGHLATPITSSAVTRAILQNLPAYRFGLTPLLRGLEIGLAHGYFLMGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            VK GPLR++E    AG L+  GL+VIL++ LT+YG+A+F + +           +    +
+Sbjct  63   VKLGPLRDSEIGLLAGFLSTVGLIVILTLGLTIYGVAAFGQEKT----------QSSNEN  112
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLD  210
+             LQ+   W +F GGFF G      +A   +  + 
+Sbjct  113  DLQTKKAWDQFKGGFFVGACGSAGFAFICLSSIP  146
+
+
+> sp|O78469|PSAL_GUITH Photosystem I reaction center subunit XI 
+OS=Guillardia theta OX=55529 GN=psaL PE=3 SV=1
+Length=152
+
+ Score = 201 bits (510),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 68/154 (44%), Positives = 95/154 (62%), Gaps = 14/154 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            Q ++P N DPF+G L TP+T+S      LSNLPAYR  ++PLLRG+E+G+ HG+ LVGPF
+Sbjct  3    QFVKPYNDDPFVGNLATPITTSSFTRTLLSNLPAYRAGLSPLLRGLEIGMTHGYFLVGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+             K GPLRN+E A  AG  +A GL++I++ CL +YG+ SF                    +
+Sbjct  63   YKLGPLRNSEVALLAGVFSALGLIIIMAACLAIYGVVSFN--------------TNDGGE  108
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLD  210
+            QLQSA GW +FT G+  G + G ++A  L+  + 
+Sbjct  109  QLQSAKGWRQFTSGWLVGSIGGASFAYILIANVS  142
+
+
+> sp|B0JT88|PSAL_MICAN Photosystem I reaction center subunit XI 
+OS=Microcystis aeruginosa (strain NIES-843) OX=449447 GN=psaL 
+PE=3 SV=1
+Length=160
+
+ Score = 201 bits (510),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 67/154 (44%), Positives = 94/154 (61%), Gaps = 13/154 (8%)
+
+Query  56   YQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGP  115
+             QV+ P N DPFIG L TP+++S     ++ NLPAYR  + P+LRG+EVG+AHG+ L GP
+Sbjct  7    KQVVTPYNDDPFIGHLATPISASGFTKAFIGNLPAYRPGLAPILRGLEVGMAHGYFLGGP  66
+
+Query  116  FVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQP  175
+            +V  GPLR++EYA   G + A  +V++ + CL  YG+ SF+    S              
+Sbjct  67   WVVLGPLRDSEYANIGGLIPALAMVLLATGCLASYGLVSFQGKAAS-------------N  113
+
+Query  176  DQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVL  209
+            D L+SA+GW++F  GFF GG+ G   A FL+  L
+Sbjct  114  DPLKSAEGWSQFAAGFFIGGMGGAFVAYFLLENL  147
+
+
+> sp|Q85FP8|PSAL_CYAM1 Photosystem I reaction center subunit XI 
+OS=Cyanidioschyzon merolae (strain 10D) OX=280699 GN=psaL PE=3 
+SV=1
+Length=140
+
+ Score = 199 bits (505),  Expect = 5e-63, Method: Composition-based stats.
+ Identities = 66/154 (43%), Positives = 88/154 (57%), Gaps = 16/154 (10%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+              I+P N DPF+G L TP+ SS L   YLS LP YR  V+P LRG+E+G+AHG+ L+GPF
+Sbjct  3    DYIKPYNNDPFVGHLATPINSSSLTRAYLSQLPIYRRGVSPFLRGLEIGMAHGYFLIGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            V+ GPLRNT+    AG L+A GL+VIL++ + +YG  SF                     
+Sbjct  63   VQLGPLRNTDIKYLAGLLSAIGLIVILTLGMLLYGAVSF----------------TNDSQ  106
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLD  210
+             L+S DGW +   GF  G V G  +A  L+ +  
+Sbjct  107  DLESVDGWRQLASGFLLGAVGGAGFAYLLLTLFS  140
+
+
+> sp|Q1XDR5|PSAL_PYRYE Photosystem I reaction center subunit XI 
+OS=Pyropia yezoensis OX=2788 GN=psaL PE=3 SV=1
+Length=153
+
+ Score = 199 bits (506),  Expect = 5e-63, Method: Composition-based stats.
+ Identities = 68/156 (44%), Positives = 95/156 (61%), Gaps = 14/156 (9%)
+
+Query  56   YQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGP  115
+             + I+P N DPF+G L TPV++S        NLPAYR  ++PLLRG+E+G+AHG+ L+GP
+Sbjct  2    SEFIKPYNDDPFVGNLSTPVSTSSFSKGTSRNLPAYRRGLSPLLRGLEIGMAHGYFLIGP  61
+
+Query  116  FVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQP  175
+            F K GPLR T+ A  AG L++ GL++IL+ CL+MYG  SF               R    
+Sbjct  62   FDKLGPLRGTDVALLAGFLSSVGLIIILTTCLSMYGNVSFT--------------RADSK  107
+
+Query  176  DQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            D LQ+++GW +FT GF  G V G  +A  L+  + +
+Sbjct  108  DPLQTSEGWGQFTAGFLVGAVGGSGFAYLLLANIPV  143
+
+
+> sp|P25902|PSAL_SYNEL Photosystem I reaction center subunit XI 
+OS=Synechococcus elongatus OX=32046 GN=psaL PE=3 SV=2
+Length=149
+
+ Score = 199 bits (505),  Expect = 6e-63, Method: Composition-based stats.
+ Identities = 61/155 (39%), Positives = 99/155 (64%), Gaps = 13/155 (8%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+            ++++P NGDPF+G L TP++ S L+  ++ NLPAYR  ++P+L G+EVG+AHG+ L+GP+
+Sbjct  4    ELVKPYNGDPFVGHLSTPISDSGLVKTFIGNLPAYRQGLSPILPGLEVGMAHGYFLIGPW  63
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            VK GPLR+++ A   G ++   L+++ + CL  YG+ SF++G  S              D
+Sbjct  64   VKLGPLRDSDVANLGGLISGIALILVATACLAAYGLVSFQKGGSS-------------SD  110
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             L++++GW++FT GFF G +     A FL+    L
+Sbjct  111  PLKTSEGWSQFTAGFFVGAMGSAFVAFFLLENFLL  145
+
+
+> sp|O31126|PSAL_MASLA Photosystem I reaction center subunit XI 
+OS=Mastigocladus laminosus OX=83541 GN=psaL PE=3 SV=1
+Length=173
+
+ Score = 197 bits (502),  Expect = 5e-62, Method: Composition-based stats.
+ Identities = 66/165 (40%), Positives = 93/165 (56%), Gaps = 7/165 (4%)
+
+Query  47   RAIKTEKPTYQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGL  106
+            +   ++    +V+ P   DP IG LETP+ SSPL+ W++ NLPAYR  +    RG+EVG+
+Sbjct  9    KNSPSDPRNREVVFPAYRDPQIGDLETPINSSPLVKWFIGNLPAYRPGITTFRRGLEVGM  68
+
+Query  107  AHGFLLVGPFVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPAL  166
+            AHG+ + GPF K GPLRNT  A  AG L+A GL++IL+  LT+Y  +   +        +
+Sbjct  69   AHGYWIFGPFAKLGPLRNTVNANLAGLLSALGLIIILTGALTLYANSKPPK-------PV  121
+
+Query  167  TLTGRKKQPDQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+                    P+  QS++GW  F   F  GG+ G   A FL   L+L
+Sbjct  122  KSVATPNPPEAFQSSEGWNNFASAFLIGGIGGAVVAYFLTSNLEL  166
+
+
+> sp|Q54753|PSAL_SYNP2 Photosystem I reaction center subunit XI 
+OS=Synechococcus sp. (strain ATCC 27264 / PCC 7002 / PR-6) 
+OX=32049 GN=psaL PE=3 SV=1
+Length=152
+
+ Score = 194 bits (492),  Expect = 7e-61, Method: Composition-based stats.
+ Identities = 55/152 (36%), Positives = 82/152 (54%), Gaps = 7/152 (5%)
+
+Query  62   LNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGP  121
+              GDP +G L TP+ +S     +++NLP YR  ++   RG+EVG+AHG+ L GPF   GP
+Sbjct  6    HGGDPQVGNLATPINASAFSKAFINNLPGYRQGLSAQRRGLEVGMAHGYFLYGPFALLGP  65
+
+Query  122  LRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSA  181
+            LRN ++AG AG L   GL+ +L++ L++YG          ++           P+ L + 
+Sbjct  66   LRNADFAGVAGLLGTVGLISLLTLALSLYGSVG-------VSTPTATLTTPNPPENLGTK  118
+
+Query  182  DGWAKFTGGFFFGGVSGVTWACFLMYVLDLPY  213
+            +GW++F  GF  GG  G   A  L   L + Y
+Sbjct  119  EGWSEFAAGFLIGGCGGALVAYGLCIALPMMY  150
+
+
+> sp|Q5ENP6|PSAL_ISOGA Photosystem I reaction center subunit XI 
+OS=Isochrysis galbana OX=37099 GN=psaL PE=2 SV=2
+Length=145
+
+ Score = 192 bits (487),  Expect = 3e-60, Method: Composition-based stats.
+ Identities = 63/155 (41%), Positives = 92/155 (59%), Gaps = 14/155 (9%)
+
+Query  56   YQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGP  115
+             + ++P N DPF+G L TPVT+S     YL NLP YR  + PLLRG+E+G+AHG+ L+GP
+Sbjct  2    SEFVKPFNNDPFVGNLSTPVTTSTATKLYLGNLPIYRKGLTPLLRGLEIGMAHGYFLIGP  61
+
+Query  116  FVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQP  175
+            F   GPLRN+  A   G  +A GL++IL++ LT+YG+ASF++                  
+Sbjct  62   FYILGPLRNSPNALLVGLFSAFGLIIILTLALTIYGLASFQD--------------NGVG  107
+
+Query  176  DQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLD  210
+            + L+S+ GW  FT GF  G + G + A  ++  + 
+Sbjct  108  ENLESSKGWRNFTSGFTIGALGGASVAYLVLNNIS  142
+
+
+> sp|B1WPZ7|PSAL_CYAA5 Photosystem I reaction center subunit XI 
+OS=Cyanothece sp. (strain ATCC 51142) OX=43989 GN=psaL PE=3 
+SV=1
+Length=156
+
+ Score = 189 bits (479),  Expect = 6e-59, Method: Composition-based stats.
+ Identities = 61/146 (42%), Positives = 82/146 (56%), Gaps = 7/146 (5%)
+
+Query  64   GDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPLR  123
+            GDP IG L TPV SS L   ++ NLPAYR  ++   RG+EVG+AHG+ L GPF   GPLR
+Sbjct  8    GDPQIGNLATPVNSSRLSLAFIRNLPAYRRGLSANRRGLEVGMAHGYFLYGPFAILGPLR  67
+
+Query  124  NTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSADG  183
+            NTEYA   G L+A  ++ IL++ L++Y      +        +        P+ L ++ G
+Sbjct  68   NTEYASTGGLLSAVAMISILTIALSLYASVEVGK-------PIETLTTPDVPEDLGTSVG  120
+
+Query  184  WAKFTGGFFFGGVSGVTWACFLMYVL  209
+            W +F  GFF GG  GV +A  L   L
+Sbjct  121  WGEFANGFFIGGSGGVIFAYLLCQAL  146
+
+
+> sp|P95822|PSAL_SYNE7 Photosystem I reaction center subunit XI 
+OS=Synechococcus elongatus (strain PCC 7942) OX=1140 GN=psaL 
+PE=3 SV=1
+Length=166
+
+ Score = 185 bits (469),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 65/146 (45%), Positives = 88/146 (60%), Gaps = 5/146 (3%)
+
+Query  63   NGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPL  122
+             G P IG L TP+ SSP    +++ LP YR  ++   RG+E+G+AHGFLL GPF   GPL
+Sbjct  9    GGTPEIGNLATPINSSPFTRTFINALPIYRRGLSSNRRGLEIGMAHGFLLYGPFSILGPL  68
+
+Query  123  RNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSAD  182
+            RNTE AG+AG LA  GLVVIL++CL++YG A           A +       P +L + +
+Sbjct  69   RNTETAGSAGLLATVGLVVILTVCLSLYGNAGSGPSA-----AESTVTTPNPPQELFTKE  123
+
+Query  183  GWAKFTGGFFFGGVSGVTWACFLMYV  208
+            GW++FT GF  GG+ G  +A +L   
+Sbjct  124  GWSEFTSGFILGGLGGAFFAFYLAST  149
+
+
+> sp|P31084|PSAL_SYNP6 Photosystem I reaction center subunit XI 
+OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) 
+OX=269084 GN=psaL PE=1 SV=2
+Length=165
+
+ Score = 179 bits (454),  Expect = 5e-55, Method: Composition-based stats.
+ Identities = 64/146 (44%), Positives = 86/146 (59%), Gaps = 5/146 (3%)
+
+Query  63   NGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGPL  122
+             G P IG L TP  SSP    +++ LP YR  ++   RG+E+G+AHGFLL GP    GPL
+Sbjct  8    GGTPEIGDLATPTNSSPFTRTFINALPIYRRGLSSNRRGLEIGMAHGFLLYGPLSILGPL  67
+
+Query  123  RNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSAD  182
+            RNTE AG+AG LA  GLVVIL++CL++YG A           A +       P +L + +
+Sbjct  68   RNTETAGSAGLLATVGLVVILTVCLSLYGNAGSGPSA-----AESTVTTPNPPQELFTKE  122
+
+Query  183  GWAKFTGGFFFGGVSGVTWACFLMYV  208
+            GW++FT GF  GG+ G  +A +L   
+Sbjct  123  GWSEFTSGFILGGLGGAFFAFYLAST  148
+
+
+> sp|P49486|PSAL_ODOSI Photosystem I reaction center subunit XI 
+OS=Odontella sinensis OX=1514140 GN=psaL PE=3 SV=1
+Length=150
+
+ Score = 175 bits (444),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 66/154 (43%), Positives = 96/154 (62%), Gaps = 11/154 (7%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+              I+P N DPF+G L TP+TSS +    L NLPAYR  + PLLRG+E+GLAHG+ L+GPF
+Sbjct  3    NFIKPYNDDPFVGHLATPITSSSITRAILKNLPAYRFGLTPLLRGLEIGLAHGYFLMGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+            VK GPLRN++ A  +G L+  GL++IL++ LT+YG+A+F +G+ +           +  +
+Sbjct  63   VKLGPLRNSDIALFSGFLSTIGLILILTLGLTIYGVAAFGQGQTT-----------ENSN  111
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLD  210
+             LQ+   W +F GGFF G      +A   +  + 
+Sbjct  112  DLQTKKAWDQFKGGFFVGACGSAGFALICLSSIP  145
+
+
+> sp|Q4G3B5|PSAL_EMIHU Photosystem I reaction center subunit XI 
+OS=Emiliania huxleyi OX=2903 GN=psaL PE=3 SV=1
+Length=145
+
+ Score = 174 bits (440),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 66/155 (43%), Positives = 92/155 (59%), Gaps = 14/155 (9%)
+
+Query  56   YQVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGP  115
+             + ++P N DPF+G L TPVT+S     YL NLP YR  ++PLLRG+E+G+AHG+ L+GP
+Sbjct  2    SEFVKPYNNDPFVGNLSTPVTTSTATKLYLGNLPIYRKGLSPLLRGLEIGMAHGYFLIGP  61
+
+Query  116  FVKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQP  175
+            F   GPLRN+  A   G  +A GL++IL++ LT+YG+ASF+  E                
+Sbjct  62   FYILGPLRNSPNALLVGLFSAFGLILILTLGLTIYGLASFQGTEGG--------------  107
+
+Query  176  DQLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLD  210
+            + L+SA GW  FT GF  G   G + A  L+  + 
+Sbjct  108  ENLESAKGWRNFTSGFSIGAFGGASVAYVLLDNIS  142
+
+
+> sp|A0T0U5|PSAL_THAPS Photosystem I reaction center subunit XI 
+OS=Thalassiosira pseudonana OX=35128 GN=psaL PE=3 SV=1
+Length=148
+
+ Score = 173 bits (438),  Expect = 7e-53, Method: Composition-based stats.
+ Identities = 65/155 (42%), Positives = 90/155 (58%), Gaps = 13/155 (8%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+              I+P N DPF+G L TP+TSS L    L NLPAYR  + PLLRG+E+GLAHG+ L+GPF
+Sbjct  3    NFIKPYNDDPFVGHLATPITSSSLTRALLKNLPAYRFGLTPLLRGLEIGLAHGYFLIGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+             + GPLRN++    AG L+  GL++IL++ LT+YG A+F +              K    
+Sbjct  63   AQLGPLRNSDIGLLAGFLSTIGLILILTLGLTIYGAAAFGQ-------------EKSNGS  109
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+            +LQ+   W +F GGFF G      +A   +  +  
+Sbjct  110  ELQTKKSWDQFKGGFFVGACGSAGFAFICLSSIPT  144
+
+
+> sp|Q9TM17|PSAL_CYACA Photosystem I reaction center subunit XI 
+OS=Cyanidium caldarium OX=2771 GN=psaL PE=3 SV=1
+Length=152
+
+ Score = 171 bits (434),  Expect = 3e-52, Method: Composition-based stats.
+ Identities = 64/152 (42%), Positives = 93/152 (61%), Gaps = 14/152 (9%)
+
+Query  57   QVIQPLNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPF  116
+              I+P   +PF+G L TPV SS +  WYL NLP YR  ++PLLRG+E+G+AHG+ ++GPF
+Sbjct  3    NYIKPYGSNPFVGNLSTPVNSSKVTIWYLKNLPIYRRGLSPLLRGLEIGMAHGYFIIGPF  62
+
+Query  117  VKAGPLRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPD  176
+             K GPLRNT+ +  +G +AA GL++I S+ + +YGI +F   E +              D
+Sbjct  63   YKLGPLRNTDLSLLSGLIAAIGLIIISSIAMIIYGIVTFDNSENN--------------D  108
+
+Query  177  QLQSADGWAKFTGGFFFGGVSGVTWACFLMYV  208
+            +LQ+A+GW +   GF  G V G  +A  L+  
+Sbjct  109  KLQTANGWRQLASGFLLGAVGGAGFAYILLAN  140
+
+
+> sp|Q7NIE7|PSAL_GLOVI Photosystem I reaction center subunit XI 
+OS=Gloeobacter violaceus (strain PCC 7421) OX=251221 GN=psaL 
+PE=1 SV=1
+Length=147
+
+ Score = 140 bits (353),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 54/150 (36%), Positives = 77/150 (51%), Gaps = 18/150 (12%)
+
+Query  62   LNGDPFIGGLETPVTSSPLIAWYLSNLPAYRTAVNPLLRGVEVGLAHGFLLVGPFVKAGP  121
+               DP  G L TPV +S  I W++ NLP  R  ++   RG+E+G+AHG+ L+GPF   GP
+Sbjct  8    YTPDPQEGTLLTPVNNSTAIRWFIDNLPINRVGMDEFTRGLEIGMAHGYWLIGPFALLGP  67
+
+Query  122  LRNTEYAGAAGSLAAAGLVVILSMCLTMYGIASFKEGEPSIAPALTLTGRKKQPDQLQSA  181
+            LRNTE    AG ++  GL++I ++ L+  G AS  E  P+                    
+Sbjct  68   LRNTELGLVAGLVSTIGLLLISTIGLS--GYASLVEDVPTE----------------FDR  109
+
+Query  182  DGWAKFTGGFFFGGVSGVTWACFLMYVLDL  211
+             GW++  GGF  GGV G  +A  ++    L
+Sbjct  110  KGWSRLAGGFLVGGVGGAIFAFAILQFFPL  139
+
+
+> sp|P25937|PSAL_THEVL Photosystem I reaction center subunit XI 
+(Fragment) OS=Thermosynechococcus vulcanus OX=32053 GN=psaL 
+PE=1 SV=1
+Length=20
+
+ Score = 38.5 bits (88),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 10/18 (56%), Positives = 15/18 (83%), Gaps = 0/18 (0%)
+
+Query  57  QVIQPLNGDPFIGGLETP  74
+           ++++P NGDPF+G L TP
+Sbjct  3   ELVKPYNGDPFVGHLSTP  20
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.132    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0406    0.140     1.90     42.6     43.6 
+
+Effective search space used: 14083295987
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,3894 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q8RUT8|3ug9A
+
+Length=737
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P71411|BACS2_HALSA Sensory rhodopsin-2 OS=Halobacterium sali...  58.5    4e-08
+  sp|Q48334|BAC3_HALVA Bacterial rhodopsin CSR3 OS=Haloarcula val...  50.8    1e-05
+  sp|Q18DH8|BACR1_HALWD Bacteriorhodopsin-I OS=Haloquadratum wals...  50.1    3e-05
+  sp|G0LFX8|BACR1_HALWC Bacteriorhodopsin-I OS=Haloquadratum wals...  50.1    3e-05
+  sp|P42197|BACS2_HALVA Sensory rhodopsin-2 OS=Haloarcula vallism...  48.5    7e-05
+  sp|Q5V5V3|BACS2_HALMA Sensory rhodopsin II OS=Haloarcula marism...  48.5    7e-05
+  sp|P0DMH8|BACS1_HALSA Sensory rhodopsin-1 OS=Halobacterium sali...  48.1    1e-04
+  sp|B0R633|BACS1_HALS3 Sensory rhodopsin-1 OS=Halobacterium sali...  48.1    1e-04
+  sp|Q5V0R5|BACR2_HALMA Bacteriorhodopsin-II OS=Haloarcula marism...  48.1    1e-04
+  sp|O93740|BACR_HALS4 Bacteriorhodopsin OS=Haloterrigena sp. (st...  47.4    2e-04
+  sp|O93743|BACS_HALSD Sensory rhodopsin OS=Halorubrum sodomense ...  46.6    4e-04
+  sp|P33743|BACS1_HALSS Sensory rhodopsin-1 OS=Halobacterium sp. ...  46.2    5e-04
+  sp|Q18DH5|BACRM_HALWD Bacteriorhodopsin-II-like protein OS=Halo...  45.8    6e-04
+  sp|Q5V4H7|BACS3_HALMA Sensory rhodopsin III OS=Haloarcula maris...  45.4    9e-04
+  sp|P94853|BACH_HALVA Cruxhalorhodopsin-3 OS=Haloarcula vallismo...  45.1    0.001
+  sp|Q48315|BACH_HALHP Halorhodopsin OS=Halobacterium halobium (s...  42.7    0.008
+  sp|P33742|BACH_HALSS Halorhodopsin OS=Halobacterium sp. (strain...  42.7    0.008
+  sp|Q5UXY6|BACR1_HALMA Bacteriorhodopsin-I OS=Haloarcula marismo...  42.4    0.008
+  sp|Q48314|BACH_HALHS Halorhodopsin OS=Halobacterium halobium (s...  42.4    0.009
+
+
+> sp|P71411|BACS2_HALSA Sensory rhodopsin-2 OS=Halobacterium salinarum 
+(strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=sop2 
+PE=3 SV=1
+Length=237
+
+ Score = 58.5 bits (140),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 40/146 (27%), Positives = 71/146 (49%), Gaps = 6/146 (4%)
+
+Query  113  GHRVQWL-RYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATG  171
+            G R  +L RY +WL+T P+I+++L+ L   +    R +  LL +D+  I  G  +A+ TG
+Sbjct  62   GDRTVYLARYIDWLVTTPLIVLYLAML---ARPGHRTSAWLLAADVFVIAAGIAAALTTG  118
+
+Query  172  YVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFI  231
+              + +FF +G    A   +             P  R R +   +  +  V W ++P++++
+Sbjct  119  VQRWLFFAVGAAGYAALLYGLLGTLPRALGDDP--RVRSLFVTLRNITVVLWTLYPVVWL  176
+
+Query  232  LGPEGFGVLSVYGSTVGHTIIDLMSK  257
+            L P G G+L     T+    +D +SK
+Sbjct  177  LSPAGIGILQTEMYTIVVVYLDFISK  202
+
+
+> sp|Q48334|BAC3_HALVA Bacterial rhodopsin CSR3 OS=Haloarcula vallismortis 
+OX=28442 PE=3 SV=1
+Length=236
+
+ Score = 50.8 bits (120),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 38/144 (26%), Positives = 74/144 (51%), Gaps = 15/144 (10%)
+
+Query  119  LRYAEWLLTCPVILIHLSNLTGLSNDYSRRTM-GLLVSDIGTIVWGATSAMATGYVKVIF  177
+             RY +W++T P+++       G +   SRR + G++V+D   I+ G  + +A G +K + 
+Sbjct  72   FRYLDWVVTTPLLV----GFVGYAAGASRRAIFGVMVADALMILTGVGAVVADGTLKWVL  127
+
+Query  178  FCLGLCYGANTFFHA---AKAYIEGYHTVPKGRCR-QVVTGMAWLFFVSWGMFPILFILG  233
+            F      G +T FH    A  Y+    +VP    R  + + +     + W  +P++++ G
+Sbjct  128  F------GVSTVFHVSLFAYLYLVFPRSVPDDPQRIGLFSLLKNHIGLLWIAYPLVWLAG  181
+
+Query  234  PEGFGVLSVYGSTVGHTIIDLMSK  257
+            PEG G+ +  G ++ +  +DL++K
+Sbjct  182  PEGLGLATYVGVSITYAFLDLLAK  205
+
+
+> sp|Q18DH8|BACR1_HALWD Bacteriorhodopsin-I OS=Haloquadratum walsbyi 
+(strain DSM 16790 / HBSQ001) OX=362976 GN=bop1 PE=1 SV=1
+Length=254
+
+ Score = 50.1 bits (118),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 49/190 (26%), Positives = 88/190 (46%), Gaps = 14/190 (7%)
+
+Query  82   EEIYVCAIEMVKV----ILEFFFEFKNPSMLYLATGHRVQ--WLRYAEWLLTCPVILIHL  135
+            +E YV  I +  +     L  FF F   + + LA G  V   W RYA+WL T P++L+ +
+Sbjct  47   KEFYVITILIPAIAAASYLSMFFGF-GLTEVSLANGRVVDVYWARYADWLFTTPLLLLDI  105
+
+Query  136  SNLTGLSNDYSRRTMGLLV-SDIGTIVWGATSAMATGYV-KVIFFCLGLCYGANTFFHAA  193
+              L G S    +R +G LV  D   IV G  + +    V +  F+ +         ++  
+Sbjct  106  GLLAGAS----QRDIGALVGIDAFMIVTGLVATLTKVVVARYAFWTISTISMVFLLYYLV  161
+
+Query  194  KAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIID  253
+              + E      +   R     +  +  V+W ++P+ +++G EG  +  +YG T+   ++D
+Sbjct  162  AVFGEAVSDADED-TRSTFNALRNIILVTWAIYPVAWLVGTEGLALTGLYGETLLFMVLD  220
+
+Query  254  LMSKNCWGLL  263
+            L++K  +G +
+Sbjct  221  LVAKVGFGFI  230
+
+
+> sp|G0LFX8|BACR1_HALWC Bacteriorhodopsin-I OS=Haloquadratum walsbyi 
+(strain DSM 16854 / JCM 12705 / C23) OX=768065 GN=bop1 
+PE=1 SV=1
+Length=254
+
+ Score = 50.1 bits (118),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 49/190 (26%), Positives = 88/190 (46%), Gaps = 14/190 (7%)
+
+Query  82   EEIYVCAIEMVKV----ILEFFFEFKNPSMLYLATGHRVQ--WLRYAEWLLTCPVILIHL  135
+            +E YV  I +  +     L  FF F   + + LA G  V   W RYA+WL T P++L+ +
+Sbjct  47   KEFYVITILIPAIAAASYLSMFFGF-GLTEVSLANGRVVDVYWARYADWLFTTPLLLLDI  105
+
+Query  136  SNLTGLSNDYSRRTMGLLV-SDIGTIVWGATSAMATGYV-KVIFFCLGLCYGANTFFHAA  193
+              L G S    +R +G LV  D   IV G  + +    V +  F+ +         ++  
+Sbjct  106  GLLAGAS----QRDIGALVGIDAFMIVTGLVATLTKVVVARYAFWTISTISMVFLLYYLV  161
+
+Query  194  KAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIID  253
+              + E      +   R     +  +  V+W ++P+ +++G EG  +  +YG T+   ++D
+Sbjct  162  AVFGEAVSDADED-TRSTFNALRNIILVTWAIYPVAWLVGTEGLALTGLYGETLLFMVLD  220
+
+Query  254  LMSKNCWGLL  263
+            L++K  +G +
+Sbjct  221  LVAKVGFGFI  230
+
+
+> sp|P42197|BACS2_HALVA Sensory rhodopsin-2 OS=Haloarcula vallismortis 
+OX=28442 GN=sop2 PE=3 SV=1
+Length=236
+
+ Score = 48.5 bits (114),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 40/155 (26%), Positives = 74/155 (48%), Gaps = 5/155 (3%)
+
+Query  111  ATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMAT  170
+            + GH V  +RY +WLLT P+ +  L+ L G S +    T+ L+V    TIV+G   A+  
+Sbjct  63   SEGHAVYVVRYVDWLLTTPLNVWFLALLAGASRE---DTVKLVVLQALTIVFGFAGAVTP  119
+
+Query  171  GYVKVIFFCL-GLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPIL  229
+              V    F + G  +G   +       +    T+         T +     V W ++P++
+Sbjct  120  SPVSYALFAVGGALFGGVIYLLYRNIAVAAKSTLSDIEVSLYRT-LRNFVVVLWLVYPVV  178
+
+Query  230  FILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLG  264
+            ++LG  G G++ V  +T+    +D+++K  +G++ 
+Sbjct  179  WLLGAAGVGLMDVETATLVVVYLDVVTKVGFGVIA  213
+
+
+> sp|Q5V5V3|BACS2_HALMA Sensory rhodopsin II OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=sop2 PE=1 SV=1
+Length=236
+
+ Score = 48.5 bits (114),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 40/155 (26%), Positives = 74/155 (48%), Gaps = 5/155 (3%)
+
+Query  111  ATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMAT  170
+            + GH V  +RY +WLLT P+ +  L+ L G S +    T+ L+V    TIV+G   A+  
+Sbjct  63   SEGHAVYVVRYVDWLLTTPLNVWFLALLAGASRE---DTVKLVVLQALTIVFGFAGAVTP  119
+
+Query  171  GYVKVIFFCL-GLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPIL  229
+              V    F + G  +G   +       +    T+         T +     V W ++P++
+Sbjct  120  SPVSYALFAVGGALFGGVIYLLYRNIAVAAKSTLSDIEVSLYRT-LRNFVVVLWLVYPVV  178
+
+Query  230  FILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLG  264
+            ++LG  G G++ V  +T+    +D+++K  +G++ 
+Sbjct  179  WLLGAAGVGLMDVETATLVVVYLDVVTKVGFGVIA  213
+
+
+> sp|P0DMH8|BACS1_HALSA Sensory rhodopsin-1 OS=Halobacterium salinarum 
+(strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=sop1 
+PE=1 SV=1
+Length=239
+
+ Score = 48.1 bits (113),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 38/155 (25%), Positives = 73/155 (47%), Gaps = 19/155 (12%)
+
+Query  110  LATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMA  169
+            +  G+++  LRY +WL+T P+++ ++    G S    R  +G++V+D   I  GA + + 
+Sbjct  63   IVNGNQIVGLRYIDWLVTTPILVGYVGYAAGASR---RSIIGVMVADALMIAVGAGAVVT  119
+
+Query  170  TGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFF-------VS  222
+             G +K   F      G ++ FH +   +  Y  V   R    V     LF        + 
+Sbjct  120  DGTLKWALF------GVSSIFHLS---LFAYLYVIFPRVVPDVPEQIGLFNLLKNHIGLL  170
+
+Query  223  WGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSK  257
+            W  +P++++ GP G G  +  G  + +  +D+++K
+Sbjct  171  WLAYPLVWLFGPAGIGEATAAGVALTYVFLDVLAK  205
+
+
+> sp|B0R633|BACS1_HALS3 Sensory rhodopsin-1 OS=Halobacterium salinarum 
+(strain ATCC 29341 / DSM 671 / R1) OX=478009 GN=sopI 
+PE=1 SV=1
+Length=239
+
+ Score = 48.1 bits (113),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 38/155 (25%), Positives = 73/155 (47%), Gaps = 19/155 (12%)
+
+Query  110  LATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMA  169
+            +  G+++  LRY +WL+T P+++ ++    G S    R  +G++V+D   I  GA + + 
+Sbjct  63   IVNGNQIVGLRYIDWLVTTPILVGYVGYAAGASR---RSIIGVMVADALMIAVGAGAVVT  119
+
+Query  170  TGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFF-------VS  222
+             G +K   F      G ++ FH +   +  Y  V   R    V     LF        + 
+Sbjct  120  DGTLKWALF------GVSSIFHLS---LFAYLYVIFPRVVPDVPEQIGLFNLLKNHIGLL  170
+
+Query  223  WGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSK  257
+            W  +P++++ GP G G  +  G  + +  +D+++K
+Sbjct  171  WLAYPLVWLFGPAGIGEATAAGVALTYVFLDVLAK  205
+
+
+> sp|Q5V0R5|BACR2_HALMA Bacteriorhodopsin-II OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=xop1 PE=1 SV=1
+Length=250
+
+ Score = 48.1 bits (113),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 56/211 (27%), Positives = 92/211 (44%), Gaps = 20/211 (9%)
+
+Query  82   EEIYVCAIEMVKV----ILEFFFEFKNPSMLYLATGH--RVQWLRYAEWLLTCPVILIHL  135
+            EE YV  I +  +     L  FF F   + + L  G    V W RYA+WL T P++L+ +
+Sbjct  45   EEFYVITILIAGIAASSYLSMFFGF-GLTEVELVNGRVIDVYWARYADWLFTTPLLLLDI  103
+
+Query  136  SNLTGLSNDYSRRTMGLLVSDIGTIVWG-ATSAMATGYVKVIFFCLGLCYGANTFFHAAK  194
+              L G SN   R    L+  D   IV G A + M     +  F+ +     A  F     
+Sbjct  104  GLLAGASN---RDMASLITIDAFMIVTGLAATLMKVPVARYAFWTISTI--AMLFVLYYL  158
+
+Query  195  AYIEGYHTVPKGRCRQVVTGMAW-LFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIID  253
+              + G          Q    +   +  V+W ++P+ +++G EG G++ ++G T+   I+D
+Sbjct  159  VVVVGEAASDASEEAQSTFNVLRNIILVAWAIYPVAWLVGTEGLGLVGLFGETLLFMILD  218
+
+Query  254  LMSKNCWGLLGHYLRVLIHEHILIHGDIRKT  284
+            L +K  +G       +L+    ++ GD   T
+Sbjct  219  LTAKIGFGF------ILLRSRAIVGGDSAPT  243
+
+
+> sp|O93740|BACR_HALS4 Bacteriorhodopsin OS=Haloterrigena sp. (strain 
+arg-4) OX=160432 GN=bop PE=3 SV=1
+Length=250
+
+ Score = 47.4 bits (111),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 44/150 (29%), Positives = 75/150 (50%), Gaps = 18/150 (12%)
+
+Query  116  VQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAM-ATGYVK  174
+            + W RYA+WL T P++L+ LS L G + +     +GL V  IGT   GA +A+ +T   +
+Sbjct  86   IYWARYADWLFTTPLLLLDLSLLAGANRNTIATLIGLDVFMIGT---GAIAALSSTPGTR  142
+
+Query  175  VIFFCLGLCYGANTFFHAAKAYIE-GYHTVPK-----GRCRQVVTGMAWLFFVSWGMFPI  228
+            + ++ +         +       E   +  P+     GR R +V  +       W ++P+
+Sbjct  143  IAWWAISTGALLALLYVLVGTLSENARNRAPEVASLFGRLRNLVIAL-------WFLYPV  195
+
+Query  229  LFILGPEG-FGVLSVYGSTVGHTIIDLMSK  257
+            ++ILG EG FG+L +Y  T    ++DL +K
+Sbjct  196  VWILGTEGTFGILPLYWETAAFMVLDLSAK  225
+
+
+> sp|O93743|BACS_HALSD Sensory rhodopsin OS=Halorubrum sodomense 
+OX=35743 GN=sop PE=1 SV=1
+Length=254
+
+ Score = 46.6 bits (109),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 35/144 (24%), Positives = 69/144 (48%), Gaps = 15/144 (10%)
+
+Query  119  LRYAEWLLTCPVILIHLSNLTGLSNDYSRRTM-GLLVSDIGTIVWGATSAMATGYVKVIF  177
+            LRY +W++T P+    L    G +   SRR + G++++D   IV+GA + ++ G +K   
+Sbjct  73   LRYVDWVVTTPL----LVGFIGYNAGASRRAIAGVMIADALMIVFGAAAVVSGGTLKWAL  128
+
+Query  178  FCLGLCYGANTFFHAAKAYIEGYHTVPKGR----CRQVVTGMAWLFFVSWGMFPILFILG  233
+            F +   +  + F +    +  G    P  R      +   G+ WL       +P ++++G
+Sbjct  129  FGVSALFHVSLFAYLYVIFPGGIPDDPMQRGLFSLLKNHVGLLWL------AYPFVWLMG  182
+
+Query  234  PEGFGVLSVYGSTVGHTIIDLMSK  257
+            P G G     G+ + +  +D+++K
+Sbjct  183  PAGIGFTGAVGAALTYAFLDVLAK  206
+
+
+> sp|P33743|BACS1_HALSS Sensory rhodopsin-1 OS=Halobacterium sp. 
+(strain SG1) OX=33006 GN=sop1 PE=1 SV=1
+Length=247
+
+ Score = 46.2 bits (108),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 35/149 (23%), Positives = 72/149 (48%), Gaps = 25/149 (17%)
+
+Query  119  LRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVKVIFF  178
+            LRY +W++T P+++  +  + G S    R   G++++D   I +GA + +  G +K + F
+Sbjct  73   LRYVDWIVTTPLLVGFIGYVAGASR---RAIAGVMLADALMIAFGAGAVVTGGTLKWVLF  129
+
+Query  179  CLGLCYGANTFFHA---AKAYIEGYHTVPKGRCRQVV-------TGMAWLFFVSWGMFPI  228
+                  G ++ FH    A  Y+     VP    ++ +        G+ WL       +P 
+Sbjct  130  ------GVSSIFHVTLFAYLYVVFPRAVPDDPMQRGLFSLLKNHVGLLWL------AYPF  177
+
+Query  229  LFILGPEGFGVLSVYGSTVGHTIIDLMSK  257
+            ++++GP G G  +  G+ + +  +D+++K
+Sbjct  178  VWLMGPAGIGFTTGVGAALTYAFLDVLAK  206
+
+
+> sp|Q18DH5|BACRM_HALWD Bacteriorhodopsin-II-like protein OS=Haloquadratum 
+walsbyi (strain DSM 16790 / HBSQ001) OX=362976 GN=bop2 
+PE=1 SV=1
+Length=246
+
+ Score = 45.8 bits (107),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 39/161 (24%), Positives = 74/161 (46%), Gaps = 39/161 (24%)
+
+Query  116  VQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSD-----------------IG  158
+            + W RYA+WLLT P+++I L+ + G       +   L++ D                 + 
+Sbjct  77   IYWARYADWLLTTPLLIIDLALVAGARKQTLYK---LIIIDAIMILGGLAGSMMQQGAVI  133
+
+Query  159  TIVWGATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHT-VPKGRCRQVVTGMAW  217
+             IVW A S  A  ++ ++++ LG          + +A      T +   R R +  G+  
+Sbjct  134  RIVWWAVSTAA--FIILLYYLLGEL--------SERARSRSAETGIVFNRLRNITLGL--  181
+
+Query  218  LFFVSWGMFPILFILGP-EGFGVLSVYGSTVGHTIIDLMSK  257
+                 W ++PI++ILG   GFG+++V    + + ++D+ +K
+Sbjct  182  -----WALYPIVWILGTGGGFGIIAVTTEIMLYVMLDIGTK  217
+
+
+> sp|Q5V4H7|BACS3_HALMA Sensory rhodopsin III OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=xop2 PE=1 SV=1
+Length=232
+
+ Score = 45.4 bits (106),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 31/139 (22%), Positives = 64/139 (46%), Gaps = 4/139 (3%)
+
+Query  119  LRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVKVIFF  178
+            LR+A+W+++ P+I  +L+ L G+     R  +   V  IG + +G  S   +G ++ I F
+Sbjct  71   LRFADWIVSTPIITYYLARLAGVDTQTRRLAVAANVVMIG-VGYGFVSM--SGSLRWIAF  127
+
+Query  179  CLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFG  238
+             +         +   K +    +       R +   +  L  V+W ++P+++ LGP G G
+Sbjct  128  AVSTVAFIGLLYLYIKTFARKINAA-TASVRSLFQSLRDLTVVTWSLYPVVYFLGPLGTG  186
+
+Query  239  VLSVYGSTVGHTIIDLMSK  257
+            ++          ++D ++K
+Sbjct  187  IIQAPDLNFLVAVLDTIAK  205
+
+
+> sp|P94853|BACH_HALVA Cruxhalorhodopsin-3 OS=Haloarcula vallismortis 
+OX=28442 GN=choP3 PE=3 SV=1
+Length=276
+
+ Score = 45.1 bits (105),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 42/153 (27%), Positives = 73/153 (48%), Gaps = 18/153 (12%)
+
+Query  118  WLRYAEWLLTCPVILIHLSNL--TGLSNDYSRRTMGLLVSDIGTIVWGATSAMATG--YV  173
+            W RY  W  + P+IL+ L  L  T +++ ++  TM     DIG  + G  +A+ T    +
+Sbjct  106  WGRYLTWTFSTPMILLALGLLADTDMASLFTAITM-----DIGMCITGLAAALVTSSHLL  160
+
+Query  174  KVIFFCLGLCYGANTFFHAAKAYI---EGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILF  230
+            + +F      YG +  F  A  Y+   E           ++   +  L  V W  +PIL+
+Sbjct  161  RWVF------YGISCAFFIAVLYVLLVEWPADAEAAGTSEIFGTLKLLTVVLWLGYPILW  214
+
+Query  231  ILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+             LG EG  +LSV  ++ G++ +D+++K  +  L
+Sbjct  215  ALGSEGVALLSVGVTSWGYSGLDILAKYVFAFL  247
+
+
+> sp|Q48315|BACH_HALHP Halorhodopsin OS=Halobacterium halobium 
+(strain port) OX=33004 GN=hop PE=1 SV=1
+Length=276
+
+ Score = 42.7 bits (99),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 42/153 (27%), Positives = 72/153 (47%), Gaps = 18/153 (12%)
+
+Query  118  WLRYAEWLLTCPVILIHLSNL--TGLSNDYSRRTMGLLVSDIGTIVWGATSAMATG--YV  173
+            W RY  W  + P+IL+ L  L  T +++ ++  TM     DIG  V G  +A+ T    +
+Sbjct  106  WGRYLTWTFSTPMILLALGLLADTDIASLFTAITM-----DIGMCVTGLAAALITSSHLL  160
+
+Query  174  KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRC---RQVVTGMAWLFFVSWGMFPILF  230
+            + +F      YG +  F  A  Y+               ++   +  L  V W  +PIL+
+Sbjct  161  RWVF------YGISCAFFVAVLYVLLVQWPADAEAAGTSEIFGTLKILTVVLWLGYPILW  214
+
+Query  231  ILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+             LG EG  +LSV  ++ G++ +D+++K  +  L
+Sbjct  215  ALGSEGVALLSVGVTSWGYSGLDILAKYVFAFL  247
+
+
+> sp|P33742|BACH_HALSS Halorhodopsin OS=Halobacterium sp. (strain 
+SG1) OX=33006 GN=hop PE=3 SV=1
+Length=284
+
+ Score = 42.7 bits (99),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 41/149 (28%), Positives = 66/149 (44%), Gaps = 10/149 (7%)
+
+Query  118  WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVKVIF  177
+            W RY  W L+ P+ILI +  L G SN  + +    +V+DIG  V G  +A+ T      +
+Sbjct  111  WGRYLTWALSTPMILIAVGLLAG-SN--TTKLFTAVVADIGMCVTGLAAALTTSS----Y  163
+
+Query  178  FCLGLCYGANTFFHAAKAYI---EGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGP  234
+                + Y  +  F     YI   E            +   +  L  V W  +PI + LG 
+Sbjct  164  LLRWVWYAISCAFFVVVLYILLAEWAEDAEIAGTADIFNTLKVLTVVLWLGYPIFWALGA  223
+
+Query  235  EGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+            EG  VL V  ++  ++ +D+++K  +  L
+Sbjct  224  EGLAVLDVAITSWAYSGMDIVAKYLFAFL  252
+
+
+> sp|Q5UXY6|BACR1_HALMA Bacteriorhodopsin-I OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=bop PE=1 SV=1
+Length=250
+
+ Score = 42.4 bits (98),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 42/175 (24%), Positives = 79/175 (45%), Gaps = 11/175 (6%)
+
+Query  114  HRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSA----MA  169
+            H + W RY +WL T P++L  L  L G   +     + L V  IGT V    SA    ++
+Sbjct  74   HPIYWARYTDWLFTTPLLLYDLGLLAGADRNTIYSLVSLDVLMIGTGVVATLSAGSGVLS  133
+
+Query  170  TGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPIL  229
+             G  +++++ +   +     +    +       +P    R     +  L  V W ++P+ 
+Sbjct  134  AGAERLVWWGISTAFLLVLLYFLFSSLSGRVANLPS-DTRSTFKTLRNLVTVVWLVYPVW  192
+
+Query  230  FILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRKT  284
+            +++G EG G++ +   T G  +IDL++K  +G+      +L+  H ++ G    T
+Sbjct  193  WLVGSEGLGLVGIGIETAGFMVIDLVAKVGFGI------ILLRSHGVLDGAAETT  241
+
+
+> sp|Q48314|BACH_HALHS Halorhodopsin OS=Halobacterium halobium 
+(strain shark) OX=33005 GN=hop PE=1 SV=1
+Length=276
+
+ Score = 42.4 bits (98),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 42/153 (27%), Positives = 72/153 (47%), Gaps = 18/153 (12%)
+
+Query  118  WLRYAEWLLTCPVILIHLSNL--TGLSNDYSRRTMGLLVSDIGTIVWGATSAMATG--YV  173
+            W RY  W  + P+IL+ L  L  T +++ ++  TM     DIG  V G  +A+ T    +
+Sbjct  106  WGRYLTWTFSTPMILLALGLLADTDIASLFTAITM-----DIGMCVTGLAAALITSSHLL  160
+
+Query  174  KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRC---RQVVTGMAWLFFVSWGMFPILF  230
+            + +F      YG +  F  A  Y+               ++   +  L  V W  +PIL+
+Sbjct  161  RWVF------YGISCAFFVAVLYVLLVQWPADAEAAGTSEIFGTLKILTVVLWLGYPILW  214
+
+Query  231  ILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+             LG EG  +LSV  ++ G++ +D+++K  +  L
+Sbjct  215  ALGSEGVALLSVGVTSWGYSGLDILAKYVFAFL  247
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 79590066948
+Results from round 2
+
+
+Query= Q8RUT8|3ug9A
+
+Length=737
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q18DH8|BACR1_HALWD Bacteriorhodopsin-I OS=Haloquadratum wals...  196     9e-56
+  sp|G0LFX8|BACR1_HALWC Bacteriorhodopsin-I OS=Haloquadratum wals...  196     9e-56
+  sp|Q5V0R5|BACR2_HALMA Bacteriorhodopsin-II OS=Haloarcula marism...  191     5e-54
+  sp|P0DMH8|BACS1_HALSA Sensory rhodopsin-1 OS=Halobacterium sali...  166     2e-45
+  sp|B0R633|BACS1_HALS3 Sensory rhodopsin-1 OS=Halobacterium sali...  166     2e-45
+  sp|P71411|BACS2_HALSA Sensory rhodopsin-2 OS=Halobacterium sali...  162     6e-44
+  sp|P42197|BACS2_HALVA Sensory rhodopsin-2 OS=Haloarcula vallism...  160     5e-43
+  sp|Q5V5V3|BACS2_HALMA Sensory rhodopsin II OS=Haloarcula marism...  160     5e-43
+  sp|P33743|BACS1_HALSS Sensory rhodopsin-1 OS=Halobacterium sp. ...  154     5e-41
+  sp|O93743|BACS_HALSD Sensory rhodopsin OS=Halorubrum sodomense ...  154     1e-40
+  sp|Q48334|BAC3_HALVA Bacterial rhodopsin CSR3 OS=Haloarcula val...  153     1e-40
+  sp|Q5V4H7|BACS3_HALMA Sensory rhodopsin III OS=Haloarcula maris...  143     4e-37
+  sp|Q18DH5|BACRM_HALWD Bacteriorhodopsin-II-like protein OS=Halo...  136     2e-34
+  sp|P94853|BACH_HALVA Cruxhalorhodopsin-3 OS=Haloarcula vallismo...  136     4e-34
+  sp|O93740|BACR_HALS4 Bacteriorhodopsin OS=Haloterrigena sp. (st...  135     5e-34
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P29563|BACR2_HALS2 Archaerhodopsin-2 OS=Halobacterium sp. (s...  159     1e-42
+  sp|P69052|BACR1_HALSS Archaerhodopsin-1 OS=Halobacterium sp. (s...  151     1e-39
+  sp|P69051|BACR1_HALC1 Archaerhodopsin-1 OS=Halorubrum chaoviato...  151     1e-39
+  sp|P96787|BACR3_HALSD Archaerhodopsin-3 OS=Halorubrum sodomense...  149     1e-38
+  sp|Q5UXM9|BACS1_HALMA Sensory rhodopsin I OS=Haloarcula marismo...  142     2e-36
+  sp|Q57101|BACR_HALAR Cruxrhodopsin-1 OS=Haloarcula argentinensi...  140     1e-35
+  sp|Q5V1N0|BACH_HALMA Halorhodopsin OS=Haloarcula marismortui (s...  139     3e-35
+  sp|P94854|BACR_HALVA Cruxrhodopsin-3 OS=Haloarcula vallismortis...  139     3e-35
+  sp|Q48314|BACH_HALHS Halorhodopsin OS=Halobacterium halobium (s...  139     3e-35
+  sp|Q48315|BACH_HALHP Halorhodopsin OS=Halobacterium halobium (s...  139     5e-35
+  sp|P33742|BACH_HALSS Halorhodopsin OS=Halobacterium sp. (strain...  139     6e-35
+  sp|P02945|BACR_HALSA Bacteriorhodopsin OS=Halobacterium salinar...  136     2e-34
+  sp|Q5UXY6|BACR1_HALMA Bacteriorhodopsin-I OS=Haloarcula marismo...  135     5e-34
+  sp|O93742|BACH_HALSD Halorhodopsin OS=Halorubrum sodomense OX=3...  135     7e-34
+  sp|P33969|BACR_HALHM Bacteriorhodopsin (Fragment) OS=Halobacter...  130     2e-32
+  sp|O93741|BACH_HALS4 Halorhodopsin OS=Haloterrigena sp. (strain...  130     1e-31
+  sp|P33971|BACR_HALHP Bacteriorhodopsin (Fragment) OS=Halobacter...  126     2e-31
+  sp|P33972|BACR_HALHS Bacteriorhodopsin (Fragment) OS=Halobacter...  124     3e-30
+  sp|P42196|BACS2_NATPH Sensory rhodopsin-2 OS=Natronomonas phara...  124     3e-30
+  sp|P15647|BACH_NATPH Halorhodopsin OS=Natronomonas pharaonis OX...  125     4e-30
+  sp|P0DMH7|BACH_HALSA Halorhodopsin OS=Halobacterium salinarum (...  123     2e-29
+  sp|B0R2U4|BACH_HALS3 Halorhodopsin OS=Halobacterium salinarum (...  123     2e-29
+  sp|Q53496|BACR_HALSR Cruxrhodopsin-2 OS=Haloarcula sp. (strain ...  118     4e-28
+  sp|Q53461|BACH_HALAR Cruxhalorhodopsin-1 (Fragment) OS=Haloarcu...  114     9e-28
+  sp|P33970|BACH_HALHM Halorhodopsin (Fragment) OS=Halobacterium ...  110     9e-26
+  sp|Q9UW81|NOP1_NEUCR Opsin-1 OS=Neurospora crassa (strain ATCC ...  89.0    6e-18
+  sp|Q9F7P4|PRRG_PRB01 Green-light absorbing proteorhodopsin OS=G...  73.6    4e-13
+  sp|O74870|MUG73_SCHPO Meiotically up-regulated gene 73 protein ...  71.6    3e-12
+  sp|O74631|FD123_TRAVE Protein FDD123 OS=Trametes versicolor OX=...  68.9    2e-11
+  sp|Q9AFF7|PRRB_PRB02 Blue-light absorbing proteorhodopsin OS=Ga...  65.1    3e-10
+  sp|Q12816|TROP_HUMAN Trophinin OS=Homo sapiens OX=9606 GN=TRO P...  59.7    8e-08
+  sp|P38079|YRO2_YEAST Protein YRO2 OS=Saccharomyces cerevisiae (...  48.5    1e-04
+  sp|Q12117|MRH1_YEAST Protein MRH1 OS=Saccharomyces cerevisiae (...  48.1    2e-04
+  sp|Q5UQU8|YL357_MIMIV Uncharacterized protein L357 OS=Acanthamo...  47.4    4e-04
+  sp|Q09472|EP300_HUMAN Histone acetyltransferase p300 OS=Homo sa...  47.8    5e-04
+  sp|P25619|HSP30_YEAST 30 kDa heat shock protein OS=Saccharomyce...  43.1    0.006
+  sp|Q966L9|GLH2_CAEEL ATP-dependent RNA helicase glh-2 OS=Caenor...  43.5    0.008
+
+
+> sp|Q18DH8|BACR1_HALWD Bacteriorhodopsin-I OS=Haloquadratum walsbyi 
+(strain DSM 16790 / HBSQ001) OX=362976 GN=bop1 PE=1 SV=1
+Length=254
+
+ Score = 196 bits (499),  Expect = 9e-56, Method: Composition-based stats.
+ Identities = 50/210 (24%), Positives = 91/210 (43%), Gaps = 18/210 (9%)
+
+Query  82   EEIYVCAIEMVKV----ILEFFFEFKNPSMLYLATGH--RVQWLRYAEWLLTCPVILIHL  135
+            +E YV  I +  +     L  FF F   + + LA G    V W RYA+WL T P++L+ +
+Sbjct  47   KEFYVITILIPAIAAASYLSMFFGF-GLTEVSLANGRVVDVYWARYADWLFTTPLLLLDI  105
+
+Query  136  SNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYV-KVIFFCLGLCYGANTFFHAAK  194
+              L G S    R    L+  D   IV G  + +    V +  F+ +         ++   
+Sbjct  106  GLLAGASQ---RDIGALVGIDAFMIVTGLVATLTKVVVARYAFWTISTISMVFLLYYLVA  162
+
+Query  195  AYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDL  254
+             + E      +   R     +  +  V+W ++P+ +++G EG  +  +YG T+   ++DL
+Sbjct  163  VFGEAVSDADED-TRSTFNALRNIILVTWAIYPVAWLVGTEGLALTGLYGETLLFMVLDL  221
+
+Query  255  MSKNCWGLLGHYLRVLIHEHILIHGDIRKT  284
+            ++K  +G       +L+    ++ G    T
+Sbjct  222  VAKVGFGF------ILLRSRAIMGGGSEPT  245
+
+
+> sp|G0LFX8|BACR1_HALWC Bacteriorhodopsin-I OS=Haloquadratum walsbyi 
+(strain DSM 16854 / JCM 12705 / C23) OX=768065 GN=bop1 
+PE=1 SV=1
+Length=254
+
+ Score = 196 bits (499),  Expect = 9e-56, Method: Composition-based stats.
+ Identities = 50/210 (24%), Positives = 91/210 (43%), Gaps = 18/210 (9%)
+
+Query  82   EEIYVCAIEMVKV----ILEFFFEFKNPSMLYLATGH--RVQWLRYAEWLLTCPVILIHL  135
+            +E YV  I +  +     L  FF F   + + LA G    V W RYA+WL T P++L+ +
+Sbjct  47   KEFYVITILIPAIAAASYLSMFFGF-GLTEVSLANGRVVDVYWARYADWLFTTPLLLLDI  105
+
+Query  136  SNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYV-KVIFFCLGLCYGANTFFHAAK  194
+              L G S    R    L+  D   IV G  + +    V +  F+ +         ++   
+Sbjct  106  GLLAGASQ---RDIGALVGIDAFMIVTGLVATLTKVVVARYAFWTISTISMVFLLYYLVA  162
+
+Query  195  AYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDL  254
+             + E      +   R     +  +  V+W ++P+ +++G EG  +  +YG T+   ++DL
+Sbjct  163  VFGEAVSDADED-TRSTFNALRNIILVTWAIYPVAWLVGTEGLALTGLYGETLLFMVLDL  221
+
+Query  255  MSKNCWGLLGHYLRVLIHEHILIHGDIRKT  284
+            ++K  +G       +L+    ++ G    T
+Sbjct  222  VAKVGFGF------ILLRSRAIMGGGSEPT  245
+
+
+> sp|Q5V0R5|BACR2_HALMA Bacteriorhodopsin-II OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=xop1 PE=1 SV=1
+Length=250
+
+ Score = 191 bits (485),  Expect = 5e-54, Method: Composition-based stats.
+ Identities = 59/238 (25%), Positives = 103/238 (43%), Gaps = 21/238 (9%)
+
+Query  57   WLAAGFSILLL--MFYAYQTWK-STCGWEEIYVCAIEMVKV----ILEFFFEFKNPSMLY  109
+            WLA G   +LL  +++  + W       EE YV  I +  +     L  FF F   + + 
+Sbjct  17   WLALGTVGMLLGMVYFMAKGWDVQDPEQEEFYVITILIAGIAASSYLSMFFGF-GLTEVE  75
+
+Query  110  LATGH--RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSA  167
+            L  G    V W RYA+WL T P++L+ +  L G SN   R    L+  D   IV G  + 
+Sbjct  76   LVNGRVIDVYWARYADWLFTTPLLLLDIGLLAGASN---RDMASLITIDAFMIVTGLAAT  132
+
+Query  168  -MATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMF  226
+             M     +  F+ +         ++      E      +   +     +  +  V+W ++
+Sbjct  133  LMKVPVARYAFWTISTIAMLFVLYYLVVVVGEAASDASE-EAQSTFNVLRNIILVAWAIY  191
+
+Query  227  PILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRKT  284
+            P+ +++G EG G++ ++G T+   I+DL +K  +G       +L+    ++ GD   T
+Sbjct  192  PVAWLVGTEGLGLVGLFGETLLFMILDLTAKIGFGF------ILLRSRAIVGGDSAPT  243
+
+
+> sp|P0DMH8|BACS1_HALSA Sensory rhodopsin-1 OS=Halobacterium salinarum 
+(strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=sop1 
+PE=1 SV=1
+Length=239
+
+ Score = 166 bits (421),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 37/199 (19%), Positives = 82/199 (41%), Gaps = 15/199 (8%)
+
+Query  90   EMVKVILEFFFEFKNPSMLY-----LATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSND  144
+                 I+  F       M Y     +  G+++  LRY +WL+T P+++ ++    G S  
+Sbjct  38   LAPLAIIPVFAGLSYVGMAYDIGTVIVNGNQIVGLRYIDWLVTTPILVGYVGYAAGASR-  96
+
+Query  145  YSRRTMGLLVSDIGTIVWGATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVP  204
+              R  +G++V+D   I  GA + +  G +K   F +   +  + F +    +      VP
+Sbjct  97   --RSIIGVMVADALMIAVGAGAVVTDGTLKWALFGVSSIFHLSLFAYLYVIFPRVVPDVP  154
+
+Query  205  KGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLG  264
+            +     +   +     + W  +P++++ GP G G  +  G  + +  +D+++K  +    
+Sbjct  155  EQ--IGLFNLLKNHIGLLWLAYPLVWLFGPAGIGEATAAGVALTYVFLDVLAKVPYVYFF  212
+
+Query  265  HYLRVLIHEHILIHGDIRK  283
+            +         + +H +   
+Sbjct  213  YA-----RRRVFMHSESPP  226
+
+
+> sp|B0R633|BACS1_HALS3 Sensory rhodopsin-1 OS=Halobacterium salinarum 
+(strain ATCC 29341 / DSM 671 / R1) OX=478009 GN=sopI 
+PE=1 SV=1
+Length=239
+
+ Score = 166 bits (421),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 37/199 (19%), Positives = 82/199 (41%), Gaps = 15/199 (8%)
+
+Query  90   EMVKVILEFFFEFKNPSMLY-----LATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSND  144
+                 I+  F       M Y     +  G+++  LRY +WL+T P+++ ++    G S  
+Sbjct  38   LAPLAIIPVFAGLSYVGMAYDIGTVIVNGNQIVGLRYIDWLVTTPILVGYVGYAAGASR-  96
+
+Query  145  YSRRTMGLLVSDIGTIVWGATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVP  204
+              R  +G++V+D   I  GA + +  G +K   F +   +  + F +    +      VP
+Sbjct  97   --RSIIGVMVADALMIAVGAGAVVTDGTLKWALFGVSSIFHLSLFAYLYVIFPRVVPDVP  154
+
+Query  205  KGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLG  264
+            +     +   +     + W  +P++++ GP G G  +  G  + +  +D+++K  +    
+Sbjct  155  EQ--IGLFNLLKNHIGLLWLAYPLVWLFGPAGIGEATAAGVALTYVFLDVLAKVPYVYFF  212
+
+Query  265  HYLRVLIHEHILIHGDIRK  283
+            +         + +H +   
+Sbjct  213  YA-----RRRVFMHSESPP  226
+
+
+> sp|P71411|BACS2_HALSA Sensory rhodopsin-2 OS=Halobacterium salinarum 
+(strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=sop2 
+PE=3 SV=1
+Length=237
+
+ Score = 162 bits (411),  Expect = 6e-44, Method: Composition-based stats.
+ Identities = 38/174 (22%), Positives = 69/174 (40%), Gaps = 9/174 (5%)
+
+Query  87   CAIEMVKVILEFFFEFKNPSMLYLATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYS  146
+                               +         V   RY +WL+T P+I+++L+ L        
+Sbjct  41   ITGLAAIAYTTMGLGITATT----VGDRTVYLARYIDWLVTTPLIVLYLAMLA---RPGH  93
+
+Query  147  RRTMGLLVSDIGTIVWGATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKG  206
+            R +  LL +D+  I  G  +A+ TG  + +FF +G    A   +             P  
+Sbjct  94   RTSAWLLAADVFVIAAGIAAALTTGVQRWLFFAVGAAGYAALLYGLLGTLPRALGDDP--  151
+
+Query  207  RCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCW  260
+            R R +   +  +  V W ++P++++L P G G+L     T+    +D +SK  +
+Sbjct  152  RVRSLFVTLRNITVVLWTLYPVVWLLSPAGIGILQTEMYTIVVVYLDFISKVAF  205
+
+
+> sp|P42197|BACS2_HALVA Sensory rhodopsin-2 OS=Haloarcula vallismortis 
+OX=28442 GN=sop2 PE=3 SV=1
+Length=236
+
+ Score = 160 bits (404),  Expect = 5e-43, Method: Composition-based stats.
+ Identities = 40/189 (21%), Positives = 79/189 (42%), Gaps = 11/189 (6%)
+
+Query  85   YVCAIEMVKV----ILEFFFEFKNPSMLYLATGHRVQWLRYAEWLLTCPVILIHLSNLTG  140
+            Y+  I +  +           F +      + GH V  +RY +WLLT P+ +  L+ L G
+Sbjct  37   YLLLIAIPGIAIVAYALMALGFGSIQ----SEGHAVYVVRYVDWLLTTPLNVWFLALLAG  92
+
+Query  141  LSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGY  200
+             S +    T+ L+V    TIV+G   A+    V    F +G        +   +      
+Sbjct  93   ASRE---DTVKLVVLQALTIVFGFAGAVTPSPVSYALFAVGGALFGGVIYLLYRNIAVAA  149
+
+Query  201  HTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCW  260
+             +        +   +     V W ++P++++LG  G G++ V  +T+    +D+++K  +
+Sbjct  150  KSTLSDIEVSLYRTLRNFVVVLWLVYPVVWLLGAAGVGLMDVETATLVVVYLDVVTKVGF  209
+
+Query  261  GLLGHYLRV  269
+            G++     +
+Sbjct  210  GVIALLAMI  218
+
+
+> sp|Q5V5V3|BACS2_HALMA Sensory rhodopsin II OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=sop2 PE=1 SV=1
+Length=236
+
+ Score = 160 bits (404),  Expect = 5e-43, Method: Composition-based stats.
+ Identities = 40/189 (21%), Positives = 79/189 (42%), Gaps = 11/189 (6%)
+
+Query  85   YVCAIEMVKV----ILEFFFEFKNPSMLYLATGHRVQWLRYAEWLLTCPVILIHLSNLTG  140
+            Y+  I +  +           F +      + GH V  +RY +WLLT P+ +  L+ L G
+Sbjct  37   YLLLIAIPGIAIVAYALMALGFGSIQ----SEGHAVYVVRYVDWLLTTPLNVWFLALLAG  92
+
+Query  141  LSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGY  200
+             S +    T+ L+V    TIV+G   A+    V    F +G        +   +      
+Sbjct  93   ASRE---DTVKLVVLQALTIVFGFAGAVTPSPVSYALFAVGGALFGGVIYLLYRNIAVAA  149
+
+Query  201  HTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCW  260
+             +        +   +     V W ++P++++LG  G G++ V  +T+    +D+++K  +
+Sbjct  150  KSTLSDIEVSLYRTLRNFVVVLWLVYPVVWLLGAAGVGLMDVETATLVVVYLDVVTKVGF  209
+
+Query  261  GLLGHYLRV  269
+            G++     +
+Sbjct  210  GVIALLAMI  218
+
+
+> sp|P29563|BACR2_HALS2 Archaerhodopsin-2 OS=Halobacterium sp. 
+(strain aus-2) OX=29285 PE=1 SV=1
+Length=259
+
+ Score = 159 bits (403),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 51/237 (22%), Positives = 95/237 (40%), Gaps = 21/237 (9%)
+
+Query  57   WLAAGFSILLL--MFYAYQTWKSTCG-WEEIYVCAIEMVKV----ILEFFFEFKNPSMLY  109
+            WL  G  ++L+   ++  + W  T     E Y   I +  +     L  FF     + + 
+Sbjct  22   WLGIGTLLMLIGTFYFIARGWGVTDKEAREYYAITILVPGIASAAYLAMFFGI-GVTEVE  80
+
+Query  110  LATGH--RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSA  167
+            LA+G    + + RYA+WL T P++L+ L+ L  +        +G+   D   IV G   A
+Sbjct  81   LASGTVLDIYYARYADWLFTTPLLLLDLALLAKVDRVTIGTLIGV---DALMIVTGLIGA  137
+
+Query  168  MA-TGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMF  226
+            ++ T   +  ++           ++     +           R     +  L  V W  +
+Sbjct  138  LSKTPLARYTWWLFSTIAFLFVLYYLL-TSLRSAAAKRSEEVRSTFNTLTALVAVLWTAY  196
+
+Query  227  PILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+            PIL+I+G EG GV+ +   T+   ++D+ +K  +G       VL+    ++      
+Sbjct  197  PILWIVGTEGAGVVGLGIETLAFMVLDVTAKVGFGF------VLLRSRAILGETEAP  247
+
+
+> sp|P33743|BACS1_HALSS Sensory rhodopsin-1 OS=Halobacterium sp. 
+(strain SG1) OX=33006 GN=sop1 PE=1 SV=1
+Length=247
+
+ Score = 154 bits (390),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 31/158 (20%), Positives = 72/158 (46%), Gaps = 5/158 (3%)
+
+Query  111  ATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMAT  170
+              G  +  LRY +W++T P+++  +  + G S    R   G++++D   I +GA + +  
+Sbjct  65   VNGAELVGLRYVDWIVTTPLLVGFIGYVAGASR---RAIAGVMLADALMIAFGAGAVVTG  121
+
+Query  171  GYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILF  230
+            G +K + F +   +    F +    +       P    R + + +     + W  +P ++
+Sbjct  122  GTLKWVLFGVSSIFHVTLFAYLYVVFPRAVPDDPMQ--RGLFSLLKNHVGLLWLAYPFVW  179
+
+Query  231  ILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLR  268
+            ++GP G G  +  G+ + +  +D+++K  +    +  R
+Sbjct  180  LMGPAGIGFTTGVGAALTYAFLDVLAKVPYVYFFYARR  217
+
+
+> sp|O93743|BACS_HALSD Sensory rhodopsin OS=Halorubrum sodomense 
+OX=35743 GN=sop PE=1 SV=1
+Length=254
+
+ Score = 154 bits (389),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 37/181 (20%), Positives = 79/181 (44%), Gaps = 13/181 (7%)
+
+Query  96   LEFFFEFKNPSMLYLA--------TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSR  147
+            L     F   S + +A         G  +  LRY +W++T P+++  +    G S    R
+Sbjct  42   LAVIPGFAGLSYVGMALGIGTVTVNGAELVGLRYVDWVVTTPLLVGFIGYNAGASR---R  98
+
+Query  148  RTMGLLVSDIGTIVWGATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGR  207
+               G++++D   IV+GA + ++ G +K   F +   +  + F +    +  G    P   
+Sbjct  99   AIAGVMIADALMIVFGAAAVVSGGTLKWALFGVSALFHVSLFAYLYVIFPGGIPDDPMQ-  157
+
+Query  208  CRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYL  267
+             R + + +     + W  +P ++++GP G G     G+ + +  +D+++K  +    +  
+Sbjct  158  -RGLFSLLKNHVGLLWLAYPFVWLMGPAGIGFTGAVGAALTYAFLDVLAKVPYVYFFYAR  216
+
+Query  268  R  268
+            R
+Sbjct  217  R  217
+
+
+> sp|Q48334|BAC3_HALVA Bacterial rhodopsin CSR3 OS=Haloarcula vallismortis 
+OX=28442 PE=3 SV=1
+Length=236
+
+ Score = 153 bits (387),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 47/227 (21%), Positives = 100/227 (44%), Gaps = 23/227 (10%)
+
+Query  59   AAGFSI-LLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKNPSMLYLATG----  113
+            AAGF++ + ++ Y Y + +   G EE  + A       L     F   S + +A G    
+Sbjct  12   AAGFAVGVAIVGYLYASLE---GSEERSILAA------LALIPGFAGISYVAMAFGIGTV  62
+
+Query  114  ----HRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMA  169
+                  +   RY +W++T P+++  +    G S    R   G++V+D   I+ G  + +A
+Sbjct  63   TIGETTLVGFRYLDWVVTTPLLVGFVGYAAGASR---RAIFGVMVADALMILTGVGAVVA  119
+
+Query  170  TGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPIL  229
+             G +K + F +   +  + F +    +       P  +   + + +     + W  +P++
+Sbjct  120  DGTLKWVLFGVSTVFHVSLFAYLYLVFPRSVPDDP--QRIGLFSLLKNHIGLLWIAYPLV  177
+
+Query  230  FILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHIL  276
+            ++ GPEG G+ +  G ++ +  +DL++K  +    +  R +    +L
+Sbjct  178  WLAGPEGLGLATYVGVSITYAFLDLLAKVPYVYFFYARRQVFATKLL  224
+
+
+> sp|P69052|BACR1_HALSS Archaerhodopsin-1 OS=Halobacterium sp. 
+(strain SG1) OX=33006 GN=bop PE=1 SV=1
+Length=260
+
+ Score = 151 bits (382),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 47/236 (20%), Positives = 92/236 (39%), Gaps = 20/236 (8%)
+
+Query  57   WLAAGFSILLL--MFYAYQTWKSTCG-WEEIYVCAIEMVKV----ILEFFFEFKNPSMLY  109
+            WL  G  ++L+   ++  + W  T     E Y   I +  +     L  FF     + + 
+Sbjct  24   WLGIGTLLMLIGTFYFIVKGWGVTDKEAREYYSITILVPGIASAAYLSMFFGI-GLTEVQ  82
+
+Query  110  L-ATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAM  168
+            + +    + + RYA+WL T P++L+ L+ L  +        +G+   D   IV G   A+
+Sbjct  83   VGSEMLDIYYARYADWLFTTPLLLLDLALLAKVDRVSIGTLVGV---DALMIVTGLVGAL  139
+
+Query  169  A-TGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFP  227
+            + T   +  ++           +  A   +                 +  L  V W  +P
+Sbjct  140  SHTPLARYTWWLFSTICMIVVLYFLA-TSLRAAAKERGPEVASTFNTLTALVLVLWTAYP  198
+
+Query  228  ILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+            IL+I+G EG GV+ +   T+   ++D+ +K  +G       +L+    ++      
+Sbjct  199  ILWIIGTEGAGVVGLGIETLLFMVLDVTAKVGFGF------ILLRSRAILGDTEAP  248
+
+
+> sp|P69051|BACR1_HALC1 Archaerhodopsin-1 OS=Halorubrum chaoviator 
+(strain DSM 11365 / JCM 9573 / AUS-1) OX=335819 PE=1 SV=1
+Length=260
+
+ Score = 151 bits (382),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 47/236 (20%), Positives = 92/236 (39%), Gaps = 20/236 (8%)
+
+Query  57   WLAAGFSILLL--MFYAYQTWKSTCG-WEEIYVCAIEMVKV----ILEFFFEFKNPSMLY  109
+            WL  G  ++L+   ++  + W  T     E Y   I +  +     L  FF     + + 
+Sbjct  24   WLGIGTLLMLIGTFYFIVKGWGVTDKEAREYYSITILVPGIASAAYLSMFFGI-GLTEVQ  82
+
+Query  110  L-ATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAM  168
+            + +    + + RYA+WL T P++L+ L+ L  +        +G+   D   IV G   A+
+Sbjct  83   VGSEMLDIYYARYADWLFTTPLLLLDLALLAKVDRVSIGTLVGV---DALMIVTGLVGAL  139
+
+Query  169  A-TGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFP  227
+            + T   +  ++           +  A   +                 +  L  V W  +P
+Sbjct  140  SHTPLARYTWWLFSTICMIVVLYFLA-TSLRAAAKERGPEVASTFNTLTALVLVLWTAYP  198
+
+Query  228  ILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+            IL+I+G EG GV+ +   T+   ++D+ +K  +G       +L+    ++      
+Sbjct  199  ILWIIGTEGAGVVGLGIETLLFMVLDVTAKVGFGF------ILLRSRAILGDTEAP  248
+
+
+> sp|P96787|BACR3_HALSD Archaerhodopsin-3 OS=Halorubrum sodomense 
+OX=35743 GN=aop3 PE=3 SV=1
+Length=258
+
+ Score = 149 bits (375),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 47/236 (20%), Positives = 91/236 (39%), Gaps = 20/236 (8%)
+
+Query  57   WLAAGFSILLL--MFYAYQTWKST-CGWEEIYVCAIEMVKV----ILEFFFEFKNPSMLY  109
+            WL  G  ++L+   ++  + W  T     E Y   I +  +     L  FF     + + 
+Sbjct  22   WLGIGTLLMLIGTFYFLVRGWGVTDKDAREYYAVTILVPGIASAAYLSMFFGI-GLTEVT  80
+
+Query  110  LA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAM  168
+            +      + + RYA+WL T P++L+ L+ L  +        +G+   D   IV G   A+
+Sbjct  81   VGGEMLDIYYARYADWLFTTPLLLLDLALLAKVDRVTIGTLVGV---DALMIVTGLIGAL  137
+
+Query  169  A-TGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFP  227
+            + T   +  ++           +  A   +                 +  L  V W  +P
+Sbjct  138  SHTAIARYSWWLFSTICMIVVLYFLA-TSLRSAAKERGPEVASTFNTLTALVLVLWTAYP  196
+
+Query  228  ILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+            IL+I+G EG GV+ +   T+   ++D+ +K  +G       +L+    ++      
+Sbjct  197  ILWIIGTEGAGVVGLGIETLLFMVLDVTAKVGFGF------ILLRSRAILGDTEAP  246
+
+
+> sp|Q5V4H7|BACS3_HALMA Sensory rhodopsin III OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=xop2 PE=1 SV=1
+Length=232
+
+ Score = 143 bits (361),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 31/142 (22%), Positives = 65/142 (46%), Gaps = 4/142 (3%)
+
+Query  119  LRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVKVIFF  178
+            LR+A+W+++ P+I  +L+ L G+     R  +   V  IG + +G  S   +G ++ I F
+Sbjct  71   LRFADWIVSTPIITYYLARLAGVDTQTRRLAVAANVVMIG-VGYGFVSM--SGSLRWIAF  127
+
+Query  179  CLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFG  238
+             +         +   K +    +       R +   +  L  V+W ++P+++ LGP G G
+Sbjct  128  AVSTVAFIGLLYLYIKTFARKINAA-TASVRSLFQSLRDLTVVTWSLYPVVYFLGPLGTG  186
+
+Query  239  VLSVYGSTVGHTIIDLMSKNCW  260
+            ++          ++D ++K  +
+Sbjct  187  IIQAPDLNFLVAVLDTIAKVGF  208
+
+
+> sp|Q5UXM9|BACS1_HALMA Sensory rhodopsin I OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=sop1 PE=1 SV=1
+Length=236
+
+ Score = 142 bits (357),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 42/232 (18%), Positives = 96/232 (41%), Gaps = 17/232 (7%)
+
+Query  59   AAGFSI-LLLMFYAYQTWKSTCGWEEIYVCAIEMVKV----ILEFFFEFKNPSMLYLATG  113
+            AAGF++ + ++ + Y + + +     I      +  V     +   F     ++      
+Sbjct  12   AAGFAVGVAIVGFLYASLEGS-DERPILAALALIPGVAGISYVAMVFGIGTVTIGETT--  68
+
+Query  114  HRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYV  173
+              +   RY +W++T P+++  +    G S    R   G++ +D   I+ G  + +A G +
+Sbjct  69   --LVGFRYLDWVVTTPLLVGFIGYTAGASR---RAIFGVMAADALMILAGVGAVVAAGTL  123
+
+Query  174  KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILG  233
+            K   F +   +  + F +    +       P  +   + + +     + W  +P++++ G
+Sbjct  124  KWALFGVSAVFHISLFAYLYLIFPRSVPDDP--QRIGLFSLLKNHVGLLWIAYPLVWLAG  181
+
+Query  234  PEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRKTT  285
+            PEG G  +  G ++ +  +DL++K  +    +  R +    +L   D   TT
+Sbjct  182  PEGLGFATYVGVSITYAFLDLLAKVPYVYFFYARRQVFATKLL--RDSGDTT  231
+
+
+> sp|Q57101|BACR_HALAR Cruxrhodopsin-1 OS=Haloarcula argentinensis 
+OX=43776 GN=cop1 PE=1 SV=1
+Length=250
+
+ Score = 140 bits (352),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 48/241 (20%), Positives = 100/241 (41%), Gaps = 24/241 (10%)
+
+Query  57   WLAAGFSILLLMFYAYQTWKST-CGWEEIYVCAIEMVKV----ILEFFFEFKNPSMLYLA  111
+            WL      L ++++  + W  T    ++ Y+  I +  +     L     F   +++  A
+Sbjct  12   WLGTAGMFLGMLYFIARGWGETDSRRQKFYIATILITAIAFVNYLAMALGF-GLTIVEFA  70
+
+Query  112  -TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMAT  170
+               H + W RY++WL T P++L  L  L G   +     + L   D+  I  G  + ++ 
+Sbjct  71   GEEHPIYWARYSDWLFTTPLLLYDLGLLAGADRNTITSLVSL---DVLMIGTGLVATLSP  127
+
+Query  171  GY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSW  223
+            G         +++++ +   +     +    +       +P    R     +  L  V W
+Sbjct  128  GSGVLSAGAERLVWWGISTAFLLVLLYFLFSSLSGRVADLPSD-TRSTFKTLRNLVTVVW  186
+
+Query  224  GMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+             ++P+ +++G EG G++ +   T G  +IDL +K  +G+      +L+  H ++ G    
+Sbjct  187  LVYPVWWLIGTEGIGLVGIGIETAGFMVIDLTAKVGFGI------ILLRSHGVLDGAAET  240
+
+Query  284  T  284
+            T
+Sbjct  241  T  241
+
+
+> sp|Q5V1N0|BACH_HALMA Halorhodopsin OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) OX=272569 
+GN=hop PE=1 SV=1
+Length=276
+
+ Score = 139 bits (351),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 49/239 (21%), Positives = 97/239 (41%), Gaps = 31/239 (13%)
+
+Query  50   TASNVLQWLAAGF-------------SILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVIL  96
+            T S+VLQ + + F              +++L+F A      +   + I+V  + +  V +
+Sbjct  15   TQSDVLQEIQSNFLLNSSIWVNIALAGVVILLFVAMGRDLESPRAKLIWVATMLVPLVSI  74
+
+Query  97   EFFFEF-KNPSM--LYLATGHRVQ-------WLRYAEWLLTCPVILIHLSNLTGLSNDYS  146
+              +       ++  L +  GH +        W RY  W  + P+IL+ L  L        
+Sbjct  75   SSYAGLASGLTVGFLQMPPGHALAGQEVLSPWGRYLTWTFSTPMILLALGLLADTD---I  131
+
+Query  147  RRTMGLLVSDIGTIVWGATSAMATGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVP  204
+                  +  DIG  V G  +A+ T    ++ +F+ +   +     +      ++      
+Sbjct  132  ASLFTAITMDIGMCVTGLAAALITSSHLLRWVFYGISCAFFVAVLYVL---LVQWPADAE  188
+
+Query  205  KGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+                 ++   +  L  V W  +PIL+ LG EG  +LSV  ++ G++ +D+++K  +  L
+Sbjct  189  AAGTSEIFGTLKILTVVLWLGYPILWALGSEGVALLSVGVTSWGYSGLDILAKYVFAFL  247
+
+
+> sp|P94854|BACR_HALVA Cruxrhodopsin-3 OS=Haloarcula vallismortis 
+OX=28442 GN=cop3 PE=1 SV=1
+Length=250
+
+ Score = 139 bits (349),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 45/234 (19%), Positives = 99/234 (42%), Gaps = 24/234 (10%)
+
+Query  57   WLAAGFSILLLMFYAYQTWKST-CGWEEIYVCAIEMVKV----ILEFFFEFKNPSMLYLA  111
+            WL      L ++++  + W  T    ++ Y+  I +  +     L     F   +++ +A
+Sbjct  12   WLGTAGMFLGMLYFIARGWGETDSRRQKFYIATILITAIAFVNYLAMALGF-GLTIVEIA  70
+
+Query  112  -TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMAT  170
+                 + W RY++WL T P++L  L  L G   +     + L   D+  I  G  + ++ 
+Sbjct  71   GEQRPIYWARYSDWLFTTPLLLYDLGLLAGADRNTISSLVSL---DVLMIGTGLVATLSA  127
+
+Query  171  GY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSW  223
+            G         +++++ +   +     +    +       +P    R     +  L  V W
+Sbjct  128  GSGVLSAGAERLVWWGISTAFLLVLLYFLFSSLSGRVADLPSD-TRSTFKTLRNLVTVVW  186
+
+Query  224  GMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILI  277
+             ++P+ +++G EG G++ +   T G  +IDL++K  +G+      +L+  H ++
+Sbjct  187  LVYPVWWLVGTEGIGLVGIGIETAGFMVIDLVAKVGFGI------ILLRSHGVL  234
+
+
+> sp|Q48314|BACH_HALHS Halorhodopsin OS=Halobacterium halobium 
+(strain shark) OX=33005 GN=hop PE=1 SV=1
+Length=276
+
+ Score = 139 bits (351),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 49/239 (21%), Positives = 97/239 (41%), Gaps = 31/239 (13%)
+
+Query  50   TASNVLQWLAAGF-------------SILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVIL  96
+            T S+VLQ + + F              +++L+F A      +   + I+V  + +  V +
+Sbjct  15   TQSDVLQEIQSNFLLNSSIWVNIALAGVVILLFVAMGRDLESPRAKLIWVATMLVPLVSI  74
+
+Query  97   EFFFEF-KNPSM--LYLATGHRVQ-------WLRYAEWLLTCPVILIHLSNLTGLSNDYS  146
+              +       ++  L +  GH +        W RY  W  + P+IL+ L  L        
+Sbjct  75   SSYAGLASGLTVGFLQMPPGHALAGQEVLSPWGRYLTWTFSTPMILLALGLLADTD---I  131
+
+Query  147  RRTMGLLVSDIGTIVWGATSAMATGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVP  204
+                  +  DIG  V G  +A+ T    ++ +F+ +   +     +      ++      
+Sbjct  132  ASLFTAITMDIGMCVTGLAAALITSSHLLRWVFYGISCAFFVAVLYVL---LVQWPADAE  188
+
+Query  205  KGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+                 ++   +  L  V W  +PIL+ LG EG  +LSV  ++ G++ +D+++K  +  L
+Sbjct  189  AAGTSEIFGTLKILTVVLWLGYPILWALGSEGVALLSVGVTSWGYSGLDILAKYVFAFL  247
+
+
+> sp|Q48315|BACH_HALHP Halorhodopsin OS=Halobacterium halobium 
+(strain port) OX=33004 GN=hop PE=1 SV=1
+Length=276
+
+ Score = 139 bits (349),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 49/239 (21%), Positives = 97/239 (41%), Gaps = 31/239 (13%)
+
+Query  50   TASNVLQWLAAGF-------------SILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVIL  96
+            T S+VLQ + + F              +++L+F A      +   + I+V  + +  V +
+Sbjct  15   TQSDVLQEIQSNFLLNSSIWVNIALAGVVILLFVAMGRDIESPRAKLIWVATMLVPLVSI  74
+
+Query  97   EFFFEF-KNPSM--LYLATGHRVQ-------WLRYAEWLLTCPVILIHLSNLTGLSNDYS  146
+              +       ++  L +  GH +        W RY  W  + P+IL+ L  L        
+Sbjct  75   SSYAGLASGLTVGFLQMPPGHALAGQEVLSPWGRYLTWTFSTPMILLALGLLADTD---I  131
+
+Query  147  RRTMGLLVSDIGTIVWGATSAMATGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVP  204
+                  +  DIG  V G  +A+ T    ++ +F+ +   +     +      ++      
+Sbjct  132  ASLFTAITMDIGMCVTGLAAALITSSHLLRWVFYGISCAFFVAVLYVL---LVQWPADAE  188
+
+Query  205  KGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+                 ++   +  L  V W  +PIL+ LG EG  +LSV  ++ G++ +D+++K  +  L
+Sbjct  189  AAGTSEIFGTLKILTVVLWLGYPILWALGSEGVALLSVGVTSWGYSGLDILAKYVFAFL  247
+
+
+> sp|P33742|BACH_HALSS Halorhodopsin OS=Halobacterium sp. (strain 
+SG1) OX=33006 GN=hop PE=3 SV=1
+Length=284
+
+ Score = 139 bits (349),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 48/216 (22%), Positives = 88/216 (41%), Gaps = 20/216 (9%)
+
+Query  60   AGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKN---PSMLYLATGHRV  116
+            AG SILL ++            + I+V  + +  V +  +    +    S L +  GH +
+Sbjct  45   AGLSILLFVYMGRNVEDPRA--QLIFVATLMVPLVSISSYTGLVSGLTVSFLEMPAGHAL  102
+
+Query  117  Q-------WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMA  169
+                    W RY  W L+ P+ILI +  L G +       +   V+DIG  V G  +A+ 
+Sbjct  103  AGQEVLTPWGRYLTWALSTPMILIAVGLLAGSNTTKLFTAV---VADIGMCVTGLAAALT  159
+
+Query  170  TGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFP  227
+            T    ++ +++ +   +     +       E            +   +  L  V W  +P
+Sbjct  160  TSSYLLRWVWYAISCAFFVVVLYIL---LAEWAEDAEIAGTADIFNTLKVLTVVLWLGYP  216
+
+Query  228  ILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+            I + LG EG  VL V  ++  ++ +D+++K  +  L
+Sbjct  217  IFWALGAEGLAVLDVAITSWAYSGMDIVAKYLFAFL  252
+
+
+> sp|Q18DH5|BACRM_HALWD Bacteriorhodopsin-II-like protein OS=Haloquadratum 
+walsbyi (strain DSM 16790 / HBSQ001) OX=362976 GN=bop2 
+PE=1 SV=1
+Length=246
+
+ Score = 136 bits (343),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 35/178 (20%), Positives = 78/178 (44%), Gaps = 13/178 (7%)
+
+Query  115  RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAM--ATGY  172
+             + W RYA+WLLT P+++I L+ + G       +   L++ D   I+ G   +M      
+Sbjct  76   DIYWARYADWLLTTPLLIIDLALVAGARKQTLYK---LIIIDAIMILGGLAGSMMQQGAV  132
+
+Query  173  VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFIL  232
+            ++++++ +         ++      E            V   +  +    W ++PI++IL
+Sbjct  133  IRIVWWAVSTAAFIILLYYLLGELSE-RARSRSAETGIVFNRLRNITLGLWALYPIVWIL  191
+
+Query  233  GP-EGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRKTTKLNI  289
+            G   GFG+++V    + + ++D+ +K  +G       VL+    ++      ++  +I
+Sbjct  192  GTGGGFGIIAVTTEIMLYVMLDIGTKIGFG------AVLLESQDVLQAASHPSSTNDI  243
+
+
+> sp|P02945|BACR_HALSA Bacteriorhodopsin OS=Halobacterium salinarum 
+(strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=bop 
+PE=1 SV=2
+Length=262
+
+ Score = 136 bits (343),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 40/236 (17%), Positives = 90/236 (38%), Gaps = 20/236 (8%)
+
+Query  57   WLAAGFSIL---LLMFYAYQTWKSTCGWEEIYVCAIEMVKV----ILEFFFEFKNPSMLY  109
+            WLA G +++    L F       S    ++ Y     +  +     L     +   +M+ 
+Sbjct  25   WLALGTALMGLGTLYFLVKGMGVSDPDAKKFYAITTLVPAIAFTMYLSMLLGY-GLTMVP  83
+
+Query  110  LA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAM  168
+                 + + W RYA+WL T P++L+ L+ L           +G   +D   I  G   A+
+Sbjct  84   FGGEQNPIYWARYADWLFTTPLLLLDLALLVDADQGTILALVG---ADGIMIGTGLVGAL  140
+
+Query  169  ATGYV-KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFP  227
+               Y  + +++ +         +     +     ++ +         +  +  V W  +P
+Sbjct  141  TKVYSYRFVWWAISTAAMLYILYVLFFGFTSKAESM-RPEVASTFKVLRNVTVVLWSAYP  199
+
+Query  228  ILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+            +++++G EG G++ +   T+   ++D+ +K  +GL      +L+    +       
+Sbjct  200  VVWLIGSEGAGIVPLNIETLLFMVLDVSAKVGFGL------ILLRSRAIFGEAEAP  249
+
+
+> sp|P94853|BACH_HALVA Cruxhalorhodopsin-3 OS=Haloarcula vallismortis 
+OX=28442 GN=choP3 PE=3 SV=1
+Length=276
+
+ Score = 136 bits (343),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 43/212 (20%), Positives = 88/212 (42%), Gaps = 18/212 (8%)
+
+Query  64   ILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEF-KNPSM--LYLATGHRVQ---  117
+            +++L+F A      +   + I+V  + +  V +  +       ++  L +  GH +    
+Sbjct  42   VVILLFVAMGRELESSRAKLIWVATMLVPLVSISSYAGLASGLTVGFLQMPPGHALAGQE  101
+
+Query  118  ----WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGY-  172
+                W RY  W  + P+IL+ L  L           +     DIG  + G  +A+ T   
+Sbjct  102  VLSPWGRYLTWTFSTPMILLALGLLADTDMASLFTAI---TMDIGMCITGLAAALVTSSH  158
+
+Query  173  -VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFI  231
+             ++ +F+ +   +     +      +E           ++   +  L  V W  +PIL+ 
+Sbjct  159  LLRWVFYGISCAFFIAVLYVL---LVEWPADAEAAGTSEIFGTLKLLTVVLWLGYPILWA  215
+
+Query  232  LGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+            LG EG  +LSV  ++ G++ +D+++K  +  L
+Sbjct  216  LGSEGVALLSVGVTSWGYSGLDILAKYVFAFL  247
+
+
+> sp|Q5UXY6|BACR1_HALMA Bacteriorhodopsin-I OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=bop PE=1 SV=1
+Length=250
+
+ Score = 135 bits (340),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 49/250 (20%), Positives = 101/250 (40%), Gaps = 24/250 (10%)
+
+Query  48   AQTASNVLQWLAAGFSILLLMFYAYQTWKSTCGWEE-IYVCAIEMVKV----ILEFFFEF  102
+            A  +  +  WL      L ++++  + W  T G  +  Y+  I +  +     L     F
+Sbjct  3    APGSEGIWLWLGTAGMFLGMLYFIARGWGETDGRRQKFYIATILITAIAFVNYLAMALGF  62
+
+Query  103  KNPSMLYLA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIV  161
+               + +      H + W RY +WL T P++L  L  L G   +     + L   D+  I 
+Sbjct  63   -GLTFIEFGGEQHPIYWARYTDWLFTTPLLLYDLGLLAGADRNTIYSLVSL---DVLMIG  118
+
+Query  162  WGATSAMATGY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTG  214
+             G  + ++ G         +++++ +   +     +    +       +P    R     
+Sbjct  119  TGVVATLSAGSGVLSAGAERLVWWGISTAFLLVLLYFLFSSLSGRVANLPSD-TRSTFKT  177
+
+Query  215  MAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEH  274
+            +  L  V W ++P+ +++G EG G++ +   T G  +IDL++K  +G+      +L+  H
+Sbjct  178  LRNLVTVVWLVYPVWWLVGSEGLGLVGIGIETAGFMVIDLVAKVGFGI------ILLRSH  231
+
+Query  275  ILIHGDIRKT  284
+             ++ G    T
+Sbjct  232  GVLDGAAETT  241
+
+
+> sp|O93740|BACR_HALS4 Bacteriorhodopsin OS=Haloterrigena sp. (strain 
+arg-4) OX=160432 GN=bop PE=3 SV=1
+Length=250
+
+ Score = 135 bits (340),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 45/209 (22%), Positives = 89/209 (43%), Gaps = 16/209 (8%)
+
+Query  82   EEIYVCAIEMVKVILEFFFEFK---NPSMLYLA-TGHRVQWLRYAEWLLTCPVILIHLSN  137
+            +E Y+  I +  +    +F        + + +      + W RYA+WL T P++L+ LS 
+Sbjct  48   QEFYIITIFITTIAAAMYFAMATGFGVTEVMVGDEALTIYWARYADWLFTTPLLLLDLSL  107
+
+Query  138  LTGLSNDYSRRTMGLLVSDIGTIVWGATSAM-ATGYVKVIFFCLGLCYGANTFFHAAKAY  196
+            L G + +     +GL   D+  I  GA +A+ +T   ++ ++ +         +      
+Sbjct  108  LAGANRNTIATLIGL---DVFMIGTGAIAALSSTPGTRIAWWAISTGALLALLYVLVGTL  164
+
+Query  197  IEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEG-FGVLSVYGSTVGHTIIDLM  255
+             E            +   +  L    W ++P+++ILG EG FG+L +Y  T    ++DL 
+Sbjct  165  SENARN-RAPEVASLFGRLRNLVIALWFLYPVVWILGTEGTFGILPLYWETAAFMVLDLS  223
+
+Query  256  SKNCWGLLGHYLRVLIHEHILIHGDIRKT  284
+            +K  +G+      +L+    ++      T
+Sbjct  224  AKVGFGV------ILLQSRSVLERVATPT  246
+
+
+> sp|O93742|BACH_HALSD Halorhodopsin OS=Halorubrum sodomense OX=35743 
+GN=hop PE=3 SV=1
+Length=282
+
+ Score = 135 bits (341),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 47/216 (22%), Positives = 88/216 (41%), Gaps = 20/216 (9%)
+
+Query  60   AGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKN---PSMLYLATGHRV  116
+            AG SILL ++            + I+V  + +  V +  +    +    S L +  GH +
+Sbjct  44   AGLSILLFVYMGRNLEDPRA--QLIFVATLMVPLVSISSYTGLVSGLTVSFLEMPAGHAL  101
+
+Query  117  Q-------WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMA  169
+                    W RY  W L+ P+IL+ L  L G +       +    +DIG  V G  +A+ 
+Sbjct  102  AGQEVLTPWGRYLTWALSTPMILVALGLLAGSNATKLFTAV---TADIGMCVTGLAAALT  158
+
+Query  170  TGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFP  227
+            T    ++ +++ +   +     +       E           ++   +  L  V W  +P
+Sbjct  159  TSSYLLRWVWYVISCAFFVVVLYVL---LAEWAEDAEVAGTAEIFNTLKLLTVVLWLGYP  215
+
+Query  228  ILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+            I + LG EG  VL V  ++  ++ +D+++K  +  L
+Sbjct  216  IFWALGAEGLAVLDVAVTSWAYSGMDIVAKYLFAFL  251
+
+
+> sp|P33969|BACR_HALHM Bacteriorhodopsin (Fragment) OS=Halobacterium 
+halobium (strain mex) OX=33003 GN=bop PE=3 SV=1
+Length=204
+
+ Score = 130 bits (326),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 38/183 (21%), Positives = 73/183 (40%), Gaps = 13/183 (7%)
+
+Query  82   EEIYVCAIEMVKV----ILEFFFEFKNPSMLY---LATGHRVQWLRYAEWLLTCPVILIH  134
+             E Y   I +  +     L  FF     + +    +A    + + RYA+WL T P++L+ 
+Sbjct  27   REYYAITILVPGIASAAYLSMFFGI-GLTTVEVAGMAEPLEIYYARYADWLFTTPLLLLD  85
+
+Query  135  LSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMA-TGYVKVIFFCLGLCYGANTFFHAA  193
+            L+ L           +G+   D   IV G   A++ T   +  ++           ++  
+Sbjct  86   LALLANADRTTIGTLIGV---DALMIVTGLIGALSHTPLARYTWWLFSTIAFLFVLYYLL  142
+
+Query  194  KAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIID  253
+                     + +   +     +  L  V W  +PIL+I+G EG GV+ +   T+   ++D
+Sbjct  143  TVLRSAAAELSED-VQTTFNTLTALVAVLWTAYPILWIIGTEGAGVVGLGVETLAFMVLD  201
+
+Query  254  LMS  256
+            + +
+Sbjct  202  VTA  204
+
+
+> sp|O93741|BACH_HALS4 Halorhodopsin OS=Haloterrigena sp. (strain 
+arg-4) OX=160432 GN=hop PE=3 SV=1
+Length=297
+
+ Score = 130 bits (326),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 48/217 (22%), Positives = 87/217 (40%), Gaps = 21/217 (10%)
+
+Query  60   AGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEF-----KNPSMLYLAT--  112
+            AG SIL+ ++ A     +      I    + +  V L  +          P  +  A   
+Sbjct  60   AGLSILVFLYMARTVRANRA--RLIVGATLMIPLVSLSSYLGLVTGLTAGPIEMPAAHAL  117
+
+Query  113  -GHRV--QWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMA  169
+             G  V  QW RY  W L+ P+IL+ L  L  +    +     ++ +DIG  + G  +A+ 
+Sbjct  118  AGEDVLSQWGRYLTWTLSTPMILLALGWLAEVD---TADLFVVIAADIGMCLTGLAAALT  174
+
+Query  170  TGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFP  227
+            T     +  F+ +   +     +       +            +   + WL  + W  +P
+Sbjct  175  TSSYAFRWAFYLVSTAFFVVVLY---ALLAKWPTNAEAAGTGDIFGTLRWLTVILWLGYP  231
+
+Query  228  ILFILGPEGFGVLSVYGST-VGHTIIDLMSKNCWGLL  263
+            IL+ LG EGF ++   G T  G++++D+ +K  +  L
+Sbjct  232  ILWALGVEGFALVDSVGLTSWGYSLLDIGAKYLFAAL  268
+
+
+> sp|P33971|BACR_HALHP Bacteriorhodopsin (Fragment) OS=Halobacterium 
+halobium (strain port) OX=33004 GN=bop PE=3 SV=1
+Length=211
+
+ Score = 126 bits (317),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 42/213 (20%), Positives = 88/213 (41%), Gaps = 18/213 (8%)
+
+Query  57   WLAAGFSILLLMFYAYQTWKST-CGWEEIYVCAIEMVKV----ILEFFFEFKNPSMLYLA  111
+            WL      L ++++  + W  T    ++ Y+  I +  +     L     F   +++  A
+Sbjct  4    WLGTAGMFLGMLYFIARGWGETDSRRQKFYIATILITAIAFVNYLAMALGF-GLTIVEFA  62
+
+Query  112  -TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMAT  170
+               H + W RY++WL T P++L  L  L G   +     + L   D+  I  G  + ++ 
+Sbjct  63   GEEHPIYWARYSDWLFTTPLLLYDLGLLAGADRNTITSLVSL---DVLMIGTGLVATLSA  119
+
+Query  171  GY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSW  223
+            G         +++++ +   +     +    +       +P    R     +  L  V W
+Sbjct  120  GSGVLSAGAERLVWWGISTAFLLVLLYFLFSSLSGRVADLPSD-TRSTFKTLRNLVTVVW  178
+
+Query  224  GMFPILFILGPEGFGVLSVYGSTVGHTIIDLMS  256
+             ++P+ +++G EG G++ +   T G  +IDL +
+Sbjct  179  LVYPVWWLIGTEGIGLVGIGIETAGFMVIDLTA  211
+
+
+> sp|P33972|BACR_HALHS Bacteriorhodopsin (Fragment) OS=Halobacterium 
+halobium (strain shark) OX=33005 GN=bop PE=3 SV=1
+Length=209
+
+ Score = 124 bits (310),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 42/213 (20%), Positives = 86/213 (40%), Gaps = 18/213 (8%)
+
+Query  57   WLAAGFSILLLMFYAYQTWKSTCGWEE-IYVCAIEMVKV----ILEFFFEFKNPSMLYLA  111
+            WL      L ++++  + W  T G  +  Y+  I +  +     L     F   + +   
+Sbjct  2    WLGTAGMFLGMLYFIARGWGETDGRRQKFYIATILITAIAFVNYLAMALGF-GLTFIEFG  60
+
+Query  112  -TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMAT  170
+               H + W RY +WL T P++L  L  L G   +     + L   D+  I  G  + ++ 
+Sbjct  61   GEQHPIYWARYTDWLFTTPLLLYDLGLLAGADRNTIYSLVSL---DVLMIGTGVVATLSA  117
+
+Query  171  GY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSW  223
+            G         +++++ +   +     +    +       +P    R     +  L  V W
+Sbjct  118  GSGVLSAGAERLVWWGISTAFLLVLLYFLFSSLSGRVANLPSD-TRSTFKTLRNLVTVVW  176
+
+Query  224  GMFPILFILGPEGFGVLSVYGSTVGHTIIDLMS  256
+             ++P+ +++G EG G++ +   T G  +IDL++
+Sbjct  177  LVYPVWWLVGSEGLGLVGIGIETAGFMVIDLVA  209
+
+
+> sp|P42196|BACS2_NATPH Sensory rhodopsin-2 OS=Natronomonas pharaonis 
+OX=2257 GN=sop2 PE=1 SV=1
+Length=239
+
+ Score = 124 bits (311),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 45/228 (20%), Positives = 89/228 (39%), Gaps = 9/228 (4%)
+
+Query  55   LQWLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVI-LEFFFEFKNPSMLYLATG  113
+            L WL A   ++  + +A+    +  G    YV  + +  +  + +         + +A  
+Sbjct  7    LFWLGAIGMLVGTLAFAWAGRDAGSGERRYYVTLVGISGIAAVAYVVMALGVGWVPVAE-  65
+
+Query  114  HRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYV  173
+              V   RY +W+LT P+I+  L  L GL    SR    ++  +   ++ G   AM  G  
+Sbjct  66   RTVFAPRYIDWILTTPLIVYFLGLLAGLD---SREFGIVITLNTVVMLAGFAGAMVPGIE  122
+
+Query  174  KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILG  233
+            +   F +G        ++      E       G  + +   +  L  + W ++P +++LG
+Sbjct  123  RYALFGMGAVAFLGLVYYLVGPMTESASQRSSG-IKSLYVRLRNLTVILWAIYPFIWLLG  181
+
+Query  234  PEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDI  281
+            P G  +L+          +DL++K  +G +       +      HG+ 
+Sbjct  182  PPGVALLTPTVDVALIVYLDLVTKVGFGFIALDAAATLRAE---HGES  226
+
+
+> sp|P15647|BACH_NATPH Halorhodopsin OS=Natronomonas pharaonis 
+OX=2257 GN=hop PE=1 SV=1
+Length=291
+
+ Score = 125 bits (314),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 55/249 (22%), Positives = 94/249 (38%), Gaps = 42/249 (17%)
+
+Query  60   AGFSILLLMFYAYQTWKSTCGWEE-----IYVCAIEMVKVILEFFFEFKN---PSMLYLA  111
+            AG SILL +F        T G ++     I V  I +  V +  +    +    S+L + 
+Sbjct  45   AGLSILLFVFM-------TRGLDDPRAKLIAVSTILVPVVSIASYTGLASGLTISVLEMP  97
+
+Query  112  TGH-----------------RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLV  154
+             GH                    W RY  W L+ P+IL+ L  L G +       +    
+Sbjct  98   AGHFAEGSSVMLGGEEVDGVVTMWGRYLTWALSTPMILLALGLLAGSNATKLFTAI---T  154
+
+Query  155  SDIGTIVWGATSAMATGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVV  212
+             DI   V G  +A+ T    ++  ++ +         +      +E            + 
+Sbjct  155  FDIAMCVTGLAAALTTSSHLMRWFWYAISCACFLVVLYIL---LVEWAQDAKAAGTADMF  211
+
+Query  213  TGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIH  272
+              +  L  V W  +PI++ LG EG  VL V  ++ G++ +D+++K  +  L   L  L  
+Sbjct  212  NTLKLLTVVMWLGYPIVWALGVEGIAVLPVGVTSWGYSFLDIVAKYIFAFL--LLNYLTS  269
+
+Query  273  EHILIHGDI  281
+               ++ G I
+Sbjct  270  NESVVSGSI  278
+
+
+> sp|P0DMH7|BACH_HALSA Halorhodopsin OS=Halobacterium salinarum 
+(strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=hop PE=3 
+SV=1
+Length=274
+
+ Score = 123 bits (308),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 47/242 (19%), Positives = 97/242 (40%), Gaps = 28/242 (12%)
+
+Query  44   GTNGAQTASNVLQ--------WLAAGFSILLLMFYAYQTWKSTCGWEE-IYVCAIEMVKV  94
+            G  GAQ+A+ V +        W+    + + ++ + Y       G    I+   + +  V
+Sbjct  13   GVLGAQSAAAVRENALLSSSLWVNVALAGIAILVFVYMGRTIRPGRPRLIWGATLMIPLV  72
+
+Query  95   ILEFFFEF-KNPS--MLYLATGH-------RVQWLRYAEWLLTCPVILIHLSNLTGLSND  144
+             +  +       +  M+ +  GH       R QW RY  W L+ P+IL+ L  L  +   
+Sbjct  73   SISSYLGLLSGLTVGMIEMPAGHALAGEMVRSQWGRYLTWALSTPMILLALGLLADVDLG  132
+
+Query  145  YSRRTMGLLVSDIGTIVWGATSAMATGYV--KVIFFCLGLCYGANTFFHAAKAYIEGYHT  202
+                   ++ +DIG  V G  +AM T  +  +  F+ +   +        +    +   +
+Sbjct  133  SLFT---VIAADIGMCVTGLAAAMTTSALLFRWAFYAISCAFFVVV---LSALVTDWAAS  186
+
+Query  203  VPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGST-VGHTIIDLMSKNCWG  261
+                   ++   +  L  V W  +PI++ +G EG  ++   G T   ++++D+ +K  + 
+Sbjct  187  ASSAGTAEIFDTLRVLTVVLWLGYPIVWAVGVEGLALVQSVGVTSWAYSVLDVFAKYVFA  246
+
+Query  262  LL  263
+             +
+Sbjct  247  FI  248
+
+
+> sp|B0R2U4|BACH_HALS3 Halorhodopsin OS=Halobacterium salinarum 
+(strain ATCC 29341 / DSM 671 / R1) OX=478009 GN=hop PE=1 SV=1
+Length=274
+
+ Score = 123 bits (308),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 47/242 (19%), Positives = 97/242 (40%), Gaps = 28/242 (12%)
+
+Query  44   GTNGAQTASNVLQ--------WLAAGFSILLLMFYAYQTWKSTCGWEE-IYVCAIEMVKV  94
+            G  GAQ+A+ V +        W+    + + ++ + Y       G    I+   + +  V
+Sbjct  13   GVLGAQSAAAVRENALLSSSLWVNVALAGIAILVFVYMGRTIRPGRPRLIWGATLMIPLV  72
+
+Query  95   ILEFFFEF-KNPS--MLYLATGH-------RVQWLRYAEWLLTCPVILIHLSNLTGLSND  144
+             +  +       +  M+ +  GH       R QW RY  W L+ P+IL+ L  L  +   
+Sbjct  73   SISSYLGLLSGLTVGMIEMPAGHALAGEMVRSQWGRYLTWALSTPMILLALGLLADVDLG  132
+
+Query  145  YSRRTMGLLVSDIGTIVWGATSAMATGYV--KVIFFCLGLCYGANTFFHAAKAYIEGYHT  202
+                   ++ +DIG  V G  +AM T  +  +  F+ +   +        +    +   +
+Sbjct  133  SLFT---VIAADIGMCVTGLAAAMTTSALLFRWAFYAISCAFFVVV---LSALVTDWAAS  186
+
+Query  203  VPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGST-VGHTIIDLMSKNCWG  261
+                   ++   +  L  V W  +PI++ +G EG  ++   G T   ++++D+ +K  + 
+Sbjct  187  ASSAGTAEIFDTLRVLTVVLWLGYPIVWAVGVEGLALVQSVGVTSWAYSVLDVFAKYVFA  246
+
+Query  262  LL  263
+             +
+Sbjct  247  FI  248
+
+
+> sp|Q53496|BACR_HALSR Cruxrhodopsin-2 OS=Haloarcula sp. (strain 
+arg-2 / Andes heights) OX=69009 GN=cop2 PE=1 SV=1
+Length=255
+
+ Score = 118 bits (296),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 44/238 (18%), Positives = 101/238 (42%), Gaps = 24/238 (10%)
+
+Query  53   NVLQWLAAGFSILLLMFYAYQTWK-STCGWEEIYVCAIEMVKV----ILEFFFEFKNPSM  107
+            ++  W+      L ++++  + W  S    ++ Y+  I +  +     L     F   + 
+Sbjct  15   SIFLWVGTAGMFLGMLYFIARGWSVSDQRRQKFYIATIMIAAIAFVNYLSMALGF-GVTT  73
+
+Query  108  LYLA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATS  166
+            + L      + W RY +WL T P++L  L+ L G   +     +GL   D+  I  GA +
+Sbjct  74   IELGGEERAIYWARYTDWLFTTPLLLYDLALLAGADRNTIYSLVGL---DVLMIGTGALA  130
+
+Query  167  AMATGY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLF  219
+             ++ G         +++++ +   +     +       +    +  G  +   + +  L 
+Sbjct  131  TLSAGSGVLPAGAERLVWWGISTGFLLVLLYFLFSNLTDRASELS-GDLQSKFSTLRNLV  189
+
+Query  220  FVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILI  277
+             V W ++P+L+++G EG G++ +   T    ++DL +K  +G+      +L+  H ++
+Sbjct  190  LVLWLVYPVLWLVGTEGLGLVGLPIETAAFMVLDLTAKIGFGI------ILLQSHAVL  241
+
+
+> sp|Q53461|BACH_HALAR Cruxhalorhodopsin-1 (Fragment) OS=Haloarcula 
+argentinensis OX=43776 GN=choP1 PE=3 SV=1
+Length=131
+
+ Score = 114 bits (284),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 29/137 (21%), Positives = 59/137 (43%), Gaps = 8/137 (6%)
+
+Query  129  PVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGY--VKVIFFCLGLCYGA  186
+            P+IL+ L  L              +  DIG  V G  +A+ T    ++ +F+ +   +  
+Sbjct  1    PMILLALGLLADTD---IASLFTAITMDIGMCVTGLAAALITSSHLLRWVFYGISCAFFV  57
+
+Query  187  NTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGST  246
+               +      ++           ++   +  L  V W  +PIL+ LG EG  +LSV  ++
+Sbjct  58   AVLYVL---LVQWPADAEAAGTSEIFGTLKILTVVLWLGYPILWALGSEGVALLSVGVTS  114
+
+Query  247  VGHTIIDLMSKNCWGLL  263
+             G++ +D+++K  +  +
+Sbjct  115  WGYSGLDILAKYVFAFI  131
+
+
+> sp|P33970|BACH_HALHM Halorhodopsin (Fragment) OS=Halobacterium 
+halobium (strain mex) OX=33003 GN=hop PE=3 SV=1
+Length=206
+
+ Score = 110 bits (275),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 41/211 (19%), Positives = 80/211 (38%), Gaps = 26/211 (12%)
+
+Query  60   AGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEF-KNPSM--LYLATGHRV  116
+            AG SILL ++            + I+V  + +  V +  +       ++  L +  GH +
+Sbjct  4    AGLSILLFVYMGRNVEDPRA--QLIFVATLMVPLVSISSYTGLVSGLTVGFLEMPAGHAL  61
+
+Query  117  Q-------------WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWG  163
+                          W RY  W  + P+ILI L  L G +       +   V+D+G  + G
+Sbjct  62   AGMGAGPEGGVFTPWGRYLTWAFSTPMILIALGLLAGSNMSKLFTAV---VADVGMCITG  118
+
+Query  164  ATSAMATGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFV  221
+              +A+ T    ++ +++ +   +     +       E            +   +  L  V
+Sbjct  119  LAAALTTSSYLLRWVWYGISCAFFVVVLYIL---LAEWAKDAEVAGTADIFNTLKVLTVV  175
+
+Query  222  SWGMFPILFILGPEGFGVLSVYGSTVGHTII  252
+             W  +PI + LG EG  VL +  ++  ++ +
+Sbjct  176  LWLGYPIFWALGAEGLAVLDIAITSWAYSGM  206
+
+
+> sp|Q9UW81|NOP1_NEUCR Opsin-1 OS=Neurospora crassa (strain ATCC 
+24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 
+GN=nop-1 PE=1 SV=1
+Length=304
+
+ Score = 89.0 bits (219),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 44/226 (19%), Positives = 86/226 (38%), Gaps = 25/226 (11%)
+
+Query  57   WLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEF--------------  102
+            W+     +L    +A  +W         +V    +  V    +F                
+Sbjct  48   WVTFALMVLSSGIFALLSWNVPTSKRLFHVITTLITVVASLSYFAMATGHATTFNCDTAW  107
+
+Query  103  ---KNPSMLYLATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGT  159
+               K+          +V W RY +W LT P++L+ L  L G+       T+  +V+D+  
+Sbjct  108  DHHKHVPDTSHQVCRQVFWGRYVDWALTTPLLLLELCLLAGVD---GAHTLMAIVADVIM  164
+
+Query  160  IVWGATSAMATGY---VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMA  216
+            ++ G  +A+  G     K  ++ +G        +H A        T       ++ TG+A
+Sbjct  165  VLCGLFAALGEGGNTAQKWGWYTIGCFSYLFVIWHVALHGSRTV-TAKGRGVSRLFTGLA  223
+
+Query  217  WLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGL  262
+                + W  +PI++ +   G    +V    + +T++DL++K  +G 
+Sbjct  224  VFALLLWTAYPIIWGI-AGGARRTNVDTEILIYTVLDLLAKPVFGF  268
+
+
+> sp|Q9F7P4|PRRG_PRB01 Green-light absorbing proteorhodopsin OS=Gamma-proteobacterium 
+EBAC31A08 OX=133804 PE=1 SV=1
+Length=249
+
+ Score = 73.6 bits (179),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 35/221 (16%), Positives = 79/221 (36%), Gaps = 13/221 (6%)
+
+Query  48   AQTASNVLQWLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKNPSM  107
+            A   + V  WL     +   +F+  +  + +  W+     +  +  +    F+ +     
+Sbjct  25   ASDYTGVSFWLVTAALLASTVFFFVERDRVSAKWKTSLTVSGLVTGI---AFWHYMYMRG  81
+
+Query  108  LYLATGHRVQWLRYAEWLLTCPVILIHLSN-LTGLSNDYSRRTMGLLVSDIGTIVWGATS  166
+            +++ TG      RY +WLLT P+++      L   +N        LLV  +  +V+G   
+Sbjct  82   VWIETGDSPTVFRYIDWLLTVPLLICEFYLILAAATNVAGSLFKKLLVGSLVMLVFGYMG  141
+
+Query  167  AMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMF  226
+              A        F +G        +       +          +     M ++    W ++
+Sbjct  142  E-AGIMAAWPAFIIGCLAWVYMIYELWAGEGKSACNTASPAVQSAYNTMMYIIIFGWAIY  200
+
+Query  227  PI----LFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+            P+     +++G  G  +       + + + D ++K  +GL+
+Sbjct  201  PVGYFTGYLMGDGGSAL----NLNLIYNLADFVNKILFGLI  237
+
+
+> sp|O74870|MUG73_SCHPO Meiotically up-regulated gene 73 protein 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 
+GN=mug73 PE=1 SV=1
+Length=306
+
+ Score = 71.6 bits (174),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 31/153 (20%), Positives = 62/153 (41%), Gaps = 5/153 (3%)
+
+Query  102  FKNPSMLYLATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIV  161
+            F + S     +   V ++RY +WL+  P+I++ L    G+S         ++   +  IV
+Sbjct  84   FSSASFFREVSVRMVYYVRYIQWLINFPLIIVMLHWTVGVS---ILEIAYVVCYVLFAIV  140
+
+Query  162  WGATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFV  221
+                +A+ +   K  ++            H+   + + Y +  +   R           V
+Sbjct  141  CLLAAALTSSPYKWAYYGFSFVGYFIALAHSVVLH-KKYASRLETSARLGFLWSIVYLHV  199
+
+Query  222  SWGMFPILFILGPEGFGVLSVYGSTVGHTIIDL  254
+             W ++   +IL  EG  V+S  G  + ++I+DL
+Sbjct  200  IWFLYYACWIL-SEGLNVISPIGEAIFYSILDL  231
+
+
+> sp|O74631|FD123_TRAVE Protein FDD123 OS=Trametes versicolor OX=5325 
+GN=FDD123 PE=2 SV=1
+Length=283
+
+ Score = 68.9 bits (167),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 44/218 (20%), Positives = 80/218 (37%), Gaps = 18/218 (8%)
+
+Query  57   WLAAGFSILLLMFYAYQTWKSTC--GWEEIYVCAIEMVKVILEFFFEFKN-------PSM  107
+            WL A FS+  +       W  T   G    +  AI ++      +F   +       P  
+Sbjct  24   WLWAAFSVFGVSLLTVVAWTFTRPRGARLFHQIAIVVLTTGSLAYFSMASDLGATPVPVE  83
+
+Query  108  LYLATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSA  167
+                   ++ ++RY +W +T P++L+ L   TGLS          L   I  ++ G  +A
+Sbjct  84   FRGEGTRQIWFVRYIQWFITFPLLLLELLLATGLS---LSDIFTTLFMSIVLVITGLVAA  140
+
+Query  168  MATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGR--CRQVVTGMAWLFFVSWGM  225
+            +     K  ++  G+   +  F+        G HT        R+     A        +
+Sbjct  141  LVPSTYKWGYYTFGV---SALFYIWYVLLWHGPHTTFAAGGVLRRGYILAAGYLSFLLLL  197
+
+Query  226  FPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+            +PI +    EG  V+SV    + + I+D+ +   +   
+Sbjct  198  YPIAWAC-AEGGNVISVTSEMIWYGILDIFAGPIFLFF  234
+
+
+> sp|Q9AFF7|PRRB_PRB02 Blue-light absorbing proteorhodopsin OS=Gamma-proteobacterium 
+Hot 75m4 OX=245185 PE=1 SV=2
+Length=251
+
+ Score = 65.1 bits (157),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 32/212 (15%), Positives = 75/212 (35%), Gaps = 12/212 (6%)
+
+Query  57   WLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKNPSMLYLATGHRV  116
+            WL     +   +F+  +  + +  W+     +  +  +    F+ +     +++ TG   
+Sbjct  35   WLVTAGMLAATVFFFVERDQVSAKWKTSLTVSGLITGI---AFWHYLYMRGVWIDTGDTP  91
+
+Query  117  QWLRYAEWLLTCPVILIHLSN-LTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVKV  175
+               RY +WLLT P+ ++     L   ++  +     LL   +  +  G         V +
+Sbjct  92   TVFRYIDWLLTVPLQVVEFYLILAACTSVAASLFKKLLAGSLVMLGAGFAGEAGLAPV-L  150
+
+Query  176  IFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFP----ILFI  231
+              F +G+       +       +   +            M  +  V W ++P      ++
+Sbjct  151  PAFIIGMAGWLYMIYELYMGEGKAAVSTASPAVNSAYNAMMMIIVVGWAIYPAGYAAGYL  210
+
+Query  232  LGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLL  263
+            +G EG          + + + D ++K  +GL+
+Sbjct  211  MGGEGV---YASNLNLIYNLADFVNKILFGLI  239
+
+
+> sp|Q12816|TROP_HUMAN Trophinin OS=Homo sapiens OX=9606 GN=TRO 
+PE=1 SV=3
+Length=1431
+
+ Score = 59.7 bits (143),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 65/214 (30%), Positives = 95/214 (44%), Gaps = 34/214 (16%)
+
+Query  540   GGMN---GMGGGMG------GGMNGMGGGNGMNNMGNGMGGGMGNGMG-GNGMN---GMG  586
+             GG+N   G GGG+G      GG++   G +G      G GGG G   G G G+    G  
+Sbjct  1211  GGLNTSAGFGGGLGTSAGFSGGLSTSSGFDGGLGTSAGFGGGPGTSTGFGGGLGTSAGFS  1270
+
+Query  587   GGNGMN-NMGGNGMAGNGMGGGMGGNGMGGSMNGMSSGVVANVT--------PSAA--GG  635
+             GG G +   GG  +  +G GGG+G N   GS  G S+G    ++        P+A+   G
+Sbjct  1271  GGLGTSAGFGGGLVTSDGFGGGLGTNASFGSTLGTSAGFSGGLSTSDGFGSRPNASFDRG  1330
+
+Query  636   MGGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPL-------SSQLGAEAGMGSMGGMGG  688
+             +  ++  G  +  S G   G   T+  F++ PS +       S+ +G  +G  + G  GG
+Sbjct  1331  LSTIIGFGSGSNTSTGFT-GEPSTSTGFSSGPSSIVGFSGGPSTGVGFCSGPSTSGFSGG  1389
+
+Query  689   MSGMGGMGG--MGGMGGAGAATTQAAGGNAEAEM  720
+              S   G GG    G G  G  +T A  G+  A +
+Sbjct  1390  PSTGAGFGGGPNTGAGFGGGPSTSAGFGSGAASL  1423
+
+
+ Score = 51.6 bits (122),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 53/179 (30%), Positives = 74/179 (41%), Gaps = 19/179 (11%)
+
+Query  540   GGMNGMGGGMGGGMNGMGGGNGMNNMGNGMGGGMGNGMGGNGMNGMGGGNGMNNMGGNGM  599
+             G     G   G G++   G  G  N   G GGG+G   G +G  G+   +G +  GG G 
+Sbjct  1190  GPSTSTGFSFGNGLSTNAGFGGGLNTSAGFGGGLGTSAGFSG--GLSTSSGFD--GGLGT  1245
+
+Query  600   AGNGMGGGMG-GNGMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLG  658
+             +  G GGG G   G GG + G S+G    +  SA  G G + + G          GG LG
+Sbjct  1246  SA-GFGGGPGTSTGFGGGL-GTSAGFSGGLGTSAGFGGGLVTSDGF---------GGGLG  1294
+
+Query  659   TNPLFNAAPSPLSSQLGAEAGMGSMGGMGGMSGMGGMGGMGGMGGAGAATTQAAGGNAE  717
+             TN  F    S L +  G   G+ +  G G         G+  + G G+ +  + G   E
+Sbjct  1295  TNASFG---STLGTSAGFSGGLSTSDGFGSRPNASFDRGLSTIIGFGSGSNTSTGFTGE  1350
+
+
+> sp|P38079|YRO2_YEAST Protein YRO2 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=YRO2 PE=1 SV=1
+Length=344
+
+ Score = 48.5 bits (114),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 33/185 (18%), Positives = 60/185 (32%), Gaps = 17/185 (9%)
+
+Query  66   LLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKNPSMLYLATGHRVQWLRYAEWL  125
+            L M  AY T  S  GW       I +           +  +        ++ + RY  W 
+Sbjct  73   LFMSIAYFTMASNLGW-------IPVRAKYNHV----QTSTQKEHPGYRQIFYARYVGWF  121
+
+Query  126  LTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVKVIFFCLGLCYG  185
+            L  P  +I +S L G      +    + +++I T+ W   +A      K  ++ +G+   
+Sbjct  122  LAFPWPIIQMSLLGG--TPLWQIAFNVGMTEIFTVCW-LIAACVHSTYKWGYYTIGIGAA  178
+
+Query  186  ANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGM-FPILFILGPEGFGVLSVYG  244
+                               K     V      +    W + +P  F +  +G  VL    
+Sbjct  179  IVVCISLMTTTFNLVKARGKD-VSNVFITFMSVIMFLWLIAYPTCFGI-TDGGNVLQPDS  236
+
+Query  245  STVGH  249
+            +T+ +
+Sbjct  237  ATIFY  241
+
+
+> sp|Q12117|MRH1_YEAST Protein MRH1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=MRH1 PE=1 SV=1
+Length=320
+
+ Score = 48.1 bits (113),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 24/143 (17%), Positives = 51/143 (36%), Gaps = 6/143 (4%)
+
+Query  114  HRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYV  173
+             ++ + R+  W L  P  +I +  L G    + +    + +++  T+ W   +A      
+Sbjct  110  RQIFYSRFVGWFLALPWPIIQICMLAG--TPFWQMAFNVCITEFFTVCW-LIAACVHSTY  166
+
+Query  174  KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGM-FPILFIL  232
+            K  ++ +GL         +                R        +    W + +P  F +
+Sbjct  167  KWGYYTIGLGAAI-VVSISVMTTSYNLVKQRDNDIRLTFLVFFSIIMFLWIIAYPTCFGI  225
+
+Query  233  GPEGFGVLSVYGSTVGHTIIDLM  255
+              +G  VL    + + + IIDL+
+Sbjct  226  -TDGGNVLQPDSAGIFYGIIDLI  247
+
+
+> sp|Q5UQU8|YL357_MIMIV Uncharacterized protein L357 OS=Acanthamoeba 
+polyphaga mimivirus OX=212035 GN=MIMI_L357 PE=4 SV=1
+Length=496
+
+ Score = 47.4 bits (111),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 26/69 (38%), Positives = 35/69 (51%), Gaps = 8/69 (12%)
+
+Query  670  LSSQLGAEAGMGSMGGMGGMSGMGGMGGMGGMGGA--------GAATTQAAGGNAEAEML  721
+            L  ++GA++GM  M  MGG+ G  GM GM G+GG         G  +  A  G+  +   
+Sbjct  229  LMRKMGAQSGMNGMDDMGGVCGFNGMSGMNGVGGMDDFYASILGQGSPMAQEGSLGSLNP  288
+
+Query  722  QNLMNEINR  730
+             NLM  INR
+Sbjct  289  MNLMTPINR  297
+
+
+> sp|Q09472|EP300_HUMAN Histone acetyltransferase p300 OS=Homo 
+sapiens OX=9606 GN=EP300 PE=1 SV=2
+Length=2414
+
+ Score = 47.8 bits (112),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 70/253 (28%), Positives = 90/253 (36%), Gaps = 48/253 (19%)
+
+Query  457  EFLRDRSSTSILSRLRGAGQRVAAFGWAQ---LGPMRDLIESANLDGWLEGPSFGQGILP  513
+            E LR  SS ++   + G GQ +A+        LG +  +++S      L  P+ G G   
+Sbjct  83   ELLRSGSSPNLNMGVGGPGQVMASQAQQSSPGLGLINSMVKSPMTQAGLTSPNMGMGTSG  142
+
+Query  514  AHIVALVAKMQQMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGGNGMNNMGNGMGGGM  573
+             +                 Q  GMM   +N    GM  GMN  G   GM   GNG G   
+Sbjct  143  PN-------------QGPTQSTGMMNSPVNQPAMGMNTGMNA-GMNPGMLAAGNGQG---  185
+
+Query  574  GNGMGGNGMNG-MGGGNGMNNMG----GNGMAGNGMGGGM--GGNGMGGSMNGMSSGVVA  626
+               M    MNG +G G G  NM     G G AGN +   +  G   MGG         + 
+Sbjct  186  --IMPNQVMNGSIGAGRGRQNMQYPNPGMGSAGNLLTEPLQQGSPQMGGQTG------LR  237
+
+Query  627  NVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLG------TNPLFNAAPSPLSSQLGAEAGM  680
+               P   G M      G    Q+PG   G  G      T  + +   SP +    A  G 
+Sbjct  238  GPQPLKMGMMNNPNPYGSPYTQNPGQQIGASGLGLQIQTKTVLSNNLSPFAMDKKAVPG-  296
+
+Query  681  GSMGGMGGMSGMG  693
+                  GGM  MG
+Sbjct  297  ------GGMPNMG  303
+
+
+> sp|P25619|HSP30_YEAST 30 kDa heat shock protein OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=HSP30 
+PE=1 SV=1
+Length=332
+
+ Score = 43.1 bits (100),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 38/222 (17%), Positives = 75/222 (34%), Gaps = 27/222 (12%)
+
+Query  58   LAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKNPSMLYLATGHRVQ  117
+            LA  F I    F+A+ T+ S  GW  +       VKV      E             ++ 
+Sbjct  68   LAPAFLITFFEFFAFFTYASDLGWTGVQA-EFNHVKVSKSITGEVPGI--------RQIF  118
+
+Query  118  WLRYAEWLLTCPVILIHLSNLT---GLSNDYSR-RTMGLLVSDIGTIVWGATSAMATGYV  173
+            + +Y  W L+ P +L  +       G ++D S    +  L+  I   ++   S +    +
+Sbjct  119  YSKYIAWFLSWPCLLFLIELAASTTGENDDISALDMVHSLLIQIVGTLFWVVSLLVGSLI  178
+
+Query  174  ----KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPIL  229
+                K  ++ +G      T     +       T            +     + W ++ I 
+Sbjct  179  KSTYKWGYYTIGAVAMLVTQGVICQRQFFNLKTRGFNALM-----LCTCMVIVW-LYFIC  232
+
+Query  230  FILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLI  271
+            + L   G   +   G  + + ++DL     + +   YL + +
+Sbjct  233  WGLSDGG-NRIQPDGEAIFYGVLDLC---VFAIYPCYLLIAV  270
+
+
+> sp|Q966L9|GLH2_CAEEL ATP-dependent RNA helicase glh-2 OS=Caenorhabditis 
+elegans OX=6239 GN=glh-2 PE=1 SV=1
+Length=974
+
+ Score = 43.5 bits (101),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 45/136 (33%), Positives = 49/136 (36%), Gaps = 27/136 (20%)
+
+Query  566  GNGMGGGMGNGMGGNGMNGMGGGNGMNNMGGNGM-AGNGMGGGMGGNGMGGSMNGMSSGV  624
+            GNG  GG G G G  G  G G GN     GG G  +GN  G G G    GG+  G  +  
+Sbjct  69   GNGNAGGTGFGSGNAGGTGFGSGNA----GGTGFGSGNAGGTGFGSGNAGGTGFGGGNAG  124
+
+Query  625  VANVTPSAAGGMG-GMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPLSSQLGAEAGMGSM  683
+                    AGG G G  N G       G   G  G                G   G G+ 
+Sbjct  125  GTGFGSGNAGGTGLGSGNAG-----GTGFGSGNAG----------------GTGFGSGNA  163
+
+Query  684  GGMGGMSGMGGMGGMG  699
+            GG G  SG  G  G G
+Sbjct  164  GGTGFGSGKAGGTGFG  179
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0408    0.140     1.90     42.6     43.6 
+
+Effective search space used: 79590066948
+Results from round 3
+
+
+Query= Q8RUT8|3ug9A
+
+Length=737
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q09472|EP300_HUMAN Histone acetyltransferase p300 OS=Homo sa...  273     1e-75
+  sp|Q18DH8|BACR1_HALWD Bacteriorhodopsin-I OS=Haloquadratum wals...  214     3e-62
+  sp|G0LFX8|BACR1_HALWC Bacteriorhodopsin-I OS=Haloquadratum wals...  214     3e-62
+  sp|P29563|BACR2_HALS2 Archaerhodopsin-2 OS=Halobacterium sp. (s...  211     7e-61
+  sp|P33742|BACH_HALSS Halorhodopsin OS=Halobacterium sp. (strain...  205     1e-58
+  sp|Q5V0R5|BACR2_HALMA Bacteriorhodopsin-II OS=Haloarcula marism...  204     2e-58
+  sp|P69052|BACR1_HALSS Archaerhodopsin-1 OS=Halobacterium sp. (s...  203     4e-58
+  sp|P69051|BACR1_HALC1 Archaerhodopsin-1 OS=Halorubrum chaoviato...  203     4e-58
+  sp|P96787|BACR3_HALSD Archaerhodopsin-3 OS=Halorubrum sodomense...  203     4e-58
+  sp|Q57101|BACR_HALAR Cruxrhodopsin-1 OS=Haloarcula argentinensi...  200     3e-57
+  sp|Q18DH5|BACRM_HALWD Bacteriorhodopsin-II-like protein OS=Halo...  198     2e-56
+  sp|P94854|BACR_HALVA Cruxrhodopsin-3 OS=Haloarcula vallismortis...  197     4e-56
+  sp|Q5UXY6|BACR1_HALMA Bacteriorhodopsin-I OS=Haloarcula marismo...  197     5e-56
+  sp|O93742|BACH_HALSD Halorhodopsin OS=Halorubrum sodomense OX=3...  198     6e-56
+  sp|Q5V1N0|BACH_HALMA Halorhodopsin OS=Haloarcula marismortui (s...  197     1e-55
+  sp|Q48314|BACH_HALHS Halorhodopsin OS=Halobacterium halobium (s...  196     1e-55
+  sp|Q48315|BACH_HALHP Halorhodopsin OS=Halobacterium halobium (s...  196     2e-55
+  sp|P94853|BACH_HALVA Cruxhalorhodopsin-3 OS=Haloarcula vallismo...  189     6e-53
+  sp|P42196|BACS2_NATPH Sensory rhodopsin-2 OS=Natronomonas phara...  188     6e-53
+  sp|P02945|BACR_HALSA Bacteriorhodopsin OS=Halobacterium salinar...  188     1e-52
+  sp|P0DMH7|BACH_HALSA Halorhodopsin OS=Halobacterium salinarum (...  187     2e-52
+  sp|B0R2U4|BACH_HALS3 Halorhodopsin OS=Halobacterium salinarum (...  187     2e-52
+  sp|O93741|BACH_HALS4 Halorhodopsin OS=Haloterrigena sp. (strain...  188     4e-52
+  sp|Q9F7P4|PRRG_PRB01 Green-light absorbing proteorhodopsin OS=G...  183     3e-51
+  sp|Q48334|BAC3_HALVA Bacterial rhodopsin CSR3 OS=Haloarcula val...  181     1e-50
+  sp|P15647|BACH_NATPH Halorhodopsin OS=Natronomonas pharaonis OX...  182     2e-50
+  sp|P71411|BACS2_HALSA Sensory rhodopsin-2 OS=Halobacterium sali...  180     2e-50
+  sp|P33971|BACR_HALHP Bacteriorhodopsin (Fragment) OS=Halobacter...  179     2e-50
+  sp|P0DMH8|BACS1_HALSA Sensory rhodopsin-1 OS=Halobacterium sali...  179     6e-50
+  sp|B0R633|BACS1_HALS3 Sensory rhodopsin-1 OS=Halobacterium sali...  179     6e-50
+  sp|P42197|BACS2_HALVA Sensory rhodopsin-2 OS=Haloarcula vallism...  178     2e-49
+  sp|Q5V5V3|BACS2_HALMA Sensory rhodopsin II OS=Haloarcula marism...  178     2e-49
+  sp|P33969|BACR_HALHM Bacteriorhodopsin (Fragment) OS=Halobacter...  176     5e-49
+  sp|Q5UXM9|BACS1_HALMA Sensory rhodopsin I OS=Haloarcula marismo...  176     7e-49
+  sp|P33972|BACR_HALHS Bacteriorhodopsin (Fragment) OS=Halobacter...  173     5e-48
+  sp|O93740|BACR_HALS4 Bacteriorhodopsin OS=Haloterrigena sp. (st...  172     2e-47
+  sp|P33970|BACH_HALHM Halorhodopsin (Fragment) OS=Halobacterium ...  166     1e-45
+  sp|P33743|BACS1_HALSS Sensory rhodopsin-1 OS=Halobacterium sp. ...  167     2e-45
+  sp|Q9AFF7|PRRB_PRB02 Blue-light absorbing proteorhodopsin OS=Ga...  167     2e-45
+  sp|O93743|BACS_HALSD Sensory rhodopsin OS=Halorubrum sodomense ...  167     3e-45
+  sp|Q53496|BACR_HALSR Cruxrhodopsin-2 OS=Haloarcula sp. (strain ...  166     4e-45
+  sp|Q12816|TROP_HUMAN Trophinin OS=Homo sapiens OX=9606 GN=TRO P...  176     2e-44
+  sp|Q9UW81|NOP1_NEUCR Opsin-1 OS=Neurospora crassa (strain ATCC ...  161     1e-42
+  sp|Q5V4H7|BACS3_HALMA Sensory rhodopsin III OS=Haloarcula maris...  151     4e-40
+  sp|O74631|FD123_TRAVE Protein FDD123 OS=Trametes versicolor OX=...  151     2e-39
+  sp|Q53461|BACH_HALAR Cruxhalorhodopsin-1 (Fragment) OS=Haloarcu...  144     1e-38
+  sp|O74870|MUG73_SCHPO Meiotically up-regulated gene 73 protein ...  149     2e-38
+  sp|Q12117|MRH1_YEAST Protein MRH1 OS=Saccharomyces cerevisiae (...  145     7e-37
+  sp|P38079|YRO2_YEAST Protein YRO2 OS=Saccharomyces cerevisiae (...  144     2e-36
+  sp|Q5UQU8|YL357_MIMIV Uncharacterized protein L357 OS=Acanthamo...  91.3    6e-18
+
+Sequences not found previously or not previously below threshold:
+
+  sp|B2RWS6|EP300_MOUSE Histone acetyltransferase p300 OS=Mus mus...  240     2e-64
+  sp|P25619|HSP30_YEAST 30 kDa heat shock protein OS=Saccharomyce...  92.9    4e-19
+  sp|P45481|CBP_MOUSE CREB-binding protein OS=Mus musculus OX=100...  62.8    1e-08
+  sp|Q92793|CBP_HUMAN CREB-binding protein OS=Homo sapiens OX=960...  60.1    7e-08
+  sp|Q6JHU9|CBP_RAT CREB-binding protein OS=Rattus norvegicus OX=...  57.1    6e-07
+  sp|A8TX70|CO6A5_HUMAN Collagen alpha-5(VI) chain OS=Homo sapien...  53.6    7e-06
+  sp|Q966L9|GLH2_CAEEL ATP-dependent RNA helicase glh-2 OS=Caenor...  51.7    2e-05
+  sp|A2AX52|CO6A4_MOUSE Collagen alpha-4(VI) chain OS=Mus musculu...  50.9    5e-05
+  sp|A6H584|CO6A5_MOUSE Collagen alpha-5(VI) chain OS=Mus musculu...  49.7    1e-04
+  sp|Q96P44|COLA1_HUMAN Collagen alpha-1(XXI) chain OS=Homo sapie...  48.2    3e-04
+  sp|Q2UY11|COSA1_MOUSE Collagen alpha-1(XXVIII) chain OS=Mus mus...  47.4    4e-04
+  sp|Q4WP03|EAF1_ASPFU Chromatin modification-related protein eaf...  47.4    5e-04
+  sp|Q79FI9|PPE34_MYCTU PPE family protein PPE34 OS=Mycobacterium...  47.4    6e-04
+  sp|O43024|YGVA_SCHPO CUE domain-containing protein C354.10 OS=S...  46.7    9e-04
+  sp|Q92125|ANXA7_XENLA Annexin A7 OS=Xenopus laevis OX=8355 GN=a...  46.3    9e-04
+  sp|P27393|CO4A2_ASCSU Collagen alpha-2(IV) chain OS=Ascaris suu...  45.9    0.002
+  sp|O76743|GLH4_CAEEL ATP-dependent RNA helicase glh-4 OS=Caenor...  45.5    0.002
+  sp|Q641F3|COLA1_XENLA Collagen alpha-1(XXI) chain OS=Xenopus la...  45.1    0.003
+  sp|Q9UTK4|NU189_SCHPO Nucleoporin nup189 OS=Schizosaccharomyces...  44.3    0.005
+  sp|Q17602|NU214_CAEEL Nuclear pore complex protein 14 OS=Caenor...  44.0    0.005
+  sp|G0S381|AMO1_CHATD Nucleoporin AMO1 OS=Chaetomium thermophilu...  43.2    0.007
+  sp|Q6NU13|SPT2_XENLA Protein SPT2 homolog OS=Xenopus laevis OX=...  43.2    0.009
+
+
+> sp|Q09472|EP300_HUMAN Histone acetyltransferase p300 OS=Homo 
+sapiens OX=9606 GN=EP300 PE=1 SV=2
+Length=2414
+
+ Score = 273 bits (698),  Expect = 1e-75, Method: Composition-based stats.
+ Identities = 75/278 (27%), Positives = 97/278 (35%), Gaps = 50/278 (18%)
+
+Query  457  EFLRDRSSTSILSRLRGAGQRVAAFGWAQ---LGPMRDLIESANLDGWLEGPSFGQGILP  513
+            E LR  SS ++   + G GQ +A+        LG +  +++S      L  P+ G G   
+Sbjct  83   ELLRSGSSPNLNMGVGGPGQVMASQAQQSSPGLGLINSMVKSPMTQAGLTSPNMGMGTSG  142
+
+Query  514  AHIVALVAKMQQMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGGNGMNNMGNGMGGGM  573
+             +                 Q  GMM   +N    GM  GMN  G   GM   GNG G   
+Sbjct  143  PN-------------QGPTQSTGMMNSPVNQPAMGMNTGMNA-GMNPGMLAAGNGQG---  185
+
+Query  574  GNGMGGNGMNG-MGGGNGMNNMG----GNGMAGNGMGGGM--GGNGMGGSMNGMSSGVVA  626
+               M    MNG +G G G  NM     G G AGN +   +  G   MGG         + 
+Sbjct  186  --IMPNQVMNGSIGAGRGRQNMQYPNPGMGSAGNLLTEPLQQGSPQMGGQTG------LR  237
+
+Query  627  NVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLG------TNPLFNAAPSPLSSQLGAEAGM  680
+               P   G M      G    Q+PG   G  G      T  + +   SP +    A  G 
+Sbjct  238  GPQPLKMGMMNNPNPYGSPYTQNPGQQIGASGLGLQIQTKTVLSNNLSPFAMDKKAVPG-  296
+
+Query  681  GSMGGMGGMSGMGGMGGMGGMGGAGAATTQAAG-GNAE  717
+                  GGM  M G      +   G  T  A G G+  
+Sbjct  297  ------GGMPNM-GQQPAPQVQQPGLVTPVAQGMGSGA  327
+
+
+ Score = 45.1 bits (105),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 43/196 (22%), Positives = 67/196 (34%), Gaps = 18/196 (9%)
+
+Query  534  QIGMMTGG-MNGMGGGMGGGMNGMGGGNGMNNMGNGMGGGMGNGMGGNGMNGMGGGNGMN  592
+            ++G+  GG +N +   +G   +       ++ +    G      MG  G   +       
+Sbjct  52   ELGLTNGGDINQLQTSLGMVQDAASKHKQLSELLRS-GSSPNLNMGVGGPGQVMASQAQQ  110
+
+Query  593  NMGGNGMAGNGMGGGMGGNGMGGSMNGM-SSGVVANVTPSAAGGMGGMMN---GGMAAPQ  648
+            +  G G+  + +   M   G+     GM +SG     T S  G M   +N    GM    
+Sbjct  111  SSPGLGLINSMVKSPMTQAGLTSPNMGMGTSGPNQGPTQS-TGMMNSPVNQPAMGMNTGM  169
+
+Query  649  SPGMNGGRLGTNPLFNAAPSPLSSQ-LGA----------EAGMGSMGGMGGMSGMGGMGG  697
+            + GMN G L         P+ + +  +GA            GMGS G +       G   
+Sbjct  170  NAGMNPGMLAAGNGQGIMPNQVMNGSIGAGRGRQNMQYPNPGMGSAGNLLTEPLQQGSPQ  229
+
+Query  698  MGGMGGAGAATTQAAG  713
+            MGG  G         G
+Sbjct  230  MGGQTGLRGPQPLKMG  245
+
+
+> sp|B2RWS6|EP300_MOUSE Histone acetyltransferase p300 OS=Mus musculus 
+OX=10090 GN=Ep300 PE=1 SV=2
+Length=2412
+
+ Score = 240 bits (611),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 67/254 (26%), Positives = 87/254 (34%), Gaps = 49/254 (19%)
+
+Query  457  EFLRDRSSTSILSRLRGAGQRVAAFGWAQ---LGPMRDLIESANLDGWLEGPSFGQGILP  513
+            E LR  SS ++   + G GQ +A+        L  +  +++S      L  P+ G G   
+Sbjct  83   ELLRSGSSPNLNMGVGGPGQAMASQAQQNSPGLSLINSMVKSPMAQTGLTSPNMGIGSSG  142
+
+Query  514  AHIVALVAKMQQMRKMQQMQQ-IGMMTGGMNGMGGGMGGGMNGMGGGNGMNNMGNGMGGG  572
+             +                 Q   GMM   +N    GM  GMN  G   GM   GNG G  
+Sbjct  143  PN-------------QGPTQSPAGMMNSPVNQPAMGMNTGMNA-GMNPGMLAAGNGQG--  186
+
+Query  573  MGNGMGGNGMNG-MGGGNGMNNMG----GNGMAGNGMGGGM--GGNGMGGSMNGMSSGVV  625
+                M    MNG +G G G  NM     G G AG+ +   +  G   MGG         +
+Sbjct  187  ---IMPNQVMNGSIGAGRGRPNMQYPNAGMGNAGSLLTEPLQQGSPQMGGQPG------L  237
+
+Query  626  ANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLG------TNPLFNAAPSPLSSQLGAEAG  679
+                P   G M      G    Q+ G   G  G      T  +     SP +    A  G
+Sbjct  238  RGPQPLKMGMMNNPSPYGSPYTQNSGQQIGASGLGLQIQTKTVLPNNLSPFAMDKKAVPG  297
+
+Query  680  MGSMGGMGGMSGMG  693
+                   GGM  MG
+Sbjct  298  -------GGMPSMG  304
+
+
+> sp|Q18DH8|BACR1_HALWD Bacteriorhodopsin-I OS=Haloquadratum walsbyi 
+(strain DSM 16790 / HBSQ001) OX=362976 GN=bop1 PE=1 SV=1
+Length=254
+
+ Score = 214 bits (545),  Expect = 3e-62, Method: Composition-based stats.
+ Identities = 52/241 (22%), Positives = 99/241 (41%), Gaps = 19/241 (8%)
+
+Query  52   SNVLQWLAAGFSILLLMFYAYQTWKS-TCGWEEIYVCAIEMVKV----ILEFFFEFKNPS  106
+              +   L     +L ++++            +E YV  I +  +     L  FF F   +
+Sbjct  16   EGIWLALGTIGMLLGMLYFIADGLDVQDPRQKEFYVITILIPAIAAASYLSMFFGF-GLT  74
+
+Query  107  MLYLATGH--RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGA  164
+             + LA G    V W RYA+WL T P++L+ +  L G S    R    L+  D   IV G 
+Sbjct  75   EVSLANGRVVDVYWARYADWLFTTPLLLLDIGLLAGASQ---RDIGALVGIDAFMIVTGL  131
+
+Query  165  TSAMATGYV-KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSW  223
+             + +    V +  F+ +         ++    + E      +   R     +  +  V+W
+Sbjct  132  VATLTKVVVARYAFWTISTISMVFLLYYLVAVFGEAVSDADED-TRSTFNALRNIILVTW  190
+
+Query  224  GMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+             ++P+ +++G EG  +  +YG T+   ++DL++K  +G       +L+    ++ G    
+Sbjct  191  AIYPVAWLVGTEGLALTGLYGETLLFMVLDLVAKVGFGF------ILLRSRAIMGGGSEP  244
+
+Query  284  T  284
+            T
+Sbjct  245  T  245
+
+
+> sp|G0LFX8|BACR1_HALWC Bacteriorhodopsin-I OS=Haloquadratum walsbyi 
+(strain DSM 16854 / JCM 12705 / C23) OX=768065 GN=bop1 
+PE=1 SV=1
+Length=254
+
+ Score = 214 bits (545),  Expect = 3e-62, Method: Composition-based stats.
+ Identities = 52/241 (22%), Positives = 99/241 (41%), Gaps = 19/241 (8%)
+
+Query  52   SNVLQWLAAGFSILLLMFYAYQTWKS-TCGWEEIYVCAIEMVKV----ILEFFFEFKNPS  106
+              +   L     +L ++++            +E YV  I +  +     L  FF F   +
+Sbjct  16   EGIWLALGTIGMLLGMLYFIADGLDVQDPRQKEFYVITILIPAIAAASYLSMFFGF-GLT  74
+
+Query  107  MLYLATGH--RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGA  164
+             + LA G    V W RYA+WL T P++L+ +  L G S    R    L+  D   IV G 
+Sbjct  75   EVSLANGRVVDVYWARYADWLFTTPLLLLDIGLLAGASQ---RDIGALVGIDAFMIVTGL  131
+
+Query  165  TSAMATGYV-KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSW  223
+             + +    V +  F+ +         ++    + E      +   R     +  +  V+W
+Sbjct  132  VATLTKVVVARYAFWTISTISMVFLLYYLVAVFGEAVSDADED-TRSTFNALRNIILVTW  190
+
+Query  224  GMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+             ++P+ +++G EG  +  +YG T+   ++DL++K  +G       +L+    ++ G    
+Sbjct  191  AIYPVAWLVGTEGLALTGLYGETLLFMVLDLVAKVGFGF------ILLRSRAIMGGGSEP  244
+
+Query  284  T  284
+            T
+Sbjct  245  T  245
+
+
+> sp|P29563|BACR2_HALS2 Archaerhodopsin-2 OS=Halobacterium sp. 
+(strain aus-2) OX=29285 PE=1 SV=1
+Length=259
+
+ Score = 211 bits (536),  Expect = 7e-61, Method: Composition-based stats.
+ Identities = 50/238 (21%), Positives = 93/238 (39%), Gaps = 21/238 (9%)
+
+Query  56   QWLAAG--FSILLLMFYAYQTWKSTCG-WEEIYVCAIEMVKV----ILEFFFEFKNPSML  108
+             WL  G    ++   ++  + W  T     E Y   I +  +     L  FF     + +
+Sbjct  21   LWLGIGTLLMLIGTFYFIARGWGVTDKEAREYYAITILVPGIASAAYLAMFFGI-GVTEV  79
+
+Query  109  YLATGH--RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATS  166
+             LA+G    + + RYA+WL T P++L+ L+ L  +        +G+   D   IV G   
+Sbjct  80   ELASGTVLDIYYARYADWLFTTPLLLLDLALLAKVDRVTIGTLIGV---DALMIVTGLIG  136
+
+Query  167  AMA-TGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGM  225
+            A++ T   +  ++           ++   +             R     +  L  V W  
+Sbjct  137  ALSKTPLARYTWWLFSTIAFLFVLYYLLTSL-RSAAAKRSEEVRSTFNTLTALVAVLWTA  195
+
+Query  226  FPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+            +PIL+I+G EG GV+ +   T+   ++D+ +K  +G       VL+    ++      
+Sbjct  196  YPILWIVGTEGAGVVGLGIETLAFMVLDVTAKVGFGF------VLLRSRAILGETEAP  247
+
+
+> sp|P33742|BACH_HALSS Halorhodopsin OS=Halobacterium sp. (strain 
+SG1) OX=33006 GN=hop PE=3 SV=1
+Length=284
+
+ Score = 205 bits (522),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 45/224 (20%), Positives = 87/224 (39%), Gaps = 19/224 (8%)
+
+Query  55   LQWLAAGFSILLLMFYAYQTWKS-TCGWEEIYVCAIEMVKVILEFFFEFKN---PSMLYL  110
+              W+    + L ++ + Y          + I+V  + +  V +  +    +    S L +
+Sbjct  37   SLWINIALAGLSILLFVYMGRNVEDPRAQLIFVATLMVPLVSISSYTGLVSGLTVSFLEM  96
+
+Query  111  ATGHRVQ-------WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWG  163
+              GH +        W RY  W L+ P+ILI +  L G +       +   V+DIG  V G
+Sbjct  97   PAGHALAGQEVLTPWGRYLTWALSTPMILIAVGLLAGSNTTKLFTAV---VADIGMCVTG  153
+
+Query  164  ATSAMATGYV--KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFV  221
+              +A+ T     + +++ +   +     +       E            +   +  L  V
+Sbjct  154  LAAALTTSSYLLRWVWYAISCAFFVVVLYIL---LAEWAEDAEIAGTADIFNTLKVLTVV  210
+
+Query  222  SWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGH  265
+             W  +PI + LG EG  VL V  ++  ++ +D+++K  +  L  
+Sbjct  211  LWLGYPIFWALGAEGLAVLDVAITSWAYSGMDIVAKYLFAFLLL  254
+
+
+> sp|Q5V0R5|BACR2_HALMA Bacteriorhodopsin-II OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=xop1 PE=1 SV=1
+Length=250
+
+ Score = 204 bits (518),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 58/253 (23%), Positives = 105/253 (42%), Gaps = 23/253 (9%)
+
+Query  40   IESRGTNGAQTASNVLQWLAAGFSILLLMFYAYQTWKS-TCGWEEIYVCAIEMVKV----  94
+            + S G  G      +   L     +L ++++  + W       EE YV  I +  +    
+Sbjct  6    VSSLGVEG----EGIWLALGTVGMLLGMVYFMAKGWDVQDPEQEEFYVITILIAGIAASS  61
+
+Query  95   ILEFFFEFKNPSMLYLATGH--RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGL  152
+             L  FF F   + + L  G    V W RYA+WL T P++L+ +  L G SN   R    L
+Sbjct  62   YLSMFFGF-GLTEVELVNGRVIDVYWARYADWLFTTPLLLLDIGLLAGASN---RDMASL  117
+
+Query  153  LVSDIGTIVWGATSAMATGYV-KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQV  211
+            +  D   IV G  + +    V +  F+ +         ++      E          +  
+Sbjct  118  ITIDAFMIVTGLAATLMKVPVARYAFWTISTIAMLFVLYYLVVVVGEAASDA-SEEAQST  176
+
+Query  212  VTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLI  271
+               +  +  V+W ++P+ +++G EG G++ ++G T+   I+DL +K  +G       +L+
+Sbjct  177  FNVLRNIILVAWAIYPVAWLVGTEGLGLVGLFGETLLFMILDLTAKIGFGF------ILL  230
+
+Query  272  HEHILIHGDIRKT  284
+                ++ GD   T
+Sbjct  231  RSRAIVGGDSAPT  243
+
+
+> sp|P69052|BACR1_HALSS Archaerhodopsin-1 OS=Halobacterium sp. 
+(strain SG1) OX=33006 GN=bop PE=1 SV=1
+Length=260
+
+ Score = 203 bits (516),  Expect = 4e-58, Method: Composition-based stats.
+ Identities = 45/237 (19%), Positives = 89/237 (38%), Gaps = 20/237 (8%)
+
+Query  56   QWLAAG--FSILLLMFYAYQTWKSTCG-WEEIYVCAIEMVKV----ILEFFFEFKNPSML  108
+             WL  G    ++   ++  + W  T     E Y   I +  +     L  FF     + +
+Sbjct  23   LWLGIGTLLMLIGTFYFIVKGWGVTDKEAREYYSITILVPGIASAAYLSMFFGI-GLTEV  81
+
+Query  109  YLA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSA  167
+             +      + + RYA+WL T P++L+ L+ L  +        +G+   D   IV G   A
+Sbjct  82   QVGSEMLDIYYARYADWLFTTPLLLLDLALLAKVDRVSIGTLVGV---DALMIVTGLVGA  138
+
+Query  168  MATGYV-KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMF  226
+            ++   + +  ++           +  A +                   +  L  V W  +
+Sbjct  139  LSHTPLARYTWWLFSTICMIVVLYFLATSL-RAAAKERGPEVASTFNTLTALVLVLWTAY  197
+
+Query  227  PILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+            PIL+I+G EG GV+ +   T+   ++D+ +K  +G       +L+    ++      
+Sbjct  198  PILWIIGTEGAGVVGLGIETLLFMVLDVTAKVGFGF------ILLRSRAILGDTEAP  248
+
+
+> sp|P69051|BACR1_HALC1 Archaerhodopsin-1 OS=Halorubrum chaoviator 
+(strain DSM 11365 / JCM 9573 / AUS-1) OX=335819 PE=1 SV=1
+Length=260
+
+ Score = 203 bits (516),  Expect = 4e-58, Method: Composition-based stats.
+ Identities = 45/237 (19%), Positives = 89/237 (38%), Gaps = 20/237 (8%)
+
+Query  56   QWLAAG--FSILLLMFYAYQTWKSTCG-WEEIYVCAIEMVKV----ILEFFFEFKNPSML  108
+             WL  G    ++   ++  + W  T     E Y   I +  +     L  FF     + +
+Sbjct  23   LWLGIGTLLMLIGTFYFIVKGWGVTDKEAREYYSITILVPGIASAAYLSMFFGI-GLTEV  81
+
+Query  109  YLA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSA  167
+             +      + + RYA+WL T P++L+ L+ L  +        +G+   D   IV G   A
+Sbjct  82   QVGSEMLDIYYARYADWLFTTPLLLLDLALLAKVDRVSIGTLVGV---DALMIVTGLVGA  138
+
+Query  168  MATGYV-KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMF  226
+            ++   + +  ++           +  A +                   +  L  V W  +
+Sbjct  139  LSHTPLARYTWWLFSTICMIVVLYFLATSL-RAAAKERGPEVASTFNTLTALVLVLWTAY  197
+
+Query  227  PILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+            PIL+I+G EG GV+ +   T+   ++D+ +K  +G       +L+    ++      
+Sbjct  198  PILWIIGTEGAGVVGLGIETLLFMVLDVTAKVGFGF------ILLRSRAILGDTEAP  248
+
+
+> sp|P96787|BACR3_HALSD Archaerhodopsin-3 OS=Halorubrum sodomense 
+OX=35743 GN=aop3 PE=3 SV=1
+Length=258
+
+ Score = 203 bits (516),  Expect = 4e-58, Method: Composition-based stats.
+ Identities = 46/236 (19%), Positives = 87/236 (37%), Gaps = 18/236 (8%)
+
+Query  56   QWLAAG--FSILLLMFYAYQTWKSTCG-WEEIYVCAIEMVKV----ILEFFFEFKNPSML  108
+             WL  G    ++   ++  + W  T     E Y   I +  +     L  FF      + 
+Sbjct  21   LWLGIGTLLMLIGTFYFLVRGWGVTDKDAREYYAVTILVPGIASAAYLSMFFGIGLTEVT  80
+
+Query  109  YLATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAM  168
+                   + + RYA+WL T P++L+ L+ L  +        +G+   D   IV G   A+
+Sbjct  81   VGGEMLDIYYARYADWLFTTPLLLLDLALLAKVDRVTIGTLVGV---DALMIVTGLIGAL  137
+
+Query  169  A-TGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFP  227
+            + T   +  ++           +  A +                   +  L  V W  +P
+Sbjct  138  SHTAIARYSWWLFSTICMIVVLYFLATSL-RSAAKERGPEVASTFNTLTALVLVLWTAYP  196
+
+Query  228  ILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+            IL+I+G EG GV+ +   T+   ++D+ +K  +G       +L+    ++      
+Sbjct  197  ILWIIGTEGAGVVGLGIETLLFMVLDVTAKVGFGF------ILLRSRAILGDTEAP  246
+
+
+> sp|Q57101|BACR_HALAR Cruxrhodopsin-1 OS=Haloarcula argentinensis 
+OX=43776 GN=cop1 PE=1 SV=1
+Length=250
+
+ Score = 200 bits (509),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 48/251 (19%), Positives = 102/251 (41%), Gaps = 24/251 (10%)
+
+Query  49   QTASNVLQWLAAGFSILLLMFYAYQTWKST-CGWEEIYVCAIEMVKV----ILEFFFEFK  103
+              +  +  WL      L ++++  + W  T    ++ Y+  I +  +     L     F 
+Sbjct  4    PGSEAIWLWLGTAGMFLGMLYFIARGWGETDSRRQKFYIATILITAIAFVNYLAMALGF-  62
+
+Query  104  NPSMLYLA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVW  162
+              +++  A   H + W RY++WL T P++L  L  L G   +     + L   D+  I  
+Sbjct  63   GLTIVEFAGEEHPIYWARYSDWLFTTPLLLYDLGLLAGADRNTITSLVSL---DVLMIGT  119
+
+Query  163  GATSAMATGY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGM  215
+            G  + ++ G         +++++ +   +     +    +       +P    R     +
+Sbjct  120  GLVATLSPGSGVLSAGAERLVWWGISTAFLLVLLYFLFSSLSGRVADLPSD-TRSTFKTL  178
+
+Query  216  AWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHI  275
+              L  V W ++P+ +++G EG G++ +   T G  +IDL +K  +G+      +L+  H 
+Sbjct  179  RNLVTVVWLVYPVWWLIGTEGIGLVGIGIETAGFMVIDLTAKVGFGI------ILLRSHG  232
+
+Query  276  LIHGDIRKTTK  286
+            ++ G    T  
+Sbjct  233  VLDGAAETTGT  243
+
+
+> sp|Q18DH5|BACRM_HALWD Bacteriorhodopsin-II-like protein OS=Haloquadratum 
+walsbyi (strain DSM 16790 / HBSQ001) OX=362976 GN=bop2 
+PE=1 SV=1
+Length=246
+
+ Score = 198 bits (503),  Expect = 2e-56, Method: Composition-based stats.
+ Identities = 41/253 (16%), Positives = 99/253 (39%), Gaps = 19/253 (8%)
+
+Query  46   NGAQTASNVLQWLAAGFSILLLMFYAYQTWKST-CGWEEIYVCAIEMVKVILEFFFEF-K  103
+                 +     W+     +L  +++A +   ST    +  Y+    +  +    +     
+Sbjct  1    MATPGSEATWLWIGTIGMVLGTVYFAVRGRGSTDPEQQTYYIITTLIPAIAAAAYLAMAT  60
+
+Query  104  NPSMLYLA----TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGT  159
+               ++ +         + W RYA+WLLT P+++I L+ + G           L++ D   
+Sbjct  61   GLGVISMPIRGTEVIDIYWARYADWLLTTPLLIIDLALVAGARKQTLY---KLIIIDAIM  117
+
+Query  160  IVWGATSAM--ATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAW  217
+            I+ G   +M      ++++++ +         ++      E   +        V   +  
+Sbjct  118  ILGGLAGSMMQQGAVIRIVWWAVSTAAFIILLYYLLGELSERARS-RSAETGIVFNRLRN  176
+
+Query  218  LFFVSWGMFPILFILGP-EGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHIL  276
+            +    W ++PI++ILG   GFG+++V    + + ++D+ +K  +G       VL+    +
+Sbjct  177  ITLGLWALYPIVWILGTGGGFGIIAVTTEIMLYVMLDIGTKIGFG------AVLLESQDV  230
+
+Query  277  IHGDIRKTTKLNI  289
+            +      ++  +I
+Sbjct  231  LQAASHPSSTNDI  243
+
+
+> sp|P94854|BACR_HALVA Cruxrhodopsin-3 OS=Haloarcula vallismortis 
+OX=28442 GN=cop3 PE=1 SV=1
+Length=250
+
+ Score = 197 bits (501),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 46/244 (19%), Positives = 101/244 (41%), Gaps = 24/244 (10%)
+
+Query  48   AQTASNVLQWLAAGFSILLLMFYAYQTWKST-CGWEEIYVCAIEMVKV----ILEFFFEF  102
+            A     +  WL      L ++++  + W  T    ++ Y+  I +  +     L     F
+Sbjct  3    APEGEAIWLWLGTAGMFLGMLYFIARGWGETDSRRQKFYIATILITAIAFVNYLAMALGF  62
+
+Query  103  KNPSMLYLA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIV  161
+               +++ +A     + W RY++WL T P++L  L  L G   +     + L   D+  I 
+Sbjct  63   -GLTIVEIAGEQRPIYWARYSDWLFTTPLLLYDLGLLAGADRNTISSLVSL---DVLMIG  118
+
+Query  162  WGATSAMATGY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTG  214
+             G  + ++ G         +++++ +   +     +    +       +P    R     
+Sbjct  119  TGLVATLSAGSGVLSAGAERLVWWGISTAFLLVLLYFLFSSLSGRVADLPSD-TRSTFKT  177
+
+Query  215  MAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEH  274
+            +  L  V W ++P+ +++G EG G++ +   T G  +IDL++K  +G+      +L+  H
+Sbjct  178  LRNLVTVVWLVYPVWWLVGTEGIGLVGIGIETAGFMVIDLVAKVGFGI------ILLRSH  231
+
+Query  275  ILIH  278
+             ++ 
+Sbjct  232  GVLD  235
+
+
+> sp|Q5UXY6|BACR1_HALMA Bacteriorhodopsin-I OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=bop PE=1 SV=1
+Length=250
+
+ Score = 197 bits (500),  Expect = 5e-56, Method: Composition-based stats.
+ Identities = 49/252 (19%), Positives = 101/252 (40%), Gaps = 24/252 (10%)
+
+Query  48   AQTASNVLQWLAAGFSILLLMFYAYQTWKSTCGWE-EIYVCAIEMVKV----ILEFFFEF  102
+            A  +  +  WL      L ++++  + W  T G   + Y+  I +  +     L     F
+Sbjct  3    APGSEGIWLWLGTAGMFLGMLYFIARGWGETDGRRQKFYIATILITAIAFVNYLAMALGF  62
+
+Query  103  KNPSMLYLA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIV  161
+               + +      H + W RY +WL T P++L  L  L G   +     + L   D+  I 
+Sbjct  63   -GLTFIEFGGEQHPIYWARYTDWLFTTPLLLYDLGLLAGADRNTIYSLVSL---DVLMIG  118
+
+Query  162  WGATSAMATGY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTG  214
+             G  + ++ G         +++++ +   +     +    +       +P    R     
+Sbjct  119  TGVVATLSAGSGVLSAGAERLVWWGISTAFLLVLLYFLFSSLSGRVANLPSD-TRSTFKT  177
+
+Query  215  MAWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEH  274
+            +  L  V W ++P+ +++G EG G++ +   T G  +IDL++K  +G+      +L+  H
+Sbjct  178  LRNLVTVVWLVYPVWWLVGSEGLGLVGIGIETAGFMVIDLVAKVGFGI------ILLRSH  231
+
+Query  275  ILIHGDIRKTTK  286
+             ++ G    T  
+Sbjct  232  GVLDGAAETTGT  243
+
+
+> sp|O93742|BACH_HALSD Halorhodopsin OS=Halorubrum sodomense OX=35743 
+GN=hop PE=3 SV=1
+Length=282
+
+ Score = 198 bits (502),  Expect = 6e-56, Method: Composition-based stats.
+ Identities = 46/241 (19%), Positives = 92/241 (38%), Gaps = 20/241 (8%)
+
+Query  55   LQWLAAGFSILLLMFYAYQTWK-STCGWEEIYVCAIEMVKVILEFFFEFKN---PSMLYL  110
+              W+    + L ++ + Y          + I+V  + +  V +  +    +    S L +
+Sbjct  36   SLWINIALAGLSILLFVYMGRNLEDPRAQLIFVATLMVPLVSISSYTGLVSGLTVSFLEM  95
+
+Query  111  ATGHRVQ-------WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWG  163
+              GH +        W RY  W L+ P+IL+ L  L G +       +    +DIG  V G
+Sbjct  96   PAGHALAGQEVLTPWGRYLTWALSTPMILVALGLLAGSNATKLFTAV---TADIGMCVTG  152
+
+Query  164  ATSAMATGYV--KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFV  221
+              +A+ T     + +++ +   +     +       E           ++   +  L  V
+Sbjct  153  LAAALTTSSYLLRWVWYVISCAFFVVVLYVL---LAEWAEDAEVAGTAEIFNTLKLLTVV  209
+
+Query  222  SWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDI  281
+             W  +PI + LG EG  VL V  ++  ++ +D+++K  +  L     V+ +E  +     
+Sbjct  210  LWLGYPIFWALGAEGLAVLDVAVTSWAYSGMDIVAKYLFAFL-LLRWVVDNERTVAGMAA  268
+
+Query  282  R  282
+             
+Sbjct  269  G  269
+
+
+> sp|Q5V1N0|BACH_HALMA Halorhodopsin OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) OX=272569 
+GN=hop PE=1 SV=1
+Length=276
+
+ Score = 197 bits (500),  Expect = 1e-55, Method: Composition-based stats.
+ Identities = 45/226 (20%), Positives = 91/226 (40%), Gaps = 19/226 (8%)
+
+Query  53   NVLQWLAAGFS-ILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKN---PSML  108
+            N   W+    + +++L+F A      +   + I+V  + +  V +  +    +      L
+Sbjct  30   NSSIWVNIALAGVVILLFVAMGRDLESPRAKLIWVATMLVPLVSISSYAGLASGLTVGFL  89
+
+Query  109  YLATGHRVQ-------WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIV  161
+             +  GH +        W RY  W  + P+IL+ L  L              +  DIG  V
+Sbjct  90   QMPPGHALAGQEVLSPWGRYLTWTFSTPMILLALGLLADTD---IASLFTAITMDIGMCV  146
+
+Query  162  WGATSAMATGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLF  219
+             G  +A+ T    ++ +F+ +   +     +      ++           ++   +  L 
+Sbjct  147  TGLAAALITSSHLLRWVFYGISCAFFVAVLYVL---LVQWPADAEAAGTSEIFGTLKILT  203
+
+Query  220  FVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGH  265
+             V W  +PIL+ LG EG  +LSV  ++ G++ +D+++K  +  L  
+Sbjct  204  VVLWLGYPILWALGSEGVALLSVGVTSWGYSGLDILAKYVFAFLLL  249
+
+
+> sp|Q48314|BACH_HALHS Halorhodopsin OS=Halobacterium halobium 
+(strain shark) OX=33005 GN=hop PE=1 SV=1
+Length=276
+
+ Score = 196 bits (499),  Expect = 1e-55, Method: Composition-based stats.
+ Identities = 45/226 (20%), Positives = 91/226 (40%), Gaps = 19/226 (8%)
+
+Query  53   NVLQWLAAGFS-ILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKN---PSML  108
+            N   W+    + +++L+F A      +   + I+V  + +  V +  +    +      L
+Sbjct  30   NSSIWVNIALAGVVILLFVAMGRDLESPRAKLIWVATMLVPLVSISSYAGLASGLTVGFL  89
+
+Query  109  YLATGHRVQ-------WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIV  161
+             +  GH +        W RY  W  + P+IL+ L  L              +  DIG  V
+Sbjct  90   QMPPGHALAGQEVLSPWGRYLTWTFSTPMILLALGLLADTD---IASLFTAITMDIGMCV  146
+
+Query  162  WGATSAMATGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLF  219
+             G  +A+ T    ++ +F+ +   +     +      ++           ++   +  L 
+Sbjct  147  TGLAAALITSSHLLRWVFYGISCAFFVAVLYVL---LVQWPADAEAAGTSEIFGTLKILT  203
+
+Query  220  FVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGH  265
+             V W  +PIL+ LG EG  +LSV  ++ G++ +D+++K  +  L  
+Sbjct  204  VVLWLGYPILWALGSEGVALLSVGVTSWGYSGLDILAKYVFAFLLL  249
+
+
+> sp|Q48315|BACH_HALHP Halorhodopsin OS=Halobacterium halobium 
+(strain port) OX=33004 GN=hop PE=1 SV=1
+Length=276
+
+ Score = 196 bits (498),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 42/226 (19%), Positives = 89/226 (39%), Gaps = 19/226 (8%)
+
+Query  53   NVLQWLAAGFSILLLMFYAYQTWK-STCGWEEIYVCAIEMVKVILEFFFEFKN---PSML  108
+            N   W+    + ++++ +        +   + I+V  + +  V +  +    +      L
+Sbjct  30   NSSIWVNIALAGVVILLFVAMGRDIESPRAKLIWVATMLVPLVSISSYAGLASGLTVGFL  89
+
+Query  109  YLATGHRVQ-------WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIV  161
+             +  GH +        W RY  W  + P+IL+ L  L              +  DIG  V
+Sbjct  90   QMPPGHALAGQEVLSPWGRYLTWTFSTPMILLALGLLADTD---IASLFTAITMDIGMCV  146
+
+Query  162  WGATSAMATGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLF  219
+             G  +A+ T    ++ +F+ +   +     +      ++           ++   +  L 
+Sbjct  147  TGLAAALITSSHLLRWVFYGISCAFFVAVLYVL---LVQWPADAEAAGTSEIFGTLKILT  203
+
+Query  220  FVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGH  265
+             V W  +PIL+ LG EG  +LSV  ++ G++ +D+++K  +  L  
+Sbjct  204  VVLWLGYPILWALGSEGVALLSVGVTSWGYSGLDILAKYVFAFLLL  249
+
+
+> sp|P94853|BACH_HALVA Cruxhalorhodopsin-3 OS=Haloarcula vallismortis 
+OX=28442 GN=choP3 PE=3 SV=1
+Length=276
+
+ Score = 189 bits (480),  Expect = 6e-53, Method: Composition-based stats.
+ Identities = 42/226 (19%), Positives = 90/226 (40%), Gaps = 19/226 (8%)
+
+Query  53   NVLQWLAAGFSILLLMFYAYQTWK-STCGWEEIYVCAIEMVKVILEFFFEFKN---PSML  108
+            N   W+    + ++++ +     +  +   + I+V  + +  V +  +    +      L
+Sbjct  30   NSSLWVNIALAGVVILLFVAMGRELESSRAKLIWVATMLVPLVSISSYAGLASGLTVGFL  89
+
+Query  109  YLATGHRVQ-------WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIV  161
+             +  GH +        W RY  W  + P+IL+ L  L              +  DIG  +
+Sbjct  90   QMPPGHALAGQEVLSPWGRYLTWTFSTPMILLALGLLADTDM---ASLFTAITMDIGMCI  146
+
+Query  162  WGATSAMATGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLF  219
+             G  +A+ T    ++ +F+ +   +     +      +E           ++   +  L 
+Sbjct  147  TGLAAALVTSSHLLRWVFYGISCAFFIAVLYVL---LVEWPADAEAAGTSEIFGTLKLLT  203
+
+Query  220  FVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGH  265
+             V W  +PIL+ LG EG  +LSV  ++ G++ +D+++K  +  L  
+Sbjct  204  VVLWLGYPILWALGSEGVALLSVGVTSWGYSGLDILAKYVFAFLLL  249
+
+
+> sp|P42196|BACS2_NATPH Sensory rhodopsin-2 OS=Natronomonas pharaonis 
+OX=2257 GN=sop2 PE=1 SV=1
+Length=239
+
+ Score = 188 bits (476),  Expect = 6e-53, Method: Composition-based stats.
+ Identities = 41/221 (19%), Positives = 85/221 (38%), Gaps = 6/221 (3%)
+
+Query  55   LQWLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFK-NPSMLYLATG  113
+            L WL A   ++  + +A+    +  G    YV  + +  +    +         + +A  
+Sbjct  7    LFWLGAIGMLVGTLAFAWAGRDAGSGERRYYVTLVGISGIAAVAYVVMALGVGWVPVAE-  65
+
+Query  114  HRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYV  173
+              V   RY +W+LT P+I+  L  L GL +   R    ++  +   ++ G   AM  G  
+Sbjct  66   RTVFAPRYIDWILTTPLIVYFLGLLAGLDS---REFGIVITLNTVVMLAGFAGAMVPGIE  122
+
+Query  174  KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILG  233
+            +   F +G        ++      E   +      + +   +  L  + W ++P +++LG
+Sbjct  123  RYALFGMGAVAFLGLVYYLVGPMTESA-SQRSSGIKSLYVRLRNLTVILWAIYPFIWLLG  181
+
+Query  234  PEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEH  274
+            P G  +L+          +DL++K  +G +       +   
+Sbjct  182  PPGVALLTPTVDVALIVYLDLVTKVGFGFIALDAAATLRAE  222
+
+
+> sp|P02945|BACR_HALSA Bacteriorhodopsin OS=Halobacterium salinarum 
+(strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=bop 
+PE=1 SV=2
+Length=262
+
+ Score = 188 bits (476),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 33/236 (14%), Positives = 85/236 (36%), Gaps = 16/236 (7%)
+
+Query  54   VLQWLAAGFSILLLMFYAYQTWKST-CGWEEIYVCAIEMVKVILEFFFEFK---NPSMLY  109
+            +   L      L  +++  +    +    ++ Y     +  +    +         +M+ 
+Sbjct  24   IWLALGTALMGLGTLYFLVKGMGVSDPDAKKFYAITTLVPAIAFTMYLSMLLGYGLTMVP  83
+
+Query  110  LA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAM  168
+                 + + W RYA+WL T P++L+ L+ L           +G   +D   I  G   A+
+Sbjct  84   FGGEQNPIYWARYADWLFTTPLLLLDLALLVDADQGTILALVG---ADGIMIGTGLVGAL  140
+
+Query  169  ATG-YVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFP  227
+                  + +++ +         +     +     ++           +  +  V W  +P
+Sbjct  141  TKVYSYRFVWWAISTAAMLYILYVLFFGFTSKAESMR-PEVASTFKVLRNVTVVLWSAYP  199
+
+Query  228  ILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+            +++++G EG G++ +   T+   ++D+ +K  +GL      +L+    +       
+Sbjct  200  VVWLIGSEGAGIVPLNIETLLFMVLDVSAKVGFGL------ILLRSRAIFGEAEAP  249
+
+
+> sp|P0DMH7|BACH_HALSA Halorhodopsin OS=Halobacterium salinarum 
+(strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=hop PE=3 
+SV=1
+Length=274
+
+ Score = 187 bits (475),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 47/267 (18%), Positives = 102/267 (38%), Gaps = 28/267 (10%)
+
+Query  44   GTNGAQTASNVLQ--------WLAAGFSILLLMFYAYQTWKSTCGW-EEIYVCAIEMVKV  94
+            G  GAQ+A+ V +        W+    + + ++ + Y       G    I+   + +  V
+Sbjct  13   GVLGAQSAAAVRENALLSSSLWVNVALAGIAILVFVYMGRTIRPGRPRLIWGATLMIPLV  72
+
+Query  95   ILEFFFEFKN---PSMLYLATGHRV-------QWLRYAEWLLTCPVILIHLSNLTGLSND  144
+             +  +    +     M+ +  GH +       QW RY  W L+ P+IL+ L  L  +   
+Sbjct  73   SISSYLGLLSGLTVGMIEMPAGHALAGEMVRSQWGRYLTWALSTPMILLALGLLADVD--  130
+
+Query  145  YSRRTMGLLVSDIGTIVWGATSAMATGYV--KVIFFCLGLCYGANTFFHAAKAYIEGYHT  202
+                   ++ +DIG  V G  +AM T  +  +  F+ +   +             +   +
+Sbjct  131  -LGSLFTVIAADIGMCVTGLAAAMTTSALLFRWAFYAISCAFFVVVLSALV---TDWAAS  186
+
+Query  203  VPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLS-VYGSTVGHTIIDLMSKNCWG  261
+                   ++   +  L  V W  +PI++ +G EG  ++  V  ++  ++++D+ +K  + 
+Sbjct  187  ASSAGTAEIFDTLRVLTVVLWLGYPIVWAVGVEGLALVQSVGVTSWAYSVLDVFAKYVFA  246
+
+Query  262  LLGHYLRVLIHEHILIHGDIRKTTKLN  288
+             +           + + G    T   +
+Sbjct  247  FILLRWVANNERTVAVAGQTLGTMSSD  273
+
+
+> sp|B0R2U4|BACH_HALS3 Halorhodopsin OS=Halobacterium salinarum 
+(strain ATCC 29341 / DSM 671 / R1) OX=478009 GN=hop PE=1 SV=1
+Length=274
+
+ Score = 187 bits (475),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 47/267 (18%), Positives = 102/267 (38%), Gaps = 28/267 (10%)
+
+Query  44   GTNGAQTASNVLQ--------WLAAGFSILLLMFYAYQTWKSTCGW-EEIYVCAIEMVKV  94
+            G  GAQ+A+ V +        W+    + + ++ + Y       G    I+   + +  V
+Sbjct  13   GVLGAQSAAAVRENALLSSSLWVNVALAGIAILVFVYMGRTIRPGRPRLIWGATLMIPLV  72
+
+Query  95   ILEFFFEFKN---PSMLYLATGHRV-------QWLRYAEWLLTCPVILIHLSNLTGLSND  144
+             +  +    +     M+ +  GH +       QW RY  W L+ P+IL+ L  L  +   
+Sbjct  73   SISSYLGLLSGLTVGMIEMPAGHALAGEMVRSQWGRYLTWALSTPMILLALGLLADVD--  130
+
+Query  145  YSRRTMGLLVSDIGTIVWGATSAMATGYV--KVIFFCLGLCYGANTFFHAAKAYIEGYHT  202
+                   ++ +DIG  V G  +AM T  +  +  F+ +   +             +   +
+Sbjct  131  -LGSLFTVIAADIGMCVTGLAAAMTTSALLFRWAFYAISCAFFVVVLSALV---TDWAAS  186
+
+Query  203  VPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLS-VYGSTVGHTIIDLMSKNCWG  261
+                   ++   +  L  V W  +PI++ +G EG  ++  V  ++  ++++D+ +K  + 
+Sbjct  187  ASSAGTAEIFDTLRVLTVVLWLGYPIVWAVGVEGLALVQSVGVTSWAYSVLDVFAKYVFA  246
+
+Query  262  LLGHYLRVLIHEHILIHGDIRKTTKLN  288
+             +           + + G    T   +
+Sbjct  247  FILLRWVANNERTVAVAGQTLGTMSSD  273
+
+
+> sp|O93741|BACH_HALS4 Halorhodopsin OS=Haloterrigena sp. (strain 
+arg-4) OX=160432 GN=hop PE=3 SV=1
+Length=297
+
+ Score = 188 bits (476),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 46/243 (19%), Positives = 90/243 (37%), Gaps = 28/243 (12%)
+
+Query  45   TNGAQTASNVL--------QWLAAGFSILLLMFYAYQTWKSTC-GWEEIYVCAIEMVKVI  95
+             +GAQ A+ +          W+    + L ++ + Y            I    + +  V 
+Sbjct  34   VHGAQVATQIRTDTLLHSSLWVNIALAGLSILVFLYMARTVRANRARLIVGATLMIPLVS  93
+
+Query  96   LEFFFEF---KNPSMLYLATGHRV-------QWLRYAEWLLTCPVILIHLSNLTGLSNDY  145
+            L  +           + +   H +       QW RY  W L+ P+IL+ L  L  +    
+Sbjct  94   LSSYLGLVTGLTAGPIEMPAAHALAGEDVLSQWGRYLTWTLSTPMILLALGWLAEVDT--  151
+
+Query  146  SRRTMGLLVSDIGTIVWGATSAMATGYV--KVIFFCLGLCYGANTFFHAAKAYIEGYHTV  203
+                  ++ +DIG  + G  +A+ T     +  F+ +   +     +       +     
+Sbjct  152  -ADLFVVIAADIGMCLTGLAAALTTSSYAFRWAFYLVSTAFFVVVLYAL---LAKWPTNA  207
+
+Query  204  PKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGST-VGHTIIDLMSKNCWGL  262
+                   +   + WL  + W  +PIL+ LG EGF ++   G T  G++++D+ +K  +  
+Sbjct  208  EAAGTGDIFGTLRWLTVILWLGYPILWALGVEGFALVDSVGLTSWGYSLLDIGAKYLFAA  267
+
+Query  263  LGH  265
+            L  
+Sbjct  268  LLL  270
+
+
+> sp|Q9F7P4|PRRG_PRB01 Green-light absorbing proteorhodopsin OS=Gamma-proteobacterium 
+EBAC31A08 OX=133804 PE=1 SV=1
+Length=249
+
+ Score = 183 bits (465),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 37/237 (16%), Positives = 83/237 (35%), Gaps = 13/237 (5%)
+
+Query  44   GTNGAQTASNVLQWLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFK  103
+            G   A   + V  WL     +   +F+  +  + +  W+     +  +  +    F+ + 
+Sbjct  21   GDLDASDYTGVSFWLVTAALLASTVFFFVERDRVSAKWKTSLTVSGLVTGI---AFWHYM  77
+
+Query  104  NPSMLYLATGHRVQWLRYAEWLLTCPVILIHLSN-LTGLSNDYSRRTMGLLVSDIGTIVW  162
+                +++ TG      RY +WLLT P+++      L   +N        LLV  +  +V+
+Sbjct  78   YMRGVWIETGDSPTVFRYIDWLLTVPLLICEFYLILAAATNVAGSLFKKLLVGSLVMLVF  137
+
+Query  163  GATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVS  222
+            G     A        F +G        +       +          +     M ++    
+Sbjct  138  GYMGE-AGIMAAWPAFIIGCLAWVYMIYELWAGEGKSACNTASPAVQSAYNTMMYIIIFG  196
+
+Query  223  WGMFPI----LFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHI  275
+            W ++P+     +++G  G  +       + + + D ++K  +GL+   + V    + 
+Sbjct  197  WAIYPVGYFTGYLMGDGGSAL----NLNLIYNLADFVNKILFGLIIWNVAVKESSNA  249
+
+
+> sp|Q48334|BAC3_HALVA Bacterial rhodopsin CSR3 OS=Haloarcula vallismortis 
+OX=28442 PE=3 SV=1
+Length=236
+
+ Score = 181 bits (459),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 41/235 (17%), Positives = 97/235 (41%), Gaps = 15/235 (6%)
+
+Query  59   AAGFSI-LLLMFYAYQTWKSTCGWEEIYVCAIEMVKV----ILEFFFEFKNPSMLYLATG  113
+            AAGF++ + ++ Y Y + + +     I      +        +   F     ++      
+Sbjct  12   AAGFAVGVAIVGYLYASLEGS-EERSILAALALIPGFAGISYVAMAFGIGTVTIGET---  67
+
+Query  114  HRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYV  173
+              +   RY +W++T P+++  +    G S    R   G++V+D   I+ G  + +A G +
+Sbjct  68   -TLVGFRYLDWVVTTPLLVGFVGYAAGASR---RAIFGVMVADALMILTGVGAVVADGTL  123
+
+Query  174  KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILG  233
+            K + F +   +  + F +    +       P  +   + + +     + W  +P++++ G
+Sbjct  124  KWVLFGVSTVFHVSLFAYLYLVFPRSVPDDP--QRIGLFSLLKNHIGLLWIAYPLVWLAG  181
+
+Query  234  PEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRKTTKLN  288
+            PEG G+ +  G ++ +  +DL++K  +    +  R +    +L        T  +
+Sbjct  182  PEGLGLATYVGVSITYAFLDLLAKVPYVYFFYARRQVFATKLLRDSGEVTATPAD  236
+
+
+> sp|P15647|BACH_NATPH Halorhodopsin OS=Natronomonas pharaonis 
+OX=2257 GN=hop PE=1 SV=1
+Length=291
+
+ Score = 182 bits (462),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 53/244 (22%), Positives = 91/244 (37%), Gaps = 32/244 (13%)
+
+Query  60   AGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKN---PSMLYLATGH--  114
+            AG SILL +F            + I V  I +  V +  +    +    S+L +  GH  
+Sbjct  45   AGLSILLFVFMTRGLDD--PRAKLIAVSTILVPVVSIASYTGLASGLTISVLEMPAGHFA  102
+
+Query  115  ---------------RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGT  159
+                              W RY  W L+ P+IL+ L  L G +          +  DI  
+Sbjct  103  EGSSVMLGGEEVDGVVTMWGRYLTWALSTPMILLALGLLAGSNATK---LFTAITFDIAM  159
+
+Query  160  IVWGATSAMATGY--VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAW  217
+             V G  +A+ T    ++  ++ +         +      +E            +   +  
+Sbjct  160  CVTGLAAALTTSSHLMRWFWYAISCACFLVVLYIL---LVEWAQDAKAAGTADMFNTLKL  216
+
+Query  218  LFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILI  277
+            L  V W  +PI++ LG EG  VL V  ++ G++ +D+++K  +  L   L  L     ++
+Sbjct  217  LTVVMWLGYPIVWALGVEGIAVLPVGVTSWGYSFLDIVAKYIFAFL--LLNYLTSNESVV  274
+
+Query  278  HGDI  281
+             G I
+Sbjct  275  SGSI  278
+
+
+> sp|P71411|BACS2_HALSA Sensory rhodopsin-2 OS=Halobacterium salinarum 
+(strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=sop2 
+PE=3 SV=1
+Length=237
+
+ Score = 180 bits (457),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 41/215 (19%), Positives = 76/215 (35%), Gaps = 12/215 (6%)
+
+Query  55   LQWLAAGFSILLLMFYAYQTWKSTCGWEEIYV---CAIEMVKVILEFFFEFKNPSMLYLA  111
+              W+ A   +   +       +         V                      +     
+Sbjct  6    WFWVGAVGMLAGTVLPIRDCIRHPSHRRYDLVLAGITGLAAIAYTTMGLGITATT----V  61
+
+Query  112  TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATG  171
+                V   RY +WL+T P+I+++L+ L        R +  LL +D+  I  G  +A+ TG
+Sbjct  62   GDRTVYLARYIDWLVTTPLIVLYLAMLA---RPGHRTSAWLLAADVFVIAAGIAAALTTG  118
+
+Query  172  YVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFI  231
+              + +FF +G    A   +             P  R R +   +  +  V W ++P++++
+Sbjct  119  VQRWLFFAVGAAGYAALLYGLLGTLPRALGDDP--RVRSLFVTLRNITVVLWTLYPVVWL  176
+
+Query  232  LGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHY  266
+            L P G G+L     T+    +D +SK  +      
+Sbjct  177  LSPAGIGILQTEMYTIVVVYLDFISKVAFVAFAVL  211
+
+
+> sp|P33971|BACR_HALHP Bacteriorhodopsin (Fragment) OS=Halobacterium 
+halobium (strain port) OX=33004 GN=bop PE=3 SV=1
+Length=211
+
+ Score = 179 bits (455),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 42/216 (19%), Positives = 89/216 (41%), Gaps = 18/216 (8%)
+
+Query  54   VLQWLAAGFSILLLMFYAYQTWKST-CGWEEIYVCAIEMVKV----ILEFFFEFKNPSML  108
+            +  WL      L ++++  + W  T    ++ Y+  I +  +     L     F   +++
+Sbjct  1    IWLWLGTAGMFLGMLYFIARGWGETDSRRQKFYIATILITAIAFVNYLAMALGF-GLTIV  59
+
+Query  109  YLA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSA  167
+              A   H + W RY++WL T P++L  L  L G   +     + L   D+  I  G  + 
+Sbjct  60   EFAGEEHPIYWARYSDWLFTTPLLLYDLGLLAGADRNTITSLVSL---DVLMIGTGLVAT  116
+
+Query  168  MATGY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFF  220
+            ++ G         +++++ +   +     +    +       +P    R     +  L  
+Sbjct  117  LSAGSGVLSAGAERLVWWGISTAFLLVLLYFLFSSLSGRVADLPSD-TRSTFKTLRNLVT  175
+
+Query  221  VSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMS  256
+            V W ++P+ +++G EG G++ +   T G  +IDL +
+Sbjct  176  VVWLVYPVWWLIGTEGIGLVGIGIETAGFMVIDLTA  211
+
+
+> sp|P0DMH8|BACS1_HALSA Sensory rhodopsin-1 OS=Halobacterium salinarum 
+(strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=sop1 
+PE=1 SV=1
+Length=239
+
+ Score = 179 bits (454),  Expect = 6e-50, Method: Composition-based stats.
+ Identities = 36/229 (16%), Positives = 93/229 (41%), Gaps = 12/229 (5%)
+
+Query  57   WLAAGFSILLLMFYAYQTWKSTCGW--EEIYVCAIEMVKVILEFFFEFKNPSMLYLATGH  114
+            +L    ++++ + + +  ++S  G   +        +       +          +  G+
+Sbjct  8    YLGGAVALIVGVAFVWLLYRSLDGSPHQSALAPLAIIPVFAGLSYVGMAYDIGTVIVNGN  67
+
+Query  115  RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVK  174
+            ++  LRY +WL+T P+++ ++    G S    R  +G++V+D   I  GA + +  G +K
+Sbjct  68   QIVGLRYIDWLVTTPILVGYVGYAAGASR---RSIIGVMVADALMIAVGAGAVVTDGTLK  124
+
+Query  175  VIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGP  234
+               F +   +  + F +    +      VP+     +   +     + W  +P++++ GP
+Sbjct  125  WALFGVSSIFHLSLFAYLYVIFPRVVPDVPEQ--IGLFNLLKNHIGLLWLAYPLVWLFGP  182
+
+Query  235  EGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+             G G  +  G  + +  +D+++K  +    +         + +H +   
+Sbjct  183  AGIGEATAAGVALTYVFLDVLAKVPYVYFFYA-----RRRVFMHSESPP  226
+
+
+> sp|B0R633|BACS1_HALS3 Sensory rhodopsin-1 OS=Halobacterium salinarum 
+(strain ATCC 29341 / DSM 671 / R1) OX=478009 GN=sopI 
+PE=1 SV=1
+Length=239
+
+ Score = 179 bits (454),  Expect = 6e-50, Method: Composition-based stats.
+ Identities = 36/229 (16%), Positives = 93/229 (41%), Gaps = 12/229 (5%)
+
+Query  57   WLAAGFSILLLMFYAYQTWKSTCGW--EEIYVCAIEMVKVILEFFFEFKNPSMLYLATGH  114
+            +L    ++++ + + +  ++S  G   +        +       +          +  G+
+Sbjct  8    YLGGAVALIVGVAFVWLLYRSLDGSPHQSALAPLAIIPVFAGLSYVGMAYDIGTVIVNGN  67
+
+Query  115  RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVK  174
+            ++  LRY +WL+T P+++ ++    G S    R  +G++V+D   I  GA + +  G +K
+Sbjct  68   QIVGLRYIDWLVTTPILVGYVGYAAGASR---RSIIGVMVADALMIAVGAGAVVTDGTLK  124
+
+Query  175  VIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGP  234
+               F +   +  + F +    +      VP+     +   +     + W  +P++++ GP
+Sbjct  125  WALFGVSSIFHLSLFAYLYVIFPRVVPDVPEQ--IGLFNLLKNHIGLLWLAYPLVWLFGP  182
+
+Query  235  EGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRK  283
+             G G  +  G  + +  +D+++K  +    +         + +H +   
+Sbjct  183  AGIGEATAAGVALTYVFLDVLAKVPYVYFFYA-----RRRVFMHSESPP  226
+
+
+> sp|P42197|BACS2_HALVA Sensory rhodopsin-2 OS=Haloarcula vallismortis 
+OX=28442 GN=sop2 PE=3 SV=1
+Length=236
+
+ Score = 178 bits (450),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 45/235 (19%), Positives = 87/235 (37%), Gaps = 13/235 (6%)
+
+Query  55   LQWLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKV----ILEFFFEFKNPSMLYL  110
+               L     +L     AY          + Y+  I +  +           F +      
+Sbjct  7    WFTLGLLGELLGTAVLAYGYTLVPEETRKRYLLLIAIPGIAIVAYALMALGFGSIQ----  62
+
+Query  111  ATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMAT  170
+            + GH V  +RY +WLLT P+ +  L+ L G S +    T+ L+V    TIV+G   A+  
+Sbjct  63   SEGHAVYVVRYVDWLLTTPLNVWFLALLAGASRE---DTVKLVVLQALTIVFGFAGAVTP  119
+
+Query  171  GYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILF  230
+              V    F +G        +   +       +        +   +     V W ++P+++
+Sbjct  120  SPVSYALFAVGGALFGGVIYLLYRNIAVAAKSTLSDIEVSLYRTLRNFVVVLWLVYPVVW  179
+
+Query  231  ILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRKTT  285
+            +LG  G G++ V  +T+    +D+++K  +G++     + +            T 
+Sbjct  180  LLGAAGVGLMDVETATLVVVYLDVVTKVGFGVIALLAMIDLGSAG--ETAEEPTA  232
+
+
+> sp|Q5V5V3|BACS2_HALMA Sensory rhodopsin II OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=sop2 PE=1 SV=1
+Length=236
+
+ Score = 178 bits (450),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 45/235 (19%), Positives = 87/235 (37%), Gaps = 13/235 (6%)
+
+Query  55   LQWLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKV----ILEFFFEFKNPSMLYL  110
+               L     +L     AY          + Y+  I +  +           F +      
+Sbjct  7    WFTLGLLGELLGTAVLAYGYTLVPEETRKRYLLLIAIPGIAIVAYALMALGFGSIQ----  62
+
+Query  111  ATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMAT  170
+            + GH V  +RY +WLLT P+ +  L+ L G S +    T+ L+V    TIV+G   A+  
+Sbjct  63   SEGHAVYVVRYVDWLLTTPLNVWFLALLAGASRE---DTVKLVVLQALTIVFGFAGAVTP  119
+
+Query  171  GYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILF  230
+              V    F +G        +   +       +        +   +     V W ++P+++
+Sbjct  120  SPVSYALFAVGGALFGGVIYLLYRNIAVAAKSTLSDIEVSLYRTLRNFVVVLWLVYPVVW  179
+
+Query  231  ILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRKTT  285
+            +LG  G G++ V  +T+    +D+++K  +G++     + +            T 
+Sbjct  180  LLGAAGVGLMDVETATLVVVYLDVVTKVGFGVIALLAMIDLGSAG--ETAEEPTA  232
+
+
+> sp|P33969|BACR_HALHM Bacteriorhodopsin (Fragment) OS=Halobacterium 
+halobium (strain mex) OX=33003 GN=bop PE=3 SV=1
+Length=204
+
+ Score = 176 bits (445),  Expect = 5e-49, Method: Composition-based stats.
+ Identities = 39/208 (19%), Positives = 79/208 (38%), Gaps = 14/208 (7%)
+
+Query  58   LAAGFSILLLMFYAYQTWKSTCG-WEEIYVCAIEMVKV----ILEFFFEFKNPSMLY---  109
+            +     ++   ++  + W  T     E Y   I +  +     L  FF     + +    
+Sbjct  2    IGTLLMLIGTFYFIARGWGVTDKKAREYYAITILVPGIASAAYLSMFFGI-GLTTVEVAG  60
+
+Query  110  LATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMA  169
+            +A    + + RYA+WL T P++L+ L+ L           +G+   D   IV G   A++
+Sbjct  61   MAEPLEIYYARYADWLFTTPLLLLDLALLANADRTTIGTLIGV---DALMIVTGLIGALS  117
+
+Query  170  TGYV-KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPI  228
+               + +  ++           ++                 +     +  L  V W  +PI
+Sbjct  118  HTPLARYTWWLFSTIAFLFVLYYLLTVL-RSAAAELSEDVQTTFNTLTALVAVLWTAYPI  176
+
+Query  229  LFILGPEGFGVLSVYGSTVGHTIIDLMS  256
+            L+I+G EG GV+ +   T+   ++D+ +
+Sbjct  177  LWIIGTEGAGVVGLGVETLAFMVLDVTA  204
+
+
+> sp|Q5UXM9|BACS1_HALMA Sensory rhodopsin I OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=sop1 PE=1 SV=1
+Length=236
+
+ Score = 176 bits (446),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 42/232 (18%), Positives = 96/232 (41%), Gaps = 17/232 (7%)
+
+Query  59   AAGFSI-LLLMFYAYQTWKSTCGWEEIYVCAIEMVKV----ILEFFFEFKNPSMLYLATG  113
+            AAGF++ + ++ + Y + + +     I      +  V     +   F     ++      
+Sbjct  12   AAGFAVGVAIVGFLYASLEGS-DERPILAALALIPGVAGISYVAMVFGIGTVTIGET---  67
+
+Query  114  HRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYV  173
+              +   RY +W++T P+++  +    G S    R   G++ +D   I+ G  + +A G +
+Sbjct  68   -TLVGFRYLDWVVTTPLLVGFIGYTAGASR---RAIFGVMAADALMILAGVGAVVAAGTL  123
+
+Query  174  KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILG  233
+            K   F +   +  + F +    +       P  +   + + +     + W  +P++++ G
+Sbjct  124  KWALFGVSAVFHISLFAYLYLIFPRSVPDDP--QRIGLFSLLKNHVGLLWIAYPLVWLAG  181
+
+Query  234  PEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRKTT  285
+            PEG G  +  G ++ +  +DL++K  +    +  R +    +L   D   TT
+Sbjct  182  PEGLGFATYVGVSITYAFLDLLAKVPYVYFFYARRQVFATKLL--RDSGDTT  231
+
+
+> sp|P33972|BACR_HALHS Bacteriorhodopsin (Fragment) OS=Halobacterium 
+halobium (strain shark) OX=33005 GN=bop PE=3 SV=1
+Length=209
+
+ Score = 173 bits (438),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 42/214 (20%), Positives = 86/214 (40%), Gaps = 18/214 (8%)
+
+Query  56   QWLAAGFSILLLMFYAYQTWKSTCGWE-EIYVCAIEMVKV----ILEFFFEFKNPSMLYL  110
+             WL      L ++++  + W  T G   + Y+  I +  +     L     F   + +  
+Sbjct  1    LWLGTAGMFLGMLYFIARGWGETDGRRQKFYIATILITAIAFVNYLAMALGF-GLTFIEF  59
+
+Query  111  A-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMA  169
+                H + W RY +WL T P++L  L  L G   +     + L   D+  I  G  + ++
+Sbjct  60   GGEQHPIYWARYTDWLFTTPLLLYDLGLLAGADRNTIYSLVSL---DVLMIGTGVVATLS  116
+
+Query  170  TGY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVS  222
+             G         +++++ +   +     +    +       +P    R     +  L  V 
+Sbjct  117  AGSGVLSAGAERLVWWGISTAFLLVLLYFLFSSLSGRVANLPSD-TRSTFKTLRNLVTVV  175
+
+Query  223  WGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMS  256
+            W ++P+ +++G EG G++ +   T G  +IDL++
+Sbjct  176  WLVYPVWWLVGSEGLGLVGIGIETAGFMVIDLVA  209
+
+
+> sp|O93740|BACR_HALS4 Bacteriorhodopsin OS=Haloterrigena sp. (strain 
+arg-4) OX=160432 GN=bop PE=3 SV=1
+Length=250
+
+ Score = 172 bits (436),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 47/243 (19%), Positives = 98/243 (40%), Gaps = 17/243 (7%)
+
+Query  50   TASNVLQWLAAGFSILLLMFYAYQTWKSTCGW-EEIYVCAIEMVKVILEFFFEFK---NP  105
+               ++  W+      L  +++  +         +E Y+  I +  +    +F        
+Sbjct  15   GPESIWLWIGTIGMTLGTLYFVGRGRGVRDRKMQEFYIITIFITTIAAAMYFAMATGFGV  74
+
+Query  106  SMLYLA-TGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGA  164
+            + + +      + W RYA+WL T P++L+ LS L G + +     +GL   D+  I  GA
+Sbjct  75   TEVMVGDEALTIYWARYADWLFTTPLLLLDLSLLAGANRNTIATLIGL---DVFMIGTGA  131
+
+Query  165  TSAM-ATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSW  223
+             +A+ +T   ++ ++ +         +       E            +   +  L    W
+Sbjct  132  IAALSSTPGTRIAWWAISTGALLALLYVLVGTLSENARN-RAPEVASLFGRLRNLVIALW  190
+
+Query  224  GMFPILFILGPEG-FGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIR  282
+             ++P+++ILG EG FG+L +Y  T    ++DL +K  +G+      +L+    ++     
+Sbjct  191  FLYPVVWILGTEGTFGILPLYWETAAFMVLDLSAKVGFGV------ILLQSRSVLERVAT  244
+
+Query  283  KTT  285
+             T 
+Sbjct  245  PTA  247
+
+
+> sp|P33970|BACH_HALHM Halorhodopsin (Fragment) OS=Halobacterium 
+halobium (strain mex) OX=33003 GN=hop PE=3 SV=1
+Length=206
+
+ Score = 166 bits (419),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 41/211 (19%), Positives = 79/211 (37%), Gaps = 26/211 (12%)
+
+Query  60   AGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKN---PSMLYLATGHRV  116
+            AG SILL ++            + I+V  + +  V +  +    +      L +  GH +
+Sbjct  4    AGLSILLFVYMGRNV--EDPRAQLIFVATLMVPLVSISSYTGLVSGLTVGFLEMPAGHAL  61
+
+Query  117  Q-------------WLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWG  163
+                          W RY  W  + P+ILI L  L G +     +    +V+D+G  + G
+Sbjct  62   AGMGAGPEGGVFTPWGRYLTWAFSTPMILIALGLLAGSNM---SKLFTAVVADVGMCITG  118
+
+Query  164  ATSAMATGYV--KVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFV  221
+              +A+ T     + +++ +   +     +       E            +   +  L  V
+Sbjct  119  LAAALTTSSYLLRWVWYGISCAFFVVVLYIL---LAEWAKDAEVAGTADIFNTLKVLTVV  175
+
+Query  222  SWGMFPILFILGPEGFGVLSVYGSTVGHTII  252
+             W  +PI + LG EG  VL +  ++  ++ +
+Sbjct  176  LWLGYPIFWALGAEGLAVLDIAITSWAYSGM  206
+
+
+> sp|P33743|BACS1_HALSS Sensory rhodopsin-1 OS=Halobacterium sp. 
+(strain SG1) OX=33006 GN=sop1 PE=1 SV=1
+Length=247
+
+ Score = 167 bits (423),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 41/245 (17%), Positives = 92/245 (38%), Gaps = 12/245 (5%)
+
+Query  50   TASNVLQWLAAGFSILLLMF----YAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKNP  105
+             A +   W+AA   ++ L      YA        G          +       +      
+Sbjct  3    GAVSAAYWIAAVAFLVGLGITAALYAKLGESEDRGR---LAALAVIPGFAGLAYAGMALG  59
+
+Query  106  SMLYLATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGAT  165
+                   G  +  LRY +W++T P+++  +  + G S    R   G++++D   I +GA 
+Sbjct  60   IGTVTVNGAELVGLRYVDWIVTTPLLVGFIGYVAGASR---RAIAGVMLADALMIAFGAG  116
+
+Query  166  SAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGM  225
+            + +  G +K + F +   +    F +    +       P    R + + +     + W  
+Sbjct  117  AVVTGGTLKWVLFGVSSIFHVTLFAYLYVVFPRAVPDDPMQ--RGLFSLLKNHVGLLWLA  174
+
+Query  226  FPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHILIHGDIRKTT  285
+            +P ++++GP G G  +  G+ + +  +D+++K  +    +  R    + +      R+  
+Sbjct  175  YPFVWLMGPAGIGFTTGVGAALTYAFLDVLAKVPYVYFFYARRQAFTDVVSAATADREDA  234
+
+Query  286  KLNIG  290
+               +G
+Sbjct  235  TDAVG  239
+
+
+> sp|Q9AFF7|PRRB_PRB02 Blue-light absorbing proteorhodopsin OS=Gamma-proteobacterium 
+Hot 75m4 OX=245185 PE=1 SV=2
+Length=251
+
+ Score = 167 bits (423),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 35/237 (15%), Positives = 81/237 (34%), Gaps = 12/237 (5%)
+
+Query  44   GTNGAQTASNVLQWLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFK  103
+            G         V  WL     +   +F+  +  + +  W+     +  +  +    F+ + 
+Sbjct  22   GDLDISDTVGVSFWLVTAGMLAATVFFFVERDQVSAKWKTSLTVSGLITGI---AFWHYL  78
+
+Query  104  NPSMLYLATGHRVQWLRYAEWLLTCPVILIHLSN-LTGLSNDYSRRTMGLLVSDIGTIVW  162
+                +++ TG      RY +WLLT P+ ++     L   ++  +     LL   +  +  
+Sbjct  79   YMRGVWIDTGDTPTVFRYIDWLLTVPLQVVEFYLILAACTSVAASLFKKLLAGSLVMLGA  138
+
+Query  163  GATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVS  222
+            G         V +  F +G+       +       +   +            M  +  V 
+Sbjct  139  GFAGEAGLAPV-LPAFIIGMAGWLYMIYELYMGEGKAAVSTASPAVNSAYNAMMMIIVVG  197
+
+Query  223  WGMFP----ILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHI  275
+            W ++P      +++G EG   +      + + + D ++K  +GL+   + V    + 
+Sbjct  198  WAIYPAGYAAGYLMGGEG---VYASNLNLIYNLADFVNKILFGLIIWNVAVKESSNA  251
+
+
+> sp|O93743|BACS_HALSD Sensory rhodopsin OS=Halorubrum sodomense 
+OX=35743 GN=sop PE=1 SV=1
+Length=254
+
+ Score = 167 bits (422),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 38/217 (18%), Positives = 83/217 (38%), Gaps = 6/217 (3%)
+
+Query  56   QWLAAGFSILLLMFYAYQ-TWKSTCGWEEIYVCAIEMVKVILEFFFEFKNPSMLYLATGH  114
+             WLAA   ++ +   A                    +       +             G 
+Sbjct  9    YWLAAVAFLIGVGITAALYAKLEGSRARTRLAALAVIPGFAGLSYVGMALGIGTVTVNGA  68
+
+Query  115  RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVK  174
+             +  LRY +W++T P+++  +    G S    R   G++++D   IV+GA + ++ G +K
+Sbjct  69   ELVGLRYVDWVVTTPLLVGFIGYNAGASR---RAIAGVMIADALMIVFGAAAVVSGGTLK  125
+
+Query  175  VIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGP  234
+               F +   +  + F +    +  G    P    R + + +     + W  +P ++++GP
+Sbjct  126  WALFGVSALFHVSLFAYLYVIFPGGIPDDPMQ--RGLFSLLKNHVGLLWLAYPFVWLMGP  183
+
+Query  235  EGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLI  271
+             G G     G+ + +  +D+++K  +    +  R   
+Sbjct  184  AGIGFTGAVGAALTYAFLDVLAKVPYVYFFYARRQAF  220
+
+
+> sp|Q53496|BACR_HALSR Cruxrhodopsin-2 OS=Haloarcula sp. (strain 
+arg-2 / Andes heights) OX=69009 GN=cop2 PE=1 SV=1
+Length=255
+
+ Score = 166 bits (421),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 42/248 (17%), Positives = 101/248 (41%), Gaps = 22/248 (9%)
+
+Query  49   QTASNVLQWLAAGFSILLLMFYAYQTWKSTC-GWEEIYVCAIEMVKV----ILEFFFEFK  103
+                ++  W+      L ++++  + W  +    ++ Y+  I +  +     L     F 
+Sbjct  11   PGGESIFLWVGTAGMFLGMLYFIARGWSVSDQRRQKFYIATIMIAAIAFVNYLSMALGFG  70
+
+Query  104  NPSMLYLATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWG  163
+              ++        + W RY +WL T P++L  L+ L G   +     +GL   D+  I  G
+Sbjct  71   VTTIELGGEERAIYWARYTDWLFTTPLLLYDLALLAGADRNTIYSLVGL---DVLMIGTG  127
+
+Query  164  ATSAMATGY-------VKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMA  216
+            A + ++ G         +++++ +   +     +       +    +  G  +   + + 
+Sbjct  128  ALATLSAGSGVLPAGAERLVWWGISTGFLLVLLYFLFSNLTDRASEL-SGDLQSKFSTLR  186
+
+Query  217  WLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHYLRVLIHEHIL  276
+             L  V W ++P+L+++G EG G++ +   T    ++DL +K  +G+      +L+  H +
+Sbjct  187  NLVLVLWLVYPVLWLVGTEGLGLVGLPIETAAFMVLDLTAKIGFGI------ILLQSHAV  240
+
+Query  277  IHGDIRKT  284
+            +      +
+Sbjct  241  LDEGQTAS  248
+
+
+> sp|Q12816|TROP_HUMAN Trophinin OS=Homo sapiens OX=9606 GN=TRO 
+PE=1 SV=3
+Length=1431
+
+ Score = 176 bits (446),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 69/283 (24%), Positives = 103/283 (36%), Gaps = 43/283 (15%)
+
+Query  462   RSSTSILSRLRGAGQRVAAFGWAQLGPMRDLIESANLDGWLEGPSFGQGILPAHIVALVA  521
+              S+++      G     A F                       PSF  G   +   +   
+Sbjct  1160  GSASNTNLCFGGPPSTSACFS------------------GATSPSFCDGPSTSTGFSFGN  1201
+
+Query  522   KMQQMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGGNGMNNMGNGMGGGMGNGMG-GN  580
+              +                GG  G   G  GG++   G +G      G GGG G   G G 
+Sbjct  1202  GLSTNAGFGGGLNTSAGFGGGLGTSAGFSGGLSTSSGFDGGLGTSAGFGGGPGTSTGFGG  1261
+
+Query  581   GMN---GMGGGNGMN-NMGGNGMAGNGMGGGMGGNGMGGSMNGMSSGVVANVT-------  629
+             G+    G  GG G +   GG  +  +G GGG+G N   GS  G S+G    ++       
+Sbjct  1262  GLGTSAGFSGGLGTSAGFGGGLVTSDGFGGGLGTNASFGSTLGTSAGFSGGLSTSDGFGS  1321
+
+Query  630   -PSAA--GGMGGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPL-------SSQLGAEAG  679
+              P+A+   G+  ++  G  +  S G   G   T+  F++ PS +       S+ +G  +G
+Sbjct  1322  RPNASFDRGLSTIIGFGSGSNTSTGFT-GEPSTSTGFSSGPSSIVGFSGGPSTGVGFCSG  1380
+
+Query  680   MGSMGGMGGMSGMGGMGG--MGGMGGAGAATTQAAGGNAEAEM  720
+               + G  GG S   G GG    G G  G  +T A  G+  A +
+Sbjct  1381  PSTSGFSGGPSTGAGFGGGPNTGAGFGGGPSTSAGFGSGAASL  1423
+
+
+ Score = 74.0 bits (180),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 52/231 (23%), Positives = 73/231 (32%), Gaps = 12/231 (5%)
+
+Query  500   GWLEGPSFGQGILPAHIVALVAKMQQMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGG  559
+             G     S G G   +  V+                  +   G    G G GG +N     
+Sbjct  920   GGSPCTSTGFGGTLSTSVSFGGSSSTSANFGGTLSTSICFDGSPSTGAGFGGALNTSASF  979
+
+Query  560   NGMNNMGNGMGGGMGNGMGGNGMNG----MGGGNGMN-NMGGNGMAGNGMGGGMGGNGMG  614
+               + N   G GG M       G        GG  G + + G       G GG +  N   
+Sbjct  980   GSVLNTSTGFGGAMSTSADFGGTLSTSVCFGGSPGTSVSFGSALNTNAGYGGAVSTNTDF  1039
+
+Query  615   GSMNGMSSGVVANVTPSA--AGGMGGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPLSS  672
+             G     S     + + SA   G +    + G A   S   + G + T+  F+ AP     
+Sbjct  1040  GGTLSTSVCFGGSPSTSAGFGGALNTNASFGCAVSTSASFS-GAVSTSACFSGAPITNPG  1098
+
+Query  673   QLGAEAGMGSMGGMGGMSGMGGMGGM--GGMGGAGAATTQAAGGNAEAEML  721
+               GA +   S G  G +S     GG     +G   A +T  + G A    L
+Sbjct  1099  FGGAFS--TSAGFGGALSTAADFGGTPSNSIGFGAAPSTSVSFGGAHGTSL  1147
+
+
+ Score = 74.0 bits (180),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 55/278 (20%), Positives = 75/278 (27%), Gaps = 32/278 (12%)
+
+Query  464   STSILSRLRGAGQRVAAFGW---AQLGPMRDLIESANLDGWLEGPSFGQGILPAHIVALV  520
+             S S  +   GA    A+FG       G    +  SA+  G     S   G  P   V+  
+Sbjct  962   SPSTGAGFGGALNTSASFGSVLNTSTGFGGAMSTSADF-GGTLSTSVCFGGSPGTSVSFG  1020
+
+Query  521   AKMQQMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGGNGMNNMGNGMGGGMGNGMGGN  580
+             + +                GG        GG  +   G  G  N     G  +      +
+Sbjct  1021  SALNTNAGYGGAVSTNTDFGGTLSTSVCFGGSPSTSAGFGGALNTNASFGCAVSTSASFS  1080
+
+Query  581   GMNGM-----GGGNGMNNMGGNGMAGNGMGGGMGGNGMGGSMNGMSSGVVANVTPSAA--  633
+             G         G        GG      G GG +      G     S G  A  + S +  
+Sbjct  1081  GAVSTSACFSGAPITNPGFGGAFSTSAGFGGALSTAADFGGTPSNSIGFGAAPSTSVSFG  1140
+
+Query  634   ----------GGMGGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPLSSQLGAEAGMGSM  683
+                       G     +  G A+  +    GG   T+  F+ A SP         G  + 
+Sbjct  1141  GAHGTSLCFGGAPSTSLCFGSASNTNLCF-GGPPSTSACFSGATSP-----SFCDGPSTS  1194
+
+Query  684   ---GGMGGMSGMGGMGG--MGGMGGAGAATTQAAGGNA  716
+                    G+S   G GG      G  G   T A     
+Sbjct  1195  TGFSFGNGLSTNAGFGGGLNTSAGFGGGLGTSAGFSGG  1232
+
+
+ Score = 49.0 bits (115),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 30/94 (32%), Gaps = 4/94 (4%)
+
+Query  548   GMGGGMNGMGGGNGMNNMGNGMGGGMGNGMGGNGMN----GMGGGNGMNNMGGNGMAGNG  603
+             G G G N   G  G  +   G   G  + +G +G      G   G   +   G    G G
+Sbjct  1336  GFGSGSNTSTGFTGEPSTSTGFSSGPSSIVGFSGGPSTGVGFCSGPSTSGFSGGPSTGAG  1395
+
+Query  604   MGGGMGGNGMGGSMNGMSSGVVANVTPSAAGGMG  637
+              GGG       G     S+G  +      A G  
+Sbjct  1396  FGGGPNTGAGFGGGPSTSAGFGSGAASLGACGFS  1429
+
+
+> sp|Q9UW81|NOP1_NEUCR Opsin-1 OS=Neurospora crassa (strain ATCC 
+24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 
+GN=nop-1 PE=1 SV=1
+Length=304
+
+ Score = 161 bits (407),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 43/231 (19%), Positives = 85/231 (37%), Gaps = 25/231 (11%)
+
+Query  56   QWLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFK------------  103
+             W+     +L    +A  +W         +V    +  V    +F               
+Sbjct  47   LWVTFALMVLSSGIFALLSWNVPTSKRLFHVITTLITVVASLSYFAMATGHATTFNCDTA  106
+
+Query  104  -----NPSMLYLATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIG  158
+                 +          +V W RY +W LT P++L+ L  L G+       T+  +V+D+ 
+Sbjct  107  WDHHKHVPDTSHQVCRQVFWGRYVDWALTTPLLLLELCLLAGVD---GAHTLMAIVADVI  163
+
+Query  159  TIVWGATSAMATG---YVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGM  215
+             ++ G  +A+  G     K  ++ +G        +H A        T       ++ TG+
+Sbjct  164  MVLCGLFAALGEGGNTAQKWGWYTIGCFSYLFVIWHVALHGSRTV-TAKGRGVSRLFTGL  222
+
+Query  216  AWLFFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGHY  266
+            A    + W  +PI++ +   G    +V    + +T++DL++K  +G     
+Sbjct  223  AVFALLLWTAYPIIWGI-AGGARRTNVDTEILIYTVLDLLAKPVFGFWLLL  272
+
+
+> sp|Q5V4H7|BACS3_HALMA Sensory rhodopsin III OS=Haloarcula marismortui 
+(strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) 
+OX=272569 GN=xop2 PE=1 SV=1
+Length=232
+
+ Score = 151 bits (382),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 34/210 (16%), Positives = 75/210 (36%), Gaps = 4/210 (2%)
+
+Query  51   ASNVLQWLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKNPSMLYL  110
+               V     AG   +  + + +            Y        V    +      +   L
+Sbjct  3    QEIVWYGAGAGAFFVSAVVFVWFAATRGNIRSSFYYLPPIHTSVAGAAYVAMALIAGGQL  62
+
+Query  111  ATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMAT  170
+                 +  LR+A+W+++ P+I  +L+ L G+     R  +    +++  I  G      +
+Sbjct  63   GDTVSITTLRFADWIVSTPIITYYLARLAGVDTQTRRLAV---AANVVMIGVGYGFVSMS  119
+
+Query  171  GYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILF  230
+            G ++ I F +         +   K +            R +   +  L  V+W ++P+++
+Sbjct  120  GSLRWIAFAVSTVAFIGLLYLYIKTFARKI-NAATASVRSLFQSLRDLTVVTWSLYPVVY  178
+
+Query  231  ILGPEGFGVLSVYGSTVGHTIIDLMSKNCW  260
+             LGP G G++          ++D ++K  +
+Sbjct  179  FLGPLGTGIIQAPDLNFLVAVLDTIAKVGF  208
+
+
+> sp|O74631|FD123_TRAVE Protein FDD123 OS=Trametes versicolor OX=5325 
+GN=FDD123 PE=2 SV=1
+Length=283
+
+ Score = 151 bits (382),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 44/220 (20%), Positives = 79/220 (36%), Gaps = 18/220 (8%)
+
+Query  57   WLAAGFSILLLMFYAYQTWKSTC--GWEEIYVCAIEMVKVILEFFFEFKN-------PSM  107
+            WL A FS+  +       W  T   G    +  AI ++      +F   +       P  
+Sbjct  24   WLWAAFSVFGVSLLTVVAWTFTRPRGARLFHQIAIVVLTTGSLAYFSMASDLGATPVPVE  83
+
+Query  108  LYLATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSA  167
+                   ++ ++RY +W +T P++L+ L   TGLS          L   I  ++ G  +A
+Sbjct  84   FRGEGTRQIWFVRYIQWFITFPLLLLELLLATGLS---LSDIFTTLFMSIVLVITGLVAA  140
+
+Query  168  MATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGR--CRQVVTGMAWLFFVSWGM  225
+            +     K  ++  G+      F+        G HT        R+     A        +
+Sbjct  141  LVPSTYKWGYYTFGVSA---LFYIWYVLLWHGPHTTFAAGGVLRRGYILAAGYLSFLLLL  197
+
+Query  226  FPILFILGPEGFGVLSVYGSTVGHTIIDLMSKNCWGLLGH  265
+            +PI +    EG  V+SV    + + I+D+ +   +     
+Sbjct  198  YPIAWAC-AEGGNVISVTSEMIWYGILDIFAGPIFLFFFL  236
+
+
+> sp|Q53461|BACH_HALAR Cruxhalorhodopsin-1 (Fragment) OS=Haloarcula 
+argentinensis OX=43776 GN=choP1 PE=3 SV=1
+Length=131
+
+ Score = 144 bits (364),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 29/137 (21%), Positives = 59/137 (43%), Gaps = 8/137 (6%)
+
+Query  129  PVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGY--VKVIFFCLGLCYGA  186
+            P+IL+ L  L              +  DIG  V G  +A+ T    ++ +F+ +   +  
+Sbjct  1    PMILLALGLLADTD---IASLFTAITMDIGMCVTGLAAALITSSHLLRWVFYGISCAFFV  57
+
+Query  187  NTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGMFPILFILGPEGFGVLSVYGST  246
+               +      ++           ++   +  L  V W  +PIL+ LG EG  +LSV  ++
+Sbjct  58   AVLYVL---LVQWPADAEAAGTSEIFGTLKILTVVLWLGYPILWALGSEGVALLSVGVTS  114
+
+Query  247  VGHTIIDLMSKNCWGLL  263
+             G++ +D+++K  +  +
+Sbjct  115  WGYSGLDILAKYVFAFI  131
+
+
+> sp|O74870|MUG73_SCHPO Meiotically up-regulated gene 73 protein 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 
+GN=mug73 PE=1 SV=1
+Length=306
+
+ Score = 149 bits (376),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 38/216 (18%), Positives = 78/216 (36%), Gaps = 15/216 (7%)
+
+Query  49   QTASNVLQWLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFE-------  101
+            Q  S+   W      +L  + +   +  S    +  +     +  V    +F        
+Sbjct  21   QKISSNYYWAVFAVFLLCAIVFPLVSIFSLPQKQTYHRFFSILSLVSCLAYFTMACNYGL  80
+
+Query  102  ---FKNPSMLYLATGHRVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIG  158
+               F + S     +   V ++RY +WL+  P+I++ L    G+S         ++   + 
+Sbjct  81   KNVFSSASFFREVSVRMVYYVRYIQWLINFPLIIVMLHWTVGVS---ILEIAYVVCYVLF  137
+
+Query  159  TIVWGATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWL  218
+             IV    +A+ +   K  ++            H+   + + Y +  +   R         
+Sbjct  138  AIVCLLAAALTSSPYKWAYYGFSFVGYFIALAHSVVLH-KKYASRLETSARLGFLWSIVY  196
+
+Query  219  FFVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDL  254
+              V W ++   +IL  EG  V+S  G  + ++I+DL
+Sbjct  197  LHVIWFLYYACWIL-SEGLNVISPIGEAIFYSILDL  231
+
+
+> sp|Q12117|MRH1_YEAST Protein MRH1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=MRH1 PE=1 SV=1
+Length=320
+
+ Score = 145 bits (366),  Expect = 7e-37, Method: Composition-based stats.
+ Identities = 33/202 (16%), Positives = 65/202 (32%), Gaps = 17/202 (8%)
+
+Query  55   LQWLAAGFSILLLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKNPSMLYLATGH  114
+              +   G +    M  AY T  S  GW       I +           +  +        
+Sbjct  62   RFFYLTGIAPNFFMCIAYFTMASNLGW-------IPVKAKYNHV----QTSTQKEHPGYR  110
+
+Query  115  RVQWLRYAEWLLTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVK  174
+            ++ + R+  W L  P  +I +  L G    + +    + +++  T+ W   +A      K
+Sbjct  111  QIFYSRFVGWFLALPWPIIQICMLAG--TPFWQMAFNVCITEFFTVCW-LIAACVHSTYK  167
+
+Query  175  VIFFCLGLCYGANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGM-FPILFILG  233
+              ++ +GL         +                R        +    W + +P  F + 
+Sbjct  168  WGYYTIGLGAAIVV-SISVMTTSYNLVKQRDNDIRLTFLVFFSIIMFLWIIAYPTCFGI-  225
+
+Query  234  PEGFGVLSVYGSTVGHTIIDLM  255
+             +G  VL    + + + IIDL+
+Sbjct  226  TDGGNVLQPDSAGIFYGIIDLI  247
+
+
+> sp|P38079|YRO2_YEAST Protein YRO2 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=YRO2 PE=1 SV=1
+Length=344
+
+ Score = 144 bits (364),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 33/186 (18%), Positives = 60/186 (32%), Gaps = 17/186 (9%)
+
+Query  66   LLMFYAYQTWKSTCGWEEIYVCAIEMVKVILEFFFEFKNPSMLYLATGHRVQWLRYAEWL  125
+            L M  AY T  S  GW       I +           +  +        ++ + RY  W 
+Sbjct  73   LFMSIAYFTMASNLGW-------IPVRAKYNHV----QTSTQKEHPGYRQIFYARYVGWF  121
+
+Query  126  LTCPVILIHLSNLTGLSNDYSRRTMGLLVSDIGTIVWGATSAMATGYVKVIFFCLGLCYG  185
+            L  P  +I +S L G      +    + +++I T+ W   +A      K  ++ +G+   
+Sbjct  122  LAFPWPIIQMSLLGG--TPLWQIAFNVGMTEIFTVCW-LIAACVHSTYKWGYYTIGIGAA  178
+
+Query  186  ANTFFHAAKAYIEGYHTVPKGRCRQVVTGMAWLFFVSWGM-FPILFILGPEGFGVLSVYG  244
+                               K     V      +    W + +P  F +  +G  VL    
+Sbjct  179  IVVCISLMTTTFNLVKARGKD-VSNVFITFMSVIMFLWLIAYPTCFGI-TDGGNVLQPDS  236
+
+Query  245  STVGHT  250
+            +T+ + 
+Sbjct  237  ATIFYG  242
+
+
+> sp|P25619|HSP30_YEAST 30 kDa heat shock protein OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=HSP30 
+PE=1 SV=1
+Length=332
+
+ Score = 92.9 bits (229),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 32/287 (11%), Positives = 73/287 (25%), Gaps = 46/287 (16%)
+
+Query  57   WLAAGFSILLLMFYAYQTW---KSTCGWEEIYVCAIEMVKVIL---------EFFFEFKN  104
+            WL A F++   +   Y          G             +                +  
+Sbjct  34   WLWAVFAVFGFILLCYVVMFFIAENKGSRLTRYALAPAFLITFFEFFAFFTYASDLGWTG  93
+
+Query  105  PS------------MLYLATGHRVQWLRYAEWLLTCPVILIHLSNLTGLS--------ND  144
+                             +    ++ + +Y  W L+ P +L  +      +         D
+Sbjct  94   VQAEFNHVKVSKSITGEVPGIRQIFYSKYIAWFLSWPCLLFLIELAASTTGENDDISALD  153
+
+Query  145  YSRRTMGLLVSDIGTIVWGATSAMATGYVKVIFFCLGLCYGANTFFHAAKAYIEGYHTVP  204
+                 +  +V  +  +V     ++     K  ++ +G      T     +       T  
+Sbjct  154  MVHSLLIQIVGTLFWVVSLLVGSLIKSTYKWGYYTIGAVAMLVTQGVICQRQFFNLKTR-  212
+
+Query  205  KGRCRQVVTGMAWLF--FVSWGMFPILFILGPEGFGVLSVYGSTVGHTIIDLMS---KNC  259
+                      +       + W  + I + L  +G   +   G  + + ++DL       C
+Sbjct  213  ------GFNALMLCTCMVIVWL-YFICWGL-SDGGNRIQPDGEAIFYGVLDLCVFAIYPC  264
+
+Query  260  WGLLGHYLRVLIHEHILIHGDIRKTTKLNIGGTEIEVETLVEDEAEA  306
+            + L+       +    L  G        ++     E +  V +   A
+Sbjct  265  YLLIAVSRDGKLPRLSLTGGFSHHHATDDVEDAAPETKEAVPESPRA  311
+
+
+> sp|Q5UQU8|YL357_MIMIV Uncharacterized protein L357 OS=Acanthamoeba 
+polyphaga mimivirus OX=212035 GN=MIMI_L357 PE=4 SV=1
+Length=496
+
+ Score = 91.3 bits (225),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 26/69 (38%), Positives = 35/69 (51%), Gaps = 8/69 (12%)
+
+Query  670  LSSQLGAEAGMGSMGGMGGMSGMGGMGGMGGMGGA--------GAATTQAAGGNAEAEML  721
+            L  ++GA++GM  M  MGG+ G  GM GM G+GG         G  +  A  G+  +   
+Sbjct  229  LMRKMGAQSGMNGMDDMGGVCGFNGMSGMNGVGGMDDFYASILGQGSPMAQEGSLGSLNP  288
+
+Query  722  QNLMNEINR  730
+             NLM  INR
+Sbjct  289  MNLMTPINR  297
+
+
+ Score = 48.6 bits (114),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 62/257 (24%), Positives = 81/257 (32%), Gaps = 42/257 (16%)
+
+Query  515  HIVALVAKMQQMRKMQQMQQIGMMTGGMNGMGG--GMGG--GMNGMGGGNGMNNMGNGMG  570
+            H    V K + MRKM    Q GM   GM+ MGG  G  G  GMNG+GG +       G G
+Sbjct  219  HSGEKVMKEKLMRKMGA--QSGM--NGMDDMGGVCGFNGMSGMNGVGGMDDFYASILGQG  274
+
+Query  571  ------GGMGNGMGGNGMNGMGGGNGMNNMGGNGMAG--NGMGGGMGGNGMG--GSMNGM  620
+                  G +G+    N M  +   N MN M         N M      N M     MN M
+Sbjct  275  SPMAQEGSLGSLNPMNLMTPINRNNQMNPMNQMNPMNQMNPMNQMNPMNQMNPMNQMNPM  334
+
+Query  621  SSGVVANVTPSAAG---------GMGGMMNGGMAAPQSPGMNG----GRLGTNPLFNAAP  667
+            +     N                GMG  +    +        G    G+   N  F    
+Sbjct  335  NQMNPMNPMNMGNQNNQNGIPFMGMGNPLMSVSSTNLMNDQMGYGGFGQSEKNIQFQNDL  394
+
+Query  668  SP-------LSSQLGAEAGMGSMGGMGGMSGMGGMGGM----GGMGGAGAATTQAAGGNA  716
+                     +  + G      +   M     MG +G M    G M   G        G  
+Sbjct  395  EKKLAERKIMDLETGQRPEQSAYNDMQSHQMMGSLGSMMNPMGQMNQMGQMNQMGQMGQM  454
+
+Query  717  EAEMLQNLMNEINRLKR  733
+                  N+MN +N + +
+Sbjct  455  NQMDPMNIMNPMNLMNQ  471
+
+
+> sp|P45481|CBP_MOUSE CREB-binding protein OS=Mus musculus OX=10090 
+GN=Crebbp PE=1 SV=3
+Length=2441
+
+ Score = 62.8 bits (151),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 49/244 (20%), Positives = 69/244 (28%), Gaps = 45/244 (18%)
+
+Query  457  EFLRDRSSTSILSRLRGAGQRVA--------------AFGWAQLGPMRDLIESANLDGWL  502
+            E LR  S +SI   +                      +   A LG M    +S    G  
+Sbjct  71   ELLRGGSGSSINPGIGNVSASSPVQQGLGGQAQGQPNSTNMASLGAMG---KSPLNQGDS  127
+
+Query  503  EGPSF---GQGILPAHIVALVAKMQQMRKMQQMQQIGMMTGG----MNGMGGGMGGGMNG  555
+              P+              A  A   Q +K     Q+G++T        G G  M    N 
+Sbjct  128  STPNLPKQAASTSGPTPPASQALNPQAQK-----QVGLVTSSPATSQTGPGICMNANFNQ  182
+
+Query  556  MGGGNGMNNMGNGMGGGMGNGMG-GNGMNGMGGGNGMNNMGGN--------GMAGNGMGG  606
+                 G+ N  +G         G    MNG  G  G     G         G   + +  
+Sbjct  183  T--HPGLLNSNSGHSLMNQAQQGQAQVMNGSLGAAGRGRGAGMPYPAPAMQGATSSVLAE  240
+
+Query  607  GMG--GNGMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLGTNPLFN  664
+             +      M G   G+++     +T    G  G     G    Q+ G   G  G NP   
+Sbjct  241  TLTQVSPQMAGHA-GLNTAQAGGMT--KMGMTGTTSPFGQPFSQTGGQQMGATGVNPQLA  297
+
+Query  665  AAPS  668
+            +  S
+Sbjct  298  SKQS  301
+
+
+> sp|Q92793|CBP_HUMAN CREB-binding protein OS=Homo sapiens OX=9606 
+GN=CREBBP PE=1 SV=3
+Length=2442
+
+ Score = 60.1 bits (144),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 45/237 (19%), Positives = 65/237 (27%), Gaps = 31/237 (13%)
+
+Query  457  EFLRDRSSTSILSRLRGAG-----------QRVAAFGWAQLGPMRDLIESANLDGWLEGP  505
+            E LR  S +SI   +               Q       A +  +  + +S    G    P
+Sbjct  72   ELLRGGSGSSINPGIGNVSASSPVQQGLGGQAQGQPNSANMASLSAMGKSPLSQGDSSAP  131
+
+Query  506  SF---GQGILPAHIVALVAKMQQMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGGNGM  562
+            S              A  A   Q +K   +      T    G G  M    N      G+
+Sbjct  132  SLPKQAASTSGPTPAASQALNPQAQKQVGLATSSPATS-QTGPGICMNANFNQT--HPGL  188
+
+Query  563  NNMGNGMGGGMGNGMG-GNGMNGMGGGNGMNNMGGN--------GMAGNGMGGGMG--GN  611
+             N  +G         G    MNG  G  G     G         G + + +   +     
+Sbjct  189  LNSNSGHSLINQASQGQAQVMNGSLGAAGRGRGAGMPYPTPAMQGASSSVLAETLTQVSP  248
+
+Query  612  GMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPS  668
+             M G   G+++     +     G  G     G    Q+ G   G  G NP   +  S
+Sbjct  249  QMTGHA-GLNTAQAGGMA--KMGITGNTSPFGQPFSQAGGQPMGATGVNPQLASKQS  302
+
+
+> sp|Q6JHU9|CBP_RAT CREB-binding protein OS=Rattus norvegicus OX=10116 
+GN=Crebbp PE=1 SV=1
+Length=2442
+
+ Score = 57.1 bits (136),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 50/244 (20%), Positives = 69/244 (28%), Gaps = 45/244 (18%)
+
+Query  457  EFLRDRSSTSILSRLRGAGQRVA--------------AFGWAQLGPMRDLIESANLDGWL  502
+            E LR  S +SI   +                      +   A LG M    +S    G  
+Sbjct  71   ELLRGGSGSSITPGIGNVSASSPVQQGLGGQAQGQPNSTSMASLGAMG---KSPLNPGDS  127
+
+Query  503  EGPSF---GQGILPAHIVALVAKMQQMRKMQQMQQIGMMTGG----MNGMGGGMGGGMNG  555
+              PS              A  A   Q +K     Q+G++T        G G  M    N 
+Sbjct  128  STPSLPKQAASTSGPTPPASQALNPQAQK-----QVGLVTSSPATSQTGPGICMNANFNQ  182
+
+Query  556  MGGGNGMNNMGNGMGGGMGNGMG-GNGMNGMGGGNGMNNMGGN--------GMAGNGMGG  606
+                 G+ N  +G         G    MNG  G  G     G         G   + +  
+Sbjct  183  T--HPGLLNSNSGHSLMNQAQQGQAQVMNGSLGAAGRGRGAGMPYPAPAMQGATSSVLAE  240
+
+Query  607  GMG--GNGMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLGTNPLFN  664
+             +      M G   G+++     +T    G  G     G    Q+ G   G  G NP   
+Sbjct  241  TLTQVSPQMAGHA-GLNTAQAGGMT--KMGMTGNTSPFGQPFSQTGGQPMGATGVNPQLA  297
+
+Query  665  AAPS  668
+            +  S
+Sbjct  298  SKQS  301
+
+
+> sp|A8TX70|CO6A5_HUMAN Collagen alpha-5(VI) chain OS=Homo sapiens 
+OX=9606 GN=COL6A5 PE=1 SV=1
+Length=2615
+
+ Score = 53.6 bits (127),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 46/184 (25%), Positives = 54/184 (29%), Gaps = 23/184 (13%)
+
+Query  541   GMNGMGGGMGG-GMNGMGGGNGMNNMGNGMGGGMGNGMGGNGMNGMGGGNGMNNMGGNGM  599
+             G+ G  G  G  G  G  G  G      G  G  GN    N + G  G  G     G   
+Sbjct  1482  GIKGEKGDPGSQGSPGSRGAPGQYGE-KGFPGDPGNPGQNNNIKGQKGSKGEQGRQGR--  1538
+
+Query  600   AGNGMGGGMGGNGMGGSMNGMS-------SGVVANVTP---SAAGGMGGM-----MNGGM  644
+               +G  G  G     GS            SG   N  P     A G+ G        G  
+Sbjct  1539  --SGQKGVQGSPSSRGSRGREGQRGLRGVSGEPGNPGPTGTLGAEGLQGPQGSQGNPGRK  1596
+
+Query  645   AAPQSPGMNG--GRLGTNPLFNAAPSPLSSQLGAEAGMGSMGGMGGMSGMGGMGGMGGMG  702
+                 S G  G  G  G      +   P       E G+    G  G +G  G  G  G+ 
+Sbjct  1597  GEKGSQGQKGPQGSPGLMGAKGSTGRPGLLGKKGEPGLPGDLGPVGQTGQRGRQGDSGIP  1656
+
+Query  703   GAGA  706
+             G G 
+Sbjct  1657  GYGQ  1660
+
+
+ Score = 49.0 bits (115),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 41/209 (20%), Positives = 58/209 (28%), Gaps = 25/209 (12%)
+
+Query  515   HIVALVAKMQQMRKMQQMQQIGMMTGGMNGMGGGMGG-----GMNGMGGGNGMNNMGNGM  569
+             +I        +  +  +  Q G+     +    G  G     G++G  G  G        
+Sbjct  1522  NIKGQKGSKGEQGRQGRSGQKGVQGSPSSRGSRGREGQRGLRGVSGEPGNPGPTGTLGAE  1581
+
+Query  570   G-GGMGNGMGGNGMNGMGGGNGMNN-------MGGNGMAGN----------GMGGGMGGN  611
+             G  G     G  G  G  G  G          MG  G  G           G+ G +G  
+Sbjct  1582  GLQGPQGSQGNPGRKGEKGSQGQKGPQGSPGLMGAKGSTGRPGLLGKKGEPGLPGDLGPV  1641
+
+Query  612   GMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPLS  671
+             G  G         +         G+ G       A Q  G  G               L+
+Sbjct  1642  GQTGQRGRQGDSGIPGYGQMGRKGVKGPRGFPGDAGQK-GDIGNPGIPGGPGPKGFRGLA  1700
+
+Query  672   SQLGAEAGMGSMGGMGGMSGMGGMGGMGG  700
+               +G + G     G+ G  G  G+ GM G
+Sbjct  1701  LTVGLK-GEEGSRGLPGPPGQRGIKGMAG  1728
+
+
+> sp|Q966L9|GLH2_CAEEL ATP-dependent RNA helicase glh-2 OS=Caenorhabditis 
+elegans OX=6239 GN=glh-2 PE=1 SV=1
+Length=974
+
+ Score = 51.7 bits (122),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 35/133 (26%), Positives = 38/133 (29%), Gaps = 21/133 (16%)
+
+Query  536  GMMTGGMNGMGGGMGGGMNGMGGGNGMNNMGN--------------------GMGGGMGN  575
+            G    G  G G G  GG     G  G    G+                    G  GG G 
+Sbjct  79   GSGNAGGTGFGSGNAGGTGFGSGNAGGTGFGSGNAGGTGFGGGNAGGTGFGSGNAGGTGL  138
+
+Query  576  GMGGNGMNGMGGGN-GMNNMGGNGMAGNGMGGGMGGNGMGGSMNGMSSGVVANVTPSAAG  634
+            G G  G  G G GN G    G     G G G G  G    GS     +G   N    +  
+Sbjct  139  GSGNAGGTGFGSGNAGGTGFGSGNAGGTGFGSGKAGGTGFGSGKAGGTGFGGNSNSGSGF  198
+
+Query  635  GMGGMMNGGMAAP  647
+            G G     G    
+Sbjct  199  GSGLTNGFGSGNN  211
+
+
+ Score = 49.0 bits (115),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 33/115 (29%), Positives = 38/115 (33%), Gaps = 11/115 (10%)
+
+Query  545  MGGGMGGGMNGMGGGNGMNNMGNGMGGGMGNGMGGNGMNGMGGGNGMNNMGGNGM-----  599
+             G G  GG     G  G    G+G  GG G G G  G  G G GN      G G      
+Sbjct  68   FGNGNAGGTGFGSGNAGGTGFGSGNAGGTGFGSGNAGGTGFGSGNAGGTGFGGGNAGGTG  127
+
+Query  600  --AGNGMGGGMGGNGMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGM  652
+              +GN  G G+G    GG+  G  +          AGG       G       G 
+Sbjct  128  FGSGNAGGTGLGSGNAGGTGFGSGNAGGTGFGSGNAGG----TGFGSGKAGGTGF  178
+
+
+ Score = 45.5 bits (106),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 31/125 (25%), Positives = 37/125 (30%), Gaps = 32/125 (26%)
+
+Query  558  GGNGMNNMGNGMGGGMGNGMGGNGMNGMGGGN-GMNNMGG----------------NGMA  600
+            G  G    G+G  GG G G G  G  G G GN G    G                    +
+Sbjct  71   GNAGGTGFGSGNAGGTGFGSGNAGGTGFGSGNAGGTGFGSGNAGGTGFGGGNAGGTGFGS  130
+
+Query  601  GNGMGGGMGGNGMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLGTN  660
+            GN  G G+G    GG+  G  SG                   G       G   G+ G  
+Sbjct  131  GNAGGTGLGSGNAGGT--GFGSGNAGG------------TGFGSGNAGGTGFGSGKAG-G  175
+
+Query  661  PLFNA  665
+              F +
+Sbjct  176  TGFGS  180
+
+
+ Score = 45.1 bits (105),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 32/127 (25%), Positives = 40/127 (31%), Gaps = 14/127 (11%)
+
+Query  572  GMGNGMGGNGMNGMGGGN-GMNNMGGNGMAGNGMGGGMGGNGMGGSMNGMSSGVVANVTP  630
+            G   G G  G  G G GN G    G     G G G G  G    GS N   +G       
+Sbjct  65   GPRFGNGNAGGTGFGSGNAGGTGFGSGNAGGTGFGSGNAGGTGFGSGNAGGTGFGGGNAG  124
+
+Query  631  SAAGGMGGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPLSSQLGAEAG-MGSMGGMGGM  689
+                G G     G+ +  + G           F +     +   G  +G  G  G   G 
+Sbjct  125  GTGFGSGNAGGTGLGSGNAGG---------TGFGSGN---AGGTGFGSGNAGGTGFGSGK  172
+
+Query  690  SGMGGMG  696
+            +G  G G
+Sbjct  173  AGGTGFG  179
+
+
+> sp|A2AX52|CO6A4_MOUSE Collagen alpha-4(VI) chain OS=Mus musculus 
+OX=10090 GN=Col6a4 PE=1 SV=2
+Length=2309
+
+ Score = 50.9 bits (120),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 40/200 (20%), Positives = 58/200 (29%), Gaps = 25/200 (13%)
+
+Query  541   GMNGMGGGMGGGMNGMGGGNGMNNMGNGMGGGMGN--GMGGNGMNGMGGGNGMNNMGGNG  598
+             G+ G  G    G +G  G  G   +G G+ G  G+    G +G  G  G  G+  + G  
+Sbjct  1462  GVRGPKGAR--GFSGEKGNPGEEGVG-GLDGEQGDRGAAGPSGEKGSSGSRGLTGLPGP-  1517
+
+Query  599   MAGNGMGGGMGGNGMGGSMNGMS-SGVVANVTPSAAG-------GMGGMMN-GGMAAPQS  649
+                    G  G  G+ G         ++                G  G +   G   P+ 
+Sbjct  1518  ------AGPRGEPGLRGDPGDPGIDNLIQGPKGEKGRRGHQGSPGFHGPLGEAGSVGPRG  1571
+
+Query  650   PGMNGGRLGTNPLFNAAPSPLSSQLGAEAGMGSMGGMGGMSGMGGMGGMGGM-GGAGAAT  708
+                  G  G   +        S       G     G  G  G  G  G  G  G  G   
+Sbjct  1572  SLGRHGLPGLKGVLGETGELGSRGEPGHPGPQGPRGRQGPPGFFGQKGDPGTQGNPGLPG  1631
+
+Query  709   TQAAGGNAEAEMLQNLMNEI  728
+                  G+   +  + L  E+
+Sbjct  1632  PS---GSKGPDGPRGLKGEV  1648
+
+
+> sp|A6H584|CO6A5_MOUSE Collagen alpha-5(VI) chain OS=Mus musculus 
+OX=10090 GN=Col6a5 PE=1 SV=4
+Length=2640
+
+ Score = 49.7 bits (117),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 40/181 (22%), Positives = 52/181 (29%), Gaps = 26/181 (14%)
+
+Query  541   GMNGMGGGMG----GGMNGMGGGNG--MNNMGNGMGGGMGNGMGGNGMNGMGGGNGMNNM  594
+             G+ G  G  G     G++G+ G  G      G G  G  GN  G  G+ G  G +G    
+Sbjct  1484  GVKGFSGAQGEHGEDGLDGLDGEEGFYGFRGGKGQKGDPGN-QGYPGIRGAAGEDGEKGF  1542
+
+Query  595   GGN----GMAGN--------------GMGGGMGGNGMGGSMNGMSSGVVANVTPSAAGGM  636
+              G+    G   N              G+ G  G +G   S                +G  
+Sbjct  1543  PGDPGDPGKDSNIKGQKGEKGERGRQGITGQKGTHGRPSSKGSRGMEGQRGPQ-GPSGQA  1601
+
+Query  637   GGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPLSSQLGAEAGMGSMGGMGGMSGMGGMG  696
+             G     G   P+    + G  G         S          G     G  G  G GG  
+Sbjct  1602  GNPGPQGTQGPEGLQGSQGSSGNRGGKGDKGSQGYQGPQGSPGPAGPRGDIGRPGFGGRK  1661
+
+Query  697   G  697
+             G
+Sbjct  1662  G  1662
+
+
+> sp|Q96P44|COLA1_HUMAN Collagen alpha-1(XXI) chain OS=Homo sapiens 
+OX=9606 GN=COL21A1 PE=2 SV=1
+Length=957
+
+ Score = 48.2 bits (113),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 45/185 (24%), Positives = 54/185 (29%), Gaps = 15/185 (8%)
+
+Query  541  GMNGMGGGMGG-GMNGMGGGNGMNNMGNGMGGGMGNGMGGNGMNGMGGGNGMNNMGGNGM  599
+            G++GM G  G  G  G  G  G        G     G  G  + G  G  G +   G  M
+Sbjct  524  GLHGMPGSKGEMGAKGDKGSPGFYGKKGAKGEKGNAGFPG--LPGPAGEPGRHGKDG-LM  580
+
+Query  600  AGNGMGGGMGGNGMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLGT  659
+               G  G  G  G  G         +    P   G MG     G    Q      G  G 
+Sbjct  581  GSPGFKGEAGSPGAPGQDGTRGEPGIPGF-PGNRGLMGQKGEIGPPGQQG---KKGAPGM  636
+
+Query  660  NPLFNAAPSPLSSQLGAEAGMGSMGGMGGMSGMGGMGGMGGM-------GGAGAATTQAA  712
+              L  +  SP         G     G+ GM G  G+ G  G        G  G    Q  
+Sbjct  637  PGLMGSNGSPGQPGTPGSKGSKGEPGIQGMPGASGLKGEPGATGSPGEPGYMGLPGIQGK  696
+
+Query  713  GGNAE  717
+             G+  
+Sbjct  697  KGDKG  701
+
+
+> sp|Q2UY11|COSA1_MOUSE Collagen alpha-1(XXVIII) chain OS=Mus musculus 
+OX=10090 GN=Col28a1 PE=2 SV=1
+Length=1141
+
+ Score = 47.4 bits (111),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 47/187 (25%), Positives = 58/187 (31%), Gaps = 29/187 (16%)
+
+Query  525  QMRKMQQMQQIGMMTGGMNGMGGGMGG-GMNGMGGGNGMNNMGNGMGGGMGNGMGGNGMN  583
+            ++ +M      G M  G+ G  G  G  G+ G  G  G +              G  G  
+Sbjct  482  EVGQMGPTGPRGPMGIGVQGPKGEPGTVGLPGQPGVPGEDGAS-----------GKKGEA  530
+
+Query  584  GMGGGNGMNNMGGNGMAGNGMGGGMGGNGMGGSMNGMSSGVVANVTPSAAGGMGGMM-NG  642
+            G+ G  G   M G G  G       G  G  GS    + G      P    G  G+M   
+Sbjct  531  GLPGTRGPEGMPGKGQPG-----PKGDEGKKGSKG--NQGQRGFPGPEGPKGEPGVMGPF  583
+
+Query  643  GMAAPQSPGMNGGRLGTNPLFNAAPSPLSSQLGAEAGMGSMGGMG--GMSGMGGMGGMGG  700
+            GM     PG               P      L  E G+   G  G  G  G  G  G+ G
+Sbjct  584  GMPGASIPG-----PSGPKGDRGGPG--MPGLKGEPGLPVRGPKGAQGPRGPVGAPGLKG  636
+
+Query  701  MGGAGAA  707
+             G  G A
+Sbjct  637  DGYPGVA  643
+
+
+ Score = 44.3 bits (103),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 50/213 (23%), Positives = 63/213 (30%), Gaps = 34/213 (16%)
+
+Query  525  QMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGGNGMNNMGNGMGGGMGNGMGG-NGMN  583
+            Q     +  Q G M        G +G G  G  G  G      G  G  G G  G  G  
+Sbjct  361  QQGVKGERGQEGRMGAP-----GPIGIGEPGQPGPRGPEGA-PGERGLPGEGFPGPKGEK  414
+
+Query  584  GMGGGNGMNNMGGNGMAGN-------GMGGGMGGNGMGGS---------MNGMSSGVVAN  627
+            G  G  G   + G  + G+       G  G  G  G+G                 G    
+Sbjct  415  GSEGPIGPQGLQGLSIKGDKGDLGPVGPQGPAGIPGIGSQGEQGIQGPSGPPGPQGPPGQ  474
+
+Query  628  VTPSAAGGMGGMMNGGMAAPQSPGMNG--GRLGTNPLFNAAPSPLSSQLGAEAGMGSMGG  685
+             +P   G +G M   G   P   G+ G  G  GT       P           G     G
+Sbjct  475  GSPGPKGEVGQMGPTGPRGPMGIGVQGPKGEPGT-VGLPGQPG--------VPGEDGASG  525
+
+Query  686  MGGMSGMGGMGGMGGMGGAGAATTQAAGGNAEA  718
+              G +G+ G  G  GM G G    +   G   +
+Sbjct  526  KKGEAGLPGTRGPEGMPGKGQPGPKGDEGKKGS  558
+
+
+> sp|Q4WP03|EAF1_ASPFU Chromatin modification-related protein eaf1 
+OS=Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / 
+CBS 101355 / FGSC A1100) OX=330879 GN=eaf1 PE=3 SV=1
+Length=1467
+
+ Score = 47.4 bits (111),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 33/137 (24%), Positives = 40/137 (29%), Gaps = 33/137 (24%)
+
+Query  522   KMQQMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGGNGMNNMG-NGMGGGMGNGMGGN  580
+             +  Q+   Q M         MN   G    G+    G  G+     NGM  GM N +   
+Sbjct  1092  RAGQIPSQQPM---------MNAPPGRTPNGIPHNPGTPGIPGATPNGMHNGMPNALPNG  1142
+
+Query  581   GMNGMGGGNGMNNMGGNGMAGNGMGGGMGGNGMGGSMNGMSSGVVANVTPSAAGGMGGMM  640
+                GMG   G  +M G            GG  M G +            P A   M    
+Sbjct  1143  IPPGMGVSQGRPHMQGV---------PAGGPPMNGPI---------PPNPMAMKMMPQ--  1182
+
+Query  641   NGGMAAPQSPGMNGGRL  657
+                   PQ PG   G  
+Sbjct  1183  ---TGMPQGPGGRPGMP  1196
+
+
+> sp|Q79FI9|PPE34_MYCTU PPE family protein PPE34 OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=PPE34 
+PE=1 SV=1
+Length=1459
+
+ Score = 47.4 bits (111),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 44/188 (23%), Positives = 61/188 (32%), Gaps = 5/188 (3%)
+
+Query  534  QIGMMTGGMNGMGGGMGGGMNGMGGGNGMNNMGNGMGGGMGNGMGGNGMNGMGGGNGMNN  593
+             +G+   G   MG    G +N      G NN G G  G    G+G  G   +G GN  N 
+Sbjct  205  SLGLANSGFGQMGAANLGILNLGSLNPGGNNFGLGNVGSNNVGLGNTGNGNIGFGNTGNG  264
+
+Query  594  MGGNGMAGNGMGGGMGGNGMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMN  653
+              G G+ G+   G  G N   G++   +SG       +   G  G+ N G +     G  
+Sbjct  265  NIGFGLTGDNQQGFGGWNSGTGNIGLFNSGTGNIGIGNTGTGNFGIGNSGTSYNTGIGNT  324
+
+Query  654  GGRLGTNPLFNAAPSPLSSQLGAEAGMGSMGGMGGMSGMGGMG-GMGGMGGAGAATTQAA  712
+            G     N  F  A    ++ +G      +     G    G    G    G          
+Sbjct  325  GQA---NTGFFNA-GIANTGIGNTGNYNTGSFNLGSFNTGDFNTGSSNTGFFNPGNLNTG  380
+
+Query  713  GGNAEAEM  720
+             GN     
+Sbjct  381  VGNTGNVN  388
+
+
+> sp|O43024|YGVA_SCHPO CUE domain-containing protein C354.10 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=SPBC354.10 PE=1 SV=1
+Length=963
+
+ Score = 46.7 bits (109),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 43/201 (21%), Positives = 63/201 (31%), Gaps = 17/201 (8%)
+
+Query  506  SFGQGILPAHIVALVAKMQQMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGGNGMN--  563
+            S+G G +P +            K  Q QQ  M   G N      GG  N        N  
+Sbjct  758  SYGYGTMPYN----------NNKFGQPQQGYMSQSGFNDFPPIFGGHSNVYNRQQPGNVS  807
+
+Query  564  NMGNGMGGGMGNGMGGN--GMNGMGGGNGMNNMGGNGMAG-NGMGGGMGGNGMGGSMNGM  620
+             M         N    N  GM     G+  + +G  G+ G N M   +GG      M   
+Sbjct  808  GMSGTQTSNPINNATANTSGMTEKAAGHRDSVIGNGGVTGANSMSSTLGGLSSMSGMGRA  867
+
+Query  621  SSG-VVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPLSSQLGAEAG  679
+            + G  + NV              G+   Q+P +          F +  + +++     AG
+Sbjct  868  APGMFMGNVGSFENLSANAASPYGLPPQQTP-LTNAATQQTTSFQSNANKVNNANSQPAG  926
+
+Query  680  MGSMGGMGGMSGMGGMGGMGG  700
+                 G    +G  G+GG   
+Sbjct  927  FPFNSGASTNAGSNGLGGYNA  947
+
+
+> sp|Q92125|ANXA7_XENLA Annexin A7 OS=Xenopus laevis OX=8355 GN=anxa7 
+PE=2 SV=1
+Length=512
+
+ Score = 46.3 bits (108),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 42/161 (26%), Positives = 49/161 (30%), Gaps = 15/161 (9%)
+
+Query  547  GGMGGGMNGMGGGNGMNNMGNGMGGGMGNGMGG--------NGMNGMGGGNGMNNMGGNG  598
+            GG  GGM    G  G      G G G   G            G N   GG G  N GG G
+Sbjct  70   GGYPGGMPSYPGAPGFGAPAGGQGYGAPPGAPAYGVPGYGGPGFNAPAGGYGAPNAGGFG  129
+
+Query  599  M-AGNGMGGGMGGNGMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGG-R  656
+            +    G G   G  G GG     S    A       G M G M G M      G   G  
+Sbjct  130  VPPAGGYGSPGGAPGYGGFSQPSSQSYGAG----GPGQMPGQMPGQMPGQAPSGYPSGPA  185
+
+Query  657  LGTNPLFNAAPSPLSSQLGAEAGMGSMGGMGGM-SGMGGMG  696
+                  + AA +     + A     ++     +   M G G
+Sbjct  186  PAQPTPYAAAMTATQGTIKAAPNFDALSDAEKLRKAMKGFG  226
+
+
+> sp|P27393|CO4A2_ASCSU Collagen alpha-2(IV) chain OS=Ascaris suum 
+OX=6253 PE=2 SV=1
+Length=1763
+
+ Score = 45.9 bits (107),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 44/189 (23%), Positives = 64/189 (34%), Gaps = 18/189 (10%)
+
+Query  545   MGGGMGGGMNGMGGGNGMNNMGNGMGGGMGNGMGGNGMNGMGGGNGMNNMGG--NGMAGN  602
+              G     G++G  G  G+     G+ G  G   G +G+ G+ G  G +   G    +   
+Sbjct  1093  PGAPGPKGLDGAPGFPGLKGE-AGLPGAPG-LPGQDGLPGLPGQKGESGFPGQPGLVGPP  1150
+
+Query  603   GMGGGMGGNGMGGSMNGMSSGVVANVT-----PSAAGGMGGMMNGGMAAPQSPGMNGGRL  657
+             G+ G MG  G+ G         +         P   G  G     G+  P  P  + G  
+Sbjct  1151  GLPGKMGAPGIRGEKGDAGLPGLPGERGLDGLPGQKGEAGFPGAPGLPGPVGPKGSAGAP  1210
+
+Query  658   GTN--------PLFNAAPSPLSSQLGA-EAGMGSMGGMGGMSGMGGMGGMGGMGGAGAAT  708
+             G          P     P P   +  A   G     G+ G+ GM G  G+ G+ G    +
+Sbjct  1211  GFPGLKGEPGLPGLEGQPGPRGMKGEAGLPGAPGRDGLPGLPGMKGEAGLPGLPGQPGKS  1270
+
+Query  709   TQAAGGNAE  717
+                  GNA 
+Sbjct  1271  ITGPKGNAG  1279
+
+
+> sp|O76743|GLH4_CAEEL ATP-dependent RNA helicase glh-4 OS=Caenorhabditis 
+elegans OX=6239 GN=glh-4 PE=1 SV=2
+Length=1156
+
+ Score = 45.5 bits (106),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 30/154 (19%), Positives = 44/154 (29%), Gaps = 18/154 (12%)
+
+Query  544  GMGGGMGGGMNGMGGGNGMNNMGNGMGGGMGNGMGGNGM----NGMGGGNGMNNMGGNGM  599
+            G GG    G  G       + +  G GG   +    +G+     G GG       G +  
+Sbjct  408  GFGGASKPGFGGDSSTGFGSGLKAGFGGHRASTAENSGLPTETTGFGGKLPPAGFGASSS  467
+
+Query  600  AGNGMGGGMGGNGMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLGT  659
+              +  G      G GG+      G  +N       G GG  + G     +P         
+Sbjct  468  NESAFGQQ--SKGFGGATKNGFGGDSSNSFGKRDSGFGGPQDQGFGDTDAPS--------  517
+
+Query  660  NPLFNAAPSPLSSQLGAEAGMGSMGGMGGMSGMG  693
+                 +     ++  GA        G G  S  G
+Sbjct  518  ----KSGLGSFNTGGGAVKSAFGAAGFGSSSNFG  547
+
+
+> sp|Q641F3|COLA1_XENLA Collagen alpha-1(XXI) chain OS=Xenopus 
+laevis OX=8355 GN=col21a1 PE=2 SV=1
+Length=957
+
+ Score = 45.1 bits (105),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 45/213 (21%), Positives = 58/213 (27%), Gaps = 17/213 (8%)
+
+Query  502  LEGPSFGQGILPAHIVALVAKMQQMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGGNG  561
+            L GPS   G  PA  +    +           Q G         G     G  G  G  G
+Sbjct  431  LNGPS-DVGGTPAPCICPPGEKGDPGPKGDSGQPGNPGSP-GQPGPDGKHGFQGTSGSPG  488
+
+Query  562  MNNMGNGMGG-GMGNGMGGNGMNGMGGGNGMNNMGGNGMAGNGMGGGMGGNGMGGSMNGM  620
+            +       G  G     G  G +G  G  GM    G      G+ G MG  G  G + G+
+Sbjct  489  IPGSPGVQGPRGFAGLKGNTGQDGEKGDRGMPGFPG-LHGQPGIKGEMGPKGDKGDI-GI  546
+
+Query  621  SSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPLSSQLGAEAGM  680
+                         G  G     G           G  G                  + G 
+Sbjct  547  DGKKGTKGDKGGNGATGKPGRHGEPGSYGKDGIPGYPGQK------------GEEGKPGP  594
+
+Query  681  GSMGGMGGMSGMGGMGGMGGMGGAGAATTQAAG  713
+              M G+ G+ G+ G+ G  G  G    T  +  
+Sbjct  595  PGMEGLRGLPGIPGIPGNDGANGLKGETGLSGE  627
+
+
+> sp|Q9UTK4|NU189_SCHPO Nucleoporin nup189 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=nup189 PE=1 
+SV=2
+Length=1807
+
+ Score = 44.3 bits (103),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 42/206 (20%), Positives = 59/206 (29%), Gaps = 14/206 (7%)
+
+Query  513  PAHIVALVAKMQQMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGGNGMNNMGNGMGGG  572
+              +  +              Q  G+     N  G  + G  N    G G N      G  
+Sbjct  3    GQNNSSGFGGGTGAFGQNNQQTGGLFGSNSNTPGNTLFGSQNTSTTGFGQNTTQPLFGSN  62
+
+Query  573  MGNGMGGNGMNGMGGGNGMNNMGGNGMAGNGMGGGMGGNGMGGSMNGMSSGVVANVTPSA  632
+                    G+ G           G GM+         G GM G  N  + G   N T  +
+Sbjct  63   T-----NGGLFGNRNNTTTTGGTGFGMSS--------GTGMFGQSNTPAFGGTNNATNPS  109
+
+Query  633  AGGMGGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPLSSQLGAEAGMGSMGGMGGMSGM  692
+             GG+ G       A      + G    +  F    S   +  G      + G   G +G 
+Sbjct  110  GGGLFGSNTANNNANTGTSFSFGSNAGSTGFGNTASNTGTGGGLFGSQNNAGNTAGNTGF  169
+
+Query  693  GGMGGMGGM-GGAGAATTQAAGGNAE  717
+            G  G  GG+ G +    T  A G + 
+Sbjct  170  GSQGTGGGLFGSSTTPATTNAFGTSG  195
+
+
+> sp|Q17602|NU214_CAEEL Nuclear pore complex protein 14 OS=Caenorhabditis 
+elegans OX=6239 GN=npp-14 PE=1 SV=1
+Length=1390
+
+ Score = 44.0 bits (102),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 23/120 (19%), Positives = 40/120 (33%), Gaps = 6/120 (5%)
+
+Query  604   MGGGMGG--NGMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLGTNP  661
+              GGG+         S N   +      TP+ A     +  GG  A  SP  + G+ G  P
+Sbjct  1073  FGGGLKTQTPSSSNSTNIFGARTTTTATPTPASNTSSIFGGGSKAASSPFGSFGQAGCQP  1132
+
+Query  662   LFNAAPSPLSSQLGAEAGMGSMGGMGGMSGMGGMGGMGGMGGAGAATTQAAGGNAEAEML  721
+                + P+  ++ +      G+       +G G      G G +   ++   G      + 
+Sbjct  1133  AKTSNPATSTASVTFSFNTGATSASAKPAGFGSF----GAGASAKPSSVFGGSVTAPTVP  1188
+
+
+> sp|G0S381|AMO1_CHATD Nucleoporin AMO1 OS=Chaetomium thermophilum 
+(strain DSM 1495 / CBS 144.50 / IMI 039719) OX=759272 GN=AMO1 
+PE=3 SV=1
+Length=557
+
+ Score = 43.2 bits (100),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 37/236 (16%), Positives = 53/236 (22%), Gaps = 23/236 (10%)
+
+Query  507  FGQGILPAHIVALVAKMQQMRKMQQMQQIGMMTGGMNGMGGGMGGGMNGMGGGNGMNNMG  566
+            F Q                     Q   +G  +        G         G       G
+Sbjct  180  FQQSSAAPLNPFGAPSTPSTSAFGQPSPLGQKSSAFGTPAFGQPSQPVSAFGKPSALGGG  239
+
+Query  567  NGMGGGMGNGMGGN--GMNGMGGGNGMNNMG-------GNGMAGNGMGGGMG-GNGMGGS  616
+            +  G        G    +       G    G         G +  G    +G   G  G+
+Sbjct  240  SAFGSPQTGSTFGQPSVLGAKPSAFGQPAFGQPAFGQPAFGQSAFGQPSALGPKPGAFGT  299
+
+Query  617  MNGMSSGVVANVTPS----AAGGMGGMMNGGMAAPQ---------SPGMNGGRLGTNPLF  663
+              G + G      PS    AA         G  + Q         +P    G+  T    
+Sbjct  300  SAGSAFGASTTTAPSPFGAAAQATQPANPFGQPSQQAANSFGKPAAPASAFGQPSTTTAQ  359
+
+Query  664  NAAPSPLSSQLGAEAGMGSMGGMGGMSGMGGMGGMGGMGGAGAATTQAAGGNAEAE  719
+            N    P +             G  G   + G          G  +T +A G+  A 
+Sbjct  360  NPFGQPSTQSSAFGQQQPQQAGTFGSPSLFGQQQQQPSNVFGQPSTTSAFGSQAAT  415
+
+
+> sp|Q6NU13|SPT2_XENLA Protein SPT2 homolog OS=Xenopus laevis OX=8355 
+GN=spty2d1 PE=2 SV=1
+Length=800
+
+ Score = 43.2 bits (100),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 35/168 (21%), Positives = 50/168 (30%), Gaps = 15/168 (9%)
+
+Query  551  GGMNGMGGGNGMNNMGNGMGGGMGNGMGGNGMNGMGGGNGMNNMGGNGMAGNGMGGGMGG  610
+             G  G G   G +  G+    G      G      G G   +       +G       G 
+Sbjct  380  TGATGSGKPTGASGSGSARSVGESGSRSGKPTGASGSGLARSVGASGSGSGK----PTGA  435
+
+Query  611  NGMGGSMNGMSSGVVANVTPSAAGGMGGMMNGGMAAPQSPGMNGGRLGTNPLFNAAPSPL  670
+               G       SG   +V  S +G   G    G A       + G  G+     A+ S  
+Sbjct  436  TDSGRPTGVSGSGSARSVGASGSGKPTGASVSGSA------RSVGASGSGKPTGASGSGS  489
+
+Query  671  SSQLGAEAGMGSMGGMGGMSGMGGMGGMGGMGGAGAATTQAAGGNAEA  718
+            +  +GA     S    G  +G  G G   G  GA +       G+  +
+Sbjct  490  ARSVGA-----SRSVSGKPTGASGSGKPTGAPGASSGKPAGVSGSVSS  532
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.129    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0394    0.140     1.90     42.6     43.6 
+
+Effective search space used: 79590066948
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,933 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q59646|3o0rC
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q59646|NORC_PSEAE Nitric oxide reductase subunit C OS=Pseudo...  305     5e-106
+  sp|Q52527|NORC_PSEST Nitric oxide reductase subunit C OS=Pseudo...  253     2e-85 
+  sp|Q51662|NORC_PARDE Nitric oxide reductase subunit C OS=Paraco...  153     3e-46 
+  sp|O06844|NORC_RHOS5 Nitric oxide reductase subunit C OS=Rhodob...  144     9e-43 
+  sp|O50651|NORC_HALHD Nitric oxide reductase subunit C OS=Halomo...  125     2e-35 
+  sp|Q04441|COX2_BACPE Cytochrome c oxidase subunit 2 OS=Bacillus...  39.7    0.003 
+
+
+> sp|Q59646|NORC_PSEAE Nitric oxide reductase subunit C OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=norC PE=1 SV=3
+Length=146
+
+ Score = 305 bits (782),  Expect = 5e-106, Method: Compositional matrix adjust.
+ Identities = 146/146 (100%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+            MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN
+Sbjct  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+
+Query  61   CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG  120
+            CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG
+Sbjct  61   CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG  120
+
+Query  121  QVDDLAEFLKWSSKIDTNQWPPNKEG  146
+            QVDDLAEFLKWSSKIDTNQWPPNKEG
+Sbjct  121  QVDDLAEFLKWSSKIDTNQWPPNKEG  146
+
+
+> sp|Q52527|NORC_PSEST Nitric oxide reductase subunit C OS=Pseudomonas 
+stutzeri OX=316 GN=norC PE=1 SV=3
+Length=146
+
+ Score = 253 bits (647),  Expect = 2e-85, Method: Compositional matrix adjust.
+ Identities = 118/146 (81%), Positives = 127/146 (87%), Gaps = 0/146 (0%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+            MSETFTKGMARNIYFGGSVFF L+FL LTYHTE+T PERTNE+ M+ AVVRGK VWE NN
+Sbjct  1    MSETFTKGMARNIYFGGSVFFFLVFLGLTYHTEQTFPERTNESEMTEAVVRGKEVWENNN  60
+
+Query  61   CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG  120
+            C+GCH+LLGEGAYFAPELGNV  RRGGEE F  FL AWM  QPL  PGRRAMPQF+LSE 
+Sbjct  61   CIGCHSLLGEGAYFAPELGNVFVRRGGEETFKPFLHAWMKAQPLGAPGRRAMPQFNLSEQ  120
+
+Query  121  QVDDLAEFLKWSSKIDTNQWPPNKEG  146
+            QVDD+AEFLKW+SKIDTN WPPNKEG
+Sbjct  121  QVDDMAEFLKWTSKIDTNDWPPNKEG  146
+
+
+> sp|Q51662|NORC_PARDE Nitric oxide reductase subunit C OS=Paracoccus 
+denitrificans OX=266 GN=norC PE=3 SV=3
+Length=150
+
+ Score = 153 bits (387),  Expect = 3e-46, Method: Compositional matrix adjust.
+ Identities = 74/151 (49%), Positives = 102/151 (68%), Gaps = 6/151 (4%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTE-KTLPERTNEAAMSAAVVRGKLVWEQN  59
+            MSE  TK MARN+++GGS+FFIL+F ALT H+      +  +E+ ++ +VV GK +WE+N
+Sbjct  1    MSEIMTKNMARNVFYGGSIFFILIFGALTVHSHIYARTKAVDESQLTPSVVEGKHIWERN  60
+
+Query  60   NCVGCHTLLGEGAYFAPELGNVVGRRGGEE----GFNTFLQAWMNIQPLNVPGRRAMPQF  115
+             C+ CHTLLGEGAYFAPELGNV+ R G ++     F T L+ WM   P  + GRR MP+F
+Sbjct  61   ACIDCHTLLGEGAYFAPELGNVMKRWGVQDDPDSAFET-LKGWMESMPTGIEGRRQMPRF  119
+
+Query  116  HLSEGQVDDLAEFLKWSSKIDTNQWPPNKEG  146
+             L++ +   L++FL W+  I+T  WPPN  G
+Sbjct  120  DLTDEEFRALSDFLLWTGTINTQNWPPNDAG  150
+
+
+> sp|O06844|NORC_RHOS5 Nitric oxide reductase subunit C OS=Rhodobacter 
+sphaeroides (strain ATCC 17025 / ATH 2.4.3) OX=349102 
+GN=norC PE=3 SV=4
+Length=147
+
+ Score = 144 bits (364),  Expect = 9e-43, Method: Compositional matrix adjust.
+ Identities = 69/149 (46%), Positives = 96/149 (64%), Gaps = 5/149 (3%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+            MSE  TK  ARN+++GGS+FFI +F+ LT  +   +   T   A++  V+ GK VWE+N+
+Sbjct  1    MSEILTKSRARNVFYGGSLFFIAVFVGLTVQSHNYVVSTT--PALTDEVILGKHVWERNS  58
+
+Query  61   CVGCHTLLGEGAYFAPELGNVVGRRG---GEEGFNTFLQAWMNIQPLNVPGRRAMPQFHL  117
+            C+ CHTL GEGAYFAPE+GNV+ R G     +     L  WM+ QP  V GRR MP F L
+Sbjct  59   CINCHTLHGEGAYFAPEVGNVMTRWGVLDDPDAAAEMLGGWMDAQPSGVEGRRQMPHFEL  118
+
+Query  118  SEGQVDDLAEFLKWSSKIDTNQWPPNKEG  146
+            ++ +   L+EFL+W+ +++T  WPPN  G
+Sbjct  119  TDEEKRGLSEFLRWADQMNTQSWPPNDAG  147
+
+
+> sp|O50651|NORC_HALHD Nitric oxide reductase subunit C OS=Halomonas 
+halodenitrificans OX=28252 GN=norC PE=3 SV=2
+Length=150
+
+ Score = 125 bits (315),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 67/150 (45%), Positives = 95/150 (63%), Gaps = 4/150 (3%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPER-TNEAAMSAAVVRGKLVWEQN  59
+            M++  TK  ARNI++GGS+FF LLF ALT H+   +  + T+   ++ +VV GK +WE+N
+Sbjct  1    MADGLTKSAARNIFYGGSLFFFLLFAALTAHSHWYMVNKSTDNEGLTESVVAGKHIWEKN  60
+
+Query  60   NCVGCHTLLGEGAYFAPELGNVVGRRGGE---EGFNTFLQAWMNIQPLNVPGRRAMPQFH  116
+             C+ CH+++GEGAYFAPEL NV  R GG    E     L AW+  QPL   GRR MP + 
+Sbjct  61   MCINCHSIMGEGAYFAPELSNVWERYGGHQNPEAARAGLAAWIRAQPLGTQGRRQMPAYD  120
+
+Query  117  LSEGQVDDLAEFLKWSSKIDTNQWPPNKEG  146
+             ++ ++  L +FL+W+  ID   WPP+  G
+Sbjct  121  FTDEEMSSLIDFLEWTDGIDDQDWPPHPAG  150
+
+
+> sp|Q04441|COX2_BACPE Cytochrome c oxidase subunit 2 OS=Bacillus 
+pseudofirmus (strain OF4) OX=398511 GN=ctaC PE=1 SV=1
+Length=342
+
+ Score = 39.7 bits (91),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 25/84 (30%), Positives = 43/84 (51%), Gaps = 5/84 (6%)
+
+Query  51   RGKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRR---GGEEGFNTFLQAWMNIQPLNVP  107
+            +G+ V+E+N+C+GCH + G G    P   N   R    G  E  +  L+AW+   P ++ 
+Sbjct  254  QGRQVFEENSCIGCHAVGGTGTAAGPAFTNFGEREVIAGYLENNDENLEAWIR-DPQSLK  312
+
+Query  108  GRRAMPQF-HLSEGQVDDLAEFLK  130
+                MP +  +SE  ++ L  +L+
+Sbjct  313  QGNVMPAYPDMSEEDMEALIAYLR  336
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5625152160
+Results from round 2
+
+
+Query= Q59646|3o0rC
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q52527|NORC_PSEST Nitric oxide reductase subunit C OS=Pseudo...  259     8e-88
+  sp|Q59646|NORC_PSEAE Nitric oxide reductase subunit C OS=Pseudo...  256     8e-87
+  sp|Q51662|NORC_PARDE Nitric oxide reductase subunit C OS=Paraco...  246     2e-82
+  sp|O06844|NORC_RHOS5 Nitric oxide reductase subunit C OS=Rhodob...  244     7e-82
+  sp|O50651|NORC_HALHD Nitric oxide reductase subunit C OS=Halomo...  221     1e-72
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q04441|COX2_BACPE Cytochrome c oxidase subunit 2 OS=Bacillus...  54.7    3e-08
+  sp|P95339|CY552_NITEU Cytochrome c-552 OS=Nitrosomonas europaea...  47.4    2e-06
+  sp|P24011|COX2_BACSU Cytochrome c oxidase subunit 2 OS=Bacillus...  45.8    3e-05
+  sp|P00102|CY551_PSEME Cytochrome c-551 OS=Pseudomonas mendocina...  42.7    4e-05
+  sp|P00104|CY551_AZOVI Cytochrome c-551 OS=Azotobacter vinelandi...  38.9    0.002
+
+
+> sp|Q52527|NORC_PSEST Nitric oxide reductase subunit C OS=Pseudomonas 
+stutzeri OX=316 GN=norC PE=1 SV=3
+Length=146
+
+ Score = 259 bits (662),  Expect = 8e-88, Method: Composition-based stats.
+ Identities = 118/146 (81%), Positives = 127/146 (87%), Gaps = 0/146 (0%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+            MSETFTKGMARNIYFGGSVFF L+FL LTYHTE+T PERTNE+ M+ AVVRGK VWE NN
+Sbjct  1    MSETFTKGMARNIYFGGSVFFFLVFLGLTYHTEQTFPERTNESEMTEAVVRGKEVWENNN  60
+
+Query  61   CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG  120
+            C+GCH+LLGEGAYFAPELGNV  RRGGEE F  FL AWM  QPL  PGRRAMPQF+LSE 
+Sbjct  61   CIGCHSLLGEGAYFAPELGNVFVRRGGEETFKPFLHAWMKAQPLGAPGRRAMPQFNLSEQ  120
+
+Query  121  QVDDLAEFLKWSSKIDTNQWPPNKEG  146
+            QVDD+AEFLKW+SKIDTN WPPNKEG
+Sbjct  121  QVDDMAEFLKWTSKIDTNDWPPNKEG  146
+
+
+> sp|Q59646|NORC_PSEAE Nitric oxide reductase subunit C OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=norC PE=1 SV=3
+Length=146
+
+ Score = 256 bits (655),  Expect = 8e-87, Method: Composition-based stats.
+ Identities = 146/146 (100%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+            MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN
+Sbjct  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+
+Query  61   CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG  120
+            CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG
+Sbjct  61   CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG  120
+
+Query  121  QVDDLAEFLKWSSKIDTNQWPPNKEG  146
+            QVDDLAEFLKWSSKIDTNQWPPNKEG
+Sbjct  121  QVDDLAEFLKWSSKIDTNQWPPNKEG  146
+
+
+> sp|Q51662|NORC_PARDE Nitric oxide reductase subunit C OS=Paracoccus 
+denitrificans OX=266 GN=norC PE=3 SV=3
+Length=150
+
+ Score = 246 bits (627),  Expect = 2e-82, Method: Composition-based stats.
+ Identities = 72/150 (48%), Positives = 99/150 (66%), Gaps = 4/150 (3%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTE-KTLPERTNEAAMSAAVVRGKLVWEQN  59
+            MSE  TK MARN+++GGS+FFIL+F ALT H+      +  +E+ ++ +VV GK +WE+N
+Sbjct  1    MSEIMTKNMARNVFYGGSIFFILIFGALTVHSHIYARTKAVDESQLTPSVVEGKHIWERN  60
+
+Query  60   NCVGCHTLLGEGAYFAPELGNVVGRRG---GEEGFNTFLQAWMNIQPLNVPGRRAMPQFH  116
+             C+ CHTLLGEGAYFAPELGNV+ R G     +     L+ WM   P  + GRR MP+F 
+Sbjct  61   ACIDCHTLLGEGAYFAPELGNVMKRWGVQDDPDSAFETLKGWMESMPTGIEGRRQMPRFD  120
+
+Query  117  LSEGQVDDLAEFLKWSSKIDTNQWPPNKEG  146
+            L++ +   L++FL W+  I+T  WPPN  G
+Sbjct  121  LTDEEFRALSDFLLWTGTINTQNWPPNDAG  150
+
+
+> sp|O06844|NORC_RHOS5 Nitric oxide reductase subunit C OS=Rhodobacter 
+sphaeroides (strain ATCC 17025 / ATH 2.4.3) OX=349102 
+GN=norC PE=3 SV=4
+Length=147
+
+ Score = 244 bits (623),  Expect = 7e-82, Method: Composition-based stats.
+ Identities = 69/149 (46%), Positives = 96/149 (64%), Gaps = 5/149 (3%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+            MSE  TK  ARN+++GGS+FFI +F+ LT  +   +   T   A++  V+ GK VWE+N+
+Sbjct  1    MSEILTKSRARNVFYGGSLFFIAVFVGLTVQSHNYVVSTT--PALTDEVILGKHVWERNS  58
+
+Query  61   CVGCHTLLGEGAYFAPELGNVVGRRG---GEEGFNTFLQAWMNIQPLNVPGRRAMPQFHL  117
+            C+ CHTL GEGAYFAPE+GNV+ R G     +     L  WM+ QP  V GRR MP F L
+Sbjct  59   CINCHTLHGEGAYFAPEVGNVMTRWGVLDDPDAAAEMLGGWMDAQPSGVEGRRQMPHFEL  118
+
+Query  118  SEGQVDDLAEFLKWSSKIDTNQWPPNKEG  146
+            ++ +   L+EFL+W+ +++T  WPPN  G
+Sbjct  119  TDEEKRGLSEFLRWADQMNTQSWPPNDAG  147
+
+
+> sp|O50651|NORC_HALHD Nitric oxide reductase subunit C OS=Halomonas 
+halodenitrificans OX=28252 GN=norC PE=3 SV=2
+Length=150
+
+ Score = 221 bits (562),  Expect = 1e-72, Method: Composition-based stats.
+ Identities = 67/150 (45%), Positives = 95/150 (63%), Gaps = 4/150 (3%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPER-TNEAAMSAAVVRGKLVWEQN  59
+            M++  TK  ARNI++GGS+FF LLF ALT H+   +  + T+   ++ +VV GK +WE+N
+Sbjct  1    MADGLTKSAARNIFYGGSLFFFLLFAALTAHSHWYMVNKSTDNEGLTESVVAGKHIWEKN  60
+
+Query  60   NCVGCHTLLGEGAYFAPELGNVVGRRGGE---EGFNTFLQAWMNIQPLNVPGRRAMPQFH  116
+             C+ CH+++GEGAYFAPEL NV  R GG    E     L AW+  QPL   GRR MP + 
+Sbjct  61   MCINCHSIMGEGAYFAPELSNVWERYGGHQNPEAARAGLAAWIRAQPLGTQGRRQMPAYD  120
+
+Query  117  LSEGQVDDLAEFLKWSSKIDTNQWPPNKEG  146
+             ++ ++  L +FL+W+  ID   WPP+  G
+Sbjct  121  FTDEEMSSLIDFLEWTDGIDDQDWPPHPAG  150
+
+
+> sp|Q04441|COX2_BACPE Cytochrome c oxidase subunit 2 OS=Bacillus 
+pseudofirmus (strain OF4) OX=398511 GN=ctaC PE=1 SV=1
+Length=342
+
+ Score = 54.7 bits (130),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 25/84 (30%), Positives = 43/84 (51%), Gaps = 5/84 (6%)
+
+Query  51   RGKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRR---GGEEGFNTFLQAWMNIQPLNVP  107
+            +G+ V+E+N+C+GCH + G G    P   N   R    G  E  +  L+AW+   P ++ 
+Sbjct  254  QGRQVFEENSCIGCHAVGGTGTAAGPAFTNFGEREVIAGYLENNDENLEAWIR-DPQSLK  312
+
+Query  108  GRRAMPQF-HLSEGQVDDLAEFLK  130
+                MP +  +SE  ++ L  +L+
+Sbjct  313  QGNVMPAYPDMSEEDMEALIAYLR  336
+
+
+> sp|P95339|CY552_NITEU Cytochrome c-552 OS=Nitrosomonas europaea 
+(strain ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC 14298) 
+OX=228410 GN=cyt PE=1 SV=2
+Length=103
+
+ Score = 47.4 bits (111),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 17/75 (23%), Positives = 35/75 (47%), Gaps = 3/75 (4%)
+
+Query  57   EQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAM-PQF  115
+            ++NNC+ CH +  E     P L ++  +   ++   T+L   +      V G+  M P  
+Sbjct  28   KKNNCIACHQV--ETKVVGPALKDIAAKYADKDDAATYLAGKIKGGSSGVWGQIPMPPNV  85
+
+Query  116  HLSEGQVDDLAEFLK  130
+            ++S+     LA+++ 
+Sbjct  86   NVSDADAKALADWIL  100
+
+
+> sp|P24011|COX2_BACSU Cytochrome c oxidase subunit 2 OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ctaC PE=3 SV=2
+Length=356
+
+ Score = 45.8 bits (107),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 27/115 (23%), Positives = 50/115 (43%), Gaps = 14/115 (12%)
+
+Query  25   FLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNNCVGCHTL-----LGEGAYFAPELG  79
+            F   T   +    + T E+ ++    +G+ ++++ NC+ CH +       E A  AP L 
+Sbjct  240  FQGWTKEMKNY--KSTAESDLAK---QGEELFKEKNCLSCHAVEPNDKRAEAARTAPNLA  294
+
+Query  80   NVVGRR---GGEEGFNTFLQAWMNIQPLNVPGRRAMPQF-HLSEGQVDDLAEFLK  130
+                R    G +E     ++AW+       PG +    +  LS+ + + L E+LK
+Sbjct  295  TFGERTKVAGVKEANKENVKAWLKDPDSIKPGNKMTGTYPKLSDSETNALYEYLK  349
+
+
+> sp|P00102|CY551_PSEME Cytochrome c-551 OS=Pseudomonas mendocina 
+OX=300 PE=1 SV=1
+Length=82
+
+ Score = 42.7 bits (99),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 34/79 (43%), Gaps = 2/79 (3%)
+
+Query  52   GKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRA  111
+            G+ +++   C  CH++  +     P L +V  +  G +G    L   +      V G   
+Sbjct  3    GEELFKSKPCGACHSV--QAKLVGPALKDVAAKNAGVDGAADVLAGHIKNGSTGVWGAMP  60
+
+Query  112  MPQFHLSEGQVDDLAEFLK  130
+            MP   ++E +   LAE++ 
+Sbjct  61   MPPNPVTEEEAKTLAEWVL  79
+
+
+> sp|P00104|CY551_AZOVI Cytochrome c-551 OS=Azotobacter vinelandii 
+OX=354 PE=1 SV=1
+Length=82
+
+ Score = 38.9 bits (89),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 32/79 (41%), Gaps = 2/79 (3%)
+
+Query  52   GKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRA  111
+            G+ +++   C  CH +  +     P    V  +  G+ G    L A +        G+  
+Sbjct  3    GEELYKTKGCTVCHAI--DSKLVGPSFKEVTAKYAGQAGIADTLAAKIKAGGSGNWGQIP  60
+
+Query  112  MPQFHLSEGQVDDLAEFLK  130
+            MP   +SE +   LAE++ 
+Sbjct  61   MPPNPVSEAEAKTLAEWVL  79
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.134    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5625152160
+Results from round 3
+
+
+Query= Q59646|3o0rC
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q52527|NORC_PSEST Nitric oxide reductase subunit C OS=Pseudo...  233     1e-77
+  sp|Q59646|NORC_PSEAE Nitric oxide reductase subunit C OS=Pseudo...  227     3e-75
+  sp|Q51662|NORC_PARDE Nitric oxide reductase subunit C OS=Paraco...  224     9e-74
+  sp|O06844|NORC_RHOS5 Nitric oxide reductase subunit C OS=Rhodob...  218     1e-71
+  sp|O50651|NORC_HALHD Nitric oxide reductase subunit C OS=Halomo...  196     8e-63
+  sp|P24011|COX2_BACSU Cytochrome c oxidase subunit 2 OS=Bacillus...  110     5e-28
+  sp|P00102|CY551_PSEME Cytochrome c-551 OS=Pseudomonas mendocina...  100     3e-26
+  sp|P00104|CY551_AZOVI Cytochrome c-551 OS=Azotobacter vinelandi...  97.1    5e-25
+  sp|P95339|CY552_NITEU Cytochrome c-552 OS=Nitrosomonas europaea...  93.6    2e-23
+  sp|Q04441|COX2_BACPE Cytochrome c oxidase subunit 2 OS=Bacillus...  97.1    3e-23
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P00101|CY551_PSEST Cytochrome c-551 OS=Pseudomonas stutzeri ...  95.1    5e-24
+  sp|P15452|CY552_HYDTT Cytochrome c-552 OS=Hydrogenobacter therm...  85.5    2e-20
+  sp|P00100|CY551_PSEFC Cytochrome c-551 OS=Pseudomonas fluoresce...  83.6    7e-20
+  sp|P00099|CY551_PSEAE Cytochrome c-551 OS=Pseudomonas aeruginos...  80.9    1e-18
+  sp|P00103|CY551_PSEDE Cytochrome c-551 OS=Pseudomonas denitrifi...  77.4    1e-17
+  sp|P80549|CY551_ALLVD Cytochrome c-551 OS=Allochromatium vinosu...  69.0    3e-14
+  sp|Q03438|COX2_BACP3 Cytochrome c oxidase subunit 2 OS=Bacillus...  67.8    1e-12
+  sp|P00098|CYC2_RHOTE Cytochrome c2 OS=Rhodocyclus tenuis OX=106...  62.0    7e-12
+  sp|P00097|CYC2_RUBGE Cytochrome c2 OS=Rubrivivax gelatinosus OX...  51.6    4e-08
+  sp|O34594|CY551_BACSU Cytochrome c-551 OS=Bacillus subtilis (st...  45.5    7e-06
+  sp|P42351|C55L_SYNY3 Cytochrome c-553-like OS=Synechocystis sp....  42.8    7e-05
+  sp|D0K261|CCOP_HELP5 Cbb3-type cytochrome c oxidase subunit Cco...  44.3    1e-04
+  sp|P24469|C550_BACSU Cytochrome c-550 OS=Bacillus subtilis (str...  41.6    3e-04
+  sp|P04369|C555_METCA Cytochrome c-555 OS=Methylococcus capsulat...  41.6    3e-04
+  sp|O87196|CCOP_HELPX Cbb3-type cytochrome c oxidase subunit Cco...  42.4    4e-04
+  sp|D5WYQ5|TSDA_THIK1 Thiosulfate dehydrogenase OS=Thiomonas int...  40.1    0.003
+  sp|Q934G0|LUH_PSESP Lupanine 17-hydroxylase [cytochrome c] OS=P...  40.1    0.004
+  sp|P00028|CYC_LAMTR Cytochrome c OS=Lampetra tridentata OX=2450...  38.1    0.004
+
+
+> sp|Q52527|NORC_PSEST Nitric oxide reductase subunit C OS=Pseudomonas 
+stutzeri OX=316 GN=norC PE=1 SV=3
+Length=146
+
+ Score = 233 bits (595),  Expect = 1e-77, Method: Composition-based stats.
+ Identities = 118/146 (81%), Positives = 127/146 (87%), Gaps = 0/146 (0%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+            MSETFTKGMARNIYFGGSVFF L+FL LTYHTE+T PERTNE+ M+ AVVRGK VWE NN
+Sbjct  1    MSETFTKGMARNIYFGGSVFFFLVFLGLTYHTEQTFPERTNESEMTEAVVRGKEVWENNN  60
+
+Query  61   CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG  120
+            C+GCH+LLGEGAYFAPELGNV  RRGGEE F  FL AWM  QPL  PGRRAMPQF+LSE 
+Sbjct  61   CIGCHSLLGEGAYFAPELGNVFVRRGGEETFKPFLHAWMKAQPLGAPGRRAMPQFNLSEQ  120
+
+Query  121  QVDDLAEFLKWSSKIDTNQWPPNKEG  146
+            QVDD+AEFLKW+SKIDTN WPPNKEG
+Sbjct  121  QVDDMAEFLKWTSKIDTNDWPPNKEG  146
+
+
+> sp|Q59646|NORC_PSEAE Nitric oxide reductase subunit C OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=norC PE=1 SV=3
+Length=146
+
+ Score = 227 bits (579),  Expect = 3e-75, Method: Composition-based stats.
+ Identities = 146/146 (100%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+            MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN
+Sbjct  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+
+Query  61   CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG  120
+            CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG
+Sbjct  61   CVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEG  120
+
+Query  121  QVDDLAEFLKWSSKIDTNQWPPNKEG  146
+            QVDDLAEFLKWSSKIDTNQWPPNKEG
+Sbjct  121  QVDDLAEFLKWSSKIDTNQWPPNKEG  146
+
+
+> sp|Q51662|NORC_PARDE Nitric oxide reductase subunit C OS=Paracoccus 
+denitrificans OX=266 GN=norC PE=3 SV=3
+Length=150
+
+ Score = 224 bits (570),  Expect = 9e-74, Method: Composition-based stats.
+ Identities = 72/150 (48%), Positives = 99/150 (66%), Gaps = 4/150 (3%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTE-KTLPERTNEAAMSAAVVRGKLVWEQN  59
+            MSE  TK MARN+++GGS+FFIL+F ALT H+      +  +E+ ++ +VV GK +WE+N
+Sbjct  1    MSEIMTKNMARNVFYGGSIFFILIFGALTVHSHIYARTKAVDESQLTPSVVEGKHIWERN  60
+
+Query  60   NCVGCHTLLGEGAYFAPELGNVVGRRG---GEEGFNTFLQAWMNIQPLNVPGRRAMPQFH  116
+             C+ CHTLLGEGAYFAPELGNV+ R G     +     L+ WM   P  + GRR MP+F 
+Sbjct  61   ACIDCHTLLGEGAYFAPELGNVMKRWGVQDDPDSAFETLKGWMESMPTGIEGRRQMPRFD  120
+
+Query  117  LSEGQVDDLAEFLKWSSKIDTNQWPPNKEG  146
+            L++ +   L++FL W+  I+T  WPPN  G
+Sbjct  121  LTDEEFRALSDFLLWTGTINTQNWPPNDAG  150
+
+
+> sp|O06844|NORC_RHOS5 Nitric oxide reductase subunit C OS=Rhodobacter 
+sphaeroides (strain ATCC 17025 / ATH 2.4.3) OX=349102 
+GN=norC PE=3 SV=4
+Length=147
+
+ Score = 218 bits (555),  Expect = 1e-71, Method: Composition-based stats.
+ Identities = 69/149 (46%), Positives = 96/149 (64%), Gaps = 5/149 (3%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNN  60
+            MSE  TK  ARN+++GGS+FFI +F+ LT  +   +   T   A++  V+ GK VWE+N+
+Sbjct  1    MSEILTKSRARNVFYGGSLFFIAVFVGLTVQSHNYVVSTT--PALTDEVILGKHVWERNS  58
+
+Query  61   CVGCHTLLGEGAYFAPELGNVVGRRG---GEEGFNTFLQAWMNIQPLNVPGRRAMPQFHL  117
+            C+ CHTL GEGAYFAPE+GNV+ R G     +     L  WM+ QP  V GRR MP F L
+Sbjct  59   CINCHTLHGEGAYFAPEVGNVMTRWGVLDDPDAAAEMLGGWMDAQPSGVEGRRQMPHFEL  118
+
+Query  118  SEGQVDDLAEFLKWSSKIDTNQWPPNKEG  146
+            ++ +   L+EFL+W+ +++T  WPPN  G
+Sbjct  119  TDEEKRGLSEFLRWADQMNTQSWPPNDAG  147
+
+
+> sp|O50651|NORC_HALHD Nitric oxide reductase subunit C OS=Halomonas 
+halodenitrificans OX=28252 GN=norC PE=3 SV=2
+Length=150
+
+ Score = 196 bits (497),  Expect = 8e-63, Method: Composition-based stats.
+ Identities = 67/150 (45%), Positives = 95/150 (63%), Gaps = 4/150 (3%)
+
+Query  1    MSETFTKGMARNIYFGGSVFFILLFLALTYHTEKTLP-ERTNEAAMSAAVVRGKLVWEQN  59
+            M++  TK  ARNI++GGS+FF LLF ALT H+   +  + T+   ++ +VV GK +WE+N
+Sbjct  1    MADGLTKSAARNIFYGGSLFFFLLFAALTAHSHWYMVNKSTDNEGLTESVVAGKHIWEKN  60
+
+Query  60   NCVGCHTLLGEGAYFAPELGNVVGRRGG---EEGFNTFLQAWMNIQPLNVPGRRAMPQFH  116
+             C+ CH+++GEGAYFAPEL NV  R GG    E     L AW+  QPL   GRR MP + 
+Sbjct  61   MCINCHSIMGEGAYFAPELSNVWERYGGHQNPEAARAGLAAWIRAQPLGTQGRRQMPAYD  120
+
+Query  117  LSEGQVDDLAEFLKWSSKIDTNQWPPNKEG  146
+             ++ ++  L +FL+W+  ID   WPP+  G
+Sbjct  121  FTDEEMSSLIDFLEWTDGIDDQDWPPHPAG  150
+
+
+> sp|P24011|COX2_BACSU Cytochrome c oxidase subunit 2 OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ctaC PE=3 SV=2
+Length=356
+
+ Score = 110 bits (275),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 27/115 (23%), Positives = 50/115 (43%), Gaps = 14/115 (12%)
+
+Query  25   FLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNNCVGCHTL-----LGEGAYFAPELG  79
+            F   T   +    + T E+ ++    +G+ ++++ NC+ CH +       E A  AP L 
+Sbjct  240  FQGWTKEMKNY--KSTAESDLAK---QGEELFKEKNCLSCHAVEPNDKRAEAARTAPNLA  294
+
+Query  80   NVVGRR---GGEEGFNTFLQAWMNIQPLNVPGRRAMPQFH-LSEGQVDDLAEFLK  130
+                R    G +E     ++AW+       PG +    +  LS+ + + L E+LK
+Sbjct  295  TFGERTKVAGVKEANKENVKAWLKDPDSIKPGNKMTGTYPKLSDSETNALYEYLK  349
+
+
+> sp|P00102|CY551_PSEME Cytochrome c-551 OS=Pseudomonas mendocina 
+OX=300 PE=1 SV=1
+Length=82
+
+ Score = 100 bits (248),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 34/79 (43%), Gaps = 2/79 (3%)
+
+Query  52   GKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRA  111
+            G+ +++   C  CH++  +     P L +V  +  G +G    L   +      V G   
+Sbjct  3    GEELFKSKPCGACHSV--QAKLVGPALKDVAAKNAGVDGAADVLAGHIKNGSTGVWGAMP  60
+
+Query  112  MPQFHLSEGQVDDLAEFLK  130
+            MP   ++E +   LAE++ 
+Sbjct  61   MPPNPVTEEEAKTLAEWVL  79
+
+
+> sp|P00104|CY551_AZOVI Cytochrome c-551 OS=Azotobacter vinelandii 
+OX=354 PE=1 SV=1
+Length=82
+
+ Score = 97.1 bits (240),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 32/79 (41%), Gaps = 2/79 (3%)
+
+Query  52   GKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRA  111
+            G+ +++   C  CH +  +     P    V  +  G+ G    L A +        G+  
+Sbjct  3    GEELYKTKGCTVCHAI--DSKLVGPSFKEVTAKYAGQAGIADTLAAKIKAGGSGNWGQIP  60
+
+Query  112  MPQFHLSEGQVDDLAEFLK  130
+            MP   +SE +   LAE++ 
+Sbjct  61   MPPNPVSEAEAKTLAEWVL  79
+
+
+> sp|P00101|CY551_PSEST Cytochrome c-551 OS=Pseudomonas stutzeri 
+OX=316 GN=nirM PE=1 SV=2
+Length=104
+
+ Score = 95.1 bits (235),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 22/88 (25%), Positives = 38/88 (43%), Gaps = 3/88 (3%)
+
+Query  44   AMSAAVVR-GKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQ  102
+            AM  A+ + G+ +++   C  CH++  +     P L  V  +  G EG    L   +   
+Sbjct  16   AMQPALAQDGEALFKSKPCAACHSV--DTKMVGPALKEVAAKNAGVEGAADTLALHIKNG  73
+
+Query  103  PLNVPGRRAMPQFHLSEGQVDDLAEFLK  130
+               V G   MP   ++E +   LAE++ 
+Sbjct  74   SQGVWGPIPMPPNPVTEEEAKILAEWVL  101
+
+
+> sp|P95339|CY552_NITEU Cytochrome c-552 OS=Nitrosomonas europaea 
+(strain ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC 14298) 
+OX=228410 GN=cyt PE=1 SV=2
+Length=103
+
+ Score = 93.6 bits (231),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 17/78 (22%), Positives = 36/78 (46%), Gaps = 3/78 (4%)
+
+Query  54   LVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMP  113
+             + ++NNC+ CH +  E     P L ++  +   ++   T+L   +      V G+  MP
+Sbjct  25   DLAKKNNCIACHQV--ETKVVGPALKDIAAKYADKDDAATYLAGKIKGGSSGVWGQIPMP  82
+
+Query  114  QF-HLSEGQVDDLAEFLK  130
+               ++S+     LA+++ 
+Sbjct  83   PNVNVSDADAKALADWIL  100
+
+
+> sp|Q04441|COX2_BACPE Cytochrome c oxidase subunit 2 OS=Bacillus 
+pseudofirmus (strain OF4) OX=398511 GN=ctaC PE=1 SV=1
+Length=342
+
+ Score = 97.1 bits (240),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 25/84 (30%), Positives = 43/84 (51%), Gaps = 5/84 (6%)
+
+Query  51   RGKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRR---GGEEGFNTFLQAWMNIQPLNVP  107
+            +G+ V+E+N+C+GCH + G G    P   N   R    G  E  +  L+AW+   P ++ 
+Sbjct  254  QGRQVFEENSCIGCHAVGGTGTAAGPAFTNFGEREVIAGYLENNDENLEAWIRD-PQSLK  312
+
+Query  108  GRRAMPQFH-LSEGQVDDLAEFLK  130
+                MP +  +SE  ++ L  +L+
+Sbjct  313  QGNVMPAYPDMSEEDMEALIAYLR  336
+
+
+> sp|P15452|CY552_HYDTT Cytochrome c-552 OS=Hydrogenobacter thermophilus 
+(strain DSM 6534 / IAM 12695 / TK-6) OX=608538 GN=HTH_0988 
+PE=1 SV=2
+Length=98
+
+ Score = 85.5 bits (210),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 15/87 (17%), Positives = 35/87 (40%), Gaps = 2/87 (2%)
+
+Query  44   AMSAAVVRGKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQP  103
+             ++      + + +Q  C+ CH L  +     P   +V  +  G +    +L   +    
+Sbjct  11   GLAGITFANEQLAKQKGCMACHDL--KAKKVGPAYADVAKKYAGRKDAVDYLAGKIKKGG  68
+
+Query  104  LNVPGRRAMPQFHLSEGQVDDLAEFLK  130
+              V G   MP  ++++ +   LA+++ 
+Sbjct  69   SGVWGSVPMPPQNVTDAEAKQLAQWIL  95
+
+
+> sp|P00100|CY551_PSEFC Cytochrome c-551 OS=Pseudomonas fluorescens 
+biotype C OX=335 PE=1 SV=1
+Length=82
+
+ Score = 83.6 bits (205),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 15/79 (19%), Positives = 31/79 (39%), Gaps = 2/79 (3%)
+
+Query  52   GKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRA  111
+            G  +++   C  CHT+  +     P L  V  +  G +  +  L   +        G   
+Sbjct  3    GAALFKSKPCAACHTI--DSKMVGPALKEVAAKNAGVKDADKTLAGHIKNGTQGNWGPIP  60
+
+Query  112  MPQFHLSEGQVDDLAEFLK  130
+            MP   +++ +   LA+++ 
+Sbjct  61   MPPNQVTDAEALTLAQWVL  79
+
+
+> sp|P00099|CY551_PSEAE Cytochrome c-551 OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 
+/ LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=nirM PE=1 SV=2
+Length=104
+
+ Score = 80.9 bits (198),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 16/78 (21%), Positives = 33/78 (42%), Gaps = 2/78 (3%)
+
+Query  53   KLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAM  112
+            +++++   CV CH +  +     P   +V  +  G+ G    L   +      V G   M
+Sbjct  26   EVLFKNKGCVACHAI--DTKMVGPAYKDVAAKFAGQAGAEAELAQRIKNGSQGVWGPIPM  83
+
+Query  113  PQFHLSEGQVDDLAEFLK  130
+            P   +S+ +   LA+++ 
+Sbjct  84   PPNAVSDDEAQTLAKWVL  101
+
+
+> sp|P00103|CY551_PSEDE Cytochrome c-551 OS=Pseudomonas denitrificans 
+OX=43306 PE=1 SV=1
+Length=82
+
+ Score = 77.4 bits (189),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 15/78 (19%), Positives = 31/78 (40%), Gaps = 2/78 (3%)
+
+Query  52   GKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRA  111
+            G+ +++   CV CH++  +     P   +V  + G +      +   +        G   
+Sbjct  3    GEELFKAKACVACHSV--DKKLVGPAFHDVAAKYGAQGDGVAHITNSIKTGSKGNWGPIP  60
+
+Query  112  MPQFHLSEGQVDDLAEFL  129
+            MP   +S  +   LAE++
+Sbjct  61   MPPNAVSPEEAKTLAEWI  78
+
+
+> sp|P80549|CY551_ALLVD Cytochrome c-551 OS=Allochromatium vinosum 
+(strain ATCC 17899 / DSM 180 / NBRC 103801 / NCIMB 10441 
+/ D) OX=572477 GN=Alvin_1694 PE=1 SV=2
+Length=94
+
+ Score = 69.0 bits (167),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 17/93 (18%), Positives = 36/93 (39%), Gaps = 8/93 (9%)
+
+Query  39   RTNEAAMSAAVVRGKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAW  98
+                +A++  V+      +++ C  CH++  E A   P   +V  +  G+      L A 
+Sbjct  7    TVAPSALADLVLA-----QKSGCTVCHSV--EAAIVGPAYKDVAAKYRGDAAAQDRLVAK  59
+
+Query  99   MNIQPLNVPGRRAMPQF-HLSEGQVDDLAEFLK  130
+            +    +   G+  MP   H+    +  L  ++ 
+Sbjct  60   VMAGGVGNWGQVPMPPNAHVPAADIKALVTWIL  92
+
+
+> sp|Q03438|COX2_BACP3 Cytochrome c oxidase subunit 2 OS=Bacillus 
+sp. (strain PS3) OX=2334 GN=ctaC PE=1 SV=1
+Length=356
+
+ Score = 67.8 bits (164),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 25/116 (22%), Positives = 44/116 (38%), Gaps = 16/116 (14%)
+
+Query  25   FLALTYHTEKTLPERTNEAAMSAAVV-RGKLVWEQNNCVGCHTL-----LGEGAYFAPEL  78
+            F A     +        +  ++  V   G+ ++   +C+GCH +            AP L
+Sbjct  242  FDAWVKKMQNAK-----KPVVTDPVAKEGEAIF-NKSCIGCHAVTPLDKRPAQRRTAPNL  295
+
+Query  79   GNVVGRR---GGEEGFNTFLQAWMNIQPLNVPGRRAMPQF-HLSEGQVDDLAEFLK  130
+             +   R    G  E     L+ W+       PG +    + HL+E Q+D L ++L 
+Sbjct  296  ADFGDRERIAGILEHNEENLKKWLRDPNSVKPGNKMAGTYGHLTEEQIDALTKYLM  351
+
+
+> sp|P00098|CYC2_RHOTE Cytochrome c2 OS=Rhodocyclus tenuis OX=1066 
+PE=1 SV=1
+Length=92
+
+ Score = 62.0 bits (149),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 17/85 (20%), Positives = 32/85 (38%), Gaps = 7/85 (8%)
+
+Query  57   EQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGR-----RA  111
+            +   C+ CH    E     P  G V  +  G+ G    L A +      V  +       
+Sbjct  8    QTKGCLACHN--PEKKVVGPAYGWVAKKYAGQAGAEAKLVAKVMAGGQGVWAKQLGAEIP  65
+
+Query  112  MPQFHLSEGQVDDLAEFLKWSSKID  136
+            MP  ++++ +   L +++    +ID
+Sbjct  66   MPANNVTKEEATRLVKWVLSLKQID  90
+
+
+> sp|P00097|CYC2_RUBGE Cytochrome c2 OS=Rubrivivax gelatinosus 
+OX=28068 PE=1 SV=1
+Length=85
+
+ Score = 51.6 bits (122),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 11/82 (13%), Positives = 30/82 (37%), Gaps = 5/82 (6%)
+
+Query  54   LVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAM-  112
+             +  +  C  CH    +G    P    +  +  G+ G    +   +    + + G+  M 
+Sbjct  5    ELATKAGCAVCHQPTAKG--LGPSYQEIAKKYKGQAGAPALMAERVRKGSVGIFGKLPMT  62
+
+Query  113  --PQFHLSEGQVDDLAEFLKWS  132
+              P   +S+  +  + +++  +
+Sbjct  63   PTPPARISDADLKLVIDWILKT  84
+
+
+> sp|O34594|CY551_BACSU Cytochrome c-551 OS=Bacillus subtilis (strain 
+168) OX=224308 GN=cccB PE=1 SV=1
+Length=112
+
+ Score = 45.5 bits (106),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 23/99 (23%), Positives = 43/99 (43%), Gaps = 14/99 (14%)
+
+Query  32   TEKTLPERTNEAAMSAAVV-RGKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEG  90
+            +     E+T+  + + A    G+ +++Q +CVGCH    EG    P L  V G+      
+Sbjct  23   SNDAKEEKTDTGSKTEATASEGEELYQQ-SCVGCHGKDLEG-VSGPNLQEVGGKYDEH--  78
+
+Query  91   FNTFLQAWMNIQPLNVPGRRAMPQFHLSEGQVDDLAEFL  129
+                      I+ +   GR  MP+  + + +   +A++L
+Sbjct  79   ---------KIESIIKNGRGNMPKGLVDDNEAAVIAKWL  108
+
+
+> sp|P42351|C55L_SYNY3 Cytochrome c-553-like OS=Synechocystis sp. 
+(strain PCC 6803 / Kazusa) OX=1111708 GN=cytM PE=3 SV=1
+Length=105
+
+ Score = 42.8 bits (99),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 22/87 (25%), Positives = 35/87 (40%), Gaps = 12/87 (14%)
+
+Query  44   AMSAAVVRGKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQP  103
+            A+     RG+ +++ N C  CH +  +G Y  P L  V  RR      +  +        
+Sbjct  29   ALKGDADRGRAIFQAN-CAVCHGIQADG-YIGPSLWGVSQRRSQSHIIHQVVSG------  80
+
+Query  104  LNVPGRRAMPQFHLSEGQVDDLAEFLK  130
+                    MPQF  +  ++ DL  +LK
+Sbjct  81   ----QTPPMPQFEPNPQEMADLLNYLK  103
+
+
+> sp|D0K261|CCOP_HELP5 Cbb3-type cytochrome c oxidase subunit CcoP 
+OS=Helicobacter pylori (strain 52) OX=684950 GN=ccoP PE=3 
+SV=1
+Length=292
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 25/101 (25%), Positives = 39/101 (39%), Gaps = 20/101 (20%)
+
+Query  37   PERTNEAAMSAAVVRGKLVWEQNNCVGCHTLLGEG----AYFAPELGNVVGRRGGEEGFN  92
+             ++T    +     +GK ++E   C GCH   G+G      FA +L          E F 
+Sbjct  198  VKKTKNPQLID---KGKELFESMGCTGCHGNDGKGLQENQVFAADLTAYGT-----ENFL  249
+
+Query  93   TFLQAWMNIQPLNVPGRRAMPQF---HLSEGQVDDLAEFLK  130
+              +        +       MP F   + S+ QV  LAEF++
+Sbjct  250  RNILTHGKKGNIG-----HMPSFKYKNFSDLQVKALAEFIQ  285
+
+
+> sp|P24469|C550_BACSU Cytochrome c-550 OS=Bacillus subtilis (strain 
+168) OX=224308 GN=cccA PE=1 SV=1
+Length=120
+
+ Score = 41.6 bits (96),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 24/114 (21%), Positives = 42/114 (37%), Gaps = 13/114 (11%)
+
+Query  16   GGSVFFILLFLALTYHTEKTLPERTNEAAMSAAVVRGKLVWEQNNCVGCHTLLGEGAYFA  75
+            G  + F L    L    E      +  A    A    + +++ N C+ CH    EG    
+Sbjct  16   GIGLTFFLSVKGLDDSREIASGGESKSAEKKDANASPEEIYKAN-CIACHGENYEG-VSG  73
+
+Query  76   PELGNVVGRRGGEEGFNTFLQAWMNIQPLNVPGRRAMPQFHLSEGQVDDLAEFL  129
+            P L  V  ++   E     ++  +        G   MP   +   ++DD+AE++
+Sbjct  74   PSLKGVGDKKDVAE-----IKTKIE------KGGNGMPSGLVPADKLDDMAEWV  116
+
+
+> sp|P04369|C555_METCA Cytochrome c-555 OS=Methylococcus capsulatus 
+(strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=MCA2618 
+PE=1 SV=2
+Length=123
+
+ Score = 41.6 bits (96),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 23/87 (26%), Positives = 37/87 (43%), Gaps = 14/87 (16%)
+
+Query  47   AAVVRGKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNIQPLNV  106
+             A   G  +++Q  C  CH   GEG+   P L N   +   ++ F   +          +
+Sbjct  32   QATYNGFKIYKQQRCETCHGATGEGSAAFPNLLN-SLKNLSKDQFKEVV----------L  80
+
+Query  107  PGRRAMPQFHLSE---GQVDDLAEFLK  130
+             GR AMP F  ++     +DDL  ++K
+Sbjct  81   KGRNAMPPFEANKKVAEGIDDLYTYIK  107
+
+
+> sp|O87196|CCOP_HELPX Cbb3-type cytochrome c oxidase subunit CcoP 
+OS=Helicobacter pylori OX=210 GN=ccoP PE=3 SV=1
+Length=292
+
+ Score = 42.4 bits (98),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 23/97 (24%), Positives = 37/97 (38%), Gaps = 12/97 (12%)
+
+Query  37   PERTNEAAMSAAVVRGKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQ  96
+             ++T    +     +GK ++E   C GCH   G+G      L   +   G  E F   + 
+Sbjct  198  VKKTKNPQLID---KGKELFESMGCTGCHGNDGKGLQENQVLAADLTTYG-TENFLRNIL  253
+
+Query  97   AWMNIQPLNVPGRRAMPQF---HLSEGQVDDLAEFLK  130
+                   +       MP F   + S+ QV  L EF++
+Sbjct  254  THGKKGNIG-----HMPSFKYKNFSDLQVKALPEFIQ  285
+
+
+> sp|D5WYQ5|TSDA_THIK1 Thiosulfate dehydrogenase OS=Thiomonas intermedia 
+(strain K12) OX=75379 GN=tsdA PE=1 SV=1
+Length=314
+
+ Score = 40.1 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 25/109 (23%), Positives = 38/109 (35%), Gaps = 21/109 (19%)
+
+Query  42   EAAMSAAVVRGKLVWEQNNCVGCHTLLGEGAYF----------APELGNVVGRRGGEEGF  91
+            E   +   VRG+ V+E   C+ CH   GEG Y            P+  N     G  +  
+Sbjct  180  EPQQAPDYVRGQKVYEAK-CILCHAANGEGQYVNGETVFPPLWGPKSFNWGAGMGSYKNA  238
+
+Query  92   NTFLQAWMNIQPLNVPGRRAMPQFHLSEGQVDDLAEFLKWSSKIDTNQW  140
+              F+ A M               + LS  +  D+A F+    +    +W
+Sbjct  239  AKFIYANMPYGMS----------YSLSPQEAWDVAYFMDAQERPQDPRW  277
+
+
+> sp|Q934G0|LUH_PSESP Lupanine 17-hydroxylase [cytochrome c] OS=Pseudomonas 
+sp. OX=306 GN=luh PE=1 SV=1
+Length=695
+
+ Score = 40.1 bits (92),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 25/102 (25%), Positives = 45/102 (44%), Gaps = 18/102 (18%)
+
+Query  43   AAMSAAVVRGKLVWEQNNCVGCHTLLGEGAYFAPELGNVVGRRGGEEGFNTFLQAWMNI-  101
+            +AM+ +   G+ ++  N C  CH    EG+   P L ++  RR  +          ++  
+Sbjct  597  SAMAES---GRHIFNANACGACHGFNAEGS--TPGLPDL--RRSDKLDLAVMKSIVIDGA  649
+
+Query  102  -QPLNVPGRRAMPQFHLSEGQVDDLAEFLK---WSSKIDTNQ  139
+             +PL +PG       H+S+  +  L  F+    W++  DT Q
+Sbjct  650  FKPLGMPG-----HPHISDADLQALQAFILQKAWTA-YDTQQ  685
+
+
+> sp|P00028|CYC_LAMTR Cytochrome c OS=Lampetra tridentata OX=245074 
+GN=cyc PE=1 SV=2
+Length=105
+
+ Score = 38.1 bits (87),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 24/98 (24%), Positives = 38/98 (39%), Gaps = 17/98 (17%)
+
+Query  49   VVRGKLVWEQNNCVGCHTLLGEGAY-FAPELGNVVGRRGGEEG---------------FN  92
+            V +GK V+ Q  C  CHT+   G +   P L  + GR+ G+                   
+Sbjct  4    VEKGKKVFVQK-CSQCHTVEKAGKHKTGPNLSGLFGRKTGQAPGFSYTDANKSKGIVWNQ  62
+
+Query  93   TFLQAWMNIQPLNVPGRRAMPQFHLSEGQVDDLAEFLK  130
+              L  ++      +PG + +      EG+  DL  +LK
+Sbjct  63   ETLFVYLENPKKYIPGTKMIFAGIKKEGERKDLIAYLK  100
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.132    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0403    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5625152160
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

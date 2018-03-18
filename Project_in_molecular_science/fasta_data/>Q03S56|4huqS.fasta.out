@@ -1,0 +1,482 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q03S56|4huqS
+
+Length=177
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q03ZT0|FOLT_LEUMM Folate transporter FolT OS=Leuconostoc mes...  142     6e-41
+  sp|Q035X6|FOLT_LACP3 Folate transporter FolT OS=Lactobacillus p...  98.6    2e-24
+  sp|A0Q1J7|FOLT_CLONN Folate transporter FolT OS=Clostridium nov...  88.2    2e-20
+  sp|Q8DV98|FOLT_STRMU Folate transporter FolT OS=Streptococcus m...  61.2    7e-11
+  sp|Q50364|Y448_MYCPN Uncharacterized protein MG313 homolog OS=M...  43.9    2e-04
+
+
+> sp|Q03ZT0|FOLT_LEUMM Folate transporter FolT OS=Leuconostoc mesenteroides 
+subsp. mesenteroides (strain ATCC 8293 / NCDO 523) 
+OX=203120 GN=folT PE=1 SV=1
+Length=185
+
+ Score = 142 bits (358),  Expect = 6e-41, Method: Compositional matrix adjust.
+ Identities = 75/174 (43%), Positives = 115/174 (66%), Gaps = 7/174 (4%)
+
+Query  9    LPKLDTLSMVTMGVLMALQLVISRFSVGNNFIKVSFTFLIVALIAKWFGPWWGMLTAAVV  68
+             PKLDT   V + +LMAL +V+SR +VG N ++VSF F+ ++LIAKW+GP W ML AA++
+Sbjct  10   FPKLDTRQFVLLAMLMALHMVLSRLTVGTNVLQVSFAFVTMSLIAKWYGPLWSMLIAAIL  69
+
+Query  69   DVIG-TLMTGGPFFIGFTVSAVLGSLIYAVFLYRQP-VSWWRVIGASVLIALLVNTLLNT  126
+            DVIG T++  G FF+GFT +A++ +LIY++  ++    SWWRV  A  L+ L+ N  LN+
+Sbjct  70   DVIGATIINPGAFFVGFTFTAMISALIYSLAYFKHDKTSWWRVSVAVGLVLLIANIGLNS  129
+
+Query  127  LWVTIMYQT-----PFWSLLPVRALKELIVTPVQIVLVYLLLKSQVIQMIQARL  175
+            +W+ +MY T      F + +  R +K LI+ P+Q+ + Y LL +QVI     ++
+Sbjct  130  IWLVMMYHTAHDWPSFLAFITPRVIKNLIMFPIQVGISYFLLNNQVISHTTKKI  183
+
+
+> sp|Q035X6|FOLT_LACP3 Folate transporter FolT OS=Lactobacillus 
+paracasei (strain ATCC 334 / BCRC 17002 / CIP 107868 / KCTC 
+3260 / NRRL B-441) OX=321967 GN=folT PE=1 SV=1
+Length=172
+
+ Score = 98.6 bits (244),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 60/167 (36%), Positives = 101/167 (60%), Gaps = 4/167 (2%)
+
+Query  10   PKLDTLSMVTMGVLMALQLVISRFSVGNNFIKVSFTFLIVALIAKWFGPWWGMLTAAVVD  69
+            PKL T +MV M +LMA+Q+V+ RFS G  ++K+S  F    L+  +FGPW     AA+ D
+Sbjct  9    PKLSTRNMVYMAMLMAMQIVLGRFSFGTPWLKISPAFFATILMGYYFGPWLAAGAAALND  68
+
+Query  70   VIGTLM-TGGPFFIGFTVSAVLGSLIYAVFLYRQPVSWWRVIGASVLIALLVNTLLNTLW  128
+             +  ++ + G  F GFT+SA + +++Y +F + + V+  R + A  ++ L+ N +L TLW
+Sbjct  69   QLSIMIFSPGANFPGFTISAAIAAMLYGMFFHGKKVTVLRTLLAVGMVLLISNIILTTLW  128
+
+Query  129  VTIMYQTPFWSLLPVRALKELIVTPVQIVLVYLLLKSQVIQMIQARL  175
+            + IM  TP+  ++  R +K +++ P+Q  L Y  LK+  I+ I+  L
+Sbjct  129  LNIM-GTPWQGIIWPRTIKNVVMLPIQTALSYGTLKA--IERIRPHL  172
+
+
+> sp|A0Q1J7|FOLT_CLONN Folate transporter FolT OS=Clostridium novyi 
+(strain NT) OX=386415 GN=folT PE=1 SV=1
+Length=172
+
+ Score = 88.2 bits (217),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 52/146 (36%), Positives = 86/146 (59%), Gaps = 2/146 (1%)
+
+Query  17   MVTMGVLMALQLVISRF-SVGNNFIKVSFTFLIVALIAKWFGPWWGMLTAAVVDVIGTLM  75
+            M+ M  ++ L++V +RF S+    I++ F F+ VA+    FGP    +  A  DV+G ++
+Sbjct  7    MIYMAFMITLEIVFTRFLSIQTPIIRIGFGFIPVAMSGMMFGPLLAGIVGATSDVLGMMI  66
+
+Query  76   -TGGPFFIGFTVSAVLGSLIYAVFLYRQPVSWWRVIGASVLIALLVNTLLNTLWVTIMYQ  134
+               G +F GFT+SA +G++IY VF Y + VS  RV+ A  +I +LVN  +NT+W+ I+  
+Sbjct  67   FPKGAYFPGFTLSAFVGAVIYGVFFYNKKVSVKRVLLAVGIITVLVNLTMNTIWLQILTG  126
+
+Query  135  TPFWSLLPVRALKELIVTPVQIVLVY  160
+                 L   R +KE I+ P+  +++Y
+Sbjct  127  KAVKVLFVTRLVKEAIMFPIHAIVIY  152
+
+
+> sp|Q8DV98|FOLT_STRMU Folate transporter FolT OS=Streptococcus 
+mutans serotype c (strain ATCC 700610 / UA159) OX=210007 GN=folT 
+PE=1 SV=1
+Length=186
+
+ Score = 61.2 bits (147),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 53/183 (29%), Positives = 95/183 (52%), Gaps = 12/183 (7%)
+
+Query  1    MKTMAKTQLPKLDTLSMVTMGVLMALQLVISRFSVGNNFIKV--SFTFLIVALIAKWFGP  58
+            M TM K+  PKL    +VT+ +L+AL   I + S+     ++  S TF++  +I    GP
+Sbjct  1    MNTMFKS--PKLSPQRLVTLAMLIALAFAIGKLSIPIIPQQLIISPTFIVNVMIGMIGGP  58
+
+Query  59   WWGMLTAAVVDVIGTLMTG-GPFFIGFTVSAVLGSLIYAVFLYRQPVSW-----W-RVIG  111
+             W  ++ A++D++  L +G G F I +T+   +  L Y +F Y++ +SW     W  V  
+Sbjct  59   IWAFISLAILDIVDNLSSGAGNFIIWWTLLEAVQGLFYGLFFYQKSLSWTNKKDWLHVTI  118
+
+Query  112  ASVLIALLVNTLLNTLWVTIMYQTPFWSLLPVRALKELIVTPVQIVLVYLLLKSQVIQMI  171
+            A+ +I L+ + +   L V I Y  PFW+        ++   P++I LV + +  Q+ ++ 
+Sbjct  119  ATAIIMLIGSFIFTPLLVQIYYGVPFWAQFAAGRWLKIFEIPIRI-LVTMAIMPQLQRIP  177
+
+Query  172  QAR  174
+            + R
+Sbjct  178  ELR  180
+
+
+> sp|Q50364|Y448_MYCPN Uncharacterized protein MG313 homolog OS=Mycoplasma 
+pneumoniae (strain ATCC 29342 / M129) OX=272634 
+GN=MPN_448 PE=4 SV=3
+Length=285
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 33/98 (34%), Positives = 49/98 (50%), Gaps = 5/98 (5%)
+
+Query  17   MVTMGVLMALQLVISRFSVG-NNFIKVSFTFLIVALIAKWFGPWWGMLTAAVVDVIGTLM  75
+            +V   VLMAL  + + FS+   + +KVSFT +  ALI   FGP WG    A+ D +  L 
+Sbjct  16   LVWAAVLMALSFIFNIFSINVTSVLKVSFTRIPFALIGWMFGPVWGFTFGAIADTMDWLT  75
+
+Query  76   TGGPFFIGFTVS----AVLGSLIYAVFLYRQPVSWWRV  109
+             G  +F  F +       L  L+  V+  RQ  + W++
+Sbjct  76   RGYTWFWLFAIQKPMFCFLAGLVKGVYQVRQSSTNWKI  113
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.140    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9272900768
+Results from round 2
+
+
+Query= Q03S56|4huqS
+
+Length=177
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q035X6|FOLT_LACP3 Folate transporter FolT OS=Lactobacillus p...  145     2e-42
+  sp|Q03ZT0|FOLT_LEUMM Folate transporter FolT OS=Leuconostoc mes...  145     5e-42
+  sp|Q8DV98|FOLT_STRMU Folate transporter FolT OS=Streptococcus m...  127     2e-35
+  sp|A0Q1J7|FOLT_CLONN Folate transporter FolT OS=Clostridium nov...  125     2e-34
+  sp|Q50364|Y448_MYCPN Uncharacterized protein MG313 homolog OS=M...  87.0    2e-19
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q49414|Y313_MYCGE Uncharacterized protein MG313 OS=Mycoplasm...  67.7    9e-13
+
+
+> sp|Q035X6|FOLT_LACP3 Folate transporter FolT OS=Lactobacillus 
+paracasei (strain ATCC 334 / BCRC 17002 / CIP 107868 / KCTC 
+3260 / NRRL B-441) OX=321967 GN=folT PE=1 SV=1
+Length=172
+
+ Score = 145 bits (367),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 60/167 (36%), Positives = 101/167 (60%), Gaps = 4/167 (2%)
+
+Query  10   PKLDTLSMVTMGVLMALQLVISRFSVGNNFIKVSFTFLIVALIAKWFGPWWGMLTAAVVD  69
+            PKL T +MV M +LMA+Q+V+ RFS G  ++K+S  F    L+  +FGPW     AA+ D
+Sbjct  9    PKLSTRNMVYMAMLMAMQIVLGRFSFGTPWLKISPAFFATILMGYYFGPWLAAGAAALND  68
+
+Query  70   VIGTLM-TGGPFFIGFTVSAVLGSLIYAVFLYRQPVSWWRVIGASVLIALLVNTLLNTLW  128
+             +  ++ + G  F GFT+SA + +++Y +F + + V+  R + A  ++ L+ N +L TLW
+Sbjct  69   QLSIMIFSPGANFPGFTISAAIAAMLYGMFFHGKKVTVLRTLLAVGMVLLISNIILTTLW  128
+
+Query  129  VTIMYQTPFWSLLPVRALKELIVTPVQIVLVYLLLKSQVIQMIQARL  175
+            + IM  TP+  ++  R +K +++ P+Q  L Y  LK+  I+ I+  L
+Sbjct  129  LNIM-GTPWQGIIWPRTIKNVVMLPIQTALSYGTLKA--IERIRPHL  172
+
+
+> sp|Q03ZT0|FOLT_LEUMM Folate transporter FolT OS=Leuconostoc mesenteroides 
+subsp. mesenteroides (strain ATCC 8293 / NCDO 523) 
+OX=203120 GN=folT PE=1 SV=1
+Length=185
+
+ Score = 145 bits (365),  Expect = 5e-42, Method: Composition-based stats.
+ Identities = 76/181 (42%), Positives = 116/181 (64%), Gaps = 7/181 (4%)
+
+Query  2    KTMAKTQLPKLDTLSMVTMGVLMALQLVISRFSVGNNFIKVSFTFLIVALIAKWFGPWWG  61
+             T      PKLDT   V + +LMAL +V+SR +VG N ++VSF F+ ++LIAKW+GP W 
+Sbjct  3    NTTRTWVFPKLDTRQFVLLAMLMALHMVLSRLTVGTNVLQVSFAFVTMSLIAKWYGPLWS  62
+
+Query  62   MLTAAVVDVIG-TLMTGGPFFIGFTVSAVLGSLIYAVFLYRQ-PVSWWRVIGASVLIALL  119
+            ML AA++DVIG T++  G FF+GFT +A++ +LIY++  ++    SWWRV  A  L+ L+
+Sbjct  63   MLIAAILDVIGATIINPGAFFVGFTFTAMISALIYSLAYFKHDKTSWWRVSVAVGLVLLI  122
+
+Query  120  VNTLLNTLWVTIMYQTP-----FWSLLPVRALKELIVTPVQIVLVYLLLKSQVIQMIQAR  174
+             N  LN++W+ +MY T      F + +  R +K LI+ P+Q+ + Y LL +QVI     +
+Sbjct  123  ANIGLNSIWLVMMYHTAHDWPSFLAFITPRVIKNLIMFPIQVGISYFLLNNQVISHTTKK  182
+
+Query  175  L  175
+            +
+Sbjct  183  I  183
+
+
+> sp|Q8DV98|FOLT_STRMU Folate transporter FolT OS=Streptococcus 
+mutans serotype c (strain ATCC 700610 / UA159) OX=210007 GN=folT 
+PE=1 SV=1
+Length=186
+
+ Score = 127 bits (320),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 52/183 (28%), Positives = 94/183 (51%), Gaps = 12/183 (7%)
+
+Query  1    MKTMAKTQLPKLDTLSMVTMGVLMALQLVISRFSVGNNFIKV--SFTFLIVALIAKWFGP  58
+            M TM K+  PKL    +VT+ +L+AL   I + S+     ++  S TF++  +I    GP
+Sbjct  1    MNTMFKS--PKLSPQRLVTLAMLIALAFAIGKLSIPIIPQQLIISPTFIVNVMIGMIGGP  58
+
+Query  59   WWGMLTAAVVDVIGTLMTG-GPFFIGFTVSAVLGSLIYAVFLYRQPVSW------WRVIG  111
+             W  ++ A++D++  L +G G F I +T+   +  L Y +F Y++ +SW        V  
+Sbjct  59   IWAFISLAILDIVDNLSSGAGNFIIWWTLLEAVQGLFYGLFFYQKSLSWTNKKDWLHVTI  118
+
+Query  112  ASVLIALLVNTLLNTLWVTIMYQTPFWSLLPVRALKELIVTPVQIVLVYLLLKSQVIQMI  171
+            A+ +I L+ + +   L V I Y  PFW+        ++   P++I LV + +  Q+ ++ 
+Sbjct  119  ATAIIMLIGSFIFTPLLVQIYYGVPFWAQFAAGRWLKIFEIPIRI-LVTMAIMPQLQRIP  177
+
+Query  172  QAR  174
+            + R
+Sbjct  178  ELR  180
+
+
+> sp|A0Q1J7|FOLT_CLONN Folate transporter FolT OS=Clostridium novyi 
+(strain NT) OX=386415 GN=folT PE=1 SV=1
+Length=172
+
+ Score = 125 bits (313),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 53/150 (35%), Positives = 87/150 (58%), Gaps = 2/150 (1%)
+
+Query  17   MVTMGVLMALQLVISRF-SVGNNFIKVSFTFLIVALIAKWFGPWWGMLTAAVVDVIGTLM  75
+            M+ M  ++ L++V +RF S+    I++ F F+ VA+    FGP    +  A  DV+G ++
+Sbjct  7    MIYMAFMITLEIVFTRFLSIQTPIIRIGFGFIPVAMSGMMFGPLLAGIVGATSDVLGMMI  66
+
+Query  76   -TGGPFFIGFTVSAVLGSLIYAVFLYRQPVSWWRVIGASVLIALLVNTLLNTLWVTIMYQ  134
+               G +F GFT+SA +G++IY VF Y + VS  RV+ A  +I +LVN  +NT+W+ I+  
+Sbjct  67   FPKGAYFPGFTLSAFVGAVIYGVFFYNKKVSVKRVLLAVGIITVLVNLTMNTIWLQILTG  126
+
+Query  135  TPFWSLLPVRALKELIVTPVQIVLVYLLLK  164
+                 L   R +KE I+ P+  +++Y   K
+Sbjct  127  KAVKVLFVTRLVKEAIMFPIHAIVIYGAWK  156
+
+
+> sp|Q50364|Y448_MYCPN Uncharacterized protein MG313 homolog OS=Mycoplasma 
+pneumoniae (strain ATCC 29342 / M129) OX=272634 
+GN=MPN_448 PE=4 SV=3
+Length=285
+
+ Score = 87.0 bits (214),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 52/111 (47%), Gaps = 5/111 (5%)
+
+Query  15   LSMVTMGVLMALQLVISRFSVG-NNFIKVSFTFLIVALIAKWFGPWWGMLTAAVVDVIGT  73
+              +V   VLMAL  + + FS+   + +KVSFT +  ALI   FGP WG    A+ D +  
+Sbjct  14   QLLVWAAVLMALSFIFNIFSINVTSVLKVSFTRIPFALIGWMFGPVWGFTFGAIADTMDW  73
+
+Query  74   LMTGGPFFIGFTVS----AVLGSLIYAVFLYRQPVSWWRVIGASVLIALLV  120
+            L  G  +F  F +       L  L+  V+  RQ  + W++    +   L+ 
+Sbjct  74   LTRGYTWFWLFAIQKPMFCFLAGLVKGVYQVRQSSTNWKIDFWILQSILIG  124
+
+
+> sp|Q49414|Y313_MYCGE Uncharacterized protein MG313 OS=Mycoplasma 
+genitalium (strain ATCC 33530 / G-37 / NCTC 10195) OX=243273 
+GN=MG313 PE=4 SV=3
+Length=287
+
+ Score = 67.7 bits (164),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 31/113 (27%), Positives = 53/113 (47%), Gaps = 5/113 (4%)
+
+Query  18   VTMGVLMALQLVISRFSVG-NNFIKVSFTFLIVALIAKWFGPWWGMLTAAVVDVIGTLMT  76
+            V   VL+AL  + S FS+   N + +SF  +  AL    FGP WG +   + D I  L  
+Sbjct  17   VWASVLLALTFIFSIFSISVTNVLSISFLRIPFALFGWIFGPIWGFIFGFLSDTIDWLTK  76
+
+Query  77   GGPFFIGFTVS----AVLGSLIYAVFLYRQPVSWWRVIGASVLIALLVNTLLN  125
+            G  +F  F +     A L  ++  ++L R+  S ++V    +   L+   +++
+Sbjct  77   GYVWFWMFALQKPLFAFLAGIVKGIYLVRKNASNYKVDFWVLQTLLVTFFVVS  129
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.140    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0428    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9272900768
+Results from round 3
+
+
+Query= Q03S56|4huqS
+
+Length=177
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q03ZT0|FOLT_LEUMM Folate transporter FolT OS=Leuconostoc mes...  146     1e-42
+  sp|Q035X6|FOLT_LACP3 Folate transporter FolT OS=Lactobacillus p...  143     2e-41
+  sp|A0Q1J7|FOLT_CLONN Folate transporter FolT OS=Clostridium nov...  126     6e-35
+  sp|Q8DV98|FOLT_STRMU Folate transporter FolT OS=Streptococcus m...  124     5e-34
+  sp|Q50364|Y448_MYCPN Uncharacterized protein MG313 homolog OS=M...  102     8e-25
+  sp|Q49414|Y313_MYCGE Uncharacterized protein MG313 OS=Mycoplasm...  92.8    2e-21
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q03ZT0|FOLT_LEUMM Folate transporter FolT OS=Leuconostoc mesenteroides 
+subsp. mesenteroides (strain ATCC 8293 / NCDO 523) 
+OX=203120 GN=folT PE=1 SV=1
+Length=185
+
+ Score = 146 bits (369),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 76/181 (42%), Positives = 116/181 (64%), Gaps = 7/181 (4%)
+
+Query  2    KTMAKTQLPKLDTLSMVTMGVLMALQLVISRFSVGNNFIKVSFTFLIVALIAKWFGPWWG  61
+             T      PKLDT   V + +LMAL +V+SR +VG N ++VSF F+ ++LIAKW+GP W 
+Sbjct  3    NTTRTWVFPKLDTRQFVLLAMLMALHMVLSRLTVGTNVLQVSFAFVTMSLIAKWYGPLWS  62
+
+Query  62   MLTAAVVDVIG-TLMTGGPFFIGFTVSAVLGSLIYAVFLYRQ-PVSWWRVIGASVLIALL  119
+            ML AA++DVIG T++  G FF+GFT +A++ +LIY++  ++    SWWRV  A  L+ L+
+Sbjct  63   MLIAAILDVIGATIINPGAFFVGFTFTAMISALIYSLAYFKHDKTSWWRVSVAVGLVLLI  122
+
+Query  120  VNTLLNTLWVTIMYQTP-----FWSLLPVRALKELIVTPVQIVLVYLLLKSQVIQMIQAR  174
+             N  LN++W+ +MY T      F + +  R +K LI+ P+Q+ + Y LL +QVI     +
+Sbjct  123  ANIGLNSIWLVMMYHTAHDWPSFLAFITPRVIKNLIMFPIQVGISYFLLNNQVISHTTKK  182
+
+Query  175  L  175
+            +
+Sbjct  183  I  183
+
+
+> sp|Q035X6|FOLT_LACP3 Folate transporter FolT OS=Lactobacillus 
+paracasei (strain ATCC 334 / BCRC 17002 / CIP 107868 / KCTC 
+3260 / NRRL B-441) OX=321967 GN=folT PE=1 SV=1
+Length=172
+
+ Score = 143 bits (361),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 60/167 (36%), Positives = 101/167 (60%), Gaps = 4/167 (2%)
+
+Query  10   PKLDTLSMVTMGVLMALQLVISRFSVGNNFIKVSFTFLIVALIAKWFGPWWGMLTAAVVD  69
+            PKL T +MV M +LMA+Q+V+ RFS G  ++K+S  F    L+  +FGPW     AA+ D
+Sbjct  9    PKLSTRNMVYMAMLMAMQIVLGRFSFGTPWLKISPAFFATILMGYYFGPWLAAGAAALND  68
+
+Query  70   VIGTLM-TGGPFFIGFTVSAVLGSLIYAVFLYRQPVSWWRVIGASVLIALLVNTLLNTLW  128
+             +  ++ + G  F GFT+SA + +++Y +F + + V+  R + A  ++ L+ N +L TLW
+Sbjct  69   QLSIMIFSPGANFPGFTISAAIAAMLYGMFFHGKKVTVLRTLLAVGMVLLISNIILTTLW  128
+
+Query  129  VTIMYQTPFWSLLPVRALKELIVTPVQIVLVYLLLKSQVIQMIQARL  175
+            + IM  TP+  ++  R +K +++ P+Q  L Y  LK+  I+ I+  L
+Sbjct  129  LNIM-GTPWQGIIWPRTIKNVVMLPIQTALSYGTLKA--IERIRPHL  172
+
+
+> sp|A0Q1J7|FOLT_CLONN Folate transporter FolT OS=Clostridium novyi 
+(strain NT) OX=386415 GN=folT PE=1 SV=1
+Length=172
+
+ Score = 126 bits (316),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 53/150 (35%), Positives = 87/150 (58%), Gaps = 2/150 (1%)
+
+Query  17   MVTMGVLMALQLVISRF-SVGNNFIKVSFTFLIVALIAKWFGPWWGMLTAAVVDVIGTLM  75
+            M+ M  ++ L++V +RF S+    I++ F F+ VA+    FGP    +  A  DV+G ++
+Sbjct  7    MIYMAFMITLEIVFTRFLSIQTPIIRIGFGFIPVAMSGMMFGPLLAGIVGATSDVLGMMI  66
+
+Query  76   -TGGPFFIGFTVSAVLGSLIYAVFLYRQPVSWWRVIGASVLIALLVNTLLNTLWVTIMYQ  134
+               G +F GFT+SA +G++IY VF Y + VS  RV+ A  +I +LVN  +NT+W+ I+  
+Sbjct  67   FPKGAYFPGFTLSAFVGAVIYGVFFYNKKVSVKRVLLAVGIITVLVNLTMNTIWLQILTG  126
+
+Query  135  TPFWSLLPVRALKELIVTPVQIVLVYLLLK  164
+                 L   R +KE I+ P+  +++Y   K
+Sbjct  127  KAVKVLFVTRLVKEAIMFPIHAIVIYGAWK  156
+
+
+> sp|Q8DV98|FOLT_STRMU Folate transporter FolT OS=Streptococcus 
+mutans serotype c (strain ATCC 700610 / UA159) OX=210007 GN=folT 
+PE=1 SV=1
+Length=186
+
+ Score = 124 bits (311),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 52/183 (28%), Positives = 94/183 (51%), Gaps = 12/183 (7%)
+
+Query  1    MKTMAKTQLPKLDTLSMVTMGVLMALQLVISRFSVGNNFIKV--SFTFLIVALIAKWFGP  58
+            M TM K+  PKL    +VT+ +L+AL   I + S+     ++  S TF++  +I    GP
+Sbjct  1    MNTMFKS--PKLSPQRLVTLAMLIALAFAIGKLSIPIIPQQLIISPTFIVNVMIGMIGGP  58
+
+Query  59   WWGMLTAAVVDVIGTLMTG-GPFFIGFTVSAVLGSLIYAVFLYRQPVSW------WRVIG  111
+             W  ++ A++D++  L +G G F I +T+   +  L Y +F Y++ +SW        V  
+Sbjct  59   IWAFISLAILDIVDNLSSGAGNFIIWWTLLEAVQGLFYGLFFYQKSLSWTNKKDWLHVTI  118
+
+Query  112  ASVLIALLVNTLLNTLWVTIMYQTPFWSLLPVRALKELIVTPVQIVLVYLLLKSQVIQMI  171
+            A+ +I L+ + +   L V I Y  PFW+        ++   P++I LV + +  Q+ ++ 
+Sbjct  119  ATAIIMLIGSFIFTPLLVQIYYGVPFWAQFAAGRWLKIFEIPIRI-LVTMAIMPQLQRIP  177
+
+Query  172  QAR  174
+            + R
+Sbjct  178  ELR  180
+
+
+> sp|Q50364|Y448_MYCPN Uncharacterized protein MG313 homolog OS=Mycoplasma 
+pneumoniae (strain ATCC 29342 / M129) OX=272634 
+GN=MPN_448 PE=4 SV=3
+Length=285
+
+ Score = 102 bits (253),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 34/113 (30%), Positives = 52/113 (46%), Gaps = 5/113 (4%)
+
+Query  15   LSMVTMGVLMALQLVISRFSVG-NNFIKVSFTFLIVALIAKWFGPWWGMLTAAVVDVIGT  73
+              +V   VLMAL  + + FS+   + +KVSFT +  ALI   FGP WG    A+ D +  
+Sbjct  14   QLLVWAAVLMALSFIFNIFSINVTSVLKVSFTRIPFALIGWMFGPVWGFTFGAIADTMDW  73
+
+Query  74   LMTGGPFFIGFTVS----AVLGSLIYAVFLYRQPVSWWRVIGASVLIALLVNT  122
+            L  G  +F  F +       L  L+  V+  RQ  + W++    +   L+   
+Sbjct  74   LTRGYTWFWLFAIQKPMFCFLAGLVKGVYQVRQSSTNWKIDFWILQSILIGFF  126
+
+
+> sp|Q49414|Y313_MYCGE Uncharacterized protein MG313 OS=Mycoplasma 
+genitalium (strain ATCC 33530 / G-37 / NCTC 10195) OX=243273 
+GN=MG313 PE=4 SV=3
+Length=287
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 31/113 (27%), Positives = 53/113 (47%), Gaps = 5/113 (4%)
+
+Query  18   VTMGVLMALQLVISRFSVG-NNFIKVSFTFLIVALIAKWFGPWWGMLTAAVVDVIGTLMT  76
+            V   VL+AL  + S FS+   N + +SF  +  AL    FGP WG +   + D I  L  
+Sbjct  17   VWASVLLALTFIFSIFSISVTNVLSISFLRIPFALFGWIFGPIWGFIFGFLSDTIDWLTK  76
+
+Query  77   GGPFFIGFTVS----AVLGSLIYAVFLYRQPVSWWRVIGASVLIALLVNTLLN  125
+            G  +F  F +     A L  ++  ++L R+  S ++V    +   L+   +++
+Sbjct  77   GYVWFWMFALQKPLFAFLAGIVKGIYLVRKNASNYKVDFWVLQTLLVTFFVVS  129
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9272900768
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

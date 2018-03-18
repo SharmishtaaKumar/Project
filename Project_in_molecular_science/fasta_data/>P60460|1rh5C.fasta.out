@@ -1,0 +1,1132 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P60460|1rh5C
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P60460|SECG_METJA Preprotein translocase subunit SecG OS=Met...  107     9e-31
+  sp|A6UWW7|SECG_META3 Preprotein translocase subunit SecG OS=Met...  62.8    2e-13
+  sp|P60465|SECG_SULSO Preprotein translocase subunit SecG OS=Sul...  39.3    1e-04
+  sp|Q8TZH7|SECG_PYRFU Preprotein translocase subunit SecG OS=Pyr...  38.5    2e-04
+  sp|Q5JDK7|SECG_THEKO Preprotein translocase subunit SecG OS=The...  37.0    8e-04
+  sp|B6YW71|SECG_THEON Preprotein translocase subunit SecG OS=The...  37.0    8e-04
+  sp|Q975W7|SECG_SULTO Preprotein translocase subunit SecG OS=Sul...  37.0    9e-04
+  sp|Q5V0J1|SECG_HALMA Preprotein translocase subunit SecG OS=Hal...  36.6    0.001
+  sp|A8ABD7|SECG_IGNH4 Preprotein translocase subunit SecG OS=Ign...  36.6    0.001
+  sp|A0B9N5|SECG_METTP Preprotein translocase subunit SecG OS=Met...  35.8    0.002
+  sp|C5A4H9|SECG_THEGJ Preprotein translocase subunit SecG OS=The...  35.4    0.003
+  sp|Q46DN2|SECG_METBF Preprotein translocase subunit SecG OS=Met...  34.7    0.005
+  sp|P60459|SECG_METAC Preprotein translocase subunit SecG OS=Met...  34.7    0.005
+  sp|Q8PX50|SECG_METMA Preprotein translocase subunit SecG OS=Met...  34.3    0.007
+
+
+> sp|P60460|SECG_METJA Preprotein translocase subunit SecG OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / 
+JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=secG PE=1 SV=1
+Length=53
+
+ Score = 107 bits (266),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+           MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL
+Sbjct  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+
+
+> sp|A6UWW7|SECG_META3 Preprotein translocase subunit SecG OS=Methanococcus 
+aeolicus (strain ATCC BAA-1280 / DSM 17508 / OCM 
+812 / Nankai-3) OX=419665 GN=secG PE=3 SV=1
+Length=54
+
+ Score = 62.8 bits (151),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 27/51 (53%), Positives = 41/51 (80%), Gaps = 1/51 (2%)
+
+Query  1   MSK-REETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYG  50
+           MSK +++ GL+TSAGL+RYMDE  SKI++ PE V+G+T++ +++  IL YG
+Sbjct  1   MSKNKQDAGLSTSAGLVRYMDEDASKIKIAPEKVLGITISIMVLLFILNYG  51
+
+
+> sp|P60465|SECG_SULSO Preprotein translocase subunit SecG OS=Sulfolobus 
+solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 
+/ P2) OX=273057 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 39.3 bits (90),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 30/46 (65%), Gaps = 0/46 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           K+E   + + AGLIRY +E   K+++ P+ VIG ++A  II  ++T
+Sbjct  7   KKETVPVMSMAGLIRYYEEENEKVKISPKIVIGASLALTIIVIVIT  52
+
+
+> sp|Q8TZH7|SECG_PYRFU Preprotein translocase subunit SecG OS=Pyrococcus 
+furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 
+/ Vc1) OX=186497 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 38.5 bits (88),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 29/47 (62%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M+K + T   T AGL+R+ DE    ++V P+  + + + F++IE +L
+Sbjct  1   MAKEKTTLPPTGAGLMRFFDEDTKAVKVTPKGALAIVLVFILIEVLL  47
+
+
+> sp|Q5JDK7|SECG_THEKO Preprotein translocase subunit SecG OS=Thermococcus 
+kodakarensis (strain ATCC BAA-918 / JCM 12380 / 
+KOD1) OX=69014 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 37.0 bits (84),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M+K + T   T AGL+R+ DE    ++V P+ VI +T+  +  E IL
+Sbjct  1   MAKEKATLPPTGAGLMRFFDEDTRAVKVSPKGVIALTLLLIAFEFIL  47
+
+
+> sp|B6YW71|SECG_THEON Preprotein translocase subunit SecG OS=Thermococcus 
+onnurineus (strain NA1) OX=523850 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 37.0 bits (84),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M+K + T   T AGL+R+ DE    +++ P  VI +T+  V +E +L
+Sbjct  1   MAKEKATLPPTGAGLMRFFDEDTKAVKISPRGVIALTLILVALEILL  47
+
+
+> sp|Q975W7|SECG_SULTO Preprotein translocase subunit SecG OS=Sulfolobus 
+tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 
+/ 7) OX=273063 GN=secG PE=3 SV=1
+Length=58
+
+ Score = 37.0 bits (84),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 32/48 (67%), Gaps = 3/48 (6%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVT---VAFVIIEAIL  47
+           K+E   LA+ AGLIRY +E   KI++ P+ +I ++   VA VI+ +IL
+Sbjct  7   KKETVPLASMAGLIRYYEEENEKIKISPKLLIIISIIMVAGVIVASIL  54
+
+
+> sp|Q5V0J1|SECG_HALMA Preprotein translocase subunit SecG OS=Haloarcula 
+marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 
+/ VKM B-1809) OX=272569 GN=secG PE=3 SV=1
+Length=53
+
+ Score = 36.6 bits (83),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 18/49 (37%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  1   MSKREETGLATSAGLIRYMD-ETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           MS  +  GL +SAGL+RY D E  + IR+ P  ++   V F ++  +L 
+Sbjct  1   MSGSDGGGLMSSAGLVRYFDAEDQNTIRIDPRTIVATGVMFGLLMLVLN  49
+
+
+> sp|A8ABD7|SECG_IGNH4 Preprotein translocase subunit SecG OS=Ignicoccus 
+hospitalis (strain KIN4/I / DSM 18386 / JCM 14125) 
+OX=453591 GN=secG PE=3 SV=1
+Length=58
+
+ Score = 36.6 bits (83),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 17/36 (47%), Positives = 23/36 (64%), Gaps = 0/36 (0%)
+
+Query  8   GLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVII  43
+           GL T+ GL+R+ +E   KI+V PE VIG   A  I+
+Sbjct  11  GLVTAIGLVRFYEEVEEKIKVPPEAVIGAAFALSIM  46
+
+
+> sp|A0B9N5|SECG_METTP Preprotein translocase subunit SecG OS=Methanothrix 
+thermoacetophila (strain DSM 6194 / JCM 14653 / 
+NBRC 101360 / PT) OX=349307 GN=secG PE=3 SV=1
+Length=57
+
+ Score = 35.8 bits (81),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 31/52 (60%), Gaps = 2/52 (4%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVA--FVIIEAILTYGRF  52
+           K E  GL +SAGL+RY +   + I++ P+ VIG  +A    I+   +T+G +
+Sbjct  5   KGEGPGLMSSAGLMRYFESEETSIKLDPKMVIGAGIASGVAIMALNITFGLW  56
+
+
+> sp|C5A4H9|SECG_THEGJ Preprotein translocase subunit SecG OS=Thermococcus 
+gammatolerans (strain DSM 15229 / JCM 11827 / EJ3) 
+OX=593117 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 35.4 bits (80),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M+K + T   T AGL+R+ DE    I+V P+ VI + +  +  E  L
+Sbjct  1   MAKDKTTLPPTGAGLMRFFDEDTRAIKVSPKGVIAIVLVLIAFEVFL  47
+
+
+> sp|Q46DN2|SECG_METBF Preprotein translocase subunit SecG OS=Methanosarcina 
+barkeri (strain Fusaro / DSM 804) OX=269797 GN=secG 
+PE=3 SV=1
+Length=55
+
+ Score = 34.7 bits (78),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 15/47 (32%), Positives = 30/47 (64%), Gaps = 6/47 (13%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPE------HVIGVTVAFV  41
+           M+K+  +GL +SAGL+RY +   + ++V+P+       ++G+ V F+
+Sbjct  1   MAKKSGSGLQSSAGLMRYYEADKNAVQVQPKVVLIVGAIVGIAVLFL  47
+
+
+> sp|P60459|SECG_METAC Preprotein translocase subunit SecG OS=Methanosarcina 
+acetivorans (strain ATCC 35395 / DSM 2834 / JCM 
+12185 / C2A) OX=188937 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 34.7 bits (78),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 29/47 (62%), Gaps = 6/47 (13%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVI------GVTVAFV  41
+           M+KR  +GL +SAGL+RY +   + + ++P+ V+      G+ V F+
+Sbjct  1   MAKRSGSGLQSSAGLMRYYEADKNAVHIQPKTVLIVGALAGIAVLFL  47
+
+
+> sp|Q8PX50|SECG_METMA Preprotein translocase subunit SecG OS=Methanosarcina 
+mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / 
+Go1 / JCM 11833 / OCM 88) OX=192952 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 34.3 bits (77),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 28/45 (62%), Gaps = 2/45 (4%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVI--GVTVAFVII  43
+           M+K+  +GL +SAGL+RY +   + I ++P+ V+  G  V   +I
+Sbjct  1   MAKKSGSGLQSSAGLMRYYEADKNAIHIQPKTVLIAGALVGIAVI  45
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4999719708
+Results from round 2
+
+
+Query= P60460|1rh5C
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P60460|SECG_METJA Preprotein translocase subunit SecG OS=Met...  68.4    1e-15
+  sp|B6YW71|SECG_THEON Preprotein translocase subunit SecG OS=The...  59.2    5e-12
+  sp|Q5JDK7|SECG_THEKO Preprotein translocase subunit SecG OS=The...  58.8    6e-12
+  sp|A6UWW7|SECG_META3 Preprotein translocase subunit SecG OS=Met...  58.0    1e-11
+  sp|A0B9N5|SECG_METTP Preprotein translocase subunit SecG OS=Met...  56.1    6e-11
+  sp|Q8TZH7|SECG_PYRFU Preprotein translocase subunit SecG OS=Pyr...  55.3    1e-10
+  sp|P60465|SECG_SULSO Preprotein translocase subunit SecG OS=Sul...  53.4    7e-10
+  sp|Q5V0J1|SECG_HALMA Preprotein translocase subunit SecG OS=Hal...  52.6    1e-09
+  sp|Q975W7|SECG_SULTO Preprotein translocase subunit SecG OS=Sul...  45.7    5e-07
+  sp|A8ABD7|SECG_IGNH4 Preprotein translocase subunit SecG OS=Ign...  45.3    7e-07
+
+Sequences not found previously or not previously below threshold:
+
+  sp|C5A4H9|SECG_THEGJ Preprotein translocase subunit SecG OS=The...  57.3    2e-11
+  sp|O28498|SECG_ARCFU Preprotein translocase subunit SecG OS=Arc...  52.6    1e-09
+  sp|P60463|SECG_PYRHO Preprotein translocase subunit SecG OS=Pyr...  51.9    2e-09
+  sp|P60462|SECG_PYRAB Preprotein translocase subunit SecG OS=Pyr...  51.9    3e-09
+  sp|Q8PX50|SECG_METMA Preprotein translocase subunit SecG OS=Met...  47.6    1e-07
+  sp|Q18KL5|SECG_HALWD Preprotein translocase subunit SecG OS=Hal...  46.9    2e-07
+  sp|Q46DN2|SECG_METBF Preprotein translocase subunit SecG OS=Met...  46.9    2e-07
+  sp|P60461|SECG_METTH Preprotein translocase subunit SecG OS=Met...  46.5    3e-07
+  sp|P60459|SECG_METAC Preprotein translocase subunit SecG OS=Met...  46.5    3e-07
+  sp|Q9HMD1|SECG_HALSA Preprotein translocase subunit SecG OS=Hal...  45.7    5e-07
+  sp|P60464|SECG_SULAC Preprotein translocase subunit SecG OS=Sul...  45.3    8e-07
+  sp|B9LSC9|SECG_HALLT Preprotein translocase subunit SecG OS=Hal...  44.5    1e-06
+  sp|Q12U86|SECG_METBU Preprotein translocase subunit SecG OS=Met...  43.8    3e-06
+  sp|Q2NHI7|SECG_METST Preprotein translocase subunit SecG OS=Met...  43.0    4e-06
+  sp|A4YJ27|SECG_METS5 Preprotein translocase subunit SecG OS=Met...  42.2    9e-06
+  sp|Q0W4K2|SECG_METAR Preprotein translocase subunit SecG OS=Met...  39.9    7e-05
+  sp|Q8TYT4|SECG_METKA Preprotein translocase subunit SecG OS=Met...  36.5    0.001
+  sp|Q97BY3|SECG_THEVO Preprotein translocase subunit SecG OS=The...  35.3    0.003
+  sp|P60466|SECG_THEAC Preprotein translocase subunit SecG OS=The...  34.5    0.005
+
+
+> sp|P60460|SECG_METJA Preprotein translocase subunit SecG OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / 
+JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=secG PE=1 SV=1
+Length=53
+
+ Score = 68.4 bits (166),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+           MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL
+Sbjct  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+
+
+> sp|B6YW71|SECG_THEON Preprotein translocase subunit SecG OS=Thermococcus 
+onnurineus (strain NA1) OX=523850 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 59.2 bits (142),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M+K + T   T AGL+R+ DE    +++ P  VI +T+  V +E +L
+Sbjct  1   MAKEKATLPPTGAGLMRFFDEDTKAVKISPRGVIALTLILVALEILL  47
+
+
+> sp|Q5JDK7|SECG_THEKO Preprotein translocase subunit SecG OS=Thermococcus 
+kodakarensis (strain ATCC BAA-918 / JCM 12380 / 
+KOD1) OX=69014 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 58.8 bits (141),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M+K + T   T AGL+R+ DE    ++V P+ VI +T+  +  E IL
+Sbjct  1   MAKEKATLPPTGAGLMRFFDEDTRAVKVSPKGVIALTLLLIAFEFIL  47
+
+
+> sp|A6UWW7|SECG_META3 Preprotein translocase subunit SecG OS=Methanococcus 
+aeolicus (strain ATCC BAA-1280 / DSM 17508 / OCM 
+812 / Nankai-3) OX=419665 GN=secG PE=3 SV=1
+Length=54
+
+ Score = 58.0 bits (139),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 27/52 (52%), Positives = 41/52 (79%), Gaps = 1/52 (2%)
+
+Query  1   MSK-REETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGR  51
+           MSK +++ GL+TSAGL+RYMDE  SKI++ PE V+G+T++ +++  IL YG 
+Sbjct  1   MSKNKQDAGLSTSAGLVRYMDEDASKIKIAPEKVLGITISIMVLLFILNYGL  52
+
+
+> sp|C5A4H9|SECG_THEGJ Preprotein translocase subunit SecG OS=Thermococcus 
+gammatolerans (strain DSM 15229 / JCM 11827 / EJ3) 
+OX=593117 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 57.3 bits (137),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M+K + T   T AGL+R+ DE    I+V P+ VI + +  +  E  L
+Sbjct  1   MAKDKTTLPPTGAGLMRFFDEDTRAIKVSPKGVIAIVLVLIAFEVFL  47
+
+
+> sp|A0B9N5|SECG_METTP Preprotein translocase subunit SecG OS=Methanothrix 
+thermoacetophila (strain DSM 6194 / JCM 14653 / 
+NBRC 101360 / PT) OX=349307 GN=secG PE=3 SV=1
+Length=57
+
+ Score = 56.1 bits (134),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 19/52 (37%), Positives = 31/52 (60%), Gaps = 2/52 (4%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVA--FVIIEAILTYGRF  52
+           K E  GL +SAGL+RY +   + I++ P+ VIG  +A    I+   +T+G +
+Sbjct  5   KGEGPGLMSSAGLMRYFESEETSIKLDPKMVIGAGIASGVAIMALNITFGLW  56
+
+
+> sp|Q8TZH7|SECG_PYRFU Preprotein translocase subunit SecG OS=Pyrococcus 
+furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 
+/ Vc1) OX=186497 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 55.3 bits (132),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 16/47 (34%), Positives = 29/47 (62%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M+K + T   T AGL+R+ DE    ++V P+  + + + F++IE +L
+Sbjct  1   MAKEKTTLPPTGAGLMRFFDEDTKAVKVTPKGALAIVLVFILIEVLL  47
+
+
+> sp|P60465|SECG_SULSO Preprotein translocase subunit SecG OS=Sulfolobus 
+solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 
+/ P2) OX=273057 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 53.4 bits (127),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 30/46 (65%), Gaps = 0/46 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           K+E   + + AGLIRY +E   K+++ P+ VIG ++A  II  ++T
+Sbjct  7   KKETVPVMSMAGLIRYYEEENEKVKISPKIVIGASLALTIIVIVIT  52
+
+
+> sp|Q5V0J1|SECG_HALMA Preprotein translocase subunit SecG OS=Haloarcula 
+marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 
+/ VKM B-1809) OX=272569 GN=secG PE=3 SV=1
+Length=53
+
+ Score = 52.6 bits (125),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  1   MSKREETGLATSAGLIRYMD-ETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           MS  +  GL +SAGL+RY D E  + IR+ P  ++   V F ++  +L 
+Sbjct  1   MSGSDGGGLMSSAGLVRYFDAEDQNTIRIDPRTIVATGVMFGLLMLVLN  49
+
+
+> sp|O28498|SECG_ARCFU Preprotein translocase subunit SecG OS=Archaeoglobus 
+fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 
+/ JCM 9628 / NBRC 100126) OX=224325 GN=secG PE=3 SV=2
+Length=60
+
+ Score = 52.6 bits (125),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 30/52 (58%), Gaps = 2/52 (4%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT--YGRF  52
+           K +   L +SAG++RY +E  ++I+V P+ ++   +   ++  IL   YG +
+Sbjct  8   KAKTPPLMSSAGIMRYFEEEKTQIKVSPKTILAAGIVTGVLIIILNAYYGLW  59
+
+
+> sp|P60463|SECG_PYRHO Preprotein translocase subunit SecG OS=Pyrococcus 
+horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 
+/ NBRC 100139 / OT-3) OX=70601 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 51.9 bits (123),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIG  35
+           M+K + T   T AGL+R+ DE    I++ P+  I 
+Sbjct  1   MAKEKTTLPPTGAGLMRFFDEDTRAIKITPKGAIA  35
+
+
+> sp|P60462|SECG_PYRAB Preprotein translocase subunit SecG OS=Pyrococcus 
+abyssi (strain GE5 / Orsay) OX=272844 GN=secG PE=3 
+SV=1
+Length=56
+
+ Score = 51.9 bits (123),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 12/35 (34%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIG  35
+           M+K + T   T AGL+R+ DE    I++ P+  + 
+Sbjct  1   MAKEKTTLPPTGAGLMRFFDEDTRAIKITPKGAVA  35
+
+
+> sp|Q8PX50|SECG_METMA Preprotein translocase subunit SecG OS=Methanosarcina 
+mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / 
+Go1 / JCM 11833 / OCM 88) OX=192952 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 47.6 bits (112),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 27/48 (56%), Gaps = 0/48 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           M+K+  +GL +SAGL+RY +   + I ++P+ V+       I    L+
+Sbjct  1   MAKKSGSGLQSSAGLMRYYEADKNAIHIQPKTVLIAGALVGIAVIFLS  48
+
+
+> sp|Q18KL5|SECG_HALWD Preprotein translocase subunit SecG OS=Haloquadratum 
+walsbyi (strain DSM 16790 / HBSQ001) OX=362976 
+GN=secG PE=3 SV=1
+Length=54
+
+ Score = 46.9 bits (110),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  2   SKREETGLATSAGLIRYMD-ETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           S +   GL +SAGL+RY D E  + IR+ P+ ++   V F +   +L 
+Sbjct  3   SGQNSGGLMSSAGLVRYFDAEDRNSIRIDPKTIVAFGVLFGVGVLVLN  50
+
+
+> sp|Q46DN2|SECG_METBF Preprotein translocase subunit SecG OS=Methanosarcina 
+barkeri (strain Fusaro / DSM 804) OX=269797 GN=secG 
+PE=3 SV=1
+Length=55
+
+ Score = 46.9 bits (110),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 29/48 (60%), Gaps = 0/48 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           M+K+  +GL +SAGL+RY +   + ++V+P+ V+ V     I    L+
+Sbjct  1   MAKKSGSGLQSSAGLMRYYEADKNAVQVQPKVVLIVGAIVGIAVLFLS  48
+
+
+> sp|P60461|SECG_METTH Preprotein translocase subunit SecG OS=Methanothermobacter 
+thermautotrophicus (strain ATCC 29096 / DSM 
+1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=secG 
+PE=3 SV=1
+Length=52
+
+ Score = 46.5 bits (109),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 12/47 (26%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTY  49
+           K ++T   + AGL+RY +E     ++ PE V+ +++   +   +L +
+Sbjct  4   KDKKTLPPSGAGLVRYFEEETKGPKLTPEQVVVMSIILAVFCLVLRF  50
+
+
+> sp|P60459|SECG_METAC Preprotein translocase subunit SecG OS=Methanosarcina 
+acetivorans (strain ATCC 35395 / DSM 2834 / JCM 
+12185 / C2A) OX=188937 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 46.5 bits (109),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 28/48 (58%), Gaps = 0/48 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           M+KR  +GL +SAGL+RY +   + + ++P+ V+ V     I    L+
+Sbjct  1   MAKRSGSGLQSSAGLMRYYEADKNAVHIQPKTVLIVGALAGIAVLFLS  48
+
+
+> sp|Q9HMD1|SECG_HALSA Preprotein translocase subunit SecG OS=Halobacterium 
+salinarum (strain ATCC 700922 / JCM 11081 / NRC-1) 
+OX=64091 GN=secG PE=3 SV=1
+Length=53
+
+ Score = 45.7 bits (107),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 27/49 (55%), Gaps = 1/49 (2%)
+
+Query  2   SKREETGLATSAGLIRYMD-ETFSKIRVKPEHVIGVTVAFVIIEAILTY  49
+           S +   GL +SAGL+RY D E  + +++ P  V+ V   F ++  +  +
+Sbjct  3   SGQNSGGLMSSAGLVRYFDSEDSNALQIDPRSVVAVGAFFGLVVLLAQF  51
+
+
+> sp|Q975W7|SECG_SULTO Preprotein translocase subunit SecG OS=Sulfolobus 
+tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 
+/ 7) OX=273063 GN=secG PE=3 SV=1
+Length=58
+
+ Score = 45.7 bits (107),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 16/44 (36%), Positives = 27/44 (61%), Gaps = 0/44 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAI  46
+           K+E   LA+ AGLIRY +E   KI++ P+ +I +++  V    +
+Sbjct  7   KKETVPLASMAGLIRYYEEENEKIKISPKLLIIISIIMVAGVIV  50
+
+
+> sp|A8ABD7|SECG_IGNH4 Preprotein translocase subunit SecG OS=Ignicoccus 
+hospitalis (strain KIN4/I / DSM 18386 / JCM 14125) 
+OX=453591 GN=secG PE=3 SV=1
+Length=58
+
+ Score = 45.3 bits (106),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 26/45 (58%), Gaps = 0/45 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           ++   GL T+ GL+R+ +E   KI+V PE VIG   A  I+   L
+Sbjct  6   RKGGEGLVTAIGLVRFYEEVEEKIKVPPEAVIGAAFALSIMTIAL  50
+
+
+> sp|P60464|SECG_SULAC Preprotein translocase subunit SecG OS=Sulfolobus 
+acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 
+8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=Saci_0729 PE=3 
+SV=2
+Length=59
+
+ Score = 45.3 bits (106),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 12/47 (26%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTY  49
+           K+E+  +A+ AGL+RY +    K+++ P+ V+  ++  +    I ++
+Sbjct  7   KKEDVPIASMAGLVRYYESEKEKVKISPKVVVVASIVLIAGVIIASF  53
+
+
+> sp|B9LSC9|SECG_HALLT Preprotein translocase subunit SecG OS=Halorubrum 
+lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 
+8891 / ACAM 34) OX=416348 GN=secG PE=3 SV=1
+Length=54
+
+ Score = 44.5 bits (104),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 25/48 (52%), Gaps = 1/48 (2%)
+
+Query  2   SKREETGLATSAGLIRYMD-ETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           S     GL +SAGL+RY D E    I + P+ V+   V F +   IL+
+Sbjct  3   SGSNSGGLMSSAGLVRYFDSEDRDAIAIDPKTVLAFCVLFGVFVQILS  50
+
+
+> sp|Q12U86|SECG_METBU Preprotein translocase subunit SecG OS=Methanococcoides 
+burtonii (strain DSM 6242 / NBRC 107633 / OCM 
+468 / ACE-M) OX=259564 GN=secG PE=3 SV=1
+Length=58
+
+ Score = 43.8 bits (102),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 25/52 (48%), Gaps = 2/52 (4%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHV--IGVTVAFVIIEAILTYGRF  52
+           K   +GL +SAGL+ Y D     I V+P+ V   G     VI+     +G +
+Sbjct  6   KSSGSGLMSSAGLMTYYDADKKAIHVQPKTVFIFGAICGIVILAFSAGFGLW  57
+
+
+> sp|Q2NHI7|SECG_METST Preprotein translocase subunit SecG OS=Methanosphaera 
+stadtmanae (strain ATCC 43021 / DSM 3091 / JCM 
+11832 / MCB-3) OX=339860 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 43.0 bits (100),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 12/47 (26%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTY  49
+           K ++T  A+ AG++RY ++  + +++ P+ V+  T+   +I   L +
+Sbjct  4   KDKKTLPASGAGIVRYFNDDTAGVKLSPKQVVIGTIIVALICIALRF  50
+
+
+> sp|A4YJ27|SECG_METS5 Preprotein translocase subunit SecG OS=Metallosphaera 
+sedula (strain ATCC 51363 / DSM 5348 / JCM 9185 
+/ NBRC 15509 / TH2) OX=399549 GN=secG PE=3 SV=1
+Length=57
+
+ Score = 42.2 bits (98),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 14/36 (39%), Positives = 22/36 (61%), Gaps = 0/36 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTV  38
+           K+E   + + AGLIRY +E   K +V P +VI  ++
+Sbjct  7   KKENVPVMSMAGLIRYYEEEHEKYKVDPIYVIIASI  42
+
+
+> sp|Q0W4K2|SECG_METAR Preprotein translocase subunit SecG OS=Methanocella 
+arvoryzae (strain DSM 22066 / NBRC 105507 / MRE50) 
+OX=351160 GN=secG PE=3 SV=1
+Length=59
+
+ Score = 39.9 bits (92),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 16/40 (40%), Positives = 21/40 (53%), Gaps = 2/40 (5%)
+
+Query  15  LIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT--YGRF  52
+           L+RY +   S I++ P+ VI   VA      IL   YGRF
+Sbjct  19  LMRYFEAEESAIKIDPKTVIIAAVASGAFIWILNFTYGRF  58
+
+
+> sp|Q8TYT4|SECG_METKA Preprotein translocase subunit SecG OS=Methanopyrus 
+kandleri (strain AV19 / DSM 6324 / JCM 9639 / NBRC 
+100938) OX=190192 GN=secG PE=3 SV=1
+Length=57
+
+ Score = 36.5 bits (83),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 10/46 (22%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAI  46
+           M K+        AG++ + DE    I++ P++++    A  ++  I
+Sbjct  5   MEKKRAEMPPARAGILSFWDEEAPGIKIDPDYILYACFAVAVLLII  50
+
+
+> sp|Q97BY3|SECG_THEVO Preprotein translocase subunit SecG OS=Thermoplasma 
+volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 
+/ NBRC 15438 / GSS1) OX=273116 GN=secG PE=3 SV=2
+Length=55
+
+ Score = 35.3 bits (80),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 13/44 (30%), Positives = 23/44 (52%), Gaps = 1/44 (2%)
+
+Query  2   SKREETGLATSAGLIRYMDETF-SKIRVKPEHVIGVTVAFVIIE  44
+           S ++  G  + AGLIRY +E       + P+ V+ + +A  I+ 
+Sbjct  3   SDKKSEGFQSGAGLIRYFEEEEIKGPALDPKLVVYIGIAVAIMV  46
+
+
+> sp|P60466|SECG_THEAC Preprotein translocase subunit SecG OS=Thermoplasma 
+acidophilum (strain ATCC 25905 / DSM 1728 / JCM 
+9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 34.5 bits (78),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 24/46 (52%), Gaps = 1/46 (2%)
+
+Query  2   SKREETGLATSAGLIRYMDETF-SKIRVKPEHVIGVTVAFVIIEAI  46
+           S R+  G  + AGLIRY +E       + P+ V+ + +A  II  I
+Sbjct  3   SDRKSEGFQSGAGLIRYFEEEEIKGPALDPKLVVYMGIAVAIIVEI  48
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.146    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0446    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4999719708
+Results from round 3
+
+
+Query= P60460|1rh5C
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P60460|SECG_METJA Preprotein translocase subunit SecG OS=Met...  61.4    6e-13
+  sp|Q8PX50|SECG_METMA Preprotein translocase subunit SecG OS=Met...  59.5    4e-12
+  sp|O28498|SECG_ARCFU Preprotein translocase subunit SecG OS=Arc...  57.6    2e-11
+  sp|P60459|SECG_METAC Preprotein translocase subunit SecG OS=Met...  57.2    2e-11
+  sp|P60461|SECG_METTH Preprotein translocase subunit SecG OS=Met...  56.4    4e-11
+  sp|B6YW71|SECG_THEON Preprotein translocase subunit SecG OS=The...  56.4    5e-11
+  sp|C5A4H9|SECG_THEGJ Preprotein translocase subunit SecG OS=The...  56.4    5e-11
+  sp|Q46DN2|SECG_METBF Preprotein translocase subunit SecG OS=Met...  56.4    5e-11
+  sp|Q5JDK7|SECG_THEKO Preprotein translocase subunit SecG OS=The...  56.0    7e-11
+  sp|A6UWW7|SECG_META3 Preprotein translocase subunit SecG OS=Met...  54.5    3e-10
+  sp|Q2NHI7|SECG_METST Preprotein translocase subunit SecG OS=Met...  54.1    3e-10
+  sp|A0B9N5|SECG_METTP Preprotein translocase subunit SecG OS=Met...  53.7    5e-10
+  sp|Q8TZH7|SECG_PYRFU Preprotein translocase subunit SecG OS=Pyr...  53.3    8e-10
+  sp|Q18KL5|SECG_HALWD Preprotein translocase subunit SecG OS=Hal...  52.9    1e-09
+  sp|Q8TYT4|SECG_METKA Preprotein translocase subunit SecG OS=Met...  52.6    1e-09
+  sp|B9LSC9|SECG_HALLT Preprotein translocase subunit SecG OS=Hal...  52.6    1e-09
+  sp|Q12U86|SECG_METBU Preprotein translocase subunit SecG OS=Met...  52.6    2e-09
+  sp|Q5V0J1|SECG_HALMA Preprotein translocase subunit SecG OS=Hal...  52.2    2e-09
+  sp|P60465|SECG_SULSO Preprotein translocase subunit SecG OS=Sul...  51.4    3e-09
+  sp|Q9HMD1|SECG_HALSA Preprotein translocase subunit SecG OS=Hal...  51.0    5e-09
+  sp|P60463|SECG_PYRHO Preprotein translocase subunit SecG OS=Pyr...  50.3    9e-09
+  sp|P60462|SECG_PYRAB Preprotein translocase subunit SecG OS=Pyr...  50.3    9e-09
+  sp|P60464|SECG_SULAC Preprotein translocase subunit SecG OS=Sul...  50.3    1e-08
+  sp|Q975W7|SECG_SULTO Preprotein translocase subunit SecG OS=Sul...  48.7    4e-08
+  sp|A4YJ27|SECG_METS5 Preprotein translocase subunit SecG OS=Met...  46.8    2e-07
+  sp|A8ABD7|SECG_IGNH4 Preprotein translocase subunit SecG OS=Ign...  44.1    2e-06
+  sp|Q0W4K2|SECG_METAR Preprotein translocase subunit SecG OS=Met...  43.7    3e-06
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q97BY3|SECG_THEVO Preprotein translocase subunit SecG OS=The...  40.2    5e-05
+  sp|P60466|SECG_THEAC Preprotein translocase subunit SecG OS=The...  39.9    7e-05
+  sp|Q6L0N2|SECG_PICTO Preprotein translocase subunit SecG OS=Pic...  36.4    0.001
+
+
+> sp|P60460|SECG_METJA Preprotein translocase subunit SecG OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / 
+JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=secG PE=1 SV=1
+Length=53
+
+ Score = 61.4 bits (148),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+           MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL
+Sbjct  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+
+
+> sp|Q8PX50|SECG_METMA Preprotein translocase subunit SecG OS=Methanosarcina 
+mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / 
+Go1 / JCM 11833 / OCM 88) OX=192952 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 59.5 bits (143),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 27/48 (56%), Gaps = 0/48 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           M+K+  +GL +SAGL+RY +   + I ++P+ V+       I    L+
+Sbjct  1   MAKKSGSGLQSSAGLMRYYEADKNAIHIQPKTVLIAGALVGIAVIFLS  48
+
+
+> sp|O28498|SECG_ARCFU Preprotein translocase subunit SecG OS=Archaeoglobus 
+fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 
+/ JCM 9628 / NBRC 100126) OX=224325 GN=secG PE=3 SV=2
+Length=60
+
+ Score = 57.6 bits (138),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 30/52 (58%), Gaps = 2/52 (4%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT--YGRF  52
+           K +   L +SAG++RY +E  ++I+V P+ ++   +   ++  IL   YG +
+Sbjct  8   KAKTPPLMSSAGIMRYFEEEKTQIKVSPKTILAAGIVTGVLIIILNAYYGLW  59
+
+
+> sp|P60459|SECG_METAC Preprotein translocase subunit SecG OS=Methanosarcina 
+acetivorans (strain ATCC 35395 / DSM 2834 / JCM 
+12185 / C2A) OX=188937 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 57.2 bits (137),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 28/48 (58%), Gaps = 0/48 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           M+KR  +GL +SAGL+RY +   + + ++P+ V+ V     I    L+
+Sbjct  1   MAKRSGSGLQSSAGLMRYYEADKNAVHIQPKTVLIVGALAGIAVLFLS  48
+
+
+> sp|P60461|SECG_METTH Preprotein translocase subunit SecG OS=Methanothermobacter 
+thermautotrophicus (strain ATCC 29096 / DSM 
+1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=secG 
+PE=3 SV=1
+Length=52
+
+ Score = 56.4 bits (135),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 12/47 (26%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTY  49
+           K ++T   + AGL+RY +E     ++ PE V+ +++   +   +L +
+Sbjct  4   KDKKTLPPSGAGLVRYFEEETKGPKLTPEQVVVMSIILAVFCLVLRF  50
+
+
+> sp|B6YW71|SECG_THEON Preprotein translocase subunit SecG OS=Thermococcus 
+onnurineus (strain NA1) OX=523850 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 56.4 bits (135),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M+K + T   T AGL+R+ DE    +++ P  VI +T+  V +E +L
+Sbjct  1   MAKEKATLPPTGAGLMRFFDEDTKAVKISPRGVIALTLILVALEILL  47
+
+
+> sp|C5A4H9|SECG_THEGJ Preprotein translocase subunit SecG OS=Thermococcus 
+gammatolerans (strain DSM 15229 / JCM 11827 / EJ3) 
+OX=593117 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 56.4 bits (135),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M+K + T   T AGL+R+ DE    I+V P+ VI + +  +  E  L
+Sbjct  1   MAKDKTTLPPTGAGLMRFFDEDTRAIKVSPKGVIAIVLVLIAFEVFL  47
+
+
+> sp|Q46DN2|SECG_METBF Preprotein translocase subunit SecG OS=Methanosarcina 
+barkeri (strain Fusaro / DSM 804) OX=269797 GN=secG 
+PE=3 SV=1
+Length=55
+
+ Score = 56.4 bits (135),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 29/48 (60%), Gaps = 0/48 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           M+K+  +GL +SAGL+RY +   + ++V+P+ V+ V     I    L+
+Sbjct  1   MAKKSGSGLQSSAGLMRYYEADKNAVQVQPKVVLIVGAIVGIAVLFLS  48
+
+
+> sp|Q5JDK7|SECG_THEKO Preprotein translocase subunit SecG OS=Thermococcus 
+kodakarensis (strain ATCC BAA-918 / JCM 12380 / 
+KOD1) OX=69014 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 56.0 bits (134),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M+K + T   T AGL+R+ DE    ++V P+ VI +T+  +  E IL
+Sbjct  1   MAKEKATLPPTGAGLMRFFDEDTRAVKVSPKGVIALTLLLIAFEFIL  47
+
+
+> sp|A6UWW7|SECG_META3 Preprotein translocase subunit SecG OS=Methanococcus 
+aeolicus (strain ATCC BAA-1280 / DSM 17508 / OCM 
+812 / Nankai-3) OX=419665 GN=secG PE=3 SV=1
+Length=54
+
+ Score = 54.5 bits (130),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 27/52 (52%), Positives = 41/52 (79%), Gaps = 1/52 (2%)
+
+Query  1   MSK-REETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGR  51
+           MSK +++ GL+TSAGL+RYMDE  SKI++ PE V+G+T++ +++  IL YG 
+Sbjct  1   MSKNKQDAGLSTSAGLVRYMDEDASKIKIAPEKVLGITISIMVLLFILNYGL  52
+
+
+> sp|Q2NHI7|SECG_METST Preprotein translocase subunit SecG OS=Methanosphaera 
+stadtmanae (strain ATCC 43021 / DSM 3091 / JCM 
+11832 / MCB-3) OX=339860 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 54.1 bits (129),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 12/47 (26%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTY  49
+           K ++T  A+ AG++RY ++  + +++ P+ V+  T+   +I   L +
+Sbjct  4   KDKKTLPASGAGIVRYFNDDTAGVKLSPKQVVIGTIIVALICIALRF  50
+
+
+> sp|A0B9N5|SECG_METTP Preprotein translocase subunit SecG OS=Methanothrix 
+thermoacetophila (strain DSM 6194 / JCM 14653 / 
+NBRC 101360 / PT) OX=349307 GN=secG PE=3 SV=1
+Length=57
+
+ Score = 53.7 bits (128),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 18/56 (32%), Positives = 33/56 (59%), Gaps = 4/56 (7%)
+
+Query  1   MSKREETGL--ATSAGLIRYMDETFSKIRVKPEHVIGVTVA--FVIIEAILTYGRF  52
+           M+K++  G    +SAGL+RY +   + I++ P+ VIG  +A    I+   +T+G +
+Sbjct  1   MAKKKGEGPGLMSSAGLMRYFESEETSIKLDPKMVIGAGIASGVAIMALNITFGLW  56
+
+
+> sp|Q8TZH7|SECG_PYRFU Preprotein translocase subunit SecG OS=Pyrococcus 
+furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 
+/ Vc1) OX=186497 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 53.3 bits (127),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 29/48 (60%), Gaps = 0/48 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           M+K + T   T AGL+R+ DE    ++V P+  + + + F++IE +L 
+Sbjct  1   MAKEKTTLPPTGAGLMRFFDEDTKAVKVTPKGALAIVLVFILIEVLLQ  48
+
+
+> sp|Q18KL5|SECG_HALWD Preprotein translocase subunit SecG OS=Haloquadratum 
+walsbyi (strain DSM 16790 / HBSQ001) OX=362976 
+GN=secG PE=3 SV=1
+Length=54
+
+ Score = 52.9 bits (126),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  2   SKREETGLATSAGLIRYMD-ETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           S +   GL +SAGL+RY D E  + IR+ P+ ++   V F +   +L 
+Sbjct  3   SGQNSGGLMSSAGLVRYFDAEDRNSIRIDPKTIVAFGVLFGVGVLVLN  50
+
+
+> sp|Q8TYT4|SECG_METKA Preprotein translocase subunit SecG OS=Methanopyrus 
+kandleri (strain AV19 / DSM 6324 / JCM 9639 / NBRC 
+100938) OX=190192 GN=secG PE=3 SV=1
+Length=57
+
+ Score = 52.6 bits (125),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 10/47 (21%), Positives = 22/47 (47%), Gaps = 0/47 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           M K+        AG++ + DE    I++ P++++    A  ++  I 
+Sbjct  5   MEKKRAEMPPARAGILSFWDEEAPGIKIDPDYILYACFAVAVLLIIA  51
+
+
+> sp|B9LSC9|SECG_HALLT Preprotein translocase subunit SecG OS=Halorubrum 
+lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 
+8891 / ACAM 34) OX=416348 GN=secG PE=3 SV=1
+Length=54
+
+ Score = 52.6 bits (125),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 25/48 (52%), Gaps = 1/48 (2%)
+
+Query  2   SKREETGLATSAGLIRYMD-ETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           S     GL +SAGL+RY D E    I + P+ V+   V F +   IL+
+Sbjct  3   SGSNSGGLMSSAGLVRYFDSEDRDAIAIDPKTVLAFCVLFGVFVQILS  50
+
+
+> sp|Q12U86|SECG_METBU Preprotein translocase subunit SecG OS=Methanococcoides 
+burtonii (strain DSM 6242 / NBRC 107633 / OCM 
+468 / ACE-M) OX=259564 GN=secG PE=3 SV=1
+Length=58
+
+ Score = 52.6 bits (125),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 24/52 (46%), Gaps = 2/52 (4%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVA--FVIIEAILTYGRF  52
+           K   +GL +SAGL+ Y D     I V+P+ V         VI+     +G +
+Sbjct  6   KSSGSGLMSSAGLMTYYDADKKAIHVQPKTVFIFGAICGIVILAFSAGFGLW  57
+
+
+> sp|Q5V0J1|SECG_HALMA Preprotein translocase subunit SecG OS=Haloarcula 
+marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 
+/ VKM B-1809) OX=272569 GN=secG PE=3 SV=1
+Length=53
+
+ Score = 52.2 bits (124),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  1   MSKREETGLATSAGLIRYMD-ETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           MS  +  GL +SAGL+RY D E  + IR+ P  ++   V F ++  +L 
+Sbjct  1   MSGSDGGGLMSSAGLVRYFDAEDQNTIRIDPRTIVATGVMFGLLMLVLN  49
+
+
+> sp|P60465|SECG_SULSO Preprotein translocase subunit SecG OS=Sulfolobus 
+solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 
+/ P2) OX=273057 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 51.4 bits (122),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 30/46 (65%), Gaps = 0/46 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           K+E   + + AGLIRY +E   K+++ P+ VIG ++A  II  ++T
+Sbjct  7   KKETVPVMSMAGLIRYYEEENEKVKISPKIVIGASLALTIIVIVIT  52
+
+
+> sp|Q9HMD1|SECG_HALSA Preprotein translocase subunit SecG OS=Halobacterium 
+salinarum (strain ATCC 700922 / JCM 11081 / NRC-1) 
+OX=64091 GN=secG PE=3 SV=1
+Length=53
+
+ Score = 51.0 bits (121),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 27/49 (55%), Gaps = 1/49 (2%)
+
+Query  2   SKREETGLATSAGLIRYMD-ETFSKIRVKPEHVIGVTVAFVIIEAILTY  49
+           S +   GL +SAGL+RY D E  + +++ P  V+ V   F ++  +  +
+Sbjct  3   SGQNSGGLMSSAGLVRYFDSEDSNALQIDPRSVVAVGAFFGLVVLLAQF  51
+
+
+> sp|P60463|SECG_PYRHO Preprotein translocase subunit SecG OS=Pyrococcus 
+horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 
+/ NBRC 100139 / OT-3) OX=70601 GN=secG PE=3 SV=1
+Length=56
+
+ Score = 50.3 bits (119),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIG  35
+           M+K + T   T AGL+R+ DE    I++ P+  I 
+Sbjct  1   MAKEKTTLPPTGAGLMRFFDEDTRAIKITPKGAIA  35
+
+
+> sp|P60462|SECG_PYRAB Preprotein translocase subunit SecG OS=Pyrococcus 
+abyssi (strain GE5 / Orsay) OX=272844 GN=secG PE=3 
+SV=1
+Length=56
+
+ Score = 50.3 bits (119),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 12/35 (34%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIG  35
+           M+K + T   T AGL+R+ DE    I++ P+  + 
+Sbjct  1   MAKEKTTLPPTGAGLMRFFDEDTRAIKITPKGAVA  35
+
+
+> sp|P60464|SECG_SULAC Preprotein translocase subunit SecG OS=Sulfolobus 
+acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 
+8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=Saci_0729 PE=3 
+SV=2
+Length=59
+
+ Score = 50.3 bits (119),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 12/47 (26%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTY  49
+           K+E+  +A+ AGL+RY +    K+++ P+ V+  ++  +    I ++
+Sbjct  7   KKEDVPIASMAGLVRYYESEKEKVKISPKVVVVASIVLIAGVIIASF  53
+
+
+> sp|Q975W7|SECG_SULTO Preprotein translocase subunit SecG OS=Sulfolobus 
+tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 
+/ 7) OX=273063 GN=secG PE=3 SV=1
+Length=58
+
+ Score = 48.7 bits (115),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILT  48
+           K+E   LA+ AGLIRY +E   KI++ P+ +I +++  V    + +
+Sbjct  7   KKETVPLASMAGLIRYYEEENEKIKISPKLLIIISIIMVAGVIVAS  52
+
+
+> sp|A4YJ27|SECG_METS5 Preprotein translocase subunit SecG OS=Metallosphaera 
+sedula (strain ATCC 51363 / DSM 5348 / JCM 9185 
+/ NBRC 15509 / TH2) OX=399549 GN=secG PE=3 SV=1
+Length=57
+
+ Score = 46.8 bits (110),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 14/36 (39%), Positives = 22/36 (61%), Gaps = 0/36 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTV  38
+           K+E   + + AGLIRY +E   K +V P +VI  ++
+Sbjct  7   KKENVPVMSMAGLIRYYEEEHEKYKVDPIYVIIASI  42
+
+
+> sp|A8ABD7|SECG_IGNH4 Preprotein translocase subunit SecG OS=Ignicoccus 
+hospitalis (strain KIN4/I / DSM 18386 / JCM 14125) 
+OX=453591 GN=secG PE=3 SV=1
+Length=58
+
+ Score = 44.1 bits (103),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 26/45 (58%), Gaps = 0/45 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAIL  47
+           ++   GL T+ GL+R+ +E   KI+V PE VIG   A  I+   L
+Sbjct  6   RKGGEGLVTAIGLVRFYEEVEEKIKVPPEAVIGAAFALSIMTIAL  50
+
+
+> sp|Q0W4K2|SECG_METAR Preprotein translocase subunit SecG OS=Methanocella 
+arvoryzae (strain DSM 22066 / NBRC 105507 / MRE50) 
+OX=351160 GN=secG PE=3 SV=1
+Length=59
+
+ Score = 43.7 bits (102),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 12/35 (34%), Positives = 18/35 (51%), Gaps = 0/35 (0%)
+
+Query  15  LIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTY  49
+           L+RY +   S I++ P+ VI   VA      IL +
+Sbjct  19  LMRYFEAEESAIKIDPKTVIIAAVASGAFIWILNF  53
+
+
+> sp|Q97BY3|SECG_THEVO Preprotein translocase subunit SecG OS=Thermoplasma 
+volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 
+/ NBRC 15438 / GSS1) OX=273116 GN=secG PE=3 SV=2
+Length=55
+
+ Score = 40.2 bits (93),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 13/44 (30%), Positives = 23/44 (52%), Gaps = 1/44 (2%)
+
+Query  2   SKREETGLATSAGLIRYMDETF-SKIRVKPEHVIGVTVAFVIIE  44
+           S ++  G  + AGLIRY +E       + P+ V+ + +A  I+ 
+Sbjct  3   SDKKSEGFQSGAGLIRYFEEEEIKGPALDPKLVVYIGIAVAIMV  46
+
+
+> sp|P60466|SECG_THEAC Preprotein translocase subunit SecG OS=Thermoplasma 
+acidophilum (strain ATCC 25905 / DSM 1728 / JCM 
+9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 39.9 bits (92),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 16/47 (34%), Positives = 24/47 (51%), Gaps = 1/47 (2%)
+
+Query  2   SKREETGLATSAGLIRYMDETF-SKIRVKPEHVIGVTVAFVIIEAIL  47
+           S R+  G  + AGLIRY +E       + P+ V+ + +A  II  I 
+Sbjct  3   SDRKSEGFQSGAGLIRYFEEEEIKGPALDPKLVVYMGIAVAIIVEIA  49
+
+
+> sp|Q6L0N2|SECG_PICTO Preprotein translocase subunit SecG OS=Picrophilus 
+torridus (strain ATCC 700027 / DSM 9790 / JCM 10055 
+/ NBRC 100828) OX=263820 GN=secG PE=3 SV=1
+Length=55
+
+ Score = 36.4 bits (83),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 11/36 (31%), Positives = 19/36 (53%), Gaps = 1/36 (3%)
+
+Query  10  ATSAGLIRYMDETF-SKIRVKPEHVIGVTVAFVIIE  44
+            + AGLIRY +E       + P+ +I + +A  +I 
+Sbjct  11  QSGAGLIRYFNEEEIKGPALDPKLIIYIGIAMAVIV  46
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.153    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0466    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4999719708
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

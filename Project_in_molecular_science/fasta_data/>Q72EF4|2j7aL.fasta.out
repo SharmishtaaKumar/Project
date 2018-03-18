@@ -1,0 +1,1203 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q72EF4|2j7aL
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q06536|YFCC_ALLVD Putative tetraheme cytochrome-c type OS=Al...  63.2    1e-11
+  sp|Q50926|CYCX_NITEU Probable tetraheme cytochrome c-type OS=Ni...  57.8    1e-09
+  sp|P33226|TORC_ECOLI Cytochrome c-type protein TorC OS=Escheric...  57.4    6e-09
+  sp|P58359|TORC_ECO57 Cytochrome c-type protein TorC OS=Escheric...  57.4    6e-09
+  sp|P44655|NAPC_HAEIN Cytochrome c-type protein NapC OS=Haemophi...  55.1    1e-08
+  sp|P0ABL5|NAPC_ECOLI Cytochrome c-type protein NapC OS=Escheric...  54.7    1e-08
+  sp|P0ABL6|NAPC_ECOL6 Cytochrome c-type protein NapC OS=Escheric...  54.7    1e-08
+  sp|P0ABL7|NAPC_ECO57 Cytochrome c-type protein NapC OS=Escheric...  54.7    1e-08
+  sp|Q9S1E6|NRFH_WOLSU Cytochrome c-type protein NrfH OS=Wolinell...  52.4    8e-08
+  sp|Q56352|NAPC_PARPN Cytochrome c-type protein NapC OS=Paracocc...  48.9    3e-06
+  sp|Q53178|NAPC_RHOS4 Cytochrome c-type protein NapC OS=Rhodobac...  42.4    6e-04
+  sp|P58361|TORY_ECO57 Cytochrome c-type protein TorY OS=Escheric...  42.0    9e-04
+  sp|P52005|TORY_ECOLI Cytochrome c-type protein TorY OS=Escheric...  41.6    0.001
+  sp|P44799|TORY_HAEIN Cytochrome c-type protein TorY OS=Haemophi...  40.0    0.004
+
+
+> sp|Q06536|YFCC_ALLVD Putative tetraheme cytochrome-c type OS=Allochromatium 
+vinosum (strain ATCC 17899 / DSM 180 / NBRC 103801 
+/ NCIMB 10441 / D) OX=572477 GN=Alvin_1095 PE=4 SV=2
+Length=184
+
+ Score = 63.2 bits (152),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 48/167 (29%), Positives = 74/167 (44%), Gaps = 36/167 (22%)
+
+Query  12   RLKLVLGGATL--GVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH------AN  63
+            R  L+  G     G+V +  V FG+K T+   FCTSCH M      +K S H        
+Sbjct  11   RFSLLALGLMFVGGIVFVWAVDFGIKTTNTLEFCTSCHTMQTNFEEYKESLHYKNTSGVQ  70
+
+Query  64   ISCNDCHAPHNLLAKLPFKAIAGARDVY---MNTLGHP----------GDLILAGMETKE  110
+             +C DCH P  L  KL  K +A A+DVY   M T+  P           +L+   +E  +
+Sbjct  71   ATCADCHVPKELGPKLVTKIVA-AKDVYHEVMGTIDTPEKFEARRWYLANLVWKRLEASD  129
+
+Query  111  VVNANCKACHTMTNVEV------------ASMEAKKYCTDCHRNVQH  145
+              +  C++CH   ++++            A+ +  + C +CH+ V H
+Sbjct  130  --SRECRSCHDYADMDLSEQSRSARSRHSAAQDKGQTCIECHKGVAH  174
+
+
+> sp|Q50926|CYCX_NITEU Probable tetraheme cytochrome c-type OS=Nitrosomonas 
+europaea (strain ATCC 19718 / CIP 103999 / KCTC 
+2705 / NBRC 14298) OX=228410 GN=cycX1 PE=3 SV=1
+Length=233
+
+ Score = 57.8 bits (138),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 52/157 (33%), Positives = 66/157 (42%), Gaps = 27/157 (17%)
+
+Query  16   VLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH-----ANISCNDCH  70
+            +L GA LG+V +A V  G        FCTSCH M       K S H      N  C DCH
+Sbjct  12   LLTGALLGIVLVAVVFGGEAALSTEEFCTSCHSMTYPQAELKQSTHYGALGVNPGCKDCH  71
+
+Query  71   APH---NLLAKLPFKAIAGARDVYM------NTLGHPGDLIL-----AGMETKEVVNANC  116
+             P    N    +   AI GAR++Y+      +TL    +  L     A M  K+  +  C
+Sbjct  72   IPQGIENFHLAVATHAIDGARELYLELVNDYSTLEKFNERRLEMAHDARMNLKKWDSITC  131
+
+Query  117  KACHTMTNV--EVASMEAKKY------CTDCHRNVQH  145
+            + CH       E A  E KK       C DCH+N+ H
+Sbjct  132  RTCHKKPAPPGESAQAEHKKMETEGATCIDCHQNLVH  168
+
+
+> sp|P33226|TORC_ECOLI Cytochrome c-type protein TorC OS=Escherichia 
+coli (strain K12) OX=83333 GN=torC PE=1 SV=3
+Length=390
+
+ Score = 57.4 bits (137),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 44/164 (27%), Positives = 66/164 (40%), Gaps = 31/164 (19%)
+
+Query  13   LKLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH------ANISC  66
+            L LV  G  +G+  +     G+K T    FC SCH M PV   +K S H          C
+Sbjct  18   LALVAIGIVIGIALIVLPHVGIKVTSTTEFCVSCHSMQPVYEEYKQSVHFQNASGVRAEC  77
+
+Query  67   NDCHAPHNLLAKLPFKAIAGARDVYMNTLGHPGDL---------ILAGMET---KEVVNA  114
+            +DCH P ++   +  K +  + D+Y   + H  D           LA  E    KE  +A
+Sbjct  78   HDCHIPPDIPGMVKRK-LEASNDIYQTFIAHSIDTPEKFEAKRAELAEREWARMKENNSA  136
+
+Query  115  NCKACHTMTNVEVASMEAK------------KYCTDCHRNVQHM  146
+             C++CH    ++ A    +            + C DCH+ + H 
+Sbjct  137  TCRSCHNYDAMDHAKQHPEAARQMKVAAKDNQSCIDCHKGIAHQ  180
+
+
+> sp|P58359|TORC_ECO57 Cytochrome c-type protein TorC OS=Escherichia 
+coli O157:H7 OX=83334 GN=torC PE=3 SV=1
+Length=390
+
+ Score = 57.4 bits (137),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 44/164 (27%), Positives = 66/164 (40%), Gaps = 31/164 (19%)
+
+Query  13   LKLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH------ANISC  66
+            L LV  G  +G+  +     G+K T    FC SCH M PV   +K S H          C
+Sbjct  18   LALVAIGIVIGIALIVLPHVGIKVTSTTEFCVSCHSMQPVYEEYKQSVHFQNASGVRAEC  77
+
+Query  67   NDCHAPHNLLAKLPFKAIAGARDVYMNTLGHPGDL---------ILAGMET---KEVVNA  114
+            +DCH P ++   +  K +  + D+Y   + H  D           LA  E    KE  +A
+Sbjct  78   HDCHIPPDIPGMVKRK-LEASNDIYQTFIAHSIDTPEKFEAKRAELAEREWARMKENNSA  136
+
+Query  115  NCKACHTMTNVEVASMEAK------------KYCTDCHRNVQHM  146
+             C++CH    ++ A    +            + C DCH+ + H 
+Sbjct  137  TCRSCHNYDAMDHAKQHPEAARQMKVAAKDNQSCIDCHKGIAHQ  180
+
+
+> sp|P44655|NAPC_HAEIN Cytochrome c-type protein NapC OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=napC PE=4 SV=1
+Length=200
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 44/167 (26%), Positives = 71/167 (43%), Gaps = 32/167 (19%)
+
+Query  10   PARL---KLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPV-----GVTHKLSGH  61
+            P+R+    +++  A  G+++     +G++ T+   FC SCH+ +        V ++    
+Sbjct  19   PSRMAIGTIIILSAIGGILSWVGFNYGLEKTNTEQFCASCHMQDAYPEYLHSVHYQTRTG  78
+
+Query  62   ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG--------HPGDLILAGMETKEVVN  113
+               SC DCH PH   AK+  K IA A++VY +  G        +   L +A  E   +  
+Sbjct  79   VGASCPDCHVPHEFGAKMKRKIIA-AKEVYAHYTGKVDTLEKFNAHRLEMAQNEWARMKA  137
+
+Query  114  ANCKACHTMTNVE----------VASMEAK-----KYCTDCHRNVQH  145
+             + K C    NV+           A M  K     K C DCH+ + H
+Sbjct  138  NDSKECRNCHNVDRMTFNDQRSVAARMHQKMKTEGKTCIDCHKGIAH  184
+
+
+> sp|P0ABL5|NAPC_ECOLI Cytochrome c-type protein NapC OS=Escherichia 
+coli (strain K12) OX=83333 GN=napC PE=1 SV=1
+Length=200
+
+ Score = 54.7 bits (130),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 45/174 (26%), Positives = 68/174 (39%), Gaps = 34/174 (20%)
+
+Query  5    KSRNGPARL---KLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSG  60
+            K    P+RL    L+L G   G+V       GM+  +   FC SCH M N V   +  S 
+Sbjct  16   KWWRTPSRLALGTLLLIGFVGGIVFWGGFNTGMEKANTEEFCISCHEMRNTVYQEYMDSV  75
+
+Query  61   HAN------ISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG--------HPGDLILAGM  106
+            H N       +C DCH PH  + K+  + +  ++++Y    G            L +A  
+Sbjct  76   HYNNRSGVRATCPDCHVPHEFVPKM-IRKLKASKELYGKIFGVIDTPQKFEAHRLTMAQN  134
+
+Query  107  ETKEVVNANCKACHTMTNVEVASMEAKKY---------------CTDCHRNVQH  145
+            E + + + N + C    N E     A+K                C DCH+ + H
+Sbjct  135  EWRRMKDNNSQECRNCHNFEYMDTTAQKSVAAKMHDQAVKDGQTCIDCHKGIAH  188
+
+
+> sp|P0ABL6|NAPC_ECOL6 Cytochrome c-type protein NapC OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=napC PE=3 SV=1
+Length=200
+
+ Score = 54.7 bits (130),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 45/174 (26%), Positives = 68/174 (39%), Gaps = 34/174 (20%)
+
+Query  5    KSRNGPARL---KLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSG  60
+            K    P+RL    L+L G   G+V       GM+  +   FC SCH M N V   +  S 
+Sbjct  16   KWWRTPSRLALGTLLLIGFVGGIVFWGGFNTGMEKANTEEFCISCHEMRNTVYQEYMDSV  75
+
+Query  61   HAN------ISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG--------HPGDLILAGM  106
+            H N       +C DCH PH  + K+  + +  ++++Y    G            L +A  
+Sbjct  76   HYNNRSGVRATCPDCHVPHEFVPKM-IRKLKASKELYGKIFGVIDTPQKFEAHRLTMAQN  134
+
+Query  107  ETKEVVNANCKACHTMTNVEVASMEAKKY---------------CTDCHRNVQH  145
+            E + + + N + C    N E     A+K                C DCH+ + H
+Sbjct  135  EWRRMKDNNSQECRNCHNFEYMDTTAQKSVAAKMHDQAVKDGQTCIDCHKGIAH  188
+
+
+> sp|P0ABL7|NAPC_ECO57 Cytochrome c-type protein NapC OS=Escherichia 
+coli O157:H7 OX=83334 GN=napC PE=3 SV=1
+Length=200
+
+ Score = 54.7 bits (130),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 45/174 (26%), Positives = 68/174 (39%), Gaps = 34/174 (20%)
+
+Query  5    KSRNGPARL---KLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSG  60
+            K    P+RL    L+L G   G+V       GM+  +   FC SCH M N V   +  S 
+Sbjct  16   KWWRTPSRLALGTLLLIGFVGGIVFWGGFNTGMEKANTEEFCISCHEMRNTVYQEYMDSV  75
+
+Query  61   HAN------ISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG--------HPGDLILAGM  106
+            H N       +C DCH PH  + K+  + +  ++++Y    G            L +A  
+Sbjct  76   HYNNRSGVRATCPDCHVPHEFVPKM-IRKLKASKELYGKIFGVIDTPQKFEAHRLTMAQN  134
+
+Query  107  ETKEVVNANCKACHTMTNVEVASMEAKKY---------------CTDCHRNVQH  145
+            E + + + N + C    N E     A+K                C DCH+ + H
+Sbjct  135  EWRRMKDNNSQECRNCHNFEYMDTTAQKSVAAKMHDQAVKDGQTCIDCHKGIAH  188
+
+
+> sp|Q9S1E6|NRFH_WOLSU Cytochrome c-type protein NrfH OS=Wolinella 
+succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / 
+NCTC 11488 / FDC 602W) OX=273121 GN=nrfH PE=1 SV=1
+Length=177
+
+ Score = 52.4 bits (124),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 44/154 (29%), Positives = 70/154 (45%), Gaps = 16/154 (10%)
+
+Query  15   LVLGGATLGV-VALATVAFGMKYTDQRP-FCTSCHIMNPVGVTHKLSGHAN-ISCNDCHA  71
+            LV+    LG+ V L   +  + Y    P  C +CH+MNP   T + S HA   SC +CH 
+Sbjct  12   LVVFAIALGLFVYLVNASKALSYLSSDPKACINCHVMNPQYATWQHSSHAERASCVECHL  71
+
+Query  72   PH-NLLAKLPFKAIAGARDVYMNTLGHPGDLILAGMETKEVVNANCKACH---TMTNVEV  127
+            P  N++ K   KA  G       TLG     +    +    V  NC +CH   + T +E 
+Sbjct  72   PTGNMVQKYISKARDGWNHSVAFTLGTYDHSMKISEDGARRVQENCISCHASLSSTLLEN  131
+
+Query  128  ASME---------AKKYCTDCHRNVQHMRMKPIS  152
+            A            +++ C +CH++V H +++ ++
+Sbjct  132  ADRNHQFNDPKGASERLCWECHKSVPHGKVRSLT  165
+
+
+> sp|Q56352|NAPC_PARPN Cytochrome c-type protein NapC OS=Paracoccus 
+pantotrophus OX=82367 GN=napC PE=4 SV=1
+Length=237
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 38/162 (23%), Positives = 62/162 (38%), Gaps = 32/162 (20%)
+
+Query  15   LVLGGATLGVVALATVAFGMKYTDQRPFCTSCH-----IMNPVGVTHKLSGHANI--SCN  67
+            L LGG   GV+        ++ T+   FCTSCH     +   +  T   S  + +  SC 
+Sbjct  34   LTLGGFICGVIFWGGFNTALEITNTEKFCTSCHEMRDNVYQELMPTVHFSNRSGVRASCP  93
+
+Query  68   DCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMETKEVV---NANC  116
+            DCH PH    K+  + +  +++V+    G            L LA  E   +    +  C
+Sbjct  94   DCHVPHEWTDKIA-RKMQASKEVWGKIFGTISTREKFLEKRLELAKHEWARLKANDSLEC  152
+
+Query  117  KACHTMTNVEVAS-------------MEAKKYCTDCHRNVQH  145
+            + CH    ++                +  +K C DCH+ + H
+Sbjct  153  RNCHAAVAMDFTKQTRRAPQIHERYLISGEKTCIDCHKGIAH  194
+
+
+> sp|Q53178|NAPC_RHOS4 Cytochrome c-type protein NapC OS=Rhodobacter 
+sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / DSM 
+158) OX=272943 GN=napC PE=2 SV=2
+Length=227
+
+ Score = 42.4 bits (98),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 38/164 (23%), Positives = 65/164 (40%), Gaps = 35/164 (21%)
+
+Query  15   LVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGHANIS--------C  66
+            L LGG   GV+        ++ T+   FCTSCH M    V  +L+   + +        C
+Sbjct  26   LTLGGFVGGVLFWGGFNTALEATNTEAFCTSCHEMQS-NVFEELTRTVHYTNRSGVRAGC  84
+
+Query  67   NDCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMETKEVV---NAN  115
+             DCH PH    K+  + +  +++V+ +  G            L LA  E   +    +  
+Sbjct  85   PDCHVPHEWTDKIA-RKMQASKEVWGHLFGTIDTRRKFLDNRLRLAEHEWARLKANDSLE  143
+
+Query  116  CKACHTMTNVEVAS-------------MEAKKY-CTDCHRNVQH  145
+            C+ CH+   ++                ++ + Y C DCH+ + H
+Sbjct  144  CRNCHSEVAMDFTRQTDRAAQIHTQYLIQTEGYTCIDCHKGIAH  187
+
+
+> sp|P58361|TORY_ECO57 Cytochrome c-type protein TorY OS=Escherichia 
+coli O157:H7 OX=83334 GN=torY PE=3 SV=1
+Length=366
+
+ Score = 42.0 bits (97),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 34/141 (24%), Positives = 55/141 (39%), Gaps = 33/141 (23%)
+
+Query  37   TDQRPFCTSCHIMNP-----VGVTHKLSGHANI--SCNDCHAPHNLLAKLPFKAIAGARD  89
+            T    FC SCH M+       G  H  S    I   C DCH P + +  L F  +  ++D
+Sbjct  33   TSDTAFCLSCHSMSKPFEEYQGTVH-FSNQKGIRAECADCHIPKSGMDYL-FAKLKASKD  90
+
+Query  90   VYMNTL-----------GHPGDLI-LAGMETKEVVNANCKACHTMTNVEVAS--------  129
+            +Y   +            H  ++      E K   +A C++CH+   +++AS        
+Sbjct  91   IYHEFVSGKIDSDDKFEAHRQEMAETVWKELKATDSATCRSCHSFDAMDIASQSESAQKM  150
+
+Query  130  ----MEAKKYCTDCHRNVQHM  146
+                 +  + C DCH+ + H 
+Sbjct  151  HNKAQKGGETCIDCHKGIAHF  171
+
+
+> sp|P52005|TORY_ECOLI Cytochrome c-type protein TorY OS=Escherichia 
+coli (strain K12) OX=83333 GN=torY PE=1 SV=2
+Length=366
+
+ Score = 41.6 bits (96),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 57/141 (40%), Gaps = 33/141 (23%)
+
+Query  37   TDQRPFCTSCHIMNP-----VGVTHKLSGHANI--SCNDCHAPHNLLAKLPFKAIAGARD  89
+            T    FC SCH M+       G  H  S    I   C DCH P + +  L F  +  ++D
+Sbjct  33   TSDTAFCLSCHSMSKPFEEYQGTVH-FSNQKGIRAECADCHIPKSGMDYL-FAKLKASKD  90
+
+Query  90   VYMNTL-----------GHPGDLI-LAGMETKEVVNANCKACHTMTNVEVASM-------  130
+            +Y   +            H  ++      E K   +A C++CH+   +++AS        
+Sbjct  91   IYHEFVSGKIDSDDKFEAHRQEMAETVWKELKATDSATCRSCHSFDAMDIASQSESAQKM  150
+
+Query  131  --EAKK---YCTDCHRNVQHM  146
+              +A+K    C DCH+ + H 
+Sbjct  151  HNKAQKDSETCIDCHKGIAHF  171
+
+
+> sp|P44799|TORY_HAEIN Cytochrome c-type protein TorY OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=torY PE=3 SV=1
+Length=368
+
+ Score = 40.0 bits (92),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 37/156 (24%), Positives = 62/156 (40%), Gaps = 34/156 (22%)
+
+Query  22   LGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH------ANISCNDCHAPHNL  75
+            +GV AL    + M  T    FC SCH M+      + S H          C+DCH P   
+Sbjct  18   VGVGALWGSQWIMHKTSTPEFCASCHSMSYPQQEWEGSSHFANAKGVRAQCSDCHIPKEG  77
+
+Query  76   LAKLPFKAIAGARDVYMNTLG----------HPGDL---ILAGMETKEVVNANCKACHTM  122
+               +  K IA  +D++    G          H  ++   +   M+  +  +  C++CH+ 
+Sbjct  78   WHYVKAKFIA-LKDLWYEAQGKIENKEKYEAHRAEMAQRVWKDMKAND--SETCRSCHSF  134
+
+Query  123  TNVEVASM---------EAK---KYCTDCHRNVQHM  146
+              +E++           EA+   + C DCH+ + H 
+Sbjct  135  DAMELSKQTKLAKQTHTEAQTNGQTCIDCHKGIVHF  170
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.132    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7115272854
+Results from round 2
+
+
+Query= Q72EF4|2j7aL
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0ABL5|NAPC_ECOLI Cytochrome c-type protein NapC OS=Escheric...  176     3e-54
+  sp|P0ABL6|NAPC_ECOL6 Cytochrome c-type protein NapC OS=Escheric...  176     3e-54
+  sp|P0ABL7|NAPC_ECO57 Cytochrome c-type protein NapC OS=Escheric...  176     3e-54
+  sp|Q53178|NAPC_RHOS4 Cytochrome c-type protein NapC OS=Rhodobac...  158     5e-47
+  sp|Q56352|NAPC_PARPN Cytochrome c-type protein NapC OS=Paracocc...  158     9e-47
+  sp|P58359|TORC_ECO57 Cytochrome c-type protein TorC OS=Escheric...  159     9e-46
+  sp|P33226|TORC_ECOLI Cytochrome c-type protein TorC OS=Escheric...  159     1e-45
+  sp|P44655|NAPC_HAEIN Cytochrome c-type protein NapC OS=Haemophi...  154     1e-45
+  sp|Q9S1E6|NRFH_WOLSU Cytochrome c-type protein NrfH OS=Wolinell...  137     2e-39
+  sp|Q06536|YFCC_ALLVD Putative tetraheme cytochrome-c type OS=Al...  136     6e-39
+  sp|Q50926|CYCX_NITEU Probable tetraheme cytochrome c-type OS=Ni...  131     3e-36
+  sp|P58361|TORY_ECO57 Cytochrome c-type protein TorY OS=Escheric...  126     1e-33
+  sp|P52005|TORY_ECOLI Cytochrome c-type protein TorY OS=Escheric...  117     3e-30
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P24038|NIRT_PSEST Denitrification system component NirT OS=P...  136     1e-38
+  sp|P44799|TORY_HAEIN Cytochrome c-type protein TorY OS=Haemophi...  109     2e-27
+  sp|P83223|FRDA_SHEON Fumarate reductase flavoprotein subunit OS...  42.0    9e-04
+  sp|Q50925|HAO_NITEU Hydroxylamine oxidoreductase OS=Nitrosomona...  40.1    0.004
+
+
+> sp|P0ABL5|NAPC_ECOLI Cytochrome c-type protein NapC OS=Escherichia 
+coli (strain K12) OX=83333 GN=napC PE=1 SV=1
+Length=200
+
+ Score = 176 bits (445),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 45/174 (26%), Positives = 68/174 (39%), Gaps = 34/174 (20%)
+
+Query  5    KSRNGPARL---KLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSG  60
+            K    P+RL    L+L G   G+V       GM+  +   FC SCH M N V   +  S 
+Sbjct  16   KWWRTPSRLALGTLLLIGFVGGIVFWGGFNTGMEKANTEEFCISCHEMRNTVYQEYMDSV  75
+
+Query  61   HAN------ISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG--------HPGDLILAGM  106
+            H N       +C DCH PH  + K+  + +  ++++Y    G            L +A  
+Sbjct  76   HYNNRSGVRATCPDCHVPHEFVPKMI-RKLKASKELYGKIFGVIDTPQKFEAHRLTMAQN  134
+
+Query  107  ETKEVVNANCKACHTMTNVEVASMEAKK---------------YCTDCHRNVQH  145
+            E + + + N + C    N E     A+K                C DCH+ + H
+Sbjct  135  EWRRMKDNNSQECRNCHNFEYMDTTAQKSVAAKMHDQAVKDGQTCIDCHKGIAH  188
+
+
+> sp|P0ABL6|NAPC_ECOL6 Cytochrome c-type protein NapC OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=napC PE=3 SV=1
+Length=200
+
+ Score = 176 bits (445),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 45/174 (26%), Positives = 68/174 (39%), Gaps = 34/174 (20%)
+
+Query  5    KSRNGPARL---KLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSG  60
+            K    P+RL    L+L G   G+V       GM+  +   FC SCH M N V   +  S 
+Sbjct  16   KWWRTPSRLALGTLLLIGFVGGIVFWGGFNTGMEKANTEEFCISCHEMRNTVYQEYMDSV  75
+
+Query  61   HAN------ISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG--------HPGDLILAGM  106
+            H N       +C DCH PH  + K+  + +  ++++Y    G            L +A  
+Sbjct  76   HYNNRSGVRATCPDCHVPHEFVPKMI-RKLKASKELYGKIFGVIDTPQKFEAHRLTMAQN  134
+
+Query  107  ETKEVVNANCKACHTMTNVEVASMEAKK---------------YCTDCHRNVQH  145
+            E + + + N + C    N E     A+K                C DCH+ + H
+Sbjct  135  EWRRMKDNNSQECRNCHNFEYMDTTAQKSVAAKMHDQAVKDGQTCIDCHKGIAH  188
+
+
+> sp|P0ABL7|NAPC_ECO57 Cytochrome c-type protein NapC OS=Escherichia 
+coli O157:H7 OX=83334 GN=napC PE=3 SV=1
+Length=200
+
+ Score = 176 bits (445),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 45/174 (26%), Positives = 68/174 (39%), Gaps = 34/174 (20%)
+
+Query  5    KSRNGPARL---KLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSG  60
+            K    P+RL    L+L G   G+V       GM+  +   FC SCH M N V   +  S 
+Sbjct  16   KWWRTPSRLALGTLLLIGFVGGIVFWGGFNTGMEKANTEEFCISCHEMRNTVYQEYMDSV  75
+
+Query  61   HAN------ISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG--------HPGDLILAGM  106
+            H N       +C DCH PH  + K+  + +  ++++Y    G            L +A  
+Sbjct  76   HYNNRSGVRATCPDCHVPHEFVPKMI-RKLKASKELYGKIFGVIDTPQKFEAHRLTMAQN  134
+
+Query  107  ETKEVVNANCKACHTMTNVEVASMEAKK---------------YCTDCHRNVQH  145
+            E + + + N + C    N E     A+K                C DCH+ + H
+Sbjct  135  EWRRMKDNNSQECRNCHNFEYMDTTAQKSVAAKMHDQAVKDGQTCIDCHKGIAH  188
+
+
+> sp|Q53178|NAPC_RHOS4 Cytochrome c-type protein NapC OS=Rhodobacter 
+sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / DSM 
+158) OX=272943 GN=napC PE=2 SV=2
+Length=227
+
+ Score = 158 bits (400),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 57/163 (35%), Gaps = 33/163 (20%)
+
+Query  15   LVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPV-------GVTHKLSGHANISCN  67
+            L LGG   GV+        ++ T+   FCTSCH M           V +         C 
+Sbjct  26   LTLGGFVGGVLFWGGFNTALEATNTEAFCTSCHEMQSNVFEELTRTVHYTNRSGVRAGCP  85
+
+Query  68   DCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMETKEVV---NANC  116
+            DCH PH    K+  + +  +++V+ +  G            L LA  E   +    +  C
+Sbjct  86   DCHVPHEWTDKIA-RKMQASKEVWGHLFGTIDTRRKFLDNRLRLAEHEWARLKANDSLEC  144
+
+Query  117  KACHTMTNVEVAS--------------MEAKKYCTDCHRNVQH  145
+            + CH+   ++                       C DCH+ + H
+Sbjct  145  RNCHSEVAMDFTRQTDRAAQIHTQYLIQTEGYTCIDCHKGIAH  187
+
+
+> sp|Q56352|NAPC_PARPN Cytochrome c-type protein NapC OS=Paracoccus 
+pantotrophus OX=82367 GN=napC PE=4 SV=1
+Length=237
+
+ Score = 158 bits (399),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 39/163 (24%), Positives = 59/163 (36%), Gaps = 32/163 (20%)
+
+Query  15   LVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-----NPVGVTHKLSGH--ANISCN  67
+            L LGG   GV+        ++ T+   FCTSCH M       +  T   S       SC 
+Sbjct  34   LTLGGFICGVIFWGGFNTALEITNTEKFCTSCHEMRDNVYQELMPTVHFSNRSGVRASCP  93
+
+Query  68   DCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMETKEVV---NANC  116
+            DCH PH    K+  + +  +++V+    G            L LA  E   +    +  C
+Sbjct  94   DCHVPHEWTDKIA-RKMQASKEVWGKIFGTISTREKFLEKRLELAKHEWARLKANDSLEC  152
+
+Query  117  KACHTMTNVEVASM-------------EAKKYCTDCHRNVQHM  146
+            + CH    ++                   +K C DCH+ + H 
+Sbjct  153  RNCHAAVAMDFTKQTRRAPQIHERYLISGEKTCIDCHKGIAHQ  195
+
+
+> sp|P58359|TORC_ECO57 Cytochrome c-type protein TorC OS=Escherichia 
+coli O157:H7 OX=83334 GN=torC PE=3 SV=1
+Length=390
+
+ Score = 159 bits (402),  Expect = 9e-46, Method: Composition-based stats.
+ Identities = 40/166 (24%), Positives = 65/166 (39%), Gaps = 31/166 (19%)
+
+Query  11   ARLKLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH------ANI  64
+            + L LV  G  +G+  +     G+K T    FC SCH M PV   +K S H         
+Sbjct  16   SVLALVAIGIVIGIALIVLPHVGIKVTSTTEFCVSCHSMQPVYEEYKQSVHFQNASGVRA  75
+
+Query  65   SCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH---------PGDLILAGMETKEVV---  112
+             C+DCH P ++   +  + +  + D+Y   + H              LA  E   +    
+Sbjct  76   ECHDCHIPPDIPGMVK-RKLEASNDIYQTFIAHSIDTPEKFEAKRAELAEREWARMKENN  134
+
+Query  113  NANCKACHTMTNVEVASMEAK------------KYCTDCHRNVQHM  146
+            +A C++CH    ++ A    +            + C DCH+ + H 
+Sbjct  135  SATCRSCHNYDAMDHAKQHPEAARQMKVAAKDNQSCIDCHKGIAHQ  180
+
+
+> sp|P33226|TORC_ECOLI Cytochrome c-type protein TorC OS=Escherichia 
+coli (strain K12) OX=83333 GN=torC PE=1 SV=3
+Length=390
+
+ Score = 159 bits (402),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 40/166 (24%), Positives = 65/166 (39%), Gaps = 31/166 (19%)
+
+Query  11   ARLKLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH------ANI  64
+            + L LV  G  +G+  +     G+K T    FC SCH M PV   +K S H         
+Sbjct  16   SVLALVAIGIVIGIALIVLPHVGIKVTSTTEFCVSCHSMQPVYEEYKQSVHFQNASGVRA  75
+
+Query  65   SCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH---------PGDLILAGMETKEVV---  112
+             C+DCH P ++   +  + +  + D+Y   + H              LA  E   +    
+Sbjct  76   ECHDCHIPPDIPGMVK-RKLEASNDIYQTFIAHSIDTPEKFEAKRAELAEREWARMKENN  134
+
+Query  113  NANCKACHTMTNVEVASMEAK------------KYCTDCHRNVQHM  146
+            +A C++CH    ++ A    +            + C DCH+ + H 
+Sbjct  135  SATCRSCHNYDAMDHAKQHPEAARQMKVAAKDNQSCIDCHKGIAHQ  180
+
+
+> sp|P44655|NAPC_HAEIN Cytochrome c-type protein NapC OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=napC PE=4 SV=1
+Length=200
+
+ Score = 154 bits (388),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 45/174 (26%), Positives = 70/174 (40%), Gaps = 34/174 (20%)
+
+Query  5    KSRNGPARL---KLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH  61
+            +    P+R+    +++  A  G+++     +G++ T+   FC SCH M      +  S H
+Sbjct  14   QWFRKPSRMAIGTIIILSAIGGILSWVGFNYGLEKTNTEQFCASCH-MQDAYPEYLHSVH  72
+
+Query  62   ------ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG--------HPGDLILAGME  107
+                     SC DCH PH   AK+  K I  A++VY +  G        +   L +A  E
+Sbjct  73   YQTRTGVGASCPDCHVPHEFGAKMKRKII-AAKEVYAHYTGKVDTLEKFNAHRLEMAQNE  131
+
+Query  108  TKEVVNANCKACHTMTNVE----------VASMEAK-----KYCTDCHRNVQHM  146
+               +   + K C    NV+           A M  K     K C DCH+ + H 
+Sbjct  132  WARMKANDSKECRNCHNVDRMTFNDQRSVAARMHQKMKTEGKTCIDCHKGIAHQ  185
+
+
+> sp|Q9S1E6|NRFH_WOLSU Cytochrome c-type protein NrfH OS=Wolinella 
+succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / 
+NCTC 11488 / FDC 602W) OX=273121 GN=nrfH PE=1 SV=1
+Length=177
+
+ Score = 137 bits (345),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 44/155 (28%), Positives = 69/155 (45%), Gaps = 16/155 (10%)
+
+Query  14   KLVLGGATLGV-VALATVAFGMKYTDQRP-FCTSCHIMNPVGVTHKLSGHAN-ISCNDCH  70
+             LV+    LG+ V L   +  + Y    P  C +CH+MNP   T + S HA   SC +CH
+Sbjct  11   SLVVFAIALGLFVYLVNASKALSYLSSDPKACINCHVMNPQYATWQHSSHAERASCVECH  70
+
+Query  71   APH-NLLAKLPFKAIAGARDVYMNTLGHPGDLILAGMETKEVVNANCKACH---TMTNVE  126
+             P  N++ K   KA  G       TLG     +    +    V  NC +CH   + T +E
+Sbjct  71   LPTGNMVQKYISKARDGWNHSVAFTLGTYDHSMKISEDGARRVQENCISCHASLSSTLLE  130
+
+Query  127  VASMEA---------KKYCTDCHRNVQHMRMKPIS  152
+             A             ++ C +CH++V H +++ ++
+Sbjct  131  NADRNHQFNDPKGASERLCWECHKSVPHGKVRSLT  165
+
+
+> sp|Q06536|YFCC_ALLVD Putative tetraheme cytochrome-c type OS=Allochromatium 
+vinosum (strain ATCC 17899 / DSM 180 / NBRC 103801 
+/ NCIMB 10441 / D) OX=572477 GN=Alvin_1095 PE=4 SV=2
+Length=184
+
+ Score = 136 bits (342),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 46/165 (28%), Positives = 70/165 (42%), Gaps = 32/165 (19%)
+
+Query  12   RLKLVLGG--ATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH------AN  63
+            R  L+  G     G+V +  V FG+K T+   FCTSCH M      +K S H        
+Sbjct  11   RFSLLALGLMFVGGIVFVWAVDFGIKTTNTLEFCTSCHTMQTNFEEYKESLHYKNTSGVQ  70
+
+Query  64   ISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMETKEV---V  112
+             +C DCH P  L  KL  K +  A+DVY   +G              LA +  K +    
+Sbjct  71   ATCADCHVPKELGPKLVTKIV-AAKDVYHEVMGTIDTPEKFEARRWYLANLVWKRLEASD  129
+
+Query  113  NANCKACHTMTNVEV------------ASMEAKKYCTDCHRNVQH  145
+            +  C++CH   ++++            A+ +  + C +CH+ V H
+Sbjct  130  SRECRSCHDYADMDLSEQSRSARSRHSAAQDKGQTCIECHKGVAH  174
+
+
+> sp|P24038|NIRT_PSEST Denitrification system component NirT OS=Pseudomonas 
+stutzeri OX=316 GN=nirT PE=2 SV=1
+Length=201
+
+ Score = 136 bits (342),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 35/172 (20%), Positives = 65/172 (38%), Gaps = 34/172 (20%)
+
+Query  7    RNGPARLKL---VLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSGH-  61
+            R    R  L   ++ G   G+V        ++ T+   FC SCH M + V   +K + H 
+Sbjct  19   RRPSTRYSLGGILIVGIVAGIVFWGGFNTALEATNTETFCISCHEMGDNVYPEYKETIHY  78
+
+Query  62   -----ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMET  108
+                    +C DCH P +   K+  + +  +++++   +G            L LA  E 
+Sbjct  79   ANRTGVRATCPDCHVPRDWTHKMV-RKVEASKELWGKIVGTIDTAEKFEAKRLTLARREW  137
+
+Query  109  KEVVNANCKACHTMTNVEVASMEAKK---------------YCTDCHRNVQH  145
+              +  ++ + C    ++E  S + +K                C  CH+ + H
+Sbjct  138  ARMRASDSRECRNCHSLESMSSDMQKQRARKQHEMAREDNLTCIACHKGIAH  189
+
+
+> sp|Q50926|CYCX_NITEU Probable tetraheme cytochrome c-type OS=Nitrosomonas 
+europaea (strain ATCC 19718 / CIP 103999 / KCTC 
+2705 / NBRC 14298) OX=228410 GN=cycX1 PE=3 SV=1
+Length=233
+
+ Score = 131 bits (328),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 52/160 (33%), Positives = 66/160 (41%), Gaps = 27/160 (17%)
+
+Query  16   VLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH-----ANISCNDCH  70
+            +L GA LG+V +A V  G        FCTSCH M       K S H      N  C DCH
+Sbjct  12   LLTGALLGIVLVAVVFGGEAALSTEEFCTSCHSMTYPQAELKQSTHYGALGVNPGCKDCH  71
+
+Query  71   APH---NLLAKLPFKAIAGARDVYMN------TLGHPGDLIL-----AGMETKEVVNANC  116
+             P    N    +   AI GAR++Y+       TL    +  L     A M  K+  +  C
+Sbjct  72   IPQGIENFHLAVATHAIDGARELYLELVNDYSTLEKFNERRLEMAHDARMNLKKWDSITC  131
+
+Query  117  KACHTMTNV--EVASMEAKK------YCTDCHRNVQHMRM  148
+            + CH       E A  E KK       C DCH+N+ H  +
+Sbjct  132  RTCHKKPAPPGESAQAEHKKMETEGATCIDCHQNLVHEEV  171
+
+
+> sp|P58361|TORY_ECO57 Cytochrome c-type protein TorY OS=Escherichia 
+coli O157:H7 OX=83334 GN=torY PE=3 SV=1
+Length=366
+
+ Score = 126 bits (317),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 36/171 (21%), Positives = 64/171 (37%), Gaps = 33/171 (19%)
+
+Query  8    NGPARLKLV--LGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH----  61
+             G  R+ L+  L    +G          +  T    FC SCH M+     ++ + H    
+Sbjct  2    RGKKRIGLLFLLIAVVVGGGGFLMAQKALHKTSDTAFCLSCHSMSKPFEEYQGTVHFSNQ  61
+
+Query  62   --ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTL-----------GHPGDL-ILAGME  107
+                  C DCH P + +  L F  +  ++D+Y   +            H  ++      E
+Sbjct  62   KGIRAECADCHIPKSGMDYL-FAKLKASKDIYHEFVSGKIDSDDKFEAHRQEMAETVWKE  120
+
+Query  108  TKEVVNANCKACHTMTNVEVAS------------MEAKKYCTDCHRNVQHM  146
+             K   +A C++CH+   +++AS             +  + C DCH+ + H 
+Sbjct  121  LKATDSATCRSCHSFDAMDIASQSESAQKMHNKAQKGGETCIDCHKGIAHF  171
+
+
+> sp|P52005|TORY_ECOLI Cytochrome c-type protein TorY OS=Escherichia 
+coli (strain K12) OX=83333 GN=torY PE=1 SV=2
+Length=366
+
+ Score = 117 bits (292),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 31/143 (22%), Positives = 55/143 (38%), Gaps = 31/143 (22%)
+
+Query  34   MKYTDQRPFCTSCHIMNPVGVTHKLSGH------ANISCNDCHAPHNLLAKLPFKAIAGA  87
+            +  T    FC SCH M+     ++ + H          C DCH P + +  L F  +  +
+Sbjct  30   LHKTSDTAFCLSCHSMSKPFEEYQGTVHFSNQKGIRAECADCHIPKSGMDYL-FAKLKAS  88
+
+Query  88   RDVYMNTL-----------GHPGDL-ILAGMETKEVVNANCKACHTMTNVEVASMEA---  132
+            +D+Y   +            H  ++      E K   +A C++CH+   +++AS      
+Sbjct  89   KDIYHEFVSGKIDSDDKFEAHRQEMAETVWKELKATDSATCRSCHSFDAMDIASQSESAQ  148
+
+Query  133  ---------KKYCTDCHRNVQHM  146
+                      + C DCH+ + H 
+Sbjct  149  KMHNKAQKDSETCIDCHKGIAHF  171
+
+
+> sp|P44799|TORY_HAEIN Cytochrome c-type protein TorY OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=torY PE=3 SV=1
+Length=368
+
+ Score = 109 bits (272),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 36/168 (21%), Positives = 62/168 (37%), Gaps = 33/168 (20%)
+
+Query  11   ARLKLVLGGATL---GVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH------  61
+            +++K ++    L   GV AL    + M  T    FC SCH M+      + S H      
+Sbjct  4    SKMKKIVTALCLVGVGVGALWGSQWIMHKTSTPEFCASCHSMSYPQQEWEGSSHFANAKG  63
+
+Query  62   ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMETKEVV-  112
+                C+DCH P      +  K I   +D++    G              +A    K++  
+Sbjct  64   VRAQCSDCHIPKEGWHYVKAKFI-ALKDLWYEAQGKIENKEKYEAHRAEMAQRVWKDMKA  122
+
+Query  113  --NANCKACHTMTNVEVASMEA------------KKYCTDCHRNVQHM  146
+              +  C++CH+   +E++                 + C DCH+ + H 
+Sbjct  123  NDSETCRSCHSFDAMELSKQTKLAKQTHTEAQTNGQTCIDCHKGIVHF  170
+
+
+> sp|P83223|FRDA_SHEON Fumarate reductase flavoprotein subunit 
+OS=Shewanella oneidensis (strain MR-1) OX=211586 GN=SO_0970 
+PE=1 SV=2
+Length=596
+
+ Score = 42.0 bits (97),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 33/128 (26%), Positives = 43/128 (34%), Gaps = 25/128 (20%)
+
+Query  13   LKLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGHANISCNDCHAP  72
+            L +++ GA  G    A       +  +   C SCH+ +  GVT+    H N  C  CH  
+Sbjct  11   LAMLISGAMAGTAY-AAPEVLADFHGEMGGCDSCHVSDKGGVTNDNLTHENGQCVSCH--  67
+
+Query  73   HNLLAKLPFKAIAGARDVYMNTLGHPGDLILAGMETKEVVNANCKACHTMTNVEVASMEA  132
+                  L   A A  +D        P    L G          C +CH      VA    
+Sbjct  68   ----GDLKELAAAAPKDKV-----SPHKSHLIGE-------IACTSCHKGHEKSVA----  107
+
+Query  133  KKYCTDCH  140
+              YC  CH
+Sbjct  108  --YCDACH  113
+
+
+> sp|Q50925|HAO_NITEU Hydroxylamine oxidoreductase OS=Nitrosomonas 
+europaea (strain ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC 
+14298) OX=228410 GN=hao1 PE=1 SV=2
+Length=570
+
+ Score = 40.1 bits (92),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 25/139 (18%), Positives = 34/139 (24%), Gaps = 31/139 (22%)
+
+Query  33   GMKYTDQRPFCTSCHIMNPVGVTHKLSGHANI----SCNDCHAPH---------------  73
+            G K T +   C  CH+          +    +    +C  CH                  
+Sbjct  159  GEKETLKEVGCIDCHVDVNKKDKADHTKDIRMPTADTCGTCHLREFAERESERDTMVWPN  218
+
+Query  74   -NLLAKLPFKAIAGARDVYMNTLGHPGDLILAGMETKE------VVNANCKACHTMTNVE  126
+                A  P  A+      Y   +       +   E  E           C  CHT     
+Sbjct  219  GQWPAGRPSHALD-----YTANIETTVWAAMPQREVAEGCTMCHTNQNKCDNCHTRHEFS  273
+
+Query  127  VASMEAKKYCTDCHRNVQH  145
+             A     + C  CH  V H
+Sbjct  274  AAESRKPEACATCHSGVDH  292
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.128    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0397    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7115272854
+Results from round 3
+
+
+Query= Q72EF4|2j7aL
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0ABL5|NAPC_ECOLI Cytochrome c-type protein NapC OS=Escheric...  176     2e-54
+  sp|P0ABL6|NAPC_ECOL6 Cytochrome c-type protein NapC OS=Escheric...  176     2e-54
+  sp|P0ABL7|NAPC_ECO57 Cytochrome c-type protein NapC OS=Escheric...  176     2e-54
+  sp|Q53178|NAPC_RHOS4 Cytochrome c-type protein NapC OS=Rhodobac...  162     1e-48
+  sp|P58359|TORC_ECO57 Cytochrome c-type protein TorC OS=Escheric...  165     5e-48
+  sp|P33226|TORC_ECOLI Cytochrome c-type protein TorC OS=Escheric...  165     6e-48
+  sp|Q56352|NAPC_PARPN Cytochrome c-type protein NapC OS=Paracocc...  160     1e-47
+  sp|P24038|NIRT_PSEST Denitrification system component NirT OS=P...  158     4e-47
+  sp|P44655|NAPC_HAEIN Cytochrome c-type protein NapC OS=Haemophi...  158     4e-47
+  sp|P58361|TORY_ECO57 Cytochrome c-type protein TorY OS=Escheric...  154     3e-44
+  sp|Q06536|YFCC_ALLVD Putative tetraheme cytochrome-c type OS=Al...  143     9e-42
+  sp|P44799|TORY_HAEIN Cytochrome c-type protein TorY OS=Haemophi...  148     1e-41
+  sp|P52005|TORY_ECOLI Cytochrome c-type protein TorY OS=Escheric...  140     7e-39
+  sp|Q9S1E6|NRFH_WOLSU Cytochrome c-type protein NrfH OS=Wolinell...  134     3e-38
+  sp|Q50926|CYCX_NITEU Probable tetraheme cytochrome c-type OS=Ni...  128     2e-35
+  sp|P83223|FRDA_SHEON Fumarate reductase flavoprotein subunit OS...  108     2e-26
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9Z4P0|FRD2_SHEFN Fumarate reductase flavoprotein subunit OS...  57.9    6e-09
+  sp|Q07WU7|FRDA_SHEFN Fumarate reductase flavoprotein subunit OS...  52.5    3e-07
+  sp|P0C278|FRDA_SHEFR Fumarate reductase flavoprotein subunit OS...  50.6    1e-06
+  sp|Q50925|HAO_NITEU Hydroxylamine oxidoreductase OS=Nitrosomona...  44.1    2e-04
+
+
+> sp|P0ABL5|NAPC_ECOLI Cytochrome c-type protein NapC OS=Escherichia 
+coli (strain K12) OX=83333 GN=napC PE=1 SV=1
+Length=200
+
+ Score = 176 bits (447),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 44/174 (25%), Positives = 67/174 (39%), Gaps = 34/174 (20%)
+
+Query  5    KSRNGPARLKL---VLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSG  60
+            K    P+RL L   +L G   G+V       GM+  +   FC SCH M N V   +  S 
+Sbjct  16   KWWRTPSRLALGTLLLIGFVGGIVFWGGFNTGMEKANTEEFCISCHEMRNTVYQEYMDSV  75
+
+Query  61   H------ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG--------HPGDLILAGM  106
+            H         +C DCH PH  + K+  + +  ++++Y    G            L +A  
+Sbjct  76   HYNNRSGVRATCPDCHVPHEFVPKMI-RKLKASKELYGKIFGVIDTPQKFEAHRLTMAQN  134
+
+Query  107  ETKEVVNANCKACHTMTNVEVASMEAKK---------------YCTDCHRNVQH  145
+            E + + + N + C    N E     A+K                C DCH+ + H
+Sbjct  135  EWRRMKDNNSQECRNCHNFEYMDTTAQKSVAAKMHDQAVKDGQTCIDCHKGIAH  188
+
+
+> sp|P0ABL6|NAPC_ECOL6 Cytochrome c-type protein NapC OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=napC PE=3 SV=1
+Length=200
+
+ Score = 176 bits (447),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 44/174 (25%), Positives = 67/174 (39%), Gaps = 34/174 (20%)
+
+Query  5    KSRNGPARLKL---VLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSG  60
+            K    P+RL L   +L G   G+V       GM+  +   FC SCH M N V   +  S 
+Sbjct  16   KWWRTPSRLALGTLLLIGFVGGIVFWGGFNTGMEKANTEEFCISCHEMRNTVYQEYMDSV  75
+
+Query  61   H------ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG--------HPGDLILAGM  106
+            H         +C DCH PH  + K+  + +  ++++Y    G            L +A  
+Sbjct  76   HYNNRSGVRATCPDCHVPHEFVPKMI-RKLKASKELYGKIFGVIDTPQKFEAHRLTMAQN  134
+
+Query  107  ETKEVVNANCKACHTMTNVEVASMEAKK---------------YCTDCHRNVQH  145
+            E + + + N + C    N E     A+K                C DCH+ + H
+Sbjct  135  EWRRMKDNNSQECRNCHNFEYMDTTAQKSVAAKMHDQAVKDGQTCIDCHKGIAH  188
+
+
+> sp|P0ABL7|NAPC_ECO57 Cytochrome c-type protein NapC OS=Escherichia 
+coli O157:H7 OX=83334 GN=napC PE=3 SV=1
+Length=200
+
+ Score = 176 bits (447),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 44/174 (25%), Positives = 67/174 (39%), Gaps = 34/174 (20%)
+
+Query  5    KSRNGPARLKL---VLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSG  60
+            K    P+RL L   +L G   G+V       GM+  +   FC SCH M N V   +  S 
+Sbjct  16   KWWRTPSRLALGTLLLIGFVGGIVFWGGFNTGMEKANTEEFCISCHEMRNTVYQEYMDSV  75
+
+Query  61   H------ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG--------HPGDLILAGM  106
+            H         +C DCH PH  + K+  + +  ++++Y    G            L +A  
+Sbjct  76   HYNNRSGVRATCPDCHVPHEFVPKMI-RKLKASKELYGKIFGVIDTPQKFEAHRLTMAQN  134
+
+Query  107  ETKEVVNANCKACHTMTNVEVASMEAKK---------------YCTDCHRNVQH  145
+            E + + + N + C    N E     A+K                C DCH+ + H
+Sbjct  135  EWRRMKDNNSQECRNCHNFEYMDTTAQKSVAAKMHDQAVKDGQTCIDCHKGIAH  188
+
+
+> sp|Q53178|NAPC_RHOS4 Cytochrome c-type protein NapC OS=Rhodobacter 
+sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / DSM 
+158) OX=272943 GN=napC PE=2 SV=2
+Length=227
+
+ Score = 162 bits (410),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 36/164 (22%), Positives = 57/164 (35%), Gaps = 33/164 (20%)
+
+Query  15   LVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPV-------GVTHKLSGHANISCN  67
+            L LGG   GV+        ++ T+   FCTSCH M           V +         C 
+Sbjct  26   LTLGGFVGGVLFWGGFNTALEATNTEAFCTSCHEMQSNVFEELTRTVHYTNRSGVRAGCP  85
+
+Query  68   DCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMETKEVV---NANC  116
+            DCH PH    K+  + +  +++V+ +  G            L LA  E   +    +  C
+Sbjct  86   DCHVPHEWTDKIA-RKMQASKEVWGHLFGTIDTRRKFLDNRLRLAEHEWARLKANDSLEC  144
+
+Query  117  KACHTMTNVEVAS--------------MEAKKYCTDCHRNVQHM  146
+            + CH+   ++                       C DCH+ + H 
+Sbjct  145  RNCHSEVAMDFTRQTDRAAQIHTQYLIQTEGYTCIDCHKGIAHE  188
+
+
+> sp|P58359|TORC_ECO57 Cytochrome c-type protein TorC OS=Escherichia 
+coli O157:H7 OX=83334 GN=torC PE=3 SV=1
+Length=390
+
+ Score = 165 bits (418),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 43/173 (25%), Positives = 67/173 (39%), Gaps = 34/173 (20%)
+
+Query  7    RNGPAR---LKLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH--  61
+            R   AR   L LV  G  +G+  +     G+K T    FC SCH M PV   +K S H  
+Sbjct  9    RRPSARWSVLALVAIGIVIGIALIVLPHVGIKVTSTTEFCVSCHSMQPVYEEYKQSVHFQ  68
+
+Query  62   ----ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH---------PGDLILAGMET  108
+                    C+DCH P ++   +  + +  + D+Y   + H              LA  E 
+Sbjct  69   NASGVRAECHDCHIPPDIPGMVK-RKLEASNDIYQTFIAHSIDTPEKFEAKRAELAEREW  127
+
+Query  109  KEVV---NANCKACHTMTNVEVASMEAK------------KYCTDCHRNVQHM  146
+              +    +A C++CH    ++ A    +            + C DCH+ + H 
+Sbjct  128  ARMKENNSATCRSCHNYDAMDHAKQHPEAARQMKVAAKDNQSCIDCHKGIAHQ  180
+
+
+> sp|P33226|TORC_ECOLI Cytochrome c-type protein TorC OS=Escherichia 
+coli (strain K12) OX=83333 GN=torC PE=1 SV=3
+Length=390
+
+ Score = 165 bits (417),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 43/173 (25%), Positives = 67/173 (39%), Gaps = 34/173 (20%)
+
+Query  7    RNGPAR---LKLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH--  61
+            R   AR   L LV  G  +G+  +     G+K T    FC SCH M PV   +K S H  
+Sbjct  9    RRPSARWSVLALVAIGIVIGIALIVLPHVGIKVTSTTEFCVSCHSMQPVYEEYKQSVHFQ  68
+
+Query  62   ----ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH---------PGDLILAGMET  108
+                    C+DCH P ++   +  + +  + D+Y   + H              LA  E 
+Sbjct  69   NASGVRAECHDCHIPPDIPGMVK-RKLEASNDIYQTFIAHSIDTPEKFEAKRAELAEREW  127
+
+Query  109  KEVV---NANCKACHTMTNVEVASMEAK------------KYCTDCHRNVQHM  146
+              +    +A C++CH    ++ A    +            + C DCH+ + H 
+Sbjct  128  ARMKENNSATCRSCHNYDAMDHAKQHPEAARQMKVAAKDNQSCIDCHKGIAHQ  180
+
+
+> sp|Q56352|NAPC_PARPN Cytochrome c-type protein NapC OS=Paracoccus 
+pantotrophus OX=82367 GN=napC PE=4 SV=1
+Length=237
+
+ Score = 160 bits (405),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 40/173 (23%), Positives = 62/173 (36%), Gaps = 35/173 (20%)
+
+Query  8    NGPARLK---LVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSGH--  61
+               + L    L LGG   GV+        ++ T+   FCTSCH M + V      + H  
+Sbjct  24   RPSSFLSIGFLTLGGFICGVIFWGGFNTALEITNTEKFCTSCHEMRDNVYQELMPTVHFS  83
+
+Query  62   ----ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMETK  109
+                   SC DCH PH    K+  + +  +++V+    G            L LA  E  
+Sbjct  84   NRSGVRASCPDCHVPHEWTDKIA-RKMQASKEVWGKIFGTISTREKFLEKRLELAKHEWA  142
+
+Query  110  EVV---NANCKACHTMTNVEVASME-------------AKKYCTDCHRNVQHM  146
+             +    +  C+ CH    ++                   +K C DCH+ + H 
+Sbjct  143  RLKANDSLECRNCHAAVAMDFTKQTRRAPQIHERYLISGEKTCIDCHKGIAHQ  195
+
+
+> sp|P24038|NIRT_PSEST Denitrification system component NirT OS=Pseudomonas 
+stutzeri OX=316 GN=nirT PE=2 SV=1
+Length=201
+
+ Score = 158 bits (398),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 35/172 (20%), Positives = 65/172 (38%), Gaps = 34/172 (20%)
+
+Query  7    RNGPARLKL---VLGGATLGVVALATVAFGMKYTDQRPFCTSCHIM-NPVGVTHKLSGH-  61
+            R    R  L   ++ G   G+V        ++ T+   FC SCH M + V   +K + H 
+Sbjct  19   RRPSTRYSLGGILIVGIVAGIVFWGGFNTALEATNTETFCISCHEMGDNVYPEYKETIHY  78
+
+Query  62   -----ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMET  108
+                    +C DCH P +   K+  + +  +++++   +G            L LA  E 
+Sbjct  79   ANRTGVRATCPDCHVPRDWTHKMV-RKVEASKELWGKIVGTIDTAEKFEAKRLTLARREW  137
+
+Query  109  KEVVNANCKACHTMTNVEVASMEAKK---------------YCTDCHRNVQH  145
+              +  ++ + C    ++E  S + +K                C  CH+ + H
+Sbjct  138  ARMRASDSRECRNCHSLESMSSDMQKQRARKQHEMAREDNLTCIACHKGIAH  189
+
+
+> sp|P44655|NAPC_HAEIN Cytochrome c-type protein NapC OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=napC PE=4 SV=1
+Length=200
+
+ Score = 158 bits (398),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 41/174 (24%), Positives = 67/174 (39%), Gaps = 34/174 (20%)
+
+Query  5    KSRNGPARLKL---VLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH  61
+            +    P+R+ +   ++  A  G+++     +G++ T+   FC SCH M      +  S H
+Sbjct  14   QWFRKPSRMAIGTIIILSAIGGILSWVGFNYGLEKTNTEQFCASCH-MQDAYPEYLHSVH  72
+
+Query  62   ------ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGME  107
+                     SC DCH PH   AK+  + I  A++VY +  G            L +A  E
+Sbjct  73   YQTRTGVGASCPDCHVPHEFGAKMK-RKIIAAKEVYAHYTGKVDTLEKFNAHRLEMAQNE  131
+
+Query  108  TKEVVNANCKACHTMTNVEVAS---------------MEAKKYCTDCHRNVQHM  146
+               +   + K C    NV+  +                   K C DCH+ + H 
+Sbjct  132  WARMKANDSKECRNCHNVDRMTFNDQRSVAARMHQKMKTEGKTCIDCHKGIAHQ  185
+
+
+> sp|P58361|TORY_ECO57 Cytochrome c-type protein TorY OS=Escherichia 
+coli O157:H7 OX=83334 GN=torY PE=3 SV=1
+Length=366
+
+ Score = 154 bits (390),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 36/171 (21%), Positives = 63/171 (37%), Gaps = 33/171 (19%)
+
+Query  8    NGPARLKLV--LGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH----  61
+             G  R+ L+  L    +G          +  T    FC SCH M+     ++ + H    
+Sbjct  2    RGKKRIGLLFLLIAVVVGGGGFLMAQKALHKTSDTAFCLSCHSMSKPFEEYQGTVHFSNQ  61
+
+Query  62   --ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG---------HPGDLILAGMETKE  110
+                  C DCH P + +  L F  +  ++D+Y   +                +A    KE
+Sbjct  62   KGIRAECADCHIPKSGMDYL-FAKLKASKDIYHEFVSGKIDSDDKFEAHRQEMAETVWKE  120
+
+Query  111  VV---NANCKACHTMTNVEVASMEA------------KKYCTDCHRNVQHM  146
+            +    +A C++CH+   +++AS                + C DCH+ + H 
+Sbjct  121  LKATDSATCRSCHSFDAMDIASQSESAQKMHNKAQKGGETCIDCHKGIAHF  171
+
+
+> sp|Q06536|YFCC_ALLVD Putative tetraheme cytochrome-c type OS=Allochromatium 
+vinosum (strain ATCC 17899 / DSM 180 / NBRC 103801 
+/ NCIMB 10441 / D) OX=572477 GN=Alvin_1095 PE=4 SV=2
+Length=184
+
+ Score = 143 bits (361),  Expect = 9e-42, Method: Composition-based stats.
+ Identities = 46/168 (27%), Positives = 70/168 (42%), Gaps = 32/168 (19%)
+
+Query  11   ARLKLVLGG--ATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH------A  62
+             R  L+  G     G+V +  V FG+K T+   FCTSCH M      +K S H       
+Sbjct  10   KRFSLLALGLMFVGGIVFVWAVDFGIKTTNTLEFCTSCHTMQTNFEEYKESLHYKNTSGV  69
+
+Query  63   NISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMETKEV---  111
+              +C DCH P  L  KL  K +  A+DVY   +G              LA +  K +   
+Sbjct  70   QATCADCHVPKELGPKLVTKIV-AAKDVYHEVMGTIDTPEKFEARRWYLANLVWKRLEAS  128
+
+Query  112  VNANCKACHTMTNVEV------------ASMEAKKYCTDCHRNVQHMR  147
+             +  C++CH   ++++            A+ +  + C +CH+ V H  
+Sbjct  129  DSRECRSCHDYADMDLSEQSRSARSRHSAAQDKGQTCIECHKGVAHHE  176
+
+
+> sp|P44799|TORY_HAEIN Cytochrome c-type protein TorY OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=torY PE=3 SV=1
+Length=368
+
+ Score = 148 bits (373),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 36/168 (21%), Positives = 62/168 (37%), Gaps = 33/168 (20%)
+
+Query  11   ARLKLVLGGATL---GVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH------  61
+            +++K ++    L   GV AL    + M  T    FC SCH M+      + S H      
+Sbjct  4    SKMKKIVTALCLVGVGVGALWGSQWIMHKTSTPEFCASCHSMSYPQQEWEGSSHFANAKG  63
+
+Query  62   ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLGH--------PGDLILAGMETKEVV-  112
+                C+DCH P      +  K I   +D++    G              +A    K++  
+Sbjct  64   VRAQCSDCHIPKEGWHYVKAKFI-ALKDLWYEAQGKIENKEKYEAHRAEMAQRVWKDMKA  122
+
+Query  113  --NANCKACHTMTNVEVASMEA------------KKYCTDCHRNVQHM  146
+              +  C++CH+   +E++                 + C DCH+ + H 
+Sbjct  123  NDSETCRSCHSFDAMELSKQTKLAKQTHTEAQTNGQTCIDCHKGIVHF  170
+
+
+> sp|P52005|TORY_ECOLI Cytochrome c-type protein TorY OS=Escherichia 
+coli (strain K12) OX=83333 GN=torY PE=1 SV=2
+Length=366
+
+ Score = 140 bits (353),  Expect = 7e-39, Method: Composition-based stats.
+ Identities = 37/171 (22%), Positives = 64/171 (37%), Gaps = 33/171 (19%)
+
+Query  8    NGPARLKLV--LGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH----  61
+             G  R+ L+  L    +G   L      +  T    FC SCH M+     ++ + H    
+Sbjct  2    RGKKRIGLLFLLIAVVVGGGGLLLAQKVLHKTSDTAFCLSCHSMSKPFEEYQGTVHFSNQ  61
+
+Query  62   --ANISCNDCHAPHNLLAKLPFKAIAGARDVYMNTLG---------HPGDLILAGMETKE  110
+                  C DCH P + +  L F  +  ++D+Y   +                +A    KE
+Sbjct  62   KGIRAECADCHIPKSGMDYL-FAKLKASKDIYHEFVSGKIDSDDKFEAHRQEMAETVWKE  120
+
+Query  111  VV---NANCKACHTMTNVEVASMEA------------KKYCTDCHRNVQHM  146
+            +    +A C++CH+   +++AS                + C DCH+ + H 
+Sbjct  121  LKATDSATCRSCHSFDAMDIASQSESAQKMHNKAQKDSETCIDCHKGIAHF  171
+
+
+> sp|Q9S1E6|NRFH_WOLSU Cytochrome c-type protein NrfH OS=Wolinella 
+succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / 
+NCTC 11488 / FDC 602W) OX=273121 GN=nrfH PE=1 SV=1
+Length=177
+
+ Score = 134 bits (337),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 44/155 (28%), Positives = 69/155 (45%), Gaps = 16/155 (10%)
+
+Query  14   KLVLGGATLGV-VALATVAFGMKYTDQRP-FCTSCHIMNPVGVTHKLSGHA-NISCNDCH  70
+             LV+    LG+ V L   +  + Y    P  C +CH+MNP   T + S HA   SC +CH
+Sbjct  11   SLVVFAIALGLFVYLVNASKALSYLSSDPKACINCHVMNPQYATWQHSSHAERASCVECH  70
+
+Query  71   APH-NLLAKLPFKAIAGARDVYMNTLGHPGDLILAGMETKEVVNANCKACH---TMTNVE  126
+             P  N++ K   KA  G       TLG     +    +    V  NC +CH   + T +E
+Sbjct  71   LPTGNMVQKYISKARDGWNHSVAFTLGTYDHSMKISEDGARRVQENCISCHASLSSTLLE  130
+
+Query  127  VASMEA---------KKYCTDCHRNVQHMRMKPIS  152
+             A             ++ C +CH++V H +++ ++
+Sbjct  131  NADRNHQFNDPKGASERLCWECHKSVPHGKVRSLT  165
+
+
+> sp|Q50926|CYCX_NITEU Probable tetraheme cytochrome c-type OS=Nitrosomonas 
+europaea (strain ATCC 19718 / CIP 103999 / KCTC 
+2705 / NBRC 14298) OX=228410 GN=cycX1 PE=3 SV=1
+Length=233
+
+ Score = 128 bits (322),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 51/169 (30%), Positives = 68/169 (40%), Gaps = 27/169 (16%)
+
+Query  7    RNGPARLKLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGH-----  61
+            R     +  +L GA LG+V +A V  G        FCTSCH M       K S H     
+Sbjct  3    RLQKGSIGTLLTGALLGIVLVAVVFGGEAALSTEEFCTSCHSMTYPQAELKQSTHYGALG  62
+
+Query  62   ANISCNDCHAPH---NLLAKLPFKAIAGARDVYMNTLG--------HPGDLIL---AGME  107
+             N  C DCH P    N    +   AI GAR++Y+  +         +   L +   A M 
+Sbjct  63   VNPGCKDCHIPQGIENFHLAVATHAIDGARELYLELVNDYSTLEKFNERRLEMAHDARMN  122
+
+Query  108  TKEVVNANCKACHTMTNV--EVASMEAKK------YCTDCHRNVQHMRM  148
+             K+  +  C+ CH       E A  E KK       C DCH+N+ H  +
+Sbjct  123  LKKWDSITCRTCHKKPAPPGESAQAEHKKMETEGATCIDCHQNLVHEEV  171
+
+
+> sp|P83223|FRDA_SHEON Fumarate reductase flavoprotein subunit 
+OS=Shewanella oneidensis (strain MR-1) OX=211586 GN=SO_0970 
+PE=1 SV=2
+Length=596
+
+ Score = 108 bits (269),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 33/131 (25%), Positives = 43/131 (33%), Gaps = 25/131 (19%)
+
+Query  10   PARLKLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGHANISCNDC  69
+               L +++ GA  G    A       +  +   C SCH+ +  GVT+    H N  C  C
+Sbjct  8    KTALAMLISGAMAGTAY-AAPEVLADFHGEMGGCDSCHVSDKGGVTNDNLTHENGQCVSC  66
+
+Query  70   HAPHNLLAKLPFKAIAGARDVYMNTLGHPGDLILAGMETKEVVNANCKACHTMTNVEVAS  129
+            H        L   A A  +D        P    L G          C +CH      VA 
+Sbjct  67   H------GDLKELAAAAPKDKV-----SPHKSHLIGE-------IACTSCHKGHEKSVA-  107
+
+Query  130  MEAKKYCTDCH  140
+                 YC  CH
+Sbjct  108  -----YCDACH  113
+
+
+> sp|Q9Z4P0|FRD2_SHEFN Fumarate reductase flavoprotein subunit 
+OS=Shewanella frigidimarina (strain NCIMB 400) OX=318167 GN=ifcA 
+PE=1 SV=1
+Length=588
+
+ Score = 57.9 bits (138),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 29/141 (21%), Positives = 41/141 (29%), Gaps = 36/141 (26%)
+
+Query  11   ARLKLVLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGHANISCNDCH  70
+            + + LV+  +  G     T   G  +      C SCH             H N  C  CH
+Sbjct  8    SAMALVVLSS--GTAMAKTPDMG-SFHADMGSCQSCHA--KPIKVTDSETHENAQCKSCH  62
+
+Query  71   APHNLLAKLPFKAIAGARDVYMNTLGHPGDLILAGMETKEVVNANCKACHTMTNVEVASM  130
+                   +    A              P +  L         + NC +CH          
+Sbjct  63   ------GEYAELAND-------KLQFDPHNSHLG--------DINCTSCHKGHE------  95
+
+Query  131  EAKKYCTDCHRNVQHMRMKPI  151
+            E K YC +CH       +KP+
+Sbjct  96   EPKFYCNECHS----FDIKPM  112
+
+
+> sp|Q07WU7|FRDA_SHEFN Fumarate reductase flavoprotein subunit 
+OS=Shewanella frigidimarina (strain NCIMB 400) OX=318167 GN=fccA 
+PE=1 SV=2
+Length=596
+
+ Score = 52.5 bits (124),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 22/125 (18%), Positives = 35/125 (28%), Gaps = 25/125 (20%)
+
+Query  16   VLGGATLGVVALATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGHANISCNDCHAPHNL  75
+             L G    +          ++  Q   C SCH  +   +++    + N  C  CH     
+Sbjct  12   TLMGTAGLMGTAVAADNLAEFHVQNQECDSCHTPD-GELSNDSLTYENTQCVSCH-----  65
+
+Query  76   LAKLPFKAIAGARDVYMNTLGHPGDLILAGMETKEVVNANCKACHTMTNVEVASMEAKKY  135
+               L   A     + Y     +       G          C +CH+     +       Y
+Sbjct  66   -GTLAEVAETTKHEHY-----NAHASHFPGEV-------ACTSCHSAHEKSMV------Y  106
+
+Query  136  CTDCH  140
+            C  CH
+Sbjct  107  CDSCH  111
+
+
+> sp|P0C278|FRDA_SHEFR Fumarate reductase flavoprotein subunit 
+OS=Shewanella frigidimarina OX=56812 GN=fccA PE=1 SV=1
+Length=571
+
+ Score = 50.6 bits (119),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 22/111 (20%), Positives = 33/111 (30%), Gaps = 25/111 (23%)
+
+Query  30   VAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGHANISCNDCHAPHNLLAKLPFKAIAGARD  89
+                 ++  Q   C SCH  +   +++    + N  C  CH               G  +
+Sbjct  1    ADNLAEFHVQNQECDSCHTPD-GELSNDSLTYENTQCVSCH---------------GTLE  44
+
+Query  90   VYMNTLGHPGDLILAGMETKEVVNANCKACHTMTNVEVASMEAKKYCTDCH  140
+                T  H      A     EV    C +CH+     +       YC  CH
+Sbjct  45   EVAETTKHEHYNAHASHFPGEV---ACTSCHSAHEKSMV------YCDSCH  86
+
+
+> sp|Q50925|HAO_NITEU Hydroxylamine oxidoreductase OS=Nitrosomonas 
+europaea (strain ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC 
+14298) OX=228410 GN=hao1 PE=1 SV=2
+Length=570
+
+ Score = 44.1 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 24/134 (18%), Positives = 34/134 (25%), Gaps = 21/134 (16%)
+
+Query  33   GMKYTDQRPFCTSCHIMNPVGVTHKLSGHANI----SCNDCHAPH---------------  73
+            G K T +   C  CH+          +    +    +C  CH                  
+Sbjct  159  GEKETLKEVGCIDCHVDVNKKDKADHTKDIRMPTADTCGTCHLREFAERESERDTMVWPN  218
+
+Query  74   -NLLAKLPFKAIAGARDVYMNTLGHPGDLILA-GMETKEVVNANCKACHTMTNVEVASME  131
+                A  P  A+    ++            +A G          C  CHT      A   
+Sbjct  219  GQWPAGRPSHALDYTANIETTVWAAMPQREVAEGCTMCHTNQNKCDNCHTRHEFSAAESR  278
+
+Query  132  AKKYCTDCHRNVQH  145
+              + C  CH  V H
+Sbjct  279  KPEACATCHSGVDH  292
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.120    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0380    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7115272854
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

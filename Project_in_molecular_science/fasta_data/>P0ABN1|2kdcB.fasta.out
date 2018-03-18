@@ -1,0 +1,827 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P0ABN1|2kdcB
+
+Length=122
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P0ABN4|KDGL_SHIFL Diacylglycerol kinase OS=Shigella flexneri...  239     1e-80
+  sp|P0ABN1|KDGL_ECOLI Diacylglycerol kinase OS=Escherichia coli ...  239     1e-80
+  sp|P0ABN2|KDGL_ECOL6 Diacylglycerol kinase OS=Escherichia coli ...  239     1e-80
+  sp|P0ABN3|KDGL_ECO57 Diacylglycerol kinase OS=Escherichia coli ...  239     1e-80
+  sp|P44424|KDGL_HAEIN Diacylglycerol kinase OS=Haemophilus influ...  114     1e-31
+  sp|Q9HY23|KDGL_PSEAE Diacylglycerol kinase OS=Pseudomonas aerug...  102     4e-27
+  sp|P56411|KDGL_HELPY Diacylglycerol kinase OS=Helicobacter pylo...  96.3    1e-24
+  sp|Q9ZLE0|KDGL_HELPJ Diacylglycerol kinase OS=Helicobacter pylo...  92.4    4e-23
+  sp|Q06119|KDGL_RHIME Diacylglycerol kinase OS=Rhizobium melilot...  58.9    1e-10
+  sp|Q05888|UDPK_STRMU Undecaprenol kinase OS=Streptococcus mutan...  56.2    1e-09
+  sp|Q55143|KDGL_SYNY3 Probable diacylglycerol kinase OS=Synechoc...  55.5    2e-09
+  sp|P29945|KDGL_PSEDE Diacylglycerol kinase OS=Pseudomonas denit...  53.5    9e-09
+
+
+> sp|P0ABN4|KDGL_SHIFL Diacylglycerol kinase OS=Shigella flexneri 
+OX=623 GN=dgkA PE=3 SV=2
+Length=122
+
+ Score = 239 bits (609),  Expect = 1e-80, Method: Compositional matrix adjust.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P0ABN1|KDGL_ECOLI Diacylglycerol kinase OS=Escherichia coli 
+(strain K12) OX=83333 GN=dgkA PE=1 SV=2
+Length=122
+
+ Score = 239 bits (609),  Expect = 1e-80, Method: Compositional matrix adjust.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P0ABN2|KDGL_ECOL6 Diacylglycerol kinase OS=Escherichia coli 
+O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=dgkA 
+PE=3 SV=2
+Length=122
+
+ Score = 239 bits (609),  Expect = 1e-80, Method: Compositional matrix adjust.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P0ABN3|KDGL_ECO57 Diacylglycerol kinase OS=Escherichia coli 
+O157:H7 OX=83334 GN=dgkA PE=3 SV=2
+Length=122
+
+ Score = 239 bits (609),  Expect = 1e-80, Method: Compositional matrix adjust.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P44424|KDGL_HAEIN Diacylglycerol kinase OS=Haemophilus influenzae 
+(strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=dgkA PE=3 SV=1
+Length=118
+
+ Score = 114 bits (285),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 56/110 (51%), Positives = 76/110 (69%), Gaps = 0/110 (0%)
+
+Query  4    NTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSV  63
+             TTG T +I +  YS +GL++A+ NE AFR E     + + +  +L    I  +L+ISSV
+Sbjct  3    KTTGLTHLINSTKYSLQGLKSAFKNETAFRHECFLACILIPLTFFLGETKIEIILMISSV  62
+
+Query  64   MLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITW  113
+            +LVM +E+LNSA+E VVDRIG+E HELSGRAKD GSA+V IA+ +  I W
+Sbjct  63   LLVMALELLNSAVETVVDRIGTERHELSGRAKDQGSASVFIALCIVGIVW  112
+
+
+> sp|Q9HY23|KDGL_PSEAE Diacylglycerol kinase OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 
+/ LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=dgkA PE=3 
+SV=1
+Length=123
+
+ Score = 102 bits (254),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 60/115 (52%), Positives = 73/115 (63%), Gaps = 6/115 (5%)
+
+Query  6    TGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVV---IACWLDVDAITRVLLISS  62
+            TG  RI+ A GYS  G  AA+  EAAFRQ    VLL VV   +A  LDV    R L+I+ 
+Sbjct  10   TGLKRILNATGYSLAGFLAAFRGEAAFRQ---LVLLNVVLIPVAFLLDVSRGERALMIAV  66
+
+Query  63   VMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILL  117
+             +L +IVE+LNSAIEA VDR+  E H LS  AKDMGSAA  +A+ V  +TW  +L
+Sbjct  67   CLLALIVELLNSAIEATVDRVSLERHPLSKNAKDMGSAAQFVALTVITVTWATIL  121
+
+
+> sp|P56411|KDGL_HELPY Diacylglycerol kinase OS=Helicobacter pylori 
+(strain ATCC 700392 / 26695) OX=85962 GN=dgkA PE=3 SV=1
+Length=128
+
+ Score = 96.3 bits (238),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 49/112 (44%), Positives = 68/112 (61%), Gaps = 0/112 (0%)
+
+Query  2    ANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLIS  61
+                 GF R+ KA  YS  GL+ AWI E+AFRQ  +  L  +V+A +L  D +   LLI 
+Sbjct  7    PPKAKGFKRLFKALFYSKDGLKCAWIEESAFRQIVILALFCIVLASYLAKDFLEWGLLIL  66
+
+Query  62   SVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITW  113
+               L ++VE++NS+IE  VD  G+E+H L+ +AKDM SAA LI +I   + W
+Sbjct  67   PCFLSVVVELINSSIEKAVDFTGTEFHPLAKKAKDMASAAQLIGLIFWTLIW  118
+
+
+> sp|Q9ZLE0|KDGL_HELPJ Diacylglycerol kinase OS=Helicobacter pylori 
+(strain J99 / ATCC 700824) OX=85963 GN=dgkA PE=3 SV=1
+Length=128
+
+ Score = 92.4 bits (228),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 46/112 (41%), Positives = 66/112 (59%), Gaps = 0/112 (0%)
+
+Query  2    ANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLIS  61
+                 GF R+ KA  YS  GL+ AW  E+AFRQ  +  L  +V+A +L  D +   LLI 
+Sbjct  7    PPKAKGFKRLFKALFYSKDGLKCAWAEESAFRQIVILALFCIVLASYLTKDFLEWGLLIL  66
+
+Query  62   SVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITW  113
+               L +++E++NS+IE  VD  G+E+H L+ +AKDM S+A LI +I     W
+Sbjct  67   PCFLSVVIELINSSIEKAVDFTGTEFHPLAKKAKDMASSAQLIGLIFWAFIW  118
+
+
+> sp|Q06119|KDGL_RHIME Diacylglycerol kinase OS=Rhizobium meliloti 
+(strain 1021) OX=266834 GN=dgkA PE=3 SV=1
+Length=137
+
+ Score = 58.9 bits (141),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 37/101 (37%), Positives = 55/101 (54%), Gaps = 1/101 (1%)
+
+Query  7    GFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSVMLV  66
+            G   +  AA YS+ G +   I EAAFR E +A  +A+V    +  +    V +    +L+
+Sbjct  21   GIRHLFAAASYSFGGAKR-LIGEAAFRHELIAFAVAMVAFMIVGANLFQYVAMAILFLLM  79
+
+Query  67   MIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAII  107
+            M  E +N+AIE +VDR+  E  E+   AKD+GS A L  I+
+Sbjct  80   MAFEAINTAIEEIVDRVSPEISEMGRNAKDLGSFACLCLIL  120
+
+
+> sp|Q05888|UDPK_STRMU Undecaprenol kinase OS=Streptococcus mutans 
+serotype c (strain ATCC 700610 / UA159) OX=210007 GN=dgkA 
+PE=1 SV=2
+Length=137
+
+ Score = 56.2 bits (134),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 38/103 (37%), Positives = 58/103 (56%), Gaps = 3/103 (3%)
+
+Query  17   YSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSVMLVMIVEILNSAI  76
+            ++  G+  A+  E   ++  V+ LLAV+      V  I  + L+ S+ LV+  EI+NSAI
+Sbjct  26   FALTGIFTAFKEERNMKKHAVSALLAVIAGLVFKVSVIEWLFLLLSIFLVITFEIVNSAI  85
+
+Query  77   EAVVDRIGSEYH--ELSGRAKDMGSAAVLIAIIVAVITWCILL  117
+            E VVD + S+YH   L+  AKDM + AVL+    A +T  I+ 
+Sbjct  86   ENVVD-LASDYHFSMLAKNAKDMAAGAVLVISGFAALTGLIIF  127
+
+
+> sp|Q55143|KDGL_SYNY3 Probable diacylglycerol kinase OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=dgkA PE=3 
+SV=1
+Length=175
+
+ Score = 55.5 bits (132),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 36/84 (43%), Positives = 52/84 (62%), Gaps = 7/84 (8%)
+
+Query  17   YSWKGLRAAWINEAAFRQE---GVAVLLAVVIACWLDVDAITRVLLISSVMLVMIVEILN  73
+            Y+W G+  A+  +  FR     GVAV+ A   A  L ++AI   +L  +  LVMI+E+LN
+Sbjct  65   YAWAGVSYAFATQRNFRIHTFTGVAVITA---ASLLHLEAIAVAVLALTSCLVMILELLN  121
+
+Query  74   SAIEAVVD-RIGSEYHELSGRAKD  96
+            +A+E+VVD  +G  YHEL+  AKD
+Sbjct  122  TALESVVDLTVGQSYHELAKIAKD  145
+
+
+> sp|P29945|KDGL_PSEDE Diacylglycerol kinase OS=Pseudomonas denitrificans 
+OX=43306 GN=dgkA PE=3 SV=1
+Length=137
+
+ Score = 53.5 bits (127),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 37/104 (36%), Positives = 53/104 (51%), Gaps = 1/104 (1%)
+
+Query  4    NTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSV  63
+              TG   +  AA YS  G +   I EAAFR E +A   A++    +       V +    
+Sbjct  18   KQTGIRHLFAAASYSLGGAKR-LIGEAAFRHELIAFAAAMIAFIIVGATFFQYVAMAILF  76
+
+Query  64   MLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAII  107
+            +L+M  E +N+AIE +VDR+  E  E+   AKD+GS A L  I+
+Sbjct  77   LLMMAFEAINTAIEEIVDRVSPEISEMGKNAKDLGSFACLCLIV  120
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.136    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4953129357
+Results from round 2
+
+
+Query= P0ABN1|2kdcB
+
+Length=122
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0ABN4|KDGL_SHIFL Diacylglycerol kinase OS=Shigella flexneri...  143     8e-43
+  sp|P0ABN1|KDGL_ECOLI Diacylglycerol kinase OS=Escherichia coli ...  143     8e-43
+  sp|P0ABN2|KDGL_ECOL6 Diacylglycerol kinase OS=Escherichia coli ...  143     8e-43
+  sp|P0ABN3|KDGL_ECO57 Diacylglycerol kinase OS=Escherichia coli ...  143     8e-43
+  sp|P56411|KDGL_HELPY Diacylglycerol kinase OS=Helicobacter pylo...  132     2e-38
+  sp|Q9ZLE0|KDGL_HELPJ Diacylglycerol kinase OS=Helicobacter pylo...  129     2e-37
+  sp|P44424|KDGL_HAEIN Diacylglycerol kinase OS=Haemophilus influ...  127     6e-37
+  sp|Q9HY23|KDGL_PSEAE Diacylglycerol kinase OS=Pseudomonas aerug...  118     2e-33
+  sp|P29945|KDGL_PSEDE Diacylglycerol kinase OS=Pseudomonas denit...  109     2e-29
+  sp|Q06119|KDGL_RHIME Diacylglycerol kinase OS=Rhizobium melilot...  106     2e-28
+  sp|Q05888|UDPK_STRMU Undecaprenol kinase OS=Streptococcus mutan...  95.9    2e-24
+  sp|Q55143|KDGL_SYNY3 Probable diacylglycerol kinase OS=Synechoc...  81.2    2e-18
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P19638|UDPK_BACSU Undecaprenol kinase OS=Bacillus subtilis (...  56.2    9e-10
+
+
+> sp|P0ABN4|KDGL_SHIFL Diacylglycerol kinase OS=Shigella flexneri 
+OX=623 GN=dgkA PE=3 SV=2
+Length=122
+
+ Score = 143 bits (360),  Expect = 8e-43, Method: Composition-based stats.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P0ABN1|KDGL_ECOLI Diacylglycerol kinase OS=Escherichia coli 
+(strain K12) OX=83333 GN=dgkA PE=1 SV=2
+Length=122
+
+ Score = 143 bits (360),  Expect = 8e-43, Method: Composition-based stats.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P0ABN2|KDGL_ECOL6 Diacylglycerol kinase OS=Escherichia coli 
+O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=dgkA 
+PE=3 SV=2
+Length=122
+
+ Score = 143 bits (360),  Expect = 8e-43, Method: Composition-based stats.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P0ABN3|KDGL_ECO57 Diacylglycerol kinase OS=Escherichia coli 
+O157:H7 OX=83334 GN=dgkA PE=3 SV=2
+Length=122
+
+ Score = 143 bits (360),  Expect = 8e-43, Method: Composition-based stats.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P56411|KDGL_HELPY Diacylglycerol kinase OS=Helicobacter pylori 
+(strain ATCC 700392 / 26695) OX=85962 GN=dgkA PE=3 SV=1
+Length=128
+
+ Score = 132 bits (331),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 49/113 (43%), Positives = 69/113 (61%), Gaps = 0/113 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            +     GF R+ KA  YS  GL+ AWI E+AFRQ  +  L  +V+A +L  D +   LLI
+Sbjct  6    VPPKAKGFKRLFKALFYSKDGLKCAWIEESAFRQIVILALFCIVLASYLAKDFLEWGLLI  65
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITW  113
+                L ++VE++NS+IE  VD  G+E+H L+ +AKDM SAA LI +I   + W
+Sbjct  66   LPCFLSVVVELINSSIEKAVDFTGTEFHPLAKKAKDMASAAQLIGLIFWTLIW  118
+
+
+> sp|Q9ZLE0|KDGL_HELPJ Diacylglycerol kinase OS=Helicobacter pylori 
+(strain J99 / ATCC 700824) OX=85963 GN=dgkA PE=3 SV=1
+Length=128
+
+ Score = 129 bits (325),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 46/113 (41%), Positives = 67/113 (59%), Gaps = 0/113 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            +     GF R+ KA  YS  GL+ AW  E+AFRQ  +  L  +V+A +L  D +   LLI
+Sbjct  6    VPPKAKGFKRLFKALFYSKDGLKCAWAEESAFRQIVILALFCIVLASYLTKDFLEWGLLI  65
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITW  113
+                L +++E++NS+IE  VD  G+E+H L+ +AKDM S+A LI +I     W
+Sbjct  66   LPCFLSVVIELINSSIEKAVDFTGTEFHPLAKKAKDMASSAQLIGLIFWAFIW  118
+
+
+> sp|P44424|KDGL_HAEIN Diacylglycerol kinase OS=Haemophilus influenzae 
+(strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=dgkA PE=3 SV=1
+Length=118
+
+ Score = 127 bits (320),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 57/115 (50%), Positives = 79/115 (69%), Gaps = 0/115 (0%)
+
+Query  4    NTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSV  63
+             TTG T +I +  YS +GL++A+ NE AFR E     + + +  +L    I  +L+ISSV
+Sbjct  3    KTTGLTHLINSTKYSLQGLKSAFKNETAFRHECFLACILIPLTFFLGETKIEIILMISSV  62
+
+Query  64   MLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLW  118
+            +LVM +E+LNSA+E VVDRIG+E HELSGRAKD GSA+V IA+ +  I W  +L+
+Sbjct  63   LLVMALELLNSAVETVVDRIGTERHELSGRAKDQGSASVFIALCIVGIVWGGILF  117
+
+
+> sp|Q9HY23|KDGL_PSEAE Diacylglycerol kinase OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 
+/ LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=dgkA PE=3 
+SV=1
+Length=123
+
+ Score = 118 bits (297),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 55/113 (49%), Positives = 72/113 (64%), Gaps = 0/113 (0%)
+
+Query  5    TTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSVM  64
+             TG  RI+ A GYS  G  AA+  EAAFRQ  +  ++ + +A  LDV    R L+I+  +
+Sbjct  9    QTGLKRILNATGYSLAGFLAAFRGEAAFRQLVLLNVVLIPVAFLLDVSRGERALMIAVCL  68
+
+Query  65   LVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILL  117
+            L +IVE+LNSAIEA VDR+  E H LS  AKDMGSAA  +A+ V  +TW  +L
+Sbjct  69   LALIVELLNSAIEATVDRVSLERHPLSKNAKDMGSAAQFVALTVITVTWATIL  121
+
+
+> sp|P29945|KDGL_PSEDE Diacylglycerol kinase OS=Pseudomonas denitrificans 
+OX=43306 GN=dgkA PE=3 SV=1
+Length=137
+
+ Score = 109 bits (272),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 37/108 (34%), Positives = 54/108 (50%), Gaps = 1/108 (1%)
+
+Query  4    NTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSV  63
+              TG   +  AA YS  G +   I EAAFR E +A   A++    +       V +    
+Sbjct  18   KQTGIRHLFAAASYSLGGAKR-LIGEAAFRHELIAFAAAMIAFIIVGATFFQYVAMAILF  76
+
+Query  64   MLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVI  111
+            +L+M  E +N+AIE +VDR+  E  E+   AKD+GS A L  I+   +
+Sbjct  77   LLMMAFEAINTAIEEIVDRVSPEISEMGKNAKDLGSFACLCLIVANGV  124
+
+
+> sp|Q06119|KDGL_RHIME Diacylglycerol kinase OS=Rhizobium meliloti 
+(strain 1021) OX=266834 GN=dgkA PE=3 SV=1
+Length=137
+
+ Score = 106 bits (265),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 37/104 (36%), Positives = 55/104 (53%), Gaps = 1/104 (1%)
+
+Query  4    NTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSV  63
+               G   +  AA YS+ G +   I EAAFR E +A  +A+V    +  +    V +    
+Sbjct  18   KHRGIRHLFAAASYSFGGAKR-LIGEAAFRHELIAFAVAMVAFMIVGANLFQYVAMAILF  76
+
+Query  64   MLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAII  107
+            +L+M  E +N+AIE +VDR+  E  E+   AKD+GS A L  I+
+Sbjct  77   LLMMAFEAINTAIEEIVDRVSPEISEMGRNAKDLGSFACLCLIL  120
+
+
+> sp|Q05888|UDPK_STRMU Undecaprenol kinase OS=Streptococcus mutans 
+serotype c (strain ATCC 700610 / UA159) OX=210007 GN=dgkA 
+PE=1 SV=2
+Length=137
+
+ Score = 95.9 bits (237),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 38/111 (34%), Positives = 60/111 (54%), Gaps = 3/111 (3%)
+
+Query  9    TRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSVMLVMI  68
+              +  +  ++  G+  A+  E   ++  V+ LLAV+      V  I  + L+ S+ LV+ 
+Sbjct  18   RTLTSSLEFALTGIFTAFKEERNMKKHAVSALLAVIAGLVFKVSVIEWLFLLLSIFLVIT  77
+
+Query  69   VEILNSAIEAVVDRIGSEYH--ELSGRAKDMGSAAVLIAIIVAVITWCILL  117
+             EI+NSAIE VVD + S+YH   L+  AKDM + AVL+    A +T  I+ 
+Sbjct  78   FEIVNSAIENVVD-LASDYHFSMLAKNAKDMAAGAVLVISGFAALTGLIIF  127
+
+
+> sp|Q55143|KDGL_SYNY3 Probable diacylglycerol kinase OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=dgkA PE=3 
+SV=1
+Length=175
+
+ Score = 81.2 bits (199),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 31/87 (36%), Positives = 51/87 (59%), Gaps = 1/87 (1%)
+
+Query  11   IIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSVMLVMIVE  70
+            ++ +  Y+W G+  A+  +  FR      +  +  A  L ++AI   +L  +  LVMI+E
+Sbjct  59   LLVSFRYAWAGVSYAFATQRNFRIHTFTGVAVITAASLLHLEAIAVAVLALTSCLVMILE  118
+
+Query  71   ILNSAIEAVVD-RIGSEYHELSGRAKD  96
+            +LN+A+E+VVD  +G  YHEL+  AKD
+Sbjct  119  LLNTALESVVDLTVGQSYHELAKIAKD  145
+
+
+> sp|P19638|UDPK_BACSU Undecaprenol kinase OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=dgkA PE=1 SV=4
+Length=123
+
+ Score = 56.2 bits (134),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 24/110 (22%), Positives = 53/110 (48%), Gaps = 0/110 (0%)
+
+Query  8    FTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSVMLVM  67
+              R  K+  ++ +G+      E  F+    A    ++    +++  I  +++   +  + 
+Sbjct  10   LNRFFKSFVHAGRGIWETARTERNFQFHAAAACAVLICGFLVELSIIEWMIIFLLIGGMF  69
+
+Query  68   IVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILL  117
+             +E+LN+AIE  VD I  ++H L+  AKD  + AV +  +++ I   ++ 
+Sbjct  70   SLELLNTAIEHTVDLITDKHHPLAKAAKDAAAGAVCVFAVISCIIGLLIF  119
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.356    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0426    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4953129357
+Results from round 3
+
+
+Query= P0ABN1|2kdcB
+
+Length=122
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0ABN4|KDGL_SHIFL Diacylglycerol kinase OS=Shigella flexneri...  131     3e-38
+  sp|P0ABN1|KDGL_ECOLI Diacylglycerol kinase OS=Escherichia coli ...  131     3e-38
+  sp|P0ABN2|KDGL_ECOL6 Diacylglycerol kinase OS=Escherichia coli ...  131     3e-38
+  sp|P0ABN3|KDGL_ECO57 Diacylglycerol kinase OS=Escherichia coli ...  131     3e-38
+  sp|P56411|KDGL_HELPY Diacylglycerol kinase OS=Helicobacter pylo...  126     3e-36
+  sp|P44424|KDGL_HAEIN Diacylglycerol kinase OS=Haemophilus influ...  125     3e-36
+  sp|Q9ZLE0|KDGL_HELPJ Diacylglycerol kinase OS=Helicobacter pylo...  123     3e-35
+  sp|Q9HY23|KDGL_PSEAE Diacylglycerol kinase OS=Pseudomonas aerug...  116     2e-32
+  sp|P29945|KDGL_PSEDE Diacylglycerol kinase OS=Pseudomonas denit...  103     2e-27
+  sp|Q06119|KDGL_RHIME Diacylglycerol kinase OS=Rhizobium melilot...  102     7e-27
+  sp|P19638|UDPK_BACSU Undecaprenol kinase OS=Bacillus subtilis (...  98.9    1e-25
+  sp|Q05888|UDPK_STRMU Undecaprenol kinase OS=Streptococcus mutan...  97.4    6e-25
+  sp|Q55143|KDGL_SYNY3 Probable diacylglycerol kinase OS=Synechoc...  88.5    3e-21
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P0ABN4|KDGL_SHIFL Diacylglycerol kinase OS=Shigella flexneri 
+OX=623 GN=dgkA PE=3 SV=2
+Length=122
+
+ Score = 131 bits (329),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P0ABN1|KDGL_ECOLI Diacylglycerol kinase OS=Escherichia coli 
+(strain K12) OX=83333 GN=dgkA PE=1 SV=2
+Length=122
+
+ Score = 131 bits (329),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P0ABN2|KDGL_ECOL6 Diacylglycerol kinase OS=Escherichia coli 
+O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=dgkA 
+PE=3 SV=2
+Length=122
+
+ Score = 131 bits (329),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P0ABN3|KDGL_ECO57 Diacylglycerol kinase OS=Escherichia coli 
+O157:H7 OX=83334 GN=dgkA PE=3 SV=2
+Length=122
+
+ Score = 131 bits (329),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI
+Sbjct  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+            SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH
+Sbjct  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+
+Query  121  FG  122
+            FG
+Sbjct  121  FG  122
+
+
+> sp|P56411|KDGL_HELPY Diacylglycerol kinase OS=Helicobacter pylori 
+(strain ATCC 700392 / 26695) OX=85962 GN=dgkA PE=3 SV=1
+Length=128
+
+ Score = 126 bits (316),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 49/114 (43%), Positives = 69/114 (61%), Gaps = 0/114 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            +     GF R+ KA  YS  GL+ AWI E+AFRQ  +  L  +V+A +L  D +   LLI
+Sbjct  6    VPPKAKGFKRLFKALFYSKDGLKCAWIEESAFRQIVILALFCIVLASYLAKDFLEWGLLI  65
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWC  114
+                L ++VE++NS+IE  VD  G+E+H L+ +AKDM SAA LI +I   + W 
+Sbjct  66   LPCFLSVVVELINSSIEKAVDFTGTEFHPLAKKAKDMASAAQLIGLIFWTLIWG  119
+
+
+> sp|P44424|KDGL_HAEIN Diacylglycerol kinase OS=Haemophilus influenzae 
+(strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=dgkA PE=3 SV=1
+Length=118
+
+ Score = 125 bits (315),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 57/115 (50%), Positives = 79/115 (69%), Gaps = 0/115 (0%)
+
+Query  4    NTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSV  63
+             TTG T +I +  YS +GL++A+ NE AFR E     + + +  +L    I  +L+ISSV
+Sbjct  3    KTTGLTHLINSTKYSLQGLKSAFKNETAFRHECFLACILIPLTFFLGETKIEIILMISSV  62
+
+Query  64   MLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLW  118
+            +LVM +E+LNSA+E VVDRIG+E HELSGRAKD GSA+V IA+ +  I W  +L+
+Sbjct  63   LLVMALELLNSAVETVVDRIGTERHELSGRAKDQGSASVFIALCIVGIVWGGILF  117
+
+
+> sp|Q9ZLE0|KDGL_HELPJ Diacylglycerol kinase OS=Helicobacter pylori 
+(strain J99 / ATCC 700824) OX=85963 GN=dgkA PE=3 SV=1
+Length=128
+
+ Score = 123 bits (310),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 47/121 (39%), Positives = 70/121 (58%), Gaps = 0/121 (0%)
+
+Query  1    MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLI  60
+            +     GF R+ KA  YS  GL+ AW  E+AFRQ  +  L  +V+A +L  D +   LLI
+Sbjct  6    VPPKAKGFKRLFKALFYSKDGLKCAWAEESAFRQIVILALFCIVLASYLTKDFLEWGLLI  65
+
+Query  61   SSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSH  120
+                L +++E++NS+IE  VD  G+E+H L+ +AKDM S+A LI +I     W   L + 
+Sbjct  66   LPCFLSVVIELINSSIEKAVDFTGTEFHPLAKKAKDMASSAQLIGLIFWAFIWGRYLLTL  125
+
+Query  121  F  121
+            +
+Sbjct  126  Y  126
+
+
+> sp|Q9HY23|KDGL_PSEAE Diacylglycerol kinase OS=Pseudomonas aeruginosa 
+(strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 
+/ LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=dgkA PE=3 
+SV=1
+Length=123
+
+ Score = 116 bits (290),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 55/113 (49%), Positives = 72/113 (64%), Gaps = 0/113 (0%)
+
+Query  5    TTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSVM  64
+             TG  RI+ A GYS  G  AA+  EAAFRQ  +  ++ + +A  LDV    R L+I+  +
+Sbjct  9    QTGLKRILNATGYSLAGFLAAFRGEAAFRQLVLLNVVLIPVAFLLDVSRGERALMIAVCL  68
+
+Query  65   LVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILL  117
+            L +IVE+LNSAIEA VDR+  E H LS  AKDMGSAA  +A+ V  +TW  +L
+Sbjct  69   LALIVELLNSAIEATVDRVSLERHPLSKNAKDMGSAAQFVALTVITVTWATIL  121
+
+
+> sp|P29945|KDGL_PSEDE Diacylglycerol kinase OS=Pseudomonas denitrificans 
+OX=43306 GN=dgkA PE=3 SV=1
+Length=137
+
+ Score = 103 bits (258),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 37/108 (34%), Positives = 54/108 (50%), Gaps = 1/108 (1%)
+
+Query  4    NTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSV  63
+              TG   +  AA YS  G +   I EAAFR E +A   A++    +       V +    
+Sbjct  18   KQTGIRHLFAAASYSLGGAKR-LIGEAAFRHELIAFAAAMIAFIIVGATFFQYVAMAILF  76
+
+Query  64   MLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVI  111
+            +L+M  E +N+AIE +VDR+  E  E+   AKD+GS A L  I+   +
+Sbjct  77   LLMMAFEAINTAIEEIVDRVSPEISEMGKNAKDLGSFACLCLIVANGV  124
+
+
+> sp|Q06119|KDGL_RHIME Diacylglycerol kinase OS=Rhizobium meliloti 
+(strain 1021) OX=266834 GN=dgkA PE=3 SV=1
+Length=137
+
+ Score = 102 bits (254),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 37/115 (32%), Positives = 58/115 (50%), Gaps = 1/115 (1%)
+
+Query  4    NTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSV  63
+               G   +  AA YS+ G +   I EAAFR E +A  +A+V    +  +    V +    
+Sbjct  18   KHRGIRHLFAAASYSFGGAKR-LIGEAAFRHELIAFAVAMVAFMIVGANLFQYVAMAILF  76
+
+Query  64   MLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLW  118
+            +L+M  E +N+AIE +VDR+  E  E+   AKD+GS A L  I+        +++
+Sbjct  77   LLMMAFEAINTAIEEIVDRVSPEISEMGRNAKDLGSFACLCLILANAAYALYVIF  131
+
+
+> sp|P19638|UDPK_BACSU Undecaprenol kinase OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=dgkA PE=1 SV=4
+Length=123
+
+ Score = 98.9 bits (245),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 24/110 (22%), Positives = 53/110 (48%), Gaps = 0/110 (0%)
+
+Query  8    FTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSVMLVM  67
+              R  K+  ++ +G+      E  F+    A    ++    +++  I  +++   +  + 
+Sbjct  10   LNRFFKSFVHAGRGIWETARTERNFQFHAAAACAVLICGFLVELSIIEWMIIFLLIGGMF  69
+
+Query  68   IVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILL  117
+             +E+LN+AIE  VD I  ++H L+  AKD  + AV +  +++ I   ++ 
+Sbjct  70   SLELLNTAIEHTVDLITDKHHPLAKAAKDAAAGAVCVFAVISCIIGLLIF  119
+
+
+> sp|Q05888|UDPK_STRMU Undecaprenol kinase OS=Streptococcus mutans 
+serotype c (strain ATCC 700610 / UA159) OX=210007 GN=dgkA 
+PE=1 SV=2
+Length=137
+
+ Score = 97.4 bits (241),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 35/110 (32%), Positives = 56/110 (51%), Gaps = 1/110 (1%)
+
+Query  9    TRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSVMLVMI  68
+              +  +  ++  G+  A+  E   ++  V+ LLAV+      V  I  + L+ S+ LV+ 
+Sbjct  18   RTLTSSLEFALTGIFTAFKEERNMKKHAVSALLAVIAGLVFKVSVIEWLFLLLSIFLVIT  77
+
+Query  69   VEILNSAIEAVVDRIGS-EYHELSGRAKDMGSAAVLIAIIVAVITWCILL  117
+             EI+NSAIE VVD      +  L+  AKDM + AVL+    A +T  I+ 
+Sbjct  78   FEIVNSAIENVVDLASDYHFSMLAKNAKDMAAGAVLVISGFAALTGLIIF  127
+
+
+> sp|Q55143|KDGL_SYNY3 Probable diacylglycerol kinase OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=dgkA PE=3 
+SV=1
+Length=175
+
+ Score = 88.5 bits (218),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 31/87 (36%), Positives = 51/87 (59%), Gaps = 1/87 (1%)
+
+Query  11   IIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSVMLVMIVE  70
+            ++ +  Y+W G+  A+  +  FR      +  +  A  L ++AI   +L  +  LVMI+E
+Sbjct  59   LLVSFRYAWAGVSYAFATQRNFRIHTFTGVAVITAASLLHLEAIAVAVLALTSCLVMILE  118
+
+Query  71   ILNSAIEAVVD-RIGSEYHELSGRAKD  96
+            +LN+A+E+VVD  +G  YHEL+  AKD
+Sbjct  119  LLNTALESVVDLTVGQSYHELAKIAKD  145
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.141    0.359    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4953129357
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,3757 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q8R9C0|4m58A
+
+Length=230
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|F9USS7|LARMN_LACPL Probable fused nickel transport protein L...  248     2e-79
+  sp|Q58964|Y1569_METJA Putative metal transport protein MJ1569 O...  188     9e-58
+  sp|D5AQY8|NIKMN_RHOCB Fused nickel transport protein NikMN OS=R...  191     4e-57
+  sp|O28435|NIKMN_ARCFU Putative fused nickel transport protein N...  122     2e-31
+  sp|Q18EC4|Y3621_HALWD Putative metal transport protein HQ_3621A...  105     5e-26
+  sp|A9KP98|CBIM_LACP7 Cobalt transport protein CbiM OS=Lachnoclo...  100     5e-24
+  sp|D9SNZ5|CBIM_CLOC7 Cobalt transport protein CbiM OS=Clostridi...  92.8    4e-21
+  sp|D9QVP6|CBIM_ACEAZ Cobalt transport protein CbiM OS=Acetohalo...  92.8    4e-21
+  sp|A3CL70|CBIM_STRSV Cobalt transport protein CbiM OS=Streptoco...  90.9    2e-20
+  sp|B3EC54|CBIM_CHLL2 Cobalt transport protein CbiM OS=Chlorobiu...  87.4    3e-19
+  sp|B8I0P7|CBIM_CLOCE Cobalt transport protein CbiM OS=Clostridi...  85.5    1e-18
+  sp|Q46AL8|CBIM2_METBF Putative cobalt transport protein CbiM 2 ...  85.1    2e-18
+  sp|D3UMA1|CBIM_LISSS Cobalt transport protein CbiM OS=Listeria ...  83.2    9e-18
+  sp|A2SSE8|CBIM2_METLZ Putative cobalt transport protein CbiM 2 ...  82.4    1e-17
+  sp|O54190|CBIM_STRCO Cobalt transport protein CbiM OS=Streptomy...  82.0    2e-17
+  sp|D1AFI6|CBIM_SEBTE Cobalt transport protein CbiM OS=Sebaldell...  79.7    1e-16
+  sp|D5WSC8|CBIM_KYRT2 Cobalt transport protein CbiM OS=Kyrpidia ...  80.1    1e-16
+  sp|B8GJG9|CBIM1_METPE Putative cobalt transport protein CbiM 1 ...  77.4    7e-16
+  sp|Q2RJ53|CBIM_MOOTA Cobalt transport protein CbiM OS=Moorella ...  77.4    9e-16
+  sp|Q18J48|CBIM_HALWD Putative cobalt transport protein CbiM OS=...  76.6    1e-15
+  sp|D7DR00|CBIM_METV3 Putative cobalt transport protein CbiM OS=...  76.6    1e-15
+  sp|Q2NHA4|CBIM_METST Putative cobalt transport protein CbiM OS=...  76.3    1e-15
+  sp|A5VM74|CBIM_LACRD Cobalt transport protein CbiM OS=Lactobaci...  76.6    1e-15
+  sp|C9YID6|CBIM_PEPDR Cobalt transport protein CbiM OS=Peptoclos...  76.3    2e-15
+  sp|Q46D59|CBIM1_METBF Putative cobalt transport protein CbiM 1 ...  75.1    4e-15
+  sp|Q897L1|CBIM_CLOTE Cobalt transport protein CbiM OS=Clostridi...  75.1    5e-15
+  sp|D5AUZ9|CBIM_RHOCB Cobalt transport protein CbiM OS=Rhodobact...  74.7    5e-15
+  sp|D7GIS1|CBIM_PROFC Cobalt transport protein CbiM OS=Propionib...  74.7    6e-15
+  sp|A2SQF0|CBIM1_METLZ Putative cobalt transport protein CbiM 1 ...  73.6    2e-14
+  sp|Q748J7|CBIM_GEOSL Cobalt transport protein CbiM OS=Geobacter...  74.7    2e-14
+  sp|B7GLU2|CBIM_ANOFW Cobalt transport protein CbiM OS=Anoxybaci...  73.2    2e-14
+  sp|E3PSD4|CBIM_ACESD Cobalt transport protein CbiM OS=Acetoanae...  73.2    2e-14
+  sp|A5UQS9|CBIM_ROSS1 Cobalt transport protein CbiM OS=Roseiflex...  73.2    2e-14
+  sp|O29530|CBIM_ARCFU Putative cobalt transport protein CbiM OS=...  72.4    3e-14
+  sp|A4J832|CBIM_DESRM Cobalt transport protein CbiM OS=Desulfoto...  72.4    4e-14
+  sp|B8GEB7|CBIM2_METPE Putative cobalt transport protein CbiM 2 ...  72.0    5e-14
+  sp|D9S0S1|CBIM_THEOJ Cobalt transport protein CbiM OS=Thermosed...  71.6    7e-14
+  sp|A6LKX5|CBIM_THEM4 Cobalt transport protein CbiM OS=Thermosip...  71.2    1e-13
+  sp|A1ANC7|CBIM1_PELPD Cobalt transport protein CbiM 1 OS=Peloba...  70.5    1e-13
+  sp|A1ANE2|CBIM2_PELPD Cobalt transport protein CbiM 2 OS=Peloba...  69.7    3e-13
+  sp|Q58491|CBIM_METJA Putative cobalt transport protein CbiM OS=...  68.2    9e-13
+  sp|Q05594|CBIM_SALTY Cobalt transport protein CbiM OS=Salmonell...  67.8    1e-12
+  sp|Q3AE25|CBIM_CARHZ Cobalt transport protein CbiM OS=Carboxydo...  67.8    1e-12
+  sp|A9GQ89|CBIM_SORC5 Cobalt transport protein CbiM OS=Sorangium...  66.2    5e-12
+  sp|B0R611|CBIM_HALS3 Putative cobalt transport protein CbiM OS=...  64.7    1e-11
+  sp|Q8DG81|CBIM_THEEB Cobalt transport protein CbiM OS=Thermosyn...  60.8    7e-10
+  sp|Q8YQ91|CBIM_NOSS1 Cobalt transport protein CbiM OS=Nostoc sp...  53.1    3e-07
+  sp|A2SSD6|CBIMQ_METLZ Putative fused cobalt transport protein C...  52.0    1e-06
+
+
+> sp|F9USS7|LARMN_LACPL Probable fused nickel transport protein 
+LarMN OS=Lactobacillus plantarum (strain ATCC BAA-793 / NCIMB 
+8826 / WCFS1) OX=220668 GN=larMN PE=2 SV=1
+Length=328
+
+ Score = 248 bits (633),  Expect = 2e-79, Method: Compositional matrix adjust.
+ Identities = 130/226 (58%), Positives = 156/226 (69%), Gaps = 3/226 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDK--KDVPAMAIGSAFAFTIMMFNV  58
+            MHIP+ YLSP TC  +  AM PV TVA  KV     K  + +P + I ++ AF IMMFN+
+Sbjct  1    MHIPDNYLSPATCGTLVTAMAPVWTVAVLKVKVQIKKHHETLPMLGIAASLAFLIMMFNL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            PIPGGTTAHA+G TLLA  +GPWAA ++LT+ L +QALLFGDGGILA GAN+ NMA I P
+Sbjct  61   PIPGGTTAHAVGGTLLAVLIGPWAACLALTVTLLLQALLFGDGGILAFGANALNMAVIMP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FVGY  YRL       K L  AIG Y+GIN AAL   IELGLQP+L HTA+G PLY PYG
+Sbjct  121  FVGYACYRLGQKWHHEK-LGLAIGAYLGINMAALVAGIELGLQPILAHTASGAPLYCPYG  179
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYR  224
+            LN+ IPAM+ AHL VAG VE V T LV  ++++V   N+    + R
+Sbjct  180  LNITIPAMLTAHLLVAGWVEVVFTLLVFQFVKRVAPTNLYQTPTRR  225
+
+
+> sp|Q58964|Y1569_METJA Putative metal transport protein MJ1569 
+OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1569 PE=3 
+SV=1
+Length=222
+
+ Score = 188 bits (478),  Expect = 9e-58, Method: Compositional matrix adjust.
+ Identities = 101/216 (47%), Positives = 143/216 (66%), Gaps = 9/216 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+GYL P TCA     M+P+   + K++ K  D + +P + + +AF+F +MMFN+P+
+Sbjct  1    MHIPDGYLGPITCAFFYLIMIPIWYKSIKELKK-LDPRKLPLLGVLTAFSFLVMMFNLPV  59
+
+Query  61   PGGTTAHAIGATLLATTL-GPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPF  119
+            P GTTAH +G TL+A  +  PW A+I++++ L IQA+ FGDGGI  +GAN FNM  + PF
+Sbjct  60   PDGTTAHMVGGTLIAILMDNPWVATIAISIVLIIQAIFFGDGGITCIGANCFNMGVVLPF  119
+
+Query  120  VGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYGL  179
+            VGY +Y+  L  K+ +V++S IG YVGI AAA+    E GLQP +       P Y PY  
+Sbjct  120  VGYYVYKF-LRDKVGEVIASGIGAYVGIVAAAIVAGFEFGLQPFI------EPGYCPYPF  172
+
+Query  180  NVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEE  215
+             V++PAM FAHL  AG   AV+T +VV+Y++KV  +
+Sbjct  173  TVSVPAMAFAHLITAGPAAAVVTAIVVWYVKKVRPD  208
+
+
+> sp|D5AQY8|NIKMN_RHOCB Fused nickel transport protein NikMN OS=Rhodobacter 
+capsulatus (strain ATCC BAA-309 / NBRC 16581 / 
+SB1003) OX=272942 GN=nikMN PE=1 SV=1
+Length=347
+
+ Score = 191 bits (484),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 109/219 (50%), Positives = 147/219 (67%), Gaps = 4/219 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+GYLSP TCAV  AA VP   V+ +K+++  + + +P +A+ +AF+F IMMFN+PI
+Sbjct  1    MHIPDGYLSPVTCAVTFAATVPFWYVSMRKLDRDLNGQHLPLVALVAAFSFVIMMFNLPI  60
+
+Query  61   PGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPFV  120
+            PGGTTAHA G  + A  LGPWAA  ++++AL IQA+ FGDGGI A GAN  NMA + P V
+Sbjct  61   PGGTTAHAAGIGIAAVLLGPWAAVPAISVALLIQAIFFGDGGITAFGANCLNMAVVGPMV  120
+
+Query  121  GYGIYRLMLS----LKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFP  176
+               +Y L           +V+ + +  Y G+NAAAL  A+E G+QPL FH A G PLY P
+Sbjct  121  AAAVYALGTRGAAIGSRRRVIMAGLASYAGLNAAALLAAVEFGVQPLFFHDAAGAPLYAP  180
+
+Query  177  YGLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEE  215
+            Y L+VA+PAM   HLT+AG  E ++T  +V +LQ+ + E
+Sbjct  181  YPLSVAVPAMALTHLTIAGAAEFIVTAGLVAWLQRSNPE  219
+
+
+> sp|O28435|NIKMN_ARCFU Putative fused nickel transport protein 
+NikMN OS=Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 
+/ DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 GN=AF_1843 PE=3 
+SV=2
+Length=295
+
+ Score = 122 bits (306),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 80/220 (36%), Positives = 116/220 (53%), Gaps = 17/220 (8%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+GYL     ++ G   +  + V    + +   +K      I +A  F   M N PI
+Sbjct  1    MHIPDGYLD---LSIAGLFYILSIAVLGYSIYRLRGQKLTSLFGIVAAAIFAAQMLNWPI  57
+
+Query  61   PGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPFV  120
+            PGGT+AH +G  L    LGP+A ++++ + L IQ L+F DGGI ALGAN +NMA +  FV
+Sbjct  58   PGGTSAHFVGGALAGILLGPYAGALAMAVVLTIQCLVFADGGITALGANVWNMAIVNVFV  117
+
+Query  121  GYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYGLN  180
+            GY +YR +   + N+  ++ I G++GI  AA+   IE+G+              F YGL 
+Sbjct  118  GYYVYRAI--ERFNRSAAAFIAGWIGITLAAIFAGIEIGIST-----------SFGYGLK  164
+
+Query  181  VAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+            V +P M   H  + G+VE  IT  VV Y+     + I  K
+Sbjct  165  VTLPVMGTWH-ALLGLVEGTITAGVVSYIAAARPDVIEQK  203
+
+
+> sp|Q18EC4|Y3621_HALWD Putative metal transport protein HQ_3621A 
+OS=Haloquadratum walsbyi (strain DSM 16790 / HBSQ001) OX=362976 
+GN=cbiM PE=3 SV=1
+Length=218
+
+ Score = 105 bits (263),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 67/222 (30%), Positives = 110/222 (50%), Gaps = 14/222 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+G+L P    +        + +A +        +  P + + +A  F   M N PI
+Sbjct  1    MHIPDGFLDPLVAGLFWLGSAVTIGLAVRHARSELGDERTPLLGVVAAGIFAAQMLNWPI  60
+
+Query  61   PGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPFV  120
+            PGGT+AH +G       LGP    +++T  + IQAL+FGDGGI+ALG N F +A +   +
+Sbjct  61   PGGTSAHFVGGAFAGILLGPSLGVLAMTAVVTIQALVFGDGGIIALGGNLFAIAVVNVLI  120
+
+Query  121  GYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYGLN  180
+            GYG++R+    ++++  ++ I G+  +  +AL  A+ +G     F +A      F Y + 
+Sbjct  121  GYGLFRMF--REIHESGAAFIAGWAAVTLSALIVALGVG-----FSSA------FAYEIG  167
+
+Query  181  VAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFS  222
+              +  M   H  V GI+E  IT  V  Y+     + +  +F 
+Sbjct  168  TTVTIMTGGH-AVLGIIEGAITAGVYTYIAAARPDLVFTQFE  208
+
+
+> sp|A9KP98|CBIM_LACP7 Cobalt transport protein CbiM OS=Lachnoclostridium 
+phytofermentans (strain ATCC 700394 / DSM 18823 / 
+ISDg) OX=357809 GN=cbiM PE=3 SV=1
+Length=250
+
+ Score = 100 bits (250),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 61/172 (35%), Positives = 89/172 (52%), Gaps = 5/172 (3%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDK--KDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL P+ C   G   +P L      + K+  K  + +  +A+  AF F +    +
+Sbjct  28   MHIMEGYLPPKYCITWGILSIPFLVAGYFSIKKTVSKQHRSITMLAMAGAFVFVLSSLKI  87
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A SI   + L  QA+L   GG+  LGAN+F+MA   P
+Sbjct  88   PSVTGSCSHMTGTGLGAILFGPSAVSILGIIVLIFQAILLAHGGLTTLGANTFSMAIAGP  147
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANG  170
+            FV +GIY+L   LK+NK+    +  +VG       T+I+L L    + ++NG
+Sbjct  148  FVSFGIYKLCQKLKVNKLSGIFLAAFVGDLFTYCVTSIQLALA---YPSSNG  196
+
+
+> sp|D9SNZ5|CBIM_CLOC7 Cobalt transport protein CbiM OS=Clostridium 
+cellulovorans (strain ATCC 35296 / DSM 3052 / OCM 3 / 743B) 
+OX=573061 GN=cbiM PE=3 SV=1
+Length=260
+
+ Score = 92.8 bits (229),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 57/163 (35%), Positives = 85/163 (52%), Gaps = 2/163 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNK--SFDKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYLSP+ C + G  ++P L   +  V K  S D++     A+  AF F +    +
+Sbjct  35   MHIMEGYLSPKWCIIWGILVLPFLIKGSLNVKKVVSDDQRIKLLFAMAGAFIFILSALKL  94
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   GT++H  G  L     GP   ++   + L  QALL   GGI  LGANSF MA + P
+Sbjct  95   PSFTGTSSHPTGIGLSTILFGPAITTVLGVIVLLFQALLLAHGGISTLGANSFAMAVMGP  154
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQ  161
+             + YG+Y+++  +K+ + ++      VG       TAI+LG+ 
+Sbjct  155  LMAYGVYKILQKIKIPQNINIFFSATVGDLFTYCITAIQLGID  197
+
+
+> sp|D9QVP6|CBIM_ACEAZ Cobalt transport protein CbiM OS=Acetohalobium 
+arabaticum (strain ATCC 49924 / DSM 5501 / Z-7288) OX=574087 
+GN=cbiM PE=3 SV=1
+Length=251
+
+ Score = 92.8 bits (229),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 59/162 (36%), Positives = 82/162 (51%), Gaps = 5/162 (3%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPA----MAIGSAFAFTIMMF  56
+            MHI EG+L  +   +   AM+P L +  KKV KS  +K+ P     +A+  AF F +   
+Sbjct  28   MHIAEGFLPVKWAGIWWIAMLPFLALGIKKV-KSITQKEGPGIKMLLALAGAFVFVLSSL  86
+
+Query  57   NVPIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFI  116
+             +P   G+ +H  G  L A   GPW   +   + L  QA+L   GG+  LGAN F+MA +
+Sbjct  87   KLPSLTGSCSHPTGVGLGAILFGPWPMVVLGCIVLIFQAVLLAHGGLTTLGANVFSMAIV  146
+
+Query  117  APFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIEL  158
+             PFV YG YRL+  L     LS   G  +G     + TA +L
+Sbjct  147  GPFVAYGAYRLLKKLNAPNWLSVFTGSALGNLLTYITTATQL  188
+
+
+> sp|A3CL70|CBIM_STRSV Cobalt transport protein CbiM OS=Streptococcus 
+sanguinis (strain SK36) OX=388919 GN=cbiM PE=3 SV=2
+Length=244
+
+ Score = 90.9 bits (224),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 73/226 (32%), Positives = 106/226 (47%), Gaps = 21/226 (9%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNK--SFDKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C    A  +P   V   ++ K  + D      +A+  AF F +    +
+Sbjct  29   MHIMEGYLPLFWCIFWFAVFLPFFVVGLMRIKKIVAEDPNSKTMLALSGAFIFILSSLKI  88
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L     GP   S+  T+ L  QALL   GG+  LGAN+F+MA + P
+Sbjct  89   PSVTGSSSHPTGVGLGTAMFGPSVISVLGTICLLFQALLLAHGGLTTLGANAFSMAVVGP  148
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTAN----GTPLY  174
+            FVGY +Y+   S+KL+  +S  I   +   A    T+I+LG   L+F  AN    G+ L 
+Sbjct  149  FVGYFVYKFAKSIKLSTPVSIFICAVIADLATYATTSIQLG---LVFPDANSGFVGSALK  205
+
+Query  175  FPYGLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+            F           M   LT   I  A++ GL+   L  +  EN+  +
+Sbjct  206  F-----------MGVFLTTQ-IPIAIVEGLLTVVLYNLISENVKER  239
+
+
+> sp|B3EC54|CBIM_CHLL2 Cobalt transport protein CbiM OS=Chlorobium 
+limicola (strain DSM 245 / NBRC 103803 / 6330) OX=290315 
+GN=cbiM PE=3 SV=1
+Length=254
+
+ Score = 87.4 bits (215),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 58/164 (35%), Positives = 81/164 (49%), Gaps = 6/164 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAM----AIGSAFAFTIMMF  56
+            MHI EG+L P          +P L V  + + K  D    P M    A+  AFAF +   
+Sbjct  32   MHIMEGFLPPSWSLFWWVLTLPFLVVGFRSLRKIVDAN--PRMKLLLAMAGAFAFVLSSL  89
+
+Query  57   NVPIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFI  116
+             +P   G+ +H  G  L A   GP   S+   + L  QALL   GG+  LGAN+F+MA  
+Sbjct  90   KIPSVTGSCSHPTGVGLGAVLFGPSVMSVLGVIVLLFQALLLAHGGLTTLGANAFSMAIA  149
+
+Query  117  APFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+             PFV YGIYRLM+  K  + L+  +   +G     + T+++L L
+Sbjct  150  GPFVSYGIYRLMVMSKAPEWLAVFLAAAIGDLMTYVVTSLQLAL  193
+
+
+> sp|B8I0P7|CBIM_CLOCE Cobalt transport protein CbiM OS=Clostridium 
+cellulolyticum (strain ATCC 35319 / DSM 5812 / JCM 6584 
+/ H10) OX=394503 GN=cbiM PE=3 SV=1
+Length=248
+
+ Score = 85.5 bits (210),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 47/129 (36%), Positives = 69/129 (53%), Gaps = 2/129 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFD--KKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL+P  C   G   +P L +    + K  +   K++  +A+  AFAF +    +
+Sbjct  30   MHIMEGYLAPGWCISWGVMCMPFLVIGFFSIKKKIEVSSKNLTLLAMCGAFAFVLSALKM  89
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A S+   + L  QA+L   GGI  LGAN F+MA + P
+Sbjct  90   PSVTGSCSHPTGVGLGAVLFGPTAMSVIGAIILLFQAILLAHGGITTLGANVFSMAIVGP  149
+
+Query  119  FVGYGIYRL  127
+             V +G+++L
+Sbjct  150  LVSFGVFKL  158
+
+
+> sp|Q46AL8|CBIM2_METBF Putative cobalt transport protein CbiM 
+2 OS=Methanosarcina barkeri (strain Fusaro / DSM 804) OX=269797 
+GN=cbiM2 PE=3 SV=1
+Length=235
+
+ Score = 85.1 bits (209),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 54/162 (33%), Positives = 79/162 (49%), Gaps = 2/162 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C V     +PV+     K+NK   ++   +P +A+  AF F +    +
+Sbjct  1    MHIMEGYLPAIWCIVWFVVSIPVVAYGVYKLNKLVKEERGILPVLAVAGAFIFVLSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  + A   GP   ++  T+ L  QAL    GG+  LGAN F+M  + P
+Sbjct  61   PSVTGSCSHPTGTGIGAIIFGPAITAVLSTIVLIYQALFLAHGGLTTLGANVFSMGIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+             V Y IY+  +  KLN  L   +   +G  A  + T+ EL L
+Sbjct  121  IVAYLIYKTGMKAKLNFYLIVFLAATLGDWATYIVTSTELAL  162
+
+
+> sp|D3UMA1|CBIM_LISSS Cobalt transport protein CbiM OS=Listeria 
+seeligeri serovar 1/2b (strain ATCC 35967 / DSM 20751 / CIP 
+100100 / SLCC 3954) OX=683837 GN=cbiM PE=3 SV=1
+Length=244
+
+ Score = 83.2 bits (204),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 51/162 (31%), Positives = 79/162 (49%), Gaps = 2/162 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNK--SFDKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  +         +P L +   ++ K  + DK +   +A+ +AF F +    +
+Sbjct  29   MHIMEGFLPVKWAVFWLIVFIPFLVLGLIRIRKLIAIDKNNKLLLALCAAFIFVLSALKI  88
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L     GP   S+   + L  QALL   GGI  LGAN+ +MA I P
+Sbjct  89   PSVTGSCSHPTGVGLATVMFGPLVVSVLGVIVLLFQALLLAHGGITTLGANAMSMAVIGP  148
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+             VG+ +Y+L   L  NK +S  +       A    T+++LG+
+Sbjct  149  MVGFVVYKLARKLNCNKSVSIFLCAMTADLATYFTTSVQLGV  190
+
+
+> sp|A2SSE8|CBIM2_METLZ Putative cobalt transport protein CbiM 
+2 OS=Methanocorpusculum labreanum (strain ATCC 43576 / DSM 4855 
+/ Z) OX=410358 GN=cbiM2 PE=3 SV=1
+Length=231
+
+ Score = 82.4 bits (202),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 75/226 (33%), Positives = 102/226 (45%), Gaps = 18/226 (8%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C        P +     K+ K    D++ +P MA+  AF F +    +
+Sbjct  1    MHIMEGYLPIGWCIFWAVLSAPFVIYGIWKMTKMIQEDRRVLPLMAVCGAFVFVLSALKI  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+  S+  T+ L  QALL   GG+  LGAN F+MA   P
+Sbjct  61   PSVTGSCSHPTGTGLSAAFFGPFITSVLGTIVLLFQALLLAHGGLTTLGANVFSMAIAGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAA--LATAIELGLQPLLFHTANGTPLYFP  176
+            F+ + ++     + L K     IG  V I AA   L T     LQ  L     G+     
+Sbjct  121  FIAWLVF-----VGLRKTGKVGIGVAVFITAAVANLVTYTVTSLQLALVFPVEGSI----  171
+
+Query  177  YGLNVAIP-AMMFAHLTVA-GIVEAVITGLVVYYLQKVDEENILHK  220
+              LN  I  A +FA   +   I+E +I  LV  Y+ +V  E IL K
+Sbjct  172  --LNAFIAFAGIFAVTQIPLAIIEGIICALVAKYIVRVKPE-ILKK  214
+
+
+> sp|O54190|CBIM_STRCO Cobalt transport protein CbiM OS=Streptomyces 
+coelicolor (strain ATCC BAA-471 / A3(2) / M145) OX=100226 
+GN=cbiM PE=3 SV=2
+Length=232
+
+ Score = 82.0 bits (201),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 48/162 (30%), Positives = 82/162 (51%), Gaps = 2/162 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHI EG+L P      G A  P +    + + +   +     + +G++ AFT ++  + +
+Sbjct  1    MHIAEGFLPPAHAIAWGVASAPFVVHGVRSLTREVREHPESTLLLGASGAFTFVLSALKL  60
+
+Query  61   PG--GTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A    P   ++  T+ L  QALL   GG+  LGAN F+MA + P
+Sbjct  61   PSVTGSCSHPTGTGLGAILFRPPIMAVLGTITLLFQALLLAHGGLTTLGANVFSMAIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+            + GYG+YRL+    +  +++   G +V   +    T+++L L
+Sbjct  121  WAGYGVYRLLRRWDVPLMVTVFFGAFVADLSTYCVTSVQLAL  162
+
+
+> sp|D1AFI6|CBIM_SEBTE Cobalt transport protein CbiM OS=Sebaldella 
+termitidis (strain ATCC 33386 / NCTC 11300) OX=526218 GN=cbiM 
+PE=3 SV=1
+Length=236
+
+ Score = 79.7 bits (195),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 68/219 (31%), Positives = 108/219 (49%), Gaps = 19/219 (9%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL  +          P       K+ K    + ++   +A+  AF F +    +
+Sbjct  24   MHIMEGYLPVKWAVFWFILCAPFWIYGLVKLQKEAKGNVEEKLTLALAGAFIFVLSALKI  83
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A   GP+  SI  T+AL  QA+L   GG+  LGAN+F+MA   P
+Sbjct  84   PSVTGSSSHPTGVGLSAILFGPFITSILGTIALIFQAVLLAHGGLTTLGANAFSMAVAGP  143
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL-QPLLFHTANG--TPLYF  175
+             V YGIYRL+   K NK L+  +   +G  +  + T+ +L L  P    +A+G  T  + 
+Sbjct  144  LVSYGIYRLL--KKKNKSLAVFLAASLGNLSTYVITSFQLALANP----SADGGITASFV  197
+
+Query  176  PYGLNVAIPAMMFAHLTVA-GIVEAVITGLVVYYLQKVD  213
+             +       AM+FA   +   ++E ++T +V+  L+K +
+Sbjct  198  KF-------AMIFAVTQIPLAVIEGLLTNVVMNLLEKYN  229
+
+
+> sp|D5WSC8|CBIM_KYRT2 Cobalt transport protein CbiM OS=Kyrpidia 
+tusciae (strain DSM 2912 / NBRC 15312 / T2) OX=562970 GN=cbiM 
+PE=3 SV=1
+Length=247
+
+ Score = 80.1 bits (196),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 51/162 (31%), Positives = 82/162 (51%), Gaps = 2/162 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C    A  +P L +  + + K    + +    +A+ +AFAF +    +
+Sbjct  22   MHIMEGYLPLGWCLFWAALCLPALILGTRSLQKQVGDNLRMKLVLALSAAFAFVLSALKL  81
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A   GP A S+   + L  QALL   GGI  LGAN+F+MA + P
+Sbjct  82   PSVTGSSSHPTGVGLGAVLFGPMAMSVVGCIILLFQALLLAHGGITTLGANTFSMAVVGP  141
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+             V Y ++R+       + ++  +   +G  +  L T+++L L
+Sbjct  142  TVSYVVFRIFQKSGFGRGVAVFLAAALGDLSTYLTTSLQLAL  183
+
+
+> sp|B8GJG9|CBIM1_METPE Putative cobalt transport protein CbiM 
+1 OS=Methanosphaerula palustris (strain ATCC BAA-1556 / DSM 
+19958 / E1-9c) OX=521011 GN=cbiM1 PE=3 SV=1
+Length=231
+
+ Score = 77.4 bits (189),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 60/222 (27%), Positives = 102/222 (46%), Gaps = 11/222 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNK--SFDKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  Q C    A   P +     ++N+    ++  +P +A+  AF F +    +
+Sbjct  1    MHIMEGFLPLQWCLFWFAVSAPFIAYGIYQLNRLVKENRSTLPLLAVCGAFIFVLSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+  S+   + L  QAL    GG+  LGAN F+M    P
+Sbjct  61   PSVTGSCSHPTGTGLGAIMFGPFITSVLSIIVLVYQALFLAHGGLTTLGANVFSMGICGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             +GY +Y+   ++ LN +++  +   +      + T+I+L L    F  A G      Y 
+Sbjct  121  LLGYWVYQGGKAINLNSIVNVFLASALADIFTYVITSIQLSLA---FPAAAGG-----YM  172
+
+Query  179  LNVAIPAMMFAHLTVA-GIVEAVITGLVVYYLQKVDEENILH  219
+             +    A +FA   V   I+E +   L   Y+ ++  + ++H
+Sbjct  173  TSFITFAGIFAVTQVPLAIIEGIFLTLTFKYINQIRPDILIH  214
+
+
+> sp|Q2RJ53|CBIM_MOOTA Cobalt transport protein CbiM OS=Moorella 
+thermoacetica (strain ATCC 39073 / JCM 9320) OX=264732 GN=cbiM 
+PE=3 SV=1
+Length=259
+
+ Score = 77.4 bits (189),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 53/162 (33%), Positives = 82/162 (51%), Gaps = 2/162 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHI EG+L     A     ++P      + +  +        M +G A A+T ++  + +
+Sbjct  26   MHIAEGFLPFNWAAFWFIVVLPFWIWGLRSIRHTVKSNPGLKMLLGLAGAYTFVLSALKL  85
+
+Query  61   PG--GTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A SI   + L  QALL   GG+  LGAN+F+MA + P
+Sbjct  86   PSVTGSCSHPTGIGLGAVLFGPAAMSILGGIVLLFQALLLAHGGLSTLGANTFSMAVVGP  145
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+            FV YG+YRL+  LK +  L+  +   +G     + T+++L L
+Sbjct  146  FVAYGLYRLVRKLKGSMPLAVFLAATLGDLMTYVTTSLQLAL  187
+
+
+> sp|Q18J48|CBIM_HALWD Putative cobalt transport protein CbiM OS=Haloquadratum 
+walsbyi (strain DSM 16790 / HBSQ001) OX=362976 
+GN=cbiM PE=3 SV=1
+Length=220
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 66/222 (30%), Positives = 101/222 (45%), Gaps = 14/222 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P+  A    A  P++   AK+       D +    +AIG AF F +     
+Sbjct  1    MHIMEGFLPPRWAAAWTLAAAPIVVYGAKQTIDIIRQDARVKALVAIGIAFVFILSALKF  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  LL    GP   + + T+ L  QALL   GGI  LGAN   M  I P
+Sbjct  61   PSVTGSTSHPTGTGLLVVLFGPAVTAFTATIVLLYQALLLAHGGITTLGANVVAMGIIGP  120
+
+Query  119  FVGYGIYRLM---LSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYF  175
+             VG+  Y+++    SL+    +++ +  +       L T+++LG     F   +G     
+Sbjct  121  TVGWTAYQIIRPYTSLERATFIAAVLTDW----TTYLVTSLQLGAA---FPAGDGLDAII  173
+
+Query  176  PYGLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI  217
+               L+ A  A+        GI+E ++   V+ YL ++  E I
+Sbjct  174  ISALDFA--AIFTLTQVPIGILEGILAAAVIGYLTRLGSETI  213
+
+
+> sp|D7DR00|CBIM_METV3 Putative cobalt transport protein CbiM OS=Methanococcus 
+voltae (strain ATCC BAA-1334 / A3) OX=456320 
+GN=cbiM PE=3 SV=1
+Length=222
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 71/232 (31%), Positives = 103/232 (44%), Gaps = 13/232 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL  +   V       V+      +NK    + +  P +AI  AF F +    +
+Sbjct  1    MHIMEGYLPMEWAIVWYIISAIVVGYGILNLNKVLKNNPEAKPLLAISGAFMFVLSSLKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP   S+  T+ L  QAL+   GGI  LGAN F+M  + P
+Sbjct  61   PSVSGSCSHPTGNGLGAILFGPAITSVLATIVLLFQALVLAHGGISTLGANIFSMGIMGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FVGY +++  L  KLN      +       A  L T+I+L L    F   +    +  +G
+Sbjct  121  FVGYLVFK-ALRGKLNITWVVMLTAIFADWATYLTTSIQLALA---FPVPDFMSSFTEFG  176
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRGDNR  230
+               AI  +  A      I E +IT L+  YL ++  E +  K +   +G N 
+Sbjct  177  TIFAITQIPLA------IAEGLITALLWDYLSELRPE-LFEKITNIKKGGNN  221
+
+
+> sp|Q2NHA4|CBIM_METST Putative cobalt transport protein CbiM OS=Methanosphaera 
+stadtmanae (strain ATCC 43021 / DSM 3091 / 
+JCM 11832 / MCB-3) OX=339860 GN=cbiM PE=3 SV=1
+Length=224
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 47/162 (29%), Positives = 74/162 (46%), Gaps = 2/162 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P  C +     +P +     ++ K   + D  +P +A+  AF F +    +
+Sbjct  1    MHIMEGFLPPLWCLIYYIICIPFIVYGIMQIRKVTAESDEAMPMLALSGAFMFILSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G    A   GP    +   + L  QA++   GGI  LGAN  +M  I P
+Sbjct  61   PSVTGSCSHPCGNGFGAVFFGPAVVGVLSVIVLVFQAVILAHGGITTLGANVLSMGIIGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+              GY ++  +  L +N  ++     +V      + TAIEL L
+Sbjct  121  LCGYAVWLGLRKLNVNDEIAMFFTAFVADLMTYVVTAIELSL  162
+
+
+> sp|A5VM74|CBIM_LACRD Cobalt transport protein CbiM OS=Lactobacillus 
+reuteri (strain DSM 20016) OX=557436 GN=cbiM PE=3 SV=1
+Length=248
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 52/174 (30%), Positives = 82/174 (47%), Gaps = 8/174 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVP----AMAIGSAFAFTIMMF  56
+            MHI EG L P+ C    A  +P       ++ K  +   VP     +A+  AF F +   
+Sbjct  32   MHIMEGMLPPRWCIFWYAVSLPFFIYGLYRMYKIVNS-GVPNAKVMLALCGAFVFVLSSL  90
+
+Query  57   NVPIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFI  116
+             +P   G+ +H  G  L     GP   S+   + L  QALL   GGI  LGAN F+M  +
+Sbjct  91   KLPSVTGSCSHPTGVGLGTVLFGPGVMSVLGVIVLLFQALLLAHGGITTLGANEFSMTIV  150
+
+Query  117  APFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANG  170
+             P VGY +++L  ++K+++ +S  +       +  + TA +L    ++F   NG
+Sbjct  151  GPIVGYAVWKLCRAMKVSRSVSLFLCAMFADWSTYVTTAFQLA---IVFPDPNG  201
+
+
+> sp|C9YID6|CBIM_PEPDR Cobalt transport protein CbiM OS=Peptoclostridium 
+difficile (strain R20291) OX=645463 GN=cbiM PE=3 SV=1
+Length=250
+
+ Score = 76.3 bits (186),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 52/162 (32%), Positives = 75/162 (46%), Gaps = 2/162 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNK--SFDKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL  +     G   +P   V  K + K    D K    +A+  AF F +    +
+Sbjct  26   MHIMEGYLPVKWSIAWGVIFIPFFLVGLKSIGKIVKQDPKKKVLLALCGAFVFVLSALKI  85
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP    +  T+ L  QALL   GGI  LGAN+F+MA I P
+Sbjct  86   PSVTGSCSHPTGVGLGAIMFGPSVMFVLGTIVLIFQALLLAHGGITTLGANAFSMAIIGP  145
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+             + + I++ +     N  +   +   +G  A    T+I+L L
+Sbjct  146  IISFLIFKALKKKDGNNAMPVFLAAAIGDLATYTVTSIQLAL  187
+
+
+> sp|Q46D59|CBIM1_METBF Putative cobalt transport protein CbiM 
+1 OS=Methanosarcina barkeri (strain Fusaro / DSM 804) OX=269797 
+GN=cbiM1 PE=3 SV=1
+Length=231
+
+ Score = 75.1 bits (183),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 48/162 (30%), Positives = 75/162 (46%), Gaps = 2/162 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L      +     +PV      ++NK   +K   +P +A+  A  F +    +
+Sbjct  1    MHIFEGFLPGPWWQIWWILSIPVFAYGIFRLNKLVKEKPEVLPLIAVSGAVIFVLSSLKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  +     GP   S+   + L  QAL    GGI   GAN  +M  I P
+Sbjct  61   PSVTGSTSHPTGTGMAVILFGPAITSVLSAIVLLYQALFLAHGGITTFGANLMSMGIIGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+            FV Y IY+ M+ L +N  +S+ +   +      + T+ +L L
+Sbjct  121  FVAYAIYKTMMRLNVNFYVSAFVTATLADWVTYVVTSTQLAL  162
+
+
+> sp|Q897L1|CBIM_CLOTE Cobalt transport protein CbiM OS=Clostridium 
+tetani (strain Massachusetts / E88) OX=212717 GN=cbiM PE=3 
+SV=1
+Length=241
+
+ Score = 75.1 bits (183),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 43/128 (34%), Positives = 67/128 (52%), Gaps = 2/128 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKV-NKSFDKKDVPAM-AIGSAFAFTIMMFNV  58
+            MHI EG+L P    V      P + +  K++  ++ D KD+  +  + +A+AF +    +
+Sbjct  24   MHIAEGFLPPMWSGVYFVISAPFIIIGLKQIRERAKDNKDIKMLLGLVAAYAFILSAMKI  83
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+ ++I   + L  QA+L   GGI  LGAN+ +M  + P
+Sbjct  84   PSVTGSCSHPTGTGLSAIIFGPFISAIVGLIVLIFQAILLAHGGITTLGANTLSMGIMGP  143
+
+Query  119  FVGYGIYR  126
+             V Y IYR
+Sbjct  144  IVSYLIYR  151
+
+
+> sp|D5AUZ9|CBIM_RHOCB Cobalt transport protein CbiM OS=Rhodobacter 
+capsulatus (strain ATCC BAA-309 / NBRC 16581 / SB1003) 
+OX=272942 GN=cbiM PE=1 SV=1
+Length=222
+
+ Score = 74.7 bits (182),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 52/163 (32%), Positives = 84/163 (52%), Gaps = 4/163 (2%)
+
+Query  1    MHIPEGYLSPQTCAV-MGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGS--AFAFTIMMFN  57
+            MHI EGYL P T A+    A  P +   A K+ K   ++    M + +  AFAF +    
+Sbjct  1    MHIMEGYL-PVTHAIGWSLAAGPFVVAGAVKIRKIVAERPEARMTLAASGAFAFVLSALK  59
+
+Query  58   VPIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIA  117
+            +P   G+ +H  G  L A   GP   ++   + L  QALL   GG+  LGAN+F+MA + 
+Sbjct  60   IPSVTGSCSHPTGTGLGAVVFGPSVMAVLGVIVLLFQALLLAHGGLTTLGANAFSMAIVG  119
+
+Query  118  PFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+            P+V +G+Y+L      +  ++  +  ++G  A  + T+++L L
+Sbjct  120  PWVAWGVYKLAGKAGASMAVAVFLAAFLGDLATYVTTSLQLAL  162
+
+
+> sp|D7GIS1|CBIM_PROFC Cobalt transport protein CbiM OS=Propionibacterium 
+freudenreichii subsp. shermanii (strain ATCC 9614 
+/ DSM 4902 / CIP 103027 / NCIMB 8099 / CIRM-BIA1) OX=754252 
+GN=cbiM PE=3 SV=1
+Length=235
+
+ Score = 74.7 bits (182),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 46/129 (36%), Positives = 67/129 (52%), Gaps = 2/129 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHI EG L P  CA+  AA  P +   A +V K         + + +A A T ++ ++ +
+Sbjct  1    MHIAEGVLPPVQCAIWFAAAAPFVVHGAVQVVKQIKHHPENRLLLATAGACTFLLSSIKL  60
+
+Query  61   PG--GTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  + A    P   +    + L  QALL   GGI  LGAN+F+MA + P
+Sbjct  61   PSVTGSSSHPTGTGVGAVLFKPPVMAFMGLIVLIFQALLLAHGGITTLGANTFSMAIVGP  120
+
+Query  119  FVGYGIYRL  127
+            +VGYG Y L
+Sbjct  121  WVGYGAYVL  129
+
+
+> sp|A2SQF0|CBIM1_METLZ Putative cobalt transport protein CbiM 
+1 OS=Methanocorpusculum labreanum (strain ATCC 43576 / DSM 4855 
+/ Z) OX=410358 GN=cbiM1 PE=3 SV=2
+Length=231
+
+ Score = 73.6 bits (179),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 41/128 (32%), Positives = 63/128 (49%), Gaps = 2/128 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MH  +G+L    C        P L     K+ K    D+  +P MA+  AF F + + ++
+Sbjct  1    MHFMDGFLPIGWCVFWAVLAAPFLIYGMWKITKMINNDRHVLPLMAVCGAFIFVVSLVDI  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P P G+ +H  G  L A+  GP   S+   + L  QALL G GG   LGA +F+MA + P
+Sbjct  61   PSPTGSCSHPTGTGLSASFFGPAVTSVLGLIILVFQALLLGHGGFTTLGATAFSMAVMGP  120
+
+Query  119  FVGYGIYR  126
+               + +++
+Sbjct  121  LAAWLVFK  128
+
+
+> sp|Q748J7|CBIM_GEOSL Cobalt transport protein CbiM OS=Geobacter 
+sulfurreducens (strain ATCC 51573 / DSM 12127 / PCA) OX=243231 
+GN=cbiM PE=3 SV=1
+Length=346
+
+ Score = 74.7 bits (182),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 63/224 (28%), Positives = 107/224 (48%), Gaps = 14/224 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV---PAMAIGSAFAFTIMMFN  57
+            MHI EG L     A+  A   P L +  ++VN+   + D+   P + + +A  F I    
+Sbjct  26   MHISEGILPLGWAALWFAVAAPFLALGIRRVNE-LSRHDLSFKPLVGLMAAVVFIISCMP  84
+
+Query  58   VPIP-GGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFI  116
+            +P+P  GT +H  G  + A  +GP  + +  T+AL IQAL    GG+  LGA+  +M   
+Sbjct  85   IPVPTAGTCSHPCGTGIAAILVGPLVSVVITTVALLIQALFLAHGGLSTLGADVVSMGVA  144
+
+Query  117  APFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFP  176
+              F G+ ++R M  L     +++ + G +   A  L TA+EL           G+  ++P
+Sbjct  145  GSFAGWFVFRGMRRLGAGLAVAAFVAGLLADWATYLTTALELS------SGVRGSEPFYP  198
+
+Query  177  YGLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+              L + + A +   L + G++E  +T  +V  L +    ++L K
+Sbjct  199  LFLKI-VAAFVPTQLPL-GVLEGAMTAGMVVLLHR-KRPDLLAK  239
+
+
+> sp|B7GLU2|CBIM_ANOFW Cobalt transport protein CbiM OS=Anoxybacillus 
+flavithermus (strain DSM 21510 / WK1) OX=491915 GN=cbiM 
+PE=3 SV=1
+Length=250
+
+ Score = 73.2 bits (178),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 49/162 (30%), Positives = 81/162 (50%), Gaps = 2/162 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKK-DVPAM-AIGSAFAFTIMMFNV  58
+            MHI EG+L  Q   V     +P   V  + V +   ++ +V  + A+ +AF F +    +
+Sbjct  28   MHIMEGFLPWQWALVWWLLFLPFFLVGMRNVARLMRQRPEVKLLLALATAFTFVLSALKI  87
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A   GP+  ++  T  L  QALL   GG+  LGAN+F+MA + P
+Sbjct  88   PSVTGSSSHPTGTGLGALLFGPFVMTVIGTAVLLFQALLLAHGGVTTLGANAFSMAVVGP  147
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+             V Y ++ L     ++  +S  +   +   A  + T+I+L L
+Sbjct  148  LVAYVLFSLCKKFGVSTRVSVFLAAMMADLATYVMTSIQLAL  189
+
+
+> sp|E3PSD4|CBIM_ACESD Cobalt transport protein CbiM OS=Acetoanaerobium 
+sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 
+/ NCIMB 10654) OX=499177 GN=cbiM PE=3 SV=1
+Length=241
+
+ Score = 73.2 bits (178),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 44/128 (34%), Positives = 63/128 (49%), Gaps = 2/128 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIG--SAFAFTIMMFNV  58
+            MHI EG+L P   A+     +P +     K+ K  D+     + +G   AF F +    +
+Sbjct  25   MHIMEGFLPPLWAAIWSVISLPFIVGGFSKIKKITDESPNMKLLLGLVGAFVFVLSALKL  84
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  L     GP   ++   + L  QALL   GGI  LGAN F+MA + P
+Sbjct  85   PSVTGSTSHPTGVGLGTIIFGPLPMAVIGLIVLIFQALLLAHGGITTLGANVFSMAIVGP  144
+
+Query  119  FVGYGIYR  126
+            F GY I++
+Sbjct  145  FAGYFIFK  152
+
+
+> sp|A5UQS9|CBIM_ROSS1 Cobalt transport protein CbiM OS=Roseiflexus 
+sp. (strain RS-1) OX=357808 GN=cbiM PE=3 SV=1
+Length=249
+
+ Score = 73.2 bits (178),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 41/128 (32%), Positives = 67/128 (52%), Gaps = 2/128 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIG--SAFAFTIMMFNV  58
+            MHI EG+L P         ++P   +  +++N+    K    + +G  +AFAF +    +
+Sbjct  28   MHIMEGFLPPVWAGFWFIVVLPFWVLGLRRINRLIAGKPETRLLLGFAAAFAFVLSALKI  87
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L     GP   S+  ++ L  QALL   GG+  LGAN+F+MA + P
+Sbjct  88   PSVTGSSSHPTGTGLGTILFGPLVMSVLGSIVLLFQALLIAHGGLTTLGANAFSMAVVGP  147
+
+Query  119  FVGYGIYR  126
+            FV + I++
+Sbjct  148  FVAWLIWK  155
+
+
+> sp|O29530|CBIM_ARCFU Putative cobalt transport protein CbiM OS=Archaeoglobus 
+fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 
+/ JCM 9628 / NBRC 100126) OX=224325 GN=cbiM PE=3 SV=2
+Length=217
+
+ Score = 72.4 bits (176),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 44/132 (33%), Positives = 67/132 (51%), Gaps = 6/132 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAM----AIGSAFAFTIMMF  56
+            MHI EGYL P+  A      +P L   A +V +  ++K  P+M    A+ + F F +   
+Sbjct  1    MHIMEGYLPPEWAAFWYVFAIPFLVYGALRVKRIIEEK--PSMKSLIAVSAGFIFVLSAL  58
+
+Query  57   NVPIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFI  116
+             +P   G+ +H  G  +     GP   ++   + L  QALL   GGI  LGAN+ +M  I
+Sbjct  59   KLPSVTGSCSHPTGTGIAVVFFGPAVTALLSAIVLLYQALLLAHGGITTLGANTASMGVI  118
+
+Query  117  APFVGYGIYRLM  128
+             PFVG+  ++L+
+Sbjct  119  GPFVGWIAFKLL  130
+
+
+> sp|A4J832|CBIM_DESRM Cobalt transport protein CbiM OS=Desulfotomaculum 
+reducens (strain MI-1) OX=349161 GN=cbiM PE=3 SV=1
+Length=250
+
+ Score = 72.4 bits (176),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 50/162 (31%), Positives = 76/162 (47%), Gaps = 4/162 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIG--SAFAFTIMMFNV  58
+            MHI EG+L    C    A  VP +    + ++ S        M +G   AF F +    +
+Sbjct  25   MHIAEGFLPAGWCLFWLALSVPFVFWGIRSIHISLRGNPHLKMLLGLAGAFVFVLSALKI  84
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP   S+   + L  QALL   GGI  LGAN F+M  + P
+Sbjct  85   PSVTGSCSHPTGVGLGAILFGPAVMSVLGCIVLLFQALLLAHGGITTLGANVFSMGVMGP  144
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+             V YG+Y+L+   K N  ++  +   +G     + T+++L +
+Sbjct  145  LVSYGVYQLL--KKRNTKVAVFLAASLGNMTTYMVTSLQLAM  184
+
+
+> sp|B8GEB7|CBIM2_METPE Putative cobalt transport protein CbiM 
+2 OS=Methanosphaerula palustris (strain ATCC BAA-1556 / DSM 
+19958 / E1-9c) OX=521011 GN=cbiM2 PE=3 SV=1
+Length=235
+
+ Score = 72.0 bits (175),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 65/240 (27%), Positives = 104/240 (43%), Gaps = 17/240 (7%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L    C V     +P L +   ++ +    D++ +P + +  AF F +    +
+Sbjct  1    MHIMEGFLPAGWCLVWWLIALPFLVMGIIQLRRMMKEDREYLPLLGVCGAFIFILSALKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L     G    ++   + L  QALL   GG+  +GAN  +MA   P
+Sbjct  61   PSVTGSCSHPTGTGLSTICFGYCVTAVVGAIVLLFQALLLAHGGLSTMGANMVSMAIGGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+              GY +Y+LM    +N  ++  +   V      + T+ EL L     + A        + 
+Sbjct  121  IAGYAVYKLMKDTSINIYVTVFLASAVADIVTYIITSFELALA----YPAQVGGFLASFS  176
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI--LHKFSY------RLRGDNR  230
+               +I A+    L+   I+E V+  LV  Y+ ++  E I  LH FS       RL GD  
+Sbjct  177  AFFSIFAITQIPLS---IMEGVVLALVFKYIIQLKPEIILKLHVFSEEQIAKARLAGDAE  233
+
+
+> sp|D9S0S1|CBIM_THEOJ Cobalt transport protein CbiM OS=Thermosediminibacter 
+oceani (strain ATCC BAA-1034 / DSM 16646 / JW/IW-1228P) 
+OX=555079 GN=cbiM PE=3 SV=1
+Length=244
+
+ Score = 71.6 bits (174),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 49/162 (30%), Positives = 81/162 (50%), Gaps = 2/162 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIG--SAFAFTIMMFNV  58
+            MH+ EG+L  + C +  +  +P L      + K+  ++    + +G   AF F +    +
+Sbjct  21   MHVMEGFLPFKWCLLWYSIYIPFLMAGLIYIKKNIAEEPSKKILLGFAGAFVFALSALKL  80
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A  LGP   ++   + L  QALL   GGI  LGAN+F+MA    
+Sbjct  81   PSVAGSSSHPTGIGLGAILLGPLPMAVIGGIVLLFQALLLAHGGITTLGANAFSMAVAGS  140
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+            F  YG+Y++   + L+K  S  +G   G     + T+++L L
+Sbjct  141  FAAYGLYKVAGRVGLSKSASVFLGAASGDLMTYIITSLQLAL  182
+
+
+> sp|A6LKX5|CBIM_THEM4 Cobalt transport protein CbiM OS=Thermosipho 
+melanesiensis (strain DSM 12029 / CIP 104789 / BI429) OX=391009 
+GN=cbiM PE=3 SV=1
+Length=235
+
+ Score = 71.2 bits (173),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 47/162 (29%), Positives = 78/162 (48%), Gaps = 4/162 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAM--AIGSAFAFTIMMFNV  58
+            MHI EG+L P    +     +P   +    + K+  +K    M  A   AF F +    +
+Sbjct  21   MHIMEGFLPPTHALIWYILSLPFFVIGLFTIRKTIKEKPNLKMLLAFVGAFTFVLSAMKI  80
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+  ++  T+ L  QALL   GG+  LGAN+F+MA +  
+Sbjct  81   PSVTGSCSHPTGIGLGAIIFGPFTMTVIGTIVLLFQALLLAHGGLTTLGANTFSMAIVGS  140
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+             V Y IY+ +   K N+ ++  +  ++G     + T+ +L +
+Sbjct  141  LVSYFIYKSL--YKKNRNIAVFLAAFLGDLFTYVTTSFQLAV  180
+
+
+> sp|A1ANC7|CBIM1_PELPD Cobalt transport protein CbiM 1 OS=Pelobacter 
+propionicus (strain DSM 2379 / NBRC 103807 / OttBd1) 
+OX=338966 GN=cbim1 PE=3 SV=1
+Length=226
+
+ Score = 70.5 bits (171),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 45/129 (35%), Positives = 64/129 (50%), Gaps = 2/129 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHI EG+L  +       A  PV+      +NK  +K     M +G A AFT ++  + +
+Sbjct  1    MHIMEGFLPVEHAIGWSVASAPVVAYGLYSINKKINKNPEQRMLLGVAAAFTFVLSALKM  60
+
+Query  61   PG--GTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A +    + L  QALL   GG+  LGAN F+MA + P
+Sbjct  61   PSVTGSCSHPTGTGLGAILFGPSAVAPIGAVVLLFQALLLAHGGLTTLGANIFSMAIVGP  120
+
+Query  119  FVGYGIYRL  127
+            F    ++RL
+Sbjct  121  FAAAAVFRL  129
+
+
+> sp|A1ANE2|CBIM2_PELPD Cobalt transport protein CbiM 2 OS=Pelobacter 
+propionicus (strain DSM 2379 / NBRC 103807 / OttBd1) 
+OX=338966 GN=cbiM2 PE=3 SV=1
+Length=226
+
+ Score = 69.7 bits (169),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 45/129 (35%), Positives = 63/129 (49%), Gaps = 2/129 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHI EG+L  +       A  PV+      +NK   K     M +G A AFT ++  + +
+Sbjct  1    MHIMEGFLPVEHAIGWSVASAPVVAYGLYSINKKIKKNPEQRMLLGVAAAFTFVLSALKM  60
+
+Query  61   PG--GTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A +    + L  QALL   GG+  LGAN F+MA + P
+Sbjct  61   PSVTGSCSHPTGTGLGAILFGPSAVAPIGAVVLLFQALLLAHGGLTTLGANIFSMAIVGP  120
+
+Query  119  FVGYGIYRL  127
+            F    ++RL
+Sbjct  121  FAAAAVFRL  129
+
+
+> sp|Q58491|CBIM_METJA Putative cobalt transport protein CbiM OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=cbiM PE=3 
+SV=1
+Length=233
+
+ Score = 68.2 bits (165),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 60/222 (27%), Positives = 96/222 (43%), Gaps = 13/222 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EGYL P  CAV       V+     K+ K  ++     P +AI  A+ F +    +
+Sbjct  1    MHIMEGYLPPMWCAVWWVLSGIVIAYGIVKLKKLLEESPEMKPLVAISGAYMFILSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   G    ++   + L  QAL    GG+  LGAN F+M  + P
+Sbjct  61   PSVTGSCSHPCGNGLGAVLFGVPITAVLAAIVLLFQALFLAHGGLTTLGANDFSMGIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQ-PLLFHTANGTPLYFPY  177
+                 +YRL +   L+  +        G     + TA++L L  P+   TA  T     Y
+Sbjct  121  AAAVIVYRLCMKAGLSSTVGIFFAALFGDWLTYVTTAVQLALAFPIPSFTAAFTKFIVIY  180
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+                      +  + +A I E ++T ++  Y++K+  + +L 
+Sbjct  181  A---------YTQVPLA-IAEGILTVIIWDYIKKLRPDLLLK  212
+
+
+> sp|Q05594|CBIM_SALTY Cobalt transport protein CbiM OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=cbiM PE=1 SV=1
+Length=245
+
+ Score = 67.8 bits (164),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 45/162 (28%), Positives = 73/162 (45%), Gaps = 2/162 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNK--SFDKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P          +P L     ++ +    D      +A+  AF F +    +
+Sbjct  31   MHIMEGFLPPVWALAWWLLFLPCLWYGLVRLRRIVQEDNHQKVLLALCGAFIFVLSALKI  90
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L     GP   +I   + L  QALL   GG+  LGAN  +MA I P
+Sbjct  91   PSVTGSCSHPTGVGLAVILFGPGVVAILGAVVLLFQALLLAHGGLTTLGANGMSMAVIGP  150
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+             VGY ++++     L + ++  +   +   A    T+++LG+
+Sbjct  151  VVGYLVWKMACRAGLRRDVAVFLCAMLADLATYFVTSVQLGV  192
+
+
+> sp|Q3AE25|CBIM_CARHZ Cobalt transport protein CbiM OS=Carboxydothermus 
+hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / 
+Z-2901) OX=246194 GN=cbiM PE=3 SV=1
+Length=244
+
+ Score = 67.8 bits (164),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 46/164 (28%), Positives = 76/164 (46%), Gaps = 6/164 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPA----MAIGSAFAFTIMMF  56
+            MHI EG+L  +         +P + V   ++ +  +    P     +A   AF F +   
+Sbjct  28   MHIMEGFLPVKWVIFWDLVTLPFIMVGFIRLQR--EATQGPGAKLMLAFAGAFIFVLSAL  85
+
+Query  57   NVPIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFI  116
+             +P   G+ +H  G  L A   GP+  ++   + L  QALL   GG+  LGAN+F+MA  
+Sbjct  86   KMPSVTGSCSHPTGTGLAAILFGPFITTVLGFIVLIFQALLLAHGGLTTLGANTFSMAVA  145
+
+Query  117  APFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+             P V YG+Y+ +    +N   S  +   +G     + T+++L L
+Sbjct  146  GPLVAYGVYKGLQKAGINSNFSIFLAAMLGDLVTYIVTSVQLAL  189
+
+
+> sp|A9GQ89|CBIM_SORC5 Cobalt transport protein CbiM OS=Sorangium 
+cellulosum (strain So ce56) OX=448385 GN=cbiM PE=3 SV=2
+Length=225
+
+ Score = 66.2 bits (160),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 49/163 (30%), Positives = 73/163 (45%), Gaps = 3/163 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MH+ EG L    CA   A  +P + +A   + +  ++     P + + +A  F I    V
+Sbjct  1    MHLAEGVLPLGWCAFWNALALPFVAIALHLLRRRTEQDAFYKPFVGLIAAAVFAISCMPV  60
+
+Query  59   PIP-GGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIA  117
+            P+P  GT +H  G  L A  +GPW   +   +AL IQAL    GG+  LGA+  +M    
+Sbjct  61   PVPTAGTCSHPCGTGLAAVLIGPWMTVLVTVVALLIQALFLAHGGLTTLGADVASMGIAG  120
+
+Query  118  PFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+             F GY  + L      N  ++  + G     A    TA+ L L
+Sbjct  121  AFTGYFAFHLARRSGANLWVAGFLAGVTSDWATYATTALALAL  163
+
+
+> sp|B0R611|CBIM_HALS3 Putative cobalt transport protein CbiM OS=Halobacterium 
+salinarum (strain ATCC 29341 / DSM 671 / R1) 
+OX=478009 GN=cbiM PE=3 SV=1
+Length=220
+
+ Score = 64.7 bits (156),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 47/165 (28%), Positives = 78/165 (47%), Gaps = 9/165 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNK--SFDKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L      V     +PV++  A K  +    D+ +   +A+ +AF F +    +
+Sbjct  1    MHIMEGFLPGIWALVWFVVAIPVISYGALKTARLARNDELNKSHIAVAAAFIFVLSALKI  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  +     GP   +    + L  QALL G GG+  LGAN  +M  + P
+Sbjct  61   PSVTGSTSHPTGTGIAVVLFGPAVTAFLSAIVLLYQALLLGHGGLTTLGANVVSMGVVGP  120
+
+Query  119  FVGYGIYRLM---LSLKLNKVLSSAIGGYVGINAAALATAIELGL  160
+              G+ ++R +   L L+     ++ I  +       L T+I+LG+
+Sbjct  121  VAGWVVFRALNPYLDLQKATFAAAVIADW----TTYLVTSIQLGV  161
+
+
+> sp|Q8DG81|CBIM_THEEB Cobalt transport protein CbiM OS=Thermosynechococcus 
+elongatus (strain BP-1) OX=197221 GN=cbiM PE=3 
+SV=1
+Length=257
+
+ Score = 60.8 bits (146),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 41/133 (31%), Positives = 65/133 (49%), Gaps = 6/133 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDK--KDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L          A +P L      + +   +  + V  +A+  A+AF +    +
+Sbjct  34   MHISEGFLPLGWAVGWWLAFLPFLAWGLWSLQQQIKQHSESVLLVALAGAYAFVVSSLKI  93
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H IG  L A    P   ++  TL L  Q+LL   GG+  LGAN+F+MA + P
+Sbjct  94   PSVTGSCSHPIGIALGAILFRPPLMAVLGTLVLLFQSLLIAHGGLTTLGANAFSMAVVGP  153
+
+Query  119  FVGY----GIYRL  127
+            ++ +    G+ RL
+Sbjct  154  WLAWLTYCGVSRL  166
+
+
+> sp|Q8YQ91|CBIM_NOSS1 Cobalt transport protein CbiM OS=Nostoc 
+sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=cbiM 
+PE=3 SV=1
+Length=261
+
+ Score = 53.1 bits (126),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 44/133 (33%), Positives = 65/133 (49%), Gaps = 2/133 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNK--SFDKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL     A      +P + +  + + +    + +    +A+  AF F +    +
+Sbjct  34   MHIMEGYLPAGWAAFWWLVALPFMLLGVRSLTRITKANPELKLLLALAGAFTFVLSALKL  93
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L +   GP A S+  +L L  QALL   GG+  LGAN+F+MA   P
+Sbjct  94   PSVTGSCSHPTGTGLGSVLFGPLAMSVLGSLVLLFQALLLAHGGLTTLGANAFSMAIAGP  153
+
+Query  119  FVGYGIYRLMLSL  131
+            F  Y IY L + L
+Sbjct  154  FAAYWIYHLTIKL  166
+
+
+> sp|A2SSD6|CBIMQ_METLZ Putative fused cobalt transport protein 
+CbiMQ OS=Methanocorpusculum labreanum (strain ATCC 43576 / 
+DSM 4855 / Z) OX=410358 GN=cbiMQ PE=3 SV=1
+Length=599
+
+ Score = 52.0 bits (123),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 41/130 (32%), Positives = 62/130 (48%), Gaps = 5/130 (4%)
+
+Query  1    MHIPEGYL-SP--QTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFN  57
+            MHI EG+L SP  Q  A++    V     A  ++ K  + + +P + +  A  F +    
+Sbjct  1    MHIMEGFLPSPWWQFWALLAVVCVLAGMAALIRLVKR-NPESLPLLGLAGACVFILSSLK  59
+
+Query  58   VPIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIA  117
+            +P   G+++HA G    A   GP   S+  T+ L  QALL   GGI  LGAN  +M    
+Sbjct  60   LP-SVGSSSHATGTGFGAILFGPAVCSVFCTIVLVFQALLLAHGGITTLGANIISMGVAG  118
+
+Query  118  PFVGYGIYRL  127
+            P     I+++
+Sbjct  119  PLAACIIFKI  128
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.139    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15796207664
+Results from round 2
+
+
+Query= Q8R9C0|4m58A
+
+Length=230
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|D7DR00|CBIM_METV3 Putative cobalt transport protein CbiM OS=...  230     4e-74
+  sp|B8GJG9|CBIM1_METPE Putative cobalt transport protein CbiM 1 ...  230     1e-73
+  sp|Q46AL8|CBIM2_METBF Putative cobalt transport protein CbiM 2 ...  222     7e-71
+  sp|B8GEB7|CBIM2_METPE Putative cobalt transport protein CbiM 2 ...  222     1e-70
+  sp|Q58491|CBIM_METJA Putative cobalt transport protein CbiM OS=...  221     2e-70
+  sp|A5VM74|CBIM_LACRD Cobalt transport protein CbiM OS=Lactobaci...  217     1e-68
+  sp|Q2NHA4|CBIM_METST Putative cobalt transport protein CbiM OS=...  215     3e-68
+  sp|O54190|CBIM_STRCO Cobalt transport protein CbiM OS=Streptomy...  215     4e-68
+  sp|C9YID6|CBIM_PEPDR Cobalt transport protein CbiM OS=Peptoclos...  215     7e-68
+  sp|A2SSE8|CBIM2_METLZ Putative cobalt transport protein CbiM 2 ...  214     1e-67
+  sp|A4J832|CBIM_DESRM Cobalt transport protein CbiM OS=Desulfoto...  214     2e-67
+  sp|D1AFI6|CBIM_SEBTE Cobalt transport protein CbiM OS=Sebaldell...  213     3e-67
+  sp|F9USS7|LARMN_LACPL Probable fused nickel transport protein L...  216     4e-67
+  sp|D3UMA1|CBIM_LISSS Cobalt transport protein CbiM OS=Listeria ...  213     6e-67
+  sp|B3EC54|CBIM_CHLL2 Cobalt transport protein CbiM OS=Chlorobiu...  212     2e-66
+  sp|Q2RJ53|CBIM_MOOTA Cobalt transport protein CbiM OS=Moorella ...  212     2e-66
+  sp|A6LKX5|CBIM_THEM4 Cobalt transport protein CbiM OS=Thermosip...  211     3e-66
+  sp|Q05594|CBIM_SALTY Cobalt transport protein CbiM OS=Salmonell...  211     3e-66
+  sp|D9SNZ5|CBIM_CLOC7 Cobalt transport protein CbiM OS=Clostridi...  211     6e-66
+  sp|D5WSC8|CBIM_KYRT2 Cobalt transport protein CbiM OS=Kyrpidia ...  209     2e-65
+  sp|A3CL70|CBIM_STRSV Cobalt transport protein CbiM OS=Streptoco...  209     2e-65
+  sp|A9KP98|CBIM_LACP7 Cobalt transport protein CbiM OS=Lachnoclo...  209     2e-65
+  sp|Q46D59|CBIM1_METBF Putative cobalt transport protein CbiM 1 ...  206     1e-64
+  sp|Q3AE25|CBIM_CARHZ Cobalt transport protein CbiM OS=Carboxydo...  206     2e-64
+  sp|D9QVP6|CBIM_ACEAZ Cobalt transport protein CbiM OS=Acetohalo...  205     5e-64
+  sp|B8I0P7|CBIM_CLOCE Cobalt transport protein CbiM OS=Clostridi...  205     7e-64
+  sp|B7GLU2|CBIM_ANOFW Cobalt transport protein CbiM OS=Anoxybaci...  204     2e-63
+  sp|E3PSD4|CBIM_ACESD Cobalt transport protein CbiM OS=Acetoanae...  202     1e-62
+  sp|A1ANC7|CBIM1_PELPD Cobalt transport protein CbiM 1 OS=Peloba...  200     3e-62
+  sp|A1ANE2|CBIM2_PELPD Cobalt transport protein CbiM 2 OS=Peloba...  200     4e-62
+  sp|O29530|CBIM_ARCFU Putative cobalt transport protein CbiM OS=...  199     6e-62
+  sp|D5AUZ9|CBIM_RHOCB Cobalt transport protein CbiM OS=Rhodobact...  199     1e-61
+  sp|Q897L1|CBIM_CLOTE Cobalt transport protein CbiM OS=Clostridi...  198     4e-61
+  sp|A5UQS9|CBIM_ROSS1 Cobalt transport protein CbiM OS=Roseiflex...  197     6e-61
+  sp|Q58964|Y1569_METJA Putative metal transport protein MJ1569 O...  196     8e-61
+  sp|A2SQF0|CBIM1_METLZ Putative cobalt transport protein CbiM 1 ...  191     1e-58
+  sp|D7GIS1|CBIM_PROFC Cobalt transport protein CbiM OS=Propionib...  191     2e-58
+  sp|Q748J7|CBIM_GEOSL Cobalt transport protein CbiM OS=Geobacter...  194     2e-58
+  sp|D9S0S1|CBIM_THEOJ Cobalt transport protein CbiM OS=Thermosed...  191     2e-58
+  sp|Q8DG81|CBIM_THEEB Cobalt transport protein CbiM OS=Thermosyn...  188     3e-57
+  sp|Q8YQ91|CBIM_NOSS1 Cobalt transport protein CbiM OS=Nostoc sp...  187     1e-56
+  sp|B0R611|CBIM_HALS3 Putative cobalt transport protein CbiM OS=...  180     1e-54
+  sp|Q18J48|CBIM_HALWD Putative cobalt transport protein CbiM OS=...  177     1e-53
+  sp|D5AQY8|NIKMN_RHOCB Fused nickel transport protein NikMN OS=R...  181     3e-53
+  sp|A9GQ89|CBIM_SORC5 Cobalt transport protein CbiM OS=Sorangium...  174     4e-52
+  sp|A2SSD6|CBIMQ_METLZ Putative fused cobalt transport protein C...  182     7e-52
+  sp|O28435|NIKMN_ARCFU Putative fused nickel transport protein N...  168     5e-49
+  sp|Q18EC4|Y3621_HALWD Putative metal transport protein HQ_3621A...  162     2e-47
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P44274|Y1621_HAEIN Putative metal transport protein HI_1621 ...  41.8    0.002
+
+
+> sp|D7DR00|CBIM_METV3 Putative cobalt transport protein CbiM OS=Methanococcus 
+voltae (strain ATCC BAA-1334 / A3) OX=456320 
+GN=cbiM PE=3 SV=1
+Length=222
+
+ Score = 230 bits (588),  Expect = 4e-74, Method: Composition-based stats.
+ Identities = 70/232 (30%), Positives = 103/232 (44%), Gaps = 13/232 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL  +   V       V+      +NK    + +  P +AI  AF F +    +
+Sbjct  1    MHIMEGYLPMEWAIVWYIISAIVVGYGILNLNKVLKNNPEAKPLLAISGAFMFVLSSLKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP   S+  T+ L  QAL+   GGI  LGAN F+M  + P
+Sbjct  61   PSVSGSCSHPTGNGLGAILFGPAITSVLATIVLLFQALVLAHGGISTLGANIFSMGIMGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FVGY +++ +   KLN      +       A  L T+I+L L    F   +    +  +G
+Sbjct  121  FVGYLVFKAL-RGKLNITWVVMLTAIFADWATYLTTSIQLALA---FPVPDFMSSFTEFG  176
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRGDNR  230
+               AI  +  A      I E +IT L+  YL ++  E +  K +   +G N 
+Sbjct  177  TIFAITQIPLA------IAEGLITALLWDYLSELRPE-LFEKITNIKKGGNN  221
+
+
+> sp|B8GJG9|CBIM1_METPE Putative cobalt transport protein CbiM 
+1 OS=Methanosphaerula palustris (strain ATCC BAA-1556 / DSM 
+19958 / E1-9c) OX=521011 GN=cbiM1 PE=3 SV=1
+Length=231
+
+ Score = 230 bits (586),  Expect = 1e-73, Method: Composition-based stats.
+ Identities = 60/222 (27%), Positives = 101/222 (45%), Gaps = 11/222 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  Q C    A   P +     ++N+   +    +P +A+  AF F +    +
+Sbjct  1    MHIMEGFLPLQWCLFWFAVSAPFIAYGIYQLNRLVKENRSTLPLLAVCGAFIFVLSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+  S+   + L  QAL    GG+  LGAN F+M    P
+Sbjct  61   PSVTGSCSHPTGTGLGAIMFGPFITSVLSIIVLVYQALFLAHGGLTTLGANVFSMGICGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             +GY +Y+   ++ LN +++  +   +      + T+I+L L    F  A G      Y 
+Sbjct  121  LLGYWVYQGGKAINLNSIVNVFLASALADIFTYVITSIQLSLA---FPAAAGG-----YM  172
+
+Query  179  LNVAIPAMMFAHLTVA-GIVEAVITGLVVYYLQKVDEENILH  219
+             +    A +FA   V   I+E +   L   Y+ ++  + ++H
+Sbjct  173  TSFITFAGIFAVTQVPLAIIEGIFLTLTFKYINQIRPDILIH  214
+
+
+> sp|Q46AL8|CBIM2_METBF Putative cobalt transport protein CbiM 
+2 OS=Methanosarcina barkeri (strain Fusaro / DSM 804) OX=269797 
+GN=cbiM2 PE=3 SV=1
+Length=235
+
+ Score = 222 bits (567),  Expect = 7e-71, Method: Composition-based stats.
+ Identities = 64/221 (29%), Positives = 100/221 (45%), Gaps = 5/221 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C V     +PV+     K+NK   ++   +P +A+  AF F +    +
+Sbjct  1    MHIMEGYLPAIWCIVWFVVSIPVVAYGVYKLNKLVKEERGILPVLAVAGAFIFVLSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  + A   GP   ++  T+ L  QAL    GG+  LGAN F+M  + P
+Sbjct  61   PSVTGSCSHPTGTGIGAIIFGPAITAVLSTIVLIYQALFLAHGGLTTLGANVFSMGIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V Y IY+  +  KLN  L   +   +G  A  + T+ EL L             +  + 
+Sbjct  121  IVAYLIYKTGMKAKLNFYLIVFLAATLGDWATYIVTSTELALAFPAGDILTFGGFFSSFS  180
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+              VAI A+    L    IVE  ++ L+  Y+ +   + ++ 
+Sbjct  181  KFVAIFAITQVPL---AIVEGAVSALLFKYIIQAKSDLLVE  218
+
+
+> sp|B8GEB7|CBIM2_METPE Putative cobalt transport protein CbiM 
+2 OS=Methanosphaerula palustris (strain ATCC BAA-1556 / DSM 
+19958 / E1-9c) OX=521011 GN=cbiM2 PE=3 SV=1
+Length=235
+
+ Score = 222 bits (566),  Expect = 1e-70, Method: Composition-based stats.
+ Identities = 65/240 (27%), Positives = 104/240 (43%), Gaps = 17/240 (7%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L    C V     +P L +   ++ +    D++ +P + +  AF F +    +
+Sbjct  1    MHIMEGFLPAGWCLVWWLIALPFLVMGIIQLRRMMKEDREYLPLLGVCGAFIFILSALKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L     G    ++   + L  QALL   GG+  +GAN  +MA   P
+Sbjct  61   PSVTGSCSHPTGTGLSTICFGYCVTAVVGAIVLLFQALLLAHGGLSTMGANMVSMAIGGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+              GY +Y+LM    +N  ++  +   V      + T+ EL L     + A        + 
+Sbjct  121  IAGYAVYKLMKDTSINIYVTVFLASAVADIVTYIITSFELALA----YPAQVGGFLASFS  176
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI--LHKFSY------RLRGDNR  230
+               +I A+    L+   I+E V+  LV  Y+ ++  E I  LH FS       RL GD  
+Sbjct  177  AFFSIFAITQIPLS---IMEGVVLALVFKYIIQLKPEIILKLHVFSEEQIAKARLAGDAE  233
+
+
+> sp|Q58491|CBIM_METJA Putative cobalt transport protein CbiM OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=cbiM PE=3 
+SV=1
+Length=233
+
+ Score = 221 bits (564),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 59/222 (27%), Positives = 92/222 (41%), Gaps = 13/222 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL P  CAV       V+     K+ K  ++     P +AI  A+ F +    +
+Sbjct  1    MHIMEGYLPPMWCAVWWVLSGIVIAYGIVKLKKLLEESPEMKPLVAISGAYMFILSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   G    ++   + L  QAL    GG+  LGAN F+M  + P
+Sbjct  61   PSVTGSCSHPCGNGLGAVLFGVPITAVLAAIVLLFQALFLAHGGLTTLGANDFSMGIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQ-PLLFHTANGTPLYFPY  177
+                 +YRL +   L+  +        G     + TA++L L  P+   TA  T     Y
+Sbjct  121  AAAVIVYRLCMKAGLSSTVGIFFAALFGDWLTYVTTAVQLALAFPIPSFTAAFTKFIVIY  180
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+                              I E ++T ++  Y++K+  + +L 
+Sbjct  181  AYT----------QVPLAIAEGILTVIIWDYIKKLRPDLLLK  212
+
+
+> sp|A5VM74|CBIM_LACRD Cobalt transport protein CbiM OS=Lactobacillus 
+reuteri (strain DSM 20016) OX=557436 GN=cbiM PE=3 SV=1
+Length=248
+
+ Score = 217 bits (554),  Expect = 1e-68, Method: Composition-based stats.
+ Identities = 54/212 (25%), Positives = 91/212 (43%), Gaps = 10/212 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFD---KKDVPAMAIGSAFAFTIMMFN  57
+            MHI EG L P+ C    A  +P       ++ K  +         +A+  AF F +    
+Sbjct  32   MHIMEGMLPPRWCIFWYAVSLPFFIYGLYRMYKIVNSGVPNAKVMLALCGAFVFVLSSLK  91
+
+Query  58   VPIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIA  117
+            +P   G+ +H  G  L     GP   S+   + L  QALL   GGI  LGAN F+M  + 
+Sbjct  92   LPSVTGSCSHPTGVGLGTVLFGPGVMSVLGVIVLLFQALLLAHGGITTLGANEFSMTIVG  151
+
+Query  118  PFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+            P VGY +++L  ++K+++ +S  +       +  + TA +L +   +F   NG       
+Sbjct  152  PIVGYAVWKLCRAMKVSRSVSLFLCAMFADWSTYVTTAFQLAI---VFPDPNGGVA----  204
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYL  209
+               +   ++         I E ++T +V   +
+Sbjct  205  AALIKFLSIYAITQIPLAIAEGLLTVIVYNLV  236
+
+
+> sp|Q2NHA4|CBIM_METST Putative cobalt transport protein CbiM OS=Methanosphaera 
+stadtmanae (strain ATCC 43021 / DSM 3091 / 
+JCM 11832 / MCB-3) OX=339860 GN=cbiM PE=3 SV=1
+Length=224
+
+ Score = 215 bits (549),  Expect = 3e-68, Method: Composition-based stats.
+ Identities = 52/221 (24%), Positives = 95/221 (43%), Gaps = 11/221 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDK--KDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P  C +     +P +     ++ K   +  + +P +A+  AF F +    +
+Sbjct  1    MHIMEGFLPPLWCLIYYIICIPFIVYGIMQIRKVTAESDEAMPMLALSGAFMFILSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G    A   GP    +   + L  QA++   GGI  LGAN  +M  I P
+Sbjct  61   PSVTGSCSHPCGNGFGAVFFGPAVVGVLSVIVLVFQAVILAHGGITTLGANVLSMGIIGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+              GY ++  +  L +N  ++     +V      + TAIEL L    F   +       + 
+Sbjct  121  LCGYAVWLGLRKLNVNDEIAMFFTAFVADLMTYVVTAIELSLA---FPKPDFFTALVTFL  177
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+               A+  +  A      I E ++T ++  ++++   + ++ 
+Sbjct  178  GIFAVTQIPLA------IAEGILTMVIYRFIKQQKPDILVK  212
+
+
+> sp|O54190|CBIM_STRCO Cobalt transport protein CbiM OS=Streptomyces 
+coelicolor (strain ATCC BAA-471 / A3(2) / M145) OX=100226 
+GN=cbiM PE=3 SV=2
+Length=232
+
+ Score = 215 bits (549),  Expect = 4e-68, Method: Composition-based stats.
+ Identities = 54/213 (25%), Positives = 94/213 (44%), Gaps = 9/213 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P      G A  P +    + + +   +       +    AF F +    +
+Sbjct  1    MHIAEGFLPPAHAIAWGVASAPFVVHGVRSLTREVREHPESTLLLGASGAFTFVLSALKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A    P   ++  T+ L  QALL   GG+  LGAN F+MA + P
+Sbjct  61   PSVTGSCSHPTGTGLGAILFRPPIMAVLGTITLLFQALLLAHGGLTTLGANVFSMAIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            + GYG+YRL+    +  +++   G +V   +    T+++L L      ++        +G
+Sbjct  121  WAGYGVYRLLRRWDVPLMVTVFFGAFVADLSTYCVTSVQLALA-FPDPSSGFLGALGKFG  179
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQK  211
+               A+  +  A      + E ++T +V+  L +
+Sbjct  180  SIFAVTQIPLA------VSEGLLTVIVMRLLVQ  206
+
+
+> sp|C9YID6|CBIM_PEPDR Cobalt transport protein CbiM OS=Peptoclostridium 
+difficile (strain R20291) OX=645463 GN=cbiM PE=3 SV=1
+Length=250
+
+ Score = 215 bits (549),  Expect = 7e-68, Method: Composition-based stats.
+ Identities = 60/221 (27%), Positives = 95/221 (43%), Gaps = 9/221 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVP--AMAIGSAFAFTIMMFNV  58
+            MHI EGYL  +     G   +P   V  K + K   +       +A+  AF F +    +
+Sbjct  26   MHIMEGYLPVKWSIAWGVIFIPFFLVGLKSIGKIVKQDPKKKVLLALCGAFVFVLSALKI  85
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP    +  T+ L  QALL   GGI  LGAN+F+MA I P
+Sbjct  86   PSVTGSCSHPTGVGLGAIMFGPSVMFVLGTIVLIFQALLLAHGGITTLGANAFSMAIIGP  145
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             + + I++ +     N  +   +   +G  A    T+I+L L    F   +G  +     
+Sbjct  146  IISFLIFKALKKKDGNNAMPVFLAAAIGDLATYTVTSIQLALA---FPDPSGGVM----A  198
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+              +    + F       I E ++T +V   + +  E++IL 
+Sbjct  199  SAIKFLGIFFMTQIPIAIAEGILTVIVYNLITENGEKSILE  239
+
+
+> sp|A2SSE8|CBIM2_METLZ Putative cobalt transport protein CbiM 
+2 OS=Methanocorpusculum labreanum (strain ATCC 43576 / DSM 4855 
+/ Z) OX=410358 GN=cbiM2 PE=3 SV=1
+Length=231
+
+ Score = 214 bits (545),  Expect = 1e-67, Method: Composition-based stats.
+ Identities = 63/223 (28%), Positives = 97/223 (43%), Gaps = 13/223 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C        P +     K+ K    D++ +P MA+  AF F +    +
+Sbjct  1    MHIMEGYLPIGWCIFWAVLSAPFVIYGIWKMTKMIQEDRRVLPLMAVCGAFVFVLSALKI  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+  S+  T+ L  QALL   GG+  LGAN F+MA   P
+Sbjct  61   PSVTGSCSHPTGTGLSAAFFGPFITSVLGTIVLLFQALLLAHGGLTTLGANVFSMAIAGP  120
+
+Query  119  FVGYGIYRLMLS-LKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+            F+ + ++  +    K+   ++  I   V        T+++L L         G+ L    
+Sbjct  121  FIAWLVFVGLRKTGKVGIGVAVFITAAVANLVTYTVTSLQLAL----VFPVEGSILNA--  174
+
+Query  178  GLNVAIPAMMFAHLTVA-GIVEAVITGLVVYYLQKVDEENILH  219
+                   A +FA   +   I+E +I  LV  Y+ +V  E +  
+Sbjct  175  ---FIAFAGIFAVTQIPLAIIEGIICALVAKYIVRVKPEILKK  214
+
+
+> sp|A4J832|CBIM_DESRM Cobalt transport protein CbiM OS=Desulfotomaculum 
+reducens (strain MI-1) OX=349161 GN=cbiM PE=3 SV=1
+Length=250
+
+ Score = 214 bits (546),  Expect = 2e-67, Method: Composition-based stats.
+ Identities = 61/229 (27%), Positives = 94/229 (41%), Gaps = 11/229 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L    C    A  VP +    + ++ S   +      + +  AF F +    +
+Sbjct  25   MHIAEGFLPAGWCLFWLALSVPFVFWGIRSIHISLRGNPHLKMLLGLAGAFVFVLSALKI  84
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP   S+   + L  QALL   GGI  LGAN F+M  + P
+Sbjct  85   PSVTGSCSHPTGVGLGAILFGPAVMSVLGCIVLLFQALLLAHGGITTLGANVFSMGVMGP  144
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V YG+Y+L+     N  ++  +   +G     + T+++L +      T N    +F + 
+Sbjct  145  LVSYGVYQLLKK--RNTKVAVFLAASLGNMTTYMVTSLQLAMA-FPDKTGNLLVSFFKFM  201
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRG  227
+               AI  +  A      I E ++T  V   L    EE           G
+Sbjct  202  SIFAITQIPLA------ITEGLLTVFVFNLLNNYREELYPGLPKEERSG  244
+
+
+> sp|D1AFI6|CBIM_SEBTE Cobalt transport protein CbiM OS=Sebaldella 
+termitidis (strain ATCC 33386 / NCTC 11300) OX=526218 GN=cbiM 
+PE=3 SV=1
+Length=236
+
+ Score = 213 bits (543),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 65/216 (30%), Positives = 103/216 (48%), Gaps = 13/216 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDK--KDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL  +          P       K+ K      ++   +A+  AF F +    +
+Sbjct  24   MHIMEGYLPVKWAVFWFILCAPFWIYGLVKLQKEAKGNVEEKLTLALAGAFIFVLSALKI  83
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A   GP+  SI  T+AL  QA+L   GG+  LGAN+F+MA   P
+Sbjct  84   PSVTGSSSHPTGVGLSAILFGPFITSILGTIALIFQAVLLAHGGLTTLGANAFSMAVAGP  143
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V YGIYRL+     NK L+  +   +G  +  + T+ +L L      +A+G        
+Sbjct  144  LVSYGIYRLLKK--KNKSLAVFLAASLGNLSTYVITSFQLALAN---PSADGGIT-----  193
+
+Query  179  LNVAIPAMMFAHLTVA-GIVEAVITGLVVYYLQKVD  213
+             +    AM+FA   +   ++E ++T +V+  L+K +
+Sbjct  194  ASFVKFAMIFAVTQIPLAVIEGLLTNVVMNLLEKYN  229
+
+
+> sp|F9USS7|LARMN_LACPL Probable fused nickel transport protein 
+LarMN OS=Lactobacillus plantarum (strain ATCC BAA-793 / NCIMB 
+8826 / WCFS1) OX=220668 GN=larMN PE=2 SV=1
+Length=328
+
+ Score = 216 bits (550),  Expect = 4e-67, Method: Composition-based stats.
+ Identities = 130/226 (58%), Positives = 155/226 (69%), Gaps = 3/226 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHIP+ YLSP TC  +  AM PV TVA  KV     K    +P + I ++ AF IMMFN+
+Sbjct  1    MHIPDNYLSPATCGTLVTAMAPVWTVAVLKVKVQIKKHHETLPMLGIAASLAFLIMMFNL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            PIPGGTTAHA+G TLLA  +GPWAA ++LT+ L +QALLFGDGGILA GAN+ NMA I P
+Sbjct  61   PIPGGTTAHAVGGTLLAVLIGPWAACLALTVTLLLQALLFGDGGILAFGANALNMAVIMP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FVGY  YRL       K L  AIG Y+GIN AAL   IELGLQP+L HTA+G PLY PYG
+Sbjct  121  FVGYACYRLGQKWHHEK-LGLAIGAYLGINMAALVAGIELGLQPILAHTASGAPLYCPYG  179
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYR  224
+            LN+ IPAM+ AHL VAG VE V T LV  ++++V   N+    + R
+Sbjct  180  LNITIPAMLTAHLLVAGWVEVVFTLLVFQFVKRVAPTNLYQTPTRR  225
+
+
+> sp|D3UMA1|CBIM_LISSS Cobalt transport protein CbiM OS=Listeria 
+seeligeri serovar 1/2b (strain ATCC 35967 / DSM 20751 / CIP 
+100100 / SLCC 3954) OX=683837 GN=cbiM PE=3 SV=1
+Length=244
+
+ Score = 213 bits (542),  Expect = 6e-67, Method: Composition-based stats.
+ Identities = 58/221 (26%), Positives = 94/221 (43%), Gaps = 9/221 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  +         +P L +   ++ K    DK +   +A+ +AF F +    +
+Sbjct  29   MHIMEGFLPVKWAVFWLIVFIPFLVLGLIRIRKLIAIDKNNKLLLALCAAFIFVLSALKI  88
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L     GP   S+   + L  QALL   GGI  LGAN+ +MA I P
+Sbjct  89   PSVTGSCSHPTGVGLATVMFGPLVVSVLGVIVLLFQALLLAHGGITTLGANAMSMAVIGP  148
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             VG+ +Y+L   L  NK +S  +       A    T+++LG+   +F       +     
+Sbjct  149  MVGFVVYKLARKLNCNKSVSIFLCAMTADLATYFTTSVQLGV---VFPDPASGMMASILK  205
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+                  A+         I E ++T ++   + K   E +  
+Sbjct  206  F----MAIFCVTQVPIAIAEGLLTVVMYNLISKNLPEKVAQ  242
+
+
+> sp|B3EC54|CBIM_CHLL2 Cobalt transport protein CbiM OS=Chlorobium 
+limicola (strain DSM 245 / NBRC 103803 / 6330) OX=290315 
+GN=cbiM PE=3 SV=1
+Length=254
+
+ Score = 212 bits (539),  Expect = 2e-66, Method: Composition-based stats.
+ Identities = 68/229 (30%), Positives = 102/229 (45%), Gaps = 9/229 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P          +P L V  + + K  D        +A+  AFAF +    +
+Sbjct  32   MHIMEGFLPPSWSLFWWVLTLPFLVVGFRSLRKIVDANPRMKLLLAMAGAFAFVLSSLKI  91
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP   S+   + L  QALL   GG+  LGAN+F+MA   P
+Sbjct  92   PSVTGSCSHPTGVGLGAVLFGPSVMSVLGVIVLLFQALLLAHGGLTTLGANAFSMAIAGP  151
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FV YGIYRLM+  K  + L+  +   +G     + T+++L L    F +  G       G
+Sbjct  152  FVSYGIYRLMVMSKAPEWLAVFLAAAIGDLMTYVVTSLQLALA---FPSVTGGIA-ASLG  207
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRG  227
+              + I A+    L    I E ++T +V   +++   E      +    G
+Sbjct  208  KFMTIFALTQVPL---AISEGILTVMVFSAIREYASELFPASGTLAKEG  253
+
+
+> sp|Q2RJ53|CBIM_MOOTA Cobalt transport protein CbiM OS=Moorella 
+thermoacetica (strain ATCC 39073 / JCM 9320) OX=264732 GN=cbiM 
+PE=3 SV=1
+Length=259
+
+ Score = 212 bits (539),  Expect = 2e-66, Method: Composition-based stats.
+ Identities = 59/221 (27%), Positives = 96/221 (43%), Gaps = 9/221 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L     A     ++P      + +  +          + +  A+ F +    +
+Sbjct  26   MHIAEGFLPFNWAAFWFIVVLPFWIWGLRSIRHTVKSNPGLKMLLGLAGAYTFVLSALKL  85
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A SI   + L  QALL   GG+  LGAN+F+MA + P
+Sbjct  86   PSVTGSCSHPTGIGLGAVLFGPAAMSILGGIVLLFQALLLAHGGLSTLGANTFSMAVVGP  145
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FV YG+YRL+  LK +  L+  +   +G     + T+++L L       A    +     
+Sbjct  146  FVAYGLYRLVRKLKGSMPLAVFLAATLGDLMTYVTTSLQLALA----FPAQAGGVVASML  201
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+              + I A+    L    I E  +T +V   L   ++ ++  
+Sbjct  202  KFMGIFAVTQLPL---AISEGFLTVIVFNLLATYNKNDLEE  239
+
+
+> sp|A6LKX5|CBIM_THEM4 Cobalt transport protein CbiM OS=Thermosipho 
+melanesiensis (strain DSM 12029 / CIP 104789 / BI429) OX=391009 
+GN=cbiM PE=3 SV=1
+Length=235
+
+ Score = 211 bits (537),  Expect = 3e-66, Method: Composition-based stats.
+ Identities = 55/222 (25%), Positives = 100/222 (45%), Gaps = 11/222 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P    +     +P   +    + K+  +K      +A   AF F +    +
+Sbjct  21   MHIMEGFLPPTHALIWYILSLPFFVIGLFTIRKTIKEKPNLKMLLAFVGAFTFVLSAMKI  80
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+  ++  T+ L  QALL   GG+  LGAN+F+MA +  
+Sbjct  81   PSVTGSCSHPTGIGLGAIIFGPFTMTVIGTIVLLFQALLLAHGGLTTLGANTFSMAIVGS  140
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V Y IY+ +   K N+ ++  +  ++G     + T+ +L +              F   
+Sbjct  141  LVSYFIYKSL--YKKNRNIAVFLAAFLGDLFTYVTTSFQLAVA----FPDKTHGFIFSLA  194
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+              ++I A+    L    I+E ++T +V+  + K ++  +  +
+Sbjct  195  KFLSIFAITQVPL---AIIEGLVTVVVIDLIYKYNKNELFEE  233
+
+
+> sp|Q05594|CBIM_SALTY Cobalt transport protein CbiM OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=cbiM PE=1 SV=1
+Length=245
+
+ Score = 211 bits (537),  Expect = 3e-66, Method: Composition-based stats.
+ Identities = 52/213 (24%), Positives = 87/213 (41%), Gaps = 9/213 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P          +P L     ++ +    D      +A+  AF F +    +
+Sbjct  31   MHIMEGFLPPVWALAWWLLFLPCLWYGLVRLRRIVQEDNHQKVLLALCGAFIFVLSALKI  90
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L     GP   +I   + L  QALL   GG+  LGAN  +MA I P
+Sbjct  91   PSVTGSCSHPTGVGLAVILFGPGVVAILGAVVLLFQALLLAHGGLTTLGANGMSMAVIGP  150
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             VGY ++++     L + ++  +   +   A    T+++LG+       A  T     + 
+Sbjct  151  VVGYLVWKMACRAGLRRDVAVFLCAMLADLATYFVTSVQLGVA-FPDPHAGATGSVVKFM  209
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQK  211
+                +  +         I E ++T ++   L K
+Sbjct  210  GIFCLTQI------PVAIAEGLLTVMIYDQLTK  236
+
+
+> sp|D9SNZ5|CBIM_CLOC7 Cobalt transport protein CbiM OS=Clostridium 
+cellulovorans (strain ATCC 35296 / DSM 3052 / OCM 3 / 743B) 
+OX=573061 GN=cbiM PE=3 SV=1
+Length=260
+
+ Score = 211 bits (537),  Expect = 6e-66, Method: Composition-based stats.
+ Identities = 63/219 (29%), Positives = 102/219 (47%), Gaps = 9/219 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYLSP+ C + G  ++P L   +  V K    D++     A+  AF F +    +
+Sbjct  35   MHIMEGYLSPKWCIIWGILVLPFLIKGSLNVKKVVSDDQRIKLLFAMAGAFIFILSALKL  94
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   GT++H  G  L     GP   ++   + L  QALL   GGI  LGANSF MA + P
+Sbjct  95   PSFTGTSSHPTGIGLSTILFGPAITTVLGVIVLLFQALLLAHGGISTLGANSFAMAVMGP  154
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             + YG+Y+++  +K+ + ++      VG       TAI+LG+     H      ++    
+Sbjct  155  LMAYGVYKILQKIKIPQNINIFFSATVGDLFTYCITAIQLGID----HPLEYDGIFASIE  210
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI  217
+              + + A+         I E ++T L+   + K   + +
+Sbjct  211  RYLGVFAIT---QIPIAIAEGILTVLIFNVIAKYSSKEL  246
+
+
+> sp|D5WSC8|CBIM_KYRT2 Cobalt transport protein CbiM OS=Kyrpidia 
+tusciae (strain DSM 2912 / NBRC 15312 / T2) OX=562970 GN=cbiM 
+PE=3 SV=1
+Length=247
+
+ Score = 209 bits (533),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 58/219 (26%), Positives = 101/219 (46%), Gaps = 9/219 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDK--KDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C    A  +P L +  + + K      +    +A+ +AFAF +    +
+Sbjct  22   MHIMEGYLPLGWCLFWAALCLPALILGTRSLQKQVGDNLRMKLVLALSAAFAFVLSALKL  81
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A   GP A S+   + L  QALL   GGI  LGAN+F+MA + P
+Sbjct  82   PSVTGSSSHPTGVGLGAVLFGPMAMSVVGCIILLFQALLLAHGGITTLGANTFSMAVVGP  141
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V Y ++R+       + ++  +   +G  +  L T+++L L             ++ + 
+Sbjct  142  TVSYVVFRIFQKSGFGRGVAVFLAAALGDLSTYLTTSLQLALA-FPAPIGGVASSFWKFA  200
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI  217
+               A+  +  A      + E ++T ++V ++ K   E +
+Sbjct  201  SIFAVTQVPLA------VSEGLLTVIMVNWVMKYSPEVL  233
+
+
+> sp|A3CL70|CBIM_STRSV Cobalt transport protein CbiM OS=Streptococcus 
+sanguinis (strain SK36) OX=388919 GN=cbiM PE=3 SV=2
+Length=244
+
+ Score = 209 bits (532),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 65/213 (31%), Positives = 98/213 (46%), Gaps = 9/213 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C    A  +P   V   ++ K    D      +A+  AF F +    +
+Sbjct  29   MHIMEGYLPLFWCIFWFAVFLPFFVVGLMRIKKIVAEDPNSKTMLALSGAFIFILSSLKI  88
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L     GP   S+  T+ L  QALL   GG+  LGAN+F+MA + P
+Sbjct  89   PSVTGSSSHPTGVGLGTAMFGPSVISVLGTICLLFQALLLAHGGLTTLGANAFSMAVVGP  148
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FVGY +Y+   S+KL+  +S  I   +   A    T+I+LGL   +F  AN    +    
+Sbjct  149  FVGYFVYKFAKSIKLSTPVSIFICAVIADLATYATTSIQLGL---VFPDAN--SGFVGSA  203
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQK  211
+            L      +         IVE ++T ++   + +
+Sbjct  204  LKFM--GVFLTTQIPIAIVEGLLTVVLYNLISE  234
+
+
+> sp|A9KP98|CBIM_LACP7 Cobalt transport protein CbiM OS=Lachnoclostridium 
+phytofermentans (strain ATCC 700394 / DSM 18823 / 
+ISDg) OX=357809 GN=cbiM PE=3 SV=1
+Length=250
+
+ Score = 209 bits (532),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 65/208 (31%), Positives = 100/208 (48%), Gaps = 9/208 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDK--KDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL P+ C   G   +P L      + K+  K  + +  +A+  AF F +    +
+Sbjct  28   MHIMEGYLPPKYCITWGILSIPFLVAGYFSIKKTVSKQHRSITMLAMAGAFVFVLSSLKI  87
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A SI   + L  QA+L   GG+  LGAN+F+MA   P
+Sbjct  88   PSVTGSCSHMTGTGLGAILFGPSAVSILGIIVLIFQAILLAHGGLTTLGANTFSMAIAGP  147
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FV +GIY+L   LK+NK+    +  +VG       T+I+L L    + ++NG        
+Sbjct  148  FVSFGIYKLCQKLKVNKLSGIFLAAFVGDLFTYCVTSIQLALA---YPSSNGGVGASALK  204
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVV  206
+                  A+         I+E ++T +++
+Sbjct  205  F----LAVFAPTQVPLAIIEGILTVVIM  228
+
+
+> sp|Q46D59|CBIM1_METBF Putative cobalt transport protein CbiM 
+1 OS=Methanosarcina barkeri (strain Fusaro / DSM 804) OX=269797 
+GN=cbiM1 PE=3 SV=1
+Length=231
+
+ Score = 206 bits (525),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 57/221 (26%), Positives = 97/221 (44%), Gaps = 9/221 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L      +     +PV      ++NK   +K   +P +A+  A  F +    +
+Sbjct  1    MHIFEGFLPGPWWQIWWILSIPVFAYGIFRLNKLVKEKPEVLPLIAVSGAVIFVLSSLKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  +     GP   S+   + L  QAL    GGI   GAN  +M  I P
+Sbjct  61   PSVTGSTSHPTGTGMAVILFGPAITSVLSAIVLLYQALFLAHGGITTFGANLMSMGIIGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FV Y IY+ M+ L +N  +S+ +   +      + T+ +L L       AN   +     
+Sbjct  121  FVAYAIYKTMMRLNVNFYVSAFVTATLADWVTYVVTSTQLALA----FPANPGGVEGSLV  176
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+              +++ A+    L    I+EA +  L+  Y+ +   + ++ 
+Sbjct  177  AFLSVFAITQIPL---AILEASLITLLFKYVLQAKGDLMVR  214
+
+
+> sp|Q3AE25|CBIM_CARHZ Cobalt transport protein CbiM OS=Carboxydothermus 
+hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / 
+Z-2901) OX=246194 GN=cbiM PE=3 SV=1
+Length=244
+
+ Score = 206 bits (525),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 11/214 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  +         +P + V   ++ +   +       +A   AF F +    +
+Sbjct  28   MHIMEGFLPVKWVIFWDLVTLPFIMVGFIRLQREATQGPGAKLMLAFAGAFIFVLSALKM  87
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+  ++   + L  QALL   GG+  LGAN+F+MA   P
+Sbjct  88   PSVTGSCSHPTGTGLAAILFGPFITTVLGFIVLIFQALLLAHGGLTTLGANTFSMAVAGP  147
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V YG+Y+ +    +N   S  +   +G     + T+++L L    F  ++       + 
+Sbjct  148  LVAYGVYKGLQKAGINSNFSIFLAAMLGDLVTYIVTSVQLALA---FPGSSLFLSALKFM  204
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKV  212
+               A+  +  A      I E ++T L   +L + 
+Sbjct  205  GIFALTQIPLA------ISEGILTVLTYNFLSRY  232
+
+
+> sp|D9QVP6|CBIM_ACEAZ Cobalt transport protein CbiM OS=Acetohalobium 
+arabaticum (strain ATCC 49924 / DSM 5501 / Z-7288) OX=574087 
+GN=cbiM PE=3 SV=1
+Length=251
+
+ Score = 205 bits (523),  Expect = 5e-64, Method: Composition-based stats.
+ Identities = 65/223 (29%), Positives = 97/223 (43%), Gaps = 13/223 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKK---DVPAMAIGSAFAFTIMMFN  57
+            MHI EG+L  +   +   AM+P L +  KKV     K+       +A+  AF F +    
+Sbjct  28   MHIAEGFLPVKWAGIWWIAMLPFLALGIKKVKSITQKEGPGIKMLLALAGAFVFVLSSLK  87
+
+Query  58   VPIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIA  117
+            +P   G+ +H  G  L A   GPW   +   + L  QA+L   GG+  LGAN F+MA + 
+Sbjct  88   LPSLTGSCSHPTGVGLGAILFGPWPMVVLGCIVLIFQAVLLAHGGLTTLGANVFSMAIVG  147
+
+Query  118  PFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+            PFV YG YRL+  L     LS   G  +G     + TA +L             P    +
+Sbjct  148  PFVAYGAYRLLKKLNAPNWLSVFTGSALGNLLTYITTATQLAWAF---------PGKTGF  198
+
+Query  178  GLNVAIPAMMFAHLTVA-GIVEAVITGLVVYYLQKVDEENILH  219
+              ++     +FA   V   + E ++T L+   L +  E  +  
+Sbjct  199  IASLIKFMGVFATTQVPLAVTEGLVTVLIFNLLLEYSEGELKE  241
+
+
+> sp|B8I0P7|CBIM_CLOCE Cobalt transport protein CbiM OS=Clostridium 
+cellulolyticum (strain ATCC 35319 / DSM 5812 / JCM 6584 
+/ H10) OX=394503 GN=cbiM PE=3 SV=1
+Length=248
+
+ Score = 205 bits (522),  Expect = 7e-64, Method: Composition-based stats.
+ Identities = 63/214 (29%), Positives = 101/214 (47%), Gaps = 9/214 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFD--KKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL+P  C   G   +P L +    + K  +   K++  +A+  AFAF +    +
+Sbjct  30   MHIMEGYLAPGWCISWGVMCMPFLVIGFFSIKKKIEVSSKNLTLLAMCGAFAFVLSALKM  89
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A S+   + L  QA+L   GGI  LGAN F+MA + P
+Sbjct  90   PSVTGSCSHPTGVGLGAVLFGPTAMSVIGAIILLFQAILLAHGGITTLGANVFSMAIVGP  149
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V +G+++L         L+  +  + G     + T++EL +    +  A G+   F   
+Sbjct  150  LVSFGVFKLSKRWGAKAGLAVFLAVFFGDLMTYVITSVELAMA---YPDATGS---FMVS  203
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKV  212
+            L   I    F  + +A + E ++T ++   L K 
+Sbjct  204  LGKFISIFGFTQVPLA-VCEGLLTVVIYNVLAKY  236
+
+
+> sp|B7GLU2|CBIM_ANOFW Cobalt transport protein CbiM OS=Anoxybacillus 
+flavithermus (strain DSM 21510 / WK1) OX=491915 GN=cbiM 
+PE=3 SV=1
+Length=250
+
+ Score = 204 bits (519),  Expect = 2e-63, Method: Composition-based stats.
+ Identities = 56/212 (26%), Positives = 95/212 (45%), Gaps = 9/212 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  Q   V     +P   V  + V +   ++      +A+ +AF F +    +
+Sbjct  28   MHIMEGFLPWQWALVWWLLFLPFFLVGMRNVARLMRQRPEVKLLLALATAFTFVLSALKI  87
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A   GP+  ++  T  L  QALL   GG+  LGAN+F+MA + P
+Sbjct  88   PSVTGSSSHPTGTGLGALLFGPFVMTVIGTAVLLFQALLLAHGGVTTLGANAFSMAVVGP  147
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V Y ++ L     ++  +S  +   +   A  + T+I+L L    F  A        +G
+Sbjct  148  LVAYVLFSLCKKFGVSTRVSVFLAAMMADLATYVMTSIQLALA---FPDATSG----VWG  200
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQ  210
+              +   ++         I E ++T +V  +L 
+Sbjct  201  AFLKFASIFAVTQIPLAITEGLLTVVVWNFLH  232
+
+
+> sp|E3PSD4|CBIM_ACESD Cobalt transport protein CbiM OS=Acetoanaerobium 
+sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 
+/ NCIMB 10654) OX=499177 GN=cbiM PE=3 SV=1
+Length=241
+
+ Score = 202 bits (513),  Expect = 1e-62, Method: Composition-based stats.
+ Identities = 58/217 (27%), Positives = 95/217 (44%), Gaps = 11/217 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P   A+     +P +     K+ K  D+       + +  AF F +    +
+Sbjct  25   MHIMEGFLPPLWAAIWSVISLPFIVGGFSKIKKITDESPNMKLLLGLVGAFVFVLSALKL  84
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  L     GP   ++   + L  QALL   GGI  LGAN F+MA + P
+Sbjct  85   PSVTGSTSHPTGVGLGTIIFGPLPMAVIGLIVLIFQALLLAHGGITTLGANVFSMAIVGP  144
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            F GY I++ +     N+ L+  +   +      + T+++L L     H      +   + 
+Sbjct  145  FAGYFIFKAIK--DKNRSLAVFLAAMLADLITYIVTSLQLALA----HPDAVNGIVGSFT  198
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEE  215
+              + I A+    L    I E ++T +V   L +  +E
+Sbjct  199  KFMGIFAITQIPL---AIGEGILTLIVYNLLVEYQKE  232
+
+
+> sp|A1ANC7|CBIM1_PELPD Cobalt transport protein CbiM 1 OS=Pelobacter 
+propionicus (strain DSM 2379 / NBRC 103807 / OttBd1) 
+OX=338966 GN=cbim1 PE=3 SV=1
+Length=226
+
+ Score = 200 bits (509),  Expect = 3e-62, Method: Composition-based stats.
+ Identities = 58/220 (26%), Positives = 96/220 (44%), Gaps = 11/220 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  +       A  PV+      +NK  +K       + + +AF F +    +
+Sbjct  1    MHIMEGFLPVEHAIGWSVASAPVVAYGLYSINKKINKNPEQRMLLGVAAAFTFVLSALKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A +    + L  QALL   GG+  LGAN F+MA + P
+Sbjct  61   PSVTGSCSHPTGTGLGAILFGPSAVAPIGAVVLLFQALLLAHGGLTTLGANIFSMAIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            F    ++RL  + +    +   +   +G     + TA +L      F    G      + 
+Sbjct  121  FAAAAVFRLARAARFPFGVGVFLAASLGDLLTYVTTACQLAFA---FPDPVGG-----FT  172
+
+Query  179  LNVAIPAMMFAHLTVA-GIVEAVITGLVVYYLQKVDEENI  217
+             ++A  A +FA   +   I E ++T +V+  L + + E +
+Sbjct  173  ASLAKFAGVFALTQIPLAISEGLLTVVVMNALLRFNREEL  212
+
+
+> sp|A1ANE2|CBIM2_PELPD Cobalt transport protein CbiM 2 OS=Pelobacter 
+propionicus (strain DSM 2379 / NBRC 103807 / OttBd1) 
+OX=338966 GN=cbiM2 PE=3 SV=1
+Length=226
+
+ Score = 200 bits (509),  Expect = 4e-62, Method: Composition-based stats.
+ Identities = 58/220 (26%), Positives = 95/220 (43%), Gaps = 11/220 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  +       A  PV+      +NK   K       + + +AF F +    +
+Sbjct  1    MHIMEGFLPVEHAIGWSVASAPVVAYGLYSINKKIKKNPEQRMLLGVAAAFTFVLSALKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A +    + L  QALL   GG+  LGAN F+MA + P
+Sbjct  61   PSVTGSCSHPTGTGLGAILFGPSAVAPIGAVVLLFQALLLAHGGLTTLGANIFSMAIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            F    ++RL  + +    +   +   +G     + TA +L      F    G      + 
+Sbjct  121  FAAAAVFRLARAARFPFGVGVFLAASLGDLLTYVTTACQLAFA---FPDPVGG-----FT  172
+
+Query  179  LNVAIPAMMFAHLTVA-GIVEAVITGLVVYYLQKVDEENI  217
+             ++A  A +FA   +   I E ++T +V+  L + + E +
+Sbjct  173  ASLAKFAGVFALTQIPLAISEGLLTVVVMNALLRFNREEL  212
+
+
+> sp|O29530|CBIM_ARCFU Putative cobalt transport protein CbiM OS=Archaeoglobus 
+fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 
+/ JCM 9628 / NBRC 100126) OX=224325 GN=cbiM PE=3 SV=2
+Length=217
+
+ Score = 199 bits (506),  Expect = 6e-62, Method: Composition-based stats.
+ Identities = 54/220 (25%), Positives = 96/220 (44%), Gaps = 9/220 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL P+  A      +P L   A +V +  ++K      +A+ + F F +    +
+Sbjct  1    MHIMEGYLPPEWAAFWYVFAIPFLVYGALRVKRIIEEKPSMKSLIAVSAGFIFVLSALKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  +     GP   ++   + L  QALL   GGI  LGAN+ +M  I P
+Sbjct  61   PSVTGSCSHPTGTGIAVVFFGPAVTALLSAIVLLYQALLLAHGGITTLGANTASMGVIGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FVG+  ++L+    +N  ++      +      + T+++L L    F ++ G        
+Sbjct  121  FVGWIAFKLLK--NVNFRVAVFAAAMLSDLVTYVVTSLQLALA---FPSSAGVAGIIKSA  175
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENIL  218
+                   +         I+E V+  ++V Y+ +V  + + 
+Sbjct  176  ATFM--GIFAVTQVPLSIIEGVVAVMLVSYIFEVRSDVLE  213
+
+
+> sp|D5AUZ9|CBIM_RHOCB Cobalt transport protein CbiM OS=Rhodobacter 
+capsulatus (strain ATCC BAA-309 / NBRC 16581 / SB1003) 
+OX=272942 GN=cbiM PE=1 SV=1
+Length=222
+
+ Score = 199 bits (505),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 58/212 (27%), Positives = 94/212 (44%), Gaps = 9/212 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIG--SAFAFTIMMFNV  58
+            MHI EGYL          A  P +   A K+ K   ++    M +    AFAF +    +
+Sbjct  1    MHIMEGYLPVTHAIGWSLAAGPFVVAGAVKIRKIVAERPEARMTLAASGAFAFVLSALKI  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP   ++   + L  QALL   GG+  LGAN+F+MA + P
+Sbjct  61   PSVTGSCSHPTGTGLGAVVFGPSVMAVLGVIVLLFQALLLAHGGLTTLGANAFSMAIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            +V +G+Y+L      +  ++  +  ++G  A  + T+++L L       +        +G
+Sbjct  121  WVAWGVYKLAGKAGASMAVAVFLAAFLGDLATYVTTSLQLALA-YPDPVSGFLGAALKFG  179
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQ  210
+               A+  +  A      I E  +T +VV  L 
+Sbjct  180  SVFALTQIPLA------IAEGFLTVIVVDALA  205
+
+
+> sp|Q897L1|CBIM_CLOTE Cobalt transport protein CbiM OS=Clostridium 
+tetani (strain Massachusetts / E88) OX=212717 GN=cbiM PE=3 
+SV=1
+Length=241
+
+ Score = 198 bits (503),  Expect = 4e-61, Method: Composition-based stats.
+ Identities = 53/220 (24%), Positives = 96/220 (44%), Gaps = 11/220 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P    V      P + +  K++ +           + + +A+AF +    +
+Sbjct  24   MHIAEGFLPPMWSGVYFVISAPFIIIGLKQIRERAKDNKDIKMLLGLVAAYAFILSAMKI  83
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+ ++I   + L  QA+L   GGI  LGAN+ +M  + P
+Sbjct  84   PSVTGSCSHPTGTGLSAIIFGPFISAIVGLIVLIFQAILLAHGGITTLGANTLSMGIMGP  143
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V Y IYR       N+ ++  +   +G       T+++L L       A    +   + 
+Sbjct  144  IVSYLIYRGFK--NKNQKVAVFLAATLGDLFTYFITSVQLALA----FPAQQGGIAASFA  197
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENIL  218
+               +I ++    L    I+E ++T ++  ++ K   + I 
+Sbjct  198  KFFSIFSITQIPL---AIMEGILTVIIFEFVMKYASKEIE  234
+
+
+> sp|A5UQS9|CBIM_ROSS1 Cobalt transport protein CbiM OS=Roseiflexus 
+sp. (strain RS-1) OX=357808 GN=cbiM PE=3 SV=1
+Length=249
+
+ Score = 197 bits (502),  Expect = 6e-61, Method: Composition-based stats.
+ Identities = 55/214 (26%), Positives = 96/214 (45%), Gaps = 12/214 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P         ++P   +  +++N+    K      +   +AFAF +    +
+Sbjct  28   MHIMEGFLPPVWAGFWFIVVLPFWVLGLRRINRLIAGKPETRLLLGFAAAFAFVLSALKI  87
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L     GP   S+  ++ L  QALL   GG+  LGAN+F+MA + P
+Sbjct  88   PSVTGSSSHPTGTGLGTILFGPLVMSVLGSIVLLFQALLIAHGGLTTLGANAFSMAVVGP  147
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FV + I++ +   +    L+  +   +      + T+ +L L    +  A G      + 
+Sbjct  148  FVAWLIWKGL-KDRAPIWLTVFLAAALADLFTYVVTSAQLALA---YPDAVGG-----FA  198
+
+Query  179  LNVAIPAMMFAHLTVA-GIVEAVITGLVVYYLQK  211
+             + A    +FA   +   I E ++T L+   LQ 
+Sbjct  199  ASFARFGAIFAVTQIPLAISEGILTVLIFNALQA  232
+
+
+> sp|Q58964|Y1569_METJA Putative metal transport protein MJ1569 
+OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1569 PE=3 
+SV=1
+Length=222
+
+ Score = 196 bits (499),  Expect = 8e-61, Method: Composition-based stats.
+ Identities = 101/221 (46%), Positives = 144/221 (65%), Gaps = 9/221 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+GYL P TCA     M+P+   + K++ K  D + +P + + +AF+F +MMFN+P+
+Sbjct  1    MHIPDGYLGPITCAFFYLIMIPIWYKSIKELKK-LDPRKLPLLGVLTAFSFLVMMFNLPV  59
+
+Query  61   PGGTTAHAIGATLLATTL-GPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPF  119
+            P GTTAH +G TL+A  +  PW A+I++++ L IQA+ FGDGGI  +GAN FNM  + PF
+Sbjct  60   PDGTTAHMVGGTLIAILMDNPWVATIAISIVLIIQAIFFGDGGITCIGANCFNMGVVLPF  119
+
+Query  120  VGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYGL  179
+            VGY +Y+ +   K+ +V++S IG YVGI AAA+    E GLQP +       P Y PY  
+Sbjct  120  VGYYVYKFL-RDKVGEVIASGIGAYVGIVAAAIVAGFEFGLQPFI------EPGYCPYPF  172
+
+Query  180  NVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+             V++PAM FAHL  AG   AV+T +VV+Y++KV  +    K
+Sbjct  173  TVSVPAMAFAHLITAGPAAAVVTAIVVWYVKKVRPDLFTSK  213
+
+
+> sp|A2SQF0|CBIM1_METLZ Putative cobalt transport protein CbiM 
+1 OS=Methanocorpusculum labreanum (strain ATCC 43576 / DSM 4855 
+/ Z) OX=410358 GN=cbiM1 PE=3 SV=2
+Length=231
+
+ Score = 191 bits (485),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 57/222 (26%), Positives = 97/222 (44%), Gaps = 11/222 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MH  +G+L    C        P L     K+ K    D+  +P MA+  AF F + + ++
+Sbjct  1    MHFMDGFLPIGWCVFWAVLAAPFLIYGMWKITKMINNDRHVLPLMAVCGAFIFVVSLVDI  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P P G+ +H  G  L A+  GP   S+   + L  QALL G GG   LGA +F+MA + P
+Sbjct  61   PSPTGSCSHPTGTGLSASFFGPAVTSVLGLIILVFQALLLGHGGFTTLGATAFSMAVMGP  120
+
+Query  119  FVGYGIYRLMLSLK-LNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+               + +++ +     +    +      V      L T++++ L     +   G+ L    
+Sbjct  121  LAAWLVFKGLRKTGRVPLGPAVFCAAVVANCVTYLITSLQIALA----YPVEGSVL----  172
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+               +A  A+         I+E +I+GLV  Y+ ++  E +  
+Sbjct  173  TAFLAAAAVFAVVQIPISIIEGIISGLVATYIARIKPEILQK  214
+
+
+> sp|D7GIS1|CBIM_PROFC Cobalt transport protein CbiM OS=Propionibacterium 
+freudenreichii subsp. shermanii (strain ATCC 9614 
+/ DSM 4902 / CIP 103027 / NCIMB 8099 / CIRM-BIA1) OX=754252 
+GN=cbiM PE=3 SV=1
+Length=235
+
+ Score = 191 bits (485),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 57/219 (26%), Positives = 89/219 (41%), Gaps = 9/219 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG L P  CA+  AA  P +   A +V K           +A   A  F +    +
+Sbjct  1    MHIAEGVLPPVQCAIWFAAAAPFVVHGAVQVVKQIKHHPENRLLLATAGACTFLLSSIKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  + A    P   +    + L  QALL   GGI  LGAN+F+MA + P
+Sbjct  61   PSVTGSSSHPTGTGVGAVLFKPPVMAFMGLIVLIFQALLLAHGGITTLGANTFSMAIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            +VGYG Y L   L     L   +  ++   +    T+ +L        ++        + 
+Sbjct  121  WVGYGAYVLNKKLGGPLALGIFLAMFLSDLSTYCVTSFQLAFA-YPDPSSGVLGAAEKFL  179
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI  217
+               AI  +         + E ++  L+  +L KV    +
+Sbjct  180  GIFAISQI------PLSVAEGILGILLFRFLFKVAGPQL  212
+
+
+> sp|Q748J7|CBIM_GEOSL Cobalt transport protein CbiM OS=Geobacter 
+sulfurreducens (strain ATCC 51573 / DSM 12127 / PCA) OX=243231 
+GN=cbiM PE=3 SV=1
+Length=346
+
+ Score = 194 bits (493),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 60/222 (27%), Positives = 102/222 (46%), Gaps = 11/222 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG L     A+  A   P L +  ++VN+         P + + +A  F I    +
+Sbjct  26   MHISEGILPLGWAALWFAVAAPFLALGIRRVNELSRHDLSFKPLVGLMAAVVFIISCMPI  85
+
+Query  59   PIPG-GTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIA  117
+            P+P  GT +H  G  + A  +GP  + +  T+AL IQAL    GG+  LGA+  +M    
+Sbjct  86   PVPTAGTCSHPCGTGIAAILVGPLVSVVITTVALLIQALFLAHGGLSTLGADVVSMGVAG  145
+
+Query  118  PFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+             F G+ ++R M  L     +++ + G +   A  L TA+EL           G+  ++P 
+Sbjct  146  SFAGWFVFRGMRRLGAGLAVAAFVAGLLADWATYLTTALELS------SGVRGSEPFYPL  199
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+             L + + A +   L + G++E  +T  +V  L +   + +  
+Sbjct  200  FLKI-VAAFVPTQLPL-GVLEGAMTAGMVVLLHRKRPDLLAK  239
+
+
+> sp|D9S0S1|CBIM_THEOJ Cobalt transport protein CbiM OS=Thermosediminibacter 
+oceani (strain ATCC BAA-1034 / DSM 16646 / JW/IW-1228P) 
+OX=555079 GN=cbiM PE=3 SV=1
+Length=244
+
+ Score = 191 bits (485),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 58/213 (27%), Positives = 99/213 (46%), Gaps = 11/213 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MH+ EG+L  + C +  +  +P L      + K+  ++      +    AF F +    +
+Sbjct  21   MHVMEGFLPFKWCLLWYSIYIPFLMAGLIYIKKNIAEEPSKKILLGFAGAFVFALSALKL  80
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A  LGP   ++   + L  QALL   GGI  LGAN+F+MA    
+Sbjct  81   PSVAGSSSHPTGIGLGAILLGPLPMAVIGGIVLLFQALLLAHGGITTLGANAFSMAVAGS  140
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            F  YG+Y++   + L+K  S  +G   G     + T+++L L    F  + G        
+Sbjct  141  FAAYGLYKVAGRVGLSKSASVFLGAASGDLMTYIITSLQLALA---FPASRGGV-----A  192
+
+Query  179  LNVAIPAMMFAHLTVA-GIVEAVITGLVVYYLQ  210
+             + A  + +FA   +   I E ++T +V+  L+
+Sbjct  193  ASFAGFSGIFAVTQLPLAIGEGILTVIVLNLLE  225
+
+
+> sp|Q8DG81|CBIM_THEEB Cobalt transport protein CbiM OS=Thermosynechococcus 
+elongatus (strain BP-1) OX=197221 GN=cbiM PE=3 
+SV=1
+Length=257
+
+ Score = 188 bits (478),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 51/212 (24%), Positives = 90/212 (42%), Gaps = 9/212 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG+L          A +P L      + +   +       +A+  A+AF +    +
+Sbjct  34   MHISEGFLPLGWAVGWWLAFLPFLAWGLWSLQQQIKQHSESVLLVALAGAYAFVVSSLKI  93
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H IG  L A    P   ++  TL L  Q+LL   GG+  LGAN+F+MA + P
+Sbjct  94   PSVTGSCSHPIGIALGAILFRPPLMAVLGTLVLLFQSLLIAHGGLTTLGANAFSMAVVGP  153
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            ++ +  Y  +  L++   ++     ++        T+++L L             +  +G
+Sbjct  154  WLAWLTYCGVSRLRVKPAIALFAASFISNVGTYTLTSLQLALA-FPDSVGGLATSFAKFG  212
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQ  210
+               A+  +  A      I E ++T LV  +L 
+Sbjct  213  TLFAVTQIPLA------ISEGLLTVLVWNWLT  238
+
+
+> sp|Q8YQ91|CBIM_NOSS1 Cobalt transport protein CbiM OS=Nostoc 
+sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=cbiM 
+PE=3 SV=1
+Length=261
+
+ Score = 187 bits (474),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 59/220 (27%), Positives = 96/220 (44%), Gaps = 11/220 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSA--FAFTIMMFNV  58
+            MHI EGYL     A      +P + +  + + +         + +  A  F F +    +
+Sbjct  34   MHIMEGYLPAGWAAFWWLVALPFMLLGVRSLTRITKANPELKLLLALAGAFTFVLSALKL  93
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L +   GP A S+  +L L  QALL   GG+  LGAN+F+MA   P
+Sbjct  94   PSVTGSCSHPTGTGLGSVLFGPLAMSVLGSLVLLFQALLLAHGGLTTLGANAFSMAIAGP  153
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            F  Y IY L + L   + ++  +   +      + T+++L L    F    G      + 
+Sbjct  154  FAAYWIYHLTIKLTGKQRIAIFLAATLADLLTYIITSVQLALA---FPAPVGG-----FI  205
+
+Query  179  LNVAIPAMMFAHLTVA-GIVEAVITGLVVYYLQKVDEENI  217
+             + A  A +FA   +   I E ++T LV  +LQ    + +
+Sbjct  206  ASFAKFAGIFAITQIPLAISEGLLTVLVWNWLQSYSPQEL  245
+
+
+> sp|B0R611|CBIM_HALS3 Putative cobalt transport protein CbiM OS=Halobacterium 
+salinarum (strain ATCC 29341 / DSM 671 / R1) 
+OX=478009 GN=cbiM PE=3 SV=1
+Length=220
+
+ Score = 180 bits (458),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 52/215 (24%), Positives = 89/215 (41%), Gaps = 8/215 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L      V     +PV++  A K  +    D+ +   +A+ +AF F +    +
+Sbjct  1    MHIMEGFLPGIWALVWFVVAIPVISYGALKTARLARNDELNKSHIAVAAAFIFVLSALKI  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  +     GP   +    + L  QALL G GG+  LGAN  +M  + P
+Sbjct  61   PSVTGSTSHPTGTGIAVVLFGPAVTAFLSAIVLLYQALLLGHGGLTTLGANVVSMGVVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+              G+ ++R +    L+   ++     +      L T+I+LG+         G        
+Sbjct  121  VAGWVVFRALNPY-LDLQKATFAAAVIADWTTYLVTSIQLGVAFPSGPGVAGVVDSI---  176
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVD  213
+              V   ++        GIVE  +   ++ Y+    
+Sbjct  177  --VRFASVFSITQIPIGIVEGALAAGLIGYIAMSR  209
+
+
+> sp|Q18J48|CBIM_HALWD Putative cobalt transport protein CbiM OS=Haloquadratum 
+walsbyi (strain DSM 16790 / HBSQ001) OX=362976 
+GN=cbiM PE=3 SV=1
+Length=220
+
+ Score = 177 bits (450),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 65/220 (30%), Positives = 98/220 (45%), Gaps = 8/220 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P+  A    A  P++   AK+       D +    +AIG AF F +     
+Sbjct  1    MHIMEGFLPPRWAAAWTLAAAPIVVYGAKQTIDIIRQDARVKALVAIGIAFVFILSALKF  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  LL    GP   + + T+ L  QALL   GGI  LGAN   M  I P
+Sbjct  61   PSVTGSTSHPTGTGLLVVLFGPAVTAFTATIVLLYQALLLAHGGITTLGANVVAMGIIGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             VG+  Y+++     +   ++ I   +      L T+++LG     F   +G        
+Sbjct  121  TVGWTAYQIIRPY-TSLERATFIAAVLTDWTTYLVTSLQLGAA---FPAGDGLDAIIISA  176
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENIL  218
+            L+ A  A+        GI+E ++   V+ YL ++  E I 
+Sbjct  177  LDFA--AIFTLTQVPIGILEGILAAAVIGYLTRLGSETIE  214
+
+
+> sp|D5AQY8|NIKMN_RHOCB Fused nickel transport protein NikMN OS=Rhodobacter 
+capsulatus (strain ATCC BAA-309 / NBRC 16581 / 
+SB1003) OX=272942 GN=nikMN PE=1 SV=1
+Length=347
+
+ Score = 181 bits (459),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 109/221 (49%), Positives = 148/221 (67%), Gaps = 4/221 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+GYLSP TCAV  AA VP   V+ +K+++  + + +P +A+ +AF+F IMMFN+PI
+Sbjct  1    MHIPDGYLSPVTCAVTFAATVPFWYVSMRKLDRDLNGQHLPLVALVAAFSFVIMMFNLPI  60
+
+Query  61   PGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPFV  120
+            PGGTTAHA G  + A  LGPWAA  ++++AL IQA+ FGDGGI A GAN  NMA + P V
+Sbjct  61   PGGTTAHAAGIGIAAVLLGPWAAVPAISVALLIQAIFFGDGGITAFGANCLNMAVVGPMV  120
+
+Query  121  GYGIYRLMLS----LKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFP  176
+               +Y L           +V+ + +  Y G+NAAAL  A+E G+QPL FH A G PLY P
+Sbjct  121  AAAVYALGTRGAAIGSRRRVIMAGLASYAGLNAAALLAAVEFGVQPLFFHDAAGAPLYAP  180
+
+Query  177  YGLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI  217
+            Y L+VA+PAM   HLT+AG  E ++T  +V +LQ+ + E +
+Sbjct  181  YPLSVAVPAMALTHLTIAGAAEFIVTAGLVAWLQRSNPELL  221
+
+
+> sp|A9GQ89|CBIM_SORC5 Cobalt transport protein CbiM OS=Sorangium 
+cellulosum (strain So ce56) OX=448385 GN=cbiM PE=3 SV=2
+Length=225
+
+ Score = 174 bits (441),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 61/232 (26%), Positives = 97/232 (42%), Gaps = 11/232 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MH+ EG L    CA   A  +P + +A   + +  ++     P + + +A  F I    V
+Sbjct  1    MHLAEGVLPLGWCAFWNALALPFVAIALHLLRRRTEQDAFYKPFVGLIAAAVFAISCMPV  60
+
+Query  59   PIPG-GTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIA  117
+            P+P  GT +H  G  L A  +GPW   +   +AL IQAL    GG+  LGA+  +M    
+Sbjct  61   PVPTAGTCSHPCGTGLAAVLIGPWMTVLVTVVALLIQALFLAHGGLTTLGADVASMGIAG  120
+
+Query  118  PFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+             F GY  + L      N  ++  + G     A    TA+ L L        +G       
+Sbjct  121  AFTGYFAFHLARRSGANLWVAGFLAGVTSDWATYATTALALAL------GLSGEGSVTSM  174
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRGDN  229
+               VA+ A +   L + G++E V+T   + +L+    + +      RL    
+Sbjct  175  FTGVAL-AFVPTQLPL-GLLEGVMTAGALAFLRARRPDILDRLQVVRLAPGA  224
+
+
+> sp|A2SSD6|CBIMQ_METLZ Putative fused cobalt transport protein 
+CbiMQ OS=Methanocorpusculum labreanum (strain ATCC 43576 / 
+DSM 4855 / Z) OX=410358 GN=cbiMQ PE=3 SV=1
+Length=599
+
+ Score = 182 bits (462),  Expect = 7e-52, Method: Composition-based stats.
+ Identities = 44/223 (20%), Positives = 85/223 (38%), Gaps = 15/223 (7%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L            V  +      + +   +    +P + +  A  F +    +
+Sbjct  1    MHIMEGFLPSPWWQFWALLAVVCVLAGMAALIRLVKRNPESLPLLGLAGACVFILSSLKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++HA G    A   GP   S+  T+ L  QALL   GGI  LGAN  +M    P
+Sbjct  61   PSV-GSSSHATGTGFGAILFGPAVCSVFCTIVLVFQALLLAHGGITTLGANIISMGVAGP  119
+
+Query  119  FVGYGIYRLMLSLK-----LNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPL  173
+                 I+++   ++      +  ++             + T+++L L    +  A G  L
+Sbjct  120  LAACIIFKIGHLIRPEFSIRSFSVTVFCAAAAADLVTYMMTSLQLALA---YPAAEGGVL  176
+
+Query  174  YFPYGLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEEN  216
+                   V    +         ++E ++  L++ ++ ++  + 
+Sbjct  177  ----ASFVVYLGIFSITQVPLAVLEGILIVLMMRFVIRIRPDI  215
+
+
+> sp|O28435|NIKMN_ARCFU Putative fused nickel transport protein 
+NikMN OS=Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 
+/ DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 GN=AF_1843 PE=3 
+SV=2
+Length=295
+
+ Score = 168 bits (426),  Expect = 5e-49, Method: Composition-based stats.
+ Identities = 80/220 (36%), Positives = 114/220 (52%), Gaps = 17/220 (8%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+GYL      +     + VL  +  ++     +K      I +A  F   M N PI
+Sbjct  1    MHIPDGYLDLSIAGLFYILSIAVLGYSIYRLR---GQKLTSLFGIVAAAIFAAQMLNWPI  57
+
+Query  61   PGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPFV  120
+            PGGT+AH +G  L    LGP+A ++++ + L IQ L+F DGGI ALGAN +NMA +  FV
+Sbjct  58   PGGTSAHFVGGALAGILLGPYAGALAMAVVLTIQCLVFADGGITALGANVWNMAIVNVFV  117
+
+Query  121  GYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYGLN  180
+            GY +YR +     N+  ++ I G++GI  AA+   IE+G+              F YGL 
+Sbjct  118  GYYVYRAIER--FNRSAAAFIAGWIGITLAAIFAGIEIGIST-----------SFGYGLK  164
+
+Query  181  VAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+            V +P M   H  + G+VE  IT  VV Y+     + I  K
+Sbjct  165  VTLPVMGTWH-ALLGLVEGTITAGVVSYIAAARPDVIEQK  203
+
+
+> sp|Q18EC4|Y3621_HALWD Putative metal transport protein HQ_3621A 
+OS=Haloquadratum walsbyi (strain DSM 16790 / HBSQ001) OX=362976 
+GN=cbiM PE=3 SV=1
+Length=218
+
+ Score = 162 bits (410),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 65/223 (29%), Positives = 107/223 (48%), Gaps = 14/223 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+G+L P    +        + +A +        +  P + + +A  F   M N PI
+Sbjct  1    MHIPDGFLDPLVAGLFWLGSAVTIGLAVRHARSELGDERTPLLGVVAAGIFAAQMLNWPI  60
+
+Query  61   PGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPFV  120
+            PGGT+AH +G       LGP    +++T  + IQAL+FGDGGI+ALG N F +A +   +
+Sbjct  61   PGGTSAHFVGGAFAGILLGPSLGVLAMTAVVTIQALVFGDGGIIALGGNLFAIAVVNVLI  120
+
+Query  121  GYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYGLN  180
+            GYG++R+    ++++  ++ I G+  +  +AL  A+ +G               F Y + 
+Sbjct  121  GYGLFRMFR--EIHESGAAFIAGWAAVTLSALIVALGVGFSSA-----------FAYEIG  167
+
+Query  181  VAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSY  223
+              +  M   H  V GI+E  IT  V  Y+     + +  +F  
+Sbjct  168  TTVTIMTGGH-AVLGIIEGAITAGVYTYIAAARPDLVFTQFEN  209
+
+
+> sp|P44274|Y1621_HAEIN Putative metal transport protein HI_1621 
+OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / 
+KW20 / Rd) OX=71421 GN=HI_1621 PE=3 SV=1
+Length=206
+
+ Score = 41.8 bits (97),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 33/123 (27%), Positives = 51/123 (41%), Gaps = 6/123 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MH+ EG L            V  + V  +++    + + +P  A+ +A  F     +VP+
+Sbjct  1    MHLSEGVLHTPILLAGAVLAVAGIAVGLRRL----ESERLPLTALFAAAFFVAGTIHVPV  56
+
+Query  61   PGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPFV  120
+              G+  H I   +    LG WA   +  +AL +Q + F  GG   LG N   MA  A   
+Sbjct  57   GIGSV-HLILNGMAGLFLG-WAVFPAFLIALLLQVIFFSFGGFAVLGVNLCVMATPAVIA  114
+
+Query  121  GYG  123
+             Y 
+Sbjct  115  HYL  117
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.146    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0448    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15796207664
+Results from round 3
+
+
+Query= Q8R9C0|4m58A
+
+Length=230
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|D7DR00|CBIM_METV3 Putative cobalt transport protein CbiM OS=...  236     2e-76
+  sp|A4J832|CBIM_DESRM Cobalt transport protein CbiM OS=Desulfoto...  236     5e-76
+  sp|O54190|CBIM_STRCO Cobalt transport protein CbiM OS=Streptomy...  235     5e-76
+  sp|B8GJG9|CBIM1_METPE Putative cobalt transport protein CbiM 1 ...  235     7e-76
+  sp|Q46AL8|CBIM2_METBF Putative cobalt transport protein CbiM 2 ...  234     2e-75
+  sp|C9YID6|CBIM_PEPDR Cobalt transport protein CbiM OS=Peptoclos...  234     4e-75
+  sp|A5VM74|CBIM_LACRD Cobalt transport protein CbiM OS=Lactobaci...  232     2e-74
+  sp|Q2NHA4|CBIM_METST Putative cobalt transport protein CbiM OS=...  230     6e-74
+  sp|Q58491|CBIM_METJA Putative cobalt transport protein CbiM OS=...  230     7e-74
+  sp|Q2RJ53|CBIM_MOOTA Cobalt transport protein CbiM OS=Moorella ...  231     8e-74
+  sp|B3EC54|CBIM_CHLL2 Cobalt transport protein CbiM OS=Chlorobiu...  230     1e-73
+  sp|B8GEB7|CBIM2_METPE Putative cobalt transport protein CbiM 2 ...  229     2e-73
+  sp|D3UMA1|CBIM_LISSS Cobalt transport protein CbiM OS=Listeria ...  229     3e-73
+  sp|Q05594|CBIM_SALTY Cobalt transport protein CbiM OS=Salmonell...  228     7e-73
+  sp|D9SNZ5|CBIM_CLOC7 Cobalt transport protein CbiM OS=Clostridi...  228     1e-72
+  sp|A6LKX5|CBIM_THEM4 Cobalt transport protein CbiM OS=Thermosip...  226     2e-72
+  sp|D5WSC8|CBIM_KYRT2 Cobalt transport protein CbiM OS=Kyrpidia ...  227     3e-72
+  sp|D1AFI6|CBIM_SEBTE Cobalt transport protein CbiM OS=Sebaldell...  225     1e-71
+  sp|Q3AE25|CBIM_CARHZ Cobalt transport protein CbiM OS=Carboxydo...  223     5e-71
+  sp|D9QVP6|CBIM_ACEAZ Cobalt transport protein CbiM OS=Acetohalo...  223     6e-71
+  sp|A2SSE8|CBIM2_METLZ Putative cobalt transport protein CbiM 2 ...  222     8e-71
+  sp|Q46D59|CBIM1_METBF Putative cobalt transport protein CbiM 1 ...  222     9e-71
+  sp|A9KP98|CBIM_LACP7 Cobalt transport protein CbiM OS=Lachnoclo...  222     2e-70
+  sp|B7GLU2|CBIM_ANOFW Cobalt transport protein CbiM OS=Anoxybaci...  222     2e-70
+  sp|E3PSD4|CBIM_ACESD Cobalt transport protein CbiM OS=Acetoanae...  220     1e-69
+  sp|Q897L1|CBIM_CLOTE Cobalt transport protein CbiM OS=Clostridi...  220     1e-69
+  sp|A3CL70|CBIM_STRSV Cobalt transport protein CbiM OS=Streptoco...  220     1e-69
+  sp|A1ANE2|CBIM2_PELPD Cobalt transport protein CbiM 2 OS=Peloba...  218     4e-69
+  sp|A1ANC7|CBIM1_PELPD Cobalt transport protein CbiM 1 OS=Peloba...  217     5e-69
+  sp|B8I0P7|CBIM_CLOCE Cobalt transport protein CbiM OS=Clostridi...  218     6e-69
+  sp|O29530|CBIM_ARCFU Putative cobalt transport protein CbiM OS=...  212     9e-67
+  sp|A5UQS9|CBIM_ROSS1 Cobalt transport protein CbiM OS=Roseiflex...  212     1e-66
+  sp|D5AUZ9|CBIM_RHOCB Cobalt transport protein CbiM OS=Rhodobact...  210     4e-66
+  sp|D7GIS1|CBIM_PROFC Cobalt transport protein CbiM OS=Propionib...  210     4e-66
+  sp|Q8DG81|CBIM_THEEB Cobalt transport protein CbiM OS=Thermosyn...  206     3e-64
+  sp|Q8YQ91|CBIM_NOSS1 Cobalt transport protein CbiM OS=Nostoc sp...  205     1e-63
+  sp|F9USS7|LARMN_LACPL Probable fused nickel transport protein L...  204     2e-62
+  sp|D9S0S1|CBIM_THEOJ Cobalt transport protein CbiM OS=Thermosed...  200     4e-62
+  sp|A2SQF0|CBIM1_METLZ Putative cobalt transport protein CbiM 1 ...  200     6e-62
+  sp|Q748J7|CBIM_GEOSL Cobalt transport protein CbiM OS=Geobacter...  200     1e-60
+  sp|A2SSD6|CBIMQ_METLZ Putative fused cobalt transport protein C...  204     5e-60
+  sp|B0R611|CBIM_HALS3 Putative cobalt transport protein CbiM OS=...  192     3e-59
+  sp|A9GQ89|CBIM_SORC5 Cobalt transport protein CbiM OS=Sorangium...  188     2e-57
+  sp|Q58964|Y1569_METJA Putative metal transport protein MJ1569 O...  187     2e-57
+  sp|Q18J48|CBIM_HALWD Putative cobalt transport protein CbiM OS=...  182     2e-55
+  sp|D5AQY8|NIKMN_RHOCB Fused nickel transport protein NikMN OS=R...  171     1e-49
+  sp|O28435|NIKMN_ARCFU Putative fused nickel transport protein N...  162     8e-47
+  sp|Q18EC4|Y3621_HALWD Putative metal transport protein HQ_3621A...  156     4e-45
+  sp|P44274|Y1621_HAEIN Putative metal transport protein HI_1621 ...  79.6    1e-16
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|D7DR00|CBIM_METV3 Putative cobalt transport protein CbiM OS=Methanococcus 
+voltae (strain ATCC BAA-1334 / A3) OX=456320 
+GN=cbiM PE=3 SV=1
+Length=222
+
+ Score = 236 bits (603),  Expect = 2e-76, Method: Composition-based stats.
+ Identities = 69/232 (30%), Positives = 100/232 (43%), Gaps = 13/232 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL  +   V       V+      +NK         P +AI  AF F +    +
+Sbjct  1    MHIMEGYLPMEWAIVWYIISAIVVGYGILNLNKVLKNNPEAKPLLAISGAFMFVLSSLKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP   S+  T+ L  QAL+   GGI  LGAN F+M  + P
+Sbjct  61   PSVSGSCSHPTGNGLGAILFGPAITSVLATIVLLFQALVLAHGGISTLGANIFSMGIMGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FVGY +++ +   KLN      +       A  L T+I+L L    F   +    +  +G
+Sbjct  121  FVGYLVFKAL-RGKLNITWVVMLTAIFADWATYLTTSIQLALA---FPVPDFMSSFTEFG  176
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRGDNR  230
+               AI  +         I E +IT L+  YL ++  E +  K +   +G N 
+Sbjct  177  TIFAITQI------PLAIAEGLITALLWDYLSELRPE-LFEKITNIKKGGNN  221
+
+
+> sp|A4J832|CBIM_DESRM Cobalt transport protein CbiM OS=Desulfotomaculum 
+reducens (strain MI-1) OX=349161 GN=cbiM PE=3 SV=1
+Length=250
+
+ Score = 236 bits (603),  Expect = 5e-76, Method: Composition-based stats.
+ Identities = 60/229 (26%), Positives = 92/229 (40%), Gaps = 11/229 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L    C    A  VP +    + ++ S          + +  AF F +    +
+Sbjct  25   MHIAEGFLPAGWCLFWLALSVPFVFWGIRSIHISLRGNPHLKMLLGLAGAFVFVLSALKI  84
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP   S+   + L  QALL   GGI  LGAN F+M  + P
+Sbjct  85   PSVTGSCSHPTGVGLGAILFGPAVMSVLGCIVLLFQALLLAHGGITTLGANVFSMGVMGP  144
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V YG+Y+L+     N  ++  +   +G     + T+++L +      T N    +F + 
+Sbjct  145  LVSYGVYQLLKK--RNTKVAVFLAASLGNMTTYMVTSLQLAMA-FPDKTGNLLVSFFKFM  201
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRG  227
+               AI  +         I E ++T  V   L    EE           G
+Sbjct  202  SIFAITQI------PLAITEGLLTVFVFNLLNNYREELYPGLPKEERSG  244
+
+
+> sp|O54190|CBIM_STRCO Cobalt transport protein CbiM OS=Streptomyces 
+coelicolor (strain ATCC BAA-471 / A3(2) / M145) OX=100226 
+GN=cbiM PE=3 SV=2
+Length=232
+
+ Score = 235 bits (601),  Expect = 5e-76, Method: Composition-based stats.
+ Identities = 55/232 (24%), Positives = 97/232 (42%), Gaps = 9/232 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P      G A  P +    + + +   +       +    AF F +    +
+Sbjct  1    MHIAEGFLPPAHAIAWGVASAPFVVHGVRSLTREVREHPESTLLLGASGAFTFVLSALKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A    P   ++  T+ L  QALL   GG+  LGAN F+MA + P
+Sbjct  61   PSVTGSCSHPTGTGLGAILFRPPIMAVLGTITLLFQALLLAHGGLTTLGANVFSMAIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            + GYG+YRL+    +  +++   G +V   +    T+++L L      ++        +G
+Sbjct  121  WAGYGVYRLLRRWDVPLMVTVFFGAFVADLSTYCVTSVQLALA-FPDPSSGFLGALGKFG  179
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRGDNR  230
+               A+  +         + E ++T +V+  L +  +  +        R   R
+Sbjct  180  SIFAVTQI------PLAVSEGLLTVIVMRLLVQSSKGELTRLGVLLTRTGER  225
+
+
+> sp|B8GJG9|CBIM1_METPE Putative cobalt transport protein CbiM 
+1 OS=Methanosphaerula palustris (strain ATCC BAA-1556 / DSM 
+19958 / E1-9c) OX=521011 GN=cbiM1 PE=3 SV=1
+Length=231
+
+ Score = 235 bits (600),  Expect = 7e-76, Method: Composition-based stats.
+ Identities = 55/224 (25%), Positives = 96/224 (43%), Gaps = 9/224 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  Q C    A   P +     ++N+   +    +P +A+  AF F +    +
+Sbjct  1    MHIMEGFLPLQWCLFWFAVSAPFIAYGIYQLNRLVKENRSTLPLLAVCGAFIFVLSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+  S+   + L  QAL    GG+  LGAN F+M    P
+Sbjct  61   PSVTGSCSHPTGTGLGAIMFGPFITSVLSIIVLVYQALFLAHGGLTTLGANVFSMGICGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             +GY +Y+   ++ LN +++  +   +      + T+I+L L    F  A G        
+Sbjct  121  LLGYWVYQGGKAINLNSIVNVFLASALADIFTYVITSIQLSLA---FPAAAGG----YMT  173
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFS  222
+              +    +         I+E +   L   Y+ ++  + ++H   
+Sbjct  174  SFITFAGIFAVTQVPLAIIEGIFLTLTFKYINQIRPDILIHLGV  217
+
+
+> sp|Q46AL8|CBIM2_METBF Putative cobalt transport protein CbiM 
+2 OS=Methanosarcina barkeri (strain Fusaro / DSM 804) OX=269797 
+GN=cbiM2 PE=3 SV=1
+Length=235
+
+ Score = 234 bits (597),  Expect = 2e-75, Method: Composition-based stats.
+ Identities = 63/221 (29%), Positives = 99/221 (45%), Gaps = 5/221 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C V     +PV+     K+NK   ++   +P +A+  AF F +    +
+Sbjct  1    MHIMEGYLPAIWCIVWFVVSIPVVAYGVYKLNKLVKEERGILPVLAVAGAFIFVLSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  + A   GP   ++  T+ L  QAL    GG+  LGAN F+M  + P
+Sbjct  61   PSVTGSCSHPTGTGIGAIIFGPAITAVLSTIVLIYQALFLAHGGLTTLGANVFSMGIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V Y IY+  +  KLN  L   +   +G  A  + T+ EL L             +  + 
+Sbjct  121  IVAYLIYKTGMKAKLNFYLIVFLAATLGDWATYIVTSTELALAFPAGDILTFGGFFSSFS  180
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+              VAI A+         IVE  ++ L+  Y+ +   + ++ 
+Sbjct  181  KFVAIFAI---TQVPLAIVEGAVSALLFKYIIQAKSDLLVE  218
+
+
+> sp|C9YID6|CBIM_PEPDR Cobalt transport protein CbiM OS=Peptoclostridium 
+difficile (strain R20291) OX=645463 GN=cbiM PE=3 SV=1
+Length=250
+
+ Score = 234 bits (597),  Expect = 4e-75, Method: Composition-based stats.
+ Identities = 60/221 (27%), Positives = 94/221 (43%), Gaps = 9/221 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EGYL  +     G   +P   V  K + K   +       +A+  AF F +    +
+Sbjct  26   MHIMEGYLPVKWSIAWGVIFIPFFLVGLKSIGKIVKQDPKKKVLLALCGAFVFVLSALKI  85
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP    +  T+ L  QALL   GGI  LGAN+F+MA I P
+Sbjct  86   PSVTGSCSHPTGVGLGAIMFGPSVMFVLGTIVLIFQALLLAHGGITTLGANAFSMAIIGP  145
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             + + I++ +     N  +   +   +G  A    T+I+L L    F   +G        
+Sbjct  146  IISFLIFKALKKKDGNNAMPVFLAAAIGDLATYTVTSIQLALA---FPDPSGGV----MA  198
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILH  219
+              +    + F       I E ++T +V   + +  E++IL 
+Sbjct  199  SAIKFLGIFFMTQIPIAIAEGILTVIVYNLITENGEKSILE  239
+
+
+> sp|A5VM74|CBIM_LACRD Cobalt transport protein CbiM OS=Lactobacillus 
+reuteri (strain DSM 20016) OX=557436 GN=cbiM PE=3 SV=1
+Length=248
+
+ Score = 232 bits (592),  Expect = 2e-74, Method: Composition-based stats.
+ Identities = 54/212 (25%), Positives = 91/212 (43%), Gaps = 10/212 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFD---KKDVPAMAIGSAFAFTIMMFN  57
+            MHI EG L P+ C    A  +P       ++ K  +         +A+  AF F +    
+Sbjct  32   MHIMEGMLPPRWCIFWYAVSLPFFIYGLYRMYKIVNSGVPNAKVMLALCGAFVFVLSSLK  91
+
+Query  58   VPIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIA  117
+            +P   G+ +H  G  L     GP   S+   + L  QALL   GGI  LGAN F+M  + 
+Sbjct  92   LPSVTGSCSHPTGVGLGTVLFGPGVMSVLGVIVLLFQALLLAHGGITTLGANEFSMTIVG  151
+
+Query  118  PFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+            P VGY +++L  ++K+++ +S  +       +  + TA +L +   +F   NG       
+Sbjct  152  PIVGYAVWKLCRAMKVSRSVSLFLCAMFADWSTYVTTAFQLAI---VFPDPNGGVA----  204
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYL  209
+               +   ++         I E ++T +V   +
+Sbjct  205  AALIKFLSIYAITQIPLAIAEGLLTVIVYNLV  236
+
+
+> sp|Q2NHA4|CBIM_METST Putative cobalt transport protein CbiM OS=Methanosphaera 
+stadtmanae (strain ATCC 43021 / DSM 3091 / 
+JCM 11832 / MCB-3) OX=339860 GN=cbiM PE=3 SV=1
+Length=224
+
+ Score = 230 bits (587),  Expect = 6e-74, Method: Composition-based stats.
+ Identities = 51/228 (22%), Positives = 93/228 (41%), Gaps = 11/228 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDK--KDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P  C +     +P +     ++ K   +  + +P +A+  AF F +    +
+Sbjct  1    MHIMEGFLPPLWCLIYYIICIPFIVYGIMQIRKVTAESDEAMPMLALSGAFMFILSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G    A   GP    +   + L  QA++   GGI  LGAN  +M  I P
+Sbjct  61   PSVTGSCSHPCGNGFGAVFFGPAVVGVLSVIVLVFQAVILAHGGITTLGANVLSMGIIGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+              GY ++  +  L +N  ++     +V      + TAIEL L    F   +       + 
+Sbjct  121  LCGYAVWLGLRKLNVNDEIAMFFTAFVADLMTYVVTAIELSLA---FPKPDF------FT  171
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLR  226
+              V    +         I E ++T ++  ++++   + ++        
+Sbjct  172  ALVTFLGIFAVTQIPLAIAEGILTMVIYRFIKQQKPDILVKLRVISKE  219
+
+
+> sp|Q58491|CBIM_METJA Putative cobalt transport protein CbiM OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=cbiM PE=3 
+SV=1
+Length=233
+
+ Score = 230 bits (587),  Expect = 7e-74, Method: Composition-based stats.
+ Identities = 57/225 (25%), Positives = 93/225 (41%), Gaps = 11/225 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL P  CAV       V+     K+ K  ++     P +AI  A+ F +    +
+Sbjct  1    MHIMEGYLPPMWCAVWWVLSGIVIAYGIVKLKKLLEESPEMKPLVAISGAYMFILSSLKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   G    ++   + L  QAL    GG+  LGAN F+M  + P
+Sbjct  61   PSVTGSCSHPCGNGLGAVLFGVPITAVLAAIVLLFQALFLAHGGLTTLGANDFSMGIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+                 +YRL +   L+  +        G     + TA++L L    F   + T  +  + 
+Sbjct  121  AAAVIVYRLCMKAGLSSTVGIFFAALFGDWLTYVTTAVQLALA---FPIPSFTAAFTKFI  177
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSY  223
+            +  A             I E ++T ++  Y++K+  + +L     
+Sbjct  178  VIYAY------TQVPLAIAEGILTVIIWDYIKKLRPDLLLKLGVV  216
+
+
+> sp|Q2RJ53|CBIM_MOOTA Cobalt transport protein CbiM OS=Moorella 
+thermoacetica (strain ATCC 39073 / JCM 9320) OX=264732 GN=cbiM 
+PE=3 SV=1
+Length=259
+
+ Score = 231 bits (589),  Expect = 8e-74, Method: Composition-based stats.
+ Identities = 58/222 (26%), Positives = 95/222 (43%), Gaps = 9/222 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L     A     ++P      + +  +          + +  A+ F +    +
+Sbjct  26   MHIAEGFLPFNWAAFWFIVVLPFWIWGLRSIRHTVKSNPGLKMLLGLAGAYTFVLSALKL  85
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A SI   + L  QALL   GG+  LGAN+F+MA + P
+Sbjct  86   PSVTGSCSHPTGIGLGAVLFGPAAMSILGGIVLLFQALLLAHGGLSTLGANTFSMAVVGP  145
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FV YG+YRL+  LK +  L+  +   +G     + T+++L L       A    +     
+Sbjct  146  FVAYGLYRLVRKLKGSMPLAVFLAATLGDLMTYVTTSLQLALA----FPAQAGGVVASML  201
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+              + I A+         I E  +T +V   L   ++ ++   
+Sbjct  202  KFMGIFAV---TQLPLAISEGFLTVIVFNLLATYNKNDLEEL  240
+
+
+> sp|B3EC54|CBIM_CHLL2 Cobalt transport protein CbiM OS=Chlorobium 
+limicola (strain DSM 245 / NBRC 103803 / 6330) OX=290315 
+GN=cbiM PE=3 SV=1
+Length=254
+
+ Score = 230 bits (587),  Expect = 1e-73, Method: Composition-based stats.
+ Identities = 65/229 (28%), Positives = 100/229 (44%), Gaps = 9/229 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P          +P L V  + + K  D        +A+  AFAF +    +
+Sbjct  32   MHIMEGFLPPSWSLFWWVLTLPFLVVGFRSLRKIVDANPRMKLLLAMAGAFAFVLSSLKI  91
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP   S+   + L  QALL   GG+  LGAN+F+MA   P
+Sbjct  92   PSVTGSCSHPTGVGLGAVLFGPSVMSVLGVIVLLFQALLLAHGGLTTLGANAFSMAIAGP  151
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FV YGIYRLM+  K  + L+  +   +G     + T+++L L       +    +    G
+Sbjct  152  FVSYGIYRLMVMSKAPEWLAVFLAAAIGDLMTYVVTSLQLALA----FPSVTGGIAASLG  207
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRG  227
+              + I A+         I E ++T +V   +++   E      +    G
+Sbjct  208  KFMTIFAL---TQVPLAISEGILTVMVFSAIREYASELFPASGTLAKEG  253
+
+
+> sp|B8GEB7|CBIM2_METPE Putative cobalt transport protein CbiM 
+2 OS=Methanosphaerula palustris (strain ATCC BAA-1556 / DSM 
+19958 / E1-9c) OX=521011 GN=cbiM2 PE=3 SV=1
+Length=235
+
+ Score = 229 bits (584),  Expect = 2e-73, Method: Composition-based stats.
+ Identities = 56/222 (25%), Positives = 93/222 (42%), Gaps = 9/222 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L    C V     +P L +   ++ +   +    +P + +  AF F +    +
+Sbjct  1    MHIMEGFLPAGWCLVWWLIALPFLVMGIIQLRRMMKEDREYLPLLGVCGAFIFILSALKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L     G    ++   + L  QALL   GG+  +GAN  +MA   P
+Sbjct  61   PSVTGSCSHPTGTGLSTICFGYCVTAVVGAIVLLFQALLLAHGGLSTMGANMVSMAIGGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+              GY +Y+LM    +N  ++  +   V      + T+ EL L     + A        + 
+Sbjct  121  IAGYAVYKLMKDTSINIYVTVFLASAVADIVTYIITSFELALA----YPAQVGGFLASFS  176
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+               +I A+         I+E V+  LV  Y+ ++  E IL  
+Sbjct  177  AFFSIFAI---TQIPLSIMEGVVLALVFKYIIQLKPEIILKL  215
+
+
+> sp|D3UMA1|CBIM_LISSS Cobalt transport protein CbiM OS=Listeria 
+seeligeri serovar 1/2b (strain ATCC 35967 / DSM 20751 / CIP 
+100100 / SLCC 3954) OX=683837 GN=cbiM PE=3 SV=1
+Length=244
+
+ Score = 229 bits (584),  Expect = 3e-73, Method: Composition-based stats.
+ Identities = 58/222 (26%), Positives = 94/222 (42%), Gaps = 9/222 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  +         +P L +   ++ K    DK +   +A+ +AF F +    +
+Sbjct  29   MHIMEGFLPVKWAVFWLIVFIPFLVLGLIRIRKLIAIDKNNKLLLALCAAFIFVLSALKI  88
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L     GP   S+   + L  QALL   GGI  LGAN+ +MA I P
+Sbjct  89   PSVTGSCSHPTGVGLATVMFGPLVVSVLGVIVLLFQALLLAHGGITTLGANAMSMAVIGP  148
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             VG+ +Y+L   L  NK +S  +       A    T+++LG+   +F             
+Sbjct  149  MVGFVVYKLARKLNCNKSVSIFLCAMTADLATYFTTSVQLGV---VFPDPASG----MMA  201
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+              +   A+         I E ++T ++   + K   E +   
+Sbjct  202  SILKFMAIFCVTQVPIAIAEGLLTVVMYNLISKNLPEKVAQL  243
+
+
+> sp|Q05594|CBIM_SALTY Cobalt transport protein CbiM OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=cbiM PE=1 SV=1
+Length=245
+
+ Score = 228 bits (582),  Expect = 7e-73, Method: Composition-based stats.
+ Identities = 52/213 (24%), Positives = 87/213 (41%), Gaps = 9/213 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P          +P L     ++ +    D      +A+  AF F +    +
+Sbjct  31   MHIMEGFLPPVWALAWWLLFLPCLWYGLVRLRRIVQEDNHQKVLLALCGAFIFVLSALKI  90
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L     GP   +I   + L  QALL   GG+  LGAN  +MA I P
+Sbjct  91   PSVTGSCSHPTGVGLAVILFGPGVVAILGAVVLLFQALLLAHGGLTTLGANGMSMAVIGP  150
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             VGY ++++     L + ++  +   +   A    T+++LG+       A  T     + 
+Sbjct  151  VVGYLVWKMACRAGLRRDVAVFLCAMLADLATYFVTSVQLGVA-FPDPHAGATGSVVKFM  209
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQK  211
+                +  +         I E ++T ++   L K
+Sbjct  210  GIFCLTQI------PVAIAEGLLTVMIYDQLTK  236
+
+
+> sp|D9SNZ5|CBIM_CLOC7 Cobalt transport protein CbiM OS=Clostridium 
+cellulovorans (strain ATCC 35296 / DSM 3052 / OCM 3 / 743B) 
+OX=573061 GN=cbiM PE=3 SV=1
+Length=260
+
+ Score = 228 bits (581),  Expect = 1e-72, Method: Composition-based stats.
+ Identities = 63/232 (27%), Positives = 103/232 (44%), Gaps = 9/232 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYLSP+ C + G  ++P L   +  V K    D++     A+  AF F +    +
+Sbjct  35   MHIMEGYLSPKWCIIWGILVLPFLIKGSLNVKKVVSDDQRIKLLFAMAGAFIFILSALKL  94
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   GT++H  G  L     GP   ++   + L  QALL   GGI  LGANSF MA + P
+Sbjct  95   PSFTGTSSHPTGIGLSTILFGPAITTVLGVIVLLFQALLLAHGGISTLGANSFAMAVMGP  154
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             + YG+Y+++  +K+ + ++      VG       TAI+LG+     H      ++    
+Sbjct  155  LMAYGVYKILQKIKIPQNINIFFSATVGDLFTYCITAIQLGI----DHPLEYDGIFASIE  210
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRGDNR  230
+              + + A+         I E ++T L+   + K   + +          +  
+Sbjct  211  RYLGVFAI---TQIPIAIAEGILTVLIFNVIAKYSSKELGKLGILNNSEEAE  259
+
+
+> sp|A6LKX5|CBIM_THEM4 Cobalt transport protein CbiM OS=Thermosipho 
+melanesiensis (strain DSM 12029 / CIP 104789 / BI429) OX=391009 
+GN=cbiM PE=3 SV=1
+Length=235
+
+ Score = 226 bits (577),  Expect = 2e-72, Method: Composition-based stats.
+ Identities = 54/223 (24%), Positives = 99/223 (44%), Gaps = 11/223 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P    +     +P   +    + K+  +K      +A   AF F +    +
+Sbjct  21   MHIMEGFLPPTHALIWYILSLPFFVIGLFTIRKTIKEKPNLKMLLAFVGAFTFVLSAMKI  80
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+  ++  T+ L  QALL   GG+  LGAN+F+MA +  
+Sbjct  81   PSVTGSCSHPTGIGLGAIIFGPFTMTVIGTIVLLFQALLLAHGGLTTLGANTFSMAIVGS  140
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V Y IY+ +   K N+ ++  +  ++G     + T+ +L +              F   
+Sbjct  141  LVSYFIYKSL--YKKNRNIAVFLAAFLGDLFTYVTTSFQLAVA----FPDKTHGFIFSLA  194
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKF  221
+              ++I A+         I+E ++T +V+  + K ++  +  + 
+Sbjct  195  KFLSIFAI---TQVPLAIIEGLVTVVVIDLIYKYNKNELFEEG  234
+
+
+> sp|D5WSC8|CBIM_KYRT2 Cobalt transport protein CbiM OS=Kyrpidia 
+tusciae (strain DSM 2912 / NBRC 15312 / T2) OX=562970 GN=cbiM 
+PE=3 SV=1
+Length=247
+
+ Score = 227 bits (578),  Expect = 3e-72, Method: Composition-based stats.
+ Identities = 58/232 (25%), Positives = 101/232 (44%), Gaps = 9/232 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C    A  +P L +  + + K           +A+ +AFAF +    +
+Sbjct  22   MHIMEGYLPLGWCLFWAALCLPALILGTRSLQKQVGDNLRMKLVLALSAAFAFVLSALKL  81
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A   GP A S+   + L  QALL   GGI  LGAN+F+MA + P
+Sbjct  82   PSVTGSSSHPTGVGLGAVLFGPMAMSVVGCIILLFQALLLAHGGITTLGANTFSMAVVGP  141
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V Y ++R+       + ++  +   +G  +  L T+++L L             ++ + 
+Sbjct  142  TVSYVVFRIFQKSGFGRGVAVFLAAALGDLSTYLTTSLQLALA-FPAPIGGVASSFWKFA  200
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRGDNR  230
+               A+            + E ++T ++V ++ K   E +    +    G + 
+Sbjct  201  SIFAV------TQVPLAVSEGLLTVIMVNWVMKYSPEVLSRAMNLPEEGHHE  246
+
+
+> sp|D1AFI6|CBIM_SEBTE Cobalt transport protein CbiM OS=Sebaldella 
+termitidis (strain ATCC 33386 / NCTC 11300) OX=526218 GN=cbiM 
+PE=3 SV=1
+Length=236
+
+ Score = 225 bits (573),  Expect = 1e-71, Method: Composition-based stats.
+ Identities = 62/215 (29%), Positives = 98/215 (46%), Gaps = 11/215 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDK--KDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL  +          P       K+ K      ++   +A+  AF F +    +
+Sbjct  24   MHIMEGYLPVKWAVFWFILCAPFWIYGLVKLQKEAKGNVEEKLTLALAGAFIFVLSALKI  83
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A   GP+  SI  T+AL  QA+L   GG+  LGAN+F+MA   P
+Sbjct  84   PSVTGSSSHPTGVGLSAILFGPFITSILGTIALIFQAVLLAHGGLTTLGANAFSMAVAGP  143
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V YGIYRL+     NK L+  +   +G  +  + T+ +L L      +A+G        
+Sbjct  144  LVSYGIYRLLKK--KNKSLAVFLAASLGNLSTYVITSFQLALAN---PSADGGIT----A  194
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVD  213
+              V    +         ++E ++T +V+  L+K +
+Sbjct  195  SFVKFAMIFAVTQIPLAVIEGLLTNVVMNLLEKYN  229
+
+
+> sp|Q3AE25|CBIM_CARHZ Cobalt transport protein CbiM OS=Carboxydothermus 
+hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / 
+Z-2901) OX=246194 GN=cbiM PE=3 SV=1
+Length=244
+
+ Score = 223 bits (569),  Expect = 5e-71, Method: Composition-based stats.
+ Identities = 51/214 (24%), Positives = 88/214 (41%), Gaps = 11/214 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  +         +P + V   ++ +   +       +A   AF F +    +
+Sbjct  28   MHIMEGFLPVKWVIFWDLVTLPFIMVGFIRLQREATQGPGAKLMLAFAGAFIFVLSALKM  87
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+  ++   + L  QALL   GG+  LGAN+F+MA   P
+Sbjct  88   PSVTGSCSHPTGTGLAAILFGPFITTVLGFIVLIFQALLLAHGGLTTLGANTFSMAVAGP  147
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V YG+Y+ +    +N   S  +   +G     + T+++L L           P    + 
+Sbjct  148  LVAYGVYKGLQKAGINSNFSIFLAAMLGDLVTYIVTSVQLALAF---------PGSSLFL  198
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKV  212
+              +    +         I E ++T L   +L + 
+Sbjct  199  SALKFMGIFALTQIPLAISEGILTVLTYNFLSRY  232
+
+
+> sp|D9QVP6|CBIM_ACEAZ Cobalt transport protein CbiM OS=Acetohalobium 
+arabaticum (strain ATCC 49924 / DSM 5501 / Z-7288) OX=574087 
+GN=cbiM PE=3 SV=1
+Length=251
+
+ Score = 223 bits (569),  Expect = 6e-71, Method: Composition-based stats.
+ Identities = 63/223 (28%), Positives = 93/223 (42%), Gaps = 11/223 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKK---DVPAMAIGSAFAFTIMMFN  57
+            MHI EG+L  +   +   AM+P L +  KKV     K+       +A+  AF F +    
+Sbjct  28   MHIAEGFLPVKWAGIWWIAMLPFLALGIKKVKSITQKEGPGIKMLLALAGAFVFVLSSLK  87
+
+Query  58   VPIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIA  117
+            +P   G+ +H  G  L A   GPW   +   + L  QA+L   GG+  LGAN F+MA + 
+Sbjct  88   LPSLTGSCSHPTGVGLGAILFGPWPMVVLGCIVLIFQAVLLAHGGLTTLGANVFSMAIVG  147
+
+Query  118  PFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+            PFV YG YRL+  L     LS   G  +G     + TA +L      F    G       
+Sbjct  148  PFVAYGAYRLLKKLNAPNWLSVFTGSALGNLLTYITTATQLAWA---FPGKTGFI-----  199
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+               +    +         + E ++T L+   L +  E  +   
+Sbjct  200  ASLIKFMGVFATTQVPLAVTEGLVTVLIFNLLLEYSEGELKEL  242
+
+
+> sp|A2SSE8|CBIM2_METLZ Putative cobalt transport protein CbiM 
+2 OS=Methanocorpusculum labreanum (strain ATCC 43576 / DSM 4855 
+/ Z) OX=410358 GN=cbiM2 PE=3 SV=1
+Length=231
+
+ Score = 222 bits (567),  Expect = 8e-71, Method: Composition-based stats.
+ Identities = 58/224 (26%), Positives = 91/224 (41%), Gaps = 11/224 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C        P +     K+ K    D++ +P MA+  AF F +    +
+Sbjct  1    MHIMEGYLPIGWCIFWAVLSAPFVIYGIWKMTKMIQEDRRVLPLMAVCGAFVFVLSALKI  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+  S+  T+ L  QALL   GG+  LGAN F+MA   P
+Sbjct  61   PSVTGSCSHPTGTGLSAAFFGPFITSVLGTIVLLFQALLLAHGGLTTLGANVFSMAIAGP  120
+
+Query  119  FVGYGIYRLMLSLK-LNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+            F+ + ++  +     +   ++  I   V        T+++L L                 
+Sbjct  121  FIAWLVFVGLRKTGKVGIGVAVFITAAVANLVTYTVTSLQLALVFP--------VEGSIL  172
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKF  221
+               +A   +         I+E +I  LV  Y+ +V  E +    
+Sbjct  173  NAFIAFAGIFAVTQIPLAIIEGIICALVAKYIVRVKPEILKKLG  216
+
+
+> sp|Q46D59|CBIM1_METBF Putative cobalt transport protein CbiM 
+1 OS=Methanosarcina barkeri (strain Fusaro / DSM 804) OX=269797 
+GN=cbiM1 PE=3 SV=1
+Length=231
+
+ Score = 222 bits (566),  Expect = 9e-71, Method: Composition-based stats.
+ Identities = 56/222 (25%), Positives = 93/222 (42%), Gaps = 9/222 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L      +     +PV      ++NK   +K   +P +A+  A  F +    +
+Sbjct  1    MHIFEGFLPGPWWQIWWILSIPVFAYGIFRLNKLVKEKPEVLPLIAVSGAVIFVLSSLKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  +     GP   S+   + L  QAL    GGI   GAN  +M  I P
+Sbjct  61   PSVTGSTSHPTGTGMAVILFGPAITSVLSAIVLLYQALFLAHGGITTFGANLMSMGIIGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FV Y IY+ M+ L +N  +S+ +   +      + T+ +L L            L     
+Sbjct  121  FVAYAIYKTMMRLNVNFYVSAFVTATLADWVTYVVTSTQLALAFPANPGGVEGSL-----  175
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+              VA  ++         I+EA +  L+  Y+ +   + ++  
+Sbjct  176  --VAFLSVFAITQIPLAILEASLITLLFKYVLQAKGDLMVRL  215
+
+
+> sp|A9KP98|CBIM_LACP7 Cobalt transport protein CbiM OS=Lachnoclostridium 
+phytofermentans (strain ATCC 700394 / DSM 18823 / 
+ISDg) OX=357809 GN=cbiM PE=3 SV=1
+Length=250
+
+ Score = 222 bits (566),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 66/219 (30%), Positives = 104/219 (47%), Gaps = 9/219 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVP--AMAIGSAFAFTIMMFNV  58
+            MHI EGYL P+ C   G   +P L      + K+  K+      +A+  AF F +    +
+Sbjct  28   MHIMEGYLPPKYCITWGILSIPFLVAGYFSIKKTVSKQHRSITMLAMAGAFVFVLSSLKI  87
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A SI   + L  QA+L   GG+  LGAN+F+MA   P
+Sbjct  88   PSVTGSCSHMTGTGLGAILFGPSAVSILGIIVLIFQAILLAHGGLTTLGANTFSMAIAGP  147
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FV +GIY+L   LK+NK+    +  +VG       T+I+L L    + ++NG        
+Sbjct  148  FVSFGIYKLCQKLKVNKLSGIFLAAFVGDLFTYCVTSIQLALA---YPSSNGGVG----A  200
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI  217
+              +   A+         I+E ++T +++  L+   +  +
+Sbjct  201  SALKFLAVFAPTQVPLAIIEGILTVVIMIGLETYAKAEL  239
+
+
+> sp|B7GLU2|CBIM_ANOFW Cobalt transport protein CbiM OS=Anoxybacillus 
+flavithermus (strain DSM 21510 / WK1) OX=491915 GN=cbiM 
+PE=3 SV=1
+Length=250
+
+ Score = 222 bits (565),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 56/219 (26%), Positives = 97/219 (44%), Gaps = 9/219 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  Q   V     +P   V  + V +   ++      +A+ +AF F +    +
+Sbjct  28   MHIMEGFLPWQWALVWWLLFLPFFLVGMRNVARLMRQRPEVKLLLALATAFTFVLSALKI  87
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A   GP+  ++  T  L  QALL   GG+  LGAN+F+MA + P
+Sbjct  88   PSVTGSSSHPTGTGLGALLFGPFVMTVIGTAVLLFQALLLAHGGVTTLGANAFSMAVVGP  147
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V Y ++ L     ++  +S  +   +   A  + T+I+L L    F  A        +G
+Sbjct  148  LVAYVLFSLCKKFGVSTRVSVFLAAMMADLATYVMTSIQLALA---FPDATSGV----WG  200
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI  217
+              +   ++         I E ++T +V  +L    +  +
+Sbjct  201  AFLKFASIFAVTQIPLAITEGLLTVVVWNFLHTYSKREL  239
+
+
+> sp|E3PSD4|CBIM_ACESD Cobalt transport protein CbiM OS=Acetoanaerobium 
+sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 
+/ NCIMB 10654) OX=499177 GN=cbiM PE=3 SV=1
+Length=241
+
+ Score = 220 bits (560),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 57/217 (26%), Positives = 94/217 (43%), Gaps = 11/217 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P   A+     +P +     K+ K  D+       + +  AF F +    +
+Sbjct  25   MHIMEGFLPPLWAAIWSVISLPFIVGGFSKIKKITDESPNMKLLLGLVGAFVFVLSALKL  84
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  L     GP   ++   + L  QALL   GGI  LGAN F+MA + P
+Sbjct  85   PSVTGSTSHPTGVGLGTIIFGPLPMAVIGLIVLIFQALLLAHGGITTLGANVFSMAIVGP  144
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            F GY I++ +     N+ L+  +   +      + T+++L L     H      +   + 
+Sbjct  145  FAGYFIFKAIK--DKNRSLAVFLAAMLADLITYIVTSLQLALA----HPDAVNGIVGSFT  198
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEE  215
+              + I A+         I E ++T +V   L +  +E
+Sbjct  199  KFMGIFAI---TQIPLAIGEGILTLIVYNLLVEYQKE  232
+
+
+> sp|Q897L1|CBIM_CLOTE Cobalt transport protein CbiM OS=Clostridium 
+tetani (strain Massachusetts / E88) OX=212717 GN=cbiM PE=3 
+SV=1
+Length=241
+
+ Score = 220 bits (560),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 53/227 (23%), Positives = 96/227 (42%), Gaps = 11/227 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P    V      P + +  K++ +           + + +A+AF +    +
+Sbjct  24   MHIAEGFLPPMWSGVYFVISAPFIIIGLKQIRERAKDNKDIKMLLGLVAAYAFILSAMKI  83
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP+ ++I   + L  QA+L   GGI  LGAN+ +M  + P
+Sbjct  84   PSVTGSCSHPTGTGLSAIIFGPFISAIVGLIVLIFQAILLAHGGITTLGANTLSMGIMGP  143
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V Y IYR       N+ ++  +   +G       T+++L L       A    +   + 
+Sbjct  144  IVSYLIYRGFK--NKNQKVAVFLAATLGDLFTYFITSVQLALA----FPAQQGGIAASFA  197
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRL  225
+               +I ++         I+E ++T ++  ++ K   + I      R 
+Sbjct  198  KFFSIFSI---TQIPLAIMEGILTVIIFEFVMKYASKEIEVLGGVRK  241
+
+
+> sp|A3CL70|CBIM_STRSV Cobalt transport protein CbiM OS=Streptococcus 
+sanguinis (strain SK36) OX=388919 GN=cbiM PE=3 SV=2
+Length=244
+
+ Score = 220 bits (560),  Expect = 1e-69, Method: Composition-based stats.
+ Identities = 65/217 (30%), Positives = 101/217 (47%), Gaps = 9/217 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL    C    A  +P   V   ++ K   +       +A+  AF F +    +
+Sbjct  29   MHIMEGYLPLFWCIFWFAVFLPFFVVGLMRIKKIVAEDPNSKTMLALSGAFIFILSSLKI  88
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L     GP   S+  T+ L  QALL   GG+  LGAN+F+MA + P
+Sbjct  89   PSVTGSSSHPTGVGLGTAMFGPSVISVLGTICLLFQALLLAHGGLTTLGANAFSMAVVGP  148
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FVGY +Y+   S+KL+  +S  I   +   A    T+I+LGL   +F  AN   +    G
+Sbjct  149  FVGYFVYKFAKSIKLSTPVSIFICAVIADLATYATTSIQLGL---VFPDANSGFV----G  201
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEE  215
+              +    +         IVE ++T ++   + +  +E
+Sbjct  202  SALKFMGVFLTTQIPIAIVEGLLTVVLYNLISENVKE  238
+
+
+> sp|A1ANE2|CBIM2_PELPD Cobalt transport protein CbiM 2 OS=Pelobacter 
+propionicus (strain DSM 2379 / NBRC 103807 / OttBd1) 
+OX=338966 GN=cbiM2 PE=3 SV=1
+Length=226
+
+ Score = 218 bits (555),  Expect = 4e-69, Method: Composition-based stats.
+ Identities = 54/219 (25%), Positives = 89/219 (41%), Gaps = 9/219 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  +       A  PV+      +NK   K       + + +AF F +    +
+Sbjct  1    MHIMEGFLPVEHAIGWSVASAPVVAYGLYSINKKIKKNPEQRMLLGVAAAFTFVLSALKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A +    + L  QALL   GG+  LGAN F+MA + P
+Sbjct  61   PSVTGSCSHPTGTGLGAILFGPSAVAPIGAVVLLFQALLLAHGGLTTLGANIFSMAIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            F    ++RL  + +    +   +   +G     + TA +L            T     + 
+Sbjct  121  FAAAAVFRLARAARFPFGVGVFLAASLGDLLTYVTTACQLAFA-FPDPVGGFTASLAKFA  179
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI  217
+               A+  +         I E ++T +V+  L + + E +
+Sbjct  180  GVFALTQI------PLAISEGLLTVVVMNALLRFNREEL  212
+
+
+> sp|A1ANC7|CBIM1_PELPD Cobalt transport protein CbiM 1 OS=Pelobacter 
+propionicus (strain DSM 2379 / NBRC 103807 / OttBd1) 
+OX=338966 GN=cbim1 PE=3 SV=1
+Length=226
+
+ Score = 217 bits (554),  Expect = 5e-69, Method: Composition-based stats.
+ Identities = 54/219 (25%), Positives = 90/219 (41%), Gaps = 9/219 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG+L  +       A  PV+      +NK  +K       + + +AF F +    +
+Sbjct  1    MHIMEGFLPVEHAIGWSVASAPVVAYGLYSINKKINKNPEQRMLLGVAAAFTFVLSALKM  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A +    + L  QALL   GG+  LGAN F+MA + P
+Sbjct  61   PSVTGSCSHPTGTGLGAILFGPSAVAPIGAVVLLFQALLLAHGGLTTLGANIFSMAIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            F    ++RL  + +    +   +   +G     + TA +L            T     + 
+Sbjct  121  FAAAAVFRLARAARFPFGVGVFLAASLGDLLTYVTTACQLAFA-FPDPVGGFTASLAKFA  179
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI  217
+               A+  +         I E ++T +V+  L + + E +
+Sbjct  180  GVFALTQI------PLAISEGLLTVVVMNALLRFNREEL  212
+
+
+> sp|B8I0P7|CBIM_CLOCE Cobalt transport protein CbiM OS=Clostridium 
+cellulolyticum (strain ATCC 35319 / DSM 5812 / JCM 6584 
+/ H10) OX=394503 GN=cbiM PE=3 SV=1
+Length=248
+
+ Score = 218 bits (556),  Expect = 6e-69, Method: Composition-based stats.
+ Identities = 58/222 (26%), Positives = 97/222 (44%), Gaps = 9/222 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFD--KKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL+P  C   G   +P L +    + K  +   K++  +A+  AFAF +    +
+Sbjct  30   MHIMEGYLAPGWCISWGVMCMPFLVIGFFSIKKKIEVSSKNLTLLAMCGAFAFVLSALKM  89
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP A S+   + L  QA+L   GGI  LGAN F+MA + P
+Sbjct  90   PSVTGSCSHPTGVGLGAVLFGPTAMSVIGAIILLFQAILLAHGGITTLGANVFSMAIVGP  149
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             V +G+++L         L+  +  + G     + T++EL +     +           G
+Sbjct  150  LVSFGVFKLSKRWGAKAGLAVFLAVFFGDLMTYVITSVELAMA----YPDATGSFMVSLG  205
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+              ++I            + E ++T ++   L K   + +   
+Sbjct  206  KFISIFGF---TQVPLAVCEGLLTVVIYNVLAKYSAKELKAL  244
+
+
+> sp|O29530|CBIM_ARCFU Putative cobalt transport protein CbiM OS=Archaeoglobus 
+fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 
+/ JCM 9628 / NBRC 100126) OX=224325 GN=cbiM PE=3 SV=2
+Length=217
+
+ Score = 212 bits (539),  Expect = 9e-67, Method: Composition-based stats.
+ Identities = 54/220 (25%), Positives = 96/220 (44%), Gaps = 9/220 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EGYL P+  A      +P L   A +V +  ++K      +A+ + F F +    +
+Sbjct  1    MHIMEGYLPPEWAAFWYVFAIPFLVYGALRVKRIIEEKPSMKSLIAVSAGFIFVLSALKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  +     GP   ++   + L  QALL   GGI  LGAN+ +M  I P
+Sbjct  61   PSVTGSCSHPTGTGIAVVFFGPAVTALLSAIVLLYQALLLAHGGITTLGANTASMGVIGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FVG+  ++L+    +N  ++      +      + T+++L L    F ++ G        
+Sbjct  121  FVGWIAFKLLK--NVNFRVAVFAAAMLSDLVTYVVTSLQLALA---FPSSAGVAGIIKSA  175
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENIL  218
+                   +         I+E V+  ++V Y+ +V  + + 
+Sbjct  176  ATFM--GIFAVTQVPLSIIEGVVAVMLVSYIFEVRSDVLE  213
+
+
+> sp|A5UQS9|CBIM_ROSS1 Cobalt transport protein CbiM OS=Roseiflexus 
+sp. (strain RS-1) OX=357808 GN=cbiM PE=3 SV=1
+Length=249
+
+ Score = 212 bits (541),  Expect = 1e-66, Method: Composition-based stats.
+ Identities = 54/227 (24%), Positives = 97/227 (43%), Gaps = 12/227 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P         ++P   +  +++N+    K      +   +AFAF +    +
+Sbjct  28   MHIMEGFLPPVWAGFWFIVVLPFWVLGLRRINRLIAGKPETRLLLGFAAAFAFVLSALKI  87
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L     GP   S+  ++ L  QALL   GG+  LGAN+F+MA + P
+Sbjct  88   PSVTGSSSHPTGTGLGTILFGPLVMSVLGSIVLLFQALLIAHGGLTTLGANAFSMAVVGP  147
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FV + I++ +   +    L+  +   +      + T+ +L L    +  A G      + 
+Sbjct  148  FVAWLIWKGL-KDRAPIWLTVFLAAALADLFTYVVTSAQLALA---YPDAVGG-----FA  198
+
+Query  179  LNVAIP-AMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYR  224
+             + A   A+         I E ++T L+   LQ   +  +      +
+Sbjct  199  ASFARFGAIFAVTQIPLAISEGILTVLIFNALQANAQTELQSLGVLK  245
+
+
+> sp|D5AUZ9|CBIM_RHOCB Cobalt transport protein CbiM OS=Rhodobacter 
+capsulatus (strain ATCC BAA-309 / NBRC 16581 / SB1003) 
+OX=272942 GN=cbiM PE=1 SV=1
+Length=222
+
+ Score = 210 bits (535),  Expect = 4e-66, Method: Composition-based stats.
+ Identities = 57/212 (27%), Positives = 93/212 (44%), Gaps = 9/212 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EGYL          A  P +   A K+ K   ++      +A   AFAF +    +
+Sbjct  1    MHIMEGYLPVTHAIGWSLAAGPFVVAGAVKIRKIVAERPEARMTLAASGAFAFVLSALKI  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L A   GP   ++   + L  QALL   GG+  LGAN+F+MA + P
+Sbjct  61   PSVTGSCSHPTGTGLGAVVFGPSVMAVLGVIVLLFQALLLAHGGLTTLGANAFSMAIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            +V +G+Y+L      +  ++  +  ++G  A  + T+++L L       +        +G
+Sbjct  121  WVAWGVYKLAGKAGASMAVAVFLAAFLGDLATYVTTSLQLALA-YPDPVSGFLGAALKFG  179
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQ  210
+               A+  +         I E  +T +VV  L 
+Sbjct  180  SVFALTQI------PLAIAEGFLTVIVVDALA  205
+
+
+> sp|D7GIS1|CBIM_PROFC Cobalt transport protein CbiM OS=Propionibacterium 
+freudenreichii subsp. shermanii (strain ATCC 9614 
+/ DSM 4902 / CIP 103027 / NCIMB 8099 / CIRM-BIA1) OX=754252 
+GN=cbiM PE=3 SV=1
+Length=235
+
+ Score = 210 bits (535),  Expect = 4e-66, Method: Composition-based stats.
+ Identities = 57/225 (25%), Positives = 89/225 (40%), Gaps = 9/225 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG L P  CA+  AA  P +   A +V K           +A   A  F +    +
+Sbjct  1    MHIAEGVLPPVQCAIWFAAAAPFVVHGAVQVVKQIKHHPENRLLLATAGACTFLLSSIKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  + A    P   +    + L  QALL   GGI  LGAN+F+MA + P
+Sbjct  61   PSVTGSSSHPTGTGVGAVLFKPPVMAFMGLIVLIFQALLLAHGGITTLGANTFSMAIVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            +VGYG Y L   L     L   +  ++   +    T+ +L        ++        + 
+Sbjct  121  WVGYGAYVLNKKLGGPLALGIFLAMFLSDLSTYCVTSFQLAFA-YPDPSSGVLGAAEKFL  179
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSY  223
+               AI  +         + E ++  L+  +L KV    +      
+Sbjct  180  GIFAISQI------PLSVAEGILGILLFRFLFKVAGPQLQALGVR  218
+
+
+> sp|Q8DG81|CBIM_THEEB Cobalt transport protein CbiM OS=Thermosynechococcus 
+elongatus (strain BP-1) OX=197221 GN=cbiM PE=3 
+SV=1
+Length=257
+
+ Score = 206 bits (525),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 50/214 (23%), Positives = 89/214 (42%), Gaps = 9/214 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDV--PAMAIGSAFAFTIMMFNV  58
+            MHI EG+L          A +P L      + +   +       +A+  A+AF +    +
+Sbjct  34   MHISEGFLPLGWAVGWWLAFLPFLAWGLWSLQQQIKQHSESVLLVALAGAYAFVVSSLKI  93
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H IG  L A    P   ++  TL L  Q+LL   GG+  LGAN+F+MA + P
+Sbjct  94   PSVTGSCSHPIGIALGAILFRPPLMAVLGTLVLLFQSLLIAHGGLTTLGANAFSMAVVGP  153
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            ++ +  Y  +  L++   ++     ++        T+++L L             +  +G
+Sbjct  154  WLAWLTYCGVSRLRVKPAIALFAASFISNVGTYTLTSLQLALA-FPDSVGGLATSFAKFG  212
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKV  212
+               A+  +         I E ++T LV  +L   
+Sbjct  213  TLFAVTQI------PLAISEGLLTVLVWNWLTTY  240
+
+
+> sp|Q8YQ91|CBIM_NOSS1 Cobalt transport protein CbiM OS=Nostoc 
+sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=cbiM 
+PE=3 SV=1
+Length=261
+
+ Score = 205 bits (522),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 55/220 (25%), Positives = 91/220 (41%), Gaps = 9/220 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSA--FAFTIMMFNV  58
+            MHI EGYL     A      +P + +  + + +         + +  A  F F +    +
+Sbjct  34   MHIMEGYLPAGWAAFWWLVALPFMLLGVRSLTRITKANPELKLLLALAGAFTFVLSALKL  93
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+ +H  G  L +   GP A S+  +L L  QALL   GG+  LGAN+F+MA   P
+Sbjct  94   PSVTGSCSHPTGTGLGSVLFGPLAMSVLGSLVLLFQALLLAHGGLTTLGANAFSMAIAGP  153
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            F  Y IY L + L   + ++  +   +      + T+++L L             +  + 
+Sbjct  154  FAAYWIYHLTIKLTGKQRIAIFLAATLADLLTYIITSVQLALA-FPAPVGGFIASFAKFA  212
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENIL  218
+               AI  +         I E ++T LV  +LQ    + + 
+Sbjct  213  GIFAITQI------PLAISEGLLTVLVWNWLQSYSPQELQ  246
+
+
+> sp|F9USS7|LARMN_LACPL Probable fused nickel transport protein 
+LarMN OS=Lactobacillus plantarum (strain ATCC BAA-793 / NCIMB 
+8826 / WCFS1) OX=220668 GN=larMN PE=2 SV=1
+Length=328
+
+ Score = 204 bits (519),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 129/226 (57%), Positives = 156/226 (69%), Gaps = 3/226 (1%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHIP+ YLSP TC  +  AM PV TVA  KV     K    +P + I ++ AF IMMFN+
+Sbjct  1    MHIPDNYLSPATCGTLVTAMAPVWTVAVLKVKVQIKKHHETLPMLGIAASLAFLIMMFNL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            PIPGGTTAHA+G TLLA  +GPWAA ++LT+ L +QALLFGDGGILA GAN+ NMA I P
+Sbjct  61   PIPGGTTAHAVGGTLLAVLIGPWAACLALTVTLLLQALLFGDGGILAFGANALNMAVIMP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            FVGY  YRL      ++ L  AIG Y+GIN AAL   IELGLQP+L HTA+G PLY PYG
+Sbjct  121  FVGYACYRLGQKWH-HEKLGLAIGAYLGINMAALVAGIELGLQPILAHTASGAPLYCPYG  179
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYR  224
+            LN+ IPAM+ AHL VAG VE V T LV  ++++V   N+    + R
+Sbjct  180  LNITIPAMLTAHLLVAGWVEVVFTLLVFQFVKRVAPTNLYQTPTRR  225
+
+
+> sp|D9S0S1|CBIM_THEOJ Cobalt transport protein CbiM OS=Thermosediminibacter 
+oceani (strain ATCC BAA-1034 / DSM 16646 / JW/IW-1228P) 
+OX=555079 GN=cbiM PE=3 SV=1
+Length=244
+
+ Score = 200 bits (510),  Expect = 4e-62, Method: Composition-based stats.
+ Identities = 55/212 (26%), Positives = 93/212 (44%), Gaps = 9/212 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MH+ EG+L  + C +  +  +P L      + K+  ++      +    AF F +    +
+Sbjct  21   MHVMEGFLPFKWCLLWYSIYIPFLMAGLIYIKKNIAEEPSKKILLGFAGAFVFALSALKL  80
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++H  G  L A  LGP   ++   + L  QALL   GGI  LGAN+F+MA    
+Sbjct  81   PSVAGSSSHPTGIGLGAILLGPLPMAVIGGIVLLFQALLLAHGGITTLGANAFSMAVAGS  140
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+            F  YG+Y++   + L+K  S  +G   G     + T+++L L    F  + G        
+Sbjct  141  FAAYGLYKVAGRVGLSKSASVFLGAASGDLMTYIITSLQLALA---FPASRGGVA----A  193
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQ  210
+                   +         I E ++T +V+  L+
+Sbjct  194  SFAGFSGIFAVTQLPLAIGEGILTVIVLNLLE  225
+
+
+> sp|A2SQF0|CBIM1_METLZ Putative cobalt transport protein CbiM 
+1 OS=Methanocorpusculum labreanum (strain ATCC 43576 / DSM 4855 
+/ Z) OX=410358 GN=cbiM1 PE=3 SV=2
+Length=231
+
+ Score = 200 bits (508),  Expect = 6e-62, Method: Composition-based stats.
+ Identities = 52/225 (23%), Positives = 90/225 (40%), Gaps = 11/225 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MH  +G+L    C        P L     K+ K    D+  +P MA+  AF F + + ++
+Sbjct  1    MHFMDGFLPIGWCVFWAVLAAPFLIYGMWKITKMINNDRHVLPLMAVCGAFIFVVSLVDI  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P P G+ +H  G  L A+  GP   S+   + L  QALL G GG   LGA +F+MA + P
+Sbjct  61   PSPTGSCSHPTGTGLSASFFGPAVTSVLGLIILVFQALLLGHGGFTTLGATAFSMAVMGP  120
+
+Query  119  FVGYGIYRLMLSLK-LNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+               + +++ +     +    +      V      L T++++ L   +  +     L    
+Sbjct  121  LAAWLVFKGLRKTGRVPLGPAVFCAAVVANCVTYLITSLQIALAYPVEGSVLTAFLAAAA  180
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFS  222
+               V    +      ++        GLV  Y+ ++  E +     
+Sbjct  181  VFAVVQIPISIIEGIIS--------GLVATYIARIKPEILQKLGV  217
+
+
+> sp|Q748J7|CBIM_GEOSL Cobalt transport protein CbiM OS=Geobacter 
+sulfurreducens (strain ATCC 51573 / DSM 12127 / PCA) OX=243231 
+GN=cbiM PE=3 SV=1
+Length=346
+
+ Score = 200 bits (508),  Expect = 1e-60, Method: Composition-based stats.
+ Identities = 60/230 (26%), Positives = 98/230 (43%), Gaps = 11/230 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG L     A+  A   P L +  ++VN+         P + + +A  F I    +
+Sbjct  26   MHISEGILPLGWAALWFAVAAPFLALGIRRVNELSRHDLSFKPLVGLMAAVVFIISCMPI  85
+
+Query  59   PIPG-GTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIA  117
+            P+P  GT +H  G  + A  +GP  + +  T+AL IQAL    GG+  LGA+  +M    
+Sbjct  86   PVPTAGTCSHPCGTGIAAILVGPLVSVVITTVALLIQALFLAHGGLSTLGADVVSMGVAG  145
+
+Query  118  PFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+             F G+ ++R M  L     +++ + G +   A  L TA+EL        ++        Y
+Sbjct  146  SFAGWFVFRGMRRLGAGLAVAAFVAGLLADWATYLTTALEL--------SSGVRGSEPFY  197
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRG  227
+             L + I A         G++E  +T  +V  L +   + +         G
+Sbjct  198  PLFLKIVAAFVPTQLPLGVLEGAMTAGMVVLLHRKRPDLLAKMGVVDAGG  247
+
+
+> sp|A2SSD6|CBIMQ_METLZ Putative fused cobalt transport protein 
+CbiMQ OS=Methanocorpusculum labreanum (strain ATCC 43576 / 
+DSM 4855 / Z) OX=410358 GN=cbiMQ PE=3 SV=1
+Length=599
+
+ Score = 204 bits (519),  Expect = 5e-60, Method: Composition-based stats.
+ Identities = 44/227 (19%), Positives = 86/227 (38%), Gaps = 15/227 (7%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L            V  +      + +   +    +P + +  A  F +    +
+Sbjct  1    MHIMEGFLPSPWWQFWALLAVVCVLAGMAALIRLVKRNPESLPLLGLAGACVFILSSLKL  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+++HA G    A   GP   S+  T+ L  QALL   GGI  LGAN  +M    P
+Sbjct  61   PSV-GSSSHATGTGFGAILFGPAVCSVFCTIVLVFQALLLAHGGITTLGANIISMGVAGP  119
+
+Query  119  FVGYGIYRLMLSLK-----LNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPL  173
+                 I+++   ++      +  ++             + T+++L L    +  A G  L
+Sbjct  120  LAACIIFKIGHLIRPEFSIRSFSVTVFCAAAAADLVTYMMTSLQLALA---YPAAEGGVL  176
+
+Query  174  YFPYGLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+                   V    +         ++E ++  L++ ++ ++  +  +  
+Sbjct  177  ----ASFVVYLGIFSITQVPLAVLEGILIVLMMRFVIRIRPDIFVSL  219
+
+
+> sp|B0R611|CBIM_HALS3 Putative cobalt transport protein CbiM OS=Halobacterium 
+salinarum (strain ATCC 29341 / DSM 671 / R1) 
+OX=478009 GN=cbiM PE=3 SV=1
+Length=220
+
+ Score = 192 bits (489),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 52/218 (24%), Positives = 90/218 (41%), Gaps = 8/218 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSF--DKKDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L      V     +PV++  A K  +    D+ +   +A+ +AF F +    +
+Sbjct  1    MHIMEGFLPGIWALVWFVVAIPVISYGALKTARLARNDELNKSHIAVAAAFIFVLSALKI  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  +     GP   +    + L  QALL G GG+  LGAN  +M  + P
+Sbjct  61   PSVTGSTSHPTGTGIAVVLFGPAVTAFLSAIVLLYQALLLGHGGLTTLGANVVSMGVVGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+              G+ ++R +    L+   ++     +      L T+I+LG+         G        
+Sbjct  121  VAGWVVFRALNPY-LDLQKATFAAAVIADWTTYLVTSIQLGVAFPSGPGVAGVVD-----  174
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEEN  216
+              V   ++        GIVE  +   ++ Y+    +  
+Sbjct  175  SIVRFASVFSITQIPIGIVEGALAAGLIGYIAMSRQSI  212
+
+
+> sp|A9GQ89|CBIM_SORC5 Cobalt transport protein CbiM OS=Sorangium 
+cellulosum (strain So ce56) OX=448385 GN=cbiM PE=3 SV=2
+Length=225
+
+ Score = 188 bits (477),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 59/232 (25%), Positives = 94/232 (41%), Gaps = 11/232 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKD--VPAMAIGSAFAFTIMMFNV  58
+            MH+ EG L    CA   A  +P + +A   + +  ++     P + + +A  F I    V
+Sbjct  1    MHLAEGVLPLGWCAFWNALALPFVAIALHLLRRRTEQDAFYKPFVGLIAAAVFAISCMPV  60
+
+Query  59   PIPG-GTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIA  117
+            P+P  GT +H  G  L A  +GPW   +   +AL IQAL    GG+  LGA+  +M    
+Sbjct  61   PVPTAGTCSHPCGTGLAAVLIGPWMTVLVTVVALLIQALFLAHGGLTTLGADVASMGIAG  120
+
+Query  118  PFVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPY  177
+             F GY  + L      N  ++  + G     A    TA+ L L        +G       
+Sbjct  121  AFTGYFAFHLARRSGANLWVAGFLAGVTSDWATYATTALALAL------GLSGEGSVTSM  174
+
+Query  178  GLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSYRLRGDN  229
+               VA+  +        G++E V+T   + +L+    + +      RL    
+Sbjct  175  FTGVALAFVP--TQLPLGLLEGVMTAGALAFLRARRPDILDRLQVVRLAPGA  224
+
+
+> sp|Q58964|Y1569_METJA Putative metal transport protein MJ1569 
+OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1569 PE=3 
+SV=1
+Length=222
+
+ Score = 187 bits (476),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 100/221 (45%), Positives = 143/221 (65%), Gaps = 9/221 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+GYL P TCA     M+P+   + K++ K  D + +P + + +AF+F +MMFN+P+
+Sbjct  1    MHIPDGYLGPITCAFFYLIMIPIWYKSIKELKK-LDPRKLPLLGVLTAFSFLVMMFNLPV  59
+
+Query  61   PGGTTAHAIGATLLATTL-GPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPF  119
+            P GTTAH +G TL+A  +  PW A+I++++ L IQA+ FGDGGI  +GAN FNM  + PF
+Sbjct  60   PDGTTAHMVGGTLIAILMDNPWVATIAISIVLIIQAIFFGDGGITCIGANCFNMGVVLPF  119
+
+Query  120  VGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYGL  179
+            VGY +Y+ +   K+ +V++S IG YVGI AAA+    E GLQP +         Y PY  
+Sbjct  120  VGYYVYKFL-RDKVGEVIASGIGAYVGIVAAAIVAGFEFGLQPFIEP------GYCPYPF  172
+
+Query  180  NVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+             V++PAM FAHL  AG   AV+T +VV+Y++KV  +    K
+Sbjct  173  TVSVPAMAFAHLITAGPAAAVVTAIVVWYVKKVRPDLFTSK  213
+
+
+> sp|Q18J48|CBIM_HALWD Putative cobalt transport protein CbiM OS=Haloquadratum 
+walsbyi (strain DSM 16790 / HBSQ001) OX=362976 
+GN=cbiM PE=3 SV=1
+Length=220
+
+ Score = 182 bits (462),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 64/222 (29%), Positives = 98/222 (44%), Gaps = 8/222 (4%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDK--KDVPAMAIGSAFAFTIMMFNV  58
+            MHI EG+L P+  A    A  P++   AK+      +  +    +AIG AF F +     
+Sbjct  1    MHIMEGFLPPRWAAAWTLAAAPIVVYGAKQTIDIIRQDARVKALVAIGIAFVFILSALKF  60
+
+Query  59   PIPGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAP  118
+            P   G+T+H  G  LL    GP   + + T+ L  QALL   GGI  LGAN   M  I P
+Sbjct  61   PSVTGSTSHPTGTGLLVVLFGPAVTAFTATIVLLYQALLLAHGGITTLGANVVAMGIIGP  120
+
+Query  119  FVGYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYG  178
+             VG+  Y+++     +   ++ I   +      L T+++LG     F   +G        
+Sbjct  121  TVGWTAYQIIRPY-TSLERATFIAAVLTDWTTYLVTSLQLGAA---FPAGDGLDAIIISA  176
+
+Query  179  LNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+            L+ A  A+        GI+E ++   V+ YL ++  E I   
+Sbjct  177  LDFA--AIFTLTQVPIGILEGILAAAVIGYLTRLGSETIESL  216
+
+
+> sp|D5AQY8|NIKMN_RHOCB Fused nickel transport protein NikMN OS=Rhodobacter 
+capsulatus (strain ATCC BAA-309 / NBRC 16581 / 
+SB1003) OX=272942 GN=nikMN PE=1 SV=1
+Length=347
+
+ Score = 171 bits (434),  Expect = 1e-49, Method: Composition-based stats.
+ Identities = 109/221 (49%), Positives = 148/221 (67%), Gaps = 4/221 (2%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+GYLSP TCAV  AA VP   V+ +K+++  + + +P +A+ +AF+F IMMFN+PI
+Sbjct  1    MHIPDGYLSPVTCAVTFAATVPFWYVSMRKLDRDLNGQHLPLVALVAAFSFVIMMFNLPI  60
+
+Query  61   PGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPFV  120
+            PGGTTAHA G  + A  LGPWAA  ++++AL IQA+ FGDGGI A GAN  NMA + P V
+Sbjct  61   PGGTTAHAAGIGIAAVLLGPWAAVPAISVALLIQAIFFGDGGITAFGANCLNMAVVGPMV  120
+
+Query  121  GYGIYRLMLS----LKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFP  176
+               +Y L           +V+ + +  Y G+NAAAL  A+E G+QPL FH A G PLY P
+Sbjct  121  AAAVYALGTRGAAIGSRRRVIMAGLASYAGLNAAALLAAVEFGVQPLFFHDAAGAPLYAP  180
+
+Query  177  YGLNVAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENI  217
+            Y L+VA+PAM   HLT+AG  E ++T  +V +LQ+ + E +
+Sbjct  181  YPLSVAVPAMALTHLTIAGAAEFIVTAGLVAWLQRSNPELL  221
+
+
+> sp|O28435|NIKMN_ARCFU Putative fused nickel transport protein 
+NikMN OS=Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 
+/ DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 GN=AF_1843 PE=3 
+SV=2
+Length=295
+
+ Score = 162 bits (411),  Expect = 8e-47, Method: Composition-based stats.
+ Identities = 80/220 (36%), Positives = 114/220 (52%), Gaps = 17/220 (8%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+GYL      +     + VL  +  ++     +K      I +A  F   M N PI
+Sbjct  1    MHIPDGYLDLSIAGLFYILSIAVLGYSIYRLR---GQKLTSLFGIVAAAIFAAQMLNWPI  57
+
+Query  61   PGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPFV  120
+            PGGT+AH +G  L    LGP+A ++++ + L IQ L+F DGGI ALGAN +NMA +  FV
+Sbjct  58   PGGTSAHFVGGALAGILLGPYAGALAMAVVLTIQCLVFADGGITALGANVWNMAIVNVFV  117
+
+Query  121  GYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYGLN  180
+            GY +YR +     N+  ++ I G++GI  AA+   IE+G+              F YGL 
+Sbjct  118  GYYVYRAIER--FNRSAAAFIAGWIGITLAAIFAGIEIGIST-----------SFGYGLK  164
+
+Query  181  VAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHK  220
+            V +P M   H  + G+VE  IT  VV Y+     + I  K
+Sbjct  165  VTLPVMGTWH-ALLGLVEGTITAGVVSYIAAARPDVIEQK  203
+
+
+> sp|Q18EC4|Y3621_HALWD Putative metal transport protein HQ_3621A 
+OS=Haloquadratum walsbyi (strain DSM 16790 / HBSQ001) OX=362976 
+GN=cbiM PE=3 SV=1
+Length=218
+
+ Score = 156 bits (394),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 65/223 (29%), Positives = 107/223 (48%), Gaps = 14/223 (6%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MHIP+G+L P    +        + +A +        +  P + + +A  F   M N PI
+Sbjct  1    MHIPDGFLDPLVAGLFWLGSAVTIGLAVRHARSELGDERTPLLGVVAAGIFAAQMLNWPI  60
+
+Query  61   PGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPFV  120
+            PGGT+AH +G       LGP    +++T  + IQAL+FGDGGI+ALG N F +A +   +
+Sbjct  61   PGGTSAHFVGGAFAGILLGPSLGVLAMTAVVTIQALVFGDGGIIALGGNLFAIAVVNVLI  120
+
+Query  121  GYGIYRLMLSLKLNKVLSSAIGGYVGINAAALATAIELGLQPLLFHTANGTPLYFPYGLN  180
+            GYG++R+    ++++  ++ I G+  +  +AL  A+ +G               F Y + 
+Sbjct  121  GYGLFRMFR--EIHESGAAFIAGWAAVTLSALIVALGVGFS-----------SAFAYEIG  167
+
+Query  181  VAIPAMMFAHLTVAGIVEAVITGLVVYYLQKVDEENILHKFSY  223
+              +  M   H  V GI+E  IT  V  Y+     + +  +F  
+Sbjct  168  TTVTIMTGGH-AVLGIIEGAITAGVYTYIAAARPDLVFTQFEN  209
+
+
+> sp|P44274|Y1621_HAEIN Putative metal transport protein HI_1621 
+OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / 
+KW20 / Rd) OX=71421 GN=HI_1621 PE=3 SV=1
+Length=206
+
+ Score = 79.6 bits (195),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 33/123 (27%), Positives = 51/123 (41%), Gaps = 6/123 (5%)
+
+Query  1    MHIPEGYLSPQTCAVMGAAMVPVLTVAAKKVNKSFDKKDVPAMAIGSAFAFTIMMFNVPI  60
+            MH+ EG L            V  + V  +++    + + +P  A+ +A  F     +VP+
+Sbjct  1    MHLSEGVLHTPILLAGAVLAVAGIAVGLRRL----ESERLPLTALFAAAFFVAGTIHVPV  56
+
+Query  61   PGGTTAHAIGATLLATTLGPWAASISLTLALFIQALLFGDGGILALGANSFNMAFIAPFV  120
+              G+  H I   +    LG WA   +  +AL +Q + F  GG   LG N   MA  A   
+Sbjct  57   GIGSV-HLILNGMAGLFLG-WAVFPAFLIALLLQVIFFSFGGFAVLGVNLCVMATPAVIA  114
+
+Query  121  GYG  123
+             Y 
+Sbjct  115  HYL  117
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.146    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0445    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15796207664
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,847 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P97253|1lghA
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P97253|LHA_PHAMO Light-harvesting protein B-800/850 alpha ch...  110     1e-31
+  sp|P0C0X9|LHA1_RHOSH Light-harvesting protein B-875 alpha chain...  37.7    4e-04
+  sp|Q3J1A4|LHA1_RHOS4 Light-harvesting protein B-875 alpha chain...  37.7    4e-04
+  sp|P02948|LHA1_RHOCA Light-harvesting protein B-870 alpha chain...  37.7    5e-04
+  sp|P35091|LHA3_RHOAC Light-harvesting protein B-800/850 alpha c...  37.4    7e-04
+
+
+> sp|P97253|LHA_PHAMO Light-harvesting protein B-800/850 alpha 
+chain OS=Phaeospirillum molischianum OX=1083 GN=A1 PE=1 SV=3
+Length=57
+
+ Score = 110 bits (274),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 57/57 (100%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK
+Sbjct  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+
+
+> sp|P0C0X9|LHA1_RHOSH Light-harvesting protein B-875 alpha chain 
+OS=Rhodobacter sphaeroides OX=1063 GN=pufA PE=1 SV=1
+Length=58
+
+ Score = 37.7 bits (86),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 27/46 (59%), Gaps = 0/46 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAK  53
+           YKIW++ +P        +   ++A+ +H  +L+ P +NW+ + AAK
+Sbjct  5   YKIWMIFDPRRVFVAQGVFLFLLAVMIHLILLSTPSYNWLEISAAK  50
+
+
+> sp|Q3J1A4|LHA1_RHOS4 Light-harvesting protein B-875 alpha chain 
+OS=Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 
+8253 / DSM 158) OX=272943 GN=pufA PE=3 SV=1
+Length=58
+
+ Score = 37.7 bits (86),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 27/46 (59%), Gaps = 0/46 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAK  53
+           YKIW++ +P        +   ++A+ +H  +L+ P +NW+ + AAK
+Sbjct  5   YKIWMIFDPRRVFVAQGVFLFLLAVMIHLILLSTPSYNWLEISAAK  50
+
+
+> sp|P02948|LHA1_RHOCA Light-harvesting protein B-870 alpha chain 
+OS=Rhodobacter capsulatus OX=1061 GN=pufA PE=1 SV=1
+Length=58
+
+ Score = 37.7 bits (86),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 26/48 (54%), Gaps = 0/48 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSA  55
+           YKIWLV +P        +   ++A+ +H  +L+ P FNW+ +  AK  
+Sbjct  5   YKIWLVFDPRRVFVAQGVFLFLLAVLIHLILLSTPAFNWLTVATAKHG  52
+
+
+> sp|P35091|LHA3_RHOAC Light-harvesting protein B-800/850 alpha 
+chain OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=53
+
+ Score = 37.4 bits (85),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 19/35 (54%), Positives = 25/35 (71%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  KIW V+NPS  LP++    TV+AI VHAAVL+
+Sbjct  2   NQGKIWTVVNPSVGLPLLLGSVTVIAILVHAAVLS  36
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.131    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4939582608
+Results from round 2
+
+
+Query= P97253|1lghA
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P02948|LHA1_RHOCA Light-harvesting protein B-870 alpha chain...  66.6    8e-15
+  sp|P0C0X9|LHA1_RHOSH Light-harvesting protein B-875 alpha chain...  66.3    9e-15
+  sp|Q3J1A4|LHA1_RHOS4 Light-harvesting protein B-875 alpha chain...  66.3    9e-15
+  sp|P97253|LHA_PHAMO Light-harvesting protein B-800/850 alpha ch...  57.4    3e-11
+  sp|P35091|LHA3_RHOAC Light-harvesting protein B-800/850 alpha c...  42.0    1e-05
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P26273|LHA_ROSDO Light-harvesting protein B-870 alpha chain ...  50.9    6e-09
+  sp|P35092|LHA6_RHOAC Light-harvesting protein B-880 alpha chain...  46.6    3e-07
+  sp|P35093|LHA7_RHOAC Light-harvesting protein B-880 alpha chain...  46.2    4e-07
+  sp|P80259|LHA_AFIMA Light-harvesting protein B-880 alpha chain ...  45.1    1e-06
+  sp|P02947|LHA_RHORU Light-harvesting protein B-870 alpha chain ...  45.1    1e-06
+  sp|P04123|LHA_BLAVI Light-harvesting protein B-1015 alpha chain...  40.8    4e-05
+  sp|P80102|LHA1_HALHR Light-harvesting protein B800/830/1020 alp...  40.1    7e-05
+  sp|P0DJO0|LHA1_RUBGE Light-harvesting protein B-870 alpha chain...  40.1    8e-05
+  sp|P35102|LHA2_RHOPA Light-harvesting protein B-800-850 alpha c...  40.1    8e-05
+  sp|P26789|LHA4_RHOAC Light-harvesting protein B-800/850 alpha c...  39.7    1e-04
+  sp|P35105|LHA5_RHOPA Light-harvesting protein B-800-850 alpha c...  38.5    2e-04
+  sp|I0HUL6|LHA1_RUBGI Light-harvesting protein B-870 alpha chain...  38.1    3e-04
+  sp|P35090|LHA2_RHOAC Light-harvesting protein B-800/820 alpha c...  37.4    5e-04
+  sp|P35101|LHA1_RHOPA Light-harvesting protein B-800-850 alpha c...  37.0    8e-04
+  sp|P80101|LHA2_HALHL Light-harvesting protein B800/850/890 alph...  36.6    0.001
+  sp|P80100|LHA1_HALHL Light-harvesting protein B800/850/890 alph...  36.2    0.001
+  sp|P35103|LHA3_RHOPL Light-harvesting protein B-800-850 alpha c...  33.9    0.009
+
+
+> sp|P02948|LHA1_RHOCA Light-harvesting protein B-870 alpha chain 
+OS=Rhodobacter capsulatus OX=1061 GN=pufA PE=1 SV=1
+Length=58
+
+ Score = 66.6 bits (161),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 26/48 (54%), Gaps = 0/48 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSA  55
+           YKIWLV +P        +   ++A+ +H  +L+ P FNW+ +  AK  
+Sbjct  5   YKIWLVFDPRRVFVAQGVFLFLLAVLIHLILLSTPAFNWLTVATAKHG  52
+
+
+> sp|P0C0X9|LHA1_RHOSH Light-harvesting protein B-875 alpha chain 
+OS=Rhodobacter sphaeroides OX=1063 GN=pufA PE=1 SV=1
+Length=58
+
+ Score = 66.3 bits (160),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKS  54
+           YKIW++ +P        +   ++A+ +H  +L+ P +NW+ + AAK 
+Sbjct  5   YKIWMIFDPRRVFVAQGVFLFLLAVMIHLILLSTPSYNWLEISAAKY  51
+
+
+> sp|Q3J1A4|LHA1_RHOS4 Light-harvesting protein B-875 alpha chain 
+OS=Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 
+8253 / DSM 158) OX=272943 GN=pufA PE=3 SV=1
+Length=58
+
+ Score = 66.3 bits (160),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKS  54
+           YKIW++ +P        +   ++A+ +H  +L+ P +NW+ + AAK 
+Sbjct  5   YKIWMIFDPRRVFVAQGVFLFLLAVMIHLILLSTPSYNWLEISAAKY  51
+
+
+> sp|P97253|LHA_PHAMO Light-harvesting protein B-800/850 alpha 
+chain OS=Phaeospirillum molischianum OX=1083 GN=A1 PE=1 SV=3
+Length=57
+
+ Score = 57.4 bits (137),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 57/57 (100%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK
+Sbjct  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+
+
+> sp|P26273|LHA_ROSDO Light-harvesting protein B-870 alpha chain 
+OS=Roseobacter denitrificans (strain ATCC 33942 / OCh 114) 
+OX=375451 GN=pufA PE=3 SV=1
+Length=52
+
+ Score = 50.9 bits (120),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 23/48 (48%), Gaps = 1/48 (2%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSA  55
+           YKIWL+ +P        +   ++A  +H  VL++ G NW    AA   
+Sbjct  5   YKIWLIFDPRRVFVAQGVFLFLLAAMIHLVVLSS-GLNWFEAAAAVGG  51
+
+
+> sp|P35092|LHA6_RHOAC Light-harvesting protein B-880 alpha chain 
+OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=50
+
+ Score = 46.6 bits (109),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 25/49 (51%), Gaps = 0/49 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAA  56
+           YK+WL+ +P   L  +     V+A+ +H   L+   FNW+    A  AA
+Sbjct  2   YKLWLLFDPRRALVALSAFLFVLALIIHFIALSTDRFNWLEGKPAVKAA  50
+
+
+> sp|P35093|LHA7_RHOAC Light-harvesting protein B-880 alpha chain 
+OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=49
+
+ Score = 46.2 bits (108),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 12/41 (29%), Positives = 21/41 (51%), Gaps = 0/41 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIA  48
+           YK+WL+ +P   L  +     V+ + +H   L+   FNW+ 
+Sbjct  2   YKLWLLFDPRRTLVALSAFLFVLGLIIHFISLSTDRFNWLE  42
+
+
+> sp|P80259|LHA_AFIMA Light-harvesting protein B-880 alpha chain 
+OS=Afifella marina OX=1080 PE=1 SV=1
+Length=52
+
+ Score = 45.1 bits (105),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 12/41 (29%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIA  48
+           +K+WL+ +P   L  ++    V+A+ +H  +L+   FNW+ 
+Sbjct  2   WKVWLLFDPRRTLVALFTFLFVLALLIHFILLSTDRFNWMQ  42
+
+
+> sp|P02947|LHA_RHORU Light-harvesting protein B-870 alpha chain 
+OS=Rhodospirillum rubrum OX=1085 PE=1 SV=1
+Length=62
+
+ Score = 45.1 bits (105),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 12/46 (26%), Positives = 24/46 (52%), Gaps = 0/46 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAK  53
+           ++IW + +P   L  +     V+A+ +H  +L+   FNW+   + K
+Sbjct  2   WRIWQLFDPRQALVGLATFLFVLALLIHFILLSTERFNWLEGASTK  47
+
+
+> sp|P35091|LHA3_RHOAC Light-harvesting protein B-800/850 alpha 
+chain OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=53
+
+ Score = 42.0 bits (97),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 19/35 (54%), Positives = 25/35 (71%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  KIW V+NPS  LP++    TV+AI VHAAVL+
+Sbjct  2   NQGKIWTVVNPSVGLPLLLGSVTVIAILVHAAVLS  36
+
+
+> sp|P04123|LHA_BLAVI Light-harvesting protein B-1015 alpha chain 
+OS=Blastochloris viridis OX=1079 GN=pufA PE=1 SV=3
+Length=69
+
+ Score = 40.8 bits (94),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 12/41 (29%), Positives = 25/41 (61%), Gaps = 0/41 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIA  48
+           +K+WL+++P   L  +++  TV+A+ +H  +L+    NW  
+Sbjct  10  WKLWLILDPRRVLTALFVYLTVIALLIHFGLLSTDRLNWWE  50
+
+
+> sp|P80102|LHA1_HALHR Light-harvesting protein B800/830/1020 alpha-1 
+chain (Fragment) OS=Halorhodospira halochloris OX=1052 
+PE=1 SV=1
+Length=52
+
+ Score = 40.1 bits (92),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 12/45 (27%), Positives = 22/45 (49%), Gaps = 0/45 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAA  52
+           ++IW V +P   L    I   ++A+ +H  ++    FNW+    A
+Sbjct  2   WRIWKVFDPRRILIATAIWLIIIALTIHVILMTTERFNWLEGAPA  46
+
+
+> sp|P0DJO0|LHA1_RUBGE Light-harvesting protein B-870 alpha chain 
+OS=Rubrivivax gelatinosus OX=28068 GN=pufA PE=1 SV=1
+Length=67
+
+ Score = 40.1 bits (92),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 8/40 (20%), Positives = 20/40 (50%), Gaps = 0/40 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWI  47
+           ++IW + +P   +    +    +A+ +H  +L    +NW+
+Sbjct  2   WRIWRLFDPMRAMVAQAVFLLGLAVLIHLMLLGTNKYNWL  41
+
+
+> sp|P35102|LHA2_RHOPA Light-harvesting protein B-800-850 alpha 
+chain B OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / 
+CGA009) OX=258594 GN=pucAB PE=1 SV=1
+Length=66
+
+ Score = 40.1 bits (92),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 16/35 (46%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  +IW V+NP   LP++    TV+AI VH AVL+
+Sbjct  2   NQGRIWTVVNPGVGLPLLLGSVTVIAILVHYAVLS  36
+
+
+> sp|P26789|LHA4_RHOAC Light-harvesting protein B-800/850 alpha 
+chain OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=53
+
+ Score = 39.7 bits (91),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  KIW V+NP+  +P +    TV+AI VH A+L+
+Sbjct  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILS  36
+
+
+> sp|P35105|LHA5_RHOPA Light-harvesting protein B-800-850 alpha 
+chain E OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / 
+CGA009) OX=258594 GN=pucAE PE=1 SV=2
+Length=59
+
+ Score = 38.5 bits (88),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  +IW V+ P+  LP++    TV+AI VH AVL+
+Sbjct  2   NQGRIWTVVKPTVGLPLLLGSVTVIAILVHFAVLS  36
+
+
+> sp|I0HUL6|LHA1_RUBGI Light-harvesting protein B-870 alpha chain 
+OS=Rubrivivax gelatinosus (strain NBRC 100245 / IL144) OX=983917 
+GN=pufA PE=3 SV=1
+Length=67
+
+ Score = 38.1 bits (87),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 8/40 (20%), Positives = 20/40 (50%), Gaps = 0/40 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWI  47
+           ++IW + +P   +    +    +A+ +H  +L    +NW+
+Sbjct  2   WRIWRLFDPMRAMVAQAVFLLGLAVLIHLMLLGTNKYNWL  41
+
+
+> sp|P35090|LHA2_RHOAC Light-harvesting protein B-800/820 alpha 
+chain OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=53
+
+ Score = 37.4 bits (85),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 21/35 (60%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  KIW V+NP+  LP++     + A+ VH AVL 
+Sbjct  2   NQGKIWTVVNPAVGLPLLLGSVAITALLVHLAVLT  36
+
+
+> sp|P35101|LHA1_RHOPA Light-harvesting protein B-800-850 alpha 
+chain A OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / 
+CGA009) OX=258594 GN=pucAA PE=1 SV=1
+Length=59
+
+ Score = 37.0 bits (84),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  +IW V+ P+  LP++    TV+AI VH AVL+
+Sbjct  2   NQARIWTVVKPTVGLPLLLGSVTVIAILVHFAVLS  36
+
+
+> sp|P80101|LHA2_HALHL Light-harvesting protein B800/850/890 alpha-2 
+chain (Fragment) OS=Halorhodospira halophila (strain DSM 
+244 / SL1) OX=349124 PE=1 SV=1
+Length=47
+
+ Score = 36.6 bits (83),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 8/41 (20%), Positives = 23/41 (56%), Gaps = 0/41 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIA  48
+           +++W +++    + +  +   V+A+ +H  +L+   FNW+ 
+Sbjct  2   WRMWKILDYRRTVVLAHVGMAVLALLIHFILLSTESFNWLE  42
+
+
+> sp|P80100|LHA1_HALHL Light-harvesting protein B800/850/890 alpha-1 
+chain (Fragment) OS=Halorhodospira halophila (strain DSM 
+244 / SL1) OX=349124 PE=1 SV=1
+Length=46
+
+ Score = 36.2 bits (82),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 12/44 (27%), Positives = 24/44 (55%), Gaps = 0/44 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGA  51
+           +++W + +P   L  I+    V+A+ +H  +L+   FNW+   A
+Sbjct  2   WRLWKLYDPRRVLIGIFSWLAVLALVIHFILLSTDRFNWVGGAA  45
+
+
+> sp|P35103|LHA3_RHOPL Light-harvesting protein B-800-850 alpha 
+chain C OS=Rhodopseudomonas palustris OX=1076 GN=pucAC PE=1 
+SV=1
+Length=65
+
+ Score = 33.9 bits (76),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 13/39 (33%), Positives = 22/39 (56%), Gaps = 0/39 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGF  44
+           +  +IW V++P+  LP++      +A AVH AVL    +
+Sbjct  2   NQGRIWTVVSPTVGLPLLLGSVAAIAFAVHFAVLENTSW  40
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0404    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4939582608
+Results from round 3
+
+
+Query= P97253|1lghA
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P02947|LHA_RHORU Light-harvesting protein B-870 alpha chain ...  61.9    5e-13
+  sp|P35092|LHA6_RHOAC Light-harvesting protein B-880 alpha chain...  61.6    6e-13
+  sp|P0C0X9|LHA1_RHOSH Light-harvesting protein B-875 alpha chain...  61.6    6e-13
+  sp|Q3J1A4|LHA1_RHOS4 Light-harvesting protein B-875 alpha chain...  61.6    6e-13
+  sp|P35093|LHA7_RHOAC Light-harvesting protein B-880 alpha chain...  61.2    7e-13
+  sp|P80259|LHA_AFIMA Light-harvesting protein B-880 alpha chain ...  60.4    2e-12
+  sp|P02948|LHA1_RHOCA Light-harvesting protein B-870 alpha chain...  60.0    2e-12
+  sp|P80102|LHA1_HALHR Light-harvesting protein B800/830/1020 alp...  56.6    4e-11
+  sp|P80100|LHA1_HALHL Light-harvesting protein B800/850/890 alph...  53.9    5e-10
+  sp|P04123|LHA_BLAVI Light-harvesting protein B-1015 alpha chain...  53.9    7e-10
+  sp|P80101|LHA2_HALHL Light-harvesting protein B800/850/890 alph...  53.5    7e-10
+  sp|P26273|LHA_ROSDO Light-harvesting protein B-870 alpha chain ...  51.2    4e-09
+  sp|I0HUL6|LHA1_RUBGI Light-harvesting protein B-870 alpha chain...  50.8    8e-09
+  sp|P0DJO0|LHA1_RUBGE Light-harvesting protein B-870 alpha chain...  50.4    1e-08
+  sp|P97253|LHA_PHAMO Light-harvesting protein B-800/850 alpha ch...  46.5    3e-07
+  sp|P35102|LHA2_RHOPA Light-harvesting protein B-800-850 alpha c...  41.1    3e-05
+  sp|P35105|LHA5_RHOPA Light-harvesting protein B-800-850 alpha c...  41.1    3e-05
+  sp|P35091|LHA3_RHOAC Light-harvesting protein B-800/850 alpha c...  40.0    7e-05
+  sp|P26789|LHA4_RHOAC Light-harvesting protein B-800/850 alpha c...  39.6    9e-05
+  sp|P35101|LHA1_RHOPA Light-harvesting protein B-800-850 alpha c...  39.6    1e-04
+  sp|P35090|LHA2_RHOAC Light-harvesting protein B-800/820 alpha c...  38.8    2e-04
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P80103|LHA2_HALHR Light-harvesting protein B800/830/1020 alp...  48.9    5e-08
+  sp|P35104|LHA4_RHOPA Light-harvesting protein B-800-850 alpha c...  36.5    0.001
+  sp|P35103|LHA3_RHOPL Light-harvesting protein B-800-850 alpha c...  36.1    0.002
+  sp|P80588|LHA1_RHOTE Light-harvesting polypeptide B-885 alpha-1...  35.8    0.002
+  sp|P80589|LHA2_RHOTE Light-harvesting polypeptide B-885 alpha-2...  35.8    0.002
+  sp|P07503|LHA_CHLAA Light-harvesting protein B-808/866 alpha ch...  34.6    0.006
+  sp|P35089|LHA1_RHOAC Light-harvesting protein B-800/820 alpha c...  33.8    0.010
+
+
+> sp|P02947|LHA_RHORU Light-harvesting protein B-870 alpha chain 
+OS=Rhodospirillum rubrum OX=1085 PE=1 SV=1
+Length=62
+
+ Score = 61.9 bits (149),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 12/46 (26%), Positives = 24/46 (52%), Gaps = 0/46 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAK  53
+           ++IW + +P   L  +     V+A+ +H  +L+   FNW+   + K
+Sbjct  2   WRIWQLFDPRQALVGLATFLFVLALLIHFILLSTERFNWLEGASTK  47
+
+
+> sp|P35092|LHA6_RHOAC Light-harvesting protein B-880 alpha chain 
+OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=50
+
+ Score = 61.6 bits (148),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 25/49 (51%), Gaps = 0/49 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAA  56
+           YK+WL+ +P   L  +     V+A+ +H   L+   FNW+    A  AA
+Sbjct  2   YKLWLLFDPRRALVALSAFLFVLALIIHFIALSTDRFNWLEGKPAVKAA  50
+
+
+> sp|P0C0X9|LHA1_RHOSH Light-harvesting protein B-875 alpha chain 
+OS=Rhodobacter sphaeroides OX=1063 GN=pufA PE=1 SV=1
+Length=58
+
+ Score = 61.6 bits (148),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKS  54
+           YKIW++ +P        +   ++A+ +H  +L+ P +NW+ + AAK 
+Sbjct  5   YKIWMIFDPRRVFVAQGVFLFLLAVMIHLILLSTPSYNWLEISAAKY  51
+
+
+> sp|Q3J1A4|LHA1_RHOS4 Light-harvesting protein B-875 alpha chain 
+OS=Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 
+8253 / DSM 158) OX=272943 GN=pufA PE=3 SV=1
+Length=58
+
+ Score = 61.6 bits (148),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKS  54
+           YKIW++ +P        +   ++A+ +H  +L+ P +NW+ + AAK 
+Sbjct  5   YKIWMIFDPRRVFVAQGVFLFLLAVMIHLILLSTPSYNWLEISAAKY  51
+
+
+> sp|P35093|LHA7_RHOAC Light-harvesting protein B-880 alpha chain 
+OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=49
+
+ Score = 61.2 bits (147),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 23/48 (48%), Gaps = 0/48 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSA  55
+           YK+WL+ +P   L  +     V+ + +H   L+   FNW+    A  A
+Sbjct  2   YKLWLLFDPRRTLVALSAFLFVLGLIIHFISLSTDRFNWLEGKPAVRA  49
+
+
+> sp|P80259|LHA_AFIMA Light-harvesting protein B-880 alpha chain 
+OS=Afifella marina OX=1080 PE=1 SV=1
+Length=52
+
+ Score = 60.4 bits (145),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 13/48 (27%), Positives = 25/48 (52%), Gaps = 0/48 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSA  55
+           +K+WL+ +P   L  ++    V+A+ +H  +L+   FNW+       A
+Sbjct  2   WKVWLLFDPRRTLVALFTFLFVLALLIHFILLSTDRFNWMQGAPTAPA  49
+
+
+> sp|P02948|LHA1_RHOCA Light-harvesting protein B-870 alpha chain 
+OS=Rhodobacter capsulatus OX=1061 GN=pufA PE=1 SV=1
+Length=58
+
+ Score = 60.0 bits (144),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 26/48 (54%), Gaps = 0/48 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSA  55
+           YKIWLV +P        +   ++A+ +H  +L+ P FNW+ +  AK  
+Sbjct  5   YKIWLVFDPRRVFVAQGVFLFLLAVLIHLILLSTPAFNWLTVATAKHG  52
+
+
+> sp|P80102|LHA1_HALHR Light-harvesting protein B800/830/1020 alpha-1 
+chain (Fragment) OS=Halorhodospira halochloris OX=1052 
+PE=1 SV=1
+Length=52
+
+ Score = 56.6 bits (135),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 12/45 (27%), Positives = 22/45 (49%), Gaps = 0/45 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAA  52
+           ++IW V +P   L    I   ++A+ +H  ++    FNW+    A
+Sbjct  2   WRIWKVFDPRRILIATAIWLIIIALTIHVILMTTERFNWLEGAPA  46
+
+
+> sp|P80100|LHA1_HALHL Light-harvesting protein B800/850/890 alpha-1 
+chain (Fragment) OS=Halorhodospira halophila (strain DSM 
+244 / SL1) OX=349124 PE=1 SV=1
+Length=46
+
+ Score = 53.9 bits (128),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 12/44 (27%), Positives = 24/44 (55%), Gaps = 0/44 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGA  51
+           +++W + +P   L  I+    V+A+ +H  +L+   FNW+   A
+Sbjct  2   WRLWKLYDPRRVLIGIFSWLAVLALVIHFILLSTDRFNWVGGAA  45
+
+
+> sp|P04123|LHA_BLAVI Light-harvesting protein B-1015 alpha chain 
+OS=Blastochloris viridis OX=1079 GN=pufA PE=1 SV=3
+Length=69
+
+ Score = 53.9 bits (128),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 12/41 (29%), Positives = 25/41 (61%), Gaps = 0/41 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIA  48
+           +K+WL+++P   L  +++  TV+A+ +H  +L+    NW  
+Sbjct  10  WKLWLILDPRRVLTALFVYLTVIALLIHFGLLSTDRLNWWE  50
+
+
+> sp|P80101|LHA2_HALHL Light-harvesting protein B800/850/890 alpha-2 
+chain (Fragment) OS=Halorhodospira halophila (strain DSM 
+244 / SL1) OX=349124 PE=1 SV=1
+Length=47
+
+ Score = 53.5 bits (127),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 8/44 (18%), Positives = 23/44 (52%), Gaps = 0/44 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGA  51
+           +++W +++    + +  +   V+A+ +H  +L+   FNW+    
+Sbjct  2   WRMWKILDYRRTVVLAHVGMAVLALLIHFILLSTESFNWLEGNP  45
+
+
+> sp|P26273|LHA_ROSDO Light-harvesting protein B-870 alpha chain 
+OS=Roseobacter denitrificans (strain ATCC 33942 / OCh 114) 
+OX=375451 GN=pufA PE=3 SV=1
+Length=52
+
+ Score = 51.2 bits (121),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 23/48 (48%), Gaps = 1/48 (2%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSA  55
+           YKIWL+ +P        +   ++A  +H  VL++ G NW    AA   
+Sbjct  5   YKIWLIFDPRRVFVAQGVFLFLLAAMIHLVVLSS-GLNWFEAAAAVGG  51
+
+
+> sp|I0HUL6|LHA1_RUBGI Light-harvesting protein B-870 alpha chain 
+OS=Rubrivivax gelatinosus (strain NBRC 100245 / IL144) OX=983917 
+GN=pufA PE=3 SV=1
+Length=67
+
+ Score = 50.8 bits (120),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 8/43 (19%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALG  50
+           ++IW + +P   +    +    +A+ +H  +L    +NW+   
+Sbjct  2   WRIWRLFDPMRAMVAQAVFLLGLAVLIHLMLLGTNKYNWLDGA  44
+
+
+> sp|P0DJO0|LHA1_RUBGE Light-harvesting protein B-870 alpha chain 
+OS=Rubrivivax gelatinosus OX=28068 GN=pufA PE=1 SV=1
+Length=67
+
+ Score = 50.4 bits (119),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 8/42 (19%), Positives = 20/42 (48%), Gaps = 0/42 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIAL  49
+           ++IW + +P   +    +    +A+ +H  +L    +NW+  
+Sbjct  2   WRIWRLFDPMRAMVAQAVFLLGLAVLIHLMLLGTNKYNWLDG  43
+
+
+> sp|P80103|LHA2_HALHR Light-harvesting protein B800/830/1020 alpha-2 
+chain OS=Halorhodospira halochloris OX=1052 PE=1 SV=1
+Length=65
+
+ Score = 48.9 bits (115),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 12/45 (27%), Positives = 22/45 (49%), Gaps = 0/45 (0%)
+
+Query  8   YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAA  52
+           +K+W  ++         I   ++A AVH A +++  FNW+    A
+Sbjct  2   WKLWKFVDFRMTAVGFHIFFALIAFAVHFACISSERFNWLEGAPA  46
+
+
+> sp|P97253|LHA_PHAMO Light-harvesting protein B-800/850 alpha 
+chain OS=Phaeospirillum molischianum OX=1083 GN=A1 PE=1 SV=3
+Length=57
+
+ Score = 46.5 bits (109),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 57/57 (100%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK
+Sbjct  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+
+
+> sp|P35102|LHA2_RHOPA Light-harvesting protein B-800-850 alpha 
+chain B OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / 
+CGA009) OX=258594 GN=pucAB PE=1 SV=1
+Length=66
+
+ Score = 41.1 bits (95),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 16/35 (46%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  +IW V+NP   LP++    TV+AI VH AVL+
+Sbjct  2   NQGRIWTVVNPGVGLPLLLGSVTVIAILVHYAVLS  36
+
+
+> sp|P35105|LHA5_RHOPA Light-harvesting protein B-800-850 alpha 
+chain E OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / 
+CGA009) OX=258594 GN=pucAE PE=1 SV=2
+Length=59
+
+ Score = 41.1 bits (95),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  +IW V+ P+  LP++    TV+AI VH AVL+
+Sbjct  2   NQGRIWTVVKPTVGLPLLLGSVTVIAILVHFAVLS  36
+
+
+> sp|P35091|LHA3_RHOAC Light-harvesting protein B-800/850 alpha 
+chain OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=53
+
+ Score = 40.0 bits (92),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 19/35 (54%), Positives = 25/35 (71%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  KIW V+NPS  LP++    TV+AI VHAAVL+
+Sbjct  2   NQGKIWTVVNPSVGLPLLLGSVTVIAILVHAAVLS  36
+
+
+> sp|P26789|LHA4_RHOAC Light-harvesting protein B-800/850 alpha 
+chain OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=53
+
+ Score = 39.6 bits (91),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  KIW V+NP+  +P +    TV+AI VH A+L+
+Sbjct  2   NQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILS  36
+
+
+> sp|P35101|LHA1_RHOPA Light-harvesting protein B-800-850 alpha 
+chain A OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / 
+CGA009) OX=258594 GN=pucAA PE=1 SV=1
+Length=59
+
+ Score = 39.6 bits (91),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  +IW V+ P+  LP++    TV+AI VH AVL+
+Sbjct  2   NQARIWTVVKPTVGLPLLLGSVTVIAILVHFAVLS  36
+
+
+> sp|P35090|LHA2_RHOAC Light-harvesting protein B-800/820 alpha 
+chain OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=53
+
+ Score = 38.8 bits (89),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 21/35 (60%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  KIW V+NP+  LP++     + A+ VH AVL 
+Sbjct  2   NQGKIWTVVNPAVGLPLLLGSVAITALLVHLAVLT  36
+
+
+> sp|P35104|LHA4_RHOPA Light-harvesting protein B-800-850 alpha 
+chain D OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / 
+CGA009) OX=258594 GN=pucAD PE=1 SV=1
+Length=59
+
+ Score = 36.5 bits (83),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 11/35 (31%), Positives = 19/35 (54%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  +IW V+ P+  LP++     ++   VH AVL 
+Sbjct  2   NQGRIWTVVKPTVGLPLLLGSVAIMVFLVHFAVLT  36
+
+
+> sp|P35103|LHA3_RHOPL Light-harvesting protein B-800-850 alpha 
+chain C OS=Rhodopseudomonas palustris OX=1076 GN=pucAC PE=1 
+SV=1
+Length=65
+
+ Score = 36.1 bits (82),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 13/34 (38%), Positives = 21/34 (62%), Gaps = 0/34 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVL  39
+           +  +IW V++P+  LP++      +A AVH AVL
+Sbjct  2   NQGRIWTVVSPTVGLPLLLGSVAAIAFAVHFAVL  35
+
+
+> sp|P80588|LHA1_RHOTE Light-harvesting polypeptide B-885 alpha-1 
+chain OS=Rhodocyclus tenuis OX=1066 PE=1 SV=1
+Length=72
+
+ Score = 35.8 bits (81),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 0/44 (0%)
+
+Query  7   DYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALG  50
+            +K+WLV++P T +        V+A+ +H  +L    FNWI  G
+Sbjct  5   QWKLWLVMDPRTVMIGTAAWLGVLALLIHFLLLGTERFNWIDTG  48
+
+
+> sp|P80589|LHA2_RHOTE Light-harvesting polypeptide B-885 alpha-2 
+chain OS=Rhodocyclus tenuis OX=1066 PE=1 SV=1
+Length=60
+
+ Score = 35.8 bits (81),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 16/50 (32%), Positives = 26/50 (52%), Gaps = 0/50 (0%)
+
+Query  7   DYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAA  56
+            +K+WLV++P T +        V+A+ +H  +L    FNWI  G  +  A
+Sbjct  5   QWKLWLVMDPRTVMIGTAAWLGVLALLIHFLLLGTERFNWIDTGLKEQKA  54
+
+
+> sp|P07503|LHA_CHLAA Light-harvesting protein B-808/866 alpha 
+chain OS=Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 
+/ J-10-fl) OX=324602 GN=puf2A PE=1 SV=2
+Length=57
+
+ Score = 34.6 bits (78),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 11/34 (32%), Positives = 21/34 (62%), Gaps = 0/34 (0%)
+
+Query  17  STWLPVIWIVATVVAIAVHAAVLAAPGFNWIALG  50
+            T + +  I+  VVA+ +H  VL++P +NW++  
+Sbjct  8   RTNIVIFTILGFVVALLIHFIVLSSPEYNWLSNA  41
+
+
+> sp|P35089|LHA1_RHOAC Light-harvesting protein B-800/820 alpha 
+chain OS=Rhodoblastus acidophilus OX=1074 PE=1 SV=1
+Length=53
+
+ Score = 33.8 bits (76),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 21/35 (60%), Gaps = 0/35 (0%)
+
+Query  6   DDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+           +  KIW V+ P+  LP++     + A+ VHAAVL 
+Sbjct  2   NQGKIWTVVPPAFGLPLMLGAVAITALLVHAAVLT  36
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.139    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4939582608
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

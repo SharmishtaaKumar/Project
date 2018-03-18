@@ -1,0 +1,1754 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P0ADZ7|2rddB
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P0AE00|YAJC_SHIFL Sec translocon accessory complex subunit Y...  223     2e-74
+  sp|P0ADZ7|YAJC_ECOLI Sec translocon accessory complex subunit Y...  223     2e-74
+  sp|P0ADZ8|YAJC_ECOL6 Sec translocon accessory complex subunit Y...  223     2e-74
+  sp|P0ADZ9|YAJC_ECO57 Sec translocon accessory complex subunit Y...  223     2e-74
+  sp|Q8KA08|YAJC_BUCAP Sec translocon accessory complex subunit Y...  147     4e-45
+  sp|P57234|YAJC_BUCAI Sec translocon accessory complex subunit Y...  138     2e-41
+  sp|P44592|YAJC_HAEIN Sec translocon accessory complex subunit Y...  127     3e-37
+  sp|Q89AV7|YAJC_BUCBP Sec translocon accessory complex subunit Y...  114     9e-32
+  sp|Q68WF3|YAJC_RICTY Sec translocon accessory complex subunit Y...  73.9    4e-16
+  sp|Q92H78|YAJC_RICCN Sec translocon accessory complex subunit Y...  73.6    5e-16
+  sp|Q9ZCW9|YAJC_RICPR Sec translocon accessory complex subunit Y...  72.8    1e-15
+  sp|Q4UKW4|YAJC_RICFE Sec translocon accessory complex subunit Y...  72.0    2e-15
+  sp|Q1RIN2|YAJC_RICBR Sec translocon accessory complex subunit Y...  71.6    3e-15
+  sp|O26075|YAJC_HELPY Sec translocon accessory complex subunit Y...  70.5    5e-15
+  sp|Q9ZJ67|YAJC_HELPJ Sec translocon accessory complex subunit Y...  67.4    5e-14
+  sp|O67295|YAJC_AQUAE Sec translocon accessory complex subunit Y...  64.3    7e-13
+  sp|P0A4Q2|YAJC_BRUSU Sec translocon accessory complex subunit Y...  62.0    5e-12
+  sp|P0A4Q1|YAJC_BRUME Sec translocon accessory complex subunit Y...  62.0    5e-12
+  sp|P0C120|YAJC_BRUAB Sec translocon accessory complex subunit Y...  62.0    5e-12
+  sp|Q2YNM1|YAJC_BRUA2 Sec translocon accessory complex subunit Y...  62.0    5e-12
+  sp|Q9WZW3|YAJC_THEMA Sec translocon accessory complex subunit Y...  62.0    5e-12
+  sp|Q9KDI4|YAJC_BACHD Sec translocon accessory complex subunit Y...  55.8    6e-10
+  sp|O32052|YRBF_BACSU Sec translocon accessory complex subunit Y...  51.6    3e-08
+  sp|O51595|YAJC_BORBU Sec translocon accessory complex subunit Y...  50.4    6e-08
+  sp|Q9Z722|YAJC_CHLPN Sec translocon accessory complex subunit Y...  47.4    8e-07
+  sp|O84746|YAJC_CHLTR Sec translocon accessory complex subunit Y...  43.5    2e-05
+  sp|P58007|YAJC_TREPA Sec translocon accessory complex subunit Y...  43.1    3e-05
+  sp|Q9PLI2|YAJC_CHLMU Sec translocon accessory complex subunit Y...  42.7    4e-05
+
+
+> sp|P0AE00|YAJC_SHIFL Sec translocon accessory complex subunit 
+YajC OS=Shigella flexneri OX=623 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 223 bits (567),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|P0ADZ7|YAJC_ECOLI Sec translocon accessory complex subunit 
+YajC OS=Escherichia coli (strain K12) OX=83333 GN=yajC PE=1 
+SV=1
+Length=110
+
+ Score = 223 bits (567),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|P0ADZ8|YAJC_ECOL6 Sec translocon accessory complex subunit 
+YajC OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 
+/ UPEC) OX=199310 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 223 bits (567),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|P0ADZ9|YAJC_ECO57 Sec translocon accessory complex subunit 
+YajC OS=Escherichia coli O157:H7 OX=83334 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 223 bits (567),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|Q8KA08|YAJC_BUCAP Sec translocon accessory complex subunit 
+YajC OS=Buchnera aphidicola subsp. Schizaphis graminum (strain 
+Sg) OX=198804 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 147 bits (372),  Expect = 4e-45, Method: Compositional matrix adjust.
+ Identities = 67/110 (61%), Positives = 84/110 (76%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFI DA AA     +G+  SLI MLV F LIFYFM+ RPQQK+ KEHK LM+SIA GD
+Sbjct  1    MSFFIKDANAAVNQALEGNSYSLIFMLVTFILIFYFMLFRPQQKKDKEHKNLMNSIAPGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EV+T  G +GRV KV ENGY+ + LN+TTE+ IK+DF+ + LPKGT+++L
+Sbjct  61   EVMTTSGFLGRVKKVTENGYVLLQLNNTTEIFIKKDFIVSSLPKGTLESL  110
+
+
+> sp|P57234|YAJC_BUCAI Sec translocon accessory complex subunit 
+YajC OS=Buchnera aphidicola subsp. Acyrthosiphon pisum (strain 
+APS) OX=107806 GN=yajC PE=3 SV=1
+Length=111
+
+ Score = 138 bits (347),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 62/111 (56%), Positives = 85/111 (77%), Gaps = 1/111 (1%)
+
+Query  1    MSFFISDAVAATGAPAQGS-PMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKG  59
+            MSFFI +A A     ++ S   SLI M V+F LIFYFM+ RPQQK+ KEHK L++S+ +G
+Sbjct  1    MSFFIQNANAVVNGTSESSNSYSLIFMAVIFLLIFYFMLFRPQQKKDKEHKNLINSLVQG  60
+
+Query  60   DEVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            DEV+T  GL+GR+ K+ +NGYI + LN+TTEV IK+DF+ ++LPKGT+K+L
+Sbjct  61   DEVITTSGLLGRIKKITKNGYILLELNETTEVFIKQDFIVSLLPKGTLKSL  111
+
+
+> sp|P44592|YAJC_HAEIN Sec translocon accessory complex subunit 
+YajC OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 
+/ KW20 / Rd) OX=71421 GN=yajC PE=3 SV=1
+Length=97
+
+ Score = 127 bits (319),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 58/93 (62%), Positives = 75/93 (81%), Gaps = 1/93 (1%)
+
+Query  19   SPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAE-  77
+            SPMS + + V+FGLIFYFMI RPQ KR KEHKKLM  +AKG EVLT GG++G++TKV E 
+Sbjct  5    SPMSTLFIFVIFGLIFYFMIYRPQAKRNKEHKKLMSELAKGTEVLTAGGVIGKITKVTEG  64
+
+Query  78   NGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            +  I IALNDTTE+ I R+++ +VLPKG++K+L
+Sbjct  65   SDSIVIALNDTTEITINRNYIVSVLPKGSLKSL  97
+
+
+> sp|Q89AV7|YAJC_BUCBP Sec translocon accessory complex subunit 
+YajC OS=Buchnera aphidicola subsp. Baizongia pistaciae (strain 
+Bp) OX=224915 GN=yajC PE=3 SV=1
+Length=115
+
+ Score = 114 bits (284),  Expect = 9e-32, Method: Compositional matrix adjust.
+ Identities = 53/113 (47%), Positives = 76/113 (67%), Gaps = 4/113 (4%)
+
+Query  1    MSFFISDAVA---ATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIA  57
+            M  FIS   A   +T  P+  S  SLI ML+VF  IFYFMI RPQ+K+ +EH +L+ S++
+Sbjct  1    MDNFISHIYAVENSTTIPSSNS-YSLIFMLLVFLSIFYFMIFRPQRKKIQEHDRLIKSLS  59
+
+Query  58   KGDEVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+             GDEV T+ G VG++ K+ + GYI + LN+  EV +K DF+ ++ PKGT+K +
+Sbjct  60   YGDEVFTSSGFVGKIVKITKTGYIVLELNNNVEVFVKSDFIVSIFPKGTLKNM  112
+
+
+> sp|Q68WF3|YAJC_RICTY Sec translocon accessory complex subunit 
+YajC OS=Rickettsia typhi (strain ATCC VR-144 / Wilmington) 
+OX=257363 GN=yajC PE=3 SV=1
+Length=142
+
+ Score = 73.9 bits (180),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 35/73 (48%), Positives = 50/73 (68%), Gaps = 1/73 (1%)
+
+Query  6   SDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTN  65
+           +D V       Q    SLI M+++F  +FYF++LRPQ++R KE +KL+  + KG+EVLTN
+Sbjct  21  TDTVPIETNSLQSGLTSLIPMILIFA-VFYFLLLRPQEQRRKEREKLVREVKKGEEVLTN  79
+
+Query  66  GGLVGRVTKVAEN  78
+            G+ G VTKV+EN
+Sbjct  80  SGIYGIVTKVSEN  92
+
+
+> sp|Q92H78|YAJC_RICCN Sec translocon accessory complex subunit 
+YajC OS=Rickettsia conorii (strain ATCC VR-613 / Malish 7) 
+OX=272944 GN=yajC PE=3 SV=1
+Length=141
+
+ Score = 73.6 bits (179),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 40/97 (41%), Positives = 59/97 (61%), Gaps = 8/97 (8%)
+
+Query  6    SDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTN  65
+            ++ V A     Q    SLI M+++F  +FYF++LRPQ+ R KE +KL+  + KG+EVLTN
+Sbjct  21   TEVVPAETNSLQSGLTSLIPMVLIFA-VFYFLLLRPQETRRKEREKLVSEVKKGEEVLTN  79
+
+Query  66   GGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVL  102
+             G+ G VTKV+EN       ++  E+ I +D    VL
+Sbjct  80   SGIYGIVTKVSEN-------DNNIEIEIAKDVRIKVL  109
+
+
+> sp|Q9ZCW9|YAJC_RICPR Sec translocon accessory complex subunit 
+YajC OS=Rickettsia prowazekii (strain Madrid E) OX=272947 GN=yajC 
+PE=3 SV=1
+Length=142
+
+ Score = 72.8 bits (177),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 35/73 (48%), Positives = 49/73 (67%), Gaps = 1/73 (1%)
+
+Query  6   SDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTN  65
+           +D V       Q    SLI M+++F  +FYF++LRPQ+KR KE +KL+  + KG+EVL N
+Sbjct  21  TDTVPVETNSLQSGLTSLIPMILIFA-VFYFLLLRPQEKRRKEREKLVSGVKKGEEVLIN  79
+
+Query  66  GGLVGRVTKVAEN  78
+            G+ G VTKV+EN
+Sbjct  80  SGIYGIVTKVSEN  92
+
+
+> sp|Q4UKW4|YAJC_RICFE Sec translocon accessory complex subunit 
+YajC OS=Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) 
+OX=315456 GN=yajC PE=3 SV=2
+Length=142
+
+ Score = 72.0 bits (175),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 33/62 (53%), Positives = 46/62 (74%), Gaps = 1/62 (2%)
+
+Query  17  QGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVA  76
+           Q    SL  M+++F  +FYF++LRPQ+KR KE +KL+  + KG+EVLTN G+ G VTKV+
+Sbjct  32  QSGLTSLTPMVLIFA-VFYFLLLRPQEKRRKEREKLVSEVKKGEEVLTNSGIYGIVTKVS  90
+
+Query  77  EN  78
+           EN
+Sbjct  91  EN  92
+
+
+> sp|Q1RIN2|YAJC_RICBR Sec translocon accessory complex subunit 
+YajC OS=Rickettsia bellii (strain RML369-C) OX=336407 GN=yajC 
+PE=3 SV=1
+Length=146
+
+ Score = 71.6 bits (174),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 33/62 (53%), Positives = 47/62 (76%), Gaps = 1/62 (2%)
+
+Query  17  QGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVA  76
+           Q    SLI M+++F  +FYF++LRPQ+KR KE +KL+  + KG+EVLTN G+ G VTKV+
+Sbjct  33  QSGLTSLIPMVLIFA-VFYFLLLRPQEKRRKEREKLVSEVKKGEEVLTNSGIYGIVTKVS  91
+
+Query  77  EN  78
+           E+
+Sbjct  92  ES  93
+
+
+> sp|O26075|YAJC_HELPY Sec translocon accessory complex subunit 
+YajC OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 
+GN=yajC PE=3 SV=1
+Length=127
+
+ Score = 70.5 bits (171),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 52/68 (76%), Gaps = 1/68 (1%)
+
+Query  32  LIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIALNDTTEV  91
+           LIFYF+I+RPQ+++ K+HK++++S+ KGD+++T GGL+  V K AE  + ++ LND T  
+Sbjct  19  LIFYFLIVRPQRQQQKKHKEMIESLTKGDKIVTQGGLIVEVLK-AEANFFSVKLNDDTTA  77
+
+Query  92  VIKRDFVA  99
+            + +++VA
+Sbjct  78  KLSKNYVA  85
+
+
+> sp|Q9ZJ67|YAJC_HELPJ Sec translocon accessory complex subunit 
+YajC OS=Helicobacter pylori (strain J99 / ATCC 700824) OX=85963 
+GN=yajC PE=3 SV=1
+Length=97
+
+ Score = 67.4 bits (163),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 30/74 (41%), Positives = 53/74 (72%), Gaps = 1/74 (1%)
+
+Query  33   IFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIALNDTTEVV  92
+            IFYF+I+RPQ+++ K+HK++++ + KGD+++T GGL+  V K AE  + ++ LND T   
+Sbjct  20   IFYFLIVRPQRQQQKKHKEMIEGLTKGDKIVTQGGLIVEVLK-AEANFFSVKLNDDTTAK  78
+
+Query  93   IKRDFVAAVLPKGT  106
+            + +++VA  L + T
+Sbjct  79   LSKNYVAFKLDEET  92
+
+
+> sp|O67295|YAJC_AQUAE Sec translocon accessory complex subunit 
+YajC OS=Aquifex aeolicus (strain VF5) OX=224324 GN=yajC PE=3 
+SV=1
+Length=102
+
+ Score = 64.3 bits (155),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 29/91 (32%), Positives = 57/91 (63%), Gaps = 5/91 (5%)
+
+Query  17   QGSPMSLILMLVVF----GLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRV  72
+            Q SP+  +L  ++F     L+FYF+I+RPQ+K  + H+K ++S+ KGD+V+T+ G+ G V
+Sbjct  3    QQSPVGALLFQIIFLVAIFLMFYFLIIRPQKKERERHRKFLESLKKGDKVITSSGIWGTV  62
+
+Query  73   TKVAENGYIAIALNDTTEVVIKRDFVAAVLP  103
+             ++ +   I + ++  T++   ++ + A  P
+Sbjct  63   VEIGDRT-ITLKVDANTKITFSKEAIVAYQP  92
+
+
+> sp|P0A4Q2|YAJC_BRUSU Sec translocon accessory complex subunit 
+YajC OS=Brucella suis biovar 1 (strain 1330) OX=204722 GN=yajC 
+PE=3 SV=1
+Length=113
+
+ Score = 62.0 bits (149),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|P0A4Q1|YAJC_BRUME Sec translocon accessory complex subunit 
+YajC OS=Brucella melitensis biotype 1 (strain 16M / ATCC 23456 
+/ NCTC 10094) OX=224914 GN=yajC PE=3 SV=1
+Length=113
+
+ Score = 62.0 bits (149),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|P0C120|YAJC_BRUAB Sec translocon accessory complex subunit 
+YajC OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 
+GN=yajC PE=3 SV=1
+Length=113
+
+ Score = 62.0 bits (149),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|Q2YNM1|YAJC_BRUA2 Sec translocon accessory complex subunit 
+YajC OS=Brucella abortus (strain 2308) OX=359391 GN=yajC PE=3 
+SV=1
+Length=113
+
+ Score = 62.0 bits (149),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|Q9WZW3|YAJC_THEMA Sec translocon accessory complex subunit 
+YajC OS=Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 
+3109 / JCM 10099) OX=243274 GN=yajC PE=3 SV=1
+Length=116
+
+ Score = 62.0 bits (149),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 29/87 (33%), Positives = 58/87 (67%), Gaps = 1/87 (1%)
+
+Query  22   SLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYI  81
+            SL+ ML+ F  IFYFMI+ PQ++R K+ ++++  + +GD V+T GG+VG+V  + ++  +
+Sbjct  27   SLLFMLIFFIAIFYFMIILPQRRREKQFQQMISQMKRGDTVVTIGGIVGKVIDIKKDT-V  85
+
+Query  82   AIALNDTTEVVIKRDFVAAVLPKGTMK  108
+             I   ++TE+ I +  ++ V+ + + +
+Sbjct  86   KIKTANSTELEITKRAISTVIKERSQE  112
+
+
+> sp|Q9KDI4|YAJC_BACHD Sec translocon accessory complex subunit 
+YajC OS=Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 
+/ FERM 7344 / JCM 9153 / C-125) OX=272558 GN=yajC PE=3 SV=1
+Length=88
+
+ Score = 55.8 bits (133),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 27/80 (34%), Positives = 54/80 (68%), Gaps = 2/80 (3%)
+
+Query  23   LILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIA  82
+            LI ++++F  IFYF+++RPQQKR K+ +++ +++ +GD+++T GGL G +  + E+  + 
+Sbjct  8    LIPLILMFA-IFYFLLIRPQQKRQKQIQEMHNNLQRGDKIVTIGGLHGTIDSLDES-TVV  65
+
+Query  83   IALNDTTEVVIKRDFVAAVL  102
+            I +ND  ++   R  +  V+
+Sbjct  66   ILVNDNRKLTFDRSAIREVV  85
+
+
+> sp|O32052|YRBF_BACSU Sec translocon accessory complex subunit 
+YrbF OS=Bacillus subtilis (strain 168) OX=224308 GN=yrbF PE=3 
+SV=1
+Length=89
+
+ Score = 51.6 bits (122),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 29/84 (35%), Positives = 47/84 (56%), Gaps = 5/84 (6%)
+
+Query  18   GSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAE  77
+            G+ + +ILM  V     YF+++RPQQK+ K  +++ + + KGD V+T GGL G V  + E
+Sbjct  7    GTLVPIILMFAVL----YFLLIRPQQKQQKAVRQMQEELKKGDSVVTIGGLHGTVDSIDE  62
+
+Query  78   NGYIAIALNDTTEVVIKRDFVAAV  101
+            +  + I   D T +   R  +  V
+Sbjct  63   S-KVVIKTGDNTRLTFDRRAIREV  85
+
+
+> sp|O51595|YAJC_BORBU Sec translocon accessory complex subunit 
+YajC OS=Borrelia burgdorferi (strain ATCC 35210 / B31 / CIP 
+102532 / DSM 4680) OX=224326 GN=yajC PE=3 SV=1
+Length=105
+
+ Score = 50.4 bits (119),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 25/72 (35%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  33   IFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIALNDTTEVV  92
+            IF+F+++ PQ+K  K  K+++ ++ KGD+VLT GG+ G V K+ +   I + L+   E V
+Sbjct  33   IFWFLVISPQRKEEKNKKEMIKNLKKGDKVLTIGGIFGVVKKLGDTDVI-LELSPNNEAV  91
+
+Query  93   IKRDFVAAVLPK  104
+              ++ +  VL +
+Sbjct  92   FIKNSIDKVLSE  103
+
+
+> sp|Q9Z722|YAJC_CHLPN Sec translocon accessory complex subunit 
+YajC OS=Chlamydia pneumoniae OX=83558 GN=yajC PE=3 SV=1
+Length=117
+
+ Score = 47.4 bits (111),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 24/57 (42%), Positives = 37/57 (65%), Gaps = 1/57 (2%)
+
+Query  25  LMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYI  81
+           +ML +  L FYF++ RP+QKR K  +K  + +AKGD+V T  G++G V  + E+  I
+Sbjct  36  VMLAIAILFFYFILWRPEQKRRKAMEKRKNDLAKGDKV-TAMGIIGTVDDIREHTVI  91
+
+
+> sp|O84746|YAJC_CHLTR Sec translocon accessory complex subunit 
+YajC OS=Chlamydia trachomatis (strain D/UW-3/Cx) OX=272561 
+GN=yajC PE=3 SV=1
+Length=114
+
+ Score = 43.5 bits (101),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 26/75 (35%), Positives = 44/75 (59%), Gaps = 7/75 (9%)
+
+Query  10  AATGAPAQ---GSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNG  66
+           A T +P +   G P  ++ + +VF   FYF++ RP+QKR +  +K    +A GD+V T  
+Sbjct  21  ADTDSPQRATFGQPAVMLGIAIVF---FYFILWRPEQKRRQAMEKRKSELAVGDKV-TAM  76
+
+Query  67  GLVGRVTKVAENGYI  81
+           G+VG + ++ E+  I
+Sbjct  77  GIVGTIAEIREHTVI  91
+
+
+> sp|P58007|YAJC_TREPA Sec translocon accessory complex subunit 
+YajC OS=Treponema pallidum (strain Nichols) OX=243276 GN=yajC 
+PE=3 SV=1
+Length=135
+
+ Score = 43.1 bits (100),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 25/77 (32%), Positives = 42/77 (55%), Gaps = 1/77 (1%)
+
+Query  25   LMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIA  84
+            L + V  LIFY  +  P  +  K  + L+ +I KGD V+T GG+ G V+ V E+  + I 
+Sbjct  30   LAIGVVCLIFYLFVFAPNLREQKRTQALIKNIKKGDPVVTIGGIHGVVSVVREHSLV-IK  88
+
+Query  85   LNDTTEVVIKRDFVAAV  101
+            +N+   + + R  +A +
+Sbjct  89   VNEHGTLEVSRSAIARI  105
+
+
+> sp|Q9PLI2|YAJC_CHLMU Sec translocon accessory complex subunit 
+YajC OS=Chlamydia muridarum (strain MoPn / Nigg) OX=243161 
+GN=yajC PE=3 SV=1
+Length=114
+
+ Score = 42.7 bits (99),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 38/61 (62%), Gaps = 4/61 (7%)
+
+Query  18  GSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAE  77
+           G P  ++ + +VF   FYF++ RP+QKR +  +K    +A GD+V T  G+VG + ++ E
+Sbjct  32  GQPAVMLGIAIVF---FYFILWRPEQKRRQAMEKRKSELAVGDKV-TAMGIVGTIAEIRE  87
+
+Query  78  N  78
+           +
+Sbjct  88  H  88
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4999036928
+Results from round 2
+
+
+Query= P0ADZ7|2rddB
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0AE00|YAJC_SHIFL Sec translocon accessory complex subunit Y...  146     2e-44
+  sp|P0ADZ7|YAJC_ECOLI Sec translocon accessory complex subunit Y...  146     2e-44
+  sp|P0ADZ8|YAJC_ECOL6 Sec translocon accessory complex subunit Y...  146     2e-44
+  sp|P0ADZ9|YAJC_ECO57 Sec translocon accessory complex subunit Y...  146     2e-44
+  sp|Q8KA08|YAJC_BUCAP Sec translocon accessory complex subunit Y...  135     5e-40
+  sp|P57234|YAJC_BUCAI Sec translocon accessory complex subunit Y...  125     2e-36
+  sp|Q89AV7|YAJC_BUCBP Sec translocon accessory complex subunit Y...  118     2e-33
+  sp|P44592|YAJC_HAEIN Sec translocon accessory complex subunit Y...  110     2e-30
+  sp|P0A4Q2|YAJC_BRUSU Sec translocon accessory complex subunit Y...  99.0    5e-26
+  sp|P0A4Q1|YAJC_BRUME Sec translocon accessory complex subunit Y...  99.0    5e-26
+  sp|P0C120|YAJC_BRUAB Sec translocon accessory complex subunit Y...  99.0    5e-26
+  sp|Q2YNM1|YAJC_BRUA2 Sec translocon accessory complex subunit Y...  99.0    5e-26
+  sp|Q92H78|YAJC_RICCN Sec translocon accessory complex subunit Y...  95.5    3e-24
+  sp|Q9ZCW9|YAJC_RICPR Sec translocon accessory complex subunit Y...  95.5    3e-24
+  sp|Q68WF3|YAJC_RICTY Sec translocon accessory complex subunit Y...  94.7    5e-24
+  sp|Q4UKW4|YAJC_RICFE Sec translocon accessory complex subunit Y...  94.0    9e-24
+  sp|Q9WZW3|YAJC_THEMA Sec translocon accessory complex subunit Y...  90.5    1e-22
+  sp|Q9KDI4|YAJC_BACHD Sec translocon accessory complex subunit Y...  89.3    1e-22
+  sp|O67295|YAJC_AQUAE Sec translocon accessory complex subunit Y...  88.9    3e-22
+  sp|Q1RIN2|YAJC_RICBR Sec translocon accessory complex subunit Y...  89.3    6e-22
+  sp|P58007|YAJC_TREPA Sec translocon accessory complex subunit Y...  87.4    3e-21
+  sp|O32052|YRBF_BACSU Sec translocon accessory complex subunit Y...  84.3    1e-20
+  sp|Q9ZJ67|YAJC_HELPJ Sec translocon accessory complex subunit Y...  82.0    1e-19
+  sp|O26075|YAJC_HELPY Sec translocon accessory complex subunit Y...  81.6    4e-19
+  sp|O51595|YAJC_BORBU Sec translocon accessory complex subunit Y...  80.5    6e-19
+  sp|O84746|YAJC_CHLTR Sec translocon accessory complex subunit Y...  77.0    1e-17
+  sp|Q9PLI2|YAJC_CHLMU Sec translocon accessory complex subunit Y...  74.3    2e-16
+  sp|Q9Z722|YAJC_CHLPN Sec translocon accessory complex subunit Y...  73.9    3e-16
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q49647|YAJC_MYCLE Sec translocon accessory complex subunit Y...  42.3    6e-05
+  sp|P9WL75|YAJC_MYCTU Sec translocon accessory complex subunit Y...  41.6    9e-05
+  sp|P9WL74|YAJC_MYCTO Sec translocon accessory complex subunit Y...  41.6    9e-05
+  sp|P65026|YAJC_MYCBO Sec translocon accessory complex subunit Y...  41.6    9e-05
+
+
+> sp|P0AE00|YAJC_SHIFL Sec translocon accessory complex subunit 
+YajC OS=Shigella flexneri OX=623 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 146 bits (368),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|P0ADZ7|YAJC_ECOLI Sec translocon accessory complex subunit 
+YajC OS=Escherichia coli (strain K12) OX=83333 GN=yajC PE=1 
+SV=1
+Length=110
+
+ Score = 146 bits (368),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|P0ADZ8|YAJC_ECOL6 Sec translocon accessory complex subunit 
+YajC OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 
+/ UPEC) OX=199310 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 146 bits (368),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|P0ADZ9|YAJC_ECO57 Sec translocon accessory complex subunit 
+YajC OS=Escherichia coli O157:H7 OX=83334 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 146 bits (368),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|Q8KA08|YAJC_BUCAP Sec translocon accessory complex subunit 
+YajC OS=Buchnera aphidicola subsp. Schizaphis graminum (strain 
+Sg) OX=198804 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 135 bits (339),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 67/110 (61%), Positives = 84/110 (76%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFI DA AA     +G+  SLI MLV F LIFYFM+ RPQQK+ KEHK LM+SIA GD
+Sbjct  1    MSFFIKDANAAVNQALEGNSYSLIFMLVTFILIFYFMLFRPQQKKDKEHKNLMNSIAPGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EV+T  G +GRV KV ENGY+ + LN+TTE+ IK+DF+ + LPKGT+++L
+Sbjct  61   EVMTTSGFLGRVKKVTENGYVLLQLNNTTEIFIKKDFIVSSLPKGTLESL  110
+
+
+> sp|P57234|YAJC_BUCAI Sec translocon accessory complex subunit 
+YajC OS=Buchnera aphidicola subsp. Acyrthosiphon pisum (strain 
+APS) OX=107806 GN=yajC PE=3 SV=1
+Length=111
+
+ Score = 125 bits (315),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 62/111 (56%), Positives = 85/111 (77%), Gaps = 1/111 (1%)
+
+Query  1    MSFFISDAVAATGAPAQGS-PMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKG  59
+            MSFFI +A A     ++ S   SLI M V+F LIFYFM+ RPQQK+ KEHK L++S+ +G
+Sbjct  1    MSFFIQNANAVVNGTSESSNSYSLIFMAVIFLLIFYFMLFRPQQKKDKEHKNLINSLVQG  60
+
+Query  60   DEVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            DEV+T  GL+GR+ K+ +NGYI + LN+TTEV IK+DF+ ++LPKGT+K+L
+Sbjct  61   DEVITTSGLLGRIKKITKNGYILLELNETTEVFIKQDFIVSLLPKGTLKSL  111
+
+
+> sp|Q89AV7|YAJC_BUCBP Sec translocon accessory complex subunit 
+YajC OS=Buchnera aphidicola subsp. Baizongia pistaciae (strain 
+Bp) OX=224915 GN=yajC PE=3 SV=1
+Length=115
+
+ Score = 118 bits (296),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 50/112 (45%), Positives = 73/112 (65%), Gaps = 2/112 (2%)
+
+Query  1    MSFFISDAVAATGAPA--QGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAK  58
+            M  FIS   A   +      +  SLI ML+VF  IFYFMI RPQ+K+ +EH +L+ S++ 
+Sbjct  1    MDNFISHIYAVENSTTIPSSNSYSLIFMLLVFLSIFYFMIFRPQRKKIQEHDRLIKSLSY  60
+
+Query  59   GDEVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            GDEV T+ G VG++ K+ + GYI + LN+  EV +K DF+ ++ PKGT+K +
+Sbjct  61   GDEVFTSSGFVGKIVKITKTGYIVLELNNNVEVFVKSDFIVSIFPKGTLKNM  112
+
+
+> sp|P44592|YAJC_HAEIN Sec translocon accessory complex subunit 
+YajC OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 
+/ KW20 / Rd) OX=71421 GN=yajC PE=3 SV=1
+Length=97
+
+ Score = 110 bits (274),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 58/94 (62%), Positives = 75/94 (80%), Gaps = 1/94 (1%)
+
+Query  18   GSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAE  77
+             SPMS + + V+FGLIFYFMI RPQ KR KEHKKLM  +AKG EVLT GG++G++TKV E
+Sbjct  4    QSPMSTLFIFVIFGLIFYFMIYRPQAKRNKEHKKLMSELAKGTEVLTAGGVIGKITKVTE  63
+
+Query  78   -NGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+             +  I IALNDTTE+ I R+++ +VLPKG++K+L
+Sbjct  64   GSDSIVIALNDTTEITINRNYIVSVLPKGSLKSL  97
+
+
+> sp|P0A4Q2|YAJC_BRUSU Sec translocon accessory complex subunit 
+YajC OS=Brucella suis biovar 1 (strain 1330) OX=204722 GN=yajC 
+PE=3 SV=1
+Length=113
+
+ Score = 99.0 bits (245),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|P0A4Q1|YAJC_BRUME Sec translocon accessory complex subunit 
+YajC OS=Brucella melitensis biotype 1 (strain 16M / ATCC 23456 
+/ NCTC 10094) OX=224914 GN=yajC PE=3 SV=1
+Length=113
+
+ Score = 99.0 bits (245),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|P0C120|YAJC_BRUAB Sec translocon accessory complex subunit 
+YajC OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 
+GN=yajC PE=3 SV=1
+Length=113
+
+ Score = 99.0 bits (245),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|Q2YNM1|YAJC_BRUA2 Sec translocon accessory complex subunit 
+YajC OS=Brucella abortus (strain 2308) OX=359391 GN=yajC PE=3 
+SV=1
+Length=113
+
+ Score = 99.0 bits (245),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|Q92H78|YAJC_RICCN Sec translocon accessory complex subunit 
+YajC OS=Rickettsia conorii (strain ATCC VR-613 / Malish 7) 
+OX=272944 GN=yajC PE=3 SV=1
+Length=141
+
+ Score = 95.5 bits (236),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 59/100 (59%), Gaps = 2/100 (2%)
+
+Query  6    SDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTN  65
+            ++ V A     Q    SLI M+++F  +FYF++LRPQ+ R KE +KL+  + KG+EVLTN
+Sbjct  21   TEVVPAETNSLQSGLTSLIPMVLIFA-VFYFLLLRPQETRRKEREKLVSEVKKGEEVLTN  79
+
+Query  66   GGLVGRVTKVAEN-GYIAIALNDTTEVVIKRDFVAAVLPK  104
+             G+ G VTKV+EN   I I +     + + +  +  +  +
+Sbjct  80   SGIYGIVTKVSENDNNIEIEIAKDVRIKVLKSAIIDITSR  119
+
+
+> sp|Q9ZCW9|YAJC_RICPR Sec translocon accessory complex subunit 
+YajC OS=Rickettsia prowazekii (strain Madrid E) OX=272947 GN=yajC 
+PE=3 SV=1
+Length=142
+
+ Score = 95.5 bits (236),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 57/100 (57%), Gaps = 2/100 (2%)
+
+Query  6    SDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTN  65
+            +D V       Q    SLI M+++F  +FYF++LRPQ+KR KE +KL+  + KG+EVL N
+Sbjct  21   TDTVPVETNSLQSGLTSLIPMILIFA-VFYFLLLRPQEKRRKEREKLVSGVKKGEEVLIN  79
+
+Query  66   GGLVGRVTKVAEN-GYIAIALNDTTEVVIKRDFVAAVLPK  104
+             G+ G VTKV+EN   I I +     +   +  +  +  +
+Sbjct  80   SGIYGIVTKVSENDNNIEIEIAKDVRIKAIKSAIVDITSR  119
+
+
+> sp|Q68WF3|YAJC_RICTY Sec translocon accessory complex subunit 
+YajC OS=Rickettsia typhi (strain ATCC VR-144 / Wilmington) 
+OX=257363 GN=yajC PE=3 SV=1
+Length=142
+
+ Score = 94.7 bits (234),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 58/100 (58%), Gaps = 2/100 (2%)
+
+Query  6    SDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTN  65
+            +D V       Q    SLI M+++F  +FYF++LRPQ++R KE +KL+  + KG+EVLTN
+Sbjct  21   TDTVPIETNSLQSGLTSLIPMILIFA-VFYFLLLRPQEQRRKEREKLVREVKKGEEVLTN  79
+
+Query  66   GGLVGRVTKVAEN-GYIAIALNDTTEVVIKRDFVAAVLPK  104
+             G+ G VTKV+EN   I I +     +   +  +  +  +
+Sbjct  80   SGIYGIVTKVSENDNNIEIEIAKDVRIKAIKSSIIDITSR  119
+
+
+> sp|Q4UKW4|YAJC_RICFE Sec translocon accessory complex subunit 
+YajC OS=Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) 
+OX=315456 GN=yajC PE=3 SV=2
+Length=142
+
+ Score = 94.0 bits (232),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 57/100 (57%), Gaps = 2/100 (2%)
+
+Query  6    SDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTN  65
+            ++ V       Q    SL  M+++F  +FYF++LRPQ+KR KE +KL+  + KG+EVLTN
+Sbjct  21   TEVVPVETNSLQSGLTSLTPMVLIFA-VFYFLLLRPQEKRRKEREKLVSEVKKGEEVLTN  79
+
+Query  66   GGLVGRVTKVAEN-GYIAIALNDTTEVVIKRDFVAAVLPK  104
+             G+ G VTKV+EN   I I +     +   +  +  +  +
+Sbjct  80   SGIYGIVTKVSENDNNIEIEIAKDVRIKALKSAIVDITSR  119
+
+
+> sp|Q9WZW3|YAJC_THEMA Sec translocon accessory complex subunit 
+YajC OS=Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 
+3109 / JCM 10099) OX=243274 GN=yajC PE=3 SV=1
+Length=116
+
+ Score = 90.5 bits (223),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 29/88 (33%), Positives = 58/88 (66%), Gaps = 1/88 (1%)
+
+Query  22   SLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYI  81
+            SL+ ML+ F  IFYFMI+ PQ++R K+ ++++  + +GD V+T GG+VG+V  + ++  +
+Sbjct  27   SLLFMLIFFIAIFYFMIILPQRRREKQFQQMISQMKRGDTVVTIGGIVGKVIDIKKDT-V  85
+
+Query  82   AIALNDTTEVVIKRDFVAAVLPKGTMKA  109
+             I   ++TE+ I +  ++ V+ + + + 
+Sbjct  86   KIKTANSTELEITKRAISTVIKERSQEN  113
+
+
+> sp|Q9KDI4|YAJC_BACHD Sec translocon accessory complex subunit 
+YajC OS=Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 
+/ FERM 7344 / JCM 9153 / C-125) OX=272558 GN=yajC PE=3 SV=1
+Length=88
+
+ Score = 89.3 bits (220),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 24/84 (29%), Positives = 52/84 (62%), Gaps = 1/84 (1%)
+
+Query  19   SPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAEN  78
+                 ++ L++   IFYF+++RPQQKR K+ +++ +++ +GD+++T GGL G +  + E+
+Sbjct  3    GLGGFLIPLILMFAIFYFLLIRPQQKRQKQIQEMHNNLQRGDKIVTIGGLHGTIDSLDES  62
+
+Query  79   GYIAIALNDTTEVVIKRDFVAAVL  102
+              + + +ND  ++   R  +  V+
+Sbjct  63   TVVIL-VNDNRKLTFDRSAIREVV  85
+
+
+> sp|O67295|YAJC_AQUAE Sec translocon accessory complex subunit 
+YajC OS=Aquifex aeolicus (strain VF5) OX=224324 GN=yajC PE=3 
+SV=1
+Length=102
+
+ Score = 88.9 bits (219),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 29/91 (32%), Positives = 57/91 (63%), Gaps = 5/91 (5%)
+
+Query  17   QGSPMSLILMLVVF----GLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRV  72
+            Q SP+  +L  ++F     L+FYF+I+RPQ+K  + H+K ++S+ KGD+V+T+ G+ G V
+Sbjct  3    QQSPVGALLFQIIFLVAIFLMFYFLIIRPQKKERERHRKFLESLKKGDKVITSSGIWGTV  62
+
+Query  73   TKVAENGYIAIALNDTTEVVIKRDFVAAVLP  103
+             ++ +   I + ++  T++   ++ + A  P
+Sbjct  63   VEIGDRT-ITLKVDANTKITFSKEAIVAYQP  92
+
+
+> sp|Q1RIN2|YAJC_RICBR Sec translocon accessory complex subunit 
+YajC OS=Rickettsia bellii (strain RML369-C) OX=336407 GN=yajC 
+PE=3 SV=1
+Length=146
+
+ Score = 89.3 bits (220),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 35/95 (37%), Positives = 56/95 (59%), Gaps = 2/95 (2%)
+
+Query  11   ATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVG  70
+             T    Q    SLI M+++F  +FYF++LRPQ+KR KE +KL+  + KG+EVLTN G+ G
+Sbjct  27   ETTNSLQSGLTSLIPMVLIFA-VFYFLLLRPQEKRRKEREKLVSEVKKGEEVLTNSGIYG  85
+
+Query  71   RVTKVAENG-YIAIALNDTTEVVIKRDFVAAVLPK  104
+             VTKV+E+   I + +     +   +  +  +  +
+Sbjct  86   IVTKVSESEPNIEVEIAKDVRIKALKSAIVDITSR  120
+
+
+> sp|P58007|YAJC_TREPA Sec translocon accessory complex subunit 
+YajC OS=Treponema pallidum (strain Nichols) OX=243276 GN=yajC 
+PE=3 SV=1
+Length=135
+
+ Score = 87.4 bits (215),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 25/85 (29%), Positives = 44/85 (52%), Gaps = 1/85 (1%)
+
+Query  25   LMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIA  84
+            L + V  LIFY  +  P  +  K  + L+ +I KGD V+T GG+ G V+ V E+  + I 
+Sbjct  30   LAIGVVCLIFYLFVFAPNLREQKRTQALIKNIKKGDPVVTIGGIHGVVSVVREHSLV-IK  88
+
+Query  85   LNDTTEVVIKRDFVAAVLPKGTMKA  109
+            +N+   + + R  +A +  +  +  
+Sbjct  89   VNEHGTLEVSRSAIARINDRRGVSN  113
+
+
+> sp|O32052|YRBF_BACSU Sec translocon accessory complex subunit 
+YrbF OS=Bacillus subtilis (strain 168) OX=224308 GN=yrbF PE=3 
+SV=1
+Length=89
+
+ Score = 84.3 bits (207),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 27/84 (32%), Positives = 50/84 (60%), Gaps = 2/84 (2%)
+
+Query  18   GSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAE  77
+            G+  +L+ ++++F  + YF+++RPQQK+ K  +++ + + KGD V+T GGL G V  + E
+Sbjct  4    GTLGTLVPIILMFA-VLYFLLIRPQQKQQKAVRQMQEELKKGDSVVTIGGLHGTVDSIDE  62
+
+Query  78   NGYIAIALNDTTEVVIKRDFVAAV  101
+            +  + I   D T +   R  +  V
+Sbjct  63   S-KVVIKTGDNTRLTFDRRAIREV  85
+
+
+> sp|Q9ZJ67|YAJC_HELPJ Sec translocon accessory complex subunit 
+YajC OS=Helicobacter pylori (strain J99 / ATCC 700824) OX=85963 
+GN=yajC PE=3 SV=1
+Length=97
+
+ Score = 82.0 bits (201),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 30/77 (39%), Positives = 53/77 (69%), Gaps = 1/77 (1%)
+
+Query  33   IFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIALNDTTEVV  92
+            IFYF+I+RPQ+++ K+HK++++ + KGD+++T GGL+  V K AE  + ++ LND T   
+Sbjct  20   IFYFLIVRPQRQQQKKHKEMIEGLTKGDKIVTQGGLIVEVLK-AEANFFSVKLNDDTTAK  78
+
+Query  93   IKRDFVAAVLPKGTMKA  109
+            + +++VA  L + T   
+Sbjct  79   LSKNYVAFKLDEETTPN  95
+
+
+> sp|O26075|YAJC_HELPY Sec translocon accessory complex subunit 
+YajC OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 
+GN=yajC PE=3 SV=1
+Length=127
+
+ Score = 81.6 bits (200),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 31/74 (42%), Positives = 54/74 (73%), Gaps = 1/74 (1%)
+
+Query  31   GLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIALNDTTE  90
+             LIFYF+I+RPQ+++ K+HK++++S+ KGD+++T GGL+  V K AE  + ++ LND T 
+Sbjct  18   FLIFYFLIVRPQRQQQKKHKEMIESLTKGDKIVTQGGLIVEVLK-AEANFFSVKLNDDTT  76
+
+Query  91   VVIKRDFVAAVLPK  104
+              + +++VA  L +
+Sbjct  77   AKLSKNYVAFKLDE  90
+
+
+> sp|O51595|YAJC_BORBU Sec translocon accessory complex subunit 
+YajC OS=Borrelia burgdorferi (strain ATCC 35210 / B31 / CIP 
+102532 / DSM 4680) OX=224326 GN=yajC PE=3 SV=1
+Length=105
+
+ Score = 80.5 bits (197),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 27/81 (33%), Positives = 49/81 (60%), Gaps = 1/81 (1%)
+
+Query  24   ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAI  83
+            +L+ V    IF+F+++ PQ+K  K  K+++ ++ KGD+VLT GG+ G V K+ +   I +
+Sbjct  24   LLVFVPVIAIFWFLVISPQRKEEKNKKEMIKNLKKGDKVLTIGGIFGVVKKLGDTDVI-L  82
+
+Query  84   ALNDTTEVVIKRDFVAAVLPK  104
+             L+   E V  ++ +  VL +
+Sbjct  83   ELSPNNEAVFIKNSIDKVLSE  103
+
+
+> sp|O84746|YAJC_CHLTR Sec translocon accessory complex subunit 
+YajC OS=Chlamydia trachomatis (strain D/UW-3/Cx) OX=272561 
+GN=yajC PE=3 SV=1
+Length=114
+
+ Score = 77.0 bits (188),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 26/95 (27%), Positives = 51/95 (54%), Gaps = 3/95 (3%)
+
+Query  9    VAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGL  68
+             A T +P + +     +ML +  + FYF++ RP+QKR +  +K    +A GD+V T  G+
+Sbjct  20   FADTDSPQRATFGQPAVMLGIAIVFFYFILWRPEQKRRQAMEKRKSELAVGDKV-TAMGI  78
+
+Query  69   VGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLP  103
+            VG + ++ E+  I      + ++ I +  ++ +L 
+Sbjct  79   VGTIAEIREHTVILNI--ASGKIEILKAAISEILK  111
+
+
+> sp|Q9PLI2|YAJC_CHLMU Sec translocon accessory complex subunit 
+YajC OS=Chlamydia muridarum (strain MoPn / Nigg) OX=243161 
+GN=yajC PE=3 SV=1
+Length=114
+
+ Score = 74.3 bits (181),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 23/97 (24%), Positives = 49/97 (51%), Gaps = 3/97 (3%)
+
+Query  9    VAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGL  68
+             A   +P + +     +ML +  + FYF++ RP+QKR +  +K    +A GD+V T  G+
+Sbjct  20   FADVDSPQRATFGQPAVMLGIAIVFFYFILWRPEQKRRQAMEKRKSELAVGDKV-TAMGI  78
+
+Query  69   VGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            VG + ++ E+  +      + ++ I +  ++ +    
+Sbjct  79   VGTIAEIREHTVVLNI--ASGKIEILKAAISEIFKAE  113
+
+
+> sp|Q9Z722|YAJC_CHLPN Sec translocon accessory complex subunit 
+YajC OS=Chlamydia pneumoniae OX=83558 GN=yajC PE=3 SV=1
+Length=117
+
+ Score = 73.9 bits (180),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 28/99 (28%), Positives = 53/99 (54%), Gaps = 3/99 (3%)
+
+Query  11   ATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVG  70
+               A ++ + +   +ML +  L FYF++ RP+QKR K  +K  + +AKGD+V T  G++G
+Sbjct  22   EEAAQSKNTFVQPAVMLAIAILFFYFILWRPEQKRRKAMEKRKNDLAKGDKV-TAMGIIG  80
+
+Query  71   RVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKA  109
+             V  + E+  I      + +V + +  ++ +L     K+
+Sbjct  81   TVDDIREHTVILNI--ASGKVEVLKGAISEILKPNDNKS  117
+
+
+> sp|Q49647|YAJC_MYCLE Sec translocon accessory complex subunit 
+YajC OS=Mycobacterium leprae (strain TN) OX=272631 GN=yajC 
+PE=3 SV=2
+Length=114
+
+ Score = 42.3 bits (98),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 15/72 (21%), Positives = 29/72 (40%), Gaps = 2/72 (3%)
+
+Query  34   FYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIALNDTTEVVI  93
+            F F   R Q++  +    L +S+  GD V T  GL   +  V ++  + + +        
+Sbjct  17   FMFFASRRQRRSMQATIDLYNSLQPGDRVNTTSGLQATIIVVGDDT-VDLEIAPGVVTTW  75
+
+Query  94   KRDFVA-AVLPK  104
+             +  +   +LP 
+Sbjct  76   MKLAIRDRILPD  87
+
+
+> sp|P9WL75|YAJC_MYCTU Sec translocon accessory complex subunit 
+YajC OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) 
+OX=83332 GN=yajC PE=1 SV=1
+Length=115
+
+ Score = 41.6 bits (96),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 19/87 (22%), Positives = 37/87 (43%), Gaps = 3/87 (3%)
+
+Query  19   SPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAEN  78
+            S +  +  L++ G   YF   R Q++  +    L DS+  G+ V T  GL   +  +A++
+Sbjct  3    SFVLFLPFLLIMGGFMYF-ASRRQRRAMQATIDLHDSLQPGERVHTTSGLEATIVAIADD  61
+
+Query  79   GYIAIALNDTTEVVIKRDFVA-AVLPK  104
+              I + +         +  +   +LP 
+Sbjct  62   T-IDLEIAPGVVTTWMKLAIRDRILPD  87
+
+
+> sp|P9WL74|YAJC_MYCTO Sec translocon accessory complex subunit 
+YajC OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) 
+OX=83331 GN=yajC PE=3 SV=1
+Length=115
+
+ Score = 41.6 bits (96),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 19/87 (22%), Positives = 37/87 (43%), Gaps = 3/87 (3%)
+
+Query  19   SPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAEN  78
+            S +  +  L++ G   YF   R Q++  +    L DS+  G+ V T  GL   +  +A++
+Sbjct  3    SFVLFLPFLLIMGGFMYF-ASRRQRRAMQATIDLHDSLQPGERVHTTSGLEATIVAIADD  61
+
+Query  79   GYIAIALNDTTEVVIKRDFVA-AVLPK  104
+              I + +         +  +   +LP 
+Sbjct  62   T-IDLEIAPGVVTTWMKLAIRDRILPD  87
+
+
+> sp|P65026|YAJC_MYCBO Sec translocon accessory complex subunit 
+YajC OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) 
+OX=233413 GN=yajC PE=3 SV=1
+Length=115
+
+ Score = 41.6 bits (96),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 19/87 (22%), Positives = 37/87 (43%), Gaps = 3/87 (3%)
+
+Query  19   SPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAEN  78
+            S +  +  L++ G   YF   R Q++  +    L DS+  G+ V T  GL   +  +A++
+Sbjct  3    SFVLFLPFLLIMGGFMYF-ASRRQRRAMQATIDLHDSLQPGERVHTTSGLEATIVAIADD  61
+
+Query  79   GYIAIALNDTTEVVIKRDFVA-AVLPK  104
+              I + +         +  +   +LP 
+Sbjct  62   T-IDLEIAPGVVTTWMKLAIRDRILPD  87
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.136    0.327    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0418    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4999036928
+Results from round 3
+
+
+Query= P0ADZ7|2rddB
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0AE00|YAJC_SHIFL Sec translocon accessory complex subunit Y...  137     5e-41
+  sp|P0ADZ7|YAJC_ECOLI Sec translocon accessory complex subunit Y...  137     5e-41
+  sp|P0ADZ8|YAJC_ECOL6 Sec translocon accessory complex subunit Y...  137     5e-41
+  sp|P0ADZ9|YAJC_ECO57 Sec translocon accessory complex subunit Y...  137     5e-41
+  sp|Q8KA08|YAJC_BUCAP Sec translocon accessory complex subunit Y...  130     3e-38
+  sp|P57234|YAJC_BUCAI Sec translocon accessory complex subunit Y...  122     5e-35
+  sp|Q89AV7|YAJC_BUCBP Sec translocon accessory complex subunit Y...  116     8e-33
+  sp|P44592|YAJC_HAEIN Sec translocon accessory complex subunit Y...  104     3e-28
+  sp|Q9ZCW9|YAJC_RICPR Sec translocon accessory complex subunit Y...  105     6e-28
+  sp|Q92H78|YAJC_RICCN Sec translocon accessory complex subunit Y...  104     1e-27
+  sp|Q4UKW4|YAJC_RICFE Sec translocon accessory complex subunit Y...  103     1e-27
+  sp|Q68WF3|YAJC_RICTY Sec translocon accessory complex subunit Y...  103     2e-27
+  sp|P0A4Q2|YAJC_BRUSU Sec translocon accessory complex subunit Y...  102     2e-27
+  sp|P0A4Q1|YAJC_BRUME Sec translocon accessory complex subunit Y...  102     2e-27
+  sp|P0C120|YAJC_BRUAB Sec translocon accessory complex subunit Y...  102     2e-27
+  sp|Q2YNM1|YAJC_BRUA2 Sec translocon accessory complex subunit Y...  102     2e-27
+  sp|Q1RIN2|YAJC_RICBR Sec translocon accessory complex subunit Y...  99.7    8e-26
+  sp|Q9KDI4|YAJC_BACHD Sec translocon accessory complex subunit Y...  95.9    4e-25
+  sp|Q9Z722|YAJC_CHLPN Sec translocon accessory complex subunit Y...  93.2    1e-23
+  sp|P58007|YAJC_TREPA Sec translocon accessory complex subunit Y...  90.9    1e-22
+  sp|O84746|YAJC_CHLTR Sec translocon accessory complex subunit Y...  89.7    2e-22
+  sp|Q9WZW3|YAJC_THEMA Sec translocon accessory complex subunit Y...  89.7    2e-22
+  sp|O67295|YAJC_AQUAE Sec translocon accessory complex subunit Y...  89.3    2e-22
+  sp|Q9PLI2|YAJC_CHLMU Sec translocon accessory complex subunit Y...  86.6    3e-21
+  sp|O32052|YRBF_BACSU Sec translocon accessory complex subunit Y...  85.8    4e-21
+  sp|O51595|YAJC_BORBU Sec translocon accessory complex subunit Y...  84.3    2e-20
+  sp|Q9ZJ67|YAJC_HELPJ Sec translocon accessory complex subunit Y...  83.9    3e-20
+  sp|P9WL75|YAJC_MYCTU Sec translocon accessory complex subunit Y...  82.8    1e-19
+  sp|P9WL74|YAJC_MYCTO Sec translocon accessory complex subunit Y...  82.8    1e-19
+  sp|P65026|YAJC_MYCBO Sec translocon accessory complex subunit Y...  82.8    1e-19
+  sp|O26075|YAJC_HELPY Sec translocon accessory complex subunit Y...  81.6    4e-19
+  sp|Q49647|YAJC_MYCLE Sec translocon accessory complex subunit Y...  76.2    3e-17
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P0AE00|YAJC_SHIFL Sec translocon accessory complex subunit 
+YajC OS=Shigella flexneri OX=623 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 137 bits (346),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|P0ADZ7|YAJC_ECOLI Sec translocon accessory complex subunit 
+YajC OS=Escherichia coli (strain K12) OX=83333 GN=yajC PE=1 
+SV=1
+Length=110
+
+ Score = 137 bits (346),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|P0ADZ8|YAJC_ECOL6 Sec translocon accessory complex subunit 
+YajC OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 
+/ UPEC) OX=199310 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 137 bits (346),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|P0ADZ9|YAJC_ECO57 Sec translocon accessory complex subunit 
+YajC OS=Escherichia coli O157:H7 OX=83334 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 137 bits (346),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD
+Sbjct  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL
+Sbjct  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+
+
+> sp|Q8KA08|YAJC_BUCAP Sec translocon accessory complex subunit 
+YajC OS=Buchnera aphidicola subsp. Schizaphis graminum (strain 
+Sg) OX=198804 GN=yajC PE=3 SV=1
+Length=110
+
+ Score = 130 bits (326),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 67/110 (61%), Positives = 84/110 (76%), Gaps = 0/110 (0%)
+
+Query  1    MSFFISDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGD  60
+            MSFFI DA AA     +G+  SLI MLV F LIFYFM+ RPQQK+ KEHK LM+SIA GD
+Sbjct  1    MSFFIKDANAAVNQALEGNSYSLIFMLVTFILIFYFMLFRPQQKKDKEHKNLMNSIAPGD  60
+
+Query  61   EVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            EV+T  G +GRV KV ENGY+ + LN+TTE+ IK+DF+ + LPKGT+++L
+Sbjct  61   EVMTTSGFLGRVKKVTENGYVLLQLNNTTEIFIKKDFIVSSLPKGTLESL  110
+
+
+> sp|P57234|YAJC_BUCAI Sec translocon accessory complex subunit 
+YajC OS=Buchnera aphidicola subsp. Acyrthosiphon pisum (strain 
+APS) OX=107806 GN=yajC PE=3 SV=1
+Length=111
+
+ Score = 122 bits (305),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 62/111 (56%), Positives = 85/111 (77%), Gaps = 1/111 (1%)
+
+Query  1    MSFFISDAVAATGAPAQGS-PMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKG  59
+            MSFFI +A A     ++ S   SLI M V+F LIFYFM+ RPQQK+ KEHK L++S+ +G
+Sbjct  1    MSFFIQNANAVVNGTSESSNSYSLIFMAVIFLLIFYFMLFRPQQKKDKEHKNLINSLVQG  60
+
+Query  60   DEVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            DEV+T  GL+GR+ K+ +NGYI + LN+TTEV IK+DF+ ++LPKGT+K+L
+Sbjct  61   DEVITTSGLLGRIKKITKNGYILLELNETTEVFIKQDFIVSLLPKGTLKSL  111
+
+
+> sp|Q89AV7|YAJC_BUCBP Sec translocon accessory complex subunit 
+YajC OS=Buchnera aphidicola subsp. Baizongia pistaciae (strain 
+Bp) OX=224915 GN=yajC PE=3 SV=1
+Length=115
+
+ Score = 116 bits (291),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 50/112 (45%), Positives = 73/112 (65%), Gaps = 2/112 (2%)
+
+Query  1    MSFFISDAVAATGAPA--QGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAK  58
+            M  FIS   A   +      +  SLI ML+VF  IFYFMI RPQ+K+ +EH +L+ S++ 
+Sbjct  1    MDNFISHIYAVENSTTIPSSNSYSLIFMLLVFLSIFYFMIFRPQRKKIQEHDRLIKSLSY  60
+
+Query  59   GDEVLTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+            GDEV T+ G VG++ K+ + GYI + LN+  EV +K DF+ ++ PKGT+K +
+Sbjct  61   GDEVFTSSGFVGKIVKITKTGYIVLELNNNVEVFVKSDFIVSIFPKGTLKNM  112
+
+
+> sp|P44592|YAJC_HAEIN Sec translocon accessory complex subunit 
+YajC OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 
+/ KW20 / Rd) OX=71421 GN=yajC PE=3 SV=1
+Length=97
+
+ Score = 104 bits (259),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 58/94 (62%), Positives = 75/94 (80%), Gaps = 1/94 (1%)
+
+Query  18   GSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAE  77
+             SPMS + + V+FGLIFYFMI RPQ KR KEHKKLM  +AKG EVLT GG++G++TKV E
+Sbjct  4    QSPMSTLFIFVIFGLIFYFMIYRPQAKRNKEHKKLMSELAKGTEVLTAGGVIGKITKVTE  63
+
+Query  78   -NGYIAIALNDTTEVVIKRDFVAAVLPKGTMKAL  110
+             +  I IALNDTTE+ I R+++ +VLPKG++K+L
+Sbjct  64   GSDSIVIALNDTTEITINRNYIVSVLPKGSLKSL  97
+
+
+> sp|Q9ZCW9|YAJC_RICPR Sec translocon accessory complex subunit 
+YajC OS=Rickettsia prowazekii (strain Madrid E) OX=272947 GN=yajC 
+PE=3 SV=1
+Length=142
+
+ Score = 105 bits (261),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 57/100 (57%), Gaps = 2/100 (2%)
+
+Query  6    SDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTN  65
+            +D V       Q    SLI M+++F  +FYF++LRPQ+KR KE +KL+  + KG+EVL N
+Sbjct  21   TDTVPVETNSLQSGLTSLIPMILIF-AVFYFLLLRPQEKRRKEREKLVSGVKKGEEVLIN  79
+
+Query  66   GGLVGRVTKVAEN-GYIAIALNDTTEVVIKRDFVAAVLPK  104
+             G+ G VTKV+EN   I I +     +   +  +  +  +
+Sbjct  80   SGIYGIVTKVSENDNNIEIEIAKDVRIKAIKSAIVDITSR  119
+
+
+> sp|Q92H78|YAJC_RICCN Sec translocon accessory complex subunit 
+YajC OS=Rickettsia conorii (strain ATCC VR-613 / Malish 7) 
+OX=272944 GN=yajC PE=3 SV=1
+Length=141
+
+ Score = 104 bits (259),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 59/100 (59%), Gaps = 2/100 (2%)
+
+Query  6    SDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTN  65
+            ++ V A     Q    SLI M+++F  +FYF++LRPQ+ R KE +KL+  + KG+EVLTN
+Sbjct  21   TEVVPAETNSLQSGLTSLIPMVLIF-AVFYFLLLRPQETRRKEREKLVSEVKKGEEVLTN  79
+
+Query  66   GGLVGRVTKVAEN-GYIAIALNDTTEVVIKRDFVAAVLPK  104
+             G+ G VTKV+EN   I I +     + + +  +  +  +
+Sbjct  80   SGIYGIVTKVSENDNNIEIEIAKDVRIKVLKSAIIDITSR  119
+
+
+> sp|Q4UKW4|YAJC_RICFE Sec translocon accessory complex subunit 
+YajC OS=Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) 
+OX=315456 GN=yajC PE=3 SV=2
+Length=142
+
+ Score = 103 bits (258),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 36/100 (36%), Positives = 57/100 (57%), Gaps = 2/100 (2%)
+
+Query  6    SDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTN  65
+            ++ V       Q    SL  M+++F  +FYF++LRPQ+KR KE +KL+  + KG+EVLTN
+Sbjct  21   TEVVPVETNSLQSGLTSLTPMVLIF-AVFYFLLLRPQEKRRKEREKLVSEVKKGEEVLTN  79
+
+Query  66   GGLVGRVTKVAEN-GYIAIALNDTTEVVIKRDFVAAVLPK  104
+             G+ G VTKV+EN   I I +     +   +  +  +  +
+Sbjct  80   SGIYGIVTKVSENDNNIEIEIAKDVRIKALKSAIVDITSR  119
+
+
+> sp|Q68WF3|YAJC_RICTY Sec translocon accessory complex subunit 
+YajC OS=Rickettsia typhi (strain ATCC VR-144 / Wilmington) 
+OX=257363 GN=yajC PE=3 SV=1
+Length=142
+
+ Score = 103 bits (257),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 37/100 (37%), Positives = 58/100 (58%), Gaps = 2/100 (2%)
+
+Query  6    SDAVAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTN  65
+            +D V       Q    SLI M+++F  +FYF++LRPQ++R KE +KL+  + KG+EVLTN
+Sbjct  21   TDTVPIETNSLQSGLTSLIPMILIF-AVFYFLLLRPQEQRRKEREKLVREVKKGEEVLTN  79
+
+Query  66   GGLVGRVTKVAEN-GYIAIALNDTTEVVIKRDFVAAVLPK  104
+             G+ G VTKV+EN   I I +     +   +  +  +  +
+Sbjct  80   SGIYGIVTKVSENDNNIEIEIAKDVRIKAIKSSIIDITSR  119
+
+
+> sp|P0A4Q2|YAJC_BRUSU Sec translocon accessory complex subunit 
+YajC OS=Brucella suis biovar 1 (strain 1330) OX=204722 GN=yajC 
+PE=3 SV=1
+Length=113
+
+ Score = 102 bits (254),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|P0A4Q1|YAJC_BRUME Sec translocon accessory complex subunit 
+YajC OS=Brucella melitensis biotype 1 (strain 16M / ATCC 23456 
+/ NCTC 10094) OX=224914 GN=yajC PE=3 SV=1
+Length=113
+
+ Score = 102 bits (254),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|P0C120|YAJC_BRUAB Sec translocon accessory complex subunit 
+YajC OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 
+GN=yajC PE=3 SV=1
+Length=113
+
+ Score = 102 bits (254),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|Q2YNM1|YAJC_BRUA2 Sec translocon accessory complex subunit 
+YajC OS=Brucella abortus (strain 2308) OX=359391 GN=yajC PE=3 
+SV=1
+Length=113
+
+ Score = 102 bits (254),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  4    FISDAVAATGAPAQGSPMSL-ILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEV  62
+            F++ A A       G  M + IL  ++  +I YF+I+RPQ+ + K+ +++++S+ +GD V
+Sbjct  2    FVTPAFAQASGSVVGPDMLMSILPFILIFVIMYFLIIRPQRTQMKKRQEMLNSVRRGDTV  61
+
+Query  63   LTNGGLVGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKG  105
+            +T GG+VG+V KV ++  + + + D   + + R  +  V  KG
+Sbjct  62   VTGGGIVGKVLKVVDDNELELEIADGVRIRVVRATLMDVRVKG  104
+
+
+> sp|Q1RIN2|YAJC_RICBR Sec translocon accessory complex subunit 
+YajC OS=Rickettsia bellii (strain RML369-C) OX=336407 GN=yajC 
+PE=3 SV=1
+Length=146
+
+ Score = 99.7 bits (247),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 35/95 (37%), Positives = 56/95 (59%), Gaps = 2/95 (2%)
+
+Query  11   ATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVG  70
+             T    Q    SLI M+++F  +FYF++LRPQ+KR KE +KL+  + KG+EVLTN G+ G
+Sbjct  27   ETTNSLQSGLTSLIPMVLIF-AVFYFLLLRPQEKRRKEREKLVSEVKKGEEVLTNSGIYG  85
+
+Query  71   RVTKVAENG-YIAIALNDTTEVVIKRDFVAAVLPK  104
+             VTKV+E+   I + +     +   +  +  +  +
+Sbjct  86   IVTKVSESEPNIEVEIAKDVRIKALKSAIVDITSR  120
+
+
+> sp|Q9KDI4|YAJC_BACHD Sec translocon accessory complex subunit 
+YajC OS=Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 
+/ FERM 7344 / JCM 9153 / C-125) OX=272558 GN=yajC PE=3 SV=1
+Length=88
+
+ Score = 95.9 bits (237),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 24/86 (28%), Positives = 52/86 (60%), Gaps = 1/86 (1%)
+
+Query  19   SPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAEN  78
+                 ++ L++   IFYF+++RPQQKR K+ +++ +++ +GD+++T GGL G +  + E+
+Sbjct  3    GLGGFLIPLILMFAIFYFLLIRPQQKRQKQIQEMHNNLQRGDKIVTIGGLHGTIDSLDES  62
+
+Query  79   GYIAIALNDTTEVVIKRDFVAAVLPK  104
+              + + +ND  ++   R  +  V+  
+Sbjct  63   TVVIL-VNDNRKLTFDRSAIREVVNP  87
+
+
+> sp|Q9Z722|YAJC_CHLPN Sec translocon accessory complex subunit 
+YajC OS=Chlamydia pneumoniae OX=83558 GN=yajC PE=3 SV=1
+Length=117
+
+ Score = 93.2 bits (230),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 28/99 (28%), Positives = 53/99 (54%), Gaps = 3/99 (3%)
+
+Query  11   ATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVG  70
+               A ++ + +   +ML +  L FYF++ RP+QKR K  +K  + +AKGD+V T  G++G
+Sbjct  22   EEAAQSKNTFVQPAVMLAIAILFFYFILWRPEQKRRKAMEKRKNDLAKGDKV-TAMGIIG  80
+
+Query  71   RVTKVAENGYIAIALNDTTEVVIKRDFVAAVLPKGTMKA  109
+             V  + E+  I      + +V + +  ++ +L     K+
+Sbjct  81   TVDDIREHTVILNI--ASGKVEVLKGAISEILKPNDNKS  117
+
+
+> sp|P58007|YAJC_TREPA Sec translocon accessory complex subunit 
+YajC OS=Treponema pallidum (strain Nichols) OX=243276 GN=yajC 
+PE=3 SV=1
+Length=135
+
+ Score = 90.9 bits (224),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 25/85 (29%), Positives = 44/85 (52%), Gaps = 1/85 (1%)
+
+Query  25   LMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIA  84
+            L + V  LIFY  +  P  +  K  + L+ +I KGD V+T GG+ G V+ V E+  + I 
+Sbjct  30   LAIGVVCLIFYLFVFAPNLREQKRTQALIKNIKKGDPVVTIGGIHGVVSVVREHSLV-IK  88
+
+Query  85   LNDTTEVVIKRDFVAAVLPKGTMKA  109
+            +N+   + + R  +A +  +  +  
+Sbjct  89   VNEHGTLEVSRSAIARINDRRGVSN  113
+
+
+> sp|O84746|YAJC_CHLTR Sec translocon accessory complex subunit 
+YajC OS=Chlamydia trachomatis (strain D/UW-3/Cx) OX=272561 
+GN=yajC PE=3 SV=1
+Length=114
+
+ Score = 89.7 bits (221),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 26/95 (27%), Positives = 51/95 (54%), Gaps = 3/95 (3%)
+
+Query  9    VAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGL  68
+             A T +P + +     +ML +  + FYF++ RP+QKR +  +K    +A GD+V T  G+
+Sbjct  20   FADTDSPQRATFGQPAVMLGIAIVFFYFILWRPEQKRRQAMEKRKSELAVGDKV-TAMGI  78
+
+Query  69   VGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLP  103
+            VG + ++ E+  I      + ++ I +  ++ +L 
+Sbjct  79   VGTIAEIREHTVILNI--ASGKIEILKAAISEILK  111
+
+
+> sp|Q9WZW3|YAJC_THEMA Sec translocon accessory complex subunit 
+YajC OS=Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 
+3109 / JCM 10099) OX=243274 GN=yajC PE=3 SV=1
+Length=116
+
+ Score = 89.7 bits (221),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 29/88 (33%), Positives = 58/88 (66%), Gaps = 1/88 (1%)
+
+Query  22   SLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYI  81
+            SL+ ML+ F  IFYFMI+ PQ++R K+ ++++  + +GD V+T GG+VG+V  + ++  +
+Sbjct  27   SLLFMLIFFIAIFYFMIILPQRRREKQFQQMISQMKRGDTVVTIGGIVGKVIDIKKDT-V  85
+
+Query  82   AIALNDTTEVVIKRDFVAAVLPKGTMKA  109
+             I   ++TE+ I +  ++ V+ + + + 
+Sbjct  86   KIKTANSTELEITKRAISTVIKERSQEN  113
+
+
+> sp|O67295|YAJC_AQUAE Sec translocon accessory complex subunit 
+YajC OS=Aquifex aeolicus (strain VF5) OX=224324 GN=yajC PE=3 
+SV=1
+Length=102
+
+ Score = 89.3 bits (220),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 29/91 (32%), Positives = 57/91 (63%), Gaps = 5/91 (5%)
+
+Query  17   QGSPMSLILMLVVF----GLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRV  72
+            Q SP+  +L  ++F     L+FYF+I+RPQ+K  + H+K ++S+ KGD+V+T+ G+ G V
+Sbjct  3    QQSPVGALLFQIIFLVAIFLMFYFLIIRPQKKERERHRKFLESLKKGDKVITSSGIWGTV  62
+
+Query  73   TKVAENGYIAIALNDTTEVVIKRDFVAAVLP  103
+             ++ +   I + ++  T++   ++ + A  P
+Sbjct  63   VEIGDRT-ITLKVDANTKITFSKEAIVAYQP  92
+
+
+> sp|Q9PLI2|YAJC_CHLMU Sec translocon accessory complex subunit 
+YajC OS=Chlamydia muridarum (strain MoPn / Nigg) OX=243161 
+GN=yajC PE=3 SV=1
+Length=114
+
+ Score = 86.6 bits (213),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 49/95 (52%), Gaps = 3/95 (3%)
+
+Query  9    VAATGAPAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGL  68
+             A   +P + +     +ML +  + FYF++ RP+QKR +  +K    +A GD+V T  G+
+Sbjct  20   FADVDSPQRATFGQPAVMLGIAIVFFYFILWRPEQKRRQAMEKRKSELAVGDKV-TAMGI  78
+
+Query  69   VGRVTKVAENGYIAIALNDTTEVVIKRDFVAAVLP  103
+            VG + ++ E+  +      + ++ I +  ++ +  
+Sbjct  79   VGTIAEIREHTVVLNI--ASGKIEILKAAISEIFK  111
+
+
+> sp|O32052|YRBF_BACSU Sec translocon accessory complex subunit 
+YrbF OS=Bacillus subtilis (strain 168) OX=224308 GN=yrbF PE=3 
+SV=1
+Length=89
+
+ Score = 85.8 bits (211),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 24/83 (29%), Positives = 46/83 (55%), Gaps = 1/83 (1%)
+
+Query  19   SPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAEN  78
+              +  ++ +++   + YF+++RPQQK+ K  +++ + + KGD V+T GGL G V  + E+
+Sbjct  4    GTLGTLVPIILMFAVLYFLLIRPQQKQQKAVRQMQEELKKGDSVVTIGGLHGTVDSIDES  63
+
+Query  79   GYIAIALNDTTEVVIKRDFVAAV  101
+              + I   D T +   R  +  V
+Sbjct  64   -KVVIKTGDNTRLTFDRRAIREV  85
+
+
+> sp|O51595|YAJC_BORBU Sec translocon accessory complex subunit 
+YajC OS=Borrelia burgdorferi (strain ATCC 35210 / B31 / CIP 
+102532 / DSM 4680) OX=224326 GN=yajC PE=3 SV=1
+Length=105
+
+ Score = 84.3 bits (207),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 28/90 (31%), Positives = 51/90 (57%), Gaps = 1/90 (1%)
+
+Query  15   PAQGSPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTK  74
+                S +  +L+ V    IF+F+++ PQ+K  K  K+++ ++ KGD+VLT GG+ G V K
+Sbjct  15   SGNSSFLRSLLVFVPVIAIFWFLVISPQRKEEKNKKEMIKNLKKGDKVLTIGGIFGVVKK  74
+
+Query  75   VAENGYIAIALNDTTEVVIKRDFVAAVLPK  104
+            + +   I + L+   E V  ++ +  VL +
+Sbjct  75   LGDTDVI-LELSPNNEAVFIKNSIDKVLSE  103
+
+
+> sp|Q9ZJ67|YAJC_HELPJ Sec translocon accessory complex subunit 
+YajC OS=Helicobacter pylori (strain J99 / ATCC 700824) OX=85963 
+GN=yajC PE=3 SV=1
+Length=97
+
+ Score = 83.9 bits (206),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 30/77 (39%), Positives = 53/77 (69%), Gaps = 1/77 (1%)
+
+Query  33   IFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIALNDTTEVV  92
+            IFYF+I+RPQ+++ K+HK++++ + KGD+++T GGL+  V K AE  + ++ LND T   
+Sbjct  20   IFYFLIVRPQRQQQKKHKEMIEGLTKGDKIVTQGGLIVEVLK-AEANFFSVKLNDDTTAK  78
+
+Query  93   IKRDFVAAVLPKGTMKA  109
+            + +++VA  L + T   
+Sbjct  79   LSKNYVAFKLDEETTPN  95
+
+
+> sp|P9WL75|YAJC_MYCTU Sec translocon accessory complex subunit 
+YajC OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) 
+OX=83332 GN=yajC PE=1 SV=1
+Length=115
+
+ Score = 82.8 bits (203),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 19/90 (21%), Positives = 38/90 (42%), Gaps = 3/90 (3%)
+
+Query  19   SPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAEN  78
+            S +  +  L++ G   YF   R Q++  +    L DS+  G+ V T  GL   +  +A++
+Sbjct  3    SFVLFLPFLLIMGGFMYF-ASRRQRRAMQATIDLHDSLQPGERVHTTSGLEATIVAIADD  61
+
+Query  79   GYIAIALNDTTEVVIKRDFVAA-VLPKGTM  107
+              I + +         +  +   +LP   +
+Sbjct  62   T-IDLEIAPGVVTTWMKLAIRDRILPDDDI  90
+
+
+> sp|P9WL74|YAJC_MYCTO Sec translocon accessory complex subunit 
+YajC OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) 
+OX=83331 GN=yajC PE=3 SV=1
+Length=115
+
+ Score = 82.8 bits (203),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 19/90 (21%), Positives = 38/90 (42%), Gaps = 3/90 (3%)
+
+Query  19   SPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAEN  78
+            S +  +  L++ G   YF   R Q++  +    L DS+  G+ V T  GL   +  +A++
+Sbjct  3    SFVLFLPFLLIMGGFMYF-ASRRQRRAMQATIDLHDSLQPGERVHTTSGLEATIVAIADD  61
+
+Query  79   GYIAIALNDTTEVVIKRDFVAA-VLPKGTM  107
+              I + +         +  +   +LP   +
+Sbjct  62   T-IDLEIAPGVVTTWMKLAIRDRILPDDDI  90
+
+
+> sp|P65026|YAJC_MYCBO Sec translocon accessory complex subunit 
+YajC OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) 
+OX=233413 GN=yajC PE=3 SV=1
+Length=115
+
+ Score = 82.8 bits (203),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 19/90 (21%), Positives = 38/90 (42%), Gaps = 3/90 (3%)
+
+Query  19   SPMSLILMLVVFGLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAEN  78
+            S +  +  L++ G   YF   R Q++  +    L DS+  G+ V T  GL   +  +A++
+Sbjct  3    SFVLFLPFLLIMGGFMYF-ASRRQRRAMQATIDLHDSLQPGERVHTTSGLEATIVAIADD  61
+
+Query  79   GYIAIALNDTTEVVIKRDFVAA-VLPKGTM  107
+              I + +         +  +   +LP   +
+Sbjct  62   T-IDLEIAPGVVTTWMKLAIRDRILPDDDI  90
+
+
+> sp|O26075|YAJC_HELPY Sec translocon accessory complex subunit 
+YajC OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 
+GN=yajC PE=3 SV=1
+Length=127
+
+ Score = 81.6 bits (200),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 31/74 (42%), Positives = 54/74 (73%), Gaps = 1/74 (1%)
+
+Query  31   GLIFYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIALNDTTE  90
+             LIFYF+I+RPQ+++ K+HK++++S+ KGD+++T GGL+  V K AE  + ++ LND T 
+Sbjct  18   FLIFYFLIVRPQRQQQKKHKEMIESLTKGDKIVTQGGLIVEVLK-AEANFFSVKLNDDTT  76
+
+Query  91   VVIKRDFVAAVLPK  104
+              + +++VA  L +
+Sbjct  77   AKLSKNYVAFKLDE  90
+
+
+> sp|Q49647|YAJC_MYCLE Sec translocon accessory complex subunit 
+YajC OS=Mycobacterium leprae (strain TN) OX=272631 GN=yajC 
+PE=3 SV=2
+Length=114
+
+ Score = 76.2 bits (186),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 15/72 (21%), Positives = 29/72 (40%), Gaps = 2/72 (3%)
+
+Query  34   FYFMILRPQQKRTKEHKKLMDSIAKGDEVLTNGGLVGRVTKVAENGYIAIALNDTTEVVI  93
+            F F   R Q++  +    L +S+  GD V T  GL   +  V ++  + + +        
+Sbjct  17   FMFFASRRQRRSMQATIDLYNSLQPGDRVNTTSGLQATIIVVGDDT-VDLEIAPGVVTTW  75
+
+Query  94   KRDFVAA-VLPK  104
+             +  +   +LP 
+Sbjct  76   MKLAIRDRILPD  87
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.138    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0422    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4999036928
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

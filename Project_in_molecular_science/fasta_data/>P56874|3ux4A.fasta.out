@@ -1,0 +1,345 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P56874|3ux4A
+
+Length=195
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P56874|UREI_HELPJ Acid-activated urea channel OS=Helicobacte...  387     8e-137
+  sp|Q09068|UREI_HELPY Acid-activated urea channel OS=Helicobacte...  384     2e-135
+  sp|Q53185|AMIS_RHOER Putative transporter protein AmiS2 OS=Rhod...  75.9    1e-15 
+  sp|P56583|AMIS_MYCSM Putative amidate substrates transporter pr...  72.8    1e-14 
+  sp|Q51417|AMIS_PSEAE Putative transporter protein AmiS OS=Pseud...  68.9    2e-13 
+
+
+> sp|P56874|UREI_HELPJ Acid-activated urea channel OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=ureI PE=1 
+SV=1
+Length=195
+
+ Score = 387 bits (995),  Expect = 8e-137, Method: Compositional matrix adjust.
+ Identities = 195/195 (100%), Positives = 195/195 (100%), Gaps = 0/195 (0%)
+
+Query  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE  60
+            MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE
+Sbjct  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE  60
+
+Query  61   GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI  120
+            GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI
+Sbjct  61   GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI  120
+
+Query  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL  180
+            LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL
+Sbjct  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL  180
+
+Query  181  TAWIPAWLLFIQHWV  195
+            TAWIPAWLLFIQHWV
+Sbjct  181  TAWIPAWLLFIQHWV  195
+
+
+> sp|Q09068|UREI_HELPY Acid-activated urea channel OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=ureI PE=1 
+SV=2
+Length=195
+
+ Score = 384 bits (986),  Expect = 2e-135, Method: Compositional matrix adjust.
+ Identities = 191/195 (98%), Positives = 194/195 (99%), Gaps = 0/195 (0%)
+
+Query  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE  60
+            MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSI+CN+VVITYSALHPTAPVE
+Sbjct  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIICNIVVITYSALHPTAPVE  60
+
+Query  61   GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI  120
+            GAEDI QVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINT+PAAI
+Sbjct  61   GAEDIAQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTIPAAI  120
+
+Query  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL  180
+            LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL
+Sbjct  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL  180
+
+Query  181  TAWIPAWLLFIQHWV  195
+            TAWIPAWLLFIQHWV
+Sbjct  181  TAWIPAWLLFIQHWV  195
+
+
+> sp|Q53185|AMIS_RHOER Putative transporter protein AmiS2 OS=Rhodococcus 
+erythropolis OX=1833 GN=amiS2 PE=3 SV=1
+Length=206
+
+ Score = 75.9 bits (185),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 62/190 (33%), Positives = 89/190 (47%), Gaps = 29/190 (15%)
+
+Query  6    LLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVEGAEDI  65
+            LLYVG VL  NG+  L  V  +S +V+N FVG L  V   V++  +        +G    
+Sbjct  6    LLYVGAVLFVNGLMLLGTVPVRSASVLNLFVGALQCVVPTVMLIQA--------QGDSSA  57
+
+Query  66   VQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAILSHYS  125
+            V  +  L          LFGFTYLY  I++  G +     W+SLFVA     A + S  S
+Sbjct  58   VLAASGL---------YLFGFTYLYVGISNLAGFEPEGIGWFSLFVA---CAALVYSFLS  105
+
+Query  126  DMLDDHKVLGITEGDWWAIIWLAWGVLWLTAF-IENILKIPLGKFTPWLAIIEGILTAWI  184
+              + +  V G        +IWLAW  LW   F +  + +  L +FT W AI+    T  +
+Sbjct  106  FTVSNDPVFG--------VIWLAWAALWTLFFLVLGLGRENLSRFTGWAAILLSQPTCTV  157
+
+Query  185  PAWLLFIQHW  194
+            PA+L+   ++
+Sbjct  158  PAFLILTGNF  167
+
+
+> sp|P56583|AMIS_MYCSM Putative amidate substrates transporter 
+protein OS=Mycobacterium smegmatis OX=1772 PE=3 SV=1
+Length=213
+
+ Score = 72.8 bits (177),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 64/196 (33%), Positives = 97/196 (49%), Gaps = 31/196 (16%)
+
+Query  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE  60
+            M G+ L YVG VLI +G+  L ++ P+    +NFFVGGL +V   V+I  S         
+Sbjct  1    MGGVGLFYVGAVLIIDGLMLLGRISPRGATPLNFFVGGLQVVTPTVLILQS---------  51
+
+Query  61   GAEDIVQVSHHLTSFYGPATGL-LFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAA  119
+            G +  V  +         A+GL LFGFTYL+ AIN+    D     W+SLFVAI  +   
+Sbjct  52   GGDAAVIFA---------ASGLYLFGFTYLWVAINNVTDWDGEGLGWFSLFVAIAALG--  100
+
+Query  120  ILSHYSDMLDDHKVLGITEGDWWAIIWLAWGV-LWLTAFIENILKIPLGKFTPWLAIIEG  178
+              S ++   +     G        +IWL W V  ++   +  +    LG    ++A+ EG
+Sbjct  101  -YSWHAFTAEADPAFG--------VIWLLWAVLWFMLFLLLGLGHDALGPAVGFVAVAEG  151
+
+Query  179  ILTAWIPAWLLFIQHW  194
+            ++TA +PA+L+   +W
+Sbjct  152  VITAAVPAFLIVSGNW  167
+
+
+> sp|Q51417|AMIS_PSEAE Putative transporter protein AmiS OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=amiS PE=3 SV=2
+Length=171
+
+ Score = 68.9 bits (167),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 66/192 (34%), Positives = 88/192 (46%), Gaps = 25/192 (13%)
+
+Query  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE  60
+            MLGLVLLYVG VL  N +  L K+  +  AV+NF VG LS  C    + +SA    A  +
+Sbjct  1    MLGLVLLYVGAVLFLNAVWLLGKISGREVAVINFLVGVLS-ACVAFYLIFSA----AAGQ  55
+
+Query  61   GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI  120
+            G            S    A  LLF FTYL+ A N    +D +   W+ LFV++     AI
+Sbjct  56   G------------SLKAGALTLLFAFTYLWVAANQFLEVDGKGLGWFCLFVSLTACTVAI  103
+
+Query  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL  180
+             S ++             G W A+ W  W +LW   F+   L   + K   +L +   I 
+Sbjct  104  ES-FAGASGPF-------GLWNAVNWTVWALLWFCFFLLLGLSRSIQKPVAYLTLASAIF  155
+
+Query  181  TAWIPAWLLFIQ  192
+            TAW+P  LL  Q
+Sbjct  156  TAWLPGLLLLGQ  167
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.143    0.489    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 11394891882
+Results from round 2
+
+
+Query= P56874|3ux4A
+
+Length=195
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P56874|UREI_HELPJ Acid-activated urea channel OS=Helicobacte...  228     3e-74
+  sp|Q09068|UREI_HELPY Acid-activated urea channel OS=Helicobacte...  228     4e-74
+  sp|Q53185|AMIS_RHOER Putative transporter protein AmiS2 OS=Rhod...  141     7e-40
+  sp|P56583|AMIS_MYCSM Putative amidate substrates transporter pr...  129     3e-35
+  sp|Q51417|AMIS_PSEAE Putative transporter protein AmiS OS=Pseud...  119     5e-32
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P56874|UREI_HELPJ Acid-activated urea channel OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=ureI PE=1 
+SV=1
+Length=195
+
+ Score = 228 bits (582),  Expect = 3e-74, Method: Composition-based stats.
+ Identities = 195/195 (100%), Positives = 195/195 (100%), Gaps = 0/195 (0%)
+
+Query  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE  60
+            MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE
+Sbjct  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE  60
+
+Query  61   GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI  120
+            GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI
+Sbjct  61   GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI  120
+
+Query  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL  180
+            LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL
+Sbjct  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL  180
+
+Query  181  TAWIPAWLLFIQHWV  195
+            TAWIPAWLLFIQHWV
+Sbjct  181  TAWIPAWLLFIQHWV  195
+
+
+> sp|Q09068|UREI_HELPY Acid-activated urea channel OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=ureI PE=1 
+SV=2
+Length=195
+
+ Score = 228 bits (581),  Expect = 4e-74, Method: Composition-based stats.
+ Identities = 191/195 (98%), Positives = 194/195 (99%), Gaps = 0/195 (0%)
+
+Query  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE  60
+            MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSI+CN+VVITYSALHPTAPVE
+Sbjct  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIICNIVVITYSALHPTAPVE  60
+
+Query  61   GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI  120
+            GAEDI QVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINT+PAAI
+Sbjct  61   GAEDIAQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTIPAAI  120
+
+Query  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL  180
+            LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL
+Sbjct  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL  180
+
+Query  181  TAWIPAWLLFIQHWV  195
+            TAWIPAWLLFIQHWV
+Sbjct  181  TAWIPAWLLFIQHWV  195
+
+
+> sp|Q53185|AMIS_RHOER Putative transporter protein AmiS2 OS=Rhodococcus 
+erythropolis OX=1833 GN=amiS2 PE=3 SV=1
+Length=206
+
+ Score = 141 bits (354),  Expect = 7e-40, Method: Composition-based stats.
+ Identities = 63/195 (32%), Positives = 91/195 (47%), Gaps = 29/195 (15%)
+
+Query  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE  60
+            M  + LLYVG VL  NG+  L  V  +S +V+N FVG L  V   V++  +        +
+Sbjct  1    MGSVGLLYVGAVLFVNGLMLLGTVPVRSASVLNLFVGALQCVVPTVMLIQA--------Q  52
+
+Query  61   GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI  120
+            G    V  +  L          LFGFTYLY  I++  G +     W+SLFVA     A +
+Sbjct  53   GDSSAVLAASGL---------YLFGFTYLYVGISNLAGFEPEGIGWFSLFVA---CAALV  100
+
+Query  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFI-ENILKIPLGKFTPWLAIIEGI  179
+             S  S  + +  V G        +IWLAW  LW   F+   + +  L +FT W AI+   
+Sbjct  101  YSFLSFTVSNDPVFG--------VIWLAWAALWTLFFLVLGLGRENLSRFTGWAAILLSQ  152
+
+Query  180  LTAWIPAWLLFIQHW  194
+             T  +PA+L+   ++
+Sbjct  153  PTCTVPAFLILTGNF  167
+
+
+> sp|P56583|AMIS_MYCSM Putative amidate substrates transporter 
+protein OS=Mycobacterium smegmatis OX=1772 PE=3 SV=1
+Length=213
+
+ Score = 129 bits (323),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 61/195 (31%), Positives = 93/195 (48%), Gaps = 29/195 (15%)
+
+Query  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE  60
+            M G+ L YVG VLI +G+  L ++ P+    +NFFVGGL +V   V+I  S         
+Sbjct  1    MGGVGLFYVGAVLIIDGLMLLGRISPRGATPLNFFVGGLQVVTPTVLILQS---------  51
+
+Query  61   GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI  120
+            G +  V  +             LFGFTYL+ AIN+    D     W+SLFVAI  +    
+Sbjct  52   GGDAAVIFAASGL--------YLFGFTYLWVAINNVTDWDGEGLGWFSLFVAIAALG---  100
+
+Query  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGV-LWLTAFIENILKIPLGKFTPWLAIIEGI  179
+             S ++   +     G        +IWL W V  ++   +  +    LG    ++A+ EG+
+Sbjct  101  YSWHAFTAEADPAFG--------VIWLLWAVLWFMLFLLLGLGHDALGPAVGFVAVAEGV  152
+
+Query  180  LTAWIPAWLLFIQHW  194
+            +TA +PA+L+   +W
+Sbjct  153  ITAAVPAFLIVSGNW  167
+
+
+> sp|Q51417|AMIS_PSEAE Putative transporter protein AmiS OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 
+/ JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=amiS PE=3 SV=2
+Length=171
+
+ Score = 119 bits (298),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 64/192 (33%), Positives = 86/192 (45%), Gaps = 25/192 (13%)
+
+Query  1    MLGLVLLYVGIVLISNGICGLTKVDPKSTAVMNFFVGGLSIVCNVVVITYSALHPTAPVE  60
+            MLGLVLLYVG VL  N +  L K+  +  AV+NF VG LS  C    + +SA        
+Sbjct  1    MLGLVLLYVGAVLFLNAVWLLGKISGREVAVINFLVGVLS-ACVAFYLIFSA--------  51
+
+Query  61   GAEDIVQVSHHLTSFYGPATGLLFGFTYLYAAINHTFGLDWRPYSWYSLFVAINTVPAAI  120
+                    +    S    A  LLF FTYL+ A N    +D +   W+ LFV++     AI
+Sbjct  52   --------AAGQGSLKAGALTLLFAFTYLWVAANQFLEVDGKGLGWFCLFVSLTACTVAI  103
+
+Query  121  LSHYSDMLDDHKVLGITEGDWWAIIWLAWGVLWLTAFIENILKIPLGKFTPWLAIIEGIL  180
+             S ++             G W A+ W  W +LW   F+   L   + K   +L +   I 
+Sbjct  104  ES-FAGASGPF-------GLWNAVNWTVWALLWFCFFLLLGLSRSIQKPVAYLTLASAIF  155
+
+Query  181  TAWIPAWLLFIQ  192
+            TAW+P  LL  Q
+Sbjct  156  TAWLPGLLLLGQ  167
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.126    0.360    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0389    0.140     1.90     42.6     43.6 
+
+Effective search space used: 11394891882
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

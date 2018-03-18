@@ -1,0 +1,4393 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P12238|3a0bE
+
+Length=84
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P12238|PSBE_THEVL Cytochrome b559 subunit alpha OS=Thermosyn...  173     6e-56
+  sp|Q8DIP0|PSBE_THEEB Cytochrome b559 subunit alpha OS=Thermosyn...  173     6e-56
+  sp|B8HVD7|PSBE_CYAP4 Cytochrome b559 subunit alpha OS=Cyanothec...  145     4e-45
+  sp|Q8YQI2|PSBE_NOSS1 Cytochrome b559 subunit alpha OS=Nostoc sp...  143     5e-44
+  sp|Q3MC09|PSBE_ANAVT Cytochrome b559 subunit alpha OS=Anabaena ...  143     5e-44
+  sp|B0JLV1|PSBE_MICAN Cytochrome b559 subunit alpha OS=Microcyst...  140     7e-43
+  sp|B2J6T0|PSBE_NOSP7 Cytochrome b559 subunit alpha OS=Nostoc pu...  137     8e-42
+  sp|B1WVS0|PSBE_CYAA5 Cytochrome b559 subunit alpha OS=Cyanothec...  137     9e-42
+  sp|Q85FQ2|PSBE_CYAM1 Cytochrome b559 subunit alpha OS=Cyanidios...  137     1e-41
+  sp|B7K626|PSBE_CYAP8 Cytochrome b559 subunit alpha OS=Cyanothec...  136     2e-41
+  sp|O78466|PSBE_GUITH Cytochrome b559 subunit alpha OS=Guillardi...  136     3e-41
+  sp|Q10YT0|PSBE_TRIEI Cytochrome b559 subunit alpha OS=Trichodes...  136     3e-41
+  sp|Q1XD96|PSBE_PYRYE Cytochrome b559 subunit alpha OS=Pyropia y...  136     3e-41
+  sp|P51391|PSBE_PORPU Cytochrome b559 subunit alpha OS=Porphyra ...  136     3e-41
+  sp|B7KH62|PSBE_CYAP7 Cytochrome b559 subunit alpha OS=Cyanothec...  134     1e-40
+  sp|Q9TKY1|PSBE_NEPOL Cytochrome b559 subunit alpha OS=Nephrosel...  134     1e-40
+  sp|Q1ACI7|PSBE_CHAVU Cytochrome b559 subunit alpha OS=Chara vul...  134     1e-40
+  sp|A0T0A3|PSBE_PHATC Cytochrome b559 subunit alpha OS=Phaeodact...  134     1e-40
+  sp|P49473|PSBE_ODOSI Cytochrome b559 subunit alpha OS=Odontella...  134     1e-40
+  sp|Q6B8K4|PSBE_GRATL Cytochrome b559 subunit alpha OS=Gracilari...  134     2e-40
+  sp|P56309|PSBE_CHLVU Cytochrome b559 subunit alpha OS=Chlorella...  133     4e-40
+  sp|Q3ZJ22|PSBE_TUPAK Cytochrome b559 subunit alpha OS=Tupiella ...  133     4e-40
+  sp|Q5N556|PSBE_SYNP6 Cytochrome b559 subunit alpha OS=Synechoco...  132     5e-40
+  sp|Q8KPP3|PSBE_SYNE7 Cytochrome b559 subunit alpha OS=Synechoco...  132     5e-40
+  sp|Q20EW2|PSBE_OLTVI Cytochrome b559 subunit alpha OS=Oltmannsi...  132     6e-40
+  sp|B0C6T2|PSBE_ACAM1 Cytochrome b559 subunit alpha OS=Acaryochl...  132     7e-40
+  sp|A0T0U2|PSBE_THAPS Cytochrome b559 subunit alpha OS=Thalassio...  132     1e-39
+  sp|Q9TM20|PSBE_CYACA Cytochrome b559 subunit alpha OS=Cyanidium...  132     1e-39
+  sp|Q8RSW3|PSBE_SYNP2 Cytochrome b559 subunit alpha OS=Synechoco...  131     2e-39
+  sp|Q5SD43|PSBE_HUPLU Cytochrome b559 subunit alpha OS=Huperzia ...  130     4e-39
+  sp|Q4G380|PSBE_EMIHU Cytochrome b559 subunit alpha OS=Emiliania...  130     5e-39
+  sp|Q85FK5|PSBE_ADICA Cytochrome b559 subunit alpha OS=Adiantum ...  130     5e-39
+  sp|Q9MUQ0|PSBE_MESVI Cytochrome b559 subunit alpha OS=Mesostigm...  130     6e-39
+  sp|Q2JS34|PSBE_SYNJA Cytochrome b559 subunit alpha OS=Synechoco...  130     6e-39
+  sp|Q8WI04|PSBE_PSINU Cytochrome b559 subunit alpha OS=Psilotum ...  129     1e-38
+  sp|Q32RJ5|PSBE_ZYGCR Cytochrome b559 subunit alpha OS=Zygnema c...  129     2e-38
+  sp|Q85C42|PSBE_ANTFO Cytochrome b559 subunit alpha OS=Anthocero...  129     2e-38
+  sp|Q2JLF0|PSBE_SYNJB Cytochrome b559 subunit alpha OS=Synechoco...  129     2e-38
+  sp|P69386|PSBE_WHEAT Cytochrome b559 subunit alpha OS=Triticum ...  129     2e-38
+  sp|A1E9U1|PSBE_SORBI Cytochrome b559 subunit alpha OS=Sorghum b...  129     2e-38
+  sp|P69387|PSBE_SECCE Cytochrome b559 subunit alpha OS=Secale ce...  129     2e-38
+  sp|Q6ENU7|PSBE_SACOF Cytochrome b559 subunit alpha OS=Saccharum...  129     2e-38
+  sp|Q6L383|PSBE_SACHY Cytochrome b559 subunit alpha OS=Saccharum...  129     2e-38
+  sp|P0C370|PSBE_ORYSJ Cytochrome b559 subunit alpha OS=Oryza sat...  129     2e-38
+  sp|P0C369|PSBE_ORYSI Cytochrome b559 subunit alpha OS=Oryza sat...  129     2e-38
+  sp|P0C368|PSBE_ORYSA Cytochrome b559 subunit alpha OS=Oryza sat...  129     2e-38
+  sp|Q6ENF6|PSBE_ORYNI Cytochrome b559 subunit alpha OS=Oryza niv...  129     2e-38
+  sp|P69388|PSBE_MAIZE Cytochrome b559 subunit alpha OS=Zea mays ...  129     2e-38
+  sp|P69390|PSBE_HORVU Cytochrome b559 subunit alpha OS=Hordeum v...  129     2e-38
+  sp|A1EA25|PSBE_AGRST Cytochrome b559 subunit alpha OS=Agrostis ...  129     2e-38
+  sp|P06851|PSBE_MARPO Cytochrome b559 subunit alpha OS=Marchanti...  129     2e-38
+  sp|Q6YXL9|PSBE_PHYPA Cytochrome b559 subunit alpha OS=Physcomit...  128     3e-38
+  sp|Q0P3N6|PSBE_OSTTA Cytochrome b559 subunit alpha OS=Ostreococ...  128     3e-38
+  sp|P09190|PSBE_SYNY3 Cytochrome b559 subunit alpha OS=Synechocy...  127     5e-38
+  sp|Q8M9W8|PSBE_CHAGL Cytochrome b559 subunit alpha OS=Chaetosph...  127     5e-38
+  sp|Q32RX7|PSBE_STAPU Cytochrome b559 subunit alpha OS=Staurastr...  127     7e-38
+  sp|P48268|PSBE_CHLRE Cytochrome b559 subunit alpha OS=Chlamydom...  127     1e-37
+  sp|Q1KVR5|PSBE_TETOB Cytochrome b559 subunit alpha OS=Tetradesm...  127     1e-37
+  sp|Q06SG1|PSBE_STIHE Cytochrome b559 subunit alpha OS=Stigeoclo...  127     1e-37
+  sp|Q332W1|PSBE_LACSA Cytochrome b559 subunit alpha OS=Lactuca s...  126     2e-37
+  sp|Q1KXU2|PSBE_HELAN Cytochrome b559 subunit alpha OS=Helianthu...  126     2e-37
+  sp|P36442|PSBE_MESCR Cytochrome b559 subunit alpha OS=Mesembrya...  126     2e-37
+  sp|P69383|PSBE_SPIOL Cytochrome b559 subunit alpha OS=Spinacia ...  126     3e-37
+  sp|Q9MTK5|PSBE_OENEH Cytochrome b559 subunit alpha OS=Oenothera...  126     3e-37
+  sp|Q2L925|PSBE_GOSHI Cytochrome b559 subunit alpha OS=Gossypium...  126     3e-37
+  sp|A0ZZ52|PSBE_GOSBA Cytochrome b559 subunit alpha OS=Gossypium...  126     3e-37
+  sp|Q4VZH5|PSBE_CUCSA Cytochrome b559 subunit alpha OS=Cucumis s...  126     3e-37
+  sp|P69382|PSBE_BETVU Cytochrome b559 subunit alpha OS=Beta vulg...  126     3e-37
+  sp|P59702|PSBE_ATRBE Cytochrome b559 subunit alpha OS=Atropa be...  126     3e-37
+  sp|P56779|PSBE_ARATH Cytochrome b559 subunit alpha OS=Arabidops...  126     3e-37
+  sp|Q70XY9|PSBE_AMBTC Cytochrome b559 subunit alpha OS=Amborella...  126     3e-37
+  sp|Q3BAM3|PSBE_PHAAO Cytochrome b559 subunit alpha OS=Phalaenop...  125     3e-37
+  sp|Q09MG1|PSBE_CITSI Cytochrome b559 subunit alpha OS=Citrus si...  125     3e-37
+  sp|A7M969|PSBE_CUSRE Cytochrome b559 subunit alpha OS=Cuscuta r...  125     4e-37
+  sp|Q8MAV7|PSBE_CUSGR Cytochrome b559 subunit alpha OS=Cuscuta g...  125     6e-37
+  sp|P13554|PSBE_PEA Cytochrome b559 subunit alpha OS=Pisum sativ...  125     7e-37
+  sp|Q0G9U5|PSBE_DAUCA Cytochrome b559 subunit alpha OS=Daucus ca...  124     8e-37
+  sp|Q68RY9|PSBE_PANGI Cytochrome b559 subunit alpha OS=Panax gin...  124     8e-37
+  sp|Q0ZJ03|PSBE_VITVI Cytochrome b559 subunit alpha OS=Vitis vin...  124     1e-36
+  sp|P69384|PSBE_TOBAC Cytochrome b559 subunit alpha OS=Nicotiana...  124     1e-36
+  sp|Q2VEG1|PSBE_SOLTU Cytochrome b559 subunit alpha OS=Solanum t...  124     1e-36
+  sp|Q2MI83|PSBE_SOLLC Cytochrome b559 subunit alpha OS=Solanum l...  124     1e-36
+  sp|Q2MIH0|PSBE_SOLBU Cytochrome b559 subunit alpha OS=Solanum b...  124     1e-36
+  sp|P69385|PSBE_POPDE Cytochrome b559 subunit alpha OS=Populus d...  124     1e-36
+  sp|Q14FE0|PSBE_POPAL Cytochrome b559 subunit alpha OS=Populus a...  124     1e-36
+  sp|Q06GP3|PSBE_PIPCE Cytochrome b559 subunit alpha OS=Piper cen...  124     1e-36
+  sp|Q06FK9|PSBE_PELHO Cytochrome b559 subunit alpha OS=Pelargoni...  124     1e-36
+  sp|Q76IC3|PSBE_NICTO Cytochrome b559 subunit alpha OS=Nicotiana...  124     1e-36
+  sp|Q3C1L3|PSBE_NICSY Cytochrome b559 subunit alpha OS=Nicotiana...  124     1e-36
+  sp|Q09X00|PSBE_MORIN Cytochrome b559 subunit alpha OS=Morus ind...  124     1e-36
+  sp|Q06RB5|PSBE_JASNU Cytochrome b559 subunit alpha OS=Jasminum ...  124     1e-36
+  sp|Q49KY2|PSBE_EUCGG Cytochrome b559 subunit alpha OS=Eucalyptu...  124     1e-36
+  sp|Q06GY0|PSBE_DRIGR Cytochrome b559 subunit alpha OS=Drimys gr...  124     1e-36
+  sp|A0A352|PSBE_COFAR Cytochrome b559 subunit alpha OS=Coffea ar...  124     1e-36
+  sp|Q9THZ3|PSBE_GINBI Cytochrome b559 subunit alpha OS=Ginkgo bi...  124     1e-36
+  sp|P41615|PSBE_PINTH Cytochrome b559 subunit alpha OS=Pinus thu...  124     1e-36
+  sp|P59703|PSBE_PINKO Cytochrome b559 subunit alpha OS=Pinus kor...  124     1e-36
+  sp|P05333|PSBE_EUGGR Cytochrome b559 subunit alpha OS=Euglena g...  124     2e-36
+  sp|Q2PMR7|PSBE_SOYBN Cytochrome b559 subunit alpha OS=Glycine m...  124     2e-36
+  sp|Q9BBR5|PSBE_LOTJA Cytochrome b559 subunit alpha OS=Lotus jap...  124     2e-36
+  sp|Q3V518|PSBE_ACOCL Cytochrome b559 subunit alpha OS=Acorus ca...  123     2e-36
+  sp|Q0G9K2|PSBE_LIRTU Cytochrome b559 subunit alpha OS=Liriodend...  123     2e-36
+  sp|Q7YJV8|PSBE_CALFG Cytochrome b559 subunit alpha OS=Calycanth...  123     2e-36
+  sp|P05170|PSBE_OENBE Cytochrome b559 subunit alpha OS=Oenothera...  123     3e-36
+  sp|Q6EW36|PSBE_NYMAL Cytochrome b559 subunit alpha OS=Nymphaea ...  123     3e-36
+  sp|Q06J11|PSBE_BIGNA Cytochrome b559 subunit alpha OS=Bigelowie...  122     4e-36
+  sp|P19152|PSBE_CYAPA Cytochrome b559 subunit alpha OS=Cyanophor...  121     1e-35
+  sp|A9BDU4|PSBE_PROM4 Cytochrome b559 subunit alpha OS=Prochloro...  117     5e-34
+  sp|Q7VDP0|PSBE_PROMA Cytochrome b559 subunit alpha OS=Prochloro...  117     7e-34
+  sp|A5GQF4|PSBE_SYNR3 Cytochrome b559 subunit alpha OS=Synechoco...  117     7e-34
+  sp|A2BP97|PSBE_PROMS Cytochrome b559 subunit alpha OS=Prochloro...  117     9e-34
+  sp|Q31CN5|PSBE_PROM9 Cytochrome b559 subunit alpha OS=Prochloro...  117     9e-34
+  sp|A8G2V8|PSBE_PROM2 Cytochrome b559 subunit alpha OS=Prochloro...  117     9e-34
+  sp|A3PB19|PSBE_PROM0 Cytochrome b559 subunit alpha OS=Prochloro...  117     9e-34
+  sp|Q7V4Q2|PSBE_PROMM Cytochrome b559 subunit alpha OS=Prochloro...  115     2e-33
+  sp|A2CCQ0|PSBE_PROM3 Cytochrome b559 subunit alpha OS=Prochloro...  115     2e-33
+  sp|Q7V300|PSBE_PROMP Cytochrome b559 subunit alpha OS=Prochloro...  115     4e-33
+  sp|A2BUS8|PSBE_PROM5 Cytochrome b559 subunit alpha OS=Prochloro...  115     5e-33
+  sp|A5GIB0|PSBE_SYNPW Cytochrome b559 subunit alpha OS=Synechoco...  114     1e-32
+  sp|Q0IDJ7|PSBE_SYNS3 Cytochrome b559 subunit alpha OS=Synechoco...  113     2e-32
+  sp|Q3AN56|PSBE_SYNSC Cytochrome b559 subunit alpha OS=Synechoco...  112     4e-32
+  sp|Q46H81|PSBE_PROMT Cytochrome b559 subunit alpha OS=Prochloro...  112     5e-32
+  sp|A2C0D1|PSBE_PROM1 Cytochrome b559 subunit alpha OS=Prochloro...  112     5e-32
+  sp|Q3B0C6|PSBE_SYNS9 Cytochrome b559 subunit alpha OS=Synechoco...  111     1e-31
+  sp|Q7U9P9|PSBE_SYNPX Cytochrome b559 subunit alpha OS=Synechoco...  111     1e-31
+  sp|Q7NMB0|PSBE_GLOVI Cytochrome b559 subunit alpha OS=Gloeobact...  107     4e-30
+
+
+> sp|P12238|PSBE_THEVL Cytochrome b559 subunit alpha OS=Thermosynechococcus 
+vulcanus OX=32053 GN=psbE PE=1 SV=3
+Length=84
+
+ Score = 173 bits (439),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 84/84 (100%), Positives = 84/84 (100%), Gaps = 0/84 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ
+Sbjct  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQLK  84
+           RSIPLVTDRFEAKQQVETFLEQLK
+Sbjct  61  RSIPLVTDRFEAKQQVETFLEQLK  84
+
+
+> sp|Q8DIP0|PSBE_THEEB Cytochrome b559 subunit alpha OS=Thermosynechococcus 
+elongatus (strain BP-1) OX=197221 GN=psbE PE=1 
+SV=3
+Length=84
+
+ Score = 173 bits (439),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 84/84 (100%), Positives = 84/84 (100%), Gaps = 0/84 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ
+Sbjct  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQLK  84
+           RSIPLVTDRFEAKQQVETFLEQLK
+Sbjct  61  RSIPLVTDRFEAKQQVETFLEQLK  84
+
+
+> sp|B8HVD7|PSBE_CYAP4 Cytochrome b559 subunit alpha OS=Cyanothece 
+sp. (strain PCC 7425 / ATCC 29141) OX=395961 GN=psbE PE=3 
+SV=1
+Length=84
+
+ Score = 145 bits (367),  Expect = 4e-45, Method: Compositional matrix adjust.
+ Identities = 65/84 (77%), Positives = 77/84 (92%), Gaps = 0/84 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRP+ YY+Q +
+Sbjct  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPNEYYSQVR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQLK  84
+           + +P+++DR E KQQ+  FL+++K
+Sbjct  61  QELPIISDRLEGKQQINEFLKEVK  84
+
+
+> sp|Q8YQI2|PSBE_NOSS1 Cytochrome b559 subunit alpha OS=Nostoc 
+sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=psbE 
+PE=3 SV=1
+Length=82
+
+ Score = 143 bits (360),  Expect = 5e-44, Method: Compositional matrix adjust.
+ Identities = 63/82 (77%), Positives = 75/82 (91%), Gaps = 0/82 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDI+TS+RYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPD YY Q +
+Sbjct  1   MSGTTGERPFSDIVTSIRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDEYYTQAR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQ  82
+           + +P+V +RFEAK+QVE  +++
+Sbjct  61  QELPIVNNRFEAKKQVEQLIQK  82
+
+
+> sp|Q3MC09|PSBE_ANAVT Cytochrome b559 subunit alpha OS=Anabaena 
+variabilis (strain ATCC 29413 / PCC 7937) OX=240292 GN=psbE 
+PE=3 SV=1
+Length=82
+
+ Score = 143 bits (360),  Expect = 5e-44, Method: Compositional matrix adjust.
+ Identities = 63/82 (77%), Positives = 75/82 (91%), Gaps = 0/82 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDI+TS+RYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPD YY Q +
+Sbjct  1   MSGTTGERPFSDIVTSIRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDEYYTQAR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQ  82
+           + +P+V +RFEAK+QVE  +++
+Sbjct  61  QELPIVNNRFEAKKQVEQLIQK  82
+
+
+> sp|B0JLV1|PSBE_MICAN Cytochrome b559 subunit alpha OS=Microcystis 
+aeruginosa (strain NIES-843) OX=449447 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 140 bits (352),  Expect = 7e-43, Method: Compositional matrix adjust.
+ Identities = 60/79 (76%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGERPF DI+TS+RYW+IHSITIP LFIAGWLFVSTGLAYDVFGTPRPD YY QE+
+Sbjct  1   MSGSTGERPFGDIVTSIRYWIIHSITIPMLFIAGWLFVSTGLAYDVFGTPRPDEYYTQER  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + +P++ DRFEAK Q+E F
+Sbjct  61  QELPIINDRFEAKNQIEQF  79
+
+
+> sp|B2J6T0|PSBE_NOSP7 Cytochrome b559 subunit alpha OS=Nostoc 
+punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 GN=psbE 
+PE=3 SV=1
+Length=82
+
+ Score = 137 bits (345),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 62/80 (78%), Positives = 72/80 (90%), Gaps = 0/80 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYD FGTPRP+ Y+   +
+Sbjct  1   MSGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDAFGTPRPNEYFTPAR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFL  80
+           + +P+V +RFEAK+QVE F+
+Sbjct  61  QEVPIVKNRFEAKKQVEQFI  80
+
+
+> sp|B1WVS0|PSBE_CYAA5 Cytochrome b559 subunit alpha OS=Cyanothece 
+sp. (strain ATCC 51142) OX=43989 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 137 bits (345),  Expect = 9e-42, Method: Compositional matrix adjust.
+ Identities = 60/79 (76%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPFSDI+TS+RYWVIHSITIP LFIAGWLFVSTGLAYDVFGTPRPD Y+ QE+
+Sbjct  1   MSGVTGERPFSDIVTSIRYWVIHSITIPMLFIAGWLFVSTGLAYDVFGTPRPDEYFTQER  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + +P++ DRFEAK Q+  F
+Sbjct  61  QELPIIQDRFEAKNQITEF  79
+
+
+> sp|Q85FQ2|PSBE_CYAM1 Cytochrome b559 subunit alpha OS=Cyanidioschyzon 
+merolae (strain 10D) OX=280699 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 137 bits (345),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 62/79 (78%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+ QE+ 
+Sbjct  3   GGSTGERPFSDIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFTQERT  62
+
+Query  62  SIPLVTDRFEAKQQVETFL  80
+            IPLV DRF AKQ++E  L
+Sbjct  63  QIPLVNDRFNAKQELEDLL  81
+
+
+> sp|B7K626|PSBE_CYAP8 Cytochrome b559 subunit alpha OS=Cyanothece 
+sp. (strain PCC 8801) OX=41431 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 136 bits (343),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 58/79 (73%), Positives = 73/79 (92%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGERPFSDI+TS+RYWVIHSITIP LFIAGWLFVSTGLAYDVFGTPRPD Y+ QE+
+Sbjct  1   MSGSTGERPFSDIVTSIRYWVIHSITIPMLFIAGWLFVSTGLAYDVFGTPRPDQYFTQER  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + +P+++DR++A QQ++ F
+Sbjct  61  QELPIISDRYKASQQIQEF  79
+
+
+> sp|O78466|PSBE_GUITH Cytochrome b559 subunit alpha OS=Guillardia 
+theta OX=55529 GN=psbE PE=3 SV=3
+Length=84
+
+ Score = 136 bits (342),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 59/82 (72%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITS+RYW+IHSITIPALF+AGWLFVSTGLAYD+FGTPRP+ Y+ QE++
+Sbjct  3   GGSTGERPFSDIITSIRYWIIHSITIPALFVAGWLFVSTGLAYDIFGTPRPNEYFTQERQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            +PLV DRF AKQ++E   + L
+Sbjct  63  QVPLVNDRFSAKQELEDLTKGL  84
+
+
+> sp|Q10YT0|PSBE_TRIEI Cytochrome b559 subunit alpha OS=Trichodesmium 
+erythraeum (strain IMS101) OX=203124 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 136 bits (342),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 58/80 (73%), Positives = 74/80 (93%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPF DIITS+RYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRP+ YY ++++
+Sbjct  3   GGSTGERPFGDIITSIRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPNEYYTEQRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+            +P+++DRFE+KQQ++ F++
+Sbjct  63  ELPILSDRFESKQQIDDFIK  82
+
+
+> sp|Q1XD96|PSBE_PYRYE Cytochrome b559 subunit alpha OS=Pyropia 
+yezoensis OX=2788 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 136 bits (342),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 60/76 (79%), Positives = 70/76 (92%), Gaps = 0/76 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYWVIHSITIPALF+AGWLFVSTGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSVRYWVIHSITIPALFVAGWLFVSTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVE  77
+            +PLV DRF AKQ++E
+Sbjct  63  QVPLVNDRFNAKQELE  78
+
+
+> sp|P51391|PSBE_PORPU Cytochrome b559 subunit alpha OS=Porphyra 
+purpurea OX=2787 GN=psbE PE=3 SV=2
+Length=84
+
+ Score = 136 bits (342),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 60/76 (79%), Positives = 70/76 (92%), Gaps = 0/76 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYWVIHSITIPALF+AGWLFVSTGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSVRYWVIHSITIPALFVAGWLFVSTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVE  77
+            +PLV DRF AKQ++E
+Sbjct  63  QVPLVNDRFNAKQELE  78
+
+
+> sp|B7KH62|PSBE_CYAP7 Cytochrome b559 subunit alpha OS=Cyanothece 
+sp. (strain PCC 7424) OX=65393 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 134 bits (338),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 58/79 (73%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDI+TS+RYWVIHSITIP LF+AGWLFVSTGLAYDVFGTPRPD YY QE+
+Sbjct  1   MSGTTGERPFSDIVTSIRYWVIHSITIPMLFVAGWLFVSTGLAYDVFGTPRPDEYYTQER  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+             +P++ DR+   QQ++ F
+Sbjct  61  LELPILKDRYNTDQQIQEF  79
+
+
+> sp|Q9TKY1|PSBE_NEPOL Cytochrome b559 subunit alpha OS=Nephroselmis 
+olivacea OX=31312 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 134 bits (338),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 58/83 (70%), Positives = 74/83 (89%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGERPFSDI+TS+RYWVIHSITIP+LF+AGWLFVSTGLAYDVFG+PRP+ Y+ +E+
+Sbjct  1   MSGSTGERPFSDILTSIRYWVIHSITIPSLFVAGWLFVSTGLAYDVFGSPRPNEYFTEER  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           ++ PL+TDRF A QQ++   E L
+Sbjct  61  QTTPLITDRFNALQQMDILTEGL  83
+
+
+> sp|Q1ACI7|PSBE_CHAVU Cytochrome b559 subunit alpha OS=Chara vulgaris 
+OX=55564 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 134 bits (338),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 56/83 (67%), Positives = 74/83 (89%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+TDRF + +Q+E++ + +
+Sbjct  61  QEVPLITDRFNSLEQIESYTKSI  83
+
+
+> sp|A0T0A3|PSBE_PHATC Cytochrome b559 subunit alpha OS=Phaeodactylum 
+tricornutum (strain CCAP 1055/1) OX=556484 GN=psbE PE=3 
+SV=1
+Length=84
+
+ Score = 134 bits (337),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 59/82 (72%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYW+IHSITIP+LF++GWLFVSTGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSVRYWIIHSITIPSLFVSGWLFVSTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            IPLV DRF AKQ++E   + L
+Sbjct  63  QIPLVNDRFSAKQELEDLTKGL  84
+
+
+> sp|P49473|PSBE_ODOSI Cytochrome b559 subunit alpha OS=Odontella 
+sinensis OX=1514140 GN=psbE PE=3 SV=2
+Length=84
+
+ Score = 134 bits (337),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 59/82 (72%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYW+IHSITIP+LF++GWLFVSTGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSVRYWIIHSITIPSLFVSGWLFVSTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            IPLV DRF AKQ++E   + L
+Sbjct  63  QIPLVNDRFSAKQELEDLTKGL  84
+
+
+> sp|Q6B8K4|PSBE_GRATL Cytochrome b559 subunit alpha OS=Gracilaria 
+tenuistipitata var. liui OX=285951 GN=psbE PE=3 SV=3
+Length=84
+
+ Score = 134 bits (336),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 58/76 (76%), Positives = 70/76 (92%), Gaps = 0/76 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITS+RYWVIHSITIP+LF+AGWLFVSTGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSIRYWVIHSITIPSLFVAGWLFVSTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVE  77
+            +PLV DRF AKQ++E
+Sbjct  63  QVPLVNDRFSAKQELE  78
+
+
+> sp|P56309|PSBE_CHLVU Cytochrome b559 subunit alpha OS=Chlorella 
+vulgaris OX=3077 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 133 bits (334),  Expect = 4e-40, Method: Compositional matrix adjust.
+ Identities = 58/81 (72%), Positives = 72/81 (89%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPFSDI+TS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ +++
+Sbjct  1   MSGATGERPFSDILTSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           +  PL+TDRF A +QV+ F E
+Sbjct  61  QETPLITDRFNALEQVKKFSE  81
+
+
+> sp|Q3ZJ22|PSBE_TUPAK Cytochrome b559 subunit alpha OS=Tupiella 
+akineta OX=160070 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 133 bits (334),  Expect = 4e-40, Method: Compositional matrix adjust.
+ Identities = 58/77 (75%), Positives = 71/77 (92%), Gaps = 0/77 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAGTTGERPFSDI+TS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+ +++
+Sbjct  1   MAGTTGERPFSDILTSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVE  77
+           +  PL+TDRF + +QV+
+Sbjct  61  QEAPLITDRFNSLEQVK  77
+
+
+> sp|Q5N556|PSBE_SYNP6 Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) OX=269084 
+GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 132 bits (333),  Expect = 5e-40, Method: Compositional matrix adjust.
+ Identities = 58/78 (74%), Positives = 70/78 (90%), Gaps = 0/78 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPF+DIITS+RYWVIHSITIPALFIAGWLFVSTGLAYD FGTPRP+ Y+ Q++ 
+Sbjct  3   GGSTGERPFTDIITSIRYWVIHSITIPALFIAGWLFVSTGLAYDAFGTPRPNEYFTQDRT  62
+
+Query  62  SIPLVTDRFEAKQQVETF  79
+            +P+V+DR+ AKQQV+ F
+Sbjct  63  EVPIVSDRYSAKQQVDRF  80
+
+
+> sp|Q8KPP3|PSBE_SYNE7 Cytochrome b559 subunit alpha OS=Synechococcus 
+elongatus (strain PCC 7942) OX=1140 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 132 bits (333),  Expect = 5e-40, Method: Compositional matrix adjust.
+ Identities = 58/78 (74%), Positives = 70/78 (90%), Gaps = 0/78 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPF+DIITS+RYWVIHSITIPALFIAGWLFVSTGLAYD FGTPRP+ Y+ Q++ 
+Sbjct  3   GGSTGERPFTDIITSIRYWVIHSITIPALFIAGWLFVSTGLAYDAFGTPRPNEYFTQDRT  62
+
+Query  62  SIPLVTDRFEAKQQVETF  79
+            +P+V+DR+ AKQQV+ F
+Sbjct  63  EVPIVSDRYSAKQQVDRF  80
+
+
+> sp|Q20EW2|PSBE_OLTVI Cytochrome b559 subunit alpha OS=Oltmannsiellopsis 
+viridis OX=51324 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 132 bits (333),  Expect = 6e-40, Method: Compositional matrix adjust.
+ Identities = 57/78 (73%), Positives = 72/78 (92%), Gaps = 0/78 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDI+TS+RYWVIHSIT+P+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ +++
+Sbjct  1   MSGTTGERPFSDILTSIRYWVIHSITVPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVET  78
+           +  PL+TDRFEA  QV++
+Sbjct  61  QETPLITDRFEALSQVKS  78
+
+
+> sp|B0C6T2|PSBE_ACAM1 Cytochrome b559 subunit alpha OS=Acaryochloris 
+marina (strain MBIC 11017) OX=329726 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 132 bits (333),  Expect = 7e-40, Method: Compositional matrix adjust.
+ Identities = 56/83 (67%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF DI+TS+RYW+IH+IT+P LF+AGWLFVSTGLAYDVFGTPRP+ Y+ Q +
+Sbjct  1   MSGRTGERPFGDIVTSIRYWIIHTITVPMLFLAGWLFVSTGLAYDVFGTPRPNEYFDQAR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PLVTDR+E KQQ++ F + L
+Sbjct  61  QGLPLVTDRYEGKQQIDEFTKGL  83
+
+
+> sp|A0T0U2|PSBE_THAPS Cytochrome b559 subunit alpha OS=Thalassiosira 
+pseudonana OX=35128 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 132 bits (332),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 56/82 (68%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYW+IH+ITIP+LF++GWLF+STGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSVRYWIIHTITIPSLFVSGWLFISTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            +PLV DRF AKQ++E   + L
+Sbjct  63  QVPLVNDRFSAKQELEDLTKGL  84
+
+
+> sp|Q9TM20|PSBE_CYACA Cytochrome b559 subunit alpha OS=Cyanidium 
+caldarium OX=2771 GN=psbE PE=1 SV=1
+Length=84
+
+ Score = 132 bits (331),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 56/82 (68%), Positives = 71/82 (87%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYWVIHSITIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+++ ++
+Sbjct  3   GGSTGERPFSDIITSVRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFSENRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            +PL+ DRF A+++++     L
+Sbjct  63  QVPLINDRFNAREELDDLTSNL  84
+
+
+> sp|Q8RSW3|PSBE_SYNP2 Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain ATCC 27264 / PCC 7002 / PR-6) OX=32049 GN=psbE 
+PE=3 SV=1
+Length=81
+
+ Score = 131 bits (330),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 58/79 (73%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG+TGERPFSDI+TS+RYWVIHSITIP LFIAGWLFVSTGLAYD FGTPRPD Y+ + +
+Sbjct  1   MAGSTGERPFSDIVTSIRYWVIHSITIPMLFIAGWLFVSTGLAYDTFGTPRPDQYFTETR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IP+VTDR++A  Q+  F
+Sbjct  61  QEIPIVTDRYKAIDQINEF  79
+
+
+> sp|Q5SD43|PSBE_HUPLU Cytochrome b559 subunit alpha OS=Huperzia 
+lucidula OX=37429 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 130 bits (328),  Expect = 4e-39, Method: Compositional matrix adjust.
+ Identities = 57/83 (69%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF + +QV+ F   L
+Sbjct  61  QEIPLITGRFNSLEQVDEFTRSL  83
+
+
+> sp|Q4G380|PSBE_EMIHU Cytochrome b559 subunit alpha OS=Emiliania 
+huxleyi OX=2903 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 130 bits (327),  Expect = 5e-39, Method: Compositional matrix adjust.
+ Identities = 57/82 (70%), Positives = 71/82 (87%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITS+RYW+IHSITIP+LF+AG+LFVSTGLAYD FGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSIRYWIIHSITIPSLFVAGFLFVSTGLAYDAFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            IPLV DRF AKQ++E   + L
+Sbjct  63  QIPLVNDRFSAKQELEDLTKGL  84
+
+
+> sp|Q85FK5|PSBE_ADICA Cytochrome b559 subunit alpha OS=Adiantum 
+capillus-veneris OX=13818 GN=psbE PE=2 SV=4
+Length=83
+
+ Score = 130 bits (327),  Expect = 5e-39, Method: Compositional matrix adjust.
+ Identities = 55/83 (66%), Positives = 73/83 (88%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+++ +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFSESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+T RF++ +QV+ F +  
+Sbjct  61  QEVPLITGRFDSLEQVDAFTKSF  83
+
+
+> sp|Q9MUQ0|PSBE_MESVI Cytochrome b559 subunit alpha OS=Mesostigma 
+viride OX=41882 GN=psbE PE=3 SV=3
+Length=81
+
+ Score = 130 bits (326),  Expect = 6e-39, Method: Compositional matrix adjust.
+ Identities = 56/79 (71%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG+T ERPFSDIITS+RYWVIHSITIP+LF++GWLFVSTGLAYDVFGTPRP+ Y+ +++
+Sbjct  1   MAGSTEERPFSDIITSIRYWVIHSITIPSLFVSGWLFVSTGLAYDVFGTPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF A +Q+  +
+Sbjct  61  QDIPLITDRFNALEQLNQY  79
+
+
+> sp|Q2JS34|PSBE_SYNJA Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain JA-3-3Ab) OX=321327 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 130 bits (326),  Expect = 6e-39, Method: Compositional matrix adjust.
+ Identities = 56/77 (73%), Positives = 69/77 (90%), Gaps = 0/77 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG TGERPF DIITSVRYWVIH++TIPALF+AGWLFVSTGLAYD+FGTPRP+ Y+  E+
+Sbjct  1   MAGNTGERPFVDIITSVRYWVIHALTIPALFLAGWLFVSTGLAYDIFGTPRPNEYFTAER  60
+
+Query  61  RSIPLVTDRFEAKQQVE  77
+           + +P+V+DRF A +Q+E
+Sbjct  61  QELPIVSDRFNALEQLE  77
+
+
+> sp|Q8WI04|PSBE_PSINU Cytochrome b559 subunit alpha OS=Psilotum 
+nudum OX=3240 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 129 bits (324),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 56/79 (71%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF + +QV+ F
+Sbjct  61  QEIPLITGRFNSLEQVDEF  79
+
+
+> sp|Q32RJ5|PSBE_ZYGCR Cytochrome b559 subunit alpha OS=Zygnema 
+circumcarinatum OX=35869 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 129 bits (324),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 56/83 (67%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF + +Q++ F   L
+Sbjct  61  QEIPLITGRFNSLEQLDEFTRAL  83
+
+
+> sp|Q85C42|PSBE_ANTFO Cytochrome b559 subunit alpha OS=Anthoceros 
+formosae OX=48387 GN=psbE PE=2 SV=3
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + +PL+T RF + +QV+ F
+Sbjct  61  QEVPLITGRFNSLEQVDEF  79
+
+
+> sp|Q2JLF0|PSBE_SYNJB Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain JA-2-3B'a(2-13)) OX=321332 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/77 (71%), Positives = 70/77 (91%), Gaps = 0/77 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG+TGERPF DIITSVRYWVIH++TIPALF+AGWLFVSTGLAYD+FGTPRP+ Y+  E+
+Sbjct  1   MAGSTGERPFVDIITSVRYWVIHALTIPALFLAGWLFVSTGLAYDIFGTPRPNEYFTAER  60
+
+Query  61  RSIPLVTDRFEAKQQVE  77
+           + +P+V+DRF A +++E
+Sbjct  61  QELPIVSDRFNALEELE  77
+
+
+> sp|P69386|PSBE_WHEAT Cytochrome b559 subunit alpha OS=Triticum 
+aestivum OX=4565 GN=psbE PE=1 SV=2
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|A1E9U1|PSBE_SORBI Cytochrome b559 subunit alpha OS=Sorghum 
+bicolor OX=4558 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|P69387|PSBE_SECCE Cytochrome b559 subunit alpha OS=Secale 
+cereale OX=4550 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|Q6ENU7|PSBE_SACOF Cytochrome b559 subunit alpha OS=Saccharum 
+officinarum OX=4547 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|Q6L383|PSBE_SACHY Cytochrome b559 subunit alpha OS=Saccharum 
+hybrid OX=15819 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|P0C370|PSBE_ORYSJ Cytochrome b559 subunit alpha OS=Oryza sativa 
+subsp. japonica OX=39947 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|P0C369|PSBE_ORYSI Cytochrome b559 subunit alpha OS=Oryza sativa 
+subsp. indica OX=39946 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|P0C368|PSBE_ORYSA Cytochrome b559 subunit alpha OS=Oryza sativa 
+OX=4530 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|Q6ENF6|PSBE_ORYNI Cytochrome b559 subunit alpha OS=Oryza nivara 
+OX=4536 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|P69388|PSBE_MAIZE Cytochrome b559 subunit alpha OS=Zea mays 
+OX=4577 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|P69390|PSBE_HORVU Cytochrome b559 subunit alpha OS=Hordeum 
+vulgare OX=4513 GN=psbE PE=1 SV=2
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|A1EA25|PSBE_AGRST Cytochrome b559 subunit alpha OS=Agrostis 
+stolonifera OX=63632 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+TDRF++ +Q++ F
+Sbjct  61  QGIPLITDRFDSLEQLDEF  79
+
+
+> sp|P06851|PSBE_MARPO Cytochrome b559 subunit alpha OS=Marchantia 
+polymorpha OX=3197 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 129 bits (323),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+T RF + +Q++ F +  
+Sbjct  61  QEVPLITGRFNSLEQIDEFTKSF  83
+
+
+> sp|Q6YXL9|PSBE_PHYPA Cytochrome b559 subunit alpha OS=Physcomitrella 
+patens subsp. patens OX=3218 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 128 bits (322),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + +PL+T RF + +QV+ F
+Sbjct  61  QEVPLITGRFNSLEQVDEF  79
+
+
+> sp|Q0P3N6|PSBE_OSTTA Cytochrome b559 subunit alpha OS=Ostreococcus 
+tauri OX=70448 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 128 bits (322),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 54/80 (68%), Positives = 72/80 (90%), Gaps = 0/80 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGERPFSDI+TS+RYWVIHS+TIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+ +E+
+Sbjct  1   MSGSTGERPFSDIVTSIRYWVIHSVTIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFTEER  60
+
+Query  61  RSIPLVTDRFEAKQQVETFL  80
+           + +PL++DR+ A  Q++  +
+Sbjct  61  QELPLISDRYGALAQLDDLV  80
+
+
+> sp|P09190|PSBE_SYNY3 Cytochrome b559 subunit alpha OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=psbE PE=1 
+SV=3
+Length=81
+
+ Score = 127 bits (320),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDI+TS+RYWVIHSITIP LFIAGWLFVSTGLAYD FGTPRPD Y+ Q +
+Sbjct  1   MSGTTGERPFSDIVTSIRYWVIHSITIPMLFIAGWLFVSTGLAYDAFGTPRPDEYFTQTR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + +P++ +R++  Q+++ F
+Sbjct  61  QELPILQERYDINQEIQEF  79
+
+
+> sp|Q8M9W8|PSBE_CHAGL Cytochrome b559 subunit alpha OS=Chaetosphaeridium 
+globosum OX=96477 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 127 bits (320),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 55/83 (66%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+  ++
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFTADR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+T RF + +Q+    + L
+Sbjct  61  QEVPLITGRFNSLEQLNEITKSL  83
+
+
+> sp|Q32RX7|PSBE_STAPU Cytochrome b559 subunit alpha OS=Staurastrum 
+punctulatum OX=102822 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 127 bits (319),  Expect = 7e-38, Method: Compositional matrix adjust.
+ Identities = 55/83 (66%), Positives = 69/83 (83%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFGDIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+T RF +  Q++ F   L
+Sbjct  61  QEVPLITGRFNSLDQLDEFTRSL  83
+
+
+> sp|P48268|PSBE_CHLRE Cytochrome b559 subunit alpha OS=Chlamydomonas 
+reinhardtii OX=3055 GN=psbE PE=1 SV=1
+Length=82
+
+ Score = 127 bits (318),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 56/77 (73%), Positives = 68/77 (88%), Gaps = 0/77 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG   ERPFSDI+TS+RYWVIHSIT+PALFIAGWLFVSTGLAYDVFGTPRP+ Y+ +++
+Sbjct  1   MAGKPVERPFSDILTSIRYWVIHSITVPALFIAGWLFVSTGLAYDVFGTPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVE  77
+           +  PL+TDRF A +QV+
+Sbjct  61  QEAPLITDRFNALEQVK  77
+
+
+> sp|Q1KVR5|PSBE_TETOB Cytochrome b559 subunit alpha OS=Tetradesmus 
+obliquus OX=3088 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 127 bits (318),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 57/77 (74%), Positives = 68/77 (88%), Gaps = 0/77 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG   ERPFSDI+TS+RYWVIHSITIPALFIAGWLFVSTGLAYDVFG+PRP+ Y+ +++
+Sbjct  1   MAGKPVERPFSDILTSIRYWVIHSITIPALFIAGWLFVSTGLAYDVFGSPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVE  77
+           +  PLVTDRF A +QV+
+Sbjct  61  QDAPLVTDRFNALEQVK  77
+
+
+> sp|Q06SG1|PSBE_STIHE Cytochrome b559 subunit alpha OS=Stigeoclonium 
+helveticum OX=55999 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 127 bits (318),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 55/82 (67%), Positives = 69/82 (84%), Gaps = 0/82 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G   ERPFSDIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYD+FG PRP+ Y+ +++
+Sbjct  1   MSGKPNERPFSDIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDIFGAPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQ  82
+           +  PL+TDRF A +QV+   +Q
+Sbjct  61  QDAPLITDRFNALEQVKQLSQQ  82
+
+
+> sp|Q332W1|PSBE_LACSA Cytochrome b559 subunit alpha OS=Lactuca 
+sativa OX=4236 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 126 bits (317),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|Q1KXU2|PSBE_HELAN Cytochrome b559 subunit alpha OS=Helianthus 
+annuus OX=4232 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 126 bits (317),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|P36442|PSBE_MESCR Cytochrome b559 subunit alpha OS=Mesembryanthemum 
+crystallinum OX=3544 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 126 bits (316),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|P69383|PSBE_SPIOL Cytochrome b559 subunit alpha OS=Spinacia 
+oleracea OX=3562 GN=psbE PE=1 SV=2
+Length=83
+
+ Score = 126 bits (316),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|Q9MTK5|PSBE_OENEH Cytochrome b559 subunit alpha OS=Oenothera 
+elata subsp. hookeri OX=85636 GN=psbE PE=3 SV=4
+Length=83
+
+ Score = 126 bits (316),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|Q2L925|PSBE_GOSHI Cytochrome b559 subunit alpha OS=Gossypium 
+hirsutum OX=3635 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 126 bits (316),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|A0ZZ52|PSBE_GOSBA Cytochrome b559 subunit alpha OS=Gossypium 
+barbadense OX=3634 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 126 bits (316),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|Q4VZH5|PSBE_CUCSA Cytochrome b559 subunit alpha OS=Cucumis 
+sativus OX=3659 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 126 bits (316),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|P69382|PSBE_BETVU Cytochrome b559 subunit alpha OS=Beta vulgaris 
+OX=161934 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 126 bits (316),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|P59702|PSBE_ATRBE Cytochrome b559 subunit alpha OS=Atropa 
+belladonna OX=33113 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 126 bits (316),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|P56779|PSBE_ARATH Cytochrome b559 subunit alpha OS=Arabidopsis 
+thaliana OX=3702 GN=psbE PE=1 SV=4
+Length=83
+
+ Score = 126 bits (316),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|Q70XY9|PSBE_AMBTC Cytochrome b559 subunit alpha OS=Amborella 
+trichopoda OX=13333 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 126 bits (316),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|Q3BAM3|PSBE_PHAAO Cytochrome b559 subunit alpha OS=Phalaenopsis 
+aphrodite subsp. formosana OX=308872 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 125 bits (315),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDKF  79
+
+
+> sp|Q09MG1|PSBE_CITSI Cytochrome b559 subunit alpha OS=Citrus 
+sinensis OX=2711 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 125 bits (315),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q+  F
+Sbjct  61  QGIPLITGRFDSLEQLNEF  79
+
+
+> sp|A7M969|PSBE_CUSRE Cytochrome b559 subunit alpha OS=Cuscuta 
+reflexa OX=4129 GN=psbE PE=2 SV=2
+Length=83
+
+ Score = 125 bits (314),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q+  F
+Sbjct  61  QGIPLITGRFDSLEQLNEF  79
+
+
+> sp|Q8MAV7|PSBE_CUSGR Cytochrome b559 subunit alpha OS=Cuscuta 
+gronovii OX=35886 GN=psbE PE=2 SV=4
+Length=84
+
+ Score = 125 bits (313),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 67/79 (85%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + Q
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENQ  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RFE  ++   F
+Sbjct  61  QGIPLITGRFEPLEEQNEF  79
+
+
+> sp|P13554|PSBE_PEA Cytochrome b559 subunit alpha OS=Pisum sativum 
+OX=3888 GN=psbE PE=1 SV=3
+Length=83
+
+ Score = 125 bits (313),  Expect = 7e-37, Method: Compositional matrix adjust.
+ Identities = 53/79 (67%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYW+IHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWIIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTETR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|Q0G9U5|PSBE_DAUCA Cytochrome b559 subunit alpha OS=Daucus 
+carota OX=4039 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (312),  Expect = 8e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q68RY9|PSBE_PANGI Cytochrome b559 subunit alpha OS=Panax ginseng 
+OX=4054 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 124 bits (312),  Expect = 8e-37, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q0ZJ03|PSBE_VITVI Cytochrome b559 subunit alpha OS=Vitis vinifera 
+OX=29760 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|P69384|PSBE_TOBAC Cytochrome b559 subunit alpha OS=Nicotiana 
+tabacum OX=4097 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q2VEG1|PSBE_SOLTU Cytochrome b559 subunit alpha OS=Solanum 
+tuberosum OX=4113 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q2MI83|PSBE_SOLLC Cytochrome b559 subunit alpha OS=Solanum 
+lycopersicum OX=4081 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q2MIH0|PSBE_SOLBU Cytochrome b559 subunit alpha OS=Solanum 
+bulbocastanum OX=147425 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|P69385|PSBE_POPDE Cytochrome b559 subunit alpha OS=Populus 
+deltoides OX=3696 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q14FE0|PSBE_POPAL Cytochrome b559 subunit alpha OS=Populus 
+alba OX=43335 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q06GP3|PSBE_PIPCE Cytochrome b559 subunit alpha OS=Piper cenocladum 
+OX=398741 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q06FK9|PSBE_PELHO Cytochrome b559 subunit alpha OS=Pelargonium 
+hortorum OX=4031 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q76IC3|PSBE_NICTO Cytochrome b559 subunit alpha OS=Nicotiana 
+tomentosiformis OX=4098 GN=psbE PE=3 SV=4
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q3C1L3|PSBE_NICSY Cytochrome b559 subunit alpha OS=Nicotiana 
+sylvestris OX=4096 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q09X00|PSBE_MORIN Cytochrome b559 subunit alpha OS=Morus indica 
+OX=248361 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q06RB5|PSBE_JASNU Cytochrome b559 subunit alpha OS=Jasminum 
+nudiflorum OX=126431 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q49KY2|PSBE_EUCGG Cytochrome b559 subunit alpha OS=Eucalyptus 
+globulus subsp. globulus OX=71271 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q06GY0|PSBE_DRIGR Cytochrome b559 subunit alpha OS=Drimys 
+granadensis OX=224735 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|A0A352|PSBE_COFAR Cytochrome b559 subunit alpha OS=Coffea 
+arabica OX=13443 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q9THZ3|PSBE_GINBI Cytochrome b559 subunit alpha OS=Ginkgo 
+biloba OX=3311 GN=psbE PE=2 SV=4
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 53/79 (67%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+   +
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTDSR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + +PL+T RF++ +Q++ F
+Sbjct  61  QEVPLITGRFDSLEQLDEF  79
+
+
+> sp|P41615|PSBE_PINTH Cytochrome b559 subunit alpha OS=Pinus thunbergii 
+OX=3350 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + +PLVT RF+  +Q++ F
+Sbjct  61  QEVPLVTGRFDPLEQLDEF  79
+
+
+> sp|P59703|PSBE_PINKO Cytochrome b559 subunit alpha OS=Pinus koraiensis 
+OX=88728 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 124 bits (311),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + +PLVT RF+  +Q++ F
+Sbjct  61  QEVPLVTGRFDPLEQLDEF  79
+
+
+> sp|P05333|PSBE_EUGGR Cytochrome b559 subunit alpha OS=Euglena 
+gracilis OX=3039 GN=psbE PE=3 SV=3
+Length=81
+
+ Score = 124 bits (310),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 51/81 (63%), Positives = 69/81 (85%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG+TGERPFSDIITS+RYWVIHS+TIP+LF+ GW+FVSTG+ YD+FGTPRP  Y+ + +
+Sbjct  1   MAGSTGERPFSDIITSIRYWVIHSVTIPSLFVGGWIFVSTGIVYDIFGTPRPSEYFTETR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           +  PL++DRF A +Q++ F +
+Sbjct  61  QQAPLISDRFNALEQMDQFTK  81
+
+
+> sp|Q2PMR7|PSBE_SOYBN Cytochrome b559 subunit alpha OS=Glycine 
+max OX=3847 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 124 bits (310),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 53/79 (67%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYW+IHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWIIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q9BBR5|PSBE_LOTJA Cytochrome b559 subunit alpha OS=Lotus japonicus 
+OX=34305 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 124 bits (310),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 53/79 (67%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYW+IHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWIIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+  +Q++ F
+Sbjct  61  QGIPLITGRFDPLEQLDEF  79
+
+
+> sp|Q3V518|PSBE_ACOCL Cytochrome b559 subunit alpha OS=Acorus 
+calamus OX=4465 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 123 bits (309),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+   Q++ F
+Sbjct  61  QGIPLITGRFDPLDQLDEF  79
+
+
+> sp|Q0G9K2|PSBE_LIRTU Cytochrome b559 subunit alpha OS=Liriodendron 
+tulipifera OX=3415 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 123 bits (309),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+   Q++ F
+Sbjct  61  QGIPLITGRFDPLAQLDEF  79
+
+
+> sp|Q7YJV8|PSBE_CALFG Cytochrome b559 subunit alpha OS=Calycanthus 
+floridus var. glaucus OX=212734 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 123 bits (309),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 54/79 (68%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF+   Q++ F
+Sbjct  61  QGIPLITGRFDPLAQLDEF  79
+
+
+> sp|P05170|PSBE_OENBE Cytochrome b559 subunit alpha OS=Oenothera 
+berteroana OX=3950 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 123 bits (309),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 53/79 (67%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TG R F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGGRSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|Q6EW36|PSBE_NYMAL Cytochrome b559 subunit alpha OS=Nymphaea 
+alba OX=34301 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 123 bits (308),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 53/79 (67%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGW FVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERAFADIITSIRYWVIHSITIPSLFIAGWSFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IPL+T RF++ +Q++ F
+Sbjct  61  QGIPLITGRFDSLEQLDEF  79
+
+
+> sp|Q06J11|PSBE_BIGNA Cytochrome b559 subunit alpha OS=Bigelowiella 
+natans OX=227086 GN=psbE PE=3 SV=1
+Length=73
+
+ Score = 122 bits (307),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 53/70 (76%), Positives = 64/70 (91%), Gaps = 0/70 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAGTTGERPFSDI+TS+RYW+IHSIT+P+LFIAGWLFVSTGLAYDVFG+PRP+ Y++  Q
+Sbjct  1   MAGTTGERPFSDILTSIRYWIIHSITVPSLFIAGWLFVSTGLAYDVFGSPRPNEYFSNGQ  60
+
+Query  61  RSIPLVTDRF  70
+           +  P+V DRF
+Sbjct  61  QEAPIVLDRF  70
+
+
+> sp|P19152|PSBE_CYAPA Cytochrome b559 subunit alpha OS=Cyanophora 
+paradoxa OX=2762 GN=psbE PE=3 SV=4
+Length=74
+
+ Score = 121 bits (303),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 50/72 (69%), Positives = 63/72 (88%), Gaps = 0/72 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            GTTGERPFSDI+TS+RYWVIH++TIP+LF+AGWLFVSTGLAYDVFGTPRPD Y+ +E++
+Sbjct  3   GGTTGERPFSDIVTSIRYWVIHTVTIPSLFVAGWLFVSTGLAYDVFGTPRPDEYFTEERQ  62
+
+Query  62  SIPLVTDRFEAK  73
+            +P++  RF   
+Sbjct  63  EVPIINQRFSTN  74
+
+
+> sp|A9BDU4|PSBE_PROM4 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9211) OX=93059 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 117 bits (294),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 51/80 (64%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITSVRYW+IH++T+PA+FIAG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSVRYWIIHAVTLPAIFIAGFLFVSTGLAYDAFGTPRPDTYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ RFE+K Q++  L+
+Sbjct  63  KAPVVSQRFESKAQLDLRLK  82
+
+
+> sp|Q7VDP0|PSBE_PROMA Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain SARG / CCMP1375 / SS120) OX=167539 
+GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 117 bits (293),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 51/80 (64%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITSVRYW+IH++T+PA+FIAG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSVRYWIIHAVTLPAIFIAGFLFVSTGLAYDAFGTPRPDTYFQASET  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ RFE+K Q++  L+
+Sbjct  63  KAPVVSQRFESKAQLDLRLK  82
+
+
+> sp|A5GQF4|PSBE_SYNR3 Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain RCC307) OX=316278 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 117 bits (293),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 51/81 (63%), Positives = 67/81 (83%), Gaps = 0/81 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH++T+PA+F+AG+LFVSTGLAYD FGTPRPDSY+     
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHAVTLPAIFLAGFLFVSTGLAYDAFGTPRPDSYFQAADV  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQ  82
+             P+V+ R+E K Q++T L+ 
+Sbjct  63  KAPVVSQRYEGKSQLDTRLKN  83
+
+
+> sp|A2BP97|PSBE_PROMS Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain AS9601) OX=146891 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 117 bits (292),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 50/76 (66%), Positives = 65/76 (86%), Gaps = 0/76 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  5   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQSSES  64
+
+Query  62  SIPLVTDRFEAKQQVE  77
+             P+VT R+EAK Q++
+Sbjct  65  KAPVVTQRYEAKSQLD  80
+
+
+> sp|Q31CN5|PSBE_PROM9 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9312) OX=74546 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 117 bits (292),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 50/76 (66%), Positives = 65/76 (86%), Gaps = 0/76 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  5   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQSSES  64
+
+Query  62  SIPLVTDRFEAKQQVE  77
+             P+VT R+EAK Q++
+Sbjct  65  KAPVVTQRYEAKSQLD  80
+
+
+> sp|A8G2V8|PSBE_PROM2 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9215) OX=93060 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 117 bits (292),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 50/76 (66%), Positives = 65/76 (86%), Gaps = 0/76 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  5   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQSSES  64
+
+Query  62  SIPLVTDRFEAKQQVE  77
+             P+VT R+EAK Q++
+Sbjct  65  KAPVVTQRYEAKSQLD  80
+
+
+> sp|A3PB19|PSBE_PROM0 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9301) OX=167546 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 117 bits (292),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 50/76 (66%), Positives = 65/76 (86%), Gaps = 0/76 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  5   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQSSES  64
+
+Query  62  SIPLVTDRFEAKQQVE  77
+             P+VT R+EAK Q++
+Sbjct  65  KAPVVTQRYEAKSQLD  80
+
+
+> sp|Q7V4Q2|PSBE_PROMM Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9313) OX=74547 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 115 bits (289),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 48/80 (60%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +I+TS+RYWVIH++T+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIVTSIRYWVIHAVTLPSIFLAGYLFVSTGLAYDTFGTPRPDAYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+EAK Q++  L+
+Sbjct  63  KAPVVSQRYEAKSQLDLRLQ  82
+
+
+> sp|A2CCQ0|PSBE_PROM3 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9303) OX=59922 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 115 bits (289),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 48/80 (60%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +I+TS+RYWVIH++T+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIVTSIRYWVIHAVTLPSIFLAGYLFVSTGLAYDTFGTPRPDAYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+EAK Q++  L+
+Sbjct  63  KAPVVSQRYEAKSQLDLRLQ  82
+
+
+> sp|Q7V300|PSBE_PROMP Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus subsp. pastoris (strain CCMP1986 / NIES-2087 
+/ MED4) OX=59919 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 115 bits (288),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 49/76 (64%), Positives = 65/76 (86%), Gaps = 0/76 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  5   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQASES  64
+
+Query  62  SIPLVTDRFEAKQQVE  77
+             P+VT R++AK Q++
+Sbjct  65  KAPVVTQRYDAKSQLD  80
+
+
+> sp|A2BUS8|PSBE_PROM5 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9515) OX=167542 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 115 bits (287),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 49/76 (64%), Positives = 65/76 (86%), Gaps = 0/76 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  3   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVE  77
+             P+VT R++AK Q++
+Sbjct  63  KAPVVTQRYDAKSQLD  78
+
+
+> sp|A5GIB0|PSBE_SYNPW Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain WH7803) OX=32051 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 114 bits (285),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 49/80 (61%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH+IT+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHAITLPSIFLAGFLFVSTGLAYDAFGTPRPDAYFQATES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+E K Q++  L+
+Sbjct  63  KAPVVSQRYEGKSQLDDRLQ  82
+
+
+> sp|Q0IDJ7|PSBE_SYNS3 Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain CC9311) OX=64471 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 113 bits (283),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 48/80 (60%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH+IT+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHAITLPSIFLAGFLFVSTGLAYDAFGTPRPDAYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+E K +++  L+
+Sbjct  63  KAPVVSQRYEGKSELDLRLK  82
+
+
+> sp|Q3AN56|PSBE_SYNSC Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain CC9605) OX=110662 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 112 bits (281),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 47/80 (59%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH++T+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHAVTLPSIFLAGFLFVSTGLAYDAFGTPRPDAYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+E K +++  L+
+Sbjct  63  KAPVVSQRYEGKSELDIRLK  82
+
+
+> sp|Q46H81|PSBE_PROMT Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain NATL2A) OX=59920 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 112 bits (280),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 47/80 (59%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITSVRYW+IH++ +PA+F+AG+LFVS+GLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSVRYWIIHAVALPAIFVAGFLFVSSGLAYDAFGTPRPDTYFQAGES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V  RF++K +++T L+
+Sbjct  63  KAPVVVQRFDSKAELDTRLK  82
+
+
+> sp|A2C0D1|PSBE_PROM1 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain NATL1A) OX=167555 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 112 bits (280),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 47/80 (59%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITSVRYW+IH++ +PA+F+AG+LFVS+GLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSVRYWIIHAVALPAIFVAGFLFVSSGLAYDAFGTPRPDTYFQAGES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V  RF++K +++T L+
+Sbjct  63  KAPVVVQRFDSKAELDTRLK  82
+
+
+> sp|Q3B0C6|PSBE_SYNS9 Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain CC9902) OX=316279 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 111 bits (278),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 47/80 (59%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH++T+P++F+AG+LFV+TGLAYD FGTPRPD+Y+     
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHAVTLPSIFLAGFLFVNTGLAYDAFGTPRPDAYFQATDT  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+E K Q++  L+
+Sbjct  63  KAPVVSQRYEGKAQLDVRLK  82
+
+
+> sp|Q7U9P9|PSBE_SYNPX Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain WH8102) OX=84588 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 111 bits (278),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 47/80 (59%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH +T+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHFVTLPSIFLAGFLFVSTGLAYDAFGTPRPDAYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+E K +++  L+
+Sbjct  63  KAPVVSQRYEGKSELDVRLK  82
+
+
+> sp|Q7NMB0|PSBE_GLOVI Cytochrome b559 subunit alpha OS=Gloeobacter 
+violaceus (strain PCC 7421) OX=251221 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 107 bits (268),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 49/74 (66%), Positives = 57/74 (77%), Gaps = 0/74 (0%)
+
+Query  4   TTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQRSI  63
+           +TGERPF+DIITS RYW+IH   I  LF +G+LFV TGLAYDVFGTPRPD YY  +    
+Sbjct  5   STGERPFTDIITSTRYWIIHIPAITILFASGFLFVYTGLAYDVFGTPRPDEYYNSDNTKK  64
+
+Query  64  PLVTDRFEAKQQVE  77
+           PLV  RFEAKQQ++
+Sbjct  65  PLVNKRFEAKQQLD  78
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4901779491
+Results from round 2
+
+
+Query= P12238|3a0bE
+
+Length=84
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q1XD96|PSBE_PYRYE Cytochrome b559 subunit alpha OS=Pyropia y...  150     1e-46
+  sp|P51391|PSBE_PORPU Cytochrome b559 subunit alpha OS=Porphyra ...  150     1e-46
+  sp|B8HVD7|PSBE_CYAP4 Cytochrome b559 subunit alpha OS=Cyanothec...  149     2e-46
+  sp|Q8M9W8|PSBE_CHAGL Cytochrome b559 subunit alpha OS=Chaetosph...  148     3e-46
+  sp|P06851|PSBE_MARPO Cytochrome b559 subunit alpha OS=Marchanti...  148     6e-46
+  sp|Q6B8K4|PSBE_GRATL Cytochrome b559 subunit alpha OS=Gracilari...  148     6e-46
+  sp|Q1ACI7|PSBE_CHAVU Cytochrome b559 subunit alpha OS=Chara vul...  148     7e-46
+  sp|Q32RJ5|PSBE_ZYGCR Cytochrome b559 subunit alpha OS=Zygnema c...  147     8e-46
+  sp|Q5SD43|PSBE_HUPLU Cytochrome b559 subunit alpha OS=Huperzia ...  147     9e-46
+  sp|Q9TM20|PSBE_CYACA Cytochrome b559 subunit alpha OS=Cyanidium...  147     1e-45
+  sp|O78466|PSBE_GUITH Cytochrome b559 subunit alpha OS=Guillardi...  147     1e-45
+  sp|Q32RX7|PSBE_STAPU Cytochrome b559 subunit alpha OS=Staurastr...  147     1e-45
+  sp|Q85C42|PSBE_ANTFO Cytochrome b559 subunit alpha OS=Anthocero...  147     1e-45
+  sp|B0C6T2|PSBE_ACAM1 Cytochrome b559 subunit alpha OS=Acaryochl...  146     2e-45
+  sp|A0T0A3|PSBE_PHATC Cytochrome b559 subunit alpha OS=Phaeodact...  146     2e-45
+  sp|P49473|PSBE_ODOSI Cytochrome b559 subunit alpha OS=Odontella...  146     2e-45
+  sp|Q0P3N6|PSBE_OSTTA Cytochrome b559 subunit alpha OS=Ostreococ...  146     3e-45
+  sp|Q9TKY1|PSBE_NEPOL Cytochrome b559 subunit alpha OS=Nephrosel...  146     3e-45
+  sp|Q6YXL9|PSBE_PHYPA Cytochrome b559 subunit alpha OS=Physcomit...  146     3e-45
+  sp|Q8YQI2|PSBE_NOSS1 Cytochrome b559 subunit alpha OS=Nostoc sp...  146     4e-45
+  sp|Q3MC09|PSBE_ANAVT Cytochrome b559 subunit alpha OS=Anabaena ...  146     4e-45
+  sp|Q8WI04|PSBE_PSINU Cytochrome b559 subunit alpha OS=Psilotum ...  146     4e-45
+  sp|Q3ZJ22|PSBE_TUPAK Cytochrome b559 subunit alpha OS=Tupiella ...  145     4e-45
+  sp|B0JLV1|PSBE_MICAN Cytochrome b559 subunit alpha OS=Microcyst...  145     5e-45
+  sp|P56309|PSBE_CHLVU Cytochrome b559 subunit alpha OS=Chlorella...  145     5e-45
+  sp|Q10YT0|PSBE_TRIEI Cytochrome b559 subunit alpha OS=Trichodes...  145     7e-45
+  sp|Q2JS34|PSBE_SYNJA Cytochrome b559 subunit alpha OS=Synechoco...  145     7e-45
+  sp|Q9MUQ0|PSBE_MESVI Cytochrome b559 subunit alpha OS=Mesostigm...  145     9e-45
+  sp|Q4G380|PSBE_EMIHU Cytochrome b559 subunit alpha OS=Emiliania...  145     1e-44
+  sp|Q85FK5|PSBE_ADICA Cytochrome b559 subunit alpha OS=Adiantum ...  145     1e-44
+  sp|A0T0U2|PSBE_THAPS Cytochrome b559 subunit alpha OS=Thalassio...  144     1e-44
+  sp|Q85FQ2|PSBE_CYAM1 Cytochrome b559 subunit alpha OS=Cyanidios...  144     2e-44
+  sp|P12238|PSBE_THEVL Cytochrome b559 subunit alpha OS=Thermosyn...  144     2e-44
+  sp|Q8DIP0|PSBE_THEEB Cytochrome b559 subunit alpha OS=Thermosyn...  144     2e-44
+  sp|B1WVS0|PSBE_CYAA5 Cytochrome b559 subunit alpha OS=Cyanothec...  143     3e-44
+  sp|B7K626|PSBE_CYAP8 Cytochrome b559 subunit alpha OS=Cyanothec...  143     4e-44
+  sp|Q2JLF0|PSBE_SYNJB Cytochrome b559 subunit alpha OS=Synechoco...  143     4e-44
+  sp|Q06SG1|PSBE_STIHE Cytochrome b559 subunit alpha OS=Stigeoclo...  142     8e-44
+  sp|P48268|PSBE_CHLRE Cytochrome b559 subunit alpha OS=Chlamydom...  142     8e-44
+  sp|P41615|PSBE_PINTH Cytochrome b559 subunit alpha OS=Pinus thu...  142     9e-44
+  sp|P59703|PSBE_PINKO Cytochrome b559 subunit alpha OS=Pinus kor...  142     9e-44
+  sp|P69386|PSBE_WHEAT Cytochrome b559 subunit alpha OS=Triticum ...  142     1e-43
+  sp|A1E9U1|PSBE_SORBI Cytochrome b559 subunit alpha OS=Sorghum b...  142     1e-43
+  sp|P69387|PSBE_SECCE Cytochrome b559 subunit alpha OS=Secale ce...  142     1e-43
+  sp|Q6ENU7|PSBE_SACOF Cytochrome b559 subunit alpha OS=Saccharum...  142     1e-43
+  sp|Q6L383|PSBE_SACHY Cytochrome b559 subunit alpha OS=Saccharum...  142     1e-43
+  sp|P0C370|PSBE_ORYSJ Cytochrome b559 subunit alpha OS=Oryza sat...  142     1e-43
+  sp|P0C369|PSBE_ORYSI Cytochrome b559 subunit alpha OS=Oryza sat...  142     1e-43
+  sp|P0C368|PSBE_ORYSA Cytochrome b559 subunit alpha OS=Oryza sat...  142     1e-43
+  sp|Q6ENF6|PSBE_ORYNI Cytochrome b559 subunit alpha OS=Oryza niv...  142     1e-43
+  sp|P69388|PSBE_MAIZE Cytochrome b559 subunit alpha OS=Zea mays ...  142     1e-43
+  sp|P69390|PSBE_HORVU Cytochrome b559 subunit alpha OS=Hordeum v...  142     1e-43
+  sp|A1EA25|PSBE_AGRST Cytochrome b559 subunit alpha OS=Agrostis ...  142     1e-43
+  sp|Q9THZ3|PSBE_GINBI Cytochrome b559 subunit alpha OS=Ginkgo bi...  142     1e-43
+  sp|B2J6T0|PSBE_NOSP7 Cytochrome b559 subunit alpha OS=Nostoc pu...  142     1e-43
+  sp|P36442|PSBE_MESCR Cytochrome b559 subunit alpha OS=Mesembrya...  142     1e-43
+  sp|Q1KVR5|PSBE_TETOB Cytochrome b559 subunit alpha OS=Tetradesm...  141     2e-43
+  sp|Q332W1|PSBE_LACSA Cytochrome b559 subunit alpha OS=Lactuca s...  141     2e-43
+  sp|Q1KXU2|PSBE_HELAN Cytochrome b559 subunit alpha OS=Helianthu...  141     2e-43
+  sp|Q5N556|PSBE_SYNP6 Cytochrome b559 subunit alpha OS=Synechoco...  141     2e-43
+  sp|Q8KPP3|PSBE_SYNE7 Cytochrome b559 subunit alpha OS=Synechoco...  141     2e-43
+  sp|Q68RY9|PSBE_PANGI Cytochrome b559 subunit alpha OS=Panax gin...  141     3e-43
+  sp|P69383|PSBE_SPIOL Cytochrome b559 subunit alpha OS=Spinacia ...  141     4e-43
+  sp|Q9MTK5|PSBE_OENEH Cytochrome b559 subunit alpha OS=Oenothera...  141     4e-43
+  sp|Q2L925|PSBE_GOSHI Cytochrome b559 subunit alpha OS=Gossypium...  141     4e-43
+  sp|A0ZZ52|PSBE_GOSBA Cytochrome b559 subunit alpha OS=Gossypium...  141     4e-43
+  sp|Q4VZH5|PSBE_CUCSA Cytochrome b559 subunit alpha OS=Cucumis s...  141     4e-43
+  sp|P69382|PSBE_BETVU Cytochrome b559 subunit alpha OS=Beta vulg...  141     4e-43
+  sp|P59702|PSBE_ATRBE Cytochrome b559 subunit alpha OS=Atropa be...  141     4e-43
+  sp|P56779|PSBE_ARATH Cytochrome b559 subunit alpha OS=Arabidops...  141     4e-43
+  sp|Q70XY9|PSBE_AMBTC Cytochrome b559 subunit alpha OS=Amborella...  141     4e-43
+  sp|B7KH62|PSBE_CYAP7 Cytochrome b559 subunit alpha OS=Cyanothec...  141     4e-43
+  sp|Q20EW2|PSBE_OLTVI Cytochrome b559 subunit alpha OS=Oltmannsi...  141     4e-43
+  sp|P05333|PSBE_EUGGR Cytochrome b559 subunit alpha OS=Euglena g...  140     4e-43
+  sp|Q8RSW3|PSBE_SYNP2 Cytochrome b559 subunit alpha OS=Synechoco...  140     4e-43
+  sp|Q0G9U5|PSBE_DAUCA Cytochrome b559 subunit alpha OS=Daucus ca...  140     4e-43
+  sp|A7M969|PSBE_CUSRE Cytochrome b559 subunit alpha OS=Cuscuta r...  140     5e-43
+  sp|Q09MG1|PSBE_CITSI Cytochrome b559 subunit alpha OS=Citrus si...  140     7e-43
+  sp|P13554|PSBE_PEA Cytochrome b559 subunit alpha OS=Pisum sativ...  140     8e-43
+  sp|Q0ZJ03|PSBE_VITVI Cytochrome b559 subunit alpha OS=Vitis vin...  140     9e-43
+  sp|P69384|PSBE_TOBAC Cytochrome b559 subunit alpha OS=Nicotiana...  140     9e-43
+  sp|Q2VEG1|PSBE_SOLTU Cytochrome b559 subunit alpha OS=Solanum t...  140     9e-43
+  sp|Q2MI83|PSBE_SOLLC Cytochrome b559 subunit alpha OS=Solanum l...  140     9e-43
+  sp|Q2MIH0|PSBE_SOLBU Cytochrome b559 subunit alpha OS=Solanum b...  140     9e-43
+  sp|P69385|PSBE_POPDE Cytochrome b559 subunit alpha OS=Populus d...  140     9e-43
+  sp|Q14FE0|PSBE_POPAL Cytochrome b559 subunit alpha OS=Populus a...  140     9e-43
+  sp|Q06GP3|PSBE_PIPCE Cytochrome b559 subunit alpha OS=Piper cen...  140     9e-43
+  sp|Q06FK9|PSBE_PELHO Cytochrome b559 subunit alpha OS=Pelargoni...  140     9e-43
+  sp|Q76IC3|PSBE_NICTO Cytochrome b559 subunit alpha OS=Nicotiana...  140     9e-43
+  sp|Q3C1L3|PSBE_NICSY Cytochrome b559 subunit alpha OS=Nicotiana...  140     9e-43
+  sp|Q09X00|PSBE_MORIN Cytochrome b559 subunit alpha OS=Morus ind...  140     9e-43
+  sp|Q06RB5|PSBE_JASNU Cytochrome b559 subunit alpha OS=Jasminum ...  140     9e-43
+  sp|Q49KY2|PSBE_EUCGG Cytochrome b559 subunit alpha OS=Eucalyptu...  140     9e-43
+  sp|Q06GY0|PSBE_DRIGR Cytochrome b559 subunit alpha OS=Drimys gr...  140     9e-43
+  sp|A0A352|PSBE_COFAR Cytochrome b559 subunit alpha OS=Coffea ar...  140     9e-43
+  sp|Q2PMR7|PSBE_SOYBN Cytochrome b559 subunit alpha OS=Glycine m...  139     1e-42
+  sp|Q9BBR5|PSBE_LOTJA Cytochrome b559 subunit alpha OS=Lotus jap...  139     1e-42
+  sp|Q3V518|PSBE_ACOCL Cytochrome b559 subunit alpha OS=Acorus ca...  139     2e-42
+  sp|Q0G9K2|PSBE_LIRTU Cytochrome b559 subunit alpha OS=Liriodend...  139     2e-42
+  sp|Q7YJV8|PSBE_CALFG Cytochrome b559 subunit alpha OS=Calycanth...  139     2e-42
+  sp|Q3BAM3|PSBE_PHAAO Cytochrome b559 subunit alpha OS=Phalaenop...  138     3e-42
+  sp|P05170|PSBE_OENBE Cytochrome b559 subunit alpha OS=Oenothera...  138     4e-42
+  sp|Q6EW36|PSBE_NYMAL Cytochrome b559 subunit alpha OS=Nymphaea ...  138     4e-42
+  sp|P09190|PSBE_SYNY3 Cytochrome b559 subunit alpha OS=Synechocy...  137     6e-42
+  sp|Q8MAV7|PSBE_CUSGR Cytochrome b559 subunit alpha OS=Cuscuta g...  136     3e-41
+  sp|A5GQF4|PSBE_SYNR3 Cytochrome b559 subunit alpha OS=Synechoco...  133     4e-40
+  sp|A5GIB0|PSBE_SYNPW Cytochrome b559 subunit alpha OS=Synechoco...  133     5e-40
+  sp|Q0IDJ7|PSBE_SYNS3 Cytochrome b559 subunit alpha OS=Synechoco...  131     1e-39
+  sp|Q3AN56|PSBE_SYNSC Cytochrome b559 subunit alpha OS=Synechoco...  131     2e-39
+  sp|Q3B0C6|PSBE_SYNS9 Cytochrome b559 subunit alpha OS=Synechoco...  131     2e-39
+  sp|A9BDU4|PSBE_PROM4 Cytochrome b559 subunit alpha OS=Prochloro...  131     2e-39
+  sp|Q7VDP0|PSBE_PROMA Cytochrome b559 subunit alpha OS=Prochloro...  131     2e-39
+  sp|Q7V4Q2|PSBE_PROMM Cytochrome b559 subunit alpha OS=Prochloro...  131     3e-39
+  sp|A2CCQ0|PSBE_PROM3 Cytochrome b559 subunit alpha OS=Prochloro...  131     3e-39
+  sp|Q7V300|PSBE_PROMP Cytochrome b559 subunit alpha OS=Prochloro...  130     3e-39
+  sp|A2BP97|PSBE_PROMS Cytochrome b559 subunit alpha OS=Prochloro...  130     4e-39
+  sp|Q31CN5|PSBE_PROM9 Cytochrome b559 subunit alpha OS=Prochloro...  130     4e-39
+  sp|A8G2V8|PSBE_PROM2 Cytochrome b559 subunit alpha OS=Prochloro...  130     4e-39
+  sp|A3PB19|PSBE_PROM0 Cytochrome b559 subunit alpha OS=Prochloro...  130     4e-39
+  sp|A2BUS8|PSBE_PROM5 Cytochrome b559 subunit alpha OS=Prochloro...  130     4e-39
+  sp|Q06J11|PSBE_BIGNA Cytochrome b559 subunit alpha OS=Bigelowie...  129     7e-39
+  sp|P19152|PSBE_CYAPA Cytochrome b559 subunit alpha OS=Cyanophor...  129     9e-39
+  sp|Q7U9P9|PSBE_SYNPX Cytochrome b559 subunit alpha OS=Synechoco...  129     1e-38
+  sp|Q46H81|PSBE_PROMT Cytochrome b559 subunit alpha OS=Prochloro...  127     9e-38
+  sp|A2C0D1|PSBE_PROM1 Cytochrome b559 subunit alpha OS=Prochloro...  127     9e-38
+  sp|Q7NMB0|PSBE_GLOVI Cytochrome b559 subunit alpha OS=Gloeobact...  122     6e-36
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q1XD96|PSBE_PYRYE Cytochrome b559 subunit alpha OS=Pyropia 
+yezoensis OX=2788 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 150 bits (378),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 60/82 (73%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYWVIHSITIPALF+AGWLFVSTGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSVRYWVIHSITIPALFVAGWLFVSTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            +PLV DRF AKQ++E   + +
+Sbjct  63  QVPLVNDRFNAKQELEDLTKGI  84
+
+
+> sp|P51391|PSBE_PORPU Cytochrome b559 subunit alpha OS=Porphyra 
+purpurea OX=2787 GN=psbE PE=3 SV=2
+Length=84
+
+ Score = 150 bits (378),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 60/82 (73%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYWVIHSITIPALF+AGWLFVSTGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSVRYWVIHSITIPALFVAGWLFVSTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            +PLV DRF AKQ++E   + +
+Sbjct  63  QVPLVNDRFNAKQELEDLTKGI  84
+
+
+> sp|B8HVD7|PSBE_CYAP4 Cytochrome b559 subunit alpha OS=Cyanothece 
+sp. (strain PCC 7425 / ATCC 29141) OX=395961 GN=psbE PE=3 
+SV=1
+Length=84
+
+ Score = 149 bits (376),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 65/84 (77%), Positives = 77/84 (92%), Gaps = 0/84 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRP+ YY+Q +
+Sbjct  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPNEYYSQVR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQLK  84
+           + +P+++DR E KQQ+  FL+++K
+Sbjct  61  QELPIISDRLEGKQQINEFLKEVK  84
+
+
+> sp|Q8M9W8|PSBE_CHAGL Cytochrome b559 subunit alpha OS=Chaetosphaeridium 
+globosum OX=96477 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 148 bits (375),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+  ++
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFTADR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+T RF + +Q+    + L
+Sbjct  61  QEVPLITGRFNSLEQLNEITKSL  83
+
+
+> sp|P06851|PSBE_MARPO Cytochrome b559 subunit alpha OS=Marchantia 
+polymorpha OX=3197 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 148 bits (373),  Expect = 6e-46, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+T RF + +Q++ F +  
+Sbjct  61  QEVPLITGRFNSLEQIDEFTKSF  83
+
+
+> sp|Q6B8K4|PSBE_GRATL Cytochrome b559 subunit alpha OS=Gracilaria 
+tenuistipitata var. liui OX=285951 GN=psbE PE=3 SV=3
+Length=84
+
+ Score = 148 bits (373),  Expect = 6e-46, Method: Composition-based stats.
+ Identities = 58/82 (71%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITS+RYWVIHSITIP+LF+AGWLFVSTGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSIRYWVIHSITIPSLFVAGWLFVSTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            +PLV DRF AKQ++E   + +
+Sbjct  63  QVPLVNDRFSAKQELEDLTKGI  84
+
+
+> sp|Q1ACI7|PSBE_CHAVU Cytochrome b559 subunit alpha OS=Chara vulgaris 
+OX=55564 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 148 bits (373),  Expect = 7e-46, Method: Composition-based stats.
+ Identities = 56/83 (67%), Positives = 74/83 (89%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+TDRF + +Q+E++ + +
+Sbjct  61  QEVPLITDRFNSLEQIESYTKSI  83
+
+
+> sp|Q32RJ5|PSBE_ZYGCR Cytochrome b559 subunit alpha OS=Zygnema 
+circumcarinatum OX=35869 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 147 bits (372),  Expect = 8e-46, Method: Composition-based stats.
+ Identities = 56/83 (67%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF + +Q++ F   L
+Sbjct  61  QEIPLITGRFNSLEQLDEFTRAL  83
+
+
+> sp|Q5SD43|PSBE_HUPLU Cytochrome b559 subunit alpha OS=Huperzia 
+lucidula OX=37429 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 147 bits (372),  Expect = 9e-46, Method: Composition-based stats.
+ Identities = 57/83 (69%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF + +QV+ F   L
+Sbjct  61  QEIPLITGRFNSLEQVDEFTRSL  83
+
+
+> sp|Q9TM20|PSBE_CYACA Cytochrome b559 subunit alpha OS=Cyanidium 
+caldarium OX=2771 GN=psbE PE=1 SV=1
+Length=84
+
+ Score = 147 bits (372),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 56/82 (68%), Positives = 71/82 (87%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYWVIHSITIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+++ ++
+Sbjct  3   GGSTGERPFSDIITSVRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFSENRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            +PL+ DRF A+++++     L
+Sbjct  63  QVPLINDRFNAREELDDLTSNL  84
+
+
+> sp|O78466|PSBE_GUITH Cytochrome b559 subunit alpha OS=Guillardia 
+theta OX=55529 GN=psbE PE=3 SV=3
+Length=84
+
+ Score = 147 bits (371),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 59/82 (72%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITS+RYW+IHSITIPALF+AGWLFVSTGLAYD+FGTPRP+ Y+ QE++
+Sbjct  3   GGSTGERPFSDIITSIRYWIIHSITIPALFVAGWLFVSTGLAYDIFGTPRPNEYFTQERQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            +PLV DRF AKQ++E   + L
+Sbjct  63  QVPLVNDRFSAKQELEDLTKGL  84
+
+
+> sp|Q32RX7|PSBE_STAPU Cytochrome b559 subunit alpha OS=Staurastrum 
+punctulatum OX=102822 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 147 bits (371),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 69/83 (83%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFGDIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+T RF +  Q++ F   L
+Sbjct  61  QEVPLITGRFNSLDQLDEFTRSL  83
+
+
+> sp|Q85C42|PSBE_ANTFO Cytochrome b559 subunit alpha OS=Anthoceros 
+formosae OX=48387 GN=psbE PE=2 SV=3
+Length=83
+
+ Score = 147 bits (371),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+T RF + +QV+ F    
+Sbjct  61  QEVPLITGRFNSLEQVDEFTRSF  83
+
+
+> sp|B0C6T2|PSBE_ACAM1 Cytochrome b559 subunit alpha OS=Acaryochloris 
+marina (strain MBIC 11017) OX=329726 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 146 bits (370),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 56/83 (67%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF DI+TS+RYW+IH+IT+P LF+AGWLFVSTGLAYDVFGTPRP+ Y+ Q +
+Sbjct  1   MSGRTGERPFGDIVTSIRYWIIHTITVPMLFLAGWLFVSTGLAYDVFGTPRPNEYFDQAR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PLVTDR+E KQQ++ F + L
+Sbjct  61  QGLPLVTDRYEGKQQIDEFTKGL  83
+
+
+> sp|A0T0A3|PSBE_PHATC Cytochrome b559 subunit alpha OS=Phaeodactylum 
+tricornutum (strain CCAP 1055/1) OX=556484 GN=psbE PE=3 
+SV=1
+Length=84
+
+ Score = 146 bits (369),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 59/82 (72%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYW+IHSITIP+LF++GWLFVSTGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSVRYWIIHSITIPSLFVSGWLFVSTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            IPLV DRF AKQ++E   + L
+Sbjct  63  QIPLVNDRFSAKQELEDLTKGL  84
+
+
+> sp|P49473|PSBE_ODOSI Cytochrome b559 subunit alpha OS=Odontella 
+sinensis OX=1514140 GN=psbE PE=3 SV=2
+Length=84
+
+ Score = 146 bits (369),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 59/82 (72%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYW+IHSITIP+LF++GWLFVSTGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSVRYWIIHSITIPSLFVSGWLFVSTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            IPLV DRF AKQ++E   + L
+Sbjct  63  QIPLVNDRFSAKQELEDLTKGL  84
+
+
+> sp|Q0P3N6|PSBE_OSTTA Cytochrome b559 subunit alpha OS=Ostreococcus 
+tauri OX=70448 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 146 bits (368),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 54/82 (66%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGERPFSDI+TS+RYWVIHS+TIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+ +E+
+Sbjct  1   MSGSTGERPFSDIVTSIRYWVIHSVTIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFTEER  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQ  82
+           + +PL++DR+ A  Q++  +  
+Sbjct  61  QELPLISDRYGALAQLDDLVPN  82
+
+
+> sp|Q9TKY1|PSBE_NEPOL Cytochrome b559 subunit alpha OS=Nephroselmis 
+olivacea OX=31312 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 146 bits (368),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 58/83 (70%), Positives = 74/83 (89%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGERPFSDI+TS+RYWVIHSITIP+LF+AGWLFVSTGLAYDVFG+PRP+ Y+ +E+
+Sbjct  1   MSGSTGERPFSDILTSIRYWVIHSITIPSLFVAGWLFVSTGLAYDVFGSPRPNEYFTEER  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           ++ PL+TDRF A QQ++   E L
+Sbjct  61  QTTPLITDRFNALQQMDILTEGL  83
+
+
+> sp|Q6YXL9|PSBE_PHYPA Cytochrome b559 subunit alpha OS=Physcomitrella 
+patens subsp. patens OX=3218 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 146 bits (368),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+T RF + +QV+ F    
+Sbjct  61  QEVPLITGRFNSLEQVDEFTRSF  83
+
+
+> sp|Q8YQI2|PSBE_NOSS1 Cytochrome b559 subunit alpha OS=Nostoc 
+sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=psbE 
+PE=3 SV=1
+Length=82
+
+ Score = 146 bits (368),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 63/82 (77%), Positives = 75/82 (91%), Gaps = 0/82 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDI+TS+RYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPD YY Q +
+Sbjct  1   MSGTTGERPFSDIVTSIRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDEYYTQAR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQ  82
+           + +P+V +RFEAK+QVE  +++
+Sbjct  61  QELPIVNNRFEAKKQVEQLIQK  82
+
+
+> sp|Q3MC09|PSBE_ANAVT Cytochrome b559 subunit alpha OS=Anabaena 
+variabilis (strain ATCC 29413 / PCC 7937) OX=240292 GN=psbE 
+PE=3 SV=1
+Length=82
+
+ Score = 146 bits (368),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 63/82 (77%), Positives = 75/82 (91%), Gaps = 0/82 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDI+TS+RYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPD YY Q +
+Sbjct  1   MSGTTGERPFSDIVTSIRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDEYYTQAR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQ  82
+           + +P+V +RFEAK+QVE  +++
+Sbjct  61  QELPIVNNRFEAKKQVEQLIQK  82
+
+
+> sp|Q8WI04|PSBE_PSINU Cytochrome b559 subunit alpha OS=Psilotum 
+nudum OX=3240 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 146 bits (368),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 56/83 (67%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF + +QV+ F    
+Sbjct  61  QEIPLITGRFNSLEQVDEFTRSF  83
+
+
+> sp|Q3ZJ22|PSBE_TUPAK Cytochrome b559 subunit alpha OS=Tupiella 
+akineta OX=160070 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 145 bits (367),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 58/80 (73%), Positives = 71/80 (89%), Gaps = 0/80 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAGTTGERPFSDI+TS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+ +++
+Sbjct  1   MAGTTGERPFSDILTSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFL  80
+           +  PL+TDRF + +QV+   
+Sbjct  61  QEAPLITDRFNSLEQVKKLS  80
+
+
+> sp|B0JLV1|PSBE_MICAN Cytochrome b559 subunit alpha OS=Microcystis 
+aeruginosa (strain NIES-843) OX=449447 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 145 bits (367),  Expect = 5e-45, Method: Composition-based stats.
+ Identities = 60/81 (74%), Positives = 72/81 (89%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGERPF DI+TS+RYW+IHSITIP LFIAGWLFVSTGLAYDVFGTPRPD YY QE+
+Sbjct  1   MSGSTGERPFGDIVTSIRYWIIHSITIPMLFIAGWLFVSTGLAYDVFGTPRPDEYYTQER  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           + +P++ DRFEAK Q+E F +
+Sbjct  61  QELPIINDRFEAKNQIEQFNQ  81
+
+
+> sp|P56309|PSBE_CHLVU Cytochrome b559 subunit alpha OS=Chlorella 
+vulgaris OX=3077 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 145 bits (367),  Expect = 5e-45, Method: Composition-based stats.
+ Identities = 58/81 (72%), Positives = 72/81 (89%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPFSDI+TS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ +++
+Sbjct  1   MSGATGERPFSDILTSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           +  PL+TDRF A +QV+ F E
+Sbjct  61  QETPLITDRFNALEQVKKFSE  81
+
+
+> sp|Q10YT0|PSBE_TRIEI Cytochrome b559 subunit alpha OS=Trichodesmium 
+erythraeum (strain IMS101) OX=203124 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 145 bits (366),  Expect = 7e-45, Method: Composition-based stats.
+ Identities = 58/80 (73%), Positives = 74/80 (93%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPF DIITS+RYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRP+ YY ++++
+Sbjct  3   GGSTGERPFGDIITSIRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPNEYYTEQRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+            +P+++DRFE+KQQ++ F++
+Sbjct  63  ELPILSDRFESKQQIDDFIK  82
+
+
+> sp|Q2JS34|PSBE_SYNJA Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain JA-3-3Ab) OX=321327 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 145 bits (366),  Expect = 7e-45, Method: Composition-based stats.
+ Identities = 56/81 (69%), Positives = 69/81 (85%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG TGERPF DIITSVRYWVIH++TIPALF+AGWLFVSTGLAYD+FGTPRP+ Y+  E+
+Sbjct  1   MAGNTGERPFVDIITSVRYWVIHALTIPALFLAGWLFVSTGLAYDIFGTPRPNEYFTAER  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           + +P+V+DRF A +Q+E    
+Sbjct  61  QELPIVSDRFNALEQLEKLTR  81
+
+
+> sp|Q9MUQ0|PSBE_MESVI Cytochrome b559 subunit alpha OS=Mesostigma 
+viride OX=41882 GN=psbE PE=3 SV=3
+Length=81
+
+ Score = 145 bits (365),  Expect = 9e-45, Method: Composition-based stats.
+ Identities = 56/81 (69%), Positives = 72/81 (89%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG+T ERPFSDIITS+RYWVIHSITIP+LF++GWLFVSTGLAYDVFGTPRP+ Y+ +++
+Sbjct  1   MAGSTEERPFSDIITSIRYWVIHSITIPSLFVSGWLFVSTGLAYDVFGTPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           + IPL+TDRF A +Q+  + +
+Sbjct  61  QDIPLITDRFNALEQLNQYTK  81
+
+
+> sp|Q4G380|PSBE_EMIHU Cytochrome b559 subunit alpha OS=Emiliania 
+huxleyi OX=2903 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 145 bits (365),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 57/82 (70%), Positives = 71/82 (87%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITS+RYW+IHSITIP+LF+AG+LFVSTGLAYD FGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSIRYWIIHSITIPSLFVAGFLFVSTGLAYDAFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            IPLV DRF AKQ++E   + L
+Sbjct  63  QIPLVNDRFSAKQELEDLTKGL  84
+
+
+> sp|Q85FK5|PSBE_ADICA Cytochrome b559 subunit alpha OS=Adiantum 
+capillus-veneris OX=13818 GN=psbE PE=2 SV=4
+Length=83
+
+ Score = 145 bits (365),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 73/83 (88%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPF+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+++ +
+Sbjct  1   MSGNTGERPFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFSESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+T RF++ +QV+ F +  
+Sbjct  61  QEVPLITGRFDSLEQVDAFTKSF  83
+
+
+> sp|A0T0U2|PSBE_THAPS Cytochrome b559 subunit alpha OS=Thalassiosira 
+pseudonana OX=35128 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 144 bits (364),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 56/82 (68%), Positives = 72/82 (88%), Gaps = 0/82 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITSVRYW+IH+ITIP+LF++GWLF+STGLAYDVFGTPRP+ Y+ Q+++
+Sbjct  3   GGSTGERPFSDIITSVRYWIIHTITIPSLFVSGWLFISTGLAYDVFGTPRPNEYFTQDRQ  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQL  83
+            +PLV DRF AKQ++E   + L
+Sbjct  63  QVPLVNDRFSAKQELEDLTKGL  84
+
+
+> sp|Q85FQ2|PSBE_CYAM1 Cytochrome b559 subunit alpha OS=Cyanidioschyzon 
+merolae (strain 10D) OX=280699 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 144 bits (363),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 62/79 (78%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPFSDIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFGTPRP+ Y+ QE+ 
+Sbjct  3   GGSTGERPFSDIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGTPRPNEYFTQERT  62
+
+Query  62  SIPLVTDRFEAKQQVETFL  80
+            IPLV DRF AKQ++E  L
+Sbjct  63  QIPLVNDRFNAKQELEDLL  81
+
+
+> sp|P12238|PSBE_THEVL Cytochrome b559 subunit alpha OS=Thermosynechococcus 
+vulcanus OX=32053 GN=psbE PE=1 SV=3
+Length=84
+
+ Score = 144 bits (363),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 84/84 (100%), Positives = 84/84 (100%), Gaps = 0/84 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ
+Sbjct  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQLK  84
+           RSIPLVTDRFEAKQQVETFLEQLK
+Sbjct  61  RSIPLVTDRFEAKQQVETFLEQLK  84
+
+
+> sp|Q8DIP0|PSBE_THEEB Cytochrome b559 subunit alpha OS=Thermosynechococcus 
+elongatus (strain BP-1) OX=197221 GN=psbE PE=1 
+SV=3
+Length=84
+
+ Score = 144 bits (363),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 84/84 (100%), Positives = 84/84 (100%), Gaps = 0/84 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ
+Sbjct  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQLK  84
+           RSIPLVTDRFEAKQQVETFLEQLK
+Sbjct  61  RSIPLVTDRFEAKQQVETFLEQLK  84
+
+
+> sp|B1WVS0|PSBE_CYAA5 Cytochrome b559 subunit alpha OS=Cyanothece 
+sp. (strain ATCC 51142) OX=43989 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 143 bits (362),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 60/81 (74%), Positives = 71/81 (88%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGERPFSDI+TS+RYWVIHSITIP LFIAGWLFVSTGLAYDVFGTPRPD Y+ QE+
+Sbjct  1   MSGVTGERPFSDIVTSIRYWVIHSITIPMLFIAGWLFVSTGLAYDVFGTPRPDEYFTQER  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           + +P++ DRFEAK Q+  F +
+Sbjct  61  QELPIIQDRFEAKNQITEFNK  81
+
+
+> sp|B7K626|PSBE_CYAP8 Cytochrome b559 subunit alpha OS=Cyanothece 
+sp. (strain PCC 8801) OX=41431 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 143 bits (361),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 58/81 (72%), Positives = 74/81 (91%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGERPFSDI+TS+RYWVIHSITIP LFIAGWLFVSTGLAYDVFGTPRPD Y+ QE+
+Sbjct  1   MSGSTGERPFSDIVTSIRYWVIHSITIPMLFIAGWLFVSTGLAYDVFGTPRPDQYFTQER  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           + +P+++DR++A QQ++ F +
+Sbjct  61  QELPIISDRYKASQQIQEFNK  81
+
+
+> sp|Q2JLF0|PSBE_SYNJB Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain JA-2-3B'a(2-13)) OX=321332 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 143 bits (361),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 55/81 (68%), Positives = 70/81 (86%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG+TGERPF DIITSVRYWVIH++TIPALF+AGWLFVSTGLAYD+FGTPRP+ Y+  E+
+Sbjct  1   MAGSTGERPFVDIITSVRYWVIHALTIPALFLAGWLFVSTGLAYDIFGTPRPNEYFTAER  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           + +P+V+DRF A +++E    
+Sbjct  61  QELPIVSDRFNALEELERLTR  81
+
+
+> sp|Q06SG1|PSBE_STIHE Cytochrome b559 subunit alpha OS=Stigeoclonium 
+helveticum OX=55999 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 142 bits (359),  Expect = 8e-44, Method: Composition-based stats.
+ Identities = 55/82 (67%), Positives = 69/82 (84%), Gaps = 0/82 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G   ERPFSDIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYD+FG PRP+ Y+ +++
+Sbjct  1   MSGKPNERPFSDIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDIFGAPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQ  82
+           +  PL+TDRF A +QV+   +Q
+Sbjct  61  QDAPLITDRFNALEQVKQLSQQ  82
+
+
+> sp|P48268|PSBE_CHLRE Cytochrome b559 subunit alpha OS=Chlamydomonas 
+reinhardtii OX=3055 GN=psbE PE=1 SV=1
+Length=82
+
+ Score = 142 bits (359),  Expect = 8e-44, Method: Composition-based stats.
+ Identities = 56/82 (68%), Positives = 68/82 (83%), Gaps = 0/82 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG   ERPFSDI+TS+RYWVIHSIT+PALFIAGWLFVSTGLAYDVFGTPRP+ Y+ +++
+Sbjct  1   MAGKPVERPFSDILTSIRYWVIHSITVPALFIAGWLFVSTGLAYDVFGTPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQ  82
+           +  PL+TDRF A +QV+     
+Sbjct  61  QEAPLITDRFNALEQVKKLSGN  82
+
+
+> sp|P41615|PSBE_PINTH Cytochrome b559 subunit alpha OS=Pinus thunbergii 
+OX=3350 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 142 bits (359),  Expect = 9e-44, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 69/83 (83%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PLVT RF+  +Q++ F    
+Sbjct  61  QEVPLVTGRFDPLEQLDEFTRSF  83
+
+
+> sp|P59703|PSBE_PINKO Cytochrome b559 subunit alpha OS=Pinus koraiensis 
+OX=88728 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 142 bits (359),  Expect = 9e-44, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 69/83 (83%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PLVT RF+  +Q++ F    
+Sbjct  61  QEVPLVTGRFDPLEQLDEFTRSF  83
+
+
+> sp|P69386|PSBE_WHEAT Cytochrome b559 subunit alpha OS=Triticum 
+aestivum OX=4565 GN=psbE PE=1 SV=2
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|A1E9U1|PSBE_SORBI Cytochrome b559 subunit alpha OS=Sorghum 
+bicolor OX=4558 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|P69387|PSBE_SECCE Cytochrome b559 subunit alpha OS=Secale 
+cereale OX=4550 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|Q6ENU7|PSBE_SACOF Cytochrome b559 subunit alpha OS=Saccharum 
+officinarum OX=4547 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|Q6L383|PSBE_SACHY Cytochrome b559 subunit alpha OS=Saccharum 
+hybrid OX=15819 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|P0C370|PSBE_ORYSJ Cytochrome b559 subunit alpha OS=Oryza sativa 
+subsp. japonica OX=39947 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|P0C369|PSBE_ORYSI Cytochrome b559 subunit alpha OS=Oryza sativa 
+subsp. indica OX=39946 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|P0C368|PSBE_ORYSA Cytochrome b559 subunit alpha OS=Oryza sativa 
+OX=4530 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|Q6ENF6|PSBE_ORYNI Cytochrome b559 subunit alpha OS=Oryza nivara 
+OX=4536 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|P69388|PSBE_MAIZE Cytochrome b559 subunit alpha OS=Zea mays 
+OX=4577 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|P69390|PSBE_HORVU Cytochrome b559 subunit alpha OS=Hordeum 
+vulgare OX=4513 GN=psbE PE=1 SV=2
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|A1EA25|PSBE_AGRST Cytochrome b559 subunit alpha OS=Agrostis 
+stolonifera OX=63632 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/83 (66%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+TDRF++ +Q++ F    
+Sbjct  61  QGIPLITDRFDSLEQLDEFSRSF  83
+
+
+> sp|Q9THZ3|PSBE_GINBI Cytochrome b559 subunit alpha OS=Ginkgo 
+biloba OX=3311 GN=psbE PE=2 SV=4
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 53/83 (64%), Positives = 69/83 (83%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+   +
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTDSR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + +PL+T RF++ +Q++ F    
+Sbjct  61  QEVPLITGRFDSLEQLDEFTRSF  83
+
+
+> sp|B2J6T0|PSBE_NOSP7 Cytochrome b559 subunit alpha OS=Nostoc 
+punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 GN=psbE 
+PE=3 SV=1
+Length=82
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 62/80 (78%), Positives = 72/80 (90%), Gaps = 0/80 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYD FGTPRP+ Y+   +
+Sbjct  1   MSGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDAFGTPRPNEYFTPAR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFL  80
+           + +P+V +RFEAK+QVE F+
+Sbjct  61  QEVPIVKNRFEAKKQVEQFI  80
+
+
+> sp|P36442|PSBE_MESCR Cytochrome b559 subunit alpha OS=Mesembryanthemum 
+crystallinum OX=3544 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 142 bits (358),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 72/83 (87%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F +  
+Sbjct  61  QGIPLITGRFDSLEQLDEFSKSF  83
+
+
+> sp|Q1KVR5|PSBE_TETOB Cytochrome b559 subunit alpha OS=Tetradesmus 
+obliquus OX=3088 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 141 bits (357),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 57/81 (70%), Positives = 69/81 (85%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG   ERPFSDI+TS+RYWVIHSITIPALFIAGWLFVSTGLAYDVFG+PRP+ Y+ +++
+Sbjct  1   MAGKPVERPFSDILTSIRYWVIHSITIPALFIAGWLFVSTGLAYDVFGSPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           +  PLVTDRF A +QV+   +
+Sbjct  61  QDAPLVTDRFNALEQVKKLSQ  81
+
+
+> sp|Q332W1|PSBE_LACSA Cytochrome b559 subunit alpha OS=Lactuca 
+sativa OX=4236 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 141 bits (356),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|Q1KXU2|PSBE_HELAN Cytochrome b559 subunit alpha OS=Helianthus 
+annuus OX=4232 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 141 bits (356),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|Q5N556|PSBE_SYNP6 Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) OX=269084 
+GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 141 bits (356),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 58/79 (73%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPF+DIITS+RYWVIHSITIPALFIAGWLFVSTGLAYD FGTPRP+ Y+ Q++ 
+Sbjct  3   GGSTGERPFTDIITSIRYWVIHSITIPALFIAGWLFVSTGLAYDAFGTPRPNEYFTQDRT  62
+
+Query  62  SIPLVTDRFEAKQQVETFL  80
+            +P+V+DR+ AKQQV+ F 
+Sbjct  63  EVPIVSDRYSAKQQVDRFS  81
+
+
+> sp|Q8KPP3|PSBE_SYNE7 Cytochrome b559 subunit alpha OS=Synechococcus 
+elongatus (strain PCC 7942) OX=1140 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 141 bits (356),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 58/79 (73%), Positives = 70/79 (89%), Gaps = 0/79 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            G+TGERPF+DIITS+RYWVIHSITIPALFIAGWLFVSTGLAYD FGTPRP+ Y+ Q++ 
+Sbjct  3   GGSTGERPFTDIITSIRYWVIHSITIPALFIAGWLFVSTGLAYDAFGTPRPNEYFTQDRT  62
+
+Query  62  SIPLVTDRFEAKQQVETFL  80
+            +P+V+DR+ AKQQV+ F 
+Sbjct  63  EVPIVSDRYSAKQQVDRFS  81
+
+
+> sp|Q68RY9|PSBE_PANGI Cytochrome b559 subunit alpha OS=Panax ginseng 
+OX=4054 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 141 bits (355),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 69/83 (83%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|P69383|PSBE_SPIOL Cytochrome b559 subunit alpha OS=Spinacia 
+oleracea OX=3562 GN=psbE PE=1 SV=2
+Length=83
+
+ Score = 141 bits (355),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|Q9MTK5|PSBE_OENEH Cytochrome b559 subunit alpha OS=Oenothera 
+elata subsp. hookeri OX=85636 GN=psbE PE=3 SV=4
+Length=83
+
+ Score = 141 bits (355),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|Q2L925|PSBE_GOSHI Cytochrome b559 subunit alpha OS=Gossypium 
+hirsutum OX=3635 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 141 bits (355),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|A0ZZ52|PSBE_GOSBA Cytochrome b559 subunit alpha OS=Gossypium 
+barbadense OX=3634 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 141 bits (355),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|Q4VZH5|PSBE_CUCSA Cytochrome b559 subunit alpha OS=Cucumis 
+sativus OX=3659 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 141 bits (355),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|P69382|PSBE_BETVU Cytochrome b559 subunit alpha OS=Beta vulgaris 
+OX=161934 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 141 bits (355),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|P59702|PSBE_ATRBE Cytochrome b559 subunit alpha OS=Atropa 
+belladonna OX=33113 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 141 bits (355),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|P56779|PSBE_ARATH Cytochrome b559 subunit alpha OS=Arabidopsis 
+thaliana OX=3702 GN=psbE PE=1 SV=4
+Length=83
+
+ Score = 141 bits (355),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|Q70XY9|PSBE_AMBTC Cytochrome b559 subunit alpha OS=Amborella 
+trichopoda OX=13333 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 141 bits (355),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|B7KH62|PSBE_CYAP7 Cytochrome b559 subunit alpha OS=Cyanothece 
+sp. (strain PCC 7424) OX=65393 GN=psbE PE=3 SV=1
+Length=81
+
+ Score = 141 bits (355),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 58/81 (72%), Positives = 70/81 (86%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDI+TS+RYWVIHSITIP LF+AGWLFVSTGLAYDVFGTPRPD YY QE+
+Sbjct  1   MSGTTGERPFSDIVTSIRYWVIHSITIPMLFVAGWLFVSTGLAYDVFGTPRPDEYYTQER  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+             +P++ DR+   QQ++ F +
+Sbjct  61  LELPILKDRYNTDQQIQEFNK  81
+
+
+> sp|Q20EW2|PSBE_OLTVI Cytochrome b559 subunit alpha OS=Oltmannsiellopsis 
+viridis OX=51324 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 141 bits (355),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 58/81 (72%), Positives = 73/81 (90%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDI+TS+RYWVIHSIT+P+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ +++
+Sbjct  1   MSGTTGERPFSDILTSIRYWVIHSITVPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTEDR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           +  PL+TDRFEA  QV++  E
+Sbjct  61  QETPLITDRFEALSQVKSQSE  81
+
+
+> sp|P05333|PSBE_EUGGR Cytochrome b559 subunit alpha OS=Euglena 
+gracilis OX=3039 GN=psbE PE=3 SV=3
+Length=81
+
+ Score = 140 bits (354),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 51/81 (63%), Positives = 69/81 (85%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG+TGERPFSDIITS+RYWVIHS+TIP+LF+ GW+FVSTG+ YD+FGTPRP  Y+ + +
+Sbjct  1   MAGSTGERPFSDIITSIRYWVIHSVTIPSLFVGGWIFVSTGIVYDIFGTPRPSEYFTETR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           +  PL++DRF A +Q++ F +
+Sbjct  61  QQAPLISDRFNALEQMDQFTK  81
+
+
+> sp|Q8RSW3|PSBE_SYNP2 Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain ATCC 27264 / PCC 7002 / PR-6) OX=32049 GN=psbE 
+PE=3 SV=1
+Length=81
+
+ Score = 140 bits (354),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 58/79 (73%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAG+TGERPFSDI+TS+RYWVIHSITIP LFIAGWLFVSTGLAYD FGTPRPD Y+ + +
+Sbjct  1   MAGSTGERPFSDIVTSIRYWVIHSITIPMLFIAGWLFVSTGLAYDTFGTPRPDQYFTETR  60
+
+Query  61  RSIPLVTDRFEAKQQVETF  79
+           + IP+VTDR++A  Q+  F
+Sbjct  61  QEIPIVTDRYKAIDQINEF  79
+
+
+> sp|Q0G9U5|PSBE_DAUCA Cytochrome b559 subunit alpha OS=Daucus 
+carota OX=4039 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (354),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|A7M969|PSBE_CUSRE Cytochrome b559 subunit alpha OS=Cuscuta 
+reflexa OX=4129 GN=psbE PE=2 SV=2
+Length=83
+
+ Score = 140 bits (354),  Expect = 5e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 69/83 (83%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q+  F    
+Sbjct  61  QGIPLITGRFDSLEQLNEFSRSF  83
+
+
+> sp|Q09MG1|PSBE_CITSI Cytochrome b559 subunit alpha OS=Citrus 
+sinensis OX=2711 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (353),  Expect = 7e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q+  F    
+Sbjct  61  QGIPLITGRFDSLEQLNEFSRSF  83
+
+
+> sp|P13554|PSBE_PEA Cytochrome b559 subunit alpha OS=Pisum sativum 
+OX=3888 GN=psbE PE=1 SV=3
+Length=83
+
+ Score = 140 bits (352),  Expect = 8e-43, Method: Composition-based stats.
+ Identities = 53/83 (64%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYW+IHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWIIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTETR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|Q0ZJ03|PSBE_VITVI Cytochrome b559 subunit alpha OS=Vitis vinifera 
+OX=29760 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|P69384|PSBE_TOBAC Cytochrome b559 subunit alpha OS=Nicotiana 
+tabacum OX=4097 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q2VEG1|PSBE_SOLTU Cytochrome b559 subunit alpha OS=Solanum 
+tuberosum OX=4113 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q2MI83|PSBE_SOLLC Cytochrome b559 subunit alpha OS=Solanum 
+lycopersicum OX=4081 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q2MIH0|PSBE_SOLBU Cytochrome b559 subunit alpha OS=Solanum 
+bulbocastanum OX=147425 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|P69385|PSBE_POPDE Cytochrome b559 subunit alpha OS=Populus 
+deltoides OX=3696 GN=psbE PE=3 SV=2
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q14FE0|PSBE_POPAL Cytochrome b559 subunit alpha OS=Populus 
+alba OX=43335 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q06GP3|PSBE_PIPCE Cytochrome b559 subunit alpha OS=Piper cenocladum 
+OX=398741 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q06FK9|PSBE_PELHO Cytochrome b559 subunit alpha OS=Pelargonium 
+hortorum OX=4031 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q76IC3|PSBE_NICTO Cytochrome b559 subunit alpha OS=Nicotiana 
+tomentosiformis OX=4098 GN=psbE PE=3 SV=4
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q3C1L3|PSBE_NICSY Cytochrome b559 subunit alpha OS=Nicotiana 
+sylvestris OX=4096 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q09X00|PSBE_MORIN Cytochrome b559 subunit alpha OS=Morus indica 
+OX=248361 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q06RB5|PSBE_JASNU Cytochrome b559 subunit alpha OS=Jasminum 
+nudiflorum OX=126431 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q49KY2|PSBE_EUCGG Cytochrome b559 subunit alpha OS=Eucalyptus 
+globulus subsp. globulus OX=71271 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q06GY0|PSBE_DRIGR Cytochrome b559 subunit alpha OS=Drimys 
+granadensis OX=224735 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|A0A352|PSBE_COFAR Cytochrome b559 subunit alpha OS=Coffea 
+arabica OX=13443 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 140 bits (352),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q2PMR7|PSBE_SOYBN Cytochrome b559 subunit alpha OS=Glycine 
+max OX=3847 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 139 bits (351),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 53/83 (64%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYW+IHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWIIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q9BBR5|PSBE_LOTJA Cytochrome b559 subunit alpha OS=Lotus japonicus 
+OX=34305 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 139 bits (351),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 53/83 (64%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYW+IHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWIIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+  +Q++ F    
+Sbjct  61  QGIPLITGRFDPLEQLDEFSRSF  83
+
+
+> sp|Q3V518|PSBE_ACOCL Cytochrome b559 subunit alpha OS=Acorus 
+calamus OX=4465 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 139 bits (350),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 69/83 (83%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+   Q++ F    
+Sbjct  61  QGIPLITGRFDPLDQLDEFSRSF  83
+
+
+> sp|Q0G9K2|PSBE_LIRTU Cytochrome b559 subunit alpha OS=Liriodendron 
+tulipifera OX=3415 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 139 bits (350),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 69/83 (83%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+   Q++ F    
+Sbjct  61  QGIPLITGRFDPLAQLDEFSRSF  83
+
+
+> sp|Q7YJV8|PSBE_CALFG Cytochrome b559 subunit alpha OS=Calycanthus 
+floridus var. glaucus OX=212734 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 139 bits (350),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 69/83 (83%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF+   Q++ F    
+Sbjct  61  QGIPLITGRFDPLAQLDEFSRSF  83
+
+
+> sp|Q3BAM3|PSBE_PHAAO Cytochrome b559 subunit alpha OS=Phalaenopsis 
+aphrodite subsp. formosana OX=308872 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 138 bits (349),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 54/83 (65%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDKFSNPF  83
+
+
+> sp|P05170|PSBE_OENBE Cytochrome b559 subunit alpha OS=Oenothera 
+berteroana OX=3950 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 138 bits (348),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 53/83 (64%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TG R F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGGRSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|Q6EW36|PSBE_NYMAL Cytochrome b559 subunit alpha OS=Nymphaea 
+alba OX=34301 GN=psbE PE=3 SV=3
+Length=83
+
+ Score = 138 bits (348),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 53/83 (64%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G+TGER F+DIITS+RYWVIHSITIP+LFIAGW FVSTGLAYDVFG+PRP+ Y+ + +
+Sbjct  1   MSGSTGERAFADIITSIRYWVIHSITIPSLFIAGWSFVSTGLAYDVFGSPRPNEYFTESR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLEQL  83
+           + IPL+T RF++ +Q++ F    
+Sbjct  61  QGIPLITGRFDSLEQLDEFSRSF  83
+
+
+> sp|P09190|PSBE_SYNY3 Cytochrome b559 subunit alpha OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=psbE PE=1 
+SV=3
+Length=81
+
+ Score = 137 bits (346),  Expect = 6e-42, Method: Composition-based stats.
+ Identities = 54/81 (67%), Positives = 70/81 (86%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+GTTGERPFSDI+TS+RYWVIHSITIP LFIAGWLFVSTGLAYD FGTPRPD Y+ Q +
+Sbjct  1   MSGTTGERPFSDIVTSIRYWVIHSITIPMLFIAGWLFVSTGLAYDAFGTPRPDEYFTQTR  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           + +P++ +R++  Q+++ F +
+Sbjct  61  QELPILQERYDINQEIQEFNQ  81
+
+
+> sp|Q8MAV7|PSBE_CUSGR Cytochrome b559 subunit alpha OS=Cuscuta 
+gronovii OX=35886 GN=psbE PE=2 SV=4
+Length=84
+
+ Score = 136 bits (342),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 55/81 (68%), Positives = 67/81 (83%), Gaps = 0/81 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           M+G TGER F+DIITS+RYWVIHSITIP+LFIAGWLFVSTGLAYDVFG+PRP+ Y+ + Q
+Sbjct  1   MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTENQ  60
+
+Query  61  RSIPLVTDRFEAKQQVETFLE  81
+           + IPL+T RFE  ++   F  
+Sbjct  61  QGIPLITGRFEPLEEQNEFSR  81
+
+
+> sp|A5GQF4|PSBE_SYNR3 Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain RCC307) OX=316278 GN=psbE PE=3 SV=1
+Length=83
+
+ Score = 133 bits (334),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 51/81 (63%), Positives = 67/81 (83%), Gaps = 0/81 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH++T+PA+F+AG+LFVSTGLAYD FGTPRPDSY+     
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHAVTLPAIFLAGFLFVSTGLAYDAFGTPRPDSYFQAADV  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQ  82
+             P+V+ R+E K Q++T L+ 
+Sbjct  63  KAPVVSQRYEGKSQLDTRLKN  83
+
+
+> sp|A5GIB0|PSBE_SYNPW Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain WH7803) OX=32051 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 133 bits (334),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 49/80 (61%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH+IT+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHAITLPSIFLAGFLFVSTGLAYDAFGTPRPDAYFQATES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+E K Q++  L+
+Sbjct  63  KAPVVSQRYEGKSQLDDRLQ  82
+
+
+> sp|Q0IDJ7|PSBE_SYNS3 Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain CC9311) OX=64471 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 131 bits (331),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 48/80 (60%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH+IT+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHAITLPSIFLAGFLFVSTGLAYDAFGTPRPDAYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+E K +++  L+
+Sbjct  63  KAPVVSQRYEGKSELDLRLK  82
+
+
+> sp|Q3AN56|PSBE_SYNSC Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain CC9605) OX=110662 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 131 bits (330),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 47/80 (59%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH++T+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHAVTLPSIFLAGFLFVSTGLAYDAFGTPRPDAYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+E K +++  L+
+Sbjct  63  KAPVVSQRYEGKSELDIRLK  82
+
+
+> sp|Q3B0C6|PSBE_SYNS9 Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain CC9902) OX=316279 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 131 bits (330),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 47/80 (59%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH++T+P++F+AG+LFV+TGLAYD FGTPRPD+Y+     
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHAVTLPSIFLAGFLFVNTGLAYDAFGTPRPDAYFQATDT  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+E K Q++  L+
+Sbjct  63  KAPVVSQRYEGKAQLDVRLK  82
+
+
+> sp|A9BDU4|PSBE_PROM4 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9211) OX=93059 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 131 bits (330),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 51/80 (64%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITSVRYW+IH++T+PA+FIAG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSVRYWIIHAVTLPAIFIAGFLFVSTGLAYDAFGTPRPDTYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ RFE+K Q++  L+
+Sbjct  63  KAPVVSQRFESKAQLDLRLK  82
+
+
+> sp|Q7VDP0|PSBE_PROMA Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain SARG / CCMP1375 / SS120) OX=167539 
+GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 131 bits (329),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 51/80 (64%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITSVRYW+IH++T+PA+FIAG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSVRYWIIHAVTLPAIFIAGFLFVSTGLAYDAFGTPRPDTYFQASET  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ RFE+K Q++  L+
+Sbjct  63  KAPVVSQRFESKAQLDLRLK  82
+
+
+> sp|Q7V4Q2|PSBE_PROMM Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9313) OX=74547 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 131 bits (329),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 48/80 (60%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +I+TS+RYWVIH++T+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIVTSIRYWVIHAVTLPSIFLAGYLFVSTGLAYDTFGTPRPDAYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+EAK Q++  L+
+Sbjct  63  KAPVVSQRYEAKSQLDLRLQ  82
+
+
+> sp|A2CCQ0|PSBE_PROM3 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9303) OX=59922 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 131 bits (329),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 48/80 (60%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +I+TS+RYWVIH++T+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIVTSIRYWVIHAVTLPSIFLAGYLFVSTGLAYDTFGTPRPDAYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+EAK Q++  L+
+Sbjct  63  KAPVVSQRYEAKSQLDLRLQ  82
+
+
+> sp|Q7V300|PSBE_PROMP Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus subsp. pastoris (strain CCMP1986 / NIES-2087 
+/ MED4) OX=59919 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 130 bits (328),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 49/80 (61%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  5   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQASES  64
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+VT R++AK Q++   +
+Sbjct  65  KAPVVTQRYDAKSQLDLRTK  84
+
+
+> sp|A2BP97|PSBE_PROMS Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain AS9601) OX=146891 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 130 bits (328),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 50/80 (63%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  5   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQSSES  64
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+VT R+EAK Q++   +
+Sbjct  65  KAPVVTQRYEAKSQLDLRTK  84
+
+
+> sp|Q31CN5|PSBE_PROM9 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9312) OX=74546 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 130 bits (328),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 50/80 (63%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  5   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQSSES  64
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+VT R+EAK Q++   +
+Sbjct  65  KAPVVTQRYEAKSQLDLRTK  84
+
+
+> sp|A8G2V8|PSBE_PROM2 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9215) OX=93060 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 130 bits (328),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 50/80 (63%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  5   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQSSES  64
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+VT R+EAK Q++   +
+Sbjct  65  KAPVVTQRYEAKSQLDLRTK  84
+
+
+> sp|A3PB19|PSBE_PROM0 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9301) OX=167546 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 130 bits (328),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 50/80 (63%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  5   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQSSES  64
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+VT R+EAK Q++   +
+Sbjct  65  KAPVVTQRYEAKSQLDLRTK  84
+
+
+> sp|A2BUS8|PSBE_PROM5 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain MIT 9515) OX=167542 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 130 bits (328),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 49/80 (61%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYW+IH++T+PA+FIAG+LFV TGLAYD FGTPRPDSY+   + 
+Sbjct  3   AGSTGERPFFEIITSIRYWIIHAVTLPAIFIAGFLFVYTGLAYDAFGTPRPDSYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+VT R++AK Q++   +
+Sbjct  63  KAPVVTQRYDAKSQLDLRTK  82
+
+
+> sp|Q06J11|PSBE_BIGNA Cytochrome b559 subunit alpha OS=Bigelowiella 
+natans OX=227086 GN=psbE PE=3 SV=1
+Length=73
+
+ Score = 129 bits (325),  Expect = 7e-39, Method: Composition-based stats.
+ Identities = 53/70 (76%), Positives = 64/70 (91%), Gaps = 0/70 (0%)
+
+Query  1   MAGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQ  60
+           MAGTTGERPFSDI+TS+RYW+IHSIT+P+LFIAGWLFVSTGLAYDVFG+PRP+ Y++  Q
+Sbjct  1   MAGTTGERPFSDILTSIRYWIIHSITVPSLFIAGWLFVSTGLAYDVFGSPRPNEYFSNGQ  60
+
+Query  61  RSIPLVTDRF  70
+           +  P+V DRF
+Sbjct  61  QEAPIVLDRF  70
+
+
+> sp|P19152|PSBE_CYAPA Cytochrome b559 subunit alpha OS=Cyanophora 
+paradoxa OX=2762 GN=psbE PE=3 SV=4
+Length=74
+
+ Score = 129 bits (325),  Expect = 9e-39, Method: Composition-based stats.
+ Identities = 50/71 (70%), Positives = 63/71 (89%), Gaps = 0/71 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+            GTTGERPFSDI+TS+RYWVIH++TIP+LF+AGWLFVSTGLAYDVFGTPRPD Y+ +E++
+Sbjct  3   GGTTGERPFSDIVTSIRYWVIHTVTIPSLFVAGWLFVSTGLAYDVFGTPRPDEYFTEERQ  62
+
+Query  62  SIPLVTDRFEA  72
+            +P++  RF  
+Sbjct  63  EVPIINQRFST  73
+
+
+> sp|Q7U9P9|PSBE_SYNPX Cytochrome b559 subunit alpha OS=Synechococcus 
+sp. (strain WH8102) OX=84588 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 129 bits (324),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 47/80 (59%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITS+RYWVIH +T+P++F+AG+LFVSTGLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSIRYWVIHFVTLPSIFLAGFLFVSTGLAYDAFGTPRPDAYFQASES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V+ R+E K +++  L+
+Sbjct  63  KAPVVSQRYEGKSELDVRLK  82
+
+
+> sp|Q46H81|PSBE_PROMT Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain NATL2A) OX=59920 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 127 bits (319),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 47/80 (59%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITSVRYW+IH++ +PA+F+AG+LFVS+GLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSVRYWIIHAVALPAIFVAGFLFVSSGLAYDAFGTPRPDTYFQAGES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V  RF++K +++T L+
+Sbjct  63  KAPVVVQRFDSKAELDTRLK  82
+
+
+> sp|A2C0D1|PSBE_PROM1 Cytochrome b559 subunit alpha OS=Prochlorococcus 
+marinus (strain NATL1A) OX=167555 GN=psbE PE=3 SV=1
+Length=82
+
+ Score = 127 bits (319),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 47/80 (59%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           AG+TGERPF +IITSVRYW+IH++ +PA+F+AG+LFVS+GLAYD FGTPRPD+Y+   + 
+Sbjct  3   AGSTGERPFFEIITSVRYWIIHAVALPAIFVAGFLFVSSGLAYDAFGTPRPDTYFQAGES  62
+
+Query  62  SIPLVTDRFEAKQQVETFLE  81
+             P+V  RF++K +++T L+
+Sbjct  63  KAPVVVQRFDSKAELDTRLK  82
+
+
+> sp|Q7NMB0|PSBE_GLOVI Cytochrome b559 subunit alpha OS=Gloeobacter 
+violaceus (strain PCC 7421) OX=251221 GN=psbE PE=3 SV=1
+Length=84
+
+ Score = 122 bits (307),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 49/81 (60%), Positives = 59/81 (73%), Gaps = 0/81 (0%)
+
+Query  2   AGTTGERPFSDIITSVRYWVIHSITIPALFIAGWLFVSTGLAYDVFGTPRPDSYYAQEQR  61
+           + +TGERPF+DIITS RYW+IH   I  LF +G+LFV TGLAYDVFGTPRPD YY  +  
+Sbjct  3   SRSTGERPFTDIITSTRYWIIHIPAITILFASGFLFVYTGLAYDVFGTPRPDEYYNSDNT  62
+
+Query  62  SIPLVTDRFEAKQQVETFLEQ  82
+             PLV  RFEAKQQ++   + 
+Sbjct  63  KKPLVNKRFEAKQQLDEATKN  83
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.152    0.504    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0464    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4901779491
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

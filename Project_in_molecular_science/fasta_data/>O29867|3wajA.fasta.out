@@ -1,0 +1,2645 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= O29867|3wajA
+
+Length=868
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|D4GYH4|AGLB_HALVD Dolichyl-monophosphooligosaccharide--prote...  196     2e-50
+  sp|Q3TDQ1|STT3B_MOUSE Dolichyl-diphosphooligosaccharide--protei...  55.1    2e-06
+  sp|Q8TCJ2|STT3B_HUMAN Dolichyl-diphosphooligosaccharide--protei...  55.1    2e-06
+  sp|E2RG47|STT3B_CANLF Dolichyl-diphosphooligosaccharide--protei...  55.1    3e-06
+  sp|P46975|STT3_CAEEL Dolichyl-diphosphooligosaccharide--protein...  53.5    7e-06
+  sp|P39007|STT3_YEAST Dolichyl-diphosphooligosaccharide--protein...  52.8    1e-05
+  sp|O94335|STT3_SCHPO Dolichyl-diphosphooligosaccharide--protein...  50.8    5e-05
+  sp|Q6F2Z1|STT3A_ORYSJ Dolichyl-diphosphooligosaccharide--protei...  44.3    0.006
+
+
+> sp|D4GYH4|AGLB_HALVD Dolichyl-monophosphooligosaccharide--protein 
+glycotransferase AglB OS=Haloferax volcanii (strain ATCC 
+29605 / DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM 
+B-1768 / DS2) OX=309800 GN=aglB PE=1 SV=1
+Length=1054
+
+ Score = 196 bits (498),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 242/964 (25%), Positives = 400/964 (41%), Gaps = 187/964 (19%)
+
+Query  9    KKYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRIWF  68
+            + ++H+ VL    L+ + +R+ +    +   TV   GND WY+ R +E T+ N+P  + F
+Sbjct  17   RDWYHIPVLSTIILVMLWIRLRSYDAFIREGTVFFSGNDAWYHLRQVEYTVRNWPATMPF  76
+
+Query  69   DPFTYYPYG-SYTHFGPFLVYLGSIAGII--FSATSGESLRAVLAFIPAIGGVLAILPVY  125
+            DP+T +P+G +   FG     L + A ++    + S + +   L   PA+ G L ++P Y
+Sbjct  77   DPWTEFPFGRTAGQFGTIYDQLVATAALVVGLGSPSSDLVAKSLLVAPAVFGALTVIPTY  136
+
+Query  126  LLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQ---VSALGTFLLAYN  182
+            L+ + +  +   +  A ++ ++PG FLQR ++GF DH+I E F+    V A+   L   +
+Sbjct  137  LIGKRLGGRLGGLFGAVILMLLPGTFLQRGLVGFADHNIVEPFFMGFAVLAIMIALTVAD  196
+
+Query  183  RWK-------GHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVL  235
+            R K         DL  +     + + V+AG+   +Y+ SW  G ++  I   F+      
+Sbjct  197  REKPVWELVAARDL--DALREPLKWSVLAGVATAIYMWSWPPGILLVGIFGLFLVLKMAS  254
+
+Query  236  AGFVNADRKNLSLVAVVTFAVSALI-YLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAF  294
+                    ++ + V  ++  V+ L+ ++P     PGF    +   Q L  LG A+ A   
+Sbjct  255  DYVRGRSPEHTAFVGAISMTVTGLLMFIP--IEEPGFGVTDFGFLQPLFSLGVALGAVFL  312
+
+Query  295  YQIEKW---NDVGFFER-----VGLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVV  346
+              + +W   NDV   ER     VG    G  L  IVL +L++   F      ARN L   
+Sbjct  313  AALARWWESNDVD--ERYYPAVVG----GTMLVGIVLFSLVLPSVF---DSIARNFL---  360
+
+Query  347  RVVQPKGGAL--TIAEVYPFF----FTHNGEFTLTNAVLHFGALFFFG-MAGILYSAYRF  399
+            R V    GA   TI+E  PF        NG+  +   +  +G  FF G +A +   A   
+Sbjct  361  RTVGFSAGAATRTISEAQPFLAANVLQSNGQTAVGRIMSEYGFTFFTGALAAVWLVAKPL  420
+
+Query  400  LKRRSFPEM----------------------------------------ALLIWAIA---  416
+            +K  +  ++                                        AL++ A+    
+Sbjct  421  VKGGNSRKIGYAVGSLALIGVLFLIPALPAGIGSALGVEPSLVSLTIVTALIVGAVMQAD  480
+
+Query  417  -----MFIALWG---------QNRFAYYFAAVSAVYSAL----ALSVVFDKLHLYRALEN  458
+                 +F+ +W          Q RF YY A V AV +A     AL + F  L      ++
+Sbjct  481  YESERLFVLVWAAIITSAAFTQVRFNYYLAVVVAVMNAYLLREALGIDFVGLANVERFDD  540
+
+Query  459  AIGARNKLSYFRVAFALLIALAAIYPTYIL-----------ADAQSSYAG-GPNKQWYDA  506
+                   +SY +VA  ++  L  + P  I+              Q+S  G G   QW  +
+Sbjct  541  -------ISYGQVAAVVIAVLLILTPVLIIPIQLGNGGVSQTAMQASQTGPGTVTQWDGS  593
+
+Query  507  LTWMRENTP-DGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMP  565
+            LTWM+ NTP +GE   E     Y       + F YP   YGV+SWWDYGHWI  +  R+P
+Sbjct  594  LTWMQNNTPAEGEFGGESNRMEYYGTYEYTDDFDYPDGAYGVMSWWDYGHWITVLGERIP  653
+
+Query  566  IANPFQAGIGNKYNNVPGASSFFTAENESYAEFV-------AEKLNVKYVVSDIEMET--  616
+             ANPFQ G          A+++  AE+E  AE V        E    +YV+ D +M +  
+Sbjct  654  NANPFQGGATE-------AANYLLAEDEQQAESVLTSMGDDGEGDQTRYVMVDWQMASTD  706
+
+Query  617  GKYYAMAV-WAEGDLPLAEKYYGGYFYYSPTGTFGYANSQWDIPLNSIIIPLRIPSELYY  675
+             K+ A  V + E ++  ++       +Y+P         Q  +   S +   R     YY
+Sbjct  707  AKFSAPTVFYDESNISRSD-------FYNPMFRLQEQGEQTTVAAASSLKDQR-----YY  754
+
+Query  676  STMEAKLHLFDGSGLSHYRMIYESDYPAEWKSYSSQVNLNNESQVLQTALYEAVMRARYG  735
+             ++  +L+ + GS      ++ + +        ++     ++ Q ++T    +       
+Sbjct  755  ESLMVRLYAYHGSAREASPIVVDWEERTSADGSTTFRVTPSDGQAVRTFDNMSAAEEYVA  814
+
+Query  736  VSPT-----MGT--QEVLYKYAYTQL-------------YEKKM-------GI-PVKIAP  767
+              PT     +GT  +E +    + +L             Y++ +       G+ P  + P
+Sbjct  815  NDPTSQIGGIGTFPEERVSALEHYRLVKSSNSSALRSGSYQRSLISEGNTYGLQPQALVP  874
+
+Query  768  S--GYVKIFERVKGAVVTGKVSANVTEVSVNATIKTNQNRT-FEYWQTVEVK-NGTYTVV  823
+            +   +VK FERV GA V G  +   T V+    ++     T F Y Q  +   +G +T+ 
+Sbjct  875  NNPAWVKTFERVPGATVDGSGAPANTTVTARVQMRDLTTGTNFTYTQQAQTDADGEFTMT  934
+
+Query  824  LPYS  827
+            LPYS
+Sbjct  935  LPYS  938
+
+
+> sp|Q3TDQ1|STT3B_MOUSE Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Mus musculus OX=10090 
+GN=Stt3b PE=1 SV=2
+Length=823
+
+ Score = 55.1 bits (131),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 41/122 (34%), Positives = 65/122 (53%), Gaps = 8/122 (7%)
+
+Query  47   DPWYYYRLIEN-TIHNFPHRI-WFDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATS  101
+            DPW+ YR   +   H F   + WFD   +YP G     T +   ++  G I  I+ +   
+Sbjct  100  DPWFNYRSTHHLASHGFYEFLNWFDERAWYPLGRIVGGTVYPGLMITAGLIHWILNTLNI  159
+
+Query  102  GESLRAVLAFI-PAIGGVLAILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFN  160
+               +R V  F+ P   G+ +I   +LLTRE++++ A ++AA  IAIVPG ++ RS+ G  
+Sbjct  160  TVHIRDVCVFLAPTFSGLTSI-STFLLTRELWNQGAGLLAACFIAIVPG-YISRSVAGSF  217
+
+Query  161  DH  162
+            D+
+Sbjct  218  DN  219
+
+
+> sp|Q8TCJ2|STT3B_HUMAN Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Homo sapiens OX=9606 
+GN=STT3B PE=1 SV=1
+Length=826
+
+ Score = 55.1 bits (131),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 41/122 (34%), Positives = 65/122 (53%), Gaps = 8/122 (7%)
+
+Query  47   DPWYYYRLIEN-TIHNFPHRI-WFDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATS  101
+            DPW+ YR   +   H F   + WFD   +YP G     T +   ++  G I  I+ +   
+Sbjct  103  DPWFNYRSTHHLASHGFYEFLNWFDERAWYPLGRIVGGTVYPGLMITAGLIHWILNTLNI  162
+
+Query  102  GESLRAVLAFI-PAIGGVLAILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFN  160
+               +R V  F+ P   G+ +I   +LLTRE++++ A ++AA  IAIVPG ++ RS+ G  
+Sbjct  163  TVHIRDVCVFLAPTFSGLTSI-STFLLTRELWNQGAGLLAACFIAIVPG-YISRSVAGSF  220
+
+Query  161  DH  162
+            D+
+Sbjct  221  DN  222
+
+
+> sp|E2RG47|STT3B_CANLF Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Canis lupus familiaris 
+OX=9615 GN=STT3B PE=1 SV=1
+Length=826
+
+ Score = 55.1 bits (131),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 41/122 (34%), Positives = 65/122 (53%), Gaps = 8/122 (7%)
+
+Query  47   DPWYYYRLIEN-TIHNFPHRI-WFDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATS  101
+            DPW+ YR   +   H F   + WFD   +YP G     T +   ++  G I  I+ +   
+Sbjct  103  DPWFNYRSTHHLASHGFYEFLNWFDERAWYPLGRIVGGTVYPGLMITAGLIHWILNTLNI  162
+
+Query  102  GESLRAVLAFI-PAIGGVLAILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFN  160
+               +R V  F+ P   G+ +I   +LLTRE++++ A ++AA  IAIVPG ++ RS+ G  
+Sbjct  163  TVHIRDVCVFLAPTFSGLTSI-STFLLTRELWNQGAGLLAACFIAIVPG-YISRSVAGSF  220
+
+Query  161  DH  162
+            D+
+Sbjct  221  DN  222
+
+
+> sp|P46975|STT3_CAEEL Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit stt-3 OS=Caenorhabditis elegans 
+OX=6239 GN=stt-3 PE=1 SV=1
+Length=757
+
+ Score = 53.5 bits (127),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 41/123 (33%), Positives = 61/123 (50%), Gaps = 8/123 (7%)
+
+Query  47   DPWYYYRLIENTIHNFPHRI--WFDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATS  101
+            DPW+ YR   + + +  ++   WFD   +YP G     T +   +V  G I  I+ S   
+Sbjct  51   DPWFNYRATHHMVQHGFYKFLNWFDERAWYPLGRIVGGTVYPGLMVTSGLIHWILDSLNF  110
+
+Query  102  GESLRAVLAFI-PAIGGVLAILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFN  160
+               +R V  F+ P   G+ AI   YLLT+E++   A + AA  IAI PG +  RS+ G  
+Sbjct  111  HVHIREVCVFLAPTFSGLTAI-ATYLLTKELWSPGAGLFAACFIAISPG-YTSRSVAGSY  168
+
+Query  161  DHH  163
+            D+ 
+Sbjct  169  DNE  171
+
+
+> sp|P39007|STT3_YEAST Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=STT3 PE=1 SV=2
+Length=718
+
+ Score = 52.8 bits (125),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 42/127 (33%), Positives = 61/127 (48%), Gaps = 15/127 (12%)
+
+Query  47   DPWYYYR----LIENTIHNFPHRIWFDPFTYYPYGSYTHFGPFLVYLGSIAGIIFSATSG  102
+            DPW+ YR    L+ N+ + F +  WFD  T+YP G  T  G     L + +  I+ A   
+Sbjct  47   DPWFNYRATKYLVNNSFYKFLN--WFDDRTWYPLGRVTG-GTLYPGLMTTSAFIWHALRN  103
+
+Query  103  ------ESLRAVLAFIPAIGGVLAILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSI  156
+                  +     + F P   GV A    Y  T+E+ D  A ++AA  IAIVPG ++ RS+
+Sbjct  104  WLGLPIDIRNVCVLFAPLFSGVTA-WATYEFTKEIKDASAGLLAAGFIAIVPG-YISRSV  161
+
+Query  157  LGFNDHH  163
+             G  D+ 
+Sbjct  162  AGSYDNE  168
+
+
+> sp|O94335|STT3_SCHPO Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit stt3 OS=Schizosaccharomyces pombe 
+(strain 972 / ATCC 24843) OX=284812 GN=stt3 PE=3 SV=1
+Length=752
+
+ Score = 50.8 bits (120),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 45/156 (29%), Positives = 73/156 (47%), Gaps = 16/156 (10%)
+
+Query  16   VLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYR----LIENTIHNFPHRIWFDPF  71
+            +L+  A+ SV  R+     SV  +   +   DPW+ +R    L+E   +NF +  WFD  
+Sbjct  28   ILICIAVASVSSRLF----SVIRYESIIHEFDPWFNFRASKILVEQGFYNFLN--WFDER  81
+
+Query  72   TYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFI-PAIGGVLAILPVYLL  127
+            ++YP G     T +   +V  G I  ++       ++R V   + PA  G+ AI   Y L
+Sbjct  82   SWYPLGRVAGGTLYPGLMVTSGIIFKVLHLLRINVNIRDVCVLLAPAFSGITAI-ATYYL  140
+
+Query  128  TREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHH  163
+             RE+      ++AA  + I PG +  RS+ G  D+ 
+Sbjct  141  ARELKSDACGLLAAAFMGIAPG-YTSRSVAGSYDNE  175
+
+
+> sp|Q6F2Z1|STT3A_ORYSJ Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Oryza sativa subsp. 
+japonica OX=39947 GN=STT3A PE=2 SV=1
+Length=787
+
+ Score = 44.3 bits (103),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 38/124 (31%), Positives = 61/124 (49%), Gaps = 10/124 (8%)
+
+Query  47   DPWYYYR----LIENTIHNFPHRIWFDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSA  99
+            DP++ +R    L +N I+ F +  WFD  T+YP G     T +    +  G+I  ++ S 
+Sbjct  55   DPYFNFRVTQFLSKNGIYEFWN--WFDDRTWYPLGRVIGGTVYPGLTLTAGTIWWLLNSL  112
+
+Query  100  TSGESLRAVLAFIPAIGGVLAILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGF  159
+                S+  V  F   I    A    YLLT+E     A ++AA ++A+VP  ++ RS+ G 
+Sbjct  113  NIPLSVETVCVFTAPIFSANASWATYLLTKEAKGTGAGLMAAAILAMVP-SYISRSVAGS  171
+
+Query  160  NDHH  163
+             D+ 
+Sbjct  172  YDNE  175
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 95541189939
+Results from round 2
+
+
+Query= O29867|3wajA
+
+Length=868
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|D4GYH4|AGLB_HALVD Dolichyl-monophosphooligosaccharide--prote...  932     0.0  
+  sp|P46975|STT3_CAEEL Dolichyl-diphosphooligosaccharide--protein...  186     8e-48
+  sp|Q3TDQ1|STT3B_MOUSE Dolichyl-diphosphooligosaccharide--protei...  177     9e-45
+  sp|E2RG47|STT3B_CANLF Dolichyl-diphosphooligosaccharide--protei...  176     2e-44
+  sp|O94335|STT3_SCHPO Dolichyl-diphosphooligosaccharide--protein...  174     5e-44
+  sp|Q8TCJ2|STT3B_HUMAN Dolichyl-diphosphooligosaccharide--protei...  170     3e-42
+  sp|P39007|STT3_YEAST Dolichyl-diphosphooligosaccharide--protein...  161     6e-40
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q54NM9|STT3_DICDI Dolichyl-diphosphooligosaccharide--protein...  165     4e-41
+  sp|Q2KJI2|STT3A_BOVIN Dolichyl-diphosphooligosaccharide--protei...  147     2e-35
+  sp|Q5RCE2|STT3A_PONAB Dolichyl-diphosphooligosaccharide--protei...  147     2e-35
+  sp|P46977|STT3A_HUMAN Dolichyl-diphosphooligosaccharide--protei...  147     2e-35
+  sp|F1PJP5|STT3A_CANLF Dolichyl-diphosphooligosaccharide--protei...  147     2e-35
+  sp|P46978|STT3A_MOUSE Dolichyl-diphosphooligosaccharide--protei...  146     7e-35
+  sp|Q9FX21|STT3B_ARATH Dolichyl-diphosphooligosaccharide--protei...  140     5e-33
+  sp|Q6F2Z1|STT3A_ORYSJ Dolichyl-diphosphooligosaccharide--protei...  140     8e-33
+  sp|Q7XQ88|STT3B_ORYSJ Dolichyl-diphosphooligosaccharide--protei...  134     4e-31
+  sp|Q93ZY3|STT3A_ARATH Dolichyl-diphosphooligosaccharide--protei...  131     5e-30
+  sp|Q2EMT4|AGLB_METVO Dolichyl-phosphooligosaccharide-protein gl...  64.3    4e-09
+  sp|Q58920|Y1525_METJA Uncharacterized membrane protein MJ1525 O...  53.9    5e-06
+
+
+> sp|D4GYH4|AGLB_HALVD Dolichyl-monophosphooligosaccharide--protein 
+glycotransferase AglB OS=Haloferax volcanii (strain ATCC 
+29605 / DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM 
+B-1768 / DS2) OX=309800 GN=aglB PE=1 SV=1
+Length=1054
+
+ Score = 932 bits (2410),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 240/960 (25%), Positives = 397/960 (41%), Gaps = 179/960 (19%)
+
+Query  9    KKYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRIWF  68
+            + ++H+ VL    L+ + +R+ +    +   TV   GND WY+ R +E T+ N+P  + F
+Sbjct  17   RDWYHIPVLSTIILVMLWIRLRSYDAFIREGTVFFSGNDAWYHLRQVEYTVRNWPATMPF  76
+
+Query  69   DPFTYYPYGS-YTHFGPFLVYLGSIAGII--FSATSGESLRAVLAFIPAIGGVLAILPVY  125
+            DP+T +P+G     FG     L + A ++    + S + +   L   PA+ G L ++P Y
+Sbjct  77   DPWTEFPFGRTAGQFGTIYDQLVATAALVVGLGSPSSDLVAKSLLVAPAVFGALTVIPTY  136
+
+Query  126  LLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQ---VSALGTFLLAYN  182
+            L+ + +  +   +  A ++ ++PG FLQR ++GF DH+I E F+    V A+   L   +
+Sbjct  137  LIGKRLGGRLGGLFGAVILMLLPGTFLQRGLVGFADHNIVEPFFMGFAVLAIMIALTVAD  196
+
+Query  183  RWK-------GHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVL  235
+            R K         DL  +     + + V+AG+   +Y+ SW  G ++  I   F+      
+Sbjct  197  REKPVWELVAARDL--DALREPLKWSVLAGVATAIYMWSWPPGILLVGIFGLFLVLKMAS  254
+
+Query  236  AGFVNADRKNLSLVAVVTFAVSALI-YLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAF  294
+                    ++ + V  ++  V+ L+ ++P     PGF    +   Q L  LG A+ A   
+Sbjct  255  DYVRGRSPEHTAFVGAISMTVTGLLMFIP--IEEPGFGVTDFGFLQPLFSLGVALGAVFL  312
+
+Query  295  YQIEKW---NDVGFFERVGLGR-KGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQ  350
+              + +W   NDV   ER       G  L  IVL +L++   F      ARN L   R V 
+Sbjct  313  AALARWWESNDVD--ERYYPAVVGGTMLVGIVLFSLVLPSVF---DSIARNFL---RTVG  364
+
+Query  351  PKGGALT--IAEVYPFF----FTHNGEFTLTNAVLHFGALFFFG-MAGILYSAYRFLKRR  403
+               GA T  I+E  PF        NG+  +   +  +G  FF G +A +   A   +K  
+Sbjct  365  FSAGAATRTISEAQPFLAANVLQSNGQTAVGRIMSEYGFTFFTGALAAVWLVAKPLVKGG  424
+
+Query  404  SFPEM----------------------------------------ALLIWAIA-------  416
+            +  ++                                        AL++ A+        
+Sbjct  425  NSRKIGYAVGSLALIGVLFLIPALPAGIGSALGVEPSLVSLTIVTALIVGAVMQADYESE  484
+
+Query  417  -MFIALWG---------QNRFAYYFAAVSAVYSAL----ALSVVFDKLHLYRALENAIGA  462
+             +F+ +W          Q RF YY A V AV +A     AL + F  L      ++    
+Sbjct  485  RLFVLVWAAIITSAAFTQVRFNYYLAVVVAVMNAYLLREALGIDFVGLANVERFDD----  540
+
+Query  463  RNKLSYFRVAFALLIALAAIYPTYIL-----------ADAQSSYAG-GPNKQWYDALTWM  510
+               +SY +VA  ++  L  + P  I+              Q+S  G G   QW  +LTWM
+Sbjct  541  ---ISYGQVAAVVIAVLLILTPVLIIPIQLGNGGVSQTAMQASQTGPGTVTQWDGSLTWM  597
+
+Query  511  RENTP-DGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANP  569
+            + NTP +GE   E     Y       + F YP   YGV+SWWDYGHWI  +  R+P ANP
+Sbjct  598  QNNTPAEGEFGGESNRMEYYGTYEYTDDFDYPDGAYGVMSWWDYGHWITVLGERIPNANP  657
+
+Query  570  FQAGIGNKYNNVPGASSFFTAENESYAEFV-------AEKLNVKYVVSDIEMET--GKYY  620
+            FQ G          A+++  AE+E  AE V        E    +YV+ D +M +   K+ 
+Sbjct  658  FQGGATE-------AANYLLAEDEQQAESVLTSMGDDGEGDQTRYVMVDWQMASTDAKFS  710
+
+Query  621  AMAV-WAEGDLPLAEKYYGGYFYYSPTGTFGYANSQWDIPLNSIIIPLRIPSELYYSTME  679
+            A  V + E ++  ++       +Y+P         Q  +   S +   R     YY ++ 
+Sbjct  711  APTVFYDESNISRSD-------FYNPMFRLQEQGEQTTVAAASSLKDQR-----YYESLM  758
+
+Query  680  AKLHLFDGSGLSHYRMIYESDYPAEWKSYSSQVNLNNESQVLQTALYEAVMRARYGVSPT  739
+             +L+ + GS      ++ + +        ++     ++ Q ++T    +         PT
+Sbjct  759  VRLYAYHGSAREASPIVVDWEERTSADGSTTFRVTPSDGQAVRTFDNMSAAEEYVANDPT  818
+
+Query  740  -----MGT--QEVLYKYAYTQL-------------YEKKM-------GI-PVKIAPS--G  769
+                 +GT  +E +    + +L             Y++ +       G+ P  + P+   
+Sbjct  819  SQIGGIGTFPEERVSALEHYRLVKSSNSSALRSGSYQRSLISEGNTYGLQPQALVPNNPA  878
+
+Query  770  YVKIFERVKGAVVTGKVSANVTEVSVNATIKTNQNRT-FEYWQTVEVK-NGTYTVVLPYS  827
+            +VK FERV GA V G  +   T V+    ++     T F Y Q  +   +G +T+ LPYS
+Sbjct  879  WVKTFERVPGATVDGSGAPANTTVTARVQMRDLTTGTNFTYTQQAQTDADGEFTMTLPYS  938
+
+
+> sp|P46975|STT3_CAEEL Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit stt-3 OS=Caenorhabditis elegans 
+OX=6239 GN=stt-3 PE=1 SV=1
+Length=757
+
+ Score = 186 bits (471),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 130/658 (20%), Positives = 232/658 (35%), Gaps = 138/658 (21%)
+
+Query  14   LSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRI--WFDPF  71
+            + VL +A  +    R+     ++  +   +   DPW+ YR   + + +  ++   WFD  
+Sbjct  22   IVVLALAWFVGFASRLF----AIVRFESIIHEFDPWFNYRATHHMVQHGFYKFLNWFDER  77
+
+Query  72   TYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFI-PAIGGVLAILPVYLL  127
+             +YP G     T +   +V  G I  I+ S      +R V  F+ P   G+ AI   YLL
+Sbjct  78   AWYPLGRIVGGTVYPGLMVTSGLIHWILDSLNFHVHIREVCVFLAPTFSGLTAI-ATYLL  136
+
+Query  128  TREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGH  187
+            T+E++   A + AA  IAI PG +  RS+ G  D+          A+      Y  W   
+Sbjct  137  TKELWSPGAGLFAACFIAISPG-YTSRSVAGSYDNEGI-------AIFALQFTYYLW---  185
+
+Query  188  DLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPII----LAFMFFAFVLAGFVNADR  243
+                +L    + +  +  ++    V +WG    I  +I    LA +      +    +  
+Sbjct  186  --VKSLKTGSIMWASLCALSYFYMVSAWGGYVFIINLIPLHALALIIMGRYSSRLFVSYT  243
+
+Query  244  KNLSLVAVVTFAVSALIYLPFAFNY--PGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWN  301
+                L  +++  V  + + P   +   P F    +   Q+      A++  A  +I +  
+Sbjct  244  SFYCLATILSMQVPFVGFQPVRTSEHMPAFGV--FGLLQI-----VALMHYARNRITRQQ  296
+
+Query  302  DVGFFERVGLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAEV  361
+             +  F  VG       L+V+V  AL+ G +         +L              +++E 
+Sbjct  297  FMTLF--VGGLTILGALSVVVYFALVWGGYVAPFSGRFYSLWDTGYAKIHIPIIASVSEH  354
+
+Query  362  YP-----FFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIA  416
+             P     FFF            LH  A  F    G+ Y     +K+ +   + ++++A++
+Sbjct  355  QPTTWVSFFFD-----------LHITAAVFP--VGLWYC----IKKVNDERVFIILYAVS  397
+
+Query  417  MFIALWGQNRFAYYFAAVSAVYSALALSVVF-----------------------------  447
+                     R          V + +  S  F                             
+Sbjct  398  AVYFAGVMVRLMLTLTPAVCVLAGIGFSYTFEKYLKDEETKERSSSQSGTTKDEKLYDKA  457
+
+Query  448  ---DKLHLYRALENAIGARNKLSYFRVAFALLIALAAIYPTYILADA--------QSSYA  496
+                K       + +  + N  +   +   + + +  ++ TY+ ++A        QSS  
+Sbjct  458  AKNVKSRNANDGDESGVSSNVRTIISIILVIFLLMFVVHATYVTSNAYSHPSVVLQSSTN  517
+
+Query  497  GGPNKQWYD---ALTWMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDY  553
+             G      D   A  W+RENT D  +                           V+SWWDY
+Sbjct  518  NGDRIIMDDFREAYHWLRENTADDAR---------------------------VMSWWDY  550
+
+Query  554  GHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVS  610
+            G+ I  +A+R  + +       N +NN   A      + NES A  +  +L+V Y++ 
+Sbjct  551  GYQIAGMANRTTLVD------NNTWNNSHIALVGKAMSSNESAAYEIMTELDVDYILV  602
+
+
+> sp|Q3TDQ1|STT3B_MOUSE Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Mus musculus OX=10090 
+GN=Stt3b PE=1 SV=2
+Length=823
+
+ Score = 177 bits (449),  Expect = 9e-45, Method: Composition-based stats.
+ Identities = 145/709 (20%), Positives = 248/709 (35%), Gaps = 137/709 (19%)
+
+Query  14   LSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIEN-TIHNFPHRI-WFDPF  71
+             ++L +A L     R+     +V  +   +   DPW+ YR   +   H F   + WFD  
+Sbjct  71   FTILFLAWLAGFSSRLF----AVIRFESIIHEFDPWFNYRSTHHLASHGFYEFLNWFDER  126
+
+Query  72   TYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFI-PAIGGVLAILPVYLL  127
+             +YP G     T +   ++  G I  I+ +      +R V  F+ P   G+ +I   +LL
+Sbjct  127  AWYPLGRIVGGTVYPGLMITAGLIHWILNTLNITVHIRDVCVFLAPTFSGLTSI-STFLL  185
+
+Query  128  TREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGH  187
+            TRE++++ A ++AA  IAIVPG ++ RS+ G  D+     F        +L   +   G 
+Sbjct  186  TRELWNQGAGLLAACFIAIVPG-YISRSVAGSFDNEGIAIF--ALQFTYYLWVKSVKTG-  241
+
+Query  188  DLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLS  247
+                      + + +   ++    V +WG    I  +I   +F   ++  +         
+Sbjct  242  ---------SVFWTMCCCLSYFYMVSAWGGYVFIINLIPLHVFVLLLMQRYSKR-----V  287
+
+Query  248  LVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVGFFE  307
+             +A  TF +  LI L     + GF  I  S       + + + A AF Q  + + +   E
+Sbjct  288  YIAYSTFYIVGLI-LSMQIPFVGFQPIRTSEHMAAAGVFALLQAYAFLQYLR-DRLTKQE  345
+
+Query  308  RVGLGRKGMPL-AVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGG---ALTIAEVYP  363
+               L   G+ L A  V  ++I   +      ++    S+      K       +++E  P
+Sbjct  346  FQTLFFLGVSLAAGAVFLSVIYLTYTGYIAPWSGRFYSLWDTGYAKIHIPIIASVSEHQP  405
+
+Query  364  FFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIALWG  423
+                     T  +       L     AG+ +     +K  +   + + ++AI+       
+Sbjct  406  --------TTWVSFFFDLHILVCTFPAGLWFC----IKNINDERVFVALYAISAVYFAGV  453
+
+Query  424  QNRFAYYFAAVSAVYSALALSVVF----------------------DKLHLYRALENAIG  461
+              R       V  + SA+A S VF                      DK +     + A  
+Sbjct  454  MVRLMLTLTPVVCMLSAIAFSNVFEHYLGDDMKRENPPVEDSSDEDDKRNPGNLYDKAGK  513
+
+Query  462  ARNKLS--------------------------YFRVAFALLIALAAIYPTYILADAQSSY  495
+             R  ++                           F V    + + A   P+ +LA      
+Sbjct  514  VRKHVTEQEKPEEGLGPNIKSIVTMLMLMLLMMFAVHCTWVTSNAYSSPSVVLASYNHDG  573
+
+Query  496  AGGPNKQWYDALTWMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGH  555
+                   + +A  W+R+NT      DE+                       V+SWWDYG+
+Sbjct  574  TRNILDDFREAYFWLRQNT------DEHAR---------------------VMSWWDYGY  606
+
+Query  556  WIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVSDIEM  614
+             I  +A+R  + +       N +NN   A      + NE+ A  +   L+V YV+     
+Sbjct  607  QIAGMANRTTLVD------NNTWNNSHIALVGKAMSSNETAAYKIMRSLDVDYVLVIFGG  660
+
+Query  615  ETG-------KYYAMAVWAEGDLPLAEKYYGGYFYYSPTGTFGYANSQW  656
+              G       K+  M   AEG+ P  +   G YF          A S  
+Sbjct  661  VIGYSGDDINKFLWMVRIAEGEHPK-DIREGDYFTQQGEFRVDKAGSPT  708
+
+
+> sp|E2RG47|STT3B_CANLF Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Canis lupus familiaris 
+OX=9615 GN=STT3B PE=1 SV=1
+Length=826
+
+ Score = 176 bits (447),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 145/709 (20%), Positives = 247/709 (35%), Gaps = 137/709 (19%)
+
+Query  14   LSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIEN-TIHNFPHRI-WFDPF  71
+             ++L +A L     R+     +V  +   +   DPW+ YR   +   H F   + WFD  
+Sbjct  74   FTILFLAWLAGFSSRLF----AVIRFESIIHEFDPWFNYRSTHHLASHGFYEFLNWFDER  129
+
+Query  72   TYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFI-PAIGGVLAILPVYLL  127
+             +YP G     T +   ++  G I  I+ +      +R V  F+ P   G+ +I   +LL
+Sbjct  130  AWYPLGRIVGGTVYPGLMITAGLIHWILNTLNITVHIRDVCVFLAPTFSGLTSI-STFLL  188
+
+Query  128  TREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGH  187
+            TRE++++ A ++AA  IAIVPG ++ RS+ G  D+     F        +L   +   G 
+Sbjct  189  TRELWNQGAGLLAACFIAIVPG-YISRSVAGSFDNEGIAIF--ALQFTYYLWVKSVKTG-  244
+
+Query  188  DLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLS  247
+                      + + +   ++    V +WG    I  +I   +F   ++  +         
+Sbjct  245  ---------SVFWTMCCCLSYFYMVSAWGGYVFIINLIPLHVFVLLLMQRYSKR-----V  290
+
+Query  248  LVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVGFFE  307
+             +A  TF +  LI L     + GF  I  S       + + + A AF Q  + + +   E
+Sbjct  291  YIAYSTFYIVGLI-LSMQIPFVGFQPIRTSEHMAAAGVFALLQAYAFLQYLR-DRLTKQE  348
+
+Query  308  RVGLGRKGMPL-AVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGG---ALTIAEVYP  363
+               L   G+ L A  V  ++I   +      ++    S+      K       +++E  P
+Sbjct  349  FQTLFFLGVSLAAGAVFLSVIYLTYTGYIAPWSGRFYSLWDTGYAKIHIPIIASVSEHQP  408
+
+Query  364  FFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIALWG  423
+                     T  +       L     AG+ +     +K  +   + + ++AI+       
+Sbjct  409  --------TTWVSFFFDLHILVCTFPAGLWFC----IKNINDERVFVALYAISAVYFAGV  456
+
+Query  424  QNRFAYYFAAVSAVYSALALSVVF----------------------DKLHLYRALENAIG  461
+              R       V  + SA+A S VF                      DK +     + A  
+Sbjct  457  MVRLMLTLTPVVCMLSAIAFSNVFEHYLGDDMKRENPPVEDSSDEDDKRNPGNLYDKAGK  516
+
+Query  462  ARNKLS--------------------------YFRVAFALLIALAAIYPTYILADAQSSY  495
+             R  ++                           F V    + + A   P+ +LA      
+Sbjct  517  VRKHVTEQEKTEEGLGPNIKSIVTMLMLMLLMMFAVHCTWVTSNAYSSPSVVLASYNHDG  576
+
+Query  496  AGGPNKQWYDALTWMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGH  555
+                   + +A  W+R+NT      DE+                       V+SWWDYG+
+Sbjct  577  TRNILDDFREAYFWLRQNT------DEHAR---------------------VMSWWDYGY  609
+
+Query  556  WIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVSDIEM  614
+             I  +A+R  + +       N +NN   A      + NES A  +   L+V YV+     
+Sbjct  610  QIAGMANRTTLVD------NNTWNNSHIALVGKAMSSNESAAYKIMRSLDVDYVLVIFGG  663
+
+Query  615  ETG-------KYYAMAVWAEGDLPLAEKYYGGYFYYSPTGTFGYANSQW  656
+              G       K+  M   AEG+ P  +     YF          A S  
+Sbjct  664  VIGYSGDDINKFLWMVRIAEGEHPK-DIRESDYFTPQGEFRVDKAGSPT  711
+
+
+> sp|O94335|STT3_SCHPO Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit stt3 OS=Schizosaccharomyces pombe 
+(strain 972 / ATCC 24843) OX=284812 GN=stt3 PE=3 SV=1
+Length=752
+
+ Score = 174 bits (441),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 123/646 (19%), Positives = 228/646 (35%), Gaps = 101/646 (16%)
+
+Query  9    KKYWHLS----VLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYR----LIENTIH  60
+            +K W +     +L+  A+ SV  R+     SV  +   +   DPW+ +R    L+E   +
+Sbjct  17   QKDWKIPLKVLILICIAVASVSSRLF----SVIRYESIIHEFDPWFNFRASKILVEQGFY  72
+
+Query  61   NFPHRIWFDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFI-PAIG  116
+            NF +  WFD  ++YP G     T +   +V  G I  ++       ++R V   + PA  
+Sbjct  73   NFLN--WFDERSWYPLGRVAGGTLYPGLMVTSGIIFKVLHLLRINVNIRDVCVLLAPAFS  130
+
+Query  117  GVLAILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGT  176
+            G+ AI   Y L RE+      ++AA  + I PG +  RS+ G  D+        +S    
+Sbjct  131  GITAI-ATYYLARELKSDACGLLAAAFMGIAPG-YTSRSVAGSYDNEAIAITLLMSTFAL  188
+
+Query  177  FLLAYNRWKGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLA  236
+            ++ A                   +    G+     V +WG    I  +I   +F   ++ 
+Sbjct  189  WIKAVKSGSSF------------WGACTGLLYFYMVTAWGGYVFITNMIPLHVFVLLLMG  236
+
+Query  237  GFVN----ADRKNLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAA  292
+             + +    A      +  + +  V  + + P + +    +   +   QL           
+Sbjct  237  RYTSKLYIAYTTYYVIGTLASMQVPFVGFQPVSTSEHMSALGVFGLLQLFAFYNYVKGLV  296
+
+Query  293  AFYQIEKWNDVGFFERVGLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPK  352
+            +  Q +          VG       LA +VL AL      VI+P   R   S+      K
+Sbjct  297  SSKQFQILIRFALVCLVG-------LATVVLFAL--SSTGVIAPWTGR-FYSLWDTNYAK  346
+
+Query  353  GG---ALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYS---AYRFLKRRSFP  406
+                   +++E  P                 + +LFF     I       Y   K     
+Sbjct  347  IHIPIIASVSEHQP---------------PTWSSLFFDLQFLIWLLPVGVYLCFKELRNE  391
+
+Query  407  EMALLIWAIAMFIALWGQNRFAYYFAAVSAVYSALALSVVFDKLHLYRALENAI------  460
+             + ++I+++          R          + +A+A+S + D        E+ +      
+Sbjct  392  HVFIIIYSVLGTYFCGVMVRLVLTLTPCVCIAAAVAISTLLDTYMGPEVEEDKVSEEAAS  451
+
+Query  461  -------GARNKLSYFRVAFALLIALAAIYPTYILAD------AQSSYAGGPNKQWYDAL  507
+                   G  + LS+F      +   + +    +++           ++       Y + 
+Sbjct  452  AKSKNKKGIFSILSFFTSGSKNIGIYSLLSRVLVISSTAYFLIMFVYHSSWVTSNAYSSP  511
+
+Query  508  TWMRENT-PDGE-KYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMP  565
+            T +      DG   Y + + + Y   + N      P++T  V+SWWDYG+ I  +A R+ 
+Sbjct  512  TVVLSTVLNDGSLMYIDDFREAYDWLRRNT-----PYDT-KVMSWWDYGYQIAGMADRIT  565
+
+Query  566  IANPFQAGIGNKYNNVPGAS-SFFTAENESYAEFVAEKLNVKYVVS  610
+            + +       N +NN   A+     +  E  A  +  K +V Y++ 
+Sbjct  566  LVD------NNTWNNTHIATVGKAMSSPEEKAYPILRKHDVDYILI  605
+
+
+> sp|Q8TCJ2|STT3B_HUMAN Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Homo sapiens OX=9606 
+GN=STT3B PE=1 SV=1
+Length=826
+
+ Score = 170 bits (430),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 95/445 (21%), Positives = 171/445 (38%), Gaps = 47/445 (11%)
+
+Query  14   LSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIEN-TIHNFPHRI-WFDPF  71
+             ++L +A L     R+     +V  +   +   DPW+ YR   +   H F   + WFD  
+Sbjct  74   FTILFLAWLAGFSSRLF----AVIRFESIIHEFDPWFNYRSTHHLASHGFYEFLNWFDER  129
+
+Query  72   TYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFI-PAIGGVLAILPVYLL  127
+             +YP G     T +   ++  G I  I+ +      +R V  F+ P   G+ +I   +LL
+Sbjct  130  AWYPLGRIVGGTVYPGLMITAGLIHWILNTLNITVHIRDVCVFLAPTFSGLTSI-STFLL  188
+
+Query  128  TREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGH  187
+            TRE++++ A ++AA  IAIVPG ++ RS+ G  D+     F        +L   +   G 
+Sbjct  189  TRELWNQGAGLLAACFIAIVPG-YISRSVAGSFDNEGIAIF--ALQFTYYLWVKSVKTG-  244
+
+Query  188  DLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLS  247
+                      + + +   ++    V +WG    I  +I   +F   ++  +         
+Sbjct  245  ---------SVFWTMCCCLSYFYMVSAWGGYVFIINLIPLHVFVLLLMQRYSKR-----V  290
+
+Query  248  LVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVGFFE  307
+             +A  TF +  LI L     + GF  I  S       + + + A AF Q  + + +   E
+Sbjct  291  YIAYSTFYIVGLI-LSMQIPFVGFQPIRTSEHMAAAGVFALLQAYAFLQYLR-DRLTKQE  348
+
+Query  308  RVGLGRKGMPL-AVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGG---ALTIAEVYP  363
+               L   G+ L A  V  ++I   +      ++    S+      K       +++E  P
+Sbjct  349  FQTLFFLGVSLAAGAVFLSVIYLTYTGYIAPWSGRFYSLWDTGYAKIHIPIIASVSEHQP  408
+
+Query  364  FFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIALWG  423
+                     T  +       L     AG+ +     +K  +   + + ++AI+       
+Sbjct  409  --------TTWVSFFFDLHILVCTFPAGLWFC----IKNINDERVFVALYAISAVYFAGV  456
+
+Query  424  QNRFAYYFAAVSAVYSALALSVVFD  448
+              R       V  + SA+A S VF+
+Sbjct  457  MVRLMLTLTPVVCMLSAIAFSNVFE  481
+
+
+> sp|Q54NM9|STT3_DICDI Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3 OS=Dictyostelium discoideum 
+OX=44689 GN=stt3 PE=3 SV=1
+Length=714
+
+ Score = 165 bits (417),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 114/631 (18%), Positives = 231/631 (37%), Gaps = 116/631 (18%)
+
+Query  16   VLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYR----LIENTIHNFPHRIWFDPF  71
+            +L +  +++   R+     SV  +   +   DP++ YR    L++   +NF +  WFD  
+Sbjct  46   ILSVIYVLAFSTRLF----SVLRYESVIHEFDPYFNYRSTIYLVQEGFYNFLN--WFDER  99
+
+Query  72   TYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYLLT  128
+             +YP G     T +   +     +   + S     ++R V   +         +  Y   
+Sbjct  100  AWYPLGRIVGGTIYPGLMATASLVHWSLNSLNITVNIRNVCVLLSPWFASNTAMVTYKFA  159
+
+Query  129  REVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGHD  188
+            +EV D +  ++AA +IAIVPG ++ RS+ G  D+     F  +     ++ + N      
+Sbjct  160  KEVKDTQTGLVAAAMIAIVPG-YISRSVAGSFDNEGIAIFALIFTYYCWIKSVN------  212
+
+Query  189  LSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNA--DRKNL  246
+                     + +  I  +       +WG    I  +I    FF  +   + +      + 
+Sbjct  213  ------TGSLMWAAICSLAYFYMASAWGGYVFIINLIPLHAFFLLLTGRYSHRLYIAYST  266
+
+Query  247  SLV--AVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLG---SAVIAAAFYQIEKWN  301
+              V   +++  ++ + + P   +    +   +   QL   L    S +   AF ++++  
+Sbjct  267  MFVIGTILSMQITFISFQPVQSSEHLAAIGIFGLLQLYAGLSWVKSHLTNEAFKKLQRLT  326
+
+Query  302  DVGFFERVGLGRKGMPLAVIVLTALIMGL----FFVISPDFARNLLSVVRVVQPKGGALT  357
+             +       L      L V  LT  I       + ++ P +AR+ + ++          +
+Sbjct  327  VLFV-----LSCAAAVLVVGTLTGYISPFNGRFYSLLDPTYARDHIPII---------AS  372
+
+Query  358  IAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAM  417
+            ++E  P         T  +       L F   AG+ +   +      F    L+++ +  
+Sbjct  373  VSEHQP--------TTWASYFFDLHILVFLFPAGLYFCFQKLTDANIF----LILYGVTS  420
+
+Query  418  FIALWGQNRFAYYFAAVSAVYSALALSVVFDK-LHLYRALENAIGARNKLSYFRVAFALL  476
+                    R     A V+ + +A+A+S      +   +A  +   A N      V  A+L
+Sbjct  421  IYFSGVMVRLMLVLAPVACILAAVAVSATLTTYMKKLKAPSSPSDANNSKESGGVMVAVL  480
+
+Query  477  IALAAIY--------------PTYILADAQSSYAGGPNKQWYDALTWMRENTPDGEKYDE  522
+              L  +Y              P+ +L+  Q+  +      + +A  W+ +NT D  +   
+Sbjct  481  TVLLILYAFHCTWVTSEAYSSPSIVLSAKQNDGSRVIFDDFREAYRWIGQNTADDAR---  537
+
+Query  523  YYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVP  582
+                                    ++SWWDYG+ + A+A+R  + +       N +NN  
+Sbjct  538  ------------------------IMSWWDYGYQLSAMANRTVLVD------NNTWNNSH  567
+
+Query  583  GAS---SFFTAENESYAEFVAEKLNVKYVVS  610
+             A    +F + E ++Y +   + L+V YV+ 
+Sbjct  568  IAQVGKAFASTEEDAYIQM--KALDVDYVLV  596
+
+
+> sp|P39007|STT3_YEAST Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=STT3 PE=1 SV=2
+Length=718
+
+ Score = 161 bits (408),  Expect = 6e-40, Method: Composition-based stats.
+ Identities = 124/630 (20%), Positives = 234/630 (37%), Gaps = 93/630 (15%)
+
+Query  6    SWFKKYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHR  65
+            S F+    L + V     ++  R+     +V  +   +   DPW+ YR  +  ++N  ++
+Sbjct  10   SVFQTILKLVIFVAIFGAAISSRLF----AVIKFESIIHEFDPWFNYRATKYLVNNSFYK  65
+
+Query  66   I--WFDPFTYYPYGSYTHFGPFLVYLGSIAGIIFSATSG------ESLRAVLAFIPAIGG  117
+               WFD  T+YP G  T  G     L + +  I+ A         +     + F P   G
+Sbjct  66   FLNWFDDRTWYPLGRVTG-GTLYPGLMTTSAFIWHALRNWLGLPIDIRNVCVLFAPLFSG  124
+
+Query  118  VLAILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTF  177
+            V A    Y  T+E+ D  A ++AA  IAIVPG ++ RS+ G  D+   EA      + TF
+Sbjct  125  VTA-WATYEFTKEIKDASAGLLAAGFIAIVPG-YISRSVAGSYDN---EAIAITLLMVTF  179
+
+Query  178  LLAYNRWKGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFV---  234
+            +      K   + H   A    + +++         +WG    I  +I   +F   +   
+Sbjct  180  MFWIKAQKTGSIMHATCAALFYFYMVS---------AWGGYVFITNLIPLHVFLLILMGR  230
+
+Query  235  -LAGFVNADRKNLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAA  293
+              +   +A     ++  V +  +  + +LP   N    +   +   Q++          +
+Sbjct  231  YSSKLYSAYTTWYAIGTVASMQIPFVGFLPIRSNDHMAALGVFGLIQIVAFGDFVKGQIS  290
+
+Query  294  FYQIEKWNDVGFFERVGLGRKGM-PLAVIVLTALIMGLFFVISP-DFARNLLSVVRVVQP  351
+              + +    V  F  + LG  G+  L  + L A   G F+ +   ++A+  + ++     
+Sbjct  291  TAKFKVIMMVSLFLILVLGVVGLSALTYMGLIAPWTGRFYSLWDTNYAKIHIPII-----  345
+
+Query  352  KGGALTIAEVYP-----FFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFP  406
+                 +++E  P     FFF  +              L +   AG+            F 
+Sbjct  346  ----ASVSEHQPVSWPAFFFDTH-------------FLIWLFPAGVFLLFLDLKDEHVF-  387
+
+Query  407  EMALLIWAIAMFIALWGQNRFAYYFAAVSAVYSALALSVVFDKLHLYRALENAIGARNKL  466
+               ++ +++          R       V  V +A+ALS +FD    ++  +     +   
+Sbjct  388  ---VIAYSVLCSYFAGVMVRLMLTLTPVICVSAAVALSKIFDIYLDFKTSDRKYAIKPAA  444
+
+Query  467  SYFRV----AFALLIALAAIYPTYILADAQSSYAGGPNKQWYDALTWMRENTPDGEKY-D  521
+               ++    +F   + L   + T++   A SS +             +   TPDG+    
+Sbjct  445  LLAKLIVSGSFIFYLYLFVFHSTWVTRTAYSSPS-----------VVLPSQTPDGKLALI  493
+
+Query  522  EYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNV  581
+            + + + Y   + N +      E   V +WWDYG+ I  +A R  + +       N +NN 
+Sbjct  494  DDFREAYYWLRMNSD------EDSKVAAWWDYGYQIGGMADRTTLVD------NNTWNNT  541
+
+Query  582  PGA-SSFFTAENESYAEFVAEKLNVKYVVS  610
+              A      A  E  +  + ++ +V YV+ 
+Sbjct  542  HIAIVGKAMASPEEKSYEILKEHDVDYVLV  571
+
+
+> sp|Q2KJI2|STT3A_BOVIN Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Bos taurus OX=9913 
+GN=STT3A PE=2 SV=1
+Length=705
+
+ Score = 147 bits (372),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 141/709 (20%), Positives = 258/709 (36%), Gaps = 147/709 (21%)
+
+Query  14   LSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYR----LIENTIHNFPHRIWFD  69
+            L +L +AA++S   R+     +V  +   +   DP++ YR    L E   + F +  WFD
+Sbjct  20   LLILSMAAVLSFSTRLF----AVLRFESVIHEFDPYFNYRTTRFLAEEGFYKFHN--WFD  73
+
+Query  70   PFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFI-PAIGGVLAILPVY  125
+               +YP G     T +   ++   +I  ++        +R V  F+ P       I+  Y
+Sbjct  74   DRAWYPLGRIIGGTIYPGLMITSAAIYHVLHFFHITIDIRNVCVFLAPLFSSFTTIV-TY  132
+
+Query  126  LLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWK  185
+             LT+E+ D  A ++AA +IA+VPG ++ RS+ G  D+     F  +     ++ A     
+Sbjct  133  HLTKELKDAGAGLLAAAMIAVVPG-YISRSVAGSYDNEGIAIFCMLLTYYMWIKA-----  186
+
+Query  186  GHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKN  245
+                   +    + +     +     V SWG    +  +I   +    +   F      +
+Sbjct  187  -------VKTGSIYWAAKCALAYFYMVSSWGGYVFLINLIPLHVLVLMLTGRF-----SH  234
+
+Query  246  LSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLV-LLGSAVIAAAFYQIEKWNDVG  304
+               VA  T      I L    ++ GF  +  S       + G   I A    +    +  
+Sbjct  235  RIYVAYCTVYCLGTI-LSMQISFVGFQPVLSSEHMAAFGVFGLCQIHAFVDYLRSKLNPQ  293
+
+Query  305  FFERVGLGRKGMPLAVIVLT---ALIM---------GLFF-VISPDFARNLLSVVRVVQP  351
+             FE   L R  + L   VL    AL+M         G F+ ++ P +A+N + ++     
+Sbjct  294  QFEV--LFRSVISLVGFVLLTIGALLMLTGKISPWTGRFYSLLDPSYAKNNIPII-----  346
+
+Query  352  KGGALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALL  411
+                 +++E  P         T ++       L F    G+ Y         S   + ++
+Sbjct  347  ----ASVSEHQP--------TTWSSYYFDLQLLVFMFPVGLYYCFSNL----SDARIFII  390
+
+Query  412  IWAIAMFIALWGQNRFAYYFAAVSAVYSALALSVV---FDKLHLYRALENAIGARNKLSY  468
+            ++ +          R     A V  + S + +S V   + K       +     +   +Y
+Sbjct  391  MYGVTSMYFSAVMVRLMLVLAPVMCILSGIGVSQVLSTYMKNLDISRQDKKSKKQQDSTY  450
+
+Query  469  ---FRVAFALLIALA------AIYPTYILADAQSSYA------GGPNKQ-----WYDALT  508
+                 VA  +++ +A        + T++ ++A SS +      GG   +     + +A  
+Sbjct  451  PIKNEVASGMILVMAFFLITYTFHSTWVTSEAYSSPSIVLSARGGDGSRIIFDDFREAYY  510
+
+Query  509  WMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIAN  568
+            W+R NTP+  K                           V+SWWDYG+ I A+A+R  + +
+Sbjct  511  WLRHNTPEDAK---------------------------VMSWWDYGYQITAMANRTILVD  543
+
+Query  569  PFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVSDIEMETGKYYAMAVWAE  627
+                   N +NN   +      A  E  A  +  +L+V YV+         +  +  ++ 
+Sbjct  544  ------NNTWNNTHISRVGQAMASTEEKAYEIMRELDVSYVLV-------IFGGLTGYSS  590
+
+Query  628  GDLPL------------AEKYYGGYFYYSPTGTFGYANSQWDIPLNSII  664
+             D+                K+   + YY+PTG F        + LN ++
+Sbjct  591  DDINKFLWMVRIGGSTDTGKHIKEHDYYTPTGEFRVDREGSPVLLNCLM  639
+
+
+> sp|Q5RCE2|STT3A_PONAB Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Pongo abelii OX=9601 
+GN=STT3A PE=2 SV=1
+Length=705
+
+ Score = 147 bits (372),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 141/709 (20%), Positives = 257/709 (36%), Gaps = 147/709 (21%)
+
+Query  14   LSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYR----LIENTIHNFPHRIWFD  69
+            L +L +AA++S   R+     +V  +   +   DP++ YR    L E   + F +  WFD
+Sbjct  20   LLILSMAAVLSFSTRLF----AVLRFESVIHEFDPYFNYRTTRFLAEEGFYKFHN--WFD  73
+
+Query  70   PFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFI-PAIGGVLAILPVY  125
+               +YP G     T +   ++   +I  ++        +R V  F+ P       I+  Y
+Sbjct  74   DRAWYPLGRIIGGTIYPGLMITSAAIYHVLHFFHITIDIRNVCVFLAPLFSSFTTIV-TY  132
+
+Query  126  LLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWK  185
+             LT+E+ D  A ++AA +IA+VPG ++ RS+ G  D+     F  +     ++ A     
+Sbjct  133  HLTKELKDAGAGLLAAAMIAVVPG-YISRSVAGSYDNEGIAIFCMLLTYYMWIKA-----  186
+
+Query  186  GHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKN  245
+                   +    + +     +     V SWG    +  +I   +    +   F      +
+Sbjct  187  -------VKTGSICWAAKCALAYFYMVSSWGGYVFLINLIPLHVLVLMLTGRF-----SH  234
+
+Query  246  LSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLV-LLGSAVIAAAFYQIEKWNDVG  304
+               VA  T      I L    ++ GF  +  S       + G   I A    +    +  
+Sbjct  235  RIYVAYCTVYCLGTI-LSMQISFVGFQPVLSSEHMAAFGVFGLCQIHAFVDYLRSKLNPQ  293
+
+Query  305  FFERVGLGRKGMPLAVIVLT---ALIM---------GLFF-VISPDFARNLLSVVRVVQP  351
+             FE   L R  + L   VL    AL+M         G F+ ++ P +A+N + ++     
+Sbjct  294  QFEV--LFRSVISLVGFVLLTVGALLMLTGKISPWTGRFYSLLDPSYAKNNIPII-----  346
+
+Query  352  KGGALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALL  411
+                 +++E  P         T ++       L F    G+ Y         S   + ++
+Sbjct  347  ----ASVSEHQP--------TTWSSYYFDLQLLVFMFPVGLYYCFSNL----SDARIFII  390
+
+Query  412  IWAIAMFIALWGQNRFAYYFAAVSAVYSALALSVV---FDKLHLYRALENAIGARNKLSY  468
+            ++ +          R     A V  + S + +S V   + K       +     +   +Y
+Sbjct  391  MYGVTSMYFSAVMVRLMLVLAPVMCILSGIGVSQVLSTYMKNLDISRPDKKSKKQQDSTY  450
+
+Query  469  ---FRVAFALLIALA------AIYPTYILADAQSSYA------GGPNKQ-----WYDALT  508
+                 VA  +++ +A        + T++ ++A SS +      GG   +     + +A  
+Sbjct  451  PIKNEVASGMILVMAFFLITYTFHSTWVTSEAYSSPSIVLSARGGDGSRIIFDDFREAYY  510
+
+Query  509  WMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIAN  568
+            W+R NTP+  K                           V+SWWDYG+ I A+A+R  + +
+Sbjct  511  WLRHNTPEDAK---------------------------VMSWWDYGYQITAMANRTILVD  543
+
+Query  569  PFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVSDIEMETGKYYAMAVWAE  627
+                   N +NN   +      A  E  A  +  +L+V YV+         +  +  ++ 
+Sbjct  544  ------NNTWNNTHISRVGQAMASTEEKAYEIMRELDVSYVLV-------IFGGLTGYSS  590
+
+Query  628  GDLPL------------AEKYYGGYFYYSPTGTFGYANSQWDIPLNSII  664
+             D+                K+     YY+PTG F        + LN ++
+Sbjct  591  DDINKFLWMVRIGGSTDTGKHIKENDYYTPTGEFRVDREGSPVLLNCLM  639
+
+
+> sp|P46977|STT3A_HUMAN Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Homo sapiens OX=9606 
+GN=STT3A PE=1 SV=2
+Length=705
+
+ Score = 147 bits (372),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 141/709 (20%), Positives = 257/709 (36%), Gaps = 147/709 (21%)
+
+Query  14   LSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYR----LIENTIHNFPHRIWFD  69
+            L +L +AA++S   R+     +V  +   +   DP++ YR    L E   + F +  WFD
+Sbjct  20   LLILSMAAVLSFSTRLF----AVLRFESVIHEFDPYFNYRTTRFLAEEGFYKFHN--WFD  73
+
+Query  70   PFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFI-PAIGGVLAILPVY  125
+               +YP G     T +   ++   +I  ++        +R V  F+ P       I+  Y
+Sbjct  74   DRAWYPLGRIIGGTIYPGLMITSAAIYHVLHFFHITIDIRNVCVFLAPLFSSFTTIV-TY  132
+
+Query  126  LLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWK  185
+             LT+E+ D  A ++AA +IA+VPG ++ RS+ G  D+     F  +     ++ A     
+Sbjct  133  HLTKELKDAGAGLLAAAMIAVVPG-YISRSVAGSYDNEGIAIFCMLLTYYMWIKA-----  186
+
+Query  186  GHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKN  245
+                   +    + +     +     V SWG    +  +I   +    +   F      +
+Sbjct  187  -------VKTGSICWAAKCALAYFYMVSSWGGYVFLINLIPLHVLVLMLTGRF-----SH  234
+
+Query  246  LSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLV-LLGSAVIAAAFYQIEKWNDVG  304
+               VA  T      I L    ++ GF  +  S       + G   I A    +    +  
+Sbjct  235  RIYVAYCTVYCLGTI-LSMQISFVGFQPVLSSEHMAAFGVFGLCQIHAFVDYLRSKLNPQ  293
+
+Query  305  FFERVGLGRKGMPLAVIVLT---ALIM---------GLFF-VISPDFARNLLSVVRVVQP  351
+             FE   L R  + L   VL    AL+M         G F+ ++ P +A+N + ++     
+Sbjct  294  QFEV--LFRSVISLVGFVLLTVGALLMLTGKISPWTGRFYSLLDPSYAKNNIPII-----  346
+
+Query  352  KGGALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALL  411
+                 +++E  P         T ++       L F    G+ Y         S   + ++
+Sbjct  347  ----ASVSEHQP--------TTWSSYYFDLQLLVFMFPVGLYYCFSNL----SDARIFII  390
+
+Query  412  IWAIAMFIALWGQNRFAYYFAAVSAVYSALALSVV---FDKLHLYRALENAIGARNKLSY  468
+            ++ +          R     A V  + S + +S V   + K       +     +   +Y
+Sbjct  391  MYGVTSMYFSAVMVRLMLVLAPVMCILSGIGVSQVLSTYMKNLDISRPDKKSKKQQDSTY  450
+
+Query  469  ---FRVAFALLIALA------AIYPTYILADAQSSYA------GGPNKQ-----WYDALT  508
+                 VA  +++ +A        + T++ ++A SS +      GG   +     + +A  
+Sbjct  451  PIKNEVASGMILVMAFFLITYTFHSTWVTSEAYSSPSIVLSARGGDGSRIIFDDFREAYY  510
+
+Query  509  WMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIAN  568
+            W+R NTP+  K                           V+SWWDYG+ I A+A+R  + +
+Sbjct  511  WLRHNTPEDAK---------------------------VMSWWDYGYQITAMANRTILVD  543
+
+Query  569  PFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVSDIEMETGKYYAMAVWAE  627
+                   N +NN   +      A  E  A  +  +L+V YV+         +  +  ++ 
+Sbjct  544  ------NNTWNNTHISRVGQAMASTEEKAYEIMRELDVSYVLV-------IFGGLTGYSS  590
+
+Query  628  GDLPL------------AEKYYGGYFYYSPTGTFGYANSQWDIPLNSII  664
+             D+                K+     YY+PTG F        + LN ++
+Sbjct  591  DDINKFLWMVRIGGSTDTGKHIKENDYYTPTGEFRVDREGSPVLLNCLM  639
+
+
+> sp|F1PJP5|STT3A_CANLF Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Canis lupus familiaris 
+OX=9615 GN=STT3A PE=1 SV=3
+Length=705
+
+ Score = 147 bits (371),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 141/709 (20%), Positives = 258/709 (36%), Gaps = 147/709 (21%)
+
+Query  14   LSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYR----LIENTIHNFPHRIWFD  69
+            L +L +AA++S   R+     +V  +   +   DP++ YR    L E   + F +  WFD
+Sbjct  20   LLILSMAAVLSFSTRLF----AVLRFESVIHEFDPYFNYRTTRFLAEEGFYKFHN--WFD  73
+
+Query  70   PFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFI-PAIGGVLAILPVY  125
+               +YP G     T +   ++   +I  ++        +R V  F+ P       I+  Y
+Sbjct  74   DRAWYPLGRIIGGTIYPGLMITSAAIYHVLHFFHITIDIRNVCVFLAPLFSSFTTIV-TY  132
+
+Query  126  LLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWK  185
+             LT+E+ D  A ++AA +IA+VPG ++ RS+ G  D+     F  +     ++ A     
+Sbjct  133  HLTKELKDAGAGLLAAAMIAVVPG-YISRSVAGSYDNEGIAIFCMLLTYYMWIKA-----  186
+
+Query  186  GHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKN  245
+                   +    + +     +     V SWG    +  +I   +    +   F      +
+Sbjct  187  -------VKTGSIYWAAKCALAYFYMVSSWGGYVFLINLIPLHVLVLMLTGRF-----SH  234
+
+Query  246  LSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLV-LLGSAVIAAAFYQIEKWNDVG  304
+               VA  T      I L    ++ GF  +  S       + G   I A    +    +  
+Sbjct  235  RIYVAYCTVYCLGTI-LSMQISFVGFQPVLSSEHMAAFGVFGLCQIHAFVDYLRSKLNPQ  293
+
+Query  305  FFERVGLGRKGMPLAVIVLT---ALIM---------GLFF-VISPDFARNLLSVVRVVQP  351
+             FE   L R  + L   VL    AL+M         G F+ ++ P +A+N + ++     
+Sbjct  294  QFEV--LFRSVISLVGFVLLTVGALLMLTGKISPWTGRFYSLLDPSYAKNNIPII-----  346
+
+Query  352  KGGALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALL  411
+                 +++E  P         T ++       L F    G+ Y         S   + ++
+Sbjct  347  ----ASVSEHQP--------TTWSSYYFDLQLLVFMFPVGLYYCFSNL----SDARIFII  390
+
+Query  412  IWAIAMFIALWGQNRFAYYFAAVSAVYSALALSVV---FDKLHLYRALENAIGARNKLSY  468
+            ++ +          R     A V  + S + +S V   + K       +     +   +Y
+Sbjct  391  MYGVTSMYFSAVMVRLMLVLAPVMCILSGIGVSQVLSTYMKNLDISRPDKKSKKQQDSTY  450
+
+Query  469  ---FRVAFALLIALA------AIYPTYILADAQSSYA------GGPNKQ-----WYDALT  508
+                 VA  +++ +A        + T++ ++A SS +      GG   +     + +A  
+Sbjct  451  PIKNEVASGMILVMAFFLITYTFHSTWVTSEAYSSPSIVLSARGGDGSRIIFDDFREAYY  510
+
+Query  509  WMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIAN  568
+            W+R NTP+  K                           V+SWWDYG+ I A+A+R  + +
+Sbjct  511  WLRHNTPEDAK---------------------------VMSWWDYGYQITAMANRTILVD  543
+
+Query  569  PFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVSDIEMETGKYYAMAVWAE  627
+                   N +NN   +      A  E  A  +  +L+V YV+         +  +  ++ 
+Sbjct  544  ------NNTWNNTHISRVGQAMASTEEKAYEIMRELDVSYVLV-------IFGGLTGYSS  590
+
+Query  628  GDLPL------------AEKYYGGYFYYSPTGTFGYANSQWDIPLNSII  664
+             D+                K+   + YY+PTG F        + LN ++
+Sbjct  591  DDINKFLWMVRIGGSTDTGKHIKEHDYYTPTGEFRVDREGSPVLLNCLM  639
+
+
+> sp|P46978|STT3A_MOUSE Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Mus musculus OX=10090 
+GN=Stt3a PE=1 SV=1
+Length=705
+
+ Score = 146 bits (367),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 140/709 (20%), Positives = 257/709 (36%), Gaps = 147/709 (21%)
+
+Query  14   LSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYR----LIENTIHNFPHRIWFD  69
+            L +L +AA++S   R+     +V  +   +   DP++ YR    L E   + F +  WFD
+Sbjct  20   LLILSMAAVLSFSTRLF----AVLRFESVIHEFDPYFNYRTTRFLAEEGFYKFHN--WFD  73
+
+Query  70   PFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFI-PAIGGVLAILPVY  125
+               +YP G     T +   ++   +I  ++        +R V  F+ P       I+  Y
+Sbjct  74   DRAWYPLGRIIGGTIYPGLMITSAAIYHVLHFFHITIDIRNVCVFLAPLFSSFTTIV-TY  132
+
+Query  126  LLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWK  185
+             LT+E+ D  A ++AA +IA+VPG ++ RS+ G  D+     F  +     ++ A     
+Sbjct  133  HLTKELKDAGAGLLAAAMIAVVPG-YISRSVAGSYDNEGIAIFCMLLTYYMWIKA-----  186
+
+Query  186  GHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKN  245
+                   +    + +     +     V SWG    +  +I   +    +   F      +
+Sbjct  187  -------VKTGSIYWAAKCALAYFYMVSSWGGYVFLINLIPLHVLVLMLTGRF-----SH  234
+
+Query  246  LSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLV-LLGSAVIAAAFYQIEKWNDVG  304
+               VA  T      I L    ++ GF  +  S       + G   I A    +    +  
+Sbjct  235  RIYVAYCTVYCLGTI-LSMQISFVGFQPVLSSEHMAAFGVFGLCQIHAFVDYLRSKLNPQ  293
+
+Query  305  FFERVGLGRKGMPLAVIVLT---ALIM---------GLFF-VISPDFARNLLSVVRVVQP  351
+             FE   L R  + L   VL    AL+M         G F+ ++ P +A+N + ++     
+Sbjct  294  QFEV--LFRSVISLVGFVLLTVGALLMLTGKISPWTGRFYSLLDPSYAKNNIPII-----  346
+
+Query  352  KGGALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALL  411
+                 +++E  P         T ++       L F    G+ Y         S   + ++
+Sbjct  347  ----ASVSEHQP--------TTWSSYYFDLQLLVFMFPVGLYYCFSNL----SDARIFII  390
+
+Query  412  IWAIAMFIALWGQNRFAYYFAAVSAVYSALALSVV---FDKLHLYRALENAIGARNKLSY  468
+            ++ +          R     A V  + S + +S V   + K       +     +   +Y
+Sbjct  391  MYGVTSMYFSAVMVRLMLVLAPVMCILSGIGVSQVLSTYMKNLDISRPDKKSKKQQDSTY  450
+
+Query  469  ---FRVAFALLIALA------AIYPTYILADAQSSYA------GGPNKQ-----WYDALT  508
+                 VA  +++ +A        + T++ ++A SS +      GG   +     + +A  
+Sbjct  451  PIKNEVASGMILVMAFFLITYTFHSTWVTSEAYSSPSIVLSARGGDGSRIIFDDFREAYY  510
+
+Query  509  WMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIAN  568
+            W+R NTP+  K                           V+SWWDYG+ I A+A+R  + +
+Sbjct  511  WLRHNTPEDAK---------------------------VMSWWDYGYQITAMANRTILVD  543
+
+Query  569  PFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVSDIEMETGKYYAMAVWAE  627
+                   N +NN   +      A  E  A  +  +L+V YV+         +  +  ++ 
+Sbjct  544  ------NNTWNNTHISRVGQAMASTEEKAYEIMRELDVSYVLV-------IFGGLTGYSS  590
+
+Query  628  GDLPL------------AEKYYGGYFYYSPTGTFGYANSQWDIPLNSII  664
+             D+                ++     YY+PTG F        + LN ++
+Sbjct  591  DDINKFLWMVRIGGSTETGRHIKENDYYTPTGEFRVDREGSPVLLNCLM  639
+
+
+> sp|Q9FX21|STT3B_ARATH Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Arabidopsis thaliana 
+OX=3702 GN=STT3B PE=2 SV=1
+Length=735
+
+ Score = 140 bits (353),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 112/628 (18%), Positives = 219/628 (35%), Gaps = 84/628 (13%)
+
+Query  14   LSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYR----LIENTIHNFPHRIWFD  69
+            +S+L +  +++   R+     SV  +   +   DP++ YR    L E   + F +  WFD
+Sbjct  43   ISILGLVYILAFIARLF----SVLRYESMIHEFDPYFNYRTTLFLTEKGFYEFWN--WFD  96
+
+Query  70   PFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYL  126
+              ++YP G     T +   +V    I   +        +R V             L  Y 
+Sbjct  97   SESWYPLGRIIGGTLYPGLMVTAALIYWTLRFLRFFVHIREVCVLTAPFFASNTTLVAYF  156
+
+Query  127  LTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKG  186
+              +E++D  A ++AA LIAI PG ++ RS+ G  D+     F  +     F+ A N    
+Sbjct  157  FGKELWDTGAGLVAAVLIAICPG-YISRSVAGSYDNEAVAIFALLLTFYLFVKAVN----  211
+
+Query  187  HDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNL  246
+                       +A+ + +       V +WG    I  ++  ++    +   +        
+Sbjct  212  --------TGSLAWALASAFGYFYMVSAWGGYVFIINLVPLYVLVLLITGRYSMR-----  258
+
+Query  247  SLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIE----KWND  302
+              +A     +  ++ L     + GF  +     + +  +G  ++   FY ++    + ND
+Sbjct  259  LYIAYNCMYILGML-LAMQIRFVGFQHVQSG--EHMGAMGVFLLMQVFYFLDWVKYQLND  315
+
+Query  303  VGFFERVGLGRKGMPLAVIVLTALIMGLFFVISPDFAR--NLLSVVRVVQPKGGALTIAE  360
+               F+          + V  +   +      ISP   R  +LL             +++E
+Sbjct  316  TKLFQTFLRITVTSAILVGGVAVGVGTASGYISPWTGRFYSLLDPTYAKDHIPIIASVSE  375
+
+Query  361  VYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIA  420
+              P           ++ +  +  L F   AG+ +   R      F    ++++ +     
+Sbjct  376  HQP--------TAWSSFMFDYHILLFLFPAGLYFCFKRLTDATIF----IVMYGLTSLYF  423
+
+Query  421  LWGQNRFAYYFAAVSAVYSALALSVVFDKLHLYRALENAI-------GARNKLSYFRVA-  472
+                 R          + SA+A+S     L      +  +       GA +  +  +V  
+Sbjct  424  AGVMVRLILVATPAVCLISAIAVSATIKNLTSLLRTKQKVSQTGSTKGAGSSKASSKVTL  483
+
+Query  473  -----FALLIALAAIYPTYILADAQSSYAGGPNKQWYDALTWMRENTPDGEKYD----EY  523
+                 F    A+A +   + L    + +      + Y + + +      G   +    + 
+Sbjct  484  DQSQPFQKNGAIALLVGVFYLLSRYAIHCTWVTAEAYSSPSIVL--AARGAHGNRIIFDD  541
+
+Query  524  YLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPG  583
+            Y + Y   + N            ++SWWDYG+ I A+ +R  I +       N +NN   
+Sbjct  542  YREAYYWLRQNTAT------DAKIMSWWDYGYQITAMGNRTVIVD------NNTWNNTHI  589
+
+Query  584  AS-SFFTAENESYAEFVAEKLNVKYVVS  610
+            A+     +  E  A  +   L+V YV+ 
+Sbjct  590  ATVGRAMSSYEDDAYDIMRSLDVNYVLV  617
+
+
+> sp|Q6F2Z1|STT3A_ORYSJ Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Oryza sativa subsp. 
+japonica OX=39947 GN=STT3A PE=2 SV=1
+Length=787
+
+ Score = 140 bits (352),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 86/441 (20%), Positives = 159/441 (36%), Gaps = 38/441 (9%)
+
+Query  17   LVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRIW--FDPFTYY  74
+            L++  +++  +R+     SV  +   +   DP++ +R+ +    N  +  W  FD  T+Y
+Sbjct  29   LLLIGVLAFSIRLF----SVIKYESVIHEFDPYFNFRVTQFLSKNGIYEFWNWFDDRTWY  84
+
+Query  75   PYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYLLTREV  131
+            P G     T +    +  G+I  ++ S     S+  V  F   I    A    YLLT+E 
+Sbjct  85   PLGRVIGGTVYPGLTLTAGTIWWLLNSLNIPLSVETVCVFTAPIFSANASWATYLLTKEA  144
+
+Query  132  FDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGHDLSH  191
+                A ++AA ++A+VP  ++ RS+ G  D+     F  +     ++   N         
+Sbjct  145  KGTGAGLMAAAILAMVP-SYISRSVAGSYDNEAVAIFALIFTFYLYVKTLN---------  194
+
+Query  192  NLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLSLVAV  251
+                  + Y  +  ++    V SWG    I  +I   +    V      + R  ++   +
+Sbjct  195  ---TGSLFYATLNALSYFYMVCSWGGYTFIINLIPIHVLLCIVTG--RYSSRLYIAYAPL  249
+
+Query  252  VTFAVSALIYLP-FAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIE-KWNDVGFFERV  309
+            V         +P   FN    S  F S    ++L   A++      +  +   V     +
+Sbjct  250  VILGTLLAALVPVVGFNAVMTSEHFASFLVFIILHVVALVYYIKGLLTPRLFKVAMTLVI  309
+
+Query  310  GLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAEVYPFFFTHN  369
+             +G       + +L AL+           + +LL      +      +++E  P      
+Sbjct  310  TVGLAVCFAVIAILIALVASSPTKGWSGRSLSLLDPTYASKYIPIIASVSEHQP------  363
+
+Query  370  GEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIALWGQNRFAY  429
+               T  +  +    L F   AGI+          SF  + L+       + +    R   
+Sbjct  364  --PTWPSYFMDINVLAFLIPAGIISCFLPLSDASSFVVLYLVTAVYFSGVMV----RLML  417
+
+Query  430  YFAAVSAVYSALALSVVFDKL  450
+              A  + + S +ALS  FD L
+Sbjct  418  VLAPAACILSGIALSEAFDVL  438
+
+
+> sp|Q7XQ88|STT3B_ORYSJ Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Oryza sativa subsp. 
+japonica OX=39947 GN=STT3B PE=2 SV=2
+Length=721
+
+ Score = 134 bits (338),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 111/629 (18%), Positives = 220/629 (35%), Gaps = 87/629 (14%)
+
+Query  14   LSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRIW--FDPF  71
+            +S L +  +++  +R+     SV  +   +   DP++ YR       +     W  FD  
+Sbjct  30   VSALALIYVLAFVVRLF----SVLRYESMIHEFDPYFNYRTTLFLSDHGFSEFWNWFDFE  85
+
+Query  72   TYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYLLT  128
+            ++YP G     T F   +V    +  ++ + +    +R V             L  Y   
+Sbjct  86   SWYPLGRVVGGTLFPGLMVTAALLHRLLRALSLAVHIREVCVLTAPFFAANTTLVAYAFG  145
+
+Query  129  REVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGHD  188
+            RE++D  A ++AA LIA+ PG ++ RS+ G  D+     F  +     F+ A N      
+Sbjct  146  REIWDSGAGLVAAALIAVCPG-YISRSVAGSYDNEGVAIFALLLTFYLFVRAVN------  198
+
+Query  189  LSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLSL  248
+                     +A+ + +       V +WG    I  ++  ++    V   +          
+Sbjct  199  ------TGSLAWSLASAFGYFYMVSAWGGYVFIINLLPLYVLVLLVTGRYSQR-----LY  247
+
+Query  249  VAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKW--NDVGFF  306
+            VA  +  V  ++ L     + GF  +        + +   +    F    K+  ND   F
+Sbjct  248  VAYNSTYVLGML-LAMQIRFVGFQHVQSGEHMAAMGVFFLLQVFFFLDWVKYLLNDAKLF  306
+
+Query  307  ER-----------VGLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGGA  355
+            +            VG    G+  A   ++      + ++ P +A++ + ++         
+Sbjct  307  KSFLRITLTCVITVGTLALGIGTASGYISPWTGRFYSLLDPTYAKDHIPII---------  357
+
+Query  356  LTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAI  415
+             +++E  P           ++ +  F  L F   AG+ +   R     S   + ++++ +
+Sbjct  358  ASVSEHQP--------TAWSSFMFDFHILLFLFPAGLYFCFKRL----SDATIFIVMYGL  405
+
+Query  416  AMFIALWGQNRFAYYFAAVSAVYSALALSVVFDKL-HLYRALENAIGARNKLSYFRVAFA  474
+                      R     A    + SA+A S     L  L R    +    +  S    A A
+Sbjct  406  TSMYFAGVMVRLILVAAPAVCLISAIAASATIKNLTTLIRTKSKSPQTVSGKSSGSKAAA  465
+
+Query  475  L------------LIALAAIYPTYILADAQSSYAGGPNKQWYD-ALTWMRENTPDGEKYD  521
+                         +     +   Y+L+          ++ +   ++         G    
+Sbjct  466  KGAVDQSLPFQQNVAIALLLGAFYLLSRYAVHCTWVTSEAYSSPSIVLAARGHNGGRVIF  525
+
+Query  522  EYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNV  581
+            + Y + Y   + N      P +   ++SWWDYG+ I A+ +R  I +       +     
+Sbjct  526  DDYREAYYWLRQNT-----PSDA-KIMSWWDYGYQITAMGNRTVIVDNNTWNNTHIATVG  579
+
+Query  582  PGASSFFTAENESYAEFVAEKLNVKYVVS  610
+               SS+   E+E+Y   + + L+V YV+ 
+Sbjct  580  RAMSSY---EDEAYE--IMQSLDVNYVLV  603
+
+
+> sp|Q93ZY3|STT3A_ARATH Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Arabidopsis thaliana 
+OX=3702 GN=STT3A PE=2 SV=1
+Length=779
+
+ Score = 131 bits (329),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 93/455 (20%), Positives = 164/455 (36%), Gaps = 41/455 (9%)
+
+Query  1    MQNAESWFKKYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIH  60
+            M+NA   F     + +LV+  +++  +R+     SV  +   +   DP++ YR+ +    
+Sbjct  15   MRNA---FGNVLSVLILVLIGVLAFSIRLF----SVIKYESVIHEFDPYFNYRVTQFLSK  67
+
+Query  61   NFPHRIW--FDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAI  115
+            N  +  W  FD  T+YP G     T +    +  G+I   + S     S+  V  F   +
+Sbjct  68   NGIYEFWNWFDDRTWYPLGRVIGGTVYPGLTLTAGTIWWGLNSLNIPLSVETVCVFTAPV  127
+
+Query  116  GGVLAILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALG  175
+                A    YLLT+EV    A + AA L+A+VP  ++ RS+ G  D+     F  +    
+Sbjct  128  FSAFASWATYLLTKEVKGSGAGLAAAALLAMVP-SYISRSVAGSYDNEAVAIFALIFTFY  186
+
+Query  176  TFLLAYNRWKGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVL  235
+             ++   N               + Y  +  +     V SWG    I  +I   +    V 
+Sbjct  187  LYIKTLN------------TGSLFYATLNALAYFYMVCSWGGYTFIINLIPMHVLLCIVT  234
+
+Query  236  AGFVNADRKNLSLVAVVTFAVSALIYLP-FAFNYPGFSTIFYSPFQLLVLLGSAVIAAAF  294
+                 + R  ++   +V         +P   FN    S  F S    +++   A++    
+Sbjct  235  G--RYSPRLYIAYAPLVVLGTLLAALVPVVGFNAVLTSEHFASFLVFIIIHVVALVYYIK  292
+
+Query  295  YQIE-KWNDVGFFERVGLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKG  353
+              +  K   V     V +G     + V +L AL+           + +LL      +   
+Sbjct  293  GILSPKMFKVAVTLVVSIGMVVCFIVVAILVALVASSPTGGWSGRSLSLLDPTYASKYIP  352
+
+Query  354  GALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIW  413
+               +++E  P         T  +  +    L F   AGI+          SF    ++++
+Sbjct  353  IIASVSEHQP--------PTWPSYFMDINVLAFLVPAGIIACFSPLSDASSF----VVLY  400
+
+Query  414  AIAMFIALWGQNRFAYYFAAVSAVYSALALSVVFD  448
+             +          R     A  + + S +ALS  FD
+Sbjct  401  IVMSVYFSGVMVRLMLVLAPAACIMSGIALSQAFD  435
+
+
+> sp|Q2EMT4|AGLB_METVO Dolichyl-phosphooligosaccharide-protein 
+glycotransferase OS=Methanococcus voltae OX=2188 GN=aglB PE=1 
+SV=1
+Length=917
+
+ Score = 64.3 bits (155),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 86/472 (18%), Positives = 162/472 (34%), Gaps = 84/472 (18%)
+
+Query  39   WTVRLGGNDPWYYYRLIENTIHNFP----------HRIWFDPFTYYPYGSYTHFGPFLVY  88
+              + L   DP+YY R+ EN + N             ++ +D + Y P G+   F    V 
+Sbjct  76   GRMYLTALDPYYYLRMSENYLENGHTGDTLKNIDGQQVPWDSYKYGPTGARATFNLLSVV  135
+
+Query  89   LGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYLLTREV-FDKRAAVIAAFLIAIV  147
+               +  +  +  S  +L     ++PAI  +  I P++   R +        +AA L ++ 
+Sbjct  136  TVWVYQVWHAMDSTVTLMNAAFWVPAILSMFLITPIFFTVRRITSSDIGGAVAAILASLS  195
+
+Query  148  PGQFLQRSILGFNDHHIWE--AFWQVSALGTFLLAYNRWKGHDLSHNLTARQMAYPVIAG  205
+            P  F+ +++ GF+D  I E      +       + Y++ K +        + + Y ++A 
+Sbjct  196  PSIFV-KTVAGFSDTPILEILPLLFIVWFIIEAIHYSKEKNY--------KSLIYGLLAT  246
+
+Query  206  ITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLSLVAVVTFAVSALIYLPFA  265
+            + + LY   W A +    I++AF+    +  G         S  ++  +  S        
+Sbjct  247  LMLALYPFMWSAWWYGYYIVIAFLVIYAIYKGI--------SYNSIAKYTKSKNNNHKDK  298
+
+Query  266  FNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVGFFERVGLGRKGMPLAVIVLTA  325
+                    +       L ++G AV+  A Y +                         + A
+Sbjct  299  IESEKLEMLNILKISGLFIIGGAVLITALYGVS----------------------TTMNA  336
+
+Query  326  LIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAEVYPFFFTHNGEFTLTNAVLHFGALF  385
+            L   L ++   + +                 T++E+           +L +       LF
+Sbjct  337  LQAPLNYLGLDEVSSQ-------TGWPNVLTTVSELDTASLDEIISSSLGSI-----HLF  384
+
+Query  386  FFGMAGILYSAYRFL-------------KRRSFPEMALLIWAIAMFIALWGQNRFAYYFA  432
+              G+ GI  S +R +             K      + L+IW    F+A     RF     
+Sbjct  385  AIGLIGIFLSLFRKVLTPVKQISNGLAEKLDIKYALLLIIWFAVTFLAASKGVRF-----  439
+
+Query  433  AVSAVYSALALSV-VFDKLHLYRALENAIGARNKLSYFRVAFALLIALAAIY  483
+             V+ +   L++ V +F          N       ++Y  +A  +L AL  IY
+Sbjct  440  -VALMVPPLSIGVGIFVGFIEQFIKNNLDKKYEYVAYPTIAIIVLYALFTIY  490
+
+
+> sp|Q58920|Y1525_METJA Uncharacterized membrane protein MJ1525 
+OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1525 PE=3 
+SV=1
+Length=933
+
+ Score = 53.9 bits (128),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 127/637 (20%), Positives = 216/637 (34%), Gaps = 117/637 (18%)
+
+Query  39   WTVRLGGNDPWYYYRLIENTIHNFP----------HRIWFDPFTYYPYGSYTHF--GPFL  86
+              + L   DP+YY RL EN  +N                +D + Y P G    +      
+Sbjct  66   GRMYLLALDPYYYLRLSENLYNNGHCGDTIKVVDGKETPYDLYQYAPPGHPLPWEPPVIC  125
+
+Query  87   VYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYLLTREVFDKRAAVIAAFLIAI  146
+            +   +I  I  S     ++     ++PA+ G+L  +P+Y + R V +     IA  +  I
+Sbjct  126  LATLAIYYIWHSIDLTVTIMNAAFWVPAVLGMLLGIPIYFVVRRVTNSNIGGIAGAIALI  185
+
+Query  147  VPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGHDLSHNLTARQMAYPV----  202
+                 L ++  GF D  I+E    +  +   L + +  +   L        ++  V    
+Sbjct  186  SAPGLLYKTCAGFADTPIFEVLPILFIVWFILESIHSQEKTALFKKDLKNPISLFVIAAL  245
+
+Query  203  IAGITIGLYV-LSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLSLVAVVTFAVSALIY  261
+            I  + IG Y+ ++ G   +IA I+   +  AF+LAG + A  K L     + F + AL+ 
+Sbjct  246  IIELIIGAYLNIASGESVVIASILFYTVSLAFILAGLIIAGIKKLK-GNELEFELFALLA  304
+
+Query  262  LPFAFNYPG-FSTIFYSPFQLLVLLGSAVIAAAF----YQIEKWNDVGFFERVGLGRKGM  316
+            +      P  +   +Y    +   L   +IA A      +I+++ ++G  + +       
+Sbjct  305  VILTAVSPKMWGAWWYGFDVITAFLVIYIIALALLKSQVKIKEFINIGNLKNIVYLSIFY  364
+
+Query  317  PLAVIVLTALIMGLFFVISP-----DFARNLLSVVRVVQPKGGALTIAE-VYPFFFTHNG  370
+                 VL   I G+   ISP      + + L +  +         T+AE   P  ++   
+Sbjct  365  IFGSFVLLVAIYGMGIAISPITSPLGYNQILSTYTQTTGWPNVYTTVAELAKPSSWSEIF  424
+
+Query  371  EFTLTN----AVLHFGALF---------------FFGMAGILYSA--YRFLKRRSFPEMA  409
+               + +     V   G L                +  +  I  +   Y   K   F  +A
+Sbjct  425  TNAIGSDTIAIVGILGILLSFLSLRYEKVKLDIKYSILLAIWLAVTLYAATKGIRFAALA  484
+
+Query  410  LLIWAIAMFIALWGQNRF------------------------AYYFAAVSAVY-------  438
+                AI + I +    RF                        + Y A +S +        
+Sbjct  485  TPPLAIGLGIFVGQLERFLKMKSDIAIFGIGIPAGIFGLLILSKYSAKISQILLPTTYVP  544
+
+Query  439  -SALALSVVFDKLHLYRALENAIGARN--KLSYFRVAFALLIALAAIYPTYILADAQSSY  495
+              A    +V   L +Y+ + + I   N  K +  +V+  LL     I P  + A    S 
+Sbjct  545  IIAYGFLIVLALLAIYK-ISDIISTLNDKKETIIKVSTLLLCIGVVIPP--LSAVVPFSV  601
+
+Query  496  AGGPNKQWYDALTWMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGH  555
+            A   N  W + L W++ NTP+                              +  WWD GH
+Sbjct  602  APTFNNGWKEGLDWIKANTPNNSV---------------------------ITCWWDNGH  634
+
+Query  556  WIEAVAHRMPIANPFQAGIGNKYNNVPGASSFFTAEN  592
+                 A RM     F  G  N         +F T+  
+Sbjct  635  IYTYEARRMVT---FDGGSQNSPRAYWVGRAFATSNE  668
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.131    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0404    0.140     1.90     42.6     43.6 
+
+Effective search space used: 95541189939
+Results from round 3
+
+
+Query= O29867|3wajA
+
+Length=868
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|D4GYH4|AGLB_HALVD Dolichyl-monophosphooligosaccharide--prote...  637     0.0   
+  sp|Q3TDQ1|STT3B_MOUSE Dolichyl-diphosphooligosaccharide--protei...  586     0.0   
+  sp|E2RG47|STT3B_CANLF Dolichyl-diphosphooligosaccharide--protei...  581     0.0   
+  sp|Q8TCJ2|STT3B_HUMAN Dolichyl-diphosphooligosaccharide--protei...  577     0.0   
+  sp|P46975|STT3_CAEEL Dolichyl-diphosphooligosaccharide--protein...  559     0.0   
+  sp|F1PJP5|STT3A_CANLF Dolichyl-diphosphooligosaccharide--protei...  535     4e-177
+  sp|Q2KJI2|STT3A_BOVIN Dolichyl-diphosphooligosaccharide--protei...  534     8e-177
+  sp|Q5RCE2|STT3A_PONAB Dolichyl-diphosphooligosaccharide--protei...  533     2e-176
+  sp|P46977|STT3A_HUMAN Dolichyl-diphosphooligosaccharide--protei...  533     2e-176
+  sp|P46978|STT3A_MOUSE Dolichyl-diphosphooligosaccharide--protei...  533     4e-176
+  sp|P39007|STT3_YEAST Dolichyl-diphosphooligosaccharide--protein...  529     1e-174
+  sp|O94335|STT3_SCHPO Dolichyl-diphosphooligosaccharide--protein...  529     5e-174
+  sp|Q54NM9|STT3_DICDI Dolichyl-diphosphooligosaccharide--protein...  520     4e-171
+  sp|Q9FX21|STT3B_ARATH Dolichyl-diphosphooligosaccharide--protei...  507     7e-166
+  sp|Q93ZY3|STT3A_ARATH Dolichyl-diphosphooligosaccharide--protei...  492     1e-159
+  sp|Q7XQ88|STT3B_ORYSJ Dolichyl-diphosphooligosaccharide--protei...  490     3e-159
+  sp|Q6F2Z1|STT3A_ORYSJ Dolichyl-diphosphooligosaccharide--protei...  423     7e-133
+  sp|Q58920|Y1525_METJA Uncharacterized membrane protein MJ1525 O...  352     4e-105
+  sp|Q2EMT4|AGLB_METVO Dolichyl-phosphooligosaccharide-protein gl...  286     3e-81 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q5HTX9|PGLB_CAMJR Undecaprenyl-diphosphooligosaccharide--pro...  73.7    4e-12
+  sp|Q0P9C8|PGLB_CAMJE Undecaprenyl-diphosphooligosaccharide--pro...  73.3    6e-12
+  sp|B9KDD4|PGLB_CAMLR Undecaprenyl-diphosphooligosaccharide--pro...  59.9    8e-08
+
+
+> sp|D4GYH4|AGLB_HALVD Dolichyl-monophosphooligosaccharide--protein 
+glycotransferase AglB OS=Haloferax volcanii (strain ATCC 
+29605 / DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM 
+B-1768 / DS2) OX=309800 GN=aglB PE=1 SV=1
+Length=1054
+
+ Score = 637 bits (1643),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 232/955 (24%), Positives = 383/955 (40%), Gaps = 169/955 (18%)
+
+Query  9    KKYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRIWF  68
+            + ++H+ VL    L+ + +R+ +    +   TV   GND WY+ R +E T+ N+P  + F
+Sbjct  17   RDWYHIPVLSTIILVMLWIRLRSYDAFIREGTVFFSGNDAWYHLRQVEYTVRNWPATMPF  76
+
+Query  69   DPFTYYPYGS-YTHFGPFLVYLGSIAGIIFSA--TSGESLRAVLAFIPAIGGVLAILPVY  125
+            DP+T +P+G     FG     L + A ++      S + +   L   PA+ G L ++P Y
+Sbjct  77   DPWTEFPFGRTAGQFGTIYDQLVATAALVVGLGSPSSDLVAKSLLVAPAVFGALTVIPTY  136
+
+Query  126  LLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQ---VSALGTFLLAYN  182
+            L+ + +  +   +  A ++ ++PG FLQR ++GF DH+I E F+    V A+   L   +
+Sbjct  137  LIGKRLGGRLGGLFGAVILMLLPGTFLQRGLVGFADHNIVEPFFMGFAVLAIMIALTVAD  196
+
+Query  183  RWKG-----HDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAG  237
+            R K           +     + + V+AG+   +Y+ SW  G ++  I   F+        
+Sbjct  197  REKPVWELVAARDLDALREPLKWSVLAGVATAIYMWSWPPGILLVGIFGLFLVLKMASDY  256
+
+Query  238  FVNADRKNLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQI  297
+                  ++ + V  ++  V+ L+        PGF    +   Q L  LG A+ A     +
+Sbjct  257  VRGRSPEHTAFVGAISMTVTGLLMF-IPIEEPGFGVTDFGFLQPLFSLGVALGAVFLAAL  315
+
+Query  298  EKWNDV-GFFERVGLGRKG-MPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGGA  355
+             +W +     ER      G   L  IVL +L++   F      ARN L   R V    GA
+Sbjct  316  ARWWESNDVDERYYPAVVGGTMLVGIVLFSLVLPSVF---DSIARNFL---RTVGFSAGA  369
+
+Query  356  LT--IAEVYPFF----FTHNGEFTLTNAVLHFGALFFFG---------------------  388
+             T  I+E  PF        NG+  +   +  +G  FF G                     
+Sbjct  370  ATRTISEAQPFLAANVLQSNGQTAVGRIMSEYGFTFFTGALAAVWLVAKPLVKGGNSRKI  429
+
+Query  389  --------MAGILYSAYRFLKRR-----------------------------SFPEMALL  411
+                    + G+L+                                          + +L
+Sbjct  430  GYAVGSLALIGVLFLIPALPAGIGSALGVEPSLVSLTIVTALIVGAVMQADYESERLFVL  489
+
+Query  412  IWAIAMFIALWGQNRFAYYFAAVSAVYSAL----ALSVVFDKLHLYRALENAIGARNKLS  467
+            +WA  +  A + Q RF YY A V AV +A     AL + F  L      ++       +S
+Sbjct  490  VWAAIITSAAFTQVRFNYYLAVVVAVMNAYLLREALGIDFVGLANVERFDD-------IS  542
+
+Query  468  YFRVAFALLIALAAIYPTYIL-----------ADAQSSYAG-GPNKQWYDALTWMRENTP  515
+            Y +VA  ++  L  + P  I+              Q+S  G G   QW  +LTWM+ NTP
+Sbjct  543  YGQVAAVVIAVLLILTPVLIIPIQLGNGGVSQTAMQASQTGPGTVTQWDGSLTWMQNNTP  602
+
+Query  516  -DGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGI  574
+             +GE   E     Y       + F YP   YGV+SWWDYGHWI  +  R+P ANPFQ G 
+Sbjct  603  AEGEFGGESNRMEYYGTYEYTDDFDYPDGAYGVMSWWDYGHWITVLGERIPNANPFQGGA  662
+
+Query  575  GNKYNNVPGASSFFTAENESYAEFVA-------EKLNVKYVVSDIEMET--GKYYAMAV-  624
+                     A+++  AE+E  AE V        E    +YV+ D +M +   K+ A  V 
+Sbjct  663  TE-------AANYLLAEDEQQAESVLTSMGDDGEGDQTRYVMVDWQMASTDAKFSAPTVF  715
+
+Query  625  WAEGDLPLAEKYYGGYFYYSPTGTFGYANSQWDIPLNSIIIPLRIPSELYYSTMEAKLHL  684
+            + E ++  ++       +Y+P         Q  +   S +   R     YY ++  +L+ 
+Sbjct  716  YDESNISRSD-------FYNPMFRLQEQGEQTTVAAASSLKDQR-----YYESLMVRLYA  763
+
+Query  685  FDGSGLSHYRMIYESDYPAEWKSYSSQVNLNNESQVLQTALYEAVMRARYGVSPT-----  739
+            + GS      ++ + +        ++     ++ Q ++T    +         PT     
+Sbjct  764  YHGSAREASPIVVDWEERTSADGSTTFRVTPSDGQAVRTFDNMSAAEEYVANDPTSQIGG  823
+
+Query  740  MGT--QEVLYKYAYTQL-------------YEKKM-------GI-PVKIAPS--GYVKIF  774
+            +GT  +E +    + +L             Y++ +       G+ P  + P+   +VK F
+Sbjct  824  IGTFPEERVSALEHYRLVKSSNSSALRSGSYQRSLISEGNTYGLQPQALVPNNPAWVKTF  883
+
+Query  775  ERVKGAVVTGKVSANVTEVSVNATIKTNQNRT-FEYWQTVEVK-NGTYTVVLPYS  827
+            ERV GA V G  +   T V+    ++     T F Y Q  +   +G +T+ LPYS
+Sbjct  884  ERVPGATVDGSGAPANTTVTARVQMRDLTTGTNFTYTQQAQTDADGEFTMTLPYS  938
+
+
+> sp|Q3TDQ1|STT3B_MOUSE Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Mus musculus OX=10090 
+GN=Stt3b PE=1 SV=2
+Length=823
+
+ Score = 586 bits (1509),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 134/701 (19%), Positives = 244/701 (35%), Gaps = 95/701 (14%)
+
+Query  8    FKKYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRI-  66
+            ++     ++L +A L     R+     +V  +   +   DPW+ YR   +   +  +   
+Sbjct  65   WQSLLSFTILFLAWLAGFSSRLF----AVIRFESIIHEFDPWFNYRSTHHLASHGFYEFL  120
+
+Query  67   -WFDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAIL  122
+             WFD   +YP G     T +   ++  G I  I+ +      +R V  F+      L  +
+Sbjct  121  NWFDERAWYPLGRIVGGTVYPGLMITAGLIHWILNTLNITVHIRDVCVFLAPTFSGLTSI  180
+
+Query  123  PVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYN  182
+              +LLTRE++++ A ++AA  IAIVPG ++ RS+ G  D+     F        ++ +  
+Sbjct  181  STFLLTRELWNQGAGLLAACFIAIVPG-YISRSVAGSFDNEGIAIFALQFTYYLWVKSVK  239
+
+Query  183  RWKGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNAD  242
+                           + + +   ++    V +WG    I  +I   +F   ++  +    
+Sbjct  240  ------------TGSVFWTMCCCLSYFYMVSAWGGYVFIINLIPLHVFVLLLMQRYSKR-  286
+
+Query  243  RKNLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWND  302
+                  +A  TF +  LI L     + GF  I  S       + + + A AF Q  + + 
+Sbjct  287  ----VYIAYSTFYIVGLI-LSMQIPFVGFQPIRTSEHMAAAGVFALLQAYAFLQYLR-DR  340
+
+Query  303  VGFFERVGLGRKGMPL-AVIVLTALIMGLFFVISPDFARNLLSVVRVVQ---PKGGALTI  358
+            +   E   L   G+ L A  V  ++I   +      ++    S+              ++
+Sbjct  341  LTKQEFQTLFFLGVSLAAGAVFLSVIYLTYTGYIAPWSGRFYSLWDTGYAKIHIPIIASV  400
+
+Query  359  AEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMF  418
+            +E  P         T  +       L     AG+ +     +K  +   + + ++AI+  
+Sbjct  401  SEHQP--------TTWVSFFFDLHILVCTFPAGLWFC----IKNINDERVFVALYAISAV  448
+
+Query  419  IALWGQNRFAYYFAAVSAVYSALALSVVF----------------------DKLHLYRAL  456
+                   R       V  + SA+A S VF                      DK +     
+Sbjct  449  YFAGVMVRLMLTLTPVVCMLSAIAFSNVFEHYLGDDMKRENPPVEDSSDEDDKRNPGNLY  508
+
+Query  457  ENAIGARNKLS---YFRVAFALLIALAAIYPTYILADAQSSYAGGPNKQWYDALTWMRE-  512
+            + A   R  ++            I         +L    + +        Y + + +   
+Sbjct  509  DKAGKVRKHVTEQEKPEEGLGPNIKSIVTMLMLMLLMMFAVHCTWVTSNAYSSPSVVLAS  568
+
+Query  513  -NTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQ  571
+             N        + + + Y   + N +      E   V+SWWDYG+ I  +A+R  + +   
+Sbjct  569  YNHDGTRNILDDFREAYFWLRQNTD------EHARVMSWWDYGYQIAGMANRTTLVD---  619
+
+Query  572  AGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVSDIEMETG-------KYYAMA  623
+                N +NN   A      + NE+ A  +   L+V YV+       G       K+  M 
+Sbjct  620  ---NNTWNNSHIALVGKAMSSNETAAYKIMRSLDVDYVLVIFGGVIGYSGDDINKFLWMV  676
+
+Query  624  VWAEGDLPLAEKYYGGYFYYSPTGTFGYANSQWDIPLNSII  664
+              AEG+ P  +   G YF          A S     LN ++
+Sbjct  677  RIAEGEHPK-DIREGDYFTQQGEFRVDKAGSPT--LLNCLM  714
+
+
+> sp|E2RG47|STT3B_CANLF Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Canis lupus familiaris 
+OX=9615 GN=STT3B PE=1 SV=1
+Length=826
+
+ Score = 581 bits (1497),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 139/722 (19%), Positives = 245/722 (34%), Gaps = 137/722 (19%)
+
+Query  8    FKKYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRI-  66
+            ++     ++L +A L     R+     +V  +   +   DPW+ YR   +   +  +   
+Sbjct  68   WQSLLSFTILFLAWLAGFSSRLF----AVIRFESIIHEFDPWFNYRSTHHLASHGFYEFL  123
+
+Query  67   -WFDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAIL  122
+             WFD   +YP G     T +   ++  G I  I+ +      +R V  F+      L  +
+Sbjct  124  NWFDERAWYPLGRIVGGTVYPGLMITAGLIHWILNTLNITVHIRDVCVFLAPTFSGLTSI  183
+
+Query  123  PVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYN  182
+              +LLTRE++++ A ++AA  IAIVPG ++ RS+ G  D+     F        ++ +  
+Sbjct  184  STFLLTRELWNQGAGLLAACFIAIVPG-YISRSVAGSFDNEGIAIFALQFTYYLWVKSVK  242
+
+Query  183  RWKGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNAD  242
+                           + + +   ++    V +WG    I  +I   +F   ++  +    
+Sbjct  243  ------------TGSVFWTMCCCLSYFYMVSAWGGYVFIINLIPLHVFVLLLMQRYSKR-  289
+
+Query  243  RKNLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWND  302
+                  +A  TF +  LI L     + GF  I  S       + + + A AF Q  + + 
+Sbjct  290  ----VYIAYSTFYIVGLI-LSMQIPFVGFQPIRTSEHMAAAGVFALLQAYAFLQYLR-DR  343
+
+Query  303  VGFFERVGLGRKGMPL-AVIVLTALIMGLFFVISPDFARNLLSVVRVVQ---PKGGALTI  358
+            +   E   L   G+ L A  V  ++I   +      ++    S+              ++
+Sbjct  344  LTKQEFQTLFFLGVSLAAGAVFLSVIYLTYTGYIAPWSGRFYSLWDTGYAKIHIPIIASV  403
+
+Query  359  AEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMF  418
+            +E  P         T  +       L     AG+ +     +K  +   + + ++AI+  
+Sbjct  404  SEHQP--------TTWVSFFFDLHILVCTFPAGLWFC----IKNINDERVFVALYAISAV  451
+
+Query  419  IALWGQNRFAYYFAAVSAVYSALALSVVF----------------------DKLHLYRAL  456
+                   R       V  + SA+A S VF                      DK +     
+Sbjct  452  YFAGVMVRLMLTLTPVVCMLSAIAFSNVFEHYLGDDMKRENPPVEDSSDEDDKRNPGNLY  511
+
+Query  457  ENAIGARNKLS--------------------------YFRVAFALLIALAAIYPTYILAD  490
+            + A   R  ++                           F V    + + A   P+ +LA 
+Sbjct  512  DKAGKVRKHVTEQEKTEEGLGPNIKSIVTMLMLMLLMMFAVHCTWVTSNAYSSPSVVLAS  571
+
+Query  491  AQSSYAGGPNKQWYDALTWMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISW  550
+                        + +A  W+R+NT                            E   V+SW
+Sbjct  572  YNHDGTRNILDDFREAYFWLRQNT---------------------------DEHARVMSW  604
+
+Query  551  WDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVV  609
+            WDYG+ I  +A+R  + +       N +NN   A      + NES A  +   L+V YV+
+Sbjct  605  WDYGYQIAGMANRTTLVD------NNTWNNSHIALVGKAMSSNESAAYKIMRSLDVDYVL  658
+
+Query  610  SDIEMETG-------KYYAMAVWAEGDLPLAEKYYGGYFYYSPTGTFGYANSQWDIPLNS  662
+                   G       K+  M   AEG+ P  +     YF          A S     LN 
+Sbjct  659  VIFGGVIGYSGDDINKFLWMVRIAEGEHPK-DIRESDYFTPQGEFRVDKAGSPT--LLNC  715
+
+Query  663  II  664
+            ++
+Sbjct  716  LM  717
+
+
+> sp|Q8TCJ2|STT3B_HUMAN Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Homo sapiens OX=9606 
+GN=STT3B PE=1 SV=1
+Length=826
+
+ Score = 577 bits (1488),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 138/722 (19%), Positives = 244/722 (34%), Gaps = 137/722 (19%)
+
+Query  8    FKKYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRI-  66
+            ++     ++L +A L     R+     +V  +   +   DPW+ YR   +   +  +   
+Sbjct  68   WQSLLSFTILFLAWLAGFSSRLF----AVIRFESIIHEFDPWFNYRSTHHLASHGFYEFL  123
+
+Query  67   -WFDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAIL  122
+             WFD   +YP G     T +   ++  G I  I+ +      +R V  F+      L  +
+Sbjct  124  NWFDERAWYPLGRIVGGTVYPGLMITAGLIHWILNTLNITVHIRDVCVFLAPTFSGLTSI  183
+
+Query  123  PVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYN  182
+              +LLTRE++++ A ++AA  IAIVPG ++ RS+ G  D+     F        ++ +  
+Sbjct  184  STFLLTRELWNQGAGLLAACFIAIVPG-YISRSVAGSFDNEGIAIFALQFTYYLWVKSVK  242
+
+Query  183  RWKGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNAD  242
+                           + + +   ++    V +WG    I  +I   +F   ++  +    
+Sbjct  243  ------------TGSVFWTMCCCLSYFYMVSAWGGYVFIINLIPLHVFVLLLMQRYSKR-  289
+
+Query  243  RKNLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWND  302
+                  +A  TF +  LI L     + GF  I  S       + + + A AF Q  + + 
+Sbjct  290  ----VYIAYSTFYIVGLI-LSMQIPFVGFQPIRTSEHMAAAGVFALLQAYAFLQYLR-DR  343
+
+Query  303  VGFFERVGLGRKGMPL-AVIVLTALIMGLFFVISPDFARNLLSVVRVVQ---PKGGALTI  358
+            +   E   L   G+ L A  V  ++I   +      ++    S+              ++
+Sbjct  344  LTKQEFQTLFFLGVSLAAGAVFLSVIYLTYTGYIAPWSGRFYSLWDTGYAKIHIPIIASV  403
+
+Query  359  AEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMF  418
+            +E  P         T  +       L     AG+ +     +K  +   + + ++AI+  
+Sbjct  404  SEHQP--------TTWVSFFFDLHILVCTFPAGLWFC----IKNINDERVFVALYAISAV  451
+
+Query  419  IALWGQNRFAYYFAAVSAVYSALALSVVF----------------------DKLHLYRAL  456
+                   R       V  + SA+A S VF                      DK +     
+Sbjct  452  YFAGVMVRLMLTLTPVVCMLSAIAFSNVFEHYLGDDMKRENPPVEDSSDEDDKRNQGNLY  511
+
+Query  457  ENAIGARNKLS--------------------------YFRVAFALLIALAAIYPTYILAD  490
+            + A   R   +                           F V    + + A   P+ +LA 
+Sbjct  512  DKAGKVRKHATEQEKTEEGLGPNIKSIVTMLMLMLLMMFAVHCTWVTSNAYSSPSVVLAS  571
+
+Query  491  AQSSYAGGPNKQWYDALTWMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISW  550
+                        + +A  W+R+NT                            E   V+SW
+Sbjct  572  YNHDGTRNILDDFREAYFWLRQNT---------------------------DEHARVMSW  604
+
+Query  551  WDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVV  609
+            WDYG+ I  +A+R  + +       N +NN   A      + NE+ A  +   L+V YV+
+Sbjct  605  WDYGYQIAGMANRTTLVD------NNTWNNSHIALVGKAMSSNETAAYKIMRTLDVDYVL  658
+
+Query  610  SDIEMETG-------KYYAMAVWAEGDLPLAEKYYGGYFYYSPTGTFGYANSQWDIPLNS  662
+                   G       K+  M   AEG+ P  +     YF          A S     LN 
+Sbjct  659  VIFGGVIGYSGDDINKFLWMVRIAEGEHPK-DIRESDYFTPQGEFRVDKAGSPT--LLNC  715
+
+Query  663  II  664
+            ++
+Sbjct  716  LM  717
+
+
+> sp|P46975|STT3_CAEEL Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit stt-3 OS=Caenorhabditis elegans 
+OX=6239 GN=stt-3 PE=1 SV=1
+Length=757
+
+ Score = 559 bits (1440),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 119/705 (17%), Positives = 245/705 (35%), Gaps = 112/705 (16%)
+
+Query  10   KYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRI--W  67
+                + VL +A  +    R+     ++  +   +   DPW+ YR   + + +  ++   W
+Sbjct  18   TLLTIVVLALAWFVGFASRLF----AIVRFESIIHEFDPWFNYRATHHMVQHGFYKFLNW  73
+
+Query  68   FDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPV  124
+            FD   +YP G     T +   +V  G I  I+ S      +R V  F+      L  +  
+Sbjct  74   FDERAWYPLGRIVGGTVYPGLMVTSGLIHWILDSLNFHVHIREVCVFLAPTFSGLTAIAT  133
+
+Query  125  YLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRW  184
+            YLLT+E++   A + AA  IAI PG +  RS+ G  D+     F        ++ +    
+Sbjct  134  YLLTKELWSPGAGLFAACFIAISPG-YTSRSVAGSYDNEGIAIFALQFTYYLWVKSLK--  190
+
+Query  185  KGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNA---  241
+                         + +  +  ++    V +WG    I  +I        ++  + +    
+Sbjct  191  ----------TGSIMWASLCALSYFYMVSAWGGYVFIINLIPLHALALIIMGRYSSRLFV  240
+
+Query  242  -DRKNLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKW  300
+                   L  +++  V  + + P   +    +   +   Q+      A++  A  +I + 
+Sbjct  241  SYTSFYCLATILSMQVPFVGFQPVRTSEHMPAFGVFGLLQI-----VALMHYARNRITRQ  295
+
+Query  301  NDVGFFERVGLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAE  360
+              +  F  VG       L+V+V  AL+ G +         +L              +++E
+Sbjct  296  QFMTLF--VGGLTILGALSVVVYFALVWGGYVAPFSGRFYSLWDTGYAKIHIPIIASVSE  353
+
+Query  361  VYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIA  420
+              P         T  +              G+ Y     +K+ +   + ++++A++    
+Sbjct  354  HQP--------TTWVSFFFDLHITAAVFPVGLWYC----IKKVNDERVFIILYAVSAVYF  401
+
+Query  421  LWGQNRFAYYFAAVSAVYSALALSVVFDKLH-----------------------------  451
+                 R          V + +  S  F+K                               
+Sbjct  402  AGVMVRLMLTLTPAVCVLAGIGFSYTFEKYLKDEETKERSSSQSGTTKDEKLYDKAAKNV  461
+
+Query  452  ---LYRALENAIGARNKLSYFRVAFALLIALAAIYPTYILADAQSSYAGGPNKQWYDALT  508
+                    + +  + N  +   +   + + +  ++ TY+ ++A S  +            
+Sbjct  462  KSRNANDGDESGVSSNVRTIISIILVIFLLMFVVHATYVTSNAYSHPS-----------V  510
+
+Query  509  WMRENTPDGEKYD-EYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIA  567
+             ++ +T +G++   + + + Y   + N        +   V+SWWDYG+ I  +A+R  + 
+Sbjct  511  VLQSSTNNGDRIIMDDFREAYHWLRENTA------DDARVMSWWDYGYQIAGMANRTTLV  564
+
+Query  568  NPFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVSDIEMETG-------KY  619
+            +       N +NN   A      + NES A  +  +L+V Y++       G       K+
+Sbjct  565  D------NNTWNNSHIALVGKAMSSNESAAYEIMTELDVDYILVIFGGVIGYSGDDINKF  618
+
+Query  620  YAMAVWAEGDLPLAEKYYGGYFYYSPTGTFGYANSQWDIPLNSII  664
+              M   A+G+ P  +     YF  +   + G   S+    LN ++
+Sbjct  619  LWMVRIAQGEHPK-DIREENYFTSTGEYSTGAGASET--MLNCLM  660
+
+
+> sp|F1PJP5|STT3A_CANLF Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Canis lupus familiaris 
+OX=9615 GN=STT3A PE=1 SV=3
+Length=705
+
+ Score = 535 bits (1378),  Expect = 4e-177, Method: Composition-based stats.
+ Identities = 126/684 (18%), Positives = 236/684 (35%), Gaps = 89/684 (13%)
+
+Query  10   KYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRI--W  67
+                L +L +AA++S   R+     +V  +   +   DP++ YR          ++   W
+Sbjct  16   TLLKLLILSMAAVLSFSTRLF----AVLRFESVIHEFDPYFNYRTTRFLAEEGFYKFHNW  71
+
+Query  68   FDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPV  124
+            FD   +YP G     T +   ++   +I  ++        +R V  F+  +      +  
+Sbjct  72   FDDRAWYPLGRIIGGTIYPGLMITSAAIYHVLHFFHITIDIRNVCVFLAPLFSSFTTIVT  131
+
+Query  125  YLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRW  184
+            Y LT+E+ D  A ++AA +IA+VPG ++ RS+ G  D+     F  +     ++ A    
+Sbjct  132  YHLTKELKDAGAGLLAAAMIAVVPG-YISRSVAGSYDNEGIAIFCMLLTYYMWIKAVK--  188
+
+Query  185  KGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRK  244
+                         + +     +     V SWG    +  +I   +    +   F +    
+Sbjct  189  ----------TGSIYWAAKCALAYFYMVSSWGGYVFLINLIPLHVLVLMLTGRFSHR---  235
+
+Query  245  NLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVG  304
+                VA  T      I L    ++ GF  +  S       +       AF    + + + 
+Sbjct  236  --IYVAYCTVYCLGTI-LSMQISFVGFQPVLSSEHMAAFGVFGLCQIHAFVDYLR-SKLN  291
+
+Query  305  FFERVGLGRKGMPLAVIVLTA----LIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAE  360
+              +   L R  + L   VL      L++            +LL             +++E
+Sbjct  292  PQQFEVLFRSVISLVGFVLLTVGALLMLTGKISPWTGRFYSLLDPSYAKNNIPIIASVSE  351
+
+Query  361  VYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIA  420
+              P         T ++       L F    G+ Y         S   + ++++ +     
+Sbjct  352  HQP--------TTWSSYYFDLQLLVFMFPVGLYYCFSNL----SDARIFIIMYGVTSMYF  399
+
+Query  421  LWGQNRFAYYFAAVSAVYSALALSVVFDKLH---LYRALENAIGARNKLSYF---RVAFA  474
+                 R     A V  + S + +S V             +     +   +Y     VA  
+Sbjct  400  SAVMVRLMLVLAPVMCILSGIGVSQVLSTYMKNLDISRPDKKSKKQQDSTYPIKNEVASG  459
+
+Query  475  LLIALA------AIYPTYILADAQSSYAGGPNKQWYDALTWMRENTPDGEKYDEYYLQLY  528
+            +++ +A        + T++ ++A SS +   + +  D    +           + + + Y
+Sbjct  460  MILVMAFFLITYTFHSTWVTSEAYSSPSIVLSARGGDGSRII----------FDDFREAY  509
+
+Query  529  PTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSF  587
+               + N        E   V+SWWDYG+ I A+A+R  + +       N +NN   +    
+Sbjct  510  YWLRHNTP------EDAKVMSWWDYGYQITAMANRTILVD------NNTWNNTHISRVGQ  557
+
+Query  588  FTAENESYAEFVAEKLNVKYVVSDIEMETG-------KYYAMAVWAEGDLPLAEKYYGGY  640
+              A  E  A  +  +L+V YV+      TG       K+  M     G      K+   +
+Sbjct  558  AMASTEEKAYEIMRELDVSYVLVIFGGLTGYSSDDINKFLWMVRI--GGSTDTGKHIKEH  615
+
+Query  641  FYYSPTGTFGYANSQWDIPLNSII  664
+             YY+PTG F        + LN ++
+Sbjct  616  DYYTPTGEFRVDREGSPVLLNCLM  639
+
+
+> sp|Q2KJI2|STT3A_BOVIN Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Bos taurus OX=9913 
+GN=STT3A PE=2 SV=1
+Length=705
+
+ Score = 534 bits (1376),  Expect = 8e-177, Method: Composition-based stats.
+ Identities = 126/684 (18%), Positives = 236/684 (35%), Gaps = 89/684 (13%)
+
+Query  10   KYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRI--W  67
+                L +L +AA++S   R+     +V  +   +   DP++ YR          ++   W
+Sbjct  16   TLLKLLILSMAAVLSFSTRLF----AVLRFESVIHEFDPYFNYRTTRFLAEEGFYKFHNW  71
+
+Query  68   FDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPV  124
+            FD   +YP G     T +   ++   +I  ++        +R V  F+  +      +  
+Sbjct  72   FDDRAWYPLGRIIGGTIYPGLMITSAAIYHVLHFFHITIDIRNVCVFLAPLFSSFTTIVT  131
+
+Query  125  YLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRW  184
+            Y LT+E+ D  A ++AA +IA+VPG ++ RS+ G  D+     F  +     ++ A    
+Sbjct  132  YHLTKELKDAGAGLLAAAMIAVVPG-YISRSVAGSYDNEGIAIFCMLLTYYMWIKAVK--  188
+
+Query  185  KGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRK  244
+                         + +     +     V SWG    +  +I   +    +   F +    
+Sbjct  189  ----------TGSIYWAAKCALAYFYMVSSWGGYVFLINLIPLHVLVLMLTGRFSHR---  235
+
+Query  245  NLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVG  304
+                VA  T      I L    ++ GF  +  S       +       AF    + + + 
+Sbjct  236  --IYVAYCTVYCLGTI-LSMQISFVGFQPVLSSEHMAAFGVFGLCQIHAFVDYLR-SKLN  291
+
+Query  305  FFERVGLGRKGMPLAVIVLTA----LIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAE  360
+              +   L R  + L   VL      L++            +LL             +++E
+Sbjct  292  PQQFEVLFRSVISLVGFVLLTIGALLMLTGKISPWTGRFYSLLDPSYAKNNIPIIASVSE  351
+
+Query  361  VYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIA  420
+              P         T ++       L F    G+ Y         S   + ++++ +     
+Sbjct  352  HQP--------TTWSSYYFDLQLLVFMFPVGLYYCFSNL----SDARIFIIMYGVTSMYF  399
+
+Query  421  LWGQNRFAYYFAAVSAVYSALALSVVFDKLH---LYRALENAIGARNKLSYF---RVAFA  474
+                 R     A V  + S + +S V             +     +   +Y     VA  
+Sbjct  400  SAVMVRLMLVLAPVMCILSGIGVSQVLSTYMKNLDISRQDKKSKKQQDSTYPIKNEVASG  459
+
+Query  475  LLIALA------AIYPTYILADAQSSYAGGPNKQWYDALTWMRENTPDGEKYDEYYLQLY  528
+            +++ +A        + T++ ++A SS +   + +  D    +           + + + Y
+Sbjct  460  MILVMAFFLITYTFHSTWVTSEAYSSPSIVLSARGGDGSRII----------FDDFREAY  509
+
+Query  529  PTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSF  587
+               + N        E   V+SWWDYG+ I A+A+R  + +       N +NN   +    
+Sbjct  510  YWLRHNTP------EDAKVMSWWDYGYQITAMANRTILVD------NNTWNNTHISRVGQ  557
+
+Query  588  FTAENESYAEFVAEKLNVKYVVSDIEMETG-------KYYAMAVWAEGDLPLAEKYYGGY  640
+              A  E  A  +  +L+V YV+      TG       K+  M     G      K+   +
+Sbjct  558  AMASTEEKAYEIMRELDVSYVLVIFGGLTGYSSDDINKFLWMVRI--GGSTDTGKHIKEH  615
+
+Query  641  FYYSPTGTFGYANSQWDIPLNSII  664
+             YY+PTG F        + LN ++
+Sbjct  616  DYYTPTGEFRVDREGSPVLLNCLM  639
+
+
+> sp|Q5RCE2|STT3A_PONAB Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Pongo abelii OX=9601 
+GN=STT3A PE=2 SV=1
+Length=705
+
+ Score = 533 bits (1373),  Expect = 2e-176, Method: Composition-based stats.
+ Identities = 126/684 (18%), Positives = 235/684 (34%), Gaps = 89/684 (13%)
+
+Query  10   KYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRI--W  67
+                L +L +AA++S   R+     +V  +   +   DP++ YR          ++   W
+Sbjct  16   TLLKLLILSMAAVLSFSTRLF----AVLRFESVIHEFDPYFNYRTTRFLAEEGFYKFHNW  71
+
+Query  68   FDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPV  124
+            FD   +YP G     T +   ++   +I  ++        +R V  F+  +      +  
+Sbjct  72   FDDRAWYPLGRIIGGTIYPGLMITSAAIYHVLHFFHITIDIRNVCVFLAPLFSSFTTIVT  131
+
+Query  125  YLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRW  184
+            Y LT+E+ D  A ++AA +IA+VPG ++ RS+ G  D+     F  +     ++ A    
+Sbjct  132  YHLTKELKDAGAGLLAAAMIAVVPG-YISRSVAGSYDNEGIAIFCMLLTYYMWIKAVK--  188
+
+Query  185  KGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRK  244
+                         + +     +     V SWG    +  +I   +    +   F +    
+Sbjct  189  ----------TGSICWAAKCALAYFYMVSSWGGYVFLINLIPLHVLVLMLTGRFSHR---  235
+
+Query  245  NLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVG  304
+                VA  T      I L    ++ GF  +  S       +       AF    + + + 
+Sbjct  236  --IYVAYCTVYCLGTI-LSMQISFVGFQPVLSSEHMAAFGVFGLCQIHAFVDYLR-SKLN  291
+
+Query  305  FFERVGLGRKGMPLAVIVLTA----LIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAE  360
+              +   L R  + L   VL      L++            +LL             +++E
+Sbjct  292  PQQFEVLFRSVISLVGFVLLTVGALLMLTGKISPWTGRFYSLLDPSYAKNNIPIIASVSE  351
+
+Query  361  VYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIA  420
+              P         T ++       L F    G+ Y         S   + ++++ +     
+Sbjct  352  HQP--------TTWSSYYFDLQLLVFMFPVGLYYCFSNL----SDARIFIIMYGVTSMYF  399
+
+Query  421  LWGQNRFAYYFAAVSAVYSALALSVVFDKLH---LYRALENAIGARNKLSYF---RVAFA  474
+                 R     A V  + S + +S V             +     +   +Y     VA  
+Sbjct  400  SAVMVRLMLVLAPVMCILSGIGVSQVLSTYMKNLDISRPDKKSKKQQDSTYPIKNEVASG  459
+
+Query  475  LLIALA------AIYPTYILADAQSSYAGGPNKQWYDALTWMRENTPDGEKYDEYYLQLY  528
+            +++ +A        + T++ ++A SS +   + +  D    +           + + + Y
+Sbjct  460  MILVMAFFLITYTFHSTWVTSEAYSSPSIVLSARGGDGSRII----------FDDFREAY  509
+
+Query  529  PTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSF  587
+               + N        E   V+SWWDYG+ I A+A+R  + +       N +NN   +    
+Sbjct  510  YWLRHNTP------EDAKVMSWWDYGYQITAMANRTILVD------NNTWNNTHISRVGQ  557
+
+Query  588  FTAENESYAEFVAEKLNVKYVVSDIEMETG-------KYYAMAVWAEGDLPLAEKYYGGY  640
+              A  E  A  +  +L+V YV+      TG       K+  M     G      K+    
+Sbjct  558  AMASTEEKAYEIMRELDVSYVLVIFGGLTGYSSDDINKFLWMVRI--GGSTDTGKHIKEN  615
+
+Query  641  FYYSPTGTFGYANSQWDIPLNSII  664
+             YY+PTG F        + LN ++
+Sbjct  616  DYYTPTGEFRVDREGSPVLLNCLM  639
+
+
+> sp|P46977|STT3A_HUMAN Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Homo sapiens OX=9606 
+GN=STT3A PE=1 SV=2
+Length=705
+
+ Score = 533 bits (1373),  Expect = 2e-176, Method: Composition-based stats.
+ Identities = 126/684 (18%), Positives = 235/684 (34%), Gaps = 89/684 (13%)
+
+Query  10   KYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRI--W  67
+                L +L +AA++S   R+     +V  +   +   DP++ YR          ++   W
+Sbjct  16   TLLKLLILSMAAVLSFSTRLF----AVLRFESVIHEFDPYFNYRTTRFLAEEGFYKFHNW  71
+
+Query  68   FDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPV  124
+            FD   +YP G     T +   ++   +I  ++        +R V  F+  +      +  
+Sbjct  72   FDDRAWYPLGRIIGGTIYPGLMITSAAIYHVLHFFHITIDIRNVCVFLAPLFSSFTTIVT  131
+
+Query  125  YLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRW  184
+            Y LT+E+ D  A ++AA +IA+VPG ++ RS+ G  D+     F  +     ++ A    
+Sbjct  132  YHLTKELKDAGAGLLAAAMIAVVPG-YISRSVAGSYDNEGIAIFCMLLTYYMWIKAVK--  188
+
+Query  185  KGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRK  244
+                         + +     +     V SWG    +  +I   +    +   F +    
+Sbjct  189  ----------TGSICWAAKCALAYFYMVSSWGGYVFLINLIPLHVLVLMLTGRFSHR---  235
+
+Query  245  NLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVG  304
+                VA  T      I L    ++ GF  +  S       +       AF    + + + 
+Sbjct  236  --IYVAYCTVYCLGTI-LSMQISFVGFQPVLSSEHMAAFGVFGLCQIHAFVDYLR-SKLN  291
+
+Query  305  FFERVGLGRKGMPLAVIVLTA----LIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAE  360
+              +   L R  + L   VL      L++            +LL             +++E
+Sbjct  292  PQQFEVLFRSVISLVGFVLLTVGALLMLTGKISPWTGRFYSLLDPSYAKNNIPIIASVSE  351
+
+Query  361  VYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIA  420
+              P         T ++       L F    G+ Y         S   + ++++ +     
+Sbjct  352  HQP--------TTWSSYYFDLQLLVFMFPVGLYYCFSNL----SDARIFIIMYGVTSMYF  399
+
+Query  421  LWGQNRFAYYFAAVSAVYSALALSVVFDKLH---LYRALENAIGARNKLSYF---RVAFA  474
+                 R     A V  + S + +S V             +     +   +Y     VA  
+Sbjct  400  SAVMVRLMLVLAPVMCILSGIGVSQVLSTYMKNLDISRPDKKSKKQQDSTYPIKNEVASG  459
+
+Query  475  LLIALA------AIYPTYILADAQSSYAGGPNKQWYDALTWMRENTPDGEKYDEYYLQLY  528
+            +++ +A        + T++ ++A SS +   + +  D    +           + + + Y
+Sbjct  460  MILVMAFFLITYTFHSTWVTSEAYSSPSIVLSARGGDGSRII----------FDDFREAY  509
+
+Query  529  PTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSF  587
+               + N        E   V+SWWDYG+ I A+A+R  + +       N +NN   +    
+Sbjct  510  YWLRHNTP------EDAKVMSWWDYGYQITAMANRTILVD------NNTWNNTHISRVGQ  557
+
+Query  588  FTAENESYAEFVAEKLNVKYVVSDIEMETG-------KYYAMAVWAEGDLPLAEKYYGGY  640
+              A  E  A  +  +L+V YV+      TG       K+  M     G      K+    
+Sbjct  558  AMASTEEKAYEIMRELDVSYVLVIFGGLTGYSSDDINKFLWMVRI--GGSTDTGKHIKEN  615
+
+Query  641  FYYSPTGTFGYANSQWDIPLNSII  664
+             YY+PTG F        + LN ++
+Sbjct  616  DYYTPTGEFRVDREGSPVLLNCLM  639
+
+
+> sp|P46978|STT3A_MOUSE Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Mus musculus OX=10090 
+GN=Stt3a PE=1 SV=1
+Length=705
+
+ Score = 533 bits (1372),  Expect = 4e-176, Method: Composition-based stats.
+ Identities = 125/684 (18%), Positives = 235/684 (34%), Gaps = 89/684 (13%)
+
+Query  10   KYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRI--W  67
+                L +L +AA++S   R+     +V  +   +   DP++ YR          ++   W
+Sbjct  16   TLLKLLILSMAAVLSFSTRLF----AVLRFESVIHEFDPYFNYRTTRFLAEEGFYKFHNW  71
+
+Query  68   FDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPV  124
+            FD   +YP G     T +   ++   +I  ++        +R V  F+  +      +  
+Sbjct  72   FDDRAWYPLGRIIGGTIYPGLMITSAAIYHVLHFFHITIDIRNVCVFLAPLFSSFTTIVT  131
+
+Query  125  YLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRW  184
+            Y LT+E+ D  A ++AA +IA+VPG ++ RS+ G  D+     F  +     ++ A    
+Sbjct  132  YHLTKELKDAGAGLLAAAMIAVVPG-YISRSVAGSYDNEGIAIFCMLLTYYMWIKAVK--  188
+
+Query  185  KGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRK  244
+                         + +     +     V SWG    +  +I   +    +   F +    
+Sbjct  189  ----------TGSIYWAAKCALAYFYMVSSWGGYVFLINLIPLHVLVLMLTGRFSHR---  235
+
+Query  245  NLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVG  304
+                VA  T      I L    ++ GF  +  S       +       AF    + + + 
+Sbjct  236  --IYVAYCTVYCLGTI-LSMQISFVGFQPVLSSEHMAAFGVFGLCQIHAFVDYLR-SKLN  291
+
+Query  305  FFERVGLGRKGMPLAVIVLTA----LIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAE  360
+              +   L R  + L   VL      L++            +LL             +++E
+Sbjct  292  PQQFEVLFRSVISLVGFVLLTVGALLMLTGKISPWTGRFYSLLDPSYAKNNIPIIASVSE  351
+
+Query  361  VYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIA  420
+              P         T ++       L F    G+ Y         S   + ++++ +     
+Sbjct  352  HQP--------TTWSSYYFDLQLLVFMFPVGLYYCFSNL----SDARIFIIMYGVTSMYF  399
+
+Query  421  LWGQNRFAYYFAAVSAVYSALALSVVFDKLH---LYRALENAIGARNKLSYF---RVAFA  474
+                 R     A V  + S + +S V             +     +   +Y     VA  
+Sbjct  400  SAVMVRLMLVLAPVMCILSGIGVSQVLSTYMKNLDISRPDKKSKKQQDSTYPIKNEVASG  459
+
+Query  475  LLIALA------AIYPTYILADAQSSYAGGPNKQWYDALTWMRENTPDGEKYDEYYLQLY  528
+            +++ +A        + T++ ++A SS +   + +  D    +           + + + Y
+Sbjct  460  MILVMAFFLITYTFHSTWVTSEAYSSPSIVLSARGGDGSRII----------FDDFREAY  509
+
+Query  529  PTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSF  587
+               + N        E   V+SWWDYG+ I A+A+R  + +       N +NN   +    
+Sbjct  510  YWLRHNTP------EDAKVMSWWDYGYQITAMANRTILVD------NNTWNNTHISRVGQ  557
+
+Query  588  FTAENESYAEFVAEKLNVKYVVSDIEMETG-------KYYAMAVWAEGDLPLAEKYYGGY  640
+              A  E  A  +  +L+V YV+      TG       K+  M     G      ++    
+Sbjct  558  AMASTEEKAYEIMRELDVSYVLVIFGGLTGYSSDDINKFLWMVRI--GGSTETGRHIKEN  615
+
+Query  641  FYYSPTGTFGYANSQWDIPLNSII  664
+             YY+PTG F        + LN ++
+Sbjct  616  DYYTPTGEFRVDREGSPVLLNCLM  639
+
+
+> sp|P39007|STT3_YEAST Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=STT3 PE=1 SV=2
+Length=718
+
+ Score = 529 bits (1363),  Expect = 1e-174, Method: Composition-based stats.
+ Identities = 118/683 (17%), Positives = 234/683 (34%), Gaps = 87/683 (13%)
+
+Query  6    SWFKKYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHR  65
+            S F+    L + V     ++  R+     +V  +   +   DPW+ YR  +  ++N  ++
+Sbjct  10   SVFQTILKLVIFVAIFGAAISSRLF----AVIKFESIIHEFDPWFNYRATKYLVNNSFYK  65
+
+Query  66   I--WFDPFTYYPYGSYT---HFGPFLVYLGSIAGII-FSATSGESLRAVLAFIPAIGGVL  119
+               WFD  T+YP G  T    +   +     I   +         +R V      +   +
+Sbjct  66   FLNWFDDRTWYPLGRVTGGTLYPGLMTTSAFIWHALRNWLGLPIDIRNVCVLFAPLFSGV  125
+
+Query  120  AILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLL  179
+                 Y  T+E+ D  A ++AA  IAIVPG ++ RS+ G  D+        +     ++ 
+Sbjct  126  TAWATYEFTKEIKDASAGLLAAGFIAIVPG-YISRSVAGSYDNEAIAITLLMVTFMFWIK  184
+
+Query  180  AYNRWKGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFV  239
+            A                 + +   A +     V +WG    I  +I   +F   ++  + 
+Sbjct  185  A------------QKTGSIMHATCAALFYFYMVSAWGGYVFITNLIPLHVFLLILMGRYS  232
+
+Query  240  N----ADRKNLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFY  295
+            +    A     ++  V +  +  + +LP   N    +   +   Q++          +  
+Sbjct  233  SKLYSAYTTWYAIGTVASMQIPFVGFLPIRSNDHMAALGVFGLIQIVAFGDFVKGQISTA  292
+
+Query  296  QIEKWNDVGFFERVGLGRKGM-PLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGG  354
+            + +    V  F  + LG  G+  L  + L A   G F+ +                    
+Sbjct  293  KFKVIMMVSLFLILVLGVVGLSALTYMGLIAPWTGRFYSLWDT--------NYAKIHIPI  344
+
+Query  355  ALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWA  414
+              +++E  P         +          L +   AG+               + ++ ++
+Sbjct  345  IASVSEHQPV--------SWPAFFFDTHFLIWLFPAGVFLLFLDLKD----EHVFVIAYS  392
+
+Query  415  IAMFIALWGQNRFAYYFAAVSAVYSALALSVVFDKLHLYRALENAIGARNKLSYFRV---  471
+            +          R       V  V +A+ALS +FD    ++  +     +      ++   
+Sbjct  393  VLCSYFAGVMVRLMLTLTPVICVSAAVALSKIFDIYLDFKTSDRKYAIKPAALLAKLIVS  452
+
+Query  472  -AFALLIALAAIYPTYILADAQSSYAGGPNKQWYDALTWMRENTPDGEKY-DEYYLQLYP  529
+             +F   + L   + T++   A SS +             +   TPDG+    + + + Y 
+Sbjct  453  GSFIFYLYLFVFHSTWVTRTAYSSPS-----------VVLPSQTPDGKLALIDDFREAYY  501
+
+Query  530  TPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSFF  588
+              + N +      E   V +WWDYG+ I  +A R  + +       N +NN   A     
+Sbjct  502  WLRMNSD------EDSKVAAWWDYGYQIGGMADRTTLVD------NNTWNNTHIAIVGKA  549
+
+Query  589  TAENESYAEFVAEKLNVKYVVS-------DIEMETGKYYAMAVWAEGDLPLAEKYYGGYF  641
+             A  E  +  + ++ +V YV+            +  K+  M   +EG  P   +      
+Sbjct  550  MASPEEKSYEILKEHDVDYVLVIFGGLIGFGGDDINKFLWMIRISEGIWP---EEIKERD  606
+
+Query  642  YYSPTGTFGYANSQWDIPLNSII  664
+            +Y+  G +       +   NS++
+Sbjct  607  FYTAEGEYRVDARASETMRNSLL  629
+
+
+> sp|O94335|STT3_SCHPO Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit stt3 OS=Schizosaccharomyces pombe 
+(strain 972 / ATCC 24843) OX=284812 GN=stt3 PE=3 SV=1
+Length=752
+
+ Score = 529 bits (1362),  Expect = 5e-174, Method: Composition-based stats.
+ Identities = 111/698 (16%), Positives = 226/698 (32%), Gaps = 93/698 (13%)
+
+Query  9    KKYWHLS----VLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPH  64
+            +K W +     +L+  A+ SV  R+     SV  +   +   DPW+ +R  +  +    +
+Sbjct  17   QKDWKIPLKVLILICIAVASVSSRLF----SVIRYESIIHEFDPWFNFRASKILVEQGFY  72
+
+Query  65   RI--WFDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVL  119
+                WFD  ++YP G     T +   +V  G I  ++       ++R V   +      +
+Sbjct  73   NFLNWFDERSWYPLGRVAGGTLYPGLMVTSGIIFKVLHLLRINVNIRDVCVLLAPAFSGI  132
+
+Query  120  AILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLL  179
+              +  Y L RE+      ++AA  + I PG +  RS+ G  D+        +S    ++ 
+Sbjct  133  TAIATYYLARELKSDACGLLAAAFMGIAPG-YTSRSVAGSYDNEAIAITLLMSTFALWIK  191
+
+Query  180  AYNRWKGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGF-  238
+            A                   +    G+     V +WG    I  +I   +F   ++  + 
+Sbjct  192  AVKS------------GSSFWGACTGLLYFYMVTAWGGYVFITNMIPLHVFVLLLMGRYT  239
+
+Query  239  ---VNADRKNLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFY  295
+                 A      +  + +  V  + + P + +    +   +   QL           +  
+Sbjct  240  SKLYIAYTTYYVIGTLASMQVPFVGFQPVSTSEHMSALGVFGLLQLFAFYNYVKGLVSSK  299
+
+Query  296  QIEKWNDVGFFERVGLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGGA  355
+            Q +          VG       LA +VL AL              +L             
+Sbjct  300  QFQILIRFALVCLVG-------LATVVLFALSSTGVIAPWTGRFYSLWDTNYAKIHIPII  352
+
+Query  356  LTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAI  415
+             +++E  P         T ++       L +    G+        K      + ++I+++
+Sbjct  353  ASVSEHQP--------PTWSSLFFDLQFLIWLLPVGVYLCF----KELRNEHVFIIIYSV  400
+
+Query  416  AMFIALWGQNRFAYYFAAVSAVYSALALSVVFDKLHLYRALENAI-------------GA  462
+                      R          + +A+A+S + D        E+ +             G 
+Sbjct  401  LGTYFCGVMVRLVLTLTPCVCIAAAVAISTLLDTYMGPEVEEDKVSEEAASAKSKNKKGI  460
+
+Query  463  RNKLSYFRVAFALLIALAAIYPTYILAD------AQSSYAGGPNKQWYDALTWMRENTPD  516
+             + LS+F      +   + +    +++           ++       Y + T +     +
+Sbjct  461  FSILSFFTSGSKNIGIYSLLSRVLVISSTAYFLIMFVYHSSWVTSNAYSSPTVVLSTVLN  520
+
+Query  517  GE--KYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGI  574
+                 Y + + + Y   + N            V+SWWDYG+ I  +A R+ + +      
+Sbjct  521  DGSLMYIDDFREAYDWLRRNTPY------DTKVMSWWDYGYQIAGMADRITLVD------  568
+
+Query  575  GNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVSDIEMETG-------KYYAMAVWA  626
+             N +NN   A      +  E  A  +  K +V Y++       G       K+  M   +
+Sbjct  569  NNTWNNTHIATVGKAMSSPEEKAYPILRKHDVDYILIIYGGTLGYSSDDMNKFLWMIRIS  628
+
+Query  627  EGDLPLAEKYYGGYFYYSPTGTFGYANSQWDIPLNSII  664
+            +G  P          +++P G +   ++       S++
+Sbjct  629  QGLWP---DEIVERNFFTPNGEYRTDDAATPTMRESLL  663
+
+
+> sp|Q54NM9|STT3_DICDI Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3 OS=Dictyostelium discoideum 
+OX=44689 GN=stt3 PE=3 SV=1
+Length=714
+
+ Score = 520 bits (1339),  Expect = 4e-171, Method: Composition-based stats.
+ Identities = 111/673 (16%), Positives = 216/673 (32%), Gaps = 82/673 (12%)
+
+Query  12   WHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRI--WFD  69
+              + +L +  +++   R+     SV  +   +   DP++ YR     +    +    WFD
+Sbjct  42   LKVLILSVIYVLAFSTRLF----SVLRYESVIHEFDPYFNYRSTIYLVQEGFYNFLNWFD  97
+
+Query  70   PFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYL  126
+               +YP G     T +   +     +   + S     ++R V   +         +  Y 
+Sbjct  98   ERAWYPLGRIVGGTIYPGLMATASLVHWSLNSLNITVNIRNVCVLLSPWFASNTAMVTYK  157
+
+Query  127  LTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKG  186
+              +EV D +  ++AA +IAIVPG ++ RS+ G  D+     F  +     ++ + N    
+Sbjct  158  FAKEVKDTQTGLVAAAMIAIVPG-YISRSVAGSFDNEGIAIFALIFTYYCWIKSVN----  212
+
+Query  187  HDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNA----D  242
+                       + +  I  +       +WG    I  +I    FF  +   + +      
+Sbjct  213  --------TGSLMWAAICSLAYFYMASAWGGYVFIINLIPLHAFFLLLTGRYSHRLYIAY  264
+
+Query  243  RKNLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWND  302
+                 +  +++  ++ + + P   +    +   +   QL   L            +K   
+Sbjct  265  STMFVIGTILSMQITFISFQPVQSSEHLAAIGIFGLLQLYAGLSWVKSHLTNEAFKKLQR  324
+
+Query  303  VGFFERVGLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAEVY  362
+            +       L      L V  LT  I             +LL             +++E  
+Sbjct  325  LTVL--FVLSCAAAVLVVGTLTGYISPFN-----GRFYSLLDPTYARDHIPIIASVSEHQ  377
+
+Query  363  PFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIALW  422
+            P         T  +       L F   AG+ +   +      F    L+++ +       
+Sbjct  378  P--------TTWASYFFDLHILVFLFPAGLYFCFQKLTDANIF----LILYGVTSIYFSG  425
+
+Query  423  GQNRFAYYFAAVSAVYSALALSVVFDKLH-LYRALENAIGARNKLSYFRVAFALLIALAA  481
+               R     A V+ + +A+A+S          +A  +   A N      V  A+L  L  
+Sbjct  426  VMVRLMLVLAPVACILAAVAVSATLTTYMKKLKAPSSPSDANNSKESGGVMVAVLTVLLI  485
+
+Query  482  IYPTYILADAQSSYAGGPNKQWYDALTWMRENTPDG--EKYDEYYLQLYPTPQSNKEPFS  539
+            +Y           +      + Y + + +     +       + + + Y     N     
+Sbjct  486  LYAF---------HCTWVTSEAYSSPSIVLSAKQNDGSRVIFDDFREAYRWIGQNTA---  533
+
+Query  540  YPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSFFTAENESYAEF  598
+               +   ++SWWDYG+ + A+A+R  + +       N +NN   A      A  E  A  
+Sbjct  534  ---DDARIMSWWDYGYQLSAMANRTVLVD------NNTWNNSHIAQVGKAFASTEEDAYI  584
+
+Query  599  VAEKLNVKYVVSDIEMETG-------KYYAMAVWAEGDLPLAEKYYGGYFYYSPTGTFGY  651
+              + L+V YV+      TG       K+  M           +       Y +  G +  
+Sbjct  585  QMKALDVDYVLVIFGGLTGYSSDDINKFLWMVRIGGS----CDPNIKEQDYLT-NGQYRI  639
+
+Query  652  ANSQWDIPLNSII  664
+                    LNS++
+Sbjct  640  DKGASPTMLNSLM  652
+
+
+> sp|Q9FX21|STT3B_ARATH Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Arabidopsis thaliana 
+OX=3702 GN=STT3B PE=2 SV=1
+Length=735
+
+ Score = 507 bits (1306),  Expect = 7e-166, Method: Composition-based stats.
+ Identities = 118/685 (17%), Positives = 224/685 (33%), Gaps = 84/685 (12%)
+
+Query  12   WHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRIW--FD  69
+              +S+L +  +++   R+     SV  +   +   DP++ YR          +  W  FD
+Sbjct  41   LRISILGLVYILAFIARLF----SVLRYESMIHEFDPYFNYRTTLFLTEKGFYEFWNWFD  96
+
+Query  70   PFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYL  126
+              ++YP G     T +   +V    I   +        +R V             L  Y 
+Sbjct  97   SESWYPLGRIIGGTLYPGLMVTAALIYWTLRFLRFFVHIREVCVLTAPFFASNTTLVAYF  156
+
+Query  127  LTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKG  186
+              +E++D  A ++AA LIAI PG ++ RS+ G  D+     F  +     F+ A N    
+Sbjct  157  FGKELWDTGAGLVAAVLIAICPG-YISRSVAGSYDNEAVAIFALLLTFYLFVKAVN----  211
+
+Query  187  HDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNL  246
+                       +A+ + +       V +WG    I  ++  ++    +   +        
+Sbjct  212  --------TGSLAWALASAFGYFYMVSAWGGYVFIINLVPLYVLVLLITGRYSMR-----  258
+
+Query  247  SLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKW--NDVG  304
+              +A     +  ++ L     + GF  +        + +   +    F    K+  ND  
+Sbjct  259  LYIAYNCMYILGML-LAMQIRFVGFQHVQSGEHMGAMGVFLLMQVFYFLDWVKYQLNDTK  317
+
+Query  305  FFERVGLGRKGMPLAVIVLTALIMGLFFVISPDFAR--NLLSVVRVVQPKGGALTIAEVY  362
+             F+          + V  +   +      ISP   R  +LL             +++E  
+Sbjct  318  LFQTFLRITVTSAILVGGVAVGVGTASGYISPWTGRFYSLLDPTYAKDHIPIIASVSEHQ  377
+
+Query  363  PFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIALW  422
+            P           ++ +  +  L F   AG+ +   R      F    ++++ +       
+Sbjct  378  P--------TAWSSFMFDYHILLFLFPAGLYFCFKRLTDATIF----IVMYGLTSLYFAG  425
+
+Query  423  GQNRFAYYFAAVSAVYSALALSVVFDKLHLYRALENAI-------GARNKLSYFRVA---  472
+               R          + SA+A+S     L      +  +       GA +  +  +V    
+Sbjct  426  VMVRLILVATPAVCLISAIAVSATIKNLTSLLRTKQKVSQTGSTKGAGSSKASSKVTLDQ  485
+
+Query  473  ---FALLIALAAIYPTYILADAQSSYAGGPNKQWYDALTWMR--ENTPDGEKYDEYYLQL  527
+               F    A+A +   + L    + +      + Y + + +             + Y + 
+Sbjct  486  SQPFQKNGAIALLVGVFYLLSRYAIHCTWVTAEAYSSPSIVLAARGAHGNRIIFDDYREA  545
+
+Query  528  YPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SS  586
+            Y   + N            ++SWWDYG+ I A+ +R  I +       N +NN   A   
+Sbjct  546  YYWLRQNTAT------DAKIMSWWDYGYQITAMGNRTVIVD------NNTWNNTHIATVG  593
+
+Query  587  FFTAENESYAEFVAEKLNVKYVVSDIEMETG-------KYYAMAVWAEGDLPLAEKYYGG  639
+               +  E  A  +   L+V YV+      TG       K+  M     G  P+ ++    
+Sbjct  594  RAMSSYEDDAYDIMRSLDVNYVLVVFGGVTGYSSDDINKFLWMVRIGGGVFPVIKEPD--  651
+
+Query  640  YFYYSPTGTFGYANSQWDIPLNSII  664
+               Y   G F          LN ++
+Sbjct  652  ---YLVNGEFRVDKGASPKMLNCLM  673
+
+
+> sp|Q93ZY3|STT3A_ARATH Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Arabidopsis thaliana 
+OX=3702 GN=STT3A PE=2 SV=1
+Length=779
+
+ Score = 492 bits (1267),  Expect = 1e-159, Method: Composition-based stats.
+ Identities = 135/733 (18%), Positives = 238/733 (32%), Gaps = 120/733 (16%)
+
+Query  1    MQNAESWFKKYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIH  60
+            M+NA   F     + +LV+  +++  +R+     SV  +   +   DP++ YR+ +    
+Sbjct  15   MRNA---FGNVLSVLILVLIGVLAFSIRLF----SVIKYESVIHEFDPYFNYRVTQFLSK  67
+
+Query  61   NFPHRIW--FDPFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAI  115
+            N  +  W  FD  T+YP G     T +    +  G+I   + S     S+  V  F   +
+Sbjct  68   NGIYEFWNWFDDRTWYPLGRVIGGTVYPGLTLTAGTIWWGLNSLNIPLSVETVCVFTAPV  127
+
+Query  116  GGVLAILPVYLLTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALG  175
+                A    YLLT+EV    A + AA L+A+VP  ++ RS+ G  D+     F  +    
+Sbjct  128  FSAFASWATYLLTKEVKGSGAGLAAAALLAMVP-SYISRSVAGSYDNEAVAIFALIFTFY  186
+
+Query  176  TFLLAYNRWKGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVL  235
+             ++   N               + Y  +  +     V SWG    I  +I   +    V 
+Sbjct  187  LYIKTLN------------TGSLFYATLNALAYFYMVCSWGGYTFIINLIPMHVLLCIVT  234
+
+Query  236  AGFVNADRKNLSLVAVVTFAVSALIYLP-FAFNYPGFSTIFYSPFQLLVLLGSAVIAAAF  294
+              +  + R  ++   +V         +P   FN    S  F S    +++   A++    
+Sbjct  235  GRY--SPRLYIAYAPLVVLGTLLAALVPVVGFNAVLTSEHFASFLVFIIIHVVALVYYIK  292
+
+Query  295  YQIE-KWNDVGFFERVGLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKG  353
+              +  K   V     V +G     + V +L AL+           + +LL      +   
+Sbjct  293  GILSPKMFKVAVTLVVSIGMVVCFIVVAILVALVASSPTGGWSGRSLSLLDPTYASKYIP  352
+
+Query  354  GALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIW  413
+               +++E  P         T  +  +    L F   AGI+          SF    ++++
+Sbjct  353  IIASVSEHQP--------PTWPSYFMDINVLAFLVPAGIIACFSPLSDASSF----VVLY  400
+
+Query  414  AIAMFIALWGQNRFAYYFAAVSAVYSALALSVVFDKLHLY--------------------  453
+             +          R     A  + + S +ALS  FD                         
+Sbjct  401  IVMSVYFSGVMVRLMLVLAPAACIMSGIALSQAFDVFTGSIKYQLGASSNSTDDAEDNTS  460
+
+Query  454  ----------------------RALENAIGAR--------NKLSYFRVAFALLIALAAIY  483
+                                           +        +  +  +    +L   A+I 
+Sbjct  461  TNNAPKDDVSAGKTDKGEEIVKERSSKKGKKKEREPADKPSVKAKIKKKALVLPLEASIV  520
+
+Query  484  PTYI---LADAQSSYAGGPNKQWYDALT-WMRENTPDGEKYDEYYLQLYPTPQSNKEPFS  539
+               +   L      +      + Y A +  +   + DG    + + + Y     N +   
+Sbjct  521  ALLLLIMLGAFYVIHCVWAAAEAYSAPSIVLTSQSRDGLHVFDDFRESYAWLSHNTDV--  578
+
+Query  540  YPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSFFTAENESYAEF  598
+                   V SWWDYG+   A+A+R  I +       N +NN   A      +  E  A  
+Sbjct  579  ----DDKVASWWDYGYQTTAMANRTVIVD------NNTWNNTHIATVGTAMSSPEKAAWE  628
+
+Query  599  VAEKLNVKYVVSDIEMETG-------KYYAMAVWAEGDLPLAEKYYGGYFYYSPTGTFGY  651
+            +   L+VKYV+       G       K+  M     G  P    +     Y    G +  
+Sbjct  629  IFNSLDVKYVLVVFGGLIGYPSDDINKFLWMVRIGGGVFP----HIKEADYLR-DGQYRI  683
+
+Query  652  ANSQWDIPLNSII  664
+             +      LNS++
+Sbjct  684  DSEATPTMLNSLM  696
+
+
+> sp|Q7XQ88|STT3B_ORYSJ Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3B OS=Oryza sativa subsp. 
+japonica OX=39947 GN=STT3B PE=2 SV=2
+Length=721
+
+ Score = 490 bits (1260),  Expect = 3e-159, Method: Composition-based stats.
+ Identities = 124/684 (18%), Positives = 227/684 (33%), Gaps = 83/684 (12%)
+
+Query  12   WHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRIW--FD  69
+              +S L +  +++  +R+     SV  +   +   DP++ YR       +     W  FD
+Sbjct  28   LRVSALALIYVLAFVVRLF----SVLRYESMIHEFDPYFNYRTTLFLSDHGFSEFWNWFD  83
+
+Query  70   PFTYYPYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYL  126
+              ++YP G     T F   +V    +  ++ + +    +R V             L  Y 
+Sbjct  84   FESWYPLGRVVGGTLFPGLMVTAALLHRLLRALSLAVHIREVCVLTAPFFAANTTLVAYA  143
+
+Query  127  LTREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKG  186
+              RE++D  A ++AA LIA+ PG ++ RS+ G  D+     F  +     F+ A N    
+Sbjct  144  FGREIWDSGAGLVAAALIAVCPG-YISRSVAGSYDNEGVAIFALLLTFYLFVRAVN----  198
+
+Query  187  HDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNL  246
+                       +A+ + +       V +WG    I  ++  ++    V   +        
+Sbjct  199  --------TGSLAWSLASAFGYFYMVSAWGGYVFIINLLPLYVLVLLVTGRYSQR-----  245
+
+Query  247  SLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKW--NDVG  304
+              VA  +  V  ++ L     + GF  +        + +   +    F    K+  ND  
+Sbjct  246  LYVAYNSTYVLGML-LAMQIRFVGFQHVQSGEHMAAMGVFFLLQVFFFLDWVKYLLNDAK  304
+
+Query  305  FFERVGLGRKGMPLAVIVLTALIMGLFFVISPDFAR--NLLSVVRVVQPKGGALTIAEVY  362
+             F+          + V  L   I      ISP   R  +LL             +++E  
+Sbjct  305  LFKSFLRITLTCVITVGTLALGIGTASGYISPWTGRFYSLLDPTYAKDHIPIIASVSEHQ  364
+
+Query  363  PFFFTHNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIALW  422
+            P           ++ +  F  L F   AG+ +   R     S   + ++++ +       
+Sbjct  365  P--------TAWSSFMFDFHILLFLFPAGLYFCFKRL----SDATIFIVMYGLTSMYFAG  412
+
+Query  423  GQNRFAYYFAAVSAVYSALALSVVFDKL-HLYRALENAIGARNKLSYFRVAFAL------  475
+               R     A    + SA+A S     L  L R    +    +  S    A A       
+Sbjct  413  VMVRLILVAAPAVCLISAIAASATIKNLTTLIRTKSKSPQTVSGKSSGSKAAAKGAVDQS  472
+
+Query  476  ------LIALAAIYPTYILADAQSSYAGGPNKQWYD-ALTWMRENTPDGEKYDEYYLQLY  528
+                  +     +   Y+L+          ++ +   ++         G    + Y + Y
+Sbjct  473  LPFQQNVAIALLLGAFYLLSRYAVHCTWVTSEAYSSPSIVLAARGHNGGRVIFDDYREAY  532
+
+Query  529  PTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGA-SSF  587
+               + N            ++SWWDYG+ I A+ +R  I +       N +NN   A    
+Sbjct  533  YWLRQNTPS------DAKIMSWWDYGYQITAMGNRTVIVD------NNTWNNTHIATVGR  580
+
+Query  588  FTAENESYAEFVAEKLNVKYVVSDIEMETG-------KYYAMAVWAEGDLPLAEKYYGGY  640
+              +  E  A  + + L+V YV+      TG       K+  M     G  P+ ++     
+Sbjct  581  AMSSYEDEAYEIMQSLDVNYVLVVFGGVTGYSSDDINKFLWMVRIGGGVFPVIKEPD---  637
+
+Query  641  FYYSPTGTFGYANSQWDIPLNSII  664
+              Y   G +          LN ++
+Sbjct  638  --YLVNGEYRVDKGAAPKMLNCLM  659
+
+
+> sp|Q6F2Z1|STT3A_ORYSJ Dolichyl-diphosphooligosaccharide--protein 
+glycosyltransferase subunit STT3A OS=Oryza sativa subsp. 
+japonica OX=39947 GN=STT3A PE=2 SV=1
+Length=787
+
+ Score = 423 bits (1086),  Expect = 7e-133, Method: Composition-based stats.
+ Identities = 120/715 (17%), Positives = 228/715 (32%), Gaps = 107/715 (15%)
+
+Query  17   LVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYYYRLIENTIHNFPHRIW--FDPFTYY  74
+            L++  +++  +R+     SV  +   +   DP++ +R+ +    N  +  W  FD  T+Y
+Sbjct  29   LLLIGVLAFSIRLF----SVIKYESVIHEFDPYFNFRVTQFLSKNGIYEFWNWFDDRTWY  84
+
+Query  75   PYGSY---THFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYLLTREV  131
+            P G     T +    +  G+I  ++ S     S+  V  F   I    A    YLLT+E 
+Sbjct  85   PLGRVIGGTVYPGLTLTAGTIWWLLNSLNIPLSVETVCVFTAPIFSANASWATYLLTKEA  144
+
+Query  132  FDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGHDLSH  191
+                A ++AA ++A+VP  ++ RS+ G  D+     F  +     ++   N         
+Sbjct  145  KGTGAGLMAAAILAMVP-SYISRSVAGSYDNEAVAIFALIFTFYLYVKTLN---------  194
+
+Query  192  NLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLSLVAV  251
+                  + Y  +  ++    V SWG    I  +I   +    V   + +     ++   +
+Sbjct  195  ---TGSLFYATLNALSYFYMVCSWGGYTFIINLIPIHVLLCIVTGRYSSR--LYIAYAPL  249
+
+Query  252  VTFAVSALIYLPF-AFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIE-KWNDVGFFERV  309
+            V         +P   FN    S  F S    ++L   A++      +  +   V     +
+Sbjct  250  VILGTLLAALVPVVGFNAVMTSEHFASFLVFIILHVVALVYYIKGLLTPRLFKVAMTLVI  309
+
+Query  310  GLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAEVYPFFFTHN  369
+             +G       + +L AL+           + +LL      +      +++E  P  +   
+Sbjct  310  TVGLAVCFAVIAILIALVASSPTKGWSGRSLSLLDPTYASKYIPIIASVSEHQPPTWPSY  369
+
+Query  370  G-EFTLTNAVLHFGALFFFGMAG------ILYSAYRFLKRRSFPEMALLIWAIAMFIALW  422
+              +  +   ++  G +  F          +LY             + L++   A  ++  
+Sbjct  370  FMDINVLAFLIPAGIISCFLPLSDASSFVVLYLVTAVYFSGVMVRLMLVLAPAACILSGI  429
+
+Query  423  GQNRFAYYFAAVSAVYSALALSVVFDKLHLYR----------------------------  454
+              +                 LS +FD                                  
+Sbjct  430  ALSEAFDVLTRSV----KYQLSKLFDDSPAASGDSSAESSSASTVSTNSAKNETRPEKTE  485
+
+Query  455  -ALENAIGARNKLSYFRVA---------------FALLIALAAIYPTYILADAQSSYAGG  498
+             A +     +N+     VA                 +  ++  I    +L      +   
+Sbjct  486  TAPKEKPSKKNRKKEKEVAESVPVKPKKEKKLLVLPMEASVLGILLLIVLGGFYVVHCVW  545
+
+Query  499  PNKQWYDALT-WMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWI  557
+               + Y A +  +   + DG    + + + Y     N +          V SWWDYG+  
+Sbjct  546  AAAEAYSAPSIVLTSRSRDGLHVFDDFREAYAWLSHNTDV------DDKVASWWDYGYQT  599
+
+Query  558  EAVAHRMPIANPFQAGIGNKYNNVPGA-SSFFTAENESYAEFVAEKLNVKYVVSDIEMET  616
+             A+A+R  I +       N +NN   A      +  E  A  +   L+VKYV+       
+Sbjct  600  TAMANRTVIVD------NNTWNNTHIATVGTAMSSPEKAAWEIFNSLDVKYVLVVFGGLV  653
+
+Query  617  G-------KYYAMAVWAEGDLPLAEKYYGGYFYYSPTGTFGYANSQWDIPLNSII  664
+            G       K+  M     G  P    +     Y    G +          LN ++
+Sbjct  654  GYPSDDINKFLWMVRIGGGVFP----HIKEPDYLR-DGNYRVDAQGTPTMLNCLM  703
+
+
+> sp|Q58920|Y1525_METJA Uncharacterized membrane protein MJ1525 
+OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 
+/ JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1525 PE=3 
+SV=1
+Length=933
+
+ Score = 352 bits (904),  Expect = 4e-105, Method: Composition-based stats.
+ Identities = 131/694 (19%), Positives = 227/694 (33%), Gaps = 135/694 (19%)
+
+Query  1    MQNAESWFKKYWH-------LSVLVIAALISVKLRI------LNPWNSVFT-------WT  40
+            M NA      ++          ++++   +S +LR           N             
+Sbjct  8    MSNALEKINNFFKEKSWIKVFLIILMLMFVSFQLRAQTADMKFAQDNEFLKDMFSDEHGR  67
+
+Query  41   VRLGGNDPWYYYRLIENTIHNFP----------HRIWFDPFTYYPYGSYTHF--GPFLVY  88
+            + L   DP+YY RL EN  +N                +D + Y P G    +      + 
+Sbjct  68   MYLLALDPYYYLRLSENLYNNGHCGDTIKVVDGKETPYDLYQYAPPGHPLPWEPPVICLA  127
+
+Query  89   LGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYLLTREVFDKRAAVIAAFLIAIVP  148
+              +I  I  S     ++     ++PA+ G+L  +P+Y + R V +     IA  +  I  
+Sbjct  128  TLAIYYIWHSIDLTVTIMNAAFWVPAVLGMLLGIPIYFVVRRVTNSNIGGIAGAIALISA  187
+
+Query  149  GQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGHDLSHNLTARQMAYPVIAGITI  208
+               L ++  GF D  I+E    +  +   L + +  +   L        ++  VIA + I
+Sbjct  188  PGLLYKTCAGFADTPIFEVLPILFIVWFILESIHSQEKTALFKKDLKNPISLFVIAALII  247
+
+Query  209  -----GLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLSLVAVVTFAVSALIYLP  263
+                     ++ G   +IA I+   +  AF+LAG + A  K L     + F + AL+ + 
+Sbjct  248  ELIIGAYLNIASGESVVIASILFYTVSLAFILAGLIIAGIKKLK-GNELEFELFALLAVI  306
+
+Query  264  FAFNYP-GFSTIFYSPFQLLVLLGSAVIAAAF----YQIEKWNDVGFFERVGLGRKGMPL  318
+                 P  +   +Y    +   L   +IA A      +I+++ ++G  + +         
+Sbjct  307  LTAVSPKMWGAWWYGFDVITAFLVIYIIALALLKSQVKIKEFINIGNLKNIVYLSIFYIF  366
+
+Query  319  AVIVLTALIMGLFFVISP-----DFARNLLSVVRVVQPKGGALTIAE-VYPFFFTHNGEF  372
+               VL   I G+   ISP      + + L +  +         T+AE   P  ++     
+Sbjct  367  GSFVLLVAIYGMGIAISPITSPLGYNQILSTYTQTTGWPNVYTTVAELAKPSSWSEIFTN  426
+
+Query  373  TLTN----AVLHFGALF---------------FFGMAGILYSA--YRFLKRRSFPEMALL  411
+             + +     V   G L                +  +  I  +   Y   K   F  +A  
+Sbjct  427  AIGSDTIAIVGILGILLSFLSLRYEKVKLDIKYSILLAIWLAVTLYAATKGIRFAALATP  486
+
+Query  412  IWAIAMFIALWGQNRF------------------------AYYFAAVSAVY--------S  439
+              AI + I +    RF                        + Y A +S +          
+Sbjct  487  PLAIGLGIFVGQLERFLKMKSDIAIFGIGIPAGIFGLLILSKYSAKISQILLPTTYVPII  546
+
+Query  440  ALALSVVFDKLHLYRALENAIGARNKL-SYFRVAFALLIALAAIYPTYILADAQSSYAGG  498
+            A    +V   L +Y+  +      +K  +  +V+  LL     I P  + A    S A  
+Sbjct  547  AYGFLIVLALLAIYKISDIISTLNDKKETIIKVSTLLLCIGVVIPP--LSAVVPFSVAPT  604
+
+Query  499  PNKQWYDALTWMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIE  558
+             N  W + L W++ NTP+                              +  WWD GH   
+Sbjct  605  FNNGWKEGLDWIKANTPNNSV---------------------------ITCWWDNGHIYT  637
+
+Query  559  AVAHRMPIANPFQAGIGNKYNNVPGASSFFTAEN  592
+              A RM     F  G  N         +F T+  
+Sbjct  638  YEARRMVT---FDGGSQNSPRAYWVGRAFATSNE  668
+
+
+> sp|Q2EMT4|AGLB_METVO Dolichyl-phosphooligosaccharide-protein 
+glycotransferase OS=Methanococcus voltae OX=2188 GN=aglB PE=1 
+SV=1
+Length=917
+
+ Score = 286 bits (732),  Expect = 3e-81, Method: Composition-based stats.
+ Identities = 113/647 (17%), Positives = 196/647 (30%), Gaps = 163/647 (25%)
+
+Query  39   WTVRLGGNDPWYYYRLIENTIHNFP----------HRIWFDPFTYYPYGSYTHFGPFLVY  88
+              + L   DP+YY R+ EN + N             ++ +D + Y P G+   F    V 
+Sbjct  76   GRMYLTALDPYYYLRMSENYLENGHTGDTLKNIDGQQVPWDSYKYGPTGARATFNLLSVV  135
+
+Query  89   LGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYLLTREVFD-KRAAVIAAFLIAIV  147
+               +  +  +  S  +L     ++PAI  +  I P++   R +        +AA L ++ 
+Sbjct  136  TVWVYQVWHAMDSTVTLMNAAFWVPAILSMFLITPIFFTVRRITSSDIGGAVAAILASLS  195
+
+Query  148  PGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGHDLSHNLTARQMAYPVIAGIT  207
+            P  F+ +++ GF+D  I E    +  +   + A +  K  +       + + Y ++A + 
+Sbjct  196  PSIFV-KTVAGFSDTPILEILPLLFIVWFIIEAIHYSKEKNY------KSLIYGLLATLM  248
+
+Query  208  IGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLSLVAVVTFAVSALIYLPFAFN  267
+            + LY   W A +    I++AF+    +  G         S  ++  +  S          
+Sbjct  249  LALYPFMWSAWWYGYYIVIAFLVIYAIYKGI--------SYNSIAKYTKSKNNNHKDKIE  300
+
+Query  268  YPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVGFFERVGLGRKGMPLAVIVLTALI  327
+                  +       L ++G AV+  A Y                           + AL 
+Sbjct  301  SEKLEMLNILKISGLFIIGGAVLITALYG----------------------VSTTMNALQ  338
+
+Query  328  MGLFFVISPDFARNLLSVVRVVQPKGGALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFF  387
+              L ++   + +                 T++E+           +L +       LF  
+Sbjct  339  APLNYLGLDEVSSQ-------TGWPNVLTTVSELDTASLDEIISSSLGSI-----HLFAI  386
+
+Query  388  GMAGILYSAYRFL-------------KRRSFPEMALLIWAIAMFIALWGQNRFAYYFAAV  434
+            G+ GI  S +R +             K      + L+IW    F+A     RF       
+Sbjct  387  GLIGIFLSLFRKVLTPVKQISNGLAEKLDIKYALLLIIWFAVTFLAASKGVRFVALMVPP  446
+
+Query  435  SAV-------------------------YSALALSVVFDKLHLYRALE------------  457
+             ++                         Y  +A+ V++    +YRA              
+Sbjct  447  LSIGVGIFVGFIEQFIKNNLDKKYEYVAYPTIAIIVLYALFTIYRADSADLVRMLLPSNY  506
+
+Query  458  ---------------------NAIGARNKLSYFRVAFALLIALAAIYPTYILADAQSSYA  496
+                                   I   NK       F +L+A+  I PT I         
+Sbjct  507  VPIAEGIMLASLAVLIIYKVAELIAESNKKLVMNKIFMILLAIGLITPT-IATIVPFYSV  565
+
+Query  497  GGPNKQWYDALTWMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHW  556
+               N  W ++L W+   TP+                              V  WWD GH 
+Sbjct  566  PTYNDGWGESLEWINTQTPNNSV---------------------------VTCWWDNGHI  598
+
+Query  557  IEAVAHRMPIANPFQAGIGNKYNNVPGASSFFTAENESYAEFVAEKL  603
+                  RM     F     N         +F T+ NES A  +   L
+Sbjct  599  YTWKTDRMVT---FDGSSQNTPRAYWVGRAFSTS-NESLANGIFRML  641
+
+
+> sp|Q5HTX9|PGLB_CAMJR Undecaprenyl-diphosphooligosaccharide--protein 
+glycotransferase OS=Campylobacter jejuni (strain RM1221) 
+OX=195099 GN=pglB PE=1 SV=1
+Length=713
+
+ Score = 73.7 bits (179),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 93/600 (16%), Positives = 189/600 (32%), Gaps = 112/600 (19%)
+
+Query  14   LSVLVIAALISVKLRILNPWNS------VFTWTVRLGGNDPWYYYRLIENTIHNFPHRIW  67
+             +++++A + SV  R    W +       F   + +  ND + +     + I  F     
+Sbjct  15   FAMIILAYVFSVLCRFYWIWWASEFNEYFFNNQLMIISNDGYAFAEGARDMIAGFHQP--  72
+
+Query  68   FDPFTYYPYGSYTHFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYLL  127
+             +  +YY                    +        S  +++ ++      L ++P+ LL
+Sbjct  73   -NDLSYYG----------SSLSTLTYWLYKITPF--SFESIILYMSTFLSSLVVIPIILL  119
+
+Query  128  TREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGH  187
+              E        +AA L+A V   +  R++ G+ D  +      +  L   +    +    
+Sbjct  120  ANEYKRPLMGFVAA-LLASVANSYYNRTMSGYYDTDMLVIVLPMFILFFMVRMILKKDFF  178
+
+Query  188  DLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLS  247
+             L        +A P+  GI +  Y  S     +   +I  F+ +  +       ++    
+Sbjct  179  SL--------IALPLFIGIYLWWYPSS---YTLNVALIGLFLIYTLIFHR---KEKIFYI  224
+
+Query  248  LVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVGFFE  307
+             V + +  +S + +                 +Q  ++    + A    + ++ N +    
+Sbjct  225  AVILSSLTLSNIAW----------------FYQSAII--VILFALFALEQKRLNFMIIGI  266
+
+Query  308  RVGLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAEVYPFFFT  367
+                    + L+  V   L    F++   D + NL    +         TI EV    F+
+Sbjct  267  LGSATLIFLILSGGVDPILYQLKFYIFRNDESANL---TQGFMYFNVNQTIQEVENVDFS  323
+
+Query  368  HNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIALWGQNRF  427
+                    +       LF              L++     MAL I  +  F+AL G  RF
+Sbjct  324  EFMRRISGS---EIVFLFSLF------GFVWLLRKHKSMIMALPIL-VLGFLALKGGLRF  373
+
+Query  428  AYYFAAVSAVYSALALSVVFDKLHLYRALENAIGARNKLSYFRVAFALLIALAAIYPTYI  487
+              Y   V     AL    +  +         AI  +           +   +  + P +I
+Sbjct  374  TIYSVPVM----ALGFGFLLSEF-------KAILVKKYSQLTSNVCIVFATILTLAPVFI  422
+
+Query  488  LADAQSSYAGGPNKQWYDALTWMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGV  547
+                 +  A     Q   +L    +N  +         + Y                  V
+Sbjct  423  --HIYNYKAPTVFSQNEASLLNQLKNIAN--------REDY------------------V  454
+
+Query  548  ISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGASSFFTAENESYAEFVAEKLNVKY  607
+            ++WWDYG+ +   +    + +  +    + +       SF  +++E  A  +A  L+V+Y
+Sbjct  455  VTWWDYGYPVRYYSDVKTLVDGGKHLGKDNF-----FPSFALSKDEQAAANMAR-LSVEY  508
+
+
+> sp|Q0P9C8|PGLB_CAMJE Undecaprenyl-diphosphooligosaccharide--protein 
+glycotransferase OS=Campylobacter jejuni subsp. jejuni 
+serotype O:2 (strain ATCC 700819 / NCTC 11168) OX=192222 GN=pglB 
+PE=1 SV=1
+Length=713
+
+ Score = 73.3 bits (178),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 94/600 (16%), Positives = 189/600 (32%), Gaps = 112/600 (19%)
+
+Query  14   LSVLVIAALISVKLRILNPWNS------VFTWTVRLGGNDPWYYYRLIENTIHNFPHRIW  67
+             +++V+A + SV  R    W +       F   + +  ND + +     + I  F     
+Sbjct  15   FAMIVLAYVFSVFCRFYWVWWASEFNEYFFNNQLMIISNDGYAFAEGARDMIAGFHQP--  72
+
+Query  68   FDPFTYYPYGSYTHFGPFLVYLGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYLL  127
+             +  +YY                    +        S  +++ ++      L ++P+ LL
+Sbjct  73   -NDLSYYG----------SSLSTLTYWLYKITPF--SFESIILYMSTFLSSLVVIPIILL  119
+
+Query  128  TREVFDKRAAVIAAFLIAIVPGQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGH  187
+              E        +AA L+A V   +  R++ G+ D  +      +  L   +    +    
+Sbjct  120  ANEYKRPLMGFVAA-LLASVANSYYNRTMSGYYDTDMLVIVLPMFILFFMVRMILKKDFF  178
+
+Query  188  DLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLS  247
+             L        +A P+  GI +  Y  S     +   +I  F+ +  +       ++    
+Sbjct  179  SL--------IALPLFIGIYLWWYPSS---YTLNVALIGLFLIYTLIFHR---KEKIFYI  224
+
+Query  248  LVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVGFFE  307
+             V + +  +S + +                 +Q  ++    + A    + ++ N +    
+Sbjct  225  AVILSSLTLSNIAW----------------FYQSAII--VILFALFALEQKRLNFMIIGI  266
+
+Query  308  RVGLGRKGMPLAVIVLTALIMGLFFVISPDFARNLLSVVRVVQPKGGALTIAEVYPFFFT  367
+                    + L+  V   L    F++   D + NL    +         TI EV    F+
+Sbjct  267  LGSATLIFLILSGGVDPILYQLKFYIFRSDESANL---TQGFMYFNVNQTIQEVENVDFS  323
+
+Query  368  HNGEFTLTNAVLHFGALFFFGMAGILYSAYRFLKRRSFPEMALLIWAIAMFIALWGQNRF  427
+                    +       LF              L++     MAL I  +  F+AL G  RF
+Sbjct  324  EFMRRISGS---EIVFLFSLF------GFVWLLRKHKSMIMALPIL-VLGFLALKGGLRF  373
+
+Query  428  AYYFAAVSAVYSALALSVVFDKLHLYRALENAIGARNKLSYFRVAFALLIALAAIYPTYI  487
+              Y   V     AL    +  +         AI  +           +   +  + P +I
+Sbjct  374  TIYSVPVM----ALGFGFLLSEF-------KAILVKKYSQLTSNVCIVFATILTLAPVFI  422
+
+Query  488  LADAQSSYAGGPNKQWYDALTWMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGV  547
+                 +  A     Q   +L    +N  +         + Y                  V
+Sbjct  423  --HIYNYKAPTVFSQNEASLLNQLKNIAN--------REDY------------------V  454
+
+Query  548  ISWWDYGHWIEAVAHRMPIANPFQAGIGNKYNNVPGASSFFTAENESYAEFVAEKLNVKY  607
+            ++WWDYG+ +   +    + +  +    + +       SF  +++E  A  +A  L+V+Y
+Sbjct  455  VTWWDYGYPVRYYSDVKTLVDGGKHLGKDNF-----FPSFSLSKDEQAAANMAR-LSVEY  508
+
+
+> sp|B9KDD4|PGLB_CAMLR Undecaprenyl-diphosphooligosaccharide--protein 
+glycotransferase OS=Campylobacter lari (strain RM2100 
+/ D67 / ATCC BAA-1060) OX=306263 GN=pglB PE=1 SV=1
+Length=712
+
+ Score = 59.9 bits (143),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 72/481 (15%), Positives = 150/481 (31%), Gaps = 85/481 (18%)
+
+Query  89   LGSIAGIIFSATSGESLRAVLAFIPAIGGVLAILPVYLLTREVFDKRAAVIAAFLIAIVP  148
+                  +        S  +++ ++ A    L ++P+ L+ RE        IAA L +I  
+Sbjct  85   STLTYWLYSILPF--SFESIILYMSAFFASLIVVPIILIAREYKLTTYGFIAALLGSI-A  141
+
+Query  149  GQFLQRSILGFNDHHIWEAFWQVSALGTFLLAYNRWKGHDLSHNLTARQMAYPVIAGITI  208
+              +  R++ G+ D  +      +  L TF+            +      +  PV   I +
+Sbjct  142  NSYYNRTMSGYYDTDMLVLVLPMLILLTFI--------RLTINKDIFTLLLSPVFIMIYL  193
+
+Query  209  GLYVLSWGAGFIIAPIILAFMFFAFVLAGFVNADRKNLSLVAVVTFAVSALIYLPFAFNY  268
+              Y  S+   F +  +   +         F   ++     +A++  A+S L +       
+Sbjct  194  WWYPSSYSLNFAMIGLFGLYTLV------FHRKEKIFYLTIALMIIALSMLAW-------  240
+
+Query  269  PGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVGFFERVGLGRKGMPLAVIVLTALIM  328
+                       Q  + L   + A   ++ EK N    +  + +    + L+  +   L  
+Sbjct  241  -----------QYKLALIVLLFAIFAFKEEKINFYMIWALIFISILILHLSGGLDPVLYQ  289
+
+Query  329  GLFFVISPDFARNLLSVVRVVQPKG-GALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFF  387
+              F+V      +NL     +        + +  + P  F      ++   V     + F 
+Sbjct  290  LKFYVFKASDVQNLKDAAFMYFNVNETIMEVNTIDPEVFMQRISSSV--LVFILSFIGF-  346
+
+Query  388  GMAGILYSAYRFLKRRSFPEMALLIWAIAMFIALWGQNRFAYYFAAVSAVYSALALSVVF  447
+                IL        +     +  L      F+AL    RF  Y   V A+         F
+Sbjct  347  ----ILLC------KDHKSMLLALPMLALGFMALRAGLRFTIYAVPVMALGFGY-FLYAF  395
+
+Query  448  DKLHLYRALENAIGARNKLSYFRVAFALLIALAAIYPTYILADAQSSYAGGPNKQWYDAL  507
+                  + ++ ++  +N L        +LIA  +I P  +        +      +  ++
+Sbjct  396  FNFLEKKQIKLSLRNKNIL-------LILIAFFSISPALM--HIYYYKSSTVFTSYEASI  446
+
+Query  508  TWMRENTPDGEKYDEYYLQLYPTPQSNKEPFSYPFETYGVISWWDYGHWIEAVAHRMPIA  567
+                      +  ++   + Y                  V++WWDYG+ I   +    + 
+Sbjct  447  L--------NDLKNKAQREDY------------------VVAWWDYGYPIRYYSDVKTLI  480
+
+Query  568  N  568
+            +
+Sbjct  481  D  481
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.120    0.303    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0366    0.140     1.90     42.6     43.6 
+
+Effective search space used: 95541189939
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

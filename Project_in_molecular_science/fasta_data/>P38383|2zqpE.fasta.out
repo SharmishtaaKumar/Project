@@ -1,0 +1,557 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P38383|2zqpE
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P38383|SECE_THET8 Protein translocase subunit SecE OS=Thermu...  117     1e-34
+  sp|D0VWU4|SECE_AQUAE Protein translocase subunit SecE OS=Aquife...  43.9    3e-06
+  sp|Q7B6T4|SECE_RICSI Protein translocase subunit SecE OS=Ricket...  34.3    0.008
+  sp|Q8KHU8|SECE_RICRH Protein translocase subunit SecE OS=Ricket...  34.3    0.008
+  sp|Q7WWR6|SECE_RICPA Protein translocase subunit SecE OS=Ricket...  34.3    0.008
+  sp|Q4UKC8|SECE_RICFE Protein translocase subunit SecE OS=Ricket...  34.3    0.008
+  sp|Q92J92|SECE_RICCN Protein translocase subunit SecE OS=Ricket...  34.3    0.008
+
+
+> sp|P38383|SECE_THET8 Protein translocase subunit SecE OS=Thermus 
+thermophilus (strain HB8 / ATCC 27634 / DSM 579) OX=300852 
+GN=secE PE=1 SV=2
+Length=60
+
+ Score = 117 bits (294),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   MFARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLLR  60
+           MFARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLLR
+Sbjct  1   MFARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLLR  60
+
+
+> sp|D0VWU4|SECE_AQUAE Protein translocase subunit SecE OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=secE PE=1 SV=1
+Length=65
+
+ Score = 43.9 bits (102),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 21/56 (38%), Positives = 34/56 (61%), Gaps = 0/56 (0%)
+
+Query  4   RLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+           +L  + +  R EL RV WP+RE VV+ T ++++F+LA  V L + D  F  +I  +
+Sbjct  3   KLKEFLKGVRDELKRVVWPSRELVVKATISVIIFSLAIGVYLWILDLTFTKIISFI  58
+
+
+> sp|Q7B6T4|SECE_RICSI Protein translocase subunit SecE OS=Rickettsia 
+sibirica OX=35793 GN=secE PE=3 SV=1
+Length=66
+
+ Score = 34.3 bits (77),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 14/56 (25%), Positives = 32/56 (57%), Gaps = 0/56 (0%)
+
+Query  4   RLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+           ++ ++F++ + E  +V WPTR+++V  T  +++    F +I  + D     ++ LL
+Sbjct  6   KIYKFFEQVKQETYKVVWPTRKELVASTLVVVVAVFIFSLICLVLDYSIHNIMQLL  61
+
+
+> sp|Q8KHU8|SECE_RICRH Protein translocase subunit SecE OS=Rickettsia 
+rhipicephali OX=33992 GN=secE PE=3 SV=1
+Length=66
+
+ Score = 34.3 bits (77),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 14/56 (25%), Positives = 32/56 (57%), Gaps = 0/56 (0%)
+
+Query  4   RLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+           ++ ++F++ + E  +V WPTR+++V  T  +++    F +I  + D     ++ LL
+Sbjct  6   KIYKFFEQVKQETYKVVWPTRKELVASTLVVVVAVFIFSLICLVLDYSIHNIMQLL  61
+
+
+> sp|Q7WWR6|SECE_RICPA Protein translocase subunit SecE OS=Rickettsia 
+parkeri OX=35792 GN=secE PE=3 SV=1
+Length=66
+
+ Score = 34.3 bits (77),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 14/56 (25%), Positives = 32/56 (57%), Gaps = 0/56 (0%)
+
+Query  4   RLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+           ++ ++F++ + E  +V WPTR+++V  T  +++    F +I  + D     ++ LL
+Sbjct  6   KIYKFFEQVKQETYKVVWPTRKELVASTLVVVVAVFIFSLICLVLDYSIHNIMQLL  61
+
+
+> sp|Q4UKC8|SECE_RICFE Protein translocase subunit SecE OS=Rickettsia 
+felis (strain ATCC VR-1525 / URRWXCal2) OX=315456 GN=secE 
+PE=3 SV=2
+Length=66
+
+ Score = 34.3 bits (77),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 14/56 (25%), Positives = 32/56 (57%), Gaps = 0/56 (0%)
+
+Query  4   RLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+           ++ ++F++ + E  +V WPTR+++V  T  +++    F +I  + D     ++ LL
+Sbjct  6   KIYKFFEQVKQETYKVVWPTRKELVASTLVVVVAVFIFSLICLVLDYSIHNIMQLL  61
+
+
+> sp|Q92J92|SECE_RICCN Protein translocase subunit SecE OS=Rickettsia 
+conorii (strain ATCC VR-613 / Malish 7) OX=272944 GN=secE 
+PE=3 SV=2
+Length=66
+
+ Score = 34.3 bits (77),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 14/56 (25%), Positives = 32/56 (57%), Gaps = 0/56 (0%)
+
+Query  4   RLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+           ++ ++F++ + E  +V WPTR+++V  T  +++    F +I  + D     ++ LL
+Sbjct  6   KIYKFFEQVKQETYKVVWPTRKELVASTLVVVVAVFIFSLICLVLDYSIHNIMQLL  61
+
+
+
+Lambda      K        H        a         alpha
+   0.338    0.148    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4894479783
+Results from round 2
+
+
+Query= P38383|2zqpE
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P38383|SECE_THET8 Protein translocase subunit SecE OS=Thermu...  69.9    4e-16
+  sp|D0VWU4|SECE_AQUAE Protein translocase subunit SecE OS=Aquife...  65.3    3e-14
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9ZNE7|SECE_VIBAL Protein translocase subunit SecE OS=Vibrio...  37.6    8e-04
+  sp|P38382|SECE_SYNY3 Protein translocase subunit SecE OS=Synech...  35.7    0.003
+  sp|P9WGN7|SECE_MYCTU Protein translocase subunit SecE OS=Mycoba...  35.7    0.007
+  sp|P9WGN6|SECE_MYCTO Protein translocase subunit SecE OS=Mycoba...  35.7    0.007
+  sp|P0A5Z1|SECE_MYCBO Protein translocase subunit SecE OS=Mycoba...  35.7    0.007
+  sp|P0AG96|SECE_ECOLI Protein translocase subunit SecE OS=Escher...  35.3    0.008
+  sp|P0AG97|SECE_ECOL6 Protein translocase subunit SecE OS=Escher...  35.3    0.008
+  sp|P0AG98|SECE_ECO57 Protein translocase subunit SecE OS=Escher...  35.3    0.008
+
+
+> sp|P38383|SECE_THET8 Protein translocase subunit SecE OS=Thermus 
+thermophilus (strain HB8 / ATCC 27634 / DSM 579) OX=300852 
+GN=secE PE=1 SV=2
+Length=60
+
+ Score = 69.9 bits (170),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   MFARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLLR  60
+           MFARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLLR
+Sbjct  1   MFARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLLR  60
+
+
+> sp|D0VWU4|SECE_AQUAE Protein translocase subunit SecE OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=secE PE=1 SV=1
+Length=65
+
+ Score = 65.3 bits (158),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 21/56 (38%), Positives = 34/56 (61%), Gaps = 0/56 (0%)
+
+Query  4   RLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+           +L  + +  R EL RV WP+RE VV+ T ++++F+LA  V L + D  F  +I  +
+Sbjct  3   KLKEFLKGVRDELKRVVWPSRELVVKATISVIIFSLAIGVYLWILDLTFTKIISFI  58
+
+
+> sp|Q9ZNE7|SECE_VIBAL Protein translocase subunit SecE OS=Vibrio 
+alginolyticus OX=663 GN=secE PE=3 SV=1
+Length=126
+
+ Score = 37.6 bits (86),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 31/53 (58%), Gaps = 0/53 (0%)
+
+Query  6    IRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGL  58
+            I + +E+R E+ +V WPTR++ ++ T  +L  ++   ++L   D +   L+ L
+Sbjct  70   ISFAKESRMEVRKVVWPTRQETMQTTLIVLAVSIVMALVLWGIDGIMVRLVAL  122
+
+
+> sp|P38382|SECE_SYNY3 Protein translocase subunit SecE OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=secE 
+PE=3 SV=1
+Length=81
+
+ Score = 35.7 bits (81),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 12/48 (25%), Positives = 28/48 (58%), Gaps = 0/48 (0%)
+
+Query  8   YFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFL  55
+           +    + ELA+V WP+R+Q++  + A++L  +    ++   D +F ++
+Sbjct  26  FIAATKDELAKVVWPSRQQLISESVAVILMVILVSTVIYFVDQIFGWI  73
+
+
+> sp|P9WGN7|SECE_MYCTU Protein translocase subunit SecE OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=secE PE=1 SV=1
+Length=161
+
+ Score = 35.7 bits (81),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 20/53 (38%), Positives = 30/53 (57%), Gaps = 2/53 (4%)
+
+Query  8    YFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGL-YDTVFRFLIGLL  59
+            Y ++  AE+ +V WP R+Q++  T  +L F LAFMV L    D     L+ L+
+Sbjct  108  YLKQVVAEMRKVIWPNRKQMLTYTSVVLAF-LAFMVALVAGADLGLTKLVMLV  159
+
+
+> sp|P9WGN6|SECE_MYCTO Protein translocase subunit SecE OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=secE PE=3 SV=1
+Length=161
+
+ Score = 35.7 bits (81),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 20/53 (38%), Positives = 30/53 (57%), Gaps = 2/53 (4%)
+
+Query  8    YFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGL-YDTVFRFLIGLL  59
+            Y ++  AE+ +V WP R+Q++  T  +L F LAFMV L    D     L+ L+
+Sbjct  108  YLKQVVAEMRKVIWPNRKQMLTYTSVVLAF-LAFMVALVAGADLGLTKLVMLV  159
+
+
+> sp|P0A5Z1|SECE_MYCBO Protein translocase subunit SecE OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 
+GN=secE PE=3 SV=1
+Length=161
+
+ Score = 35.7 bits (81),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 20/53 (38%), Positives = 30/53 (57%), Gaps = 2/53 (4%)
+
+Query  8    YFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGL-YDTVFRFLIGLL  59
+            Y ++  AE+ +V WP R+Q++  T  +L F LAFMV L    D     L+ L+
+Sbjct  108  YLKQVVAEMRKVIWPNRKQMLTYTSVVLAF-LAFMVALVAGADLGLTKLVMLV  159
+
+
+> sp|P0AG96|SECE_ECOLI Protein translocase subunit SecE OS=Escherichia 
+coli (strain K12) OX=83333 GN=secE PE=1 SV=1
+Length=127
+
+ Score = 35.3 bits (80),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 27/52 (52%), Gaps = 0/52 (0%)
+
+Query  8    YFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            + +EAR E+ +V WPTR++ +  T  +   T    +IL   D +   L+  +
+Sbjct  71   FAREARTEVRKVIWPTRQETLHTTLIVAAVTAVMSLILWGLDGILVRLVSFI  122
+
+
+> sp|P0AG97|SECE_ECOL6 Protein translocase subunit SecE OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=secE PE=3 SV=1
+Length=127
+
+ Score = 35.3 bits (80),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 27/52 (52%), Gaps = 0/52 (0%)
+
+Query  8    YFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            + +EAR E+ +V WPTR++ +  T  +   T    +IL   D +   L+  +
+Sbjct  71   FAREARTEVRKVIWPTRQETLHTTLIVAAVTAVMSLILWGLDGILVRLVSFI  122
+
+
+> sp|P0AG98|SECE_ECO57 Protein translocase subunit SecE OS=Escherichia 
+coli O157:H7 OX=83334 GN=secE PE=3 SV=1
+Length=127
+
+ Score = 35.3 bits (80),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 27/52 (52%), Gaps = 0/52 (0%)
+
+Query  8    YFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            + +EAR E+ +V WPTR++ +  T  +   T    +IL   D +   L+  +
+Sbjct  71   FAREARTEVRKVIWPTRQETLHTTLIVAAVTAVMSLILWGLDGILVRLVSFI  122
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.148    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0452    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4894479783
+Results from round 3
+
+
+Query= P38383|2zqpE
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9ZNE7|SECE_VIBAL Protein translocase subunit SecE OS=Vibrio...  63.1    6e-13
+  sp|P38383|SECE_THET8 Protein translocase subunit SecE OS=Thermu...  60.8    2e-12
+  sp|D0VWU4|SECE_AQUAE Protein translocase subunit SecE OS=Aquife...  55.4    2e-10
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9KV36|SECE_VIBCH Protein translocase subunit SecE OS=Vibrio...  55.7    3e-10
+  sp|P0AG96|SECE_ECOLI Protein translocase subunit SecE OS=Escher...  50.7    2e-08
+  sp|P0AG97|SECE_ECOL6 Protein translocase subunit SecE OS=Escher...  50.7    2e-08
+  sp|P0AG98|SECE_ECO57 Protein translocase subunit SecE OS=Escher...  50.7    2e-08
+  sp|P0A2D3|SECE_SALTY Protein translocase subunit SecE OS=Salmon...  47.7    2e-07
+  sp|P0A2D4|SECE_SALTI Protein translocase subunit SecE OS=Salmon...  47.7    2e-07
+  sp|P43805|SECE_HAEIN Protein translocase subunit SecE OS=Haemop...  38.0    5e-04
+  sp|P9WGN7|SECE_MYCTU Protein translocase subunit SecE OS=Mycoba...  38.8    5e-04
+  sp|P9WGN6|SECE_MYCTO Protein translocase subunit SecE OS=Mycoba...  38.8    5e-04
+  sp|P0A5Z1|SECE_MYCBO Protein translocase subunit SecE OS=Mycoba...  38.8    5e-04
+  sp|Q8KA64|SECE_BUCAP Protein translocase subunit SecE OS=Buchne...  36.1    0.003
+  sp|Q9CBJ9|SECE_MYCLE Protein translocase subunit SecE OS=Mycoba...  35.7    0.006
+  sp|P38382|SECE_SYNY3 Protein translocase subunit SecE OS=Synech...  34.6    0.008
+
+
+> sp|Q9ZNE7|SECE_VIBAL Protein translocase subunit SecE OS=Vibrio 
+alginolyticus OX=663 GN=secE PE=3 SV=1
+Length=126
+
+ Score = 63.1 bits (152),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 31/53 (58%), Gaps = 0/53 (0%)
+
+Query  6    IRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGL  58
+            I + +E+R E+ +V WPTR++ ++ T  +L  ++   ++L   D +   L+ L
+Sbjct  70   ISFAKESRMEVRKVVWPTRQETMQTTLIVLAVSIVMALVLWGIDGIMVRLVAL  122
+
+
+> sp|P38383|SECE_THET8 Protein translocase subunit SecE OS=Thermus 
+thermophilus (strain HB8 / ATCC 27634 / DSM 579) OX=300852 
+GN=secE PE=1 SV=2
+Length=60
+
+ Score = 60.8 bits (146),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   MFARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLLR  60
+           MFARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLLR
+Sbjct  1   MFARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLLR  60
+
+
+> sp|D0VWU4|SECE_AQUAE Protein translocase subunit SecE OS=Aquifex 
+aeolicus (strain VF5) OX=224324 GN=secE PE=1 SV=1
+Length=65
+
+ Score = 55.4 bits (132),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 21/56 (38%), Positives = 34/56 (61%), Gaps = 0/56 (0%)
+
+Query  4   RLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+           +L  + +  R EL RV WP+RE VV+ T ++++F+LA  V L + D  F  +I  +
+Sbjct  3   KLKEFLKGVRDELKRVVWPSRELVVKATISVIIFSLAIGVYLWILDLTFTKIISFI  58
+
+
+> sp|Q9KV36|SECE_VIBCH Protein translocase subunit SecE OS=Vibrio 
+cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961) 
+OX=243277 GN=secE PE=3 SV=2
+Length=126
+
+ Score = 55.7 bits (133),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 14/53 (26%), Positives = 29/53 (55%), Gaps = 0/53 (0%)
+
+Query  6    IRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGL  58
+            I + +E+R E+ +V WPTR++ ++ T  +L  ++   + L   D +   L+  
+Sbjct  70   IVFARESRMEVRKVVWPTRQETMQTTLIVLAVSIVMALALWGIDGIMVRLVAF  122
+
+
+> sp|P0AG96|SECE_ECOLI Protein translocase subunit SecE OS=Escherichia 
+coli (strain K12) OX=83333 GN=secE PE=1 SV=1
+Length=127
+
+ Score = 50.7 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 28/54 (52%), Gaps = 0/54 (0%)
+
+Query  6    IRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            + + +EAR E+ +V WPTR++ +  T  +   T    +IL   D +   L+  +
+Sbjct  69   VAFAREARTEVRKVIWPTRQETLHTTLIVAAVTAVMSLILWGLDGILVRLVSFI  122
+
+
+> sp|P0AG97|SECE_ECOL6 Protein translocase subunit SecE OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=secE PE=3 SV=1
+Length=127
+
+ Score = 50.7 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 28/54 (52%), Gaps = 0/54 (0%)
+
+Query  6    IRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            + + +EAR E+ +V WPTR++ +  T  +   T    +IL   D +   L+  +
+Sbjct  69   VAFAREARTEVRKVIWPTRQETLHTTLIVAAVTAVMSLILWGLDGILVRLVSFI  122
+
+
+> sp|P0AG98|SECE_ECO57 Protein translocase subunit SecE OS=Escherichia 
+coli O157:H7 OX=83334 GN=secE PE=3 SV=1
+Length=127
+
+ Score = 50.7 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 28/54 (52%), Gaps = 0/54 (0%)
+
+Query  6    IRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            + + +EAR E+ +V WPTR++ +  T  +   T    +IL   D +   L+  +
+Sbjct  69   VAFAREARTEVRKVIWPTRQETLHTTLIVAAVTAVMSLILWGLDGILVRLVSFI  122
+
+
+> sp|P0A2D3|SECE_SALTY Protein translocase subunit SecE OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 
+GN=secE PE=3 SV=1
+Length=127
+
+ Score = 47.7 bits (112),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 28/54 (52%), Gaps = 0/54 (0%)
+
+Query  6    IRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            + + +EAR E+ +V WPTR++ +  T  +   T    +IL   D +   L+  +
+Sbjct  69   VAFAREARTEVRKVIWPTRQETLHTTLIVAAVTAVMSLILWGLDGILVRLVSFI  122
+
+
+> sp|P0A2D4|SECE_SALTI Protein translocase subunit SecE OS=Salmonella 
+typhi OX=90370 GN=secE PE=3 SV=1
+Length=127
+
+ Score = 47.7 bits (112),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 28/54 (52%), Gaps = 0/54 (0%)
+
+Query  6    IRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            + + +EAR E+ +V WPTR++ +  T  +   T    +IL   D +   L+  +
+Sbjct  69   VAFAREARTEVRKVIWPTRQETLHTTLIVAAVTAVMSLILWGLDGILVRLVSFI  122
+
+
+> sp|P43805|SECE_HAEIN Protein translocase subunit SecE OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) 
+OX=71421 GN=secE PE=3 SV=1
+Length=106
+
+ Score = 38.0 bits (87),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 13/56 (23%), Positives = 27/56 (48%), Gaps = 0/56 (0%)
+
+Query  4    RLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            +   +F ++R E  +V WPTR +  + T  ++  T+   +     D++   +I  L
+Sbjct  46   KARAFFNDSRTEARKVVWPTRAEARQTTLIVIGVTMIASLFFWAVDSIIVTVINFL  101
+
+
+> sp|P9WGN7|SECE_MYCTU Protein translocase subunit SecE OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 
+GN=secE PE=1 SV=1
+Length=161
+
+ Score = 38.8 bits (89),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 29/57 (51%), Gaps = 0/57 (0%)
+
+Query  3    ARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            A +  Y ++  AE+ +V WP R+Q++  T  +L F    + ++   D     L+ L+
+Sbjct  103  AFVYNYLKQVVAEMRKVIWPNRKQMLTYTSVVLAFLAFMVALVAGADLGLTKLVMLV  159
+
+
+> sp|P9WGN6|SECE_MYCTO Protein translocase subunit SecE OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 
+GN=secE PE=3 SV=1
+Length=161
+
+ Score = 38.8 bits (89),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 29/57 (51%), Gaps = 0/57 (0%)
+
+Query  3    ARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            A +  Y ++  AE+ +V WP R+Q++  T  +L F    + ++   D     L+ L+
+Sbjct  103  AFVYNYLKQVVAEMRKVIWPNRKQMLTYTSVVLAFLAFMVALVAGADLGLTKLVMLV  159
+
+
+> sp|P0A5Z1|SECE_MYCBO Protein translocase subunit SecE OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 
+GN=secE PE=3 SV=1
+Length=161
+
+ Score = 38.8 bits (89),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 29/57 (51%), Gaps = 0/57 (0%)
+
+Query  3    ARLIRYFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            A +  Y ++  AE+ +V WP R+Q++  T  +L F    + ++   D     L+ L+
+Sbjct  103  AFVYNYLKQVVAEMRKVIWPNRKQMLTYTSVVLAFLAFMVALVAGADLGLTKLVMLV  159
+
+
+> sp|Q8KA64|SECE_BUCAP Protein translocase subunit SecE OS=Buchnera 
+aphidicola subsp. Schizaphis graminum (strain Sg) OX=198804 
+GN=secE PE=3 SV=1
+Length=127
+
+ Score = 36.1 bits (82),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 12/52 (23%), Positives = 27/52 (52%), Gaps = 0/52 (0%)
+
+Query  8    YFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            Y   ++ E+ ++TWP  ++ +  T  I+  T+   ++L   D++   LI  +
+Sbjct  71   YINASKNEMKKITWPQYKETLYTTFIIISVTILISLLLWGLDSIIFRLIAFI  122
+
+
+> sp|Q9CBJ9|SECE_MYCLE Protein translocase subunit SecE OS=Mycobacterium 
+leprae (strain TN) OX=272631 GN=secE PE=3 SV=1
+Length=146
+
+ Score = 35.7 bits (81),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 28/52 (54%), Gaps = 0/52 (0%)
+
+Query  8    YFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVFRFLIGLL  59
+            Y ++   E+ +V WP R+Q++  T  +L F    + ++GL D     L+ L+
+Sbjct  93   YLKQVVGEMRKVIWPNRKQMLTYTSVVLAFLAFMVALVGLADFGLAKLVLLV  144
+
+
+> sp|P38382|SECE_SYNY3 Protein translocase subunit SecE OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=secE 
+PE=3 SV=1
+Length=81
+
+ Score = 34.6 bits (78),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 12/45 (27%), Positives = 26/45 (58%), Gaps = 0/45 (0%)
+
+Query  8   YFQEARAELARVTWPTREQVVEGTQAILLFTLAFMVILGLYDTVF  52
+           +    + ELA+V WP+R+Q++  + A++L  +    ++   D +F
+Sbjct  26  FIAATKDELAKVVWPSRQQLISESVAVILMVILVSTVIYFVDQIF  70
+
+
+
+Lambda      K        H        a         alpha
+   0.336    0.143    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4894479783
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

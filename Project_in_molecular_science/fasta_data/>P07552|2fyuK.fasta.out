@@ -1,0 +1,165 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P07552|2fyuK
+
+Length=56
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P07552|QCR10_BOVIN Cytochrome b-c1 complex subunit 10 OS=Bos...  114     1e-33
+  sp|Q9CPX8|QCR10_MOUSE Cytochrome b-c1 complex subunit 10 OS=Mus...  108     4e-31
+  sp|O14957|QCR10_HUMAN Cytochrome b-c1 complex subunit 10 OS=Hom...  104     1e-29
+
+
+> sp|P07552|QCR10_BOVIN Cytochrome b-c1 complex subunit 10 OS=Bos 
+taurus OX=9913 GN=UQCR11 PE=1 SV=2
+Length=56
+
+ Score = 114 bits (286),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 56/56 (100%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD
+Sbjct  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+
+
+> sp|Q9CPX8|QCR10_MOUSE Cytochrome b-c1 complex subunit 10 OS=Mus 
+musculus OX=10090 GN=Uqcr11 PE=3 SV=1
+Length=56
+
+ Score = 108 bits (269),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 50/56 (89%), Positives = 54/56 (96%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           ML+RFLGPRYR+LARNW+PTA +WG VGAVGLVWATDWRLILDWVPYINGKFKKDD
+Sbjct  1   MLSRFLGPRYRELARNWIPTAGMWGTVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+
+
+> sp|O14957|QCR10_HUMAN Cytochrome b-c1 complex subunit 10 OS=Homo 
+sapiens OX=9606 GN=UQCR11 PE=1 SV=1
+Length=56
+
+ Score = 104 bits (260),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 49/56 (88%), Positives = 53/56 (95%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           M+TRFLGPRYR+L +NWVPTA  WGAVGAVGLVWATDWRLILDWVPYINGKFKKD+
+Sbjct  1   MVTRFLGPRYRELVKNWVPTAYTWGAVGAVGLVWATDWRLILDWVPYINGKFKKDN  56
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.142    0.518    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4954616883
+Results from round 2
+
+
+Query= P07552|2fyuK
+
+Length=56
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9CPX8|QCR10_MOUSE Cytochrome b-c1 complex subunit 10 OS=Mus...  91.1    2e-24
+  sp|P07552|QCR10_BOVIN Cytochrome b-c1 complex subunit 10 OS=Bos...  90.7    3e-24
+  sp|O14957|QCR10_HUMAN Cytochrome b-c1 complex subunit 10 OS=Hom...  90.0    5e-24
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q9CPX8|QCR10_MOUSE Cytochrome b-c1 complex subunit 10 OS=Mus 
+musculus OX=10090 GN=Uqcr11 PE=3 SV=1
+Length=56
+
+ Score = 91.1 bits (225),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 50/56 (89%), Positives = 54/56 (96%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           ML+RFLGPRYR+LARNW+PTA +WG VGAVGLVWATDWRLILDWVPYINGKFKKDD
+Sbjct  1   MLSRFLGPRYRELARNWIPTAGMWGTVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+
+
+> sp|P07552|QCR10_BOVIN Cytochrome b-c1 complex subunit 10 OS=Bos 
+taurus OX=9913 GN=UQCR11 PE=1 SV=2
+Length=56
+
+ Score = 90.7 bits (224),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 56/56 (100%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD
+Sbjct  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+
+
+> sp|O14957|QCR10_HUMAN Cytochrome b-c1 complex subunit 10 OS=Homo 
+sapiens OX=9606 GN=UQCR11 PE=1 SV=1
+Length=56
+
+ Score = 90.0 bits (222),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 49/56 (88%), Positives = 53/56 (95%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           M+TRFLGPRYR+L +NWVPTA  WGAVGAVGLVWATDWRLILDWVPYINGKFKKD+
+Sbjct  1   MVTRFLGPRYRELVKNWVPTAYTWGAVGAVGLVWATDWRLILDWVPYINGKFKKDN  56
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.150    0.562    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0447    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4954616883
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

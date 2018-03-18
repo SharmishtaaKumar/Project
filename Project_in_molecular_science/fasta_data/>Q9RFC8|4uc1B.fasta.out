@@ -1,0 +1,1028 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q9RFC8|4uc1B
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9RFC8|TSPO_RHOSH Tryptophan-rich sensory protein OS=Rhodoba...  311     1e-107
+  sp|P17057|CRTK_RHOCB Protein CrtK OS=Rhodobacter capsulatus (st...  119     1e-32 
+  sp|Q8KBX2|TSPO_CHLTE Tryptophan-rich protein TspO OS=Chlorobium...  90.1    2e-21 
+  sp|P30536|TSPO_HUMAN Translocator protein OS=Homo sapiens OX=96...  73.2    3e-15 
+  sp|P50637|TSPO_MOUSE Translocator protein OS=Mus musculus OX=10...  73.2    4e-15 
+  sp|P16257|TSPO_RAT Translocator protein OS=Rattus norvegicus OX...  72.4    7e-15 
+  sp|Q6UN27|TSPO_PIG Translocator protein OS=Sus scrofa OX=9823 G...  70.1    4e-14 
+  sp|P30535|TSPO_BOVIN Translocator protein OS=Bos taurus OX=9913...  68.9    1e-13 
+  sp|Q9GMC9|TSPO_SHEEP Translocator protein OS=Ovis aries OX=9940...  67.4    4e-13 
+  sp|O28797|TSPO_ARCFU Tryptophan-rich protein TspO OS=Archaeoglo...  63.5    7e-12 
+  sp|O94327|TSPO_SCHPO Translocator protein homolog OS=Schizosacc...  53.1    3e-08 
+
+
+> sp|Q9RFC8|TSPO_RHOSH Tryptophan-rich sensory protein OS=Rhodobacter 
+sphaeroides OX=1063 GN=tspO PE=1 SV=1
+Length=158
+
+ Score = 311 bits (796),  Expect = 1e-107, Method: Compositional matrix adjust.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  1    MNMDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLA  60
+            MNMDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLA
+Sbjct  1    MNMDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLA  60
+
+Query  61   AMRVAQLEGSGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQ  120
+            AMRVAQLEGSGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQ
+Sbjct  61   AMRVAQLEGSGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQ  120
+
+Query  121  LDTWAGVLFVPYLIWATAATGLNFEAMRLNWNRPEARA  158
+            LDTWAGVLFVPYLIWATAATGLNFEAMRLNWNRPEARA
+Sbjct  121  LDTWAGVLFVPYLIWATAATGLNFEAMRLNWNRPEARA  158
+
+
+> sp|P17057|CRTK_RHOCB Protein CrtK OS=Rhodobacter capsulatus (strain 
+ATCC BAA-309 / NBRC 16581 / SB1003) OX=272942 GN=crtK 
+PE=3 SV=1
+Length=160
+
+ Score = 119 bits (298),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 72/152 (47%), Positives = 99/152 (65%), Gaps = 4/152 (3%)
+
+Query  3    MDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAM  62
+            M   LF  +  AC     TGA+  P  WYD+L KP W PP W+FP+AW++LY LMS++A 
+Sbjct  1    MSLTLFAVYFVACACAGATGAIFSPGAWYDSLKKPSWVPPNWLFPVAWSTLYILMSISAA  60
+
+Query  63   RVAQLEGSGQ----ALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAF  118
+            RV+ L    +     LAF+A Q+A NTLWTP+FFG+ R+A  + V++++WL V AT   F
+Sbjct  61   RVSGLAMENELAVLGLAFWAVQIAVNTLWTPIFFGLHRLAGGMLVLVLLWLSVFATCVLF  120
+
+Query  119  FQLDTWAGVLFVPYLIWATAATGLNFEAMRLN  150
+            + +D  +G++FVPY+IW T A  LNF   RLN
+Sbjct  121  WSVDWLSGLMFVPYVIWVTVAGALNFSVWRLN  152
+
+
+> sp|Q8KBX2|TSPO_CHLTE Tryptophan-rich protein TspO OS=Chlorobium 
+tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS) 
+OX=194439 GN=crtK-2 PE=1 SV=1
+Length=158
+
+ Score = 90.1 bits (222),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 51/133 (38%), Positives = 75/133 (56%), Gaps = 11/133 (8%)
+
+Query  26   KPDEWY-DNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSG-------QALAFY  77
+            KP  WY   L KP WNPP W+FP  WT L+ +M  A   +A++ G+G         +  +
+Sbjct  28   KPASWYYTTLVKPSWNPPDWLFPPVWTILFIMMGTA---LAKVLGTGWKKNEVNVGVVLF  84
+
+Query  78   AAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWAT  137
+            A QL  N  W+  FFGM+     L  ++++W+F+  TM AF ++   A +L VPYL W +
+Sbjct  85   AIQLMLNLGWSASFFGMQSPLAGLVDIVLLWIFIVLTMLAFARVSKPASLLLVPYLCWVS  144
+
+Query  138  AATGLNFEAMRLN  150
+             A+ LNF  ++LN
+Sbjct  145  FASYLNFTILQLN  157
+
+
+> sp|P30536|TSPO_HUMAN Translocator protein OS=Homo sapiens OX=9606 
+GN=TSPO PE=1 SV=3
+Length=169
+
+ Score = 73.2 bits (178),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 47/127 (37%), Positives = 63/127 (50%), Gaps = 5/127 (4%)
+
+Query  29   EWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQA----LAFYAAQLAF  83
+             WY  L KP W+PP WV    W +LY  M   +  V  +L G  +     L  Y  QLA 
+Sbjct  32   RWYAGLQKPSWHPPHWVLGPVWGTLYSAMGYGSYLVWKELGGFTEKAVVPLGLYTGQLAL  91
+
+Query  84   NTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWATAATGLN  143
+            N  W P+FFG ++M  AL  ++++    AAT  A++Q+   A  L  PYL W    T LN
+Sbjct  92   NWAWPPIFFGARQMGWALVDLLLVSGAAAATTVAWYQVSPLAARLLYPYLAWLAFTTTLN  151
+
+Query  144  FEAMRLN  150
+            +   R N
+Sbjct  152  YCVWRDN  158
+
+
+> sp|P50637|TSPO_MOUSE Translocator protein OS=Mus musculus OX=10090 
+GN=Tspo PE=1 SV=1
+Length=169
+
+ Score = 73.2 bits (178),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 48/130 (37%), Positives = 65/130 (50%), Gaps = 5/130 (4%)
+
+Query  29   EWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQ----ALAFYAAQLAF  83
+             WY +L KP W+PPRW     W +LY  M   +  V  +L G  +     L  Y  QLA 
+Sbjct  32   RWYASLQKPSWHPPRWTLAPIWGTLYSAMGYGSYIVWKELGGFTEDAMVPLGLYTGQLAL  91
+
+Query  84   NTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWATAATGLN  143
+            N  W P+FFG ++M  ALA ++++     AT  A+ ++   A  L  PYL W   AT LN
+Sbjct  92   NWAWPPIFFGARQMGWALADLLLVSGVATATTLAWHRVSPPAARLLYPYLAWLAFATVLN  151
+
+Query  144  FEAMRLNWNR  153
+            +   R N  R
+Sbjct  152  YYVWRDNSGR  161
+
+
+> sp|P16257|TSPO_RAT Translocator protein OS=Rattus norvegicus 
+OX=10116 GN=Tspo PE=1 SV=1
+Length=169
+
+ Score = 72.4 bits (176),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 47/130 (36%), Positives = 64/130 (49%), Gaps = 5/130 (4%)
+
+Query  29   EWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQA----LAFYAAQLAF  83
+             WY +L KP W+PPRW     W +LY  M   +  +  +L G  +     L  Y  QLA 
+Sbjct  32   RWYASLQKPSWHPPRWTLAPIWGTLYSAMGYGSYIIWKELGGFTEEAMVPLGLYTGQLAL  91
+
+Query  84   NTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWATAATGLN  143
+            N  W P+FFG ++M  AL  +M++     AT  A+ ++   A  L  PYL W   AT LN
+Sbjct  92   NWAWPPIFFGARQMGWALVDLMLVSGVATATTLAWHRVSPPAARLLYPYLAWLAFATMLN  151
+
+Query  144  FEAMRLNWNR  153
+            +   R N  R
+Sbjct  152  YYVWRDNSGR  161
+
+
+> sp|Q6UN27|TSPO_PIG Translocator protein OS=Sus scrofa OX=9823 
+GN=TSPO PE=2 SV=1
+Length=169
+
+ Score = 70.1 bits (170),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 50/144 (35%), Positives = 68/144 (47%), Gaps = 5/144 (3%)
+
+Query  19   ATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQA----  73
+            ++   L K   WY  L KP W+PP W     W +LY  M   +  +  +L G  +     
+Sbjct  22   SSRNVLGKGLHWYAGLQKPSWHPPHWTLAPIWGTLYSAMGYGSYMIWKELGGFSEEAVVP  81
+
+Query  74   LAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYL  133
+            L  YA QLA N  W P+FFG ++M  AL  +++     AAT  A++Q+   A  L  PYL
+Sbjct  82   LGLYAGQLALNWAWPPLFFGARQMGWALVDLVLTGGVAAATAVAWYQVSPLAARLLYPYL  141
+
+Query  134  IWATAATGLNFEAMRLNWNRPEAR  157
+             W   A  LN+   R N  R   R
+Sbjct  142  AWLAFAATLNYCVWRDNQGRRGGR  165
+
+
+> sp|P30535|TSPO_BOVIN Translocator protein OS=Bos taurus OX=9913 
+GN=TSPO PE=2 SV=1
+Length=169
+
+ Score = 68.9 bits (167),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 48/134 (36%), Positives = 66/134 (49%), Gaps = 5/134 (4%)
+
+Query  29   EWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQA----LAFYAAQLAF  83
+             WY +L KP W+PPRW+    W +LY  M   +  +  +L G  +     L  YA QLA 
+Sbjct  32   RWYASLQKPPWHPPRWILAPIWGTLYSAMGYGSYMIWKELGGFSKEAVVPLGLYAGQLAL  91
+
+Query  84   NTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWATAATGLN  143
+            N  W P+FFG ++M  AL  +++     AAT  A+ Q+   A  L  PYL W   A  LN
+Sbjct  92   NWAWPPLFFGTRQMGWALVDLLLTGGMAAATAMAWHQVSPPAACLLYPYLAWLAFAGMLN  151
+
+Query  144  FEAMRLNWNRPEAR  157
+            +   + N  R   R
+Sbjct  152  YRMWQDNQVRRSGR  165
+
+
+> sp|Q9GMC9|TSPO_SHEEP Translocator protein OS=Ovis aries OX=9940 
+GN=TSPO PE=1 SV=1
+Length=169
+
+ Score = 67.4 bits (163),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 47/134 (35%), Positives = 65/134 (49%), Gaps = 5/134 (4%)
+
+Query  29   EWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQA----LAFYAAQLAF  83
+             WY +L KP W+PPRW+    W +LY  M   +  +  +L G  +     L  YA QLA 
+Sbjct  32   RWYASLQKPPWHPPRWILAPIWGTLYSAMGYGSYLIWKELGGFSKEAVVPLGLYAGQLAL  91
+
+Query  84   NTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWATAATGLN  143
+            N  W P+FFG ++M  A   +++     AAT  A+ Q+   A  L  PYL W   A  LN
+Sbjct  92   NWAWPPLFFGARQMGWAFVDLLLTGGMAAATAMAWRQVSPPAACLLYPYLAWLAFAAMLN  151
+
+Query  144  FEAMRLNWNRPEAR  157
+            +   + N  R   R
+Sbjct  152  YRMWQDNQGRRSGR  165
+
+
+> sp|O28797|TSPO_ARCFU Tryptophan-rich protein TspO OS=Archaeoglobus 
+fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 
+/ NBRC 100126) OX=224325 GN=tspO PE=3 SV=1
+Length=153
+
+ Score = 63.5 bits (153),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 41/126 (33%), Positives = 65/126 (52%), Gaps = 5/126 (4%)
+
+Query  28   DEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEG---SGQALAFYAAQLAFN  84
+              WY  + KP++ PP W+F  AWT LYFL+ +  + +A   G     +  A +  QL  N
+Sbjct  29   QTWYAGVEKPFFTPPNWLFGPAWTLLYFLIGI-VLYIAWENGFWNDSRVKATFFTQLGLN  87
+
+Query  85   TLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWATAATGLNF  144
+             LW+ +FFG++     L  ++ + + V  T+   +   + A +L +PYL W   A+ LNF
+Sbjct  88   FLWSILFFGLQNPLAGLVDIIALDIAVILTIVYIYH-HSKASLLLLPYLGWILFASALNF  146
+
+Query  145  EAMRLN  150
+                LN
+Sbjct  147  AIYLLN  152
+
+
+> sp|O94327|TSPO_SCHPO Translocator protein homolog OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC725.10 
+PE=3 SV=2
+Length=164
+
+ Score = 53.1 bits (126),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 42/135 (31%), Positives = 60/135 (44%), Gaps = 6/135 (4%)
+
+Query  22   GALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLE------GSGQALA  75
+            G   KP + Y+N  +P ++PP   F  AWT LY  M  A+    + +       S     
+Sbjct  30   GNSYKPRKDYENKKQPKFHPPASAFGPAWTLLYLTMGYASHLAYKADPLMITNASRNGSI  89
+
+Query  76   FYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIW  135
+             Y AQLA N  W P+F+G+ +   ALA + ++   V      ++ L   A    +PYL W
+Sbjct  90   LYIAQLAANFAWMPLFYGLAKPKLALADLGILTGLVGWLAKTWWPLAPTASKWLIPYLAW  149
+
+Query  136  ATAATGLNFEAMRLN  150
+               A  LN     LN
+Sbjct  150  LGYAGYLNLGYCLLN  164
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.135    0.482    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6975757700
+Results from round 2
+
+
+Query= Q9RFC8|4uc1B
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9RFC8|TSPO_RHOSH Tryptophan-rich sensory protein OS=Rhodoba...  165     9e-51
+  sp|P30536|TSPO_HUMAN Translocator protein OS=Homo sapiens OX=96...  143     6e-42
+  sp|Q6UN27|TSPO_PIG Translocator protein OS=Sus scrofa OX=9823 G...  143     9e-42
+  sp|P16257|TSPO_RAT Translocator protein OS=Rattus norvegicus OX...  142     1e-41
+  sp|P50637|TSPO_MOUSE Translocator protein OS=Mus musculus OX=10...  142     2e-41
+  sp|P30535|TSPO_BOVIN Translocator protein OS=Bos taurus OX=9913...  134     2e-38
+  sp|Q9GMC9|TSPO_SHEEP Translocator protein OS=Ovis aries OX=9940...  132     1e-37
+  sp|O94327|TSPO_SCHPO Translocator protein homolog OS=Schizosacc...  128     4e-36
+  sp|P17057|CRTK_RHOCB Protein CrtK OS=Rhodobacter capsulatus (st...  127     9e-36
+  sp|Q8KBX2|TSPO_CHLTE Tryptophan-rich protein TspO OS=Chlorobium...  122     1e-33
+  sp|O28797|TSPO_ARCFU Tryptophan-rich protein TspO OS=Archaeoglo...  113     3e-30
+
+Sequences not found previously or not previously below threshold:
+
+  sp|O34694|YTAB_BACSU Uncharacterized membrane protein YtaB OS=B...  61.6    3e-11
+  sp|Q81BL7|TSPO_BACCR Tryptophan-rich protein TspO OS=Bacillus c...  61.2    5e-11
+  sp|Q9CRZ8|TSPO2_MOUSE Translocator protein 2 OS=Mus musculus OX...  53.1    3e-08
+  sp|O82245|TSPO_ARATH Translocator protein homolog OS=Arabidopsi...  51.6    2e-07
+  sp|Q5TGU0|TSPO2_HUMAN Translocator protein 2 OS=Homo sapiens OX...  48.5    1e-06
+
+
+> sp|Q9RFC8|TSPO_RHOSH Tryptophan-rich sensory protein OS=Rhodobacter 
+sphaeroides OX=1063 GN=tspO PE=1 SV=1
+Length=158
+
+ Score = 165 bits (419),  Expect = 9e-51, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  1    MNMDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLA  60
+            MNMDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLA
+Sbjct  1    MNMDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLA  60
+
+Query  61   AMRVAQLEGSGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQ  120
+            AMRVAQLEGSGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQ
+Sbjct  61   AMRVAQLEGSGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQ  120
+
+Query  121  LDTWAGVLFVPYLIWATAATGLNFEAMRLNWNRPEARA  158
+            LDTWAGVLFVPYLIWATAATGLNFEAMRLNWNRPEARA
+Sbjct  121  LDTWAGVLFVPYLIWATAATGLNFEAMRLNWNRPEARA  158
+
+
+> sp|P30536|TSPO_HUMAN Translocator protein OS=Homo sapiens OX=9606 
+GN=TSPO PE=1 SV=3
+Length=169
+
+ Score = 143 bits (361),  Expect = 6e-42, Method: Composition-based stats.
+ Identities = 48/144 (33%), Positives = 66/144 (46%), Gaps = 5/144 (3%)
+
+Query  19   ATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQ----A  73
+             +     +   WY  L KP W+PP WV    W +LY  M   +  V  +L G  +     
+Sbjct  22   GSRFVHGEGLRWYAGLQKPSWHPPHWVLGPVWGTLYSAMGYGSYLVWKELGGFTEKAVVP  81
+
+Query  74   LAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYL  133
+            L  Y  QLA N  W P+FFG ++M  AL  ++++    AAT  A++Q+   A  L  PYL
+Sbjct  82   LGLYTGQLALNWAWPPIFFGARQMGWALVDLLLVSGAAAATTVAWYQVSPLAARLLYPYL  141
+
+Query  134  IWATAATGLNFEAMRLNWNRPEAR  157
+             W    T LN+   R N      R
+Sbjct  142  AWLAFTTTLNYCVWRDNHGWRGGR  165
+
+
+> sp|Q6UN27|TSPO_PIG Translocator protein OS=Sus scrofa OX=9823 
+GN=TSPO PE=2 SV=1
+Length=169
+
+ Score = 143 bits (360),  Expect = 9e-42, Method: Composition-based stats.
+ Identities = 50/144 (35%), Positives = 68/144 (47%), Gaps = 5/144 (3%)
+
+Query  19   ATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQ----A  73
+            ++   L K   WY  L KP W+PP W     W +LY  M   +  +  +L G  +     
+Sbjct  22   SSRNVLGKGLHWYAGLQKPSWHPPHWTLAPIWGTLYSAMGYGSYMIWKELGGFSEEAVVP  81
+
+Query  74   LAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYL  133
+            L  YA QLA N  W P+FFG ++M  AL  +++     AAT  A++Q+   A  L  PYL
+Sbjct  82   LGLYAGQLALNWAWPPLFFGARQMGWALVDLVLTGGVAAATAVAWYQVSPLAARLLYPYL  141
+
+Query  134  IWATAATGLNFEAMRLNWNRPEAR  157
+             W   A  LN+   R N  R   R
+Sbjct  142  AWLAFAATLNYCVWRDNQGRRGGR  165
+
+
+> sp|P16257|TSPO_RAT Translocator protein OS=Rattus norvegicus 
+OX=10116 GN=Tspo PE=1 SV=1
+Length=169
+
+ Score = 142 bits (359),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 47/137 (34%), Positives = 65/137 (47%), Gaps = 5/137 (4%)
+
+Query  25   LKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQ----ALAFYAA  79
+             +   WY +L KP W+PPRW     W +LY  M   +  +  +L G  +     L  Y  
+Sbjct  28   GEGLRWYASLQKPSWHPPRWTLAPIWGTLYSAMGYGSYIIWKELGGFTEEAMVPLGLYTG  87
+
+Query  80   QLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWATAA  139
+            QLA N  W P+FFG ++M  AL  +M++     AT  A+ ++   A  L  PYL W   A
+Sbjct  88   QLALNWAWPPIFFGARQMGWALVDLMLVSGVATATTLAWHRVSPPAARLLYPYLAWLAFA  147
+
+Query  140  TGLNFEAMRLNWNRPEA  156
+            T LN+   R N  R   
+Sbjct  148  TMLNYYVWRDNSGRRGG  164
+
+
+> sp|P50637|TSPO_MOUSE Translocator protein OS=Mus musculus OX=10090 
+GN=Tspo PE=1 SV=1
+Length=169
+
+ Score = 142 bits (358),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 48/137 (35%), Positives = 66/137 (48%), Gaps = 5/137 (4%)
+
+Query  25   LKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQ----ALAFYAA  79
+             +   WY +L KP W+PPRW     W +LY  M   +  V  +L G  +     L  Y  
+Sbjct  28   GEGLRWYASLQKPSWHPPRWTLAPIWGTLYSAMGYGSYIVWKELGGFTEDAMVPLGLYTG  87
+
+Query  80   QLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWATAA  139
+            QLA N  W P+FFG ++M  ALA ++++     AT  A+ ++   A  L  PYL W   A
+Sbjct  88   QLALNWAWPPIFFGARQMGWALADLLLVSGVATATTLAWHRVSPPAARLLYPYLAWLAFA  147
+
+Query  140  TGLNFEAMRLNWNRPEA  156
+            T LN+   R N  R   
+Sbjct  148  TVLNYYVWRDNSGRRGG  164
+
+
+> sp|P30535|TSPO_BOVIN Translocator protein OS=Bos taurus OX=9913 
+GN=TSPO PE=2 SV=1
+Length=169
+
+ Score = 134 bits (338),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 48/144 (33%), Positives = 67/144 (47%), Gaps = 5/144 (3%)
+
+Query  19   ATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQ----A  73
+                   +   WY +L KP W+PPRW+    W +LY  M   +  +  +L G  +     
+Sbjct  22   GAQYTRGEGFRWYASLQKPPWHPPRWILAPIWGTLYSAMGYGSYMIWKELGGFSKEAVVP  81
+
+Query  74   LAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYL  133
+            L  YA QLA N  W P+FFG ++M  AL  +++     AAT  A+ Q+   A  L  PYL
+Sbjct  82   LGLYAGQLALNWAWPPLFFGTRQMGWALVDLLLTGGMAAATAMAWHQVSPPAACLLYPYL  141
+
+Query  134  IWATAATGLNFEAMRLNWNRPEAR  157
+             W   A  LN+   + N  R   R
+Sbjct  142  AWLAFAGMLNYRMWQDNQVRRSGR  165
+
+
+> sp|Q9GMC9|TSPO_SHEEP Translocator protein OS=Ovis aries OX=9940 
+GN=TSPO PE=1 SV=1
+Length=169
+
+ Score = 132 bits (333),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 48/144 (33%), Positives = 67/144 (47%), Gaps = 5/144 (3%)
+
+Query  19   ATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRV-AQLEGSGQ----A  73
+             T     +   WY +L KP W+PPRW+    W +LY  M   +  +  +L G  +     
+Sbjct  22   GTQYIRGEGFRWYASLQKPPWHPPRWILAPIWGTLYSAMGYGSYLIWKELGGFSKEAVVP  81
+
+Query  74   LAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYL  133
+            L  YA QLA N  W P+FFG ++M  A   +++     AAT  A+ Q+   A  L  PYL
+Sbjct  82   LGLYAGQLALNWAWPPLFFGARQMGWAFVDLLLTGGMAAATAMAWRQVSPPAACLLYPYL  141
+
+Query  134  IWATAATGLNFEAMRLNWNRPEAR  157
+             W   A  LN+   + N  R   R
+Sbjct  142  AWLAFAAMLNYRMWQDNQGRRSGR  165
+
+
+> sp|O94327|TSPO_SCHPO Translocator protein homolog OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC725.10 
+PE=3 SV=2
+Length=164
+
+ Score = 128 bits (322),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 43/145 (30%), Positives = 61/145 (42%), Gaps = 6/145 (4%)
+
+Query  12   LAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLE---  68
+            L         G   KP + Y+N  +P ++PP   F  AWT LY  M  A+    + +   
+Sbjct  20   LVPVACGWFIGNSYKPRKDYENKKQPKFHPPASAFGPAWTLLYLTMGYASHLAYKADPLM  79
+
+Query  69   ---GSGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWA  125
+                S      Y AQLA N  W P+F+G+ +   ALA + ++   V      ++ L   A
+Sbjct  80   ITNASRNGSILYIAQLAANFAWMPLFYGLAKPKLALADLGILTGLVGWLAKTWWPLAPTA  139
+
+Query  126  GVLFVPYLIWATAATGLNFEAMRLN  150
+                +PYL W   A  LN     LN
+Sbjct  140  SKWLIPYLAWLGYAGYLNLGYCLLN  164
+
+
+> sp|P17057|CRTK_RHOCB Protein CrtK OS=Rhodobacter capsulatus (strain 
+ATCC BAA-309 / NBRC 16581 / SB1003) OX=272942 GN=crtK 
+PE=3 SV=1
+Length=160
+
+ Score = 127 bits (319),  Expect = 9e-36, Method: Composition-based stats.
+ Identities = 72/156 (46%), Positives = 99/156 (63%), Gaps = 4/156 (3%)
+
+Query  3    MDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAM  62
+            M   LF  +  AC     TGA+  P  WYD+L KP W PP W+FP+AW++LY LMS++A 
+Sbjct  1    MSLTLFAVYFVACACAGATGAIFSPGAWYDSLKKPSWVPPNWLFPVAWSTLYILMSISAA  60
+
+Query  63   RVAQLEGSGQ----ALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAF  118
+            RV+ L    +     LAF+A Q+A NTLWTP+FFG+ R+A  + V++++WL V AT   F
+Sbjct  61   RVSGLAMENELAVLGLAFWAVQIAVNTLWTPIFFGLHRLAGGMLVLVLLWLSVFATCVLF  120
+
+Query  119  FQLDTWAGVLFVPYLIWATAATGLNFEAMRLNWNRP  154
+            + +D  +G++FVPY+IW T A  LNF   RLN    
+Sbjct  121  WSVDWLSGLMFVPYVIWVTVAGALNFSVWRLNPGEK  156
+
+
+> sp|Q8KBX2|TSPO_CHLTE Tryptophan-rich protein TspO OS=Chlorobium 
+tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS) 
+OX=194439 GN=crtK-2 PE=1 SV=1
+Length=158
+
+ Score = 122 bits (305),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 54/157 (34%), Positives = 77/157 (49%), Gaps = 7/157 (4%)
+
+Query  1    MNMDWALFLTFLAACGAPATTGALL--KPDEWY-DNLNKPWWNPPRWVFPLAWTSLYFLM  57
+            MN         +  C A    G+    KP  WY   L KP WNPP W+FP  WT L+ +M
+Sbjct  1    MNKQILTLALCIGLCLAVGFAGSTFTPKPASWYYTTLVKPSWNPPDWLFPPVWTILFIMM  60
+
+Query  58   SLAAMRVAQLEGSGQ----ALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAA  113
+              A  +V             +  +A QL  N  W+  FFGM+     L  ++++W+F+  
+Sbjct  61   GTALAKVLGTGWKKNEVNVGVVLFAIQLMLNLGWSASFFGMQSPLAGLVDIVLLWIFIVL  120
+
+Query  114  TMWAFFQLDTWAGVLFVPYLIWATAATGLNFEAMRLN  150
+            TM AF ++   A +L VPYL W + A+ LNF  ++LN
+Sbjct  121  TMLAFARVSKPASLLLVPYLCWVSFASYLNFTILQLN  157
+
+
+> sp|O28797|TSPO_ARCFU Tryptophan-rich protein TspO OS=Archaeoglobus 
+fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 
+/ NBRC 100126) OX=224325 GN=tspO PE=3 SV=1
+Length=153
+
+ Score = 113 bits (282),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 43/140 (31%), Positives = 68/140 (49%), Gaps = 5/140 (4%)
+
+Query  14   ACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGS---  70
+            A G   +         WY  + KP++ PP W+F  AWT LYFL+ +  + +A   G    
+Sbjct  15   AIGFAGSFFTAQSVQTWYAGVEKPFFTPPNWLFGPAWTLLYFLIGI-VLYIAWENGFWND  73
+
+Query  71   GQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFV  130
+             +  A +  QL  N LW+ +FFG++     L  ++ + + V  T+   +   + A +L +
+Sbjct  74   SRVKATFFTQLGLNFLWSILFFGLQNPLAGLVDIIALDIAVILTIVYIYH-HSKASLLLL  132
+
+Query  131  PYLIWATAATGLNFEAMRLN  150
+            PYL W   A+ LNF    LN
+Sbjct  133  PYLGWILFASALNFAIYLLN  152
+
+
+> sp|O34694|YTAB_BACSU Uncharacterized membrane protein YtaB OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ytaB PE=3 SV=1
+Length=155
+
+ Score = 61.6 bits (148),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 35/147 (24%), Positives = 59/147 (40%), Gaps = 4/147 (3%)
+
+Query  8    FLTFLAACGAPATTGALLK-PDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQ  66
+               F+      +  G L     EWY++L KP W P      + W  L+ L+SL+A  V  
+Sbjct  8    LAVFVITYALFSAAGYLFPVDQEWYNSLKKPDWTPSGTAIGIIWAILFALISLSAAIVYA  67
+
+Query  67   LEGSGQALAFYAAQL---AFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDT  123
+                  A +F+   L     N  ++   F  K +  A    +++ +     +    +   
+Sbjct  68   AFSFKGAKSFWFTLLINYVLNQAFSYFQFTQKNLLAASLDCLLVAITAIVLLIIAKKYSR  127
+
+Query  124  WAGVLFVPYLIWATAATGLNFEAMRLN  150
+             A  L +PY +W+  AT L+F    +N
+Sbjct  128  AASYLLLPYFLWSAFATFLSFTINSMN  154
+
+
+> sp|Q81BL7|TSPO_BACCR Tryptophan-rich protein TspO OS=Bacillus 
+cereus (strain ATCC 14579 / DSM 31 / JCM 2152 / NBRC 15305 
+/ NCIMB 9373 / NRRL B-3711) OX=226900 GN=tspO PE=1 SV=1
+Length=153
+
+ Score = 61.2 bits (147),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 28/125 (22%), Positives = 50/125 (40%), Gaps = 2/125 (2%)
+
+Query  28   DEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSGQAL--AFYAAQLAFNT  85
+              WYD L KP W PP     + W  L+ L++L+   +    G         +     FN 
+Sbjct  29   RTWYDALEKPSWTPPGMTIGMIWAVLFGLIALSVAIIYNNYGFKPKTFWFLFLLNYIFNQ  88
+
+Query  86   LWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWATAATGLNFE  145
+             ++   F  K +  A    +++ +     +     L   +  L +PY +W+  AT L++ 
+Sbjct  89   AFSYFQFSQKNLFLATVDCLLVAITTLLLIMFSSNLSKVSAWLLIPYFLWSAFATYLSWT  148
+
+Query  146  AMRLN  150
+               +N
+Sbjct  149  IYSIN  153
+
+
+> sp|Q9CRZ8|TSPO2_MOUSE Translocator protein 2 OS=Mus musculus 
+OX=10090 GN=Tspo2 PE=2 SV=2
+Length=162
+
+ Score = 53.1 bits (126),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 33/133 (25%), Positives = 62/133 (47%), Gaps = 6/133 (5%)
+
+Query  24   LLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSG------QALAFY  77
+            + +P    ++  K  W PP  V  L W ++Y +M  A+  V +  G G        L  Y
+Sbjct  23   IHQPSSRCEDERKLPWCPPHKVILLVWVTIYSVMGYASYLVWKELGGGFRWPLALPLGLY  82
+
+Query  78   AAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWAT  137
+            + QLA +  +  +F        AL  +++++  VA+ ++ +  ++  A +L +PYL W T
+Sbjct  83   SFQLALSWTFLVLFLAADSPGLALLDLLLLYGLVASLVFIWQPINKLAALLLLPYLAWLT  142
+
+Query  138  AATGLNFEAMRLN  150
+              T + +   R +
+Sbjct  143  VTTAITYRLWRDS  155
+
+
+> sp|O82245|TSPO_ARATH Translocator protein homolog OS=Arabidopsis 
+thaliana OX=3702 GN=TSPO PE=1 SV=1
+Length=196
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 38/141 (27%), Positives = 50/141 (35%), Gaps = 14/141 (10%)
+
+Query  6    ALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVA  65
+             LF T+            L   D + +      W PP W+      +   LM LAA  V 
+Sbjct  61   TLFATYF-----------LGTSDGYGNRAKSSSWIPPLWLLHTTCLASSGLMGLAAWLVW  109
+
+Query  66   QLEGSG---QALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLD  122
+               G      AL  Y AQ     +W PV F +      LAV +     +     AF ++ 
+Sbjct  110  VDGGFHKKPNALYLYLAQFLLCLVWDPVTFRVGSGVAGLAVWLGQSAALFGCYKAFNEIS  169
+
+Query  123  TWAGVLFVPYLIWATAATGLN  143
+              AG L  P L WA     +N
+Sbjct  170  PVAGNLVKPCLAWAAFVAAVN  190
+
+
+> sp|Q5TGU0|TSPO2_HUMAN Translocator protein 2 OS=Homo sapiens 
+OX=9606 GN=TSPO2 PE=1 SV=1
+Length=170
+
+ Score = 48.5 bits (114),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 31/127 (24%), Positives = 55/127 (43%), Gaps = 6/127 (5%)
+
+Query  30   WYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSGQA------LAFYAAQLAF  83
+            W +      W P   V  L  T++Y ++  A+  V +  G G        L  YA QL  
+Sbjct  30   WCEGPRMLSWCPFYKVLLLVQTAIYSVVGYASYLVWKDLGGGLGWPLALPLGLYAVQLTI  89
+
+Query  84   NTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWATAATGLN  143
+            +     +FF +     AL  +++++  V +T   +  ++  A +L +PYL W T  + L 
+Sbjct  90   SWTVLVLFFTVHNPGLALLHLLLLYGLVVSTALIWHPINKLAALLLLPYLAWLTVTSALT  149
+
+Query  144  FEAMRLN  150
+            +   R +
+Sbjct  150  YHLWRDS  156
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0414    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6975757700
+Results from round 3
+
+
+Query= Q9RFC8|4uc1B
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P30536|TSPO_HUMAN Translocator protein OS=Homo sapiens OX=96...  140     1e-40
+  sp|Q9RFC8|TSPO_RHOSH Tryptophan-rich sensory protein OS=Rhodoba...  139     3e-40
+  sp|P16257|TSPO_RAT Translocator protein OS=Rattus norvegicus OX...  136     3e-39
+  sp|P50637|TSPO_MOUSE Translocator protein OS=Mus musculus OX=10...  136     3e-39
+  sp|Q6UN27|TSPO_PIG Translocator protein OS=Sus scrofa OX=9823 G...  132     1e-37
+  sp|P30535|TSPO_BOVIN Translocator protein OS=Bos taurus OX=9913...  130     1e-36
+  sp|Q9GMC9|TSPO_SHEEP Translocator protein OS=Ovis aries OX=9940...  129     3e-36
+  sp|Q8KBX2|TSPO_CHLTE Tryptophan-rich protein TspO OS=Chlorobium...  124     2e-34
+  sp|O94327|TSPO_SCHPO Translocator protein homolog OS=Schizosacc...  115     5e-31
+  sp|P17057|CRTK_RHOCB Protein CrtK OS=Rhodobacter capsulatus (st...  113     2e-30
+  sp|O82245|TSPO_ARATH Translocator protein homolog OS=Arabidopsi...  113     7e-30
+  sp|O34694|YTAB_BACSU Uncharacterized membrane protein YtaB OS=B...  104     4e-27
+  sp|O28797|TSPO_ARCFU Tryptophan-rich protein TspO OS=Archaeoglo...  104     1e-26
+  sp|Q81BL7|TSPO_BACCR Tryptophan-rich protein TspO OS=Bacillus c...  102     2e-26
+  sp|Q9CRZ8|TSPO2_MOUSE Translocator protein 2 OS=Mus musculus OX...  83.2    8e-19
+  sp|Q5TGU0|TSPO2_HUMAN Translocator protein 2 OS=Homo sapiens OX...  79.8    2e-17
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P30536|TSPO_HUMAN Translocator protein OS=Homo sapiens OX=9606 
+GN=TSPO PE=1 SV=3
+Length=169
+
+ Score = 140 bits (353),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 47/146 (32%), Positives = 64/146 (44%), Gaps = 5/146 (3%)
+
+Query  17   APATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSGQ----  72
+               +     +   WY  L KP W+PP WV    W +LY  M   +  V +  G       
+Sbjct  20   FVGSRFVHGEGLRWYAGLQKPSWHPPHWVLGPVWGTLYSAMGYGSYLVWKELGGFTEKAV  79
+
+Query  73   -ALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVP  131
+              L  Y  QLA N  W P+FFG ++M  AL  ++++    AAT  A++Q+   A  L  P
+Sbjct  80   VPLGLYTGQLALNWAWPPIFFGARQMGWALVDLLLVSGAAAATTVAWYQVSPLAARLLYP  139
+
+Query  132  YLIWATAATGLNFEAMRLNWNRPEAR  157
+            YL W    T LN+   R N      R
+Sbjct  140  YLAWLAFTTTLNYCVWRDNHGWRGGR  165
+
+
+> sp|Q9RFC8|TSPO_RHOSH Tryptophan-rich sensory protein OS=Rhodobacter 
+sphaeroides OX=1063 GN=tspO PE=1 SV=1
+Length=158
+
+ Score = 139 bits (349),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  1    MNMDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLA  60
+            MNMDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLA
+Sbjct  1    MNMDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLA  60
+
+Query  61   AMRVAQLEGSGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQ  120
+            AMRVAQLEGSGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQ
+Sbjct  61   AMRVAQLEGSGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQ  120
+
+Query  121  LDTWAGVLFVPYLIWATAATGLNFEAMRLNWNRPEARA  158
+            LDTWAGVLFVPYLIWATAATGLNFEAMRLNWNRPEARA
+Sbjct  121  LDTWAGVLFVPYLIWATAATGLNFEAMRLNWNRPEARA  158
+
+
+> sp|P16257|TSPO_RAT Translocator protein OS=Rattus norvegicus 
+OX=10116 GN=Tspo PE=1 SV=1
+Length=169
+
+ Score = 136 bits (343),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 47/146 (32%), Positives = 64/146 (44%), Gaps = 5/146 (3%)
+
+Query  16   GAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSGQ---  72
+            G         +   WY +L KP W+PPRW     W +LY  M   +  + +  G      
+Sbjct  19   GFMGAYFVRGEGLRWYASLQKPSWHPPRWTLAPIWGTLYSAMGYGSYIIWKELGGFTEEA  78
+
+Query  73   --ALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFV  130
+               L  Y  QLA N  W P+FFG ++M  AL  +M++     AT  A+ ++   A  L  
+Sbjct  79   MVPLGLYTGQLALNWAWPPIFFGARQMGWALVDLMLVSGVATATTLAWHRVSPPAARLLY  138
+
+Query  131  PYLIWATAATGLNFEAMRLNWNRPEA  156
+            PYL W   AT LN+   R N  R   
+Sbjct  139  PYLAWLAFATMLNYYVWRDNSGRRGG  164
+
+
+> sp|P50637|TSPO_MOUSE Translocator protein OS=Mus musculus OX=10090 
+GN=Tspo PE=1 SV=1
+Length=169
+
+ Score = 136 bits (343),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 48/146 (33%), Positives = 65/146 (45%), Gaps = 5/146 (3%)
+
+Query  16   GAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSGQ---  72
+            G         +   WY +L KP W+PPRW     W +LY  M   +  V +  G      
+Sbjct  19   GFMGAYFVRGEGLRWYASLQKPSWHPPRWTLAPIWGTLYSAMGYGSYIVWKELGGFTEDA  78
+
+Query  73   --ALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFV  130
+               L  Y  QLA N  W P+FFG ++M  ALA ++++     AT  A+ ++   A  L  
+Sbjct  79   MVPLGLYTGQLALNWAWPPIFFGARQMGWALADLLLVSGVATATTLAWHRVSPPAARLLY  138
+
+Query  131  PYLIWATAATGLNFEAMRLNWNRPEA  156
+            PYL W   AT LN+   R N  R   
+Sbjct  139  PYLAWLAFATVLNYYVWRDNSGRRGG  164
+
+
+> sp|Q6UN27|TSPO_PIG Translocator protein OS=Sus scrofa OX=9823 
+GN=TSPO PE=2 SV=1
+Length=169
+
+ Score = 132 bits (332),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 50/147 (34%), Positives = 67/147 (46%), Gaps = 5/147 (3%)
+
+Query  16   GAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSGQ---  72
+            G  ++   L K   WY  L KP W+PP W     W +LY  M   +  + +  G      
+Sbjct  19   GFLSSRNVLGKGLHWYAGLQKPSWHPPHWTLAPIWGTLYSAMGYGSYMIWKELGGFSEEA  78
+
+Query  73   --ALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFV  130
+               L  YA QLA N  W P+FFG ++M  AL  +++     AAT  A++Q+   A  L  
+Sbjct  79   VVPLGLYAGQLALNWAWPPLFFGARQMGWALVDLVLTGGVAAATAVAWYQVSPLAARLLY  138
+
+Query  131  PYLIWATAATGLNFEAMRLNWNRPEAR  157
+            PYL W   A  LN+   R N  R   R
+Sbjct  139  PYLAWLAFAATLNYCVWRDNQGRRGGR  165
+
+
+> sp|P30535|TSPO_BOVIN Translocator protein OS=Bos taurus OX=9913 
+GN=TSPO PE=2 SV=1
+Length=169
+
+ Score = 130 bits (326),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 48/147 (33%), Positives = 66/147 (45%), Gaps = 5/147 (3%)
+
+Query  16   GAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSGQ---  72
+            G         +   WY +L KP W+PPRW+    W +LY  M   +  + +  G      
+Sbjct  19   GFLGAQYTRGEGFRWYASLQKPPWHPPRWILAPIWGTLYSAMGYGSYMIWKELGGFSKEA  78
+
+Query  73   --ALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFV  130
+               L  YA QLA N  W P+FFG ++M  AL  +++     AAT  A+ Q+   A  L  
+Sbjct  79   VVPLGLYAGQLALNWAWPPLFFGTRQMGWALVDLLLTGGMAAATAMAWHQVSPPAACLLY  138
+
+Query  131  PYLIWATAATGLNFEAMRLNWNRPEAR  157
+            PYL W   A  LN+   + N  R   R
+Sbjct  139  PYLAWLAFAGMLNYRMWQDNQVRRSGR  165
+
+
+> sp|Q9GMC9|TSPO_SHEEP Translocator protein OS=Ovis aries OX=9940 
+GN=TSPO PE=1 SV=1
+Length=169
+
+ Score = 129 bits (323),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 49/155 (32%), Positives = 68/155 (44%), Gaps = 5/155 (3%)
+
+Query  8    FLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQL  67
+            F    +  G   T     +   WY +L KP W+PPRW+    W +LY  M   +  + + 
+Sbjct  11   FTLVPSPGGFLGTQYIRGEGFRWYASLQKPPWHPPRWILAPIWGTLYSAMGYGSYLIWKE  70
+
+Query  68   EGSGQ-----ALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLD  122
+             G         L  YA QLA N  W P+FFG ++M  A   +++     AAT  A+ Q+ 
+Sbjct  71   LGGFSKEAVVPLGLYAGQLALNWAWPPLFFGARQMGWAFVDLLLTGGMAAATAMAWRQVS  130
+
+Query  123  TWAGVLFVPYLIWATAATGLNFEAMRLNWNRPEAR  157
+              A  L  PYL W   A  LN+   + N  R   R
+Sbjct  131  PPAACLLYPYLAWLAFAAMLNYRMWQDNQGRRSGR  165
+
+
+> sp|Q8KBX2|TSPO_CHLTE Tryptophan-rich protein TspO OS=Chlorobium 
+tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS) 
+OX=194439 GN=crtK-2 PE=1 SV=1
+Length=158
+
+ Score = 124 bits (310),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 52/158 (33%), Positives = 76/158 (48%), Gaps = 7/158 (4%)
+
+Query  1    MNMDWALFLTFLAACGAPATTGALLKPDE---WYDNLNKPWWNPPRWVFPLAWTSLYFLM  57
+            MN         +  C A    G+   P     +Y  L KP WNPP W+FP  WT L+ +M
+Sbjct  1    MNKQILTLALCIGLCLAVGFAGSTFTPKPASWYYTTLVKPSWNPPDWLFPPVWTILFIMM  60
+
+Query  58   SLAAMRVAQLEGSGQ----ALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAA  113
+              A  +V             +  +A QL  N  W+  FFGM+     L  ++++W+F+  
+Sbjct  61   GTALAKVLGTGWKKNEVNVGVVLFAIQLMLNLGWSASFFGMQSPLAGLVDIVLLWIFIVL  120
+
+Query  114  TMWAFFQLDTWAGVLFVPYLIWATAATGLNFEAMRLNW  151
+            TM AF ++   A +L VPYL W + A+ LNF  ++LN 
+Sbjct  121  TMLAFARVSKPASLLLVPYLCWVSFASYLNFTILQLNP  158
+
+
+> sp|O94327|TSPO_SCHPO Translocator protein homolog OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC725.10 
+PE=3 SV=2
+Length=164
+
+ Score = 115 bits (288),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 43/145 (30%), Positives = 61/145 (42%), Gaps = 6/145 (4%)
+
+Query  12   LAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLE---  68
+            L         G   KP + Y+N  +P ++PP   F  AWT LY  M  A+    + +   
+Sbjct  20   LVPVACGWFIGNSYKPRKDYENKKQPKFHPPASAFGPAWTLLYLTMGYASHLAYKADPLM  79
+
+Query  69   ---GSGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWA  125
+                S      Y AQLA N  W P+F+G+ +   ALA + ++   V      ++ L   A
+Sbjct  80   ITNASRNGSILYIAQLAANFAWMPLFYGLAKPKLALADLGILTGLVGWLAKTWWPLAPTA  139
+
+Query  126  GVLFVPYLIWATAATGLNFEAMRLN  150
+                +PYL W   A  LN     LN
+Sbjct  140  SKWLIPYLAWLGYAGYLNLGYCLLN  164
+
+
+> sp|P17057|CRTK_RHOCB Protein CrtK OS=Rhodobacter capsulatus (strain 
+ATCC BAA-309 / NBRC 16581 / SB1003) OX=272942 GN=crtK 
+PE=3 SV=1
+Length=160
+
+ Score = 113 bits (283),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 72/156 (46%), Positives = 99/156 (63%), Gaps = 4/156 (3%)
+
+Query  3    MDWALFLTFLAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAM  62
+            M   LF  +  AC     TGA+  P  WYD+L KP W PP W+FP+AW++LY LMS++A 
+Sbjct  1    MSLTLFAVYFVACACAGATGAIFSPGAWYDSLKKPSWVPPNWLFPVAWSTLYILMSISAA  60
+
+Query  63   RVAQLEGSGQ----ALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAF  118
+            RV+ L    +     LAF+A Q+A NTLWTP+FFG+ R+A  + V++++WL V AT   F
+Sbjct  61   RVSGLAMENELAVLGLAFWAVQIAVNTLWTPIFFGLHRLAGGMLVLVLLWLSVFATCVLF  120
+
+Query  119  FQLDTWAGVLFVPYLIWATAATGLNFEAMRLNWNRP  154
+            + +D  +G++FVPY+IW T A  LNF   RLN    
+Sbjct  121  WSVDWLSGLMFVPYVIWVTVAGALNFSVWRLNPGEK  156
+
+
+> sp|O82245|TSPO_ARATH Translocator protein homolog OS=Arabidopsis 
+thaliana OX=3702 GN=TSPO PE=1 SV=1
+Length=196
+
+ Score = 113 bits (282),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 36/127 (28%), Positives = 47/127 (37%), Gaps = 3/127 (2%)
+
+Query  20   TTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSG---QALAF  76
+             T  L   D + +      W PP W+      +   LM LAA  V    G      AL  
+Sbjct  64   ATYFLGTSDGYGNRAKSSSWIPPLWLLHTTCLASSGLMGLAAWLVWVDGGFHKKPNALYL  123
+
+Query  77   YAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWA  136
+            Y AQ     +W PV F +      LAV +     +     AF ++   AG L  P L WA
+Sbjct  124  YLAQFLLCLVWDPVTFRVGSGVAGLAVWLGQSAALFGCYKAFNEISPVAGNLVKPCLAWA  183
+
+Query  137  TAATGLN  143
+                 +N
+Sbjct  184  AFVAAVN  190
+
+
+> sp|O34694|YTAB_BACSU Uncharacterized membrane protein YtaB OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ytaB PE=3 SV=1
+Length=155
+
+ Score = 104 bits (260),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 35/154 (23%), Positives = 59/154 (38%), Gaps = 4/154 (3%)
+
+Query  1    MNMDWALFLTFLAACGAPATTGALLK-PDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSL  59
+            M         F+      +  G L     EWY++L KP W P      + W  L+ L+SL
+Sbjct  1    MKKIVGALAVFVITYALFSAAGYLFPVDQEWYNSLKKPDWTPSGTAIGIIWAILFALISL  60
+
+Query  60   AAMRVAQLEGSGQALAFYAA---QLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMW  116
+            +A  V        A +F+         N  ++   F  K +  A    +++ +     + 
+Sbjct  61   SAAIVYAAFSFKGAKSFWFTLLINYVLNQAFSYFQFTQKNLLAASLDCLLVAITAIVLLI  120
+
+Query  117  AFFQLDTWAGVLFVPYLIWATAATGLNFEAMRLN  150
+               +    A  L +PY +W+  AT L+F    +N
+Sbjct  121  IAKKYSRAASYLLLPYFLWSAFATFLSFTINSMN  154
+
+
+> sp|O28797|TSPO_ARCFU Tryptophan-rich protein TspO OS=Archaeoglobus 
+fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 
+/ NBRC 100126) OX=224325 GN=tspO PE=3 SV=1
+Length=153
+
+ Score = 104 bits (258),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 41/141 (29%), Positives = 65/141 (46%), Gaps = 3/141 (2%)
+
+Query  12   LAACGAPATTGALLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLE--G  69
+            + A G   +         WY  + KP++ PP W+F  AWT LYFL+ +      +     
+Sbjct  13   VLAIGFAGSFFTAQSVQTWYAGVEKPFFTPPNWLFGPAWTLLYFLIGIVLYIAWENGFWN  72
+
+Query  70   SGQALAFYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLF  129
+              +  A +  QL  N LW+ +FFG++     L  ++ + + V  T+   +     A +L 
+Sbjct  73   DSRVKATFFTQLGLNFLWSILFFGLQNPLAGLVDIIALDIAVILTIVYIYHHSK-ASLLL  131
+
+Query  130  VPYLIWATAATGLNFEAMRLN  150
+            +PYL W   A+ LNF    LN
+Sbjct  132  LPYLGWILFASALNFAIYLLN  152
+
+
+> sp|Q81BL7|TSPO_BACCR Tryptophan-rich protein TspO OS=Bacillus 
+cereus (strain ATCC 14579 / DSM 31 / JCM 2152 / NBRC 15305 
+/ NCIMB 9373 / NRRL B-3711) OX=226900 GN=tspO PE=1 SV=1
+Length=153
+
+ Score = 102 bits (255),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 33/153 (22%), Positives = 58/153 (38%), Gaps = 3/153 (2%)
+
+Query  1    MNMDWALFLTFLAACGAPATTGALLK-PDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSL  59
+            M M  +  + F    G    +  L      WYD L KP W PP     + W  L+ L++L
+Sbjct  1    MFMKKSSIIVFFLTYGLFYVSSVLFPIDRTWYDALEKPSWTPPGMTIGMIWAVLFGLIAL  60
+
+Query  60   AAMRVAQLEGSGQALA--FYAAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWA  117
+            +   +    G         +     FN  ++   F  K +  A    +++ +     +  
+Sbjct  61   SVAIIYNNYGFKPKTFWFLFLLNYIFNQAFSYFQFSQKNLFLATVDCLLVAITTLLLIMF  120
+
+Query  118  FFQLDTWAGVLFVPYLIWATAATGLNFEAMRLN  150
+               L   +  L +PY +W+  AT L++    +N
+Sbjct  121  SSNLSKVSAWLLIPYFLWSAFATYLSWTIYSIN  153
+
+
+> sp|Q9CRZ8|TSPO2_MOUSE Translocator protein 2 OS=Mus musculus 
+OX=10090 GN=Tspo2 PE=2 SV=2
+Length=162
+
+ Score = 83.2 bits (204),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 33/133 (25%), Positives = 62/133 (47%), Gaps = 6/133 (5%)
+
+Query  24   LLKPDEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSG------QALAFY  77
+            + +P    ++  K  W PP  V  L W ++Y +M  A+  V +  G G        L  Y
+Sbjct  23   IHQPSSRCEDERKLPWCPPHKVILLVWVTIYSVMGYASYLVWKELGGGFRWPLALPLGLY  82
+
+Query  78   AAQLAFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWAT  137
+            + QLA +  +  +F        AL  +++++  VA+ ++ +  ++  A +L +PYL W T
+Sbjct  83   SFQLALSWTFLVLFLAADSPGLALLDLLLLYGLVASLVFIWQPINKLAALLLLPYLAWLT  142
+
+Query  138  AATGLNFEAMRLN  150
+              T + +   R +
+Sbjct  143  VTTAITYRLWRDS  155
+
+
+> sp|Q5TGU0|TSPO2_HUMAN Translocator protein 2 OS=Homo sapiens 
+OX=9606 GN=TSPO2 PE=1 SV=1
+Length=170
+
+ Score = 79.8 bits (195),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 31/129 (24%), Positives = 55/129 (43%), Gaps = 6/129 (5%)
+
+Query  28   DEWYDNLNKPWWNPPRWVFPLAWTSLYFLMSLAAMRVAQLEGSGQ------ALAFYAAQL  81
+              W +      W P   V  L  T++Y ++  A+  V +  G G        L  YA QL
+Sbjct  28   SGWCEGPRMLSWCPFYKVLLLVQTAIYSVVGYASYLVWKDLGGGLGWPLALPLGLYAVQL  87
+
+Query  82   AFNTLWTPVFFGMKRMATALAVVMVMWLFVAATMWAFFQLDTWAGVLFVPYLIWATAATG  141
+              +     +FF +     AL  +++++  V +T   +  ++  A +L +PYL W T  + 
+Sbjct  88   TISWTVLVLFFTVHNPGLALLHLLLLYGLVVSTALIWHPINKLAALLLLPYLAWLTVTSA  147
+
+Query  142  LNFEAMRLN  150
+            L +   R +
+Sbjct  148  LTYHLWRDS  156
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.131    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0399    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6975757700
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

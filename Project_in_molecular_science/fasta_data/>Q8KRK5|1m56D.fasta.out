@@ -1,0 +1,113 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q8KRK5|1m56D
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P77921|COX4_PARDE Cytochrome c oxidase subunit 4 OS=Paracocc...  52.0    2e-09
+
+
+> sp|P77921|COX4_PARDE Cytochrome c oxidase subunit 4 OS=Paracoccus 
+denitrificans OX=266 GN=ctaH PE=1 SV=3
+Length=50
+
+ Score = 52.0 bits (123),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 25/51 (49%), Positives = 34/51 (67%), Gaps = 1/51 (2%)
+
+Query  11  MADHSHPAHGHVAGSMDITQQEKTFAGFVRMVTWAAVVIVAALIFLALANA  61
+           MA H H    H  G MDI  Q+ TFAGF++  TW +++ +A L+FLALAN+
+Sbjct  1   MASH-HEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.129    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4879445508
+Results from round 2
+
+
+Query= Q8KRK5|1m56D
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P77921|COX4_PARDE Cytochrome c oxidase subunit 4 OS=Paracocc...  70.9    2e-16
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P77921|COX4_PARDE Cytochrome c oxidase subunit 4 OS=Paracoccus 
+denitrificans OX=266 GN=ctaH PE=1 SV=3
+Length=50
+
+ Score = 70.9 bits (172),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 25/51 (49%), Positives = 34/51 (67%), Gaps = 1/51 (2%)
+
+Query  11  MADHSHPAHGHVAGSMDITQQEKTFAGFVRMVTWAAVVIVAALIFLALANA  61
+           MA H H    H  G MDI  Q+ TFAGF++  TW +++ +A L+FLALAN+
+Sbjct  1   MASH-HEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.130    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0399    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4879445508
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

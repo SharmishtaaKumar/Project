@@ -1,0 +1,1950 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= B5YGD6|4rngC
+
+Length=88
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q89G85|SWEET_BRADU Sugar transporter SemiSWEET OS=Bradyrhizo...  79.0    7e-19
+  sp|B0SR19|SWEET_LEPBP Sugar transporter SemiSWEET OS=Leptospira...  77.4    3e-18
+  sp|Q57574|Y110_METJA Uncharacterized protein MJ0110 OS=Methanoc...  65.5    1e-13
+  sp|P0DMV3|SWEET_ECOU3 Sugar transporter SemiSWEET OS=Escherichi...  42.4    3e-05
+  sp|Q9LUE3|SWT10_ARATH Bidirectional sugar transporter SWEET10 O...  40.0    8e-04
+
+
+> sp|Q89G85|SWEET_BRADU Sugar transporter SemiSWEET OS=Bradyrhizobium 
+diazoefficiens (strain JCM 10833 / IAM 13628 / NBRC 14792 
+/ USDA 110) OX=224911 GN=bsr6460 PE=1 SV=1
+Length=86
+
+ Score = 79.0 bits (193),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 37/80 (46%), Positives = 54/80 (68%), Gaps = 0/80 (0%)
+
+Query  9   NLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVIL  68
+            LIG  A   TT A  PQ +K+ KT+SARD+SL MF+ M +G+ LW  YG+L  + P+I 
+Sbjct  7   KLIGFAAATCTTVAYAPQFIKVLKTRSARDISLGMFLVMVLGLALWLIYGLLSGDAPLIA  66
+
+Query  69  ANLISLILIFLIIFMKIRYG  88
+           +N ++++L   I+ MK+RYG
+Sbjct  67  SNAVTMLLAGGILVMKLRYG  86
+
+
+> sp|B0SR19|SWEET_LEPBP Sugar transporter SemiSWEET OS=Leptospira 
+biflexa serovar Patoc (strain Patoc 1 / ATCC 23582 / Paris) 
+OX=456481 GN=LEPBI_I1613 PE=1 SV=1
+Length=85
+
+ Score = 77.4 bits (189),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 33/82 (40%), Positives = 56/82 (68%), Gaps = 0/82 (0%)
+
+Query  7   LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+           + NLIG +A  +TT + +PQ L++  TK  RD+S  M+I   +G+ LWF YG+L  ++P+
+Sbjct  1   MENLIGYVAAFLTTVSFLPQVLRVVMTKQTRDISRNMYIMFFLGVVLWFVYGILRSDLPI  60
+
+Query  67  ILANLISLILIFLIIFMKIRYG  88
+           ILAN+++L  + +I++ K+  G
+Sbjct  61  ILANVVTLFFVTIILYYKLTEG  82
+
+
+> sp|Q57574|Y110_METJA Uncharacterized protein MJ0110 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ0110 PE=4 SV=1
+Length=93
+
+ Score = 65.5 bits (158),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 36/86 (42%), Positives = 53/86 (62%), Gaps = 3/86 (3%)
+
+Query  1   MEFSIDLNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVL  60
+           M+F I    +IG IAG +TT A +PQ +K  K K   ++SLA  I    G+TLW  YG+L
+Sbjct  5   MDFDI---TVIGYIAGTLTTFASLPQLIKSLKEKDMSNISLAFVITFTTGLTLWLIYGIL  61
+
+Query  61  IKEIPVILANLISLILIFLIIFMKIR  86
+             + P+I+ N++SL+    I ++KIR
+Sbjct  62  RNDYPIIVFNILSLMFWIPITYLKIR  87
+
+
+> sp|P0DMV3|SWEET_ECOU3 Sugar transporter SemiSWEET OS=Escherichia 
+coli (strain UMEA 3162-1) OX=1281200 GN=G925_04926 PE=1 
+SV=1
+Length=89
+
+ Score = 42.4 bits (98),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 16/52 (31%), Positives = 33/52 (63%), Gaps = 0/52 (0%)
+
+Query  25  PQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLIL  76
+           PQ++K  +T++   +S+ M+I    G+  W  YG++  +  V++AN+++L L
+Sbjct  21  PQSIKTIRTRNTEGISVVMYIMFLTGVISWIAYGIMRSDFAVLIANIVTLFL  72
+
+
+> sp|Q9LUE3|SWT10_ARATH Bidirectional sugar transporter SWEET10 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET10 PE=1 SV=1
+Length=289
+
+ Score = 40.0 bits (92),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  29   KIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLI  75
+            K+ KTKSA  +   +  F+ +   +WFFYG+L+K++ + L N++  I
+Sbjct  154  KVIKTKSAEFMPFGLSFFLTLSAVMWFFYGLLLKDMNIALPNVLGFI  200
+
+
+
+Lambda      K        H        a         alpha
+   0.336    0.150    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5020692120
+Results from round 2
+
+
+Query= B5YGD6|4rngC
+
+Length=88
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q89G85|SWEET_BRADU Sugar transporter SemiSWEET OS=Bradyrhizo...  82.7    2e-20
+  sp|B0SR19|SWEET_LEPBP Sugar transporter SemiSWEET OS=Leptospira...  81.5    8e-20
+  sp|Q57574|Y110_METJA Uncharacterized protein MJ0110 OS=Methanoc...  80.0    4e-19
+  sp|P0DMV3|SWEET_ECOU3 Sugar transporter SemiSWEET OS=Escherichi...  57.6    1e-10
+  sp|Q9LUE3|SWT10_ARATH Bidirectional sugar transporter SWEET10 O...  51.9    6e-08
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P0DKJ5|SWT15_VITVI Bidirectional sugar transporter SWEET15 O...  48.4    1e-06
+  sp|Q9FY94|SWT15_ARATH Bidirectional sugar transporter SWEET15 O...  48.4    1e-06
+  sp|A2X5B4|SWT15_ORYSI Bidirectional sugar transporter SWEET15 O...  47.2    3e-06
+  sp|A2XGM7|SWT12_ORYSI Bidirectional sugar transporter SWEET12 O...  47.2    3e-06
+  sp|Q10LI8|SWT12_ORYSJ Bidirectional sugar transporter SWEET12 O...  46.9    4e-06
+  sp|Q6K602|SWT15_ORYSJ Bidirectional sugar transporter SWEET15 O...  47.2    4e-06
+  sp|Q9FPN0|NEC1_PETHY Bidirectional sugar transporter NEC1 OS=Pe...  45.7    9e-06
+  sp|Q9FGQ2|SWT13_ARATH Bidirectional sugar transporter SWEET13 O...  45.3    1e-05
+  sp|Q9ZV02|SWET9_ARATH Bidirectional sugar transporter SWEET9 OS...  44.5    2e-05
+  sp|Q9SW25|SWT14_ARATH Bidirectional sugar transporter SWEET14 O...  44.2    3e-05
+  sp|Q2R3P9|SWT14_ORYSJ Bidirectional sugar transporter SWEET14 O...  44.2    4e-05
+  sp|B8BKP4|SWT14_ORYSI Bidirectional sugar transporter SWEET14 O...  44.2    4e-05
+  sp|P93332|NOD3_MEDTR Bidirectional sugar transporter N3 OS=Medi...  43.8    4e-05
+  sp|Q9SMM5|SWT11_ARATH Bidirectional sugar transporter SWEET11 O...  43.0    8e-05
+  sp|O82587|SWT12_ARATH Bidirectional sugar transporter SWEET12 O...  42.2    2e-04
+  sp|Q2QR07|SWT13_ORYSJ Bidirectional sugar transporter SWEET13 O...  41.9    2e-04
+  sp|Q6YZF3|SWT11_ORYSJ Bidirectional sugar transporter SWEET11 O...  40.7    5e-04
+  sp|Q19VE6|SWT11_ORYSI Bidirectional sugar transporter SWEET11 O...  40.7    5e-04
+  sp|Q10LN5|SWT16_ORYSJ Bidirectional sugar transporter SWEET16 O...  40.3    6e-04
+  sp|Q5NAZ9|SWT3B_ORYSJ Bidirectional sugar transporter SWEET3b O...  39.5    0.001
+  sp|Q6NQN5|SWET3_ARATH Bidirectional sugar transporter SWEET3 OS...  39.5    0.001
+  sp|Q60EC2|SWT1B_ORYSJ Bidirectional sugar transporter SWEET1b O...  36.8    0.009
+
+
+> sp|Q89G85|SWEET_BRADU Sugar transporter SemiSWEET OS=Bradyrhizobium 
+diazoefficiens (strain JCM 10833 / IAM 13628 / NBRC 14792 
+/ USDA 110) OX=224911 GN=bsr6460 PE=1 SV=1
+Length=86
+
+ Score = 82.7 bits (203),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 38/82 (46%), Positives = 55/82 (67%), Gaps = 0/82 (0%)
+
+Query  7   LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+           L  LIG  A   TT A  PQ +K+ KT+SARD+SL MF+ M +G+ LW  YG+L  + P+
+Sbjct  5   LIKLIGFAAATCTTVAYAPQFIKVLKTRSARDISLGMFLVMVLGLALWLIYGLLSGDAPL  64
+
+Query  67  ILANLISLILIFLIIFMKIRYG  88
+           I +N ++++L   I+ MK+RYG
+Sbjct  65  IASNAVTMLLAGGILVMKLRYG  86
+
+
+> sp|B0SR19|SWEET_LEPBP Sugar transporter SemiSWEET OS=Leptospira 
+biflexa serovar Patoc (strain Patoc 1 / ATCC 23582 / Paris) 
+OX=456481 GN=LEPBI_I1613 PE=1 SV=1
+Length=85
+
+ Score = 81.5 bits (200),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 33/82 (40%), Positives = 56/82 (68%), Gaps = 0/82 (0%)
+
+Query  7   LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+           + NLIG +A  +TT + +PQ L++  TK  RD+S  M+I   +G+ LWF YG+L  ++P+
+Sbjct  1   MENLIGYVAAFLTTVSFLPQVLRVVMTKQTRDISRNMYIMFFLGVVLWFVYGILRSDLPI  60
+
+Query  67  ILANLISLILIFLIIFMKIRYG  88
+           ILAN+++L  + +I++ K+  G
+Sbjct  61  ILANVVTLFFVTIILYYKLTEG  82
+
+
+> sp|Q57574|Y110_METJA Uncharacterized protein MJ0110 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ0110 PE=4 SV=1
+Length=93
+
+ Score = 80.0 bits (196),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 36/86 (42%), Positives = 53/86 (62%), Gaps = 3/86 (3%)
+
+Query  1   MEFSIDLNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVL  60
+           M+F I    +IG IAG +TT A +PQ +K  K K   ++SLA  I    G+TLW  YG+L
+Sbjct  5   MDFDI---TVIGYIAGTLTTFASLPQLIKSLKEKDMSNISLAFVITFTTGLTLWLIYGIL  61
+
+Query  61  IKEIPVILANLISLILIFLIIFMKIR  86
+             + P+I+ N++SL+    I ++KIR
+Sbjct  62  RNDYPIIVFNILSLMFWIPITYLKIR  87
+
+
+> sp|P0DMV3|SWEET_ECOU3 Sugar transporter SemiSWEET OS=Escherichia 
+coli (strain UMEA 3162-1) OX=1281200 GN=G925_04926 PE=1 
+SV=1
+Length=89
+
+ Score = 57.6 bits (138),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/81 (28%), Positives = 46/81 (57%), Gaps = 0/81 (0%)
+
+Query  5   IDLNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+           +D   L G+ A   TT A  PQ++K  +T++   +S+ M+I    G+  W  YG++  + 
+Sbjct  1   MDTILLTGLFAAFFTTFAFAPQSIKTIRTRNTEGISVVMYIMFLTGVISWIAYGIMRSDF  60
+
+Query  65  PVILANLISLILIFLIIFMKI  85
+            V++AN+++L L   ++ + +
+Sbjct  61  AVLIANIVTLFLAAPVLVITL  81
+
+
+> sp|Q9LUE3|SWT10_ARATH Bidirectional sugar transporter SWEET10 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET10 PE=1 SV=1
+Length=289
+
+ Score = 51.9 bits (123),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 19/59 (32%), Positives = 35/59 (59%), Gaps = 0/59 (0%)
+
+Query  29   KIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLILIFLIIFMKIRY  87
+            K+ KTKSA  +   +  F+ +   +WFFYG+L+K++ + L N++  I   L + + + Y
+Sbjct  154  KVIKTKSAEFMPFGLSFFLTLSAVMWFFYGLLLKDMNIALPNVLGFIFGVLQMILFLIY  212
+
+
+> sp|P0DKJ5|SWT15_VITVI Bidirectional sugar transporter SWEET15 
+OS=Vitis vinifera OX=29760 GN=SWEET15 PE=3 SV=1
+Length=289
+
+ Score = 48.4 bits (114),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 17/71 (24%), Positives = 36/71 (51%), Gaps = 3/71 (4%)
+
+Query  9    NLIGIIAGAITTSAL---IPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIP  65
+            N+ G I  + + +     +    K+ +TKS   +  ++  F+ +   +WF YG+L  +  
+Sbjct  134  NVFGWICASFSVAVFAAPLSIVAKVIRTKSVEFMPFSLSFFLTLSAIMWFAYGLLKNDPC  193
+
+Query  66   VILANLISLIL  76
+            V + N++ +IL
+Sbjct  194  VAIPNILGVIL  204
+
+
+> sp|Q9FY94|SWT15_ARATH Bidirectional sugar transporter SWEET15 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET15 PE=1 SV=1
+Length=292
+
+ Score = 48.4 bits (114),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 20/82 (24%), Positives = 42/82 (51%), Gaps = 3/82 (4%)
+
+Query  9    NLIGIIAGAITTSALIPQAL---KIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIP  65
+            +++G I  AI+ S      +   ++ KTKS   +   +  F+ I   +WF YG+ + +I 
+Sbjct  134  SVLGWICVAISVSVFAAPLMIVARVIKTKSVEYMPFTLSFFLTISAVMWFAYGLFLNDIC  193
+
+Query  66   VILANLISLILIFLIIFMKIRY  87
+            + + N++  +L  L + + + Y
+Sbjct  194  IAIPNVVGFVLGLLQMVLYLVY  215
+
+
+> sp|A2X5B4|SWT15_ORYSI Bidirectional sugar transporter SWEET15 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET15 PE=3 SV=1
+Length=319
+
+ Score = 47.2 bits (111),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 16/75 (21%), Positives = 39/75 (52%), Gaps = 1/75 (1%)
+
+Query  14   IAGAITTSALIPQALK-IYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLI  72
+            +A +++  A     ++ + +TKS   +  ++  F+ +   +WF YG+L K++ V L N++
+Sbjct  141  VAVSLSVFAAPLSIIRLVIRTKSVEFMPFSLSFFLVLSAVIWFLYGLLKKDVFVALPNVL  200
+
+Query  73   SLILIFLIIFMKIRY  87
+              +     + + + Y
+Sbjct  201  GFVFGVAQMALYMAY  215
+
+
+> sp|A2XGM7|SWT12_ORYSI Bidirectional sugar transporter SWEET12 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET12 PE=3 SV=1
+Length=300
+
+ Score = 47.2 bits (111),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 18/77 (23%), Positives = 36/77 (47%), Gaps = 0/77 (0%)
+
+Query  11   IGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILAN  70
+            IG         A +    ++ +TKS   +   +  F+ +   +WFFYG+L+K+  V   N
+Sbjct  133  IGASFALAVFVAPLTIIRQVIRTKSVEFMPFWLSFFLTLSAVVWFFYGLLMKDFFVATPN  192
+
+Query  71   LISLILIFLIIFMKIRY  87
+            ++ L+     + + + Y
+Sbjct  193  VLGLLFGLAQMVLYVVY  209
+
+
+> sp|Q10LI8|SWT12_ORYSJ Bidirectional sugar transporter SWEET12 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET12 PE=2 SV=1
+Length=300
+
+ Score = 46.9 bits (110),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 18/77 (23%), Positives = 36/77 (47%), Gaps = 0/77 (0%)
+
+Query  11   IGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILAN  70
+            IG         A +    ++ +TKS   +   +  F+ +   +WFFYG+L+K+  V   N
+Sbjct  133  IGASFALAVFVAPLTIIRQVIRTKSVEFMPFWLSFFLTLSAVVWFFYGLLMKDFFVATPN  192
+
+Query  71   LISLILIFLIIFMKIRY  87
+            ++ L+     + + + Y
+Sbjct  193  VLGLLFGLAQMVLYVVY  209
+
+
+> sp|Q6K602|SWT15_ORYSJ Bidirectional sugar transporter SWEET15 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET15 PE=2 SV=1
+Length=319
+
+ Score = 47.2 bits (111),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 16/75 (21%), Positives = 39/75 (52%), Gaps = 1/75 (1%)
+
+Query  14   IAGAITTSALIPQALK-IYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLI  72
+            +A +++  A     ++ + +TKS   +  ++  F+ +   +WF YG+L K++ V L N++
+Sbjct  141  VAVSLSVFAAPLSIIRLVIRTKSVEFMPFSLSFFLVLSAVIWFLYGLLKKDVFVALPNVL  200
+
+Query  73   SLILIFLIIFMKIRY  87
+              +     + + + Y
+Sbjct  201  GFVFGVAQMALYMAY  215
+
+
+> sp|Q9FPN0|NEC1_PETHY Bidirectional sugar transporter NEC1 OS=Petunia 
+hybrida OX=4102 GN=NEC1 PE=2 SV=1
+Length=265
+
+ Score = 45.7 bits (107),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 19/81 (23%), Positives = 40/81 (49%), Gaps = 3/81 (4%)
+
+Query  10   LIGIIAGAITTSALI-PQAL--KIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            ++G I  AI  +    P ++  ++ KTKS   +   + +F+ +  T+WFFYG   K+  +
+Sbjct  132  IVGWICAAINVAVFAAPLSIMRQVIKTKSVEFMPFTLSLFLTLCATMWFFYGFFKKDFYI  191
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+               N++  +   + + +   Y
+Sbjct  192  AFPNILGFLFGIVQMLLYFVY  212
+
+
+> sp|Q9FGQ2|SWT13_ARATH Bidirectional sugar transporter SWEET13 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET13 PE=1 SV=1
+Length=294
+
+ Score = 45.3 bits (106),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 20/80 (25%), Positives = 41/80 (51%), Gaps = 4/80 (5%)
+
+Query  12   GIIAGAITTSALIPQALK--IYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+            GI  G   +    P ++   + +T+S   +  ++ +F+ I    W FYG+ IK+  V L 
+Sbjct  136  GICVGFSVSVFAAPLSIMRVVVRTRSVEFMPFSLSLFLTISAVTWLFYGLAIKDFYVALP  195
+
+Query  70   NLISLIL--IFLIIFMKIRY  87
+            N++   L  + +I+++  +Y
+Sbjct  196  NVLGAFLGAVQMILYIIFKY  215
+
+
+> sp|Q9ZV02|SWET9_ARATH Bidirectional sugar transporter SWEET9 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET9 PE=1 SV=1
+Length=258
+
+ Score = 44.5 bits (104),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 15/59 (25%), Positives = 32/59 (54%), Gaps = 0/59 (0%)
+
+Query  29   KIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLILIFLIIFMKIRY  87
+            K+ KTKS   +   + + + +   +WFFYG+LIK+  + + N++  +     + + + Y
+Sbjct  154  KVIKTKSVEYMPFLLSLSLTLNAVMWFFYGLLIKDKFIAMPNILGFLFGVAQMILYMMY  212
+
+
+> sp|Q9SW25|SWT14_ARATH Bidirectional sugar transporter SWEET14 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET14 PE=3 SV=1
+Length=281
+
+ Score = 44.2 bits (103),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 40/80 (50%), Gaps = 4/80 (5%)
+
+Query  12   GIIAGAITTSALIPQALK--IYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+            GI  G        P ++   + +TKS   +  ++ +F+ I    W FYG+ IK+  V L 
+Sbjct  136  GICVGFSVCVFAAPLSIMRVVIRTKSVEFMPFSLSLFLTISAITWLFYGLAIKDFYVALP  195
+
+Query  70   NLISLIL--IFLIIFMKIRY  87
+            N++   L  + +I+++  +Y
+Sbjct  196  NILGAFLGAVQMILYVIFKY  215
+
+
+> sp|Q2R3P9|SWT14_ORYSJ Bidirectional sugar transporter SWEET14 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET14 PE=2 SV=1
+Length=303
+
+ Score = 44.2 bits (103),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 25/47 (53%), Gaps = 0/47 (0%)
+
+Query  30   IYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLIL  76
+            + +TKS   +  ++   + I   +WF YG+LIK+  V L N++    
+Sbjct  157  VVRTKSVEFMPFSLSFSLTISAVVWFLYGLLIKDKYVALPNVLGFSF  203
+
+
+ Score = 37.2 bits (85),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 15/59 (25%), Positives = 29/59 (49%), Gaps = 0/59 (0%)
+
+Query  10  LIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVIL  68
+           L+G I   +T  A +P   +IYK+KS +      ++       LW +Y +L  +  +++
+Sbjct  16  LLGNIISFMTYLAPLPTFYRIYKSKSTQGFQSVPYVVALFSAMLWIYYALLKSDECLLI  74
+
+
+> sp|B8BKP4|SWT14_ORYSI Bidirectional sugar transporter SWEET14 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET14 PE=2 SV=1
+Length=303
+
+ Score = 44.2 bits (103),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 14/47 (30%), Positives = 25/47 (53%), Gaps = 0/47 (0%)
+
+Query  30   IYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLIL  76
+            + +TKS   +  ++   + I   +WF YG+LIK+  V L N++    
+Sbjct  157  VVRTKSVEFMPFSLSFSLTISAVVWFLYGLLIKDKYVALPNVLGFSF  203
+
+
+ Score = 37.2 bits (85),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 15/59 (25%), Positives = 29/59 (49%), Gaps = 0/59 (0%)
+
+Query  10  LIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVIL  68
+           L+G I   +T  A +P   +IYK+KS +      ++       LW +Y +L  +  +++
+Sbjct  16  LLGNIISFMTYLAPLPTFYRIYKSKSTQGFQSVPYVVALFSAMLWIYYALLKSDECLLI  74
+
+
+> sp|P93332|NOD3_MEDTR Bidirectional sugar transporter N3 OS=Medicago 
+truncatula OX=3880 GN=N3 PE=2 SV=1
+Length=268
+
+ Score = 43.8 bits (102),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 15/71 (21%), Positives = 36/71 (51%), Gaps = 3/71 (4%)
+
+Query  9    NLIGIIAGAITTSAL---IPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIP  65
+             ++G +  +++ S     +    ++ +TKS   +   +   + +  T+WF YG  +K+I 
+Sbjct  131  QVLGWVCVSLSVSVFAAPLSIVAQVVRTKSVEFMPFNLSFTLTLSATMWFGYGFFLKDIC  190
+
+Query  66   VILANLISLIL  76
+            + L N++  +L
+Sbjct  191  IXLPNVLGXVL  201
+
+
+> sp|Q9SMM5|SWT11_ARATH Bidirectional sugar transporter SWEET11 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET11 PE=1 SV=1
+Length=289
+
+ Score = 43.0 bits (100),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 18/78 (23%), Positives = 36/78 (46%), Gaps = 2/78 (3%)
+
+Query  12   GIIAGAITTSALIPQAL--KIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+            GI  G        P ++   + KT+S   +  ++ + + I   +W  YG+ +K+I V   
+Sbjct  137  GICVGFSVCVFAAPLSIIRTVIKTRSVEYMPFSLSLTLTISAVIWLLYGLALKDIYVAFP  196
+
+Query  70   NLISLILIFLIIFMKIRY  87
+            N++   L  L + + + Y
+Sbjct  197  NVLGFALGALQMILYVVY  214
+
+
+> sp|O82587|SWT12_ARATH Bidirectional sugar transporter SWEET12 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET12 PE=1 SV=1
+Length=285
+
+ Score = 42.2 bits (98),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 20/78 (26%), Positives = 37/78 (47%), Gaps = 2/78 (3%)
+
+Query  12   GIIAGAITTSALIPQAL--KIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+            GI  G        P ++   + KTKS   +  ++ + + I   +W  YG+ +K+I V   
+Sbjct  137  GICVGFSVCVFAAPLSIIRTVIKTKSVEYMPFSLSLTLTISAVIWLLYGLALKDIYVAFP  196
+
+Query  70   NLISLILIFLIIFMKIRY  87
+            N+I  +L  L + + + Y
+Sbjct  197  NVIGFVLGALQMILYVVY  214
+
+
+> sp|Q2QR07|SWT13_ORYSJ Bidirectional sugar transporter SWEET13 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET13 PE=2 SV=1
+Length=296
+
+ Score = 41.9 bits (97),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 12/56 (21%), Positives = 29/56 (52%), Gaps = 0/56 (0%)
+
+Query  21   SALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLIL  76
+             A +    ++ +++S   +  ++ + + +   +WF YG+LIK+  V L N++    
+Sbjct  148  VAPLSIIKRVIQSRSVEYMPFSLSLTLTLSAVVWFLYGLLIKDKYVALPNILGFTF  203
+
+
+> sp|Q6YZF3|SWT11_ORYSJ Bidirectional sugar transporter SWEET11 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET11 PE=1 SV=1
+Length=307
+
+ Score = 40.7 bits (94),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 13/56 (23%), Positives = 25/56 (45%), Gaps = 0/56 (0%)
+
+Query  21   SALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLIL  76
+             A +    K+ KTKS   + + + + + +    WF YG+  K+  V+  N+     
+Sbjct  150  VAPLSIIFKVIKTKSVEFMPIGLSVCLTLSAVAWFCYGLFTKDPYVMYPNVGGFFF  205
+
+
+> sp|Q19VE6|SWT11_ORYSI Bidirectional sugar transporter SWEET11 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET11 PE=2 SV=1
+Length=307
+
+ Score = 40.7 bits (94),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 13/56 (23%), Positives = 25/56 (45%), Gaps = 0/56 (0%)
+
+Query  21   SALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLIL  76
+             A +    K+ KTKS   + + + + + +    WF YG+  K+  V+  N+     
+Sbjct  150  VAPLSIIFKVIKTKSVEFMPIGLSVCLTLSAVAWFCYGLFTKDPYVMYPNVGGFFF  205
+
+
+> sp|Q10LN5|SWT16_ORYSJ Bidirectional sugar transporter SWEET16 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET16 PE=3 SV=1
+Length=328
+
+ Score = 40.3 bits (93),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 16/81 (20%), Positives = 39/81 (48%), Gaps = 3/81 (4%)
+
+Query  10   LIGIIAGAITT---SALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            ++G++  A+T    +A +     + KT+S   +  ++  F+ +   +W  Y +L+K+  +
+Sbjct  128  VVGVLCAALTIGMYAAPMAAMRTVVKTRSVEYMPFSLSFFLFLNGGVWSVYSLLVKDYFI  187
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N I   L    + + + Y
+Sbjct  188  GIPNAIGFALGTAQLALYMAY  208
+
+
+> sp|Q5NAZ9|SWT3B_ORYSJ Bidirectional sugar transporter SWEET3b 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET3B PE=3 SV=2
+Length=252
+
+ Score = 39.5 bits (91),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 18/73 (25%), Positives = 35/73 (48%), Gaps = 0/73 (0%)
+
+Query  11   IGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILAN  70
+            IG++A     S+ +  A ++  TKS   +   + +F  +   LW  YG+L K++ +   N
+Sbjct  138  IGLVASISMYSSPMVAAKQVITTKSVEFMPFYLSLFSFLSSALWMIYGLLGKDLFIASPN  197
+
+Query  71   LISLILIFLIIFM  83
+             I   +  L + +
+Sbjct  198  FIGCPMGILQLVL  210
+
+
+> sp|Q6NQN5|SWET3_ARATH Bidirectional sugar transporter SWEET3 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET3 PE=1 SV=1
+Length=263
+
+ Score = 39.5 bits (91),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 15/77 (19%), Positives = 37/77 (48%), Gaps = 0/77 (0%)
+
+Query  11   IGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILAN  70
+            +G++A      + +    K+ +T+S   +   +  F  +  +LW  YG+L  ++ +   N
+Sbjct  137  VGLVASISMYGSPLVVMKKVIETRSVEYMPFYLSFFSFLASSLWLAYGLLSHDLFLASPN  196
+
+Query  71   LISLILIFLIIFMKIRY  87
+            +++  L  L + +  +Y
+Sbjct  197  MVATPLGILQLILYFKY  213
+
+
+> sp|Q60EC2|SWT1B_ORYSJ Bidirectional sugar transporter SWEET1b 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET1B PE=2 SV=1
+Length=261
+
+ Score = 36.8 bits (84),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 18/77 (23%), Positives = 34/77 (44%), Gaps = 3/77 (4%)
+
+Query  10   LIGIIAGAITTSALI-PQALK--IYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            L G+ A   +      P ++   + KTKS   +   M + + +  T WF YG+L ++  V
+Sbjct  131  LCGVAATVCSICMYASPLSIMRLVIKTKSVEYMPFLMSLAVFLCGTSWFIYGLLGRDPFV  190
+
+Query  67   ILANLISLILIFLIIFM  83
+             + N     L  + + +
+Sbjct  191  TIPNGCGSFLGAVQLVL  207
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.146    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0453    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5020692120
+Results from round 3
+
+
+Query= B5YGD6|4rngC
+
+Length=88
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P0DKJ5|SWT15_VITVI Bidirectional sugar transporter SWEET15 O...  86.2    3e-20
+  sp|Q10LN5|SWT16_ORYSJ Bidirectional sugar transporter SWEET16 O...  86.2    3e-20
+  sp|A2X5B4|SWT15_ORYSI Bidirectional sugar transporter SWEET15 O...  85.0    8e-20
+  sp|Q9FPN0|NEC1_PETHY Bidirectional sugar transporter NEC1 OS=Pe...  84.6    8e-20
+  sp|Q6K602|SWT15_ORYSJ Bidirectional sugar transporter SWEET15 O...  84.6    1e-19
+  sp|A2XGM7|SWT12_ORYSI Bidirectional sugar transporter SWEET12 O...  83.9    2e-19
+  sp|Q10LI8|SWT12_ORYSJ Bidirectional sugar transporter SWEET12 O...  83.5    2e-19
+  sp|Q2R3P9|SWT14_ORYSJ Bidirectional sugar transporter SWEET14 O...  83.5    2e-19
+  sp|B8BKP4|SWT14_ORYSI Bidirectional sugar transporter SWEET14 O...  83.5    3e-19
+  sp|Q6NQN5|SWET3_ARATH Bidirectional sugar transporter SWEET3 OS...  82.7    4e-19
+  sp|P93332|NOD3_MEDTR Bidirectional sugar transporter N3 OS=Medi...  82.7    5e-19
+  sp|Q9FY94|SWT15_ARATH Bidirectional sugar transporter SWEET15 O...  82.3    6e-19
+  sp|Q5NAZ9|SWT3B_ORYSJ Bidirectional sugar transporter SWEET3b O...  81.9    8e-19
+  sp|Q9SMM5|SWT11_ARATH Bidirectional sugar transporter SWEET11 O...  81.9    8e-19
+  sp|Q9ZV02|SWET9_ARATH Bidirectional sugar transporter SWEET9 OS...  81.2    2e-18
+  sp|Q2QR07|SWT13_ORYSJ Bidirectional sugar transporter SWEET13 O...  79.2    8e-18
+  sp|O82587|SWT12_ARATH Bidirectional sugar transporter SWEET12 O...  78.5    1e-17
+  sp|Q9FGQ2|SWT13_ARATH Bidirectional sugar transporter SWEET13 O...  78.1    2e-17
+  sp|Q9SW25|SWT14_ARATH Bidirectional sugar transporter SWEET14 O...  78.1    2e-17
+  sp|Q9LUE3|SWT10_ARATH Bidirectional sugar transporter SWEET10 O...  78.1    2e-17
+  sp|Q89G85|SWEET_BRADU Sugar transporter SemiSWEET OS=Bradyrhizo...  70.8    1e-15
+  sp|Q57574|Y110_METJA Uncharacterized protein MJ0110 OS=Methanoc...  70.0    2e-15
+  sp|B0SR19|SWEET_LEPBP Sugar transporter SemiSWEET OS=Leptospira...  69.2    3e-15
+  sp|Q6YZF3|SWT11_ORYSJ Bidirectional sugar transporter SWEET11 O...  71.5    6e-15
+  sp|Q19VE6|SWT11_ORYSI Bidirectional sugar transporter SWEET11 O...  71.5    6e-15
+  sp|P0DMV3|SWEET_ECOU3 Sugar transporter SemiSWEET OS=Escherichi...  58.8    3e-11
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q60EC2|SWT1B_ORYSJ Bidirectional sugar transporter SWEET1b O...  76.2    8e-17
+  sp|B8AYH1|SWT1B_ORYSI Bidirectional sugar transporter SWEET1b O...  76.2    9e-17
+  sp|Q8L9J7|SWET1_ARATH Bidirectional sugar transporter SWEET1 OS...  73.1    1e-15
+  sp|Q0DJY3|SWT3A_ORYSJ Bidirectional sugar transporter SWEET3a O...  68.8    3e-14
+  sp|P0DKJ3|SWT1A_SORBI Bidirectional sugar transporter SWEET1a O...  68.8    4e-14
+  sp|Q8RZQ8|SWT1A_ORYSJ Bidirectional sugar transporter SWEET1a O...  67.7    1e-13
+  sp|Q84WN3|SWT17_ARATH Bidirectional sugar transporter SWEET17 O...  65.8    3e-13
+  sp|A2WSD3|SWT6B_ORYSI Bidirectional sugar transporter SWEET6b O...  64.2    2e-12
+  sp|Q8W0K2|SWT6B_ORYSJ Bidirectional sugar transporter SWEET6b O...  63.5    3e-12
+  sp|Q8LR09|SWT6A_ORYSJ Bidirectional sugar transporter SWEET6a O...  63.5    3e-12
+  sp|Q8LBF7|SWET7_ARATH Bidirectional sugar transporter SWEET7 OS...  63.5    3e-12
+  sp|A2WSD8|SWT6A_ORYSI Bidirectional sugar transporter SWEET6a O...  63.5    3e-12
+  sp|Q9C9M9|SWET6_ARATH Bidirectional sugar transporter SWEET6 OS...  63.1    5e-12
+  sp|Q6K4V2|SWET4_ORYSJ Bidirectional sugar transporter SWEET4 OS...  62.3    9e-12
+  sp|A2X3S3|SWET4_ORYSI Bidirectional sugar transporter SWEET4 OS...  62.3    9e-12
+  sp|Q9LUR4|SWT16_ARATH Bidirectional sugar transporter SWEET16 O...  61.9    1e-11
+  sp|Q6L568|SWET5_ORYSJ Bidirectional sugar transporter SWEET5 OS...  61.5    1e-11
+  sp|A2YZ24|SWT7B_ORYSI Bidirectional sugar transporter SWEET7b O...  61.5    2e-11
+  sp|Q0J349|SWT7B_ORYSJ Bidirectional sugar transporter SWEET7b O...  61.5    2e-11
+  sp|B9G2E6|SWT7D_ORYSJ Putative bidirectional sugar transporter ...  61.5    2e-11
+  sp|Q2QWX8|SWT7C_ORYSJ Bidirectional sugar transporter SWEET7c O...  59.6    7e-11
+  sp|A2ZIM4|SWT7C_ORYSI Bidirectional sugar transporter SWEET7c O...  59.6    8e-11
+  sp|Q9FM10|SWET5_ARATH Bidirectional sugar transporter SWEET5 OS...  58.1    2e-10
+  sp|Q0J361|SWT7A_ORYSJ Bidirectional sugar transporter SWEET7a O...  57.7    4e-10
+  sp|A3BWJ9|SWT7E_ORYSJ Putative bidirectional sugar transporter ...  57.3    5e-10
+  sp|Q5JJY5|SWT2A_ORYSJ Bidirectional sugar transporter SWEET2a O...  55.7    2e-09
+  sp|A2WR31|SWT2A_ORYSI Bidirectional sugar transporter SWEET2a O...  55.7    2e-09
+  sp|D3ZH22|SWET1_RAT Sugar transporter SWEET1 OS=Rattus norvegic...  55.0    2e-09
+  sp|Q944M5|SWET4_ARATH Bidirectional sugar transporter SWEET4 OS...  55.4    3e-09
+  sp|P0DKJ4|SWT2A_SORBI Bidirectional sugar transporter SWEET2a O...  55.0    3e-09
+  sp|Q9LH79|SWET2_ARATH Bidirectional sugar transporter SWEET2 OS...  53.8    8e-09
+  sp|Q7JVE7|SWET1_DROME Sugar transporter SWEET1 OS=Drosophila me...  53.1    2e-08
+  sp|Q8LFH5|SWET8_ARATH Bidirectional sugar transporter SWEET8 OS...  52.7    2e-08
+  sp|Q5N8J1|SWT2B_ORYSJ Bidirectional sugar transporter SWEET2b O...  52.3    3e-08
+  sp|B8A833|SWT2B_ORYSI Bidirectional sugar transporter SWEET2b O...  52.3    3e-08
+  sp|Q290X1|SWET1_DROPS Sugar transporter SWEET1 OS=Drosophila ps...  52.3    3e-08
+  sp|O45102|SWET1_CAEEL Sugar transporter SWEET1 OS=Caenorhabditi...  49.6    5e-07
+  sp|Q9CXK4|SWET1_MOUSE Sugar transporter SWEET1 OS=Mus musculus ...  48.4    7e-07
+  sp|A8XI14|SWET1_CAEBR Sugar transporter SWEET1 OS=Caenorhabditi...  49.2    7e-07
+  sp|Q5EB14|SWET1_DANRE Sugar transporter SWEET1 OS=Danio rerio O...  44.6    2e-05
+  sp|Q9BRV3|SWET1_HUMAN Sugar transporter SWEET1 OS=Homo sapiens ...  44.2    2e-05
+  sp|Q5EAL3|SWET1_XENTR Sugar transporter SWEET1 OS=Xenopus tropi...  43.0    6e-05
+  sp|Q6NTJ7|SWET1_XENLA Sugar transporter SWEET1 OS=Xenopus laevi...  42.3    1e-04
+  sp|Q54JW5|SWET1_DICDI Sugar transporter SWEET1 OS=Dictyostelium...  41.9    2e-04
+  sp|Q95KW8|SWET1_PAPAN Sugar transporter SWEET1 OS=Papio anubis ...  41.9    2e-04
+
+
+> sp|P0DKJ5|SWT15_VITVI Bidirectional sugar transporter SWEET15 
+OS=Vitis vinifera OX=29760 GN=SWEET15 PE=3 SV=1
+Length=289
+
+ Score = 86.2 bits (212),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 19/83 (23%), Positives = 41/83 (49%), Gaps = 3/83 (4%)
+
+Query  8    NNLIGIIAGAITTS---ALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+             N+ G I  + + +   A +    K+ +TKS   +  ++  F+ +   +WF YG+L  + 
+Sbjct  133  INVFGWICASFSVAVFAAPLSIVAKVIRTKSVEFMPFSLSFFLTLSAIMWFAYGLLKNDP  192
+
+Query  65   PVILANLISLILIFLIIFMKIRY  87
+             V + N++ +IL  + + +   Y
+Sbjct  193  CVAIPNILGVILGLVQMVLYGFY  215
+
+
+ Score = 43.0 bits (100),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 19/80 (24%), Positives = 32/80 (40%), Gaps = 1/80 (1%)
+
+Query  10  LIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+           ++G I   +   A  P   +IYK KSA       +I       LW +Y +L K+  +++ 
+Sbjct  17  ILGNIISFLVYFAPAPTFYRIYKRKSAEGFHSLPYIVALFSAMLWLYYALLKKDAFLLIT  76
+
+Query  70  -NLISLILIFLIIFMKIRYG  88
+            N     +    I +   Y 
+Sbjct  77  INSFGCAIESFYILLYFFYA  96
+
+
+> sp|Q10LN5|SWT16_ORYSJ Bidirectional sugar transporter SWEET16 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET16 PE=3 SV=1
+Length=328
+
+ Score = 86.2 bits (212),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 16/81 (20%), Positives = 39/81 (48%), Gaps = 3/81 (4%)
+
+Query  10   LIGIIAGAIT---TSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            ++G++  A+T    +A +     + KT+S   +  ++  F+ +   +W  Y +L+K+  +
+Sbjct  128  VVGVLCAALTIGMYAAPMAAMRTVVKTRSVEYMPFSLSFFLFLNGGVWSVYSLLVKDYFI  187
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N I   L    + + + Y
+Sbjct  188  GIPNAIGFALGTAQLALYMAY  208
+
+
+ Score = 39.6 bits (91),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 13/80 (16%), Positives = 35/80 (44%), Gaps = 1/80 (1%)
+
+Query  10  LIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLI-KEIPVIL  68
+           ++G +   +  ++ I    +I ++KS  +     ++   +  +LW FYG+     + ++ 
+Sbjct  10  IVGNVISILVFASPIATFRRIVRSKSTEEFRWLPYVTTLLSTSLWTFYGLHKPGGLLIVT  69
+
+Query  69  ANLISLILIFLIIFMKIRYG  88
+            N     L  + + + + Y 
+Sbjct  70  VNGSGAALEAIYVTLYLAYA  89
+
+
+> sp|A2X5B4|SWT15_ORYSI Bidirectional sugar transporter SWEET15 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET15 PE=3 SV=1
+Length=319
+
+ Score = 85.0 bits (209),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 18/83 (22%), Positives = 40/83 (48%), Gaps = 3/83 (4%)
+
+Query  8    NNLIGIIAGA---ITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+             +++G I  A      +A +     + +TKS   +  ++  F+ +   +WF YG+L K++
+Sbjct  133  VHVLGWICVAVSLSVFAAPLSIIRLVIRTKSVEFMPFSLSFFLVLSAVIWFLYGLLKKDV  192
+
+Query  65   PVILANLISLILIFLIIFMKIRY  87
+             V L N++  +     + + + Y
+Sbjct  193  FVALPNVLGFVFGVAQMALYMAY  215
+
+
+> sp|Q9FPN0|NEC1_PETHY Bidirectional sugar transporter NEC1 OS=Petunia 
+hybrida OX=4102 GN=NEC1 PE=2 SV=1
+Length=265
+
+ Score = 84.6 bits (208),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 19/83 (23%), Positives = 39/83 (47%), Gaps = 3/83 (4%)
+
+Query  8    NNLIGIIAGAI---TTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+              ++G I  AI     +A +    ++ KTKS   +   + +F+ +  T+WFFYG   K+ 
+Sbjct  130  VMIVGWICAAINVAVFAAPLSIMRQVIKTKSVEFMPFTLSLFLTLCATMWFFYGFFKKDF  189
+
+Query  65   PVILANLISLILIFLIIFMKIRY  87
+             +   N++  +   + + +   Y
+Sbjct  190  YIAFPNILGFLFGIVQMLLYFVY  212
+
+
+> sp|Q6K602|SWT15_ORYSJ Bidirectional sugar transporter SWEET15 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET15 PE=2 SV=1
+Length=319
+
+ Score = 84.6 bits (208),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 18/83 (22%), Positives = 40/83 (48%), Gaps = 3/83 (4%)
+
+Query  8    NNLIGIIAGA---ITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+             +++G I  A      +A +     + +TKS   +  ++  F+ +   +WF YG+L K++
+Sbjct  133  VHVLGWICVAVSLSVFAAPLSIIRLVIRTKSVEFMPFSLSFFLVLSAVIWFLYGLLKKDV  192
+
+Query  65   PVILANLISLILIFLIIFMKIRY  87
+             V L N++  +     + + + Y
+Sbjct  193  FVALPNVLGFVFGVAQMALYMAY  215
+
+
+> sp|A2XGM7|SWT12_ORYSI Bidirectional sugar transporter SWEET12 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET12 PE=3 SV=1
+Length=300
+
+ Score = 83.9 bits (206),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 18/77 (23%), Positives = 36/77 (47%), Gaps = 0/77 (0%)
+
+Query  11   IGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILAN  70
+            IG         A +    ++ +TKS   +   +  F+ +   +WFFYG+L+K+  V   N
+Sbjct  133  IGASFALAVFVAPLTIIRQVIRTKSVEFMPFWLSFFLTLSAVVWFFYGLLMKDFFVATPN  192
+
+Query  71   LISLILIFLIIFMKIRY  87
+            ++ L+     + + + Y
+Sbjct  193  VLGLLFGLAQMVLYVVY  209
+
+
+> sp|Q10LI8|SWT12_ORYSJ Bidirectional sugar transporter SWEET12 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET12 PE=2 SV=1
+Length=300
+
+ Score = 83.5 bits (205),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 18/77 (23%), Positives = 36/77 (47%), Gaps = 0/77 (0%)
+
+Query  11   IGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILAN  70
+            IG         A +    ++ +TKS   +   +  F+ +   +WFFYG+L+K+  V   N
+Sbjct  133  IGASFALAVFVAPLTIIRQVIRTKSVEFMPFWLSFFLTLSAVVWFFYGLLMKDFFVATPN  192
+
+Query  71   LISLILIFLIIFMKIRY  87
+            ++ L+     + + + Y
+Sbjct  193  VLGLLFGLAQMVLYVVY  209
+
+
+> sp|Q2R3P9|SWT14_ORYSJ Bidirectional sugar transporter SWEET14 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET14 PE=2 SV=1
+Length=303
+
+ Score = 83.5 bits (205),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 17/83 (20%), Positives = 35/83 (42%), Gaps = 3/83 (4%)
+
+Query  8    NNLIGIIA---GAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+              ++G +          A +     + +TKS   +  ++   + I   +WF YG+LIK+ 
+Sbjct  132  IVVLGWVCVGFSVSVFVAPLSIIRLVVRTKSVEFMPFSLSFSLTISAVVWFLYGLLIKDK  191
+
+Query  65   PVILANLISLILIFLIIFMKIRY  87
+             V L N++      + + +   Y
+Sbjct  192  YVALPNVLGFSFGVIQMGLYAMY  214
+
+
+ Score = 42.7 bits (99),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 18/80 (23%), Positives = 37/80 (46%), Gaps = 1/80 (1%)
+
+Query  10  LIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+           L+G I   +T  A +P   +IYK+KS +      ++       LW +Y +L  +  +++ 
+Sbjct  16  LLGNIISFMTYLAPLPTFYRIYKSKSTQGFQSVPYVVALFSAMLWIYYALLKSDECLLIT  75
+
+Query  70  -NLISLILIFLIIFMKIRYG  88
+            N    ++  + I + + Y 
+Sbjct  76  INSAGCVIETIYIAVYLVYA  95
+
+
+> sp|B8BKP4|SWT14_ORYSI Bidirectional sugar transporter SWEET14 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET14 PE=2 SV=1
+Length=303
+
+ Score = 83.5 bits (205),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 17/83 (20%), Positives = 35/83 (42%), Gaps = 3/83 (4%)
+
+Query  8    NNLIGIIA---GAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+              ++G +          A +     + +TKS   +  ++   + I   +WF YG+LIK+ 
+Sbjct  132  IVVLGWVCVGFSVSVFVAPLSIIRLVVRTKSVEFMPFSLSFSLTISAVVWFLYGLLIKDK  191
+
+Query  65   PVILANLISLILIFLIIFMKIRY  87
+             V L N++      + + +   Y
+Sbjct  192  YVALPNVLGFSFGVIQMGLYAMY  214
+
+
+ Score = 42.7 bits (99),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 18/80 (23%), Positives = 37/80 (46%), Gaps = 1/80 (1%)
+
+Query  10  LIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+           L+G I   +T  A +P   +IYK+KS +      ++       LW +Y +L  +  +++ 
+Sbjct  16  LLGNIISFMTYLAPLPTFYRIYKSKSTQGFQSVPYVVALFSAMLWIYYALLKSDECLLIT  75
+
+Query  70  -NLISLILIFLIIFMKIRYG  88
+            N    ++  + I + + Y 
+Sbjct  76  INSAGCVIETIYIAVYLVYA  95
+
+
+> sp|Q6NQN5|SWET3_ARATH Bidirectional sugar transporter SWEET3 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET3 PE=1 SV=1
+Length=263
+
+ Score = 82.7 bits (203),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 15/77 (19%), Positives = 37/77 (48%), Gaps = 0/77 (0%)
+
+Query  11   IGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILAN  70
+            +G++A      + +    K+ +T+S   +   +  F  +  +LW  YG+L  ++ +   N
+Sbjct  137  VGLVASISMYGSPLVVMKKVIETRSVEYMPFYLSFFSFLASSLWLAYGLLSHDLFLASPN  196
+
+Query  71   LISLILIFLIIFMKIRY  87
+            +++  L  L + +  +Y
+Sbjct  197  MVATPLGILQLILYFKY  213
+
+
+> sp|P93332|NOD3_MEDTR Bidirectional sugar transporter N3 OS=Medicago 
+truncatula OX=3880 GN=N3 PE=2 SV=1
+Length=268
+
+ Score = 82.7 bits (203),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 18/83 (22%), Positives = 41/83 (49%), Gaps = 3/83 (4%)
+
+Query  8    NNLIGIIAGAITTS---ALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+              ++G +  +++ S   A +    ++ +TKS   +   +   + +  T+WF YG  +K+I
+Sbjct  130  VQVLGWVCVSLSVSVFAAPLSIVAQVVRTKSVEFMPFNLSFTLTLSATMWFGYGFFLKDI  189
+
+Query  65   PVILANLISLILIFLIIFMKIRY  87
+             + L N++  +L  L + +   Y
+Sbjct  190  CIXLPNVLGXVLGLLQMLLYAIY  212
+
+
+> sp|Q9FY94|SWT15_ARATH Bidirectional sugar transporter SWEET15 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET15 PE=1 SV=1
+Length=292
+
+ Score = 82.3 bits (202),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 21/83 (25%), Positives = 43/83 (52%), Gaps = 3/83 (4%)
+
+Query  8    NNLIGIIAGAITTS---ALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+             +++G I  AI+ S   A +    ++ KTKS   +   +  F+ I   +WF YG+ + +I
+Sbjct  133  VSVLGWICVAISVSVFAAPLMIVARVIKTKSVEYMPFTLSFFLTISAVMWFAYGLFLNDI  192
+
+Query  65   PVILANLISLILIFLIIFMKIRY  87
+             + + N++  +L  L + + + Y
+Sbjct  193  CIAIPNVVGFVLGLLQMVLYLVY  215
+
+
+> sp|Q5NAZ9|SWT3B_ORYSJ Bidirectional sugar transporter SWEET3b 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET3B PE=3 SV=2
+Length=252
+
+ Score = 81.9 bits (201),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 19/77 (25%), Positives = 36/77 (47%), Gaps = 0/77 (0%)
+
+Query  11   IGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILAN  70
+            IG++A     S+ +  A ++  TKS   +   + +F  +   LW  YG+L K++ +   N
+Sbjct  138  IGLVASISMYSSPMVAAKQVITTKSVEFMPFYLSLFSFLSSALWMIYGLLGKDLFIASPN  197
+
+Query  71   LISLILIFLIIFMKIRY  87
+             I   +  L + +   Y
+Sbjct  198  FIGCPMGILQLVLYCIY  214
+
+
+> sp|Q9SMM5|SWT11_ARATH Bidirectional sugar transporter SWEET11 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET11 PE=1 SV=1
+Length=289
+
+ Score = 81.9 bits (201),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 18/78 (23%), Positives = 35/78 (45%), Gaps = 2/78 (3%)
+
+Query  12   GIIAGAITTS--ALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+            GI  G       A +     + KT+S   +  ++ + + I   +W  YG+ +K+I V   
+Sbjct  137  GICVGFSVCVFAAPLSIIRTVIKTRSVEYMPFSLSLTLTISAVIWLLYGLALKDIYVAFP  196
+
+Query  70   NLISLILIFLIIFMKIRY  87
+            N++   L  L + + + Y
+Sbjct  197  NVLGFALGALQMILYVVY  214
+
+
+> sp|Q9ZV02|SWET9_ARATH Bidirectional sugar transporter SWEET9 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET9 PE=1 SV=1
+Length=258
+
+ Score = 81.2 bits (199),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 17/83 (20%), Positives = 40/83 (48%), Gaps = 3/83 (4%)
+
+Query  8    NNLIGIIAGA---ITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+             + +G +  A      ++ +    K+ KTKS   +   + + + +   +WFFYG+LIK+ 
+Sbjct  130  VSTVGWVCAAYSLAVFASPLSVMRKVIKTKSVEYMPFLLSLSLTLNAVMWFFYGLLIKDK  189
+
+Query  65   PVILANLISLILIFLIIFMKIRY  87
+             + + N++  +     + + + Y
+Sbjct  190  FIAMPNILGFLFGVAQMILYMMY  212
+
+
+> sp|Q2QR07|SWT13_ORYSJ Bidirectional sugar transporter SWEET13 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET13 PE=2 SV=1
+Length=296
+
+ Score = 79.2 bits (194),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 15/80 (19%), Positives = 39/80 (49%), Gaps = 3/80 (4%)
+
+Query  11   IGIIAGAITT---SALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVI  67
+            +G +  A +     A +    ++ +++S   +  ++ + + +   +WF YG+LIK+  V 
+Sbjct  135  LGWVCVAFSVSVFVAPLSIIKRVIQSRSVEYMPFSLSLTLTLSAVVWFLYGLLIKDKYVA  194
+
+Query  68   LANLISLILIFLIIFMKIRY  87
+            L N++      + + + + Y
+Sbjct  195  LPNILGFTFGVVQMGLYVFY  214
+
+
+ Score = 40.0 bits (92),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 21/80 (26%), Positives = 34/80 (43%), Gaps = 1/80 (1%)
+
+Query  10  LIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLI-KEIPVIL  68
+           L+G +    T  A IP   +IYK+KS        ++       LW FY ++   E  +I 
+Sbjct  16  LLGNLISFTTYLAPIPTFYRIYKSKSTEGFQSVPYVVALFSAMLWIFYALIKSNEALLIT  75
+
+Query  69  ANLISLILIFLIIFMKIRYG  88
+            N    ++  + I M + Y 
+Sbjct  76  INAAGCVIETIYIVMYLAYA  95
+
+
+> sp|O82587|SWT12_ARATH Bidirectional sugar transporter SWEET12 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET12 PE=1 SV=1
+Length=285
+
+ Score = 78.5 bits (192),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 20/78 (26%), Positives = 36/78 (46%), Gaps = 2/78 (3%)
+
+Query  12   GIIAGAITTS--ALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+            GI  G       A +     + KTKS   +  ++ + + I   +W  YG+ +K+I V   
+Sbjct  137  GICVGFSVCVFAAPLSIIRTVIKTKSVEYMPFSLSLTLTISAVIWLLYGLALKDIYVAFP  196
+
+Query  70   NLISLILIFLIIFMKIRY  87
+            N+I  +L  L + + + Y
+Sbjct  197  NVIGFVLGALQMILYVVY  214
+
+
+> sp|Q9FGQ2|SWT13_ARATH Bidirectional sugar transporter SWEET13 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET13 PE=1 SV=1
+Length=294
+
+ Score = 78.1 bits (191),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 19/78 (24%), Positives = 38/78 (49%), Gaps = 2/78 (3%)
+
+Query  12   GIIAGAITTSALIPQALK--IYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+            GI  G   +    P ++   + +T+S   +  ++ +F+ I    W FYG+ IK+  V L 
+Sbjct  136  GICVGFSVSVFAAPLSIMRVVVRTRSVEFMPFSLSLFLTISAVTWLFYGLAIKDFYVALP  195
+
+Query  70   NLISLILIFLIIFMKIRY  87
+            N++   L  + + + I +
+Sbjct  196  NVLGAFLGAVQMILYIIF  213
+
+
+> sp|Q9SW25|SWT14_ARATH Bidirectional sugar transporter SWEET14 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET14 PE=3 SV=1
+Length=281
+
+ Score = 78.1 bits (191),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 19/78 (24%), Positives = 37/78 (47%), Gaps = 2/78 (3%)
+
+Query  12   GIIAGAITTSALIPQALK--IYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+            GI  G        P ++   + +TKS   +  ++ +F+ I    W FYG+ IK+  V L 
+Sbjct  136  GICVGFSVCVFAAPLSIMRVVIRTKSVEFMPFSLSLFLTISAITWLFYGLAIKDFYVALP  195
+
+Query  70   NLISLILIFLIIFMKIRY  87
+            N++   L  + + + + +
+Sbjct  196  NILGAFLGAVQMILYVIF  213
+
+
+> sp|Q9LUE3|SWT10_ARATH Bidirectional sugar transporter SWEET10 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET10 PE=1 SV=1
+Length=289
+
+ Score = 78.1 bits (191),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 22/83 (27%), Positives = 41/83 (49%), Gaps = 3/83 (4%)
+
+Query  8    NNLIGIIA---GAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+              ++G I          A +    K+ KTKSA  +   +  F+ +   +WFFYG+L+K++
+Sbjct  130  VQVLGYICMVFALSVFVAPLGIIRKVIKTKSAEFMPFGLSFFLTLSAVMWFFYGLLLKDM  189
+
+Query  65   PVILANLISLILIFLIIFMKIRY  87
+             + L N++  I   L + + + Y
+Sbjct  190  NIALPNVLGFIFGVLQMILFLIY  212
+
+
+> sp|Q60EC2|SWT1B_ORYSJ Bidirectional sugar transporter SWEET1b 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET1B PE=2 SV=1
+Length=261
+
+ Score = 76.2 bits (186),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 15/74 (20%), Positives = 31/74 (42%), Gaps = 0/74 (0%)
+
+Query  14   IAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLIS  73
+            +      ++ +     + KTKS   +   M + + +  T WF YG+L ++  V + N   
+Sbjct  138  VCSICMYASPLSIMRLVIKTKSVEYMPFLMSLAVFLCGTSWFIYGLLGRDPFVTIPNGCG  197
+
+Query  74   LILIFLIIFMKIRY  87
+              L  + + +   Y
+Sbjct  198  SFLGAVQLVLYAIY  211
+
+
+> sp|B8AYH1|SWT1B_ORYSI Bidirectional sugar transporter SWEET1b 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET1B PE=3 SV=1
+Length=261
+
+ Score = 76.2 bits (186),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 14/74 (19%), Positives = 31/74 (42%), Gaps = 0/74 (0%)
+
+Query  14   IAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLIS  73
+            +      ++ +     + KTKS   +   + + + +  T WF YG+L ++  V + N   
+Sbjct  138  VCSICMYASPLSIMRLVIKTKSVEYMPFLLSLAVFLCGTSWFIYGLLGRDPFVTIPNGCG  197
+
+Query  74   LILIFLIIFMKIRY  87
+              L  + + +   Y
+Sbjct  198  SFLGAVQLVLYAIY  211
+
+
+> sp|Q89G85|SWEET_BRADU Sugar transporter SemiSWEET OS=Bradyrhizobium 
+diazoefficiens (strain JCM 10833 / IAM 13628 / NBRC 14792 
+/ USDA 110) OX=224911 GN=bsr6460 PE=1 SV=1
+Length=86
+
+ Score = 70.8 bits (172),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 38/82 (46%), Positives = 55/82 (67%), Gaps = 0/82 (0%)
+
+Query  7   LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+           L  LIG  A   TT A  PQ +K+ KT+SARD+SL MF+ M +G+ LW  YG+L  + P+
+Sbjct  5   LIKLIGFAAATCTTVAYAPQFIKVLKTRSARDISLGMFLVMVLGLALWLIYGLLSGDAPL  64
+
+Query  67  ILANLISLILIFLIIFMKIRYG  88
+           I +N ++++L   I+ MK+RYG
+Sbjct  65  IASNAVTMLLAGGILVMKLRYG  86
+
+
+> sp|Q8L9J7|SWET1_ARATH Bidirectional sugar transporter SWEET1 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET1 PE=1 SV=1
+Length=247
+
+ Score = 73.1 bits (178),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 16/74 (22%), Positives = 33/74 (45%), Gaps = 0/74 (0%)
+
+Query  14   IAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLIS  73
+            +   I  ++ +     + KTKS   +   + +F+ +  T WF YG++ ++  V + N   
+Sbjct  136  VFSIIMYASPLSIMRLVVKTKSVEFMPFFLSLFVFLCGTSWFVYGLIGRDPFVAIPNGFG  195
+
+Query  74   LILIFLIIFMKIRY  87
+              L  L + +   Y
+Sbjct  196  CALGTLQLILYFIY  209
+
+
+> sp|Q57574|Y110_METJA Uncharacterized protein MJ0110 OS=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) OX=243232 GN=MJ0110 PE=4 SV=1
+Length=93
+
+ Score = 70.0 bits (170),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 36/86 (42%), Positives = 53/86 (62%), Gaps = 3/86 (3%)
+
+Query  1   MEFSIDLNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVL  60
+           M+F I    +IG IAG +TT A +PQ +K  K K   ++SLA  I    G+TLW  YG+L
+Sbjct  5   MDFDI---TVIGYIAGTLTTFASLPQLIKSLKEKDMSNISLAFVITFTTGLTLWLIYGIL  61
+
+Query  61  IKEIPVILANLISLILIFLIIFMKIR  86
+             + P+I+ N++SL+    I ++KIR
+Sbjct  62  RNDYPIIVFNILSLMFWIPITYLKIR  87
+
+
+> sp|B0SR19|SWEET_LEPBP Sugar transporter SemiSWEET OS=Leptospira 
+biflexa serovar Patoc (strain Patoc 1 / ATCC 23582 / Paris) 
+OX=456481 GN=LEPBI_I1613 PE=1 SV=1
+Length=85
+
+ Score = 69.2 bits (168),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 33/82 (40%), Positives = 56/82 (68%), Gaps = 0/82 (0%)
+
+Query  7   LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+           + NLIG +A  +TT + +PQ L++  TK  RD+S  M+I   +G+ LWF YG+L  ++P+
+Sbjct  1   MENLIGYVAAFLTTVSFLPQVLRVVMTKQTRDISRNMYIMFFLGVVLWFVYGILRSDLPI  60
+
+Query  67  ILANLISLILIFLIIFMKIRYG  88
+           ILAN+++L  + +I++ K+  G
+Sbjct  61  ILANVVTLFFVTIILYYKLTEG  82
+
+
+> sp|Q6YZF3|SWT11_ORYSJ Bidirectional sugar transporter SWEET11 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET11 PE=1 SV=1
+Length=307
+
+ Score = 71.5 bits (174),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 14/75 (19%), Positives = 30/75 (40%), Gaps = 0/75 (0%)
+
+Query  13   IIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLI  72
+            +        A +    K+ KTKS   + + + + + +    WF YG+  K+  V+  N+ 
+Sbjct  142  LAFSMAVFVAPLSIIFKVIKTKSVEFMPIGLSVCLTLSAVAWFCYGLFTKDPYVMYPNVG  201
+
+Query  73   SLILIFLIIFMKIRY  87
+                  + + +   Y
+Sbjct  202  GFFFSCVQMGLYFWY  216
+
+
+> sp|Q19VE6|SWT11_ORYSI Bidirectional sugar transporter SWEET11 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET11 PE=2 SV=1
+Length=307
+
+ Score = 71.5 bits (174),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 14/75 (19%), Positives = 30/75 (40%), Gaps = 0/75 (0%)
+
+Query  13   IIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLI  72
+            +        A +    K+ KTKS   + + + + + +    WF YG+  K+  V+  N+ 
+Sbjct  142  LAFSMAVFVAPLSIIFKVIKTKSVEFMPIGLSVCLTLSAVAWFCYGLFTKDPYVMYPNVG  201
+
+Query  73   SLILIFLIIFMKIRY  87
+                  + + +   Y
+Sbjct  202  GFFFSCVQMGLYFWY  216
+
+
+> sp|Q0DJY3|SWT3A_ORYSJ Bidirectional sugar transporter SWEET3a 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET3A PE=3 SV=2
+Length=246
+
+ Score = 68.8 bits (167),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 14/77 (18%), Positives = 33/77 (43%), Gaps = 0/77 (0%)
+
+Query  11   IGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILAN  70
+            +G+++      + +    ++ +TKS   +   + +F       W  YGV+ ++  +   N
+Sbjct  137  VGLVSSISMYGSPLVAMKQVIRTKSVEFMPFYLSLFTLFTSLTWMAYGVIGRDPFIATPN  196
+
+Query  71   LISLILIFLIIFMKIRY  87
+             I  I+  L + +   Y
+Sbjct  197  CIGSIMGILQLVVYCIY  213
+
+
+> sp|P0DKJ3|SWT1A_SORBI Bidirectional sugar transporter SWEET1a 
+OS=Sorghum bicolor OX=4558 GN=SWEET1A PE=3 SV=1
+Length=269
+
+ Score = 68.8 bits (167),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 15/74 (20%), Positives = 32/74 (43%), Gaps = 0/74 (0%)
+
+Query  14   IAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLIS  73
+            I      ++ +     + KTKS   +   + + + +  T WF YG+L ++  +I+ N   
+Sbjct  138  IFSICMYASPLSIMRLVIKTKSVEYMPFLLSLAVFLCGTSWFIYGLLGRDPFIIIPNGCG  197
+
+Query  74   LILIFLIIFMKIRY  87
+              L  + + +   Y
+Sbjct  198  SFLGLVQLILYFIY  211
+
+
+> sp|Q8RZQ8|SWT1A_ORYSJ Bidirectional sugar transporter SWEET1a 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET1A PE=2 SV=1
+Length=273
+
+ Score = 67.7 bits (164),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 14/74 (19%), Positives = 31/74 (42%), Gaps = 0/74 (0%)
+
+Query  14   IAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLIS  73
+            I      ++ +     + KTKS   +   + + + +  T WF YG+L ++  + + N   
+Sbjct  137  IFSICMYASPLSIMRLVIKTKSVEFMPFLLSLSVFLCGTSWFIYGLLGRDPFIAIPNGCG  196
+
+Query  74   LILIFLIIFMKIRY  87
+              L  + + +   Y
+Sbjct  197  SFLGLMQLILYAIY  210
+
+
+> sp|Q84WN3|SWT17_ARATH Bidirectional sugar transporter SWEET17 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET17 PE=1 SV=2
+Length=241
+
+ Score = 65.8 bits (159),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 13/80 (16%), Positives = 34/80 (43%), Gaps = 3/80 (4%)
+
+Query  11   IGIIAG---AITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVI  67
+            IG I+     I   + +     +  TKS + +   +  F+ +   +W  Y +L  ++ ++
+Sbjct  130  IGFISAGLNIIMYGSPLSAMKTVVTTKSVKYMPFWLSFFLFLNGAIWAVYALLQHDVFLL  189
+
+Query  68   LANLISLILIFLIIFMKIRY  87
+            + N +  +   + + +   Y
+Sbjct  190  VPNGVGFVFGTMQLILYGIY  209
+
+
+> sp|A2WSD3|SWT6B_ORYSI Bidirectional sugar transporter SWEET6b 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET6B PE=3 SV=1
+Length=254
+
+ Score = 64.2 bits (155),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 14/81 (17%), Positives = 34/81 (42%), Gaps = 0/81 (0%)
+
+Query  7    LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            +  ++ +  G+I   + +    K+ KTKS   +   + +   +    W  Y ++  +I V
+Sbjct  133  IVGILCVFFGSIMYFSPLTIMGKVIKTKSVEYMPFFLSLVCFLNGVCWTAYALIRFDIYV  192
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N +  I   + + +   Y
+Sbjct  193  TIPNSLGAIFGAIQLILYACY  213
+
+
+> sp|Q8W0K2|SWT6B_ORYSJ Bidirectional sugar transporter SWEET6b 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET6B PE=2 SV=1
+Length=254
+
+ Score = 63.5 bits (153),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 14/81 (17%), Positives = 34/81 (42%), Gaps = 0/81 (0%)
+
+Query  7    LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            +  ++ +  G+I   + +    K+ KTKS   +   + +   +    W  Y ++  +I V
+Sbjct  133  IVGILCVFFGSIMYFSPLTIMGKVIKTKSVEYMPFFLSLVCFLNGVCWTAYALIRFDIYV  192
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N +  I   + + +   Y
+Sbjct  193  TIPNGLGAIFGAIQLILYACY  213
+
+
+> sp|Q8LR09|SWT6A_ORYSJ Bidirectional sugar transporter SWEET6a 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET6A PE=3 SV=1
+Length=259
+
+ Score = 63.5 bits (153),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 13/81 (16%), Positives = 34/81 (42%), Gaps = 0/81 (0%)
+
+Query  7    LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            +  ++ +  G+I   + +    K+ KTKS   +   + +   +    W  Y ++  +I V
+Sbjct  133  IVGILCVFFGSIMYFSPLTIMGKVIKTKSVEYMPFFLSLVCFLNGVCWTAYALIRFDIYV  192
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N +  +   + + +   Y
+Sbjct  193  TIPNGLGALFGAIQLILYACY  213
+
+
+> sp|Q8LBF7|SWET7_ARATH Bidirectional sugar transporter SWEET7 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET7 PE=1 SV=1
+Length=258
+
+ Score = 63.5 bits (153),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 11/80 (14%), Positives = 30/80 (38%), Gaps = 3/80 (4%)
+
+Query  11   IGIIAGAI---TTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVI  67
+            +GI+         ++ +     + KTKS   +   + +   +   +W  Y ++  +  + 
+Sbjct  137  VGIVCCVFNVMMYASPLSVMKMVIKTKSVEFMPFWLSVAGFLNAGVWTIYALMPFDPFMA  196
+
+Query  68   LANLISLILIFLIIFMKIRY  87
+            + N I  +     + +   Y
+Sbjct  197  IPNGIGCLFGLAQLILYGAY  216
+
+
+> sp|A2WSD8|SWT6A_ORYSI Bidirectional sugar transporter SWEET6a 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET6A PE=3 SV=1
+Length=259
+
+ Score = 63.5 bits (153),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 13/81 (16%), Positives = 34/81 (42%), Gaps = 0/81 (0%)
+
+Query  7    LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            +  ++ +  G+I   + +    K+ KTKS   +   + +   +    W  Y ++  +I V
+Sbjct  133  IVGILCVFFGSIMYFSPLTIMGKVIKTKSVEYMPFFLSLVCFLNGVCWTAYALIRFDIYV  192
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N +  +   + + +   Y
+Sbjct  193  TIPNGLGALFGAIQLILYACY  213
+
+
+> sp|Q9C9M9|SWET6_ARATH Bidirectional sugar transporter SWEET6 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET6 PE=1 SV=1
+Length=261
+
+ Score = 63.1 bits (152),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 11/78 (14%), Positives = 32/78 (41%), Gaps = 0/78 (0%)
+
+Query  10   LIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+            ++  +  A+  ++ +     + KTKS   +   + +   +   +W  YG +  +  + + 
+Sbjct  139  IVSCVFNAMMYASPLSVMKMVIKTKSLEFMPFLLSVVGFLNAGVWTIYGFVPFDPFLAIP  198
+
+Query  70   NLISLILIFLIIFMKIRY  87
+            N I  +   + + +   Y
+Sbjct  199  NGIGCVFGLVQLILYGTY  216
+
+
+> sp|Q6K4V2|SWET4_ORYSJ Bidirectional sugar transporter SWEET4 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET4 PE=2 SV=1
+Length=259
+
+ Score = 62.3 bits (150),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 11/81 (14%), Positives = 33/81 (41%), Gaps = 3/81 (4%)
+
+Query  10   LIGIIAGAI---TTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            ++GI+         +A +     + +TKS   + L + +   +    W  Y ++  ++ +
+Sbjct  133  IVGILCVLFGTGMYAAPLSVMKMVIQTKSVEYMPLFLSLASLVNGICWTAYALIRFDLYI  192
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N + ++     + +   Y
+Sbjct  193  TIPNGLGVMFAVAQLILYAIY  213
+
+
+> sp|A2X3S3|SWET4_ORYSI Bidirectional sugar transporter SWEET4 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET4 PE=2 SV=1
+Length=259
+
+ Score = 62.3 bits (150),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 11/81 (14%), Positives = 33/81 (41%), Gaps = 3/81 (4%)
+
+Query  10   LIGIIAGAI---TTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            ++GI+         +A +     + +TKS   + L + +   +    W  Y ++  ++ +
+Sbjct  133  IVGILCVLFGTGMYAAPLSVMKMVIQTKSVEYMPLFLSLASLVNGICWTAYALIRFDLYI  192
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N + ++     + +   Y
+Sbjct  193  TIPNGLGVMFAVAQLILYAIY  213
+
+
+> sp|Q9LUR4|SWT16_ARATH Bidirectional sugar transporter SWEET16 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET16 PE=1 SV=1
+Length=230
+
+ Score = 61.9 bits (149),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 11/80 (14%), Positives = 34/80 (43%), Gaps = 3/80 (4%)
+
+Query  11   IGIIAGAI---TTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVI  67
+            +G I   +      + +     +  T+S + +   +  F+ +   +W  Y +L+ ++ ++
+Sbjct  130  MGFICATLNIIMYGSPLSAIKTVVTTRSVQFMPFWLSFFLFLNGAIWGVYALLLHDMFLL  189
+
+Query  68   LANLISLILIFLIIFMKIRY  87
+            + N +   L  + + +   Y
+Sbjct  190  VPNGMGFFLGIMQLLIYAYY  209
+
+
+> sp|Q6L568|SWET5_ORYSJ Bidirectional sugar transporter SWEET5 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET5 PE=2 SV=1
+Length=237
+
+ Score = 61.5 bits (148),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 12/75 (16%), Positives = 29/75 (39%), Gaps = 0/75 (0%)
+
+Query  13   IIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLI  72
+            +  G +  +A +    ++  TKS   +   + +   I    W  Y  +  +I + + N +
+Sbjct  140  VFFGTLMYAAPLTIMKQVIATKSVEYMPFTLSLVSFINGICWTIYAFIRFDILITIPNGM  199
+
+Query  73   SLILIFLIIFMKIRY  87
+              +L    + +   Y
+Sbjct  200  GTLLGAAQLILYFCY  214
+
+
+> sp|A2YZ24|SWT7B_ORYSI Bidirectional sugar transporter SWEET7b 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET7B PE=3 SV=1
+Length=266
+
+ Score = 61.5 bits (148),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 14/81 (17%), Positives = 36/81 (44%), Gaps = 0/81 (0%)
+
+Query  7    LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            +  ++  I G I  S+ +    ++ KTKS   + L + +   +    W  Y ++  +I +
+Sbjct  133  IVGILCAIFGTIMYSSPLTIMSQVVKTKSVEYMPLLLSVVSFLNGLCWTSYALIRLDIFI  192
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N + ++   + + +   Y
+Sbjct  193  TIPNGLGVLFALMQLILYAIY  213
+
+
+> sp|Q0J349|SWT7B_ORYSJ Bidirectional sugar transporter SWEET7b 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET7B PE=3 SV=2
+Length=265
+
+ Score = 61.5 bits (148),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 14/81 (17%), Positives = 37/81 (46%), Gaps = 0/81 (0%)
+
+Query  7    LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            +  ++ +I G I  S+ +    ++ KTKS   + L + +   +    W  Y ++  +I +
+Sbjct  133  IVGILCVIFGTIMYSSPLTIMSQVVKTKSVEYMPLLLSVVSFLNGLCWTSYALIRLDIFI  192
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N + ++   + + +   Y
+Sbjct  193  TIPNGLGVLFALMQLILYAIY  213
+
+
+> sp|B9G2E6|SWT7D_ORYSJ Putative bidirectional sugar transporter 
+SWEET7d OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET7D 
+PE=3 SV=3
+Length=274
+
+ Score = 61.5 bits (148),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 14/81 (17%), Positives = 37/81 (46%), Gaps = 0/81 (0%)
+
+Query  7    LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            +  ++ +I G I  S+ +    ++ KTKS   + L + +   +    W  Y ++  +I +
+Sbjct  132  IVGILCVIFGTIMYSSPLTIMSQVVKTKSVEYMPLLLSVVSFLNGLCWTSYALIRFDIFI  191
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N + ++   + + +   Y
+Sbjct  192  TIPNGLGVLFALMQLILYAIY  212
+
+
+> sp|P0DMV3|SWEET_ECOU3 Sugar transporter SemiSWEET OS=Escherichia 
+coli (strain UMEA 3162-1) OX=1281200 GN=G925_04926 PE=1 
+SV=1
+Length=89
+
+ Score = 58.8 bits (141),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 23/82 (28%), Positives = 46/82 (56%), Gaps = 0/82 (0%)
+
+Query  5   IDLNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEI  64
+           +D   L G+ A   TT A  PQ++K  +T++   +S+ M+I    G+  W  YG++  + 
+Sbjct  1   MDTILLTGLFAAFFTTFAFAPQSIKTIRTRNTEGISVVMYIMFLTGVISWIAYGIMRSDF  60
+
+Query  65  PVILANLISLILIFLIIFMKIR  86
+            V++AN+++L L   ++ + + 
+Sbjct  61  AVLIANIVTLFLAAPVLVITLI  82
+
+
+> sp|Q2QWX8|SWT7C_ORYSJ Bidirectional sugar transporter SWEET7c 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET7C PE=3 SV=1
+Length=240
+
+ Score = 59.6 bits (143),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 14/79 (18%), Positives = 34/79 (43%), Gaps = 1/79 (1%)
+
+Query  10   LIGIIAGAI-TTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVIL  68
+            ++GI+     T     P  + + KTKS   + L + +   +    W  Y ++  +I + +
+Sbjct  110  IVGILCVIFGTIMYSSPLTIMVVKTKSVEYMPLLLSVVSFLNGLCWTLYALIRFDIFITI  169
+
+Query  69   ANLISLILIFLIIFMKIRY  87
+             N + ++   + + +   Y
+Sbjct  170  PNGLGVLFAIMQLILYAIY  188
+
+
+> sp|A2ZIM4|SWT7C_ORYSI Bidirectional sugar transporter SWEET7c 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET7C PE=3 SV=1
+Length=240
+
+ Score = 59.6 bits (143),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 14/79 (18%), Positives = 34/79 (43%), Gaps = 1/79 (1%)
+
+Query  10   LIGIIAGAI-TTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVIL  68
+            ++GI+     T     P  + + KTKS   + L + +   +    W  Y ++  +I + +
+Sbjct  110  IVGILCVIFGTIMYSSPLTIMVVKTKSVEYMPLLLSVVSFLNGLCWTLYALIRFDIFITI  169
+
+Query  69   ANLISLILIFLIIFMKIRY  87
+             N + ++   + + +   Y
+Sbjct  170  PNGLGVLFAIMQLILYAIY  188
+
+
+> sp|Q9FM10|SWET5_ARATH Bidirectional sugar transporter SWEET5 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET5 PE=1 SV=2
+Length=240
+
+ Score = 58.1 bits (139),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 14/81 (17%), Positives = 35/81 (43%), Gaps = 0/81 (0%)
+
+Query  7    LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            L  ++ I+   I  +A +     + KTKS + +   + +   +   +W  Y  L  +  +
+Sbjct  133  LIGILCIVFNVIMYAAPLTVMKLVIKTKSVKYMPFFLSLANFMNGVVWVIYACLKFDPYI  192
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+            ++ N +  +   + + + I Y
+Sbjct  193  LIPNGLGSLSGIIQLIIYITY  213
+
+
+> sp|Q0J361|SWT7A_ORYSJ Bidirectional sugar transporter SWEET7a 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET7A PE=3 SV=2
+Length=260
+
+ Score = 57.7 bits (138),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 13/81 (16%), Positives = 37/81 (46%), Gaps = 0/81 (0%)
+
+Query  7    LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            +  ++ +I   I  S+ +    ++ KTKS   + L + +   +    W  Y ++  +I +
+Sbjct  129  IVGILCVIFDTIMYSSPLTVMSQVVKTKSVEYMPLLLSVVSFLNGLYWTSYTLIRFDIFI  188
+
+Query  67   ILANLISLILIFLIIFMKIRY  87
+             + N + ++   + + + + Y
+Sbjct  189  TIPNGLGVLFAAVQLILYVIY  209
+
+
+> sp|A3BWJ9|SWT7E_ORYSJ Putative bidirectional sugar transporter 
+SWEET7e OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET7E 
+PE=3 SV=2
+Length=256
+
+ Score = 57.3 bits (137),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 13/77 (17%), Positives = 36/77 (47%), Gaps = 0/77 (0%)
+
+Query  7    LNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPV  66
+            +  ++ +I G I  S+ +    ++ KTKS   + L + +   +    W  Y ++  +I +
+Sbjct  132  IVGILCVIFGTIMYSSPLTIMSQVVKTKSVEYMPLLLSVVSFLNGLCWTSYALIRFDIFI  191
+
+Query  67   ILANLISLILIFLIIFM  83
+             + N + ++   + + +
+Sbjct  192  TIPNGLGVLFTLMQLIL  208
+
+
+> sp|Q5JJY5|SWT2A_ORYSJ Bidirectional sugar transporter SWEET2a 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET2A PE=2 SV=1
+Length=243
+
+ Score = 55.7 bits (133),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 12/68 (18%), Positives = 30/68 (44%), Gaps = 0/68 (0%)
+
+Query  17   AITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLIL  76
+                ++ +     + +TKS   +   + + M +    +F YGVL+ +  + + N I  +L
+Sbjct  157  IFMFASPLSIINLVIRTKSVEYMPFYLSLSMFLMSVSFFAYGVLLHDFFIYIPNGIGTVL  216
+
+Query  77   IFLIIFMK  84
+              + + + 
+Sbjct  217  GVIQLVLY  224
+
+
+> sp|A2WR31|SWT2A_ORYSI Bidirectional sugar transporter SWEET2a 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET2A PE=3 SV=2
+Length=243
+
+ Score = 55.7 bits (133),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 12/68 (18%), Positives = 30/68 (44%), Gaps = 0/68 (0%)
+
+Query  17   AITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLIL  76
+                ++ +     + +TKS   +   + + M +    +F YGVL+ +  + + N I  +L
+Sbjct  157  IFMFASPLSIINLVIRTKSVEYMPFYLSLSMFLMSVSFFAYGVLLHDFFIYIPNGIGTVL  216
+
+Query  77   IFLIIFMK  84
+              + + + 
+Sbjct  217  GVIQLVLY  224
+
+
+> sp|D3ZH22|SWET1_RAT Sugar transporter SWEET1 OS=Rattus norvegicus 
+OX=10116 GN=Slc50a1 PE=1 SV=1
+Length=221
+
+ Score = 55.0 bits (131),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 19/80 (24%), Positives = 39/80 (49%), Gaps = 3/80 (4%)
+
+Query  11   IGIIAGAITTS---ALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVI  67
+            +G+     T S   + +    KI +TKS + +S ++ I   +  T W  YG  +K+  + 
+Sbjct  129  LGLFCSVFTISMYLSPLADLAKIIQTKSTQRLSFSLTIATLLSSTSWSIYGFRLKDPYIT  188
+
+Query  68   LANLISLILIFLIIFMKIRY  87
+            + NL  ++  F+ + +  +Y
+Sbjct  189  VPNLPGILTGFIRLVLFYKY  208
+
+
+> sp|Q944M5|SWET4_ARATH Bidirectional sugar transporter SWEET4 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET4 PE=1 SV=1
+Length=251
+
+ Score = 55.4 bits (132),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 11/78 (14%), Positives = 36/78 (46%), Gaps = 0/78 (0%)
+
+Query  10   LIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILA  69
+            +  +I  ++   A +    K+ KTKS + +  ++ +   +   +W  Y ++  ++ +++ 
+Sbjct  136  IFCVIFVSLMYIAPLTIMSKVIKTKSVKYMPFSLSLANFLNGVVWVIYALIKFDLFILIG  195
+
+Query  70   NLISLILIFLIIFMKIRY  87
+            N +  +   + + +   Y
+Sbjct  196  NGLGTVSGAVQLILYACY  213
+
+
+> sp|P0DKJ4|SWT2A_SORBI Bidirectional sugar transporter SWEET2a 
+OS=Sorghum bicolor OX=4558 GN=SWEET2A PE=3 SV=1
+Length=243
+
+ Score = 55.0 bits (131),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 13/68 (19%), Positives = 30/68 (44%), Gaps = 0/68 (0%)
+
+Query  17   AITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLIL  76
+                ++ +     + +TKS   +   + + M +    +F YGVL+ +  + + N I  IL
+Sbjct  156  IFMFASPLSIINLVIRTKSVEYMPFYLSLSMFLMSASFFGYGVLLNDFFIYIPNGIGTIL  215
+
+Query  77   IFLIIFMK  84
+              + + + 
+Sbjct  216  GIIQLVLY  223
+
+
+> sp|Q9LH79|SWET2_ARATH Bidirectional sugar transporter SWEET2 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET2 PE=1 SV=1
+Length=236
+
+ Score = 53.8 bits (128),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 11/70 (16%), Positives = 26/70 (37%), Gaps = 0/70 (0%)
+
+Query  18   ITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLILI  77
+               ++ +     + +TKS   +   + +   +    +  YG+   +  V   N I  IL 
+Sbjct  149  SMFASPLFVINLVIRTKSVEFMPFYLSLSTFLMSASFLLYGLFNSDAFVYTPNGIGTILG  208
+
+Query  78   FLIIFMKIRY  87
+             + + +   Y
+Sbjct  209  IVQLALYCYY  218
+
+
+> sp|Q7JVE7|SWET1_DROME Sugar transporter SWEET1 OS=Drosophila 
+melanogaster OX=7227 GN=slv PE=2 SV=1
+Length=226
+
+ Score = 53.1 bits (126),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 17/84 (20%), Positives = 39/84 (46%), Gaps = 3/84 (4%)
+
+Query  7    LNNLIGIIAGAITT---SALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKE  63
+            + ++ GI+   +T    +A +   L + + K++  + L +     +    W  YG+LI +
+Sbjct  124  MIHVTGIVCCIVTVCFFAAPLASLLHVIRAKNSESLPLPLIATSFVVSLQWLIYGILISD  183
+
+Query  64   IPVILANLISLILIFLIIFMKIRY  87
+              + + N +  IL  L + + + Y
+Sbjct  184  SFIQIPNFLGCILSLLQLGLFVLY  207
+
+
+> sp|Q8LFH5|SWET8_ARATH Bidirectional sugar transporter SWEET8 
+OS=Arabidopsis thaliana OX=3702 GN=SWEET8 PE=1 SV=1
+Length=239
+
+ Score = 52.7 bits (125),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 14/75 (19%), Positives = 29/75 (39%), Gaps = 1/75 (1%)
+
+Query  14   IAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIK-EIPVILANLI  72
+            +       A     +K+ KTKS   +   + +   +   +W  Y ++ K +  V+ +N I
+Sbjct  142  VFNIAMYGAPSLAIIKVVKTKSVEYMPFLLSLVCFVNAGIWTTYSLIFKIDYYVLASNGI  201
+
+Query  73   SLILIFLIIFMKIRY  87
+               L    + +   Y
+Sbjct  202  GTFLALSQLIVYFMY  216
+
+
+> sp|Q5N8J1|SWT2B_ORYSJ Bidirectional sugar transporter SWEET2b 
+OS=Oryza sativa subsp. japonica OX=39947 GN=SWEET2B PE=1 SV=1
+Length=230
+
+ Score = 52.3 bits (124),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 9/77 (12%), Positives = 33/77 (43%), Gaps = 0/77 (0%)
+
+Query  11   IGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILAN  70
+            + + +     ++ +     + +++S   +   + +   +    +  YG+L+++  +   N
+Sbjct  138  VSMASLISMFASPLAVMGVVIRSESVEFMPFYLSLSTFLMSASFALYGLLLRDFFIYFPN  197
+
+Query  71   LISLILIFLIIFMKIRY  87
+             + LIL  + + +   Y
+Sbjct  198  GLGLILGAMQLALYAYY  214
+
+
+> sp|B8A833|SWT2B_ORYSI Bidirectional sugar transporter SWEET2b 
+OS=Oryza sativa subsp. indica OX=39946 GN=SWEET2B PE=3 SV=1
+Length=230
+
+ Score = 52.3 bits (124),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 9/77 (12%), Positives = 33/77 (43%), Gaps = 0/77 (0%)
+
+Query  11   IGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILAN  70
+            + + +     ++ +     + +++S   +   + +   +    +  YG+L+++  +   N
+Sbjct  138  VSMASLISMFASPLAVMGVVIRSESVEFMPFYLSLSTFLMSASFALYGLLLRDFFIYFPN  197
+
+Query  71   LISLILIFLIIFMKIRY  87
+             + LIL  + + +   Y
+Sbjct  198  GLGLILGAMQLALYAYY  214
+
+
+> sp|Q290X1|SWET1_DROPS Sugar transporter SWEET1 OS=Drosophila 
+pseudoobscura pseudoobscura OX=46245 GN=slv PE=3 SV=1
+Length=226
+
+ Score = 52.3 bits (124),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 16/85 (19%), Positives = 38/85 (45%), Gaps = 3/85 (4%)
+
+Query  6    DLNNLIGIIAGAITT---SALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIK  62
+            ++  + GI    +T    +A +   L + + K++  + L +     +    W  YG+LI 
+Sbjct  123  EMIRITGIFCCIVTVCFFAAPLATLLHVIRAKNSESLPLPLIATSFLVSLQWLIYGILIS  182
+
+Query  63   EIPVILANLISLILIFLIIFMKIRY  87
+            +  + + N +  +L  L + + + Y
+Sbjct  183  DSFIQIPNFLGCLLSMLQLSLFVVY  207
+
+
+> sp|O45102|SWET1_CAEEL Sugar transporter SWEET1 OS=Caenorhabditis 
+elegans OX=6239 GN=swt-1 PE=3 SV=1
+Length=299
+
+ Score = 49.6 bits (117),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 15/83 (18%), Positives = 36/83 (43%), Gaps = 0/83 (0%)
+
+Query  4    SIDLNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKE  63
+            ++D   +I +    +   A +     + K +    + L M +   +  + W  YG L+ +
+Sbjct  118  NLDYLGVICMTFNIMNFGAPLAGLGVVLKNREVSTLPLPMCVANFLVSSQWCLYGNLVSD  177
+
+Query  64   IPVILANLISLILIFLIIFMKIR  86
+            I +I+ N I + L  + + + + 
+Sbjct  178  IYIIIPNGIGMFLAIVQLALFVV  200
+
+
+ Score = 37.6 bits (86),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 16/87 (18%), Positives = 38/87 (44%), Gaps = 0/87 (0%)
+
+Query  1   MEFSIDLNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVL  60
+           +E  + + ++  I          IP  ++I +  +  D+S   F+   +G + W  YG+L
+Sbjct  2   LEVVLQVLSISAITTTIALFFCGIPICMQIRRQGAVGDISGVPFLMGVLGGSFWLRYGLL  61
+
+Query  61  IKEIPVILANLISLILIFLIIFMKIRY  87
+             +  +I+ N++ +  +       + Y
+Sbjct  62  KMDYVMIIVNVVGVACMAFYCVFFLIY  88
+
+
+> sp|Q9CXK4|SWET1_MOUSE Sugar transporter SWEET1 OS=Mus musculus 
+OX=10090 GN=Slc50a1 PE=2 SV=1
+Length=221
+
+ Score = 48.4 bits (114),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 16/80 (20%), Positives = 36/80 (45%), Gaps = 3/80 (4%)
+
+Query  11   IGIIAGAITTS---ALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVI  67
+            +G+     T S   + +    KI +TKS + +S ++ I        W  YG  +++  + 
+Sbjct  129  LGLFCSVFTISMYLSPLADLAKIVQTKSTQRLSFSLTIATLFCSASWSIYGFRLRDPYIT  188
+
+Query  68   LANLISLILIFLIIFMKIRY  87
+            + NL  ++   + + +  +Y
+Sbjct  189  VPNLPGILTSLIRLGLFCKY  208
+
+
+ Score = 37.6 bits (86),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 15/69 (22%), Positives = 29/69 (42%), Gaps = 0/69 (0%)
+
+Query  19  TTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLISLILIF  78
+             S  +     + +T+S  ++    F+   +    W  YGVL  +  +I+ N +  +L  
+Sbjct  22  MFSTGLSDLRHMQRTRSVDNIQFLPFLTTDVNNLSWLSYGVLKGDGTLIIVNSVGAVLQT  81
+
+Query  79  LIIFMKIRY  87
+           L I   + Y
+Sbjct  82  LYILAYLHY  90
+
+
+> sp|A8XI14|SWET1_CAEBR Sugar transporter SWEET1 OS=Caenorhabditis 
+briggsae OX=6238 GN=swt-1 PE=3 SV=1
+Length=293
+
+ Score = 49.2 bits (116),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 15/83 (18%), Positives = 37/83 (45%), Gaps = 0/83 (0%)
+
+Query  4    SIDLNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKE  63
+            ++D   +I +    +   A +     + + +    + L M +   +  + W  YG L+++
+Sbjct  118  NLDYLGIICMTFNIMNFGAPLAGLGVVLRNREVSTLPLPMCVANFLVSSQWCLYGNLVQD  177
+
+Query  64   IPVILANLISLILIFLIIFMKIR  86
+            I +I+ N I + L  + + + I 
+Sbjct  178  IYIIIPNGIGMFLAIVQLSLFIV  200
+
+
+ Score = 39.2 bits (90),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 16/87 (18%), Positives = 39/87 (45%), Gaps = 0/87 (0%)
+
+Query  1   MEFSIDLNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVL  60
+           +E  + + ++  I          IP  ++I +  +  D+S   F+   +G + W  YG+L
+Sbjct  2   IEVVLQVLSISAITTTIALFFCGIPICMQIRRQGAVGDISGVPFLMGVLGGSFWLRYGLL  61
+
+Query  61  IKEIPVILANLISLILIFLIIFMKIRY  87
+             +  +I+ N++ +  + +     + Y
+Sbjct  62  KMDYTMIIVNVVGVFCMAVYCIFFLIY  88
+
+
+> sp|Q5EB14|SWET1_DANRE Sugar transporter SWEET1 OS=Danio rerio 
+OX=7955 GN=slc50a1 PE=2 SV=2
+Length=219
+
+ Score = 44.6 bits (104),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 13/75 (17%), Positives = 31/75 (41%), Gaps = 0/75 (0%)
+
+Query  14   IAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVILANLIS  73
+            +       + +   L I +TKS   +S ++ +      T W  YG+ + +  +++ N   
+Sbjct  131  VFTISMYLSPLADLLDIMRTKSVERLSFSLTVATFFTSTSWTLYGLQLGDYYIMVPNTPG  190
+
+Query  74   LILIFLIIFMKIRYG  88
+            +    +  F+   +G
+Sbjct  191  IFTSLIRFFLFWWFG  205
+
+
+> sp|Q9BRV3|SWET1_HUMAN Sugar transporter SWEET1 OS=Homo sapiens 
+OX=9606 GN=SLC50A1 PE=2 SV=1
+Length=221
+
+ Score = 44.2 bits (103),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 15/80 (19%), Positives = 38/80 (48%), Gaps = 3/80 (4%)
+
+Query  11   IGIIAGAITTS---ALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIPVI  67
+            +G+     T S   + +    K+ +TKS + +S  + I   +    W  YG  +++  ++
+Sbjct  129  LGLFCSVFTISMYLSPLADLAKVIQTKSTQCLSYPLTIATLLTSASWCLYGFRLRDPYIM  188
+
+Query  68   LANLISLILIFLIIFMKIRY  87
+            ++N   ++  F+  ++  +Y
+Sbjct  189  VSNFPGIVTSFIRFWLFWKY  208
+
+
+> sp|Q5EAL3|SWET1_XENTR Sugar transporter SWEET1 OS=Xenopus tropicalis 
+OX=8364 GN=slc50a1 PE=2 SV=1
+Length=214
+
+ Score = 43.0 bits (100),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 17/82 (21%), Positives = 37/82 (45%), Gaps = 3/82 (4%)
+
+Query  9    NLIGIIAGAITTS---ALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIP  65
+            N +G+     T S   + +    +I K+KS + +S  + +   +  T W  YG +  ++ 
+Sbjct  123  NQLGLFCSIFTISMYLSPLADLAQIIKSKSTKCLSFPLTVATFLTSTSWVLYGWVQSDLY  182
+
+Query  66   VILANLISLILIFLIIFMKIRY  87
+            + + N   ++   L  ++  RY
+Sbjct  183  ITVPNFPGIVTSLLRFWLFSRY  204
+
+
+> sp|Q6NTJ7|SWET1_XENLA Sugar transporter SWEET1 OS=Xenopus laevis 
+OX=8355 GN=slc50a1 PE=2 SV=1
+Length=216
+
+ Score = 42.3 bits (98),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 12/79 (15%), Positives = 36/79 (46%), Gaps = 3/79 (4%)
+
+Query  9    NLIGIIAGAITTS---ALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIP  65
+            N +G+     T S   + +    +I ++KS + +S  + +   +  + W  YG++  ++ 
+Sbjct  123  NQLGLFCSVFTISMYLSPLADLAQIIRSKSTKCLSFPLTVATFLTSSSWVLYGLVQSDLY  182
+
+Query  66   VILANLISLILIFLIIFMK  84
+            + + N   ++   +  ++ 
+Sbjct  183  ITVPNFPGIVTSLVRFWLF  201
+
+
+> sp|Q54JW5|SWET1_DICDI Sugar transporter SWEET1 OS=Dictyostelium 
+discoideum OX=44689 GN=slc50a1 PE=2 SV=1
+Length=220
+
+ Score = 41.9 bits (97),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 13/87 (15%), Positives = 42/87 (48%), Gaps = 0/87 (0%)
+
+Query  1    MEFSIDLNNLIGIIAGAITTSALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVL  60
+            ++  I     +  +   +  ++ + +   + ++K++  + + + I   +    W  +G+L
+Sbjct  128  LDTRISRLGFLSSVVCVLMFASPLEKMAIVIQSKNSEGMIINVAILSLLCGLSWTIFGLL  187
+
+Query  61   IKEIPVILANLISLILIFLIIFMKIRY  87
+            + +I + L N+++ IL F+ + +   Y
+Sbjct  188  LNDIYIYLPNILASILSFVQLTLIKLY  214
+
+
+> sp|Q95KW8|SWET1_PAPAN Sugar transporter SWEET1 OS=Papio anubis 
+OX=9555 GN=SLC50A1 PE=2 SV=1
+Length=221
+
+ Score = 41.9 bits (97),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/82 (20%), Positives = 38/82 (46%), Gaps = 3/82 (4%)
+
+Query  9    NLIGIIAGAITTS---ALIPQALKIYKTKSARDVSLAMFIFMAIGITLWFFYGVLIKEIP  65
+             L+G+     T S   + +    K+ +TKS + +S  + I   +    W  YG  ++   
+Sbjct  127  QLLGLFCSVFTISMYLSPLADLAKVIQTKSTQCLSYPLTIATVLTSASWCLYGFRLRVPY  186
+
+Query  66   VILANLISLILIFLIIFMKIRY  87
+            ++++N   ++  F+  ++  +Y
+Sbjct  187  IMVSNFPGIVTSFIRFWLFWKY  208
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.143    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0440    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5020692120
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

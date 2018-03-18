@@ -1,0 +1,295 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P61013|1fjkA
+
+Length=52
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P61013|PPLA_PIG Cardiac phospholamban OS=Sus scrofa OX=9823 ...  102     8e-29
+  sp|P61012|PPLA_CANLF Cardiac phospholamban OS=Canis lupus famil...  102     8e-29
+  sp|P61016|PPLA_RAT Cardiac phospholamban OS=Rattus norvegicus O...  100     4e-28
+  sp|P61015|PPLA_RABIT Cardiac phospholamban OS=Oryctolagus cunic...  100     4e-28
+  sp|P61014|PPLA_MOUSE Cardiac phospholamban OS=Mus musculus OX=1...  100     4e-28
+  sp|A4IFH6|PPLA_BOVIN Cardiac phospholamban OS=Bos taurus OX=991...  100     5e-28
+  sp|P26678|PPLA_HUMAN Cardiac phospholamban OS=Homo sapiens OX=9...  98.6    2e-27
+  sp|P26677|PPLA_CHICK Cardiac phospholamban OS=Gallus gallus OX=...  58.5    6e-12
+
+
+> sp|P61013|PPLA_PIG Cardiac phospholamban OS=Sus scrofa OX=9823 
+GN=PLN PE=1 SV=1
+Length=52
+
+ Score = 102 bits (253),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|P61012|PPLA_CANLF Cardiac phospholamban OS=Canis lupus familiaris 
+OX=9615 GN=PLN PE=1 SV=1
+Length=52
+
+ Score = 102 bits (253),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|P61016|PPLA_RAT Cardiac phospholamban OS=Rattus norvegicus 
+OX=10116 GN=Pln PE=1 SV=1
+Length=52
+
+ Score = 100 bits (249),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           M+KVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|P61015|PPLA_RABIT Cardiac phospholamban OS=Oryctolagus cuniculus 
+OX=9986 GN=PLN PE=1 SV=1
+Length=52
+
+ Score = 100 bits (249),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           M+KVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|P61014|PPLA_MOUSE Cardiac phospholamban OS=Mus musculus OX=10090 
+GN=Pln PE=1 SV=1
+Length=52
+
+ Score = 100 bits (249),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           M+KVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|A4IFH6|PPLA_BOVIN Cardiac phospholamban OS=Bos taurus OX=9913 
+GN=PLN PE=1 SV=1
+Length=52
+
+ Score = 100 bits (248),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLI ICLLLICIIVMLL
+Sbjct  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLISICLLLICIIVMLL  52
+
+
+> sp|P26678|PPLA_HUMAN Cardiac phospholamban OS=Homo sapiens OX=9606 
+GN=PLN PE=1 SV=1
+Length=52
+
+ Score = 98.6 bits (244),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 50/52 (96%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           M+KVQYLTRSAIRRASTIEMPQQARQ LQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYLTRSAIRRASTIEMPQQARQKLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|P26677|PPLA_CHICK Cardiac phospholamban OS=Gallus gallus OX=9031 
+GN=PLN PE=2 SV=1
+Length=52
+
+ Score = 58.5 bits (140),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 42/52 (81%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           M+KVQY+TRSA+RRAST+E+  QARQ LQ LF+NFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYITRSALRRASTLEVNPQARQRLQELFVNFCLILICLLLICIIVMLL  52
+
+
+
+Lambda      K        H        a         alpha
+   0.340    0.146    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5014753983
+Results from round 2
+
+
+Query= P61013|1fjkA
+
+Length=52
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|A4IFH6|PPLA_BOVIN Cardiac phospholamban OS=Bos taurus OX=991...  58.7    6e-12
+  sp|P61013|PPLA_PIG Cardiac phospholamban OS=Sus scrofa OX=9823 ...  57.9    1e-11
+  sp|P61012|PPLA_CANLF Cardiac phospholamban OS=Canis lupus famil...  57.9    1e-11
+  sp|P61016|PPLA_RAT Cardiac phospholamban OS=Rattus norvegicus O...  57.2    2e-11
+  sp|P61015|PPLA_RABIT Cardiac phospholamban OS=Oryctolagus cunic...  57.2    2e-11
+  sp|P61014|PPLA_MOUSE Cardiac phospholamban OS=Mus musculus OX=1...  57.2    2e-11
+  sp|P26678|PPLA_HUMAN Cardiac phospholamban OS=Homo sapiens OX=9...  56.0    6e-11
+  sp|P26677|PPLA_CHICK Cardiac phospholamban OS=Gallus gallus OX=...  47.5    9e-08
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|A4IFH6|PPLA_BOVIN Cardiac phospholamban OS=Bos taurus OX=9913 
+GN=PLN PE=1 SV=1
+Length=52
+
+ Score = 58.7 bits (141),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLI ICLLLICIIVMLL
+Sbjct  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLISICLLLICIIVMLL  52
+
+
+> sp|P61013|PPLA_PIG Cardiac phospholamban OS=Sus scrofa OX=9823 
+GN=PLN PE=1 SV=1
+Length=52
+
+ Score = 57.9 bits (139),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|P61012|PPLA_CANLF Cardiac phospholamban OS=Canis lupus familiaris 
+OX=9615 GN=PLN PE=1 SV=1
+Length=52
+
+ Score = 57.9 bits (139),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|P61016|PPLA_RAT Cardiac phospholamban OS=Rattus norvegicus 
+OX=10116 GN=Pln PE=1 SV=1
+Length=52
+
+ Score = 57.2 bits (137),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           M+KVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|P61015|PPLA_RABIT Cardiac phospholamban OS=Oryctolagus cuniculus 
+OX=9986 GN=PLN PE=1 SV=1
+Length=52
+
+ Score = 57.2 bits (137),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           M+KVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|P61014|PPLA_MOUSE Cardiac phospholamban OS=Mus musculus OX=10090 
+GN=Pln PE=1 SV=1
+Length=52
+
+ Score = 57.2 bits (137),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           M+KVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|P26678|PPLA_HUMAN Cardiac phospholamban OS=Homo sapiens OX=9606 
+GN=PLN PE=1 SV=1
+Length=52
+
+ Score = 56.0 bits (134),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 50/52 (96%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           M+KVQYLTRSAIRRASTIEMPQQARQ LQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYLTRSAIRRASTIEMPQQARQKLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> sp|P26677|PPLA_CHICK Cardiac phospholamban OS=Gallus gallus OX=9031 
+GN=PLN PE=2 SV=1
+Length=52
+
+ Score = 47.5 bits (112),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 42/52 (81%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  1   MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL  52
+           M+KVQY+TRSA+RRAST+E+  QARQ LQ LF+NFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYITRSALRRASTLEVNPQARQRLQELFVNFCLILICLLLICIIVMLL  52
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.155    0.459    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0473    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5014753983
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

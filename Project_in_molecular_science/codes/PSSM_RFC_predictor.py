@@ -21,11 +21,6 @@ confusionmat = confusion_matrix(testY, predictedY)
 confusion_norm=preprocessing.normalize(confusionmat)
 states = ['I:Insideofthemembrane', 'M:Transmembraneregion', 'O:Outsideofthemembrane']
 print(classification_report(testY, predictedY, target_names=states))
-confusionmat = confusion_matrix(testY, predictedY)
-confusion_norm=preprocessing.normalize(confusionmat)
-states = ['I:Insideofthemembrane', 'M:Transmembraneregion', 'O:Outsideofthemembrane']
-print(classification_report(testY, predictedY, target_names=states))
-
 
 ########TO GET NECESSARY OUTPUT##########
 topology_dict= {2:'I',4:'M',6:'O'}

@@ -1,0 +1,1237 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q9P0S9|2losA
+
+Length=112
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9P0S9|TM14C_HUMAN Transmembrane protein 14C OS=Homo sapiens...  220     1e-73
+  sp|Q5R751|TM14C_PONAB Transmembrane protein 14C OS=Pongo abelii...  217     3e-72
+  sp|Q9CQN6|TM14C_MOUSE Transmembrane protein 14C OS=Mus musculus...  191     6e-62
+  sp|Q924P2|TM14C_RAT Transmembrane protein 14C OS=Rattus norvegi...  177     2e-56
+  sp|Q9NUH8|TM14B_HUMAN Transmembrane protein 14B OS=Homo sapiens...  159     2e-49
+  sp|Q3ZCI1|TM14C_BOVIN Transmembrane protein 14C OS=Bos taurus O...  159     2e-49
+  sp|A8MWL7|TM14D_HUMAN Transmembrane protein 14DP OS=Homo sapien...  156     3e-48
+  sp|Q0P436|TM14C_DANRE Transmembrane protein 14C OS=Danio rerio ...  149     9e-46
+  sp|Q9W1K0|TM14_DROME Transmembrane protein 14 homolog OS=Drosop...  94.0    4e-24
+  sp|Q9Y6G1|TM14A_HUMAN Transmembrane protein 14A OS=Homo sapiens...  92.8    1e-23
+  sp|P56983|TM14A_MOUSE Transmembrane protein 14A OS=Mus musculus...  90.1    1e-22
+  sp|P56984|TM14A_PIG Transmembrane protein 14A OS=Sus scrofa OX=...  89.4    2e-22
+  sp|P56982|TM14A_BOVIN Transmembrane protein 14A OS=Bos taurus O...  87.0    2e-21
+  sp|Q6UXP3|TM14E_HUMAN Transmembrane protein 14EP OS=Homo sapien...  65.5    4e-13
+  sp|Q75JB5|TM14_DICDI Transmembrane protein 14 homolog OS=Dictyo...  52.4    1e-08
+  sp|Q9LJU6|FAX6_ARATH Protein FATTY ACID EXPORT 6 OS=Arabidopsis...  51.6    3e-08
+  sp|Q9C6T7|FAX5_ARATH Protein FATTY ACID EXPORT 5 OS=Arabidopsis...  50.4    8e-08
+  sp|O64847|FAX7_ARATH Protein FATTY ACID EXPORT 7 OS=Arabidopsis...  48.5    3e-07
+  sp|Q94A32|FAX2_ARATH Protein FATTY ACID EXPORT 2, chloroplastic...  46.6    6e-06
+  sp|P47131|YJ55_YEAST TMEM14 protein homolog YJR085C OS=Saccharo...  40.8    2e-04
+
+
+> sp|Q9P0S9|TM14C_HUMAN Transmembrane protein 14C OS=Homo sapiens 
+OX=9606 GN=TMEM14C PE=1 SV=1
+Length=112
+
+ Score = 220 bits (561),  Expect = 1e-73, Method: Compositional matrix adjust.
+ Identities = 112/112 (100%), Positives = 112/112 (100%), Gaps = 0/112 (0%)
+
+Query  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR  60
+            MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR
+Sbjct  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR  60
+
+Query  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH
+Sbjct  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+
+
+> sp|Q5R751|TM14C_PONAB Transmembrane protein 14C OS=Pongo abelii 
+OX=9601 GN=TMEM14C PE=3 SV=1
+Length=112
+
+ Score = 217 bits (552),  Expect = 3e-72, Method: Compositional matrix adjust.
+ Identities = 110/112 (98%), Positives = 110/112 (98%), Gaps = 0/112 (0%)
+
+Query  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR  60
+            MQDTGSVVPLHWFGFGYAALVASGGIIGY KAGSVPSLAAGLLFGSLA LGAYQLSQDPR
+Sbjct  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYAKAGSVPSLAAGLLFGSLASLGAYQLSQDPR  60
+
+Query  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH
+Sbjct  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+
+
+> sp|Q9CQN6|TM14C_MOUSE Transmembrane protein 14C OS=Mus musculus 
+OX=10090 GN=Tmem14c PE=1 SV=1
+Length=114
+
+ Score = 191 bits (485),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 95/111 (86%), Positives = 105/111 (95%), Gaps = 0/111 (0%)
+
+Query  2    QDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+            +D+G ++PLH+FGFGYAALVA+GGIIGY KAGSVPSLAAGL FG LAGLGAYQLSQDPRN
+Sbjct  3    KDSGPLMPLHYFGFGYAALVATGGIIGYAKAGSVPSLAAGLFFGGLAGLGAYQLSQDPRN  62
+
+Query  62   VWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            VWVFLATSGTLAGIMGMRFY+SGKFMPAGLIAGASLLMVAKVG+S+ + PH
+Sbjct  63   VWVFLATSGTLAGIMGMRFYNSGKFMPAGLIAGASLLMVAKVGISLLSSPH  113
+
+
+> sp|Q924P2|TM14C_RAT Transmembrane protein 14C OS=Rattus norvegicus 
+OX=10116 GN=Tmem14c PE=3 SV=1
+Length=115
+
+ Score = 177 bits (448),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 89/100 (89%), Positives = 96/100 (96%), Gaps = 0/100 (0%)
+
+Query  2    QDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+            +D+G +VPLH++GFGYAALVA+GGIIGY KAGSVPSLAAGL FG LAGLGAYQLSQDPRN
+Sbjct  3    KDSGPLVPLHYYGFGYAALVATGGIIGYAKAGSVPSLAAGLFFGGLAGLGAYQLSQDPRN  62
+
+Query  62   VWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVA  101
+            VWVFLATSGTLAGIMGMRFY+SGKFMPAGLIAGASLLMVA
+Sbjct  63   VWVFLATSGTLAGIMGMRFYNSGKFMPAGLIAGASLLMVA  102
+
+
+> sp|Q9NUH8|TM14B_HUMAN Transmembrane protein 14B OS=Homo sapiens 
+OX=9606 GN=TMEM14B PE=1 SV=1
+Length=114
+
+ Score = 159 bits (402),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 84/103 (82%), Positives = 88/103 (85%), Gaps = 1/103 (1%)
+
+Query  7    VVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFL  66
+            +VPLHWFGFGY ALV SGGI+GYVK GSVPSLAAGLLFGSLAGLGAYQL QDPRNVW FL
+Sbjct  8    LVPLHWFGFGYTALVVSGGIVGYVKTGSVPSLAAGLLFGSLAGLGAYQLYQDPRNVWGFL  67
+
+Query  67   -ATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMF  108
+             ATS T  G+MGMR Y+ GKFMP GLIAGASLLM AKVGV M 
+Sbjct  68   AATSVTFVGVMGMRSYYYGKFMPVGLIAGASLLMAAKVGVRML  110
+
+
+> sp|Q3ZCI1|TM14C_BOVIN Transmembrane protein 14C OS=Bos taurus 
+OX=9913 GN=TMEM14C PE=1 SV=1
+Length=114
+
+ Score = 159 bits (401),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 90/111 (81%), Positives = 102/111 (92%), Gaps = 0/111 (0%)
+
+Query  2    QDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+            +D+G +VPLHW GFGYAALVASGGIIGY KAGSVPSLAAGLLFG LAGLG+YQLSQDP+N
+Sbjct  3    KDSGPLVPLHWLGFGYAALVASGGIIGYAKAGSVPSLAAGLLFGGLAGLGSYQLSQDPKN  62
+
+Query  62   VWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            +W+FL TSGTLAGIMGMRFY+S KFMPAGLIAGASLLMV K+G+S  ++PH
+Sbjct  63   IWLFLVTSGTLAGIMGMRFYNSRKFMPAGLIAGASLLMVVKLGISALSKPH  113
+
+
+> sp|A8MWL7|TM14D_HUMAN Transmembrane protein 14DP OS=Homo sapiens 
+OX=9606 GN=TMEM14DP PE=5 SV=2
+Length=114
+
+ Score = 156 bits (394),  Expect = 3e-48, Method: Compositional matrix adjust.
+ Identities = 82/103 (80%), Positives = 86/103 (83%), Gaps = 1/103 (1%)
+
+Query  7    VVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFL  66
+            +VPLHWFGFGY ALV SGGI+GYVK G  PSLAAGLLFGSLAG+GAYQL QDPRNVW FL
+Sbjct  8    LVPLHWFGFGYTALVVSGGIVGYVKTGRAPSLAAGLLFGSLAGVGAYQLYQDPRNVWDFL  67
+
+Query  67   -ATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMF  108
+             ATS T  GIMGMR Y+ GKFMP GLIAGASLLM AKVGV M 
+Sbjct  68   AATSVTFVGIMGMRSYYYGKFMPVGLIAGASLLMAAKVGVRML  110
+
+
+> sp|Q0P436|TM14C_DANRE Transmembrane protein 14C OS=Danio rerio 
+OX=7955 GN=tmem14c PE=3 SV=1
+Length=107
+
+ Score = 149 bits (377),  Expect = 9e-46, Method: Compositional matrix adjust.
+ Identities = 75/103 (73%), Positives = 85/103 (83%), Gaps = 0/103 (0%)
+
+Query  10   LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+            + W G+GYAALVASGG+IGYVKAGSVPSLAAGL+FG LAG GAYQ SQDP N+WV LA S
+Sbjct  3    VDWAGYGYAALVASGGVIGYVKAGSVPSLAAGLVFGGLAGFGAYQTSQDPGNIWVSLAAS  62
+
+Query  70   GTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            GTLA IMG RFY+S K  PAGLIAGAS+LM+AK+G  M  +P 
+Sbjct  63   GTLAAIMGKRFYNSRKITPAGLIAGASVLMLAKLGAGMLQKPQ  105
+
+
+> sp|Q9W1K0|TM14_DROME Transmembrane protein 14 homolog OS=Drosophila 
+melanogaster OX=7227 GN=CG5532 PE=3 SV=1
+Length=112
+
+ Score = 94.0 bits (232),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 53/103 (51%), Positives = 71/103 (69%), Gaps = 1/103 (1%)
+
+Query  8    VPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLA  67
+            +P+ WFG+ YAA VA+GGI+GY KAGS+PSL AGL FG+L G GA+  SQD     + L 
+Sbjct  1    MPVDWFGYVYAATVAAGGIMGYAKAGSIPSLGAGLAFGALLGYGAHLNSQDTPRPLLQLG  60
+
+Query  68   TSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNR  110
+            TS  LAG+MG R+  SGK MPAG++   S+  + K  ++ +NR
+Sbjct  61   TSLFLAGLMGARWNRSGKLMPAGMVCMLSVAALVK-NLATYNR  102
+
+
+> sp|Q9Y6G1|TM14A_HUMAN Transmembrane protein 14A OS=Homo sapiens 
+OX=9606 GN=TMEM14A PE=1 SV=1
+Length=99
+
+ Score = 92.8 bits (229),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 51/87 (59%), Positives = 59/87 (68%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G I GY + G VPSL AGL  G LAG GAY++S D R+V V L T+
+Sbjct  1   MDLIGFGYAALVTFGSIFGYKRRGGVPSLIAGLFVGCLAGYGAYRVSNDKRDVKVSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKIMPAGLVAGLS  87
+
+
+> sp|P56983|TM14A_MOUSE Transmembrane protein 14A OS=Mus musculus 
+OX=10090 GN=Tmem14a PE=3 SV=2
+Length=99
+
+ Score = 90.1 bits (222),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 50/87 (57%), Positives = 60/87 (69%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G ++GY + G VPSL AGL  G LAG GAY++S D R+V V L T+
+Sbjct  1   MDLIGFGYAALVTIGSVLGYKRRGGVPSLIAGLSVGLLAGYGAYRVSNDRRDVKVSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKVMPAGLVAGLS  87
+
+
+> sp|P56984|TM14A_PIG Transmembrane protein 14A OS=Sus scrofa OX=9823 
+GN=TMEM14A PE=3 SV=1
+Length=99
+
+ Score = 89.4 bits (220),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 50/87 (57%), Positives = 60/87 (69%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G I+GY + G VPSL AGL  G LAG GAY++S D R+V + L T+
+Sbjct  1   MDLIGFGYAALVTFGSILGYKRRGGVPSLIAGLFVGFLAGYGAYRVSLDKRDVKLSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKIMPAGLVAGLS  87
+
+
+> sp|P56982|TM14A_BOVIN Transmembrane protein 14A OS=Bos taurus 
+OX=9913 GN=TMEM14A PE=3 SV=1
+Length=99
+
+ Score = 87.0 bits (214),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 49/87 (56%), Positives = 59/87 (68%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G I+GY + G V SL AGL  G LAG GAY++S D R+V + L T+
+Sbjct  1   MDLIGFGYAALVTFGSILGYKRRGGVLSLIAGLFVGFLAGYGAYRVSNDKRDVKLSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKIMPAGLVAGLS  87
+
+
+> sp|Q6UXP3|TM14E_HUMAN Transmembrane protein 14EP OS=Homo sapiens 
+OX=9606 GN=TMEM14EP PE=5 SV=1
+Length=125
+
+ Score = 65.5 bits (158),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 34/59 (58%), Positives = 39/59 (66%), Gaps = 0/59 (0%)
+
+Query  3   DTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+           D G  VPL+W GF YAAL A GGI GY K GSV S +AG  F  LAGL A Q S++P+ 
+Sbjct  4   DPGPQVPLYWLGFVYAALAALGGISGYAKVGSVQSPSAGFFFSELAGLDASQPSRNPKE  62
+
+
+> sp|Q75JB5|TM14_DICDI Transmembrane protein 14 homolog OS=Dictyostelium 
+discoideum OX=44689 GN=DDB_G0271790 PE=3 SV=1
+Length=112
+
+ Score = 52.4 bits (124),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 37/94 (39%), Positives = 54/94 (57%), Gaps = 3/94 (3%)
+
+Query  18   AALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNV--WVFLATSGTLAGI  75
+            AA+V SGG+IGY K+ S+PSL AG +FG L    AY LSQ    V   V +  S  L G+
+Sbjct  16   AAIVLSGGVIGYAKSKSMPSLIAGSVFGLLYSTSAYYLSQGNSKVGLGVSVLASSLLGGV  75
+
+Query  76   MGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFN  109
+            MG +   + K +P  L  G++  +++  G  ++N
+Sbjct  76   MGKKAIATSKPIPIILATGSAFTLLSS-GKELYN  108
+
+
+> sp|Q9LJU6|FAX6_ARATH Protein FATTY ACID EXPORT 6 OS=Arabidopsis 
+thaliana OX=3702 GN=FAX6 PE=3 SV=1
+Length=119
+
+ Score = 51.6 bits (122),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 37/101 (37%), Positives = 52/101 (51%), Gaps = 9/101 (9%)
+
+Query  10   LHWFGFG--YAALVASGGIIGYVKAGSVPSLAAGL---LFGSLAGLGAYQLSQDPRNVWV  64
+            +H F F   Y  L+  GG IGY+K GS+ S A G    L   LAG  + +  +  +N  +
+Sbjct  1    MHDFCFTIPYGMLLIGGGFIGYMKKGSITSFAGGAGTGLLLILAGYISLKAFEKKKNSTI  60
+
+Query  65   FLATSGTLAG----IMGMRFYHSGKFMPAGLIAGASLLMVA  101
+             +     +A     +MG R+  +GK MPAGL+AG S LM  
+Sbjct  61   AMVLQTVIAAALTLVMGQRYLLTGKIMPAGLVAGISALMTC  101
+
+
+> sp|Q9C6T7|FAX5_ARATH Protein FATTY ACID EXPORT 5 OS=Arabidopsis 
+thaliana OX=3702 GN=FAX5 PE=3 SV=1
+Length=119
+
+ Score = 50.4 bits (119),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 39/101 (39%), Positives = 49/101 (49%), Gaps = 9/101 (9%)
+
+Query  10   LHWFGFG--YAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAY-QLSQDPRNVWVFL  66
+            +H F F   Y  L+  GG IGY+K GS+ SLA G   G L  L  +  L    +     L
+Sbjct  1    MHDFCFTIPYGILLIVGGFIGYLKKGSIASLAGGAGTGLLVVLAGFISLKAFEKKKTSLL  60
+
+Query  67   AT------SGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVA  101
+            AT      +  L  +MG RF  + K MPA L+AG S LM  
+Sbjct  61   ATLLETVIAAALTFVMGQRFLQTQKIMPAALVAGISALMTC  101
+
+
+> sp|O64847|FAX7_ARATH Protein FATTY ACID EXPORT 7 OS=Arabidopsis 
+thaliana OX=3702 GN=FAX7 PE=3 SV=1
+Length=108
+
+ Score = 48.5 bits (114),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 35/93 (38%), Positives = 51/93 (55%), Gaps = 7/93 (8%)
+
+Query  11  HWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN----VWVFL  66
+             F   YA+L+  GG++GY+K GS  SL AG   G  A L  Y  ++ P N      + +
+Sbjct  7   QKFTLAYASLLGVGGLMGYLKRGSKISLVAG---GGSAALFYYVYTELPGNPVLASSIGI  63
+
+Query  67  ATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLM  99
+             S  L G+MG R+  + K +PAGL++  SL+M
+Sbjct  64  VGSAALTGMMGSRYLRTRKVVPAGLVSVVSLVM  96
+
+
+> sp|Q94A32|FAX2_ARATH Protein FATTY ACID EXPORT 2, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=FAX2 PE=2 SV=1
+Length=240
+
+ Score = 46.6 bits (109),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 35/90 (39%), Positives = 48/90 (53%), Gaps = 7/90 (8%)
+
+Query  15   FGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN----VWVFLATSG  70
+             GYA LV  GG++GY+K+GS  SL AG   G  A +  Y  SQ P        V +  +G
+Sbjct  142  LGYAFLVGVGGLMGYLKSGSQKSLLAG---GLSAAVLLYVFSQLPTKPVLASTVGVVMAG  198
+
+Query  71   TLAGIMGMRFYHSGKFMPAGLIAGASLLMV  100
+             L  +MG R+  S K  PAG+++  S +M 
+Sbjct  199  ALMYVMGTRYMRSKKIFPAGVVSIMSFIMT  228
+
+
+> sp|P47131|YJ55_YEAST TMEM14 protein homolog YJR085C OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YJR085C 
+PE=1 SV=1
+Length=105
+
+ Score = 40.8 bits (94),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 18/39 (46%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  20  LVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQD  58
+           L  +GG++GY + GS+PSL +GL+FGS+ G+  Y L  +
+Sbjct  11  LTTAGGLMGYYRKGSIPSLVSGLVFGSVYGIAGYLLHMN  49
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4963400128
+Results from round 2
+
+
+Query= Q9P0S9|2losA
+
+Length=112
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9P0S9|TM14C_HUMAN Transmembrane protein 14C OS=Homo sapiens...  143     2e-43
+  sp|Q5R751|TM14C_PONAB Transmembrane protein 14C OS=Pongo abelii...  143     4e-43
+  sp|Q9CQN6|TM14C_MOUSE Transmembrane protein 14C OS=Mus musculus...  135     4e-40
+  sp|Q3ZCI1|TM14C_BOVIN Transmembrane protein 14C OS=Bos taurus O...  126     1e-36
+  sp|Q924P2|TM14C_RAT Transmembrane protein 14C OS=Rattus norvegi...  126     2e-36
+  sp|Q9NUH8|TM14B_HUMAN Transmembrane protein 14B OS=Homo sapiens...  114     4e-32
+  sp|A8MWL7|TM14D_HUMAN Transmembrane protein 14DP OS=Homo sapien...  113     1e-31
+  sp|Q0P436|TM14C_DANRE Transmembrane protein 14C OS=Danio rerio ...  113     1e-31
+  sp|Q9Y6G1|TM14A_HUMAN Transmembrane protein 14A OS=Homo sapiens...  102     3e-27
+  sp|Q9W1K0|TM14_DROME Transmembrane protein 14 homolog OS=Drosop...  101     8e-27
+  sp|P56983|TM14A_MOUSE Transmembrane protein 14A OS=Mus musculus...  97.8    1e-25
+  sp|P56984|TM14A_PIG Transmembrane protein 14A OS=Sus scrofa OX=...  96.3    5e-25
+  sp|P56982|TM14A_BOVIN Transmembrane protein 14A OS=Bos taurus O...  95.1    1e-24
+  sp|Q94A32|FAX2_ARATH Protein FATTY ACID EXPORT 2, chloroplastic...  85.9    6e-20
+  sp|Q9C6T7|FAX5_ARATH Protein FATTY ACID EXPORT 5 OS=Arabidopsis...  83.2    9e-20
+  sp|Q9LJU6|FAX6_ARATH Protein FATTY ACID EXPORT 6 OS=Arabidopsis...  81.2    5e-19
+  sp|Q6UXP3|TM14E_HUMAN Transmembrane protein 14EP OS=Homo sapien...  75.8    6e-17
+  sp|Q75JB5|TM14_DICDI Transmembrane protein 14 homolog OS=Dictyo...  72.4    7e-16
+  sp|O64847|FAX7_ARATH Protein FATTY ACID EXPORT 7 OS=Arabidopsis...  69.3    1e-14
+  sp|P47131|YJ55_YEAST TMEM14 protein homolog YJR085C OS=Saccharo...  47.3    8e-07
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q93V66|FAX1_ARATH Protein FATTY ACID EXPORT 1, chloroplastic...  51.2    1e-07
+  sp|Q9P7G3|YK45_SCHPO TMEM14 protein homolog P14E8.05c OS=Schizo...  42.7    3e-05
+  sp|Q8LPG1|FAX4_ARATH Protein FATTY ACID EXPORT 4, chloroplastic...  38.9    0.002
+
+
+> sp|Q9P0S9|TM14C_HUMAN Transmembrane protein 14C OS=Homo sapiens 
+OX=9606 GN=TMEM14C PE=1 SV=1
+Length=112
+
+ Score = 143 bits (361),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 112/112 (100%), Positives = 112/112 (100%), Gaps = 0/112 (0%)
+
+Query  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR  60
+            MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR
+Sbjct  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR  60
+
+Query  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH
+Sbjct  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+
+
+> sp|Q5R751|TM14C_PONAB Transmembrane protein 14C OS=Pongo abelii 
+OX=9601 GN=TMEM14C PE=3 SV=1
+Length=112
+
+ Score = 143 bits (360),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 110/112 (98%), Positives = 110/112 (98%), Gaps = 0/112 (0%)
+
+Query  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR  60
+            MQDTGSVVPLHWFGFGYAALVASGGIIGY KAGSVPSLAAGLLFGSLA LGAYQLSQDPR
+Sbjct  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYAKAGSVPSLAAGLLFGSLASLGAYQLSQDPR  60
+
+Query  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH
+Sbjct  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+
+
+> sp|Q9CQN6|TM14C_MOUSE Transmembrane protein 14C OS=Mus musculus 
+OX=10090 GN=Tmem14c PE=1 SV=1
+Length=114
+
+ Score = 135 bits (340),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 95/111 (86%), Positives = 105/111 (95%), Gaps = 0/111 (0%)
+
+Query  2    QDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+            +D+G ++PLH+FGFGYAALVA+GGIIGY KAGSVPSLAAGL FG LAGLGAYQLSQDPRN
+Sbjct  3    KDSGPLMPLHYFGFGYAALVATGGIIGYAKAGSVPSLAAGLFFGGLAGLGAYQLSQDPRN  62
+
+Query  62   VWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            VWVFLATSGTLAGIMGMRFY+SGKFMPAGLIAGASLLMVAKVG+S+ + PH
+Sbjct  63   VWVFLATSGTLAGIMGMRFYNSGKFMPAGLIAGASLLMVAKVGISLLSSPH  113
+
+
+> sp|Q3ZCI1|TM14C_BOVIN Transmembrane protein 14C OS=Bos taurus 
+OX=9913 GN=TMEM14C PE=1 SV=1
+Length=114
+
+ Score = 126 bits (317),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 90/111 (81%), Positives = 102/111 (92%), Gaps = 0/111 (0%)
+
+Query  2    QDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+            +D+G +VPLHW GFGYAALVASGGIIGY KAGSVPSLAAGLLFG LAGLG+YQLSQDP+N
+Sbjct  3    KDSGPLVPLHWLGFGYAALVASGGIIGYAKAGSVPSLAAGLLFGGLAGLGSYQLSQDPKN  62
+
+Query  62   VWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            +W+FL TSGTLAGIMGMRFY+S KFMPAGLIAGASLLMV K+G+S  ++PH
+Sbjct  63   IWLFLVTSGTLAGIMGMRFYNSRKFMPAGLIAGASLLMVVKLGISALSKPH  113
+
+
+> sp|Q924P2|TM14C_RAT Transmembrane protein 14C OS=Rattus norvegicus 
+OX=10116 GN=Tmem14c PE=3 SV=1
+Length=115
+
+ Score = 126 bits (316),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 89/100 (89%), Positives = 96/100 (96%), Gaps = 0/100 (0%)
+
+Query  2    QDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+            +D+G +VPLH++GFGYAALVA+GGIIGY KAGSVPSLAAGL FG LAGLGAYQLSQDPRN
+Sbjct  3    KDSGPLVPLHYYGFGYAALVATGGIIGYAKAGSVPSLAAGLFFGGLAGLGAYQLSQDPRN  62
+
+Query  62   VWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVA  101
+            VWVFLATSGTLAGIMGMRFY+SGKFMPAGLIAGASLLMVA
+Sbjct  63   VWVFLATSGTLAGIMGMRFYNSGKFMPAGLIAGASLLMVA  102
+
+
+> sp|Q9NUH8|TM14B_HUMAN Transmembrane protein 14B OS=Homo sapiens 
+OX=9606 GN=TMEM14B PE=1 SV=1
+Length=114
+
+ Score = 114 bits (286),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 84/104 (81%), Positives = 88/104 (85%), Gaps = 1/104 (1%)
+
+Query  6    SVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVF  65
+             +VPLHWFGFGY ALV SGGI+GYVK GSVPSLAAGLLFGSLAGLGAYQL QDPRNVW F
+Sbjct  7    PLVPLHWFGFGYTALVVSGGIVGYVKTGSVPSLAAGLLFGSLAGLGAYQLYQDPRNVWGF  66
+
+Query  66   L-ATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMF  108
+            L ATS T  G+MGMR Y+ GKFMP GLIAGASLLM AKVGV M 
+Sbjct  67   LAATSVTFVGVMGMRSYYYGKFMPVGLIAGASLLMAAKVGVRML  110
+
+
+> sp|A8MWL7|TM14D_HUMAN Transmembrane protein 14DP OS=Homo sapiens 
+OX=9606 GN=TMEM14DP PE=5 SV=2
+Length=114
+
+ Score = 113 bits (284),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 82/104 (79%), Positives = 86/104 (83%), Gaps = 1/104 (1%)
+
+Query  6    SVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVF  65
+             +VPLHWFGFGY ALV SGGI+GYVK G  PSLAAGLLFGSLAG+GAYQL QDPRNVW F
+Sbjct  7    PLVPLHWFGFGYTALVVSGGIVGYVKTGRAPSLAAGLLFGSLAGVGAYQLYQDPRNVWDF  66
+
+Query  66   L-ATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMF  108
+            L ATS T  GIMGMR Y+ GKFMP GLIAGASLLM AKVGV M 
+Sbjct  67   LAATSVTFVGIMGMRSYYYGKFMPVGLIAGASLLMAAKVGVRML  110
+
+
+> sp|Q0P436|TM14C_DANRE Transmembrane protein 14C OS=Danio rerio 
+OX=7955 GN=tmem14c PE=3 SV=1
+Length=107
+
+ Score = 113 bits (282),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 75/105 (71%), Positives = 86/105 (82%), Gaps = 0/105 (0%)
+
+Query  8    VPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLA  67
+            + + W G+GYAALVASGG+IGYVKAGSVPSLAAGL+FG LAG GAYQ SQDP N+WV LA
+Sbjct  1    MAVDWAGYGYAALVASGGVIGYVKAGSVPSLAAGLVFGGLAGFGAYQTSQDPGNIWVSLA  60
+
+Query  68   TSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+             SGTLA IMG RFY+S K  PAGLIAGAS+LM+AK+G  M  +P 
+Sbjct  61   ASGTLAAIMGKRFYNSRKITPAGLIAGASVLMLAKLGAGMLQKPQ  105
+
+
+> sp|Q9Y6G1|TM14A_HUMAN Transmembrane protein 14A OS=Homo sapiens 
+OX=9606 GN=TMEM14A PE=1 SV=1
+Length=99
+
+ Score = 102 bits (253),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 51/87 (59%), Positives = 59/87 (68%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G I GY + G VPSL AGL  G LAG GAY++S D R+V V L T+
+Sbjct  1   MDLIGFGYAALVTFGSIFGYKRRGGVPSLIAGLFVGCLAGYGAYRVSNDKRDVKVSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKIMPAGLVAGLS  87
+
+
+> sp|Q9W1K0|TM14_DROME Transmembrane protein 14 homolog OS=Drosophila 
+melanogaster OX=7227 GN=CG5532 PE=3 SV=1
+Length=112
+
+ Score = 101 bits (251),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 53/103 (51%), Positives = 71/103 (69%), Gaps = 1/103 (1%)
+
+Query  8    VPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLA  67
+            +P+ WFG+ YAA VA+GGI+GY KAGS+PSL AGL FG+L G GA+  SQD     + L 
+Sbjct  1    MPVDWFGYVYAATVAAGGIMGYAKAGSIPSLGAGLAFGALLGYGAHLNSQDTPRPLLQLG  60
+
+Query  68   TSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNR  110
+            TS  LAG+MG R+  SGK MPAG++   S+  + K  ++ +NR
+Sbjct  61   TSLFLAGLMGARWNRSGKLMPAGMVCMLSVAALVK-NLATYNR  102
+
+
+> sp|P56983|TM14A_MOUSE Transmembrane protein 14A OS=Mus musculus 
+OX=10090 GN=Tmem14a PE=3 SV=2
+Length=99
+
+ Score = 97.8 bits (242),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 50/87 (57%), Positives = 60/87 (69%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G ++GY + G VPSL AGL  G LAG GAY++S D R+V V L T+
+Sbjct  1   MDLIGFGYAALVTIGSVLGYKRRGGVPSLIAGLSVGLLAGYGAYRVSNDRRDVKVSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKVMPAGLVAGLS  87
+
+
+> sp|P56984|TM14A_PIG Transmembrane protein 14A OS=Sus scrofa OX=9823 
+GN=TMEM14A PE=3 SV=1
+Length=99
+
+ Score = 96.3 bits (238),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 50/87 (57%), Positives = 60/87 (69%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G I+GY + G VPSL AGL  G LAG GAY++S D R+V + L T+
+Sbjct  1   MDLIGFGYAALVTFGSILGYKRRGGVPSLIAGLFVGFLAGYGAYRVSLDKRDVKLSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKIMPAGLVAGLS  87
+
+
+> sp|P56982|TM14A_BOVIN Transmembrane protein 14A OS=Bos taurus 
+OX=9913 GN=TMEM14A PE=3 SV=1
+Length=99
+
+ Score = 95.1 bits (235),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 49/87 (56%), Positives = 59/87 (68%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G I+GY + G V SL AGL  G LAG GAY++S D R+V + L T+
+Sbjct  1   MDLIGFGYAALVTFGSILGYKRRGGVLSLIAGLFVGFLAGYGAYRVSNDKRDVKLSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKIMPAGLVAGLS  87
+
+
+> sp|Q94A32|FAX2_ARATH Protein FATTY ACID EXPORT 2, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=FAX2 PE=2 SV=1
+Length=240
+
+ Score = 85.9 bits (211),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 35/103 (34%), Positives = 51/103 (50%), Gaps = 7/103 (7%)
+
+Query  2    QDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+            + +  +        GYA LV  GG++GY+K+GS  SL AG   G  A +  Y  SQ P  
+Sbjct  129  KKSTPLSMSQKLTLGYAFLVGVGGLMGYLKSGSQKSLLAG---GLSAAVLLYVFSQLPTK  185
+
+Query  62   ----VWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMV  100
+                  V +  +G L  +MG R+  S K  PAG+++  S +M 
+Sbjct  186  PVLASTVGVVMAGALMYVMGTRYMRSKKIFPAGVVSIMSFIMT  228
+
+
+> sp|Q9C6T7|FAX5_ARATH Protein FATTY ACID EXPORT 5 OS=Arabidopsis 
+thaliana OX=3702 GN=FAX5 PE=3 SV=1
+Length=119
+
+ Score = 83.2 bits (204),  Expect = 9e-20, Method: Composition-based stats.
+ Identities = 39/101 (39%), Positives = 49/101 (49%), Gaps = 9/101 (9%)
+
+Query  10   LHWFGFG--YAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAY-QLSQDPRNVWVFL  66
+            +H F F   Y  L+  GG IGY+K GS+ SLA G   G L  L  +  L    +     L
+Sbjct  1    MHDFCFTIPYGILLIVGGFIGYLKKGSIASLAGGAGTGLLVVLAGFISLKAFEKKKTSLL  60
+
+Query  67   AT------SGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVA  101
+            AT      +  L  +MG RF  + K MPA L+AG S LM  
+Sbjct  61   ATLLETVIAAALTFVMGQRFLQTQKIMPAALVAGISALMTC  101
+
+
+> sp|Q9LJU6|FAX6_ARATH Protein FATTY ACID EXPORT 6 OS=Arabidopsis 
+thaliana OX=3702 GN=FAX6 PE=3 SV=1
+Length=119
+
+ Score = 81.2 bits (199),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 37/101 (37%), Positives = 52/101 (51%), Gaps = 9/101 (9%)
+
+Query  10   LHWFGFG--YAALVASGGIIGYVKAGSVPSLAAGLLFGSL---AGLGAYQLSQDPRNVWV  64
+            +H F F   Y  L+  GG IGY+K GS+ S A G   G L   AG  + +  +  +N  +
+Sbjct  1    MHDFCFTIPYGMLLIGGGFIGYMKKGSITSFAGGAGTGLLLILAGYISLKAFEKKKNSTI  60
+
+Query  65   FLAT----SGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVA  101
+             +      +  L  +MG R+  +GK MPAGL+AG S LM  
+Sbjct  61   AMVLQTVIAAALTLVMGQRYLLTGKIMPAGLVAGISALMTC  101
+
+
+> sp|Q6UXP3|TM14E_HUMAN Transmembrane protein 14EP OS=Homo sapiens 
+OX=9606 GN=TMEM14EP PE=5 SV=1
+Length=125
+
+ Score = 75.8 bits (185),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 34/59 (58%), Positives = 39/59 (66%), Gaps = 0/59 (0%)
+
+Query  3   DTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+           D G  VPL+W GF YAAL A GGI GY K GSV S +AG  F  LAGL A Q S++P+ 
+Sbjct  4   DPGPQVPLYWLGFVYAALAALGGISGYAKVGSVQSPSAGFFFSELAGLDASQPSRNPKE  62
+
+
+> sp|Q75JB5|TM14_DICDI Transmembrane protein 14 homolog OS=Dictyostelium 
+discoideum OX=44689 GN=DDB_G0271790 PE=3 SV=1
+Length=112
+
+ Score = 72.4 bits (176),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 37/94 (39%), Positives = 54/94 (57%), Gaps = 3/94 (3%)
+
+Query  18   AALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNV--WVFLATSGTLAGI  75
+            AA+V SGG+IGY K+ S+PSL AG +FG L    AY LSQ    V   V +  S  L G+
+Sbjct  16   AAIVLSGGVIGYAKSKSMPSLIAGSVFGLLYSTSAYYLSQGNSKVGLGVSVLASSLLGGV  75
+
+Query  76   MGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFN  109
+            MG +   + K +P  L  G++  +++  G  ++N
+Sbjct  76   MGKKAIATSKPIPIILATGSAFTLLSS-GKELYN  108
+
+
+> sp|O64847|FAX7_ARATH Protein FATTY ACID EXPORT 7 OS=Arabidopsis 
+thaliana OX=3702 GN=FAX7 PE=3 SV=1
+Length=108
+
+ Score = 69.3 bits (168),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 35/94 (37%), Positives = 51/94 (54%), Gaps = 7/94 (7%)
+
+Query  11  HWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN----VWVFL  66
+             F   YA+L+  GG++GY+K GS  SL AG   G  A L  Y  ++ P N      + +
+Sbjct  7   QKFTLAYASLLGVGGLMGYLKRGSKISLVAG---GGSAALFYYVYTELPGNPVLASSIGI  63
+
+Query  67  ATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMV  100
+             S  L G+MG R+  + K +PAGL++  SL+M 
+Sbjct  64  VGSAALTGMMGSRYLRTRKVVPAGLVSVVSLVMT  97
+
+
+> sp|Q93V66|FAX1_ARATH Protein FATTY ACID EXPORT 1, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=FAX1 PE=1 SV=1
+Length=226
+
+ Score = 51.2 bits (121),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 52/101 (51%), Gaps = 9/101 (9%)
+
+Query  10   LHWFGFG--YAALVASGGIIGYVKAGSVPSLAAGLLFGS---LAGLGAYQLSQDPRNVWV  64
+            +H F FG  Y  LV SGG++G+  + ++ SL+ G+L+G         + ++ ++ ++ + 
+Sbjct  100  IHDFCFGIPYGGLVVSGGLLGFAFSRNLTSLSTGVLYGGGLLALSTLSLKIWREGKSSFP  159
+
+Query  65   FLATSGTLAGIMGMR----FYHSGKFMPAGLIAGASLLMVA  101
+            ++     L+ ++  +    +  + K  PAG+ A  S  M+ 
+Sbjct  160  YILGQAVLSAVVFWKNFTAYSMTKKLFPAGVFAVISACMLC  200
+
+
+> sp|P47131|YJ55_YEAST TMEM14 protein homolog YJR085C OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YJR085C 
+PE=1 SV=1
+Length=105
+
+ Score = 47.3 bits (111),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 28/82 (34%), Positives = 44/82 (54%), Gaps = 3/82 (4%)
+
+Query  15  FGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDP-RNVWVFLATSGTLA  73
+           +  + L  +GG++GY + GS+PSL +GL+FGS+ G+  Y L  +    + + L  S  L 
+Sbjct  6   YTLSLLTTAGGLMGYYRKGSIPSLVSGLVFGSVYGIAGYLLHMNRDGGLEMALGASTLLL  65
+
+Query  74  GIMGMRFYHSG--KFMPAGLIA  93
+           G   +R   S   K +P  L A
+Sbjct  66  GAGVIRGMPSRFTKPVPVVLTA  87
+
+
+> sp|Q9P7G3|YK45_SCHPO TMEM14 protein homolog P14E8.05c OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAP14E8.05c 
+PE=3 SV=1
+Length=101
+
+ Score = 42.7 bits (99),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 22/78 (28%), Positives = 33/78 (42%), Gaps = 1/78 (1%)
+
+Query  15  FGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN-VWVFLATSGTLA  73
+              + L+  GG+IGY++  S  SL AG   G+     +  + +     +      S  L 
+Sbjct  8   LVLSFLLTVGGLIGYLRKKSKVSLIAGTALGANFAWASKLMERGSSQGINYAFYGSLVLL  67
+
+Query  74  GIMGMRFYHSGKFMPAGL  91
+              G RFY S K +P  L
+Sbjct  68  ASSGPRFYKSRKPVPMIL  85
+
+
+> sp|Q8LPG1|FAX4_ARATH Protein FATTY ACID EXPORT 4, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=FAX4 PE=2 SV=1
+Length=177
+
+ Score = 38.9 bits (89),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 24/89 (27%), Positives = 37/89 (42%), Gaps = 3/89 (3%)
+
+Query  16   GYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNV---WVFLATSGTL  72
+             Y  L+  GG+  Y K+GS  SL  GL    L     +        V    + L  +   
+Sbjct  66   TYGVLLLGGGLFAYSKSGSKGSLFGGLTGSVLMASAYFLTKSPETRVLGDTIGLGAAFLF  125
+
+Query  73   AGIMGMRFYHSGKFMPAGLIAGASLLMVA  101
+            + + G R   S K +PAG +   S+ M++
+Sbjct  126  SSVFGFRLASSRKPVPAGPLLLLSIGMLS  154
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.137    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0418    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4963400128
+Results from round 3
+
+
+Query= Q9P0S9|2losA
+
+Length=112
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9P0S9|TM14C_HUMAN Transmembrane protein 14C OS=Homo sapiens...  133     3e-39
+  sp|Q5R751|TM14C_PONAB Transmembrane protein 14C OS=Pongo abelii...  132     4e-39
+  sp|Q9CQN6|TM14C_MOUSE Transmembrane protein 14C OS=Mus musculus...  126     1e-36
+  sp|Q3ZCI1|TM14C_BOVIN Transmembrane protein 14C OS=Bos taurus O...  119     7e-34
+  sp|Q924P2|TM14C_RAT Transmembrane protein 14C OS=Rattus norvegi...  118     2e-33
+  sp|Q0P436|TM14C_DANRE Transmembrane protein 14C OS=Danio rerio ...  107     2e-29
+  sp|Q9NUH8|TM14B_HUMAN Transmembrane protein 14B OS=Homo sapiens...  106     6e-29
+  sp|A8MWL7|TM14D_HUMAN Transmembrane protein 14DP OS=Homo sapien...  106     9e-29
+  sp|Q9W1K0|TM14_DROME Transmembrane protein 14 homolog OS=Drosop...  94.7    2e-24
+  sp|Q9Y6G1|TM14A_HUMAN Transmembrane protein 14A OS=Homo sapiens...  94.3    3e-24
+  sp|P56983|TM14A_MOUSE Transmembrane protein 14A OS=Mus musculus...  90.9    6e-23
+  sp|P56984|TM14A_PIG Transmembrane protein 14A OS=Sus scrofa OX=...  88.6    5e-22
+  sp|P56982|TM14A_BOVIN Transmembrane protein 14A OS=Bos taurus O...  87.8    8e-22
+  sp|Q94A32|FAX2_ARATH Protein FATTY ACID EXPORT 2, chloroplastic...  88.2    9e-21
+  sp|Q93V66|FAX1_ARATH Protein FATTY ACID EXPORT 1, chloroplastic...  85.5    6e-20
+  sp|Q9C6T7|FAX5_ARATH Protein FATTY ACID EXPORT 5 OS=Arabidopsis...  79.3    2e-18
+  sp|Q9LJU6|FAX6_ARATH Protein FATTY ACID EXPORT 6 OS=Arabidopsis...  78.2    6e-18
+  sp|Q6UXP3|TM14E_HUMAN Transmembrane protein 14EP OS=Homo sapien...  70.1    7e-15
+  sp|Q75JB5|TM14_DICDI Transmembrane protein 14 homolog OS=Dictyo...  68.5    3e-14
+  sp|O64847|FAX7_ARATH Protein FATTY ACID EXPORT 7 OS=Arabidopsis...  65.8    2e-13
+  sp|Q9P7G3|YK45_SCHPO TMEM14 protein homolog P14E8.05c OS=Schizo...  63.9    9e-13
+  sp|P47131|YJ55_YEAST TMEM14 protein homolog YJR085C OS=Saccharo...  57.7    2e-10
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q9ZVH7|FAX3_ARATH Protein FATTY ACID EXPORT 3, chloroplastic...  43.1    1e-04
+  sp|Q8LPG1|FAX4_ARATH Protein FATTY ACID EXPORT 4, chloroplastic...  37.3    0.009
+
+
+> sp|Q9P0S9|TM14C_HUMAN Transmembrane protein 14C OS=Homo sapiens 
+OX=9606 GN=TMEM14C PE=1 SV=1
+Length=112
+
+ Score = 133 bits (334),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 112/112 (100%), Positives = 112/112 (100%), Gaps = 0/112 (0%)
+
+Query  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR  60
+            MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR
+Sbjct  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR  60
+
+Query  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH
+Sbjct  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+
+
+> sp|Q5R751|TM14C_PONAB Transmembrane protein 14C OS=Pongo abelii 
+OX=9601 GN=TMEM14C PE=3 SV=1
+Length=112
+
+ Score = 132 bits (333),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 110/112 (98%), Positives = 110/112 (98%), Gaps = 0/112 (0%)
+
+Query  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPR  60
+            MQDTGSVVPLHWFGFGYAALVASGGIIGY KAGSVPSLAAGLLFGSLA LGAYQLSQDPR
+Sbjct  1    MQDTGSVVPLHWFGFGYAALVASGGIIGYAKAGSVPSLAAGLLFGSLASLGAYQLSQDPR  60
+
+Query  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH
+Sbjct  61   NVWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+
+
+> sp|Q9CQN6|TM14C_MOUSE Transmembrane protein 14C OS=Mus musculus 
+OX=10090 GN=Tmem14c PE=1 SV=1
+Length=114
+
+ Score = 126 bits (317),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 95/111 (86%), Positives = 105/111 (95%), Gaps = 0/111 (0%)
+
+Query  2    QDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+            +D+G ++PLH+FGFGYAALVA+GGIIGY KAGSVPSLAAGL FG LAGLGAYQLSQDPRN
+Sbjct  3    KDSGPLMPLHYFGFGYAALVATGGIIGYAKAGSVPSLAAGLFFGGLAGLGAYQLSQDPRN  62
+
+Query  62   VWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            VWVFLATSGTLAGIMGMRFY+SGKFMPAGLIAGASLLMVAKVG+S+ + PH
+Sbjct  63   VWVFLATSGTLAGIMGMRFYNSGKFMPAGLIAGASLLMVAKVGISLLSSPH  113
+
+
+> sp|Q3ZCI1|TM14C_BOVIN Transmembrane protein 14C OS=Bos taurus 
+OX=9913 GN=TMEM14C PE=1 SV=1
+Length=114
+
+ Score = 119 bits (298),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 90/111 (81%), Positives = 102/111 (92%), Gaps = 0/111 (0%)
+
+Query  2    QDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+            +D+G +VPLHW GFGYAALVASGGIIGY KAGSVPSLAAGLLFG LAGLG+YQLSQDP+N
+Sbjct  3    KDSGPLVPLHWLGFGYAALVASGGIIGYAKAGSVPSLAAGLLFGGLAGLGSYQLSQDPKN  62
+
+Query  62   VWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+            +W+FL TSGTLAGIMGMRFY+S KFMPAGLIAGASLLMV K+G+S  ++PH
+Sbjct  63   IWLFLVTSGTLAGIMGMRFYNSRKFMPAGLIAGASLLMVVKLGISALSKPH  113
+
+
+> sp|Q924P2|TM14C_RAT Transmembrane protein 14C OS=Rattus norvegicus 
+OX=10116 GN=Tmem14c PE=3 SV=1
+Length=115
+
+ Score = 118 bits (295),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 89/100 (89%), Positives = 96/100 (96%), Gaps = 0/100 (0%)
+
+Query  2    QDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+            +D+G +VPLH++GFGYAALVA+GGIIGY KAGSVPSLAAGL FG LAGLGAYQLSQDPRN
+Sbjct  3    KDSGPLVPLHYYGFGYAALVATGGIIGYAKAGSVPSLAAGLFFGGLAGLGAYQLSQDPRN  62
+
+Query  62   VWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVA  101
+            VWVFLATSGTLAGIMGMRFY+SGKFMPAGLIAGASLLMVA
+Sbjct  63   VWVFLATSGTLAGIMGMRFYNSGKFMPAGLIAGASLLMVA  102
+
+
+> sp|Q0P436|TM14C_DANRE Transmembrane protein 14C OS=Danio rerio 
+OX=7955 GN=tmem14c PE=3 SV=1
+Length=107
+
+ Score = 107 bits (268),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 75/105 (71%), Positives = 86/105 (82%), Gaps = 0/105 (0%)
+
+Query  8    VPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLA  67
+            + + W G+GYAALVASGG+IGYVKAGSVPSLAAGL+FG LAG GAYQ SQDP N+WV LA
+Sbjct  1    MAVDWAGYGYAALVASGGVIGYVKAGSVPSLAAGLVFGGLAGFGAYQTSQDPGNIWVSLA  60
+
+Query  68   TSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNRPH  112
+             SGTLA IMG RFY+S K  PAGLIAGAS+LM+AK+G  M  +P 
+Sbjct  61   ASGTLAAIMGKRFYNSRKITPAGLIAGASVLMLAKLGAGMLQKPQ  105
+
+
+> sp|Q9NUH8|TM14B_HUMAN Transmembrane protein 14B OS=Homo sapiens 
+OX=9606 GN=TMEM14B PE=1 SV=1
+Length=114
+
+ Score = 106 bits (265),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 84/104 (81%), Positives = 88/104 (85%), Gaps = 1/104 (1%)
+
+Query  6    SVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVF  65
+             +VPLHWFGFGY ALV SGGI+GYVK GSVPSLAAGLLFGSLAGLGAYQL QDPRNVW F
+Sbjct  7    PLVPLHWFGFGYTALVVSGGIVGYVKTGSVPSLAAGLLFGSLAGLGAYQLYQDPRNVWGF  66
+
+Query  66   L-ATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMF  108
+            L ATS T  G+MGMR Y+ GKFMP GLIAGASLLM AKVGV M 
+Sbjct  67   LAATSVTFVGVMGMRSYYYGKFMPVGLIAGASLLMAAKVGVRML  110
+
+
+> sp|A8MWL7|TM14D_HUMAN Transmembrane protein 14DP OS=Homo sapiens 
+OX=9606 GN=TMEM14DP PE=5 SV=2
+Length=114
+
+ Score = 106 bits (264),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 82/104 (79%), Positives = 86/104 (83%), Gaps = 1/104 (1%)
+
+Query  6    SVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVF  65
+             +VPLHWFGFGY ALV SGGI+GYVK G  PSLAAGLLFGSLAG+GAYQL QDPRNVW F
+Sbjct  7    PLVPLHWFGFGYTALVVSGGIVGYVKTGRAPSLAAGLLFGSLAGVGAYQLYQDPRNVWDF  66
+
+Query  66   L-ATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMF  108
+            L ATS T  GIMGMR Y+ GKFMP GLIAGASLLM AKVGV M 
+Sbjct  67   LAATSVTFVGIMGMRSYYYGKFMPVGLIAGASLLMAAKVGVRML  110
+
+
+> sp|Q9W1K0|TM14_DROME Transmembrane protein 14 homolog OS=Drosophila 
+melanogaster OX=7227 GN=CG5532 PE=3 SV=1
+Length=112
+
+ Score = 94.7 bits (234),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 53/103 (51%), Positives = 71/103 (69%), Gaps = 1/103 (1%)
+
+Query  8    VPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLA  67
+            +P+ WFG+ YAA VA+GGI+GY KAGS+PSL AGL FG+L G GA+  SQD     + L 
+Sbjct  1    MPVDWFGYVYAATVAAGGIMGYAKAGSIPSLGAGLAFGALLGYGAHLNSQDTPRPLLQLG  60
+
+Query  68   TSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFNR  110
+            TS  LAG+MG R+  SGK MPAG++   S+  + K  ++ +NR
+Sbjct  61   TSLFLAGLMGARWNRSGKLMPAGMVCMLSVAALVK-NLATYNR  102
+
+
+> sp|Q9Y6G1|TM14A_HUMAN Transmembrane protein 14A OS=Homo sapiens 
+OX=9606 GN=TMEM14A PE=1 SV=1
+Length=99
+
+ Score = 94.3 bits (233),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 51/87 (59%), Positives = 59/87 (68%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G I GY + G VPSL AGL  G LAG GAY++S D R+V V L T+
+Sbjct  1   MDLIGFGYAALVTFGSIFGYKRRGGVPSLIAGLFVGCLAGYGAYRVSNDKRDVKVSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKIMPAGLVAGLS  87
+
+
+> sp|P56983|TM14A_MOUSE Transmembrane protein 14A OS=Mus musculus 
+OX=10090 GN=Tmem14a PE=3 SV=2
+Length=99
+
+ Score = 90.9 bits (224),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 50/87 (57%), Positives = 60/87 (69%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G ++GY + G VPSL AGL  G LAG GAY++S D R+V V L T+
+Sbjct  1   MDLIGFGYAALVTIGSVLGYKRRGGVPSLIAGLSVGLLAGYGAYRVSNDRRDVKVSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKVMPAGLVAGLS  87
+
+
+> sp|P56984|TM14A_PIG Transmembrane protein 14A OS=Sus scrofa OX=9823 
+GN=TMEM14A PE=3 SV=1
+Length=99
+
+ Score = 88.6 bits (218),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 50/87 (57%), Positives = 60/87 (69%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G I+GY + G VPSL AGL  G LAG GAY++S D R+V + L T+
+Sbjct  1   MDLIGFGYAALVTFGSILGYKRRGGVPSLIAGLFVGFLAGYGAYRVSLDKRDVKLSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKIMPAGLVAGLS  87
+
+
+> sp|P56982|TM14A_BOVIN Transmembrane protein 14A OS=Bos taurus 
+OX=9913 GN=TMEM14A PE=3 SV=1
+Length=99
+
+ Score = 87.8 bits (216),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 49/87 (56%), Positives = 59/87 (68%), Gaps = 0/87 (0%)
+
+Query  10  LHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNVWVFLATS  69
+           +   GFGYAALV  G I+GY + G V SL AGL  G LAG GAY++S D R+V + L T+
+Sbjct  1   MDLIGFGYAALVTFGSILGYKRRGGVLSLIAGLFVGFLAGYGAYRVSNDKRDVKLSLFTA  60
+
+Query  70  GTLAGIMGMRFYHSGKFMPAGLIAGAS  96
+             LA IMG+RF  S K MPAGL+AG S
+Sbjct  61  FFLATIMGVRFKRSKKIMPAGLVAGLS  87
+
+
+> sp|Q94A32|FAX2_ARATH Protein FATTY ACID EXPORT 2, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=FAX2 PE=2 SV=1
+Length=240
+
+ Score = 88.2 bits (217),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 35/103 (34%), Positives = 51/103 (50%), Gaps = 7/103 (7%)
+
+Query  2    QDTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+            + +  +        GYA LV  GG++GY+K+GS  SL AG   G  A +  Y  SQ P  
+Sbjct  129  KKSTPLSMSQKLTLGYAFLVGVGGLMGYLKSGSQKSLLAG---GLSAAVLLYVFSQLPTK  185
+
+Query  62   ----VWVFLATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMV  100
+                  V +  +G L  +MG R+  S K  PAG+++  S +M 
+Sbjct  186  PVLASTVGVVMAGALMYVMGTRYMRSKKIFPAGVVSIMSFIMT  228
+
+
+> sp|Q93V66|FAX1_ARATH Protein FATTY ACID EXPORT 1, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=FAX1 PE=1 SV=1
+Length=226
+
+ Score = 85.5 bits (210),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 52/101 (51%), Gaps = 9/101 (9%)
+
+Query  10   LHWFGFG--YAALVASGGIIGYVKAGSVPSLAAGLLFGS---LAGLGAYQLSQDPRNVWV  64
+            +H F FG  Y  LV SGG++G+  + ++ SL+ G+L+G         + ++ ++ ++ + 
+Sbjct  100  IHDFCFGIPYGGLVVSGGLLGFAFSRNLTSLSTGVLYGGGLLALSTLSLKIWREGKSSFP  159
+
+Query  65   FLATSGTLAGIMGMR----FYHSGKFMPAGLIAGASLLMVA  101
+            ++     L+ ++  +    +  + K  PAG+ A  S  M+ 
+Sbjct  160  YILGQAVLSAVVFWKNFTAYSMTKKLFPAGVFAVISACMLC  200
+
+
+> sp|Q9C6T7|FAX5_ARATH Protein FATTY ACID EXPORT 5 OS=Arabidopsis 
+thaliana OX=3702 GN=FAX5 PE=3 SV=1
+Length=119
+
+ Score = 79.3 bits (194),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 39/101 (39%), Positives = 49/101 (49%), Gaps = 9/101 (9%)
+
+Query  10   LHWFGFG--YAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAY-QLSQDPRNVWVFL  66
+            +H F F   Y  L+  GG IGY+K GS+ SLA G   G L  L  +  L    +     L
+Sbjct  1    MHDFCFTIPYGILLIVGGFIGYLKKGSIASLAGGAGTGLLVVLAGFISLKAFEKKKTSLL  60
+
+Query  67   AT------SGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVA  101
+            AT      +  L  +MG RF  + K MPA L+AG S LM  
+Sbjct  61   ATLLETVIAAALTFVMGQRFLQTQKIMPAALVAGISALMTC  101
+
+
+> sp|Q9LJU6|FAX6_ARATH Protein FATTY ACID EXPORT 6 OS=Arabidopsis 
+thaliana OX=3702 GN=FAX6 PE=3 SV=1
+Length=119
+
+ Score = 78.2 bits (191),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 37/101 (37%), Positives = 52/101 (51%), Gaps = 9/101 (9%)
+
+Query  10   LHWFGFG--YAALVASGGIIGYVKAGSVPSLAAGLLFGS---LAGLGAYQLSQDPRNVWV  64
+            +H F F   Y  L+  GG IGY+K GS+ S A G   G    LAG  + +  +  +N  +
+Sbjct  1    MHDFCFTIPYGMLLIGGGFIGYMKKGSITSFAGGAGTGLLLILAGYISLKAFEKKKNSTI  60
+
+Query  65   FLAT----SGTLAGIMGMRFYHSGKFMPAGLIAGASLLMVA  101
+             +      +  L  +MG R+  +GK MPAGL+AG S LM  
+Sbjct  61   AMVLQTVIAAALTLVMGQRYLLTGKIMPAGLVAGISALMTC  101
+
+
+> sp|Q6UXP3|TM14E_HUMAN Transmembrane protein 14EP OS=Homo sapiens 
+OX=9606 GN=TMEM14EP PE=5 SV=1
+Length=125
+
+ Score = 70.1 bits (170),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 34/59 (58%), Positives = 39/59 (66%), Gaps = 0/59 (0%)
+
+Query  3   DTGSVVPLHWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN  61
+           D G  VPL+W GF YAAL A GGI GY K GSV S +AG  F  LAGL A Q S++P+ 
+Sbjct  4   DPGPQVPLYWLGFVYAALAALGGISGYAKVGSVQSPSAGFFFSELAGLDASQPSRNPKE  62
+
+
+> sp|Q75JB5|TM14_DICDI Transmembrane protein 14 homolog OS=Dictyostelium 
+discoideum OX=44689 GN=DDB_G0271790 PE=3 SV=1
+Length=112
+
+ Score = 68.5 bits (166),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 37/94 (39%), Positives = 54/94 (57%), Gaps = 3/94 (3%)
+
+Query  18   AALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNV--WVFLATSGTLAGI  75
+            AA+V SGG+IGY K+ S+PSL AG +FG L    AY LSQ    V   V +  S  L G+
+Sbjct  16   AAIVLSGGVIGYAKSKSMPSLIAGSVFGLLYSTSAYYLSQGNSKVGLGVSVLASSLLGGV  75
+
+Query  76   MGMRFYHSGKFMPAGLIAGASLLMVAKVGVSMFN  109
+            MG +   + K +P  L  G++  +++  G  ++N
+Sbjct  76   MGKKAIATSKPIPIILATGSAFTLLSS-GKELYN  108
+
+
+> sp|O64847|FAX7_ARATH Protein FATTY ACID EXPORT 7 OS=Arabidopsis 
+thaliana OX=3702 GN=FAX7 PE=3 SV=1
+Length=108
+
+ Score = 65.8 bits (159),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 35/94 (37%), Positives = 51/94 (54%), Gaps = 7/94 (7%)
+
+Query  11  HWFGFGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN----VWVFL  66
+             F   YA+L+  GG++GY+K GS  SL AG   G  A L  Y  ++ P N      + +
+Sbjct  7   QKFTLAYASLLGVGGLMGYLKRGSKISLVAG---GGSAALFYYVYTELPGNPVLASSIGI  63
+
+Query  67  ATSGTLAGIMGMRFYHSGKFMPAGLIAGASLLMV  100
+             S  L G+MG R+  + K +PAGL++  SL+M 
+Sbjct  64  VGSAALTGMMGSRYLRTRKVVPAGLVSVVSLVMT  97
+
+
+> sp|Q9P7G3|YK45_SCHPO TMEM14 protein homolog P14E8.05c OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAP14E8.05c 
+PE=3 SV=1
+Length=101
+
+ Score = 63.9 bits (154),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 33/79 (42%), Gaps = 1/79 (1%)
+
+Query  15  FGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRN-VWVFLATSGTLA  73
+              + L+  GG+IGY++  S  SL AG   G+     +  + +     +      S  L 
+Sbjct  8   LVLSFLLTVGGLIGYLRKKSKVSLIAGTALGANFAWASKLMERGSSQGINYAFYGSLVLL  67
+
+Query  74  GIMGMRFYHSGKFMPAGLI  92
+              G RFY S K +P  L 
+Sbjct  68  ASSGPRFYKSRKPVPMILT  86
+
+
+> sp|P47131|YJ55_YEAST TMEM14 protein homolog YJR085C OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YJR085C 
+PE=1 SV=1
+Length=105
+
+ Score = 57.7 bits (138),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 28/82 (34%), Positives = 44/82 (54%), Gaps = 3/82 (4%)
+
+Query  15  FGYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDP-RNVWVFLATSGTLA  73
+           +  + L  +GG++GY + GS+PSL +GL+FGS+ G+  Y L  +    + + L  S  L 
+Sbjct  6   YTLSLLTTAGGLMGYYRKGSIPSLVSGLVFGSVYGIAGYLLHMNRDGGLEMALGASTLLL  65
+
+Query  74  GIMGMRFYHSG--KFMPAGLIA  93
+           G   +R   S   K +P  L A
+Sbjct  66  GAGVIRGMPSRFTKPVPVVLTA  87
+
+
+> sp|Q9ZVH7|FAX3_ARATH Protein FATTY ACID EXPORT 3, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=FAX3 PE=2 SV=2
+Length=335
+
+ Score = 43.1 bits (100),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 16/72 (22%), Positives = 32/72 (44%), Gaps = 3/72 (4%)
+
+Query  14   GFGYAALVASGGIIGYVKAGSVPSLAAGLLFGS---LAGLGAYQLSQDPRNVWVFLATSG  70
+            G  Y  L+  GG I ++ +GS+P++  G++ G       L + +  +   +   FL    
+Sbjct  208  GIPYGLLLLVGGFINFMVSGSIPAIRFGVILGGALFALSLASLKSHRKGESSTKFLKGQM  267
+
+Query  71   TLAGIMGMRFYH  82
+             +  I+ +R   
+Sbjct  268  AIVAIIFLRELR  279
+
+
+> sp|Q8LPG1|FAX4_ARATH Protein FATTY ACID EXPORT 4, chloroplastic 
+OS=Arabidopsis thaliana OX=3702 GN=FAX4 PE=2 SV=1
+Length=177
+
+ Score = 37.3 bits (85),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 24/89 (27%), Positives = 37/89 (42%), Gaps = 3/89 (3%)
+
+Query  16   GYAALVASGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDPRNV---WVFLATSGTL  72
+             Y  L+  GG+  Y K+GS  SL  GL    L     +        V    + L  +   
+Sbjct  66   TYGVLLLGGGLFAYSKSGSKGSLFGGLTGSVLMASAYFLTKSPETRVLGDTIGLGAAFLF  125
+
+Query  73   AGIMGMRFYHSGKFMPAGLIAGASLLMVA  101
+            + + G R   S K +PAG +   S+ M++
+Sbjct  126  SSVFGFRLASSRKPVPAGPLLLLSIGMLS  154
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.137    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0421    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4963400128
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

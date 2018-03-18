@@ -1,0 +1,3909 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q8DJ43|3kziH
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q8DJ43|PSBH_THEEB Photosystem II reaction center protein H O...  132     3e-40
+  sp|P19052|PSBH_THEVL Photosystem II reaction center protein H (...  130     2e-39
+  sp|Q2JLQ8|PSBH_SYNJB Photosystem II reaction center protein H O...  107     2e-30
+  sp|Q2JUV4|PSBH_SYNJA Photosystem II reaction center protein H O...  104     3e-29
+  sp|B2JA13|PSBH_NOSP7 Photosystem II reaction center protein H O...  103     7e-29
+  sp|Q4G3C2|PSBH_EMIHU Photosystem II reaction center protein H O...  102     2e-28
+  sp|B8HR15|PSBH_CYAP4 Photosystem II reaction center protein H O...  101     3e-28
+  sp|Q1ACH2|PSBH_CHAVU Photosystem II reaction center protein H O...  101     4e-28
+  sp|Q6YXN1|PSBH_PHYPA Photosystem II reaction center protein H O...  100     8e-28
+  sp|Q32RU4|PSBH_STAPU Photosystem II reaction center protein H O...  100     1e-27
+  sp|Q32RQ3|PSBH_ZYGCR Photosystem II reaction center protein H O...  100     1e-27
+  sp|A0T0A9|PSBH_PHATC Photosystem II reaction center protein H O...  99.8    2e-27
+  sp|Q85CN0|PSBH_ANTFO Photosystem II reaction center protein H O...  99.8    2e-27
+  sp|Q8M9Z3|PSBH_CHAGL Photosystem II reaction center protein H O...  99.0    5e-27
+  sp|Q110N3|PSBH_TRIEI Photosystem II reaction center protein H O...  98.6    5e-27
+  sp|Q9TKW7|PSBH_NEPOL Photosystem II reaction center protein H O...  99.0    5e-27
+  sp|Q71KP6|PSBH_SPIMX Photosystem II reaction center protein H O...  98.6    7e-27
+  sp|P12160|PSBH_MARPO Photosystem II reaction center protein H O...  97.8    1e-26
+  sp|Q71KQ7|PSBH_COLOB Photosystem II reaction center protein H O...  97.8    1e-26
+  sp|Q6EW23|PSBH_NYMAL Photosystem II reaction center protein H O...  95.9    7e-26
+  sp|P49475|PSBH_ODOSI Photosystem II reaction center protein H O...  95.5    8e-26
+  sp|Q3ZJ26|PSBH_TUPAK Photosystem II reaction center protein H O...  95.5    1e-25
+  sp|Q70XX9|PSBH_AMBTC Photosystem II reaction center protein H O...  95.1    1e-25
+  sp|P06415|PSBH_TOBAC Photosystem II reaction center protein H O...  94.7    2e-25
+  sp|Q2VEF1|PSBH_SOLTU Photosystem II reaction center protein H O...  94.7    2e-25
+  sp|Q2MI72|PSBH_SOLLC Photosystem II reaction center protein H O...  94.7    2e-25
+  sp|Q2MIF9|PSBH_SOLBU Photosystem II reaction center protein H O...  94.7    2e-25
+  sp|Q33C03|PSBH_NICTO Photosystem II reaction center protein H O...  94.7    2e-25
+  sp|Q3C1M6|PSBH_NICSY Photosystem II reaction center protein H O...  94.7    2e-25
+  sp|Q7FNS3|PSBH_ATRBE Photosystem II reaction center protein H O...  94.7    2e-25
+  sp|Q06GN1|PSBH_PIPCE Photosystem II reaction center protein H O...  94.7    2e-25
+  sp|Q4VZI9|PSBH_CUCSA Photosystem II reaction center protein H O...  94.7    2e-25
+  sp|Q332U8|PSBH_LACSA Photosystem II reaction center protein H O...  94.7    2e-25
+  sp|Q36632|PSBH_POPDE Photosystem II reaction center protein H O...  94.4    2e-25
+  sp|Q14FC8|PSBH_POPAL Photosystem II reaction center protein H O...  94.4    2e-25
+  sp|Q49KW9|PSBH_EUCGG Photosystem II reaction center protein H O...  94.4    3e-25
+  sp|Q2PMQ6|PSBH_SOYBN Photosystem II reaction center protein H O...  94.0    4e-25
+  sp|Q7YJU9|PSBH_CALFG Photosystem II reaction center protein H O...  93.6    5e-25
+  sp|Q0G9J0|PSBH_LIRTU Photosystem II reaction center protein H O...  93.2    7e-25
+  sp|Q06GW8|PSBH_DRIGR Photosystem II reaction center protein H O...  93.2    7e-25
+  sp|Q9XQR3|PSBH_PEA Photosystem II reaction center protein H OS=...  93.2    8e-25
+  sp|Q2L934|PSBH_GOSHI Photosystem II reaction center protein H O...  93.2    8e-25
+  sp|A0ZZ64|PSBH_GOSBA Photosystem II reaction center protein H O...  93.2    8e-25
+  sp|Q1KXT0|PSBH_HELAN Photosystem II reaction center protein H O...  92.8    1e-24
+  sp|Q3BAK8|PSBH_PHAAO Photosystem II reaction center protein H O...  92.4    1e-24
+  sp|A0A364|PSBH_COFAR Photosystem II reaction center protein H O...  92.4    2e-24
+  sp|Q9MUV4|PSBH_MESVI Photosystem II reaction center protein H O...  92.0    2e-24
+  sp|P56323|PSBH_CHLVU Photosystem II reaction center protein H O...  92.0    3e-24
+  sp|B1XIE1|PSBH_SYNP2 Photosystem II reaction center protein H O...  91.7    3e-24
+  sp|B2Y1Y8|PSBH_WELMI Photosystem II reaction center protein H O...  91.3    4e-24
+  sp|P56780|PSBH_ARATH Photosystem II reaction center protein H O...  91.3    4e-24
+  sp|Q8WHZ4|PSBH_PSINU Photosystem II reaction center protein H O...  91.3    4e-24
+  sp|Q85FJ4|PSBH_ADICA Photosystem II reaction center protein H O...  91.3    4e-24
+  sp|Q06FN9|PSBH_PELHO Photosystem II reaction center protein H O...  90.5    8e-24
+  sp|P41627|PSBH_PINTH Photosystem II reaction center protein H O...  90.5    9e-24
+  sp|Q0P3N4|PSBH_OSTTA Photosystem II reaction center protein H O...  90.5    1e-23
+  sp|Q06SI9|PSBH_STIHE Photosystem II reaction center protein H O...  90.5    1e-23
+  sp|Q9BBQ7|PSBH_LOTJA Photosystem II reaction center protein H O...  90.1    1e-23
+  sp|Q09ME8|PSBH_CITSI Photosystem II reaction center protein H O...  89.7    1e-23
+  sp|P69553|PSBH_OENEH Photosystem II reaction center protein H O...  89.0    3e-23
+  sp|P69552|PSBH_OENAR Photosystem II reaction center protein H O...  89.0    3e-23
+  sp|Q20F20|PSBH_OLTVI Photosystem II reaction center protein H O...  89.0    3e-23
+  sp|Q0ZIZ0|PSBH_VITVI Photosystem II reaction center protein H O...  88.6    4e-23
+  sp|P0C422|PSBH_ORYSJ Photosystem II reaction center protein H O...  88.6    4e-23
+  sp|P0C421|PSBH_ORYSI Photosystem II reaction center protein H O...  88.6    4e-23
+  sp|P0C420|PSBH_ORYSA Photosystem II reaction center protein H O...  88.6    4e-23
+  sp|Q6ENE5|PSBH_ORYNI Photosystem II reaction center protein H O...  88.6    4e-23
+  sp|Q71KN4|PSBH_KLEBI Photosystem II reaction center protein H O...  88.6    6e-23
+  sp|Q5SD22|PSBH_HUPLU Photosystem II reaction center protein H O...  88.2    7e-23
+  sp|Q0IDC8|PSBH_SYNS3 Photosystem II reaction center protein H O...  87.8    7e-23
+  sp|Q7NCH7|PSBH_GLOVI Photosystem II reaction center protein H O...  88.2    8e-23
+  sp|Q06RA3|PSBH_JASNU Photosystem II reaction center protein H O...  87.8    8e-23
+  sp|P05146|PSBH_SPIOL Photosystem II reaction center protein H O...  87.8    9e-23
+  sp|P12363|PSBH_HORVU Photosystem II reaction center protein H O...  87.8    1e-22
+  sp|P69555|PSBH_WHEAT Photosystem II reaction center protein H O...  87.4    1e-22
+  sp|A1E9V3|PSBH_SORBI Photosystem II reaction center protein H O...  87.4    1e-22
+  sp|P69554|PSBH_SECCE Photosystem II reaction center protein H O...  87.4    1e-22
+  sp|Q6ENT5|PSBH_SACOF Photosystem II reaction center protein H O...  87.4    1e-22
+  sp|Q6L373|PSBH_SACHY Photosystem II reaction center protein H O...  87.4    1e-22
+  sp|P24993|PSBH_MAIZE Photosystem II reaction center protein H O...  87.4    1e-22
+  sp|A1EA37|PSBH_AGRST Photosystem II reaction center protein H O...  87.4    1e-22
+  sp|Q85X08|PSBH_PINKO Photosystem II reaction center protein H O...  87.4    1e-22
+  sp|P22666|PSBH_CHLRE Photosystem II reaction center protein H O...  87.8    1e-22
+  sp|B7JW07|PSBH_CYAP8 Photosystem II reaction center protein H O...  87.0    1e-22
+  sp|B1WS17|PSBH_CYAA5 Photosystem II reaction center protein H O...  86.7    2e-22
+  sp|Q6B8Y7|PSBH_GRATL Photosystem II reaction center protein H O...  86.3    3e-22
+  sp|Q1KVV3|PSBH_TETOB Photosystem II reaction center protein H O...  86.7    3e-22
+  sp|A5GWI2|PSBH_SYNR3 Photosystem II reaction center protein H O...  85.5    5e-22
+  sp|P14835|PSBH_SYNY3 Photosystem II reaction center protein H O...  85.1    8e-22
+  sp|Q09WY8|PSBH_MORIN Photosystem II reaction center protein H O...  85.1    9e-22
+  sp|B7K6Q5|PSBH_CYAP7 Photosystem II reaction center protein H O...  85.1    1e-21
+  sp|Q68RX8|PSBH_PANGI Photosystem II reaction center protein H O...  85.1    1e-21
+  sp|Q0G9T3|PSBH_DAUCA Photosystem II reaction center protein H O...  84.7    1e-21
+  sp|B0JGF6|PSBH_MICAN Photosystem II reaction center protein H O...  83.2    4e-21
+  sp|O19925|PSBH_CYACA Photosystem II reaction center protein H O...  83.2    5e-21
+  sp|Q5N2J2|PSBH_SYNP6 Photosystem II reaction center protein H O...  82.8    6e-21
+  sp|Q31RR2|PSBH_SYNE7 Photosystem II reaction center protein H O...  82.8    6e-21
+  sp|Q3AMZ3|PSBH_SYNSC Photosystem II reaction center protein H O...  82.4    1e-20
+  sp|Q3AUQ6|PSBH_SYNS9 Photosystem II reaction center protein H O...  82.4    1e-20
+  sp|Q7U9I7|PSBH_SYNPX Photosystem II reaction center protein H O...  82.4    1e-20
+  sp|P48105|PSBH_CYAPA Photosystem II reaction center protein H O...  81.6    2e-20
+  sp|A5GIH4|PSBH_SYNPW Photosystem II reaction center protein H O...  80.9    4e-20
+  sp|O78514|PSBH_GUITH Photosystem II reaction center protein H O...  80.5    6e-20
+  sp|Q8YYK2|PSBH_NOSS1 Photosystem II reaction center protein H O...  80.1    7e-20
+  sp|Q3M4N8|PSBH_ANAVT Photosystem II reaction center protein H O...  80.1    7e-20
+  sp|Q85FZ2|PSBH_CYAM1 Photosystem II reaction center protein H O...  79.7    9e-20
+  sp|P31555|PSBH_EUGGR Photosystem II reaction center protein H O...  78.2    5e-19
+  sp|Q06J21|PSBH_BIGNA Photosystem II reaction center protein H O...  77.0    1e-18
+  sp|Q1XDG1|PSBH_PYRYE Photosystem II reaction center protein H O...  75.5    5e-18
+  sp|P51325|PSBH_PORPU Photosystem II reaction center protein H O...  75.5    5e-18
+  sp|A0T0P8|PSBH_THAPS Photosystem II reaction center protein H O...  75.1    6e-18
+  sp|P31095|PSBH_PROHO Photosystem II reaction center protein H O...  67.8    4e-15
+  sp|Q46HC2|PSBH_PROMT Photosystem II reaction center protein H O...  65.1    4e-14
+  sp|A2C084|PSBH_PROM1 Photosystem II reaction center protein H O...  65.1    4e-14
+  sp|Q7V4V2|PSBH_PROMM Photosystem II reaction center protein H O...  55.5    2e-10
+  sp|A2CCI3|PSBH_PROM3 Photosystem II reaction center protein H O...  55.5    2e-10
+  sp|A2BP50|PSBH_PROMS Photosystem II reaction center protein H O...  49.7    3e-08
+  sp|Q31CT1|PSBH_PROM9 Photosystem II reaction center protein H O...  49.7    3e-08
+  sp|A8G2R0|PSBH_PROM2 Photosystem II reaction center protein H O...  49.7    3e-08
+  sp|A3PAX2|PSBH_PROM0 Photosystem II reaction center protein H O...  49.7    3e-08
+  sp|Q7V341|PSBH_PROMP Photosystem II reaction center protein H O...  49.3    4e-08
+  sp|A2BUN2|PSBH_PROM5 Photosystem II reaction center protein H O...  49.3    4e-08
+  sp|A9BDM2|PSBH_PROM4 Photosystem II reaction center protein H O...  48.5    8e-08
+  sp|Q7VDT5|PSBH_PROMA Photosystem II reaction center protein H O...  47.8    2e-07
+
+
+> sp|Q8DJ43|PSBH_THEEB Photosystem II reaction center protein H 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 GN=psbH 
+PE=1 SV=1
+Length=66
+
+ Score = 132 bits (332),  Expect = 3e-40, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV
+Sbjct  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+
+Query  61  SWKALG  66
+           SWKALG
+Sbjct  61  SWKALG  66
+
+
+> sp|P19052|PSBH_THEVL Photosystem II reaction center protein H 
+(Fragment) OS=Thermosynechococcus vulcanus OX=32053 GN=psbH 
+PE=1 SV=2
+Length=65
+
+ Score = 130 bits (327),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 65/65 (100%), Positives = 65/65 (100%), Gaps = 0/65 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS
+Sbjct  1   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  60
+
+Query  62  WKALG  66
+           WKALG
+Sbjct  61  WKALG  65
+
+
+> sp|Q2JLQ8|PSBH_SYNJB Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain JA-2-3B'a(2-13)) OX=321332 GN=psbH 
+PE=3 SV=1
+Length=67
+
+ Score = 107 bits (267),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 51/66 (77%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LGD+LRPLNSEYGKVAPGWGTTPLMAVFM LF VFLLIIL+IYN +L+L+ +NV
+Sbjct  1   MAIRTRLGDLLRPLNSEYGKVAPGWGTTPLMAVFMALFAVFLLIILQIYNKSLLLEDINV  60
+
+Query  61  SWKALG  66
+           SW++L 
+Sbjct  61  SWESLS  66
+
+
+> sp|Q2JUV4|PSBH_SYNJA Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain JA-3-3Ab) OX=321327 GN=psbH PE=3 
+SV=1
+Length=67
+
+ Score = 104 bits (259),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 50/66 (76%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LGD+LRPLNSEYGKVAPGWGTTPLMAVFM LF +FLLIIL+IYN +L+L+ +NV
+Sbjct  1   MAIRTKLGDLLRPLNSEYGKVAPGWGTTPLMAVFMVLFGIFLLIILQIYNKSLLLEDINV  60
+
+Query  61  SWKALG  66
+           SW++L 
+Sbjct  61  SWESLS  66
+
+
+> sp|B2JA13|PSBH_NOSP7 Photosystem II reaction center protein H 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 103 bits (256),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 48/66 (73%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDIL+PLNSEYGKVAPGWGTTP+MAVFM LF VFLLIIL++YN +L++  V V
+Sbjct  1   MAQRTRLGDILKPLNSEYGKVAPGWGTTPVMAVFMALFFVFLLIILQLYNRSLLVQDVLV  60
+
+Query  61  SWKALG  66
+            W++LG
+Sbjct  61  DWRSLG  66
+
+
+> sp|Q4G3C2|PSBH_EMIHU Photosystem II reaction center protein H 
+OS=Emiliania huxleyi OX=2903 GN=psbH PE=3 SV=1
+Length=66
+
+ Score = 102 bits (253),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 48/62 (77%), Positives = 57/62 (92%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLN+EYGKVAPGWGTTP+M VFMGLFLVFL+IIL+IYNS++IL+ V+V
+Sbjct  1   MALRTRLGEILRPLNAEYGKVAPGWGTTPVMGVFMGLFLVFLVIILQIYNSSIILENVDV  60
+
+Query  61  SW  62
+            W
+Sbjct  61  DW  62
+
+
+> sp|B8HR15|PSBH_CYAP4 Photosystem II reaction center protein H 
+OS=Cyanothece sp. (strain PCC 7425 / ATCC 29141) OX=395961 
+GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 101 bits (252),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 57/66 (86%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RTWLGD+L+PLNSEYGKVAPGWGT PLMAVFMGLFLVFLLIILE+YNSTL+L+GVNV
+Sbjct  1   MAKRTWLGDVLKPLNSEYGKVAPGWGTAPLMAVFMGLFLVFLLIILELYNSTLMLEGVNV  60
+
+Query  61  SWKALG  66
+           +W ALG
+Sbjct  61  NWTALG  66
+
+
+> sp|Q1ACH2|PSBH_CHAVU Photosystem II reaction center protein H 
+OS=Chara vulgaris OX=55564 GN=psbH PE=3 SV=1
+Length=78
+
+ Score = 101 bits (252),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 46/63 (73%), Positives = 57/63 (90%), Gaps = 0/63 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           RRT +GDIL+PLNSEYGKVAPGWGTT LM +FM LF VFL+IILEIYN++++LDG++VSW
+Sbjct  15  RRTDVGDILKPLNSEYGKVAPGWGTTVLMGIFMALFAVFLVIILEIYNASVLLDGISVSW  74
+
+Query  63  KAL  65
+            +L
+Sbjct  75  ASL  77
+
+
+> sp|Q6YXN1|PSBH_PHYPA Photosystem II reaction center protein H 
+OS=Physcomitrella patens subsp. patens OX=3218 GN=psbH PE=3 
+SV=3
+Length=74
+
+ Score = 100 bits (250),  Expect = 8e-28, Method: Compositional matrix adjust.
+ Identities = 47/61 (77%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +R+ LGDIL+PLNSEYGKVAPGWGTTPLM V MGLF VFL+IILE+YNS+++LDGV VS
+Sbjct  14  GKRSGLGDILKPLNSEYGKVAPGWGTTPLMGVAMGLFAVFLVIILELYNSSVLLDGVPVS  73
+
+Query  62  W  62
+           W
+Sbjct  74  W  74
+
+
+> sp|Q32RU4|PSBH_STAPU Photosystem II reaction center protein H 
+OS=Staurastrum punctulatum OX=102822 GN=psbH PE=3 SV=1
+Length=74
+
+ Score = 100 bits (249),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 46/61 (75%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           RRT LGDIL+PLNSEYGKVAPGWGTT LM VFM LF VFL+IILE+YN++++LDG+ VSW
+Sbjct  14  RRTALGDILKPLNSEYGKVAPGWGTTVLMGVFMALFAVFLVIILELYNASVVLDGIPVSW  73
+
+Query  63  K  63
+           +
+Sbjct  74  Q  74
+
+
+> sp|Q32RQ3|PSBH_ZYGCR Photosystem II reaction center protein H 
+OS=Zygnema circumcarinatum OX=35869 GN=psbH PE=3 SV=1
+Length=75
+
+ Score = 100 bits (248),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 45/61 (74%), Positives = 56/61 (92%), Gaps = 0/61 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           R+T +GDIL+PLNSEYGKVAPGWGTT LMAVFM LF VFL+IILE+YN++++LDG+ VSW
+Sbjct  15  RQTSVGDILKPLNSEYGKVAPGWGTTVLMAVFMALFAVFLVIILELYNASVLLDGLAVSW  74
+
+Query  63  K  63
+           +
+Sbjct  75  Q  75
+
+
+> sp|A0T0A9|PSBH_PHATC Photosystem II reaction center protein H 
+OS=Phaeodactylum tricornutum (strain CCAP 1055/1) OX=556484 
+GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 99.8 bits (247),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 47/62 (76%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG++LRPLN+EYGKVAPGWGTTP+MAV MG FLVFLLIIL+IYNS+LI++ V+V
+Sbjct  1   MALRTRLGELLRPLNAEYGKVAPGWGTTPIMAVVMGAFLVFLLIILQIYNSSLIIENVDV  60
+
+Query  61  SW  62
+            W
+Sbjct  61  DW  62
+
+
+> sp|Q85CN0|PSBH_ANTFO Photosystem II reaction center protein H 
+OS=Anthoceros formosae OX=48387 GN=psbH PE=2 SV=3
+Length=74
+
+ Score = 99.8 bits (247),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 45/61 (74%), Positives = 56/61 (92%), Gaps = 0/61 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RR+ +G+IL+PLNSEYGKVAPGWGTTPLM + MGLF VFL+IILE+YNS+++LDGV+VS
+Sbjct  14  GRRSGIGNILKPLNSEYGKVAPGWGTTPLMGIAMGLFAVFLVIILELYNSSVLLDGVSVS  73
+
+Query  62  W  62
+           W
+Sbjct  74  W  74
+
+
+> sp|Q8M9Z3|PSBH_CHAGL Photosystem II reaction center protein H 
+OS=Chaetosphaeridium globosum OX=96477 GN=psbH PE=3 SV=3
+Length=74
+
+ Score = 99.0 bits (245),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 46/60 (77%), Positives = 54/60 (90%), Gaps = 0/60 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           RR+ +GDIL+PLNSEYGKVAPGWGTT LM VFM LF VFL+IILEIYNS+++LDG+ VSW
+Sbjct  15  RRSAVGDILKPLNSEYGKVAPGWGTTVLMGVFMALFAVFLVIILEIYNSSVLLDGIPVSW  74
+
+
+> sp|Q110N3|PSBH_TRIEI Photosystem II reaction center protein H 
+OS=Trichodesmium erythraeum (strain IMS101) OX=203124 GN=psbH 
+PE=3 SV=1
+Length=67
+
+ Score = 98.6 bits (244),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 47/65 (72%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           M++RT LGDIL+PLNSEYGKV+PGWGTT +MAVF+GLF VFLLIIL+IYNS+L+L+ V+V
+Sbjct  1   MSQRTGLGDILKPLNSEYGKVSPGWGTTWVMAVFIGLFFVFLLIILQIYNSSLLLENVDV  60
+
+Query  61  SWKAL  65
+            W  L
+Sbjct  61  DWANL  65
+
+
+> sp|Q9TKW7|PSBH_NEPOL Photosystem II reaction center protein H 
+OS=Nephroselmis olivacea OX=31312 GN=psbH PE=3 SV=1
+Length=81
+
+ Score = 99.0 bits (245),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 48/65 (74%), Positives = 55/65 (85%), Gaps = 0/65 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           ++ T LG  L+PLNSEYGKVAPGWGTTP+M +FM LF VFLLIILEIYNS+LILD V VS
+Sbjct  16  SKITPLGTALKPLNSEYGKVAPGWGTTPVMGLFMALFAVFLLIILEIYNSSLILDDVGVS  75
+
+Query  62  WKALG  66
+           W +LG
+Sbjct  76  WYSLG  80
+
+
+> sp|Q71KP6|PSBH_SPIMX Photosystem II reaction center protein H 
+OS=Spirogyra maxima OX=3180 GN=psbH PE=3 SV=3
+Length=78
+
+ Score = 98.6 bits (244),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 45/63 (71%), Positives = 56/63 (89%), Gaps = 0/63 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           ++T +GDIL+PLNSEYGKVAPGWGTT LM VFM LF VFL+IILEIYN++++LDG+ VSW
+Sbjct  15  KKTSVGDILKPLNSEYGKVAPGWGTTVLMGVFMALFAVFLVIILEIYNASVLLDGIPVSW  74
+
+Query  63  KAL  65
+            +L
+Sbjct  75  NSL  77
+
+
+> sp|P12160|PSBH_MARPO Photosystem II reaction center protein H 
+OS=Marchantia polymorpha OX=3197 GN=psbH PE=3 SV=2
+Length=74
+
+ Score = 97.8 bits (242),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 42/61 (69%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +++ +GDIL+PLNSEYGKVAPGWGTTPLM + M LF VFL++ILE+YNS+++LDGV+VS
+Sbjct  14  GKKSGIGDILKPLNSEYGKVAPGWGTTPLMGIMMALFAVFLVVILELYNSSVLLDGVSVS  73
+
+Query  62  W  62
+           W
+Sbjct  74  W  74
+
+
+> sp|Q71KQ7|PSBH_COLOB Photosystem II reaction center protein H 
+OS=Coleochaete orbicularis OX=3124 GN=psbH PE=3 SV=3
+Length=79
+
+ Score = 97.8 bits (242),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 44/63 (70%), Positives = 56/63 (89%), Gaps = 0/63 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           RRT +GD+L+PLNSEYGKVAPGWGTT LM VF+ LF VFL+IILE+YN++++LDG+ VSW
+Sbjct  15  RRTSVGDVLKPLNSEYGKVAPGWGTTVLMGVFIALFAVFLVIILELYNASVLLDGIPVSW  74
+
+Query  63  KAL  65
+            +L
+Sbjct  75  SSL  77
+
+
+> sp|Q6EW23|PSBH_NYMAL Photosystem II reaction center protein H 
+OS=Nymphaea alba OX=34301 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 95.9 bits (237),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 44/59 (75%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG+++S
+Sbjct  15  RRTIVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISLS  73
+
+
+> sp|P49475|PSBH_ODOSI Photosystem II reaction center protein H 
+OS=Odontella sinensis OX=1514140 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 95.5 bits (236),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 46/63 (73%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLN+EYGKVAPGWGTTP+M V M  FLVFLLIIL+IYNS+LI++ V+V
+Sbjct  1   MALRTRLGEILRPLNAEYGKVAPGWGTTPIMGVVMLAFLVFLLIILQIYNSSLIIENVDV  60
+
+Query  61  SWK  63
+            W 
+Sbjct  61  DWS  63
+
+
+> sp|Q3ZJ26|PSBH_TUPAK Photosystem II reaction center protein H 
+OS=Tupiella akineta OX=160070 GN=psbH PE=3 SV=1
+Length=78
+
+ Score = 95.5 bits (236),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 45/62 (73%), Positives = 52/62 (84%), Gaps = 0/62 (0%)
+
+Query  5   TWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSWKA  64
+           T LG +LRPLNSEYGKVAPGWGT  LM VFM LF VFL+IILEIYNS++ILD V +SW++
+Sbjct  16  TALGTLLRPLNSEYGKVAPGWGTATLMGVFMALFAVFLVIILEIYNSSVILDDVQMSWQS  75
+
+Query  65  LG  66
+           L 
+Sbjct  76  LA  77
+
+
+> sp|Q70XX9|PSBH_AMBTC Photosystem II reaction center protein H 
+OS=Amborella trichopoda OX=13333 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 95.1 bits (235),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG++VS
+Sbjct  15  RRTIVGDLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGISVS  73
+
+
+> sp|P06415|PSBH_TOBAC Photosystem II reaction center protein H 
+OS=Nicotiana tabacum OX=4097 GN=psbH PE=3 SV=2
+Length=73
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q2VEF1|PSBH_SOLTU Photosystem II reaction center protein H 
+OS=Solanum tuberosum OX=4113 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q2MI72|PSBH_SOLLC Photosystem II reaction center protein H 
+OS=Solanum lycopersicum OX=4081 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q2MIF9|PSBH_SOLBU Photosystem II reaction center protein H 
+OS=Solanum bulbocastanum OX=147425 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q33C03|PSBH_NICTO Photosystem II reaction center protein H 
+OS=Nicotiana tomentosiformis OX=4098 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q3C1M6|PSBH_NICSY Photosystem II reaction center protein H 
+OS=Nicotiana sylvestris OX=4096 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q7FNS3|PSBH_ATRBE Photosystem II reaction center protein H 
+OS=Atropa belladonna OX=33113 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q06GN1|PSBH_PIPCE Photosystem II reaction center protein H 
+OS=Piper cenocladum OX=398741 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 44/59 (75%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG+ VS
+Sbjct  15  RRTVIGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGILVS  73
+
+
+> sp|Q4VZI9|PSBH_CUCSA Photosystem II reaction center protein H 
+OS=Cucumis sativus OX=3659 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 42/57 (74%), Positives = 51/57 (89%), Gaps = 0/57 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG++
+Sbjct  15  RRTVVGDLLKPLNSEYGKVAPGWGTTPLMGVAMSLFAIFLCIILEIYNSSILLDGIS  71
+
+
+> sp|Q332U8|PSBH_LACSA Photosystem II reaction center protein H 
+OS=Lactuca sativa OX=4236 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 94.7 bits (234),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTTVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q36632|PSBH_POPDE Photosystem II reaction center protein H 
+OS=Populus deltoides OX=3696 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 94.4 bits (233),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTIVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q14FC8|PSBH_POPAL Photosystem II reaction center protein H 
+OS=Populus alba OX=43335 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 94.4 bits (233),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTIVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q49KW9|PSBH_EUCGG Photosystem II reaction center protein H 
+OS=Eucalyptus globulus subsp. globulus OX=71271 GN=psbH PE=3 
+SV=1
+Length=73
+
+ Score = 94.4 bits (233),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTIVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q2PMQ6|PSBH_SOYBN Photosystem II reaction center protein H 
+OS=Glycine max OX=3847 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 94.0 bits (232),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG++++
+Sbjct  15  RRTVVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSILLDGISMN  73
+
+
+> sp|Q7YJU9|PSBH_CALFG Photosystem II reaction center protein H 
+OS=Calycanthus floridus var. glaucus OX=212734 GN=psbH PE=3 
+SV=3
+Length=73
+
+ Score = 93.6 bits (231),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 50/59 (85%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT  GD+L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG++ S
+Sbjct  15  RRTLTGDLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGISTS  73
+
+
+> sp|Q0G9J0|PSBH_LIRTU Photosystem II reaction center protein H 
+OS=Liriodendron tulipifera OX=3415 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 93.2 bits (230),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT  GD+L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+++S
+Sbjct  15  RRTITGDLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGISMS  73
+
+
+> sp|Q06GW8|PSBH_DRIGR Photosystem II reaction center protein H 
+OS=Drimys granadensis OX=224735 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 93.2 bits (230),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT  G++L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG+++S
+Sbjct  15  RRTTTGNLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGISMS  73
+
+
+> sp|Q9XQR3|PSBH_PEA Photosystem II reaction center protein H OS=Pisum 
+sativum OX=3888 GN=psbH PE=1 SV=3
+Length=73
+
+ Score = 93.2 bits (230),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD+L+PLNSEYGKVAPGWGTTPLM + M LF VFL IILEIYNS+L+LD ++++
+Sbjct  15  RRTAVGDLLKPLNSEYGKVAPGWGTTPLMGIAMALFAVFLSIILEIYNSSLLLDQISMN  73
+
+
+> sp|Q2L934|PSBH_GOSHI Photosystem II reaction center protein H 
+OS=Gossypium hirsutum OX=3635 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 93.2 bits (230),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG++++
+Sbjct  15  RRTVVGDFLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|A0ZZ64|PSBH_GOSBA Photosystem II reaction center protein H 
+OS=Gossypium barbadense OX=3634 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 93.2 bits (230),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +GD L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG++++
+Sbjct  15  RRTVVGDFLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q1KXT0|PSBH_HELAN Photosystem II reaction center protein H 
+OS=Helianthus annuus OX=4232 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 92.8 bits (229),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +G++L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTTVGNLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q3BAK8|PSBH_PHAAO Photosystem II reaction center protein H 
+OS=Phalaenopsis aphrodite subsp. formosana OX=308872 GN=psbH 
+PE=3 SV=1
+Length=73
+
+ Score = 92.4 bits (228),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 41/59 (69%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +G +L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG++++
+Sbjct  15  RRTGVGSLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGISIN  73
+
+
+> sp|A0A364|PSBH_COFAR Photosystem II reaction center protein H 
+OS=Coffea arabica OX=13443 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 92.4 bits (228),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           RRT +G +L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  RRTTVGSLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q9MUV4|PSBH_MESVI Photosystem II reaction center protein H 
+OS=Mesostigma viride OX=41882 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 92.0 bits (227),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 41/63 (65%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           +RT +G+ L+PLNSEYGKVAPGWGTT LM VFM LF VFL+IIL+IYN++++LDG+  +W
+Sbjct  8   KRTVVGNFLKPLNSEYGKVAPGWGTTVLMGVFMALFAVFLVIILQIYNASVLLDGIPANW  67
+
+Query  63  KAL  65
+            +L
+Sbjct  68  SSL  70
+
+
+> sp|P56323|PSBH_CHLVU Photosystem II reaction center protein H 
+OS=Chlorella vulgaris OX=3077 GN=psbH PE=3 SV=2
+Length=80
+
+ Score = 92.0 bits (227),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 43/62 (69%), Positives = 53/62 (85%), Gaps = 0/62 (0%)
+
+Query  4   RTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSWK  63
+            T LG +L+PLNSEYGKVAPGWGTT LM +FM LF VFL+IILEIYNS+++LD V +SW+
+Sbjct  17  STPLGTLLKPLNSEYGKVAPGWGTTVLMGIFMALFAVFLVIILEIYNSSVLLDDVTMSWE  76
+
+Query  64  AL  65
+           +L
+Sbjct  77  SL  78
+
+
+> sp|B1XIE1|PSBH_SYNP2 Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain ATCC 27264 / PCC 7002 / PR-6) 
+OX=32049 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 91.7 bits (226),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 54/66 (82%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDIL+PLNSEYGKVAPGWGTTPLM VFM LFLVFLLIIL+IYNS+LIL+G  V
+Sbjct  1   MAQRTRLGDILKPLNSEYGKVAPGWGTTPLMGVFMALFLVFLLIILQIYNSSLILEGFEV  60
+
+Query  61  SWKALG  66
+            W ALG
+Sbjct  61  DWTALG  66
+
+
+> sp|B2Y1Y8|PSBH_WELMI Photosystem II reaction center protein H 
+OS=Welwitschia mirabilis OX=3377 GN=psbH PE=3 SV=1
+Length=74
+
+ Score = 91.3 bits (225),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 41/60 (68%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           RRT +G  L+PLNSEYGKVAPGWGTTPLM  FM LF +FL ++LEIYNS+++L+G++VSW
+Sbjct  15  RRTGIGSYLKPLNSEYGKVAPGWGTTPLMGFFMVLFAIFLSLLLEIYNSSILLNGISVSW  74
+
+
+> sp|P56780|PSBH_ARATH Photosystem II reaction center protein H 
+OS=Arabidopsis thaliana OX=3702 GN=psbH PE=1 SV=2
+Length=73
+
+ Score = 91.3 bits (225),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           R T +G +L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++V+
+Sbjct  15  RSTTVGKLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISVN  73
+
+
+> sp|Q8WHZ4|PSBH_PSINU Photosystem II reaction center protein H 
+OS=Psilotum nudum OX=3240 GN=psbH PE=3 SV=3
+Length=74
+
+ Score = 91.3 bits (225),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 40/60 (67%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           +++ LG  L+PLNSEYG+VAPGWGTTPLM  FM LF +FL+IILEIYNS+++LDG+++SW
+Sbjct  15  KQSGLGVFLKPLNSEYGRVAPGWGTTPLMGFFMALFAIFLVIILEIYNSSVLLDGLSISW  74
+
+
+> sp|Q85FJ4|PSBH_ADICA Photosystem II reaction center protein H 
+OS=Adiantum capillus-veneris OX=13818 GN=psbH PE=2 SV=3
+Length=74
+
+ Score = 91.3 bits (225),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 40/60 (67%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           + ++LG +L+PLNSEYGKVAPGWGTTPLM  FM LF +FL+ ILEIYNS+++LDG+ +SW
+Sbjct  15  KISFLGMVLKPLNSEYGKVAPGWGTTPLMGFFMALFAIFLVTILEIYNSSVLLDGIAISW  74
+
+
+> sp|Q06FN9|PSBH_PELHO Photosystem II reaction center protein H 
+OS=Pelargonium hortorum OX=4031 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 90.5 bits (223),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 41/56 (73%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           RRT +G +L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG+
+Sbjct  15  RRTNVGSLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGI  70
+
+
+> sp|P41627|PSBH_PINTH Photosystem II reaction center protein H 
+OS=Pinus thunbergii OX=3350 GN=psbH PE=3 SV=2
+Length=75
+
+ Score = 90.5 bits (223),  Expect = 9e-24, Method: Compositional matrix adjust.
+ Identities = 42/60 (70%), Positives = 49/60 (82%), Gaps = 0/60 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           + T +G  L+PLNSEYGKVAPGWGTTPLM   M LF VFL IILEIYNS+++LDG+ VSW
+Sbjct  15  KETLVGTTLKPLNSEYGKVAPGWGTTPLMGFAMALFAVFLSIILEIYNSSVLLDGIPVSW  74
+
+
+> sp|Q0P3N4|PSBH_OSTTA Photosystem II reaction center protein H 
+OS=Ostreococcus tauri OX=70448 GN=psbH PE=3 SV=1
+Length=78
+
+ Score = 90.5 bits (223),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 43/60 (72%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           + T LG  LRPLNSEYGKVAPGWGTT LM+VF+GLF VF++I+LEIYN +LILD V V+W
+Sbjct  13  KVTALGTALRPLNSEYGKVAPGWGTTILMSVFIGLFAVFIVILLEIYNKSLILDNVGVNW  72
+
+
+> sp|Q06SI9|PSBH_STIHE Photosystem II reaction center protein H 
+OS=Stigeoclonium helveticum OX=55999 GN=psbH PE=3 SV=1
+Length=83
+
+ Score = 90.5 bits (223),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 44/63 (70%), Positives = 53/63 (84%), Gaps = 0/63 (0%)
+
+Query  4   RTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSWK  63
+            T LG +L+PLNSE GKV PGWGTT LM VFM LF VFL+I+LEIYNS++ILDGV +SW+
+Sbjct  20  STPLGRLLKPLNSEAGKVLPGWGTTVLMGVFMALFAVFLVILLEIYNSSVILDGVTMSWE  79
+
+Query  64  ALG  66
+           +LG
+Sbjct  80  SLG  82
+
+
+> sp|Q9BBQ7|PSBH_LOTJA Photosystem II reaction center protein H 
+OS=Lotus japonicus OX=34305 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 90.1 bits (222),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 39/59 (66%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           R+T +G +L+PLNSEYGKVAPGWGTTPLM + M LF +FL IILEIYNS+++LDG++++
+Sbjct  15  RQTSVGSLLKPLNSEYGKVAPGWGTTPLMGIAMALFAIFLSIILEIYNSSILLDGISMN  73
+
+
+> sp|Q09ME8|PSBH_CITSI Photosystem II reaction center protein H 
+OS=Citrus sinensis OX=2711 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 89.7 bits (221),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 41/59 (69%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           +RT  G +L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  KRTSAGGLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISLN  73
+
+
+> sp|P69553|PSBH_OENEH Photosystem II reaction center protein H 
+OS=Oenothera elata subsp. hookeri OX=85636 GN=psbH PE=3 SV=2
+Length=73
+
+ Score = 89.0 bits (219),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           ++T LG +L+PLNSEYGKVAPGWGTTPLM + M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  KKTGLGGLLKPLNSEYGKVAPGWGTTPLMGLAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|P69552|PSBH_OENAR Photosystem II reaction center protein H 
+OS=Oenothera argillicola OX=3940 GN=psbH PE=3 SV=2
+Length=73
+
+ Score = 89.0 bits (219),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           ++T LG +L+PLNSEYGKVAPGWGTTPLM + M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  KKTGLGGLLKPLNSEYGKVAPGWGTTPLMGLAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q20F20|PSBH_OLTVI Photosystem II reaction center protein H 
+OS=Oltmannsiellopsis viridis OX=51324 GN=psbH PE=3 SV=1
+Length=72
+
+ Score = 89.0 bits (219),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 42/60 (70%), Positives = 50/60 (83%), Gaps = 0/60 (0%)
+
+Query  4   RTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSWK  63
+            T LG +LRPLNSEYGKVAPGWGTT LM  FM LF VFL+IILEIYNS+++L+ V +SW+
+Sbjct  13  ETALGTLLRPLNSEYGKVAPGWGTTVLMGTFMALFAVFLVIILEIYNSSVLLEDVPMSWQ  72
+
+
+> sp|Q0ZIZ0|PSBH_VITVI Photosystem II reaction center protein H 
+OS=Vitis vinifera OX=29760 GN=psbH PE=3 SV=2
+Length=73
+
+ Score = 88.6 bits (218),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           + T +G++L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  KPTTVGELLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISLN  73
+
+
+> sp|P0C422|PSBH_ORYSJ Photosystem II reaction center protein H 
+OS=Oryza sativa subsp. japonica OX=39947 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 88.6 bits (218),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 40/56 (71%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           R+T +G++L+PLNSEYGKVAPGWGTTP M V M LF VFL IILEIYNS+++LDG+
+Sbjct  15  RQTRVGNLLKPLNSEYGKVAPGWGTTPFMGVAMALFAVFLSIILEIYNSSVLLDGI  70
+
+
+> sp|P0C421|PSBH_ORYSI Photosystem II reaction center protein H 
+OS=Oryza sativa subsp. indica OX=39946 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 88.6 bits (218),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 40/56 (71%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           R+T +G++L+PLNSEYGKVAPGWGTTP M V M LF VFL IILEIYNS+++LDG+
+Sbjct  15  RQTRVGNLLKPLNSEYGKVAPGWGTTPFMGVAMALFAVFLSIILEIYNSSVLLDGI  70
+
+
+> sp|P0C420|PSBH_ORYSA Photosystem II reaction center protein H 
+OS=Oryza sativa OX=4530 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 88.6 bits (218),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 40/56 (71%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           R+T +G++L+PLNSEYGKVAPGWGTTP M V M LF VFL IILEIYNS+++LDG+
+Sbjct  15  RQTRVGNLLKPLNSEYGKVAPGWGTTPFMGVAMALFAVFLSIILEIYNSSVLLDGI  70
+
+
+> sp|Q6ENE5|PSBH_ORYNI Photosystem II reaction center protein H 
+OS=Oryza nivara OX=4536 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 88.6 bits (218),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 40/56 (71%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           R+T +G++L+PLNSEYGKVAPGWGTTP M V M LF VFL IILEIYNS+++LDG+
+Sbjct  15  RQTRVGNLLKPLNSEYGKVAPGWGTTPFMGVAMALFAVFLSIILEIYNSSVLLDGI  70
+
+
+> sp|Q71KN4|PSBH_KLEBI Photosystem II reaction center protein H 
+OS=Klebsormidium bilatum OX=201239 GN=psbH PE=3 SV=3
+Length=79
+
+ Score = 88.6 bits (218),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 39/59 (66%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  7   LGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSWKAL  65
+           +  +L+PLN+EYGKVAPGWGTT LM VFM LF VFL+IILE+YN++++LDGV VSW+++
+Sbjct  19  VSSVLKPLNAEYGKVAPGWGTTVLMGVFMALFAVFLVIILELYNASVLLDGVPVSWQSV  77
+
+
+> sp|Q5SD22|PSBH_HUPLU Photosystem II reaction center protein H 
+OS=Huperzia lucidula OX=37429 GN=psbH PE=3 SV=3
+Length=74
+
+ Score = 88.2 bits (217),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 40/60 (67%), Positives = 49/60 (82%), Gaps = 0/60 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           + T LG+ L+PLNSEYGKVAPGWGTTP+M V M  F VF +IILE+YNS++ LDG+ VSW
+Sbjct  15  KSTGLGNALKPLNSEYGKVAPGWGTTPIMGVAMASFAVFSVIILELYNSSVSLDGIPVSW  74
+
+
+> sp|Q0IDC8|PSBH_SYNS3 Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain CC9311) OX=64471 GN=psbH PE=3 
+SV=1
+Length=68
+
+ Score = 87.8 bits (216),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 49/66 (74%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLLIIL++YN +LIL+G+NV
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMALFLVFLLIILQLYNKSLILEGINV  60
+
+Query  61  SWKALG  66
+           +W  LG
+Sbjct  61  NWNGLG  66
+
+
+> sp|Q7NCH7|PSBH_GLOVI Photosystem II reaction center protein H 
+OS=Gloeobacter violaceus (strain PCC 7421) OX=251221 GN=psbH 
+PE=3 SV=1
+Length=78
+
+ Score = 88.2 bits (217),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 50/59 (85%), Gaps = 0/59 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           MARRTWLGD L+PLNSE GK +PGWGTTP+M   + LF VFL+IIL+I N++L+L+GVN
+Sbjct  1   MARRTWLGDRLKPLNSEIGKASPGWGTTPIMGALIALFGVFLIIILQIANNSLLLEGVN  59
+
+
+> sp|Q06RA3|PSBH_JASNU Photosystem II reaction center protein H 
+OS=Jasminum nudiflorum OX=126431 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 87.8 bits (216),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           + T +G +L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  KPTIVGSLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|P05146|PSBH_SPIOL Photosystem II reaction center protein H 
+OS=Spinacia oleracea OX=3562 GN=psbH PE=1 SV=4
+Length=73
+
+ Score = 87.8 bits (216),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           + T +G +L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  15  KPTTVGALLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|P12363|PSBH_HORVU Photosystem II reaction center protein H 
+OS=Hordeum vulgare OX=4513 GN=psbH PE=1 SV=2
+Length=73
+
+ Score = 87.8 bits (216),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+
+Sbjct  15  KRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSILLDGI  70
+
+
+> sp|P69555|PSBH_WHEAT Photosystem II reaction center protein H 
+OS=Triticum aestivum OX=4565 GN=psbH PE=1 SV=2
+Length=73
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+
+Sbjct  15  KRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGI  70
+
+
+> sp|A1E9V3|PSBH_SORBI Photosystem II reaction center protein H 
+OS=Sorghum bicolor OX=4558 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+
+Sbjct  15  KRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGI  70
+
+
+> sp|P69554|PSBH_SECCE Photosystem II reaction center protein H 
+OS=Secale cereale OX=4550 GN=psbH PE=3 SV=2
+Length=73
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+
+Sbjct  15  KRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGI  70
+
+
+> sp|Q6ENT5|PSBH_SACOF Photosystem II reaction center protein H 
+OS=Saccharum officinarum OX=4547 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+
+Sbjct  15  KRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGI  70
+
+
+> sp|Q6L373|PSBH_SACHY Photosystem II reaction center protein H 
+OS=Saccharum hybrid OX=15819 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+
+Sbjct  15  KRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGI  70
+
+
+> sp|P24993|PSBH_MAIZE Photosystem II reaction center protein H 
+OS=Zea mays OX=4577 GN=psbH PE=1 SV=2
+Length=73
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+
+Sbjct  15  KRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGI  70
+
+
+> sp|A1EA37|PSBH_AGRST Photosystem II reaction center protein H 
+OS=Agrostis stolonifera OX=63632 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGV  58
+           +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+
+Sbjct  15  KRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGI  70
+
+
+> sp|Q85X08|PSBH_PINKO Photosystem II reaction center protein H 
+OS=Pinus koraiensis OX=88728 GN=psbH PE=3 SV=3
+Length=75
+
+ Score = 87.4 bits (215),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 42/61 (69%), Positives = 48/61 (79%), Gaps = 0/61 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           R T +G  L+PLNSEYGKVAPGWGTT LM   M LF VFL IILEIYNS+++LDG+ VSW
+Sbjct  15  RETRVGTSLKPLNSEYGKVAPGWGTTALMGFTMALFAVFLSIILEIYNSSVLLDGIPVSW  74
+
+Query  63  K  63
+            
+Sbjct  75  D  75
+
+
+> sp|P22666|PSBH_CHLRE Photosystem II reaction center protein H 
+OS=Chlamydomonas reinhardtii OX=3055 GN=psbH PE=1 SV=3
+Length=88
+
+ Score = 87.8 bits (216),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 45/62 (73%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  5   TWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSWKA  64
+           T LG +LRPLNSE GKV PGWGTT LMAVF+ LF  FLLIILEIYNS+LILD V++SW+ 
+Sbjct  24  TPLGTLLRPLNSEAGKVLPGWGTTVLMAVFILLFAAFLLIILEIYNSSLILDDVSMSWET  83
+
+Query  65  LG  66
+           L 
+Sbjct  84  LA  85
+
+
+> sp|B7JW07|PSBH_CYAP8 Photosystem II reaction center protein H 
+OS=Cyanothece sp. (strain PCC 8801) OX=41431 GN=psbH PE=3 SV=1
+Length=64
+
+ Score = 87.0 bits (214),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 51/62 (82%), Positives = 57/62 (92%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTPLM VFMGLFLVFLLIIL+IYNS+LIL+G  V
+Sbjct  1   MAQRTGLGDLLRPLNSEYGKVVPGWGTTPLMGVFMGLFLVFLLIILQIYNSSLILEGFTV  60
+
+Query  61  SW  62
+           +W
+Sbjct  61  TW  62
+
+
+> sp|B1WS17|PSBH_CYAA5 Photosystem II reaction center protein H 
+OS=Cyanothece sp. (strain ATCC 51142) OX=43989 GN=psbH PE=3 
+SV=1
+Length=64
+
+ Score = 86.7 bits (213),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 51/62 (82%), Positives = 57/62 (92%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTPLM VFMGLFLVFLLIIL+IYNS+LIL+G  V
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPLMGVFMGLFLVFLLIILQIYNSSLILNGFTV  60
+
+Query  61  SW  62
+           +W
+Sbjct  61  TW  62
+
+
+> sp|Q6B8Y7|PSBH_GRATL Photosystem II reaction center protein H 
+OS=Gracilaria tenuistipitata var. liui OX=285951 GN=psbH PE=3 
+SV=1
+Length=67
+
+ Score = 86.3 bits (212),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 50/66 (76%), Positives = 57/66 (86%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLNSEYGKVAPGWGTTP+M VFM LF +FLLIIL+IYNS+LIL+ V+V
+Sbjct  1   MALRTRLGEILRPLNSEYGKVAPGWGTTPIMGVFMLLFFLFLLIILQIYNSSLILENVDV  60
+
+Query  61  SWKALG  66
+            W  LG
+Sbjct  61  DWATLG  66
+
+
+> sp|Q1KVV3|PSBH_TETOB Photosystem II reaction center protein H 
+OS=Tetradesmus obliquus OX=3088 GN=psbH PE=3 SV=1
+Length=86
+
+ Score = 86.7 bits (213),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 44/62 (71%), Positives = 50/62 (81%), Gaps = 0/62 (0%)
+
+Query  5   TWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSWKA  64
+           T LG +LRPLNSE GKV PGWGTT LM VF+ LF VFLLIILEIYNS+L+LD V +SW+ 
+Sbjct  24  TPLGTLLRPLNSESGKVLPGWGTTVLMGVFIVLFAVFLLIILEIYNSSLLLDDVTMSWET  83
+
+Query  65  LG  66
+           L 
+Sbjct  84  LA  85
+
+
+> sp|A5GWI2|PSBH_SYNR3 Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain RCC307) OX=316278 GN=psbH PE=3 
+SV=1
+Length=66
+
+ Score = 85.5 bits (210),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 47/66 (71%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLL+IL++YN +L+LDG+ V
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMALFLVFLLVILQLYNRSLLLDGITV  60
+
+Query  61  SWKALG  66
+           +W  LG
+Sbjct  61  NWNGLG  66
+
+
+> sp|P14835|PSBH_SYNY3 Photosystem II reaction center protein H 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=psbH PE=1 SV=3
+Length=64
+
+ Score = 85.1 bits (209),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 50/62 (81%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDILRPLNSEYGKV PGWGTTP+M VFM LFLVFLLIIL+IYNS+LIL+G +V
+Sbjct  1   MAQRTRLGDILRPLNSEYGKVVPGWGTTPVMGVFMALFLVFLLIILQIYNSSLILEGFSV  60
+
+Query  61  SW  62
+            W
+Sbjct  61  DW  62
+
+
+> sp|Q09WY8|PSBH_MORIN Photosystem II reaction center protein H 
+OS=Morus indica OX=248361 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 85.1 bits (209),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 37/55 (67%), Positives = 50/55 (91%), Gaps = 0/55 (0%)
+
+Query  7   LGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           +G++L+PLNSEYGKVAPGWGTTPLM + M LF +FL IILEIYNS+++LDG++++
+Sbjct  19  VGNLLKPLNSEYGKVAPGWGTTPLMGIAMALFAIFLSIILEIYNSSILLDGISMN  73
+
+
+> sp|B7K6Q5|PSBH_CYAP7 Photosystem II reaction center protein H 
+OS=Cyanothece sp. (strain PCC 7424) OX=65393 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 85.1 bits (209),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 52/66 (79%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RTWLGDILRPLNSEYGKVAPGWGTT LM VFM LF VFLLIIL+IYNS+L+L+G  V
+Sbjct  1   MAQRTWLGDILRPLNSEYGKVAPGWGTTGLMGVFMLLFFVFLLIILQIYNSSLLLEGFKV  60
+
+Query  61  SWKALG  66
+            W++LG
+Sbjct  61  DWRSLG  66
+
+
+> sp|Q68RX8|PSBH_PANGI Photosystem II reaction center protein H 
+OS=Panax ginseng OX=4054 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 85.1 bits (209),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 38/59 (64%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           + T +G++L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LD ++++
+Sbjct  15  KPTTVGNLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDEISMN  73
+
+
+> sp|Q0G9T3|PSBH_DAUCA Photosystem II reaction center protein H 
+OS=Daucus carota OX=4039 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 84.7 bits (208),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 38/59 (64%), Positives = 50/59 (85%), Gaps = 0/59 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           + T +G +L+PLNSEYGKVAPGWGT PLM V M LF +FL IILEIYNS+++LDG++++
+Sbjct  15  KPTTVGGLLKPLNSEYGKVAPGWGTAPLMGVAMALFAIFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|B0JGF6|PSBH_MICAN Photosystem II reaction center protein H 
+OS=Microcystis aeruginosa (strain NIES-843) OX=449447 GN=psbH 
+PE=3 SV=1
+Length=64
+
+ Score = 83.2 bits (204),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 50/62 (81%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LG+ILRPLNSEYGKV+PGWGTT LM VFM LFLVFLLIIL+IYNS+LIL+G NV
+Sbjct  1   MAQRTRLGEILRPLNSEYGKVSPGWGTTLLMGVFMALFLVFLLIILQIYNSSLILEGFNV  60
+
+Query  61  SW  62
+            W
+Sbjct  61  DW  62
+
+
+> sp|O19925|PSBH_CYACA Photosystem II reaction center protein H 
+OS=Cyanidium caldarium OX=2771 GN=psbH PE=1 SV=1
+Length=67
+
+ Score = 83.2 bits (204),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 45/66 (68%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA +T LG++LRPLNS+YGKVAPGWGTTP+M +FM LFL+FL+IIL+IYNS+LIL+ +++
+Sbjct  1   MALKTRLGELLRPLNSQYGKVAPGWGTTPIMGIFMALFLLFLIIILQIYNSSLILENLDI  60
+
+Query  61  SWKALG  66
+           SW  LG
+Sbjct  61  SWTTLG  66
+
+
+> sp|Q5N2J2|PSBH_SYNP6 Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) 
+OX=269084 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 82.8 bits (203),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 51/66 (77%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDILRPLNSEYGKVAPGWGTTP+M VFM LF VFLLIIL+IYNS+L+LD   V
+Sbjct  1   MAQRTRLGDILRPLNSEYGKVAPGWGTTPVMGVFMLLFFVFLLIILQIYNSSLVLDTFKV  60
+
+Query  61  SWKALG  66
+            W++LG
+Sbjct  61  DWRSLG  66
+
+
+> sp|Q31RR2|PSBH_SYNE7 Photosystem II reaction center protein H 
+OS=Synechococcus elongatus (strain PCC 7942) OX=1140 GN=psbH 
+PE=3 SV=1
+Length=67
+
+ Score = 82.8 bits (203),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 51/66 (77%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDILRPLNSEYGKVAPGWGTTP+M VFM LF VFLLIIL+IYNS+L+LD   V
+Sbjct  1   MAQRTRLGDILRPLNSEYGKVAPGWGTTPVMGVFMLLFFVFLLIILQIYNSSLVLDTFKV  60
+
+Query  61  SWKALG  66
+            W++LG
+Sbjct  61  DWRSLG  66
+
+
+> sp|Q3AMZ3|PSBH_SYNSC Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain CC9605) OX=110662 GN=psbH PE=3 
+SV=1
+Length=66
+
+ Score = 82.4 bits (202),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 48/66 (73%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLL+IL++YN +LIL+G+NV
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMVLFLVFLLVILQLYNKSLILEGINV  60
+
+Query  61  SWKALG  66
+           +W  LG
+Sbjct  61  NWNGLG  66
+
+
+> sp|Q3AUQ6|PSBH_SYNS9 Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain CC9902) OX=316279 GN=psbH PE=3 
+SV=1
+Length=66
+
+ Score = 82.4 bits (202),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 48/66 (73%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLL+IL++YN +LIL+G+NV
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMVLFLVFLLVILQLYNKSLILEGINV  60
+
+Query  61  SWKALG  66
+           +W  LG
+Sbjct  61  NWNGLG  66
+
+
+> sp|Q7U9I7|PSBH_SYNPX Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=psbH PE=3 
+SV=1
+Length=66
+
+ Score = 82.4 bits (202),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 48/66 (73%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLL+IL++YN +LIL+G+NV
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMVLFLVFLLVILQLYNKSLILEGINV  60
+
+Query  61  SWKALG  66
+           +W  LG
+Sbjct  61  NWNGLG  66
+
+
+> sp|P48105|PSBH_CYAPA Photosystem II reaction center protein H 
+OS=Cyanophora paradoxa OX=2762 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 81.6 bits (200),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 50/64 (78%), Positives = 57/64 (89%), Gaps = 0/64 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           M +RT LG+ILRPLNSEYGKVAPGWGTTPLMAVFM LF VFLLII++IYNS+L+L+ V V
+Sbjct  1   MPQRTALGNILRPLNSEYGKVAPGWGTTPLMAVFMLLFFVFLLIIIQIYNSSLLLENVQV  60
+
+Query  61  SWKA  64
+           SW A
+Sbjct  61  SWTA  64
+
+
+> sp|A5GIH4|PSBH_SYNPW Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain WH7803) OX=32051 GN=psbH PE=3 
+SV=1
+Length=66
+
+ Score = 80.9 bits (198),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 47/66 (71%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLL+IL++YN +LIL+G+NV
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMVLFLVFLLVILQLYNQSLILEGINV  60
+
+Query  61  SWKALG  66
+           +W   G
+Sbjct  61  NWNGAG  66
+
+
+> sp|O78514|PSBH_GUITH Photosystem II reaction center protein H 
+OS=Guillardia theta OX=55529 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 80.5 bits (197),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 47/66 (71%), Positives = 55/66 (83%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG++LRPLNSEYGKVAPGWGTTP M   M LF +FLLIIL+IYNS+LIL+ V+V
+Sbjct  1   MALRTRLGELLRPLNSEYGKVAPGWGTTPAMGFVMLLFFLFLLIILQIYNSSLILENVDV  60
+
+Query  61  SWKALG  66
+            W +LG
+Sbjct  61  DWASLG  66
+
+
+> sp|Q8YYK2|PSBH_NOSS1 Photosystem II reaction center protein H 
+OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 
+GN=psbH PE=3 SV=1
+Length=62
+
+ Score = 80.1 bits (196),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 46/62 (74%), Positives = 54/62 (87%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDILRPLNSEYGKVAPGWGTTP+M VFM LFLVFLLIIL++YN ++++  V V
+Sbjct  1   MAQRTRLGDILRPLNSEYGKVAPGWGTTPVMGVFMALFLVFLLIILQLYNKSILIQDVRV  60
+
+Query  61  SW  62
+            W
+Sbjct  61  GW  62
+
+
+> sp|Q3M4N8|PSBH_ANAVT Photosystem II reaction center protein H 
+OS=Anabaena variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=psbH PE=3 SV=1
+Length=62
+
+ Score = 80.1 bits (196),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 46/62 (74%), Positives = 54/62 (87%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDILRPLNSEYGKVAPGWGTTP+M VFM LFLVFLLIIL++YN ++++  V V
+Sbjct  1   MAQRTRLGDILRPLNSEYGKVAPGWGTTPVMGVFMALFLVFLLIILQLYNKSILIQDVRV  60
+
+Query  61  SW  62
+            W
+Sbjct  61  GW  62
+
+
+> sp|Q85FZ2|PSBH_CYAM1 Photosystem II reaction center protein H 
+OS=Cyanidioschyzon merolae (strain 10D) OX=280699 GN=psbH PE=3 
+SV=1
+Length=64
+
+ Score = 79.7 bits (195),  Expect = 9e-20, Method: Compositional matrix adjust.
+ Identities = 46/62 (74%), Positives = 55/62 (89%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLNS+YGKVAPGWGTTP+M VFM LFL+FL+IIL+IYNS+L+L+ V V
+Sbjct  1   MALRTRLGEILRPLNSQYGKVAPGWGTTPIMGVFMVLFLLFLVIILQIYNSSLLLNDVQV  60
+
+Query  61  SW  62
+            W
+Sbjct  61  DW  62
+
+
+> sp|P31555|PSBH_EUGGR Photosystem II reaction center protein H 
+OS=Euglena gracilis OX=3039 GN=psbH PE=3 SV=1
+Length=70
+
+ Score = 78.2 bits (191),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 36/54 (67%), Positives = 44/54 (81%), Gaps = 0/54 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILD  56
+           + T LG IL+PLNS+YGKV PGWGT  +M +FM LF +FL IILEIYNS++ILD
+Sbjct  15  KTTTLGTILKPLNSKYGKVLPGWGTAGIMLIFMTLFAIFLTIILEIYNSSVILD  68
+
+
+> sp|Q06J21|PSBH_BIGNA Photosystem II reaction center protein H 
+OS=Bigelowiella natans OX=227086 GN=psbH PE=3 SV=1
+Length=74
+
+ Score = 77.0 bits (188),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 38/57 (67%), Positives = 45/57 (79%), Gaps = 0/57 (0%)
+
+Query  5   TWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           T LG +L+PLNSEYGKV+ GWGTT +MA+FM LF VFL IILEIYN +LIL  V + 
+Sbjct  18  TPLGTLLKPLNSEYGKVSIGWGTTGVMAIFMSLFAVFLTIILEIYNGSLILTDVTLQ  74
+
+
+> sp|Q1XDG1|PSBH_PYRYE Photosystem II reaction center protein H 
+OS=Pyropia yezoensis OX=2788 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 75.5 bits (184),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 48/66 (73%), Positives = 57/66 (86%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLNSEYGKVAPGWGTTP+M +FM LF +FLLIIL+IYNS+L+L+ V+V
+Sbjct  1   MALRTRLGEILRPLNSEYGKVAPGWGTTPIMGIFMLLFFLFLLIILQIYNSSLVLENVDV  60
+
+Query  61  SWKALG  66
+            W  LG
+Sbjct  61  DWATLG  66
+
+
+> sp|P51325|PSBH_PORPU Photosystem II reaction center protein H 
+OS=Porphyra purpurea OX=2787 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 75.5 bits (184),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 48/66 (73%), Positives = 57/66 (86%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLNSEYGKVAPGWGTTP+M +FM LF +FLLIIL+IYNS+L+L+ V+V
+Sbjct  1   MALRTRLGEILRPLNSEYGKVAPGWGTTPIMGIFMLLFFLFLLIILQIYNSSLVLENVDV  60
+
+Query  61  SWKALG  66
+            W  LG
+Sbjct  61  DWATLG  66
+
+
+> sp|A0T0P8|PSBH_THAPS Photosystem II reaction center protein H 
+OS=Thalassiosira pseudonana OX=35128 GN=psbH PE=3 SV=1
+Length=66
+
+ Score = 75.1 bits (183),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 45/62 (73%), Positives = 54/62 (87%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLN+EYGKV PGWGTTP+M + M LFLVFLLIIL+IYNS+LI++ V+V
+Sbjct  1   MALRTRLGEILRPLNAEYGKVVPGWGTTPIMGLTMVLFLVFLLIILQIYNSSLIIENVDV  60
+
+Query  61  SW  62
+            W
+Sbjct  61  DW  62
+
+
+> sp|P31095|PSBH_PROHO Photosystem II reaction center protein H 
+OS=Prochlorothrix hollandica OX=1223 GN=psbH PE=3 SV=2
+Length=64
+
+ Score = 67.8 bits (164),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 38/61 (62%), Positives = 48/61 (79%), Gaps = 0/61 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           M ++T L + L+P NS  GKV PGWGTTPLM +FMGL  VFLLIIL+IYNST++LD  +V
+Sbjct  1   MGQKTALSNFLKPFNSNAGKVVPGWGTTPLMGLFMGLLFVFLLIILQIYNSTIVLDAFSV  60
+
+Query  61  S  61
+           +
+Sbjct  61  N  61
+
+
+> sp|Q46HC2|PSBH_PROMT Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain NATL2A) OX=59920 GN=psbH 
+PE=3 SV=1
+Length=65
+
+ Score = 65.1 bits (157),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+MA    L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKSIGNSGQGKVVPGWGAVPVMAFIGVLLLVFLVIMLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|A2C084|PSBH_PROM1 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain NATL1A) OX=167555 GN=psbH 
+PE=3 SV=1
+Length=65
+
+ Score = 65.1 bits (157),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+MA    L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKSIGNSGQGKVVPGWGAVPVMAFIGVLLLVFLVIMLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|Q7V4V2|PSBH_PROMM Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9313) OX=74547 GN=psbH 
+PE=3 SV=1
+Length=62
+
+ Score = 55.5 bits (132),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 28/60 (47%), Positives = 42/60 (70%), Gaps = 1/60 (2%)
+
+Query  1   MARRTWLGDILRPLNS-EYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           MA+ T LG++++ L     GKV PGWGTTP+MA    + L+FL+ IL+IYN +L+L  ++
+Sbjct  1   MAQSTRLGNLIKSLPGYAPGKVVPGWGTTPVMAGIGFMLLIFLVTILQIYNQSLLLQSIS  60
+
+
+> sp|A2CCI3|PSBH_PROM3 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9303) OX=59922 GN=psbH 
+PE=3 SV=1
+Length=62
+
+ Score = 55.5 bits (132),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 28/60 (47%), Positives = 42/60 (70%), Gaps = 1/60 (2%)
+
+Query  1   MARRTWLGDILRPLNS-EYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           MA+ T LG++++ L     GKV PGWGTTP+MA    + L+FL+ IL+IYN +L+L  ++
+Sbjct  1   MAQSTRLGNLIKSLPGYAPGKVVPGWGTTPVMAGIGFMLLIFLVTILQIYNQSLLLQSIS  60
+
+
+> sp|A2BP50|PSBH_PROMS Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 GN=psbH 
+PE=3 SV=1
+Length=66
+
+ Score = 49.7 bits (117),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKAIGNSGQGKVVPGWGAVPVMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|Q31CT1|PSBH_PROM9 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 GN=psbH 
+PE=3 SV=1
+Length=66
+
+ Score = 49.7 bits (117),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKAIGNSGQGKVVPGWGAVPVMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|A8G2R0|PSBH_PROM2 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=psbH 
+PE=3 SV=1
+Length=66
+
+ Score = 49.7 bits (117),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKAIGNSGQGKVVPGWGAVPVMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|A3PAX2|PSBH_PROM0 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=psbH 
+PE=3 SV=1
+Length=66
+
+ Score = 49.7 bits (117),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKAIGNSGQGKVVPGWGAVPVMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|Q7V341|PSBH_PROMP Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus subsp. pastoris (strain CCMP1986 
+/ NIES-2087 / MED4) OX=59919 GN=psbH PE=3 SV=1
+Length=66
+
+ Score = 49.3 bits (116),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGTLLKAIGNSGQGKVVPGWGAVPIMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|A2BUN2|PSBH_PROM5 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 GN=psbH 
+PE=3 SV=1
+Length=66
+
+ Score = 49.3 bits (116),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGTLLKAIGNSGQGKVVPGWGAVPIMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|A9BDM2|PSBH_PROM4 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9211) OX=93059 GN=psbH 
+PE=3 SV=1
+Length=67
+
+ Score = 48.5 bits (114),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 31/66 (47%), Positives = 44/66 (67%), Gaps = 1/66 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV  GWG  P+MA    L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKSIGNSGQGKVVAGWGAVPVMAFIGVLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKAL  65
+           V W  +
+Sbjct  61  VDWNGV  66
+
+
+> sp|Q7VDT5|PSBH_PROMA Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 / SS120) 
+OX=167539 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 47.8 bits (112),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 30/66 (45%), Positives = 44/66 (67%), Gaps = 1/66 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T +G +L+ + NS  GKV  GWG  P+MA    L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTAVGSLLKSIGNSGQGKVVAGWGAVPVMAFVGVLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKAL  65
+           V W  +
+Sbjct  61  VDWNGV  66
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.145    0.467    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4997801312
+Results from round 2
+
+
+Query= Q8DJ43|3kziH
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|B2JA13|PSBH_NOSP7 Photosystem II reaction center protein H O...  107     2e-30
+  sp|Q2JLQ8|PSBH_SYNJB Photosystem II reaction center protein H O...  105     7e-30
+  sp|Q1ACH2|PSBH_CHAVU Photosystem II reaction center protein H O...  104     2e-29
+  sp|Q8DJ43|PSBH_THEEB Photosystem II reaction center protein H O...  104     3e-29
+  sp|Q71KP6|PSBH_SPIMX Photosystem II reaction center protein H O...  104     5e-29
+  sp|Q32RU4|PSBH_STAPU Photosystem II reaction center protein H O...  103     8e-29
+  sp|P19052|PSBH_THEVL Photosystem II reaction center protein H (...  102     9e-29
+  sp|Q71KQ7|PSBH_COLOB Photosystem II reaction center protein H O...  102     1e-28
+  sp|Q9TKW7|PSBH_NEPOL Photosystem II reaction center protein H O...  102     1e-28
+  sp|Q9MUV4|PSBH_MESVI Photosystem II reaction center protein H O...  102     2e-28
+  sp|Q6YXN1|PSBH_PHYPA Photosystem II reaction center protein H O...  102     2e-28
+  sp|Q4G3C2|PSBH_EMIHU Photosystem II reaction center protein H O...  101     3e-28
+  sp|Q8M9Z3|PSBH_CHAGL Photosystem II reaction center protein H O...  101     3e-28
+  sp|Q2JUV4|PSBH_SYNJA Photosystem II reaction center protein H O...  101     3e-28
+  sp|P06415|PSBH_TOBAC Photosystem II reaction center protein H O...  101     7e-28
+  sp|Q2VEF1|PSBH_SOLTU Photosystem II reaction center protein H O...  101     7e-28
+  sp|Q2MI72|PSBH_SOLLC Photosystem II reaction center protein H O...  101     7e-28
+  sp|Q2MIF9|PSBH_SOLBU Photosystem II reaction center protein H O...  101     7e-28
+  sp|Q33C03|PSBH_NICTO Photosystem II reaction center protein H O...  101     7e-28
+  sp|Q3C1M6|PSBH_NICSY Photosystem II reaction center protein H O...  101     7e-28
+  sp|Q7FNS3|PSBH_ATRBE Photosystem II reaction center protein H O...  101     7e-28
+  sp|Q85CN0|PSBH_ANTFO Photosystem II reaction center protein H O...  100     8e-28
+  sp|Q332U8|PSBH_LACSA Photosystem II reaction center protein H O...   99     1e-27
+  sp|Q2PMQ6|PSBH_SOYBN Photosystem II reaction center protein H O...   99     2e-27
+  sp|Q70XX9|PSBH_AMBTC Photosystem II reaction center protein H O...  99.5    2e-27
+  sp|Q110N3|PSBH_TRIEI Photosystem II reaction center protein H O...  99.5    2e-27
+  sp|P12160|PSBH_MARPO Photosystem II reaction center protein H O...  99.5    3e-27
+  sp|Q3ZJ26|PSBH_TUPAK Photosystem II reaction center protein H O...  99.5    3e-27
+  sp|Q85X08|PSBH_PINKO Photosystem II reaction center protein H O...  99.1    3e-27
+  sp|Q9XQR3|PSBH_PEA Photosystem II reaction center protein H OS=...  99.1    3e-27
+  sp|Q4VZI9|PSBH_CUCSA Photosystem II reaction center protein H O...  99.1    3e-27
+  sp|P56323|PSBH_CHLVU Photosystem II reaction center protein H O...  99.1    3e-27
+  sp|Q2L934|PSBH_GOSHI Photosystem II reaction center protein H O...  98.8    5e-27
+  sp|A0ZZ64|PSBH_GOSBA Photosystem II reaction center protein H O...  98.8    5e-27
+  sp|A0A364|PSBH_COFAR Photosystem II reaction center protein H O...  98.8    5e-27
+  sp|Q1KXT0|PSBH_HELAN Photosystem II reaction center protein H O...  98.8    5e-27
+  sp|Q36632|PSBH_POPDE Photosystem II reaction center protein H O...  98.8    5e-27
+  sp|Q14FC8|PSBH_POPAL Photosystem II reaction center protein H O...  98.8    5e-27
+  sp|Q32RQ3|PSBH_ZYGCR Photosystem II reaction center protein H O...  98.8    5e-27
+  sp|Q49KW9|PSBH_EUCGG Photosystem II reaction center protein H O...  98.8    6e-27
+  sp|Q06GW8|PSBH_DRIGR Photosystem II reaction center protein H O...  98.4    7e-27
+  sp|P41627|PSBH_PINTH Photosystem II reaction center protein H O...  98.4    7e-27
+  sp|P56780|PSBH_ARATH Photosystem II reaction center protein H O...  98.0    8e-27
+  sp|Q9BBQ7|PSBH_LOTJA Photosystem II reaction center protein H O...  98.0    9e-27
+  sp|P0C422|PSBH_ORYSJ Photosystem II reaction center protein H O...  98.0    9e-27
+  sp|P0C421|PSBH_ORYSI Photosystem II reaction center protein H O...  98.0    9e-27
+  sp|P0C420|PSBH_ORYSA Photosystem II reaction center protein H O...  98.0    9e-27
+  sp|Q6ENE5|PSBH_ORYNI Photosystem II reaction center protein H O...  98.0    9e-27
+  sp|Q3BAK8|PSBH_PHAAO Photosystem II reaction center protein H O...  98.0    9e-27
+  sp|Q06GN1|PSBH_PIPCE Photosystem II reaction center protein H O...  97.6    1e-26
+  sp|Q6EW23|PSBH_NYMAL Photosystem II reaction center protein H O...  97.6    1e-26
+  sp|Q20F20|PSBH_OLTVI Photosystem II reaction center protein H O...  97.2    2e-26
+  sp|P69553|PSBH_OENEH Photosystem II reaction center protein H O...  97.2    2e-26
+  sp|P69552|PSBH_OENAR Photosystem II reaction center protein H O...  97.2    2e-26
+  sp|Q8WHZ4|PSBH_PSINU Photosystem II reaction center protein H O...  97.2    2e-26
+  sp|B2Y1Y8|PSBH_WELMI Photosystem II reaction center protein H O...  97.2    2e-26
+  sp|A0T0A9|PSBH_PHATC Photosystem II reaction center protein H O...  96.8    2e-26
+  sp|Q0G9J0|PSBH_LIRTU Photosystem II reaction center protein H O...  96.8    3e-26
+  sp|P49475|PSBH_ODOSI Photosystem II reaction center protein H O...  96.8    3e-26
+  sp|Q09ME8|PSBH_CITSI Photosystem II reaction center protein H O...  96.8    3e-26
+  sp|Q06SI9|PSBH_STIHE Photosystem II reaction center protein H O...  96.8    3e-26
+  sp|Q0ZIZ0|PSBH_VITVI Photosystem II reaction center protein H O...  96.4    3e-26
+  sp|Q06FN9|PSBH_PELHO Photosystem II reaction center protein H O...  96.4    4e-26
+  sp|Q71KN4|PSBH_KLEBI Photosystem II reaction center protein H O...  96.4    4e-26
+  sp|Q7YJU9|PSBH_CALFG Photosystem II reaction center protein H O...  96.4    4e-26
+  sp|P69555|PSBH_WHEAT Photosystem II reaction center protein H O...  96.1    5e-26
+  sp|A1E9V3|PSBH_SORBI Photosystem II reaction center protein H O...  96.1    5e-26
+  sp|P69554|PSBH_SECCE Photosystem II reaction center protein H O...  96.1    5e-26
+  sp|Q6ENT5|PSBH_SACOF Photosystem II reaction center protein H O...  96.1    5e-26
+  sp|Q6L373|PSBH_SACHY Photosystem II reaction center protein H O...  96.1    5e-26
+  sp|P24993|PSBH_MAIZE Photosystem II reaction center protein H O...  96.1    5e-26
+  sp|A1EA37|PSBH_AGRST Photosystem II reaction center protein H O...  96.1    5e-26
+  sp|Q68RX8|PSBH_PANGI Photosystem II reaction center protein H O...  96.1    5e-26
+  sp|Q5SD22|PSBH_HUPLU Photosystem II reaction center protein H O...  96.1    6e-26
+  sp|P12363|PSBH_HORVU Photosystem II reaction center protein H O...  96.1    6e-26
+  sp|P05146|PSBH_SPIOL Photosystem II reaction center protein H O...  96.1    6e-26
+  sp|Q06RA3|PSBH_JASNU Photosystem II reaction center protein H O...  95.7    9e-26
+  sp|B1XIE1|PSBH_SYNP2 Photosystem II reaction center protein H O...  94.5    2e-25
+  sp|Q0G9T3|PSBH_DAUCA Photosystem II reaction center protein H O...  93.4    5e-25
+  sp|Q85FJ4|PSBH_ADICA Photosystem II reaction center protein H O...  93.4    6e-25
+  sp|P22666|PSBH_CHLRE Photosystem II reaction center protein H O...  92.6    2e-24
+  sp|P14835|PSBH_SYNY3 Photosystem II reaction center protein H O...  91.1    4e-24
+  sp|A5GWI2|PSBH_SYNR3 Photosystem II reaction center protein H O...  90.7    5e-24
+  sp|Q1KVV3|PSBH_TETOB Photosystem II reaction center protein H O...  91.4    5e-24
+  sp|Q6B8Y7|PSBH_GRATL Photosystem II reaction center protein H O...  90.3    8e-24
+  sp|Q0IDC8|PSBH_SYNS3 Photosystem II reaction center protein H O...  89.9    1e-23
+  sp|Q7NCH7|PSBH_GLOVI Photosystem II reaction center protein H O...  89.9    2e-23
+  sp|Q09WY8|PSBH_MORIN Photosystem II reaction center protein H O...  89.1    3e-23
+  sp|Q0P3N4|PSBH_OSTTA Photosystem II reaction center protein H O...  88.4    5e-23
+  sp|O78514|PSBH_GUITH Photosystem II reaction center protein H O...  87.6    9e-23
+  sp|Q5N2J2|PSBH_SYNP6 Photosystem II reaction center protein H O...  87.2    1e-22
+  sp|Q31RR2|PSBH_SYNE7 Photosystem II reaction center protein H O...  87.2    1e-22
+  sp|Q8YYK2|PSBH_NOSS1 Photosystem II reaction center protein H O...  86.0    3e-22
+  sp|Q3M4N8|PSBH_ANAVT Photosystem II reaction center protein H O...  86.0    3e-22
+  sp|B0JGF6|PSBH_MICAN Photosystem II reaction center protein H O...  85.7    6e-22
+  sp|Q3AMZ3|PSBH_SYNSC Photosystem II reaction center protein H O...  85.3    7e-22
+  sp|Q3AUQ6|PSBH_SYNS9 Photosystem II reaction center protein H O...  85.3    7e-22
+  sp|Q7U9I7|PSBH_SYNPX Photosystem II reaction center protein H O...  85.3    7e-22
+  sp|B8HR15|PSBH_CYAP4 Photosystem II reaction center protein H O...  85.3    7e-22
+  sp|O19925|PSBH_CYACA Photosystem II reaction center protein H O...  84.9    9e-22
+  sp|B1WS17|PSBH_CYAA5 Photosystem II reaction center protein H O...  84.5    1e-21
+  sp|A5GIH4|PSBH_SYNPW Photosystem II reaction center protein H O...  84.5    2e-21
+  sp|B7K6Q5|PSBH_CYAP7 Photosystem II reaction center protein H O...  84.1    2e-21
+  sp|B7JW07|PSBH_CYAP8 Photosystem II reaction center protein H O...  83.7    2e-21
+  sp|Q85FZ2|PSBH_CYAM1 Photosystem II reaction center protein H O...  83.3    4e-21
+  sp|A0T0P8|PSBH_THAPS Photosystem II reaction center protein H O...  81.8    2e-20
+  sp|P48105|PSBH_CYAPA Photosystem II reaction center protein H O...  80.7    4e-20
+  sp|Q06J21|PSBH_BIGNA Photosystem II reaction center protein H O...  80.7    6e-20
+  sp|P31555|PSBH_EUGGR Photosystem II reaction center protein H O...  79.9    1e-19
+  sp|Q1XDG1|PSBH_PYRYE Photosystem II reaction center protein H O...  79.5    1e-19
+  sp|P51325|PSBH_PORPU Photosystem II reaction center protein H O...  79.5    1e-19
+  sp|Q46HC2|PSBH_PROMT Photosystem II reaction center protein H O...  77.6    7e-19
+  sp|A2C084|PSBH_PROM1 Photosystem II reaction center protein H O...  77.6    7e-19
+  sp|P31095|PSBH_PROHO Photosystem II reaction center protein H O...  70.6    3e-16
+  sp|Q7V4V2|PSBH_PROMM Photosystem II reaction center protein H O...  69.5    1e-15
+  sp|A2CCI3|PSBH_PROM3 Photosystem II reaction center protein H O...  69.5    1e-15
+  sp|A9BDM2|PSBH_PROM4 Photosystem II reaction center protein H O...  63.3    2e-13
+  sp|A2BP50|PSBH_PROMS Photosystem II reaction center protein H O...  62.9    3e-13
+  sp|Q7V341|PSBH_PROMP Photosystem II reaction center protein H O...  62.9    3e-13
+  sp|Q31CT1|PSBH_PROM9 Photosystem II reaction center protein H O...  62.9    3e-13
+  sp|A2BUN2|PSBH_PROM5 Photosystem II reaction center protein H O...  62.9    3e-13
+  sp|A8G2R0|PSBH_PROM2 Photosystem II reaction center protein H O...  62.9    3e-13
+  sp|A3PAX2|PSBH_PROM0 Photosystem II reaction center protein H O...  62.9    3e-13
+  sp|Q7VDT5|PSBH_PROMA Photosystem II reaction center protein H O...  62.2    6e-13
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|B2JA13|PSBH_NOSP7 Photosystem II reaction center protein H 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 107 bits (267),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 48/66 (73%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDIL+PLNSEYGKVAPGWGTTP+MAVFM LF VFLLIIL++YN +L++  V V
+Sbjct  1   MAQRTRLGDILKPLNSEYGKVAPGWGTTPVMAVFMALFFVFLLIILQLYNRSLLVQDVLV  60
+
+Query  61  SWKALG  66
+            W++LG
+Sbjct  61  DWRSLG  66
+
+
+> sp|Q2JLQ8|PSBH_SYNJB Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain JA-2-3B'a(2-13)) OX=321332 GN=psbH 
+PE=3 SV=1
+Length=67
+
+ Score = 105 bits (263),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 51/66 (77%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LGD+LRPLNSEYGKVAPGWGTTPLMAVFM LF VFLLIIL+IYN +L+L+ +NV
+Sbjct  1   MAIRTRLGDLLRPLNSEYGKVAPGWGTTPLMAVFMALFAVFLLIILQIYNKSLLLEDINV  60
+
+Query  61  SWKALG  66
+           SW++L 
+Sbjct  61  SWESLS  66
+
+
+> sp|Q1ACH2|PSBH_CHAVU Photosystem II reaction center protein H 
+OS=Chara vulgaris OX=55564 GN=psbH PE=3 SV=1
+Length=78
+
+ Score = 104 bits (261),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 46/64 (72%), Positives = 57/64 (89%), Gaps = 0/64 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GDIL+PLNSEYGKVAPGWGTT LM +FM LF VFL+IILEIYN++++LDG++VS
+Sbjct  14  GRRTDVGDILKPLNSEYGKVAPGWGTTVLMGIFMALFAVFLVIILEIYNASVLLDGISVS  73
+
+Query  62  WKAL  65
+           W +L
+Sbjct  74  WASL  77
+
+
+> sp|Q8DJ43|PSBH_THEEB Photosystem II reaction center protein H 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 GN=psbH 
+PE=1 SV=1
+Length=66
+
+ Score = 104 bits (260),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV
+Sbjct  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+
+Query  61  SWKALG  66
+           SWKALG
+Sbjct  61  SWKALG  66
+
+
+> sp|Q71KP6|PSBH_SPIMX Photosystem II reaction center protein H 
+OS=Spirogyra maxima OX=3180 GN=psbH PE=3 SV=3
+Length=78
+
+ Score = 104 bits (259),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 45/65 (69%), Positives = 56/65 (86%), Gaps = 0/65 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            ++T +GDIL+PLNSEYGKVAPGWGTT LM VFM LF VFL+IILEIYN++++LDG+ VS
+Sbjct  14  GKKTSVGDILKPLNSEYGKVAPGWGTTVLMGVFMALFAVFLVIILEIYNASVLLDGIPVS  73
+
+Query  62  WKALG  66
+           W +L 
+Sbjct  74  WNSLS  78
+
+
+> sp|Q32RU4|PSBH_STAPU Photosystem II reaction center protein H 
+OS=Staurastrum punctulatum OX=102822 GN=psbH PE=3 SV=1
+Length=74
+
+ Score = 103 bits (257),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 46/62 (74%), Positives = 55/62 (89%), Gaps = 0/62 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT LGDIL+PLNSEYGKVAPGWGTT LM VFM LF VFL+IILE+YN++++LDG+ VS
+Sbjct  13  GRRTALGDILKPLNSEYGKVAPGWGTTVLMGVFMALFAVFLVIILELYNASVVLDGIPVS  72
+
+Query  62  WK  63
+           W+
+Sbjct  73  WQ  74
+
+
+> sp|P19052|PSBH_THEVL Photosystem II reaction center protein H 
+(Fragment) OS=Thermosynechococcus vulcanus OX=32053 GN=psbH 
+PE=1 SV=2
+Length=65
+
+ Score = 102 bits (256),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 65/65 (100%), Positives = 65/65 (100%), Gaps = 0/65 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS
+Sbjct  1   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  60
+
+Query  62  WKALG  66
+           WKALG
+Sbjct  61  WKALG  65
+
+
+> sp|Q71KQ7|PSBH_COLOB Photosystem II reaction center protein H 
+OS=Coleochaete orbicularis OX=3124 GN=psbH PE=3 SV=3
+Length=79
+
+ Score = 102 bits (256),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 44/64 (69%), Positives = 56/64 (88%), Gaps = 0/64 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTT LM VF+ LF VFL+IILE+YN++++LDG+ VS
+Sbjct  14  GRRTSVGDVLKPLNSEYGKVAPGWGTTVLMGVFIALFAVFLVIILELYNASVLLDGIPVS  73
+
+Query  62  WKAL  65
+           W +L
+Sbjct  74  WSSL  77
+
+
+> sp|Q9TKW7|PSBH_NEPOL Photosystem II reaction center protein H 
+OS=Nephroselmis olivacea OX=31312 GN=psbH PE=3 SV=1
+Length=81
+
+ Score = 102 bits (256),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 48/65 (74%), Positives = 55/65 (85%), Gaps = 0/65 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           ++ T LG  L+PLNSEYGKVAPGWGTTP+M +FM LF VFLLIILEIYNS+LILD V VS
+Sbjct  16  SKITPLGTALKPLNSEYGKVAPGWGTTPVMGLFMALFAVFLLIILEIYNSSLILDDVGVS  75
+
+Query  62  WKALG  66
+           W +LG
+Sbjct  76  WYSLG  80
+
+
+> sp|Q9MUV4|PSBH_MESVI Photosystem II reaction center protein H 
+OS=Mesostigma viride OX=41882 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 102 bits (254),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 41/65 (63%), Positives = 54/65 (83%), Gaps = 0/65 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +RT +G+ L+PLNSEYGKVAPGWGTT LM VFM LF VFL+IIL+IYN++++LDG+  +
+Sbjct  7   GKRTVVGNFLKPLNSEYGKVAPGWGTTVLMGVFMALFAVFLVIILQIYNASVLLDGIPAN  66
+
+Query  62  WKALG  66
+           W +L 
+Sbjct  67  WSSLS  71
+
+
+> sp|Q6YXN1|PSBH_PHYPA Photosystem II reaction center protein H 
+OS=Physcomitrella patens subsp. patens OX=3218 GN=psbH PE=3 
+SV=3
+Length=74
+
+ Score = 102 bits (254),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 47/61 (77%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +R+ LGDIL+PLNSEYGKVAPGWGTTPLM V MGLF VFL+IILE+YNS+++LDGV VS
+Sbjct  14  GKRSGLGDILKPLNSEYGKVAPGWGTTPLMGVAMGLFAVFLVIILELYNSSVLLDGVPVS  73
+
+Query  62  W  62
+           W
+Sbjct  74  W  74
+
+
+> sp|Q4G3C2|PSBH_EMIHU Photosystem II reaction center protein H 
+OS=Emiliania huxleyi OX=2903 GN=psbH PE=3 SV=1
+Length=66
+
+ Score = 101 bits (253),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 48/65 (74%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLN+EYGKVAPGWGTTP+M VFMGLFLVFL+IIL+IYNS++IL+ V+V
+Sbjct  1   MALRTRLGEILRPLNAEYGKVAPGWGTTPVMGVFMGLFLVFLVIILQIYNSSIILENVDV  60
+
+Query  61  SWKAL  65
+            W  +
+Sbjct  61  DWVTV  65
+
+
+> sp|Q8M9Z3|PSBH_CHAGL Photosystem II reaction center protein H 
+OS=Chaetosphaeridium globosum OX=96477 GN=psbH PE=3 SV=3
+Length=74
+
+ Score = 101 bits (253),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 46/61 (75%), Positives = 54/61 (89%), Gaps = 0/61 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RR+ +GDIL+PLNSEYGKVAPGWGTT LM VFM LF VFL+IILEIYNS+++LDG+ VS
+Sbjct  14  GRRSAVGDILKPLNSEYGKVAPGWGTTVLMGVFMALFAVFLVIILEIYNSSVLLDGIPVS  73
+
+Query  62  W  62
+           W
+Sbjct  74  W  74
+
+
+> sp|Q2JUV4|PSBH_SYNJA Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain JA-3-3Ab) OX=321327 GN=psbH PE=3 
+SV=1
+Length=67
+
+ Score = 101 bits (252),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 50/66 (76%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LGD+LRPLNSEYGKVAPGWGTTPLMAVFM LF +FLLIIL+IYN +L+L+ +NV
+Sbjct  1   MAIRTKLGDLLRPLNSEYGKVAPGWGTTPLMAVFMVLFGIFLLIILQIYNKSLLLEDINV  60
+
+Query  61  SWKALG  66
+           SW++L 
+Sbjct  61  SWESLS  66
+
+
+> sp|P06415|PSBH_TOBAC Photosystem II reaction center protein H 
+OS=Nicotiana tabacum OX=4097 GN=psbH PE=3 SV=2
+Length=73
+
+ Score = 101 bits (251),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q2VEF1|PSBH_SOLTU Photosystem II reaction center protein H 
+OS=Solanum tuberosum OX=4113 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 101 bits (251),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q2MI72|PSBH_SOLLC Photosystem II reaction center protein H 
+OS=Solanum lycopersicum OX=4081 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 101 bits (251),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q2MIF9|PSBH_SOLBU Photosystem II reaction center protein H 
+OS=Solanum bulbocastanum OX=147425 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 101 bits (251),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q33C03|PSBH_NICTO Photosystem II reaction center protein H 
+OS=Nicotiana tomentosiformis OX=4098 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 101 bits (251),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q3C1M6|PSBH_NICSY Photosystem II reaction center protein H 
+OS=Nicotiana sylvestris OX=4096 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 101 bits (251),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q7FNS3|PSBH_ATRBE Photosystem II reaction center protein H 
+OS=Atropa belladonna OX=33113 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 101 bits (251),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTAVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q85CN0|PSBH_ANTFO Photosystem II reaction center protein H 
+OS=Anthoceros formosae OX=48387 GN=psbH PE=2 SV=3
+Length=74
+
+ Score = 100 bits (250),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 45/61 (74%), Positives = 56/61 (92%), Gaps = 0/61 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RR+ +G+IL+PLNSEYGKVAPGWGTTPLM + MGLF VFL+IILE+YNS+++LDGV+VS
+Sbjct  14  GRRSGIGNILKPLNSEYGKVAPGWGTTPLMGIAMGLFAVFLVIILELYNSSVLLDGVSVS  73
+
+Query  62  W  62
+           W
+Sbjct  74  W  74
+
+
+> sp|Q332U8|PSBH_LACSA Photosystem II reaction center protein H 
+OS=Lactuca sativa OX=4236 GN=psbH PE=3 SV=1
+Length=73
+
+ Score =  99 bits (248),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTTVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q2PMQ6|PSBH_SOYBN Photosystem II reaction center protein H 
+OS=Glycine max OX=3847 GN=psbH PE=3 SV=1
+Length=73
+
+ Score =  99 bits (248),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 42/60 (70%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG++++
+Sbjct  14  PRRTVVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSILLDGISMN  73
+
+
+> sp|Q70XX9|PSBH_AMBTC Photosystem II reaction center protein H 
+OS=Amborella trichopoda OX=13333 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 99.5 bits (247),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG++VS
+Sbjct  14  PRRTIVGDLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGISVS  73
+
+
+> sp|Q110N3|PSBH_TRIEI Photosystem II reaction center protein H 
+OS=Trichodesmium erythraeum (strain IMS101) OX=203124 GN=psbH 
+PE=3 SV=1
+Length=67
+
+ Score = 99.5 bits (247),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 47/65 (72%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           M++RT LGDIL+PLNSEYGKV+PGWGTT +MAVF+GLF VFLLIIL+IYNS+L+L+ V+V
+Sbjct  1   MSQRTGLGDILKPLNSEYGKVSPGWGTTWVMAVFIGLFFVFLLIILQIYNSSLLLENVDV  60
+
+Query  61  SWKAL  65
+            W  L
+Sbjct  61  DWANL  65
+
+
+> sp|P12160|PSBH_MARPO Photosystem II reaction center protein H 
+OS=Marchantia polymorpha OX=3197 GN=psbH PE=3 SV=2
+Length=74
+
+ Score = 99.5 bits (247),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 42/61 (69%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +++ +GDIL+PLNSEYGKVAPGWGTTPLM + M LF VFL++ILE+YNS+++LDGV+VS
+Sbjct  14  GKKSGIGDILKPLNSEYGKVAPGWGTTPLMGIMMALFAVFLVVILELYNSSVLLDGVSVS  73
+
+Query  62  W  62
+           W
+Sbjct  74  W  74
+
+
+> sp|Q3ZJ26|PSBH_TUPAK Photosystem II reaction center protein H 
+OS=Tupiella akineta OX=160070 GN=psbH PE=3 SV=1
+Length=78
+
+ Score = 99.5 bits (247),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 45/66 (68%), Positives = 53/66 (80%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           +   T LG +LRPLNSEYGKVAPGWGT  LM VFM LF VFL+IILEIYNS++ILD V +
+Sbjct  12  LGMTTALGTLLRPLNSEYGKVAPGWGTATLMGVFMALFAVFLVIILEIYNSSVILDDVQM  71
+
+Query  61  SWKALG  66
+           SW++L 
+Sbjct  72  SWQSLA  77
+
+
+> sp|Q85X08|PSBH_PINKO Photosystem II reaction center protein H 
+OS=Pinus koraiensis OX=88728 GN=psbH PE=3 SV=3
+Length=75
+
+ Score = 99.1 bits (246),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 42/62 (68%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            R T +G  L+PLNSEYGKVAPGWGTT LM   M LF VFL IILEIYNS+++LDG+ VS
+Sbjct  14  PRETRVGTSLKPLNSEYGKVAPGWGTTALMGFTMALFAVFLSIILEIYNSSVLLDGIPVS  73
+
+Query  62  WK  63
+           W 
+Sbjct  74  WD  75
+
+
+> sp|Q9XQR3|PSBH_PEA Photosystem II reaction center protein H OS=Pisum 
+sativum OX=3888 GN=psbH PE=1 SV=3
+Length=73
+
+ Score = 99.1 bits (246),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 42/60 (70%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM + M LF VFL IILEIYNS+L+LD ++++
+Sbjct  14  PRRTAVGDLLKPLNSEYGKVAPGWGTTPLMGIAMALFAVFLSIILEIYNSSLLLDQISMN  73
+
+
+> sp|Q4VZI9|PSBH_CUCSA Photosystem II reaction center protein H 
+OS=Cucumis sativus OX=3659 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 99.1 bits (246),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 42/60 (70%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG++ +
+Sbjct  14  PRRTVVGDLLKPLNSEYGKVAPGWGTTPLMGVAMSLFAIFLCIILEIYNSSILLDGISSN  73
+
+
+> sp|P56323|PSBH_CHLVU Photosystem II reaction center protein H 
+OS=Chlorella vulgaris OX=3077 GN=psbH PE=3 SV=2
+Length=80
+
+ Score = 99.1 bits (246),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 43/65 (66%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+              T LG +L+PLNSEYGKVAPGWGTT LM +FM LF VFL+IILEIYNS+++LD V +S
+Sbjct  15  GVSTPLGTLLKPLNSEYGKVAPGWGTTVLMGIFMALFAVFLVIILEIYNSSVLLDDVTMS  74
+
+Query  62  WKALG  66
+           W++L 
+Sbjct  75  WESLS  79
+
+
+> sp|Q2L934|PSBH_GOSHI Photosystem II reaction center protein H 
+OS=Gossypium hirsutum OX=3635 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 98.8 bits (245),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 42/60 (70%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG++++
+Sbjct  14  PRRTVVGDFLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|A0ZZ64|PSBH_GOSBA Photosystem II reaction center protein H 
+OS=Gossypium barbadense OX=3634 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 98.8 bits (245),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 42/60 (70%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG++++
+Sbjct  14  PRRTVVGDFLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|A0A364|PSBH_COFAR Photosystem II reaction center protein H 
+OS=Coffea arabica OX=13443 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 98.8 bits (245),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 42/60 (70%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +G +L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTTVGSLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q1KXT0|PSBH_HELAN Photosystem II reaction center protein H 
+OS=Helianthus annuus OX=4232 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 98.8 bits (245),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 42/60 (70%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +G++L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTTVGNLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q36632|PSBH_POPDE Photosystem II reaction center protein H 
+OS=Populus deltoides OX=3696 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 98.8 bits (245),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTIVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q14FC8|PSBH_POPAL Photosystem II reaction center protein H 
+OS=Populus alba OX=43335 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 98.8 bits (245),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTIVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q32RQ3|PSBH_ZYGCR Photosystem II reaction center protein H 
+OS=Zygnema circumcarinatum OX=35869 GN=psbH PE=3 SV=1
+Length=75
+
+ Score = 98.8 bits (245),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 45/62 (73%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            R+T +GDIL+PLNSEYGKVAPGWGTT LMAVFM LF VFL+IILE+YN++++LDG+ VS
+Sbjct  14  GRQTSVGDILKPLNSEYGKVAPGWGTTVLMAVFMALFAVFLVIILELYNASVLLDGLAVS  73
+
+Query  62  WK  63
+           W+
+Sbjct  74  WQ  75
+
+
+> sp|Q49KW9|PSBH_EUCGG Photosystem II reaction center protein H 
+OS=Eucalyptus globulus subsp. globulus OX=71271 GN=psbH PE=3 
+SV=1
+Length=73
+
+ Score = 98.8 bits (245),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 43/60 (72%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PRRTIVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q06GW8|PSBH_DRIGR Photosystem II reaction center protein H 
+OS=Drimys granadensis OX=224735 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 98.4 bits (244),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 42/60 (70%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT  G++L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG+++S
+Sbjct  14  PRRTTTGNLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGISMS  73
+
+
+> sp|P41627|PSBH_PINTH Photosystem II reaction center protein H 
+OS=Pinus thunbergii OX=3350 GN=psbH PE=3 SV=2
+Length=75
+
+ Score = 98.4 bits (244),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 42/61 (69%), Positives = 49/61 (80%), Gaps = 0/61 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            + T +G  L+PLNSEYGKVAPGWGTTPLM   M LF VFL IILEIYNS+++LDG+ VS
+Sbjct  14  PKETLVGTTLKPLNSEYGKVAPGWGTTPLMGFAMALFAVFLSIILEIYNSSVLLDGIPVS  73
+
+Query  62  W  62
+           W
+Sbjct  74  W  74
+
+
+> sp|P56780|PSBH_ARATH Photosystem II reaction center protein H 
+OS=Arabidopsis thaliana OX=3702 GN=psbH PE=1 SV=2
+Length=73
+
+ Score = 98.0 bits (243),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 42/60 (70%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            R T +G +L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++V+
+Sbjct  14  PRSTTVGKLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISVN  73
+
+
+> sp|Q9BBQ7|PSBH_LOTJA Photosystem II reaction center protein H 
+OS=Lotus japonicus OX=34305 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 98.0 bits (243),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 39/60 (65%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            R+T +G +L+PLNSEYGKVAPGWGTTPLM + M LF +FL IILEIYNS+++LDG++++
+Sbjct  14  PRQTSVGSLLKPLNSEYGKVAPGWGTTPLMGIAMALFAIFLSIILEIYNSSILLDGISMN  73
+
+
+> sp|P0C422|PSBH_ORYSJ Photosystem II reaction center protein H 
+OS=Oryza sativa subsp. japonica OX=39947 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 98.0 bits (243),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            R+T +G++L+PLNSEYGKVAPGWGTTP M V M LF VFL IILEIYNS+++LDG+ ++
+Sbjct  14  PRQTRVGNLLKPLNSEYGKVAPGWGTTPFMGVAMALFAVFLSIILEIYNSSVLLDGILMN  73
+
+
+> sp|P0C421|PSBH_ORYSI Photosystem II reaction center protein H 
+OS=Oryza sativa subsp. indica OX=39946 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 98.0 bits (243),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            R+T +G++L+PLNSEYGKVAPGWGTTP M V M LF VFL IILEIYNS+++LDG+ ++
+Sbjct  14  PRQTRVGNLLKPLNSEYGKVAPGWGTTPFMGVAMALFAVFLSIILEIYNSSVLLDGILMN  73
+
+
+> sp|P0C420|PSBH_ORYSA Photosystem II reaction center protein H 
+OS=Oryza sativa OX=4530 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 98.0 bits (243),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            R+T +G++L+PLNSEYGKVAPGWGTTP M V M LF VFL IILEIYNS+++LDG+ ++
+Sbjct  14  PRQTRVGNLLKPLNSEYGKVAPGWGTTPFMGVAMALFAVFLSIILEIYNSSVLLDGILMN  73
+
+
+> sp|Q6ENE5|PSBH_ORYNI Photosystem II reaction center protein H 
+OS=Oryza nivara OX=4536 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 98.0 bits (243),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            R+T +G++L+PLNSEYGKVAPGWGTTP M V M LF VFL IILEIYNS+++LDG+ ++
+Sbjct  14  PRQTRVGNLLKPLNSEYGKVAPGWGTTPFMGVAMALFAVFLSIILEIYNSSVLLDGILMN  73
+
+
+> sp|Q3BAK8|PSBH_PHAAO Photosystem II reaction center protein H 
+OS=Phalaenopsis aphrodite subsp. formosana OX=308872 GN=psbH 
+PE=3 SV=1
+Length=73
+
+ Score = 98.0 bits (243),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 41/60 (68%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +G +L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG++++
+Sbjct  14  PRRTGVGSLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGISIN  73
+
+
+> sp|Q06GN1|PSBH_PIPCE Photosystem II reaction center protein H 
+OS=Piper cenocladum OX=398741 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 97.6 bits (242),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 44/60 (73%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG+ VS
+Sbjct  14  PRRTVIGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGILVS  73
+
+
+> sp|Q6EW23|PSBH_NYMAL Photosystem II reaction center protein H 
+OS=Nymphaea alba OX=34301 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 97.6 bits (242),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 44/60 (73%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +GD+L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG+++S
+Sbjct  14  PRRTIVGDLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISLS  73
+
+
+> sp|Q20F20|PSBH_OLTVI Photosystem II reaction center protein H 
+OS=Oltmannsiellopsis viridis OX=51324 GN=psbH PE=3 SV=1
+Length=72
+
+ Score = 97.2 bits (241),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 42/62 (68%), Positives = 50/62 (81%), Gaps = 0/62 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+              T LG +LRPLNSEYGKVAPGWGTT LM  FM LF VFL+IILEIYNS+++L+ V +S
+Sbjct  11  GIETALGTLLRPLNSEYGKVAPGWGTTVLMGTFMALFAVFLVIILEIYNSSVLLEDVPMS  70
+
+Query  62  WK  63
+           W+
+Sbjct  71  WQ  72
+
+
+> sp|P69553|PSBH_OENEH Photosystem II reaction center protein H 
+OS=Oenothera elata subsp. hookeri OX=85636 GN=psbH PE=3 SV=2
+Length=73
+
+ Score = 97.2 bits (241),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            ++T LG +L+PLNSEYGKVAPGWGTTPLM + M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PKKTGLGGLLKPLNSEYGKVAPGWGTTPLMGLAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|P69552|PSBH_OENAR Photosystem II reaction center protein H 
+OS=Oenothera argillicola OX=3940 GN=psbH PE=3 SV=2
+Length=73
+
+ Score = 97.2 bits (241),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            ++T LG +L+PLNSEYGKVAPGWGTTPLM + M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PKKTGLGGLLKPLNSEYGKVAPGWGTTPLMGLAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q8WHZ4|PSBH_PSINU Photosystem II reaction center protein H 
+OS=Psilotum nudum OX=3240 GN=psbH PE=3 SV=3
+Length=74
+
+ Score = 97.2 bits (241),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 40/61 (66%), Positives = 53/61 (87%), Gaps = 0/61 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +++ LG  L+PLNSEYG+VAPGWGTTPLM  FM LF +FL+IILEIYNS+++LDG+++S
+Sbjct  14  PKQSGLGVFLKPLNSEYGRVAPGWGTTPLMGFFMALFAIFLVIILEIYNSSVLLDGLSIS  73
+
+Query  62  W  62
+           W
+Sbjct  74  W  74
+
+
+> sp|B2Y1Y8|PSBH_WELMI Photosystem II reaction center protein H 
+OS=Welwitschia mirabilis OX=3377 GN=psbH PE=3 SV=1
+Length=74
+
+ Score = 97.2 bits (241),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 41/61 (67%), Positives = 52/61 (85%), Gaps = 0/61 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +G  L+PLNSEYGKVAPGWGTTPLM  FM LF +FL ++LEIYNS+++L+G++VS
+Sbjct  14  PRRTGIGSYLKPLNSEYGKVAPGWGTTPLMGFFMVLFAIFLSLLLEIYNSSILLNGISVS  73
+
+Query  62  W  62
+           W
+Sbjct  74  W  74
+
+
+> sp|A0T0A9|PSBH_PHATC Photosystem II reaction center protein H 
+OS=Phaeodactylum tricornutum (strain CCAP 1055/1) OX=556484 
+GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 96.8 bits (240),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 47/64 (73%), Positives = 56/64 (88%), Gaps = 0/64 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG++LRPLN+EYGKVAPGWGTTP+MAV MG FLVFLLIIL+IYNS+LI++ V+V
+Sbjct  1   MALRTRLGELLRPLNAEYGKVAPGWGTTPIMAVVMGAFLVFLLIILQIYNSSLIIENVDV  60
+
+Query  61  SWKA  64
+            W  
+Sbjct  61  DWTN  64
+
+
+> sp|Q0G9J0|PSBH_LIRTU Photosystem II reaction center protein H 
+OS=Liriodendron tulipifera OX=3415 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 96.8 bits (240),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 42/60 (70%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT  GD+L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+++S
+Sbjct  14  PRRTITGDLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGISMS  73
+
+
+> sp|P49475|PSBH_ODOSI Photosystem II reaction center protein H 
+OS=Odontella sinensis OX=1514140 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 96.8 bits (240),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 46/64 (72%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLN+EYGKVAPGWGTTP+M V M  FLVFLLIIL+IYNS+LI++ V+V
+Sbjct  1   MALRTRLGEILRPLNAEYGKVAPGWGTTPIMGVVMLAFLVFLLIILQIYNSSLIIENVDV  60
+
+Query  61  SWKA  64
+            W  
+Sbjct  61  DWSN  64
+
+
+> sp|Q09ME8|PSBH_CITSI Photosystem II reaction center protein H 
+OS=Citrus sinensis OX=2711 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 96.8 bits (240),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 41/60 (68%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +RT  G +L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PKRTSAGGLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISLN  73
+
+
+> sp|Q06SI9|PSBH_STIHE Photosystem II reaction center protein H 
+OS=Stigeoclonium helveticum OX=55999 GN=psbH PE=3 SV=1
+Length=83
+
+ Score = 96.8 bits (240),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 44/65 (68%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+              T LG +L+PLNSE GKV PGWGTT LM VFM LF VFL+I+LEIYNS++ILDGV +S
+Sbjct  18  GISTPLGRLLKPLNSEAGKVLPGWGTTVLMGVFMALFAVFLVILLEIYNSSVILDGVTMS  77
+
+Query  62  WKALG  66
+           W++LG
+Sbjct  78  WESLG  82
+
+
+> sp|Q0ZIZ0|PSBH_VITVI Photosystem II reaction center protein H 
+OS=Vitis vinifera OX=29760 GN=psbH PE=3 SV=2
+Length=73
+
+ Score = 96.4 bits (239),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            + T +G++L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PKPTTVGELLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISLN  73
+
+
+> sp|Q06FN9|PSBH_PELHO Photosystem II reaction center protein H 
+OS=Pelargonium hortorum OX=4031 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 96.4 bits (239),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 41/60 (68%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT +G +L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LDG+ ++
+Sbjct  14  PRRTNVGSLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDGILMN  73
+
+
+> sp|Q71KN4|PSBH_KLEBI Photosystem II reaction center protein H 
+OS=Klebsormidium bilatum OX=201239 GN=psbH PE=3 SV=3
+Length=79
+
+ Score = 96.4 bits (239),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 39/60 (65%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+
+Query  6   WLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSWKAL  65
+            +  +L+PLN+EYGKVAPGWGTT LM VFM LF VFL+IILE+YN++++LDGV VSW+++
+Sbjct  18  AVSSVLKPLNAEYGKVAPGWGTTVLMGVFMALFAVFLVIILELYNASVLLDGVPVSWQSV  77
+
+
+> sp|Q7YJU9|PSBH_CALFG Photosystem II reaction center protein H 
+OS=Calycanthus floridus var. glaucus OX=212734 GN=psbH PE=3 
+SV=3
+Length=73
+
+ Score = 96.4 bits (239),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 42/60 (70%), Positives = 50/60 (83%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            RRT  GD+L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG++ S
+Sbjct  14  PRRTLTGDLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGISTS  73
+
+
+> sp|P69555|PSBH_WHEAT Photosystem II reaction center protein H 
+OS=Triticum aestivum OX=4565 GN=psbH PE=1 SV=2
+Length=73
+
+ Score = 96.1 bits (238),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 39/60 (65%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+  +
+Sbjct  14  PKRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGILTN  73
+
+
+> sp|A1E9V3|PSBH_SORBI Photosystem II reaction center protein H 
+OS=Sorghum bicolor OX=4558 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 96.1 bits (238),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 39/60 (65%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+  +
+Sbjct  14  PKRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGILTN  73
+
+
+> sp|P69554|PSBH_SECCE Photosystem II reaction center protein H 
+OS=Secale cereale OX=4550 GN=psbH PE=3 SV=2
+Length=73
+
+ Score = 96.1 bits (238),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 39/60 (65%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+  +
+Sbjct  14  PKRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGILTN  73
+
+
+> sp|Q6ENT5|PSBH_SACOF Photosystem II reaction center protein H 
+OS=Saccharum officinarum OX=4547 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 96.1 bits (238),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 39/60 (65%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+  +
+Sbjct  14  PKRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGILTN  73
+
+
+> sp|Q6L373|PSBH_SACHY Photosystem II reaction center protein H 
+OS=Saccharum hybrid OX=15819 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 96.1 bits (238),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 39/60 (65%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+  +
+Sbjct  14  PKRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGILTN  73
+
+
+> sp|P24993|PSBH_MAIZE Photosystem II reaction center protein H 
+OS=Zea mays OX=4577 GN=psbH PE=1 SV=2
+Length=73
+
+ Score = 96.1 bits (238),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 39/60 (65%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+  +
+Sbjct  14  PKRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGILTN  73
+
+
+> sp|A1EA37|PSBH_AGRST Photosystem II reaction center protein H 
+OS=Agrostis stolonifera OX=63632 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 96.1 bits (238),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 39/60 (65%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+  +
+Sbjct  14  PKRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSVLLDGILTN  73
+
+
+> sp|Q68RX8|PSBH_PANGI Photosystem II reaction center protein H 
+OS=Panax ginseng OX=4054 GN=psbH PE=3 SV=3
+Length=73
+
+ Score = 96.1 bits (238),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 38/60 (63%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            + T +G++L+PLNSEYGKVAPGWGTTPLM V M LF +FL IILEIYNS+++LD ++++
+Sbjct  14  PKPTTVGNLLKPLNSEYGKVAPGWGTTPLMGVAMALFAIFLSIILEIYNSSVLLDEISMN  73
+
+
+> sp|Q5SD22|PSBH_HUPLU Photosystem II reaction center protein H 
+OS=Huperzia lucidula OX=37429 GN=psbH PE=3 SV=3
+Length=74
+
+ Score = 96.1 bits (238),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 49/60 (82%), Gaps = 0/60 (0%)
+
+Query  3   RRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSW  62
+           + T LG+ L+PLNSEYGKVAPGWGTTP+M V M  F VF +IILE+YNS++ LDG+ VSW
+Sbjct  15  KSTGLGNALKPLNSEYGKVAPGWGTTPIMGVAMASFAVFSVIILELYNSSVSLDGIPVSW  74
+
+
+> sp|P12363|PSBH_HORVU Photosystem II reaction center protein H 
+OS=Hordeum vulgare OX=4513 GN=psbH PE=1 SV=2
+Length=73
+
+ Score = 96.1 bits (238),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 39/60 (65%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            +RT  G +L+PLNSEYGKVAPGWGTTP M V M LF +FL IILEIYNS+++LDG+  +
+Sbjct  14  PKRTGAGSLLKPLNSEYGKVAPGWGTTPFMGVAMALFAIFLSIILEIYNSSILLDGILTN  73
+
+
+> sp|P05146|PSBH_SPIOL Photosystem II reaction center protein H 
+OS=Spinacia oleracea OX=3562 GN=psbH PE=1 SV=4
+Length=73
+
+ Score = 96.1 bits (238),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            + T +G +L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PKPTTVGALLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q06RA3|PSBH_JASNU Photosystem II reaction center protein H 
+OS=Jasminum nudiflorum OX=126431 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 95.7 bits (237),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            + T +G +L+PLNSEYGKVAPGWGTTPLM V M LF VFL IILEIYNS+++LDG++++
+Sbjct  14  PKPTIVGSLLKPLNSEYGKVAPGWGTTPLMGVAMALFAVFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|B1XIE1|PSBH_SYNP2 Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain ATCC 27264 / PCC 7002 / PR-6) 
+OX=32049 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 94.5 bits (234),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 54/66 (82%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDIL+PLNSEYGKVAPGWGTTPLM VFM LFLVFLLIIL+IYNS+LIL+G  V
+Sbjct  1   MAQRTRLGDILKPLNSEYGKVAPGWGTTPLMGVFMALFLVFLLIILQIYNSSLILEGFEV  60
+
+Query  61  SWKALG  66
+            W ALG
+Sbjct  61  DWTALG  66
+
+
+> sp|Q0G9T3|PSBH_DAUCA Photosystem II reaction center protein H 
+OS=Daucus carota OX=4039 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 93.4 bits (231),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 38/60 (63%), Positives = 50/60 (83%), Gaps = 0/60 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            + T +G +L+PLNSEYGKVAPGWGT PLM V M LF +FL IILEIYNS+++LDG++++
+Sbjct  14  PKPTTVGGLLKPLNSEYGKVAPGWGTAPLMGVAMALFAIFLSIILEIYNSSVLLDGISMN  73
+
+
+> sp|Q85FJ4|PSBH_ADICA Photosystem II reaction center protein H 
+OS=Adiantum capillus-veneris OX=13818 GN=psbH PE=2 SV=3
+Length=74
+
+ Score = 93.4 bits (231),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 40/61 (66%), Positives = 52/61 (85%), Gaps = 0/61 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            + ++LG +L+PLNSEYGKVAPGWGTTPLM  FM LF +FL+ ILEIYNS+++LDG+ +S
+Sbjct  14  PKISFLGMVLKPLNSEYGKVAPGWGTTPLMGFFMALFAIFLVTILEIYNSSVLLDGIAIS  73
+
+Query  62  W  62
+           W
+Sbjct  74  W  74
+
+
+> sp|P22666|PSBH_CHLRE Photosystem II reaction center protein H 
+OS=Chlamydomonas reinhardtii OX=3055 GN=psbH PE=1 SV=3
+Length=88
+
+ Score = 92.6 bits (229),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 45/65 (69%), Positives = 51/65 (78%), Gaps = 0/65 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+              T LG +LRPLNSE GKV PGWGTT LMAVF+ LF  FLLIILEIYNS+LILD V++S
+Sbjct  21  GLVTPLGTLLRPLNSEAGKVLPGWGTTVLMAVFILLFAAFLLIILEIYNSSLILDDVSMS  80
+
+Query  62  WKALG  66
+           W+ L 
+Sbjct  81  WETLA  85
+
+
+> sp|P14835|PSBH_SYNY3 Photosystem II reaction center protein H 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 
+GN=psbH PE=1 SV=3
+Length=64
+
+ Score = 91.1 bits (225),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 50/64 (78%), Positives = 56/64 (88%), Gaps = 0/64 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDILRPLNSEYGKV PGWGTTP+M VFM LFLVFLLIIL+IYNS+LIL+G +V
+Sbjct  1   MAQRTRLGDILRPLNSEYGKVVPGWGTTPVMGVFMALFLVFLLIILQIYNSSLILEGFSV  60
+
+Query  61  SWKA  64
+            W  
+Sbjct  61  DWAG  64
+
+
+> sp|A5GWI2|PSBH_SYNR3 Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain RCC307) OX=316278 GN=psbH PE=3 
+SV=1
+Length=66
+
+ Score = 90.7 bits (224),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 47/66 (71%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLL+IL++YN +L+LDG+ V
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMALFLVFLLVILQLYNRSLLLDGITV  60
+
+Query  61  SWKALG  66
+           +W  LG
+Sbjct  61  NWNGLG  66
+
+
+> sp|Q1KVV3|PSBH_TETOB Photosystem II reaction center protein H 
+OS=Tetradesmus obliquus OX=3088 GN=psbH PE=3 SV=1
+Length=86
+
+ Score = 91.4 bits (226),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 44/62 (71%), Positives = 50/62 (81%), Gaps = 0/62 (0%)
+
+Query  5   TWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVSWKA  64
+           T LG +LRPLNSE GKV PGWGTT LM VF+ LF VFLLIILEIYNS+L+LD V +SW+ 
+Sbjct  24  TPLGTLLRPLNSESGKVLPGWGTTVLMGVFIVLFAVFLLIILEIYNSSLLLDDVTMSWET  83
+
+Query  65  LG  66
+           L 
+Sbjct  84  LA  85
+
+
+> sp|Q6B8Y7|PSBH_GRATL Photosystem II reaction center protein H 
+OS=Gracilaria tenuistipitata var. liui OX=285951 GN=psbH PE=3 
+SV=1
+Length=67
+
+ Score = 90.3 bits (223),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 50/66 (76%), Positives = 57/66 (86%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLNSEYGKVAPGWGTTP+M VFM LF +FLLIIL+IYNS+LIL+ V+V
+Sbjct  1   MALRTRLGEILRPLNSEYGKVAPGWGTTPIMGVFMLLFFLFLLIILQIYNSSLILENVDV  60
+
+Query  61  SWKALG  66
+            W  LG
+Sbjct  61  DWATLG  66
+
+
+> sp|Q0IDC8|PSBH_SYNS3 Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain CC9311) OX=64471 GN=psbH PE=3 
+SV=1
+Length=68
+
+ Score = 89.9 bits (222),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 49/66 (74%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLLIIL++YN +LIL+G+NV
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMALFLVFLLIILQLYNKSLILEGINV  60
+
+Query  61  SWKALG  66
+           +W  LG
+Sbjct  61  NWNGLG  66
+
+
+> sp|Q7NCH7|PSBH_GLOVI Photosystem II reaction center protein H 
+OS=Gloeobacter violaceus (strain PCC 7421) OX=251221 GN=psbH 
+PE=3 SV=1
+Length=78
+
+ Score = 89.9 bits (222),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 40/59 (68%), Positives = 50/59 (85%), Gaps = 0/59 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           MARRTWLGD L+PLNSE GK +PGWGTTP+M   + LF VFL+IIL+I N++L+L+GVN
+Sbjct  1   MARRTWLGDRLKPLNSEIGKASPGWGTTPIMGALIALFGVFLIIILQIANNSLLLEGVN  59
+
+
+> sp|Q09WY8|PSBH_MORIN Photosystem II reaction center protein H 
+OS=Morus indica OX=248361 GN=psbH PE=3 SV=1
+Length=73
+
+ Score = 89.1 bits (220),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 37/55 (67%), Positives = 50/55 (91%), Gaps = 0/55 (0%)
+
+Query  7   LGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           +G++L+PLNSEYGKVAPGWGTTPLM + M LF +FL IILEIYNS+++LDG++++
+Sbjct  19  VGNLLKPLNSEYGKVAPGWGTTPLMGIAMALFAIFLSIILEIYNSSILLDGISMN  73
+
+
+> sp|Q0P3N4|PSBH_OSTTA Photosystem II reaction center protein H 
+OS=Ostreococcus tauri OX=70448 GN=psbH PE=3 SV=1
+Length=78
+
+ Score = 88.4 bits (218),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 43/63 (68%), Positives = 52/63 (83%), Gaps = 0/63 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+            + T LG  LRPLNSEYGKVAPGWGTT LM+VF+GLF VF++I+LEIYN +LILD V V+
+Sbjct  12  GKVTALGTALRPLNSEYGKVAPGWGTTILMSVFIGLFAVFIVILLEIYNKSLILDNVGVN  71
+
+Query  62  WKA  64
+           W +
+Sbjct  72  WLS  74
+
+
+> sp|O78514|PSBH_GUITH Photosystem II reaction center protein H 
+OS=Guillardia theta OX=55529 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 87.6 bits (216),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 47/66 (71%), Positives = 55/66 (83%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG++LRPLNSEYGKVAPGWGTTP M   M LF +FLLIIL+IYNS+LIL+ V+V
+Sbjct  1   MALRTRLGELLRPLNSEYGKVAPGWGTTPAMGFVMLLFFLFLLIILQIYNSSLILENVDV  60
+
+Query  61  SWKALG  66
+            W +LG
+Sbjct  61  DWASLG  66
+
+
+> sp|Q5N2J2|PSBH_SYNP6 Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) 
+OX=269084 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 87.2 bits (215),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 51/66 (77%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDILRPLNSEYGKVAPGWGTTP+M VFM LF VFLLIIL+IYNS+L+LD   V
+Sbjct  1   MAQRTRLGDILRPLNSEYGKVAPGWGTTPVMGVFMLLFFVFLLIILQIYNSSLVLDTFKV  60
+
+Query  61  SWKALG  66
+            W++LG
+Sbjct  61  DWRSLG  66
+
+
+> sp|Q31RR2|PSBH_SYNE7 Photosystem II reaction center protein H 
+OS=Synechococcus elongatus (strain PCC 7942) OX=1140 GN=psbH 
+PE=3 SV=1
+Length=67
+
+ Score = 87.2 bits (215),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 51/66 (77%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDILRPLNSEYGKVAPGWGTTP+M VFM LF VFLLIIL+IYNS+L+LD   V
+Sbjct  1   MAQRTRLGDILRPLNSEYGKVAPGWGTTPVMGVFMLLFFVFLLIILQIYNSSLVLDTFKV  60
+
+Query  61  SWKALG  66
+            W++LG
+Sbjct  61  DWRSLG  66
+
+
+> sp|Q8YYK2|PSBH_NOSS1 Photosystem II reaction center protein H 
+OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 
+GN=psbH PE=3 SV=1
+Length=62
+
+ Score = 86.0 bits (212),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 46/62 (74%), Positives = 54/62 (87%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDILRPLNSEYGKVAPGWGTTP+M VFM LFLVFLLIIL++YN ++++  V V
+Sbjct  1   MAQRTRLGDILRPLNSEYGKVAPGWGTTPVMGVFMALFLVFLLIILQLYNKSILIQDVRV  60
+
+Query  61  SW  62
+            W
+Sbjct  61  GW  62
+
+
+> sp|Q3M4N8|PSBH_ANAVT Photosystem II reaction center protein H 
+OS=Anabaena variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=psbH PE=3 SV=1
+Length=62
+
+ Score = 86.0 bits (212),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 46/62 (74%), Positives = 54/62 (87%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGDILRPLNSEYGKVAPGWGTTP+M VFM LFLVFLLIIL++YN ++++  V V
+Sbjct  1   MAQRTRLGDILRPLNSEYGKVAPGWGTTPVMGVFMALFLVFLLIILQLYNKSILIQDVRV  60
+
+Query  61  SW  62
+            W
+Sbjct  61  GW  62
+
+
+> sp|B0JGF6|PSBH_MICAN Photosystem II reaction center protein H 
+OS=Microcystis aeruginosa (strain NIES-843) OX=449447 GN=psbH 
+PE=3 SV=1
+Length=64
+
+ Score = 85.7 bits (211),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 50/62 (81%), Positives = 56/62 (90%), Gaps = 0/62 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LG+ILRPLNSEYGKV+PGWGTT LM VFM LFLVFLLIIL+IYNS+LIL+G NV
+Sbjct  1   MAQRTRLGEILRPLNSEYGKVSPGWGTTLLMGVFMALFLVFLLIILQIYNSSLILEGFNV  60
+
+Query  61  SW  62
+            W
+Sbjct  61  DW  62
+
+
+> sp|Q3AMZ3|PSBH_SYNSC Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain CC9605) OX=110662 GN=psbH PE=3 
+SV=1
+Length=66
+
+ Score = 85.3 bits (210),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 48/66 (73%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLL+IL++YN +LIL+G+NV
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMVLFLVFLLVILQLYNKSLILEGINV  60
+
+Query  61  SWKALG  66
+           +W  LG
+Sbjct  61  NWNGLG  66
+
+
+> sp|Q3AUQ6|PSBH_SYNS9 Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain CC9902) OX=316279 GN=psbH PE=3 
+SV=1
+Length=66
+
+ Score = 85.3 bits (210),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 48/66 (73%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLL+IL++YN +LIL+G+NV
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMVLFLVFLLVILQLYNKSLILEGINV  60
+
+Query  61  SWKALG  66
+           +W  LG
+Sbjct  61  NWNGLG  66
+
+
+> sp|Q7U9I7|PSBH_SYNPX Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=psbH PE=3 
+SV=1
+Length=66
+
+ Score = 85.3 bits (210),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 48/66 (73%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLL+IL++YN +LIL+G+NV
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMVLFLVFLLVILQLYNKSLILEGINV  60
+
+Query  61  SWKALG  66
+           +W  LG
+Sbjct  61  NWNGLG  66
+
+
+> sp|B8HR15|PSBH_CYAP4 Photosystem II reaction center protein H 
+OS=Cyanothece sp. (strain PCC 7425 / ATCC 29141) OX=395961 
+GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 85.3 bits (210),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 57/66 (86%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RTWLGD+L+PLNSEYGKVAPGWGT PLMAVFMGLFLVFLLIILE+YNSTL+L+GVNV
+Sbjct  1   MAKRTWLGDVLKPLNSEYGKVAPGWGTAPLMAVFMGLFLVFLLIILELYNSTLMLEGVNV  60
+
+Query  61  SWKALG  66
+           +W ALG
+Sbjct  61  NWTALG  66
+
+
+> sp|O19925|PSBH_CYACA Photosystem II reaction center protein H 
+OS=Cyanidium caldarium OX=2771 GN=psbH PE=1 SV=1
+Length=67
+
+ Score = 84.9 bits (209),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 45/66 (68%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA +T LG++LRPLNS+YGKVAPGWGTTP+M +FM LFL+FL+IIL+IYNS+LIL+ +++
+Sbjct  1   MALKTRLGELLRPLNSQYGKVAPGWGTTPIMGIFMALFLLFLIIILQIYNSSLILENLDI  60
+
+Query  61  SWKALG  66
+           SW  LG
+Sbjct  61  SWTTLG  66
+
+
+> sp|B1WS17|PSBH_CYAA5 Photosystem II reaction center protein H 
+OS=Cyanothece sp. (strain ATCC 51142) OX=43989 GN=psbH PE=3 
+SV=1
+Length=64
+
+ Score = 84.5 bits (208),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 51/64 (80%), Positives = 57/64 (89%), Gaps = 0/64 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTPLM VFMGLFLVFLLIIL+IYNS+LIL+G  V
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPLMGVFMGLFLVFLLIILQIYNSSLILNGFTV  60
+
+Query  61  SWKA  64
+           +W  
+Sbjct  61  TWGG  64
+
+
+> sp|A5GIH4|PSBH_SYNPW Photosystem II reaction center protein H 
+OS=Synechococcus sp. (strain WH7803) OX=32051 GN=psbH PE=3 
+SV=1
+Length=66
+
+ Score = 84.5 bits (208),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 47/66 (71%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTP+M +FM LFLVFLL+IL++YN +LIL+G+NV
+Sbjct  1   MAQRTRLGDLLRPLNSEYGKVVPGWGTTPVMGIFMVLFLVFLLVILQLYNQSLILEGINV  60
+
+Query  61  SWKALG  66
+           +W   G
+Sbjct  61  NWNGAG  66
+
+
+> sp|B7K6Q5|PSBH_CYAP7 Photosystem II reaction center protein H 
+OS=Cyanothece sp. (strain PCC 7424) OX=65393 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 84.1 bits (207),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 52/66 (79%), Positives = 59/66 (89%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RTWLGDILRPLNSEYGKVAPGWGTT LM VFM LF VFLLIIL+IYNS+L+L+G  V
+Sbjct  1   MAQRTWLGDILRPLNSEYGKVAPGWGTTGLMGVFMLLFFVFLLIILQIYNSSLLLEGFKV  60
+
+Query  61  SWKALG  66
+            W++LG
+Sbjct  61  DWRSLG  66
+
+
+> sp|B7JW07|PSBH_CYAP8 Photosystem II reaction center protein H 
+OS=Cyanothece sp. (strain PCC 8801) OX=41431 GN=psbH PE=3 SV=1
+Length=64
+
+ Score = 83.7 bits (206),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 51/64 (80%), Positives = 57/64 (89%), Gaps = 0/64 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA+RT LGD+LRPLNSEYGKV PGWGTTPLM VFMGLFLVFLLIIL+IYNS+LIL+G  V
+Sbjct  1   MAQRTGLGDLLRPLNSEYGKVVPGWGTTPLMGVFMGLFLVFLLIILQIYNSSLILEGFTV  60
+
+Query  61  SWKA  64
+           +W  
+Sbjct  61  TWGG  64
+
+
+> sp|Q85FZ2|PSBH_CYAM1 Photosystem II reaction center protein H 
+OS=Cyanidioschyzon merolae (strain 10D) OX=280699 GN=psbH PE=3 
+SV=1
+Length=64
+
+ Score = 83.3 bits (205),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 46/64 (72%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLNS+YGKVAPGWGTTP+M VFM LFL+FL+IIL+IYNS+L+L+ V V
+Sbjct  1   MALRTRLGEILRPLNSQYGKVAPGWGTTPIMGVFMVLFLLFLVIILQIYNSSLLLNDVQV  60
+
+Query  61  SWKA  64
+            W  
+Sbjct  61  DWMG  64
+
+
+> sp|A0T0P8|PSBH_THAPS Photosystem II reaction center protein H 
+OS=Thalassiosira pseudonana OX=35128 GN=psbH PE=3 SV=1
+Length=66
+
+ Score = 81.8 bits (201),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 45/64 (70%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLN+EYGKV PGWGTTP+M + M LFLVFLLIIL+IYNS+LI++ V+V
+Sbjct  1   MALRTRLGEILRPLNAEYGKVVPGWGTTPIMGLTMVLFLVFLLIILQIYNSSLIIENVDV  60
+
+Query  61  SWKA  64
+            W  
+Sbjct  61  DWAN  64
+
+
+> sp|P48105|PSBH_CYAPA Photosystem II reaction center protein H 
+OS=Cyanophora paradoxa OX=2762 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 80.7 bits (198),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 50/64 (78%), Positives = 57/64 (89%), Gaps = 0/64 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           M +RT LG+ILRPLNSEYGKVAPGWGTTPLMAVFM LF VFLLII++IYNS+L+L+ V V
+Sbjct  1   MPQRTALGNILRPLNSEYGKVAPGWGTTPLMAVFMLLFFVFLLIIIQIYNSSLLLENVQV  60
+
+Query  61  SWKA  64
+           SW A
+Sbjct  61  SWTA  64
+
+
+> sp|Q06J21|PSBH_BIGNA Photosystem II reaction center protein H 
+OS=Bigelowiella natans OX=227086 GN=psbH PE=3 SV=1
+Length=74
+
+ Score = 80.7 bits (198),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 38/57 (67%), Positives = 45/57 (79%), Gaps = 0/57 (0%)
+
+Query  5   TWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNVS  61
+           T LG +L+PLNSEYGKV+ GWGTT +MA+FM LF VFL IILEIYN +LIL  V + 
+Sbjct  18  TPLGTLLKPLNSEYGKVSIGWGTTGVMAIFMSLFAVFLTIILEIYNGSLILTDVTLQ  74
+
+
+> sp|P31555|PSBH_EUGGR Photosystem II reaction center protein H 
+OS=Euglena gracilis OX=3039 GN=psbH PE=3 SV=1
+Length=70
+
+ Score = 79.9 bits (196),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 36/55 (65%), Positives = 44/55 (80%), Gaps = 0/55 (0%)
+
+Query  2   ARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILD  56
+            + T LG IL+PLNS+YGKV PGWGT  +M +FM LF +FL IILEIYNS++ILD
+Sbjct  14  GKTTTLGTILKPLNSKYGKVLPGWGTAGIMLIFMTLFAIFLTIILEIYNSSVILD  68
+
+
+> sp|Q1XDG1|PSBH_PYRYE Photosystem II reaction center protein H 
+OS=Pyropia yezoensis OX=2788 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 79.5 bits (195),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 48/66 (73%), Positives = 57/66 (86%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLNSEYGKVAPGWGTTP+M +FM LF +FLLIIL+IYNS+L+L+ V+V
+Sbjct  1   MALRTRLGEILRPLNSEYGKVAPGWGTTPIMGIFMLLFFLFLLIILQIYNSSLVLENVDV  60
+
+Query  61  SWKALG  66
+            W  LG
+Sbjct  61  DWATLG  66
+
+
+> sp|P51325|PSBH_PORPU Photosystem II reaction center protein H 
+OS=Porphyra purpurea OX=2787 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 79.5 bits (195),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 48/66 (73%), Positives = 57/66 (86%), Gaps = 0/66 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           MA RT LG+ILRPLNSEYGKVAPGWGTTP+M +FM LF +FLLIIL+IYNS+L+L+ V+V
+Sbjct  1   MALRTRLGEILRPLNSEYGKVAPGWGTTPIMGIFMLLFFLFLLIILQIYNSSLVLENVDV  60
+
+Query  61  SWKALG  66
+            W  LG
+Sbjct  61  DWATLG  66
+
+
+> sp|Q46HC2|PSBH_PROMT Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain NATL2A) OX=59920 GN=psbH 
+PE=3 SV=1
+Length=65
+
+ Score = 77.6 bits (190),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+MA    L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKSIGNSGQGKVVPGWGAVPVMAFIGVLLLVFLVIMLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|A2C084|PSBH_PROM1 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain NATL1A) OX=167555 GN=psbH 
+PE=3 SV=1
+Length=65
+
+ Score = 77.6 bits (190),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+MA    L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKSIGNSGQGKVVPGWGAVPVMAFIGVLLLVFLVIMLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|P31095|PSBH_PROHO Photosystem II reaction center protein H 
+OS=Prochlorothrix hollandica OX=1223 GN=psbH PE=3 SV=2
+Length=64
+
+ Score = 70.6 bits (172),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 38/61 (62%), Positives = 48/61 (79%), Gaps = 0/61 (0%)
+
+Query  1   MARRTWLGDILRPLNSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVNV  60
+           M ++T L + L+P NS  GKV PGWGTTPLM +FMGL  VFLLIIL+IYNST++LD  +V
+Sbjct  1   MGQKTALSNFLKPFNSNAGKVVPGWGTTPLMGLFMGLLFVFLLIILQIYNSTIVLDAFSV  60
+
+Query  61  S  61
+           +
+Sbjct  61  N  61
+
+
+> sp|Q7V4V2|PSBH_PROMM Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9313) OX=74547 GN=psbH 
+PE=3 SV=1
+Length=62
+
+ Score = 69.5 bits (169),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 28/60 (47%), Positives = 42/60 (70%), Gaps = 1/60 (2%)
+
+Query  1   MARRTWLGDILRPLNS-EYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           MA+ T LG++++ L     GKV PGWGTTP+MA    + L+FL+ IL+IYN +L+L  ++
+Sbjct  1   MAQSTRLGNLIKSLPGYAPGKVVPGWGTTPVMAGIGFMLLIFLVTILQIYNQSLLLQSIS  60
+
+
+> sp|A2CCI3|PSBH_PROM3 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9303) OX=59922 GN=psbH 
+PE=3 SV=1
+Length=62
+
+ Score = 69.5 bits (169),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 28/60 (47%), Positives = 42/60 (70%), Gaps = 1/60 (2%)
+
+Query  1   MARRTWLGDILRPLNS-EYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           MA+ T LG++++ L     GKV PGWGTTP+MA    + L+FL+ IL+IYN +L+L  ++
+Sbjct  1   MAQSTRLGNLIKSLPGYAPGKVVPGWGTTPVMAGIGFMLLIFLVTILQIYNQSLLLQSIS  60
+
+
+> sp|A9BDM2|PSBH_PROM4 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9211) OX=93059 GN=psbH 
+PE=3 SV=1
+Length=67
+
+ Score = 63.3 bits (153),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 31/66 (47%), Positives = 44/66 (67%), Gaps = 1/66 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV  GWG  P+MA    L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKSIGNSGQGKVVAGWGAVPVMAFIGVLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKAL  65
+           V W  +
+Sbjct  61  VDWNGV  66
+
+
+> sp|A2BP50|PSBH_PROMS Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 GN=psbH 
+PE=3 SV=1
+Length=66
+
+ Score = 62.9 bits (152),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKAIGNSGQGKVVPGWGAVPVMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|Q7V341|PSBH_PROMP Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus subsp. pastoris (strain CCMP1986 
+/ NIES-2087 / MED4) OX=59919 GN=psbH PE=3 SV=1
+Length=66
+
+ Score = 62.9 bits (152),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGTLLKAIGNSGQGKVVPGWGAVPIMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|Q31CT1|PSBH_PROM9 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 GN=psbH 
+PE=3 SV=1
+Length=66
+
+ Score = 62.9 bits (152),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKAIGNSGQGKVVPGWGAVPVMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|A2BUN2|PSBH_PROM5 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 GN=psbH 
+PE=3 SV=1
+Length=66
+
+ Score = 62.9 bits (152),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGTLLKAIGNSGQGKVVPGWGAVPIMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|A8G2R0|PSBH_PROM2 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=psbH 
+PE=3 SV=1
+Length=66
+
+ Score = 62.9 bits (152),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKAIGNSGQGKVVPGWGAVPVMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|A3PAX2|PSBH_PROM0 Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=psbH 
+PE=3 SV=1
+Length=66
+
+ Score = 62.9 bits (152),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 32/65 (49%), Positives = 44/65 (68%), Gaps = 1/65 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T LG +L+ + NS  GKV PGWG  P+M V   L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTALGSLLKAIGNSGQGKVVPGWGAVPVMTVIGLLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKA  64
+           V W  
+Sbjct  61  VDWNG  65
+
+
+> sp|Q7VDT5|PSBH_PROMA Photosystem II reaction center protein H 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 / SS120) 
+OX=167539 GN=psbH PE=3 SV=1
+Length=67
+
+ Score = 62.2 bits (150),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 30/66 (45%), Positives = 44/66 (67%), Gaps = 1/66 (2%)
+
+Query  1   MARRTWLGDILRPL-NSEYGKVAPGWGTTPLMAVFMGLFLVFLLIILEIYNSTLILDGVN  59
+           M ++T +G +L+ + NS  GKV  GWG  P+MA    L LVFL+I+L+IYN +L+L G +
+Sbjct  1   MGQKTAVGSLLKSIGNSGQGKVVAGWGAVPVMAFVGVLLLVFLVILLQIYNQSLLLQGFS  60
+
+Query  60  VSWKAL  65
+           V W  +
+Sbjct  61  VDWNGV  66
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.157    0.522    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0474    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4997801312
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
