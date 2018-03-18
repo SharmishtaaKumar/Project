@@ -11,7 +11,7 @@ tempfile="../datasets/test"
 
 #dictionary = dictionary.dataset(tempfile)
 def pssm_test(filename,winlen):
-    dictionary_pssm = dictionary.dataset(tempfile)
+    dictionary_pssm = dictionary.dataset(filename)
     #print(dictionary.keys())
     listofkeys=[]
     listofarrays=[]
@@ -38,8 +38,7 @@ def pssm_test(filename,winlen):
 
     main_list = []
     pad = int(winlen)//2
-    zero = np.zeros(20, dtype=int)
-    
+    zero = np.zeros(20, dtype=int)    
     for element in listofarrays:
         win_list = []
         for array in range(0, len(element)):
@@ -89,7 +88,7 @@ def pssm_test(filename,winlen):
     return templist, labels
     
 if __name__=="__main__":
-    pssm_test('test','31')        
+    pssm_test(tempfile,'31')        
                 
                 
                 
