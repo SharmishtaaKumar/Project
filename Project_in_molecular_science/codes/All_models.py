@@ -21,7 +21,7 @@ def decisiontree(filename):
     inputfile='../models/DTmodel.sav'
     joblib.dump(clf,inputfile)
 def randomforest(filename):
-    trainX,trainY=modelcv.dataset(test,29)
+    trainX,trainY=modelcv.dataset(test,33)
     clf = rfc(n_estimators=250, min_samples_split =6, n_jobs=-1, class_weight='balanced')
     clf.fit(trainX, trainY)
     #score=cross_val_score(clf, trainX, trainY, cv=3,verbose=True,n_jobs=-1)
