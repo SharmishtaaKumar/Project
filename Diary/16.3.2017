@@ -1,1 +1,4 @@
-I had to do alot of owrk today....made the confusion matrices, different models, accuracy scores also classification report.
+I had to do alot of work today....made the confusion matrices, different models, accuracy scores also classification report. I created confusion matrices for all of my models and hence i had 6 matrices for the report. I also figured on about MCC score, accuracy score and the classification report. 
+I had to change my som eof my code acordingly, but eevrything was working!!!!
+For the final predictor i planned on using the SVC model as well as the PSSM_SVC model. Hence both the models are up in it....It may take some time to predict since my saved model is trained on 60 proteins and it is predicting on 50 unknown proteins. So well....
+

@@ -13,12 +13,12 @@ tempfile = "../datasets/50unknownproteins"
 
 ####VALIDATING RESULTS###########
 savedmodel= joblib.load('../models/RFCmodel.sav')
-testX,testY=modelcv.dataset(tempfile,29)
+testX,testY=modelcv.dataset(tempfile,33)
 predictedY=savedmodel.predict(testX)
 print(matthews_corrcoef(testY, predictedY))
 print(accuracy_score(testY, predictedY))
 confusionmat = confusion_matrix(testY, predictedY)
-confusion_norm=preprocessing.normalize(confusionmat)
+print(confusionmat)
 states = ['I:Insideofthemembrane', 'M:Transmembraneregion', 'O:Outsideofthemembrane']
 print(classification_report(testY, predictedY, target_names=states))
 

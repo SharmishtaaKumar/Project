@@ -1,0 +1,14 @@
+The MCC score is 0.105873272829
+The accuracy sscore is 0.447290374764
+The confusion matrix is as follows 
+[[4752 3091  459]
+ [2928 2808  563]
+ [1860 1349  735]]
+The classification report is as follows                        precision    recall  f1-score   support
+
+ I:Insideofthemembrane       0.50      0.57      0.53      8302
+ M:Transmembraneregion       0.39      0.45      0.41      6299
+O:Outsideofthemembrane       0.42      0.19      0.26      3944
+
+           avg / total       0.44      0.45      0.43     18545
+
