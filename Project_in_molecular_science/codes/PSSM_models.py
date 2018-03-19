@@ -10,7 +10,7 @@ from sklearn.externals import joblib
 test = "../datasets/test"
 def SVC_run(filename):
     trainX,trainY=pssmparser.pssm_test(test,31)
-    clf = svm.SVC(kernel='linear', C=1, gamma=0.01)
+    clf = svm.SVC(kernel='linear', C=1, gamma=0.01,class_weight='balanced')
     clf.fit(trainX, trainY)
     inputfile='../models/PSSM_SVC_model.sav'
     joblib.dump(clf,inputfile,compress=9)
