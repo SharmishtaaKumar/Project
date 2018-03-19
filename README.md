@@ -3,7 +3,7 @@ This contains my project for the course.
 
 Clone the whole repository with all the files, for codes to work.
 
-For my Final predictor- It is saved in the codes directory under the name Final_predictor.py
+For my Final predictor- It is saved in the codes directory under the name "Final_predictor.py"
 
 It contains two models, which are the SVC and the PSSM_SVC. It is testing on the file 50unknown proteins (see datasets). All my fasta files for training as well as testing are saved in fasta_data along with each and every PSSM profile.
 
