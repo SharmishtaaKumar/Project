@@ -7,7 +7,7 @@ def cv(filename):
     for winlen in range (31,36,2):
         for cv_new in (3,5,10):
       
-            trainX,trainY=modelcv.dataset(test,winlen)
+            trainX,trainY=modelcv.modelinput(test,winlen)
             clf = svm.SVC(kernel='linear', C=1)
             clf.fit(trainX, trainY)
             score=cross_val_score(clf, trainX, trainY, cv=cv_new,verbose=True,n_jobs=-1)

@@ -9,7 +9,7 @@ from sklearn import preprocessing
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
-filename = "../datasets/test1"
+filename = "../datasets/50unknownproteins"
 topology_dict= {2:'I',4:'M',6:'O'}
 identity, sequence, seqs = modelcv.predictorinput(filename,31)
 savedmodel= joblib.load('../models/firstmodel_SVC.sav')

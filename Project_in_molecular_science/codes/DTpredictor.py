@@ -9,46 +9,19 @@ from sklearn import preprocessing
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
-tempfile = "../datasets/50unknownproteins"
 
-####VALIDATING RESULTS###########
-savedmodel= joblib.load('../models/DTmodel.sav')
-testX,testY=modelcv.dataset(tempfile,33)
-predictedY=savedmodel.predict(testX)
-print(matthews_corrcoef(testY, predictedY))
-print(accuracy_score(testY, predictedY))
-confusionmat = confusion_matrix(testY, predictedY)
-print(confusionmat)
-states = ['I:Insideofthemembrane', 'M:Transmembraneregion', 'O:Outsideofthemembrane']
-print(classification_report(testY, predictedY, target_names=states))
-
-
-########TO GET NECESSARY OUTPUT##########
+filename = "../datasets/50unknownproteins"
 topology_dict= {2:'I',4:'M',6:'O'}
-predicted_list=predictedY.tolist()
-#print(predicted_list)
-list_tops=[]
-for number in predicted_list:
-    #print(number)
-	list_tops.extend(topology_dict[number])
-#print(list_tops)   
-
-newout=0
-backto=0
-newlist=[]
-filehandle=open(tempfile,'r')
-text=filehandle.read().splitlines()
+identity, sequence, seqs = modelcv.predictorinput(filename,31)
+savedmodel= joblib.load('../models/firstmodel_SVC.sav')
+predictions=[]
+for i in range(len(seqs)):
+    temp=savedmodel.predict(seqs[i])
+    newpred=[]
+    for j in range(len(temp)):
+        newpred.extend(topology_dict[temp[j]])   
+    string=''.join(newpred)
+    predictions.append(string)
 with open("../Predicted texts/DTpredicted.txt",'w') as pr:
-    for h in range(len(text)):
-	    if text[h].startswith('>'):
-		    pr.write(text[h])
-		    pr.write("\n")
-		    pr.write(text[h+1])
-		    pr.write("\n")
-		    newout=newout+len(text[h+1])
-		    #print(newout)
-		    l=''.join(list_tops[backto:newout])
-		    #print(l)
-		    pr.write(l)
-		    pr.write("\n")
-		    backto=newout
+    for i in range(len(identity)):
+        pr.write(identity[i]+ "\n" + sequence[i]+ "\n" + predictions[i] + "\n")

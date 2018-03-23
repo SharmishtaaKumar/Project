@@ -7,7 +7,7 @@ test = "../datasets/test"
 def decisiontree(filename):
     for min_samples_split_new in range(2,7):
         for winlen in range(25,36,2):
-            trainX,trainY=modelcv.dataset(test,winlen)
+            trainX,trainY=modelcv.modelinput(test,winlen)
             clf = tree.DecisionTreeClassifier(min_samples_split = min_samples_split_new,class_weight='balanced')
             clf.fit(trainX, trainY)
             score=cross_val_score(clf, trainX, trainY, cv=3,verbose=True,n_jobs=-1)
