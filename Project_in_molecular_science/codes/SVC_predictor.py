@@ -21,7 +21,7 @@ for i in range(len(seqs)):
         newpred.extend(topology_dict[temp[j]])   
     string=''.join(newpred)
     predictions.append(string)
-with open("../Predicted texts/predicted.txt",'w') as pr:
+with open("../Predicted texts/SVC_predicted.txt",'w') as pr:
     for i in range(len(identity)):
         pr.write(identity[i]+ "\n" + sequence[i]+ "\n" + predictions[i] + "\n")
         

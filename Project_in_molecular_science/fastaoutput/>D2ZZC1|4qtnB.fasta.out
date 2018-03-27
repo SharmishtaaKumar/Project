@@ -1,0 +1,325 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= D2ZZC1|4qtnB
+
+Length=263
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|D2ZZC1|PNUC_NEIMU Nicotinamide riboside transporter PnuC OS=...  529     0.0  
+  sp|Q57425|PNUC_HAEIN Nicotinamide riboside transporter PnuC OS=...  211     9e-66
+  sp|P0AFK3|PNUC_SHIFL Nicotinamide riboside transporter PnuC OS=...  68.2    2e-12
+  sp|P0AFK2|PNUC_ECOLI Nicotinamide riboside transporter PnuC OS=...  68.2    2e-12
+  sp|P24520|PNUC_SALTY Nicotinamide riboside transporter PnuC OS=...  67.4    4e-12
+
+
+> sp|D2ZZC1|PNUC_NEIMU Nicotinamide riboside transporter PnuC OS=Neisseria 
+mucosa OX=488 GN=pnuC PE=1 SV=1
+Length=263
+
+ Score = 529 bits (1362),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 263/263 (100%), Positives = 263/263 (100%), Gaps = 0/263 (0%)
+
+Query  1    MQYGMDSFGLRGIPHQVFIKKKEGKIMSLAWWKRELFGGWTHFEAVWLLMFLGIQAVVFV  60
+            MQYGMDSFGLRGIPHQVFIKKKEGKIMSLAWWKRELFGGWTHFEAVWLLMFLGIQAVVFV
+Sbjct  1    MQYGMDSFGLRGIPHQVFIKKKEGKIMSLAWWKRELFGGWTHFEAVWLLMFLGIQAVVFV  60
+
+Query  61   FNPDSWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVY  120
+            FNPDSWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVY
+Sbjct  61   FNPDSWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVY  120
+
+Query  121  VPVQFVGFAMWRKHMALGETAETEEVKAKALTVRQWLLVVAASVVGTSVYIEWLHHLGSA  180
+            VPVQFVGFAMWRKHMALGETAETEEVKAKALTVRQWLLVVAASVVGTSVYIEWLHHLGSA
+Sbjct  121  VPVQFVGFAMWRKHMALGETAETEEVKAKALTVRQWLLVVAASVVGTSVYIEWLHHLGSA  180
+
+Query  181  LPTLDGVTVVVSIVAQVLMILRYREQWALWIVVNILTISLWAVAWFKNGETSLPLLLMYV  240
+            LPTLDGVTVVVSIVAQVLMILRYREQWALWIVVNILTISLWAVAWFKNGETSLPLLLMYV
+Sbjct  181  LPTLDGVTVVVSIVAQVLMILRYREQWALWIVVNILTISLWAVAWFKNGETSLPLLLMYV  240
+
+Query  241  MYLCNSVYGYINWTKLVKRHSGQ  263
+            MYLCNSVYGYINWTKLVKRHSGQ
+Sbjct  241  MYLCNSVYGYINWTKLVKRHSGQ  263
+
+
+> sp|Q57425|PNUC_HAEIN Nicotinamide riboside transporter PnuC OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=pnuC PE=1 SV=2
+Length=226
+
+ Score = 211 bits (536),  Expect = 9e-66, Method: Compositional matrix adjust.
+ Identities = 112/229 (49%), Positives = 150/229 (66%), Gaps = 10/229 (4%)
+
+Query  33   KRELFGGWTHFEAVWLLMFLGIQAVVFVFNPDSWLASVAAVTGILCVVFVGKGKISNYLF  92
+            K+E   GW  FE VWL +F+  Q   +V  PDSWLA ++ ++GILCVV V KGKISNY F
+Sbjct  8    KQEFVSGWKPFEVVWLALFIIAQIWAYVQTPDSWLAMISGISGILCVVLVSKGKISNYFF  67
+
+Query  93   GLISVSLYAYVSYTFKLYGEMMLNLLVYVPVQFVGFAMWRKHMALGETAETEEVKAKALT  152
+            GLI    Y YV++     GEM   L VY+P QF+G+ MW+ +M   +  E+  V AKALT
+Sbjct  68   GLIFAYTYFYVAWGSNFLGEMNTVLYVYLPSQFIGYFMWKANMQNSDGGES--VIAKALT  125
+
+Query  153  VRQWLLVVAASVVGTSVYIEWLHHLGSALPTLDGVTVVVSIVAQVLMILRYREQWALWIV  212
+            V+ W+ ++  + VGT ++++ L   G +   LDG+T ++++ AQ+LMILRYREQW LWI 
+Sbjct  126  VKGWMTLIVVTTVGTLLFVQALQAAGGSSTGLDGLTTIITVAAQILMILRYREQWLLWIG  185
+
+Query  213  VNILTISLWAVAWFKNGETSLPLLLMYVMYLCNSVYGYINWTKLVKRHS  261
+            +NIL+I LWA       ET   + LMY  YL NS+YGY NWTKLVKR +
+Sbjct  186  LNILSIFLWA-------ETP-AIYLMYSAYLLNSLYGYYNWTKLVKRTN  226
+
+
+> sp|P0AFK3|PNUC_SHIFL Nicotinamide riboside transporter PnuC OS=Shigella 
+flexneri OX=623 GN=pnuC PE=3 SV=1
+Length=239
+
+ Score = 68.2 bits (165),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 49/171 (29%), Positives = 79/171 (46%), Gaps = 30/171 (18%)
+
+Query  65   SWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVYVPVQ  124
+            SW+ +V  + G+LC+      KISNY FGLI+V+L+  + +  +LY  ++L +  +    
+Sbjct  23   SWIEAVGTIAGLLCIGLASLEKISNYFFGLINVTLFGIIFFQIQLYASLLLQVFFFA-AN  81
+
+Query  125  FVGFAMWRKHMALGETAETEEVKAKALTVRQ---WLLVVAASVVGTSVYIE---------  172
+              G+  W +  +  E     E+K + L + +   WL V   S+   +V+I          
+Sbjct  82   IYGWYAWSRQTSQNEA----ELKIRWLPLPKALSWLAVCVVSIGLMTVFINPVFAFLTRV  137
+
+Query  173  ---WLHHLG----------SALPTLDGVTVVVSIVAQVLMILRYREQWALW  210
+                +  LG           A P  D   +V+SIVA +LM  +Y E W LW
+Sbjct  138  AVMIMQALGLQVVMPELQPDAFPFWDSCMMVLSIVAMILMTRKYVENWLLW  188
+
+
+> sp|P0AFK2|PNUC_ECOLI Nicotinamide riboside transporter PnuC OS=Escherichia 
+coli (strain K12) OX=83333 GN=pnuC PE=1 SV=1
+Length=239
+
+ Score = 68.2 bits (165),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 49/171 (29%), Positives = 79/171 (46%), Gaps = 30/171 (18%)
+
+Query  65   SWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVYVPVQ  124
+            SW+ +V  + G+LC+      KISNY FGLI+V+L+  + +  +LY  ++L +  +    
+Sbjct  23   SWIEAVGTIAGLLCIGLASLEKISNYFFGLINVTLFGIIFFQIQLYASLLLQVFFFA-AN  81
+
+Query  125  FVGFAMWRKHMALGETAETEEVKAKALTVRQ---WLLVVAASVVGTSVYIE---------  172
+              G+  W +  +  E     E+K + L + +   WL V   S+   +V+I          
+Sbjct  82   IYGWYAWSRQTSQNEA----ELKIRWLPLPKALSWLAVCVVSIGLMTVFINPVFAFLTRV  137
+
+Query  173  ---WLHHLG----------SALPTLDGVTVVVSIVAQVLMILRYREQWALW  210
+                +  LG           A P  D   +V+SIVA +LM  +Y E W LW
+Sbjct  138  AVMIMQALGLQVVMPELQPDAFPFWDSCMMVLSIVAMILMTRKYVENWLLW  188
+
+
+> sp|P24520|PNUC_SALTY Nicotinamide riboside transporter PnuC OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=pnuC PE=2 SV=2
+Length=239
+
+ Score = 67.4 bits (163),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 49/172 (28%), Positives = 82/172 (48%), Gaps = 32/172 (19%)
+
+Query  65   SWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVYVPVQ  124
+            SW+ +V  + G+LC+      KISNY FGL++V+L+A + +  +LY  ++L L  +    
+Sbjct  23   SWIEAVGTIAGLLCIWLASLEKISNYFFGLVNVTLFAIIFFQIQLYASLLLQLFFFA-AN  81
+
+Query  125  FVGFAMWRKHMALGETAETE-EVKAKALTVRQ---WLLVVAASV------------VGTS  168
+              G+  W +     +T + + E+K + L + +   WL +   ++            V T 
+Sbjct  82   IYGWYAWSR-----QTKDNQAELKIRWLPLPKAMAWLAICVIAIGLMTRYIDPVFAVLTR  136
+
+Query  169  VYIEWLHHLG----------SALPTLDGVTVVVSIVAQVLMILRYREQWALW  210
+            V +  +  LG           A P  D   +V+SIVA +LM  +Y E W LW
+Sbjct  137  VAVAIMQMLGLQVTMPVLQPDAFPFWDSCMMVLSIVAMILMTRKYVENWLLW  188
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.139    0.451    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19853901438
+Results from round 2
+
+
+Query= D2ZZC1|4qtnB
+
+Length=263
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|D2ZZC1|PNUC_NEIMU Nicotinamide riboside transporter PnuC OS=...  352     2e-120
+  sp|Q57425|PNUC_HAEIN Nicotinamide riboside transporter PnuC OS=...  256     1e-83 
+  sp|P0AFK3|PNUC_SHIFL Nicotinamide riboside transporter PnuC OS=...  152     4e-43 
+  sp|P0AFK2|PNUC_ECOLI Nicotinamide riboside transporter PnuC OS=...  152     4e-43 
+  sp|P24520|PNUC_SALTY Nicotinamide riboside transporter PnuC OS=...  150     2e-42 
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|D2ZZC1|PNUC_NEIMU Nicotinamide riboside transporter PnuC OS=Neisseria 
+mucosa OX=488 GN=pnuC PE=1 SV=1
+Length=263
+
+ Score = 352 bits (902),  Expect = 2e-120, Method: Composition-based stats.
+ Identities = 263/263 (100%), Positives = 263/263 (100%), Gaps = 0/263 (0%)
+
+Query  1    MQYGMDSFGLRGIPHQVFIKKKEGKIMSLAWWKRELFGGWTHFEAVWLLMFLGIQAVVFV  60
+            MQYGMDSFGLRGIPHQVFIKKKEGKIMSLAWWKRELFGGWTHFEAVWLLMFLGIQAVVFV
+Sbjct  1    MQYGMDSFGLRGIPHQVFIKKKEGKIMSLAWWKRELFGGWTHFEAVWLLMFLGIQAVVFV  60
+
+Query  61   FNPDSWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVY  120
+            FNPDSWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVY
+Sbjct  61   FNPDSWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVY  120
+
+Query  121  VPVQFVGFAMWRKHMALGETAETEEVKAKALTVRQWLLVVAASVVGTSVYIEWLHHLGSA  180
+            VPVQFVGFAMWRKHMALGETAETEEVKAKALTVRQWLLVVAASVVGTSVYIEWLHHLGSA
+Sbjct  121  VPVQFVGFAMWRKHMALGETAETEEVKAKALTVRQWLLVVAASVVGTSVYIEWLHHLGSA  180
+
+Query  181  LPTLDGVTVVVSIVAQVLMILRYREQWALWIVVNILTISLWAVAWFKNGETSLPLLLMYV  240
+            LPTLDGVTVVVSIVAQVLMILRYREQWALWIVVNILTISLWAVAWFKNGETSLPLLLMYV
+Sbjct  181  LPTLDGVTVVVSIVAQVLMILRYREQWALWIVVNILTISLWAVAWFKNGETSLPLLLMYV  240
+
+Query  241  MYLCNSVYGYINWTKLVKRHSGQ  263
+            MYLCNSVYGYINWTKLVKRHSGQ
+Sbjct  241  MYLCNSVYGYINWTKLVKRHSGQ  263
+
+
+> sp|Q57425|PNUC_HAEIN Nicotinamide riboside transporter PnuC OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=pnuC PE=1 SV=2
+Length=226
+
+ Score = 256 bits (654),  Expect = 1e-83, Method: Composition-based stats.
+ Identities = 112/229 (49%), Positives = 150/229 (66%), Gaps = 10/229 (4%)
+
+Query  33   KRELFGGWTHFEAVWLLMFLGIQAVVFVFNPDSWLASVAAVTGILCVVFVGKGKISNYLF  92
+            K+E   GW  FE VWL +F+  Q   +V  PDSWLA ++ ++GILCVV V KGKISNY F
+Sbjct  8    KQEFVSGWKPFEVVWLALFIIAQIWAYVQTPDSWLAMISGISGILCVVLVSKGKISNYFF  67
+
+Query  93   GLISVSLYAYVSYTFKLYGEMMLNLLVYVPVQFVGFAMWRKHMALGETAETEEVKAKALT  152
+            GLI    Y YV++     GEM   L VY+P QF+G+ MW+ +M   +  E+  V AKALT
+Sbjct  68   GLIFAYTYFYVAWGSNFLGEMNTVLYVYLPSQFIGYFMWKANMQNSDGGES--VIAKALT  125
+
+Query  153  VRQWLLVVAASVVGTSVYIEWLHHLGSALPTLDGVTVVVSIVAQVLMILRYREQWALWIV  212
+            V+ W+ ++  + VGT ++++ L   G +   LDG+T ++++ AQ+LMILRYREQW LWI 
+Sbjct  126  VKGWMTLIVVTTVGTLLFVQALQAAGGSSTGLDGLTTIITVAAQILMILRYREQWLLWIG  185
+
+Query  213  VNILTISLWAVAWFKNGETSLPLLLMYVMYLCNSVYGYINWTKLVKRHS  261
+            +NIL+I LWA       ET   + LMY  YL NS+YGY NWTKLVKR +
+Sbjct  186  LNILSIFLWA-------ETP-AIYLMYSAYLLNSLYGYYNWTKLVKRTN  226
+
+
+> sp|P0AFK3|PNUC_SHIFL Nicotinamide riboside transporter PnuC OS=Shigella 
+flexneri OX=623 GN=pnuC PE=3 SV=1
+Length=239
+
+ Score = 152 bits (384),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 49/171 (29%), Positives = 79/171 (46%), Gaps = 30/171 (18%)
+
+Query  65   SWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVYVPVQ  124
+            SW+ +V  + G+LC+      KISNY FGLI+V+L+  + +  +LY  ++L +  +    
+Sbjct  23   SWIEAVGTIAGLLCIGLASLEKISNYFFGLINVTLFGIIFFQIQLYASLLLQVFFFA-AN  81
+
+Query  125  FVGFAMWRKHMALGETAETEEVKAKALTVRQ---WLLVVAASVVGTSVYIE---------  172
+              G+  W +  +  E     E+K + L + +   WL V   S+   +V+I          
+Sbjct  82   IYGWYAWSRQTSQNEA----ELKIRWLPLPKALSWLAVCVVSIGLMTVFINPVFAFLTRV  137
+
+Query  173  ---WLHHLG----------SALPTLDGVTVVVSIVAQVLMILRYREQWALW  210
+                +  LG           A P  D   +V+SIVA +LM  +Y E W LW
+Sbjct  138  AVMIMQALGLQVVMPELQPDAFPFWDSCMMVLSIVAMILMTRKYVENWLLW  188
+
+
+> sp|P0AFK2|PNUC_ECOLI Nicotinamide riboside transporter PnuC OS=Escherichia 
+coli (strain K12) OX=83333 GN=pnuC PE=1 SV=1
+Length=239
+
+ Score = 152 bits (384),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 49/171 (29%), Positives = 79/171 (46%), Gaps = 30/171 (18%)
+
+Query  65   SWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVYVPVQ  124
+            SW+ +V  + G+LC+      KISNY FGLI+V+L+  + +  +LY  ++L +  +    
+Sbjct  23   SWIEAVGTIAGLLCIGLASLEKISNYFFGLINVTLFGIIFFQIQLYASLLLQVFFFA-AN  81
+
+Query  125  FVGFAMWRKHMALGETAETEEVKAKALTVRQ---WLLVVAASVVGTSVYIE---------  172
+              G+  W +  +  E     E+K + L + +   WL V   S+   +V+I          
+Sbjct  82   IYGWYAWSRQTSQNEA----ELKIRWLPLPKALSWLAVCVVSIGLMTVFINPVFAFLTRV  137
+
+Query  173  ---WLHHLG----------SALPTLDGVTVVVSIVAQVLMILRYREQWALW  210
+                +  LG           A P  D   +V+SIVA +LM  +Y E W LW
+Sbjct  138  AVMIMQALGLQVVMPELQPDAFPFWDSCMMVLSIVAMILMTRKYVENWLLW  188
+
+
+> sp|P24520|PNUC_SALTY Nicotinamide riboside transporter PnuC OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) 
+OX=99287 GN=pnuC PE=2 SV=2
+Length=239
+
+ Score = 150 bits (380),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 48/171 (28%), Positives = 79/171 (46%), Gaps = 30/171 (18%)
+
+Query  65   SWLASVAAVTGILCVVFVGKGKISNYLFGLISVSLYAYVSYTFKLYGEMMLNLLVYVPVQ  124
+            SW+ +V  + G+LC+      KISNY FGL++V+L+A + +  +LY  ++L L  +    
+Sbjct  23   SWIEAVGTIAGLLCIWLASLEKISNYFFGLVNVTLFAIIFFQIQLYASLLLQLFFFA-AN  81
+
+Query  125  FVGFAMWRKHMALGETAETEEVKAKALTVRQ---WLLVVAASV------------VGTSV  169
+              G+  W +     +     E+K + L + +   WL +   ++            V T V
+Sbjct  82   IYGWYAWSRQTKDNQA----ELKIRWLPLPKAMAWLAICVIAIGLMTRYIDPVFAVLTRV  137
+
+Query  170  YIEWLHHLG----------SALPTLDGVTVVVSIVAQVLMILRYREQWALW  210
+             +  +  LG           A P  D   +V+SIVA +LM  +Y E W LW
+Sbjct  138  AVAIMQMLGLQVTMPVLQPDAFPFWDSCMMVLSIVAMILMTRKYVENWLLW  188
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.135    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19853901438
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 10:04 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

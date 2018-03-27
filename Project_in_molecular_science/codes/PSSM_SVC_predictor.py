@@ -1,11 +1,11 @@
-import dictionary
+
 import numpy as np
 from sklearn import svm
 from itertools import chain
 from sklearn.externals import joblib
 from pathlib import Path
 
-tempfile="../datasets/pssm_train"
+tempfile="../datasets/pssm_test"
 
 def lists(filename):
     identity=[]
@@ -28,10 +28,9 @@ def pssm_test(filename,winlen):
 	top=[]
 	for name in identity:
 		#print(name)
-		myfile=Path('../fasta_data/' + (str(name) + '.fasta.pssm'))
+		myfile=Path('../fastaoutput/' + (str(name) + '.fasta.pssm'))
 		if myfile.is_file():
-			
-			pssm_array=(np.genfromtxt('../fasta_data/' + (str(name) + '.fasta.pssm'), skip_header = 3, skip_footer = 5,  usecols = range(22,42), autostrip = True))/100
+			pssm_array=(np.genfromtxt('../fastaoutput/' + (str(name) + '.fasta.pssm'), skip_header = 3, skip_footer = 5,  usecols = range(22,42), autostrip = True))/100
 			pssm_array=pssm_array.tolist()
 			#print(len(pssm_array))
 			pssm_array=list(chain(*pssm_array))
@@ -42,45 +41,33 @@ def pssm_test(filename,winlen):
 			for x in range (0,len(pssm_array),20):
 				window=pssm_array[x:x+winlen*20]
 				if len(window)==winlen*20:
-				
 					listofarrays.append(window)
 			newlist.extend(listofarrays)
-	
 	#print(len(newlist))
-	return newlist
-def topology(filename,winlen):
-    topologies = lists(filename)[2]
-    #print(topologies)      
-    dicttop = {'I': 2, 'M': 4, 'O': 6}
-    #print(list(dicttop.items()))
-    y=[]        
-    for topo in topologies:
-        list_A = []
-        for z in topo:
-            list_A.append(dicttop[z])
-        #print(list_A)
-        y.extend(list_A)   
-    #print(y)
-    #print(len(y))
-    return (y)
-def modelinput(filename,winlen):
-    seq= pssm_test(filename,winlen)
-    top=topology(filename,winlen)
-    X=np.array(seq)
-    Y=np.array(top)
-    #print(X.shape,Y.shape)
-    
-    return X,Y
-    
-
+	newarray=np.array(newlist)
+	#print(newarray.shape)
+	return newarray
+def predictor(filename,winlen):
+	identity= lists(filename)[0]
+	sequences=lists(filename)[1]
+	seqs= pssm_test(filename,winlen)
+	savedmodel= joblib.load('../models/PSSM_SVC_model.sav')
+	topology_dict= {2:'I',4:'M',6:'O'}
+	temp=savedmodel.predict(seqs)
+	#print(temp)
+	newpred=[]
+	predictions=[]
+	for j in range(len(temp)):
+		newpred.extend(topology_dict[temp[j]])   
+	string=''.join(newpred)
+	predictions.append(string)
+	with open("../Predicted texts/PSSM_SVC_results",'w') as pr:
+		for i in range(len(identity)):
+			pr.write(identity[i]+ "\n" + sequences[i]+ "\n" + predictions[i] + "\n")
 if __name__=="__main__":
 	lists(tempfile)
 	pssm_test(tempfile,31)
 	#formatpssm(tempfile,31)
-	topology(tempfile,31)
-	modelinput(tempfile, 31)
+	#topology(tempfile,31)
+	predictor(tempfile, 31)
            
-                
-                
-               
-        
